@@ -50,7 +50,7 @@ nav{
 .nav-center a.on{background:var(--steel);color:var(--white)}
 
 .nav-right{display:flex;align-items:center;gap:10px}
-.nav-pill{
+.nav-pill{text-decoration:none;display:inline-block;
   font-family:'DM Sans',sans-serif;font-size:11px;font-weight:600;
   letter-spacing:.08em;
   background:var(--accent);color:var(--white);
@@ -243,6 +243,11 @@ nav{
   transform:scaleX(0);transition:transform .3s;
 }
 .m-tile:hover::after{transform:scaleX(1)}
+a.fact{text-decoration:none;color:inherit;display:block;transition:transform .25s,box-shadow .25s}
+a.fact:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(20,24,32,.10)}
+.fact-more{display:inline-block;margin-top:14px;font-size:10px;font-weight:600;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--steel)}
+a.fact:hover .fact-more{color:var(--accent)}
 a.m-tile{text-decoration:none;color:inherit;display:block}
 a.hcard{text-decoration:none;color:inherit;display:block}
 a.card{text-decoration:none;color:inherit;display:block}
@@ -596,44 +601,7 @@ footer{background:var(--ink);padding:60px 40px 28px}
 <body>
 
 <!-- MODAL -->
-<div class="modal-bg" id="mb">
-  <div class="modal">
-    <button class="modal-x" id="mx">✕</button>
-    <form id="mform" name="story-submission" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="#">
-      <input type="hidden" name="form-name" value="story-submission">
-      <p class="hp"><label>Leave blank: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
-      <div class="modal-hed">Submit Your Story</div>
-      <p class="modal-sub">Got a story worth telling? Fill this in. We review everything. If it earns, you earn — 10–12% of all tracked revenue your piece generates.</p>
-      <div class="cf-row"><label>Your Name</label><input class="cf-in" type="text" name="name" placeholder="First &amp; Last" required></div>
-      <div class="cf-row"><label>Email</label><input class="cf-in" type="email" name="email" placeholder="you@email.com" required></div>
-      <div class="cf-2">
-        <div class="cf-row" style="margin:0"><label>Category</label>
-          <select class="cf-sel" name="category">
-            <option>— Pick One —</option>
-            <option>How It Works</option><option>Reviews</option><option>Comparisons</option>
-            <option>Car Culture</option><option>Road Trips</option><option>Opinions</option>
-            <option>Advice &amp; Tips</option><option>Fun Facts</option><option>Short Stories</option>
-          </select>
-        </div>
-        <div class="cf-row" style="margin:0"><label>Read Time</label>
-          <select class="cf-sel" name="read-time">
-            <option>Under 3 min</option><option>3–5 min</option>
-            <option>5–10 min</option><option>10+ min</option>
-          </select>
-        </div>
-      </div>
-      <div class="cf-row"><label>Headline</label><input class="cf-in" type="text" name="headline" placeholder="Your article title" required></div>
-      <div class="cf-row"><label>Story / Pitch</label><textarea class="cf-ta" name="story" placeholder="Paste your article or write a quick pitch..."></textarea></div>
-      <button type="submit" class="cf-submit" id="msub">Submit My Story →</button>
-      <p class="cf-note">Published contributors earn 10–12% of their article’s tracked revenue. We’ll reach out within 5–7 days.</p>
-    </form>
-    <div class="ok-msg" id="mok">
-      <div class="ok-icon">🎉</div>
-      <h3>Story Received!</h3>
-      <p>We'll review it within 5–7 days. If it makes the cut, you'll see it live — and start earning.</p>
-    </div>
-  </div>
-</div>
+
 
 <!-- NAV -->
 <nav>
@@ -643,15 +611,16 @@ footer{background:var(--ink);padding:60px 40px 28px}
   </div>
   <div class="nav-center">
     <a href="/" class="on">Home</a>
+    <a href="/articles/">All Stories</a>
     <a href="/categories/how-it-works/">How It Works</a>
     <a href="/categories/reviews/">Reviews</a>
-    <a href="/categories/car-culture/">Car Culture</a>
-    <a href="/categories/road-trips/">Road Trips</a>
     <a href="/categories/opinions/">Opinions</a>
-    <a href="#about">About</a>
+    <a href="/categories/fun-facts/">Fun Facts</a>
+    <a href="/categories/car-culture/">Car Culture</a>
+    <a href="/about/">About</a>
   </div>
   <div class="nav-right">
-    <button class="nav-pill" id="openM">✍ Submit a Story</button>
+    <a class="nav-pill" href="#submit">✍ Write for Us</a>
   </div>
 </nav>
 
@@ -753,7 +722,7 @@ footer{background:var(--ink);padding:60px 40px 28px}
       <div class="m-tile soon"><div class="m-body"><div class="m-icon">📰</div><div class="m-name">News</div><div class="m-soon-tag">Coming Soon</div></div></div>
       <div class="m-tile soon"><div class="m-body"><div class="m-icon">🎧</div><div class="m-name">Podcast</div><div class="m-soon-tag">Coming Soon</div></div></div>
       <div class="m-tile soon"><div class="m-body"><div class="m-icon">🎥</div><div class="m-name">Videos</div><div class="m-soon-tag">Coming Soon</div></div></div>
-      <div class="m-tile m-wide" id="openM3" style="background:#0d1a2a;cursor:pointer"><div class="m-body"><div class="m-icon">⭐</div><div class="m-name">Submit a Story</div><div class="m-count">Earn 10–12%</div></div></div>
+      <a class="m-tile m-wide" href="#submit" style="background:#0d1a2a"><div class="m-body"><div class="m-icon">⭐</div><div class="m-name">Write for Us</div><div class="m-count">Opening Soon</div></div></a></div>
     </div>
   </div>
 </div>
@@ -853,59 +822,45 @@ footer{background:var(--ink);padding:60px 40px 28px}
 </div>
 
 <!-- FUN FACTS -->
-<section class="facts">
+<section class="facts" id="sec-facts">
   <div class="wrap">
     <div class="sec-label">
       <span class="sec-label-text">Fun Facts</span>
       <div class="sec-label-line"></div>
-      <a class="sec-label-link" href="#">View All →</a>
+      <a class="sec-label-link" href="/categories/fun-facts/">View All &rarr;</a>
     </div>
-    <div class="facts-grid">
-      <div class="fact"><div class="fact-icon">🚦</div><div class="fact-hed">Red Means Stop — And Alcohol Started It All</div><p class="fact-dek">The fascinating origin of the traffic light and the late-night brawl that inspired one of road safety's greatest inventions.</p></div>
-      <div class="fact"><div class="fact-icon">🚨</div><div class="fact-hed">The Car Alarm Was Invented by a Man Who Lived to Regret It</div><p class="fact-dek">The story behind the most annoying automotive invention in history — and the inventor who couldn't have predicted the monster he created.</p></div>
-      <div class="fact"><div class="fact-icon">🛞</div><div class="fact-hed">Tires Weren't Always Black</div><p class="fact-dek">Early tires were white. Here's the accidental chemical discovery that turned them dark — and made them last ten times longer.</p></div>
-      <div class="fact"><div class="fact-icon">🪟</div><div class="fact-hed">Windshield Wipers Were Invented by a Woman</div><p class="fact-dek">Mary Anderson got the idea watching a streetcar driver struggle in a snowstorm. The auto industry ignored her for years.</p></div>
-    </div>
+    <div class="facts-grid" id="facts-grid"></div>
   </div>
 </section>
 
 <!-- CONTRIBUTOR -->
-<section class="contrib">
+<section class="contrib" id="submit">
   <div class="wrap">
     <div class="contrib-inner">
       <div class="contrib-copy">
         <div class="cat-pill" style="margin-bottom:18px">Write for Carveyance</div>
         <h2>Got a Story<br><em>Worth Telling?</em></h2>
-        <p>Think of Carveyance like a pizza place. We own the restaurant — but if you come up with a pizza people love, we'll put it on the menu. And if people order it? You get a cut.</p>
-        <p><strong>10–12% of revenue</strong> generated by your published piece. The better it performs, the more you earn.</p>
+        <p>Every car person has one. The car that ruined you for all the others. The road you still think about at traffic lights. The thing you know that nobody has ever bothered to write down.</p>
+        <p>Carveyance is opening to contributors. Not a content farm &mdash; a small number of people who can actually write, telling stories worth three thousand words. And when your work earns, <strong>you share in it.</strong></p>
         <ul class="perks">
           <li>Any automotive story, opinion, or experience</li>
-          <li>Editorial review within 5–7 days</li>
-          <li>10–12% revenue share on published pieces</li>
           <li>Your byline, your voice, your audience</li>
-          <li>Open to all — passion beats polish</li>
+          <li>Passion beats polish &mdash; always has</li>
+          <li>Published contributors share in what their work earns</li>
         </ul>
-        <button class="btn-wh" id="openM2">Submit Your Story →</button>
+        <p style="font-size:13px;opacity:.7;margin-top:6px">Submissions aren't open just yet. Details are coming &mdash; be first to know.</p>
       </div>
-      <form class="contrib-form" name="story-pitch" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="#">
-        <input type="hidden" name="form-name" value="story-pitch">
+      <form class="contrib-form" name="notify-contributors" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="#">
+        <input type="hidden" name="form-name" value="notify-contributors">
         <p class="hp"><label>Leave blank: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
-        <div class="cf-title">Submit a Story</div>
-        <p class="cf-sub">Fill this out. Great stories get published. Published stories earn.</p>
+        <div class="cf-title">Be First to Know</div>
+        <p class="cf-sub">We're opening the doors soon. Leave your name and we'll come find you before anybody else.</p>
         <div class="cf-row"><label>Name</label><input class="cf-in" type="text" name="name" placeholder="First &amp; Last" required></div>
         <div class="cf-row"><label>Email</label><input class="cf-in" type="email" name="email" placeholder="you@email.com" required></div>
-        <div class="cf-row"><label>Category</label>
-          <select class="cf-sel" name="category">
-            <option>— Select —</option>
-            <option>How It Works</option><option>Reviews</option><option>Comparisons</option>
-            <option>Car Culture</option><option>Road Trips</option><option>Opinions</option>
-            <option>Advice &amp; Tips</option><option>Fun Facts</option><option>Short Stories</option>
-          </select>
-        </div>
-        <div class="cf-row"><label>Headline</label><input class="cf-in" type="text" name="headline" placeholder="Your article title" required></div>
-        <div class="cf-row"><label>Story or Pitch</label><textarea class="cf-ta" name="story" placeholder="Paste your article or write a quick pitch..."></textarea></div>
-        <button type="submit" class="cf-submit" id="isub">Submit My Story →</button>
-        <p class="cf-note">10–12% revenue share on all published &amp; monetized articles.</p>
+        <div class="cf-row"><label>What would you write about? <span style="opacity:.5;text-transform:none;letter-spacing:0">(optional)</span></label>
+          <textarea class="cf-ta" name="pitch" placeholder="One line is plenty. The car, the road, the story..." style="min-height:90px"></textarea></div>
+        <button type="submit" class="cf-submit" id="isub">Keep Me Posted &rarr;</button>
+        <p class="cf-note">No spam, no newsletter blast. One email when submissions open.</p>
       </form>
     </div>
   </div>
@@ -914,7 +869,7 @@ footer{background:var(--ink);padding:60px 40px 28px}
 </div><!-- end offset -->
 
 <!-- FOOTER -->
-<footer id="about">
+<footer>
   <div class="footer-grid">
     <div>
       <div class="f-brand-row">
@@ -966,22 +921,10 @@ footer{background:var(--ink);padding:60px 40px 28px}
 </footer>
 
 <script>
-const mb = document.getElementById('mb');
-[document.getElementById('openM'), document.getElementById('openM2'), document.getElementById('openM3')].forEach(b => b?.addEventListener('click', () => mb.classList.add('open')));
-document.getElementById('mx').addEventListener('click', () => mb.classList.remove('open'));
-mb.addEventListener('click', e => { if(e.target === mb) mb.classList.remove('open'); });
-function nfEncode(d){return Object.keys(d).map(k=>encodeURIComponent(k)+'='+encodeURIComponent(d[k])).join('&');}
-function nfSubmit(form){
-  const d={}; new FormData(form).forEach((v,k)=>{d[k]=v;});
-  return fetch('/', {method:'POST', headers:{'Content-Type':'application/x-www-form-urlencoded'}, body:nfEncode(d)});
-}
-const mform = document.getElementById('mform');
-mform.addEventListener('submit', e => {
-  e.preventDefault();
-  const done = () => { mform.style.display='none'; document.getElementById('mok').style.display='block'; };
-  nfSubmit(mform).then(done).catch(done);
-});
-const iform = document.getElementById('isub').closest('form');
+
+const isubBtn = document.getElementById('isub');
+const iform = isubBtn && isubBtn.closest('form');
+if (iform)
 iform.addEventListener('submit', e => {
   e.preventDefault();
   const btn = document.getElementById('isub');

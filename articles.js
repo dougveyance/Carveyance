@@ -20,6 +20,8 @@
     readTime:  "8 min",
     blurb:     "One or two sentences that appear on the card.",
     image:     "/assets/images/your-article-folder-name.jpg",
+    icon:      "🚗",     <- OPTIONAL. only used by the Fun Facts
+                              band on the homepage. any emoji.
     featured:  false
   },
 
@@ -54,6 +56,7 @@ const ARTICLES = [
 
   {
     slug:      "moon-buggy",
+    icon:      "🌙",
     title:     "$38 Million and One Horsepower",
     subtitle:  "The Apollo Lunar Roving Vehicle",
     category:  "Fun Facts",
@@ -66,6 +69,7 @@ const ARTICLES = [
 
   {
     slug:      "blame-it-on-the-rain",
+    icon:      "🌧️",
     title:     "Blame It on the Rain",
     subtitle:  "The human history of the windshield wiper",
     category:  "Fun Facts",
@@ -162,6 +166,7 @@ const ARTICLES = [
 
   {
     slug:      "frankenstein-monster-g",
+    icon:      "⚡",
     title:     "Frankenstein's Awesome Monster",
     subtitle:  "The Sbarro Monster G",
     category:  "Fun Facts",
@@ -234,6 +239,7 @@ const ARTICLES = [
 
   {
     slug:      "low-and-behold",
+    icon:      "🚛",
     title:     "Low and Behold",
     subtitle:  "The Steinwinter Supercargo \u2014 the lowest truck ever built",
     category:  "Fun Facts",
@@ -270,6 +276,7 @@ const ARTICLES = [
 
   {
     slug:      "red-means-stop",
+    icon:      "🚦",
     title:     "Red Means Stop, Green Means Go!",
     subtitle:  "The accidental invention that saved millions",
     category:  "Fun Facts",

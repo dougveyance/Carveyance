@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Carveyance</title>
+<meta name="description" content="Carveyance is an independent automotive publication. No press junkets, no press releases, no listicles. Stories about cars, written by people who actually care about them.">
+<meta property="og:title" content="About Carveyance">
+<link rel="canonical" href="https://carveyance.com/about/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+:root{
+  --steel:#2E6E96; --deep:#1B4E6B; --sky:#4E8DB5; --mist:#f0f3f7; --cloud:#e4ecf3;
+  --ink:#141820; --slate:#3a4553; --mid:#6b7684; --rule:#d0dae4; --white:#fff; --accent:#e05c2a;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',sans-serif;background:var(--white);color:var(--ink);-webkit-font-smoothing:antialiased}
+a{text-decoration:none;color:inherit}
+.wrap{max-width:1240px;margin:0 auto;padding:0 40px}
+.narrow{max-width:720px;margin:0 auto;padding:0 40px}
+
+nav{height:64px;display:flex;align-items:center;justify-content:space-between;
+  padding:0 40px;background:var(--ink);position:sticky;top:0;z-index:60}
+.nav-brand{font-family:'Bebas Neue',sans-serif;font-size:26px;letter-spacing:.08em;color:var(--white)}
+.nav-brand span{color:var(--sky)}
+.nav-center{display:flex;gap:22px}
+.nav-center a{font-size:11px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;
+  color:rgba(255,255,255,.62);transition:color .2s}
+.nav-center a:hover,.nav-center a.on{color:var(--white)}
+.nav-sub{font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
+  background:var(--accent);color:var(--white);padding:9px 18px;border-radius:3px;white-space:nowrap}
+.nav-sub:hover{background:#c44e20}
+@media(max-width:1180px){.nav-center{display:none}}
+
+/* hero */
+.ahero{background:var(--ink);color:var(--white);padding:90px 0 80px;position:relative;overflow:hidden}
+.ahero::after{content:'';position:absolute;right:-120px;top:-80px;width:560px;height:560px;
+  border-radius:50%;background:radial-gradient(circle,rgba(78,141,181,.18),transparent 65%)}
+.ahero .narrow{position:relative;z-index:2}
+.pill{display:inline-block;font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;
+  background:rgba(255,255,255,.1);color:var(--sky);padding:7px 15px;border-radius:20px;margin-bottom:24px}
+.ahero h1{font-family:'Bebas Neue',sans-serif;font-size:clamp(52px,9vw,92px);line-height:.92;
+  letter-spacing:.02em;margin-bottom:22px}
+.ahero h1 em{font-style:normal;color:var(--sky);display:block}
+.ahero .lede{font-family:'DM Serif Display',serif;font-style:italic;font-size:clamp(19px,2.4vw,24px);
+  line-height:1.6;color:rgba(255,255,255,.82)}
+
+/* body */
+.sec{padding:70px 0}
+.sec.alt{background:var(--mist)}
+.eyebrow{font-family:'Bebas Neue',sans-serif;font-size:13px;letter-spacing:.3em;color:var(--steel);margin-bottom:10px}
+h2{font-family:'DM Serif Display',serif;font-size:clamp(28px,4vw,38px);line-height:1.15;margin-bottom:24px}
+h2 em{font-style:italic;color:var(--steel)}
+p.b{font-size:17px;line-height:1.85;color:var(--slate);font-weight:300;margin-bottom:22px}
+p.b strong{font-weight:600;color:var(--ink)}
+p.b:last-child{margin-bottom:0}
+
+/* reader cards */
+.who{display:grid;grid-template-columns:repeat(2,1fr);gap:2px;background:var(--rule);margin-top:36px}
+.who-card{background:var(--white);padding:34px 30px}
+.who-card h3{font-family:'DM Serif Display',serif;font-size:22px;margin-bottom:10px;color:var(--deep)}
+.who-card p{font-size:14px;line-height:1.75;color:var(--mid);font-weight:300}
+.who-card .tag{font-size:9px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--sky);margin-bottom:12px;display:block}
+@media(max-width:760px){.who{grid-template-columns:1fr}}
+
+/* won't find list */
+.nope{list-style:none;margin-top:26px}
+.nope li{font-size:15px;line-height:1.6;color:var(--slate);font-weight:300;
+  padding:13px 0 13px 34px;border-bottom:1px solid var(--rule);position:relative}
+.nope li::before{content:'\2715';position:absolute;left:6px;top:13px;color:var(--accent);font-size:13px;font-weight:600}
+.nope li b{font-weight:600;color:var(--ink)}
+
+/* quote */
+.qband{background:var(--deep);color:var(--white);padding:64px 0;text-align:center}
+.qband p{font-family:'DM Serif Display',serif;font-style:italic;font-size:clamp(22px,3.4vw,32px);
+  line-height:1.5;max-width:820px;margin:0 auto}
+
+/* founder */
+.founder{display:grid;grid-template-columns:1fr;gap:0}
+.f-note{font-size:15px;line-height:1.85;color:var(--slate);font-weight:300}
+.f-note strong{color:var(--ink);font-weight:600}
+
+/* cta */
+.cta{background:var(--steel);color:var(--white);padding:70px 0;text-align:center}
+.cta h2{color:var(--white);margin-bottom:14px}
+.cta p{font-size:16px;font-weight:300;color:rgba(255,255,255,.85);max-width:560px;margin:0 auto 28px;line-height:1.7}
+.btn{display:inline-block;font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
+  background:var(--white);color:var(--deep);padding:15px 32px;border-radius:3px;transition:.2s}
+.btn:hover{background:var(--cloud)}
+.btn.ghost{background:none;border:1px solid rgba(255,255,255,.45);color:var(--white);margin-left:10px}
+.btn.ghost:hover{background:rgba(255,255,255,.1)}
+@media(max-width:600px){.btn.ghost{margin:12px 0 0}}
+
+footer{background:var(--ink);color:rgba(255,255,255,.5);padding:36px 0;text-align:center;
+  font-size:11px;letter-spacing:.08em}
+footer .fw{font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:.08em;color:var(--white);
+  display:block;margin-bottom:10px}
+footer .fw span{color:var(--sky)}
+@media(max-width:680px){.wrap,.narrow{padding:0 20px}nav{padding:0 20px}}
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="/">Car<span>veyance</span></a>
+  <div class="nav-center">
+    <a href="/">Home</a>
+    <a href="/articles/">All Stories</a>
+    <a href="/categories/how-it-works/">How It Works</a>
+    <a href="/categories/reviews/">Reviews</a>
+    <a href="/categories/opinions/">Opinions</a>
+    <a href="/categories/fun-facts/">Fun Facts</a>
+    <a href="/categories/car-culture/">Car Culture</a>
+    <a href="/about/" class="on">About</a>
+  </div>
+  <a class="nav-sub" href="/#submit">Write for Us</a>
+</nav>
+
+<header class="ahero">
+  <div class="narrow">
+    <span class="pill">About Carveyance</span>
+    <h1>For the Love<em>of the Drive</em></h1>
+    <p class="lede">Nobody ever fell in love with a car because of its cargo capacity.</p>
+  </div>
+</header>
+
+<section class="sec">
+  <div class="narrow">
+    <div class="eyebrow">The Premise</div>
+    <h2>Cars were never really about <em>transportation</em></h2>
+    <p class="b">A car is a room you were in when your life happened. It's the first thing you ever owned outright. It's where you heard the news, good or otherwise. It's where the song came on. It's the reason you took the long way home, alone, for no reason you could explain to anyone who asked.</p>
+    <p class="b">Strip away the horsepower figures and the 0&ndash;60 times and what's left is the most emotionally loaded appliance ever mass-produced. Two tons of steel that somehow ends up in your eulogy.</p>
+    <p class="b"><strong>Carveyance writes about that.</strong> The machines, yes &mdash; how they work, what they cost, whether they're any good. But mostly the reason anybody cares in the first place.</p>
+  </div>
+</section>
+
+<section class="qband">
+  <div class="wrap">
+    <p>&ldquo;We are an independent publication. Nobody flies us to Portugal. Nobody sends us a press car for the weekend and waits for the nice things.&rdquo;</p>
+  </div>
+</section>
+
+<section class="sec alt">
+  <div class="narrow">
+    <div class="eyebrow">Who This Is For</div>
+    <h2>All of you. <em>Genuinely.</em></h2>
+    <p class="b">There's a tedious idea in car media that you have to earn your seat &mdash; that unless you can identify a chassis code by its taillights at 200 yards in the rain, you're a tourist. We think that's nonsense, and we think it's why so much writing about cars is so joyless.</p>
+
+    <div class="who">
+      <div class="who-card">
+        <span class="tag">The Enthusiast</span>
+        <h3>You already know</h3>
+        <p>You have defended a position on the 991.1 versus the 991.2 at a dinner party, to people who did not ask. Good news: we do the research, we check the load-bearing claims, and when we get something wrong we say so out loud instead of quietly editing the page at midnight. You'll still find things here you didn't know.</p>
+      </div>
+      <div class="who-card">
+        <span class="tag">The Every-Other-Day Car Lover</span>
+        <h3>You like cars. You don't live in a forum.</h3>
+        <p>You want something to read on a Sunday that makes you feel something. You do not want to be made to feel stupid for not knowing what a Watts linkage is. So we explain things. Cheerfully. Without the condescension tax.</p>
+      </div>
+      <div class="who-card">
+        <span class="tag">The Reader</span>
+        <h3>You're just here for a good story</h3>
+        <p>You could not care less about torque curves &mdash; and honestly, some of the best things here aren't really about cars at all. A man who invented the windshield wiper and got robbed blind. A truck that vanished off the face of the earth. A company that decided to stand for something when it would have been easier not to. The car is just the door in.</p>
+      </div>
+      <div class="who-card">
+        <span class="tag">The Beginner</span>
+        <h3>Your first car is coming</h3>
+        <p>Or it just arrived. Or it's currently making a noise you're actively pretending not to hear. Start with <a href="/categories/how-it-works/" style="color:var(--steel);border-bottom:1px solid var(--rule)">How It Works</a>. There's no shame in the entry point &mdash; every single one of us was there, and anybody who tells you otherwise is lying, probably about other things too.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="narrow">
+    <div class="eyebrow">The Standard</div>
+    <h2>What you <em>won't</em> find here</h2>
+    <ul class="nope">
+      <li><b>Press-release paraphrase.</b> If the manufacturer wrote it, they can publish it themselves.</li>
+      <li><b>Listicles.</b> "TOP 10 SUVS THAT WILL SHOCK YOU." Nothing on that list has ever shocked anyone.</li>
+      <li><b>Spec-sheet recitals.</b> A table of numbers is not an opinion. It's a table of numbers.</li>
+      <li><b>Manufactured outrage.</b> We're not mad at your car. We're not mad at anyone's car.</li>
+      <li><b>Anything a machine wrote.</b> Every word here came from a person who meant it.</li>
+    </ul>
+    <p class="b" style="margin-top:30px">The rule is simple: if it isn't worth three thousand words and a fact-check, it isn't worth publishing. Which is why there are fewer stories here than there would be somewhere else &mdash; and why the ones that exist are worth your afternoon.</p>
+  </div>
+</section>
+
+<section class="sec alt">
+  <div class="narrow">
+    <div class="eyebrow">Who's Writing This</div>
+    <h2>Written from the driver's seat &mdash; <em>not the press pass</em></h2>
+    <div class="founder">
+      <p class="f-note">Carveyance is written and published out of <strong>Los Angeles</strong>. Before this it was Ferraris, then yachts, then a great many used cars &mdash; which is a long way of saying: a career spent watching people fall in love with objects, and taking notes.</p>
+      <p class="f-note" style="margin-top:20px">The cars in the driveway have included a <strong>1979 Porsche 911 SC Targa in Ice Green</strong>, a Volvo wagon with a plug in it, and a full-size replica of the Mystery Machine &mdash; which should tell you everything about the editorial judgment on display here. When we write about what a car is like to live with, it's usually because we lived with it. When we haven't, we say so.</p>
+      <p class="f-note" style="margin-top:20px">That's the whole credential. No masthead of twelve. No content calendar. Just someone who has been paying attention for a long time and finally started writing it down.</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="narrow">
+    <h2>Something's coming</h2>
+    <p>Carveyance won't stay a one-person operation forever. There's a plan for that &mdash; and if you've got a story worth telling, you'll want to hear about it.</p>
+    <a class="btn" href="/#submit">Write for Us &rarr;</a>
+    <a class="btn ghost" href="/articles/">Read Everything &rarr;</a>
+  </div>
+</section>
+
+<footer>
+  <a class="fw" href="/">Car<span>veyance</span></a>
+  &copy; 2026 Carveyance — For the love of the drive. Los Angeles, CA.
+</footer>
+
+</body>
+</html>

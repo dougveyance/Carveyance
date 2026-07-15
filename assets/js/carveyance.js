@@ -171,6 +171,22 @@ function initHome() {
     if (hiwGrid) hiwGrid.innerHTML = hiw.slice(1, 7).map(cardHTML).join("");
   }
 
+  /* FUN FACTS band */
+  const ff = byCategory("Fun Facts");
+  const ffGrid = document.getElementById("facts-grid");
+  const ffSec  = document.getElementById("sec-facts");
+  if (!ff.length) {
+    if (ffSec) ffSec.style.display = "none";
+  } else if (ffGrid) {
+    ffGrid.innerHTML = ff.slice(0, 4).map(a => `
+      <a class="fact" href="${url(a)}">
+        <div class="fact-icon">${a.icon || "◆"}</div>
+        <div class="fact-hed">${esc(a.title)}</div>
+        <p class="fact-dek">${esc(a.blurb)}</p>
+        <span class="fact-more">Read &rarr;</span>
+      </a>`).join("");
+  }
+
   /* CATEGORY COUNTS in the mosaic */
   document.querySelectorAll("[data-cat-count]").forEach(el => {
     const cat = el.getAttribute("data-cat-count");
@@ -178,6 +194,52 @@ function initHome() {
     const n = byCategory(cat).length;
     el.textContent = n === 0 ? "Coming Soon" : (n === 1 ? "1 story" : n + " stories");
   });
+}
+
+/* ---------- all stories archive ---------- */
+
+function initArchive() {
+  const root = document.getElementById("archive");
+  if (!root) return;
+  const grid  = document.getElementById("arch-grid");
+  const count = document.getElementById("arch-count");
+  const bar   = document.getElementById("arch-filters");
+  const arts  = allArticles();
+  let active  = "All";
+
+  /* filter buttons — only categories that actually have stories */
+  const live = CATEGORIES.filter(c => byCategory(c).length > 0);
+  if (bar) {
+    bar.innerHTML = ["All"].concat(live).map(c =>
+      `<button class="arch-btn${c === "All" ? " on" : ""}" data-cat="${esc(c)}">${esc(c)}` +
+      `<span>${c === "All" ? arts.length : byCategory(c).length}</span></button>`).join("");
+    bar.addEventListener("click", e => {
+      const b = e.target.closest(".arch-btn");
+      if (!b) return;
+      active = b.getAttribute("data-cat");
+      [...bar.querySelectorAll(".arch-btn")].forEach(x => x.classList.toggle("on", x === b));
+      draw();
+      /* reflect the filter in the URL so it can be shared/bookmarked */
+      const u = active === "All" ? location.pathname : location.pathname + "?c=" + encodeURIComponent(active);
+      history.replaceState(null, "", u);
+    });
+  }
+
+  function draw() {
+    const list = active === "All" ? arts : arts.filter(a => a.category === active);
+    if (count) count.textContent = list.length === 1 ? "1 story" : list.length + " stories";
+    grid.innerHTML = list.length ? list.map(cardHTML).join("")
+      : `<div class="cat-empty"><h3>Nothing here yet</h3><p>This section is just getting started.</p></div>`;
+  }
+
+  /* honour ?c=Category on load */
+  const want = new URLSearchParams(location.search).get("c");
+  if (want && live.includes(want)) {
+    active = want;
+    const b = bar && bar.querySelector(`[data-cat="${CSS.escape(want)}"]`);
+    if (b) { [...bar.querySelectorAll(".arch-btn")].forEach(x => x.classList.toggle("on", x === b)); }
+  }
+  draw();
 }
 
 /* ---------- category pages ---------- */
@@ -211,4 +273,5 @@ function initCategory() {
 document.addEventListener("DOMContentLoaded", () => {
   try { initHome(); } catch (e) { console.error("Home render:", e); }
   try { initCategory(); } catch (e) { console.error("Category render:", e); }
+  try { initArchive(); }  catch (e) { console.error("Archive render:", e); }
 });

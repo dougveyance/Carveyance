@@ -120,7 +120,7 @@ function initHome() {
 
   /* LATEST STORIES — newest six */
   const latest = document.getElementById("latest-grid");
-  if (latest) latest.innerHTML = arts.slice(0, 6).map(cardHTML).join("");
+  if (latest) latest.innerHTML = arts.slice(0, 12).map(cardHTML).join("");
 
   /* HOW IT WORKS band */
   const hiw = byCategory("How It Works");
@@ -131,7 +131,7 @@ function initHome() {
     if (hiwSec) hiwSec.style.display = "none";
   } else {
     if (hiwBig) hiwBig.innerHTML = bigStoryHTML(hiw[0], true);
-    if (hiwGrid) hiwGrid.innerHTML = hiw.slice(1, 4).map(cardHTML).join("");
+    if (hiwGrid) hiwGrid.innerHTML = hiw.slice(1, 7).map(cardHTML).join("");
   }
 
   /* CATEGORY COUNTS in the mosaic */

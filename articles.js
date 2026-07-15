@@ -27,15 +27,13 @@
    RULES (keep these and nothing breaks):
 
    1. slug     = the exact folder name inside /articles/
-                 e.g. "boosted"  ->  /articles/boosted/
    2. category = must be spelled EXACTLY as one of these:
                  "How It Works"   "Reviews"        "Comparisons"
                  "Car Culture"    "Road Trips"     "Opinions"
                  "Advice & Tips"  "Fun Facts"      "Short Stories"
                  "Interviews"     "News"
-   3. date     = YYYY-MM-DD  (this controls the order — newest first)
-   4. featured = true puts it in the big homepage slot.
-                 Only ONE article should be true at a time.
+   3. date     = YYYY-MM-DD  (controls the order — newest first)
+   4. featured = true puts it in the big homepage slot. Only ONE.
    5. image    = put the card image in /assets/images/ and point to it.
    6. Keep the commas and quotes exactly as shown.
    ============================================================ */
@@ -111,6 +109,66 @@ const ARTICLES = [
     readTime:  "11 min",
     blurb:     "Audi built a lifted, air-sprung, twin-turbo wagon that refused to pick a lane. It was too clever for its own good — and the ones that survived became a cult.",
     image:     "/assets/images/black-swan-allroad.jpg",
+    featured:  false
+  },
+
+  {
+    slug:      "front-rear-or-all-four",
+    title:     "Front, Rear, or All Four?",
+    subtitle:  "A field guide to FWD, RWD, and AWD",
+    category:  "How It Works",
+    date:      "2026-06-26",
+    readTime:  "26 min",
+    blurb:     "Three ways to move a car, told through a Citroën, a BMW, and a Subaru — three ways to feel alive, and not one of them is the \"right\" answer.",
+    image:     "/assets/images/front-rear-or-all-four.jpg",
+    featured:  false
+  },
+
+  {
+    slug:      "the-long-road-home",
+    title:     "The Long Road Home",
+    subtitle:  "Importing your dream car, start to finish",
+    category:  "How It Works",
+    date:      "2026-06-23",
+    readTime:  "20 min",
+    blurb:     "A field guide to legally bringing a foreign vehicle into the United States — and why the cars you grew up wanting are finally within reach.",
+    image:     "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=900&q=80",
+    featured:  false
+  },
+
+  {
+    slug:      "cars-are-safer-now",
+    title:     "Cars Are Safer Now, But Is Driving?",
+    subtitle:  "Cars have never been safer. Driving is another question entirely",
+    category:  "Opinions",
+    date:      "2026-06-20",
+    readTime:  "22 min",
+    blurb:     "Airbags, crumple zones, lane assist, ten airbags and a computer watching the lines. The machines have never been better at keeping you alive. So why does the road feel worse?",
+    image:     "/assets/images/cars-are-safer-now.jpg",
+    featured:  false
+  },
+
+  {
+    slug:      "girls-know-best",
+    title:     "Girls Know Best",
+    subtitle:  "How Subaru changed what a car company could stand for",
+    category:  "Opinions",
+    date:      "2026-06-17",
+    readTime:  "11 min",
+    blurb:     "A Tamiya Subaru Brat at the bottom of a Manila swimming pool, a tennis legend, and the marketing decision that made a car company stand for something. Leave your ego and grab a Subaru.",
+    image:     "/assets/images/girls-know-best.jpg",
+    featured:  false
+  },
+
+  {
+    slug:      "frankenstein-monster-g",
+    title:     "Frankenstein's Awesome Monster",
+    subtitle:  "The Sbarro Monster G",
+    category:  "Fun Facts",
+    date:      "2026-06-13",
+    readTime:  "10 min",
+    blurb:     "A 28-year-old German with 150 acres. A Swiss mad genius with no rules. Boeing 727 landing gear from a crashed plane. A Mercedes V8 with nothing to prove. Either engineering brilliance or complete insanity. Possibly both.",
+    image:     "/assets/images/frankenstein-monster-g.jpg",
     featured:  false
   },
 

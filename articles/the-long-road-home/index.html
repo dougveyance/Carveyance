@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Long Road Home — Importing Your Dream Car | Carveyance</title>
+<meta name="description" content="A field guide to legally bringing a foreign vehicle into the United States — the 25-year rule, the 2026 tariff situation, the real loopholes, and who to actually call.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1b1b1b;
+    --blue:#3a6389;
+    --blue-deep:#2c4d6d;
+    --paper:#f5f4f0;
+    --paper-2:#efede7;
+    --muted:#6b6b62;
+    --muted-soft:#8c8c82;
+    --rule:#d9d6cd;
+    --tint:#eaf0f6;
+    --tint-line:#c6d4e2;
+    --maxw:720px;
+  }
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:"Source Serif 4",Georgia,serif;
+    font-size:20px;
+    line-height:1.72;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+
+  /* ---------- Masthead ---------- */
+  .masthead{
+    border-bottom:1px solid var(--rule);
+    background:var(--paper);
+  }
+  .masthead-inner{
+    max-width:1040px;margin:0 auto;padding:20px 28px;
+    display:flex;align-items:center;justify-content:space-between;gap:16px;
+  }
+  .wordmark{
+    font-family:"Bebas Neue",Impact,sans-serif;
+    font-size:34px;line-height:1;letter-spacing:.06em;
+    text-decoration:none;display:inline-block;
+  }
+  .wordmark .carv{color:var(--ink);}
+  .wordmark .eyance{color:var(--blue);}
+  .masthead-tag{
+    font-family:"Bebas Neue",sans-serif;letter-spacing:.18em;
+    font-size:15px;color:var(--muted);text-transform:uppercase;
+  }
+
+  /* ---------- Article shell ---------- */
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px;}
+
+  header.hero{padding:64px 0 34px;}
+  .eyebrow{
+    font-family:"Bebas Neue",sans-serif;letter-spacing:.2em;font-size:16px;
+    color:var(--blue);text-transform:uppercase;margin:0 0 18px;
+    display:flex;align-items:center;gap:12px;
+  }
+  .eyebrow::after{content:"";flex:1;height:1px;background:var(--tint-line);}
+  h1.title{
+    font-family:"Bebas Neue",sans-serif;
+    font-weight:400;letter-spacing:.01em;line-height:.96;
+    font-size:74px;margin:0 0 22px;color:var(--ink);
+  }
+  .dek{
+    font-size:22px;line-height:1.5;color:#3d3d38;font-style:italic;
+    margin:0 0 30px;font-weight:400;
+  }
+  .byline{
+    display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;
+    padding-top:20px;border-top:1px solid var(--rule);
+    font-family:"Bebas Neue",sans-serif;letter-spacing:.09em;
+    font-size:16px;color:var(--muted);text-transform:uppercase;
+  }
+  .byline .author{color:var(--ink);}
+  .byline .dot{color:var(--tint-line);}
+
+  /* ---------- Body typography ---------- */
+  article{padding-bottom:40px;}
+  article p{margin:0 0 22px;}
+  article p.lead{
+    font-size:23px;line-height:1.6;color:#2b2b28;
+  }
+  article p.lead::first-letter{
+    font-family:"Bebas Neue",sans-serif;
+    font-size:80px;line-height:.72;float:left;color:var(--blue);
+    padding:6px 12px 0 0;margin-top:6px;
+  }
+
+  h2{
+    font-family:"Bebas Neue",sans-serif;font-weight:400;
+    letter-spacing:.015em;line-height:1.02;font-size:40px;
+    margin:52px 0 6px;color:var(--ink);padding-top:10px;
+  }
+  h2 .num{color:var(--blue);margin-right:14px;}
+  h2 + .subhead-rule{
+    width:56px;height:3px;background:var(--blue);margin:0 0 26px;border:0;
+  }
+  h3{
+    font-family:"Bebas Neue",sans-serif;font-weight:400;
+    letter-spacing:.03em;font-size:26px;line-height:1.1;
+    margin:38px 0 12px;color:var(--blue-deep);
+  }
+
+  a{color:var(--blue-deep);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:2px;}
+  a:hover{color:var(--ink);}
+  strong{font-weight:700;color:var(--ink);}
+  em{font-style:italic;}
+
+  ul,ol{margin:0 0 24px;padding-left:0;list-style:none;}
+  ul li{
+    position:relative;padding-left:26px;margin-bottom:12px;line-height:1.6;
+  }
+  ul li::before{
+    content:"";position:absolute;left:4px;top:.62em;
+    width:7px;height:7px;background:var(--blue);transform:rotate(45deg);
+  }
+  ol{counter-reset:li;}
+  ol li{
+    position:relative;padding-left:36px;margin-bottom:12px;line-height:1.6;
+    counter-increment:li;
+  }
+  ol li::before{
+    content:counter(li);position:absolute;left:0;top:.05em;
+    font-family:"Bebas Neue",sans-serif;font-size:20px;color:var(--blue);
+    letter-spacing:.02em;
+  }
+
+  /* ---------- Pull quote ---------- */
+  .pull{
+    margin:40px 0;padding:6px 0 6px 26px;border-left:4px solid var(--blue);
+    font-family:"Bebas Neue",sans-serif;letter-spacing:.02em;line-height:1.06;
+    font-size:34px;color:var(--ink);
+  }
+
+  /* ---------- Callout ---------- */
+  .callout{
+    margin:34px 0;padding:26px 28px;background:var(--tint);
+    border:1px solid var(--tint-line);border-left:5px solid var(--blue);
+    border-radius:2px;
+  }
+  .callout .k{
+    font-family:"Bebas Neue",sans-serif;letter-spacing:.16em;font-size:15px;
+    text-transform:uppercase;color:var(--blue-deep);margin:0 0 8px;
+    display:block;
+  }
+  .callout p{margin:0 0 12px;font-size:18px;line-height:1.6;}
+  .callout p:last-child{margin-bottom:0;}
+  .callout.warn{
+    background:#f8efe6;border-color:#e2c6a8;border-left-color:#b8722e;
+  }
+  .callout.warn .k{color:#9c5c1e;}
+
+  /* ---------- Directory ---------- */
+  .dir{margin:30px 0 10px;}
+  .dir-group{
+    font-family:"Bebas Neue",sans-serif;letter-spacing:.1em;font-size:22px;
+    text-transform:uppercase;color:var(--ink);margin:34px 0 4px;
+  }
+  .dir-group span{color:var(--muted);font-size:15px;letter-spacing:.06em;}
+  .dir-group + .subhead-rule{width:44px;height:3px;background:var(--blue);margin:6px 0 20px;border:0;}
+  .card{
+    border:1px solid var(--rule);border-radius:3px;background:#fbfaf7;
+    padding:20px 22px;margin-bottom:16px;
+  }
+  .card .name{
+    font-family:"Bebas Neue",sans-serif;letter-spacing:.04em;font-size:24px;
+    color:var(--ink);margin:0 0 2px;line-height:1.05;
+  }
+  .card .meta{
+    font-size:16px;color:var(--muted);margin:0 0 10px;line-height:1.4;
+  }
+  .card .meta a{color:var(--blue-deep);}
+  .card p{margin:0;font-size:18px;line-height:1.55;}
+
+  /* ---------- Footer ---------- */
+  footer{
+    border-top:1px solid var(--rule);margin-top:56px;background:var(--paper-2);
+  }
+  .footer-inner{
+    max-width:var(--maxw);margin:0 auto;padding:40px 28px 56px;text-align:center;
+  }
+  .footer-inner .wordmark{font-size:30px;margin-bottom:12px;}
+  .footer-inner p{
+    font-family:"Bebas Neue",sans-serif;letter-spacing:.12em;font-size:14px;
+    color:var(--muted);text-transform:uppercase;margin:4px 0;line-height:1.6;
+  }
+  .footer-inner .fine{
+    font-family:"Source Serif 4",serif;text-transform:none;letter-spacing:0;
+    font-size:14px;color:var(--muted-soft);font-style:italic;max-width:520px;
+    margin:16px auto 0;line-height:1.5;
+  }
+
+  /* ---------- Responsive ---------- */
+  @media (max-width:640px){
+    body{font-size:18px;}
+    .masthead-inner{padding:16px 20px;}
+    .wordmark{font-size:28px;}
+    .masthead-tag{display:none;}
+    .wrap{padding:0 20px;}
+    header.hero{padding:40px 0 26px;}
+    h1.title{font-size:50px;}
+    .dek{font-size:19px;}
+    article p.lead{font-size:20px;}
+    article p.lead::first-letter{font-size:62px;}
+    h2{font-size:31px;}
+    h3{font-size:23px;}
+    .pull{font-size:26px;}
+    .callout{padding:20px 20px;}
+    .footer-inner{padding:32px 20px 44px;}
+  }
+
+  @media (prefers-reduced-motion:no-preference){
+    a{transition:color .15s ease;}
+  }
+
+/* ── CARVEYANCE SITE CHROME (shared across all articles) ── */
+.cv-nav{position:sticky;top:0;z-index:9999;display:flex;align-items:center;justify-content:space-between;
+  height:56px;padding:0 22px;background:#141820;
+  font-family:'DM Sans','Helvetica Neue',Arial,sans-serif;box-sizing:border-box}
+.cv-nav *{box-sizing:border-box}
+.cv-nav a{text-decoration:none}
+.cv-brand{font-family:'Bebas Neue',Impact,'Arial Narrow',sans-serif;font-size:23px;
+  letter-spacing:.07em;color:#fff;line-height:1}
+.cv-brand span{color:#4E8DB5}
+.cv-links{display:flex;gap:18px;align-items:center}
+.cv-links a{font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
+  color:rgba(255,255,255,.62)}
+.cv-links a:hover{color:#fff}
+.cv-sub{font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
+  background:#e05c2a;color:#fff !important;padding:8px 14px;border-radius:3px;white-space:nowrap}
+.cv-sub:hover{background:#c44e20}
+@media(max-width:640px){.cv-links{display:none}}
+.cv-foot{background:#141820;color:rgba(255,255,255,.5);padding:40px 22px;text-align:center;
+  font-family:'DM Sans','Helvetica Neue',Arial,sans-serif;font-size:11px;letter-spacing:.08em;margin-top:60px}
+.cv-foot a{text-decoration:none}
+.cv-fbrand{font-family:'Bebas Neue',Impact,'Arial Narrow',sans-serif;font-size:24px;
+  letter-spacing:.07em;color:#fff;display:inline-block;margin-bottom:14px}
+.cv-fbrand span{color:#4E8DB5}
+.cv-flinks{display:flex;gap:20px;justify-content:center;flex-wrap:wrap;margin-bottom:16px}
+.cv-flinks a{font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
+  color:rgba(255,255,255,.62)}
+.cv-flinks a:hover{color:#4E8DB5}
+.cv-copy{color:rgba(255,255,255,.38);font-size:10px;letter-spacing:.1em;margin:0}
+</style>
+<link rel="canonical" href="https://carveyance.com/articles/the-long-road-home/">
+<meta property="og:url" content="https://carveyance.com/articles/the-long-road-home/">
+<meta name="article:section" content="How It Works">
+</head>
+<body><nav class="cv-nav"><a class="cv-brand" href="/">CAR<span>VEYANCE</span></a><div class="cv-links"><a href="/">Home</a><a href="/categories/how-it-works/">How It Works</a></div><a class="cv-sub" href="/#submit">Submit a Story</a></nav>
+
+<div class="masthead">
+  <div class="masthead-inner">
+    <a class="wordmark" href="/"><span class="carv">CARV</span><span class="eyance">EYANCE</span></a>
+    <span class="masthead-tag">Ownership · The Long Read</span>
+  </div>
+</div>
+
+<div class="wrap">
+  <header class="hero">
+    <p class="eyebrow">The Import Files</p>
+    <h1 class="title">The Long Road Home</h1>
+    <p class="dek">A field guide to legally bringing a foreign vehicle into the United States — and why the cars you grew up wanting are finally within reach.</p>
+    <div class="byline">
+      <span class="author">By Douglas Sellers</span>
+      <span class="dot">◆</span>
+      <span>Carveyance</span>
+      <span class="dot">◆</span>
+      <span>18 min read</span>
+    </div>
+  </header>
+
+  <article>
+    <p class="lead">There's something magical about seeing your car sitting on a dock thousands of miles away.</p>
+
+    <p>Maybe it's a Nissan Skyline GT-R in Japan. A Land Rover Defender in the United Kingdom. A Mitsubishi Pajero somewhere in the Australian outback, or a Mercedes-Benz wagon that never officially crossed the Atlantic. Perhaps it's a Renault Clio V6 hiding in France, or a Lancia Delta Integrale tucked into a garage in Italy, waiting.</p>
+
+    <p>Buying the car is the easy part.</p>
+
+    <p>Getting it legally onto American soil is where the real journey begins.</p>
+
+    <p>For every imported dream car that rolls off a transporter wearing fresh U.S. plates, there are a dozen stories buried underneath it — months of paperwork, customs inspections, shipping delays, government agencies that don't return calls, hidden fees, and enough forms to make a tax accountant reach for something stronger than coffee.</p>
+
+    <p>The good news: thousands of enthusiasts do this successfully every year. The bad news: one mistake can cost you thousands of dollars — or leave your dream stranded in a shipping yard, quietly racking up storage fees while a few federal agencies decide its fate.</p>
+
+    <p>And here's why it matters right now more than ever. The cars a lot of us actually lusted after — the JDM legends, the homologation specials, the forbidden-fruit Europeans of the 1990s and early 2000s — are finally coming of age. Every January, another model year crosses the magic line and becomes legal. The Skyline you taped to your wall is no longer a fantasy. It's a customs form away.</p>
+
+    <p>So let's walk the whole road, from the dock overseas to the plate on your bumper.</p>
+
+    <h2>First, the Only Question That Really Matters: Is It 25?</h2>
+    <hr class="subhead-rule">
+
+    <p>Almost everything about your import hinges on a single number. There are, functionally, two completely different universes of importing a car, and which one you live in depends entirely on the age of the specific vehicle in front of you.</p>
+
+    <p><strong>If it's 25 years or older</strong>, you're in the easy universe: generally exempt from Federal Motor Vehicle Safety Standards (FMVSS), no crash-test drama, no expensive compliance engineering, lower costs, and a process simple enough that ordinary humans complete it every day.</p>
+
+    <p><strong>If it's under 25 years old</strong>, welcome to the hard universe: modern federal safety and emissions rules apply, the modifications can run into five figures, and for a lot of models the honest answer is that it simply can't be done — not for love, and not for money — until the car gets older.</p>
+
+    <p>The gap between those two worlds is razor-thin and brutally literal. A 1999 R34 Skyline GT-R became federally legal to import in 2024. The exact same car, a year earlier, wasn't — full stop. Not "harder." Not "more expensive." Illegal.</p>
+
+    <div class="pull">That's how much the 25-year rule matters. Before you do anything else, find out which universe your car lives in.</div>
+
+    <h3>Why 25 Years?</h3>
+
+    <p>Enthusiasts just call it "the 25-Year Rule," and it comes from a real piece of federal law: the Imported Vehicle Safety Compliance Act of 1988, which took effect in 1990 and lives today in the regulations NHTSA enforces at the border (49 CFR Part 591, if you enjoy that sort of thing).</p>
+
+    <p>The logic was straightforward. Once a car hits 25 years old — measured from its actual month and year of manufacture — Congress decided that historic and collector vehicles simply weren't rolling off boats in big enough numbers to justify forcing each one to meet every modern crash standard. So it cut them loose from FMVSS. There's a companion rule on the emissions side, which brings us to the asterisk everybody forgets.</p>
+
+    <h3>The 21-Year Asterisk (a.k.a. the Two-Agency Problem)</h3>
+
+    <p>Two different federal agencies get a say in your car, and — because this is the government — they picked two different age thresholds that don't line up.</p>
+
+    <ul>
+      <li><strong>NHTSA (safety)</strong> says 25 years. Below that, you owe full FMVSS compliance.</li>
+      <li><strong>The EPA (emissions)</strong> says 21 years. Once a car is at least 21 years old <em>and still wears its original engine and emissions setup</em>, it's exempt from federal emissions requirements.</li>
+    </ul>
+
+    <p>In practice, by the time your car clears NHTSA's 25-year safety bar, the EPA's 21-year emissions bar is already long behind it — so a car old enough for one is automatically old enough for the other. The 21-year number only becomes interesting for the small crowd chasing the Show or Display exemption (more on that later), or for anyone who swapped the original engine, which can blow up the EPA exemption entirely. Keep it stock, and this is a non-issue. Together, these two exemptions are the reason America's garages are suddenly full of cars that were flat-out forbidden a decade ago.</p>
+
+    <h2>Step One: Research Before You Spend a Single Dollar</h2>
+    <hr class="subhead-rule">
+
+    <p>The most expensive mistake new importers make is buying first and asking questions later. Flip the order. Before money moves, you want honest answers to all of this:</p>
+
+    <ul>
+      <li>Is this specific vehicle actually legal to import today?</li>
+      <li>What month — not model year, <em>month</em> — was it built?</li>
+      <li>Are there liens against it?</li>
+      <li>Does the VIN match the paperwork?</li>
+      <li>Has it ever been written off as a total loss?</li>
+      <li>Does its home country restrict its export?</li>
+      <li>Can you actually get parts for it once it's here?</li>
+    </ul>
+
+    <p>Import brokers love to point out that buyers will happily spend a hundred hours researching a car and about ten minutes researching how to import it. Those numbers should be reversed.</p>
+
+    <h3>Verify the Build Date. Then Verify It Again.</h3>
+
+    <p>This one catches somebody every single year. The law does not care when the model launched. It does not care when the car was first sold. It cares about one thing: when <em>your specific car</em> rolled off the line.</p>
+
+    <p>If your Skyline was built in October 2002, you cannot legally bring it home until October 2027. Not January of 2027. Not "the 2002 model year." October. The build date is usually stamped on the door-jamb compliance plate, and it's the number Customs will check against the export certificate — so confirm it from the plate or a manufacturer's build record, never from the seller's optimism.</p>
+
+    <h3>Find a Seller You Can Actually Trust</h3>
+
+    <p>If you're buying overseas, verify the boring stuff before the exciting stuff: registration documents, service history, the VIN, the engine number where it applies, the ownership chain, accident history, and export paperwork. International car fraud is real, and distance is the scammer's best friend. An escrow service or a reputable importer standing between you and a stranger's bank account is cheap insurance against a very expensive lesson.</p>
+
+    <h2>Step Two: Buy It (and Budget for the Money You Won't See Coming)</h2>
+    <hr class="subhead-rule">
+
+    <p>Agreeing on a price is the fun part. Then reality adds its surcharges. On top of the purchase price, plan for currency-conversion spreads, bank wire fees, international transaction charges, and — depending on the country — local taxes.</p>
+
+    <p>Some nations refund their VAT on vehicles being exported, which can swing your real cost by thousands of dollars in your favor. Others keep it. Find out which kind of country you're buying from <em>before</em> you wire the money, not after.</p>
+
+    <h2>Step Three: Get It on a Boat</h2>
+    <hr class="subhead-rule">
+
+    <p>Technically, you can coordinate an international vehicle shipment yourself. Practically, most experienced collectors still hire an export agent — because the person who does this for a living knows which forms, which port, and which container, and you don't.</p>
+
+    <p>A good export agent coordinates the paperwork, arranges shipping, books the container or the sailing, schedules the port, works with customs on the origin side, and secures export clearance. Expect somewhere in the range of $500 to $2,000, depending on the country and how complicated your car makes their life. Then you pick how your car crosses the ocean.</p>
+
+    <h3>Roll-On / Roll-Off (RoRo)</h3>
+
+    <p>Exactly what it sounds like: your car is driven up a ramp and parked inside a giant floating parking garage alongside hundreds of others.</p>
+
+    <p><em>The upside:</em> it's the cheaper option, usually landing somewhere around $1,200 to $2,500, and it's simple and quick to load. <em>The downside:</em> your car sits accessible on an open deck for the whole voyage. You can't stash spare parts in it, it's exposed to weather and the occasional careless hand, and RoRo doesn't sail from every port.</p>
+
+    <h3>Container Shipping</h3>
+
+    <p>Here your car is strapped down inside a sealed steel box — solo in a 20-footer, or sharing a 40-foot container with someone else's pride and joy.</p>
+
+    <p><em>The upside:</em> maximum protection, real security, and room to pack spare wheels, parts, and components right alongside the car. <em>The downside:</em> it costs more — figure $2,500 to $6,000 and up, depending on where it's leaving from. For anything rare, valuable, or irreplaceable, most owners consider that a bargain. A sealed container is how you should move a car you'd cry over.</p>
+
+    <h3>Marine Insurance: Never, Ever Skip It</h3>
+
+    <p>Ocean shipping is remarkably safe. Right up until it isn't. Containers go overboard. Ships meet storms. Forklifts have bad days. Marine insurance generally runs about 1 to 3 percent of the car's declared value — genuinely cheap peace of mind next to the cost of replacing a collector car that's now feeding fish somewhere in the Pacific. Without it, you're personally underwriting every wave between there and here.</p>
+
+    <h3>Prep the Car Before It Sails</h3>
+
+    <p>A little preparation up front saves you a lot of grief at the border:</p>
+
+    <ul>
+      <li>Wash the underside thoroughly — steam-clean it if you have to. (This one's not optional; we'll get to why.)</li>
+      <li>Scrub off any agricultural crud — mud, plant matter, the works.</li>
+      <li>Leave roughly a quarter tank of fuel.</li>
+      <li>Disconnect the alarm so it isn't screaming in a container for three weeks.</li>
+      <li>Document everything. Photograph every panel, the interior, the engine bay, the wheels — hundreds of shots. If something arrives damaged, those photos are your entire case.</li>
+    </ul>
+
+    <h2>Landing Day: Customs, Forms &amp; the Tariff Situation</h2>
+    <hr class="subhead-rule">
+
+    <p>The ship arrives, and the paperwork begins in earnest. To get your car released, you'll generally need the full folder: the Bill of Lading, the foreign title, the bill of sale, government-issued ID, the arrival notice, and the three forms that make the whole thing official —</p>
+
+    <ul>
+      <li><strong>CBP Form 7501</strong> — the Customs Entry Summary</li>
+      <li><strong>EPA Form 3520-1</strong> — the emissions declaration</li>
+      <li><strong>DOT Form HS-7</strong> — the safety declaration</li>
+    </ul>
+
+    <p>Between them, these documents tell Customs whether your car walks or waits. A mistake on any of them can turn "released" into "released next week" — or next month.</p>
+
+    <h3>About Those Duties (This Part Changed — a Lot)</h3>
+
+    <p>Here's where a guide written even a year ago will steer you wrong, because the tariff landscape has been through a genuine earthquake since 2025.</p>
+
+    <p>The old rule of thumb was simple: most passenger cars paid a flat <strong>2.5% import duty</strong> on their declared value, while pickup trucks got hammered with a <strong>25% duty</strong> — the famous "Chicken Tax," a 1960s trade-war relic that never went away.</p>
+
+    <p>Then it got complicated. In April 2025, a new 25% Section 232 tariff landed on essentially <em>all</em> imported vehicles. For a while, even classic cars were being swept into elevated rates depending on where they came from. Then, in February 2026, the Supreme Court struck down the broad "reciprocal" tariffs that had been stacked on top, and passenger vehicles were carved out of the temporary tariff that replaced them.</p>
+
+    <p>So where does that leave you, today, if you're importing a 25-year-old enthusiast car? Better than you'd fear — but read the fine print:</p>
+
+    <ul>
+      <li><strong>The 25% Section 232 tariff doesn't touch cars 25 years or older.</strong> That age exemption is baked into the tariff schedule (the magic code is HTS 9903.94.04), and it's the single biggest reason waiting for the 25-year mark is worth it in dollars, not just paperwork.</li>
+      <li><strong>A qualifying classic passenger car is, as of mid-2026, back to roughly that old 2.5% base duty.</strong> The extra surcharges that briefly inflated it have been knocked down or excluded.</li>
+      <li><strong>Kei trucks, cargo vans, and light trucks are the glaring exception.</strong> They still ride the 25% Chicken Tax, and — this trips people up constantly — being 25 years old does <em>not</em> rescue you from it. That adorable little Japanese mini-truck everyone's importing right now? Twenty-five percent, regardless of age.</li>
+    </ul>
+
+    <div class="callout warn">
+      <span class="k">Read this twice</span>
+      <p>Tariff policy right now is a moving target. These rates have changed repeatedly, often with little warning, and more changes may be coming. The numbers above are accurate as this is written — but the only number that matters is the one in effect on the day your car actually clears.</p>
+      <p><strong>Confirm the current rate with a licensed customs broker before you commit a single dollar.</strong> Do not budget off a blog post. Not even this one.</p>
+    </div>
+
+    <p>And a word to the ambitious: Customs can and will challenge a declared value that fails the smell test. Declaring your $90,000 Porsche as a $10,000 "project" is a fast track to scrutiny, delays, and penalties. The duty you'd save is not worth the audit you'd earn.</p>
+
+    <h3>Harbor Fees (the Nickels and Dimes That Aren't)</h3>
+
+    <p>Beyond duty, the port has its own tab: terminal handling, warehouse fees, documentation charges, your customs broker's fee, and — if your paperwork drags — storage or demurrage. That last one is the silent killer. Ports charge by the day, and those days add up with startling speed. The single best way to avoid storage fees is to have every document perfect <em>before</em> the ship lands.</p>
+
+    <h3>The Inspection</h3>
+
+    <p>Sometimes your car clears in a blink. Sometimes it doesn't. Inspectors may check the VIN, the engine, the paperwork, the contents, and look hard for agricultural contamination, contraband, or illegal modifications. Cars get pulled for extra inspection at random, through no fault of the owner. When it happens, patience becomes part of the process — there's no line to call that makes it go faster.</p>
+
+    <h3>Why the Undercarriage Obsession?</h3>
+
+    <p>Remember that steam-cleaning we insisted on? This is why. U.S. agricultural inspections are strict and unsentimental, because a clump of foreign mud can smuggle in seeds, insects, and plant diseases the country has spent a fortune keeping out. A dirty undercarriage is one of the most common reasons a car sits at the port. Clean it before it ships, and you erase an entire category of delay.</p>
+
+    <h2>Getting a Plate (and Why California Is Its Own Boss Level)</h2>
+    <hr class="subhead-rule">
+
+    <p>Once Customs releases the car, you're into the home stretch, which runs through your state DMV: get insurance, bring your folder of documents, pay any state sales or use tax, receive your title, register, and bolt on plates.</p>
+
+    <p>Every state does this a little differently, and one state does it a lot differently. <strong>California</strong> — of course — can impose its own emissions requirements on top of everything the feds asked for, and its rules for directly-imported vehicles are the strictest in the nation. A car that's fully legal in the eyes of the federal government can still find itself staring down California's smog and CARB requirements. If you live in California (raises hand), sort out the state side <em>before</em> you buy, not after your Skyline is sitting in your driveway wearing no plates. Some importers offer CARB compliance as a service precisely because it's such a headache.</p>
+
+    <h2>The Under-25 Nightmare</h2>
+    <hr class="subhead-rule">
+
+    <p>Now for the hard universe. Say the car you want is only twelve years old. Everything above changes.</p>
+
+    <p>Unless that vehicle was originally built to U.S. standards — or is specifically eligible for import — it generally has to meet all applicable federal safety and emissions rules before it can be permanently imported for the road. That means proving compliance with a long, unforgiving checklist: FMVSS, EPA emissions, crash standards, lighting, bumpers, tire labeling, airbags, seatbelts, child-seat anchorages, theft prevention, odometer rules — the whole modern regime. And you can't just do this yourself in a garage.</p>
+
+    <h3>Registered Importers</h3>
+
+    <p>For most non-conforming cars, only a <strong>Registered Importer (RI)</strong> — a company specifically authorized by NHTSA — can legally perform the required modifications and certify that the car conforms. Depending on the vehicle, that work might mean fitting compliant airbags and lighting, swapping bumpers, reworking side-impact protection, changing glass, updating instrumentation, revising child-seat anchors, and replacing safety labels.</p>
+
+    <p>The bill runs from several thousand dollars to well past $20,000 — and there's a catch before you even start: NHTSA must first have determined that your specific make, model, and year is <em>capable</em> of being modified to comply. If it's not already on the eligible list, someone has to petition to add it, which adds months. On top of the RI's fee, you'll post a DOT conformance bond worth 150% of the car's value, refunded once the car is certified compliant.</p>
+
+    <h3>Then the EPA Wants a Word</h3>
+
+    <p>Clearing safety is only half of it. The engine still has to satisfy emissions rules, which for a non-conforming car can mean catalytic-converter changes, evaporative-emissions work, ECU recalibration, on-board-diagnostics compatibility, and actual emissions testing — often handled by a separate EPA-certified importer. These costs can rival or exceed the safety modifications. Two agencies, two bills.</p>
+
+    <h3>Some Cars Simply Can't Come. Yet.</h3>
+
+    <p>This is the part that genuinely surprises people: sometimes money isn't enough. If a newer vehicle isn't eligible for import and can't practically be brought into compliance, there may be no legal path to registering it for the road — none — until it ages into the 25-year exemption or qualifies under some other narrow provision. For a lot of modern forbidden fruit, the only real strategy is a calendar and some patience. Which brings us to the question everyone eventually asks.</p>
+
+    <h2>About Those "Loopholes" (Military, Diplomats &amp; Other Legends)</h2>
+    <hr class="subhead-rule">
+
+    <p>Spend ten minutes in an import forum and you'll hear the whispers. <em>Just have a buddy in the military bring it back. Get a friend at an embassy to import it. There's a way around the 25-year rule if you know somebody.</em></p>
+
+    <p>Here's the honest truth, because you deserve it straight: the famous "loopholes" are mostly myths, and the ones that are real are narrower than the legend suggests.</p>
+
+    <h3>The Military "Loophole" — Mostly a Myth</h3>
+
+    <p>A returning U.S. service member does get a genuine perk: a vehicle they owned and used abroad can often come home with a duty break, and cars bought overseas through the on-base military sales channels are already built to U.S. spec, so they import cleanly. But that's a <em>duty</em> benefit on a <em>compliant</em> car. It is not a magic pass that lets a servicemember — or their helpful cousin — bring a non-conforming, under-25 JDM car into the country and register it. That Skyline still needs to clear the 25-year rule or go through the full RI gauntlet like everyone else's. Being in the military doesn't exempt the car; it just helps with the paperwork on cars that already qualify.</p>
+
+    <h3>The Diplomat "Loophole" — Real, but Temporary and Not Transferable</h3>
+
+    <p>Foreign diplomats and foreign military personnel stationed here under international agreements <em>can</em> bring in non-conforming vehicles the rest of us can't — but there's a string attached that unravels the whole scheme. Those cars are admitted on the condition that they leave with their owner, and they're typically registered only for the length of the assignment. A foreign diplomat can drive their under-25 car here while they're posted in the U.S.; they can't sell it to you and let you keep it without it going through full compliance first. The exemption belongs to the person, not the car.</p>
+
+    <p>So if there's no secret handshake, what <em>actually</em> works when your car is under 25? A few legitimate paths exist:</p>
+
+    <ul>
+      <li><strong>Show or Display.</strong> For a short, curated list of cars NHTSA has deemed historically or technologically significant, you can import an under-25 example for limited use — but "limited" is the operative word: no more than <strong>2,500 miles per year</strong>, and you still have to satisfy the EPA (so it needs to be 21-plus and original, or otherwise emissions-legal). Your daily driver, this is not. Your garage centerpiece that occasionally visits a car show, maybe. The car has to already be on NHTSA's approved list, or you have to petition to add it.</li>
+      <li><strong>Racing and competition.</strong> A car imported purely for closed-course competition can come in — on the ironclad condition that it will <em>never</em> be registered or driven on public roads. Great for a track weapon. Useless for anything you want to drive to dinner.</li>
+      <li><strong>Buy the U.S.-spec version, if one exists.</strong> If a factory-legal American version of your dream car was ever sold here, importing a foreign one is usually pointless — buy the one that's already compliant.</li>
+      <li><strong>Wait.</strong> Unglamorous, but it's the "loophole" that works for everybody, every time. Every January 1st, a fresh crop of cars crosses the line. Find the exact car you want now, confirm its build date, and — if it's a legitimate seller and a fair deal — some importers will even store it (here or in Japan) until the clock runs out. The best trick in importing isn't a trick at all. It's a calendar.</li>
+    </ul>
+
+    <h2>The Hidden Costs Nobody Budgets For</h2>
+    <hr class="subhead-rule">
+
+    <p>Most first-timers budget for the purchase price and the shipping, and stop there. Then the rest of the iceberg surfaces:</p>
+
+    <p>Bank wire fees. Exchange-rate spreads. Marine insurance. The customs broker. Port handling. Storage charges. State sales or use tax. Registration fees. Transport from the port to your door. And then the car itself, which — being 25-plus years old and freshly arrived from another continent — usually wants a shakedown: fresh fluids, new tires, timing belts, a battery, a spare key it definitely didn't come with, and a proper inspection by someone who knows the model.</p>
+
+    <p>A "cheap" import has a funny way of becoming a lot less cheap once it's legally parked in your driveway. Budget for the whole iceberg, not just the tip.</p>
+
+    <h2>Should You Use an Import Broker?</h2>
+    <hr class="subhead-rule">
+
+    <p>For most first-time buyers: yes. A good broker verifies the paperwork before your money moves, coordinates the export logistics, arranges the ocean transport, works with the customs broker on this end, tracks the shipment, and — most valuably — keeps you from making the specific expensive mistake they've watched a hundred other people make. Their fee can look steep until you price out what it costs to fix a botched entry after the car has already landed. Then it looks like the best money you spent.</p>
+
+    <h2>Who to Actually Call</h2>
+    <hr class="subhead-rule">
+
+    <p>You don't have to do this alone, and you shouldn't. Here's a starting shortlist of reputable, established players — from turnkey dealers who hand you a titled car to logistics specialists who'll just move the one you found yourself. As always: do your own diligence, verify licensing, and get everything in writing. Contact details are current as of writing; confirm before you rely on them.</p>
+
+    <div class="dir">
+      <div class="dir-group">Turnkey Importers &amp; JDM Dealers <span>— they source, import, title, and hand you the keys</span></div>
+      <hr class="subhead-rule">
+
+      <div class="card">
+        <div class="name">Toprank Importers</div>
+        <div class="meta">Cypress &amp; Long Beach, CA · (844)&nbsp;523-2233 · <a href="https://www.importavehicle.com">importavehicle.com</a></div>
+        <p>Run by Sean Morris, a genuine authority on this stuff. Toprank sources 25-year cars from Japan, Europe, Australia and beyond, handles Show or Display and race-car imports, and — crucially for locals — will wrangle California CARB compliance. A good first call if you're on the West Coast.</p>
+      </div>
+
+      <div class="card">
+        <div class="name">Japanese Classics</div>
+        <div class="meta">Richmond, VA · (844)&nbsp;374-8536 · <a href="https://www.japaneseclassics.com">japaneseclassics.com</a></div>
+        <p>Buy a federally-legal, already-imported JDM car straight off the lot, backed by one of the largest reconditioning facilities in the used-import business. The buy-it-like-a-normal-used-car end of the spectrum.</p>
+      </div>
+
+      <div class="card">
+        <div class="name">Montu Motors</div>
+        <div class="meta">Tampa, FL · (800)&nbsp;262-3679 · <a href="https://www.montumotors.com">montumotors.com</a></div>
+        <p>The first company to legally import an R32 Skyline GT-R under the 25-year rule (at midnight, naturally). These days they focus on special-order sourcing and will store a not-quite-25 car for you until it's eligible.</p>
+      </div>
+
+      <div class="card">
+        <div class="name">Duncan Imports &amp; Classic Cars</div>
+        <div class="meta">Christiansburg, VA · <a href="https://www.duncanimports.com">duncanimports.com</a></div>
+        <p>One of the largest inventories of right-hand-drive JDM and classic vehicles anywhere in North America. If you'd rather wander a huge selection than chase a single car, start here.</p>
+      </div>
+
+      <div class="dir-group">Shipping &amp; Logistics <span>— for when you've found the car and just need it moved and cleared</span></div>
+      <hr class="subhead-rule">
+
+      <div class="card">
+        <div class="name">Schumacher Cargo Logistics</div>
+        <div class="meta">Los Angeles (Gardena), plus Houston, NJ, Miami &amp; Savannah · (800)&nbsp;599-0190 · <a href="https://www.schumachercargo.com">schumachercargo.com</a></div>
+        <p>Four-plus decades of international vehicle shipping, RoRo and container, with real experience moving classics across oceans.</p>
+      </div>
+
+      <div class="dir-group">The People You Should Call First, and for Free <span>— the government</span></div>
+      <hr class="subhead-rule">
+
+      <div class="card">
+        <div class="name">NHTSA — Safety &amp; the 25-Year Rule</div>
+        <div class="meta">Official Registered Importer list at <a href="https://www.nhtsa.gov/importing-vehicle">nhtsa.gov/importing-vehicle</a> · DOT/NHTSA import hotline: (202)&nbsp;366-5291</div>
+        <p>The authority on FMVSS, the 25-year exemption, and which companies are actually allowed to modify a non-conforming car.</p>
+      </div>
+
+      <div class="card">
+        <div class="name">EPA Imports Hotline — Emissions &amp; the 21-Year Exemption</div>
+        <div class="meta">imports@epa.gov · (734)&nbsp;214-4100</div>
+        <p>Call <em>before</em> you ship if there's any question about your engine or exemption. They'd rather answer now than turn your car away at the port.</p>
+      </div>
+
+      <div class="card">
+        <div class="name">U.S. Customs and Border Protection — the Border Itself</div>
+        <div class="meta"><a href="https://www.cbp.gov">cbp.gov</a> · search "Importing a Motor Vehicle"</div>
+        <p>The current official guidance, straight from the agency that decides whether your car walks off the dock or waits.</p>
+      </div>
+    </div>
+
+    <h2>The Bottom Line</h2>
+    <hr class="subhead-rule">
+
+    <p>Importing a car is never really one transaction. It's a chain of legal, logistical, financial, and bureaucratic steps stretched across an ocean, and any weak link can leave you waiting.</p>
+
+    <p>For cars 25 years and older, that chain is entirely manageable. With honest research, clean documentation, a realistic budget, and some patience, enthusiasts bring home forbidden-fruit machines every single day — cars that were never sold here, wearing plates that say otherwise. For newer cars, the road is far narrower, sometimes a dead end, and occasionally just a waiting room until the calendar sets the car free.</p>
+
+    <p>If there's one lesson every experienced importer will hand you, unprompted, it's this: never rush the paperwork. The thrill of finding <em>the one</em> makes it dangerously tempting to move fast — but verifying the build date, the ownership trail, the shipping, and the compliance requirements <em>before</em> the money leaves your account is the entire difference between a triumphant arrival and a very expensive lesson in a shipping yard.</p>
+
+    <p>And then one day the transporter actually shows up. The straps come off, the engine catches, and your long-shot, other-side-of-the-planet dream rolls onto American pavement for the first time. Every customs form, every wire fee, every white-knuckled week of waiting quietly evaporates. What's left is a car with a story no local dealer lot could ever hand you — one that starts, improbably, on a dock thousands of miles away.</p>
+
+    <p><strong>Welcome home.</strong></p>
+
+  </article>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <span class="wordmark"><span class="carv">CARV</span><span class="eyance">EYANCE</span></span>
+    <p>Independent Automotive Editorial · Los Angeles</p>
+    <p class="fine">This guide is written for enthusiasts, not as legal or customs advice. Import rules, tariffs, and state requirements change often and vary by vehicle and origin — always confirm the current specifics with a licensed customs broker and the relevant federal agencies before you buy.</p>
+  </div>
+</footer>
+
+<footer class="cv-foot"><a class="cv-fbrand" href="/">CAR<span>VEYANCE</span></a><div class="cv-flinks"><a href="/">Home</a><a href="/categories/how-it-works/">More How It Works</a><a href="/#submit">Submit a Story</a></div><p class="cv-copy">&copy; 2026 Carveyance &mdash; For the love of the drive. Los Angeles, CA.</p></footer></body>
+</html>

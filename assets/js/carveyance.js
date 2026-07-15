@@ -4,6 +4,20 @@
    You should never need to edit this file.
    ============================================================ */
 
+/* ------------------------------------------------------------
+   HERO ROTATION — controls the big story at the top of the page.
+
+     "daily"    the hero + side stack rotate automatically every
+                day, cycling through everything you've published.
+                Fresh homepage every morning. (recommended)
+     "random"   changes on every single page load.
+     "newest"   always your most recent article.
+     "featured" pinned to whichever article has featured: true
+
+   Change the word below and push. That's the whole control.
+   ------------------------------------------------------------ */
+const HERO_MODE = "daily";
+
 const CATEGORIES = [
   "How It Works", "Reviews", "Comparisons", "Car Culture", "Road Trips",
   "Opinions", "Advice & Tips", "Fun Facts", "Short Stories",
@@ -71,14 +85,37 @@ function bigStoryHTML(a, badge) {
   </div>`;
 }
 
+/* ---------- hero rotation ---------- */
+
+/* Same hero all day, a new one tomorrow. Deterministic, so every
+   visitor sees the same homepage on the same day. */
+function dayIndex() {
+  return Math.floor(Date.now() / 86400000);
+}
+
+function heroOrder(arts) {
+  const n = arts.length;
+  if (!n) return [];
+  let offset = 0;
+  if (HERO_MODE === "daily")       offset = dayIndex() % n;
+  else if (HERO_MODE === "random") offset = Math.floor(Math.random() * n);
+  else if (HERO_MODE === "featured") {
+    const i = arts.findIndex(a => a.featured);
+    offset = i >= 0 ? i : 0;
+  } else offset = 0; /* "newest" */
+  /* rotate the list so the chosen article is first, others follow in order */
+  return arts.slice(offset).concat(arts.slice(0, offset));
+}
+
 /* ---------- homepage ---------- */
 
 function initHome() {
   const arts = allArticles();
   if (!arts.length) return;
 
-  /* HERO — the article marked featured:true (or the newest) */
-  const feat = arts.find(a => a.featured) || arts[0];
+  /* HERO — chosen by HERO_MODE above */
+  const rotated = heroOrder(arts);
+  const feat = rotated[0];
   const heroMain = document.querySelector(".hero-main");
   if (heroMain && feat) {
     heroMain.innerHTML = `
@@ -96,7 +133,7 @@ function initHome() {
   /* HERO SIDE STACK — next three */
   const stack = document.querySelector(".hero-stack");
   if (stack) {
-    const rest = arts.filter(a => a !== feat).slice(0, 3);
+    const rest = rotated.slice(1, 4);
     if (rest.length) {
       stack.innerHTML = rest.map(a => `
         <a class="hcard" href="${url(a)}">

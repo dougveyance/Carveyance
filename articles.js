@@ -299,4 +299,66 @@ const ARTICLES = [
     featured:  false
   },
 
+  {
+    slug:      "the-unsung-hero-996",
+    title:     "The Unsung Hero",
+    subtitle:  "The Porsche 996 \u2014 the 911 that saved Porsche and got hated for it",
+    category:  "Reviews",
+    date:      "2026-05-06",
+    readTime:  "55 min",
+    blurb:     "Weissach, 1993: an impossible assignment. Save the company, keep the 911, and accept that everyone will resent you for it. The definitive account of the most unfairly maligned 911 ever built.",
+    image:     "/assets/images/the-unsung-hero-996.jpg",
+    featured:  false
+  },
+
+  {
+    slug:      "vehicross",
+    title:     "The VehiCROSS",
+    subtitle:  "Isuzu's lost legend",
+    category:  "Car Culture",
+    date:      "2026-05-02",
+    readTime:  "21 min",
+    blurb:     "Twelve sensors before anyone else had one. Motorcycle suspension on a street truck. A concept car that refused to stay a concept \u2014 and a designer who was right about ten years too early.",
+    image:     "/assets/images/vehicross.jpg",
+    featured:  false
+  },
+
+  {
+    slug:      "topless-beach",
+    title:     "Topless Beach",
+    subtitle:  "The Felber Ferrari Beach Car",
+    category:  "Fun Facts",
+    icon:      "\u2600\ufe0f",
+    date:      "2026-04-28",
+    readTime:  "16 min",
+    blurb:     "One V12, no roof, no doors, and not a single regret \u2014 the maddest, coolest, most gloriously unnecessary Ferrari ever built. And at long last, a home in the Swiss countryside.",
+    image:     "/assets/images/topless-beach.jpg",
+    featured:  false
+  },
+
+  {
+    slug:      "ds-assassination",
+    title:     "The Car That Refused to Die",
+    subtitle:  "Petit-Clamart, 1962 \u2014 how a comfortable ride saved a president",
+    category:  "Fun Facts",
+    icon:      "\U0001f3af",
+    date:      "2026-04-24",
+    readTime:  "14 min",
+    blurb:     "On an August night outside Paris: fourteen gunmen, more than 140 bullets, two tires shot out at speed \u2014 and one extraordinary automobile that hauled Charles de Gaulle out alive.",
+    image:     "/assets/images/ds-assassination.jpg",
+    featured:  false
+  },
+
+  {
+    slug:      "jaguar-mk2",
+    title:     "The Gentleman Villain",
+    subtitle:  "How the Jaguar Mark II became Britain's most beautiful getaway car",
+    category:  "Reviews",
+    date:      "2026-04-20",
+    readTime:  "18 min",
+    blurb:     "Grace. Space. Pace. And something in the pocket. The bank robbers wanted one. So did the police \u2014 because nothing else on British roads could catch it.",
+    image:     "/assets/images/jaguar-mk2.jpg",
+    featured:  false
+  },
+
 ];

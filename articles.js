@@ -232,4 +232,64 @@ const ARTICLES = [
     featured:  false
   },
 
+  {
+    slug:      "low-and-behold",
+    title:     "Low and Behold",
+    subtitle:  "The Steinwinter Supercargo \u2014 the lowest truck ever built",
+    category:  "Fun Facts",
+    date:      "2026-05-23",
+    readTime:  "15 min",
+    blurb:     "It slid clean under its own trailer, dazzled the world in 1983, secretly starred in your favorite absurd 80s TV show, and then vanished off the face of the earth. Killed by a single paragraph.",
+    image:     "/assets/images/low-and-behold.jpg",
+    featured:  false
+  },
+
+  {
+    slug:      "nine-lives",
+    title:     "Nine Lives",
+    subtitle:  "The Jaguar bloodline, from the E-Type to the F-Type",
+    category:  "Opinions",
+    date:      "2026-05-20",
+    readTime:  "19 min",
+    blurb:     "For three he plays, for three he strays, for three he stays. One bloodline across nine lives \u2014 and at its heart, the modern classic that refuses to fade.",
+    image:     "/assets/images/nine-lives.jpg",
+    featured:  false
+  },
+
+  {
+    slug:      "open-air-mazda-121",
+    title:     "Open Air, No Apologies",
+    subtitle:  "The 1990 Mazda 121 Canvas Top",
+    category:  "Reviews",
+    date:      "2026-05-16",
+    readTime:  "15 min",
+    blurb:     "Hiroshima asked a beautiful question: what if the roof simply rolled back? The most joyful car nobody expected \u2014 and the bubble-era optimism that made it possible.",
+    image:     "/assets/images/open-air-mazda-121.jpg",
+    featured:  false
+  },
+
+  {
+    slug:      "red-means-stop",
+    title:     "Red Means Stop, Green Means Go!",
+    subtitle:  "The accidental invention that saved millions",
+    category:  "Fun Facts",
+    date:      "2026-05-13",
+    readTime:  "15 min",
+    blurb:     "How humanity's love of a good drink accidentally invented the traffic light \u2014 and quietly saved millions of lives in the century that followed.",
+    image:     "/assets/images/red-means-stop.jpg",
+    featured:  false
+  },
+
+  {
+    slug:      "simplify-then-add-soul",
+    title:     "Simplify, Then Add Soul",
+    subtitle:  "The full story of the Lotus Evora",
+    category:  "Reviews",
+    date:      "2026-05-09",
+    readTime:  "21 min",
+    blurb:     "The underdog's underrated masterpiece \u2014 the car that survived its maker's near-death, and quite possibly the last truly analog Lotus GT.",
+    image:     "/assets/images/simplify-then-add-soul.jpg",
+    featured:  false
+  },
+
 ];

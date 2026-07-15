@@ -172,4 +172,64 @@ const ARTICLES = [
     featured:  false
   },
 
+  {
+    slug:      "goddess-of-serenity",
+    title:     "The Goddess of Serenity",
+    subtitle:  "A love letter to the Citroën DS",
+    category:  "Reviews",
+    date:      "2026-06-10",
+    readTime:  "16 min",
+    blurb:     "She arrived looking as though she had fallen from the sky, floated over France's worst roads, outran an assassination, and was later voted the most beautiful car ever made.",
+    image:     "/assets/images/goddess-of-serenity.jpg",
+    featured:  false
+  },
+
+  {
+    slug:      "ghost-in-ice-green",
+    title:     "The Ghost in Ice Green",
+    subtitle:  "1979 Porsche 911 SC Targa — European road impressions",
+    category:  "Reviews",
+    date:      "2026-06-06",
+    readTime:  "14 min",
+    blurb:     "There are cars that perform. And there are cars that talk back. European-spec, factory sports suspension, air-cooled — a conversation with the 930/03 flat-six, from the driver's seat.",
+    image:     "/assets/images/ghost-in-ice-green.jpg",
+    featured:  false
+  },
+
+  {
+    slug:      "grey-poupon",
+    title:     "Grey Poupon",
+    subtitle:  "On the Rolls-Royce Corniche Convertible — and the art of knowing what you want",
+    category:  "Opinions",
+    date:      "2026-06-03",
+    readTime:  "21 min",
+    blurb:     "Twenty-four years, one vision, and roughly 5,160 cars. What owning the Corniche says about you — and why that still matters.",
+    image:     "/assets/images/grey-poupon.jpg",
+    featured:  false
+  },
+
+  {
+    slug:      "less-is-more",
+    title:     "Less Is, More.",
+    subtitle:  "The case for small, simple, forgotten",
+    category:  "Opinions",
+    date:      "2026-05-30",
+    readTime:  "19 min",
+    blurb:     "On Wranglers, forgotten Japanese runabouts, and why the best things leave you something to do. The Betty Crocker effect, and a generation choosing less.",
+    image:     "/assets/images/less-is-more.jpg",
+    featured:  false
+  },
+
+  {
+    slug:      "best-vehicle-ever-designed",
+    title:     "The Best Vehicle Ever Designed",
+    subtitle:  "No, really. It's the van",
+    category:  "Opinions",
+    date:      "2026-05-27",
+    readTime:  "23 min",
+    blurb:     "Nobody would describe it as beautiful. It is the invisible backbone of everything — from Woodstock to the A-Team to a pandemic that made the world want freedom on four wheels.",
+    image:     "/assets/images/best-vehicle-ever-designed.jpg",
+    featured:  false
+  },
+
 ];

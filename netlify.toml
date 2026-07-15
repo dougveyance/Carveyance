@@ -6,11 +6,23 @@
   publish = "."
   # No build command — this is hand-authored static HTML.
 
-# Long cache for versioned static assets (images, fonts, etc.)
+# Long cache for images only (they never change once uploaded).
 [[headers]]
-  for = "/assets/*"
+  for = "/assets/images/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
+
+# The site engine and article list must NOT be cached hard,
+# or new articles won't show up until browsers expire the old copy.
+[[headers]]
+  for = "/assets/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/articles.js"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
 
 # Sensible security headers site-wide
 [[headers]]

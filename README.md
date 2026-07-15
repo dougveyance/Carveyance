@@ -13,15 +13,28 @@ automatic deploys from this GitHub repo.
 
 ```
 carveyance/
-├── index.html          The homepage
+├── index.html          The homepage (auto-fills itself — don't hand-edit)
+├── articles.js         ★ THE ONLY FILE YOU EDIT to publish an article
+├── PUBLISHING.md       ★ How to publish — read this one
 ├── 404.html            Custom "wrong turn" page
 ├── netlify.toml        Netlify config (headers, publish dir)
-├── .gitignore
-├── articles/           One folder per article (see articles/README.md)
-│   └── README.md
+├── articles/           One folder per article
+│   └── boosted/index.html
+├── categories/         Auto-populating category pages (11)
+│   └── how-it-works/index.html   etc.
 └── assets/
-    └── images/         Shared images (og image, logo, etc.)
+    ├── js/carveyance.js  The site engine — never needs editing
+    └── images/           Shared images
 ```
+
+## Publishing (the short version)
+
+1. Drop the article into `articles/<slug>/index.html`
+2. Paste one block into **`articles.js`**
+3. GitHub Desktop → Commit → Push
+
+The homepage, ticker, Latest, and the category page all update themselves.
+Full details in **[PUBLISHING.md](PUBLISHING.md)**.
 
 ## How deploys work
 
@@ -34,9 +47,7 @@ No more drag-and-drop. Push = publish.
 
 ## Adding an article
 
-See [`articles/README.md`](articles/README.md). Short version: drop the
-article's `index.html` into `articles/<slug>/`, link to it from the homepage,
-commit, push.
+See **[PUBLISHING.md](PUBLISHING.md)**.
 
 ## Contact forms
 

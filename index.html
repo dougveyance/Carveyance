@@ -174,7 +174,7 @@ nav{
 .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
 .grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
 
-.card{cursor:pointer}
+.card{cursor:pointer;display:block;color:inherit;text-decoration:none}
 .card-img{overflow:hidden;aspect-ratio:3/2;background:#ccd5df;margin-bottom:16px;position:relative}
 .card-img img{
   width:100%;height:100%;object-fit:cover;
@@ -243,6 +243,10 @@ nav{
   transform:scaleX(0);transition:transform .3s;
 }
 .m-tile:hover::after{transform:scaleX(1)}
+a.m-tile{text-decoration:none;color:inherit;display:block}
+a.hcard{text-decoration:none;color:inherit;display:block}
+a.card{text-decoration:none;color:inherit;display:block}
+.bs-hed a:hover{color:var(--steel)}
 .m-wide{grid-column:span 2}
 .m-tile.soon{background:#0d1a2a;cursor:default}
 .m-tile.soon::after{display:none}
@@ -638,13 +642,13 @@ footer{background:var(--ink);padding:60px 40px 28px}
     <span class="nav-brand">Car<span>veyance</span></span>
   </div>
   <div class="nav-center">
-    <a href="#" class="on">Home</a>
-    <a href="#">How It Works</a>
-    <a href="#">Reviews</a>
-    <a href="#">Car Culture</a>
-    <a href="#">Road Trips</a>
-    <a href="#">Opinions</a>
-    <a href="#">About</a>
+    <a href="/" class="on">Home</a>
+    <a href="/categories/how-it-works/">How It Works</a>
+    <a href="/categories/reviews/">Reviews</a>
+    <a href="/categories/car-culture/">Car Culture</a>
+    <a href="/categories/road-trips/">Road Trips</a>
+    <a href="/categories/opinions/">Opinions</a>
+    <a href="#about">About</a>
   </div>
   <div class="nav-right">
     <button class="nav-pill" id="openM">✍ Submit a Story</button>
@@ -722,30 +726,7 @@ footer{background:var(--ink);padding:60px 40px 28px}
       <div class="sec-label-line"></div>
       <a class="sec-label-link" href="#">View All →</a>
     </div>
-    <div class="grid3">
-      <div class="card">
-        <div class="card-img"><img src="https://images.unsplash.com/photo-1542362567-b07e54358753?w=700&q=80" alt=""></div>
-        <div class="card-cat">Fun Facts</div>
-        <h3 class="card-hed">The Goddess of Serenity</h3>
-        <p class="card-dek">Beauty, perfection, serenity. One of the most advanced and revolutionary vehicles that helped pave the way to modern cars.</p>
-        <div class="card-meta">Apr 21, 2026 <span class="dot">●</span> 5 min</div>
-      </div>
-      <div class="card">
-        <div class="cbadge">★ Community Pick</div>
-        <div class="card-img"><img src="https://images.unsplash.com/photo-1489824904134-891ab64532f1?w=700&q=80" alt=""></div>
-        <div class="card-cat">Car Culture</div>
-        <h3 class="card-hed">Happy Smiling Dog</h3>
-        <p class="card-dek">Can a car be as loyal, fun, and loving as a dog? We investigate the emotional bond between driver and machine.</p>
-        <div class="card-meta">Oct 31, 2024 <span class="dot">●</span> 4 min</div>
-      </div>
-      <div class="card">
-        <div class="card-img"><img src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=700&q=80" alt=""></div>
-        <div class="card-cat">Opinions</div>
-        <h3 class="card-hed">Cars Are Safer Now — But Is Driving?</h3>
-        <p class="card-dek">Technology has made cars extraordinary. So why are our roads still so dangerous?</p>
-        <div class="card-meta">Nov 1, 2024 <span class="dot">●</span> 7 min</div>
-      </div>
-    </div>
+    <div class="grid3" id="latest-grid"></div>
   </div>
 </section>
 
@@ -759,15 +740,15 @@ footer{background:var(--ink);padding:60px 40px 28px}
   </div>
   <div style="padding:0 40px;max-width:1340px;margin:0 auto">
     <div class="mosaic-grid">
-      <div class="m-tile"><img src="https://images.unsplash.com/photo-1518987048-93e29699e79a?w=500&q=80" alt=""><div class="m-body"><div class="m-icon">⚙️</div><div class="m-name">How It Works</div><div class="m-count">5 explainers</div></div></div>
-      <div class="m-tile"><img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?w=500&q=80" alt=""><div class="m-body"><div class="m-icon">🚘</div><div class="m-name">Reviews</div><div class="m-count">9 stories</div></div></div>
-      <div class="m-tile m-wide"><img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80" alt=""><div class="m-body"><div class="m-icon">🚗</div><div class="m-name">Car Culture</div><div class="m-count">17 stories</div></div></div>
-      <div class="m-tile"><img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=500&q=80" alt=""><div class="m-body"><div class="m-icon">🗺️</div><div class="m-name">Road Trips</div><div class="m-count">8 stories</div></div></div>
-      <div class="m-tile"><img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=500&q=80" alt=""><div class="m-body"><div class="m-icon">⚖️</div><div class="m-name">Comparisons</div><div class="m-count">6 stories</div></div></div>
-      <div class="m-tile"><img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?w=500&q=80" alt=""><div class="m-body"><div class="m-icon">💬</div><div class="m-name">Opinions</div><div class="m-count">12 stories</div></div></div>
-      <div class="m-tile"><img src="https://images.unsplash.com/photo-1489824904134-891ab64532f1?w=500&q=80" alt=""><div class="m-body"><div class="m-icon">🧭</div><div class="m-name">Advice &amp; Tips</div><div class="m-count">11 stories</div></div></div>
-      <div class="m-tile"><img src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?w=500&q=80" alt=""><div class="m-body"><div class="m-icon">💡</div><div class="m-name">Fun Facts</div><div class="m-count">9 stories</div></div></div>
-      <div class="m-tile"><img src="https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=500&q=80" alt=""><div class="m-body"><div class="m-icon">✍️</div><div class="m-name">Short Stories</div><div class="m-count">6 stories</div></div></div>
+      <a class="m-tile" href="/categories/how-it-works/"><img src="https://images.unsplash.com/photo-1518987048-93e29699e79a?w=500&q=80" alt=""><div class="m-body"><div class="m-icon">⚙️</div><div class="m-name">How It Works</div><div class="m-count" data-cat-count="How It Works"></div></div></a>
+      <a class="m-tile" href="/categories/reviews/"><img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?w=500&q=80" alt=""><div class="m-body"><div class="m-icon">🚘</div><div class="m-name">Reviews</div><div class="m-count" data-cat-count="Reviews"></div></div></a>
+      <a class="m-tile m-wide" href="/categories/car-culture/"><img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80" alt=""><div class="m-body"><div class="m-icon">🚗</div><div class="m-name">Car Culture</div><div class="m-count" data-cat-count="Car Culture"></div></div></a>
+      <a class="m-tile" href="/categories/road-trips/"><img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=500&q=80" alt=""><div class="m-body"><div class="m-icon">🗺️</div><div class="m-name">Road Trips</div><div class="m-count" data-cat-count="Road Trips"></div></div></a>
+      <a class="m-tile" href="/categories/comparisons/"><img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=500&q=80" alt=""><div class="m-body"><div class="m-icon">⚖️</div><div class="m-name">Comparisons</div><div class="m-count" data-cat-count="Comparisons"></div></div></a>
+      <a class="m-tile" href="/categories/opinions/"><img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?w=500&q=80" alt=""><div class="m-body"><div class="m-icon">💬</div><div class="m-name">Opinions</div><div class="m-count" data-cat-count="Opinions"></div></div></a>
+      <a class="m-tile" href="/categories/advice-tips/"><img src="https://images.unsplash.com/photo-1489824904134-891ab64532f1?w=500&q=80" alt=""><div class="m-body"><div class="m-icon">🧭</div><div class="m-name">Advice &amp; Tips</div><div class="m-count" data-cat-count="Advice & Tips"></div></div></a>
+      <a class="m-tile" href="/categories/fun-facts/"><img src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?w=500&q=80" alt=""><div class="m-body"><div class="m-icon">💡</div><div class="m-name">Fun Facts</div><div class="m-count" data-cat-count="Fun Facts"></div></div></a>
+      <a class="m-tile" href="/categories/short-stories/"><img src="https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=500&q=80" alt=""><div class="m-body"><div class="m-icon">✍️</div><div class="m-name">Short Stories</div><div class="m-count" data-cat-count="Short Stories"></div></div></a>
       <div class="m-tile soon"><div class="m-body"><div class="m-icon">🎙️</div><div class="m-name">Interviews</div><div class="m-soon-tag">Coming Soon</div></div></div>
       <div class="m-tile soon"><div class="m-body"><div class="m-icon">📰</div><div class="m-name">News</div><div class="m-soon-tag">Coming Soon</div></div></div>
       <div class="m-tile soon"><div class="m-body"><div class="m-icon">🎧</div><div class="m-name">Podcast</div><div class="m-soon-tag">Coming Soon</div></div></div>
@@ -778,47 +759,16 @@ footer{background:var(--ink);padding:60px 40px 28px}
 </div>
 
 <!-- HOW IT WORKS -->
-<section class="sec hiw">
+<section class="sec hiw" id="sec-hiw">
   <div class="wrap">
     <div class="sec-label">
       <span class="sec-label-text">How It Works</span>
       <div class="sec-label-line"></div>
-      <a class="sec-label-link" href="#">View All →</a>
+      <a class="sec-label-link" href="/categories/how-it-works/">View All &rarr;</a>
     </div>
-    <p class="hiw-dek">The mechanicals, demystified. No jargon, no hand-waving — just how the machines actually work, with the diagrams to prove it.</p>
-    <div class="bigstory">
-      <div class="bs-img"><img src="https://images.unsplash.com/photo-1518987048-93e29699e79a?w=900&q=80" alt=""></div>
-      <div>
-        <span class="hiw-badge">★ Flagship</span>
-        <div class="bs-label"><span class="card-cat">How It Works</span></div>
-        <h2 class="bs-hed">Boosted — <em>How Turbos &amp; Superchargers Make Power</em></h2>
-        <p class="bs-dek">Forced induction from the ground up: what's happening inside the snail, why a supercharger answers instantly while a turbo waits, and how engineers tame the heat. Animated figures included — the flagship of the "How It Works" series.</p>
-        <a href="#" class="rmore">Read Story</a>
-      </div>
-    </div>
-    <div class="grid3">
-      <div class="card">
-        <div class="card-img"><img src="https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=700&q=80" alt=""></div>
-        <div class="card-cat">How It Works</div>
-        <h3 class="card-hed">AWD vs. FWD vs. RWD</h3>
-        <p class="card-dek">Where the power goes and why it changes everything about how a car feels, grips, and gets you home in the snow.</p>
-        <div class="card-meta">Drivetrains <span class="dot">●</span> 6 min</div>
-      </div>
-      <div class="card">
-        <div class="card-img"><img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=700&q=80" alt=""></div>
-        <div class="card-cat">How It Works</div>
-        <h3 class="card-hed">Importing a Car, Start to Finish</h3>
-        <p class="card-dek">The 25-year rule, the paperwork, the ports, and the pitfalls — the real mechanics of getting a grey-market car legal.</p>
-        <div class="card-meta">Buying <span class="dot">●</span> 8 min</div>
-      </div>
-      <div class="card">
-        <div class="card-img"><img src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=700&q=80" alt=""></div>
-        <div class="card-cat">How It Works</div>
-        <h3 class="card-hed">What a Limited-Slip Diff Actually Does</h3>
-        <p class="card-dek">The quiet piece of hardware that decides whether you power out of a corner or light up one tire and go nowhere.</p>
-        <div class="card-meta">Drivetrains <span class="dot">●</span> 5 min</div>
-      </div>
-    </div>
+    <p class="hiw-dek">The mechanicals, demystified. No jargon, no hand-waving &mdash; just how the machines actually work, with the diagrams to prove it.</p>
+    <div class="bigstory" id="hiw-big"></div>
+    <div class="grid3" id="hiw-grid" style="margin-top:44px"></div>
   </div>
 </section>
 
@@ -964,7 +914,7 @@ footer{background:var(--ink);padding:60px 40px 28px}
 </div><!-- end offset -->
 
 <!-- FOOTER -->
-<footer>
+<footer id="about">
   <div class="footer-grid">
     <div>
       <div class="f-brand-row">
@@ -1055,5 +1005,7 @@ document.querySelectorAll('.nav-center a').forEach(a => {
   });
 });
 </script>
+<script src="/articles.js"></script>
+<script src="/assets/js/carveyance.js"></script>
 </body>
 </html>

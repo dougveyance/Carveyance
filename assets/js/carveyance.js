@@ -270,8 +270,72 @@ function initCategory() {
   }
 }
 
+
+/* ---------- read time helper ---------- */
+function minutes(a){ const m = String(a.readTime||"").match(/\d+/); return m ? +m[0] : 0; }
+
+/* ---------- IN DEPTH — longest reads, automatic ---------- */
+function initInDepth(){
+  const big  = document.getElementById("indepth-big");
+  const list = document.getElementById("indepth-list");
+  if (!big && !list) return;
+  const arts = allArticles().slice().sort((a,b) => minutes(b) - minutes(a));
+  if (!arts.length) return;
+  if (big)  big.innerHTML = bigStoryHTML(arts[0], false);
+  if (list) list.innerHTML = arts.slice(1,5).map(a => `
+    <a class="lst-item" href="${url(a)}" style="text-decoration:none;color:inherit">
+      <div class="lst-thumb"><img src="${esc(a.image)}" alt="" loading="lazy"></div>
+      <div>
+        <div class="lst-cat">${esc(a.category)}</div>
+        <div class="lst-hed">${esc(a.title)}</div>
+        <div class="lst-date">${fmtDate(a.date)}</div>
+      </div>
+    </a>`).join("");
+}
+
+/* ---------- MOST READ — manual list, falls back to longest ---------- */
+function initMostRead(){
+  const el = document.getElementById("mostread-list");
+  if (!el) return;
+  const arts = allArticles();
+  const bySlug = Object.fromEntries(arts.map(a => [a.slug, a]));
+  let list = (typeof MOST_READ !== "undefined" && Array.isArray(MOST_READ))
+    ? MOST_READ.map(s => bySlug[s]).filter(Boolean) : [];
+  if (!list.length) list = arts.slice().sort((a,b) => minutes(b) - minutes(a));
+  list = list.slice(0,5);
+  if (!list.length) { const b = el.closest(".sb-block"); if (b) b.style.display = "none"; return; }
+  el.innerHTML = list.map((a,i) => `
+    <a class="rank-item" href="${url(a)}" style="text-decoration:none;color:inherit">
+      <div class="rank-n">${String(i+1).padStart(2,"0")}</div>
+      <div>
+        <div class="rank-hed">${esc(a.title)}</div>
+        <div class="rank-cat">${esc(a.category)}</div>
+      </div>
+    </a>`).join("");
+}
+
+/* ---------- CAR CULTURE band ---------- */
+function initCulture(){
+  const grid = document.getElementById("culture-grid");
+  if (!grid) return;
+  const arts = byCategory("Car Culture").slice(0,3);
+  const sec = grid.closest("section");
+  if (!arts.length) { if (sec) sec.style.display = "none"; return; }
+  grid.innerHTML = arts.map(a => `
+    <a class="cult-tile" href="${url(a)}" style="text-decoration:none;color:inherit">
+      <img src="${esc(a.image)}" alt="" loading="lazy">
+      <div class="cult-body">
+        <div class="cult-sub">${esc(a.category)}</div>
+        <div class="cult-hed">${esc(a.title)}</div>
+      </div>
+    </a>`).join("");
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   try { initHome(); } catch (e) { console.error("Home render:", e); }
   try { initCategory(); } catch (e) { console.error("Category render:", e); }
   try { initArchive(); }  catch (e) { console.error("Archive render:", e); }
+  try { initInDepth(); }  catch (e) { console.error("In Depth render:", e); }
+  try { initMostRead(); } catch (e) { console.error("Most Read render:", e); }
+  try { initCulture(); }  catch (e) { console.error("Culture render:", e); }
 });

@@ -40,6 +40,21 @@
    6. Keep the commas and quotes exactly as shown.
    ============================================================ */
 
+/* ------------------------------------------------------------
+   MOST READ  —  the sidebar ranking on the homepage.
+
+   You have no analytics yet, so leave this EMPTY and the section
+   fills itself with your longest reads automatically.
+
+   When you do have numbers (Netlify Analytics, Plausible, GA),
+   just paste your top slugs in, newest data wins:
+
+       const MOST_READ = ["boosted", "moon-buggy", "vehicross"];
+
+   Up to 5 are shown. Any slug that doesn't exist is ignored.
+   ------------------------------------------------------------ */
+const MOST_READ = [];
+
 const ARTICLES = [
 
   {

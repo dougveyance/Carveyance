@@ -693,7 +693,7 @@ footer{background:var(--ink);padding:60px 40px 28px}
     <div class="sec-label">
       <span class="sec-label-text">Latest Stories</span>
       <div class="sec-label-line"></div>
-      <a class="sec-label-link" href="#">View All →</a>
+      <a class="sec-label-link" href="/articles/">View All →</a>
     </div>
     <div class="grid3" id="latest-grid"></div>
   </div>
@@ -747,25 +747,14 @@ footer{background:var(--ink);padding:60px 40px 28px}
     <div class="sec-label">
       <span class="sec-label-text">In Depth</span>
       <div class="sec-label-line"></div>
-      <a class="sec-label-link" href="#">View All →</a>
+      <a class="sec-label-link" href="/articles/">View All →</a>
     </div>
     <div class="split">
-      <div>
-        <div class="bigstory">
-          <div class="bs-img"><img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=900&q=80" alt=""></div>
-          <div>
-            <div class="bs-label"><span class="card-cat">Opinions</span></div>
-            <h2 class="bs-hed">Luxury Transportation &amp; <em>The Next Big Movement</em></h2>
-            <p class="bs-dek">Is the van the next seismic shift in the luxury auto market? We trace where the obsession with premium mobility is heading.</p>
-            <a href="#" class="rmore">Read Story</a>
-          </div>
-        </div>
-        <div class="lst-item"><div class="lst-thumb"><img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=200&q=80" alt=""></div><div><div class="lst-cat">Car Culture</div><div class="lst-hed">A Golden Relic — An Unsung Hero Worthy of the Greats</div><div class="lst-date">Nov 22, 2024</div></div></div>
-        <div class="lst-item"><div class="lst-thumb"><img src="https://images.unsplash.com/photo-1526726538690-5cbf956ae2fd?w=200&q=80" alt=""></div><div><div class="lst-cat">Opinions</div><div class="lst-hed">Girls Know Best — How Women Changed an Iconic Brand</div><div class="lst-date">Nov 18, 2024</div></div></div>
-        <div class="lst-item"><div class="lst-thumb"><img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=200&q=80" alt=""></div><div><div class="lst-cat">Reviews</div><div class="lst-hed">Nine Lives — Why You Should Own a Jaguar XKR</div><div class="lst-date">Mar 11, 2019</div></div></div>
-        <div class="lst-item"><div class="lst-thumb"><img src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=200&q=80" alt=""></div><div><div class="cbadge" style="margin:0 0 4px">★ Community</div><div class="lst-hed">Red Means Stop — And Alcohol Started It All</div><div class="lst-date">Mar 11, 2019</div></div></div>
-      </div>
-      <aside class="sidebar">
+<div>
+<div class="bigstory" id="indepth-big"></div>
+<div id="indepth-list"></div>
+</div>
+<aside class="sidebar">
         <div class="sb-block">
           <div class="nl">
             <div class="nl-hed">Join the Community</div>
@@ -776,12 +765,8 @@ footer{background:var(--ink);padding:60px 40px 28px}
         </div>
         <div class="sb-block">
           <div class="sb-title">Most Read</div>
-          <div class="rank-item"><div class="rank-n">01</div><div><div class="rank-hed">Frankenstein's Awesome Monster</div><div class="rank-cat">Car Culture</div></div></div>
-          <div class="rank-item"><div class="rank-n">02</div><div><div class="rank-hed">Topless Beach — The Ferrari You Never Knew</div><div class="rank-cat">Opinions</div></div></div>
-          <div class="rank-item"><div class="rank-n">03</div><div><div class="rank-hed">Cars Are Safer Now — But Is Driving?</div><div class="rank-cat">Opinions</div></div></div>
-          <div class="rank-item"><div class="rank-n">04</div><div><div class="rank-hed">Girls Know Best</div><div class="rank-cat">Car Culture</div></div></div>
-          <div class="rank-item"><div class="rank-n">05</div><div><div class="rank-hed">The Goddess of Serenity</div><div class="rank-cat">Fun Facts</div></div></div>
-        </div>
+          <div id="mostread-list"></div>
+</div>
         <div class="sb-block">
           <div class="sb-title">Topics</div>
           <div class="tags">
@@ -803,15 +788,11 @@ footer{background:var(--ink);padding:60px 40px 28px}
     <div class="sec-label">
       <span class="sec-label-text">Car Culture</span>
       <div class="sec-label-line"></div>
-      <a class="sec-label-link" href="#">View All →</a>
+      <a class="sec-label-link" href="/categories/car-culture/">View All →</a>
     </div>
   </div>
   <div style="padding:0 40px;max-width:1340px;margin:0 auto">
-    <div class="cult-grid">
-      <div class="cult-tile"><img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=900&q=80" alt=""><div class="cult-body"><div class="cult-sub">JDM</div><div class="cult-hed">The Import Scene That Changed Everything</div></div></div>
-      <div class="cult-tile"><img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=900&q=80" alt=""><div class="cult-body"><div class="cult-sub">Hotrods</div><div class="cult-hed">America's Rolling Art Form</div></div></div>
-      <div class="cult-tile"><img src="https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=900&q=80" alt=""><div class="cult-body"><div class="cult-sub">Overlanding</div><div class="cult-hed">Where the Pavement Ends, Life Begins</div></div></div>
-    </div>
+    <div class="cult-grid" id="culture-grid"></div>
   </div>
 </section>
 
@@ -887,28 +868,28 @@ footer{background:var(--ink);padding:60px 40px 28px}
     <div>
       <div class="f-col-title">Categories</div>
       <ul class="f-links">
-        <li><a href="#">How It Works</a></li><li><a href="#">Reviews</a></li>
-        <li><a href="#">Car Culture</a></li><li><a href="#">Road Trips</a></li>
-        <li><a href="#">Comparisons</a></li><li><a href="#">Opinions</a></li>
-        <li><a href="#">Advice &amp; Tips</a></li><li><a href="#">Fun Facts</a></li>
-        <li><a href="#">Interviews</a></li><li><a href="#">News</a></li>
-        <li><a href="#">Short Stories</a></li>
+        <li><a href="/categories/how-it-works/">How It Works</a></li><li><a href="/categories/reviews/">Reviews</a></li>
+        <li><a href="/categories/car-culture/">Car Culture</a></li><li><a href="/categories/road-trips/">Road Trips</a></li>
+        <li><a href="/categories/comparisons/">Comparisons</a></li><li><a href="/categories/opinions/">Opinions</a></li>
+        <li><a href="/categories/advice-tips/">Advice &amp; Tips</a></li><li><a href="/categories/fun-facts/">Fun Facts</a></li>
+        <li><a href="/categories/interviews/">Interviews</a></li><li><a href="/categories/news/">News</a></li>
+        <li><a href="/categories/short-stories/">Short Stories</a></li>
       </ul>
     </div>
     <div>
       <div class="f-col-title">Company</div>
       <ul class="f-links">
-        <li><a href="#">About Us</a></li><li><a href="#">Contact</a></li>
-        <li><a href="#">Write for Us</a></li><li><a href="#">Contributor Program</a></li>
+        <li><a href="/about/">About Us</a></li><li><a href="#">Contact</a></li>
+        <li><a href="/#submit">Write for Us</a></li><li><a href="#">Contributor Program</a></li>
         <li><a href="#">Advertise</a></li><li><a href="#">Newsletter</a></li>
       </ul>
     </div>
     <div>
       <div class="f-col-title">Connect</div>
       <ul class="f-links">
-        <li><a href="#">info@carveyance.com</a></li>
+        <li><a href="mailto:info@carveyance.com">info@carveyance.com</a></li>
         <li><a href="#">Los Angeles, CA</a></li>
-        <li><a href="#">Submit a Story</a></li>
+        <li><a href="/#submit">Submit a Story</a></li>
         <li><a href="#">Feature My Car</a></li>
         <li><a href="#">Privacy Policy</a></li>
       </ul>

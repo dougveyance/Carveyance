@@ -58,6 +58,18 @@ const MOST_READ = [];
 const ARTICLES = [
 
   {
+    slug:      "tuxedo-and-smoking-jacket",
+    title:     "The Tuxedo and the Smoking Jacket",
+    subtitle:  "Two thoroughbred grand tourers. One built like a bank vault, one built like a seduction.",
+    category:  "Comparisons",
+    date:      "2026-07-23",
+    readTime:  "27 min",
+    blurb:     "The Mercedes-Benz R129 SL500 meets the 1998 Jaguar XKR. Germany's order against Britain's romance &mdash; and after six thousand words, no clean winner. There should not be one.",
+    image:     "/assets/images/tuxedo-and-smoking-jacket.jpg",
+    featured:  false
+  },
+
+  {
     slug:      "twelve-angry-cylinders",
     title:     "Twelve Angry Cylinders",
     subtitle:  "Two Kawasaki motorcycle engines. Two gearboxes. One gear lever. No differential.",

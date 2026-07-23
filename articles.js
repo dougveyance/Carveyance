@@ -58,6 +58,63 @@ const MOST_READ = [];
 const ARTICLES = [
 
   {
+    slug:      "all-for-one",
+    title:     "All for One",
+    subtitle:  "Three American blades take Laguna Seca — and a fourth waits across the water",
+    category:  "Comparisons",
+    date:      "2026-07-23",
+    readTime:  "18 min",
+    blurb:     "The Dodge Viper GTS ACR, the Ford SVT Mustang Cobra R and Chevrolet's freshly sharpened 405-hp Corvette Z06 go at it on Laguna Seca. Then the gate opens for a Lancer Evo VII.",
+    image:     "/assets/images/all-for-one.jpg",
+    featured:  false
+  },
+  {
+    slug:      "the-meter-the-app-and-the-machine",
+    title:     "The Meter, the App & the Machine",
+    subtitle:  "How the taxi lost the curb, and whether Waymo is quietly doing it again",
+    category:  "Car Culture",
+    date:      "2026-07-22",
+    readTime:  "18 min",
+    blurb:     "Fifteen years and three disruptions: the medallion collapse, the pivot into food delivery, and the strange finding that robotaxis are growing rideshare rather than killing it.",
+    image:     "/assets/images/the-meter-the-app-and-the-machine.jpg",
+    featured:  false
+  },
+  {
+    slug:      "the-cost-of-being-interesting",
+    title:     "The Cost of Being Interesting",
+    subtitle:  "Why Detroit can't turn desire into reputation",
+    category:  "Opinions",
+    date:      "2026-07-21",
+    readTime:  "16 min",
+    blurb:     "Buick builds the most dependable mass-market cars in America and nobody believes it. The problem was never the engineering — identity and reputation are built by opposite methods.",
+    image:     "/assets/images/the-cost-of-being-interesting.jpg",
+    featured:  false
+  },
+  {
+    slug:      "a-golden-relic",
+    title:     "A Golden Relic",
+    subtitle:  "Ford's Mazda-bred underdog beat its whole class, then got buried by its own name",
+    category:  "Opinions",
+    date:      "2026-07-20",
+    readTime:  "10 min",
+    blurb:     "The 1994 Probe GT beat the Prelude, the Eclipse, the Corrado and the MX-6 in a Car and Driver comparison. Then Ford killed it. My first car, and my first article.",
+    image:     "/assets/images/a-golden-relic.jpg",
+    featured:  false
+  },
+  {
+    slug:      "new-2025-plug-in-hybrid-suvs",
+    title:     "New 2025 Plug-In Hybrid SUVs",
+    subtitle:  "Nine plug-in hybrids, weighed on what they actually ask of you",
+    category:  "Reviews",
+    date:      "2026-07-19",
+    readTime:  "30 min",
+    blurb:     "From the Outlander PHEV to the Wrangler 4xe — nine plug-in hybrid SUVs measured on range, price, practicality, and whether any of them are still fun to drive.",
+    image:     "/assets/images/new-2025-plug-in-hybrid-suvs.jpg",
+    featured:  false
+  },
+
+
+  {
     slug:      "boosted",
     title:     "Boosted",
     subtitle:  "How turbochargers and superchargers learned to bend the atmosphere",

@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Lines That Taught the World How to Drive — Carveyance</title>
+<meta name="description" content="How a stripe of paint became a language the whole world reads — and why heavy rain switches it off.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Overpass:wght@400;600;700;800;900&family=Overpass+Mono:wght@400;600&family=Literata:opsz,wght@7..72,400;7..72,500;7..72,600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  :root{
+    --asphalt:#1a1a1d;
+    --asphalt-2:#26262b;
+    --asphalt-3:#33333a;
+    --concrete:#ecebe5;
+    --concrete-2:#dfddd4;
+    --paint:#fafaf6;
+    --yellow:#f2c31a;
+    --yellow-deep:#b8900c;
+    --retro:#6fcfe4;
+    --retro-deep:#1f7f98;
+    --ink:#1a1a1d;
+    --muted:#6e6d68;
+    --line:#cfccc2;
+    --line-dark:#3a3a42;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--concrete);color:var(--ink);
+    font-family:"Literata",Georgia,serif;font-size:19px;line-height:1.64;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:940px;margin:0 auto;padding:0 24px}
+  .narrow{max-width:730px;margin:0 auto;padding:0 24px}
+
+  h1,h2,h3,.eyebrow,.stat-num,.chartcard h4,.tl-year,.swatch-name,.mcell .meter,.compare th,.compare td.head{
+    font-family:"Overpass",system-ui,sans-serif;
+  }
+  .eyebrow{font-size:12px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;display:inline-flex;align-items:center;gap:10px}
+  .eyebrow::before{content:"";width:30px;height:3px;background:var(--yellow);display:inline-block}
+
+  /* ---------- lane-line divider: the signature element ---------- */
+  .lane{height:14px;background:var(--asphalt);position:relative;overflow:hidden}
+  .lane::after{
+    content:"";position:absolute;top:50%;left:0;right:0;height:4px;transform:translateY(-50%);
+    background:repeating-linear-gradient(to right,var(--paint) 0 40px,transparent 40px 160px);
+  }
+  .lane.y::after{background:repeating-linear-gradient(to right,var(--yellow) 0 40px,transparent 40px 160px)}
+  .lane.solid::after{background:var(--paint)}
+
+  /* ---------- hero ---------- */
+  .hero{background:var(--asphalt);color:var(--paint);padding:70px 0 0;position:relative;overflow:hidden}
+  .hero::before{
+    content:"";position:absolute;left:0;right:0;bottom:96px;height:6px;
+    background:repeating-linear-gradient(to right,rgba(250,250,246,.85) 0 90px,transparent 90px 360px);
+    z-index:0;
+  }
+  .hero .wrap{position:relative;z-index:2}
+  .kicker-row{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:40px}
+  .hero .eyebrow{color:#b9b5aa}
+  .badge{font-family:"Overpass Mono",monospace;font-size:11.5px;letter-spacing:.06em;color:#8b8a83;border:1px solid var(--line-dark);padding:5px 10px}
+  h1{font-weight:900;font-size:clamp(38px,7.4vw,80px);line-height:.97;letter-spacing:-.015em;text-transform:uppercase;margin-bottom:22px}
+  h1 .y{color:var(--yellow)}
+  .dek{font-size:clamp(18px,2.3vw,22px);color:#bab6ab;max-width:660px;line-height:1.5}
+  .byline{margin-top:28px;font-family:"Overpass Mono",monospace;font-size:12px;color:#8b8a83}
+  .byline b{color:#e2ded2;font-weight:400}
+  .meterstrip{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line-dark);border:1px solid var(--line-dark);margin:44px 0 130px;overflow:hidden}
+  .mcell{background:var(--asphalt-2);padding:18px 16px}
+  .mcell .era{font-family:"Overpass Mono",monospace;font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;color:#84837c;margin-bottom:9px}
+  .mcell .meter{font-weight:800;font-size:clamp(21px,3vw,28px);line-height:1;color:var(--yellow)}
+  .mcell .sub{font-family:"Overpass Mono",monospace;font-size:11px;color:#95948c;margin-top:8px;line-height:1.45}
+
+  /* ---------- sections ---------- */
+  section{padding:56px 0}
+  .sec-head{margin-bottom:26px}
+  .sec-head .eyebrow{color:var(--yellow-deep)}
+  .sec-head.retrohead .eyebrow{color:var(--retro-deep)}
+  .sec-head.retrohead .eyebrow::before{background:var(--retro-deep)}
+  .band-dark .sec-head .eyebrow{color:var(--yellow)}
+  .band-dark .sec-head.retrohead .eyebrow{color:var(--retro)}
+  .band-dark .sec-head.retrohead .eyebrow::before{background:var(--retro)}
+  h2{font-weight:800;font-size:clamp(27px,4.7vw,44px);line-height:1.03;letter-spacing:-.015em;margin-top:10px;text-transform:uppercase}
+  h3{font-weight:700;font-size:22px;letter-spacing:-.005em;margin:36px 0 10px;text-transform:uppercase}
+  .band-dark h3{color:#eae6da}
+  p{margin-bottom:18px}
+  strong{font-weight:600}
+  .drop::first-letter{font-family:"Overpass";font-weight:900;font-size:4em;line-height:.8;float:left;margin:9px 12px 0 0;color:var(--yellow-deep)}
+  .band-dark .drop::first-letter{color:var(--yellow)}
+  .band-dark{background:var(--asphalt);color:#dedbd0}
+  .band-dark h2{color:#fff}
+  .band-dark p{color:#bab6ab}
+  .band-concrete2{background:var(--concrete-2)}
+
+  .pull{border-left:5px solid var(--yellow);padding:6px 0 6px 24px;margin:34px 0;font-size:clamp(21px,3vw,28px);line-height:1.3;font-weight:600;color:var(--ink)}
+  .band-dark .pull{color:#f5f3ea;border-color:var(--retro)}
+
+  /* ---------- chart card ---------- */
+  .chartcard{background:var(--paint);border:1px solid var(--line);padding:22px 22px 18px;margin:32px 0}
+  .band-dark .chartcard{background:var(--asphalt-2);border-color:var(--line-dark)}
+  .chartcard h4{font-size:11.5px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+  .band-dark .chartcard h4{color:#8b8a83}
+  .chartcard .ctitle{font-family:"Overpass";font-weight:700;font-size:20px;color:var(--ink);margin-bottom:16px;line-height:1.25}
+  .band-dark .chartcard .ctitle{color:#eae6da}
+  .canvas-box{position:relative;width:100%;height:320px}
+  .canvas-box.tall{height:400px}
+  .csrc{font-family:"Overpass Mono",monospace;font-size:10.5px;color:#8e8c85;margin-top:12px;line-height:1.6}
+
+  /* ---------- stats ---------- */
+  .statrow{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:30px 0}
+  .statbox{background:var(--paint);border:1px solid var(--line);border-top:5px solid var(--yellow);padding:20px}
+  .band-dark .statbox{background:var(--asphalt-2);border-color:var(--line-dark);border-top-color:var(--retro)}
+  .statbox .stat-num{font-weight:900;font-size:clamp(30px,5vw,42px);line-height:1;color:var(--yellow-deep)}
+  .band-dark .statbox .stat-num{color:var(--retro)}
+  .statbox .stat-lab{font-size:15px;line-height:1.42;color:var(--muted);margin-top:9px}
+  .band-dark .statbox .stat-lab{color:#a9a79f}
+
+  .note{border:1px solid var(--line);border-left:5px solid var(--muted);background:var(--paint);padding:18px 20px;margin:28px 0;font-size:16px;line-height:1.56;color:#4a4944}
+  .band-dark .note{background:var(--asphalt-2);border-color:var(--line-dark);border-left-color:var(--yellow);color:#a9a79f}
+  .note b{font-family:"Overpass";font-weight:700;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;display:block;margin-bottom:7px;color:var(--muted)}
+  .band-dark .note b{color:var(--yellow)}
+
+  /* ---------- timeline ---------- */
+  .tl{margin:32px 0;border-left:3px solid var(--line-dark);padding-left:0}
+  .tl-item{position:relative;padding:0 0 26px 34px}
+  .tl-item::before{content:"";position:absolute;left:-9px;top:6px;width:15px;height:15px;background:var(--yellow);border:3px solid var(--asphalt)}
+  .tl-item.retro::before{background:var(--retro)}
+  .tl-year{font-family:"Overpass Mono",monospace;font-weight:600;font-size:14px;letter-spacing:.06em;color:var(--yellow)}
+  .tl-item.retro .tl-year{color:var(--retro)}
+  .tl-what{display:block;font-size:17px;line-height:1.5;margin-top:3px;color:#bab6ab}
+  .tl-what b{color:#eae6da;font-weight:600}
+
+  /* ---------- marking swatches ---------- */
+  .swatches{margin:30px 0;border:1px solid var(--line-dark);background:var(--asphalt-2)}
+  .sw{display:grid;grid-template-columns:200px 1fr;gap:0;border-bottom:1px solid var(--line-dark);align-items:center}
+  .sw:last-child{border-bottom:0}
+  .sw-road{background:#37373d;height:74px;position:relative;overflow:hidden}
+  .sw-txt{padding:14px 18px}
+  .swatch-name{font-weight:700;font-size:14.5px;letter-spacing:.02em;color:var(--paint);text-transform:uppercase}
+  .sw-txt p{font-size:14.5px;line-height:1.45;color:#9a988f;margin:4px 0 0}
+  .mk{position:absolute;left:0;right:0;height:5px}
+  .mk.dashY{background:repeating-linear-gradient(to right,var(--yellow) 0 26px,transparent 26px 60px)}
+  .mk.dashW{background:repeating-linear-gradient(to right,var(--paint) 0 26px,transparent 26px 60px)}
+  .mk.solidY{background:var(--yellow)}
+  .mk.solidW{background:var(--paint)}
+  .mk.dotW{background:repeating-linear-gradient(to right,var(--paint) 0 12px,transparent 12px 24px)}
+  .c50{top:50%;transform:translateY(-50%)}
+  .cUp{top:36%}.cDn{top:60%}
+  .cTop{top:22%}.cBot{top:72%}
+
+  /* ---------- SVG diagram ---------- */
+  .diagram{background:var(--paint);border:1px solid var(--line);padding:20px;margin:32px 0}
+  .band-dark .diagram{background:var(--asphalt-2);border-color:var(--line-dark)}
+  .diagram svg{width:100%;height:auto;display:block}
+  .diagram .dcap{font-family:"Overpass Mono",monospace;font-size:10.5px;color:#8e8c85;margin-top:12px;line-height:1.6}
+
+  /* ---------- table ---------- */
+  .compare-scroll{overflow-x:auto;margin:26px 0;border:1px solid var(--line)}
+  table.compare{border-collapse:collapse;width:100%;min-width:620px;background:var(--paint);font-family:"Literata",serif}
+  .compare th,.compare td{padding:13px 15px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line);font-size:15px;line-height:1.45}
+  .compare thead th{font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:var(--paint);background:var(--asphalt)}
+  .compare td.head{font-family:"Overpass";font-weight:700;font-size:13.5px;letter-spacing:.03em;text-transform:uppercase;color:var(--ink);white-space:nowrap;background:var(--concrete-2)}
+  .compare tr:last-child td{border-bottom:0}
+
+  footer{background:var(--asphalt);color:#8b8a83;padding:44px 0 54px;font-family:"Overpass Mono",monospace;font-size:12px;line-height:1.7}
+  footer .wrap{display:flex;flex-direction:column;gap:18px}
+  footer .colo{font-family:"Overpass";font-weight:900;font-size:22px;letter-spacing:.04em;color:#eae6da;text-transform:uppercase}
+  footer .notes{max-width:800px}
+
+  @media(max-width:680px){
+    body{font-size:17.5px}
+    .meterstrip,.statrow{grid-template-columns:1fr}
+    .meterstrip{margin-bottom:110px}
+    .sw{grid-template-columns:1fr}
+    .sw-road{height:60px}
+    .canvas-box{height:300px}
+    .canvas-box.tall{height:360px}
+    section{padding:42px 0}
+  }
+  @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* canonical wordmark — Carveyance house style */
+.cv-nav{background:#0d1117;border-bottom:1px solid #1e2733;position:sticky;top:0;z-index:99}
+.cv-nav-in{max-width:1080px;margin:0 auto;padding:13px 24px;display:flex;align-items:center;
+  justify-content:space-between;gap:18px;flex-wrap:wrap}
+.wordmark,.nav-brand{font-family:'Bebas Neue',sans-serif;font-size:26px;font-weight:400;
+  letter-spacing:.08em;line-height:1;color:#ffffff;text-decoration:none;display:inline-block}
+.wordmark>span,.nav-brand>span{color:#4E8DB5}
+.cv-nav-links{display:flex;gap:17px;flex-wrap:wrap}
+.cv-nav-links a{font-family:'Barlow Semi Condensed',sans-serif;font-size:13px;font-weight:600;
+  letter-spacing:.13em;text-transform:uppercase;color:#8b95a3;text-decoration:none}
+.cv-nav-links a:hover{color:#4E8DB5}
+.cv-foot{background:#0d1117;color:#7c8794;padding:40px 0 48px;margin-top:0;
+  font-family:'Barlow Semi Condensed',sans-serif;font-size:13.5px;line-height:1.7}
+.cv-foot-in{max-width:1080px;margin:0 auto;padding:0 24px;display:flex;flex-direction:column;gap:13px}
+.f-wordmark{font-family:'Bebas Neue',sans-serif;font-size:26px;font-weight:400;letter-spacing:.08em;
+  line-height:1;color:#ffffff}
+.f-wordmark>span{color:#4E8DB5}
+.cv-foot a{color:#4E8DB5;text-decoration:none}
+</style>
+</head>
+<body>
+<nav class="cv-nav"><div class="cv-nav-in">
+<a class="wordmark" href="/">CAR<span>VEYANCE</span></a>
+<div class="cv-nav-links">
+<a href="/articles/category/How%20It%20Works">How It Works</a>
+<a href="/articles/category/Reviews">Reviews</a>
+<a href="/articles/category/Comparisons">Comparisons</a>
+<a href="/articles/category/Car%20Culture">Car Culture</a>
+<a href="/articles/category/Opinions">Opinions</a>
+<a href="/articles/category/Fun%20Facts">Fun Facts</a>
+<a href="/articles/">All</a>
+</div></div></nav>
+
+<!-- ================= HERO ================= -->
+<header class="hero">
+  <div class="wrap">
+    <div class="kicker-row">
+      <span class="eyebrow">Carveyance · Infrastructure</span>
+      <span class="badge">FEATURE / 17 MIN READ</span>
+    </div>
+    <h1>The Lines<br>That Taught<br>the World <span class="y">How<br>to Drive</span></h1>
+    <p class="dek">It is four inches wide, costs almost nothing, and you have stopped seeing it. Strip it off the road and the road stops working. This is the story of how a stripe of paint became a language — and why, a century later, the machines learning to drive are worse at reading it than you are.</p>
+    <p class="byline">By <b>Carveyance Editorial</b> · A history of the painted line</p>
+
+    <div class="meterstrip">
+      <div class="mcell">
+        <div class="era">The rhythm you don't notice</div>
+        <div class="meter">10 ft / 30 ft</div>
+        <div class="sub">Standard broken-line stripe and gap under the U.S. manual</div>
+      </div>
+      <div class="mcell">
+        <div class="era">The 1957 Ohio edge-line study</div>
+        <div class="meter">−37%</div>
+        <div class="sub">Fatalities and injuries on marked test roads vs. controls</div>
+      </div>
+      <div class="mcell">
+        <div class="era">The optics underfoot</div>
+        <div class="meter">½ buried</div>
+        <div class="sub">How deep a glass bead must sit to throw light back at you</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="lane solid"></div>
+
+<!-- ================= COLD OPEN ================= -->
+<section>
+  <div class="narrow">
+    <div class="sec-head">
+      <span class="eyebrow">The Setup</span>
+      <h2>White Lines</h2>
+    </div>
+
+    <p class="drop">Some of you just sat up. A few of you are already buckling in for what you assume is going to be an epic — a story with a soundtrack of Clapton and Grandmaster Flash, a montage running from the velvet rope at Studio 54 to Pablo Escobar's cocaine hippos still roaming loose in Colombia, before it all comes down somewhere grim: a cell in San Quentin, or the other ending, the one with no cell at all.</p>
+
+    <p>That is not this story. If that's the one you came for, I'd point you toward <em>American Made</em> with Tom Cruise, and wish you a good flight.</p>
+
+    <p>This story has its own ups. It has thrills, it has chills, and it has a far gentler comedown. It has also quietly revolutionized the way the entire world moves. So the two aren't as unrelated as they look — they're mirror images, if you'll forgive the word. One white line has killed an enormous number of people; the other has saved them. One leads you toward crime; the other helps keep you from harm. One is sexy. One is merely, unglamorously, relentlessly safe.</p>
+
+    <p>I am, of course, talking about the white lines on the road.</p>
+
+    <p>Not the ones on the mirror.</p>
+
+    <h3>You have already felt this one fail</h3>
+
+    <p>It happens on an interstate at night, in heavy rain, somewhere past the last exit with lights. The wipers are on their fastest setting. Oncoming headlights smear across the windscreen. And the lines — the ones you have been following without once deciding to follow them — simply go out.</p>
+
+    <p>Not gradually. All at once, across every lane, as if someone flipped a switch.</p>
+
+    <p>For a few seconds the road becomes what it physically is: a wide, dark, featureless slab. The lanes are gone. The edge is a guess. You do not know precisely where your car sits within a corridor you have been navigating confidently for the last hundred miles, and the only usable information left in the world is the tail-lights of whoever is ahead of you — so you follow them, which is exactly what everyone behind you is doing too.</p>
+
+    <p>That is the moment to hold onto. Because it is the only time most drivers ever consciously perceive the single most important piece of equipment on the road, and they perceive it by its absence.</p>
+
+    <div class="pull">Not the traffic light. Not the interstate. Not even the car. A line, painted on the ground.</div>
+
+    <p>Everything else in the road system announces itself. Signs are erected. Signals are illuminated. Barriers are massive. The painted line is the only piece of infrastructure that works by disappearing into your peripheral vision and staying there — running beneath the car in an endless rhythm of ten feet of paint and thirty feet of nothing, telling you where you are, where you may go, what is coming toward you, and where the pavement ends.</p>
+
+    <p>It is also, for something so ordinary, an unusually good story: a hundred-year argument about colour, a chemical engineer who reportedly couldn't drive, a doctor in the California desert who was run off the road and decided to do something about it, a Yorkshireman who got the idea from a cat, and a man whose invention is now under a million American tyres and who died with the research in a filing cabinet, unmentioned in his own obituary.</p>
+  </div>
+</section>
+
+<div class="lane"></div>
+
+<!-- ================= I. NO LANGUAGE ================= -->
+<section class="band-concrete2">
+  <div class="narrow">
+    <div class="sec-head">
+      <span class="eyebrow">I · Before the Road Had a Language</span>
+      <h2>A Surface With<br>No Instructions</h2>
+    </div>
+
+    <p class="drop">The first automobile roads were not designed for automobiles. They were inherited from the horse — narrow, unpaved, unlit, shoulderless, shared simultaneously by cars, wagons, bicycles, livestock and people on foot, and marked with nothing at all.</p>
+
+    <p>Drivers positioned themselves the way wagon drivers had: by looking at the visible edges of the road, following existing wheel ruts, and watching whoever was in front. At eight miles an hour in daylight, that works perfectly well. It stops working somewhere between there and fifty.</p>
+
+    <p>The problem is one of human perception rather than engineering. A driver judges position, speed and curvature almost entirely from how visual reference points move across the field of view — road edges, poles, guardrails, signs, the horizon, other vehicles. At night, nearly all of those vanish. Early headlamps were feeble by any modern standard, illuminating a short cone of road and leaving everything beyond it black. A dark shoulder looked identical to a dark lane. Rain added glare. Fog collapsed the world to a small tunnel of lit pavement.</p>
+
+    <p>What a painted line does is supply one continuous reference that is <em>always</em> there, always at a known distance, and always moving toward the driver at a rate that encodes speed. From that single stripe the visual system can extract road direction, lane width, curvature, closing rate, and the driver's own lateral position — continuously, unconsciously, and far enough ahead to matter.</p>
+
+    <p>That is the actual invention. Not decoration. A change in what kind of task driving is.</p>
+
+    <div class="pull">Before the line, driving meant interpreting a landscape. After it, driving meant following a path.</div>
+  </div>
+</section>
+
+<div class="lane y"></div>
+
+<!-- ================= II. NO INVENTOR ================= -->
+<section>
+  <div class="narrow">
+    <div class="sec-head">
+      <span class="eyebrow">II · The Origin Story That Isn't One</span>
+      <h2>Nobody Invented<br>the Road Line</h2>
+    </div>
+
+    <p class="drop">Every account of the painted line eventually reaches for a single inventor, and every one of them is wrong — not because the candidates are fraudulent, but because there were several, working independently, arriving at the same answer within a few years of one another.</p>
+
+    <p>That is usually the signature of a genuinely necessary invention. The automobile had reached a speed at which the unmarked road had become insufficient, and the insufficiency was obvious to anyone paying attention, in Michigan and California alike.</p>
+
+    <h3>Edward Hines and the milk wagon</h3>
+    <p><strong>Edward N. Hines</strong>, a Wayne County road commissioner in Michigan, is the name most often attached to the first highway centreline, in <strong>1911</strong>. Michigan's Department of Transportation describes it as among the most important traffic-safety devices in automotive history, and the Federal Highway Administration's own history records a centreline painted on a Michigan road that year.</p>
+
+    <p>The story attached to it is that Hines watched a leaking milk wagon draw a wobbling white trail down the road ahead of him and understood immediately what he was looking at. Whether every detail survives scrutiny hardly matters, because the conceptual move is the thing worth preserving:</p>
+
+    <p><em>Stop asking drivers to work out where the middle of the road is. Show them.</em></p>
+
+    <h3>June McCarroll and the campaign</h3>
+    <p>In California, <strong>Dr. June McCarroll</strong> reached the same conclusion from the other direction — as a victim rather than an administrator. In <strong>1917</strong>, by the account Caltrans recognises, she was forced off the pavement by a truck on a highway near Indio and afterwards painted a white stripe down the centre of a stretch of it herself.</p>
+
+    <p>Then she did the part that actually mattered. She campaigned — for years, publicly, against official indifference — until in <strong>1924</strong> the California Highway Commission authorised roughly <strong>3,500 miles</strong> of centreline striping.</p>
+
+    <p>McCarroll's significance is not a claim to being first. It is that she was the first to treat the line as a <em>system</em> rather than a local fix, and to understand that a good idea painted on one road is a hobby, while a good idea written into state policy is infrastructure.</p>
+
+    <div class="note">
+      <b>A third claimant, and probably more</b>
+      Kenneth I. Sawyer is associated with early rural highway striping in Marquette County, Michigan, in 1917, and other experiments surfaced elsewhere in the same period. The honest historical conclusion is not that one person invented every road marking, but that the need became simultaneously obvious in several places — and several people acted.
+    </div>
+  </div>
+</section>
+
+<div class="lane"></div>
+
+<!-- ================= III. DORR ================= -->
+<section class="band-dark">
+  <div class="narrow">
+    <div class="sec-head">
+      <span class="eyebrow">III · The Missing Half of the Road</span>
+      <h2>The Man Who Painted<br>the Edge</h2>
+    </div>
+
+    <p class="drop">A centreline solved exactly one problem: it told you where the traffic coming the other way belonged. It said nothing whatsoever about where <em>your</em> road ended.</p>
+
+    <p>On a lit urban street that omission is trivial. On an unlit rural highway at night, in rain, on a curve, with a soft shoulder dropping away from the pavement edge, it is the difference between a journey and a crash. And for the first four decades of the automobile, essentially nobody had painted it.</p>
+
+    <p><strong>John Van Nostrand Dorr</strong> — and the name matters, because it is routinely mangled — was a chemical engineer, inventor and philanthropist rather than a highway man. Decades after centrelines had become common, he fixed on the missing boundary and campaigned for a continuous white stripe along the right-hand edge of the road. His foundation's historical record identifies a white side line piloted on Connecticut's <strong>Merritt Parkway</strong> in the early 1950s.</p>
+
+    <div class="note">
+      <b>Handle the origin story carefully</b>
+      Family lore reportedly holds that Dorr was an unconfident driver who once left the road while carrying his granddaughter to hospital. It is wonderful narrative material and it may well be true — but it should be presented as a family story, not as a documented crash. The problem it describes needed no personal motivation to be real.
+    </div>
+
+    <p>What Dorr ran into was the peculiar resistance that meets any idea whose obviousness is its whole point. Officials asked reasonable questions. Why spend public money outlining a road drivers can already see? Would paint survive traffic and weather? Would anyone actually use it? Might it create false confidence? Who repaints thousands of miles, and how often, and out of whose budget?</p>
+
+    <p>Dorr's answer was not to argue harder. It was to <strong>fund the evidence</strong> — promoting the idea, pushing for controlled testing, and helping finance research designed to establish whether the line actually worked.</p>
+
+    <h3>The Ohio experiment</h3>
+    <p>The study that settled it compared marked highway sections against control sections rather than simply measuring the same road before and after — a distinction that turns out to be the entire methodological ballgame.</p>
+
+    <div class="chartcard">
+      <h4>The evidence that built the edge line</h4>
+      <div class="ctitle">Reported crash reductions, 1957 Ohio edge-line study</div>
+      <div class="canvas-box"><canvas id="ohioChart"></canvas></div>
+      <div class="csrc">FHWA summary of Musick (1957), <em>Effect of Pavement Edge Marking on Two-Lane Rural State Highways in Ohio</em>. The 37% reduction in deaths and injuries was reported as statistically significant at the study's chosen level; the nighttime result was positive but more marginal. These are results on the studied roads — not a guarantee that any edge-line project reproduces them.</div>
+    </div>
+
+    <p>The study's authors made a point that has aged better than the numbers themselves: a naïve before-and-after comparison, run without control roads, would have produced a <em>misleading</em> conclusion. Road safety data is contaminated by traffic volume, weather, enforcement, road works, vehicle improvements, economic cycles, plain random variation, and above all regression to the mean — the tendency of any location selected because it had a terrible year to have a better one next year regardless of what you do to it.</p>
+
+    <p>Later FHWA reviews sharpened the finding in a useful way. Pavement markings deliver most where they are logically <em>capable</em> of delivering: run-off-road and opposite-direction crashes, at night, on curves, and among drivers with reduced visual or cognitive capacity. A four-inch stripe cannot prevent a rear-end collision in a traffic queue. It can absolutely stop a tired driver drifting off a dark bend.</p>
+
+    <div class="pull">The achievement was not that crashes fell. It was that somebody bothered to work out what would have happened if they hadn't painted anything.</div>
+  </div>
+</section>
+
+<div class="lane"></div>
+
+<!-- ================= IV. THE RULEBOOK ================= -->
+<section>
+  <div class="narrow">
+    <div class="sec-head">
+      <span class="eyebrow">IV · Writing the Rulebook</span>
+      <h2>The Year America<br>Nearly Chose White</h2>
+    </div>
+
+    <p class="drop">A line only means something if everyone agrees what it means, and for the first quarter-century of American road marking, nobody did.</p>
+
+    <p>A centreline could be white in one state and yellow in the next. It might be black, on pale concrete, for contrast. It might be solid without any standard implication, or broken to a pattern chosen locally, or simply absent on the following road. A driver crossing a state line was, in a small but genuine way, changing languages.</p>
+
+    <p>The first national <strong>Manual on Uniform Traffic Control Devices</strong> — the MUTCD, still the governing document today — arrived in <strong>1935</strong>. It began pulling signs, signals and markings into one system, and it is instructive precisely because of how little it settled.</p>
+
+    <p>The 1935 manual permitted centrelines to be <strong>white, yellow or black</strong>, whichever gave the best contrast against the pavement. Lines could be four to eight inches wide. Stripes and gaps were meant to be equal in length. And centrelines were required only under specific conditions — restricted-view hillcrests, tighter curves, unusually wide pavements.</p>
+
+    <p>Read that again, because it is easy to skim past. In 1935, a centreline was not assumed to belong on every major road. It was a <em>special device for a specific hazard</em>, deployed where an engineer judged it necessary. The idea that every two-way road should be striped from end to end had not yet been won.</p>
+
+    <h3>The near-miss</h3>
+    <p>Here is the part almost nobody knows. By <strong>1954</strong>, the argument appeared settled — and it had gone the other way. Forty-seven states had agreed that the centreline should be <strong>white</strong>.</p>
+
+    <p>Then the <strong>1971</strong> edition reversed it.</p>
+
+    <p>Yellow would separate traffic moving in opposite directions. White would separate traffic moving in the same direction. White would mark the right edge; yellow the left edge of divided and one-way roadways. The changeover took roughly four years, from 1971 to 1975, and required restriping on a scale that is difficult to imagine now.</p>
+
+    <p>The reasoning was elegant. Yellow had already been established across American traffic control as the colour of <em>warning</em> — and crossing into oncoming traffic is precisely the manoeuvre that warrants one. The colour was not chosen for visibility. It was chosen because it already carried a meaning drivers had learned somewhere else.</p>
+
+    <p>The result is a piece of information design most drivers use hourly without ever having been taught it: on an unfamiliar road, in bad conditions, <strong>yellow on your left and white on your right means you are going the right way.</strong> Get that pairing reversed and something has gone badly wrong — you are on the wrong carriageway, or facing the wrong direction on a one-way street. The road can tell you that before any sign does.</p>
+
+    <h3>The whole argument, in one picture</h3>
+    <p>Below is the long view: the American road fatality rate per distance travelled, from 1921 to 2023, with marking milestones marked. It is the most seductive chart in this entire subject, and it needs a warning label bolted to it.</p>
+
+    <div class="chartcard">
+      <h4>The long decline — and what it does not prove</h4>
+      <div class="ctitle">U.S. road deaths per 100 million vehicle-miles travelled, 1921–2023</div>
+      <div class="canvas-box tall"><canvas id="fatalChart"></canvas></div>
+      <div class="csrc">FHWA Highway Statistics, Table FI-200. <strong>Read with care:</strong> this decline reflects the entire road-safety system, not pavement markings — divided highways, guardrails, seat belts, airbags, crashworthy structures, collapsible steering columns, drink-driving enforcement, emergency medicine, licensing, lighting, speed management, stability control and automatic braking. Markings are one layer among many. The milestone markers show <em>when</em> things happened, not how much of the fall each caused. Note also the reversal after 2019.</div>
+    </div>
+
+    <p>Anyone selling you a single-cause explanation for that curve is selling something. The honest way to measure what markings contribute is the boring way: controlled comparisons between similar roads, which is exactly what Ohio did in 1957 and what FHWA has kept doing since.</p>
+  </div>
+</section>
+
+<div class="lane y"></div>
+
+<!-- ================= V. THE GRAMMAR ================= -->
+<section class="band-dark">
+  <div class="narrow">
+    <div class="sec-head">
+      <span class="eyebrow">V · How Lines Became a Language</span>
+      <h2>Colour, Pattern,<br>Width, Position</h2>
+    </div>
+
+    <p class="drop">A modern road marking carries meaning through four variables, and every driver reads all four simultaneously without ever having consciously learned the system.</p>
+
+    <p><strong>Colour</strong> establishes the relationship: yellow for opposing traffic and left boundaries; white for same-direction lanes and right edges; red for a lane you must not enter from your direction; blue supplementing accessible parking; purple for certain electronic-toll lanes; black added purely to create contrast on pale concrete.</p>
+
+    <p><strong>Pattern</strong> establishes permission. Broken means you may cross when conditions allow. Solid means discouraged or prohibited. Double means the strongest restriction available. A solid-and-broken pair means permission depends on which side you are on — the same marking issuing opposite instructions to two drivers passing each other. Dotted warns that a lane is about to change function. Diagonal hatching means stay out. Transverse lines speak across your direction of travel rather than along it.</p>
+
+    <p><strong>Width</strong> establishes emphasis — a wider line is detectable from farther away. <strong>Position</strong> establishes what the line is about: centre, lane boundary, edge, stop bar, crossing.</p>
+
+    <div class="swatches">
+      <div class="sw">
+        <div class="sw-road"><div class="mk dashY c50"></div></div>
+        <div class="sw-txt"><div class="swatch-name">Broken yellow</div><p>Opposing traffic. Passing permitted when it is safe to do so.</p></div>
+      </div>
+      <div class="sw">
+        <div class="sw-road"><div class="mk solidY cUp"></div><div class="mk solidY cDn"></div></div>
+        <div class="sw-txt"><div class="swatch-name">Double solid yellow</div><p>Opposing traffic. Crossing to pass is prohibited in both directions.</p></div>
+      </div>
+      <div class="sw">
+        <div class="sw-road"><div class="mk dashY cUp"></div><div class="mk solidY cDn"></div></div>
+        <div class="sw-txt"><div class="swatch-name">Solid and broken yellow</div><p>One marking, two instructions. Passing permission depends on which side you occupy.</p></div>
+      </div>
+      <div class="sw">
+        <div class="sw-road"><div class="mk dashW c50"></div></div>
+        <div class="sw-txt"><div class="swatch-name">Broken white</div><p>Lanes travelling the same direction. Changing lanes is permitted.</p></div>
+      </div>
+      <div class="sw">
+        <div class="sw-road"><div class="mk solidW c50"></div></div>
+        <div class="sw-txt"><div class="swatch-name">Solid white</div><p>Lane changing discouraged or controlled. Also serves as the right-hand edge line.</p></div>
+      </div>
+      <div class="sw">
+        <div class="sw-road"><div class="mk dotW c50"></div></div>
+        <div class="sw-txt"><div class="swatch-name">Dotted white</div><p>This lane is about to do something — merge, exit, taper, or continue through an intersection.</p></div>
+      </div>
+      <div class="sw">
+        <div class="sw-road"><div class="mk solidW cTop"></div><div class="mk solidY cBot"></div></div>
+        <div class="sw-txt"><div class="swatch-name">The orientation pair</div><p>White right, yellow left. On a divided road this tells you that you are travelling the correct way — before any sign does.</p></div>
+      </div>
+    </div>
+
+    <p>What is remarkable here is not the complexity. It is that a system this expressive is transmitted almost entirely without instruction. Very few drivers could recite these rules on demand. Essentially all of them obey the rules correctly at seventy miles an hour in the dark.</p>
+
+    <h3>And then paint kept talking</h3>
+    <p>Once engineers grasped that the road surface could address the driver directly, the pavement became a large horizontal sign, and the vocabulary expanded fast.</p>
+
+    <p><strong>Lane lines</strong> let traffic run side by side at predictable spacing, which is what converts a wide slab into a three-lane road. <strong>No-passing lines</strong> encode a hazard the driver cannot yet see — a crest, a blind curve — before it is visible. <strong>Stop lines</strong> answer the question the stop sign leaves open: the sign says you must stop, the line says <em>where</em>, which matters enormously at crossings, sight-limited junctions and railway approaches. <strong>Crosswalks</strong> convert an invisible legal concept into visible territory. <strong>Arrows</strong> let one intersection store several movements in separate lanes instead of resolving them all at the last second. <strong>Gore markings</strong> build islands out of paint, guiding traffic without erecting a concrete object for someone to hit.</p>
+
+    <p>And most recently, colour and symbol have begun allocating pavement by <em>user</em> — bicycles, buses, high-occupancy vehicles, toll status, time of day.</p>
+
+    <div class="pull">The line evolved from telling drivers where the road is to telling them who each part of it belongs to.</div>
+  </div>
+</section>
+
+<div class="lane"></div>
+
+<!-- ================= VI. THE PHYSICS ================= -->
+<section>
+  <div class="narrow">
+    <div class="sec-head retrohead">
+      <span class="eyebrow">VI · The Physics Under Your Tyres</span>
+      <h2>A Million Tiny<br>Lenses</h2>
+    </div>
+
+    <p class="drop">White pigment makes a line visible in daylight. It does almost nothing for you at night. What makes a road line blaze at two in the morning is a separate technology entirely, and it is stranger than most drivers realise.</p>
+
+    <p>Modern markings are two systems in one. A <strong>binder</strong> supplies colour, thickness and adhesion. Then <strong>glass beads</strong> — sprayed onto the wet material, mixed through it, or both — supply the optics. Each bead is a sphere a fraction of a millimetre across, and the ideal one sits embedded to roughly <strong>half its diameter</strong>, hemisphere exposed to the air.</p>
+
+    <p>When your headlight beam hits that exposed hemisphere, the curved glass refracts the light inward. It crosses the bead, strikes the pigmented binder underneath, reflects, and the bead's curvature bends it back out <em>along very nearly the path it arrived on</em>.</p>
+
+    <p>That is <strong>retroreflection</strong> — light returned toward its source rather than scattered away like light off a wet windscreen. And because your headlamps sit a few feet from your eyes, light aimed back at the lamp arrives, brilliantly, at you. The driver in the oncoming lane gets almost none of it. Every driver is being shown a private line, lit by their own car.</p>
+
+    <div class="diagram">
+      <svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram comparing how a glass bead returns headlight to the driver when dry, and how a film of water defeats it when wet">
+        <defs>
+          <marker id="ah" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+            <path d="M0,0 L9,4.5 L0,9 z" fill="#1a1a1d"/>
+          </marker>
+          <marker id="ahr" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+            <path d="M0,0 L9,4.5 L0,9 z" fill="#1f7f98"/>
+          </marker>
+        </defs>
+
+        <!-- DRY -->
+        <text x="20" y="26" font-family="Overpass, sans-serif" font-size="15" font-weight="800" fill="#1a1a1d">DRY</text>
+        <text x="20" y="46" font-family="Overpass Mono, monospace" font-size="11" fill="#6e6d68">Bead exposed to air</text>
+        <rect x="20" y="215" width="350" height="65" fill="#3f3f45"/>
+        <rect x="20" y="200" width="350" height="16" fill="#fafaf6"/>
+        <circle cx="195" cy="200" r="26" fill="#cfe9f2" stroke="#1a1a1d" stroke-width="1.5"/>
+        <path d="M195 200 L 175 216" stroke="#1a1a1d" stroke-width="1.2" stroke-dasharray="3 3"/>
+        <line x1="95" y1="80" x2="182" y2="184" stroke="#1a1a1d" stroke-width="2.4" marker-end="url(#ah)"/>
+        <line x1="208" y1="184" x2="295" y2="80" stroke="#1f7f98" stroke-width="2.4" marker-end="url(#ahr)"/>
+        <circle cx="90" cy="74" r="6" fill="#1a1a1d"/>
+        <text x="46" y="62" font-family="Overpass Mono, monospace" font-size="11" fill="#1a1a1d">headlamp</text>
+        <text x="252" y="62" font-family="Overpass Mono, monospace" font-size="11" fill="#1f7f98">back to driver</text>
+        <text x="150" y="252" font-family="Overpass Mono, monospace" font-size="10.5" fill="#fff">pigmented binder</text>
+
+        <!-- WET -->
+        <text x="430" y="26" font-family="Overpass, sans-serif" font-size="15" font-weight="800" fill="#1a1a1d">WET</text>
+        <text x="430" y="46" font-family="Overpass Mono, monospace" font-size="11" fill="#6e6d68">Water film covers the bead</text>
+        <rect x="430" y="215" width="350" height="65" fill="#3f3f45"/>
+        <rect x="430" y="200" width="350" height="16" fill="#fafaf6"/>
+        <path d="M430 186 q 40 -9 80 0 q 40 9 80 0 q 40 -9 80 0 q 40 9 80 0 L780 200 L430 200 Z" fill="#8fc9de" opacity=".62"/>
+        <circle cx="605" cy="200" r="26" fill="#cfe9f2" stroke="#1a1a1d" stroke-width="1.5" opacity=".85"/>
+        <line x1="505" y1="80" x2="592" y2="184" stroke="#1a1a1d" stroke-width="2.4" marker-end="url(#ah)"/>
+        <line x1="618" y1="188" x2="742" y2="128" stroke="#1a1a1d" stroke-width="2.4" opacity=".55" marker-end="url(#ah)"/>
+        <circle cx="500" cy="74" r="6" fill="#1a1a1d"/>
+        <text x="456" y="62" font-family="Overpass Mono, monospace" font-size="11" fill="#1a1a1d">headlamp</text>
+        <text x="640" y="112" font-family="Overpass Mono, monospace" font-size="11" fill="#6e6d68">scattered away</text>
+        <text x="530" y="252" font-family="Overpass Mono, monospace" font-size="10.5" fill="#fff">pigmented binder</text>
+      </svg>
+      <div class="dcap">Conceptual diagram based on FHWA pavement-marking guidance. Bead performance depends on size, roundness, clarity, refractive index, distribution and embedment depth — too shallow and beads are stripped out by traffic; too deep and too little surface is exposed to do any work.</div>
+    </div>
+
+    <h3>Which is exactly why rain kills them</h3>
+    <p>Now the failure at the top of this article has an explanation. Water changes the optical relationship between air, glass and pigment. A film across the exposed hemisphere alters how light refracts entering the bead. The water surface itself throws glare. Contrast collapses. Smaller beads are simply submerged. And a great deal of headlight energy that would have come back to you gets bounced somewhere else entirely.</p>
+
+    <p>The line has not worn away. It is still there, perfectly intact, temporarily switched off.</p>
+
+    <p>Wet-reflective marking systems attack this with brute optical engineering: <strong>larger beads</strong> that protrude above a thin water film, <strong>higher refractive indices</strong>, <strong>multiple bead sizes</strong> mixed together, <strong>dual systems</strong> tuned separately for wet and dry, <strong>raised ribs and structured profiles</strong> that hold optics above the water, and <strong>recessed channels</strong> that shelter the marking from both water and snowplough blades. Deep enough water defeats all of them — but most rain is not deep water.</p>
+
+    <div class="chartcard">
+      <h4>What better wet-night optics buy you</h4>
+      <div class="ctitle">Estimated crash reductions, wet-reflective markings on evaluated multilane roads</div>
+      <div class="canvas-box"><canvas id="wetChart"></canvas></div>
+      <div class="csrc">FHWA <em>Evaluation of Wet-Reflective Pavement Markings</em>, Wisconsin multilane sites. Results were statistically significant for the listed categories at the study's stated confidence level. Results on other road types and in other states were less uniform — no single treatment performs identically everywhere.</div>
+    </div>
+
+    <p>Note which categories moved most. Run-off-road, injury and nighttime crashes — precisely the failures a visible edge is capable of preventing. The mechanism and the measurement agree, which is the strongest thing you can say about any road-safety intervention.</p>
+  </div>
+</section>
+
+<div class="lane"></div>
+
+<!-- ================= VII. THE STUDS ================= -->
+<section class="band-concrete2">
+  <div class="narrow">
+    <div class="sec-head">
+      <span class="eyebrow">VII · When Paint Wasn't Enough</span>
+      <h2>The Cat and<br>the Filing Cabinet</h2>
+    </div>
+
+    <p class="drop">Paint is flat, and flat is a problem. A raised marker sits above the water film, catches light from a better angle, and — crucially — can be felt as well as seen. Two men solved this on opposite sides of the world, and both stories are better than they need to be.</p>
+
+    <h3>Percy Shaw's tram tracks</h3>
+    <p>In Halifax, West Yorkshire, <strong>Percy Shaw</strong> noticed something after the local tram lines were pulled up: his night driving had become markedly worse. He had, without ever deciding to, been navigating by the polished steel rails throwing his headlights back at him. Remove the rails and the road went dark.</p>
+
+    <p>He filed for patent protection in <strong>April 1934</strong> — building on Richard Hollins Murray's 1927 retroreflecting lens patent — and on <strong>15 March 1935</strong> founded Reflecting Roadstuds Limited in Halifax on £500 of capital, trademarking the name <em>Catseye</em> after the eyeshine that gave him the idea.</p>
+
+    <p>The design was a small marvel of doing several jobs at once. Glass reflectors were set in pairs, facing opposite directions, inside a flexible rubber moulding on a cast-iron base, recessed into the road so only the top sat proud. Drive over it and the rubber depresses into its housing — protecting both stud and tyre. Better still, in the 1936 refinement Shaw regarded as his most important, that same depression wipes the lenses against a fixed surface, using collected rainwater to clean them.</p>
+
+    <p>A device that is visible at night, works in rain, survives being run over, and <strong>washes itself using the weather that would otherwise blind it</strong>.</p>
+
+    <p>Orders were slow at first. Then came the wartime blackout, with shuttered headlamps on unlit roads, and the case made itself. At its peak the Halifax factory employed 130 people producing over a million studs a year for export worldwide.</p>
+
+    <h3>Elbert Botts, and a very quiet ending</h3>
+    <p>In California, <strong>Dr. Elbert Dysart Botts</strong> at the state highway laboratory attacked the same problem from the paint side: markings vanishing under water. His work led to the raised ceramic and polymer marker that carries his name into ordinary speech — the Botts' Dot — which does two jobs simultaneously. It reinforces the painted line visually, and it produces noise and vibration when a tyre crosses it. An early, accidental form of driver feedback. A rumble strip in miniature.</p>
+
+    <p>Botts never saw any of it work. He died in April 1962, his research was filed away, and it was <em>not mentioned in his obituary</em> in his own laboratory's newsletter. Two years later his division, by then under Herbert Rooney, rediscovered the files and resumed the work. The modern pattern — reflective markers interspersed between groups of round dots — was first tested along Interstate 80 near Vacaville in 1965, and California went on to require raised markers on freeways except where snowploughs would destroy them.</p>
+
+    <div class="pull">A man died with his best idea in a drawer. It is now under several million tyres a day, and everyone knows his name without knowing it is a name.</div>
+
+    <p>That snowplough exception is the standing weakness of every raised marker. A blade shears them off, which is why snow country runs recessed reflectors, grooved markings and durable paint instead — and why the right marking system is never the best product in a laboratory, but the one that survives the local combination of pavement, weather, traffic and maintenance budget.</p>
+
+    <h3>The line you can hear</h3>
+    <p>The logical conclusion of Botts' insight is the <strong>rumble stripe</strong>: an edge line painted directly into a milled rumble strip. Leave the lane and the tyres generate noise, steering vibration and seat vibration — a warning that requires no visual attention at all.</p>
+
+    <p>Which matters, because the driver most likely to leave a lane is precisely the driver least likely to be looking at it. Drowsy, distracted, glancing at a phone, drifting gradually. The paint speaks to the eyes. The milling speaks to the hands and the ears. The modern road line is no longer only a picture.</p>
+  </div>
+</section>
+
+<div class="lane y"></div>
+
+<!-- ================= VIII. THE TIMELINE ================= -->
+<section class="band-dark">
+  <div class="narrow">
+    <div class="sec-head">
+      <span class="eyebrow">VIII · The Whole Century</span>
+      <h2>How a Stripe Became<br>a World Language</h2>
+    </div>
+
+    <div class="tl">
+      <div class="tl-item"><span class="tl-year">1911</span><span class="tl-what"><b>Edward Hines</b> is credited with a highway centreline in Wayne County, Michigan.</span></div>
+      <div class="tl-item"><span class="tl-year">1917</span><span class="tl-what"><b>June McCarroll</b> paints a centreline near Indio, California, and begins campaigning. Kenneth Sawyer is associated with rural striping in Marquette County the same year.</span></div>
+      <div class="tl-item"><span class="tl-year">1924</span><span class="tl-what">California authorises roughly <b>3,500 miles</b> of centreline striping — the idea becomes policy.</span></div>
+      <div class="tl-item"><span class="tl-year">1934–35</span><span class="tl-what"><b>Percy Shaw</b> patents the reflective road stud and founds Reflecting Roadstuds Ltd in Halifax.</span></div>
+      <div class="tl-item"><span class="tl-year">1935</span><span class="tl-what">The first national <b>MUTCD</b>. Centrelines may be white, yellow or black, and are required only at specific hazards.</span></div>
+      <div class="tl-item"><span class="tl-year">1942</span><span class="tl-what">The wartime MUTCD specifies <b>reflectorised markings</b> — blackout driving makes night visibility urgent.</span></div>
+      <div class="tl-item"><span class="tl-year">1953</span><span class="tl-what"><b>Dorr's edge-line pilot</b> on Connecticut's Merritt Parkway. Botts begins raised-marker work in California.</span></div>
+      <div class="tl-item"><span class="tl-year">1954</span><span class="tl-what">Forty-seven states agree the centreline should be <b>white</b>. For seventeen years, that is the answer.</span></div>
+      <div class="tl-item"><span class="tl-year">1957</span><span class="tl-what">The <b>Ohio edge-line study</b> compares marked roads against controls and reports substantial reductions.</span></div>
+      <div class="tl-item"><span class="tl-year">1965</span><span class="tl-what">The modern raised-marker pattern is tested on <b>Interstate 80</b> near Vacaville — three years after Botts' death.</span></div>
+      <div class="tl-item"><span class="tl-year">1968</span><span class="tl-what">The <b>Vienna Convention</b> on Road Signs and Signals pushes international principles toward common ground.</span></div>
+      <div class="tl-item"><span class="tl-year">1971–75</span><span class="tl-what">The <b>colour reversal</b>. Yellow separates opposing traffic; white separates same-direction traffic. The country repaints itself.</span></div>
+      <div class="tl-item retro"><span class="tl-year">2022</span><span class="tl-what">A federal <b>minimum retroreflectivity rule</b> — agencies must maintain measurable night visibility, not merely paint lines.</span></div>
+      <div class="tl-item retro"><span class="tl-year">2023–25</span><span class="tl-what">The <b>11th edition MUTCD</b> and its first revision, explicitly acknowledging that wider lines benefit both human drivers and automated driving systems.</span></div>
+    </div>
+
+    <h3>A family of languages, not one alphabet</h3>
+    <p>The principle went global. The dialect did not.</p>
+
+    <p>The United States and Canada run yellow for opposing traffic, white for same-direction, white right edge, yellow left edge on divided roads. Across much of Europe, <strong>white</strong> does both jobs — lane separation <em>and</em> many centreline applications — with yellow reserved for temporary construction markings, parking restrictions and special controls. Countries driving on the left mirror the whole geometry. Line-to-gap ratios, widths, double-line conventions, crosswalk patterns, kerb colours and bike-lane colours all vary.</p>
+
+    <p>What does travel intact is the underlying grammar. Broken is permissive. Solid is restrictive. Transverse means stop or yield. Hatching means keep out. Edge lines define the usable road. A driver landing in an unfamiliar country can read the sentence structure immediately and still needs a day to learn the vocabulary.</p>
+  </div>
+</section>
+
+<div class="lane"></div>
+
+<!-- ================= IX. THE ECONOMICS ================= -->
+<section>
+  <div class="narrow">
+    <div class="sec-head">
+      <span class="eyebrow">IX · What Paint Has to Survive</span>
+      <h2>The Most Demanding<br>Material Spec in Civil<br>Engineering</h2>
+    </div>
+
+    <p class="drop">Consider what a pavement marking is actually asked to do. It must bond permanently to asphalt or concrete. Stay visible in direct sun. Throw headlights back at night. Survive tyres, snow chains and plough blades. Shrug off oil, salt and standing water. Endure both freeze-thaw cycling and summer pavement temperatures. Dry fast enough to reopen the road. Avoid becoming slippery. Hold its exact colour. Cost little enough to apply across thousands of miles. And eventually come off cleanly when the traffic pattern changes.</p>
+
+    <p>Very few products in any industry face a specification that self-contradictory.</p>
+
+    <div class="compare-scroll">
+      <table class="compare">
+        <thead><tr><th>Material</th><th>Why an agency picks it</th><th>What it costs them</th></tr></thead>
+        <tbody>
+          <tr><td class="head">Waterborne paint</td><td>Cheapest and fastest; you can stripe an enormous network in a season</td><td>Short service life, plough damage, fussy about application temperature, frequent repainting</td></tr>
+          <tr><td class="head">Thermoplastic</td><td>Applied molten; thick, durable, strongly retroreflective, beads can be mixed through as well as dropped on</td><td>Heating equipment, temperature windows, can crack, awkward on some surfaces</td></tr>
+          <tr><td class="head">Epoxy</td><td>Excellent adhesion and wear resistance on heavily trafficked roads</td><td>Precise mixing, specialist equipment, holding colour under UV is difficult</td></tr>
+          <tr><td class="head">Polyurea</td><td>Cures very fast with strong durability and colour retention — valuable when closure time is expensive</td><td>Higher material and equipment cost</td></tr>
+          <tr><td class="head">MMA</td><td>Works in colder conditions; can be formed into structured profiles for wet-weather visibility</td><td>Two-component handling, cost</td></tr>
+          <tr><td class="head">Preformed tape</td><td>Factory-made with optics built in — precise, immediately reflective, fast to lay, strong wet-night performance</td><td>Expensive enough that it is usually reserved for high-value locations</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>The deceptive arithmetic</h3>
+    <p>Paint is cheap next to widening a road, rebuilding a curve or installing barrier. Striping needs no land purchase, no drainage work, no utility relocation, and adds no roadside object for a vehicle to strike. This is why marking projects routinely post benefit-to-cost ratios that make other safety interventions look extravagant.</p>
+
+    <p>And yet the low unit cost is a trap, because agencies maintain enormous networks. Multiply a modest per-mile figure by thousands of miles, then by two edge lines plus centrelines plus every lane line, plus arrows and symbols, plus repainting every year or two, and the number stops being small. The true cost includes labour, striping trucks, beads, traffic control, drying time, inspection, removal, disposal — and the crash risk borne by the crews doing it.</p>
+
+    <p>Which produces the counterintuitive conclusion that governs the whole business: <strong>a more expensive durable marking is frequently the cheaper option</strong>, if it removes enough repainting cycles — and each cycle it removes is also a shift that nobody has to spend standing on a live carriageway.</p>
+
+    <div class="note">
+      <b>Not environmentally neutral</b>
+      Markings are safety equipment, but making and maintaining them has costs: solvent emissions, polymer and microplastic wear, paint particles entering drainage, the energy in producing thermoplastic, removal debris, worker exposure to resins and heated material, contaminants found in some recycled glass beads, and excess beads escaping during application. FHWA has examined heavy-metal content in recycled beads specifically. Future formulations have to balance visibility and durability against emissions, recyclability and the health of the people applying them.
+    </div>
+  </div>
+</section>
+
+<div class="lane"></div>
+
+<!-- ================= X. THE MACHINE ================= -->
+<section class="band-dark">
+  <div class="narrow">
+    <div class="sec-head retrohead">
+      <span class="eyebrow">X · The Line Meets the Computer</span>
+      <h2>Now It Has to Teach<br>the Car</h2>
+    </div>
+
+    <p class="drop">For a century, pavement markings were designed around one instrument: the human visual system, with its context, its memory, and its willingness to guess.</p>
+
+    <p>They now have a second audience, and the second audience is worse at the job.</p>
+
+    <p>Lane-departure warning, lane centring and every partially automated driving system on sale depends on a camera finding the left and right boundaries, reading curvature, identifying merge and exit points, distinguishing solid from broken, and telling a temporary construction path from the permanent one underneath it.</p>
+
+    <p>Machine vision fails in ways human vision mostly doesn't. Sun glare. Worn paint. Wet pavement. Low contrast on pale concrete. Old markings that were incompletely removed and still ghost through. Tar repair lines that look convincingly like a stripe. Snow, shadows, pavement seams, bright reflections, and work zones where temporary and permanent markings openly contradict each other.</p>
+
+    <p>A human handles nearly all of this without noticing, because a human is not really tracking the line — they are tracking a <em>model of the road</em> that the line updates. Half the stripe missing is fine; you already know where the lane goes. A camera has no such model. It has this frame.</p>
+
+    <p>FHWA has found that markings become especially difficult for lane-detection systems precisely in glare and wet conditions, and has noted the deeper structural problem: existing visibility standards were written around human drivers and may not fully address what automated perception requires.</p>
+
+    <div class="statrow">
+      <div class="statbox"><div class="stat-num">4–6 in</div><div class="stat-lab">Standard longitudinal line width. Six inches is increasingly favoured on major roads</div></div>
+      <div class="statbox"><div class="stat-num">Both</div><div class="stat-lab">The current manual justifies wider lines for human drivers <em>and</em> automated systems in the same breath</div></div>
+      <div class="statbox"><div class="stat-num">2022</div><div class="stat-lab">The year U.S. agencies were first required to maintain measurable minimum retroreflectivity</div></div>
+    </div>
+
+    <p>There is a quiet irony in that six-inch line. For decades, wider markings were argued for on behalf of older drivers and those with reduced vision — people whose eyes needed more help. The same specification now gets justified on behalf of cameras. The accommodation built for human frailty turned out to be the accommodation machines needed too.</p>
+
+    <h3>Where it goes next</h3>
+    <p>The near future of the painted line is unglamorous and mostly about consistency. <strong>Wider, more uniform markings.</strong> <strong>Better wet-night optics</strong> — larger and ceramic beads, bead clusters, structured profiles, grooved and protected reflectors, multiple refractive indices. <strong>Contrast striping</strong>, white lines given black borders so they remain detectable against pale concrete in daylight, for eyes and sensors alike.</p>
+
+    <p>Then <strong>automated inspection</strong>, which may be the biggest practical change of all. Instead of repainting on a fixed calendar, agencies can use cameras on maintenance vehicles, fleet-vehicle data, LiDAR and machine-vision contrast analysis to map deterioration continuously and repaint exactly where performance has dropped below threshold. The road tells you when it needs repainting.</p>
+
+    <p>And <strong>redundancy</strong>. No autonomous vehicle will rely on paint alone; markings will sit alongside high-definition maps, satellite positioning, inertial sensors, radar, LiDAR and messages from other vehicles. The line becomes one layer in a stack rather than the sole source of truth.</p>
+
+    <p>Which is the right place for it, because paint has one great virtue that no electronic system matches. Consider the alternative being floated — embedded lighting, solar studs, programmable lane indicators that reconfigure a road by time of day or emergency. Attractive, expensive, and subject to a failure mode paint doesn't have.</p>
+
+    <div class="pull">A painted line fails gradually, and everyone can see it happening. An electronic one fails at once, and at night.</div>
+
+    <p>So the stripe survives. It survives because it is the cheapest reliable thing on the road, because it degrades honestly, and because after a hundred years of arguments about colour and width and who invented it, nobody has produced a better way to tell a person — or now a camera — where the road goes.</p>
+
+    <p>It taught the world how to drive. It is currently teaching the machines. And you will not think about it again until the next time it rains hard at night and the road, for a few unnerving seconds, stops telling you anything at all.</p>
+
+    <p style="color:#eae6da;font-weight:600;font-size:22px;margin-top:26px">That is when you find out what it was doing.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="colo">Carveyance</div>
+    <div class="notes">Sources: FHWA Highway Statistics Table FI-200; FHWA summary of Musick (1957), <em>Effect of Pavement Edge Marking on Two-Lane Rural State Highways in Ohio</em>; FHWA <em>Evaluation of Wet-Reflective Pavement Markings</em>; FHWA pavement-marking materials guidance and research on marking visibility for automated lane detection; MUTCD history and 11th Edition Part 3; Michigan DOT on Edward Hines; Caltrans on June McCarroll and raised pavement markers; the Dorr Foundation historical record; National Motor Museum and UK patent records on Percy Shaw. Crash-reduction figures are results from specific studied roads and do not guarantee identical outcomes elsewhere. The long-run fatality decline reflects the entire road-safety system, not markings alone.</div>
+    <div>© Carveyance · Editorial feature · Data current to July 2026</div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  if(typeof Chart==="undefined")return;
+  Chart.defaults.font.family="'Overpass Mono', monospace";
+  Chart.defaults.font.size=11.5;
+  Chart.defaults.color="#6e6d68";
+  var YEL="#c9a10e",YELD="#8f7208",RETRO="#1f7f98",RETROL="#6fcfe4",ASPH="#1a1a1d",GREY="#a9a69c";
+
+  // ---- 1. Ohio 1957 ----
+  new Chart(document.getElementById("ohioChart"),{
+    type:"bar",
+    data:{labels:["All crashes","Nighttime crashes","Fatalities & injuries","Access-point crashes"],
+      datasets:[{data:[19,35,37,63],backgroundColor:[GREY,YEL,YELD,ASPH]}]},
+    options:{indexAxis:"y",responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){return " "+c.parsed.x+"% reported reduction"}}}},
+      scales:{x:{grid:{color:"rgba(0,0,0,.07)"},ticks:{color:"#6e6d68",callback:function(v){return v+"%"}},beginAtZero:true},
+        y:{grid:{display:false},ticks:{color:"#6e6d68"}}}}
+  });
+
+  // ---- 2. Wet reflective ----
+  new Chart(document.getElementById("wetChart"),{
+    type:"bar",
+    data:{labels:["All crashes","Wet-road crashes","Nighttime crashes","Injury crashes","Run-off-road crashes"],
+      datasets:[{data:[17.5,24.9,30.4,40.5,46.2],backgroundColor:[GREY,"#7fb8c9","#4f9db3",RETRO,"#155f72"]}]},
+    options:{indexAxis:"y",responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){return " "+c.parsed.x+"% estimated reduction"}}}},
+      scales:{x:{grid:{color:"rgba(0,0,0,.07)"},ticks:{color:"#6e6d68",callback:function(v){return v+"%"}},beginAtZero:true},
+        y:{grid:{display:false},ticks:{color:"#6e6d68"}}}}
+  });
+
+  // ---- 3. Fatality rate 1921-2023 ----
+  var FR = [[1921, 24.08], [1922, 21.95], [1923, 21.02], [1924, 17.55], [1925, 16.98], [1926, 15.77], [1927, 15.44], [1928, 15.36], [1929, 14.97], [1930, 15.12], [1931, 14.79], [1932, 13.95], [1933, 14.83], [1934, 15.88], [1935, 15.09], [1936, 14.33], [1937, 14.0], [1938, 11.46], [1939, 10.83], [1940, 10.89], [1941, 11.43], [1942, 10.07], [1943, 10.92], [1944, 10.89], [1945, 10.71], [1946, 9.35], [1947, 8.41], [1948, 7.73], [1949, 7.13], [1950, 7.24], [1951, 7.19], [1952, 7.03], [1953, 6.65], [1954, 6.03], [1955, 6.06], [1956, 6.05], [1957, 5.73], [1958, 5.32], [1959, 5.17], [1960, 5.06], [1961, 4.92], [1962, 5.08], [1963, 5.18], [1964, 5.39], [1965, 5.3], [1966, 5.5], [1967, 5.35], [1968, 5.29], [1969, 5.18], [1970, 4.85], [1971, 4.57], [1972, 4.41], [1973, 4.2], [1974, 3.6], [1975, 3.43], [1976, 3.25], [1977, 3.26], [1978, 3.26], [1979, 3.34], [1980, 3.35], [1981, 3.17], [1982, 2.76], [1983, 2.58], [1984, 2.58], [1985, 2.47], [1986, 2.51], [1987, 2.41], [1988, 2.32], [1989, 2.17], [1990, 2.08], [1991, 1.91], [1992, 1.75], [1993, 1.75], [1994, 1.73], [1995, 1.73], [1996, 1.69], [1997, 1.65], [1998, 1.58], [1999, 1.55], [2000, 1.53], [2001, 1.51], [2002, 1.51], [2003, 1.48], [2004, 1.44], [2005, 1.46], [2006, 1.42], [2007, 1.35], [2008, 1.25], [2009, 1.15], [2010, 1.11], [2011, 1.1], [2012, 1.14], [2013, 1.1], [2014, 1.08], [2015, 1.15], [2016, 1.19], [2017, 1.17], [2018, 1.14], [2019, 1.11], [2020, 1.34], [2021, 1.38], [2022, 1.34], [2023, 1.26]];
+  var marks = {1935:"First national MUTCD",1942:"Reflectorised markings specified",1953:"Dorr edge-line pilot",1957:"Ohio edge-line study",1971:"Yellow/white colour logic",2022:"Minimum retroreflectivity rule"};
+  var markPlugin = {
+    id:"markPlugin",
+    afterDatasetsDraw:function(chart){
+      var ctx=chart.ctx, xs=chart.scales.x, ys=chart.scales.y;
+      ctx.save();
+      chart.data.labels.forEach(function(lab,i){
+        if(!marks[lab])return;
+        var x=xs.getPixelForValue(i);
+        ctx.beginPath(); ctx.setLineDash([4,4]); ctx.strokeStyle="rgba(31,127,152,.55)"; ctx.lineWidth=1.5;
+        ctx.moveTo(x,ys.top); ctx.lineTo(x,ys.bottom); ctx.stroke();
+        ctx.setLineDash([]);
+        ctx.fillStyle="#1f7f98"; ctx.beginPath(); ctx.arc(x,ys.top+6,3.5,0,6.284); ctx.fill();
+      });
+      ctx.restore();
+    }
+  };
+  new Chart(document.getElementById("fatalChart"),{
+    type:"line",
+    data:{labels:FR.map(function(d){return d[0]}),
+      datasets:[{data:FR.map(function(d){return d[1]}),borderColor:YELD,
+        backgroundColor:"rgba(201,161,14,.13)",fill:true,tension:.2,borderWidth:2.6,
+        pointRadius:0,pointHoverRadius:5,pointHoverBackgroundColor:YELD}]},
+    plugins:[markPlugin],
+    options:{responsive:true,maintainAspectRatio:false,interaction:{mode:"index",intersect:false},
+      plugins:{legend:{display:false},
+        tooltip:{callbacks:{
+          title:function(it){return it[0].label},
+          label:function(c){return " "+c.parsed.y.toFixed(2)+" deaths per 100M vehicle-miles"},
+          afterLabel:function(c){return marks[c.label]?"\u25b8 "+marks[c.label]:""}
+        }}},
+      scales:{y:{grid:{color:"rgba(0,0,0,.07)"},ticks:{color:"#6e6d68"},beginAtZero:true,
+          title:{display:true,text:"Deaths per 100M vehicle-miles",color:"#6e6d68",font:{size:11}}},
+        x:{grid:{display:false},ticks:{color:"#6e6d68",maxTicksLimit:12,autoSkip:true}}}}
+  });
+})();
+</script>
+<footer class="cv-foot"><div class="cv-foot-in"><div class="f-wordmark">CAR<span>VEYANCE</span></div><div>Independent automotive editorial. Written, photographed and published by one person who really likes cars.</div><div><a href="/articles/category/How%20It%20Works">More in How It Works</a> &nbsp;·&nbsp; <a href="/articles/">All articles</a> &nbsp;·&nbsp; <a href="/about/">About</a></div><div>&copy; Carveyance</div></div></footer>
+</body>
+</html>

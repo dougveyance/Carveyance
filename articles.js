@@ -58,6 +58,54 @@ const MOST_READ = [];
 const ARTICLES = [
 
   {
+    slug:      "zenith-bmw-z4-35is",
+    title:     "Zenith",
+    subtitle:  "On the BMW Z4 sDrive35is — and the art of the roadster the world drove past",
+    category:  "Reviews",
+    date:      "2026-07-23",
+    readTime:  "21 min",
+    blurb:     "335 horsepower, a folding hard top and one magnificent excuse to take the long way round. The Boxster won the comparison tests. Time is not convinced.",
+    image:     "/assets/images/zenith-bmw-z4-35is.jpg",
+    featured:  false
+  },
+
+
+  {
+    slug:      "one-wheel-drive",
+    title:     "One-Wheel Drive",
+    subtitle:  "The differential solves cornering, then strands you in two inches of mud",
+    category:  "How It Works",
+    date:      "2026-07-23",
+    readTime:  "19 min",
+    blurb:     "My Volvo 240 got stuck on a wet lawn with one wheel spinning and the other doing nothing. My Cousin Vinny explains why — and a century of engineering has been trying to fix it ever since.",
+    image:     "/assets/images/one-wheel-drive.jpg",
+    featured:  false
+  },
+  {
+    slug:      "tall-short-high-low",
+    title:     "Tall, Short, High, Low",
+    subtitle:  "One gear has four names, and half of them sound like opposites",
+    category:  "How It Works",
+    date:      "2026-07-23",
+    readTime:  "16 min",
+    blurb:     "A 4.10 is called low. A 2.73 is called high. The confusion isn't your fault, the fix is one sentence — and it explains exactly why your 35s made the truck feel gutless.",
+    image:     "/assets/images/tall-short-high-low.jpg",
+    featured:  false
+  },
+  {
+    slug:      "white-lines",
+    title:     "The Lines That Taught the World How to Drive",
+    subtitle:  "How a stripe of paint became a language every driver reads without being taught",
+    category:  "How It Works",
+    date:      "2026-07-23",
+    readTime:  "17 min",
+    blurb:     "Four inches wide, costs almost nothing, and you've stopped seeing it. A watchmaker's problem, a doctor run off the road, a Yorkshireman who got the idea from a cat — and why heavy rain switches it all off.",
+    image:     "/assets/images/white-lines.jpg",
+    featured:  false
+  },
+
+
+  {
     slug:      "all-for-one",
     title:     "All for One",
     subtitle:  "Three American blades take Laguna Seca — and a fourth waits across the water",

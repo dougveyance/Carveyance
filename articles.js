@@ -58,6 +58,32 @@ const MOST_READ = [];
 const ARTICLES = [
 
   {
+    slug:      "twelve-angry-cylinders",
+    title:     "Twelve Angry Cylinders",
+    subtitle:  "Two Kawasaki motorcycle engines. Two gearboxes. One gear lever. No differential.",
+    category:  "Reviews",
+    date:      "2026-07-23",
+    readTime:  "24 min",
+    blurb:     "Franco Sbarro's Super Twelve is the most gloriously ridiculous hot hatch ever built &mdash; the size of a Mini, with twelve cylinders and nothing at all connecting the left half of the car to the right.",
+    image:     "/assets/images/twelve-angry-cylinders.jpg",
+    featured:  false
+  },
+
+
+  {
+    slug:      "ghost-run",
+    title:     "Ghost Run",
+    subtitle:  "An original screenplay — a Lotus Carlton, two Jaguar XJRs, and a Lancia Integrale at dawn",
+    category:  "Short Stories",
+    date:      "2026-07-23",
+    readTime:  "30 min",
+    blurb:     "Lyon, pre-dawn. A man who did four years he didn't earn, the partner who put him there, and six hundred metres of tunnel. In the style of Frankenheimer's Ronin.",
+    image:     "/assets/images/ghost-run.jpg",
+    featured:  false
+  },
+
+
+  {
     slug:      "zenith-bmw-z4-35is",
     title:     "Zenith",
     subtitle:  "On the BMW Z4 sDrive35is — and the art of the roadster the world drove past",

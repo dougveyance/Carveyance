@@ -58,6 +58,18 @@ const MOST_READ = [];
 const ARTICLES = [
 
   {
+    slug:      "the-six-that-got-away",
+    title:     "Half the Number, Twice the Car",
+    subtitle:  "The grey-market 280 SL America was never sold \u2014 half the engine of the 560, and twice the car to drive.",
+    category:  "Reviews",
+    date:      "2026-07-23",
+    readTime:  "12 min",
+    blurb:     "The 560 SL was the one the dealer would sell you \u2014 5.6 liters, effortless, everywhere. The 280 SL was the one they wouldn't: a lighter, revvier, grey-market six that was, to the right kind of driver, exactly twice the car. Half the number. Twice the fun.",
+    image:     "/assets/images/the-six-that-got-away.jpg",
+    featured:  false
+  },
+
+  {
     slug:      "scale-model-warfare",
     title:     "Scale Model Warfare",
     subtitle:  "Two tiny cars, seventy years of rivalry, and the twist where the winner ends up owning the loser.",

@@ -58,6 +58,30 @@ const MOST_READ = [];
 const ARTICLES = [
 
   {
+    slug:      "corner-office-has-a-sliding-door",
+    title:     "The Corner Office Has a Sliding Door",
+    subtitle:  "The luxury van stopped apologizing. Now it wants the throne.",
+    category:  "Opinions",
+    date:      "2026-07-23",
+    readTime:  "18 min",
+    blurb:     "Lexus LM, Buick GL8, Denza D9, Zeekr 009 &mdash; the chauffeur van has quietly become the most interesting luxury vehicle on Earth, and a $37 billion market says the joke is over.",
+    image:     "/assets/images/corner-office-has-a-sliding-door.jpg",
+    featured:  false
+  },
+
+  {
+    slug:      "929-the-number-nobody-remembered",
+    title:     "929: The Number Nobody Remembered",
+    subtitle:  "The car nobody forgot. Mazda's forgotten flagship deserved better.",
+    category:  "Car Culture",
+    date:      "2026-07-23",
+    readTime:  "16 min",
+    blurb:     "Before the Millenia, before Amati folded, Mazda built a rear-drive V6 flagship to chase Lexus &mdash; the 929, a pillarless velvet hammer that almost nobody bought and almost nobody remembers.",
+    image:     "/assets/images/929-the-number-nobody-remembered.jpg",
+    featured:  false
+  },
+
+  {
     slug:      "tuxedo-and-smoking-jacket",
     title:     "The Tuxedo and the Smoking Jacket",
     subtitle:  "Two thoroughbred grand tourers. One built like a bank vault, one built like a seduction.",

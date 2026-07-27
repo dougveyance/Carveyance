@@ -58,6 +58,19 @@ const MOST_READ = [];
 const ARTICLES = [
 
   {
+    slug:      "scale-model-warfare",
+    title:     "Scale Model Warfare",
+    subtitle:  "Two tiny cars, seventy years of rivalry, and the twist where the winner ends up owning the loser.",
+    category:  "Fun Facts",
+    date:      "2026-07-23",
+    readTime:  "23 min",
+    blurb:     "Matchbox built honest little models of real cars. Hot Wheels built weapons for an orange track. The full story of how the underdog ambushed the king \u2014 and how, decades later, Mattel bought Matchbox outright.",
+    image:     "/assets/images/scale-model-warfare.jpg",
+    icon:      "\ud83c\udfce\ufe0f",
+    featured:  false
+  },
+
+  {
     slug:      "born-this-way",
     title:     "Born This Way",
     subtitle:  "A two-year-old, a Barbie event full of grown men, and the real science of why we fall in love with cars.",

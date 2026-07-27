@@ -61,7 +61,7 @@ const ARTICLES = [
     slug:      "freightliner-optimus",
     title:     "Freightliner Optimus",
     subtitle:  "American long-nose or European cab-over? Two trucks, the same job, two radically different faces.",
-    category:  "Car Culture",
+    category:  "Comparisons",
     date:      "2026-07-23",
     readTime:  "26 min",
     blurb:     "The American conventional and the European cab-over do identical work and look like separate species. The reason isn't taste \u2014 it's the laws, roads, and rulebooks that shaped each one. A full anatomy of why trucks look the way they do.",

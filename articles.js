@@ -58,6 +58,19 @@ const MOST_READ = [];
 const ARTICLES = [
 
   {
+    slug:      "her-majesty-drives-herself",
+    title:     "Her Majesty Drives Herself",
+    subtitle:  "Citro\u00ebn bought Maserati, spent nine years in the dark, and built the most advanced car of its century.",
+    category:  "Reviews",
+    date:      "2026-07-24",
+    readTime:  "22 min",
+    blurb:     "Six headlamps, two turns lock to lock, and a Maserati V6 mounted behind the front axle. The SM out-braked everything on earth, won the cruelest rally on the calendar on its debut, and then died of a bumper regulation. Fifty years on it is still the most car you can buy for thirty-five grand.",
+    image:     "/assets/images/her-majesty-drives-herself.jpg",
+    vehicles:  ["Citro\u00ebn SM"],
+    featured:  false
+  },
+
+  {
     slug:      "the-rotary-club",
     title:     "The Rotary Club",
     subtitle:  "Three rotors, two turbos, the world's first GPS touchscreen \u2014 and the worst launch timing in history.",

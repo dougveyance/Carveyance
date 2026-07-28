@@ -66,6 +66,7 @@ const ARTICLES = [
     readTime:  "19 min",
     blurb:     "Mazda's Eunos Cosmo was the only three-rotor road car ever built, wrapped in French elm and a color touchscreen a decade early \u2014 then launched into the exact month Japan's bubble burst. It arrived early, in a tuxedo, to a party that had already been canceled.",
     image:     "/assets/images/the-rotary-club.jpg",
+    vehicles:  ["Mazda Eunos Cosmo"],
     featured:  false
   },
 
@@ -78,6 +79,7 @@ const ARTICLES = [
     readTime:  "14 min",
     blurb:     "The Mazda Cosmo Sport Series I had to work \u2014 once, in public \u2014 or Mazda's whole rotary gamble was dead. It worked. Then it drove 84 hours around the N\u00fcrburgring and finished fourth, beaten only by Porsche and Lancia. The full story of the car that proved the rotary was real.",
     image:     "/assets/images/first-flight.jpg",
+    vehicles:  ["Mazda Cosmo Sport Series I"],
     featured:  false
   },
 
@@ -90,6 +92,7 @@ const ARTICLES = [
     readTime:  "12 min",
     blurb:     "The 560 SL was the one the dealer would sell you \u2014 5.6 liters, effortless, everywhere. The 280 SL was the one they wouldn't: a lighter, revvier, grey-market six that was, to the right kind of driver, exactly twice the car. Half the number. Twice the fun.",
     image:     "/assets/images/the-six-that-got-away.jpg",
+    vehicles:  ["Mercedes-Benz 280 SL", "Mercedes-Benz 560 SL"],
     featured:  false
   },
 
@@ -103,6 +106,7 @@ const ARTICLES = [
     blurb:     "Matchbox built honest little models of real cars. Hot Wheels built weapons for an orange track. The full story of how the underdog ambushed the king \u2014 and how, decades later, Mattel bought Matchbox outright.",
     image:     "/assets/images/scale-model-warfare.jpg",
     icon:      "\ud83c\udfce\ufe0f",
+    vehicles:  ["Matchbox", "Hot Wheels"],
     featured:  false
   },
 
@@ -127,6 +131,7 @@ const ARTICLES = [
     readTime:  "26 min",
     blurb:     "The American conventional and the European cab-over do identical work and look like separate species. The reason isn't taste \u2014 it's the laws, roads, and rulebooks that shaped each one. A full anatomy of why trucks look the way they do.",
     image:     "/assets/images/freightliner-optimus.jpg",
+    vehicles:  ["Kenworth W900", "DAF XF", "Freightliner Cascadia", "Volvo FH", "Scania", "MAN", "Tesla Semi"],
     featured:  false
   },
 
@@ -139,6 +144,7 @@ const ARTICLES = [
     readTime:  "18 min",
     blurb:     "Lexus LM, Buick GL8, Denza D9, Zeekr 009 &mdash; the chauffeur van has quietly become the most interesting luxury vehicle on Earth, and a $37 billion market says the joke is over.",
     image:     "/assets/images/corner-office-has-a-sliding-door.jpg",
+    vehicles:  ["Lexus LM", "Buick GL8", "Denza D9", "Zeekr 009", "Volvo EM90", "Mercedes-Benz VLE"],
     featured:  false
   },
 
@@ -151,6 +157,7 @@ const ARTICLES = [
     readTime:  "16 min",
     blurb:     "Before the Millenia, before Amati folded, Mazda built a rear-drive V6 flagship to chase Lexus &mdash; the 929, a pillarless velvet hammer that almost nobody bought and almost nobody remembers.",
     image:     "/assets/images/929-the-number-nobody-remembered.jpg",
+    vehicles:  ["Mazda 929"],
     featured:  false
   },
 
@@ -163,6 +170,7 @@ const ARTICLES = [
     readTime:  "27 min",
     blurb:     "The Mercedes-Benz R129 SL500 meets the 1998 Jaguar XKR. Germany's order against Britain's romance &mdash; and after six thousand words, no clean winner. There should not be one.",
     image:     "/assets/images/tuxedo-and-smoking-jacket.jpg",
+    vehicles:  ["Mercedes-Benz R129 SL500", "Jaguar XKR"],
     featured:  false
   },
 
@@ -175,6 +183,7 @@ const ARTICLES = [
     readTime:  "24 min",
     blurb:     "Franco Sbarro's Super Twelve is the most gloriously ridiculous hot hatch ever built &mdash; the size of a Mini, with twelve cylinders and nothing at all connecting the left half of the car to the right.",
     image:     "/assets/images/twelve-angry-cylinders.jpg",
+    vehicles:  ["Sbarro Super Twelve"],
     featured:  false
   },
 
@@ -188,6 +197,7 @@ const ARTICLES = [
     readTime:  "30 min",
     blurb:     "Lyon, pre-dawn. A man who did four years he didn't earn, the partner who put him there, and six hundred metres of tunnel. In the style of Frankenheimer's Ronin.",
     image:     "/assets/images/ghost-run.jpg",
+    vehicles:  ["Lotus Carlton", "Jaguar XJR", "Lancia Delta Integrale"],
     featured:  false
   },
 
@@ -201,6 +211,7 @@ const ARTICLES = [
     readTime:  "21 min",
     blurb:     "335 horsepower, a folding hard top and one magnificent excuse to take the long way round. The Boxster won the comparison tests. Time is not convinced.",
     image:     "/assets/images/zenith-bmw-z4-35is.jpg",
+    vehicles:  ["BMW Z4 sDrive35is", "Porsche Boxster"],
     featured:  false
   },
 
@@ -214,6 +225,7 @@ const ARTICLES = [
     readTime:  "19 min",
     blurb:     "My Volvo 240 got stuck on a wet lawn with one wheel spinning and the other doing nothing. My Cousin Vinny explains why — and a century of engineering has been trying to fix it ever since.",
     image:     "/assets/images/one-wheel-drive.jpg",
+    vehicles:  ["Volvo 240"],
     featured:  false
   },
   {
@@ -249,6 +261,7 @@ const ARTICLES = [
     readTime:  "18 min",
     blurb:     "The Dodge Viper GTS ACR, the Ford SVT Mustang Cobra R and Chevrolet's freshly sharpened 405-hp Corvette Z06 go at it on Laguna Seca. Then the gate opens for a Lancer Evo VII.",
     image:     "/assets/images/all-for-one.jpg",
+    vehicles:  ["Dodge Viper GTS ACR", "Ford Mustang Cobra R", "Chevrolet Corvette Z06", "Mitsubishi Lancer Evolution VII"],
     featured:  false
   },
   {
@@ -282,17 +295,19 @@ const ARTICLES = [
     readTime:  "10 min",
     blurb:     "The 1994 Probe GT beat the Prelude, the Eclipse, the Corrado and the MX-6 in a Car and Driver comparison. Then Ford killed it. My first car, and my first article.",
     image:     "/assets/images/a-golden-relic.jpg",
+    vehicles:  ["Ford Probe GT", "Honda Prelude", "Mitsubishi Eclipse", "Volkswagen Corrado", "Mazda MX-6"],
     featured:  false
   },
   {
     slug:      "new-2025-plug-in-hybrid-suvs",
     title:     "New 2025 Plug-In Hybrid SUVs",
-    subtitle:  "Nine plug-in hybrids, weighed on what they actually ask of you",
+    subtitle:  "16 plug-in hybrids, weighed on what they actually ask of you",
     category:  "Reviews",
     date:      "2026-07-19",
     readTime:  "30 min",
-    blurb:     "From the Outlander PHEV to the Wrangler 4xe — nine plug-in hybrid SUVs measured on range, price, practicality, and whether any of them are still fun to drive.",
+    blurb:     "From the Outlander PHEV to the Wrangler 4xe — 16 plug-in hybrid SUVs measured on range, price, practicality, and whether any of them are still fun to drive.",
     image:     "/assets/images/new-2025-plug-in-hybrid-suvs.jpg",
+    vehicles:  ["Mitsubishi Outlander PHEV", "Mercedes-Benz GLE Plug-In Hybrid", "Jeep Grand Cherokee 4xe", "Lexus TX 550", "Ford Escape Plug-In Hybrid", "Mazda CX-70 PHEV", "Toyota RAV4 Prime", "Volvo XC60 Recharge", "Jeep Wrangler 4xe", "Lincoln Corsair Grand Touring", "Dodge Hornet PHEV", "Porsche Cayenne E-Hybrid", "Kia Sportage PHEV", "Hyundai Tucson PHEV", "Kia Sorento Plug-in Hybrid", "Volvo XC90 Recharge"],
     featured:  false
   },
 
@@ -319,6 +334,7 @@ const ARTICLES = [
     readTime:  "30 min",
     blurb:     "The most expensive car ever built made roughly one horsepower, wore tyres woven from piano wire, was designed by a penniless refugee, folded into a spaceship, and is still parked exactly where we left it.",
     image:     "/assets/images/moon-buggy.jpg",
+    vehicles:  ["Apollo Lunar Roving Vehicle"],
     featured:  false
   },
 
@@ -344,6 +360,7 @@ const ARTICLES = [
     readTime:  "15 min",
     blurb:     "How a rented Porsche 911, a two-week budget, and a cigarette company's spare change humiliated the entire factory establishment at the 1978 Monte Carlo Rally.",
     image:     "/assets/images/the-borrowed-crown.jpg",
+    vehicles:  ["Porsche 911"],
     featured:  false
   },
 
@@ -356,6 +373,7 @@ const ARTICLES = [
     readTime:  "16 min",
     blurb:     "It was built to save BMW. Instead it nearly sank the company that made it — and quietly became the most romantic car Munich has ever built.",
     image:     "/assets/images/bmw-507.jpg",
+    vehicles:  ["BMW 507"],
     featured:  false
   },
 
@@ -368,6 +386,7 @@ const ARTICLES = [
     readTime:  "11 min",
     blurb:     "Audi built a lifted, air-sprung, twin-turbo wagon that refused to pick a lane. It was too clever for its own good — and the ones that survived became a cult.",
     image:     "/assets/images/black-swan-allroad.jpg",
+    vehicles:  ["Audi Allroad"],
     featured:  false
   },
 
@@ -380,6 +399,7 @@ const ARTICLES = [
     readTime:  "26 min",
     blurb:     "Three ways to move a car, told through a Citroën, a BMW, and a Subaru — three ways to feel alive, and not one of them is the \"right\" answer.",
     image:     "/assets/images/front-rear-or-all-four.jpg",
+    vehicles:  ["Citroën", "BMW", "Subaru"],
     featured:  false
   },
 
@@ -416,6 +436,7 @@ const ARTICLES = [
     readTime:  "11 min",
     blurb:     "A Tamiya Subaru Brat at the bottom of a Manila swimming pool, a tennis legend, and the marketing decision that made a car company stand for something. Leave your ego and grab a Subaru.",
     image:     "/assets/images/girls-know-best.jpg",
+    vehicles:  ["Subaru Brat"],
     featured:  false
   },
 
@@ -429,6 +450,7 @@ const ARTICLES = [
     readTime:  "10 min",
     blurb:     "A 28-year-old German with 150 acres. A Swiss mad genius with no rules. Boeing 727 landing gear from a crashed plane. A Mercedes V8 with nothing to prove. Either engineering brilliance or complete insanity. Possibly both.",
     image:     "/assets/images/frankenstein-monster-g.jpg",
+    vehicles:  ["Sbarro Monster G"],
     featured:  false
   },
 
@@ -441,6 +463,7 @@ const ARTICLES = [
     readTime:  "16 min",
     blurb:     "She arrived looking as though she had fallen from the sky, floated over France's worst roads, outran an assassination, and was later voted the most beautiful car ever made.",
     image:     "/assets/images/goddess-of-serenity.jpg",
+    vehicles:  ["Citroën DS"],
     featured:  false
   },
 
@@ -453,6 +476,7 @@ const ARTICLES = [
     readTime:  "14 min",
     blurb:     "There are cars that perform. And there are cars that talk back. European-spec, factory sports suspension, air-cooled — a conversation with the 930/03 flat-six, from the driver's seat.",
     image:     "/assets/images/ghost-in-ice-green.jpg",
+    vehicles:  ["Porsche 911 SC Targa"],
     featured:  false
   },
 
@@ -465,6 +489,7 @@ const ARTICLES = [
     readTime:  "21 min",
     blurb:     "Twenty-four years, one vision, and roughly 5,160 cars. What owning the Corniche says about you — and why that still matters.",
     image:     "/assets/images/grey-poupon.jpg",
+    vehicles:  ["Rolls-Royce Corniche"],
     featured:  false
   },
 
@@ -477,6 +502,7 @@ const ARTICLES = [
     readTime:  "19 min",
     blurb:     "On Wranglers, forgotten Japanese runabouts, and why the best things leave you something to do. The Betty Crocker effect, and a generation choosing less.",
     image:     "/assets/images/less-is-more.jpg",
+    vehicles:  ["Jeep Wrangler"],
     featured:  false
   },
 
@@ -502,6 +528,7 @@ const ARTICLES = [
     readTime:  "15 min",
     blurb:     "It slid clean under its own trailer, dazzled the world in 1983, secretly starred in your favorite absurd 80s TV show, and then vanished off the face of the earth. Killed by a single paragraph.",
     image:     "/assets/images/low-and-behold.jpg",
+    vehicles:  ["Steinwinter Supercargo"],
     featured:  false
   },
 
@@ -514,6 +541,7 @@ const ARTICLES = [
     readTime:  "19 min",
     blurb:     "For three he plays, for three he strays, for three he stays. One bloodline across nine lives \u2014 and at its heart, the modern classic that refuses to fade.",
     image:     "/assets/images/nine-lives.jpg",
+    vehicles:  ["Jaguar E-Type", "Jaguar F-Type"],
     featured:  false
   },
 
@@ -526,6 +554,7 @@ const ARTICLES = [
     readTime:  "15 min",
     blurb:     "Hiroshima asked a beautiful question: what if the roof simply rolled back? The most joyful car nobody expected \u2014 and the bubble-era optimism that made it possible.",
     image:     "/assets/images/open-air-mazda-121.jpg",
+    vehicles:  ["Mazda 121"],
     featured:  false
   },
 
@@ -551,6 +580,7 @@ const ARTICLES = [
     readTime:  "21 min",
     blurb:     "The underdog's underrated masterpiece \u2014 the car that survived its maker's near-death, and quite possibly the last truly analog Lotus GT.",
     image:     "/assets/images/simplify-then-add-soul.jpg",
+    vehicles:  ["Lotus Evora"],
     featured:  false
   },
 
@@ -563,6 +593,7 @@ const ARTICLES = [
     readTime:  "55 min",
     blurb:     "Weissach, 1993: an impossible assignment. Save the company, keep the 911, and accept that everyone will resent you for it. The definitive account of the most unfairly maligned 911 ever built.",
     image:     "/assets/images/the-unsung-hero-996.jpg",
+    vehicles:  ["Porsche 996"],
     featured:  false
   },
 
@@ -575,6 +606,7 @@ const ARTICLES = [
     readTime:  "21 min",
     blurb:     "Twelve sensors before anyone else had one. Motorcycle suspension on a street truck. A concept car that refused to stay a concept \u2014 and a designer who was right about ten years too early.",
     image:     "/assets/images/vehicross.jpg",
+    vehicles:  ["Isuzu VehiCROSS"],
     featured:  false
   },
 
@@ -588,6 +620,7 @@ const ARTICLES = [
     readTime:  "16 min",
     blurb:     "One V12, no roof, no doors, and not a single regret \u2014 the maddest, coolest, most gloriously unnecessary Ferrari ever built. And at long last, a home in the Swiss countryside.",
     image:     "/assets/images/topless-beach.jpg",
+    vehicles:  ["Ferrari 365 GTC/4 (Felber Beach Car)"],
     featured:  false
   },
 
@@ -601,6 +634,7 @@ const ARTICLES = [
     readTime:  "14 min",
     blurb:     "On an August night outside Paris: fourteen gunmen, more than 140 bullets, two tires shot out at speed \u2014 and one extraordinary automobile that hauled Charles de Gaulle out alive.",
     image:     "/assets/images/ds-assassination.jpg",
+    vehicles:  ["Citroën DS"],
     featured:  false
   },
 
@@ -613,6 +647,7 @@ const ARTICLES = [
     readTime:  "18 min",
     blurb:     "Grace. Space. Pace. And something in the pocket. The bank robbers wanted one. So did the police \u2014 because nothing else on British roads could catch it.",
     image:     "/assets/images/jaguar-mk2.jpg",
+    vehicles:  ["Jaguar Mark II"],
     featured:  false
   },
 

@@ -381,6 +381,63 @@ a.card{text-decoration:none;color:inherit;display:block}
 }
 .tag:hover,.tag.on{background:var(--steel);color:var(--white)}
 
+/* ── SEARCH ── */
+.nav-search-btn{
+  display:flex;align-items:center;justify-content:center;
+  width:34px;height:34px;border-radius:50%;flex-shrink:0;
+  background:transparent;border:1px solid rgba(255,255,255,.2);
+  color:rgba(255,255,255,.65);cursor:pointer;
+  transition:border-color .2s,color .2s,background .2s;
+}
+.nav-search-btn:hover{border-color:var(--sky);color:var(--sky);background:rgba(78,141,181,.12)}
+.search-overlay{
+  position:fixed;inset:0;z-index:1000;
+  background:rgba(20,24,32,.92);
+  display:none;align-items:flex-start;justify-content:center;
+  padding:9vh 20px 40px;
+}
+.search-overlay.open{display:flex}
+.search-modal{
+  width:100%;max-width:640px;background:var(--white);border-radius:6px;
+  box-shadow:0 30px 80px rgba(0,0,0,.45);overflow:hidden;
+  max-height:80vh;display:flex;flex-direction:column;
+}
+.search-head{padding:22px 24px 16px;border-bottom:1px solid var(--rule);flex-shrink:0}
+.search-input-row{display:flex;align-items:center;gap:12px}
+.search-input-row svg{flex-shrink:0;color:var(--mid)}
+.search-input{
+  width:100%;border:none;outline:none;background:transparent;
+  font-family:'DM Serif Display',serif;font-size:22px;color:var(--ink);
+}
+.search-input::placeholder{color:var(--mid);font-style:italic}
+.search-hint{font-size:11px;letter-spacing:.06em;color:var(--mid);margin-top:10px}
+.search-hint b{color:var(--steel)}
+.search-results{overflow-y:auto;padding:6px 24px 18px}
+.search-count{
+  font-size:10px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--mid);padding:14px 0 4px;
+}
+a.lst-item.search-row{text-decoration:none;color:inherit;padding:14px 0}
+.search-empty{padding:30px 4px;color:var(--mid);font-style:italic;font-size:14px}
+.veh-chip-match{background:var(--steel);color:var(--white)}
+
+/* ── BROWSE BY VEHICLE ── */
+.veh-cols{column-count:3;column-gap:36px}
+@media (max-width:900px){.veh-cols{column-count:2}}
+@media (max-width:600px){.veh-cols{column-count:1}}
+.veh-block{break-inside:avoid;margin-bottom:26px}
+.veh-make{
+  font-family:'Bebas Neue',sans-serif;font-size:14px;letter-spacing:.1em;
+  color:var(--ink);padding-bottom:8px;margin-bottom:10px;
+  border-bottom:2px solid var(--steel);
+}
+a.veh-make-link{
+  display:block;font-family:'Bebas Neue',sans-serif;font-size:14px;letter-spacing:.1em;
+  color:var(--ink);padding-bottom:8px;border-bottom:2px solid var(--steel);
+  text-decoration:none;cursor:pointer;transition:color .2s;
+}
+a.veh-make-link:hover{color:var(--steel)}
+
 /* ── CULTURE STRIP ── */
 .culture{background:var(--cloud);padding:64px 0}
 .cult-grid{
@@ -620,9 +677,26 @@ footer{background:var(--ink);padding:60px 40px 28px}
     <a href="/about/">About</a>
   </div>
   <div class="nav-right">
+    <button class="nav-search-btn" id="search-trigger" aria-label="Search Carveyance" title="Search (press /)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+    </button>
     <a class="nav-pill" href="#submit">✍ Write for Us</a>
   </div>
 </nav>
+
+<!-- SEARCH OVERLAY -->
+<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search Carveyance">
+  <div class="search-modal">
+    <div class="search-head">
+      <div class="search-input-row">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <input type="text" id="search-input" class="search-input" placeholder="Search a headline, or a car — try “Jaguar”" autocomplete="off">
+      </div>
+      <div class="search-hint" id="search-hint">Type a title, or a car — <b>Jaguar</b>, <b>Cosmo</b>, <b>Viper</b> — to find the story.</div>
+    </div>
+    <div class="search-results" id="search-results"></div>
+  </div>
+</div>
 
 <!-- TICKER -->
 <div class="ticker">
@@ -726,6 +800,17 @@ footer{background:var(--ink);padding:60px 40px 28px}
     </div>
   </div>
 </div>
+
+<!-- BROWSE BY VEHICLE -->
+<section class="sec">
+  <div class="wrap">
+    <div class="sec-label">
+      <span class="sec-label-text">Browse by Vehicle</span>
+      <div class="sec-label-line"></div>
+    </div>
+    <div class="veh-cols" id="vehicle-directory"></div>
+  </div>
+</section>
 
 <!-- HOW IT WORKS -->
 <section class="sec hiw" id="sec-hiw">
@@ -931,5 +1016,170 @@ document.querySelectorAll('.nav-center a').forEach(a => {
 </script>
 <script src="/articles.js"></script>
 <script src="/assets/js/carveyance.js"></script>
+<script>
+/* ===== Carveyance search + vehicle directory =====
+   Reads live off the global ARTICLES array from /articles.js.
+   New articles need nothing extra here — as soon as an entry has a
+   `vehicles` field, it's searchable and shows up in the directory below. */
+(function(){
+
+  // Multi-word makes to keep together when splitting "Make Model" strings.
+  // Add to this list if a future vehicle tag uses another two-word make.
+  const MULTI_WORD_MAKES = ['Mercedes-Benz','Rolls-Royce','Land Rover','Aston Martin','Alfa Romeo'];
+
+  // Bare brand-only tags (no specific model) and toy-brand tags are excluded
+  // from the browsable directory — they still work fine as plain search hits,
+  // they just don't get their own directory entry since it'd be a redundant
+  // or non-automotive one-word group.
+  const DIRECTORY_EXCLUDE = new Set(['Matchbox','Hot Wheels','BMW','Citroën','Subaru']);
+
+  function splitVehicle(v){
+    for (const make of MULTI_WORD_MAKES){
+      if (v === make || v.indexOf(make + ' ') === 0){
+        const model = v.slice(make.length).trim();
+        return { make: make, model: model || make };
+      }
+    }
+    const parts = v.split(' ');
+    const make = parts[0];
+    const model = parts.slice(1).join(' ') || make;
+    return { make: make, model: model };
+  }
+
+  function escapeHtml(s){
+    return String(s).replace(/[&<>"']/g, function(c){
+      return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c];
+    });
+  }
+
+  function buildVehicleIndex(){
+    const byMake = {};
+    (window.ARTICLES || []).forEach(function(a){
+      (a.vehicles || []).forEach(function(v){
+        if (DIRECTORY_EXCLUDE.has(v)) return;
+        const split = splitVehicle(v);
+        if (!byMake[split.make]) byMake[split.make] = {};
+        byMake[split.make][split.model] = v;
+      });
+    });
+    return byMake;
+  }
+
+  function renderVehicleDirectory(){
+    const el = document.getElementById('vehicle-directory');
+    if (!el) return;
+    const byMake = buildVehicleIndex();
+    const makes = Object.keys(byMake).sort(function(a,b){ return a.localeCompare(b); });
+
+    el.innerHTML = makes.map(function(make){
+      const models = Object.keys(byMake[make]).sort(function(a,b){ return a.localeCompare(b); });
+      if (models.length === 1 && models[0] === make){
+        const full = byMake[make][models[0]];
+        return '<div class="veh-block"><a href="#" class="veh-make-link" data-query="' +
+          escapeHtml(full) + '">' + escapeHtml(make) + '</a></div>';
+      }
+      const chips = models.map(function(model){
+        const full = byMake[make][model];
+        return '<span class="tag veh-tag" data-query="' + escapeHtml(full) + '">' +
+          escapeHtml(model) + '</span>';
+      }).join('');
+      return '<div class="veh-block"><div class="veh-make">' + escapeHtml(make) +
+        '</div><div class="tags">' + chips + '</div></div>';
+    }).join('');
+  }
+
+  document.addEventListener('click', function(e){
+    const chip = e.target.closest('.veh-tag, .veh-make-link');
+    if (!chip) return;
+    e.preventDefault();
+    openSearch(chip.getAttribute('data-query'));
+  });
+
+  // ---- Search overlay ----
+  const overlay = document.getElementById('search-overlay');
+  const input = document.getElementById('search-input');
+  const resultsEl = document.getElementById('search-results');
+  const hint = document.getElementById('search-hint');
+  const trigger = document.getElementById('search-trigger');
+
+  function openSearch(prefill){
+    if (!overlay) return;
+    overlay.classList.add('open');
+    document.body.style.overflow = 'hidden';
+    input.value = prefill || '';
+    renderResults(input.value);
+    setTimeout(function(){ input.focus(); }, 0);
+  }
+  function closeSearch(){
+    if (!overlay) return;
+    overlay.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  if (trigger) trigger.addEventListener('click', function(){ openSearch(''); });
+  if (overlay) overlay.addEventListener('click', function(e){ if (e.target === overlay) closeSearch(); });
+  document.addEventListener('keydown', function(e){
+    const tag = document.activeElement ? document.activeElement.tagName : '';
+    if (e.key === '/' && overlay && !overlay.classList.contains('open') && tag !== 'INPUT' && tag !== 'TEXTAREA'){
+      e.preventDefault(); openSearch('');
+    } else if (e.key === 'Escape'){
+      closeSearch();
+    }
+  });
+  if (input) input.addEventListener('input', function(e){ renderResults(e.target.value); });
+
+  function matchArticle(a, q){
+    const query = q.toLowerCase();
+    if (a.title.toLowerCase().indexOf(query) !== -1) return { match:true, via:'title' };
+    const vehicles = a.vehicles || [];
+    for (let i = 0; i < vehicles.length; i++){
+      if (vehicles[i].toLowerCase().indexOf(query) !== -1) return { match:true, via:'vehicle', vehicle:vehicles[i] };
+    }
+    if ((a.subtitle||'').toLowerCase().indexOf(query) !== -1) return { match:true, via:'subtitle' };
+    if ((a.blurb||'').toLowerCase().indexOf(query) !== -1) return { match:true, via:'blurb' };
+    if ((a.category||'').toLowerCase().indexOf(query) !== -1) return { match:true, via:'category' };
+    return { match:false };
+  }
+
+  function resultRow(a, r){
+    const vehicles = a.vehicles || [];
+    const chips = vehicles.map(function(v){
+      const isMatch = r.via === 'vehicle' && v === r.vehicle;
+      return '<span class="tag' + (isMatch ? ' veh-chip-match' : '') + '">' + escapeHtml(v) + '</span>';
+    }).join('');
+    return '<a class="lst-item search-row" href="/articles/' + a.slug + '/">' +
+      '<div class="lst-thumb"><img src="' + a.image + '" alt=""></div>' +
+      '<div><div class="lst-cat">' + escapeHtml(a.category) + ' &middot; ' + escapeHtml(a.readTime) + '</div>' +
+      '<div class="lst-hed">' + escapeHtml(a.title) + '</div>' +
+      (chips ? '<div class="tags" style="margin-top:6px">' + chips + '</div>' : '') +
+      '</div></a>';
+  }
+
+  function renderResults(query){
+    const q = (query || '').trim();
+    if (hint) hint.style.display = q ? 'none' : 'block';
+    if (!resultsEl) return;
+    if (!q){ resultsEl.innerHTML = ''; return; }
+
+    const rank = { title:0, vehicle:1, subtitle:2, blurb:3, category:4 };
+    const scored = (window.ARTICLES || [])
+      .map(function(a){ return { a: a, r: matchArticle(a, q) }; })
+      .filter(function(x){ return x.r.match; })
+      .sort(function(x,y){ return rank[x.r.via] - rank[y.r.via]; });
+
+    if (scored.length === 0){
+      resultsEl.innerHTML = '<div class="search-empty">Nothing in the garage matches "' +
+        escapeHtml(q) + '" — try another car or headline word.</div>';
+      return;
+    }
+
+    resultsEl.innerHTML = '<div class="search-count">' + scored.length +
+      ' result' + (scored.length === 1 ? '' : 's') + '</div>' +
+      scored.map(function(x){ return resultRow(x.a, x.r); }).join('');
+  }
+
+  renderVehicleDirectory();
+})();
+</script>
 </body>
 </html>

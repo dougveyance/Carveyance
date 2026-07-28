@@ -58,6 +58,18 @@ const MOST_READ = [];
 const ARTICLES = [
 
   {
+    slug:      "the-rotary-club",
+    title:     "The Rotary Club",
+    subtitle:  "Three rotors, two turbos, the world's first GPS touchscreen \u2014 and the worst launch timing in history.",
+    category:  "Reviews",
+    date:      "2026-07-23",
+    readTime:  "19 min",
+    blurb:     "Mazda's Eunos Cosmo was the only three-rotor road car ever built, wrapped in French elm and a color touchscreen a decade early \u2014 then launched into the exact month Japan's bubble burst. It arrived early, in a tuxedo, to a party that had already been canceled.",
+    image:     "/assets/images/the-rotary-club.jpg",
+    featured:  false
+  },
+
+  {
     slug:      "first-flight",
     title:     "First Flight",
     subtitle:  "343 cars, one impossible engine, and the 84-hour race that made the world believe.",

@@ -58,6 +58,18 @@ const MOST_READ = [];
 const ARTICLES = [
 
   {
+    slug:      "first-flight",
+    title:     "First Flight",
+    subtitle:  "343 cars, one impossible engine, and the 84-hour race that made the world believe.",
+    category:  "Reviews",
+    date:      "2026-07-23",
+    readTime:  "14 min",
+    blurb:     "The Mazda Cosmo Sport Series I had to work \u2014 once, in public \u2014 or Mazda's whole rotary gamble was dead. It worked. Then it drove 84 hours around the N\u00fcrburgring and finished fourth, beaten only by Porsche and Lancia. The full story of the car that proved the rotary was real.",
+    image:     "/assets/images/first-flight.jpg",
+    featured:  false
+  },
+
+  {
     slug:      "the-six-that-got-away",
     title:     "Half the Number, Twice the Car",
     subtitle:  "The grey-market 280 SL America was never sold \u2014 half the engine of the 560, and twice the car to drive.",

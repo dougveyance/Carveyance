@@ -58,6 +58,20 @@ const MOST_READ = [];
 const ARTICLES = [
 
   {
+    slug:      "now-boarding",
+    title:     "Now Boarding",
+    subtitle:  "Seven engineers, one Samsonite, and a pocket-sized engine",
+    category:  "Fun Facts",
+    date:      "2026-07-27",
+    readTime:  "6 min",
+    blurb:     "Mazda gave its engineers a blank brief and a company competition. Seven of them came back with a suitcase that drove. It is the most delightfully absurd vehicle the company ever built \u2014 and the purest expression of what Mazda actually is.",
+    image:     "/assets/images/now-boarding.jpg",
+    icon:      "🧳",
+    vehicles:  ["Mazda Suitcase Car"],
+    featured:  false
+  },
+
+  {
     slug:      "the-king-was-italian",
     title:     "The King Was Italian",
     subtitle:  "Everyone crowns the Golf GTI. They crowned the wrong car.",

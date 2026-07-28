@@ -58,6 +58,33 @@ const MOST_READ = [];
 const ARTICLES = [
 
   {
+    slug:      "the-king-was-italian",
+    title:     "The King Was Italian",
+    subtitle:  "Everyone crowns the Golf GTI. They crowned the wrong car.",
+    category:  "Reviews",
+    date:      "2026-07-26",
+    readTime:  "26 min",
+    blurb:     "Lancia took a boxy 1979 family hatchback, bolted a turbo to it, drove all four wheels, and won six consecutive World Rally Championships \u2014 a record nothing has touched in thirty-four years. The Golf invented the hot hatch. The 205 perfected it. The Integrale went out and proved it.",
+    image:     "/assets/images/the-king-was-italian.jpg",
+    vehicles:  ["Lancia Delta Integrale", "Lancia Delta HF Integrale Evoluzione"],
+    featured:  false
+  },
+
+  {
+    slug:      "the-little-red-elephant",
+    title:     "The Little Red Elephant",
+    subtitle:  "How a club for people who had bought six Lancias became the best badge in motorsport",
+    category:  "Car Culture",
+    date:      "2026-07-25",
+    readTime:  "13 min",
+    blurb:     "AMG was two engineers in an old mill. BMW M was a corporate subsidiary. Lancia HF began as a members\u2019 club \u2014 and then the PR chief\u2019s son founded the racing team behind his own company\u2019s back. The strangest, best origin story any performance division has.",
+    image:     "/assets/images/the-little-red-elephant.jpg",
+    icon:      "🐘",
+    vehicles:  ["Lancia Fulvia HF", "Lancia Delta HF Integrale", "Lancia Stratos HF", "Lancia Rally 037", "Lancia Ypsilon HF"],
+    featured:  false
+  },
+
+  {
     slug:      "her-majesty-drives-herself",
     title:     "Her Majesty Drives Herself",
     subtitle:  "Citro\u00ebn bought Maserati, spent nine years in the dark, and built the most advanced car of its century.",

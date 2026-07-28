@@ -1054,7 +1054,7 @@ document.querySelectorAll('.nav-center a').forEach(a => {
 
   function buildVehicleIndex(){
     const byMake = {};
-    (window.ARTICLES || []).forEach(function(a){
+    (typeof ARTICLES !== 'undefined' ? ARTICLES : []).forEach(function(a){
       (a.vehicles || []).forEach(function(v){
         if (DIRECTORY_EXCLUDE.has(v)) return;
         const split = splitVehicle(v);
@@ -1162,7 +1162,7 @@ document.querySelectorAll('.nav-center a').forEach(a => {
     if (!q){ resultsEl.innerHTML = ''; return; }
 
     const rank = { title:0, vehicle:1, subtitle:2, blurb:3, category:4 };
-    const scored = (window.ARTICLES || [])
+    const scored = (typeof ARTICLES !== 'undefined' ? ARTICLES : [])
       .map(function(a){ return { a: a, r: matchArticle(a, q) }; })
       .filter(function(x){ return x.r.match; })
       .sort(function(x,y){ return rank[x.r.via] - rank[y.r.via]; });

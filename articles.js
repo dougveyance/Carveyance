@@ -58,6 +58,31 @@ const MOST_READ = [];
 const ARTICLES = [
 
   {
+    slug:      "decades-in-a-second",
+    title:     "Decades in a Second",
+    subtitle:  "What a car badge is actually telling you, and why you read it first",
+    category:  "Car Culture",
+    date:      "2026-07-28",
+    readTime:  "19 min",
+    blurb:     "Two centimeters of enamel can carry a war memorial, a merger, a medieval coat of arms or a gear tooth \u2014 and you decode it before you have consciously looked at the car. Eleven badges, and where they really came from.",
+    image:     "/assets/images/decades-in-a-second.jpg",
+    featured:  false
+  },
+
+  {
+    slug:      "herringbone",
+    title:     "Herringbone",
+    subtitle:  "Everyone else picked an animal. Citro\u00ebn picked a gear tooth.",
+    category:  "How It Works",
+    date:      "2026-07-28",
+    readTime:  "9 min",
+    blurb:     "The double chevron is not a metaphor. It is a drawing of a real gear that Andr\u00e9 Citro\u00ebn bought the rights to in 1900 \u2014 and it explains the whole company, from the Traction Avant to the DS.",
+    image:     "/assets/images/herringbone.jpg",
+    vehicles:  ["Citro\u00ebn Traction Avant", "Citro\u00ebn 2CV", "Citro\u00ebn DS", "Citro\u00ebn SM"],
+    featured:  false
+  },
+
+  {
     slug:      "now-boarding",
     title:     "Now Boarding",
     subtitle:  "Seven engineers, one Samsonite, and a pocket-sized engine",

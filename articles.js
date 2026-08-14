@@ -58,6 +58,18 @@ const MOST_READ = [];
 const ARTICLES = [
 
   {
+    slug:      "spite-is-the-wrong-word",
+    title:     "Spite Is the Wrong Word",
+    subtitle:  "The Porsche 968 Club Sport, the 968 Turbo S, and a company too broke to sell you its best cars",
+    category:  "Car Culture",
+    date:      "2026-08-14",
+    readTime:  "20 min",
+    blurb:     "Everybody told Porsche the 968 was a warmed-over 944 nobody asked for. Porsche's answer was to build the two best-driving cars it made that decade \u2014 and then decline, almost entirely, to sell them to you.",
+    image:     "/assets/images/spite-is-the-wrong-word.jpg",
+    featured:  false
+  },
+
+  {
     slug:      "auf-wiedersehen-928",
     title:     "Auf Wiedersehen, 928",
     subtitle:  "The Porsche 928 GTS and the long defeat of the best car Stuttgart ever built",

@@ -58,6 +58,32 @@ const MOST_READ = [];
 const ARTICLES = [
 
   {
+    slug:      "ahead-of-the-applause",
+    title:     "Ahead of the Applause",
+    subtitle:  "The Infiniti FX45, and a company that keeps being punished for going first",
+    category:  "Reviews",
+    date:      "2026-08-14",
+    readTime:  "15 min",
+    blurb:     "A sports car in SUV clothing, sold years before the market invented the category. It was quicker than an X5 4.6is, pulled 0.87 g, and was undercut in its own showroom by a V6 that was one second slower and nine thousand dollars cheaper.",
+    vehicles:  ["Infiniti FX45", "Infiniti FX35", "Infiniti FX50", "Infiniti FX37", "Infiniti QX70", "Infiniti Q45", "Infiniti M45", "Infiniti G35", "Nissan 350Z"],
+    image:     "/assets/images/ahead-of-the-applause.jpg",
+    featured:  false
+  },
+
+  {
+    slug:      "when-the-engineers-won",
+    title:     "When the Engineers Won",
+    subtitle:  "The BMW Z3 M Coupe and the Z4 M Coupe",
+    category:  "Reviews",
+    date:      "2026-08-14",
+    readTime:  "33 min",
+    blurb:     "Practical cars made absurd and absurd cars made useful \u2014 and the best argument I know for handing a budget to people who actually care. The Clown Shoe, its sharper successor, and the shared six that makes both of them worth the trouble.",
+    vehicles:  ["BMW Z3 M Coupe", "BMW Z4 M Coupe", "BMW Z3 M Roadster", "BMW Z3", "BMW Z4", "BMW M3", "BMW Z4 M Coupe GT3"],
+    image:     "/assets/images/when-the-engineers-won.jpg",
+    featured:  false
+  },
+
+  {
     slug:      "three-dials-and-a-swing-gate",
     title:     "Three Dials and a Swing Gate",
     subtitle:  "Mitsubishi Pajero / Montero vs. Isuzu Trooper",

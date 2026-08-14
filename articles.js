@@ -58,6 +58,19 @@ const MOST_READ = [];
 const ARTICLES = [
 
   {
+    slug:      "three-dials-and-a-swing-gate",
+    title:     "Three Dials and a Swing Gate",
+    subtitle:  "Mitsubishi Pajero / Montero vs. Isuzu Trooper",
+    category:  "Comparisons",
+    date:      "2026-08-14",
+    readTime:  "32 min",
+    blurb:     "Two square, honest, unkillable Japanese 4x4s that solved the same problem in different ways, outlasted almost everything that laughed at them, and then quietly disappeared. One of them is coming back this autumn. The other should have.",
+    vehicles:  ["Mitsubishi Pajero", "Mitsubishi Montero", "Mitsubishi Shogun", "Mitsubishi Pajero Evolution", "Isuzu Trooper", "Isuzu Bighorn", "Acura SLX", "Opel Monterey", "Holden Jackaroo"],
+    image:     "/assets/images/three-dials-and-a-swing-gate.jpg",
+    featured:  false
+  },
+
+  {
     slug:      "spite-is-the-wrong-word",
     title:     "Spite Is the Wrong Word",
     subtitle:  "The Porsche 968 Club Sport, the 968 Turbo S, and a company too broke to sell you its best cars",

@@ -65,6 +65,7 @@ const ARTICLES = [
     date:      "2026-08-14",
     readTime:  "20 min",
     blurb:     "Everybody told Porsche the 968 was a warmed-over 944 nobody asked for. Porsche's answer was to build the two best-driving cars it made that decade \u2014 and then decline, almost entirely, to sell them to you.",
+    vehicles:  ["Porsche 968", "Porsche 968 Club Sport", "Porsche 968 Turbo S", "Porsche 968 Turbo RS", "Porsche 924", "Porsche 944"],
     image:     "/assets/images/spite-is-the-wrong-word.jpg",
     featured:  false
   },
@@ -77,6 +78,7 @@ const ARTICLES = [
     date:      "2026-08-14",
     readTime:  "28 min",
     blurb:     "Porsche built a car to replace the 911. The 911 declined to be replaced. Eighteen years and 61,056 cars later, the GTS walked out of Zuffenhausen as the finest grand tourer Stuttgart ever built \u2014 and almost nobody bought it.",
+    vehicles:  ["Porsche 928", "Porsche 928 S", "Porsche 928 S4", "Porsche 928 GT", "Porsche 928 GTS"],
     image:     "/assets/images/auf-wiedersehen-928.jpg",
     featured:  false
   },

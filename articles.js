@@ -58,6 +58,18 @@ const MOST_READ = [];
 const ARTICLES = [
 
   {
+    slug:      "auf-wiedersehen-928",
+    title:     "Auf Wiedersehen, 928",
+    subtitle:  "The Porsche 928 GTS and the long defeat of the best car Stuttgart ever built",
+    category:  "Reviews",
+    date:      "2026-08-14",
+    readTime:  "28 min",
+    blurb:     "Porsche built a car to replace the 911. The 911 declined to be replaced. Eighteen years and 61,056 cars later, the GTS walked out of Zuffenhausen as the finest grand tourer Stuttgart ever built \u2014 and almost nobody bought it.",
+    image:     "/assets/images/auf-wiedersehen-928.jpg",
+    featured:  false
+  },
+
+  {
     slug:      "decades-in-a-second",
     title:     "Decades in a Second",
     subtitle:  "What a car badge is actually telling you, and why you read it first",

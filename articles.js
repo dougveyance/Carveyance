@@ -58,6 +58,32 @@ const MOST_READ = [];
 const ARTICLES = [
 
   {
+    slug:      "queen-of-the-road",
+    title:     "Queen of the Road",
+    subtitle:  "The Citro\u00ebn Traction Avant \u2014 the car that invented normal",
+    category:  "Car Culture",
+    date:      "2026-08-17",
+    readTime:  "28 min",
+    blurb:     "It bankrupted its company, killed its founder, served the Gestapo and the Resistance in the same week, and then \u2014 twenty-five years later \u2014 its gearbox casing won a Formula One World Championship. The most influential car almost nobody outside France talks about.",
+    vehicles:  ["Citro\u00ebn Traction Avant", "Citro\u00ebn 7CV", "Citro\u00ebn 11CV", "Citro\u00ebn 15-Six", "Citro\u00ebn DS", "Citro\u00ebn 2CV", "Cord L-29", "Cooper T51", "Cooper T53"],
+    image:     "/assets/images/queen-of-the-road.jpg",
+    featured:  false
+  },
+
+  {
+    slug:      "the-middle-child",
+    title:     "The Middle Child",
+    subtitle:  "In defense of the 1989 Mazda Savanna RX-7 \u2014 the FC3S",
+    category:  "Reviews",
+    date:      "2026-08-17",
+    readTime:  "24 min",
+    blurb:     "Everyone remembers the FD. Everyone romanticizes the first one. The car in the middle borrowed a Porsche's suit, hid an engine nobody else was mad enough to build, and spent thirty-five years being called derivative by people who never drove it.",
+    vehicles:  ["Mazda RX-7", "Mazda RX-7 FC3S", "Mazda Savanna RX-7", "Mazda RX-7 Turbo II", "Mazda RX-7 GTU", "Mazda RX-7 Anfini", "Mazda RX-7 FD", "Mazda RX-8", "Mazda Cosmo", "Porsche 944", "Toyota Supra", "Nissan 300ZX"],
+    image:     "/assets/images/the-middle-child.jpg",
+    featured:  false
+  },
+
+  {
     slug:      "ahead-of-the-applause",
     title:     "Ahead of the Applause",
     subtitle:  "The Infiniti FX45, and a company that keeps being punished for going first",

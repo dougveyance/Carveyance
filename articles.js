@@ -57,6 +57,18 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    slug: "the-empty-drivers-seat",
+    title: "The Cars Drive Themselves Now. The Fight Is Over What Comes Next.",
+    subtitle: "Inside Waymo \u2014 the empty driver's seat, the money losing it, and what it does to everyone who builds cars",
+    category: "How It Works",
+    date: "2026-08-18",
+    readTime: "19 min",
+    blurb: "Half a million rides a week with nobody at the wheel, and billions of dollars a year in losses. How the Waymo Driver actually sees the road, why you cannot buy a share of it, why the carmakers are quietly becoming suppliers \u2014 and why every purpose-built robotaxi on earth is turning into a minivan.",
+    image: "/assets/images/the-empty-drivers-seat.jpg",
+    vehicles: ["Jaguar I-PACE", "Zeekr Ojai"],
+    featured: false
+  },
+  {
     slug: "home-by-bedtime",
     title: "Home by Bedtime",
     subtitle: "The best-selling car in America has no engine, no windows, and a horn that has never once worked",

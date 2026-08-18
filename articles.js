@@ -57,6 +57,42 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    slug: "the-ford-america-will-not-sell-you",
+    title: "The Ford America Will Not Sell You",
+    subtitle: "And the tariff math that finally decides it",
+    category: "Opinions",
+    date: "2026-08-18",
+    readTime: "24 min",
+    blurb: "Ford builds a body-on-frame, seven-seat, 7,700-pound-towing SUV on the same chassis as the Ranger and the Bronco. It won Australia's car of the year, the French Army bought four thousand of them, and a left-hand-drive one was photographed in Detroit this February with emissions hardware and no camouflage. Why you still cannot have it — and why the reason has changed.",
+    image: "/assets/images/the-ford-america-will-not-sell-you.jpg",
+    vehicles: ["Ford Everest", "Ford Everest Tremor", "Ford Ranger", "Ford Bronco", "Ford Explorer", "Toyota 4Runner", "Toyota Land Cruiser", "Volkswagen Amarok"],
+    featured: false
+  },
+  {
+    slug: "the-segment-america-never-got",
+    title: "The Segment America Never Got",
+    subtitle: "Six seven-seat ladder-frame 4x4 wagons — and the reigning champion of a class you have never been offered",
+    category: "Comparisons",
+    date: "2026-08-18",
+    readTime: "34 min",
+    blurb: "Somewhere between the Wrangler and the Suburban sits an entire category of vehicle the rest of the world takes for granted: body-on-frame, seven seats, 7,716 pounds of towing, built to last two decades. It has its own bestsellers and its own decades-long grudges. Not one of them has ever been sold in the United States.",
+    image: "/assets/images/the-segment-america-never-got.jpg",
+    vehicles: ["Ford Everest", "Toyota Land Cruiser Prado", "Isuzu MU-X", "Toyota Fortuner", "Mitsubishi Pajero Sport", "GWM Tank 500", "Toyota 4Runner"],
+    featured: false
+  },
+  {
+    slug: "everything-is-two-cars",
+    title: "Everything Is Two Cars",
+    subtitle: "America invented the pickup, walled it off in 1964, and has been coasting ever since",
+    category: "Car Culture",
+    date: "2026-08-18",
+    readTime: "38 min",
+    blurb: "The Volkswagen is a Ford. The Mazda is an Isuzu. The Nissan is a Mitsubishi. Outside North America almost every pickup is two or three vehicles wearing different faces — and it started with a 1964 tariff on frozen chicken that nobody has ever repealed. Inside the world's most competitive truck market, and the wall that keeps it out of America.",
+    image: "/assets/images/everything-is-two-cars.jpg",
+    vehicles: ["Ford Ranger", "Volkswagen Amarok", "Toyota HiLux", "Isuzu D-Max", "Mazda BT-50", "Mitsubishi Triton", "Nissan Navara", "BYD Shark 6", "GWM Cannon", "Kia Tasman", "Mercedes-Benz X-Class", "Toyota Tacoma", "Chevrolet Colorado"],
+    featured: false
+  },
+  {
     slug: "cheapest-car-in-the-fight",
     title: "The Cheapest Car in the Fight Won the Only Part That Mattered",
     subtitle: "The Mazda Prot\u00e9g\u00e9 MP3, the MazdaSpeed Prot\u00e9g\u00e9, and the case for building the cheap one that handles",

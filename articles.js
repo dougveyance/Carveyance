@@ -56,7 +56,31 @@
 const MOST_READ = [];
 
 const ARTICLES = [
-
+  {
+    slug: "home-by-bedtime",
+    title: "Home by Bedtime",
+    subtitle: "The best-selling car in America has no engine, no windows, and a horn that has never once worked",
+    category: "Fun Facts",
+    date: "2026-08-17",
+    readTime: "11 min",
+    blurb: "It outsold the Camry. It outsold the Accord. It has moved more than twenty million units and brought more joy than any vehicle ever built \u2014 and the man who drew it never rode in a car as a child. A love letter to the Little Tikes Cozy Coupe.",
+    image: "/assets/images/home-by-bedtime.jpg",
+    icon: "\ud83d\ude97",
+    vehicles: ["Little Tikes Cozy Coupe"],
+    featured: false
+  },
+  {
+    slug: "the-three-row-hot-rod",
+    title: "The Three-Row Hot Rod That Refused to Die",
+    subtitle: "How the Dodge Durango outlived every rival that read the room and left",
+    category: "Car Culture",
+    date: "2026-08-17",
+    readTime: "19 min",
+    blurb: "Three generations, one awkward second act, and a supercharged V8 nobody sensible would have approved. The Durango is ancient, thirsty and out of step \u2014 and it just posted its best sales year since 2005 while carrying almost the entire Dodge brand on its back.",
+    image: "/assets/images/the-three-row-hot-rod.jpg",
+    vehicles: ["Dodge Durango", "Dodge Durango SRT Hellcat", "Dodge Durango R/T", "Dodge Dakota"],
+    featured: false
+  },
   {
     slug:      "queen-of-the-road",
     title:     "Queen of the Road",

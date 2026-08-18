@@ -57,6 +57,30 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    slug: "the-other-german",
+    title: "The Other German",
+    subtitle: "Why the Mercedes-AMG GT might be the smarter buy — and the bigger future classic — than the 911",
+    category: "Opinions",
+    date: "2026-08-18",
+    readTime: "16 min",
+    blurb: "The 911 is the greatest sports car ever built, and that is exactly the problem: Porsche builds so many of them that the used market never runs dry. The first-generation AMG GT is the last rear-drive, two-seat, hand-built V8 AMG there will ever be, it is sitting at the bottom of its curve, and the air-cooled 993 took twenty years to climb. Plus the three cars people keep offering instead, and what each one reveals.",
+    image: "/assets/images/the-other-german.jpg",
+    vehicles: ["Mercedes-AMG GT", "Mercedes-AMG GT S", "Mercedes-AMG GT R", "Porsche 911", "Porsche 993", "Porsche 997", "Audi R8", "Lexus LC 500", "Bentley Continental GT", "Mercedes-Benz 300 SL", "Mercedes-Benz SL 55 AMG", "Mercedes-Benz SLR McLaren", "Aston Martin Vantage"],
+    featured: false
+  },
+  {
+    slug: "three-cylinders-no-apologies",
+    title: "Three Cylinders, No Apologies",
+    subtitle: "The BMW i8 Roadster was built to make an argument, not to win a drag race",
+    category: "Opinions",
+    date: "2026-08-18",
+    readTime: "12 min",
+    blurb: "It looks like it arrived from 2035 and got stuck here, and for that alone the world decided it was a fraud. It wasn't — every dramatic gesture on the car is load-bearing. Seven years on, 3,884 Roadsters exist, the depreciation has finished, and the only thing standing between you and one is a battery bill nobody can price. The case for, and the case against.",
+    image: "/assets/images/three-cylinders-no-apologies.jpg",
+    vehicles: ["BMW i8", "BMW i8 Roadster", "Porsche Taycan", "Porsche Taycan Sport Turismo", "Acura NSX", "BMW i3"],
+    featured: false
+  },
+  {
     slug: "the-ford-america-will-not-sell-you",
     title: "The Ford America Will Not Sell You",
     subtitle: "And the tariff math that finally decides it",

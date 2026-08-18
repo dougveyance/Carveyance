@@ -57,6 +57,30 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    slug: "cheapest-car-in-the-fight",
+    title: "The Cheapest Car in the Fight Won the Only Part That Mattered",
+    subtitle: "The Mazda Prot\u00e9g\u00e9 MP3, the MazdaSpeed Prot\u00e9g\u00e9, and the case for building the cheap one that handles",
+    category: "Car Culture",
+    date: "2026-08-18",
+    readTime: "13 min",
+    blurb: "Road & Track invited an $18,500 Mazda sedan to a best-handling shootout against a Ferrari 360 Modena, a 911 Turbo and a Corvette Z06 \u2014 and nobody was joking. It finished dead last to sixty against ten cheap cars, then won the slalom and set the fastest lap. A turbocharger, a Le Mans badge, a color called Spicy Orange, and a polite note to the Mazda of today.",
+    image: "/assets/images/cheapest-car-in-the-fight.jpg",
+    vehicles: ["Mazda Prot\u00e9g\u00e9 MP3", "Mazda MazdaSpeed Prot\u00e9g\u00e9", "Mazda Prot\u00e9g\u00e9", "Mazda Prot\u00e9g\u00e95"],
+    featured: false
+  },
+  {
+    slug: "backward-as-fast-as-forward",
+    title: "The Little Dutch Car That Went Backward As Fast As It Went Forward",
+    subtitle: "DAF's Variomatic was a mechanical computer made of springs, suction and rubber \u2014 and the first CVT anyone could actually buy",
+    category: "How It Works",
+    date: "2026-08-18",
+    readTime: "17 min",
+    blurb: "Two belts, no gears, and a control system with no electronics in it anywhere. It embarrassed works rally teams across Asia, spawned a Dutch national sport of racing in reverse, and got itself specifically named and banned by Formula One. You have probably never driven one. You have almost certainly driven its grandchildren.",
+    image: "/assets/images/backward-as-fast-as-forward.jpg",
+    vehicles: ["DAF 600", "DAF 750", "DAF Daffodil", "DAF 44", "DAF 55", "DAF 66", "Volvo 66", "Volvo 343"],
+    featured: false
+  },
+  {
     slug: "the-empty-drivers-seat",
     title: "The Cars Drive Themselves Now. The Fight Is Over What Comes Next.",
     subtitle: "Inside Waymo \u2014 the empty driver's seat, the money losing it, and what it does to everyone who builds cars",

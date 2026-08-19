@@ -57,6 +57,42 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    slug: "sliding-doors",
+    title: "Sliding Doors",
+    subtitle: "The Mazda5 was the right car in the wrong timeline",
+    category: "Opinions",
+    date: "2026-08-19",
+    readTime: "22 min",
+    blurb: "Six seats, two sliding doors, a Mazda3 underneath and an available manual. America wanted no part of it. Twenty years on the formula reads like a car somebody would launch on purpose \u2014 and you can buy one for about seven thousand dollars.",
+    image: "/assets/images/sliding-doors.jpg",
+    vehicles: ["Mazda5", "Mazda Premacy", "Mazda3", "Nissan Lafesta", "Ford i-Max"],
+    featured: false
+  },
+  {
+    slug: "the-happy-medium",
+    title: "The Happy Medium",
+    subtitle: "The Mazda Proteg\u00e95 sat between a hot sedan and a turbocharged one, and quietly beat both",
+    category: "Reviews",
+    date: "2026-08-19",
+    readTime: "19 min",
+    blurb: "Edmunds' editors scored its styling a perfect ten and put it first in braking, steering, tires and fun to drive \u2014 then recommended the Toyota instead. Twenty-three years later only one of those answers looks like it aged well, and the winner costs about five thousand dollars.",
+    image: "/assets/images/the-happy-medium.jpg",
+    vehicles: ["Mazda Proteg\u00e95", "Mazda Proteg\u00e9", "Mazdaspeed Proteg\u00e9", "Mazda MP3", "Mazda3", "Mazda5"],
+    featured: false
+  },
+  {
+    slug: "dealt-in",
+    title: "Dealt In",
+    subtitle: "How the Ace Trump Game dealt me a lifelong obsession with cars",
+    category: "Short Stories",
+    date: "2026-08-19",
+    readTime: "17 min",
+    blurb: "Thirty-two cards, a few photographs and several columns of numbers, played across fifteen-hour flights until the deck stopped being random. Before configurators and spec sheets on tap, this is where the knowledge came from.",
+    image: "/assets/images/dealt-in.jpg",
+    vehicles: ["Porsche 917", "Porsche 928", "Porsche 911 Turbo", "Porsche 924", "Lamborghini Countach", "Maserati Khamsin", "BMW M1", "BMW 635 CSi", "Mercedes-Benz 500 SL", "McLaren M20", "Honda CBX 550"],
+    featured: false
+  },
+  {
     slug: "the-other-german",
     title: "The Other German",
     subtitle: "Why the Mercedes-AMG GT might be the smarter buy — and the bigger future classic — than the 911",

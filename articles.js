@@ -57,6 +57,56 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    slug:      "the-deterrent",
+    title:     "The Deterrent",
+    subtitle:  "Part One \u2014 nature invented deterrence, and the car industry got it almost entirely wrong",
+    category:  "How It Works",
+    date:      "2026-08-22",
+    readTime:  "13 min",
+    blurb:     "The porcupine injures, the skunk repels, the king snake bluffs. A century of sirens, steel bars and flashing lights managed none of the three \u2014 and the Club's own packaging carried a direct shot at the car alarm: \u201cNo false alarms.\u201d Part one of two.",
+    image:     "/assets/images/the-deterrent.jpg",
+    featured:  false
+  },
+
+  {
+    slug:      "the-quiet-chip",
+    title:     "The Quiet Chip",
+    subtitle:  "Part Two \u2014 the fix nobody noticed",
+    category:  "How It Works",
+    date:      "2026-08-22",
+    readTime:  "13 min",
+    blurb:     "American car theft fell eighty percent and stayed down for thirty years, and for most of that time nobody could explain it. Not policing, not prison, not demographics, not the economy \u2014 a grain of rice in a plastic key, with no battery, no moving parts and no sound.",
+    image:     "/assets/images/the-quiet-chip.jpg",
+    vehicles:  ["Pontiac Firebird Trans Am", "Chevrolet Camaro IROC-Z", "Ford Mustang"],
+    featured:  false
+  },
+
+  {
+    slug:      "dying-star",
+    title:     "Dying Star",
+    subtitle:  "A field guide to buying a unicorn with an expiry date",
+    category:  "Reviews",
+    date:      "2026-08-21",
+    readTime:  "28 min",
+    blurb:     "Polestar has been shown the door in America. The carbon-bodied, 619-horsepower coupe it named itself after is still here, still magnificent, and now costs less than a well-optioned pickup. Charts against the i8, the LC 500h and the M8, a Los Angeles\u2013Vegas range map that lands between the car's own two honest numbers, and a 60/40 verdict.",
+    image:     "/assets/images/dying-star.jpg",
+    vehicles:  ["Polestar 1", "BMW i8", "Lexus LC 500h", "BMW M8 Competition", "Polestar 2"],
+    featured:  false
+  },
+
+  {
+    slug:      "clean-racing",
+    title:     "Clean Racing",
+    subtitle:  "Ninety-three years of the Soap Box Derby",
+    category:  "Car Culture",
+    date:      "2026-08-20",
+    readTime:  "20 min",
+    blurb:     "The most famous race nobody can name \u2014 and the one rule nobody has ever been able to engineer around. Gravity is the only engine, which has never once stopped anyone from cheating.",
+    image:     "/assets/images/clean-racing.jpg",
+    featured:  false
+  },
+
+  {
     slug: "sliding-doors",
     title: "Sliding Doors",
     subtitle: "The Mazda5 was the right car in the wrong timeline",

@@ -57,6 +57,32 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    slug:      "seventy-dollars-apart",
+    title:     "Seventy Dollars Apart",
+    subtitle:  "The 2013 BMW 135is, and the rounding error that decided its life",
+    category:  "Reviews",
+    date:      "2026-08-26",
+    readTime:  "25 min",
+    blurb:     "The hottest 1 Series cost seventy dollars more than a brand-new 335i sedan. Almost everybody took the sedan \u2014 and they were right to, which is precisely why only about eight hundred of the other one reached North America. The pricing trap, the sales collapse, the convertible almost nobody road-tested, and what they cost now.",
+    image:     "/assets/images/seventy-dollars-apart.jpg",
+    vehicles:  ["BMW 135is", "BMW 135i", "BMW 128i", "BMW 1 Series M Coupe", "BMW 335i", "BMW 328i", "BMW M3", "BMW M2", "BMW 2 Series"],
+    featured:  false
+  },
+
+  {
+    slug:      "homage-by-accident",
+    title:     "Homage by Accident",
+    subtitle:  "Nobody at BMW set out to build the car enthusiasts had been asking for",
+    category:  "Opinions",
+    date:      "2026-08-25",
+    readTime:  "18 min",
+    blurb:     "BMW built a small car to chase the Audi A3, kept it rear-wheel drive out of sheer stubbornness, then let the M division raid the parts bin after hours. The company itself invoked the E30 and benchmarked the E46 \u2014 but the timeline that makes the 1M a corrective does not survive contact with the evidence.",
+    image:     "/assets/images/homage-by-accident.jpg",
+    vehicles:  ["BMW 1 Series M Coupe", "BMW 1 Series", "BMW 135is", "BMW M3", "BMW M2", "BMW 2002", "BMW Z3 M Coupe", "Audi A3"],
+    featured:  false
+  },
+
+  {
     slug:      "the-deterrent",
     title:     "The Deterrent",
     subtitle:  "Part One \u2014 nature invented deterrence, and the car industry got it almost entirely wrong",

@@ -57,28 +57,40 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
-    slug:      "seventy-dollars-apart",
-    title:     "Seventy Dollars Apart",
-    subtitle:  "The 2013 BMW 135is, and the rounding error that decided its life",
-    category:  "Reviews",
-    date:      "2026-08-26",
-    readTime:  "25 min",
-    blurb:     "The hottest 1 Series cost seventy dollars more than a brand-new 335i sedan. Almost everybody took the sedan \u2014 and they were right to, which is precisely why only about eight hundred of the other one reached North America. The pricing trap, the sales collapse, the convertible almost nobody road-tested, and what they cost now.",
-    image:     "/assets/images/seventy-dollars-apart.jpg",
-    vehicles:  ["BMW 135is", "BMW 135i", "BMW 128i", "BMW 1 Series M Coupe", "BMW 335i", "BMW 328i", "BMW M3", "BMW M2", "BMW 2 Series"],
+    slug:      "stand-ins-for-the-living",
+    title:     "Stand-Ins for the Living",
+    subtitle:  "Part One \u2014 the crash test dummy, and the dead who came before it",
+    category:  "How It Works",
+    date:      "2026-08-22",
+    readTime:  "21 min",
+    blurb:     "Every seatbelt, airbag and padded dashboard in your car was paid for, first, by somebody else's body. Before the dummy there was an elevator shaft in Detroit, a colonel who rode a rocket sled past 620 mph and detached both retinas, and a professor who took four hundred rides using himself as the instrument. Part one of three.",
+    image:     "/assets/images/stand-ins-for-the-living.jpg",
     featured:  false
   },
 
   {
-    slug:      "homage-by-accident",
-    title:     "Homage by Accident",
-    subtitle:  "Nobody at BMW set out to build the car enthusiasts had been asking for",
-    category:  "Opinions",
-    date:      "2026-08-25",
+    slug:      "the-second-collision",
+    title:     "The Second Collision",
+    subtitle:  "Part Two \u2014 how the car learned to save us",
+    category:  "How It Works",
+    date:      "2026-08-22",
     readTime:  "18 min",
-    blurb:     "BMW built a small car to chase the Audi A3, kept it rear-wheel drive out of sheer stubbornness, then let the M division raid the parts bin after hours. The company itself invoked the E30 and benchmarked the E46 \u2014 but the timeline that makes the 1M a corrective does not survive contact with the evidence.",
-    image:     "/assets/images/homage-by-accident.jpg",
-    vehicles:  ["BMW 1 Series M Coupe", "BMW 1 Series", "BMW 135is", "BMW M3", "BMW M2", "BMW 2002", "BMW Z3 M Coupe", "Audi A3"],
+    blurb:     "The first collision is the car hitting the wall. The second is you hitting the car, an instant later, and it is the one that kills. Name that as the enemy and road death stops being fate and becomes a design brief. The death rate per mile has since fallen more than ninety percent \u2014 decade by decade, here is how.",
+    image:     "/assets/images/the-second-collision.jpg",
+    vehicles:  ["Chevrolet Bel Air", "Chevrolet Malibu", "Mercedes-Benz W111", "Volvo PV544", "Tucker 48", "Saab 92", "Porsche 944 Turbo", "Ford Pinto"],
+    featured:  false
+  },
+
+  {
+    slug:      "forgotten-pioneers",
+    title:     "Forgotten Pioneers",
+    subtitle:  "Part Three \u2014 the women who built the car's safety, and the record that misplaced them",
+    category:  "Opinions",
+    date:      "2026-08-22",
+    readTime:  "37 min",
+    blurb:     "Sort every documented contribution women made to the automobile by which collision it addresses, and the split is seven to one on the preventive side. The turn signal, the brake signal, the wiper, the painted line, cabin heat, the campaign against drunk driving, satellite navigation \u2014 against one seat belt, on a show car. That ratio is the argument, and this piece states the case against itself as forcefully as the case for.",
+    image:     "/assets/images/forgotten-pioneers.jpg",
+    vehicles:  ["Ford Taurus", "Ford Probe", "Chevrolet Corvette", "Benz Patent-Motorwagen"],
     featured:  false
   },
 

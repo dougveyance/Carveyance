@@ -57,6 +57,19 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    slug:      "the-fastest-argument-in-the-room",
+    title:     "The Fastest Argument in the Room",
+    subtitle:  "Parliament wanted the Lotus Carlton stopped. The police could not catch it. The road testers found it a bit dull.",
+    category:  "Car Culture",
+    date:      "2026-09-01",
+    readTime:  "31 min",
+    blurb:     "A Vauxhall four-door was condemned by chief constables, campaigned against by the Daily Mail, denounced in the Commons and used by ram-raiders who knew no police car in Britain could follow it. Then the magazines drove it and came back saying it was oddly cold. All of them were telling the truth \u2014 and the car has spent thirty-six years waiting for anyone to notice.",
+    image:     "/assets/images/the-fastest-argument-in-the-room.jpg",
+    vehicles:  ["Vauxhall Lotus Carlton", "Opel Lotus Omega", "Vauxhall Carlton", "Opel Omega", "Vauxhall Senator", "BMW M5", "Mercedes-Benz 500E", "Alpina B10 Bi-Turbo", "Ferrari Testarossa", "Ferrari F40", "Porsche 911 Turbo", "Ford Sierra RS Cosworth", "Ford RS200", "Chevrolet Corvette ZR-1", "Audi S6"],
+    featured:  false
+  },
+
+  {
     slug:      "it-died-so-you-could-live",
     title:     "It Died So You Could Live",
     subtitle:  "The Chevrolet Corvair gave America the pony car and then gave America the seat belt",

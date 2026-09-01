@@ -57,6 +57,32 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    slug:      "it-died-so-you-could-live",
+    title:     "It Died So You Could Live",
+    subtitle:  "The Chevrolet Corvair gave America the pony car and then gave America the seat belt",
+    category:  "Opinions",
+    date:      "2026-09-01",
+    readTime:  "23 min",
+    blurb:     "Chevrolet smuggled a rear-engined, air-cooled compact through its own bureaucracy wearing a fake Holden passport. Buyers turned it into a sports car and handed Ford the blueprint for the Mustang. Then a book arrived, General Motors hired private investigators to follow its author, and the entire industry ended up with federal safety law. The car was the evidence, not the defendant \u2014 and the defendant walked.",
+    image:     "/assets/images/it-died-so-you-could-live.jpg",
+    vehicles:  ["Chevrolet Corvair", "Chevrolet Corvair Monza", "Chevrolet Corvair Corsa", "Chevrolet Corvair Monza Spyder", "Chevrolet Corvair Rampside", "Chevrolet Corvair Greenbrier", "Chevrolet Corvair Lakewood", "Yenko Stinger", "Ford Mustang", "Ford Falcon", "Plymouth Barracuda", "Chevrolet Camaro", "Pontiac Firebird", "Chevrolet Chevy II", "Volkswagen Beetle", "Chevrolet Corvette"],
+    featured:  false
+  },
+
+  {
+    slug:      "last-place-every-time",
+    title:     "Last Place, Every Time",
+    subtitle:  "The Lexus IS F never won a comparison test. Not one, in eighteen years.",
+    category:  "Reviews",
+    date:      "2026-08-31",
+    readTime:  "27 min",
+    blurb:     "Six group tests against the M3, the C63 and the RS4, and it finished behind them every single time \u2014 including one this July. But it out-braked two of them, tied the M3 for grip, returned better economy than any of them, and carried two more years of powertrain warranty. Eighteen years on, that last column turns out to have been the one that mattered.",
+    image:     "/assets/images/last-place-every-time.jpg",
+    vehicles:  ["Lexus IS F", "Lexus IS 500 F Sport Performance", "Lexus IS 350", "Lexus LS 400", "Lexus RX 300", "Lexus LFA", "Toyota Altezza", "BMW M3", "Mercedes-Benz C63 AMG", "Audi RS4", "Infiniti Q45", "Acura NSX", "Acura Legend"],
+    featured:  false
+  },
+
+  {
     slug:      "stand-ins-for-the-living",
     title:     "Stand-Ins for the Living",
     subtitle:  "Part One \u2014 the crash test dummy, and the dead who came before it",

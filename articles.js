@@ -57,6 +57,19 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    slug:      "the-shape-children-draw",
+    title:     "The Shape Children Draw",
+    subtitle:  "Three last-generation Lotus Esprits, four years apart, out of the same leaking factory in Norfolk",
+    category:  "Comparisons",
+    date:      "2026-09-02",
+    readTime:  "37 min",
+    blurb:     "Ask a room of six-year-olds to draw a car and most of them draw a Lotus Esprit, a shape none of them has ever seen. Underneath it, Lotus sold three completely different arguments within four years: a road-legal race car, a grand tourer with a twin-turbo V8, and the one in the middle that was measured quicker than both and costs half as much. One of them is the legend. A different one is the right answer.",
+    image:     "/assets/images/the-shape-children-draw.jpg",
+    vehicles:  ["Lotus Esprit", "Lotus Esprit Sport 300", "Lotus Esprit S4S", "Lotus Esprit V8", "Lotus Esprit V8 GT", "Lotus Esprit S4", "Lotus Esprit GT3", "Lotus Esprit Sport 350", "Lotus Esprit S1", "Lotus Esprit Turbo", "Lotus Esprit X180R", "Lotus Esprit GT1", "Ferrari F355", "Ferrari 348", "Porsche 911 Turbo", "Aston Martin Vantage", "Jaguar XJ220"],
+    featured:  false
+  },
+
+  {
     slug:      "the-fastest-argument-in-the-room",
     title:     "The Fastest Argument in the Room",
     subtitle:  "Parliament wanted the Lotus Carlton stopped. The police could not catch it. The road testers found it a bit dull.",

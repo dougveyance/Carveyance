@@ -59,14 +59,13 @@ const ARTICLES = [
   {
     slug:      "suspension-of-disbelief",
     title:     "Suspension of Disbelief",
-    subtitle:  "A bell founder, a Frenchman with no engineering degree, a speaker company, and two centuries of people refusing to accept that comfort and control cannot be friends",
+    subtitle:  "Two centuries of engineers refusing to accept that comfort and control cannot be friends",
     category:  "How It Works",
     date:      "2026-09-02",
-    readTime:  "34 min",
-    blurb:     "Four assemblies under your car are handed eight jobs, and at least three of them contradict the others. Nobody has ever completed the list. From leather straps and a steam bus built by a man who cast church bells, to iron filings commanded a thousand times a second, to the best suspension ever fitted to a road car — which was eventually sold on Facebook Marketplace for the price of its engine.",
+    readTime:  "35 min",
+    blurb:     "Four assemblies of steel and rubber and oil are handed eight jobs, and at least three of them flatly contradict the others. Nobody has ever completed the list. This is the story of the narrowing \u2014 from leather straps and a bell founder\u2019s steam bus, through the strut that came from a Chevrolet nobody built, to the speaker company that spent twenty-four years building the best suspension in the world and then watched its demonstration car get sold for the engine.",
     image:     "/assets/images/suspension-of-disbelief.jpg",
-    vehicles:  ["Citroen DS", "Citroen Traction Avant", "Ford Consul", "Ford Zephyr", "Chevrolet Corvair", "Chevrolet Cadet", "Peugeot 404", "Lexus LS 400", "Cadillac Seville STS", "Chevrolet Corvette", "Lotus 99T", "Lotus Type 92", "Williams FW14B", "Williams FW15C", "Morgan", "Porsche 911"],
-    icon:      "🔧",
+    vehicles:  ["Lexus LS 400", "Chevrolet Corvair", "Citro\u00ebn DS", "Citro\u00ebn Traction Avant", "Ford Consul", "Ford Zephyr", "Chevrolet Cadet", "Peugeot 404", "BMW 1500", "Cadillac Seville STS", "Chevrolet Corvette C5", "Lotus 99T", "Lotus 92", "Williams FW14B", "Williams FW15C", "Nio ET9", "Triumph Spitfire", "Pontiac Bonneville"],
     featured:  false
   },
 

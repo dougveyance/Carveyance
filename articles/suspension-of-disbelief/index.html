@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Suspension of Disbelief | Carveyance</title>
+<meta name="description" content="Two centuries of engineers refusing to accept that comfort and control are enemies: from leather straps and a bell founder's steam bus to magnetorheological fluid and a Lexus that jumped a plank.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Newsreader:ital,wght@0,400;0,500;0,600;1,400&family=Barlow+Semi+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --surface:#F3F6F8;
+  --surround:#E3EAEE;
+  --ink:#181D22;
+  --muted:#5C6771;
+  --rule:#CBD5DC;
+  --accent:#2F6B8F;
+  --ember:#C0561E;
+  --gold:#9A6B12;
+  --moss:#17806A;
+  --navy:#141A22;
+  --sky:#4E8DB5;
+  --display:"Fraunces",Georgia,serif;
+  --body:"Newsreader",Georgia,serif;
+  --label:"Barlow Semi Condensed","Helvetica Neue",Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--surround);color:var(--ink);
+  font-family:var(--body);font-size:19.5px;line-height:1.72;
+  -webkit-font-smoothing:antialiased}
+
+/* ---- canonical nav wordmark ---- */
+.cv-topnav{background:#12161B;padding:13px 22px;display:flex;align-items:center;
+  justify-content:space-between;gap:16px;position:sticky;top:0;z-index:50}
+.wordmark{font-family:"Bebas Neue",Impact,sans-serif;font-size:26px;font-weight:400;
+  letter-spacing:.08em;line-height:1;color:#ffffff;text-decoration:none;white-space:nowrap}
+.wordmark span{color:#4E8DB5}
+.cv-dept{font-family:var(--label);font-size:13px;font-weight:600;letter-spacing:.16em;
+  text-transform:uppercase;color:#95A3AE}
+
+.wrap{max-width:1080px;margin:0 auto;background:var(--surface);
+  padding:0 0 70px;box-shadow:0 0 0 1px var(--rule)}
+.col{max-width:720px;margin:0 auto;padding:0 24px}
+
+/* ---- masthead ---- */
+.mast{padding:56px 24px 34px;max-width:840px;margin:0 auto;text-align:center}
+.kicker{font-family:var(--label);font-size:13px;font-weight:700;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--accent);margin:0 0 18px}
+h1{font-family:var(--display);font-weight:600;font-size:clamp(42px,6.6vw,76px);
+  line-height:1.02;letter-spacing:-.02em;margin:0 0 20px}
+.dek{font-family:var(--body);font-style:italic;font-size:clamp(19px,2.2vw,23px);
+  line-height:1.5;color:var(--muted);margin:0 auto 26px;max-width:640px}
+.byline{font-family:var(--label);font-size:14.5px;font-weight:600;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--muted)}
+.mrule{width:74px;height:3px;background:var(--accent);margin:30px auto 0}
+
+/* ---- body type ---- */
+h2{font-family:var(--display);font-weight:600;font-size:clamp(28px,3.6vw,38px);
+  line-height:1.12;letter-spacing:-.015em;margin:56px 0 4px}
+h2 .num{display:block;font-family:var(--label);font-size:13px;font-weight:700;
+  letter-spacing:.2em;color:var(--accent);margin-bottom:10px}
+h3{font-family:var(--label);font-weight:700;font-size:20px;letter-spacing:.03em;
+  margin:34px 0 6px;color:var(--ink)}
+p{margin:0 0 21px}
+.lead{font-size:22px;line-height:1.62}
+.lead::first-letter{font-family:var(--display);font-weight:600;font-size:4.1em;
+  float:left;line-height:.82;padding:5px 11px 0 0;color:var(--accent)}
+a{color:var(--accent);text-decoration:underline;text-underline-offset:3px;
+  text-decoration-thickness:1.5px}
+em{font-style:italic}
+strong{font-weight:600}
+hr.sep{border:0;height:1px;background:var(--rule);margin:44px auto;max-width:180px}
+
+/* ---- pull quote ---- */
+.pq{font-family:var(--display);font-weight:400;font-size:clamp(24px,3.1vw,31px);
+  line-height:1.26;letter-spacing:-.01em;color:var(--ink);
+  border-left:4px solid var(--ember);padding:6px 0 6px 26px;margin:38px 0}
+
+/* ---- navy stat panel ---- */
+.panel{background:var(--navy);color:#EEF3F6;border-radius:8px;padding:28px 30px;
+  margin:38px 0}
+.panel h4{font-family:var(--label);font-size:13px;font-weight:700;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--sky);margin:0 0 18px}
+.pgrid{display:grid;gap:20px 30px;grid-template-columns:repeat(auto-fit,minmax(158px,1fr))}
+.pgrid div{font-family:var(--label)}
+.pgrid b{display:block;font-size:11.5px;font-weight:600;letter-spacing:.13em;
+  text-transform:uppercase;color:#8FA3B2;margin-bottom:3px}
+.pgrid span{font-size:19px;font-weight:600;line-height:1.32;color:#EEF3F6}
+
+/* ---- clipping ---- */
+.clip{background:#FBFCFD;border:1px solid var(--rule);border-left:4px solid var(--accent);
+  border-radius:5px;padding:22px 26px 20px;margin:34px 0}
+.clip h4{font-family:var(--label);font-size:12.5px;font-weight:700;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--accent);margin:0 0 4px;
+  padding-bottom:9px;border-bottom:1px solid var(--rule)}
+.clip ul{list-style:none;margin:14px 0 0;padding:0}
+.clip li{font-family:var(--label);font-size:16.5px;line-height:1.5;margin:0 0 9px;
+  padding-left:20px;position:relative}
+.clip li::before{content:"";position:absolute;left:0;top:.55em;width:8px;height:8px;
+  background:var(--ember)}
+.clip .clipfoot{margin:15px 0 0;padding-top:13px;border-top:1px solid var(--rule);
+  font-family:var(--label);font-size:16px;font-weight:600;line-height:1.5;color:var(--ink)}
+.clip.two ul{columns:2;column-gap:30px}
+@media(max-width:620px){.clip.two ul{columns:1}}
+
+/* ---- aside / callout ---- */
+.aside{background:#FFF8F2;border:1px solid #E9D3BF;border-radius:6px;
+  padding:22px 26px;margin:34px 0}
+.aside h4{font-family:var(--label);font-size:12.5px;font-weight:700;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--ember);margin:0 0 10px}
+.aside p{font-size:17.5px;line-height:1.62;margin:0 0 13px}
+.aside p:last-child{margin-bottom:0}
+
+/* ---- tables ---- */
+.tscroll{overflow-x:auto;margin:32px 0;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;min-width:520px;font-family:var(--label);
+  font-size:16.5px}
+th{text-align:left;font-weight:700;font-size:12.5px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--accent);border-bottom:2px solid var(--accent);
+  padding:0 16px 9px 0;vertical-align:bottom}
+td{padding:11px 16px 11px 0;border-bottom:1px solid var(--rule);vertical-align:top;
+  line-height:1.48}
+td:first-child{font-weight:600}
+
+/* ---- photos ---- */
+figure{margin:38px 0}
+figcaption{font-family:var(--label);font-size:15.5px;line-height:1.5;color:var(--muted);
+  margin-top:11px;padding-left:14px;border-left:2px solid var(--rule)}
+
+/* ---- read next ---- */
+.readnext{border:1px solid var(--rule);border-radius:6px;padding:20px 24px;margin:40px 0;
+  background:#FBFCFD;display:flex;gap:18px;align-items:baseline;flex-wrap:wrap}
+.readnext .rl{font-family:var(--label);font-size:12px;font-weight:700;letter-spacing:.17em;
+  text-transform:uppercase;color:var(--ember);white-space:nowrap}
+.readnext a{font-family:var(--display);font-size:21px;font-weight:600;
+  text-decoration:none;line-height:1.24}
+.readnext a:hover{text-decoration:underline}
+
+/* ---- footer ---- */
+.foot{background:var(--navy);padding:36px 24px;text-align:center;margin-top:56px}
+.f-wordmark{font-family:"Bebas Neue",Impact,sans-serif;font-size:26px;font-weight:400;
+  letter-spacing:.08em;line-height:1;color:#ffffff;text-decoration:none;display:inline-block}
+.f-wordmark span{color:#4E8DB5}
+.foot p{font-family:var(--label);font-size:14.5px;color:#8FA3B2;margin:14px 0 0}
+
+@media(max-width:720px){
+  body{font-size:18.5px}
+  .col{padding:0 18px}
+  .mast{padding:40px 18px 26px}
+  .panel,.clip,.aside{padding-left:20px;padding-right:20px}
+}
+
+.cw{margin:34px 0 40px}
+.cw svg{display:block;width:100%;height:auto;overflow:visible}
+.ctitle{font-family:var(--label);font-weight:700;font-size:18px;letter-spacing:.02em;
+  color:var(--ink);margin:0 0 2px}
+.csub{font-family:var(--label);font-size:15px;color:var(--muted);margin:0 0 14px;
+  line-height:1.45}
+.cnote{font-family:var(--label);font-size:15px;color:var(--muted);margin:12px 0 0;
+  line-height:1.5;border-top:1px solid var(--rule);padding-top:10px}
+.blab{font-family:var(--label);font-size:16px;font-weight:600;fill:var(--ink)}
+.bval{font-family:var(--label);font-size:16px;font-weight:700;fill:var(--ink)}
+.btick{font-family:var(--label);font-size:13.5px;font-weight:600;fill:var(--muted)}
+.bleg{font-family:var(--label);font-size:14.5px;font-weight:600;fill:var(--ink)}
+.bcap{font-family:var(--label);font-size:13px;font-weight:600;fill:var(--muted);
+  letter-spacing:.06em;text-transform:uppercase}
+.bser{transition:opacity .18s}
+.cw:hover .bser{opacity:.68}
+.cw .bser:hover{opacity:1}
+@media(max-width:620px){
+  .blab{font-size:16.5px}.bval{font-size:16.5px}.btick{font-size:14px}
+}
+
+
+.dg{display:grid;gap:14px 26px;margin:16px 0 0;
+  grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.dg div{font-family:var(--label);font-size:15.5px;line-height:1.5;color:var(--ink)}
+.dg b{font-family:var(--label);font-weight:700;display:block;font-size:13px;
+  letter-spacing:.07em;text-transform:uppercase;color:var(--accent);margin-bottom:3px}
+.dlab{font-family:var(--label);font-size:15px;font-weight:600;fill:var(--ink)}
+.dsub{font-family:var(--label);font-size:13.5px;font-weight:600;fill:var(--muted)}
+.dcap{font-family:var(--label);font-size:12.5px;font-weight:700;fill:var(--muted);
+  letter-spacing:.08em;text-transform:uppercase}
+.dbig{font-family:var(--label);font-size:17px;font-weight:700;fill:var(--ink)}
+
+</style>
+</head>
+<body>
+<nav class="cv-topnav">
+  <a class="wordmark" href="/">Car<span>veyance</span></a>
+  <span class="cv-dept">How It Works</span>
+</nav>
+<div class="wrap">
+
+<header class="mast">
+  <p class="kicker">How It Works</p>
+  <h1>Suspension of Disbelief</h1>
+  <p class="dek">A bell founder, a Frenchman with no engineering degree, a speaker
+  company, and two centuries of very clever people refusing to accept that comfort and
+  control cannot be friends.</p>
+  <p class="byline">By Nathaniel Ruiz &middot; 34 minute read</p>
+  <div class="mrule"></div>
+</header>
+<article class="col">
+
+<p class="lead">Somewhere underneath you right now, four assemblies of steel and rubber
+and oil are being handed a list of eight jobs, and at least three of those jobs
+flatly contradict the others. Keep the tires pressed against the road. Carry the
+weight of the car. Swallow bumps without pogoing down the street afterward. Control
+roll, pitch, dive, squat and heave. Keep the wheels pointing somewhere useful while
+all of that is happening. Feed braking, cornering, steering and acceleration loads
+into the structure. Protect the car, the cargo and the people. Set the ride height
+and hold it there whether the trunk is empty or full of bricks.</p>
+
+<p>That is the job description. Nobody has ever completed it.</p>
+
+<p>A soft car isolates you beautifully and then heaves around like a rowboat. A stiff
+car pins the body flat and then skitters across broken pavement with its tires barely
+touching anything. Two hundred years of engineers have thrown springs, leather,
+nitrogen, iron filings, hydraulic pumps and linear electric motors at that one
+sentence, and the honest summary of all of it is that they have narrowed the gap
+without closing it.</p>
+
+<p>This is the story of the narrowing. It runs from a bell founder in Le Mans to a
+speaker company in Massachusetts, and it takes a detour through a Formula 1 car so
+good it was made illegal.</p>
+
+<div class="aside">
+<h4>One word, before we start</h4>
+<p>The component you call a shock absorber is, to everyone who designs them, a
+<strong>damper</strong>. It absorbs almost nothing; the spring does the absorbing.
+The damper's entire purpose is to turn motion into heat and throw it away.</p>
+<p>"Dampener" is understood everywhere and wrong everywhere. A dampener is a thing
+that makes something moist. Your car does not have four of those, and if it does,
+call a mechanic.</p>
+</div>
+
+<h2><span class="num">One</span>The word means exactly what it says</h2>
+
+<p>The earliest carts bolted the body straight to a wooden axle. The only give in the
+entire machine came from the flex of the timber, the give of the ground, and the
+tolerance of whoever was sitting on it. Every rock in the road arrived at the base of
+the spine, undiluted.</p>
+
+<p>The first real improvement was not a spring at all. It was rope. Carriage builders
+started hanging the passenger compartment from leather straps and chains slung between
+tall posts, so the body swung instead of jolting. That is where the word comes from, and
+it is not a metaphor: the body was literally suspended, dangling off the chassis like a
+hammock with wheels. It took the edge off the sharpest hits. It also swayed and pitched with such
+enthusiasm that seasickness became a recognized hazard of long-distance travel.</p>
+
+<p>Steel fixed the swaying. Over roughly a century, carriage makers worked through every
+arrangement of curved steel plate you can draw.</p>
+
+<div class="cw"><p class="ctitle">How the body stopped hanging and started sitting</p><svg viewBox="0 0 760 250" xmlns="http://www.w3.org/2000/svg" role="img"><rect x="49.0" y="40" width="92" height="34" rx="4" fill="#2563a8" opacity=".16"/><rect x="49.0" y="40" width="92" height="34" rx="4" fill="none" stroke="#2563a8" stroke-width="2.4"/><path d="M61.0 74 Q52.5 108 67.12 142" fill="none" stroke="#c0561e" stroke-width="3" stroke-linecap="round"/><path d="M129.0 74 Q137.5 108 122.88 142" fill="none" stroke="#c0561e" stroke-width="3" stroke-linecap="round"/><line x1="43.0" y1="142" x2="147.0" y2="142" stroke="var(--ink)" stroke-width="3.4"/><text x="95.0" y="176.0" class="dlab" text-anchor="middle">Leather straps</text><text x="95.0" y="196.0" class="dsub" text-anchor="middle">body hangs; it swings</text><line x1="190.0" y1="18" x2="190.0" y2="196" stroke="var(--rule)" stroke-width="1"/><rect x="239.0" y="40" width="92" height="34" rx="4" fill="#2563a8" opacity=".16"/><rect x="239.0" y="40" width="92" height="34" rx="4" fill="none" stroke="#2563a8" stroke-width="2.4"/><path d="M239.0 78 Q279.0 82 287.0 138" fill="none" stroke="#c0561e" stroke-width="3.6" stroke-linecap="round"/><path d="M245.0 84 Q279.0 89 283.0 134" fill="none" stroke="#c0561e" stroke-width="2.4" opacity=".6"/><line x1="233.0" y1="142" x2="337.0" y2="142" stroke="var(--ink)" stroke-width="3.4"/><text x="285.0" y="176.0" class="dlab" text-anchor="middle">Quarter elliptic</text><text x="285.0" y="196.0" class="dsub" text-anchor="middle">one arc, one end fixed</text><line x1="380.0" y1="18" x2="380.0" y2="196" stroke="var(--rule)" stroke-width="1"/><rect x="429.0" y="40" width="92" height="34" rx="4" fill="#2563a8" opacity=".16"/><rect x="429.0" y="40" width="92" height="34" rx="4" fill="none" stroke="#2563a8" stroke-width="2.4"/><path d="M423.0 92 Q475.0 128 527.0 92" fill="none" stroke="#c0561e" stroke-width="3.6" stroke-linecap="round"/><path d="M437.0 96 Q475.0 124 513.0 96" fill="none" stroke="#c0561e" stroke-width="2.6" opacity=".7"/><path d="M451.0 100 Q475.0 118 499.0 100" fill="none" stroke="#c0561e" stroke-width="2.2" opacity=".5"/><line x1="423.0" y1="142" x2="527.0" y2="142" stroke="var(--ink)" stroke-width="3.4"/><text x="475.0" y="176.0" class="dlab" text-anchor="middle">Semi elliptic</text><text x="475.0" y="196.0" class="dsub" text-anchor="middle">the leaf spring you still see</text><line x1="570.0" y1="18" x2="570.0" y2="196" stroke="var(--rule)" stroke-width="1"/><rect x="619.0" y="40" width="92" height="34" rx="4" fill="#2563a8" opacity=".16"/><rect x="619.0" y="40" width="92" height="34" rx="4" fill="none" stroke="#2563a8" stroke-width="2.4"/><path d="M615.0 90 Q665.0 116 715.0 90" fill="none" stroke="#c0561e" stroke-width="3.6" stroke-linecap="round"/><path d="M615.0 90 Q665.0 64 715.0 90" fill="none" stroke="#c0561e" stroke-width="3.6" stroke-linecap="round"/><line x1="613.0" y1="142" x2="717.0" y2="142" stroke="var(--ink)" stroke-width="3.4"/><text x="665.0" y="176.0" class="dlab" text-anchor="middle">Full elliptic</text><text x="665.0" y="196.0" class="dsub" text-anchor="middle">two arcs, mirrored</text><line x1="24" y1="222" x2="736" y2="222" stroke="var(--rule)" stroke-width="1.5"/><text x="24.0" y="242.0" class="dcap" text-anchor="start">ROUGHLY 1700</text><text x="736.0" y="242.0" class="dcap" text-anchor="end">ROUGHLY 1810</text></svg><p class="cnote">Roughly a century of carriage springs, compressed into one row. Everything after this is a refinement.</p></div>
+
+<div class="dg">
+<div><b>Straps</b>The body hangs. Comfortable in a straight line, alarming in a corner,
+and completely uncontrolled once it starts moving.</div>
+<div><b>Quarter elliptic</b>A single curved leaf, fixed at one end. Compact, cheap, and
+still bolted to the back of light trailers today.</div>
+<div><b>Semi elliptic</b>The one that won. A stack of leaves spanning the axle, which
+both springs the car and holds the axle where it belongs.</div>
+<div><b>Full elliptic</b>Two arcs facing each other, mirrored. Supple, tall, heavy, and
+a nightmare to locate precisely. Beautiful, though.</div>
+</div>
+
+<p>The name usually attached to this moment is Obadiah Elliott, a carriage builder from
+Tonbridge, whose 1804 British patent covered mounting a coach body on elliptic springs
+attached directly to the axles. That deleted the perch, the heavy longitudinal beam that
+had previously tied the two axles together, and the result was lighter, cheaper and
+markedly better to sit in. Within about a decade most British carriages were sprung, and
+Elliott died in 1838 owning five houses, two carriage works and half a firm in
+Westminster.</p>
+
+<p>Carriage historians have been arguing about that patent ever since. One
+long-standing reading is that Elliott did not invent the elliptic spring at all, and that
+what he actually secured was the exclusive right to build perchless carriages &mdash;
+which conveniently forced every competitor in Britain to keep fitting a perch they no
+longer needed. Whether that is fair to him or not, the outcome is not in dispute. By 1880
+a US patent could describe laminated carriage springs the way you might describe a
+hinge.</p>
+
+<p class="pq">The automobile did not invent suspension. It inherited it from the
+carriage trade, and then spent a hundred years apologizing for what it had
+inherited.</p>
+
+<h2><span class="num">Two</span>The bell founder who got there first</h2>
+
+<p>In 1873, in Le Mans, a man named Amédée Bollée built a steam-powered road vehicle
+and called it <em>L’Obéissante</em> &mdash; the Obedient One, a name chosen mainly to
+reassure police officers who were about to watch five tons of boiler come around a
+corner. It carried twelve passengers, cruised at about 19 mph and topped out
+near 25, which in 1873 was an outrageous thing to do on a public road.</p>
+
+<p>Bollée was a bell founder by trade and had no business being the person who solved
+this. But underneath the front of that machine, each front wheel was carried on its own
+vertical pillar that could slide up and down independently of the other &mdash; the first
+recorded independent front suspension on a self-propelled vehicle, roughly fifteen years
+before anyone built a practical car for it to be fitted to.</p>
+
+<p>In October 1875 he drove the thing the 143 miles from Le Mans to Paris in eighteen
+hours. On arrival he was greeted as a hero and cited by the Paris constabulary around
+seventy-five times. He was never prosecuted for any of it.</p>
+
+<p>Historians still bicker about whether his arrangement counts as a true sliding pillar
+in the later Morgan sense. The argument is fun and the conclusion does not much matter. A
+man who cast church bells for a living decided that two front wheels should not have to
+agree with each other, and was correct about it for the next hundred and fifty
+years.</p>
+
+
+<h2><span class="num">Three</span>Two centuries in one column</h2>
+
+<p>Before we take anything apart, here is the shape of the argument. Every one of these
+is somebody deciding that the current compromise was unacceptable and doing something
+about it.</p>
+
+<div class="cw"><p class="ctitle">Twelve moments that moved the argument</p><svg viewBox="0 0 760 962" xmlns="http://www.w3.org/2000/svg" role="img"><line x1="132" y1="18" x2="132" y2="902" stroke="var(--rule)" stroke-width="3"/><g class="bser"><title>1804: Elliott&#x27;s patent</title><text x="106.0" y="46.0" class="dbig" text-anchor="end">1804</text><circle cx="132" cy="40" r="9" fill="#c0561e" stroke="var(--surface)" stroke-width="3"/><line x1="145" y1="40" x2="162" y2="40" stroke="#c0561e" stroke-width="2.5"/><text x="172.0" y="41.0" class="dlab" text-anchor="start">Elliott&#x27;s patent</text><text x="172.0" y="62.0" class="dsub" text-anchor="start">Carriage body onto elliptic springs. The perch dies.</text></g><g class="bser"><title>1873: L’Obéissante</title><text x="106.0" y="120.0" class="dbig" text-anchor="end">1873</text><circle cx="132" cy="114" r="9" fill="#c0561e" stroke="var(--surface)" stroke-width="3"/><line x1="145" y1="114" x2="162" y2="114" stroke="#c0561e" stroke-width="2.5"/><text x="172.0" y="115.0" class="dlab" text-anchor="start">L’Obéissante</text><text x="172.0" y="136.0" class="dsub" text-anchor="start">A bell founder builds the first independent front end.</text></g><g class="bser"><title>1901: Friction dampers</title><text x="106.0" y="194.0" class="dbig" text-anchor="end">1901</text><circle cx="132" cy="188" r="9" fill="#9a6b12" stroke="var(--surface)" stroke-width="3"/><line x1="145" y1="188" x2="162" y2="188" stroke="#9a6b12" stroke-width="2.5"/><text x="172.0" y="189.0" class="dlab" text-anchor="start">Friction dampers</text><text x="172.0" y="210.0" class="dsub" text-anchor="start">Somebody notices a spring alone never stops.</text></g><g class="bser"><title>1934: Torsion bars</title><text x="106.0" y="268.0" class="dbig" text-anchor="end">1934</text><circle cx="132" cy="262" r="9" fill="#9a6b12" stroke="var(--surface)" stroke-width="3"/><line x1="145" y1="262" x2="162" y2="262" stroke="#9a6b12" stroke-width="2.5"/><text x="172.0" y="263.0" class="dlab" text-anchor="start">Torsion bars</text><text x="172.0" y="284.0" class="dsub" text-anchor="start">Springs go straight, and hide inside the structure.</text></g><g class="bser"><title>1951: MacPherson strut</title><text x="106.0" y="342.0" class="dbig" text-anchor="end">1951</text><circle cx="132" cy="336" r="9" fill="#17806a" stroke="var(--surface)" stroke-width="3"/><line x1="145" y1="336" x2="162" y2="336" stroke="#17806a" stroke-width="2.5"/><text x="172.0" y="337.0" class="dlab" text-anchor="start">MacPherson strut</text><text x="172.0" y="358.0" class="dsub" text-anchor="start">Ford Consul. Cheap, light, and everywhere ever since.</text></g><g class="bser"><title>1955: Citroën DS</title><text x="106.0" y="416.0" class="dbig" text-anchor="end">1955</text><circle cx="132" cy="410" r="9" fill="#17806a" stroke="var(--surface)" stroke-width="3"/><line x1="145" y1="410" x2="162" y2="410" stroke="#17806a" stroke-width="2.5"/><text x="172.0" y="411.0" class="dlab" text-anchor="start">Citroën DS</text><text x="172.0" y="432.0" class="dsub" text-anchor="start">Nitrogen does the springing. Paris loses its mind.</text></g><g class="bser"><title>1959: Rear-engine boom</title><text x="106.0" y="490.0" class="dbig" text-anchor="end">1959</text><circle cx="132" cy="484" r="9" fill="#6b7480" stroke="var(--surface)" stroke-width="3"/><line x1="145" y1="484" x2="162" y2="484" stroke="#6b7480" stroke-width="2.5"/><text x="172.0" y="485.0" class="dlab" text-anchor="start">Rear-engine boom</text><text x="172.0" y="506.0" class="dsub" text-anchor="start">Swing axles meet the American highway. It goes badly.</text></g><g class="bser"><title>1987: Senna&#x27;s Lotus 99T</title><text x="106.0" y="564.0" class="dbig" text-anchor="end">1987</text><circle cx="132" cy="558" r="9" fill="#7a4b8f" stroke="var(--surface)" stroke-width="3"/><line x1="145" y1="558" x2="162" y2="558" stroke="#7a4b8f" stroke-width="2.5"/><text x="172.0" y="559.0" class="dlab" text-anchor="start">Senna&#x27;s Lotus 99T</text><text x="172.0" y="580.0" class="dsub" text-anchor="start">Active suspension wins Monaco and Detroit.</text></g><g class="bser"><title>1994: The ban</title><text x="106.0" y="638.0" class="dbig" text-anchor="end">1994</text><circle cx="132" cy="632" r="9" fill="#7a4b8f" stroke="var(--surface)" stroke-width="3"/><line x1="145" y1="632" x2="162" y2="632" stroke="#7a4b8f" stroke-width="2.5"/><text x="172.0" y="633.0" class="dlab" text-anchor="start">The ban</text><text x="172.0" y="654.0" class="dsub" text-anchor="start">Formula 1 outlaws the thing that worked too well.</text></g><g class="bser"><title>2002: MagneRide</title><text x="106.0" y="712.0" class="dbig" text-anchor="end">2002</text><circle cx="132" cy="706" r="9" fill="#2563a8" stroke="var(--surface)" stroke-width="3"/><line x1="145" y1="706" x2="162" y2="706" stroke="#2563a8" stroke-width="2.5"/><text x="172.0" y="707.0" class="dlab" text-anchor="start">MagneRide</text><text x="172.0" y="728.0" class="dsub" text-anchor="start">Iron filings in oil, commanded a thousand times a second.</text></g><g class="bser"><title>2004: The Bose Lexus</title><text x="106.0" y="786.0" class="dbig" text-anchor="end">2004</text><circle cx="132" cy="780" r="9" fill="#2563a8" stroke="var(--surface)" stroke-width="3"/><line x1="145" y1="780" x2="162" y2="780" stroke="#2563a8" stroke-width="2.5"/><text x="172.0" y="781.0" class="dlab" text-anchor="start">The Bose Lexus</text><text x="172.0" y="802.0" class="dsub" text-anchor="start">An LS400 jumps a plank. Nobody buys it.</text></g><g class="bser"><title>2026: Camera preview</title><text x="106.0" y="860.0" class="dbig" text-anchor="end">2026</text><circle cx="132" cy="854" r="9" fill="#2563a8" stroke="var(--surface)" stroke-width="3"/><line x1="145" y1="854" x2="162" y2="854" stroke="#2563a8" stroke-width="2.5"/><text x="172.0" y="855.0" class="dlab" text-anchor="start">Camera preview</text><text x="172.0" y="876.0" class="dsub" text-anchor="start">The car reads the road before the tire arrives.</text></g><text x="8" y="936" class="dcap">TWO CENTURIES, ONE UNSOLVED ARGUMENT</text></svg><p class="cnote">Not a complete history. Twelve points where somebody decided the existing compromise was unacceptable.</p></div>
+
+<h2><span class="num">Four</span>The physics, without the homework</h2>
+
+<p>Strip a car down to one corner and you get the quarter-car model, which is the
+mental picture every chassis engineer actually carries around. It has four parts and
+one road.</p>
+
+<div class="cw"><p class="ctitle">One corner, four parts, one road</p><svg viewBox="0 0 760 430" xmlns="http://www.w3.org/2000/svg" role="img"><rect x="150" y="26" width="300" height="76" rx="6" fill="#2563a8" opacity=".12"/><rect x="150" y="26" width="300" height="76" rx="6" fill="none" stroke="#2563a8" stroke-width="3"/><text x="300.0" y="60.0" class="dbig" text-anchor="middle">SPRUNG MASS</text><text x="300.0" y="82.0" class="dsub" text-anchor="middle">body, people, most of the engine</text><polyline points="238,102 255,112.0 221,122.0 255,132.0 221,142.0 255,152.0 221,162.0 255,172.0 221,182.0 255,192.0 221,202.0 255,212.0 221,222.0 255,232.0 221,242.0 255,252.0 221,262.0 255,272.0 221,282.0 238,292" fill="none" stroke="#2563a8" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/><line x1="362" y1="102" x2="362" y2="189.8" stroke="#c0561e" stroke-width="4.5" stroke-linecap="round"/><rect x="348" y="181.8" width="28" height="110.19999999999999" rx="4" fill="none" stroke="#c0561e" stroke-width="3.2"/><line x1="351" y1="190.8" x2="373" y2="190.8" stroke="#c0561e" stroke-width="3.2"/><text x="172.0" y="186.0" class="dcap" text-anchor="end">SPRING</text><text x="172.0" y="204.0" class="dsub" text-anchor="end">stores energy</text><text x="428.0" y="186.0" class="dcap" text-anchor="start">DAMPER</text><text x="428.0" y="204.0" class="dsub" text-anchor="start">destroys it</text><rect x="182" y="292" width="236" height="56" rx="6" fill="#c0561e" opacity=".14"/><rect x="182" y="292" width="236" height="56" rx="6" fill="none" stroke="#c0561e" stroke-width="3"/><text x="300.0" y="316.0" class="dbig" text-anchor="middle">UNSPRUNG MASS</text><text x="300.0" y="337.0" class="dsub" text-anchor="middle">wheel, tire, hub, brake, upright</text><polyline points="300,348 313,353.3333333333333 287,358.6666666666667 313,364.0 287,369.3333333333333 313,374.6666666666667 287,380.0 313,385.3333333333333 287,390.6666666666667 300,396" fill="none" stroke="#17806a" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><text x="326.0" y="376.0" class="dsub" text-anchor="start">the tire is a spring too</text><line x1="110" y1="398" x2="490" y2="398" stroke="var(--ink)" stroke-width="3"/><line x1="110" y1="398" x2="101" y2="408" stroke="var(--muted)" stroke-width="1.8"/><line x1="125" y1="398" x2="116" y2="408" stroke="var(--muted)" stroke-width="1.8"/><line x1="140" y1="398" x2="131" y2="408" stroke="var(--muted)" stroke-width="1.8"/><line x1="155" y1="398" x2="146" y2="408" stroke="var(--muted)" stroke-width="1.8"/><line x1="170" y1="398" x2="161" y2="408" stroke="var(--muted)" stroke-width="1.8"/><line x1="185" y1="398" x2="176" y2="408" stroke="var(--muted)" stroke-width="1.8"/><line x1="200" y1="398" x2="191" y2="408" stroke="var(--muted)" stroke-width="1.8"/><line x1="215" y1="398" x2="206" y2="408" stroke="var(--muted)" stroke-width="1.8"/><line x1="230" y1="398" x2="221" y2="408" stroke="var(--muted)" stroke-width="1.8"/><line x1="245" y1="398" x2="236" y2="408" stroke="var(--muted)" stroke-width="1.8"/><line x1="260" y1="398" x2="251" y2="408" stroke="var(--muted)" stroke-width="1.8"/><line x1="275" y1="398" x2="266" y2="408" stroke="var(--muted)" stroke-width="1.8"/><line x1="290" y1="398" x2="281" y2="408" stroke="var(--muted)" stroke-width="1.8"/><line x1="305" y1="398" x2="296" y2="408" stroke="var(--muted)" stroke-width="1.8"/><line x1="320" y1="398" x2="311" y2="408" stroke="var(--muted)" stroke-width="1.8"/><line x1="335" y1="398" x2="326" y2="408" stroke="var(--muted)" stroke-width="1.8"/><line x1="350" y1="398" x2="341" y2="408" stroke="var(--muted)" stroke-width="1.8"/><line x1="365" y1="398" x2="356" y2="408" stroke="var(--muted)" stroke-width="1.8"/><line x1="380" y1="398" x2="371" y2="408" stroke="var(--muted)" stroke-width="1.8"/><line x1="395" y1="398" x2="386" y2="408" stroke="var(--muted)" stroke-width="1.8"/><line x1="410" y1="398" x2="401" y2="408" stroke="var(--muted)" stroke-width="1.8"/><line x1="425" y1="398" x2="416" y2="408" stroke="var(--muted)" stroke-width="1.8"/><line x1="440" y1="398" x2="431" y2="408" stroke="var(--muted)" stroke-width="1.8"/><line x1="455" y1="398" x2="446" y2="408" stroke="var(--muted)" stroke-width="1.8"/><line x1="470" y1="398" x2="461" y2="408" stroke="var(--muted)" stroke-width="1.8"/><line x1="485" y1="398" x2="476" y2="408" stroke="var(--muted)" stroke-width="1.8"/><text x="300.0" y="424.0" class="dcap" text-anchor="middle">ROAD</text><line x1="520" y1="26" x2="520" y2="398" stroke="var(--rule)" stroke-width="1.5"/><text x="536.0" y="58.0" class="dlab" text-anchor="start">Everything above the spring</text><text x="536.0" y="78.0" class="dsub" text-anchor="start">wants to stay still</text><text x="536.0" y="170.0" class="dlab" text-anchor="start">Everything the spring touches</text><text x="536.0" y="190.0" class="dsub" text-anchor="start">gets negotiated</text><text x="536.0" y="318.0" class="dlab" text-anchor="start">Everything below it</text><text x="536.0" y="338.0" class="dsub" text-anchor="start">must chase the road</text></svg><p class="cnote">The quarter-car model. Every suspension conversation in the world starts here, including the ones that end in an argument about wheel sizes.</p></div>
+
+<div class="dg">
+<div><b>Sprung mass</b>Everything the spring holds up: body, frame, people, cargo, most
+of the engine, and roughly half the suspension itself.</div>
+<div><b>Unsprung mass</b>Everything that has to chase the road surface: wheel, tire, hub,
+brake, upright, and the outer end of the arms and springs.</div>
+<div><b>The spring</b>Stores energy and gives it straight back. On its own it will bounce
+you down the street until friction gets bored.</div>
+<div><b>The damper</b>Converts that energy into heat by shoving oil through small holes,
+then dumps the heat into the passing air.</div>
+</div>
+
+<p>The spring is close to the simplest thing in engineering: force equals rate times
+distance. Squash it twice as far, it pushes back twice as hard. It is honest, dumb and
+completely predictable, and it has exactly one flaw &mdash; it never loses interest.
+Energy goes in, energy comes back out, and without something to burn it off the car keeps
+trading potential for kinetic until the bushings absorb it out of sheer friction.</p>
+
+<p>The damper is the adult in the room. In the textbook version its force is proportional
+to velocity, which means it does nothing at all when the suspension is still and fights
+hardest when the suspension is moving quickest. Real dampers are deliberately, elaborately
+nonlinear, and we will get to why.</p>
+
+<h3>How fast does your car want to bounce?</h3>
+
+<p>Hang a mass on a spring and it has a natural frequency: the rate at which it wants
+to oscillate if you disturb it and walk away. Stiffer spring, higher frequency. Heavier
+car, lower. This single number does more to define a car's character than almost anything
+on the spec sheet, and nobody puts it in the brochure.</p>
+
+<div class="cw">
+<p class="ctitle">The bounce budget</p>
+<p class="csub">Body natural frequency is the number that decides whether a car feels expensive or feels urgent. Roughly a walking pace at one end, a shivering airplane wing at the other.</p>
+<svg viewBox="0 0 760 292" xmlns="http://www.w3.org/2000/svg" role="img"><line x1="240.3" y1="0" x2="240.3" y2="230" stroke="var(--rule)" stroke-width="1"/><text x="240.3" y="254.0" class="dsub" text-anchor="middle">1 Hz</text><line x1="341.2" y1="0" x2="341.2" y2="230" stroke="var(--rule)" stroke-width="1"/><text x="341.2" y="254.0" class="dsub" text-anchor="middle">2 Hz</text><line x1="442.0" y1="0" x2="442.0" y2="230" stroke="var(--rule)" stroke-width="1"/><text x="442.0" y="254.0" class="dsub" text-anchor="middle">3 Hz</text><line x1="542.8" y1="0" x2="542.8" y2="230" stroke="var(--rule)" stroke-width="1"/><text x="542.8" y="254.0" class="dsub" text-anchor="middle">4 Hz</text><line x1="643.7" y1="0" x2="643.7" y2="230" stroke="var(--rule)" stroke-width="1"/><text x="643.7" y="254.0" class="dsub" text-anchor="middle">5 Hz</text><g class="bser"><title>Luxury sedan: 1.0 to 1.3 Hz</title><text x="186.0" y="29.0" class="dlab" text-anchor="end">Luxury sedan</text><rect x="240.3" y="12.0" width="30.2" height="22" rx="11" fill="#17806a" opacity=".9"/><text x="282.6" y="29.0" class="dsub" text-anchor="start">1.0–1.3</text></g><g class="bser"><title>Mainstream car: 1.2 to 1.6 Hz</title><text x="186.0" y="75.0" class="dlab" text-anchor="end">Mainstream car</text><rect x="260.5" y="58.0" width="40.3" height="22" rx="11" fill="#17806a" opacity=".9"/><text x="312.8" y="75.0" class="dsub" text-anchor="start">1.2–1.6</text></g><g class="bser"><title>Sports car: 1.5 to 2.2 Hz</title><text x="186.0" y="121.0" class="dlab" text-anchor="end">Sports car</text><rect x="290.8" y="104.0" width="70.6" height="22" rx="11" fill="#9a6b12" opacity=".9"/><text x="373.3" y="121.0" class="dsub" text-anchor="start">1.5–2.2</text></g><g class="bser"><title>Track-day setup: 2.0 to 3.0 Hz</title><text x="186.0" y="167.0" class="dlab" text-anchor="end">Track-day setup</text><rect x="341.2" y="150.0" width="100.8" height="22" rx="11" fill="#c0561e" opacity=".9"/><text x="454.0" y="167.0" class="dsub" text-anchor="start">2.0–3.0</text></g><g class="bser"><title>Downforce race car: 3.0 to 5.0 Hz</title><text x="186.0" y="213.0" class="dlab" text-anchor="end">Downforce race car</text><rect x="442.0" y="196.0" width="201.7" height="22" rx="11" fill="#c0561e" opacity=".9"/><text x="655.7" y="213.0" class="dsub" text-anchor="start">3.0–5.0</text></g><text x="200.0" y="284.0" class="dcap" text-anchor="start">HOW MANY TIMES THE BODY WANTS TO BOUNCE PER SECOND</text></svg>
+<p class="cnote">These are the customary engineering ranges rather than published figures for any one car, and real values depend on mass distribution, motion ratios and tire stiffness. Treat them as a map, not a specification.</p>
+</div>
+
+<p>Around one cycle per second feels like a well-made sofa moving underneath you. Around
+three feels like the car is annoyed. Above that you are into aerodynamic territory,
+where the springs exist mainly to keep the floor at a constant height and the human
+being is an afterthought with a helmet.</p>
+
+<h3>Damping, and why nobody uses the textbook answer</h3>
+
+<div class="cw"><p class="ctitle">The same bump, four different dampers</p><svg viewBox="0 0 760 340" xmlns="http://www.w3.org/2000/svg" role="img"><line x1="62" y1="207.3" x2="512" y2="207.3" stroke="var(--ink)" stroke-width="2"/><text x="52.0" y="212.3" class="dsub" text-anchor="end">level</text><text x="52.0" y="54.6" class="dsub" text-anchor="end">bump</text><line x1="62" y1="49.6" x2="512" y2="49.6" stroke="var(--rule)" stroke-width="1" stroke-dasharray="4 4"/><g class="bser"><title>Underdamped (zeta 0.15)</title><polyline points="62.0,49.6 63.1,49.9 64.1,50.7 65.2,51.9 66.3,53.7 67.4,55.9 68.4,58.6 69.5,61.7 70.6,65.3 71.6,69.2 72.7,73.6 73.8,78.3 74.9,83.3 75.9,88.7 77.0,94.3 78.1,100.3 79.1,106.4 80.2,112.8 81.3,119.4 82.4,126.2 83.4,133.1 84.5,140.2 85.6,147.3 86.6,154.6 87.7,161.8 88.8,169.1 89.9,176.4 90.9,183.7 92.0,190.9 93.1,198.1 94.1,205.1 95.2,212.1 96.3,218.9 97.4,225.6 98.4,232.1 99.5,238.4 100.6,244.4 101.6,250.3 102.7,255.9 103.8,261.3 104.9,266.4 105.9,271.2 107.0,275.7 108.1,280.0 109.1,283.9 110.2,287.5 111.3,290.7 112.4,293.7 113.4,294.0 114.5,294.0 115.6,294.0 116.6,294.0 117.7,294.0 118.8,294.0 119.9,294.0 120.9,294.0 122.0,294.0 123.1,294.0 124.1,294.0 125.2,294.0 126.3,294.0 127.4,294.0 128.4,294.0 129.5,294.0 130.6,293.8 131.6,291.2 132.7,288.3 133.8,285.3 134.9,282.0 135.9,278.6 137.0,274.9 138.1,271.1 139.1,267.2 140.2,263.1 141.3,259.0 142.4,254.7 143.4,250.3 144.5,245.9 145.6,241.4 146.6,236.9 147.7,232.4 148.8,227.9 149.9,223.4 150.9,218.9 152.0,214.4 153.1,210.0 154.1,205.7 155.2,201.4 156.3,197.2 157.4,193.2 158.4,189.2 159.5,185.4 160.6,181.7 161.6,178.2 162.7,174.8 163.8,171.6 164.9,168.5 165.9,165.7 167.0,163.0 168.1,160.5 169.1,158.2 170.2,156.1 171.3,154.2 172.4,152.5 173.4,151.0 174.5,149.8 175.6,148.7 176.6,147.9 177.7,147.2 178.8,146.8 179.9,146.6 180.9,146.5 182.0,146.7 183.1,147.1 184.1,147.6 185.2,148.4 186.3,149.3 187.4,150.4 188.4,151.7 189.5,153.1 190.6,154.7 191.6,156.4 192.7,158.3 193.8,160.3 194.9,162.4 195.9,164.6 197.0,166.9 198.1,169.3 199.1,171.8 200.2,174.4 201.3,177.0 202.4,179.7 203.4,182.4 204.5,185.2 205.6,188.0 206.6,190.8 207.7,193.6 208.8,196.4 209.9,199.2 210.9,202.0 212.0,204.8 213.1,207.5 214.1,210.1 215.2,212.7 216.3,215.3 217.4,217.8 218.4,220.2 219.5,222.5 220.6,224.7 221.6,226.8 222.7,228.9 223.8,230.8 224.9,232.6 225.9,234.3 227.0,235.9 228.1,237.3 229.1,238.7 230.2,239.9 231.3,241.0 232.4,241.9 233.4,242.8 234.5,243.5 235.6,244.0 236.6,244.5 237.7,244.8 238.8,245.0 239.9,245.0 240.9,245.0 242.0,244.8 243.1,244.5 244.1,244.0 245.2,243.5 246.3,242.8 247.4,242.1 248.4,241.2 249.5,240.3 250.6,239.2 251.6,238.1 252.7,236.9 253.8,235.6 254.9,234.2 255.9,232.8 257.0,231.3 258.1,229.8 259.1,228.2 260.2,226.6 261.3,224.9 262.4,223.3 263.4,221.5 264.5,219.8 265.6,218.1 266.6,216.3 267.7,214.6 268.8,212.8 269.9,211.1 270.9,209.4 272.0,207.7 273.1,206.0 274.1,204.4 275.2,202.8 276.3,201.3 277.4,199.8 278.4,198.3 279.5,196.9 280.6,195.6 281.6,194.3 282.7,193.1 283.8,191.9 284.9,190.9 285.9,189.8 287.0,188.9 288.1,188.1 289.1,187.3 290.2,186.6 291.3,186.0 292.4,185.4 293.4,185.0 294.5,184.6 295.6,184.3 296.6,184.1 297.7,183.9 298.8,183.9 299.9,183.9 300.9,184.0 302.0,184.2 303.1,184.4 304.1,184.7 305.2,185.1 306.3,185.5 307.4,186.1 308.4,186.6 309.5,187.3 310.6,187.9 311.6,188.7 312.7,189.5 313.8,190.3 314.9,191.2 315.9,192.1 317.0,193.0 318.1,194.0 319.1,195.0 320.2,196.0 321.3,197.1 322.4,198.1 323.4,199.2 324.5,200.3 325.6,201.3 326.6,202.4 327.7,203.5 328.8,204.6 329.9,205.7 330.9,206.7 332.0,207.7 333.1,208.8 334.1,209.8 335.2,210.7 336.3,211.7 337.4,212.6 338.4,213.5 339.5,214.3 340.6,215.1 341.6,215.9 342.7,216.6 343.8,217.3 344.9,217.9 345.9,218.5 347.0,219.1 348.1,219.6 349.1,220.0 350.2,220.4 351.3,220.8 352.4,221.1 353.4,221.3 354.5,221.5 355.6,221.7 356.6,221.8 357.7,221.8 358.8,221.8 359.9,221.8 360.9,221.7 362.0,221.6 363.1,221.4 364.1,221.2 365.2,220.9 366.3,220.6 367.4,220.2 368.4,219.9 369.5,219.4 370.6,219.0 371.6,218.5 372.7,218.0 373.8,217.5 374.9,216.9 375.9,216.3 377.0,215.7 378.1,215.1 379.1,214.5 380.2,213.9 381.3,213.2 382.4,212.5 383.4,211.9 384.5,211.2 385.6,210.5 386.6,209.9 387.7,209.2 388.8,208.5 389.9,207.9 390.9,207.2 392.0,206.6 393.1,206.0 394.1,205.3 395.2,204.8 396.3,204.2 397.4,203.6 398.4,203.1 399.5,202.6 400.6,202.1 401.6,201.6 402.7,201.2 403.8,200.8 404.9,200.4 405.9,200.1 407.0,199.8 408.1,199.5 409.1,199.2 410.2,199.0 411.3,198.8 412.4,198.6 413.4,198.5 414.5,198.4 415.6,198.3 416.6,198.3 417.7,198.3 418.8,198.3 419.9,198.3 420.9,198.4 422.0,198.5 423.1,198.6 424.1,198.8 425.2,199.0 426.3,199.2 427.4,199.4 428.4,199.7 429.5,199.9 430.6,200.2 431.6,200.5 432.7,200.9 433.8,201.2 434.9,201.6 435.9,201.9 437.0,202.3 438.1,202.7 439.1,203.1 440.2,203.5 441.3,203.9 442.4,204.3 443.4,204.7 444.5,205.2 445.6,205.6 446.6,206.0 447.7,206.4 448.8,206.8 449.9,207.2 450.9,207.6 452.0,208.0 453.1,208.4 454.1,208.8 455.2,209.1 456.3,209.5 457.4,209.8 458.4,210.1 459.5,210.4 460.6,210.7 461.6,211.0 462.7,211.2 463.8,211.5 464.9,211.7 465.9,211.9 467.0,212.1 468.1,212.3 469.1,212.4 470.2,212.5 471.3,212.6 472.4,212.7 473.4,212.8 474.5,212.9 475.6,212.9 476.6,212.9 477.7,212.9 478.8,212.9 479.9,212.8 480.9,212.8 482.0,212.7 483.1,212.6 484.1,212.5 485.2,212.4 486.3,212.2 487.4,212.1 488.4,211.9 489.5,211.7 490.6,211.6 491.6,211.4 492.7,211.1 493.8,210.9 494.9,210.7 495.9,210.5 497.0,210.2 498.1,210.0 499.1,209.7 500.2,209.5 501.3,209.2 502.4,209.0 503.4,208.7 504.5,208.4 505.6,208.2 506.6,207.9 507.7,207.7 508.8,207.4 509.9,207.2 510.9,206.9 512.0,206.7" fill="none" stroke="#c0561e" stroke-width="3.2" stroke-linecap="round"/></g><g class="bser"><title>Lightly damped (zeta 0.45)</title><polyline points="62.0,49.6 63.1,49.9 64.1,50.7 65.2,51.9 66.3,53.5 67.4,55.6 68.4,58.0 69.5,60.8 70.6,64.0 71.6,67.4 72.7,71.1 73.8,75.1 74.9,79.3 75.9,83.7 77.0,88.2 78.1,93.0 79.1,97.8 80.2,102.8 81.3,107.8 82.4,112.9 83.4,118.1 84.5,123.2 85.6,128.4 86.6,133.6 87.7,138.8 88.8,143.9 89.9,149.0 90.9,154.0 92.0,158.9 93.1,163.7 94.1,168.4 95.2,173.0 96.3,177.5 97.4,181.9 98.4,186.1 99.5,190.2 100.6,194.1 101.6,197.9 102.7,201.5 103.8,204.9 104.9,208.2 105.9,211.3 107.0,214.3 108.1,217.0 109.1,219.6 110.2,222.1 111.3,224.3 112.4,226.4 113.4,228.3 114.5,230.1 115.6,231.7 116.6,233.1 117.7,234.4 118.8,235.5 119.9,236.5 120.9,237.4 122.0,238.1 123.1,238.6 124.1,239.1 125.2,239.4 126.3,239.6 127.4,239.7 128.4,239.6 129.5,239.5 130.6,239.3 131.6,239.0 132.7,238.6 133.8,238.1 134.9,237.5 135.9,236.9 137.0,236.2 138.1,235.4 139.1,234.6 140.2,233.8 141.3,232.9 142.4,232.0 143.4,231.0 144.5,230.0 145.6,229.0 146.6,228.0 147.7,226.9 148.8,225.9 149.9,224.8 150.9,223.7 152.0,222.7 153.1,221.6 154.1,220.6 155.2,219.5 156.3,218.5 157.4,217.5 158.4,216.5 159.5,215.5 160.6,214.6 161.6,213.6 162.7,212.7 163.8,211.8 164.9,211.0 165.9,210.2 167.0,209.4 168.1,208.7 169.1,207.9 170.2,207.3 171.3,206.6 172.4,206.0 173.4,205.4 174.5,204.9 175.6,204.4 176.6,203.9 177.7,203.5 178.8,203.1 179.9,202.7 180.9,202.4 182.0,202.1 183.1,201.8 184.1,201.5 185.2,201.3 186.3,201.2 187.4,201.0 188.4,200.9 189.5,200.8 190.6,200.7 191.6,200.7 192.7,200.6 193.8,200.6 194.9,200.7 195.9,200.7 197.0,200.8 198.1,200.9 199.1,200.9 200.2,201.1 201.3,201.2 202.4,201.3 203.4,201.5 204.5,201.6 205.6,201.8 206.6,202.0 207.7,202.2 208.8,202.4 209.9,202.6 210.9,202.8 212.0,203.0 213.1,203.2 214.1,203.4 215.2,203.6 216.3,203.9 217.4,204.1 218.4,204.3 219.5,204.5 220.6,204.7 221.6,204.9 222.7,205.2 223.8,205.4 224.9,205.6 225.9,205.8 227.0,205.9 228.1,206.1 229.1,206.3 230.2,206.5 231.3,206.7 232.4,206.8 233.4,207.0 234.5,207.1 235.6,207.3 236.6,207.4 237.7,207.5 238.8,207.6 239.9,207.8 240.9,207.9 242.0,208.0 243.1,208.1 244.1,208.1 245.2,208.2 246.3,208.3 247.4,208.4 248.4,208.4 249.5,208.5 250.6,208.5 251.6,208.5 252.7,208.6 253.8,208.6 254.9,208.6 255.9,208.6 257.0,208.7 258.1,208.7 259.1,208.7 260.2,208.7 261.3,208.6 262.4,208.6 263.4,208.6 264.5,208.6 265.6,208.6 266.6,208.6 267.7,208.5 268.8,208.5 269.9,208.5 270.9,208.4 272.0,208.4 273.1,208.4 274.1,208.3 275.2,208.3 276.3,208.2 277.4,208.2 278.4,208.1 279.5,208.1 280.6,208.1 281.6,208.0 282.7,208.0 283.8,207.9 284.9,207.9 285.9,207.8 287.0,207.8 288.1,207.7 289.1,207.7 290.2,207.7 291.3,207.6 292.4,207.6 293.4,207.5 294.5,207.5 295.6,207.5 296.6,207.4 297.7,207.4 298.8,207.4 299.9,207.3 300.9,207.3 302.0,207.3 303.1,207.3 304.1,207.2 305.2,207.2 306.3,207.2 307.4,207.2 308.4,207.1 309.5,207.1 310.6,207.1 311.6,207.1 312.7,207.1 313.8,207.1 314.9,207.1 315.9,207.0 317.0,207.0 318.1,207.0 319.1,207.0 320.2,207.0 321.3,207.0 322.4,207.0 323.4,207.0 324.5,207.0 325.6,207.0 326.6,207.0 327.7,207.0 328.8,207.0 329.9,207.0 330.9,207.0 332.0,207.0 333.1,207.0 334.1,207.0 335.2,207.1 336.3,207.1 337.4,207.1 338.4,207.1 339.5,207.1 340.6,207.1 341.6,207.1 342.7,207.1 343.8,207.1 344.9,207.1 345.9,207.1 347.0,207.1 348.1,207.2 349.1,207.2 350.2,207.2 351.3,207.2 352.4,207.2 353.4,207.2 354.5,207.2 355.6,207.2 356.6,207.2 357.7,207.2 358.8,207.2 359.9,207.2 360.9,207.3 362.0,207.3 363.1,207.3 364.1,207.3 365.2,207.3 366.3,207.3 367.4,207.3 368.4,207.3 369.5,207.3 370.6,207.3 371.6,207.3 372.7,207.3 373.8,207.3 374.9,207.3 375.9,207.3 377.0,207.3 378.1,207.3 379.1,207.3 380.2,207.3 381.3,207.3 382.4,207.3 383.4,207.3 384.5,207.3 385.6,207.3 386.6,207.4 387.7,207.4 388.8,207.4 389.9,207.4 390.9,207.4 392.0,207.4 393.1,207.4 394.1,207.4 395.2,207.3 396.3,207.3 397.4,207.3 398.4,207.3 399.5,207.3 400.6,207.3 401.6,207.3 402.7,207.3 403.8,207.3 404.9,207.3 405.9,207.3 407.0,207.3 408.1,207.3 409.1,207.3 410.2,207.3 411.3,207.3 412.4,207.3 413.4,207.3 414.5,207.3 415.6,207.3 416.6,207.3 417.7,207.3 418.8,207.3 419.9,207.3 420.9,207.3 422.0,207.3 423.1,207.3 424.1,207.3 425.2,207.3 426.3,207.3 427.4,207.3 428.4,207.3 429.5,207.3 430.6,207.3 431.6,207.3 432.7,207.3 433.8,207.3 434.9,207.3 435.9,207.3 437.0,207.3 438.1,207.3 439.1,207.3 440.2,207.3 441.3,207.3 442.4,207.3 443.4,207.3 444.5,207.3 445.6,207.3 446.6,207.3 447.7,207.3 448.8,207.3 449.9,207.3 450.9,207.3 452.0,207.3 453.1,207.3 454.1,207.3 455.2,207.3 456.3,207.3 457.4,207.3 458.4,207.3 459.5,207.3 460.6,207.3 461.6,207.3 462.7,207.3 463.8,207.3 464.9,207.3 465.9,207.3 467.0,207.3 468.1,207.3 469.1,207.3 470.2,207.3 471.3,207.3 472.4,207.3 473.4,207.3 474.5,207.3 475.6,207.3 476.6,207.3 477.7,207.3 478.8,207.3 479.9,207.3 480.9,207.3 482.0,207.3 483.1,207.3 484.1,207.3 485.2,207.3 486.3,207.3 487.4,207.3 488.4,207.3 489.5,207.3 490.6,207.3 491.6,207.3 492.7,207.3 493.8,207.3 494.9,207.3 495.9,207.3 497.0,207.3 498.1,207.3 499.1,207.3 500.2,207.3 501.3,207.3 502.4,207.3 503.4,207.3 504.5,207.3 505.6,207.3 506.6,207.3 507.7,207.3 508.8,207.3 509.9,207.3 510.9,207.3 512.0,207.3" fill="none" stroke="#9a6b12" stroke-width="3.2" stroke-linecap="round"/></g><g class="bser"><title>Critically damped (zeta 1.0)</title><polyline points="62.0,49.6 63.1,49.9 64.1,50.6 65.2,51.7 66.3,53.2 67.4,55.0 68.4,57.1 69.5,59.4 70.6,62.0 71.6,64.7 72.7,67.6 73.8,70.5 74.9,73.6 75.9,76.8 77.0,80.0 78.1,83.3 79.1,86.6 80.2,89.9 81.3,93.3 82.4,96.6 83.4,99.9 84.5,103.2 85.6,106.4 86.6,109.7 87.7,112.8 88.8,116.0 89.9,119.0 90.9,122.0 92.0,125.0 93.1,127.9 94.1,130.7 95.2,133.4 96.3,136.1 97.4,138.7 98.4,141.3 99.5,143.7 100.6,146.1 101.6,148.5 102.7,150.7 103.8,152.9 104.9,155.1 105.9,157.1 107.0,159.1 108.1,161.0 109.1,162.9 110.2,164.7 111.3,166.4 112.4,168.1 113.4,169.7 114.5,171.3 115.6,172.8 116.6,174.2 117.7,175.6 118.8,176.9 119.9,178.2 120.9,179.5 122.0,180.7 123.1,181.8 124.1,182.9 125.2,184.0 126.3,185.0 127.4,185.9 128.4,186.9 129.5,187.8 130.6,188.6 131.6,189.5 132.7,190.3 133.8,191.0 134.9,191.7 135.9,192.4 137.0,193.1 138.1,193.7 139.1,194.4 140.2,194.9 141.3,195.5 142.4,196.0 143.4,196.5 144.5,197.0 145.6,197.5 146.6,198.0 147.7,198.4 148.8,198.8 149.9,199.2 150.9,199.6 152.0,199.9 153.1,200.3 154.1,200.6 155.2,200.9 156.3,201.2 157.4,201.5 158.4,201.8 159.5,202.0 160.6,202.3 161.6,202.5 162.7,202.7 163.8,203.0 164.9,203.2 165.9,203.4 167.0,203.5 168.1,203.7 169.1,203.9 170.2,204.1 171.3,204.2 172.4,204.4 173.4,204.5 174.5,204.6 175.6,204.8 176.6,204.9 177.7,205.0 178.8,205.1 179.9,205.2 180.9,205.3 182.0,205.4 183.1,205.5 184.1,205.6 185.2,205.7 186.3,205.8 187.4,205.8 188.4,205.9 189.5,206.0 190.6,206.0 191.6,206.1 192.7,206.2 193.8,206.2 194.9,206.3 195.9,206.3 197.0,206.4 198.1,206.4 199.1,206.5 200.2,206.5 201.3,206.5 202.4,206.6 203.4,206.6 204.5,206.6 205.6,206.7 206.6,206.7 207.7,206.7 208.8,206.8 209.9,206.8 210.9,206.8 212.0,206.8 213.1,206.9 214.1,206.9 215.2,206.9 216.3,206.9 217.4,206.9 218.4,207.0 219.5,207.0 220.6,207.0 221.6,207.0 222.7,207.0 223.8,207.0 224.9,207.0 225.9,207.1 227.0,207.1 228.1,207.1 229.1,207.1 230.2,207.1 231.3,207.1 232.4,207.1 233.4,207.1 234.5,207.1 235.6,207.1 236.6,207.2 237.7,207.2 238.8,207.2 239.9,207.2 240.9,207.2 242.0,207.2 243.1,207.2 244.1,207.2 245.2,207.2 246.3,207.2 247.4,207.2 248.4,207.2 249.5,207.2 250.6,207.2 251.6,207.2 252.7,207.2 253.8,207.2 254.9,207.2 255.9,207.2 257.0,207.2 258.1,207.2 259.1,207.2 260.2,207.2 261.3,207.3 262.4,207.3 263.4,207.3 264.5,207.3 265.6,207.3 266.6,207.3 267.7,207.3 268.8,207.3 269.9,207.3 270.9,207.3 272.0,207.3 273.1,207.3 274.1,207.3 275.2,207.3 276.3,207.3 277.4,207.3 278.4,207.3 279.5,207.3 280.6,207.3 281.6,207.3 282.7,207.3 283.8,207.3 284.9,207.3 285.9,207.3 287.0,207.3 288.1,207.3 289.1,207.3 290.2,207.3 291.3,207.3 292.4,207.3 293.4,207.3 294.5,207.3 295.6,207.3 296.6,207.3 297.7,207.3 298.8,207.3 299.9,207.3 300.9,207.3 302.0,207.3 303.1,207.3 304.1,207.3 305.2,207.3 306.3,207.3 307.4,207.3 308.4,207.3 309.5,207.3 310.6,207.3 311.6,207.3 312.7,207.3 313.8,207.3 314.9,207.3 315.9,207.3 317.0,207.3 318.1,207.3 319.1,207.3 320.2,207.3 321.3,207.3 322.4,207.3 323.4,207.3 324.5,207.3 325.6,207.3 326.6,207.3 327.7,207.3 328.8,207.3 329.9,207.3 330.9,207.3 332.0,207.3 333.1,207.3 334.1,207.3 335.2,207.3 336.3,207.3 337.4,207.3 338.4,207.3 339.5,207.3 340.6,207.3 341.6,207.3 342.7,207.3 343.8,207.3 344.9,207.3 345.9,207.3 347.0,207.3 348.1,207.3 349.1,207.3 350.2,207.3 351.3,207.3 352.4,207.3 353.4,207.3 354.5,207.3 355.6,207.3 356.6,207.3 357.7,207.3 358.8,207.3 359.9,207.3 360.9,207.3 362.0,207.3 363.1,207.3 364.1,207.3 365.2,207.3 366.3,207.3 367.4,207.3 368.4,207.3 369.5,207.3 370.6,207.3 371.6,207.3 372.7,207.3 373.8,207.3 374.9,207.3 375.9,207.3 377.0,207.3 378.1,207.3 379.1,207.3 380.2,207.3 381.3,207.3 382.4,207.3 383.4,207.3 384.5,207.3 385.6,207.3 386.6,207.3 387.7,207.3 388.8,207.3 389.9,207.3 390.9,207.3 392.0,207.3 393.1,207.3 394.1,207.3 395.2,207.3 396.3,207.3 397.4,207.3 398.4,207.3 399.5,207.3 400.6,207.3 401.6,207.3 402.7,207.3 403.8,207.3 404.9,207.3 405.9,207.3 407.0,207.3 408.1,207.3 409.1,207.3 410.2,207.3 411.3,207.3 412.4,207.3 413.4,207.3 414.5,207.3 415.6,207.3 416.6,207.3 417.7,207.3 418.8,207.3 419.9,207.3 420.9,207.3 422.0,207.3 423.1,207.3 424.1,207.3 425.2,207.3 426.3,207.3 427.4,207.3 428.4,207.3 429.5,207.3 430.6,207.3 431.6,207.3 432.7,207.3 433.8,207.3 434.9,207.3 435.9,207.3 437.0,207.3 438.1,207.3 439.1,207.3 440.2,207.3 441.3,207.3 442.4,207.3 443.4,207.3 444.5,207.3 445.6,207.3 446.6,207.3 447.7,207.3 448.8,207.3 449.9,207.3 450.9,207.3 452.0,207.3 453.1,207.3 454.1,207.3 455.2,207.3 456.3,207.3 457.4,207.3 458.4,207.3 459.5,207.3 460.6,207.3 461.6,207.3 462.7,207.3 463.8,207.3 464.9,207.3 465.9,207.3 467.0,207.3 468.1,207.3 469.1,207.3 470.2,207.3 471.3,207.3 472.4,207.3 473.4,207.3 474.5,207.3 475.6,207.3 476.6,207.3 477.7,207.3 478.8,207.3 479.9,207.3 480.9,207.3 482.0,207.3 483.1,207.3 484.1,207.3 485.2,207.3 486.3,207.3 487.4,207.3 488.4,207.3 489.5,207.3 490.6,207.3 491.6,207.3 492.7,207.3 493.8,207.3 494.9,207.3 495.9,207.3 497.0,207.3 498.1,207.3 499.1,207.3 500.2,207.3 501.3,207.3 502.4,207.3 503.4,207.3 504.5,207.3 505.6,207.3 506.6,207.3 507.7,207.3 508.8,207.3 509.9,207.3 510.9,207.3 512.0,207.3" fill="none" stroke="#17806a" stroke-width="3.2" stroke-linecap="round"/></g><g class="bser"><title>Overdamped (zeta 2.4)</title><polyline points="62.0,49.6 63.1,49.9 64.1,50.5 65.2,51.5 66.3,52.6 67.4,53.9 68.4,55.4 69.5,56.9 70.6,58.5 71.6,60.2 72.7,61.8 73.8,63.5 74.9,65.2 75.9,66.9 77.0,68.6 78.1,70.3 79.1,72.0 80.2,73.6 81.3,75.3 82.4,76.9 83.4,78.5 84.5,80.1 85.6,81.7 86.6,83.2 87.7,84.8 88.8,86.3 89.9,87.8 90.9,89.3 92.0,90.8 93.1,92.2 94.1,93.7 95.2,95.1 96.3,96.5 97.4,97.9 98.4,99.2 99.5,100.6 100.6,101.9 101.6,103.2 102.7,104.5 103.8,105.8 104.9,107.0 105.9,108.3 107.0,109.5 108.1,110.7 109.1,112.0 110.2,113.1 111.3,114.3 112.4,115.5 113.4,116.6 114.5,117.7 115.6,118.9 116.6,120.0 117.7,121.0 118.8,122.1 119.9,123.2 120.9,124.2 122.0,125.3 123.1,126.3 124.1,127.3 125.2,128.3 126.3,129.3 127.4,130.3 128.4,131.2 129.5,132.2 130.6,133.1 131.6,134.0 132.7,134.9 133.8,135.8 134.9,136.7 135.9,137.6 137.0,138.5 138.1,139.3 139.1,140.2 140.2,141.0 141.3,141.8 142.4,142.7 143.4,143.5 144.5,144.3 145.6,145.0 146.6,145.8 147.7,146.6 148.8,147.3 149.9,148.1 150.9,148.8 152.0,149.6 153.1,150.3 154.1,151.0 155.2,151.7 156.3,152.4 157.4,153.1 158.4,153.7 159.5,154.4 160.6,155.1 161.6,155.7 162.7,156.4 163.8,157.0 164.9,157.6 165.9,158.2 167.0,158.8 168.1,159.5 169.1,160.0 170.2,160.6 171.3,161.2 172.4,161.8 173.4,162.4 174.5,162.9 175.6,163.5 176.6,164.0 177.7,164.6 178.8,165.1 179.9,165.6 180.9,166.1 182.0,166.6 183.1,167.2 184.1,167.7 185.2,168.1 186.3,168.6 187.4,169.1 188.4,169.6 189.5,170.1 190.6,170.5 191.6,171.0 192.7,171.4 193.8,171.9 194.9,172.3 195.9,172.8 197.0,173.2 198.1,173.6 199.1,174.0 200.2,174.5 201.3,174.9 202.4,175.3 203.4,175.7 204.5,176.1 205.6,176.4 206.6,176.8 207.7,177.2 208.8,177.6 209.9,178.0 210.9,178.3 212.0,178.7 213.1,179.0 214.1,179.4 215.2,179.7 216.3,180.1 217.4,180.4 218.4,180.8 219.5,181.1 220.6,181.4 221.6,181.7 222.7,182.1 223.8,182.4 224.9,182.7 225.9,183.0 227.0,183.3 228.1,183.6 229.1,183.9 230.2,184.2 231.3,184.5 232.4,184.7 233.4,185.0 234.5,185.3 235.6,185.6 236.6,185.8 237.7,186.1 238.8,186.4 239.9,186.6 240.9,186.9 242.0,187.2 243.1,187.4 244.1,187.7 245.2,187.9 246.3,188.1 247.4,188.4 248.4,188.6 249.5,188.8 250.6,189.1 251.6,189.3 252.7,189.5 253.8,189.7 254.9,190.0 255.9,190.2 257.0,190.4 258.1,190.6 259.1,190.8 260.2,191.0 261.3,191.2 262.4,191.4 263.4,191.6 264.5,191.8 265.6,192.0 266.6,192.2 267.7,192.4 268.8,192.6 269.9,192.8 270.9,192.9 272.0,193.1 273.1,193.3 274.1,193.5 275.2,193.6 276.3,193.8 277.4,194.0 278.4,194.1 279.5,194.3 280.6,194.5 281.6,194.6 282.7,194.8 283.8,194.9 284.9,195.1 285.9,195.2 287.0,195.4 288.1,195.5 289.1,195.7 290.2,195.8 291.3,196.0 292.4,196.1 293.4,196.3 294.5,196.4 295.6,196.5 296.6,196.7 297.7,196.8 298.8,196.9 299.9,197.1 300.9,197.2 302.0,197.3 303.1,197.4 304.1,197.6 305.2,197.7 306.3,197.8 307.4,197.9 308.4,198.0 309.5,198.2 310.6,198.3 311.6,198.4 312.7,198.5 313.8,198.6 314.9,198.7 315.9,198.8 317.0,198.9 318.1,199.0 319.1,199.1 320.2,199.2 321.3,199.3 322.4,199.4 323.4,199.5 324.5,199.6 325.6,199.7 326.6,199.8 327.7,199.9 328.8,200.0 329.9,200.1 330.9,200.2 332.0,200.3 333.1,200.4 334.1,200.4 335.2,200.5 336.3,200.6 337.4,200.7 338.4,200.8 339.5,200.9 340.6,200.9 341.6,201.0 342.7,201.1 343.8,201.2 344.9,201.2 345.9,201.3 347.0,201.4 348.1,201.5 349.1,201.5 350.2,201.6 351.3,201.7 352.4,201.8 353.4,201.8 354.5,201.9 355.6,202.0 356.6,202.0 357.7,202.1 358.8,202.2 359.9,202.2 360.9,202.3 362.0,202.3 363.1,202.4 364.1,202.5 365.2,202.5 366.3,202.6 367.4,202.6 368.4,202.7 369.5,202.8 370.6,202.8 371.6,202.9 372.7,202.9 373.8,203.0 374.9,203.0 375.9,203.1 377.0,203.1 378.1,203.2 379.1,203.2 380.2,203.3 381.3,203.3 382.4,203.4 383.4,203.4 384.5,203.5 385.6,203.5 386.6,203.6 387.7,203.6 388.8,203.7 389.9,203.7 390.9,203.8 392.0,203.8 393.1,203.9 394.1,203.9 395.2,203.9 396.3,204.0 397.4,204.0 398.4,204.1 399.5,204.1 400.6,204.1 401.6,204.2 402.7,204.2 403.8,204.3 404.9,204.3 405.9,204.3 407.0,204.4 408.1,204.4 409.1,204.4 410.2,204.5 411.3,204.5 412.4,204.6 413.4,204.6 414.5,204.6 415.6,204.7 416.6,204.7 417.7,204.7 418.8,204.7 419.9,204.8 420.9,204.8 422.0,204.8 423.1,204.9 424.1,204.9 425.2,204.9 426.3,205.0 427.4,205.0 428.4,205.0 429.5,205.0 430.6,205.1 431.6,205.1 432.7,205.1 433.8,205.2 434.9,205.2 435.9,205.2 437.0,205.2 438.1,205.3 439.1,205.3 440.2,205.3 441.3,205.3 442.4,205.4 443.4,205.4 444.5,205.4 445.6,205.4 446.6,205.5 447.7,205.5 448.8,205.5 449.9,205.5 450.9,205.5 452.0,205.6 453.1,205.6 454.1,205.6 455.2,205.6 456.3,205.7 457.4,205.7 458.4,205.7 459.5,205.7 460.6,205.7 461.6,205.8 462.7,205.8 463.8,205.8 464.9,205.8 465.9,205.8 467.0,205.8 468.1,205.9 469.1,205.9 470.2,205.9 471.3,205.9 472.4,205.9 473.4,206.0 474.5,206.0 475.6,206.0 476.6,206.0 477.7,206.0 478.8,206.0 479.9,206.0 480.9,206.1 482.0,206.1 483.1,206.1 484.1,206.1 485.2,206.1 486.3,206.1 487.4,206.2 488.4,206.2 489.5,206.2 490.6,206.2 491.6,206.2 492.7,206.2 493.8,206.2 494.9,206.2 495.9,206.3 497.0,206.3 498.1,206.3 499.1,206.3 500.2,206.3 501.3,206.3 502.4,206.3 503.4,206.3 504.5,206.4 505.6,206.4 506.6,206.4 507.7,206.4 508.8,206.4 509.9,206.4 510.9,206.4 512.0,206.4" fill="none" stroke="#2563a8" stroke-width="3.2" stroke-linecap="round"/></g><rect x="534" y="26" width="14" height="14" rx="2.5" fill="#c0561e"/><text x="556.0" y="38.0" class="dlab" text-anchor="start">Underdamped</text><text x="556.0" y="56.0" class="dsub" text-anchor="start">bounces, then bounces again</text><rect x="534" y="74" width="14" height="14" rx="2.5" fill="#9a6b12"/><text x="556.0" y="86.0" class="dlab" text-anchor="start">Lightly damped</text><text x="556.0" y="104.0" class="dsub" text-anchor="start">one overshoot, then settled</text><rect x="534" y="122" width="14" height="14" rx="2.5" fill="#17806a"/><text x="556.0" y="134.0" class="dlab" text-anchor="start">Critically damped</text><text x="556.0" y="152.0" class="dsub" text-anchor="start">home fastest, no overshoot</text><rect x="534" y="170" width="14" height="14" rx="2.5" fill="#2563a8"/><text x="556.0" y="182.0" class="dlab" text-anchor="start">Overdamped</text><text x="556.0" y="200.0" class="dsub" text-anchor="start">slow, reluctant, seasick</text><text x="62.0" y="320.0" class="dsub" text-anchor="middle">0 sec</text><text x="202.6" y="320.0" class="dsub" text-anchor="middle">1 sec</text><text x="343.2" y="320.0" class="dsub" text-anchor="middle">2 sec</text><text x="483.9" y="320.0" class="dsub" text-anchor="middle">3 sec</text><text x="62.0" y="332.0" class="dcap" text-anchor="start">TIME AFTER THE BUMP</text></svg><p class="cnote">Computed step response of a mass on a spring at a 1.2 Hz body frequency, at four damping ratios. The spring is identical in all four; only the damper changes.</p></div>
+
+<p>Too little damping and the body oscillates, which is the classic bad-shocks feeling:
+one bump goes in and three come out. Too much and the suspension turns reluctant, refuses
+to move quickly, and transmits impacts straight into the structure instead of absorbing
+them. In between sits critical damping, the tidy point where the car returns to level as
+fast as possible without overshooting.</p>
+
+<p>Almost nobody sets a car to critical damping. The textbook model has one mass, one
+spring, one damper. A real car has a tire that is also a spring, bushings that are also
+springs, a body that flexes, seats that move, aerodynamic loads that change with speed,
+and separate force curves for compression and rebound. Critical damping is a landmark,
+not a target.</p>
+
+<h3>The case against enormous wheels</h3>
+
+<p>Unsprung mass is the reason your friend's car rides badly on the wheels he is
+proudest of. A heavy wheel and tire assembly has more inertia, so it takes more force to
+lift it over a bump and more force to shove it back down into the dip after it. For as long as
+either takes, the tire is not carrying its share of the load, and a tire that is not
+loaded is not gripping.</p>
+
+<p>That is half of it. Because overall rolling diameter has to stay roughly constant for
+the speedometer, the gearing and the bodywork to keep working, every inch of extra wheel
+has to come out of the sidewall.</p>
+
+<div class="cw">
+<p class="ctitle">The rubber you deleted</p>
+<p class="csub">Five tire sizes that all roll at very nearly the same overall diameter. The wheel gets bigger; the only thing left to give is the sidewall.</p>
+<svg viewBox="0 0 760 420" xmlns="http://www.w3.org/2000/svg" role="img">
+<line x1="20" y1="334" x2="746" y2="334" stroke="var(--rule)" stroke-width="1.5"/>
+<g class="bser"><title>205/55R16|632 mm overall: 113 mm</title>
+<rect x="55.0" y="75.4" width="74.0" height="258.6" rx="3" fill="#17806a"/>
+<text x="92.0" y="64.4" class="bval" text-anchor="middle">113 mm</text>
+<text x="92.0" y="358.0" class="blab" text-anchor="middle">205/55R16</text>
+<text x="92.0" y="377.0" class="blab" text-anchor="middle">632 mm overall</text>
+</g>
+<g class="bser"><title>225/45R17|634 mm overall: 101 mm</title>
+<rect x="199.0" y="101.8" width="74.0" height="232.2" rx="3" fill="#17806a"/>
+<text x="236.0" y="90.8" class="bval" text-anchor="middle">101 mm</text>
+<text x="236.0" y="358.0" class="blab" text-anchor="middle">225/45R17</text>
+<text x="236.0" y="377.0" class="blab" text-anchor="middle">634 mm overall</text>
+</g>
+<g class="bser"><title>225/40R18|637 mm overall: 90 mm</title>
+<rect x="343.0" y="127.6" width="74.0" height="206.4" rx="3" fill="#9a6b12"/>
+<text x="380.0" y="116.6" class="bval" text-anchor="middle">90 mm</text>
+<text x="380.0" y="358.0" class="blab" text-anchor="middle">225/40R18</text>
+<text x="380.0" y="377.0" class="blab" text-anchor="middle">637 mm overall</text>
+</g>
+<g class="bser"><title>225/35R19|640 mm overall: 79 mm</title>
+<rect x="487.0" y="153.4" width="74.0" height="180.6" rx="3" fill="#c0561e"/>
+<text x="524.0" y="142.4" class="bval" text-anchor="middle">79 mm</text>
+<text x="524.0" y="358.0" class="blab" text-anchor="middle">225/35R19</text>
+<text x="524.0" y="377.0" class="blab" text-anchor="middle">640 mm overall</text>
+</g>
+<g class="bser"><title>235/30R20|649 mm overall: 70 mm</title>
+<rect x="631.0" y="172.3" width="74.0" height="161.7" rx="3" fill="#c0561e"/>
+<text x="668.0" y="161.3" class="bval" text-anchor="middle">70 mm</text>
+<text x="668.0" y="358.0" class="blab" text-anchor="middle">235/30R20</text>
+<text x="668.0" y="377.0" class="blab" text-anchor="middle">649 mm overall</text>
+</g>
+<text x="380.0" y="414.0" class="bcap" text-anchor="middle">SIDEWALL HEIGHT AT ROUGHLY CONSTANT ROLLING DIAMETER</text>
+</svg>
+<p class="cnote">Sidewall height falls 37 percent from the 16-inch wheel to the 20-inch one while the overall diameter varies by only 2.7 percent. That vanished rubber was your first spring and your first damper. Figures are arithmetic from the tire codes, not test data.</p>
+</div>
+
+<p>That sidewall was not decoration. It is the part of the chain that handles the
+sharpest, smallest and fastest disturbances, before anything else in the car has time to
+react. A very low-profile tire
+gives you crisper steering response and less sidewall squirm, and in exchange it hands
+the suspension a harder job at exactly the frequencies the suspension is worst at, while
+placing your expensive wheel rim about three-quarters of an inch from the nearest
+pothole.</p>
+
+<h2><span class="num">Five</span>The tire got there first</h2>
+
+<p>All of which is a long way of saying something engineers find obvious and enthusiasts
+routinely forget: the tire is part of the suspension. It is the first thing the road talks
+to and the last thing that touches it.</p>
+
+<p>Sidewall height, construction, compound, tread, temperature, pressure and the mass of
+the wheel it is wrapped around will change how a car rides and grips more than most
+suspension modifications will. A sophisticated multi-link chassis on unsuitable tires can
+be comprehensively beaten by a crude one on the right rubber. That is why tire choice is
+the first question a race engineer asks and the last thing a road car owner thinks
+about.</p>
+
+<div class="clip two">
+<h4>Pressure, and what it actually does</h4>
+<ul>
+<li>Underinflated: builds heat, feels vague, wears the shoulders, drinks fuel</li>
+<li>Overinflated: less compliance, smaller effective contact patch on rough roads</li>
+<li>Both extremes reduce grip; neither failure announces itself clearly</li>
+<li>Cold pressures rise several psi once the tire is working</li>
+<li>A tire that is merely touching the road is not the same as one that is loaded</li>
+</ul>
+<p class="clipfoot">The cheapest handling upgrade available to anyone is a tire gauge
+and five minutes on a Sunday.</p>
+</div>
+
+<h2><span class="num">Six</span>Six ways to hold up a car</h2>
+
+<p>A spring's only job is to give you force in exchange for movement. The interesting
+part is the shape of that exchange, and there are more ways to arrange it than most
+people realize.</p>
+
+<div class="cw">
+<p class="ctitle">How hard, and how soon</p>
+<p class="csub">Every spring trades the same currency: how much force it gives you for how far you let it move. The shape of the line is the whole personality of the car.</p>
+<svg viewBox="0 0 760 330" xmlns="http://www.w3.org/2000/svg" role="img"><line x1="74" y1="24.0" x2="524" y2="24.0" stroke="var(--rule)" stroke-width="1"/><line x1="74" y1="86.5" x2="524" y2="86.5" stroke="var(--rule)" stroke-width="1"/><line x1="74" y1="149.0" x2="524" y2="149.0" stroke="var(--rule)" stroke-width="1"/><line x1="74" y1="211.5" x2="524" y2="211.5" stroke="var(--rule)" stroke-width="1"/><line x1="74" y1="274.0" x2="524" y2="274.0" stroke="var(--rule)" stroke-width="1"/><line x1="74" y1="24" x2="74" y2="274" stroke="var(--ink)" stroke-width="2"/><line x1="74" y1="274" x2="524" y2="274" stroke="var(--ink)" stroke-width="2"/><g class="bser"><title>Linear coil</title><polyline points="74.0,274.0 77.8,272.7 81.5,271.4 85.2,270.1 89.0,268.8 92.8,267.5 96.5,266.2 100.2,265.0 104.0,263.7 107.8,262.4 111.5,261.1 115.2,259.8 119.0,258.5 122.8,257.2 126.5,255.9 130.2,254.6 134.0,253.3 137.8,252.0 141.5,250.8 145.2,249.5 149.0,248.2 152.8,246.9 156.5,245.6 160.2,244.3 164.0,243.0 167.8,241.7 171.5,240.4 175.2,239.1 179.0,237.8 182.8,236.5 186.5,235.2 190.2,234.0 194.0,232.7 197.8,231.4 201.5,230.1 205.2,228.8 209.0,227.5 212.8,226.2 216.5,224.9 220.2,223.6 224.0,222.3 227.7,221.0 231.5,219.8 235.3,218.5 239.0,217.2 242.8,215.9 246.5,214.6 250.2,213.3 254.0,212.0 257.8,210.7 261.5,209.4 265.2,208.1 269.0,206.8 272.8,205.5 276.5,204.2 280.2,203.0 284.0,201.7 287.8,200.4 291.5,199.1 295.2,197.8 299.0,196.5 302.8,195.2 306.5,193.9 310.2,192.6 314.0,191.3 317.8,190.0 321.5,188.8 325.2,187.5 329.0,186.2 332.8,184.9 336.5,183.6 340.2,182.3 344.0,181.0 347.8,179.7 351.5,178.4 355.2,177.1 359.0,175.8 362.8,174.5 366.5,173.2 370.2,172.0 374.0,170.7 377.8,169.4 381.5,168.1 385.3,166.8 389.0,165.5 392.7,164.2 396.5,162.9 400.2,161.6 404.0,160.3 407.8,159.0 411.5,157.8 415.2,156.5 419.0,155.2 422.8,153.9 426.5,152.6 430.2,151.3 434.0,150.0 437.8,148.7 441.5,147.4 445.2,146.1 449.0,144.8 452.8,143.5 456.5,142.2 460.2,141.0 464.0,139.7 467.8,138.4 471.5,137.1 475.2,135.8 479.0,134.5 482.8,133.2 486.5,131.9 490.2,130.6 494.0,129.3 497.8,128.0 501.5,126.8 505.2,125.5 509.0,124.2 512.8,122.9 516.5,121.6 520.2,120.3 524.0,119.0" fill="none" stroke="#17806a" stroke-width="3.4" stroke-linecap="round"/></g><rect x="544" y="38" width="14" height="14" rx="2.5" fill="#17806a"/><text x="566.0" y="50.0" class="dlab" text-anchor="start">Linear coil</text><text x="566.0" y="68.0" class="dsub" text-anchor="start">same answer every time</text><g class="bser"><title>Progressive</title><polyline points="74.0,274.0 77.8,273.4 81.5,272.7 85.2,272.0 89.0,271.3 92.8,270.6 96.5,269.9 100.2,269.2 104.0,268.4 107.8,267.6 111.5,266.8 115.2,266.0 119.0,265.1 122.8,264.3 126.5,263.4 130.2,262.5 134.0,261.6 137.8,260.6 141.5,259.7 145.2,258.7 149.0,257.7 152.8,256.7 156.5,255.6 160.2,254.6 164.0,253.5 167.8,252.4 171.5,251.3 175.2,250.2 179.0,249.0 182.8,247.8 186.5,246.7 190.2,245.4 194.0,244.2 197.8,243.0 201.5,241.7 205.2,240.4 209.0,239.1 212.8,237.8 216.5,236.5 220.2,235.1 224.0,233.7 227.7,232.3 231.5,230.9 235.3,229.5 239.0,228.0 242.8,226.5 246.5,225.0 250.2,223.5 254.0,222.0 257.8,220.4 261.5,218.9 265.2,217.3 269.0,215.7 272.8,214.1 276.5,212.4 280.2,210.7 284.0,209.1 287.8,207.4 291.5,205.6 295.2,203.9 299.0,202.1 302.8,200.3 306.5,198.5 310.2,196.7 314.0,194.9 317.8,193.0 321.5,191.2 325.2,189.3 329.0,187.3 332.8,185.4 336.5,183.5 340.2,181.5 344.0,179.5 347.8,177.5 351.5,175.5 355.2,173.4 359.0,171.3 362.8,169.3 366.5,167.2 370.2,165.0 374.0,162.9 377.8,160.7 381.5,158.5 385.3,156.3 389.0,154.1 392.7,151.9 396.5,149.6 400.2,147.4 404.0,145.1 407.8,142.7 411.5,140.4 415.2,138.1 419.0,135.7 422.8,133.3 426.5,130.9 430.2,128.4 434.0,126.0 437.8,123.5 441.5,121.0 445.2,118.5 449.0,116.0 452.8,113.5 456.5,110.9 460.2,108.3 464.0,105.7 467.8,103.1 471.5,100.5 475.2,97.8 479.0,95.1 482.8,92.4 486.5,89.7 490.2,87.0 494.0,84.2 497.8,81.4 501.5,78.7 505.2,75.8 509.0,73.0 512.8,70.2 516.5,67.3 520.2,64.4 524.0,61.5" fill="none" stroke="#9a6b12" stroke-width="3.4" stroke-linecap="round"/></g><rect x="544" y="90" width="14" height="14" rx="2.5" fill="#9a6b12"/><text x="566.0" y="102.0" class="dlab" text-anchor="start">Progressive</text><text x="566.0" y="120.0" class="dsub" text-anchor="start">soft first, firm later</text><g class="bser"><title>Air spring</title><polyline points="74.0,274.0 77.8,270.5 81.5,267.1 85.2,263.7 89.0,260.4 92.8,257.1 96.5,253.8 100.2,250.6 104.0,247.4 107.8,244.2 111.5,241.1 115.2,238.0 119.0,234.9 122.8,231.8 126.5,228.8 130.2,225.9 134.0,222.9 137.8,220.0 141.5,217.1 145.2,214.2 149.0,211.4 152.8,208.6 156.5,205.8 160.2,203.0 164.0,200.2 167.8,197.5 171.5,194.8 175.2,192.2 179.0,189.5 182.8,186.9 186.5,184.3 190.2,181.7 194.0,179.1 197.8,176.5 201.5,174.0 205.2,171.5 209.0,169.0 212.8,166.5 216.5,164.0 220.2,161.6 224.0,159.1 227.7,156.7 231.5,154.3 235.3,151.9 239.0,149.5 242.8,147.1 246.5,144.8 250.2,142.4 254.0,140.1 257.8,137.8 261.5,135.5 265.2,133.1 269.0,130.9 272.8,128.6 276.5,126.3 280.2,124.0 284.0,121.8 287.8,119.5 291.5,117.3 295.2,115.1 299.0,112.8 302.8,110.6 306.5,108.4 310.2,106.2 314.0,104.0 317.8,101.8 321.5,99.6 325.2,97.4 329.0,95.2 332.8,93.1 336.5,90.9 340.2,88.7 344.0,86.6 347.8,84.4 351.5,82.2 355.2,80.1 359.0,77.9 362.8,75.8 366.5,73.6 370.2,71.5 374.0,69.3 377.8,67.2 381.5,65.0 385.3,62.9 389.0,60.7 392.7,58.6 396.5,56.4 400.2,54.3 404.0,52.1 407.8,50.0 411.5,47.8 415.2,45.7 419.0,43.5 422.8,41.4 426.5,39.2 430.2,37.1 434.0,34.9 437.8,32.8 441.5,30.6 445.2,28.4 449.0,26.2 452.8,24.1 456.5,24.0 460.2,24.0 464.0,24.0 467.8,24.0 471.5,24.0 475.2,24.0 479.0,24.0 482.8,24.0 486.5,24.0 490.2,24.0 494.0,24.0 497.8,24.0 501.5,24.0 505.2,24.0 509.0,24.0 512.8,24.0 516.5,24.0 520.2,24.0 524.0,24.0" fill="none" stroke="#2563a8" stroke-width="3.4" stroke-linecap="round"/></g><rect x="544" y="142" width="14" height="14" rx="2.5" fill="#2563a8"/><text x="566.0" y="154.0" class="dlab" text-anchor="start">Air spring</text><text x="566.0" y="172.0" class="dsub" text-anchor="start">compliant, then a wall</text><g class="bser"><title>Bump stop</title><polyline points="74.0,274.0 77.8,273.8 81.5,273.5 85.2,273.3 89.0,273.1 92.8,272.8 96.5,272.6 100.2,272.4 104.0,272.1 107.8,271.9 111.5,271.6 115.2,271.3 119.0,271.0 122.8,270.8 126.5,270.5 130.2,270.2 134.0,269.8 137.8,269.5 141.5,269.2 145.2,268.8 149.0,268.5 152.8,268.1 156.5,267.7 160.2,267.3 164.0,266.9 167.8,266.4 171.5,266.0 175.2,265.5 179.0,265.0 182.8,264.5 186.5,263.9 190.2,263.4 194.0,262.8 197.8,262.2 201.5,261.5 205.2,260.9 209.0,260.2 212.8,259.5 216.5,258.8 220.2,258.0 224.0,257.2 227.7,256.4 231.5,255.6 235.3,254.7 239.0,253.8 242.8,252.9 246.5,251.9 250.2,250.9 254.0,249.9 257.8,248.8 261.5,247.7 265.2,246.6 269.0,245.4 272.8,244.2 276.5,242.9 280.2,241.7 284.0,240.3 287.8,239.0 291.5,237.6 295.2,236.1 299.0,234.6 302.8,233.1 306.5,231.5 310.2,229.9 314.0,228.2 317.8,226.5 321.5,224.8 325.2,223.0 329.0,221.1 332.8,219.2 336.5,217.3 340.2,215.3 344.0,213.2 347.8,211.1 351.5,209.0 355.2,206.8 359.0,204.5 362.8,202.2 366.5,199.8 370.2,197.4 374.0,194.9 377.8,192.4 381.5,189.8 385.3,187.1 389.0,184.4 392.7,181.7 396.5,178.8 400.2,175.9 404.0,173.0 407.8,170.0 411.5,166.9 415.2,163.7 419.0,160.5 422.8,157.3 426.5,153.9 430.2,150.5 434.0,147.0 437.8,143.5 441.5,139.9 445.2,136.2 449.0,132.4 452.8,128.6 456.5,124.7 460.2,120.8 464.0,116.7 467.8,112.6 471.5,108.4 475.2,104.1 479.0,99.8 482.8,95.4 486.5,90.9 490.2,86.3 494.0,81.7 497.8,76.9 501.5,72.1 505.2,67.2 509.0,62.2 512.8,57.2 516.5,52.0 520.2,46.8 524.0,41.5" fill="none" stroke="#c0561e" stroke-width="3.4" stroke-linecap="round"/></g><rect x="544" y="194" width="14" height="14" rx="2.5" fill="#c0561e"/><text x="566.0" y="206.0" class="dlab" text-anchor="start">Bump stop</text><text x="566.0" y="224.0" class="dsub" text-anchor="start">nothing, nothing, everything</text><text x="74.0" y="304.0" class="dcap" text-anchor="start">SUSPENSION COMPRESSED</text><text x="62.0" y="34.0" class="dcap" text-anchor="end">FORCE</text></svg>
+<p class="cnote">Curves are illustrative shapes, not measured rates. The point is the geometry: a bump stop is not a safety cushion, it is a spring with a very rude opinion, and modern cars tune it deliberately.</p>
+</div>
+
+<h3>Leaf springs</h3>
+
+<p>A leaf spring is a beam that bends, and a stack of them is several beams bending
+together while rubbing against each other. That rubbing is not a defect; the friction
+between the leaves provides a crude form of damping, which is exactly why the earliest
+cars got away with having no dampers at all.</p>
+
+<p>They are strong, cheap, tolerant of enormous loads, and they locate a solid axle
+fore-and-aft without any additional hardware, which is a genuinely elegant piece of double
+duty. They are also heavy, they bind on small inputs because that same interleaf friction
+has to be overcome before anything moves at all, and they wind up under hard acceleration
+and braking in a way that produces wheel hop. Size them for a full payload and the
+unloaded truck rides like a filing cabinet. Every pickup owner in North America knows this
+feeling and most have accepted it as weather.</p>
+
+<h3>Coil springs</h3>
+
+<p>A coil spring is a torsion bar that has been wound up to save space; the wire is
+twisting, not bending. It is light, compact, has almost no internal friction, can be
+manufactured with a linear or progressive rate, and it does not have to locate anything,
+which frees the designer to control wheel geometry with dedicated links instead.</p>
+
+<p>That last point is why coils took over. A leaf spring makes you accept whatever
+geometry it happens to produce. A coil spring lets you decide.</p>
+
+<h3>Torsion bars</h3>
+
+<p>Take the coil, unwind it, and you have a straight steel bar that twists along its
+length. Torsion bars package longitudinally or across the car, usually offer ride height
+adjustment at the anchor, and free the space around the damper entirely. Chrysler built a
+reputation on them, Porsche used them for decades, and they are still holding up
+tanks.</p>
+
+<p>The catch is that adjusting ride height with a torsion bar does not add travel, it
+just moves where the travel sits. Wind one up to lift the nose and you have not gained
+anything; you have donated your bump travel to your droop travel and changed the
+alignment while you were at it.</p>
+
+<h3>Rubber and air</h3>
+
+<p>Rubber stores energy, gets progressively stiffer as it is squashed, and provides its
+own damping through internal hysteresis. It shows up as bump stops, bushings, helper
+springs and, in the hands of Alex Moulton and BMC, as the entire suspension of several
+million small British cars. It is compact, it is cheap, and it changes character with
+temperature, age, frequency and whatever has been dripping on it.</p>
+
+<p>Air springs carry the car on compressed gas in a flexible bellows. Because you can
+add or remove gas at will, ride height becomes something you choose rather than something
+you accept. Load the vehicle and it levels itself. Reach highway speed and it drops for
+drag. Reach an obstacle and it stands up. Air has been the correct answer for buses,
+trucks, ambulances and tow vehicles for decades, and it has been sold to luxury car buyers
+as a magic carpet.</p>
+
+<p>Now the blunt part. Air suspension is not automatically soft. Rate depends
+on pressure, effective area and the volume of gas available to compress, and an air spring
+with too little volume is a very stiff spring indeed. Meanwhile the compressor, dryer,
+valve block, lines, sensors and software are all things a car with coils simply does not
+have, and every one of them can leave you sitting on your bump stops in a parking
+lot.</p>
+
+<h3>Hydropneumatic, or: the Frenchman with no engineering degree</h3>
+
+<p>Liquids make terrible springs because they barely compress. Gas makes an excellent
+spring but is difficult to seal and awkward to move around. Paul Magès' insight, developed
+in secret at Citroën during the war, was to use both: nitrogen above a diaphragm does the
+springing, hydraulic fluid below it transmits wheel movement to the gas, restrictor
+valves in the path provide the damping, and a height corrector adds or removes fluid to
+hold the car level regardless of load.</p>
+
+<p>Magès had no formal engineering training whatsoever. Citroën tested his system quietly
+on the rear axle of the Traction Avant 15-Six H in 1954 &mdash; a rolling test bed dressed
+as a flagship &mdash; and then put it on all four corners of the DS, which was unveiled
+at the Paris Motor Show on October 6, 1955. The show took 743 orders in the first fifteen
+minutes.</p>
+
+<div class="clip">
+<h4>What is actually inside a Citroën sphere</h4>
+<ul>
+<li>Nitrogen under pressure, which is the spring</li>
+<li>A flexible diaphragm, which keeps the gas and the liquid from meeting</li>
+<li>Hydraulic fluid, which transmits wheel movement to the gas</li>
+<li>Calibrated restrictions in the fluid path, which are the damping</li>
+<li>A height corrector elsewhere in the circuit, which is the self-leveling</li>
+</ul>
+<p class="clipfoot">Citroën's system was never simply "hydraulic suspension." The
+hydraulics were the plumbing. The gas was the point &mdash; which is also why a sphere
+that has lost its nitrogen charge turns the softest car in the world into a plank.</p>
+</div>
+
+<p>The strengths remain unmatched in some respects: proper load leveling, long usable
+travel, adjustable ride height, and the option of connecting extra gas volume to change
+the rate on demand. The weaknesses are equally real. Fluid cleanliness matters enormously,
+diaphragms and accumulators age, diagnosis is specialized enough that most shops decline
+the job, and sharing one hydraulic circuit between suspension, steering and brakes creates
+failure modes a normal car simply does not have.</p>
+
+<h2><span class="num">Seven</span>Where the wheel is allowed to go</h2>
+
+<p>Here is the distinction that most explanations skip: the spring and the geometry are
+separate decisions. Air springs on double wishbones, coils on a solid axle, torsion bars
+on trailing arms &mdash; all fine, all built, all sold. What follows is not a list of
+spring types. It is a list of ways to tell a wheel where it may travel.</p>
+
+<div class="cw"><p class="ctitle">Six ways to locate a wheel</p><svg viewBox="0 0 760 500" xmlns="http://www.w3.org/2000/svg" role="img"><rect x="74.66666666666667" y="26.0" width="104" height="16" rx="3" fill="#2563a8" opacity=".2"/><rect x="44.66666666666667" y="123.0" width="164.0" height="18" rx="4" fill="#c0561e" opacity=".85"/><polyline points="84.66666666666667,42.0 96.66666666666667,49.27272727272727 72.66666666666667,56.54545454545455 96.66666666666667,63.81818181818181 72.66666666666667,71.0909090909091 96.66666666666667,78.36363636363636 72.66666666666667,85.63636363636363 96.66666666666667,92.9090909090909 72.66666666666667,100.18181818181819 96.66666666666667,107.45454545454545 72.66666666666667,114.72727272727272 84.66666666666667,122.0" fill="none" stroke="#2563a8" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/><polyline points="168.66666666666669,42.0 180.66666666666669,49.27272727272727 156.66666666666669,56.54545454545455 180.66666666666669,63.81818181818181 156.66666666666669,71.0909090909091 180.66666666666669,78.36363636363636 156.66666666666669,85.63636363636363 180.66666666666669,92.9090909090909 156.66666666666669,100.18181818181819 180.66666666666669,107.45454545454545 156.66666666666669,114.72727272727272 168.66666666666669,122.0" fill="none" stroke="#2563a8" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/><circle cx="44.66666666666667" cy="132.0" r="21" fill="none" stroke="#6b7480" stroke-width="7"/><circle cx="44.66666666666667" cy="132.0" r="11.6" fill="none" stroke="var(--ink)" stroke-width="3"/><circle cx="208.66666666666669" cy="132.0" r="21" fill="none" stroke="#6b7480" stroke-width="7"/><circle cx="208.66666666666669" cy="132.0" r="11.6" fill="none" stroke="var(--ink)" stroke-width="3"/><line x1="8.666666666666671" y1="156.0" x2="244.66666666666669" y2="156.0" stroke="var(--muted)" stroke-width="2"/><text x="126.7" y="184.0" class="dlab" text-anchor="middle">Solid axle</text><line x1="253.33333333333334" y1="18.0" x2="253.33333333333334" y2="216.0" stroke="var(--rule)" stroke-width="1"/><rect x="328.0" y="26.0" width="104" height="16" rx="3" fill="#2563a8" opacity=".2"/><path d="M298.0 132.0 L350.0 128.0 L410.0 128.0 L462.0 132.0" fill="none" stroke="#c0561e" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/><circle cx="380.0" cy="128.0" r="6" fill="#9a6b12"/><polyline points="334.0,42.0 345.0,49.45454545454545 323.0,56.90909090909091 345.0,64.36363636363636 323.0,71.81818181818181 345.0,79.27272727272728 323.0,86.72727272727272 345.0,94.18181818181819 323.0,101.63636363636363 345.0,109.0909090909091 323.0,116.54545454545455 334.0,124.0" fill="none" stroke="#2563a8" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><polyline points="426.0,42.0 437.0,49.45454545454545 415.0,56.90909090909091 437.0,64.36363636363636 415.0,71.81818181818181 437.0,79.27272727272728 415.0,86.72727272727272 437.0,94.18181818181819 415.0,101.63636363636363 437.0,109.0909090909091 415.0,116.54545454545455 426.0,124.0" fill="none" stroke="#2563a8" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><circle cx="298.0" cy="132.0" r="21" fill="none" stroke="#6b7480" stroke-width="7"/><circle cx="298.0" cy="132.0" r="11.6" fill="none" stroke="var(--ink)" stroke-width="3"/><circle cx="462.0" cy="132.0" r="21" fill="none" stroke="#6b7480" stroke-width="7"/><circle cx="462.0" cy="132.0" r="11.6" fill="none" stroke="var(--ink)" stroke-width="3"/><line x1="262.0" y1="156.0" x2="498.0" y2="156.0" stroke="var(--muted)" stroke-width="2"/><text x="380.0" y="184.0" class="dlab" text-anchor="middle">Torsion beam</text><line x1="506.6666666666667" y1="18.0" x2="506.6666666666667" y2="216.0" stroke="var(--rule)" stroke-width="1"/><rect x="581.3333333333334" y="26.0" width="104" height="16" rx="3" fill="#2563a8" opacity=".2"/><circle cx="633.3333333333334" cy="76.0" r="15" fill="#9a6b12" opacity=".8"/><line x1="633.3333333333334" y1="76.0" x2="551.3333333333334" y2="132.0" stroke="#c0561e" stroke-width="6" stroke-linecap="round"/><line x1="633.3333333333334" y1="76.0" x2="715.3333333333334" y2="132.0" stroke="#c0561e" stroke-width="6" stroke-linecap="round"/><circle cx="551.3333333333334" cy="132.0" r="21" fill="none" stroke="#6b7480" stroke-width="7"/><circle cx="551.3333333333334" cy="132.0" r="11.6" fill="none" stroke="var(--ink)" stroke-width="3"/><circle cx="715.3333333333334" cy="132.0" r="21" fill="none" stroke="#6b7480" stroke-width="7"/><circle cx="715.3333333333334" cy="132.0" r="11.6" fill="none" stroke="var(--ink)" stroke-width="3"/><line x1="515.3333333333334" y1="156.0" x2="751.3333333333334" y2="156.0" stroke="var(--muted)" stroke-width="2"/><text x="633.3" y="184.0" class="dlab" text-anchor="middle">Swing axle</text><line x1="14.0" y1="250.0" x2="239.33333333333334" y2="250.0" stroke="var(--rule)" stroke-width="1"/><rect x="74.66666666666667" y="276.0" width="104" height="16" rx="3" fill="#2563a8" opacity=".2"/><line x1="44.66666666666667" y1="376.0" x2="72.66666666666667" y2="284.0" stroke="#7a4b8f" stroke-width="7" stroke-linecap="round" opacity=".28"/><line x1="44.66666666666667" y1="376.0" x2="72.66666666666667" y2="284.0" stroke="#c0561e" stroke-width="3.4" stroke-linecap="round"/><line x1="44.66666666666667" y1="382.0" x2="110.66666666666667" y2="376.0" stroke="#17806a" stroke-width="4.5" stroke-linecap="round"/><line x1="208.66666666666669" y1="376.0" x2="180.66666666666669" y2="284.0" stroke="#7a4b8f" stroke-width="7" stroke-linecap="round" opacity=".28"/><line x1="208.66666666666669" y1="376.0" x2="180.66666666666669" y2="284.0" stroke="#c0561e" stroke-width="3.4" stroke-linecap="round"/><line x1="208.66666666666669" y1="382.0" x2="142.66666666666669" y2="376.0" stroke="#17806a" stroke-width="4.5" stroke-linecap="round"/><circle cx="44.66666666666667" cy="382.0" r="21" fill="none" stroke="#6b7480" stroke-width="7"/><circle cx="44.66666666666667" cy="382.0" r="11.6" fill="none" stroke="var(--ink)" stroke-width="3"/><circle cx="208.66666666666669" cy="382.0" r="21" fill="none" stroke="#6b7480" stroke-width="7"/><circle cx="208.66666666666669" cy="382.0" r="11.6" fill="none" stroke="var(--ink)" stroke-width="3"/><line x1="8.666666666666671" y1="406.0" x2="244.66666666666669" y2="406.0" stroke="var(--muted)" stroke-width="2"/><text x="126.7" y="434.0" class="dlab" text-anchor="middle">MacPherson strut</text><line x1="253.33333333333334" y1="268.0" x2="253.33333333333334" y2="466.0" stroke="var(--rule)" stroke-width="1"/><line x1="267.33333333333337" y1="250.0" x2="492.6666666666667" y2="250.0" stroke="var(--rule)" stroke-width="1"/><rect x="328.0" y="276.0" width="104" height="16" rx="3" fill="#2563a8" opacity=".2"/><line x1="298.0" y1="352.0" x2="354.0" y2="302.0" stroke="#17806a" stroke-width="4.5" stroke-linecap="round"/><line x1="298.0" y1="386.0" x2="360.0" y2="380.0" stroke="#17806a" stroke-width="4.5" stroke-linecap="round"/><line x1="298.0" y1="352.0" x2="298.0" y2="386.0" stroke="var(--ink)" stroke-width="3.6"/><polyline points="330.0,294.0 340.0,302.44444444444446 320.0,310.8888888888889 340.0,319.3333333333333 320.0,327.77777777777777 340.0,336.22222222222223 320.0,344.6666666666667 340.0,353.1111111111111 320.0,361.55555555555554 330.0,370.0" fill="none" stroke="#2563a8" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><line x1="462.0" y1="352.0" x2="406.0" y2="302.0" stroke="#17806a" stroke-width="4.5" stroke-linecap="round"/><line x1="462.0" y1="386.0" x2="400.0" y2="380.0" stroke="#17806a" stroke-width="4.5" stroke-linecap="round"/><line x1="462.0" y1="352.0" x2="462.0" y2="386.0" stroke="var(--ink)" stroke-width="3.6"/><polyline points="430.0,294.0 440.0,302.44444444444446 420.0,310.8888888888889 440.0,319.3333333333333 420.0,327.77777777777777 440.0,336.22222222222223 420.0,344.6666666666667 440.0,353.1111111111111 420.0,361.55555555555554 430.0,370.0" fill="none" stroke="#2563a8" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><circle cx="298.0" cy="382.0" r="21" fill="none" stroke="#6b7480" stroke-width="7"/><circle cx="298.0" cy="382.0" r="11.6" fill="none" stroke="var(--ink)" stroke-width="3"/><circle cx="462.0" cy="382.0" r="21" fill="none" stroke="#6b7480" stroke-width="7"/><circle cx="462.0" cy="382.0" r="11.6" fill="none" stroke="var(--ink)" stroke-width="3"/><line x1="262.0" y1="406.0" x2="498.0" y2="406.0" stroke="var(--muted)" stroke-width="2"/><text x="380.0" y="434.0" class="dlab" text-anchor="middle">Double wishbone</text><line x1="506.6666666666667" y1="268.0" x2="506.6666666666667" y2="466.0" stroke="var(--rule)" stroke-width="1"/><line x1="520.6666666666667" y1="250.0" x2="746.0" y2="250.0" stroke="var(--rule)" stroke-width="1"/><rect x="581.3333333333334" y="276.0" width="104" height="16" rx="3" fill="#2563a8" opacity=".2"/><line x1="551.3333333333334" y1="348.0" x2="611.3333333333334" y2="296.0" stroke="#17806a" stroke-width="3.6" stroke-linecap="round"/><line x1="551.3333333333334" y1="370.0" x2="611.3333333333334" y2="312.0" stroke="#7a4b8f" stroke-width="3.6" stroke-linecap="round"/><line x1="551.3333333333334" y1="388.0" x2="611.3333333333334" y2="376.0" stroke="#9a6b12" stroke-width="3.6" stroke-linecap="round"/><line x1="551.3333333333334" y1="348.0" x2="551.3333333333334" y2="388.0" stroke="var(--ink)" stroke-width="3.6"/><polyline points="577.3333333333334,292.0 586.3333333333334,300.22222222222223 568.3333333333334,308.44444444444446 586.3333333333334,316.6666666666667 568.3333333333334,324.8888888888889 586.3333333333334,333.1111111111111 568.3333333333334,341.3333333333333 586.3333333333334,349.55555555555554 568.3333333333334,357.77777777777777 577.3333333333334,366.0" fill="none" stroke="#2563a8" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><line x1="715.3333333333334" y1="348.0" x2="655.3333333333334" y2="296.0" stroke="#17806a" stroke-width="3.6" stroke-linecap="round"/><line x1="715.3333333333334" y1="370.0" x2="655.3333333333334" y2="312.0" stroke="#7a4b8f" stroke-width="3.6" stroke-linecap="round"/><line x1="715.3333333333334" y1="388.0" x2="655.3333333333334" y2="376.0" stroke="#9a6b12" stroke-width="3.6" stroke-linecap="round"/><line x1="715.3333333333334" y1="348.0" x2="715.3333333333334" y2="388.0" stroke="var(--ink)" stroke-width="3.6"/><polyline points="689.3333333333334,292.0 698.3333333333334,300.22222222222223 680.3333333333334,308.44444444444446 698.3333333333334,316.6666666666667 680.3333333333334,324.8888888888889 698.3333333333334,333.1111111111111 680.3333333333334,341.3333333333333 698.3333333333334,349.55555555555554 680.3333333333334,357.77777777777777 689.3333333333334,366.0" fill="none" stroke="#2563a8" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="551.3333333333334" cy="382.0" r="21" fill="none" stroke="#6b7480" stroke-width="7"/><circle cx="551.3333333333334" cy="382.0" r="11.6" fill="none" stroke="var(--ink)" stroke-width="3"/><circle cx="715.3333333333334" cy="382.0" r="21" fill="none" stroke="#6b7480" stroke-width="7"/><circle cx="715.3333333333334" cy="382.0" r="11.6" fill="none" stroke="var(--ink)" stroke-width="3"/><line x1="515.3333333333334" y1="406.0" x2="751.3333333333334" y2="406.0" stroke="var(--muted)" stroke-width="2"/><text x="633.3" y="434.0" class="dlab" text-anchor="middle">Multi-link</text></svg><p class="cnote">Schematic front views. Springs shown in blue, locating members in green and purple, axles and beams in copper.</p></div>
+
+<div class="dg">
+<div><b>Solid axle</b>One rigid housing joins both wheels. Enormously strong, brilliant
+for payload and articulation, and it makes every wheel the other wheel's problem.</div>
+<div><b>Torsion beam</b>Two trailing arms joined by a crossmember that twists. Cheap,
+compact, durable and genuinely good in its class. Semi-independent, not a solid axle.</div>
+<div><b>Swing axle</b>Each half-shaft pivots near the differential. Independent, yes.
+Also a machine for changing camber violently the moment the body rolls.</div>
+<div><b>MacPherson strut</b>The damper doubles as the upper locating member. Few parts,
+low mass, and it leaves the entire engine bay free for a transverse engine.</div>
+<div><b>Double wishbone</b>Two control arms, full authority over camber gain and roll
+center. More parts, more cost, more space required, and worth all three.</div>
+<div><b>Multi-link</b>Three or more links, each constraining one thing. Maximum freedom
+for the engineer, maximum bushing count for whoever owns it at 150,000 miles.</div>
+</div>
+
+<h3>The strut that came from a canceled Chevrolet</h3>
+
+<p>Earle MacPherson designed his strut at General Motors, for a small postwar car called
+the Chevrolet Cadet. Three prototypes were built. GM looked at the projected margins and
+killed it in 1947. MacPherson, by every account thoroughly annoyed, left for Ford, filed
+the definitive patent in January 1949, and put the design into the Ford Consul and Zephyr,
+which appeared at the 1950 London Motor Show with Consul production starting on the first
+day of 1951.</p>
+
+<p>Then it spread at a crawl, because Ford's patents were airtight. The first
+significant outside adopter was the Peugeot 404 at the start of the 1960s, followed by the
+BMW Neue Klasse, and only when those patents expired in the early 1970s did the strut
+become the industry default it has been ever since. A cost-saving idea for a car GM
+refused to build is now under more vehicles than any other layout in history.</p>
+
+<div class="aside">
+<h4>A strut is not a coilover</h4>
+<p>These get used interchangeably and they are not the same thing. A <strong>coilover</strong>
+just means a coil spring packaged concentrically around a damper. Plenty of double
+wishbone cars have coilovers. Plenty of race cars have coilovers mounted inboard, nowhere
+near a wheel.</p>
+<p>A <strong>MacPherson strut</strong> is a structural claim, not a packaging one: the
+damper body is a load-bearing member that locates the top of the wheel and takes bending
+loads no ordinary damper would survive. That is why lowering a strut car aggressively
+causes problems a wishbone car does not have &mdash; you are changing the geometry of a
+structural member, not just shortening a spring.</p>
+</div>
+
+<h3>The swing axle problem</h3>
+
+<p>A swing axle pivots each driven half-shaft near the differential, which makes the
+wheel travel in a fixed arc. In compression the wheel tucks under. In droop it leans out.
+Load the outside wheel hard in a corner and the geometry can jack the body upward, which
+raises the center of gravity, which loads the outside wheel harder, which jacks it up
+further. Early Corvairs went through about sixteen and a quarter degrees of camber change
+across their full travel, which is not a suspension so much as a mood.</p>
+
+<p>It was not a stupid design. It was compact, cheap, and it let a rear-engined car put
+its driveshafts and differential exactly where the packaging wanted them. It just needed a
+camber compensator or an anti-roll bar to stay honest, and a great many manufacturers
+chose to save the money.</p>
+
+<div class="readnext">
+<span class="rl">Related</span>
+<a href="/articles/it-died-so-you-could-live/">It Died So You Could Live &mdash; how the
+Corvair's swing axle rewrote American safety law</a>
+</div>
+
+<h2><span class="num">Eight</span>The damper is where energy goes to die</h2>
+
+<p>If the spring is the optimist, the damper is the accountant. It produces no useful
+force at rest, contributes nothing to ride height, and exists purely to make sure that
+energy which entered the car as a bump leaves it as warm air. It does this by forcing oil
+through calibrated holes, past stacks of thin steel shims that bend open under pressure.
+That is the whole trick. Everything sophisticated about a modern damper is a refinement of
+how those holes behave under different circumstances.</p>
+
+<div class="cw"><p class="ctitle">What a damper is actually doing</p><svg viewBox="0 0 760 380" xmlns="http://www.w3.org/2000/svg" role="img"><line x1="92" y1="26" x2="92" y2="318" stroke="var(--ink)" stroke-width="2"/><line x1="92" y1="172.0" x2="548" y2="172.0" stroke="var(--ink)" stroke-width="2"/><g class="bser"><title>Rebound</title><polyline points="92.0,172.0 96.6,169.5 101.1,167.0 105.7,164.5 110.2,162.1 114.8,159.6 119.4,157.1 123.9,154.6 128.5,152.1 133.0,149.6 137.6,147.2 142.2,144.7 146.7,142.2 151.3,139.7 155.8,137.2 160.4,134.7 165.0,132.2 169.5,129.8 174.1,127.3 178.6,124.8 183.2,122.3 187.8,119.8 192.3,117.3 196.9,114.8 201.4,112.4 206.0,109.9 210.6,107.4 215.1,104.9 219.7,102.4 224.2,99.9 228.8,97.5 233.4,95.0 237.9,92.5 242.5,90.0 247.0,87.5 251.6,87.0 256.2,86.4 260.7,85.9 265.3,85.4 269.8,84.8 274.4,84.3 279.0,83.8 283.5,83.2 288.1,82.7 292.6,82.1 297.2,81.6 301.8,81.1 306.3,80.5 310.9,80.0 315.4,79.5 320.0,78.9 324.6,78.4 329.1,77.8 333.7,77.3 338.2,76.8 342.8,76.2 347.4,75.7 351.9,75.2 356.5,74.6 361.0,74.1 365.6,73.5 370.2,73.0 374.7,72.5 379.3,71.9 383.8,71.4 388.4,70.9 393.0,70.3 397.5,69.8 402.1,69.2 406.6,68.7 411.2,68.2 415.8,67.6 420.3,67.1 424.9,66.6 429.4,66.0 434.0,65.5 438.6,64.9 443.1,64.4 447.7,63.9 452.2,63.3 456.8,62.8 461.4,62.3 465.9,61.7 470.5,61.2 475.0,60.6 479.6,60.1 484.2,59.6 488.7,59.0 493.3,58.5 497.8,58.0 502.4,57.4 507.0,56.9 511.5,56.4 516.1,55.8 520.6,55.3 525.2,54.7 529.8,54.2 534.3,53.7 538.9,53.1 543.4,52.6 548.0,52.1" fill="none" stroke="#c0561e" stroke-width="3.4" stroke-linecap="round"/></g><rect x="570" y="44" width="14" height="14" rx="2.5" fill="#c0561e"/><text x="592.0" y="56.0" class="dlab" text-anchor="start">Rebound</text><g class="bser"><title>Compression</title><polyline points="92.0,172.0 96.6,173.6 101.1,175.2 105.7,176.8 110.2,178.4 114.8,180.1 119.4,181.7 123.9,183.3 128.5,184.9 133.0,186.5 137.6,188.1 142.2,189.7 146.7,191.3 151.3,193.0 155.8,194.6 160.4,196.2 165.0,197.8 169.5,199.4 174.1,201.0 178.6,202.6 183.2,204.2 187.8,205.8 192.3,207.5 196.9,209.1 201.4,210.7 206.0,212.3 210.6,213.9 215.1,215.5 219.7,217.1 224.2,218.7 228.8,220.4 233.4,222.0 237.9,223.6 242.5,225.2 247.0,226.8 251.6,227.2 256.2,227.5 260.7,227.9 265.3,228.2 269.8,228.5 274.4,228.9 279.0,229.2 283.5,229.6 288.1,229.9 292.6,230.3 297.2,230.6 301.8,231.0 306.3,231.3 310.9,231.7 315.4,232.0 320.0,232.4 324.6,232.7 329.1,233.1 333.7,233.4 338.2,233.8 342.8,234.1 347.4,234.5 351.9,234.8 356.5,235.2 361.0,235.5 365.6,235.9 370.2,236.2 374.7,236.6 379.3,236.9 383.8,237.3 388.4,237.6 393.0,238.0 397.5,238.3 402.1,238.7 406.6,239.0 411.2,239.4 415.8,239.7 420.3,240.1 424.9,240.4 429.4,240.8 434.0,241.1 438.6,241.5 443.1,241.8 447.7,242.2 452.2,242.5 456.8,242.9 461.4,243.2 465.9,243.6 470.5,243.9 475.0,244.3 479.6,244.6 484.2,245.0 488.7,245.3 493.3,245.7 497.8,246.0 502.4,246.4 507.0,246.7 511.5,247.1 516.1,247.4 520.6,247.8 525.2,248.1 529.8,248.5 534.3,248.8 538.9,249.2 543.4,249.5 548.0,249.9" fill="none" stroke="#2563a8" stroke-width="3.4" stroke-linecap="round"/></g><rect x="570" y="70" width="14" height="14" rx="2.5" fill="#2563a8"/><text x="592.0" y="82.0" class="dlab" text-anchor="start">Compression</text><line x1="247.0" y1="34" x2="247.0" y2="310" stroke="#9a6b12" stroke-width="2" stroke-dasharray="5 5"/><text x="257.0" y="48.0" class="dlab" text-anchor="start">the knee</text><text x="257.0" y="67.0" class="dsub" text-anchor="start">valves blow off here</text><text x="8.0" y="60.0" class="dcap" text-anchor="start">PULLING</text><text x="8.0" y="78.0" class="dcap" text-anchor="start">APART</text><text x="8.0" y="284.0" class="dcap" text-anchor="start">SQUASHING</text><text x="8.0" y="302.0" class="dcap" text-anchor="start">TOGETHER</text><text x="92.0" y="352.0" class="dcap" text-anchor="start">SLOW SHAFT</text><text x="169.5" y="372.0" class="dsub" text-anchor="middle">roll, dive, squat, steering</text><text x="548.0" y="352.0" class="dcap" text-anchor="end">FAST SHAFT</text><text x="475.0" y="372.0" class="dsub" text-anchor="middle">potholes, curbs, expansion joints</text><text x="570.0" y="154.0" class="dlab" text-anchor="start">Shaft speed, not</text><text x="570.0" y="174.0" class="dsub" text-anchor="start">road speed. A parking-</text><text x="570.0" y="192.0" class="dsub" text-anchor="start">lot pothole is a fast</text><text x="570.0" y="210.0" class="dsub" text-anchor="start">event at 5 mph.</text></svg><p class="cnote">Force against shaft velocity. The knee is where the valving blows off and lets a sharp impact through instead of transmitting it into the car.</p></div>
+
+<p>Two directions, two personalities. <strong>Compression</strong> damping resists the
+wheel moving up toward the body; <strong>rebound</strong> damping resists it moving back
+down. Rebound is usually the stronger of the two, because it is the one holding back all
+the energy the spring just stored. That has led generations of people to conclude that
+more rebound is always better, which is one of the more expensive misunderstandings in
+the hobby.</p>
+
+<div class="cw"><p class="ctitle">Packing: how a car sinks into its own suspension</p><svg viewBox="0 0 760 280" xmlns="http://www.w3.org/2000/svg" role="img"><line x1="70" y1="200" x2="736" y2="200" stroke="var(--ink)" stroke-width="2.6"/><path d="M110.6 200 Q136.6 170 162.6 200" fill="var(--muted)" opacity=".22"/><path d="M243.8 200 Q269.8 170 295.8 200" fill="var(--muted)" opacity=".22"/><path d="M377.0 200 Q403.0 170 429.0 200" fill="var(--muted)" opacity=".22"/><path d="M510.20000000000005 200 Q536.2 170 562.2 200" fill="var(--muted)" opacity=".22"/><path d="M643.4 200 Q669.4 170 695.4 200" fill="var(--muted)" opacity=".22"/><polyline points="70.0,104.0 203.2,104.0 336.4,104.0 469.6,104.0 602.8,104.0 736.0,104.0" fill="none" stroke="#17806a" stroke-width="3.4" stroke-linecap="round"/><polyline points="70.0,104.0 203.2,118.0 336.4,132.0 469.6,146.0 602.8,160.0 736.0,174.0" fill="none" stroke="#c0561e" stroke-width="3.4" stroke-linecap="round"/><line x1="70" y1="174" x2="736" y2="174" stroke="#9a6b12" stroke-width="2" stroke-dasharray="6 5"/><text x="76.0" y="167.0" class="dsub" text-anchor="start">bump stops live here</text><text x="736.0" y="94.0" class="dlab" text-anchor="end">correct rebound</text><text x="736.0" y="162.0" class="dlab" text-anchor="end">too much rebound</text><text x="58.0" y="109.0" class="dcap" text-anchor="end">RIDE</text><text x="58.0" y="127.0" class="dcap" text-anchor="end">HEIGHT</text><text x="70.0" y="240.0" class="dcap" text-anchor="start">FIVE BUMPS IN A ROW</text><text x="70.0" y="262.0" class="dsub" text-anchor="start">The damper cannot extend fast enough, so the car sinks into its own suspension.</text></svg><p class="cnote">Five bumps, two dampers. The one with too much rebound cannot extend fast enough between hits, and arrives at the bump stops it was supposed to avoid.</p></div>
+
+<p>What happens when rebound is too strong is called <strong>packing</strong>, or
+jacking down. Hit a bump, the suspension compresses, and it cannot extend again before the
+next one arrives. Hit five in a row and the car settles progressively lower into its own
+travel until it is riding the bump stops, at which point the effective spring rate has
+gone up by an order of magnitude and the car has stopped being a car and started being a
+skateboard. The cruel part is that the driver's instinct &mdash; it feels harsh, so the
+compression damping must be too stiff &mdash; points at the wrong end.</p>
+
+<h3>Slow and fast mean something specific</h3>
+
+<p>When a damper is described as having low-speed and high-speed circuits, the speed in
+question is the <em>shaft</em> speed, not the vehicle's. Body roll in a long corner is a
+slow event at 90 mph. A sharp-edged pothole is a fast event at walking pace.</p>
+
+<p>This is the entire reason good dampers feel like magic. Slow-shaft control is what
+makes a car feel disciplined: braking dive, acceleration squat, the way the body settles
+when you turn in. Fast-shaft compliance is what stops a sharp impact from detonating
+through the structure. A well-valved damper delivers both by holding firm at low shaft
+speeds and opening a blow-off path when the shaft moves quickly &mdash; the knee in the
+curve above. A cheap damper picks one and makes you live with it.</p>
+
+<h3>Two tubes or one</h3>
+
+<div class="cw"><p class="ctitle">Twin tube against monotube</p><svg viewBox="0 0 760 330" xmlns="http://www.w3.org/2000/svg" role="img"><rect x="138.0" y="46" width="104" height="206" rx="8" fill="#6b7480" opacity=".12" stroke="var(--ink)" stroke-width="2.6"/><rect x="163.0" y="60" width="54" height="182" rx="5" fill="none" stroke="#2563a8" stroke-width="2.6"/><text x="258.0" y="86.0" class="dsub" text-anchor="end">outer</text><text x="258.0" y="104.0" class="dsub" text-anchor="end">reservoir</text><line x1="190.0" y1="22" x2="190.0" y2="142" stroke="#c0561e" stroke-width="5" stroke-linecap="round"/><rect x="165.0" y="142" width="50" height="13" rx="3" fill="#c0561e"/><text x="190.0" y="278.0" class="dsub" text-anchor="middle">cheap, comfortable, and it</text><text x="190.0" y="297.0" class="dsub" text-anchor="middle">gets tired when it gets hot</text><text x="190.0" y="292.0" class="dlab" text-anchor="middle">TWIN TUBE</text><line x1="380.0" y1="18" x2="380.0" y2="272" stroke="var(--rule)" stroke-width="1"/><rect x="530.0" y="46" width="80" height="206" rx="8" fill="#6b7480" opacity=".12" stroke="var(--ink)" stroke-width="2.6"/><line x1="570.0" y1="22" x2="570.0" y2="130" stroke="#c0561e" stroke-width="5" stroke-linecap="round"/><rect x="532.0" y="130" width="76" height="13" rx="3" fill="#c0561e"/><rect x="532.0" y="188" width="76" height="11" rx="3" fill="#17806a"/><rect x="532.0" y="199" width="76" height="47" rx="3" fill="#17806a" opacity=".18"/><text x="626.0" y="218.0" class="dsub" text-anchor="start">nitrogen</text><text x="570.0" y="278.0" class="dsub" text-anchor="middle">bigger piston, more heat</text><text x="570.0" y="297.0" class="dsub" text-anchor="middle">capacity, dents are fatal</text><text x="570.0" y="292.0" class="dlab" text-anchor="middle">MONOTUBE</text></svg><p class="cnote">Simplified. The real difference is oil volume and heat, not sportiness.</p></div>
+
+<p>A twin-tube damper has an inner working cylinder inside an outer reservoir. Cheap,
+compact, forgiving of a dented outer body, usually very good at ride comfort. It also has
+limited oil and limited surface area to shed heat, so under sustained abuse the oil
+aerates and the damping force wanders. A monotube puts the piston and a pressurized gas
+separator in one larger cylinder: bigger piston area, better heat rejection, consistent
+behavior when hot, mountable at any angle. In exchange it costs more, the higher internal
+pressure adds seal friction, and a dent in the working tube is a dead damper rather than a
+cosmetic problem.</p>
+
+<p>"Monotube" has become shorthand for "sporty," which is marketing rather than physics.
+Valving determines how a damper feels. Construction determines how long it keeps feeling
+that way.</p>
+
+<div class="clip two">
+<h4>The rest of the damper family</h4>
+<ul>
+<li><strong>Gas charged</strong> &mdash; nitrogen pressure suppresses foaming; it is not
+holding the car up</li>
+<li><strong>Remote reservoir</strong> &mdash; more oil, more cooling, more room for
+adjusters, more usable travel</li>
+<li><strong>Bypass</strong> &mdash; damping changes with piston position; soft in the
+middle, firm at the ends</li>
+<li><strong>Frequency selective</strong> &mdash; responds to the character of the input,
+not just its speed</li>
+<li><strong>Spool valve</strong> &mdash; a machined valve instead of a shim stack, for
+repeatable force curves</li>
+<li><strong>Electronically valved</strong> &mdash; a solenoid changes the orifice
+hundreds of times a second</li>
+</ul>
+<p class="clipfoot">A twenty-click adjuster does not mean twenty useful settings, and no
+adjuster on earth can rescue a wrong spring rate, insufficient travel, bad geometry or
+incorrect base valving. Adjusters are a fine-tuning tool sold as a rescue device.</p>
+</div>
+
+<h3>Fade is real</h3>
+
+<p>Everything the damper absorbs becomes heat. On a rough road or a long stint the oil
+temperature climbs, viscosity falls, gas mixes into the oil, cavitation opens vapor pockets
+behind the piston, and the force curve you paid for stops existing. Large bodies, good
+fluid, effective gas separation, external reservoirs and honest airflow are the answers,
+and they are why a desert truck's dampers look like fire extinguishers.</p>
+
+<h2><span class="num">Nine</span>The supporting cast</h2>
+
+<div class="cw"><p class="ctitle">The bar that only wakes up when the wheels disagree</p><svg viewBox="0 0 760 300" xmlns="http://www.w3.org/2000/svg" role="img"><rect x="94.0" y="52" width="192" height="20" rx="4" fill="#2563a8" opacity=".2"/><path d="M98.0 150 L144.0 150 L236.0 150 L282.0 150" fill="none" stroke="#c0561e" stroke-width="6.5" stroke-linejoin="round" stroke-linecap="round"/><line x1="98.0" y1="150" x2="98.0" y2="154" stroke="#c0561e" stroke-width="4"/><circle cx="98.0" cy="176" r="22" fill="none" stroke="#6b7480" stroke-width="7"/><circle cx="98.0" cy="176" r="12.1" fill="none" stroke="var(--ink)" stroke-width="3"/><line x1="282.0" y1="150" x2="282.0" y2="154" stroke="#c0561e" stroke-width="4"/><circle cx="282.0" cy="176" r="22" fill="none" stroke="#6b7480" stroke-width="7"/><circle cx="282.0" cy="176" r="12.1" fill="none" stroke="var(--ink)" stroke-width="3"/><line x1="66.0" y1="202" x2="314.0" y2="202" stroke="var(--ink)" stroke-width="2.6"/><text x="190.0" y="264.0" class="dlab" text-anchor="middle">BOTH WHEELS RISE</text><text x="190.0" y="284.0" class="dsub" text-anchor="middle">the bar rotates. It barely notices.</text><line x1="380.0" y1="24" x2="380.0" y2="252" stroke="var(--rule)" stroke-width="1"/><rect x="474.0" y="52" width="192" height="20" rx="4" fill="#2563a8" opacity=".2"/><path d="M478.0 116 L524.0 130 L616.0 150 L662.0 150" fill="none" stroke="#c0561e" stroke-width="6.5" stroke-linejoin="round" stroke-linecap="round"/><line x1="478.0" y1="116" x2="478.0" y2="120" stroke="#c0561e" stroke-width="4"/><circle cx="478.0" cy="142" r="22" fill="none" stroke="#6b7480" stroke-width="7"/><circle cx="478.0" cy="142" r="12.1" fill="none" stroke="var(--ink)" stroke-width="3"/><line x1="662.0" y1="150" x2="662.0" y2="154" stroke="#c0561e" stroke-width="4"/><circle cx="662.0" cy="176" r="22" fill="none" stroke="#6b7480" stroke-width="7"/><circle cx="662.0" cy="176" r="12.1" fill="none" stroke="var(--ink)" stroke-width="3"/><line x1="446.0" y1="202" x2="694.0" y2="202" stroke="var(--ink)" stroke-width="2.6"/><path d="M478.0 184 L478.0 158" stroke="#17806a" stroke-width="3" marker-end="url(#ah)"/><rect x="486.0" y="190" width="66" height="16" rx="3" fill="#9a6b12" opacity=".22"/><text x="570.0" y="264.0" class="dlab" text-anchor="middle">ONE WHEEL RISES</text><text x="570.0" y="284.0" class="dsub" text-anchor="middle">the bar twists. Now it fights back.</text><defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#17806a"/></marker></defs></svg><p class="cnote">An anti-roll bar adds roll stiffness without adding ride stiffness, which is the closest thing to a free lunch in chassis engineering.</p></div>
+
+<p>An anti-roll bar is a torsion spring connecting the left and right suspension. When
+both wheels rise together it simply rotates in its bushings and contributes almost
+nothing. When one wheel rises relative to the other it twists, and resists.</p>
+
+<p>That selectivity is the elegant part: roll stiffness without ride stiffness. The
+tuning consequence is one of the few reliable rules of thumb in chassis work. Stiffen the
+bar at one end and that end takes a larger share of the lateral load transfer, which tends
+to reduce its grip. More front bar, more understeer. More rear bar, more rotation. It is a
+tendency rather than a law &mdash; tires, aerodynamics, differentials and transient
+behavior can all overrule it &mdash; but it is where every setup conversation starts.</p>
+
+<p>Off-road the calculus inverts. A rock crawler wants one wheel to drop into a hole
+while the other climbs, and a stiff anti-roll bar is precisely the thing standing in the
+way. Hence disconnecting bars, and hence the vehicle rolling like a galleon on the drive
+home.</p>
+
+<h3>Bump stops are springs now</h3>
+
+<p>The old model of a bump stop as an emergency rubber cushion is a generation out of
+date. Modern jounce bumpers are carefully profiled progressive springs, engineered as a
+deliberate second stage, and race cars ride on them on purpose to hold an aerodynamic
+platform at a fixed height. The problem is not touching them. The problem is a lowered
+street car sitting on them permanently, at which point the spring rate is enormous,
+unpredictable and unrelated to whatever the coilover catalog promised.</p>
+
+<h3>Bushings, and the temptation to delete them</h3>
+
+<p>Bushings isolate noise and permit deliberate compliance. That second word matters:
+engineers tune bushing stiffness so that cornering and braking forces produce small,
+useful changes in toe and camber. It is suspension geometry implemented in rubber.</p>
+
+<p>Soft rubber isolates well and moves a lot. Stiffer rubber sharpens response.
+Polyurethane reduces deflection but binds, squeaks and transmits harshness. Spherical
+bearings are precise, loud and want inspecting. Replacing every bushing in a street car
+with a solid bearing does not produce a race car. It produces a road car with a headache
+and a set of geometry changes nobody modeled.</p>
+
+<h2><span class="num">Ten</span>The angles that decide everything</h2>
+
+<div class="cw"><p class="ctitle">The three angles everybody quotes</p><svg viewBox="0 0 760 300" xmlns="http://www.w3.org/2000/svg" role="img"><g transform="rotate(9 68.66666666666667 148)"><rect x="55.66666666666667" y="98" width="26" height="100" rx="5" fill="none" stroke="#c0561e" stroke-width="4.5"/></g><text x="68.7" y="220.0" class="dsub" text-anchor="middle">negative</text><g transform="rotate(0 184.66666666666669 148)"><rect x="171.66666666666669" y="98" width="26" height="100" rx="5" fill="none" stroke="#6b7480" stroke-width="4.5"/></g><text x="184.7" y="220.0" class="dsub" text-anchor="middle">zero</text><line x1="26.66666666666667" y1="200" x2="226.66666666666669" y2="200" stroke="var(--ink)" stroke-width="2.6"/><text x="126.7" y="254.0" class="dlab" text-anchor="middle">CAMBER</text><text x="126.7" y="274.0" class="dsub" text-anchor="middle">seen from the front · the lean</text><line x1="253.33333333333334" y1="20" x2="253.33333333333334" y2="232" stroke="var(--rule)" stroke-width="1"/><g transform="rotate(-7 322.0 148)"><rect x="313.0" y="102" width="18" height="94" rx="4" fill="none" stroke="#c0561e" stroke-width="4.5"/></g><text x="322.0" y="220.0" class="dsub" text-anchor="middle">toe-in</text><g transform="rotate(0 438.0 148)"><rect x="429.0" y="102" width="18" height="94" rx="4" fill="none" stroke="#6b7480" stroke-width="4.5"/></g><text x="438.0" y="220.0" class="dsub" text-anchor="middle">zero</text><path d="M380.0 96 L380.0 206" stroke="var(--rule)" stroke-width="1.5" stroke-dasharray="5 5"/><text x="380.0" y="88.0" class="dsub" text-anchor="middle">front of car</text><text x="380.0" y="254.0" class="dlab" text-anchor="middle">TOE</text><text x="380.0" y="274.0" class="dsub" text-anchor="middle">seen from above · the squint</text><line x1="506.6666666666667" y1="20" x2="506.6666666666667" y2="232" stroke="var(--rule)" stroke-width="1"/><circle cx="633.3333333333334" cy="158" r="44" fill="none" stroke="#6b7480" stroke-width="7"/><circle cx="633.3333333333334" cy="158" r="24.2" fill="none" stroke="var(--ink)" stroke-width="3"/><line x1="663.3333333333334" y1="86" x2="611.3333333333334" y2="212" stroke="#c0561e" stroke-width="4" stroke-linecap="round"/><line x1="633.3333333333334" y1="86" x2="633.3333333333334" y2="212" stroke="var(--rule)" stroke-width="2" stroke-dasharray="5 5"/><path d="M633.3333333333334 104 A 22 22 0 0 1 646.3333333333334 96" fill="none" stroke="#17806a" stroke-width="2.6"/><text x="653.3" y="96.0" class="dsub" text-anchor="start">positive</text><line x1="563.3333333333334" y1="206" x2="703.3333333333334" y2="206" stroke="var(--ink)" stroke-width="2.6"/><text x="633.3" y="254.0" class="dlab" text-anchor="middle">CASTER</text><text x="633.3" y="274.0" class="dsub" text-anchor="middle">seen from the side · the rake</text></svg><p class="cnote">Camber, toe and caster, each shown from the view its name assumes.</p></div>
+
+<div class="dg">
+<div><b>Camber</b>The lean, viewed from the front. Negative camber keeps the outside tire
+flat when the body rolls; too much of it ruins straight-line braking and eats inner
+edges.</div>
+<div><b>Toe</b>The squint, viewed from above. The most destructive setting on the car:
+tires are scrubbed sideways continuously, every single mile.</div>
+<div><b>Caster</b>The rake of the steering axis, viewed from the side. Provides
+self-centering and gains useful negative camber on the outside wheel when you steer.</div>
+</div>
+
+<p>If you take one number away from this section, take this one: a small toe error
+destroys tires faster than a fairly large camber error. Camber wears an edge. Toe drags
+the whole contact patch sideways down the road, mile after mile, and it is invisible
+until the tire is bald on one side at 12,000 miles.</p>
+
+<p>Beyond the big three sit the settings that decide how a car feels rather than how it
+wears. Steering axis inclination and scrub radius govern steering effort, feedback, torque
+steer and how hard a pothole hits your hands. <strong>Camber gain</strong> is how camber
+changes as the suspension moves, and managing it against body roll is most of what a
+performance suspension designer does all day. The <strong>roll center</strong> is the
+geometric point through which cornering forces pass from the contact patches into the
+body; raise it and you shorten the roll moment arm but invite jacking, lower it and the
+springs and bars have more work to do. How far it <em>migrates</em> as the car moves often
+matters more than where it sits when parked. <strong>Anti-dive</strong> and
+<strong>anti-squat</strong> angle the control arms so braking and driving forces resist
+pitch &mdash; useful in moderation, and overdone they make impacts harsher and reduce the
+suspension's freedom to do its actual job.</p>
+
+<h3>The number that ruins people's afternoons</h3>
+
+<div class="cw">
+<p class="ctitle">Why an inch of bracket matters more than an inch of spring</p>
+<p class="csub">Wheel rate is spring rate multiplied by the motion ratio <em>squared</em>. A 500 lb/in spring, mounted six ways.</p>
+<svg viewBox="0 0 760 339" xmlns="http://www.w3.org/2000/svg" role="img">
+<g class="bser"><title>Motion ratio 1.00: 500 lb/in</title>
+<text x="210.0" y="32.4" class="blab" text-anchor="end">Motion ratio 1.00</text>
+<rect x="222" y="6" width="437.3" height="40" rx="3" fill="#17806a"/>
+<text x="670.3" y="32.4" class="bval" text-anchor="start">500 lb/in</text>
+</g>
+<g class="bser"><title>Motion ratio 0.90: 405 lb/in</title>
+<text x="210.0" y="85.4" class="blab" text-anchor="end">Motion ratio 0.90</text>
+<rect x="222" y="59" width="354.2" height="40" rx="3" fill="#17806a"/>
+<text x="587.2" y="85.4" class="bval" text-anchor="start">405 lb/in</text>
+</g>
+<g class="bser"><title>Motion ratio 0.80: 320 lb/in</title>
+<text x="210.0" y="138.4" class="blab" text-anchor="end">Motion ratio 0.80</text>
+<rect x="222" y="112" width="279.8" height="40" rx="3" fill="#9a6b12"/>
+<text x="512.8" y="138.4" class="bval" text-anchor="start">320 lb/in</text>
+</g>
+<g class="bser"><title>Motion ratio 0.70: 245 lb/in</title>
+<text x="210.0" y="191.4" class="blab" text-anchor="end">Motion ratio 0.70</text>
+<rect x="222" y="165" width="214.3" height="40" rx="3" fill="#9a6b12"/>
+<text x="447.3" y="191.4" class="bval" text-anchor="start">245 lb/in</text>
+</g>
+<g class="bser"><title>Motion ratio 0.60: 180 lb/in</title>
+<text x="210.0" y="244.4" class="blab" text-anchor="end">Motion ratio 0.60</text>
+<rect x="222" y="218" width="157.4" height="40" rx="3" fill="#c0561e"/>
+<text x="390.4" y="244.4" class="bval" text-anchor="start">180 lb/in</text>
+</g>
+<g class="bser"><title>Motion ratio 0.50: 125 lb/in</title>
+<text x="210.0" y="297.4" class="blab" text-anchor="end">Motion ratio 0.50</text>
+<rect x="222" y="271" width="109.3" height="40" rx="3" fill="#c0561e"/>
+<text x="342.3" y="297.4" class="bval" text-anchor="start">125 lb/in</text>
+</g>
+<line x1="222" y1="0" x2="222" y2="311" stroke="var(--rule)" stroke-width="1.5"/>
+</svg>
+<p class="cnote">Move the spring ten percent further inboard and you have not lost ten percent of your wheel rate. You have lost nineteen. This is the single most counterintuitive number in chassis engineering, and it is pure arithmetic: 500 times 0.9 squared is 405.</p>
+</div>
+
+<p>The wheel almost never moves the same distance as the spring. The relationship between
+them is the motion ratio, and because both the force and the distance scale with it,
+wheel rate depends on the <em>square</em> of that ratio. Shift a spring mount an inch
+inboard on a long arm and you have not made a small change. You have made a change that
+looks small on the bench and enormous on the road.</p>
+
+<h3>Springs do not reduce weight transfer</h3>
+
+<p>One last piece of housekeeping, because it is the most commonly repeated error in
+amateur chassis conversation. In a steady-state corner, the total lateral load transfer
+across the car is set by mass, center of gravity height, track width and lateral
+acceleration. Full stop. Springs and anti-roll bars do not reduce it.</p>
+
+<p>What they control is how fast it arrives, how much the body leans while it does, how
+it divides front to rear, and what happens to camber and aerodynamics along the way. That
+is a great deal of control. It is not the same as making the physics go away.</p>
+
+
+<h2><span class="num">Eleven</span>Four words that are not synonyms</h2>
+
+<p>Passive, adaptive, semi-active and active get used interchangeably in press releases
+and mean four genuinely different things.</p>
+
+<div class="cw"><p class="ctitle">What each kind of suspension can and cannot do</p><svg viewBox="0 0 760 408" xmlns="http://www.w3.org/2000/svg" role="img"><text x="210.8" y="22.0" class="dsub" text-anchor="middle">Resists</text><text x="210.8" y="39.0" class="dsub" text-anchor="middle">motion</text><text x="328.4" y="22.0" class="dsub" text-anchor="middle">Two or more</text><text x="328.4" y="39.0" class="dsub" text-anchor="middle">settings</text><text x="446.0" y="22.0" class="dsub" text-anchor="middle">Continuous</text><text x="446.0" y="39.0" class="dsub" text-anchor="middle">control</text><text x="563.6" y="22.0" class="dsub" text-anchor="middle">Applies its own</text><text x="563.6" y="39.0" class="dsub" text-anchor="middle">force</text><text x="681.2" y="22.0" class="dsub" text-anchor="middle">Acts before</text><text x="681.2" y="39.0" class="dsub" text-anchor="middle">the bump</text><line x1="8" y1="50" x2="748" y2="50" stroke="var(--rule)" stroke-width="1.5"/><g class="bser"><title>Passive</title><text x="8.0" y="84.0" class="dlab" text-anchor="start">Passive</text><text x="8.0" y="104.0" class="dsub" text-anchor="start">Fixed spring, fixed damper. It reacts becaus...</text><circle cx="210.8" cy="88" r="11" fill="#6b7480"/><path d="M205.8 88 l3.6 3.8 l6.4 -7.4" fill="none" stroke="var(--surface)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="328.4" cy="88" r="11" fill="none" stroke="var(--rule)" stroke-width="2"/><circle cx="446.0" cy="88" r="11" fill="none" stroke="var(--rule)" stroke-width="2"/><circle cx="563.6" cy="88" r="11" fill="none" stroke="var(--rule)" stroke-width="2"/><circle cx="681.2" cy="88" r="11" fill="none" stroke="var(--rule)" stroke-width="2"/></g><line x1="8" y1="128" x2="748" y2="128" stroke="var(--rule)" stroke-width="1" opacity=".7"/><g class="bser"><title>Adaptive</title><text x="8.0" y="150.0" class="dlab" text-anchor="start">Adaptive</text><text x="8.0" y="170.0" class="dsub" text-anchor="start">A marketing word. Could mean a switch on the...</text><circle cx="210.8" cy="154" r="11" fill="#9a6b12"/><path d="M205.8 154 l3.6 3.8 l6.4 -7.4" fill="none" stroke="var(--surface)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="328.4" cy="154" r="11" fill="#9a6b12"/><path d="M323.4 154 l3.6 3.8 l6.4 -7.4" fill="none" stroke="var(--surface)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="446.0" cy="154" r="11" fill="none" stroke="var(--rule)" stroke-width="2"/><circle cx="563.6" cy="154" r="11" fill="none" stroke="var(--rule)" stroke-width="2"/><circle cx="681.2" cy="154" r="11" fill="none" stroke="var(--rule)" stroke-width="2"/></g><line x1="8" y1="194" x2="748" y2="194" stroke="var(--rule)" stroke-width="1" opacity=".7"/><g class="bser"><title>Semi-active</title><text x="8.0" y="216.0" class="dlab" text-anchor="start">Semi-active</text><text x="8.0" y="236.0" class="dsub" text-anchor="start">Changes how hard it resists, thousands of ti...</text><circle cx="210.8" cy="220" r="11" fill="#17806a"/><path d="M205.8 220 l3.6 3.8 l6.4 -7.4" fill="none" stroke="var(--surface)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="328.4" cy="220" r="11" fill="#17806a"/><path d="M323.4 220 l3.6 3.8 l6.4 -7.4" fill="none" stroke="var(--surface)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="446.0" cy="220" r="11" fill="#17806a"/><path d="M441.0 220 l3.6 3.8 l6.4 -7.4" fill="none" stroke="var(--surface)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="563.6" cy="220" r="11" fill="none" stroke="var(--rule)" stroke-width="2"/><circle cx="681.2" cy="220" r="11" fill="none" stroke="var(--rule)" stroke-width="2"/></g><line x1="8" y1="260" x2="748" y2="260" stroke="var(--rule)" stroke-width="1" opacity=".7"/><g class="bser"><title>Active</title><text x="8.0" y="282.0" class="dlab" text-anchor="start">Active</text><text x="8.0" y="302.0" class="dsub" text-anchor="start">Pushes and pulls the body on purpose. Adds e...</text><circle cx="210.8" cy="286" r="11" fill="#c0561e"/><path d="M205.8 286 l3.6 3.8 l6.4 -7.4" fill="none" stroke="var(--surface)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="328.4" cy="286" r="11" fill="#c0561e"/><path d="M323.4 286 l3.6 3.8 l6.4 -7.4" fill="none" stroke="var(--surface)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="446.0" cy="286" r="11" fill="#c0561e"/><path d="M441.0 286 l3.6 3.8 l6.4 -7.4" fill="none" stroke="var(--surface)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="563.6" cy="286" r="11" fill="#c0561e"/><path d="M558.6 286 l3.6 3.8 l6.4 -7.4" fill="none" stroke="var(--surface)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="681.2" cy="286" r="11" fill="none" stroke="var(--rule)" stroke-width="2"/></g><line x1="8" y1="326" x2="748" y2="326" stroke="var(--rule)" stroke-width="1" opacity=".7"/><g class="bser"><title>Predictive</title><text x="8.0" y="348.0" class="dlab" text-anchor="start">Predictive</text><text x="8.0" y="368.0" class="dsub" text-anchor="start">Reads the road with a camera and pre-loads t...</text><circle cx="210.8" cy="352" r="11" fill="#2563a8"/><path d="M205.8 352 l3.6 3.8 l6.4 -7.4" fill="none" stroke="var(--surface)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="328.4" cy="352" r="11" fill="#2563a8"/><path d="M323.4 352 l3.6 3.8 l6.4 -7.4" fill="none" stroke="var(--surface)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="446.0" cy="352" r="11" fill="#2563a8"/><path d="M441.0 352 l3.6 3.8 l6.4 -7.4" fill="none" stroke="var(--surface)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="563.6" cy="352" r="11" fill="#2563a8"/><path d="M558.6 352 l3.6 3.8 l6.4 -7.4" fill="none" stroke="var(--surface)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="681.2" cy="352" r="11" fill="#2563a8"/><path d="M676.2 352 l3.6 3.8 l6.4 -7.4" fill="none" stroke="var(--surface)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></g></svg><p class="cnote">The dividing line that matters is between resisting motion and creating it. Everything below that line is a damper, however clever.</p></div>
+
+<p><strong>Passive</strong> is a fixed spring and a fixed damper with no decision-making
+of any kind, and it deserves more respect than it gets: light, predictable, inexpensive,
+fail-safe, and optimizable to a fine edge for a known purpose. A great passive setup will
+humiliate a mediocre adaptive one every day of the week.</p>
+
+<p><strong>Adaptive</strong> is a marketing word. It might mean a two-position switch on
+the dash. It might mean continuously variable valving fed by road-preview cameras. Read
+the specification, not the badge.</p>
+
+<p><strong>Semi-active</strong> changes how hard it resists, continuously and quickly, but
+cannot add energy to the system &mdash; only make existing motion harder or easier. That is
+an enormous capability. It is not the same as pushing.</p>
+
+<p><strong>Fully active</strong> applies force. It can hold the body up against a corner
+rather than merely resisting the lean, keep the floor level over a crest, and put a wheel
+down into a dip instead of waiting for gravity. It costs energy, mass, heat, complexity,
+noise, an enormous amount of control-system development, and a fail-safe plan for what
+happens when the computer stops having opinions at 80 mph.</p>
+
+<h2><span class="num">Twelve</span>Magnetic Ride is suspension. It is not levitation.</h2>
+
+<p>MagneRide dampers are filled with magnetorheological fluid: synthetic oil carrying
+microscopic iron particles, a few microns across, drifting around at random. Apply a
+magnetic field from a coil in the piston and those particles line up into chains across
+the flow path, which changes the fluid's resistance to flowing. Switch the field off and
+they scatter again. There is no valve to move, no shim to bend, nothing mechanical to
+wear. The oil itself is the valve.</p>
+
+<p>Delphi &mdash; then a General Motors spin-off &mdash; put it into production as a
+mid-year addition to the 2002 Cadillac Seville STS, with the C5 Corvette becoming the
+first sports car to get it in 2003. Delphi filed for Chapter 11 in 2005 and the business
+was eventually acquired by Beijing West Industries, who still develop it. The system reads
+the road roughly a thousand times a second.</p>
+
+<p class="pq">The magnets change how hard the fluid pushes back. They do not hold the car
+in the air. This is a very fast damper, and a damper is all it is.</p>
+
+<div class="tscroll">
+<table>
+<thead><tr><th>System</th><th>What the magnetism does</th><th>Category</th></tr></thead>
+<tbody>
+<tr><td>MagneRide</td><td>Changes the flow resistance of fluid inside a damper</td><td>Semi-active</td></tr>
+<tr><td>Bose / ClearMotion</td><td>A linear motor applies suspension force directly</td><td>Fully active</td></tr>
+<tr><td>Maglev train</td><td>Magnetic force carries and propels the whole vehicle</td><td>Entirely unrelated</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>Its strengths are speed, range and the absence of moving valve parts. Its limits are
+the ones every semi-active system shares: the spring is still doing the lifting, it cannot
+generate a force the car is not already producing, the dampers are expensive to replace,
+and calibration matters far more than the brand name.</p>
+
+<h2><span class="num">Thirteen</span>The speaker company that built the best suspension
+nobody could buy</h2>
+
+<p>In 1980, Amar Bose decided that automotive suspension was bad and that he could fix
+it. His motivation is the most relatable thing in this entire article: he had owned a
+Pontiac with air suspension and a Citroën with hydropneumatic self-leveling, and both
+of them had let him down. One man's warranty experience became a twenty-four-year
+research program.</p>
+
+<p>The demonstration finally arrived in 2004, and it was staged in a pair of
+first-generation Lexus LS 400 sedans that Bose had bought new in the early 1990s. One car
+was standard. The other had a linear electromagnetic motor at each corner &mdash;
+conceptually a rotary electric motor unrolled into a straight line &mdash; where the coil
+spring and damper used to be, with a torsion bar left in at each corner to hold the car
+up.</p>
+
+
+<div class="panel">
+<h4>The Bose active suspension, as demonstrated in 2004</h4>
+<div class="pgrid">
+<div><b>Actuator</b><span>Linear electromagnetic motor, one per corner</span></div>
+<div><b>Reported stroke</b><span>8.5 inches</span></div>
+<div><b>Reported response</b><span>Faster than 100 times per second</span></div>
+<div><b>Static weight carried by</b><span>Torsion bars, not the motors</span></div>
+<div><b>Reported system draw</b><span>Around two horsepower</span></div>
+<div><b>Test vehicles</b><span>Two first-gen Lexus LS 400s, bought new</span></div>
+<div><b>Development began</b><span>1980</span></div>
+<div><b>Assets sold to ClearMotion</b><span>2017</span></div>
+</div>
+</div>
+
+<p>That last detail is the pragmatic heart of it. Letting torsion bars carry the static
+weight meant the motors never wasted a watt on the one job gravity was always going to
+demand. Small dampers at the hubs handled the
+very high-frequency disturbances a big actuator has no business chasing. The amplifiers
+were regenerative, so energy absorbed on the way down could be recovered rather than
+burned. The result stayed flat under braking, flat through corners, flat over broken
+surfaces, could raise an individual corner on command, and, in the demonstration that made
+the internet remember all this two decades later, hopped the entire car over a wooden
+plank.</p>
+
+<p>It never reached production, and the reasons had nothing to do with whether it worked.
+Actuators and power electronics were expensive. The hardware added mass, some of it at the
+wrong end of the spring. Packaging was difficult, peak electrical demand was high on cars
+that did not yet carry big batteries, and durability validation for a safety-critical
+system with that much authority is a mountain. Meanwhile, across the twenty-four years
+Bose spent perfecting an answer, passive and semi-active suspension kept quietly getting
+better and staying cheap, which shrank the prize every year.</p>
+
+<p>The patents and software went to ClearMotion in 2017. As for the famous car: the
+surviving prototype was eventually sold on Facebook Marketplace as a parts vehicle, its
+electromagnetic motors long since removed, bought by someone who wanted the 53,000-mile
+V8 for a Toyota 4Runner project.</p>
+
+<p class="pq">The most advanced suspension ever fitted to a road car was finally valued
+at the price of the engine sitting in front of it.</p>
+
+<h2><span class="num">Fourteen</span>Formula 1 solved it, then made it illegal</h2>
+
+<p>Racing got there first, because racing always gets there first and then has the thing
+taken away.</p>
+
+<p>Lotus ran an early active hydraulic system on the Type 92 in 1983. The technology came
+good four years later in the Lotus 99T, which Ayrton Senna insisted on running with the
+active system all season despite it costing weight and despite Lotus having the older
+Honda engine. On tight, bumpy street circuits, where a passive car spends its lap
+skipping and its tires being punished, the payoff was enormous. Senna won Monaco. Three
+weeks later he won Detroit by thirty-three seconds, having run the entire race without
+stopping for tires because the active car had been so much gentler on them.</p>
+
+<p>Those two wins were the seventy-eighth and seventy-ninth of Team Lotus's history. They
+were also the last. The team never won another Grand Prix.</p>
+
+<p>Williams took the idea to its conclusion. The FW14B of 1992 held the car at the ideal
+ride height everywhere on the circuit, unlocking aerodynamic performance the passive
+opposition could not access, and Nigel Mansell won the championship with it. The FW15C did
+it again in 1993 with Alain Prost. At which point the governing body looked at the
+cornering speeds, the development costs and how far ahead the teams with money had gotten,
+and banned active suspension along with traction control, launch control and ABS for
+1994.</p>
+
+<p>It is still banned. Formula 1 has spent three decades since watching engineers invent
+ever more elaborate passive tricks &mdash; heave springs, hydraulically interconnected
+elements, inerters &mdash; to approximate the thing that was outlawed. Somebody proposes
+bringing it back every few years. It never happens.</p>
+
+<h2><span class="num">Fifteen</span>Race cars are stiff, until stiff makes them slow</h2>
+
+<p>The popular understanding is that racing suspension is road suspension with the
+softness removed. The real answer is that it is designed around a specific tire, a specific
+surface, a specific aerodynamic package and a specific rulebook, and stiffness is an output
+of that process rather than a goal.</p>
+
+<p>Downforce is why aero cars are stiff. It loads the car with force that grows with the
+square of speed while adding no inertial mass, and the floor only works at the height it
+was designed for, so the suspension has to resist that changing load without letting the
+platform move. Hence heave springs that only react when both wheels move together, very
+stiff bump rubbers the car deliberately rides on, and inboard springs actuated by pushrods
+or pullrods so the airflow around the wheels stays clean.</p>
+
+<p>But stiff stops working the moment the surface is not smooth. A car that is too stiff skips
+over bumps rather than following them, and a tire in the air is worth nothing. It cannot
+attack curbs, cannot generate mechanical grip when the aerodynamics are unloaded, and it
+destroys the driver's confidence, which is a performance parameter whether engineers like
+it or not.</p>
+
+<div class="clip two">
+<h4>What a race engineer actually changes</h4>
+<ul>
+<li>Ride height, front and rear separately</li>
+<li>Corner weights and cross weight</li>
+<li>Spring rate, including heave springs</li>
+<li>Anti-roll bar stiffness at each end</li>
+<li>Low-speed compression damping</li>
+<li>High-speed compression damping</li>
+<li>Rebound, sometimes split slow and fast</li>
+<li>Camber, caster, toe</li>
+<li>Bump-steer shims</li>
+<li>Roll center height</li>
+<li>Damper motion ratio</li>
+<li>Bump-stop gap and rate</li>
+<li>Differential settings</li>
+<li>Tire pressures</li>
+<li>Wing angle and floor balance</li>
+</ul>
+<p class="clipfoot">Nothing on that list changes only one thing. Lower the car and you
+have also altered camber, toe, roll center, bump steer, driveshaft angles, damper travel
+and aerodynamic balance, whether you meant to or not.</p>
+</div>
+
+<p>Other disciplines invert the priorities entirely. Oval cars are deliberately
+asymmetric &mdash; different rates left and right, staggered tire sizes, unequal camber, a
+whole vocabulary of wedge and track-bar adjustment. Rally cars need travel, impact
+resistance, protected dampers and enough body control to change direction at speed, and a
+tarmac setup can be dramatically lower and stiffer than the gravel setup for the same car.
+Drag cars are managing weight transfer and rear tire loading, and a setup that looks
+comically soft is often doing precise work you cannot see from the grandstand.</p>
+
+<h2><span class="num">Sixteen</span>Off-road, where travel is everything</h2>
+
+<p>Off-road suspension has to swallow enormous obstacles, keep the tires on ground that
+is actively trying to prevent it, and survive being hit repeatedly. Beyond that, the three
+main disciplines want almost opposite things.</p>
+
+<div class="tscroll">
+<table>
+<thead><tr><th>Discipline</th><th>What it needs most</th><th>What kills it</th></tr></thead>
+<tbody>
+<tr><td>Rock crawling</td><td>Articulation, droop travel, low-speed compliance, durable joints, low center of gravity</td><td>Suspension bind, stiff anti-roll bars, anything that lifts a wheel</td></tr>
+<tr><td>Desert racing</td><td>Very long travel, high-speed damping, heat capacity, progressive bottoming control, bypass dampers</td><td>Running out of travel at speed, damper fade, weak arms</td></tr>
+<tr><td>Overlanding and towing</td><td>Load range. Springs and damping sized for a vehicle whose weight varies enormously</td><td>Guessing. A rig loaded to its bump stops is not sprung at all</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>A rock-crawling setup is genuinely dangerous at desert speed, and a desert-race setup
+is far too stiff to articulate slowly over rocks. Neither is a compromise. Both are
+specialists, and the marketing that sells one as the other has cost people a lot of
+money.</p>
+
+<p>Overlanding deserves its own warning, because the failure mode is quiet. Bumpers,
+winches, water, fuel, a roof tent, four passengers and a trailer change ride height, the
+spring's operating point, the damping requirement, the alignment, the center of gravity,
+the rollover margin and the loads on every brake and tire, all at once. Air helper springs
+will level the vehicle beautifully. They will not raise the axle rating, the tire rating,
+the frame rating, the bearing rating or the number on the door jamb.</p>
+
+<p>As for the eternal solid-versus-independent argument: independent gives lower unsprung
+mass, better ride at speed and no disturbance transmitted across the vehicle; solid gives
+ruggedness, simplicity, predictable articulation and easier lifts. Neither is universally
+right, and anyone who says otherwise is describing their own vehicle rather than the
+physics.</p>
+
+<h2><span class="num">Seventeen</span>Comfort is not softness</h2>
+
+<p>A very soft car with poor damping is not comfortable. It is a motion sickness
+generator with cup holders. Real comfort requires control across a whole range of
+frequencies, and no single component covers more than a slice of it.</p>
+
+<div class="cw">
+<p class="ctitle">Comfort is a relay race, not a sprint</p>
+<p class="csub">Nothing in a car isolates everything. Each part of the chain owns a band, hands off, and trusts the next one. Break one link and the whole car feels wrong in a way you cannot point at.</p>
+<svg viewBox="0 0 760 332" xmlns="http://www.w3.org/2000/svg" role="img"><line x1="281.7" y1="0" x2="281.7" y2="270" stroke="var(--rule)" stroke-width="1"/><text x="281.7" y="294.0" class="dsub" text-anchor="middle">1 Hz</text><line x1="380.1" y1="0" x2="380.1" y2="270" stroke="var(--rule)" stroke-width="1"/><text x="380.1" y="294.0" class="dsub" text-anchor="middle">3 Hz</text><line x1="487.8" y1="0" x2="487.8" y2="270" stroke="var(--rule)" stroke-width="1"/><text x="487.8" y="294.0" class="dsub" text-anchor="middle">10 Hz</text><line x1="586.2" y1="0" x2="586.2" y2="270" stroke="var(--rule)" stroke-width="1"/><text x="586.2" y="294.0" class="dsub" text-anchor="middle">30 Hz</text><line x1="693.9" y1="0" x2="693.9" y2="270" stroke="var(--rule)" stroke-width="1"/><text x="693.9" y="294.0" class="dsub" text-anchor="middle">100 Hz</text><g class="bser"><title>Tire sidewall</title><text x="222.0" y="28.0" class="dlab" text-anchor="end">Tire sidewall</text><rect x="504.1" y="11" width="144.1" height="22" rx="11" fill="#17806a" opacity=".85"/><text x="222.0" y="48.0" class="dsub" text-anchor="end">sharp, small and fast</text></g><g class="bser"><title>Bushings</title><text x="222.0" y="82.0" class="dlab" text-anchor="end">Bushings</text><rect x="549.9" y="65" width="160.4" height="22" rx="11" fill="#7a4b8f" opacity=".85"/><text x="222.0" y="102.0" class="dsub" text-anchor="end">noise and harshness</text></g><g class="bser"><title>Springs and dampers</title><text x="222.0" y="136.0" class="dlab" text-anchor="end">Springs and dampers</text><rect x="261.8" y="119" width="288.1" height="22" rx="11" fill="#2563a8" opacity=".85"/><text x="222.0" y="156.0" class="dsub" text-anchor="end">the whole car on its wheels</text></g><g class="bser"><title>Wheel hop</title><text x="222.0" y="190.0" class="dlab" text-anchor="end">Wheel hop</text><rect x="487.8" y="173" width="52.6" height="22" rx="11" fill="#c0561e" opacity=".85"/><text x="222.0" y="210.0" class="dsub" text-anchor="end">wheel arguing with tire</text></g><g class="bser"><title>Seat and cushion</title><text x="222.0" y="244.0" class="dlab" text-anchor="end">Seat and cushion</text><rect x="380.1" y="227" width="124.1" height="22" rx="11" fill="#9a6b12" opacity=".85"/><text x="222.0" y="264.0" class="dsub" text-anchor="end">whatever got through</text></g><text x="236.0" y="324.0" class="dcap" text-anchor="start">FREQUENCY OF THE DISTURBANCE, LOGARITHMIC</text></svg>
+<p class="cnote">Bands are indicative of where each element does most of its work, not hard cutoffs. The one to remember: springs and dampers own the very bottom of the range, which is why a car with perfect dampers can still ride badly on the wrong tires.</p>
+</div>
+
+<p>Long wheelbase helps pitch comfort, because a bump takes longer to travel from the
+front axle to the rear. Low unsprung mass helps the wheels follow the surface. Adequate
+travel prevents bump-stop impacts, which is the most common reason a car feels far harsher
+than its spring rate suggests. And soft initial compliance backed by progressive control
+almost always beats a uniformly soft setup, because it handles the small stuff without
+giving away the big stuff.</p>
+
+<p>The current state of the art stacks all of it at once: air springs for leveling and
+variable rate, continuously variable dampers, active anti-roll bars that only resist when
+resisting is useful, and forward-facing cameras that scan the road so the chassis can
+prepare for a bump instead of reacting after the tire has hit it. Mercedes-Benz has been
+the most public about combining road scanning with active body-force control, and the
+effect, when it works, is the closest anyone has come to what Amar Bose was chasing in
+1980.</p>
+
+<h2><span class="num">Eighteen</span>What worn suspension actually does</h2>
+
+<p>Two claims get made constantly and both need to be stated carefully, because the
+mechanism matters more than the headline.</p>
+
+<h3>Braking</h3>
+
+<p>Worn dampers do increase stopping distances, but not because they touch the brakes. A
+tired damper lets the wheel oscillate after every bump, so during hard braking on rough
+pavement the load at the contact patch fluctuates, the tire repeatedly unloads, ABS
+intervenes more often to catch wheels that are momentarily light, and the available grip
+becomes inconsistent. Contact is not load, and only load makes grip.</p>
+
+<p>Excessive dive matters too, for geometric reasons: it changes toe, camber, caster trail,
+rear-wheel loading, aerodynamic balance and headlamp aim. One point deserves precision
+because it is stated backwards constantly &mdash; dive does not cause weight transfer.
+Deceleration, center of gravity height and wheelbase cause weight transfer. The suspension
+controls the motion that accompanies it.</p>
+
+<h3>Do bad shocks eat brake pads?</h3>
+
+<p>Not directly. Worn dampers do not press pads against rotors. But there are half a
+dozen indirect routes, all more plausible than the direct one: wheel hop triggering ABS and
+stability-control interventions, poor alignment increasing drag so more braking energy is
+required, a dragging wheel bearing, excessive body movement prompting the driver to brake
+earlier and more often, bad ride-height sensor data confusing electronically controlled
+braking, and a bent component producing a pull the driver constantly corrects. If one set
+of pads is wearing fast, inspect the calipers, slide pins, hoses, parking brake mechanism
+and wheel bearings before you blame the shocks.</p>
+
+<h3>Fuel economy</h3>
+
+<p>Also indirect, also real. Incorrect toe makes the tires travel slightly sideways
+forever, and the engine pays for every inch of that scrub. Sagging springs or a failed air
+system change frontal area, underbody airflow, rake, cooling flow and diffuser behavior
+&mdash; which is precisely why air-suspended cars lower themselves at highway speed on
+purpose. Faults that overload one edge of a tire or produce hopping waste energy as heat.
+Big heavy wheels add rotational inertia and usually rolling resistance. And a lift kit with
+armor and large tires costs you mass, inertia, rolling resistance, effective gearing, drag
+and frontal area, all at once.</p>
+
+<p>Stiff suspension by itself does not burn more fuel. The complete build around it very
+often does.</p>
+
+<h2><span class="num">Nineteen</span>What your car is trying to tell you</h2>
+
+<div class="tscroll">
+<table>
+<thead><tr><th>Symptom</th><th>Where to look first</th></tr></thead>
+<tbody>
+<tr><td>Keeps bouncing after a bump</td><td>Weak damper, or a spring and damper that were never matched</td></tr>
+<tr><td>Sharp crash over potholes</td><td>Bottoming out, excess compression damping, tire pressure, a seized joint</td></tr>
+<tr><td>Floaty at highway speed</td><td>Low damping, sagged or failed springs, aerodynamic sensitivity</td></tr>
+<tr><td>Steering pulls over bumps</td><td>Bump steer, worn tie rods or bushings, geometry after lowering</td></tr>
+<tr><td>Rear steps out on rough corners</td><td>Poor damping, binding suspension, too much rear roll stiffness</td></tr>
+<tr><td>Nose stays low over repeated bumps</td><td>Excess rebound damping. This is packing</td></tr>
+<tr><td>Cupped or scalloped tires</td><td>Imbalance, worn dampers, looseness, alignment. Usually several at once</td></tr>
+<tr><td>Inner-edge tire wear</td><td>Toe error, excessive negative camber, worn bushings</td></tr>
+<tr><td>One corner sitting low</td><td>Broken or sagged spring, air leak, torsion bar setting, structural damage</td></tr>
+<tr><td>Clunk</td><td>Joint, mount, bushing, loose fastener, broken spring, damper, sway bar link</td></tr>
+<tr><td>Squeak</td><td>Dry bushing, ball joint, spring isolator, leaf friction</td></tr>
+<tr><td>Wheel hop under power</td><td>Axle wind-up, damping, tire, bushing, differential behavior</td></tr>
+<tr><td>Pull under braking</td><td>Tire, alignment, brake fault, compliance steer, road crown</td></tr>
+<tr><td>Harsh air suspension</td><td>Lost accumulator volume, wrong ride height, failed adaptive damper, control fault</td></tr>
+<tr><td>Oil on a damper</td><td>Seal leakage. A light film can be normal; wet and running is not</td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="aside">
+<h4>The bounce test does not work anymore</h4>
+<p>Leaning on a fender and counting the rebounds will identify a completely dead damper.
+It will tell you nothing useful about a modern high-pressure monotube, a
+frequency-selective unit or anything electronically valved, all of which are designed to behave
+differently at the shaft speeds your bodyweight can generate than at the ones a road
+generates.</p>
+<p>A passed bounce test is not a healthy damper. It is a damper that has not completely
+died yet.</p>
+</div>
+
+<h2><span class="num">Twenty</span>Everything that goes wrong when you change the ride
+height</h2>
+
+<p>Lowering a car works. Lowering a car badly does the following, all at once, in an
+order nobody warns you about.</p>
+
+<div class="cw"><p class="ctitle">One decision, nine consequences</p><svg viewBox="0 0 760 490" xmlns="http://www.w3.org/2000/svg" role="img"><g class="bser"><title>You lower the car</title><rect x="12" y="18" width="732" height="32" rx="5" fill="#c0561e" opacity="0.2"/><rect x="12" y="18" width="4" height="32" rx="2" fill="#c0561e"/><text x="28.0" y="39.0" class="dlab" text-anchor="start">You lower the car</text></g><path d="M22 50 L22 62 L30 62" fill="none" stroke="var(--muted)" stroke-width="1.8"/><g class="bser"><title>Bump travel shrinks</title><rect x="34" y="64" width="710" height="32" rx="5" fill="#9a6b12" opacity="0.11"/><rect x="34" y="64" width="4" height="32" rx="2" fill="#9a6b12"/><text x="50.0" y="85.0" class="dlab" text-anchor="start">Bump travel shrinks</text></g><path d="M44 96 L44 108 L52 108" fill="none" stroke="var(--muted)" stroke-width="1.8"/><g class="bser"><title>Control arms swing past horizontal</title><rect x="56" y="110" width="688" height="32" rx="5" fill="#9a6b12" opacity="0.11"/><rect x="56" y="110" width="4" height="32" rx="2" fill="#9a6b12"/><text x="72.0" y="131.0" class="dlab" text-anchor="start">Control arms swing past horizontal</text></g><path d="M66 142 L66 154 L74 154" fill="none" stroke="var(--muted)" stroke-width="1.8"/><g class="bser"><title>Roll center drops, then migrates</title><rect x="78" y="156" width="666" height="32" rx="5" fill="#9a6b12" opacity="0.11"/><rect x="78" y="156" width="4" height="32" rx="2" fill="#9a6b12"/><text x="94.0" y="177.0" class="dlab" text-anchor="start">Roll center drops, then migrates</text></g><path d="M88 188 L88 200 L96 200" fill="none" stroke="var(--muted)" stroke-width="1.8"/><g class="bser"><title>Camber and toe go somewhere new</title><rect x="100" y="202" width="644" height="32" rx="5" fill="#9a6b12" opacity="0.11"/><rect x="100" y="202" width="4" height="32" rx="2" fill="#9a6b12"/><text x="116.0" y="223.0" class="dlab" text-anchor="start">Camber and toe go somewhere new</text></g><path d="M110 234 L110 246 L118 246" fill="none" stroke="var(--muted)" stroke-width="1.8"/><g class="bser"><title>Bump steer arrives, uninvited</title><rect x="122" y="248" width="622" height="32" rx="5" fill="#9a6b12" opacity="0.11"/><rect x="122" y="248" width="4" height="32" rx="2" fill="#9a6b12"/><text x="138.0" y="269.0" class="dlab" text-anchor="start">Bump steer arrives, uninvited</text></g><path d="M132 280 L132 292 L140 292" fill="none" stroke="var(--muted)" stroke-width="1.8"/><g class="bser"><title>The damper works outside its design range</title><rect x="144" y="294" width="600" height="32" rx="5" fill="#9a6b12" opacity="0.11"/><rect x="144" y="294" width="4" height="32" rx="2" fill="#9a6b12"/><text x="160.0" y="315.0" class="dlab" text-anchor="start">The damper works outside its design range</text></g><path d="M154 326 L154 338 L140 338" fill="none" stroke="var(--muted)" stroke-width="1.8"/><g class="bser"><title>Driveshaft and CV angles change</title><rect x="144" y="340" width="600" height="32" rx="5" fill="#9a6b12" opacity="0.11"/><rect x="144" y="340" width="4" height="32" rx="2" fill="#9a6b12"/><text x="160.0" y="361.0" class="dlab" text-anchor="start">Driveshaft and CV angles change</text></g><path d="M154 372 L154 384 L140 384" fill="none" stroke="var(--muted)" stroke-width="1.8"/><g class="bser"><title>Headlamps, radar and cameras now aim wrong</title><rect x="144" y="386" width="600" height="32" rx="5" fill="#9a6b12" opacity="0.11"/><rect x="144" y="386" width="4" height="32" rx="2" fill="#9a6b12"/><text x="160.0" y="407.0" class="dlab" text-anchor="start">Headlamps, radar and cameras now aim wrong</text></g><path d="M154 418 L154 430 L140 430" fill="none" stroke="var(--muted)" stroke-width="1.8"/><g class="bser"><title>You are riding on the bump stops</title><rect x="144" y="432" width="600" height="32" rx="5" fill="#c0561e" opacity="0.2"/><rect x="144" y="432" width="4" height="32" rx="2" fill="#c0561e"/><text x="160.0" y="453.0" class="dlab" text-anchor="start">You are riding on the bump stops</text></g></svg><p class="cnote">Nothing on this chain is optional. Lowering a car sets all of it in motion; the only question is how much of it you planned for.</p></div>
+
+<p>A lower center of gravity is a real benefit, and it is the reason people do this. It
+is only a benefit if the rest of the geometry and the remaining travel still work. Drop a
+strut car far enough and the lower control arm swings past horizontal, at which point
+further compression pushes the wheel outward instead of upward and the roll center dives
+below ground. You have built something that corners worse than the car you started with
+while riding considerably harder.</p>
+
+<p>Lifting has its own list: higher center of gravity, reduced rollover margin, steeper CV
+and driveshaft angles, lost caster, bump steer, brake hoses and ABS wiring pulled tight, an
+unbalanced droop-to-bump ratio, dampers acting as travel limiters at full extension, and
+radar, camera and headlamp aim now pointing at the treetops.</p>
+
+<p>Stiffer springs are the right answer when you have a real reason &mdash; more load,
+aerodynamic platform control, chronic bottoming, a specific tire and track. They reduce
+grip when the surface is rough or the damper cannot control them, and a spring and damper
+are a matched pair whether you bought them that way or not.</p>
+
+<p>And a coilover is not automatically an upgrade. It is a spring, a damper and a
+threaded collar. Whether that beats the factory parts depends on the rate, the travel, the
+force curve, the mounting geometry, the corrosion protection, the bearing quality, the
+serviceability, and whether anyone actually tested the thing on a car like yours. A great
+many inexpensive coilovers deliver adjustable ride height and an appearance, and describe
+both as performance.</p>
+
+<h2><span class="num">Twenty-one</span>The rule underneath all of it</h2>
+
+<p>There is no best suspension, because suspension is not a component. It is an
+argument between the tires, the wheels, the springs, the dampers, the geometry, the
+bushings, the anti-roll devices, the steering, the brakes, the structure, the
+aerodynamics, the electronics, the mass of the car, the surface of the road, the load in
+the back and the person holding the wheel. Change one and you have changed the answer to
+all the others.</p>
+
+<p>A luxury sedan, a rock crawler, a trophy truck, a Formula 1 car, a dump truck and a
+hatchback are all solving the same problem with wildly different weightings: allow the
+wheels to move while keeping tire load, body motion, geometry and energy under
+control.</p>
+
+<p class="pq">Suspension is not about preventing movement. It is about allowing the right
+movement, at the right rate, in the right direction, and controlling the energy
+afterward.</p>
+
+<p>Which is why it has quietly escaped the car entirely. Look around and you will find
+the same argument being had, at a different scale, underneath wheelchairs and strollers
+and mountain bikes and garden wagons and motorcycles and aircraft landing gear. Anything
+with a wheel and a payload eventually arrives at the same conclusion a bell founder in Le
+Mans reached in 1873, sitting on top of a boiler with a pillar under each front
+wheel.</p>
+
+<p>Let the wheel move. Then decide, very carefully, what happens next.</p>
+
+
+</article>
+
+</div>
+<footer class="foot">
+  <a class="f-wordmark" href="/">Car<span>veyance</span></a>
+  <p>Independent automotive journalism</p>
+</footer>
+</body>
+</html>

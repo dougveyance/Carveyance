@@ -57,6 +57,20 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    slug:      "suspension-of-disbelief",
+    title:     "Suspension of Disbelief",
+    subtitle:  "A bell founder, a Frenchman with no engineering degree, a speaker company, and two centuries of people refusing to accept that comfort and control cannot be friends",
+    category:  "How It Works",
+    date:      "2026-09-02",
+    readTime:  "34 min",
+    blurb:     "Four assemblies under your car are handed eight jobs, and at least three of them contradict the others. Nobody has ever completed the list. From leather straps and a steam bus built by a man who cast church bells, to iron filings commanded a thousand times a second, to the best suspension ever fitted to a road car — which was eventually sold on Facebook Marketplace for the price of its engine.",
+    image:     "/assets/images/suspension-of-disbelief.jpg",
+    vehicles:  ["Citroen DS", "Citroen Traction Avant", "Ford Consul", "Ford Zephyr", "Chevrolet Corvair", "Chevrolet Cadet", "Peugeot 404", "Lexus LS 400", "Cadillac Seville STS", "Chevrolet Corvette", "Lotus 99T", "Lotus Type 92", "Williams FW14B", "Williams FW15C", "Morgan", "Porsche 911"],
+    icon:      "🔧",
+    featured:  false
+  },
+
+  {
     slug:      "the-shape-children-draw",
     title:     "The Shape Children Draw",
     subtitle:  "Three last-generation Lotus Esprits, four years apart, out of the same leaking factory in Norfolk",

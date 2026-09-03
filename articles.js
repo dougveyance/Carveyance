@@ -57,6 +57,19 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    slug:      "suspension-of-disbelief",
+    title:     "Suspension of Disbelief",
+    subtitle:  "Two centuries of engineers refusing to accept that comfort and control cannot be friends",
+    category:  "How It Works",
+    date:      "2026-09-02",
+    readTime:  "35 min",
+    blurb:     "Four assemblies of steel and rubber and oil are handed eight jobs, and at least three of them flatly contradict the others. Nobody has ever completed the list. This is the story of the narrowing \u2014 from leather straps and a bell founder\u2019s steam bus, through the strut that came from a Chevrolet nobody built, to the speaker company that spent twenty-four years building the best suspension in the world and then watched its demonstration car get sold for the engine.",
+    image:     "/assets/images/suspension-of-disbelief.jpg",
+    vehicles:  ["Lexus LS 400", "Chevrolet Corvair", "Citro\u00ebn DS", "Citro\u00ebn Traction Avant", "Ford Consul", "Ford Zephyr", "Chevrolet Cadet", "Peugeot 404", "BMW 1500", "Cadillac Seville STS", "Chevrolet Corvette C5", "Lotus 99T", "Lotus 92", "Williams FW14B", "Williams FW15C", "Nio ET9", "Triumph Spitfire", "Pontiac Bonneville"],
+    featured:  false
+  },
+
+  {
     slug:      "you-spin-me-round",
     title:     "You Spin Me Round",
     subtitle:  "The engine everybody bought and almost nobody made stick",

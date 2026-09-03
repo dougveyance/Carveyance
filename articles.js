@@ -75,11 +75,11 @@ const ARTICLES = [
     subtitle:  "The engine everybody bought and almost nobody made stick",
     category:  "Fun Facts",
     date:      "2026-09-02",
-    readTime:  "22 min",
+    readTime:  "30 min",
     blurb:     "Say rotary and people say Mazda. But the Wankel was tried by Curtiss-Wright, Citroen, Mercedes and Rolls-Royce, and it ended up in a Ford Mustang, an Army truck, snowmobiles, lawnmowers and four different motorcycles.",
     image:     "/assets/images/you-spin-me-round.jpg",
     icon:      "\u{1F53A}",
-    vehicles:  ["NSU Quickly","NSU Ro 80","Curtiss-Wright RC2-60","Ford Mustang","Citroen M35","Citroen GS Birotor","Mercedes-Benz C111","Rolls-Royce 2-R6","Hercules W2000","Norton Classic","Norton Interpol 2","Suzuki RE-5","Van Veen OCR 1000","Yamaha RZ201","Mazda Cosmo Sport"],
+    vehicles:  ["NSU Quickly","NSU Ro 80","Curtiss-Wright RC2-60","Ford Mustang","Citroen M35","Citroen GS Birotor","Mercedes-Benz C111","Rolls-Royce 2-R6","Hercules W2000","Norton Classic","Norton Interpol 2","Suzuki RE-5","Van Veen OCR 1000","Yamaha RZ201","Mazda Cosmo Sport","Mazda RX-7","Eunos Cosmo","Mazda 787B","Mazda RX-8","Mazda MX-30 R-EV","Mazda Iconic SP","Mazda Vision X-Coupe"],
     featured:  false
   },
 

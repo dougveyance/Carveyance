@@ -23,7 +23,12 @@
   }
   .wrap{max-width:772px;margin:0 auto;padding:66px 28px 100px;}
   .kicker{font-family:'IBM Plex Mono',monospace;font-weight:500;text-transform:uppercase;letter-spacing:.26em;font-size:13px;color:var(--amber);margin:0 0 24px;}
-  .brand{float:right;color:var(--steel);letter-spacing:.2em;}
+  .wrap p a.xlink{color:var(--amber);text-decoration:underline;text-underline-offset:2px;text-decoration-thickness:1px;}
+.wordmark,.f-wordmark{font-family:'Bebas Neue',sans-serif;font-size:26px;letter-spacing:.08em;font-weight:400;line-height:1;color:var(--ink);text-transform:uppercase;}
+.wordmark{float:right;margin-top:-3px;}
+.wordmark .b,.f-wordmark .b{color:#4E8DB5;}
+.sitefoot{margin:64px 0 0;padding:30px 0 0;border-top:1px solid var(--rule);display:flex;align-items:baseline;justify-content:space-between;gap:18px;flex-wrap:wrap;}
+.sitefoot .fl{font-size:13px;text-transform:uppercase;letter-spacing:.18em;color:var(--ink-soft);margin:0;}
   h1.title{font-family:'Oswald',sans-serif;font-weight:700;text-transform:uppercase;font-size:clamp(56px,12vw,124px);line-height:.92;letter-spacing:.005em;margin:.06em 0 .3em;color:var(--steel);}
   h1.title em{font-style:normal;color:var(--amber);}
   .dek{font-family:'Lora',serif;font-style:italic;font-weight:500;font-size:clamp(20px,3.2vw,26px);line-height:1.44;color:var(--ink-soft);max-width:50ch;margin:0 0 30px;}
@@ -49,48 +54,12 @@
   .spec .hot{color:var(--amber-2);}
   .endmark{display:block;text-align:center;color:var(--amber);font-size:14px;margin:52px 0 0;letter-spacing:.7em;}
   @media(max-width:560px){body{font-size:18.5px;}.wrap{padding:42px 18px 74px;}.spec dl{grid-template-columns:1fr;}}
-
-/* ── CARVEYANCE SITE CHROME (shared across all articles) ── */
-.cv-nav{position:sticky;top:0;z-index:9999;display:flex;align-items:center;justify-content:space-between;
-  height:56px;padding:0 22px;background:#141820;
-  font-family:'DM Sans','Helvetica Neue',Arial,sans-serif;box-sizing:border-box}
-.cv-nav *{box-sizing:border-box}
-.cv-nav a{text-decoration:none}
-.cv-brand{font-family:'Bebas Neue',Impact,'Arial Narrow',sans-serif;font-size:23px;
-  letter-spacing:.07em;color:#fff;line-height:1}
-.cv-brand span{color:#4E8DB5}
-.cv-links{display:flex;gap:18px;align-items:center}
-.cv-links a{font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
-  color:rgba(255,255,255,.62)}
-.cv-links a:hover{color:#fff}
-.cv-sub{font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
-  background:#e05c2a;color:#fff !important;padding:8px 14px;border-radius:3px;white-space:nowrap}
-.cv-sub:hover{background:#c44e20}
-@media(max-width:640px){.cv-links{display:none}}
-.cv-foot{background:#141820;color:rgba(255,255,255,.5);padding:40px 22px;text-align:center;
-  font-family:'DM Sans','Helvetica Neue',Arial,sans-serif;font-size:11px;letter-spacing:.08em;margin-top:60px}
-.cv-foot a{text-decoration:none}
-.cv-fbrand{font-family:'Bebas Neue',Impact,'Arial Narrow',sans-serif;font-size:24px;
-  letter-spacing:.07em;color:#fff;display:inline-block;margin-bottom:14px}
-.cv-fbrand span{color:#4E8DB5}
-.cv-flinks{display:flex;gap:20px;justify-content:center;flex-wrap:wrap;margin-bottom:16px}
-.cv-flinks a{font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
-  color:rgba(255,255,255,.62)}
-.cv-flinks a:hover{color:#4E8DB5}
-.cv-copy{color:rgba(255,255,255,.38);font-size:10px;letter-spacing:.1em;margin:0}
-
-/* canonical wordmark — Carveyance house style */
-.wordmark,.cv-brand,.cv-fbrand,.nav-brand,.f-wordmark{font-family:'Bebas Neue',sans-serif !important;font-size:26px !important;font-weight:400 !important;letter-spacing:.08em !important;line-height:1 !important;color:#ffffff !important}
-.wordmark>span,.cv-brand>span,.cv-fbrand>span,.nav-brand>span,.f-wordmark>span{color:#4E8DB5 !important}
 </style>
-<link rel="canonical" href="https://carveyance.com/articles/low-and-behold/">
-<meta property="og:url" content="https://carveyance.com/articles/low-and-behold/">
-<meta name="article:section" content="Fun Facts">
 </head>
-<body><nav class="cv-nav"><a class="cv-brand" href="/">CAR<span>VEYANCE</span></a><div class="cv-links"><a href="/">Home</a><a href="/categories/fun-facts/">Fun Facts</a></div><a class="cv-sub" href="/#submit">Submit a Story</a></nav>
+<body>
 <article class="wrap">
 
-  <p class="kicker">Feature <span class="brand">Carveyance</span></p>
+  <p class="kicker">Feature <span class="wordmark">Car<span class="b">veyance</span></span></p>
 
   <h1 class="title">Low and <em>Behold</em></h1>
 
@@ -100,11 +69,11 @@
 
   <p class="lead">Here is an iron law of 1980s television: no matter how square the jaw of the leading man, the real star of the show always had wheels, rotors, or a turbocharger. The decade handed us a parade of impossibly macho heroes, and then quietly let their machines steal every single scene out from under them.</p>
 
-  <p>Think about it. Knight Rider sold itself on David Hasselhoff&rsquo;s feathered hair, but the actual icon was KITT &mdash; a 1982 Pontiac Trans Am with a sweeping red eye and the voice of a faintly judgmental butler. The A-Team had four fugitive commandos, yet the thing every kid actually wanted was the black-and-grey GMC Vandura van, with its single red stripe and that rooftop spoiler. Airwolf gave us brooding pilots; we only ever cared about the Bell 222 helicopter cosplaying as a supersonic stealth weapon. The Wraith handed a 21-year-old Charlie Sheen the keys to the afterlife, but the eternal soul of that film was the Dodge M4S Turbo Interceptor &mdash; a Chrysler-and-PPG concept pace car so otherworldly it was cast, fittingly, as a literal ghost. And the most famous example of all nearly didn&rsquo;t happen on wheels: Back to the Future originally imagined its time machine as a <em>refrigerator</em>, until someone realized that (a) a freshly launched, gullwinged DeLorean DMC-12 looked infinitely cooler, and (b) it was perhaps unwise to plant &ldquo;climb inside a fridge&rdquo; ideas in the minds of America&rsquo;s children. The DeLorean became immortal. The car, frankly, got far more out of that arrangement than the movie did.</p>
+  <p>Think about it. Knight Rider sold itself on David Hasselhoff&rsquo;s feathered hair, but the actual icon was KITT &mdash; a 1982 Pontiac Trans Am with a sweeping red eye and the voice of a faintly judgmental butler. The A-Team had four fugitive commandos, yet the thing every kid actually wanted was the black-and-grey <a class="xlink" href="/articles/best-vehicle-ever-designed/">GMC Vandura van</a>, with its single red stripe and that rooftop spoiler. Airwolf gave us brooding pilots; we only ever cared about the Bell 222 helicopter cosplaying as a supersonic stealth weapon. The Wraith handed a 21-year-old Charlie Sheen the keys to the afterlife, but the eternal soul of that film was the Dodge M4S Turbo Interceptor &mdash; a Chrysler-and-PPG concept pace car so otherworldly it was cast, fittingly, as a literal ghost. And the most famous example of all nearly didn&rsquo;t happen on wheels: Back to the Future originally imagined its time machine as a <em>refrigerator</em>, until someone realized that (a) a freshly launched, gullwinged DeLorean DMC-12 looked infinitely cooler, and (b) it was perhaps unwise to plant &ldquo;climb inside a fridge&rdquo; ideas in the minds of America&rsquo;s children. The DeLorean became immortal. The car, frankly, got far more out of that arrangement than the movie did.</p>
 
   <p>That Airwolf helicopter has earned its footnote right here, because the truth is stranger and sadder than anything in the script. After the cameras stopped rolling, the actual modified Bell 222 was stripped of its fake missile pods, shipped to Germany, and put to honest work as an air ambulance. On the 6th of June, 1992 &mdash; having just flown a little girl with terrible burns from Berlin to the specialist unit in Cologne, a genuine mercy run, a real life saved &mdash; it ran into fog and a thunderstorm on the way home and went into the side of a mountain, killing all three crew aboard. The wolf in sheep&rsquo;s clothing spent its final day as an actual angel of mercy. I did not expect to get a lump in my throat researching a truck article. And yet.</p>
 
-  <p>Which brings me, by way of the single most unhinged entry in the entire genre, to the reason we&rsquo;re all here. In 1987 the gloriously bonkers Glen A. Larson &mdash; the showrunner behind Knight Rider and Battlestar Galactica &mdash; handed NBC a series called The Highwayman. It was, and I mean this as the highest possible compliment, completely incoherent: a near-future world of federal &ldquo;Highwaymen&rdquo; policing the lawless outlands, summed up by roughly everyone who saw it as &ldquo;Mad Max meets Knight Rider.&rdquo; Flash Gordon himself, Sam J. Jones, starred. But of course he wasn&rsquo;t the star. The star was the truck &mdash; a colossal black big rig named <em>Stealth</em> that could turn invisible, hid a Lotus Esprit in its tail for the chase scenes (you genuinely cannot go wrong dropping an Esprit into anything), and whose bullet-shaped cab detached and flew off as a helicopter. As one does.</p>
+  <p>Which brings me, by way of the single most unhinged entry in the entire genre, to the reason we&rsquo;re all here. In 1987 the gloriously bonkers Glen A. Larson &mdash; the showrunner behind Knight Rider and Battlestar Galactica &mdash; handed NBC a series called The Highwayman. It was, and I mean this as the highest possible compliment, completely incoherent: a near-future world of federal &ldquo;Highwaymen&rdquo; policing the lawless outlands, summed up by roughly everyone who saw it as &ldquo;Mad Max meets Knight Rider.&rdquo; Flash Gordon himself, Sam J. Jones, starred. But of course he wasn&rsquo;t the star. The star was the truck &mdash; a colossal black big rig named <em>Stealth</em> that could turn invisible, hid a <a class="xlink" href="/articles/the-shape-children-draw/">Lotus Esprit</a> in its tail for the chase scenes (you genuinely cannot go wrong dropping an Esprit into anything), and whose bullet-shaped cab detached and flew off as a helicopter. As one does.</p>
 
   <p>And here is the detail that made me want to write all of this down. That preposterous television truck &mdash; the low, flat, slung-under-the-trailer one that looked exactly like the tug that hauls your jet to the gate &mdash; was not pure fantasy. It was heavily, unmistakably &ldquo;inspired by&rdquo; a real machine: a real, road-going, Mercedes-powered, gloriously doomed vehicle that a German engineer actually built in 1983 and showed to the entire automotive world. It was called the Steinwinter Supercargo, and it remains, to this day, the lowest truck ever built. This is its story &mdash; how it worked, why it was brilliant, and why one paragraph of paperwork erased it from existence.</p>
 
@@ -232,6 +201,11 @@
 
   <span class="endmark">&bull; &bull; &bull;</span>
 
+  <footer class="sitefoot">
+    <div class="f-wordmark">Car<span class="b">veyance</span></div>
+    <p class="fl">For the love of the drive &nbsp;&middot;&nbsp; Los Angeles, CA</p>
+  </footer>
+
 </article>
-<footer class="cv-foot"><a class="cv-fbrand" href="/">CAR<span>VEYANCE</span></a><div class="cv-flinks"><a href="/">Home</a><a href="/categories/fun-facts/">More Fun Facts</a><a href="/#submit">Submit a Story</a></div><p class="cv-copy">&copy; 2026 Carveyance &mdash; For the love of the drive. Los Angeles, CA.</p></footer></body>
+</body>
 </html>

@@ -23,7 +23,11 @@
   }
   .wrap{max-width:780px;margin:0 auto;padding:58px 28px 104px;}
   .kicker{font-family:'Newsreader',serif;font-weight:600;text-transform:uppercase;letter-spacing:.24em;font-size:13px;color:var(--gold);margin:0 0 20px;}
-  .brand{float:right;color:var(--navy);letter-spacing:.2em;}
+  .wordmark,.f-wordmark{font-family:'Bebas Neue',sans-serif;font-size:26px;letter-spacing:.08em;font-weight:400;line-height:1;color:var(--ink);text-transform:uppercase;}
+.wordmark{float:right;margin-top:-3px;}
+.wordmark .b,.f-wordmark .b{color:#4E8DB5;}
+.sitefoot{margin:64px 0 0;padding:30px 0 0;border-top:1px solid var(--rule);display:flex;align-items:baseline;justify-content:space-between;gap:18px;flex-wrap:wrap;}
+.sitefoot .fl{font-family:'Newsreader',serif;font-size:13px;text-transform:uppercase;letter-spacing:.18em;color:var(--ink-soft);margin:0;}
   h1.title{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(48px,9.2vw,98px);line-height:.99;letter-spacing:-.01em;margin:.04em 0 .34em;color:var(--navy);}
   h1.title em{font-style:italic;font-weight:500;color:var(--gold);}
   .dek{font-family:'Newsreader',serif;font-style:italic;font-weight:400;font-size:clamp(20px,3.1vw,26px);line-height:1.5;color:var(--ink-soft);max-width:55ch;margin:0 0 26px;}
@@ -54,48 +58,12 @@
   .pointer{font-family:'Newsreader',serif;font-style:italic;color:var(--navy);}
   .pointer b{font-style:normal;font-weight:600;color:var(--gold);}
   @media(max-width:560px){body{font-size:19px;}.wrap{padding:40px 18px 76px;}.panel .row{flex-direction:column;gap:3px;}.panel .k{min-width:0;}}
-
-/* ── CARVEYANCE SITE CHROME (shared across all articles) ── */
-.cv-nav{position:sticky;top:0;z-index:9999;display:flex;align-items:center;justify-content:space-between;
-  height:56px;padding:0 22px;background:#141820;
-  font-family:'DM Sans','Helvetica Neue',Arial,sans-serif;box-sizing:border-box}
-.cv-nav *{box-sizing:border-box}
-.cv-nav a{text-decoration:none}
-.cv-brand{font-family:'Bebas Neue',Impact,'Arial Narrow',sans-serif;font-size:23px;
-  letter-spacing:.07em;color:#fff;line-height:1}
-.cv-brand span{color:#4E8DB5}
-.cv-links{display:flex;gap:18px;align-items:center}
-.cv-links a{font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
-  color:rgba(255,255,255,.62)}
-.cv-links a:hover{color:#fff}
-.cv-sub{font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
-  background:#e05c2a;color:#fff !important;padding:8px 14px;border-radius:3px;white-space:nowrap}
-.cv-sub:hover{background:#c44e20}
-@media(max-width:640px){.cv-links{display:none}}
-.cv-foot{background:#141820;color:rgba(255,255,255,.5);padding:40px 22px;text-align:center;
-  font-family:'DM Sans','Helvetica Neue',Arial,sans-serif;font-size:11px;letter-spacing:.08em;margin-top:60px}
-.cv-foot a{text-decoration:none}
-.cv-fbrand{font-family:'Bebas Neue',Impact,'Arial Narrow',sans-serif;font-size:24px;
-  letter-spacing:.07em;color:#fff;display:inline-block;margin-bottom:14px}
-.cv-fbrand span{color:#4E8DB5}
-.cv-flinks{display:flex;gap:20px;justify-content:center;flex-wrap:wrap;margin-bottom:16px}
-.cv-flinks a{font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
-  color:rgba(255,255,255,.62)}
-.cv-flinks a:hover{color:#4E8DB5}
-.cv-copy{color:rgba(255,255,255,.38);font-size:10px;letter-spacing:.1em;margin:0}
-
-/* canonical wordmark — Carveyance house style */
-.wordmark,.cv-brand,.cv-fbrand,.nav-brand,.f-wordmark{font-family:'Bebas Neue',sans-serif !important;font-size:26px !important;font-weight:400 !important;letter-spacing:.08em !important;line-height:1 !important;color:#ffffff !important}
-.wordmark>span,.cv-brand>span,.cv-fbrand>span,.nav-brand>span,.f-wordmark>span{color:#4E8DB5 !important}
 </style>
-<link rel="canonical" href="https://carveyance.com/articles/goddess-of-serenity/">
-<meta property="og:url" content="https://carveyance.com/articles/goddess-of-serenity/">
-<meta name="article:section" content="Reviews">
 </head>
-<body><nav class="cv-nav"><a class="cv-brand" href="/">CAR<span>VEYANCE</span></a><div class="cv-links"><a href="/">Home</a><a href="/categories/reviews/">Reviews</a></div><a class="cv-sub" href="/#submit">Submit a Story</a></nav>
+<body>
 <article class="wrap">
 
-  <p class="kicker">Feature <span class="brand">Carveyance</span></p>
+  <p class="kicker">Feature <span class="wordmark">Car<span class="b">veyance</span></span></p>
   <h1 class="title">The <em>Goddess</em><br>of Serenity</h1>
   <p class="dek">She arrived looking as though she had fallen from the sky, floated over France's worst roads, outran an assassination, and was later voted the most beautiful car ever made. A love letter to the Citroën DS — and to her finest hour, the Décapotable.</p>
   <p class="meta">Design &amp; Reverence &nbsp;&middot;&nbsp; 1955&ndash;Today &nbsp;&middot;&nbsp; Pure Déesse</p>
@@ -300,6 +268,11 @@
 
   <span class="endmark">&bull; &bull; &bull;</span>
 
+  <footer class="sitefoot">
+    <div class="f-wordmark">Car<span class="b">veyance</span></div>
+    <p class="fl">For the love of the drive &nbsp;&middot;&nbsp; Los Angeles, CA</p>
+  </footer>
+
 </article>
-<footer class="cv-foot"><a class="cv-fbrand" href="/">CAR<span>VEYANCE</span></a><div class="cv-flinks"><a href="/">Home</a><a href="/categories/reviews/">More Reviews</a><a href="/#submit">Submit a Story</a></div><p class="cv-copy">&copy; 2026 Carveyance &mdash; For the love of the drive. Los Angeles, CA.</p></footer></body>
+</body>
 </html>

@@ -19,8 +19,9 @@ img{display:block;max-width:100%}
 a{text-decoration:none;color:inherit}
 
 nav{background:var(--ink);padding:0 40px;height:56px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid var(--gold)}
-.nav-brand{font-family:'Bebas Neue',sans-serif;font-size:20px;letter-spacing:.08em;color:var(--white)}
-.nav-brand span{color:var(--gold)}
+a.xlink{color:var(--gold);text-decoration:underline;text-underline-offset:2px;text-decoration-thickness:1px}
+  .nav-brand{font-family:'Bebas Neue',sans-serif;font-size:26px;font-weight:400;line-height:1;letter-spacing:.08em;color:var(--white);text-transform:uppercase}
+.nav-brand span{color:#4E8DB5}
 .nav-back{font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.38)}
 .nav-cat{font-family:'Bebas Neue',sans-serif;font-size:12px;letter-spacing:.2em;color:var(--gold);border:1px solid var(--gold);padding:4px 14px}
 
@@ -116,7 +117,7 @@ nav{background:var(--ink);padding:0 40px;height:56px;display:flex;align-items:ce
 
 footer{background:var(--ink);padding:28px 40px;display:flex;align-items:center;justify-content:space-between;border-top:1px solid rgba(184,144,42,.2)}
 .foot-brand{font-family:'Bebas Neue',sans-serif;font-size:18px;color:var(--white);letter-spacing:.08em}
-.foot-brand span{color:var(--gold)}
+.foot-brand span{color:#4E8DB5}
 .foot-copy{font-size:11px;letter-spacing:.06em;color:#2a2820}
 
 @media(max-width:760px){
@@ -131,47 +132,15 @@ footer{background:var(--ink);padding:28px 40px;display:flex;align-items:center;j
   nav{padding:0 16px}
   footer{padding:20px 16px;flex-direction:column;gap:8px;text-align:center}
 }
-
-/* ── CARVEYANCE SITE CHROME (shared across all articles) ── */
-.cv-nav{position:sticky;top:0;z-index:9999;display:flex;align-items:center;justify-content:space-between;
-  height:56px;padding:0 22px;background:#141820;
-  font-family:'DM Sans','Helvetica Neue',Arial,sans-serif;box-sizing:border-box}
-.cv-nav *{box-sizing:border-box}
-.cv-nav a{text-decoration:none}
-.cv-brand{font-family:'Bebas Neue',Impact,'Arial Narrow',sans-serif;font-size:23px;
-  letter-spacing:.07em;color:#fff;line-height:1}
-.cv-brand span{color:#4E8DB5}
-.cv-links{display:flex;gap:18px;align-items:center}
-.cv-links a{font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
-  color:rgba(255,255,255,.62)}
-.cv-links a:hover{color:#fff}
-.cv-sub{font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
-  background:#e05c2a;color:#fff !important;padding:8px 14px;border-radius:3px;white-space:nowrap}
-.cv-sub:hover{background:#c44e20}
-@media(max-width:640px){.cv-links{display:none}}
-.cv-foot{background:#141820;color:rgba(255,255,255,.5);padding:40px 22px;text-align:center;
-  font-family:'DM Sans','Helvetica Neue',Arial,sans-serif;font-size:11px;letter-spacing:.08em;margin-top:60px}
-.cv-foot a{text-decoration:none}
-.cv-fbrand{font-family:'Bebas Neue',Impact,'Arial Narrow',sans-serif;font-size:24px;
-  letter-spacing:.07em;color:#fff;display:inline-block;margin-bottom:14px}
-.cv-fbrand span{color:#4E8DB5}
-.cv-flinks{display:flex;gap:20px;justify-content:center;flex-wrap:wrap;margin-bottom:16px}
-.cv-flinks a{font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
-  color:rgba(255,255,255,.62)}
-.cv-flinks a:hover{color:#4E8DB5}
-.cv-copy{color:rgba(255,255,255,.38);font-size:10px;letter-spacing:.1em;margin:0}
-
-/* canonical wordmark — Carveyance house style */
-.wordmark,.cv-brand,.cv-fbrand,.nav-brand,.f-wordmark{font-family:'Bebas Neue',sans-serif !important;font-size:26px !important;font-weight:400 !important;letter-spacing:.08em !important;line-height:1 !important;color:#ffffff !important}
-.wordmark>span,.cv-brand>span,.cv-fbrand>span,.nav-brand>span,.f-wordmark>span{color:#4E8DB5 !important}
 </style>
-<link rel="canonical" href="https://carveyance.com/articles/grey-poupon/">
-<meta property="og:url" content="https://carveyance.com/articles/grey-poupon/">
-<meta name="article:section" content="Opinions">
 </head>
-<body><nav class="cv-nav"><a class="cv-brand" href="/">CAR<span>VEYANCE</span></a><div class="cv-links"><a href="/">Home</a><a href="/categories/opinions/">Opinions</a></div><a class="cv-sub" href="/#submit">Submit a Story</a></nav>
+<body>
 
-
+<nav>
+  <a href="/" class="nav-brand">Car<span>veyance</span></a>
+  <a href="#" class="nav-back">← Back to Articles</a>
+  <span class="nav-cat">Opinion</span>
+</nav>
 
 <!-- HERO -->
 <div class="hero">
@@ -487,7 +456,7 @@ footer{background:var(--ink);padding:28px 40px;display:flex;align-items:center;j
 
 <p>The research, as it turns out, supports what intuition already knew. When a product is presented to someone as expensive and they are told it is expensive, our brains actually prepare our bodies for the experience of pleasure — a psychological phenomenon that explains a great deal about overpriced restaurant meals and very little about the Corniche. Because the Corniche does not rely on the expectation of quality. It delivers it. The magic carpet ride is not a suggestion. It is a fact. The wood is not a simulation. It grew somewhere. The hide was from an animal. The craftsman's hands are in every surface you touch. There is no gap between what the Corniche promises and what it provides. That is rarer than the car itself.</p>
 
-<p>There is also, in the current market, a window of extraordinary opportunity that is beginning to close. Collector attention to the air-cooled Porsche generation drove those values up dramatically. The same thing happened to the Ferrari Dino. It will happen to the Corniche — to the genuine, hand-built, Mulliner Park Ward-bodied, 6.75-litre convertible Corniche — when enough of the right people look at what they are getting for $40,000 and do the arithmetic against what it would have cost them new. The window is open. It will not always be.</p>
+<p>There is also, in the current market, a window of extraordinary opportunity that is beginning to close. Collector attention to the air-cooled Porsche generation drove those values up dramatically. The same thing happened to the <a class="xlink" href="/articles/ghost-in-ice-green/">Ferrari Dino</a>. It will happen to the Corniche — to the genuine, hand-built, Mulliner Park Ward-bodied, 6.75-litre convertible Corniche — when enough of the right people look at what they are getting for $40,000 and do the arithmetic against what it would have cost them new. The window is open. It will not always be.</p>
 
 </div>
 
@@ -521,7 +490,10 @@ footer{background:var(--ink);padding:28px 40px;display:flex;align-items:center;j
 
 </div><!-- end wrap -->
 
+<footer>
+  <span class="foot-brand">Car<span>veyance</span></span>
+  <span class="foot-copy">© 2026 Carveyance · For the Love of the Drive</span>
+</footer>
 
-
-<footer class="cv-foot"><a class="cv-fbrand" href="/">CAR<span>VEYANCE</span></a><div class="cv-flinks"><a href="/">Home</a><a href="/categories/opinions/">More Opinions</a><a href="/#submit">Submit a Story</a></div><p class="cv-copy">&copy; 2026 Carveyance &mdash; For the love of the drive. Los Angeles, CA.</p></footer></body>
+</body>
 </html>

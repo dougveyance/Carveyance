@@ -57,6 +57,29 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    "slug": "the-one-and-only",
+    "title": "The One and Only",
+    "subtitle": "Fifty years, eight generations, and the most copied idea in the history of the affordable car",
+    "category": "Car Culture",
+    "date": "2026-09-08",
+    "readTime": "33 min",
+    "blurb": "An unauthorized memo, a plate of sandwiches in a Wolfsburg living room, and a board that grudgingly approved 5,000 cars. They built 461,690 — and in the fiftieth year the GTI went back to the Nurburgring and took the record off Honda.",
+    "image": "/assets/images/the-one-and-only.jpg",
+    "vehicles": [
+      "Volkswagen Golf GTI Mk1",
+      "Volkswagen Golf GTI Mk2",
+      "Volkswagen Golf GTI Mk3",
+      "Volkswagen Golf R32",
+      "Volkswagen Golf GTI Mk5",
+      "Volkswagen Golf GTI Mk7",
+      "Volkswagen Golf GTI Clubsport S",
+      "Volkswagen Golf GTI Edition 50",
+      "Honda Civic Type R",
+      "Peugeot 205 GTI"
+    ],
+    "featured": false
+  },
+  {
     slug:      "im-rubber-youre-glue",
     title:     "I'm Rubber, You're Glue",
     subtitle:  "Four postcards of rubber are the only things holding you to the planet",

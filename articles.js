@@ -57,6 +57,19 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    slug:      "im-rubber-youre-glue",
+    title:     "I'm Rubber, You're Glue",
+    subtitle:  "Four postcards of rubber are the only things holding you to the planet",
+    category:  "Fun Facts",
+    date:      "2026-09-08",
+    readTime:  "56 min",
+    blurb:     "A ruined stove in 1839, a vet with a bad patent, a war that nearly ran out of trees, and the exact speed at which rubber gives up and flies off the rim.",
+    image:     "/assets/images/im-rubber-youre-glue.jpg",
+    vehicles:  ["Lunar Roving Vehicle", "Bloodhound LSR", "Porsche Carrera GT", "GM EV1", "Michelin UPTIS"],
+    icon:      "\u{1F6DE}",
+    featured:  false
+  },
+  {
     slug:      "suspension-of-disbelief",
     title:     "Suspension of Disbelief",
     subtitle:  "Two centuries of engineers refusing to accept that comfort and control cannot be friends",
@@ -825,7 +838,7 @@ const ARTICLES = [
     category:  "Fun Facts",
     date:      "2026-07-11",
     readTime:  "30 min",
-    blurb:     "The most expensive car ever built made roughly one horsepower, wore tyres woven from piano wire, was designed by a penniless refugee, folded into a spaceship, and is still parked exactly where we left it.",
+    blurb:     "The most expensive car ever built made roughly one horsepower, wore tires woven from piano wire, was designed by a penniless refugee, folded into a spaceship, and is still parked exactly where we left it.",
     image:     "/assets/images/moon-buggy.jpg",
     vehicles:  ["Apollo Lunar Roving Vehicle"],
     featured:  false

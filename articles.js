@@ -57,6 +57,28 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    "slug": "release-the-hounds",
+    "title": "Release the Hounds",
+    "subtitle": "One of them was bred in a Texas kennel. The other was built in a Swiss workshop. Only one is a dog.",
+    "category": "Car Culture",
+    "date": "2026-09-08",
+    "readTime": "19 min",
+    "blurb": "Franco Sbarro built 14 luxury off-roaders to order, using a Fiat windshield, a Volkswagen grille and whatever engine the customer felt like. One of them ran the Paris-Dakar, rolled, got looted, and came home to be rebuilt with its exhaust over the roof.",
+    "image": "/assets/images/release-the-hounds.jpg",
+    "vehicles": [
+      "Sbarro Windhound",
+      "Sbarro Windhawk",
+      "Monteverdi Safari",
+      "Monteverdi Sahara",
+      "International Harvester Scout II",
+      "Mercedes-Benz G-Class",
+      "Jeep Cherokee Chief",
+      "Range Rover",
+      "Felber Oasis"
+    ],
+    "featured": false
+  },
+  {
     "slug": "the-one-and-only",
     "title": "The One and Only",
     "subtitle": "Fifty years, eight generations, and the most copied idea in the history of the affordable car",

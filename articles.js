@@ -57,6 +57,28 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    "slug": "what-is-thy-bidding",
+    "title": "What Is Thy Bidding",
+    "subtitle": "Cadillac spent fifty years selling comfort to people who had already arrived, then built a 640-horsepower four-door that out-lapped a Viper",
+    "category": "Reviews",
+    "date": "2026-09-11",
+    "readTime": "16 min",
+    "blurb": "It borrowed the Corvette's engine and was allowed to have ten horsepower less, because somebody at GM had a hierarchy to protect. Then it went to Virginia International Raceway and finished sixth of eighteen — and every single car that beat it had two doors. The CTS-V, the supercharged manual wagon now worth more than it cost new, and the Blackwing that is better in almost every way and still cannot carry the same absurdity.",
+    "image": "/assets/images/what-is-thy-bidding.jpg",
+    "vehicles": [
+      "Cadillac CTS-V",
+      "Cadillac CT5-V Blackwing",
+      "Cadillac CTS",
+      "Cadillac ATS-V",
+      "Cadillac Catera",
+      "Chevrolet Corvette Z06",
+      "BMW M5",
+      "Mercedes-AMG E63 S",
+      "Porsche Panamera Turbo"
+    ],
+    "featured": false
+  },
+  {
     "slug": "mud-on-the-collar",
     "title": "Mud on the Collar",
     "subtitle": "Two supercharged Jaguar XJRs, a century and a half of British insistence that you can be violent and well dressed at the same time",

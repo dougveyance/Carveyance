@@ -57,6 +57,26 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    "slug": "mud-on-the-collar",
+    "title": "Mud on the Collar",
+    "subtitle": "Two supercharged Jaguar XJRs, a century and a half of British insistence that you can be violent and well dressed at the same time",
+    "category": "Comparisons",
+    "date": "2026-09-09",
+    "readTime": "38 min",
+    "blurb": "The X308 is the hot rod. The X350 is the aluminum revolution nobody noticed because it was dressed as its own grandfather. Car and Driver put the X308 third behind an M5 and an E55 \u2014 and it beat the AMG Mercedes to 60 mph, tied it through the quarter, and cost less than both.",
+    "image": "/assets/images/mud-on-the-collar.jpg",
+    "vehicles": [
+      "Jaguar XJR",
+      "Jaguar XJ8",
+      "Jaguar XJR 100",
+      "Jaguar Super V8",
+      "Jaguar XJ",
+      "BMW M5",
+      "Mercedes-Benz E55 AMG"
+    ],
+    "featured": false
+  },
+  {
     "slug": "release-the-hounds",
     "title": "Release the Hounds",
     "subtitle": "One of them was bred in a Texas kennel. The other was built in a Swiss workshop. Only one is a dog.",

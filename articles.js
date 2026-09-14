@@ -57,6 +57,30 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    "slug": "it-was-always-trying-to-kill-you",
+    "title": "It Was Always Trying to Kill You",
+    "subtitle": "Every Lamborghini ever built arrived promising to be more civilized than the last one, and every Lamborghini ever built was lying",
+    "category": "Reviews",
+    "date": "2026-09-14",
+    "readTime": "30 min",
+    "blurb": "The Diablo SV was the most powerful Diablo you could buy and the cheapest, and Lamborghini managed that by taking things out. No all-wheel drive, no adjustable dampers, no anti-lock brakes, 335-section rear tires and your right ankle. Its top speed is quoted anywhere between 186 and 207 mph because it was geared to accelerate instead. Thirty-one years on, nobody has built another rear-wheel-drive Super Veloce.",
+    "image": "/assets/images/it-was-always-trying-to-kill-you.jpg",
+    "vehicles": [
+      "Lamborghini Diablo SV",
+      "Lamborghini Diablo",
+      "Lamborghini Diablo VT",
+      "Lamborghini Diablo VT 6.0",
+      "Lamborghini Diablo SE30",
+      "Lamborghini Diablo GT",
+      "Lamborghini Miura SV",
+      "Lamborghini Countach",
+      "Jaguar XJ220",
+      "Ferrari F40",
+      "Ferrari F50"
+    ],
+    "featured": false
+  },
+  {
     "slug": "what-is-thy-bidding",
     "title": "What Is Thy Bidding",
     "subtitle": "Cadillac spent fifty years selling comfort to people who had already arrived, then built a 640-horsepower four-door that out-lapped a Viper",

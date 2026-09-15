@@ -57,6 +57,30 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    "slug": "it-was-always-trying-to-kill-you",
+    "title": "It Was Always Trying to Kill You",
+    "subtitle": "Every Lamborghini ever built arrived promising to be more civilized than the last one, and every Lamborghini ever built was lying",
+    "category": "Reviews",
+    "date": "2026-09-14",
+    "readTime": "30 min",
+    "blurb": "The Diablo SV was the most powerful Diablo you could buy and the cheapest, and Lamborghini managed that by taking things out. No all-wheel drive, no adjustable dampers, no anti-lock brakes, 335-section rear tires and your right ankle. Its top speed is quoted anywhere between 186 and 207 mph because it was geared to accelerate instead. Thirty-one years on, nobody has built another rear-wheel-drive Super Veloce.",
+    "image": "/assets/images/it-was-always-trying-to-kill-you.jpg",
+    "vehicles": [
+      "Lamborghini Diablo SV",
+      "Lamborghini Diablo",
+      "Lamborghini Diablo VT",
+      "Lamborghini Diablo VT 6.0",
+      "Lamborghini Diablo SE30",
+      "Lamborghini Diablo GT",
+      "Lamborghini Miura SV",
+      "Lamborghini Countach",
+      "Jaguar XJ220",
+      "Ferrari F40",
+      "Ferrari F50"
+    ],
+    "featured": false
+  },
+  {
     "slug": "what-is-thy-bidding",
     "title": "What Is Thy Bidding",
     "subtitle": "Cadillac spent fifty years selling comfort to people who had already arrived, then built a 640-horsepower four-door that out-lapped a Viper",
@@ -197,19 +221,6 @@ const ARTICLES = [
   },
 
   {
-    slug:      "the-fastest-argument-in-the-room",
-    title:     "The Fastest Argument in the Room",
-    subtitle:  "Parliament wanted the Lotus Carlton stopped. The police could not catch it. The road testers found it a bit dull.",
-    category:  "Car Culture",
-    date:      "2026-09-01",
-    readTime:  "31 min",
-    blurb:     "A Vauxhall four-door was condemned by chief constables, campaigned against by the Daily Mail, denounced in the Commons and used by ram-raiders who knew no police car in Britain could follow it. Then the magazines drove it and came back saying it was oddly cold. All of them were telling the truth \u2014 and the car has spent thirty-six years waiting for anyone to notice.",
-    image:     "/assets/images/the-fastest-argument-in-the-room.jpg",
-    vehicles:  ["Vauxhall Lotus Carlton", "Opel Lotus Omega", "Vauxhall Carlton", "Opel Omega", "Vauxhall Senator", "BMW M5", "Mercedes-Benz 500E", "Alpina B10 Bi-Turbo", "Ferrari Testarossa", "Ferrari F40", "Porsche 911 Turbo", "Ford Sierra RS Cosworth", "Ford RS200", "Chevrolet Corvette ZR-1", "Audi S6"],
-    featured:  false
-  },
-
-  {
     slug:      "it-died-so-you-could-live",
     title:     "It Died So You Could Live",
     subtitle:  "The Chevrolet Corvair gave America the pony car and then gave America the seat belt",
@@ -232,6 +243,32 @@ const ARTICLES = [
     blurb:     "Six group tests against the M3, the C63 and the RS4, and it finished behind them every single time \u2014 including one this July. But it out-braked two of them, tied the M3 for grip, returned better economy than any of them, and carried two more years of powertrain warranty. Eighteen years on, that last column turns out to have been the one that mattered.",
     image:     "/assets/images/last-place-every-time.jpg",
     vehicles:  ["Lexus IS F", "Lexus IS 500 F Sport Performance", "Lexus IS 350", "Lexus LS 400", "Lexus RX 300", "Lexus LFA", "Toyota Altezza", "BMW M3", "Mercedes-Benz C63 AMG", "Audi RS4", "Infiniti Q45", "Acura NSX", "Acura Legend"],
+    featured:  false
+  },
+
+  {
+    slug:      "seventy-dollars-apart",
+    title:     "Seventy Dollars Apart",
+    subtitle:  "The 2013 BMW 135is, and the rounding error that decided its life",
+    category:  "Reviews",
+    date:      "2026-08-26",
+    readTime:  "25 min",
+    blurb:     "The hottest 1 Series cost seventy dollars more than a brand-new 335i sedan. Almost everybody took the sedan \u2014 and they were right to, which is precisely why only about eight hundred of the other one reached North America. The pricing trap, the sales collapse, the convertible almost nobody road-tested, and what they cost now.",
+    image:     "/assets/images/seventy-dollars-apart.jpg",
+    vehicles:  ["BMW 135is", "BMW 135i", "BMW 128i", "BMW 1 Series M Coupe", "BMW 335i", "BMW 328i", "BMW M3", "BMW M2", "BMW 2 Series"],
+    featured:  false
+  },
+
+  {
+    slug:      "homage-by-accident",
+    title:     "Homage by Accident",
+    subtitle:  "Nobody at BMW set out to build the car enthusiasts had been asking for",
+    category:  "Opinions",
+    date:      "2026-08-25",
+    readTime:  "18 min",
+    blurb:     "BMW built a small car to chase the Audi A3, kept it rear-wheel drive out of sheer stubbornness, then let the M division raid the parts bin after hours. The company itself invoked the E30 and benchmarked the E46 \u2014 but the timeline that makes the 1M a corrective does not survive contact with the evidence.",
+    image:     "/assets/images/homage-by-accident.jpg",
+    vehicles:  ["BMW 1 Series M Coupe", "BMW 1 Series", "BMW 135is", "BMW M3", "BMW M2", "BMW 2002", "BMW Z3 M Coupe", "Audi A3"],
     featured:  false
   },
 

@@ -57,6 +57,29 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    "slug": "the-cars-california-just-made-collectible-again",
+    "title": "The Cars California Just Made Collectible Again",
+    "subtitle": "Leno's Law moves the smog-check line for the first time in 21 years",
+    "category": "Car Culture",
+    "date": "2026-09-23",
+    "readTime": "10 min",
+    "blurb": "For 21 years California drew an invisible border through 1975: the same car, one model year apart, was two different propositions. Jay Leno's Law moves it. Which 1976-85 cars gain the most, the 30-year rolling exemption the state repealed in 2004, the three attempts that died before this one, and the air-quality case against it.",
+    "image": "/assets/images/the-cars-california-just-made-collectible-again.jpg",
+    "vehicles": [
+      "Porsche 928",
+      "Jaguar XJ-S",
+      "Mercedes-Benz 450SEL",
+      "Mercedes-Benz W126",
+      "Mazda RX-7",
+      "Chevrolet Corvette",
+      "Ford Mustang",
+      "DeLorean DMC-12",
+      "Datsun 280ZX",
+      "Volkswagen Rabbit GTI"
+    ],
+    "featured": false
+  },
+  {
     "slug": "industry-brief-2026-09-21",
     "title": "The Industry Brief: Leno's Law, Porsche's Problem and the 78-Mile Volvo",
     "subtitle": "Nine stories that mattered in the week of September 14-21, ranked and weighed",

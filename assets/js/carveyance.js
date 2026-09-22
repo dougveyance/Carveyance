@@ -24,7 +24,7 @@ const CATEGORIES = [
   "Interviews", "News"
 ];
 
-const COMING_SOON = ["Interviews", "News", "Podcast", "Videos"];
+const COMING_SOON = ["Interviews", "Podcast", "Videos"];
 
 /* "How It Works" -> "how-it-works" ; "Advice & Tips" -> "advice-tips" */
 function slugify(s) {

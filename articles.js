@@ -57,6 +57,47 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    "slug": "industry-brief-2026-09-21",
+    "title": "The Industry Brief: Leno's Law, Porsche's Problem and the 78-Mile Volvo",
+    "subtitle": "Nine stories that mattered in the week of September 14-21, ranked and weighed",
+    "category": "News",
+    "date": "2026-09-22",
+    "readTime": "18 min",
+    "blurb": "California moved its smog-check line for the first time in 21 years. Volkswagen wrote down Porsche by 6 billion euros. Volvo built a plug-in hybrid that goes 78 miles on electricity, Detroit split three ways on what a pickup should burn, and autonomous trucks left the demo stage. Every story carries a status line, because a signed law, a press release and an anonymous tip are not the same kind of news.",
+    "image": "/assets/images/industry-brief-2026-09-21.jpg",
+    "vehicles": [
+      "Volvo XC60",
+      "Volvo XC90",
+      "Porsche 911",
+      "Chevrolet Silverado",
+      "GMC Sierra",
+      "Ford F-150",
+      "Ram 1500",
+      "McLaren",
+      "Lucid Gravity",
+      "Volkswagen ID. Polo"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "diesels-lost-advantage",
+    "title": "Diesel's Lost Advantage",
+    "subtitle": "When the cheaper, more efficient fuel became the expensive choice",
+    "category": "How It Works",
+    "date": "2026-09-22",
+    "readTime": "10 min",
+    "blurb": "Diesel still holds 14 percent more energy per gallon, still burns it more efficiently and still makes more torque than anything else at the pump. So why does it cost a dollar more than gasoline? The answer starts in September 2004, and it is not the one most people assume. Thirty years of price data, the sulfur rule, the tax, and the chemical plant bolted to the back of every modern diesel.",
+    "image": "/assets/images/diesels-lost-advantage.jpg",
+    "vehicles": [
+      "Chevrolet Silverado",
+      "GMC Sierra",
+      "Ford F-150",
+      "Ram 1500",
+      "Mercedes-Benz 300TD"
+    ],
+    "featured": false
+  },
+  {
     "slug": "it-was-always-trying-to-kill-you",
     "title": "It Was Always Trying to Kill You",
     "subtitle": "Every Lamborghini ever built arrived promising to be more civilized than the last one, and every Lamborghini ever built was lying",

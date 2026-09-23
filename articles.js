@@ -57,6 +57,70 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    "slug": "the-cars-california-just-made-collectible-again",
+    "title": "The Cars California Just Made Collectible Again",
+    "subtitle": "Leno's Law moves the smog-check line for the first time in 21 years",
+    "category": "Car Culture",
+    "date": "2026-09-23",
+    "readTime": "10 min",
+    "blurb": "For 21 years California drew an invisible border through 1975: the same car, one model year apart, was two different propositions. Jay Leno's Law moves it. Which 1976-85 cars gain the most, the 30-year rolling exemption the state repealed in 2004, the three attempts that died before this one, and the air-quality case against it.",
+    "image": "/assets/images/the-cars-california-just-made-collectible-again.jpg",
+    "vehicles": [
+      "Porsche 928",
+      "Jaguar XJ-S",
+      "Mercedes-Benz 450SEL",
+      "Mercedes-Benz W126",
+      "Mazda RX-7",
+      "Chevrolet Corvette",
+      "Ford Mustang",
+      "DeLorean DMC-12",
+      "Datsun 280ZX",
+      "Volkswagen Rabbit GTI"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "industry-brief-2026-09-21",
+    "title": "The Industry Brief: Leno's Law, Porsche's Problem and the 78-Mile Volvo",
+    "subtitle": "Nine stories that mattered in the week of September 14-21, ranked and weighed",
+    "category": "News",
+    "date": "2026-09-22",
+    "readTime": "18 min",
+    "blurb": "California moved its smog-check line for the first time in 21 years. Volkswagen wrote down Porsche by 6 billion euros. Volvo built a plug-in hybrid that goes 78 miles on electricity, Detroit split three ways on what a pickup should burn, and autonomous trucks left the demo stage. Every story carries a status line, because a signed law, a press release and an anonymous tip are not the same kind of news.",
+    "image": "/assets/images/industry-brief-2026-09-21.jpg",
+    "vehicles": [
+      "Volvo XC60",
+      "Volvo XC90",
+      "Porsche 911",
+      "Chevrolet Silverado",
+      "GMC Sierra",
+      "Ford F-150",
+      "Ram 1500",
+      "McLaren",
+      "Lucid Gravity",
+      "Volkswagen ID. Polo"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "diesels-lost-advantage",
+    "title": "Diesel's Lost Advantage",
+    "subtitle": "When the cheaper, more efficient fuel became the expensive choice",
+    "category": "How It Works",
+    "date": "2026-09-22",
+    "readTime": "10 min",
+    "blurb": "Diesel still holds 14 percent more energy per gallon, still burns it more efficiently and still makes more torque than anything else at the pump. So why does it cost a dollar more than gasoline? The answer starts in September 2004, and it is not the one most people assume. Thirty years of price data, the sulfur rule, the tax, and the chemical plant bolted to the back of every modern diesel.",
+    "image": "/assets/images/diesels-lost-advantage.jpg",
+    "vehicles": [
+      "Chevrolet Silverado",
+      "GMC Sierra",
+      "Ford F-150",
+      "Ram 1500",
+      "Mercedes-Benz 300TD"
+    ],
+    "featured": false
+  },
+  {
     "slug": "it-was-always-trying-to-kill-you",
     "title": "It Was Always Trying to Kill You",
     "subtitle": "Every Lamborghini ever built arrived promising to be more civilized than the last one, and every Lamborghini ever built was lying",
@@ -217,6 +281,19 @@ const ARTICLES = [
     blurb:     "Ask a room of six-year-olds to draw a car and most of them draw a Lotus Esprit, a shape none of them has ever seen. Underneath it, Lotus sold three completely different arguments within four years: a road-legal race car, a grand tourer with a twin-turbo V8, and the one in the middle that was measured quicker than both and costs half as much. One of them is the legend. A different one is the right answer.",
     image:     "/assets/images/the-shape-children-draw.jpg",
     vehicles:  ["Lotus Esprit", "Lotus Esprit Sport 300", "Lotus Esprit S4S", "Lotus Esprit V8", "Lotus Esprit V8 GT", "Lotus Esprit S4", "Lotus Esprit GT3", "Lotus Esprit Sport 350", "Lotus Esprit S1", "Lotus Esprit Turbo", "Lotus Esprit X180R", "Lotus Esprit GT1", "Ferrari F355", "Ferrari 348", "Porsche 911 Turbo", "Aston Martin Vantage", "Jaguar XJ220"],
+    featured:  false
+  },
+
+  {
+    slug:      "the-fastest-argument-in-the-room",
+    title:     "The Fastest Argument in the Room",
+    subtitle:  "Parliament wanted the Lotus Carlton stopped. The police could not catch it. The road testers found it a bit dull.",
+    category:  "Car Culture",
+    date:      "2026-09-01",
+    readTime:  "31 min",
+    blurb:     "A Vauxhall four-door was condemned by chief constables, campaigned against by the Daily Mail, denounced in the Commons and used by ram-raiders who knew no police car in Britain could follow it. Then the magazines drove it and came back saying it was oddly cold. All of them were telling the truth \u2014 and the car has spent thirty-six years waiting for anyone to notice.",
+    image:     "/assets/images/the-fastest-argument-in-the-room.jpg",
+    vehicles:  ["Vauxhall Lotus Carlton", "Opel Lotus Omega", "Vauxhall Carlton", "Opel Omega", "Vauxhall Senator", "BMW M5", "Mercedes-Benz 500E", "Alpina B10 Bi-Turbo", "Ferrari Testarossa", "Ferrari F40", "Porsche 911 Turbo", "Ford Sierra RS Cosworth", "Ford RS200", "Chevrolet Corvette ZR-1", "Audi S6"],
     featured:  false
   },
 

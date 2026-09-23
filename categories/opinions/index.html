@@ -22,13 +22,13 @@ nav{height:64px;display:flex;align-items:center;justify-content:space-between;
   padding:0 40px;background:var(--ink);position:sticky;top:0;z-index:60}
 .nav-brand{font-family:'Bebas Neue',sans-serif;font-size:26px;letter-spacing:.08em;color:var(--white)}
 .nav-brand span{color:var(--sky)}
-.nav-center{display:flex;gap:26px}
+.nav-center{display:flex;gap:18px}
 .nav-center a{font-size:11px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;
   color:rgba(255,255,255,.62);transition:color .2s}
 .nav-center a:hover,.nav-center a.on{color:var(--white)}
 .nav-sub{font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
   background:var(--accent);color:var(--white);padding:9px 18px;border-radius:3px}
-@media(max-width:1100px){.nav-center{display:none}}
+@media(max-width:1180px){.nav-center{display:none}}
 
 .chead{background:var(--cloud);padding:56px 0 48px;border-bottom:1px solid var(--rule)}
 .crumb{font-size:10px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--mid);margin-bottom:14px}
@@ -80,12 +80,15 @@ footer .fw span{color:var(--sky)}
   <a class="nav-brand" href="/">Car<span>veyance</span></a>
   <div class="nav-center">
     <a href="/">Home</a>
+    <a href="/articles/">All Stories</a>
     <a href="/categories/how-it-works/">How It Works</a>
     <a href="/categories/reviews/">Reviews</a>
+    <a href="/categories/comparisons/">Comparisons</a>
+    <a href="/categories/opinions/" class="on">Opinions</a>
+    <a href="/categories/fun-facts/">Fun Facts</a>
     <a href="/categories/car-culture/">Car Culture</a>
-    <a href="/categories/road-trips/">Road Trips</a>
-    <a href="/categories/opinions/">Opinions</a>
-    <a href="/#about">About</a>
+    <a href="/categories/news/">News</a>
+    <a href="/about/">About</a>
   </div>
   <a class="nav-sub" href="/#submit">Submit a Story</a>
 </nav>

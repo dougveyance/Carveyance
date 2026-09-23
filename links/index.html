@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Start Here — Carveyance</title>
+<meta name="description" content="The newest stories from Carveyance, an independent automotive publication.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+:root{
+  --steel:#2E6E96; --deep:#1B4E6B; --sky:#4E8DB5; --mist:#f0f3f7; --cloud:#e4ecf3;
+  --ink:#141820; --slate:#3a4553; --mid:#6b7684; --rule:#d0dae4; --white:#fff; --accent:#e05c2a;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'DM Sans',sans-serif;background:var(--mist);color:var(--ink);-webkit-font-smoothing:antialiased}
+a{text-decoration:none;color:inherit}
+.top{background:var(--ink);padding:26px 20px 30px;text-align:center}
+.brand{font-family:'Bebas Neue',sans-serif;font-size:34px;letter-spacing:.08em;color:var(--white);line-height:1}
+.brand span{color:var(--sky)}
+.tag{font-size:11px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.55);margin-top:10px}
+.wrap{max-width:620px;margin:0 auto;padding:26px 16px 60px}
+.lede{font-size:14px;font-weight:300;color:var(--slate);line-height:1.6;text-align:center;margin-bottom:22px}
+.card{display:flex;gap:14px;align-items:stretch;background:var(--white);border:1px solid var(--rule);
+  border-radius:4px;overflow:hidden;margin-bottom:12px;transition:border-color .15s}
+.card:active,.card:hover{border-color:var(--steel)}
+.thumb{width:118px;flex:0 0 118px;background:var(--cloud)}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.body{padding:12px 14px 12px 0;display:flex;flex-direction:column;justify-content:center;min-width:0}
+.cat{font-size:10px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--steel);margin-bottom:5px}
+.hed{font-family:'DM Serif Display',serif;font-size:19px;line-height:1.22}
+.meta{font-size:11px;color:var(--mid);margin-top:7px}
+.more{display:block;text-align:center;background:var(--ink);color:var(--white);border-radius:4px;
+  padding:15px;font-size:11px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;margin-top:18px}
+.more.alt{background:var(--accent)}
+.foot{text-align:center;font-size:11px;color:var(--mid);margin-top:26px;line-height:1.8}
+.foot a{color:var(--steel)}
+.empty{background:var(--white);border:1px solid var(--rule);border-radius:4px;padding:28px;text-align:center;color:var(--mid);font-size:14px}
+@media(max-width:420px){.thumb{width:96px;flex:0 0 96px}.hed{font-size:17px}}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <a class="brand" href="/">CAR<span>VEYANCE</span></a>
+  <div class="tag">Start here</div>
+</header>
+
+<main class="wrap">
+  <p class="lede">The newest stories, straight from the magazine. Tap one to read it.</p>
+  <div id="list"><div class="empty">Loading stories&hellip;</div></div>
+  <a class="more alt" href="/articles/">Browse every story</a>
+  <a class="more" href="/">Carveyance home</a>
+  <p class="foot">
+    Independent automotive journalism<br>
+    <a href="/about/">About</a> &nbsp;·&nbsp; <a href="/#submit">Write for us</a>
+  </p>
+</main>
+
+<script src="/articles.js"></script>
+<script>
+(function(){
+  var list = document.getElementById('list');
+  var arts = (typeof ARTICLES !== 'undefined' && Array.isArray(ARTICLES)) ? ARTICLES.slice() : [];
+  arts = arts.filter(function(a){ return a && a.slug && a.title && a.category; })
+             .sort(function(a,b){ return String(b.date||'').localeCompare(String(a.date||'')); })
+             .slice(0, 8);
+  if (!arts.length) { list.innerHTML = '<div class="empty">Stories are on their way.</div>'; return; }
+  function esc(s){ return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+  function fmt(iso){ var d=new Date(iso+'T12:00:00'); return isNaN(d)?iso:d.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'}); }
+  list.innerHTML = arts.map(function(a){
+    return '<a class="card" href="/articles/'+esc(a.slug)+'/">'
+         +   '<div class="thumb"><img src="'+esc(a.image)+'" alt="" loading="lazy"></div>'
+         +   '<div class="body">'
+         +     '<div class="cat">'+esc(a.category)+'</div>'
+         +     '<div class="hed">'+esc(a.title)+'</div>'
+         +     '<div class="meta">'+fmt(a.date)+(a.readTime?' &middot; '+esc(a.readTime)+' read':'')+'</div>'
+         +   '</div>'
+         + '</a>';
+  }).join('');
+})();
+</script>
+</body>
+</html>

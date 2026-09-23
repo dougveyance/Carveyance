@@ -48,6 +48,8 @@ nav{
 }
 .nav-center a:hover{background:rgba(78,141,181,.15);color:var(--sky)}
 .nav-center a.on{background:var(--steel);color:var(--white)}
+@media(max-width:1180px){.nav-center a{padding:6px 8px}}
+@media(max-width:1140px){.nav-center{display:none}}
 
 .nav-right{display:flex;align-items:center;gap:10px}
 .nav-pill{text-decoration:none;display:inline-block;
@@ -671,9 +673,11 @@ footer{background:var(--ink);padding:60px 40px 28px}
     <a href="/articles/">All Stories</a>
     <a href="/categories/how-it-works/">How It Works</a>
     <a href="/categories/reviews/">Reviews</a>
+    <a href="/categories/comparisons/">Comparisons</a>
     <a href="/categories/opinions/">Opinions</a>
     <a href="/categories/fun-facts/">Fun Facts</a>
     <a href="/categories/car-culture/">Car Culture</a>
+    <a href="/categories/news/">News</a>
     <a href="/about/">About</a>
   </div>
   <div class="nav-right">
@@ -793,7 +797,7 @@ footer{background:var(--ink);padding:60px 40px 28px}
       <a class="m-tile" href="/categories/fun-facts/"><img src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?w=500&q=80" alt=""><div class="m-body"><div class="m-icon">💡</div><div class="m-name">Fun Facts</div><div class="m-count" data-cat-count="Fun Facts"></div></div></a>
       <a class="m-tile" href="/categories/short-stories/"><img src="https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=500&q=80" alt=""><div class="m-body"><div class="m-icon">✍️</div><div class="m-name">Short Stories</div><div class="m-count" data-cat-count="Short Stories"></div></div></a>
       <div class="m-tile soon"><div class="m-body"><div class="m-icon">🎙️</div><div class="m-name">Interviews</div><div class="m-soon-tag">Coming Soon</div></div></div>
-      <div class="m-tile soon"><div class="m-body"><div class="m-icon">📰</div><div class="m-name">News</div><div class="m-soon-tag">Coming Soon</div></div></div>
+      <a class="m-tile" href="/categories/news/"><img src="/assets/images/tile-news.jpg" alt=""><div class="m-body"><div class="m-icon">📰</div><div class="m-name">News</div><div class="m-count" data-cat-count="News"></div></div></a>
       <div class="m-tile soon"><div class="m-body"><div class="m-icon">🎧</div><div class="m-name">Podcast</div><div class="m-soon-tag">Coming Soon</div></div></div>
       <div class="m-tile soon"><div class="m-body"><div class="m-icon">🎥</div><div class="m-name">Videos</div><div class="m-soon-tag">Coming Soon</div></div></div>
       <a class="m-tile m-wide" href="#submit" style="background:#0d1a2a"><div class="m-body"><div class="m-icon">⭐</div><div class="m-name">Write for Us</div><div class="m-count">Opening Soon</div></div></a></div>

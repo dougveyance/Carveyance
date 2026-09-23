@@ -59,6 +59,7 @@ const ARTICLES = [
   {
     "slug": "the-cars-california-just-made-collectible-again",
     "title": "The Cars California Just Made Collectible Again",
+    "seoTitle": "Leno's Law Explained: Which Cars Get the CA Smog Exemption",
     "subtitle": "Leno's Law moves the smog-check line for the first time in 21 years",
     "category": "Car Culture",
     "date": "2026-09-23",
@@ -82,6 +83,7 @@ const ARTICLES = [
   {
     "slug": "industry-brief-2026-09-21",
     "title": "The Industry Brief: Leno's Law, Porsche's Problem and the 78-Mile Volvo",
+    "seoTitle": "Car News Roundup: Leno's Law, Porsche, Volvo's 78-Mile PHEV",
     "subtitle": "Nine stories that mattered in the week of September 14-21, ranked and weighed",
     "category": "News",
     "date": "2026-09-22",
@@ -105,6 +107,7 @@ const ARTICLES = [
   {
     "slug": "diesels-lost-advantage",
     "title": "Diesel's Lost Advantage",
+    "seoTitle": "Why Diesel Costs More Than Gas (And When That Changed)",
     "subtitle": "When the cheaper, more efficient fuel became the expensive choice",
     "category": "How It Works",
     "date": "2026-09-22",
@@ -123,6 +126,7 @@ const ARTICLES = [
   {
     "slug": "it-was-always-trying-to-kill-you",
     "title": "It Was Always Trying to Kill You",
+    "seoTitle": "Lamborghini Diablo SV: Specs, Values and What It's Like",
     "subtitle": "Every Lamborghini ever built arrived promising to be more civilized than the last one, and every Lamborghini ever built was lying",
     "category": "Reviews",
     "date": "2026-09-14",
@@ -147,6 +151,7 @@ const ARTICLES = [
   {
     "slug": "what-is-thy-bidding",
     "title": "What Is Thy Bidding",
+    "seoTitle": "Cadillac CTS-V: Specs, Lap Times and What They Cost Now",
     "subtitle": "Cadillac spent fifty years selling comfort to people who had already arrived, then built a 640-horsepower four-door that out-lapped a Viper",
     "category": "Reviews",
     "date": "2026-09-11",
@@ -169,6 +174,7 @@ const ARTICLES = [
   {
     "slug": "mud-on-the-collar",
     "title": "Mud on the Collar",
+    "seoTitle": "Jaguar XJR X308 vs X350: Which Supercharged XJ to Buy",
     "subtitle": "Two supercharged Jaguar XJRs, a century and a half of British insistence that you can be violent and well dressed at the same time",
     "category": "Comparisons",
     "date": "2026-09-09",
@@ -189,6 +195,7 @@ const ARTICLES = [
   {
     "slug": "release-the-hounds",
     "title": "Release the Hounds",
+    "seoTitle": "Sbarro Windhound: The Swiss 4x4 Nobody Remembers",
     "subtitle": "One of them was bred in a Texas kennel. The other was built in a Swiss workshop. Only one is a dog.",
     "category": "Car Culture",
     "date": "2026-09-08",
@@ -211,6 +218,7 @@ const ARTICLES = [
   {
     "slug": "the-one-and-only",
     "title": "The One and Only",
+    "seoTitle": "Volkswagen Golf GTI History: All 8 Generations Explained",
     "subtitle": "Fifty years, eight generations, and the most copied idea in the history of the affordable car",
     "category": "Car Culture",
     "date": "2026-09-08",
@@ -234,6 +242,7 @@ const ARTICLES = [
   {
     slug:      "im-rubber-youre-glue",
     title:     "I'm Rubber, You're Glue",
+    "seoTitle": "History of the Tire: From Rubber Trees to Modern Compounds",
     subtitle:  "Four postcards of rubber are the only things holding you to the planet",
     category:  "Fun Facts",
     date:      "2026-09-08",
@@ -247,6 +256,7 @@ const ARTICLES = [
   {
     slug:      "suspension-of-disbelief",
     title:     "Suspension of Disbelief",
+    "seoTitle": "How Car Suspension Works: Types, Terms and Trade-Offs",
     subtitle:  "Two centuries of engineers refusing to accept that comfort and control cannot be friends",
     category:  "How It Works",
     date:      "2026-09-02",
@@ -260,6 +270,7 @@ const ARTICLES = [
   {
     slug:      "you-spin-me-round",
     title:     "You Spin Me Round",
+    "seoTitle": "Rotary Engines Beyond Mazda: Everyone Who Tried One",
     subtitle:  "The engine everybody bought and almost nobody made stick",
     category:  "Fun Facts",
     date:      "2026-09-02",
@@ -274,6 +285,7 @@ const ARTICLES = [
   {
     slug:      "the-shape-children-draw",
     title:     "The Shape Children Draw",
+    "seoTitle": "Lotus Esprit Buyer's Guide: Sport 300 vs S4S vs V8",
     subtitle:  "Three last-generation Lotus Esprits, four years apart, out of the same leaking factory in Norfolk",
     category:  "Comparisons",
     date:      "2026-09-02",
@@ -287,6 +299,7 @@ const ARTICLES = [
   {
     slug:      "the-fastest-argument-in-the-room",
     title:     "The Fastest Argument in the Room",
+    "seoTitle": "Lotus Carlton: Specs, History and the Scandal It Caused",
     subtitle:  "Parliament wanted the Lotus Carlton stopped. The police could not catch it. The road testers found it a bit dull.",
     category:  "Car Culture",
     date:      "2026-09-01",
@@ -300,6 +313,7 @@ const ARTICLES = [
   {
     slug:      "it-died-so-you-could-live",
     title:     "It Died So You Could Live",
+    "seoTitle": "Was the Corvair Really Unsafe? Nader and the Facts",
     subtitle:  "The Chevrolet Corvair gave America the pony car and then gave America the seat belt",
     category:  "Opinions",
     date:      "2026-09-01",
@@ -313,6 +327,7 @@ const ARTICLES = [
   {
     slug:      "last-place-every-time",
     title:     "Last Place, Every Time",
+    "seoTitle": "Lexus IS F: Specs, Lap Times and Why It Always Lost",
     subtitle:  "The Lexus IS F never won a comparison test. Not one, in eighteen years.",
     category:  "Reviews",
     date:      "2026-08-31",
@@ -326,6 +341,7 @@ const ARTICLES = [
   {
     slug:      "seventy-dollars-apart",
     title:     "Seventy Dollars Apart",
+    "seoTitle": "BMW 135is Buyer's Guide: Specs, Rarity and Prices",
     subtitle:  "The 2013 BMW 135is, and the rounding error that decided its life",
     category:  "Reviews",
     date:      "2026-08-26",
@@ -339,6 +355,7 @@ const ARTICLES = [
   {
     slug:      "homage-by-accident",
     title:     "Homage by Accident",
+    "seoTitle": "BMW 1M Coupe: The Real Story Behind the M3 Comparisons",
     subtitle:  "Nobody at BMW set out to build the car enthusiasts had been asking for",
     category:  "Opinions",
     date:      "2026-08-25",
@@ -352,6 +369,7 @@ const ARTICLES = [
   {
     slug:      "stand-ins-for-the-living",
     title:     "Stand-Ins for the Living",
+    "seoTitle": "Crash Test Dummies: How They Work and Who They Represent",
     subtitle:  "Part One \u2014 the crash test dummy, and the dead who came before it",
     category:  "How It Works",
     date:      "2026-08-22",
@@ -364,6 +382,7 @@ const ARTICLES = [
   {
     slug:      "the-second-collision",
     title:     "The Second Collision",
+    "seoTitle": "Crumple Zones and Seat Belts: How Car Safety Was Invented",
     subtitle:  "Part Two \u2014 how the car learned to save us",
     category:  "How It Works",
     date:      "2026-08-22",
@@ -377,6 +396,7 @@ const ARTICLES = [
   {
     slug:      "forgotten-pioneers",
     title:     "Forgotten Pioneers",
+    "seoTitle": "The Women Who Invented Modern Car Safety",
     subtitle:  "Part Three \u2014 the women who built the car's safety, and the record that misplaced them",
     category:  "Opinions",
     date:      "2026-08-22",
@@ -390,6 +410,7 @@ const ARTICLES = [
   {
     slug:      "the-deterrent",
     title:     "The Deterrent",
+    "seoTitle": "Car Alarms and Anti-Theft Devices: What Actually Works",
     subtitle:  "Part One \u2014 nature invented deterrence, and the car industry got it almost entirely wrong",
     category:  "How It Works",
     date:      "2026-08-22",
@@ -402,6 +423,7 @@ const ARTICLES = [
   {
     slug:      "the-quiet-chip",
     title:     "The Quiet Chip",
+    "seoTitle": "How Immobilizers Cut Car Theft, and Why Kias Got Stolen",
     subtitle:  "Part Two \u2014 the fix nobody noticed",
     category:  "How It Works",
     date:      "2026-08-22",
@@ -415,6 +437,7 @@ const ARTICLES = [
   {
     slug:      "dying-star",
     title:     "Dying Star",
+    "seoTitle": "Polestar 1 Review: Specs, Production Numbers and Values",
     subtitle:  "A field guide to buying a unicorn with an expiry date",
     category:  "Reviews",
     date:      "2026-08-21",
@@ -428,6 +451,7 @@ const ARTICLES = [
   {
     slug:      "clean-racing",
     title:     "Clean Racing",
+    "seoTitle": "Soap Box Derby: The History of America's Gravity Racers",
     subtitle:  "Ninety-three years of the Soap Box Derby",
     category:  "Car Culture",
     date:      "2026-08-20",
@@ -440,6 +464,7 @@ const ARTICLES = [
   {
     slug: "sliding-doors",
     title: "Sliding Doors",
+    "seoTitle": "Mazda5 Review: Why America Lost the Small Minivan",
     subtitle: "The Mazda5 was the right car in the wrong timeline",
     category: "Opinions",
     date: "2026-08-19",
@@ -452,6 +477,7 @@ const ARTICLES = [
   {
     slug: "the-happy-medium",
     title: "The Happy Medium",
+    "seoTitle": "Mazda Protege5 Buyer's Guide: Specs, Rarity and Values",
     subtitle: "The Mazda Proteg\u00e95 sat between a hot sedan and a turbocharged one, and quietly beat both",
     category: "Reviews",
     date: "2026-08-19",
@@ -464,6 +490,7 @@ const ARTICLES = [
   {
     slug: "dealt-in",
     title: "Dealt In",
+    "seoTitle": "Ace Trumps: The Card Game That Made a Car Enthusiast",
     subtitle: "How the Ace Trump Game dealt me a lifelong obsession with cars",
     category: "Short Stories",
     date: "2026-08-19",
@@ -476,6 +503,7 @@ const ARTICLES = [
   {
     slug: "the-other-german",
     title: "The Other German",
+    "seoTitle": "Mercedes-AMG GT vs Porsche 911: The Other German Coupe",
     subtitle: "Why the Mercedes-AMG GT might be the smarter buy — and the bigger future classic — than the 911",
     category: "Opinions",
     date: "2026-08-18",
@@ -488,6 +516,7 @@ const ARTICLES = [
   {
     slug: "three-cylinders-no-apologies",
     title: "Three Cylinders, No Apologies",
+    "seoTitle": "BMW i8: Why a Three-Cylinder Supercar Made Sense",
     subtitle: "The BMW i8 Roadster was built to make an argument, not to win a drag race",
     category: "Opinions",
     date: "2026-08-18",
@@ -500,6 +529,7 @@ const ARTICLES = [
   {
     slug: "the-ford-america-will-not-sell-you",
     title: "The Ford America Will Not Sell You",
+    "seoTitle": "Ford Everest: The Ford 4x4 America Cannot Buy",
     subtitle: "And the tariff math that finally decides it",
     category: "Opinions",
     date: "2026-08-18",
@@ -512,6 +542,7 @@ const ARTICLES = [
   {
     slug: "the-segment-america-never-got",
     title: "The Segment America Never Got",
+    "seoTitle": "Midsize Body-on-Frame SUVs America Never Got",
     subtitle: "Six seven-seat ladder-frame 4x4 wagons — and the reigning champion of a class you have never been offered",
     category: "Comparisons",
     date: "2026-08-18",
@@ -524,6 +555,7 @@ const ARTICLES = [
   {
     slug: "everything-is-two-cars",
     title: "Everything Is Two Cars",
+    "seoTitle": "Global Pickups Explained: Ranger, HiLux, Amarok, D-Max",
     subtitle: "America invented the pickup, walled it off in 1964, and has been coasting ever since",
     category: "Car Culture",
     date: "2026-08-18",
@@ -536,6 +568,7 @@ const ARTICLES = [
   {
     slug: "cheapest-car-in-the-fight",
     title: "The Cheapest Car in the Fight Won the Only Part That Mattered",
+    "seoTitle": "Mazda Protege MP3: The Cheapest Car That Won the Test",
     subtitle: "The Mazda Prot\u00e9g\u00e9 MP3, the MazdaSpeed Prot\u00e9g\u00e9, and the case for building the cheap one that handles",
     category: "Car Culture",
     date: "2026-08-18",
@@ -548,6 +581,7 @@ const ARTICLES = [
   {
     slug: "backward-as-fast-as-forward",
     title: "The Little Dutch Car That Went Backward As Fast As It Went Forward",
+    "seoTitle": "DAF Variomatic: The Car as Fast Backward as Forward",
     subtitle: "DAF's Variomatic was a mechanical computer made of springs, suction and rubber \u2014 and the first CVT anyone could actually buy",
     category: "How It Works",
     date: "2026-08-18",
@@ -560,6 +594,7 @@ const ARTICLES = [
   {
     slug: "the-empty-drivers-seat",
     title: "The Cars Drive Themselves Now. The Fight Is Over What Comes Next.",
+    "seoTitle": "Waymo vs Tesla: Who Actually Wins the Robotaxi Race",
     subtitle: "Inside Waymo \u2014 the empty driver's seat, the money losing it, and what it does to everyone who builds cars",
     category: "How It Works",
     date: "2026-08-18",
@@ -572,6 +607,7 @@ const ARTICLES = [
   {
     slug: "home-by-bedtime",
     title: "Home by Bedtime",
+    "seoTitle": "Little Tikes Cozy Coupe: America's Best-Selling Car",
     subtitle: "The best-selling car in America has no engine, no windows, and a horn that has never once worked",
     category: "Fun Facts",
     date: "2026-08-17",
@@ -585,6 +621,7 @@ const ARTICLES = [
   {
     slug: "the-three-row-hot-rod",
     title: "The Three-Row Hot Rod That Refused to Die",
+    "seoTitle": "Dodge Durango SRT Hellcat: The Three-Row Hot Rod",
     subtitle: "How the Dodge Durango outlived every rival that read the room and left",
     category: "Car Culture",
     date: "2026-08-17",
@@ -597,6 +634,7 @@ const ARTICLES = [
   {
     slug:      "queen-of-the-road",
     title:     "Queen of the Road",
+    "seoTitle": "Citroen Traction Avant: The First Mass-Produced FWD Car",
     subtitle:  "The Citro\u00ebn Traction Avant \u2014 the car that invented normal",
     category:  "Car Culture",
     date:      "2026-08-17",
@@ -610,6 +648,7 @@ const ARTICLES = [
   {
     slug:      "the-middle-child",
     title:     "The Middle Child",
+    "seoTitle": "Mazda RX-7 FC Buyer's Guide: Turbo II, Specs and Values",
     subtitle:  "In defense of the 1989 Mazda Savanna RX-7 \u2014 the FC3S",
     category:  "Reviews",
     date:      "2026-08-17",
@@ -623,6 +662,7 @@ const ARTICLES = [
   {
     slug:      "ahead-of-the-applause",
     title:     "Ahead of the Applause",
+    "seoTitle": "Infiniti FX45: The Sport SUV That Arrived Too Early",
     subtitle:  "The Infiniti FX45, and a company that keeps being punished for going first",
     category:  "Reviews",
     date:      "2026-08-14",
@@ -636,6 +676,7 @@ const ARTICLES = [
   {
     slug:      "when-the-engineers-won",
     title:     "When the Engineers Won",
+    "seoTitle": "BMW Z3 M Coupe vs Z4 M Coupe: The Clown Shoe Explained",
     subtitle:  "The BMW Z3 M Coupe and the Z4 M Coupe",
     category:  "Reviews",
     date:      "2026-08-14",
@@ -649,6 +690,7 @@ const ARTICLES = [
   {
     slug:      "three-dials-and-a-swing-gate",
     title:     "Three Dials and a Swing Gate",
+    "seoTitle": "Mitsubishi Pajero: Dakar History and Buyer's Guide",
     subtitle:  "Mitsubishi Pajero / Montero vs. Isuzu Trooper",
     category:  "Comparisons",
     date:      "2026-08-14",
@@ -662,6 +704,7 @@ const ARTICLES = [
   {
     slug:      "spite-is-the-wrong-word",
     title:     "Spite Is the Wrong Word",
+    "seoTitle": "Porsche 968 Buyer's Guide: Club Sport, Turbo S, Values",
     subtitle:  "The Porsche 968 Club Sport, the 968 Turbo S, and a company too broke to sell you its best cars",
     category:  "Car Culture",
     date:      "2026-08-14",
@@ -675,6 +718,7 @@ const ARTICLES = [
   {
     slug:      "auf-wiedersehen-928",
     title:     "Auf Wiedersehen, 928",
+    "seoTitle": "Porsche 928 Buyer's Guide: Specs, Variants and Values",
     subtitle:  "The Porsche 928 GTS and the long defeat of the best car Stuttgart ever built",
     category:  "Reviews",
     date:      "2026-08-14",
@@ -688,6 +732,7 @@ const ARTICLES = [
   {
     slug:      "decades-in-a-second",
     title:     "Decades in a Second",
+    "seoTitle": "Car Logos Explained: How Emblems Became Brand Shorthand",
     subtitle:  "What a car badge is actually telling you, and why you read it first",
     category:  "Car Culture",
     date:      "2026-07-28",
@@ -700,6 +745,7 @@ const ARTICLES = [
   {
     slug:      "herringbone",
     title:     "Herringbone",
+    "seoTitle": "Citroen's Herringbone Gear: What the Logo Actually Means",
     subtitle:  "Everyone else picked an animal. Citro\u00ebn picked a gear tooth.",
     category:  "How It Works",
     date:      "2026-07-28",
@@ -713,6 +759,7 @@ const ARTICLES = [
   {
     slug:      "now-boarding",
     title:     "Now Boarding",
+    "seoTitle": "Mazda Suitcase Car: The Suitcase You Could Actually Drive",
     subtitle:  "Seven engineers, one Samsonite, and a pocket-sized engine",
     category:  "Fun Facts",
     date:      "2026-07-27",
@@ -727,6 +774,7 @@ const ARTICLES = [
   {
     slug:      "the-king-was-italian",
     title:     "The King Was Italian",
+    "seoTitle": "Lancia Delta Integrale: Rally History, Specs and Values",
     subtitle:  "Everyone crowns the Golf GTI. They crowned the wrong car.",
     category:  "Reviews",
     date:      "2026-07-26",
@@ -740,6 +788,7 @@ const ARTICLES = [
   {
     slug:      "the-little-red-elephant",
     title:     "The Little Red Elephant",
+    "seoTitle": "Lancia's Rally Dynasty: Fulvia, Stratos, 037 and Delta",
     subtitle:  "How a club for people who had bought six Lancias became the best badge in motorsport",
     category:  "Car Culture",
     date:      "2026-07-25",
@@ -754,6 +803,7 @@ const ARTICLES = [
   {
     slug:      "her-majesty-drives-herself",
     title:     "Her Majesty Drives Herself",
+    "seoTitle": "Citroen SM Explained: Maserati V6, Hydraulics and Values",
     subtitle:  "Citro\u00ebn bought Maserati, spent nine years in the dark, and built the most advanced car of its century.",
     category:  "Reviews",
     date:      "2026-07-24",
@@ -767,6 +817,7 @@ const ARTICLES = [
   {
     slug:      "the-rotary-club",
     title:     "The Rotary Club",
+    "seoTitle": "Mazda Eunos Cosmo: The Only Triple-Rotor Production Car",
     subtitle:  "Three rotors, two turbos, the world's first GPS touchscreen \u2014 and the worst launch timing in history.",
     category:  "Reviews",
     date:      "2026-07-23",
@@ -780,6 +831,7 @@ const ARTICLES = [
   {
     slug:      "first-flight",
     title:     "First Flight",
+    "seoTitle": "Mazda Cosmo Sport: The First Production Rotary Car",
     subtitle:  "343 cars, one impossible engine, and the 84-hour race that made the world believe.",
     category:  "Reviews",
     date:      "2026-07-23",
@@ -793,6 +845,7 @@ const ARTICLES = [
   {
     slug:      "the-six-that-got-away",
     title:     "Half the Number, Twice the Car",
+    "seoTitle": "Mercedes 280SL vs 560SL: The Grey-Market R107 Explained",
     subtitle:  "The grey-market 280 SL America was never sold \u2014 half the engine of the 560, and twice the car to drive.",
     category:  "Reviews",
     date:      "2026-07-23",
@@ -806,6 +859,7 @@ const ARTICLES = [
   {
     slug:      "scale-model-warfare",
     title:     "Scale Model Warfare",
+    "seoTitle": "Matchbox vs Hot Wheels: The History and the Difference",
     subtitle:  "Two tiny cars, seventy years of rivalry, and the twist where the winner ends up owning the loser.",
     category:  "Fun Facts",
     date:      "2026-07-23",
@@ -820,6 +874,7 @@ const ARTICLES = [
   {
     slug:      "born-this-way",
     title:     "Born This Way",
+    "seoTitle": "Why Kids Love Cars: The Psychology of Car Obsession",
     subtitle:  "A two-year-old, a Barbie event full of grown men, and the real science of why we fall in love with cars.",
     category:  "Opinions",
     date:      "2026-07-23",
@@ -832,6 +887,7 @@ const ARTICLES = [
   {
     slug:      "freightliner-optimus",
     title:     "Freightliner Optimus",
+    "seoTitle": "American vs European Trucks: Why the Noses Are Different",
     subtitle:  "American long-nose or European cab-over? Two trucks, the same job, two radically different faces.",
     category:  "Comparisons",
     date:      "2026-07-23",
@@ -845,6 +901,7 @@ const ARTICLES = [
   {
     slug:      "corner-office-has-a-sliding-door",
     title:     "The Corner Office Has a Sliding Door",
+    "seoTitle": "Luxury MPVs Explained: Lexus LM, Denza D9, Zeekr 009",
     subtitle:  "The luxury van stopped apologizing. Now it wants the throne.",
     category:  "Opinions",
     date:      "2026-07-23",
@@ -858,6 +915,7 @@ const ARTICLES = [
   {
     slug:      "929-the-number-nobody-remembered",
     title:     "929: The Number Nobody Remembered",
+    "seoTitle": "Mazda 929: The Forgotten Japanese Luxury Sedan",
     subtitle:  "The car nobody forgot. Mazda's forgotten flagship deserved better.",
     category:  "Car Culture",
     date:      "2026-07-23",
@@ -871,6 +929,7 @@ const ARTICLES = [
   {
     slug:      "tuxedo-and-smoking-jacket",
     title:     "The Tuxedo and the Smoking Jacket",
+    "seoTitle": "Mercedes SL500 vs Jaguar XKR: Which 90s GT to Buy",
     subtitle:  "Two thoroughbred grand tourers. One built like a bank vault, one built like a seduction.",
     category:  "Comparisons",
     date:      "2026-07-23",
@@ -884,6 +943,7 @@ const ARTICLES = [
   {
     slug:      "twelve-angry-cylinders",
     title:     "Twelve Angry Cylinders",
+    "seoTitle": "Sbarro Super Twelve: Two Bike Engines and No Differential",
     subtitle:  "Two Kawasaki motorcycle engines. Two gearboxes. One gear lever. No differential.",
     category:  "Reviews",
     date:      "2026-07-23",
@@ -898,6 +958,7 @@ const ARTICLES = [
   {
     slug:      "ghost-run",
     title:     "Ghost Run",
+    "seoTitle": "Ghost Run: A Lotus Carlton Chase Story",
     subtitle:  "An original screenplay — a Lotus Carlton, two Jaguar XJRs, and a Lancia Integrale at dawn",
     category:  "Short Stories",
     date:      "2026-07-23",
@@ -912,6 +973,7 @@ const ARTICLES = [
   {
     slug:      "zenith-bmw-z4-35is",
     title:     "Zenith",
+    "seoTitle": "BMW Z4 sDrive35is Review: Specs and What They Cost",
     subtitle:  "On the BMW Z4 sDrive35is — and the art of the roadster the world drove past",
     category:  "Reviews",
     date:      "2026-07-23",
@@ -926,6 +988,7 @@ const ARTICLES = [
   {
     slug:      "one-wheel-drive",
     title:     "One-Wheel Drive",
+    "seoTitle": "Open Differentials Explained: Why One Wheel Spins",
     subtitle:  "The differential solves cornering, then strands you in two inches of mud",
     category:  "How It Works",
     date:      "2026-07-23",
@@ -938,6 +1001,7 @@ const ARTICLES = [
   {
     slug:      "tall-short-high-low",
     title:     "Tall, Short, High, Low",
+    "seoTitle": "Gear Ratios Explained: Why Tall and Short Gearing Matter",
     subtitle:  "One gear has four names, and half of them sound like opposites",
     category:  "How It Works",
     date:      "2026-07-23",
@@ -949,6 +1013,7 @@ const ARTICLES = [
   {
     slug:      "white-lines",
     title:     "The Lines That Taught the World How to Drive",
+    "seoTitle": "Road Markings History: Who Invented the Center Line",
     subtitle:  "How a stripe of paint became a language every driver reads without being taught",
     category:  "How It Works",
     date:      "2026-07-23",
@@ -962,6 +1027,7 @@ const ARTICLES = [
   {
     slug:      "all-for-one",
     title:     "All for One",
+    "seoTitle": "Viper ACR vs Cobra R vs Corvette Z06 at Laguna Seca",
     subtitle:  "Three American blades take Laguna Seca — and a fourth waits across the water",
     category:  "Comparisons",
     date:      "2026-07-23",
@@ -974,6 +1040,7 @@ const ARTICLES = [
   {
     slug:      "the-meter-the-app-and-the-machine",
     title:     "The Meter, the App & the Machine",
+    "seoTitle": "Taxi to Robotaxi: How Ride-Hailing Replaced the Meter",
     subtitle:  "How the taxi lost the curb, and whether Waymo is quietly doing it again",
     category:  "Car Culture",
     date:      "2026-07-22",
@@ -985,6 +1052,7 @@ const ARTICLES = [
   {
     slug:      "the-cost-of-being-interesting",
     title:     "The Cost of Being Interesting",
+    "seoTitle": "Why American Cars Are Desired but Not Trusted",
     subtitle:  "Why Detroit can't turn desire into reputation",
     category:  "Opinions",
     date:      "2026-07-21",
@@ -996,6 +1064,7 @@ const ARTICLES = [
   {
     slug:      "a-golden-relic",
     title:     "A Golden Relic",
+    "seoTitle": "Ford Probe GT: Specs, History and Why It Beat the Prelude",
     subtitle:  "Ford's Mazda-bred underdog beat its whole class, then got buried by its own name",
     category:  "Opinions",
     date:      "2026-07-20",
@@ -1008,6 +1077,7 @@ const ARTICLES = [
   {
     slug:      "new-2025-plug-in-hybrid-suvs",
     title:     "New 2025 Plug-In Hybrid SUVs",
+    "seoTitle": "Best Plug-In Hybrid SUVs: Range, Specs and Comparison",
     subtitle:  "16 plug-in hybrids, weighed on what they actually ask of you",
     category:  "Reviews",
     date:      "2026-07-19",
@@ -1022,6 +1092,7 @@ const ARTICLES = [
   {
     slug:      "boosted",
     title:     "Boosted",
+    "seoTitle": "Turbo vs Supercharger: How Forced Induction Works",
     subtitle:  "How turbochargers and superchargers learned to bend the atmosphere",
     category:  "How It Works",
     date:      "2026-07-14",
@@ -1035,6 +1106,7 @@ const ARTICLES = [
     slug:      "moon-buggy",
     icon:      "🌙",
     title:     "$38 Million and One Horsepower",
+    "seoTitle": "Apollo Lunar Rover: Cost, Specs and How It Drove",
     subtitle:  "The Apollo Lunar Roving Vehicle",
     category:  "Fun Facts",
     date:      "2026-07-11",
@@ -1049,6 +1121,7 @@ const ARTICLES = [
     slug:      "blame-it-on-the-rain",
     icon:      "🌧️",
     title:     "Blame It on the Rain",
+    "seoTitle": "Who Invented the Windshield Wiper? The Full Story",
     subtitle:  "The human history of the windshield wiper",
     category:  "Fun Facts",
     date:      "2026-07-09",
@@ -1061,6 +1134,7 @@ const ARTICLES = [
   {
     slug:      "the-borrowed-crown",
     title:     "The Borrowed Crown",
+    "seoTitle": "How a Rented Porsche 911 Won the 1978 Monte Carlo Rally",
     subtitle:  "Monte Carlo, 1978 — a true story",
     category:  "Car Culture",
     date:      "2026-07-07",
@@ -1074,6 +1148,7 @@ const ARTICLES = [
   {
     slug:      "bmw-507",
     title:     "The Beautiful Mistake",
+    "seoTitle": "BMW 507: The Beautiful Car That Nearly Killed BMW",
     subtitle:  "The car that almost broke BMW",
     category:  "Reviews",
     date:      "2026-07-03",
@@ -1087,6 +1162,7 @@ const ARTICLES = [
   {
     slug:      "black-swan-allroad",
     title:     "Black Swan",
+    "seoTitle": "Audi Allroad: Air Suspension, Problems and Values",
     subtitle:  "The car no one saw coming — and no one ever truly forgot",
     category:  "Reviews",
     date:      "2026-06-30",
@@ -1100,6 +1176,7 @@ const ARTICLES = [
   {
     slug:      "front-rear-or-all-four",
     title:     "Front, Rear, or All Four?",
+    "seoTitle": "FWD vs RWD vs AWD: Which Drivetrain Is Best",
     subtitle:  "A field guide to FWD, RWD, and AWD",
     category:  "How It Works",
     date:      "2026-06-26",
@@ -1113,6 +1190,7 @@ const ARTICLES = [
   {
     slug:      "the-long-road-home",
     title:     "The Long Road Home",
+    "seoTitle": "How to Import a Car to the US: The 25-Year Rule Explained",
     subtitle:  "Importing your dream car, start to finish",
     category:  "How It Works",
     date:      "2026-06-23",
@@ -1125,6 +1203,7 @@ const ARTICLES = [
   {
     slug:      "cars-are-safer-now",
     title:     "Cars Are Safer Now, But Is Driving?",
+    "seoTitle": "Cars Are Safer Than Ever. Is Driving?",
     subtitle:  "Cars have never been safer. Driving is another question entirely",
     category:  "Opinions",
     date:      "2026-06-20",
@@ -1137,6 +1216,7 @@ const ARTICLES = [
   {
     slug:      "girls-know-best",
     title:     "Girls Know Best",
+    "seoTitle": "Why Subaru Marketed to Lesbians, and Why It Worked",
     subtitle:  "How Subaru changed what a car company could stand for",
     category:  "Opinions",
     date:      "2026-06-17",
@@ -1151,6 +1231,7 @@ const ARTICLES = [
     slug:      "frankenstein-monster-g",
     icon:      "⚡",
     title:     "Frankenstein's Awesome Monster",
+    "seoTitle": "Sbarro Monster G: The Swiss Monster Truck Explained",
     subtitle:  "The Sbarro Monster G",
     category:  "Fun Facts",
     date:      "2026-06-13",
@@ -1164,6 +1245,7 @@ const ARTICLES = [
   {
     slug:      "goddess-of-serenity",
     title:     "The Goddess of Serenity",
+    "seoTitle": "Citroen DS: Hydropneumatic Suspension and Why It Mattered",
     subtitle:  "A love letter to the Citroën DS",
     category:  "Reviews",
     date:      "2026-06-10",
@@ -1177,6 +1259,7 @@ const ARTICLES = [
   {
     slug:      "ghost-in-ice-green",
     title:     "The Ghost in Ice Green",
+    "seoTitle": "Porsche 911 SC Targa: Buyer's Guide and Values",
     subtitle:  "1979 Porsche 911 SC Targa — European road impressions",
     category:  "Reviews",
     date:      "2026-06-06",
@@ -1190,6 +1273,7 @@ const ARTICLES = [
   {
     slug:      "grey-poupon",
     title:     "Grey Poupon",
+    "seoTitle": "Rolls-Royce Corniche: The Grey Poupon Car Explained",
     subtitle:  "On the Rolls-Royce Corniche Convertible — and the art of knowing what you want",
     category:  "Opinions",
     date:      "2026-06-03",
@@ -1203,6 +1287,7 @@ const ARTICLES = [
   {
     slug:      "less-is-more",
     title:     "Less Is, More.",
+    "seoTitle": "Jeep Wrangler: Why Less Is More",
     subtitle:  "The case for small, simple, forgotten",
     category:  "Opinions",
     date:      "2026-05-30",
@@ -1216,6 +1301,7 @@ const ARTICLES = [
   {
     slug:      "best-vehicle-ever-designed",
     title:     "The Best Vehicle Ever Designed",
+    "seoTitle": "Why the Van Is the Best Vehicle Ever Designed",
     subtitle:  "No, really. It's the van",
     category:  "Opinions",
     date:      "2026-05-27",
@@ -1229,6 +1315,7 @@ const ARTICLES = [
     slug:      "low-and-behold",
     icon:      "🚛",
     title:     "Low and Behold",
+    "seoTitle": "Steinwinter Supercargo: The Truck With No Cab",
     subtitle:  "The Steinwinter Supercargo \u2014 the lowest truck ever built",
     category:  "Fun Facts",
     date:      "2026-05-23",
@@ -1242,6 +1329,7 @@ const ARTICLES = [
   {
     slug:      "nine-lives",
     title:     "Nine Lives",
+    "seoTitle": "Jaguar E-Type to F-Type: Nine Lives of a Sports Car",
     subtitle:  "The Jaguar bloodline, from the E-Type to the F-Type",
     category:  "Opinions",
     date:      "2026-05-20",
@@ -1255,6 +1343,7 @@ const ARTICLES = [
   {
     slug:      "open-air-mazda-121",
     title:     "Open Air, No Apologies",
+    "seoTitle": "Mazda 121 Canvas Top: The Cheapest Way to Drop the Roof",
     subtitle:  "The 1990 Mazda 121 Canvas Top",
     category:  "Reviews",
     date:      "2026-05-16",
@@ -1269,6 +1358,7 @@ const ARTICLES = [
     slug:      "red-means-stop",
     icon:      "🚦",
     title:     "Red Means Stop, Green Means Go!",
+    "seoTitle": "Traffic Light History: Who Invented Red and Green",
     subtitle:  "The accidental invention that saved millions",
     category:  "Fun Facts",
     date:      "2026-05-13",
@@ -1281,6 +1371,7 @@ const ARTICLES = [
   {
     slug:      "simplify-then-add-soul",
     title:     "Simplify, Then Add Soul",
+    "seoTitle": "Lotus Evora: Specs, Driving and What They Cost",
     subtitle:  "The full story of the Lotus Evora",
     category:  "Reviews",
     date:      "2026-05-09",
@@ -1294,6 +1385,7 @@ const ARTICLES = [
   {
     slug:      "the-unsung-hero-996",
     title:     "The Unsung Hero",
+    "seoTitle": "Porsche 996 Buyer's Guide: Why the Cheapest 911 Is Rising",
     subtitle:  "The Porsche 996 \u2014 the 911 that saved Porsche and got hated for it",
     category:  "Reviews",
     date:      "2026-05-06",
@@ -1307,6 +1399,7 @@ const ARTICLES = [
   {
     slug:      "vehicross",
     title:     "The VehiCROSS",
+    "seoTitle": "Isuzu VehiCROSS: Specs, Rarity and Why It Looks Like That",
     subtitle:  "Isuzu's lost legend",
     category:  "Car Culture",
     date:      "2026-05-02",
@@ -1320,6 +1413,7 @@ const ARTICLES = [
   {
     slug:      "topless-beach",
     title:     "Topless Beach",
+    "seoTitle": "Ferrari 365 GTC/4 Beach Car: The Felber Conversion",
     subtitle:  "The Felber Ferrari Beach Car",
     category:  "Fun Facts",
     icon:      "\u2600\ufe0f",
@@ -1334,6 +1428,7 @@ const ARTICLES = [
   {
     slug:      "ds-assassination",
     title:     "The Car That Refused to Die",
+    "seoTitle": "The Citroen DS That Saved de Gaulle's Life",
     subtitle:  "Petit-Clamart, 1962 \u2014 how a comfortable ride saved a president",
     category:  "Fun Facts",
     icon:      "\U0001f3af",
@@ -1348,6 +1443,7 @@ const ARTICLES = [
   {
     slug:      "jaguar-mk2",
     title:     "The Gentleman Villain",
+    "seoTitle": "Jaguar Mark II: The Gentleman's Getaway Car",
     subtitle:  "How the Jaguar Mark II became Britain's most beautiful getaway car",
     category:  "Reviews",
     date:      "2026-04-20",

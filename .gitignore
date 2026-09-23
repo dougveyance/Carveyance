@@ -1,9 +1,13 @@
 # OS / editor junk
 .DS_Store
+._*
 Thumbs.db
 Desktop.ini
+.Spotlight-V100
+.Trashes
 *.swp
 *~
+*.bak
 
 # Logs
 *.log
@@ -13,3 +17,10 @@ Desktop.ini
 
 # Node (only if you ever add tooling)
 node_modules/
+
+# Delivery zips and working files — keep these off the live site
+Claude outputs/
+*.zip
+
+# Wordmark script backups
+_wordmark_backup/

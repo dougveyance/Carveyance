@@ -57,6 +57,26 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    "slug": "how-porsche-became-volkswagens-problem-child",
+    "seoTitle": "Why Porsche Became Volkswagen's Biggest Problem",
+    "title": "How Porsche Became Volkswagen's Problem Child",
+    "subtitle": "The brand that paid for everything is now the largest weight on the group",
+    "category": "Car Culture",
+    "date": "2026-09-26",
+    "readTime": "10 min",
+    "blurb": "For 30 years Porsche was the part of Volkswagen that paid for the rest. In September 2026 the group wrote it down by 6 billion euros. The strange part is that nearly everything hurting Porsche now once saved it: the 1993 near-collapse and the Boxster and 996 that followed, the Cayenne that purists called a betrayal, the China boom, the takeover attempt, and the electric bet it reversed last year.",
+    "image": "/assets/images/how-porsche-became-volkswagens-problem-child.jpg",
+    "vehicles": [
+      "Porsche 911",
+      "Porsche 996",
+      "Porsche Boxster",
+      "Porsche Cayenne",
+      "Porsche Macan",
+      "Porsche Taycan"
+    ],
+    "featured": false
+  },
+  {
     "slug": "the-overachiever",
     "title": "The Overachiever",
     "seoTitle": "Mitsubishi 3000GT VR-4, GTO and Spyder: The Overachiever",

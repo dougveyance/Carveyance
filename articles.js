@@ -57,6 +57,37 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    "slug": "the-overachiever",
+    "title": "The Overachiever",
+    "seoTitle": "Mitsubishi 3000GT VR-4, GTO and Spyder: The Overachiever",
+    "subtitle": "Twin turbos, all-wheel drive, four-wheel steering, active aero and a roof that folded itself away. The 3000GT tried hardest, and that is why it is loved.",
+    "category": "Reviews",
+    "date": "2026-09-25",
+    "readTime": "33 min",
+    "blurb": "It was the heaviest, the most complicated and the most misunderstood of Japan's great '90s GTs, and it carried more technology than any of them. The full story of the Mitsubishi 3000GT and GTO: the Dodge Stealth twin, the Spyder's folding hardtop, the Motor Trend numbers, Jackie Chan's Thunderbolt, and what they are worth now.",
+    "image": "/assets/images/the-overachiever.jpg",
+    "vehicles": [
+      "Mitsubishi 3000GT",
+      "Mitsubishi 3000GT VR-4",
+      "Mitsubishi 3000GT Spyder",
+      "Mitsubishi GTO",
+      "Dodge Stealth",
+      "Toyota Supra",
+      "Nissan 300ZX",
+      "Mazda RX-7",
+      "Acura NSX",
+      "Nissan Skyline GT-R",
+      "Dodge Viper GTS",
+      "Ferrari F355",
+      "Porsche 911 Turbo",
+      "Chevrolet Corvette",
+      "Porsche 911",
+      "Mitsubishi Galant VR-4",
+      "Mitsubishi Lancer Evolution"
+    ],
+    "featured": false
+  },
+  {
     "slug": "diesel-hybrid-or-generator",
     "title": "Diesel, Hybrid, or Generator?",
     "seoTitle": "GM Diesel vs Ford Hybrid vs Ram Range Extender, Compared",

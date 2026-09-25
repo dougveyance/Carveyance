@@ -57,6 +57,25 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    "slug": "diesel-hybrid-or-generator",
+    "title": "Diesel, Hybrid, or Generator?",
+    "seoTitle": "GM Diesel vs Ford Hybrid vs Ram Range Extender, Compared",
+    "subtitle": "GM, Ford and Ram have stopped agreeing on what a pickup should burn",
+    "category": "Comparisons",
+    "date": "2026-09-24",
+    "readTime": "9 min",
+    "blurb": "GM is keeping diesel and promising 900 highway miles. Ford bet on a hybrid that doubles as a job-site generator. Ram is building a truck that carries a gasoline engine purely to make electricity. All three answers landed in the same month diesel hit a record $6.52 a gallon, and that changes the math on every one of them.",
+    "image": "/assets/images/diesel-hybrid-or-generator.jpg",
+    "vehicles": [
+      "Chevrolet Silverado",
+      "GMC Sierra",
+      "Ford F-150",
+      "Ford F-150 PowerBoost",
+      "Ram 1500"
+    ],
+    "featured": false
+  },
+  {
     "slug": "the-cars-california-just-made-collectible-again",
     "title": "The Cars California Just Made Collectible Again",
     "seoTitle": "Leno's Law Explained: Which Cars Get the CA Smog Exemption",

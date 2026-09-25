@@ -51,7 +51,7 @@ def inject_subscribe(page_html):
     """put the Industry Brief signup at the foot of the article, once"""
     block = SUBSCRIBE_BLOCK
     if SUB_START in page_html:
-        return re.sub(re.escape(SUB_START) + r".*?" + re.escape(SUB_END), block, page_html, flags=re.S)
+        return re.sub(re.escape(SUB_START) + r".*?" + re.escape(SUB_END), lambda _m: block, page_html, flags=re.S)
     for marker in ("</main>", "<footer", "</body>"):
         if marker in page_html:
             return page_html.replace(marker, block + "\n\n" + marker, 1)
@@ -135,7 +135,7 @@ def set_title(page_html, shown):
 def inject(page_html, block):
     """replace an existing block, else insert just before </head>"""
     if START in page_html:
-        return re.sub(re.escape(START) + r".*?" + re.escape(END), block, page_html, flags=re.S)
+        return re.sub(re.escape(START) + r".*?" + re.escape(END), lambda _m: block, page_html, flags=re.S)
     # strip a plain description tag so we don't end up with two
     page_html = re.sub(r'\n?\s*<meta name="description"[^>]*>', "", page_html, count=1)
     return page_html.replace("</head>", block + "\n</head>", 1)

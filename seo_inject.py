@@ -25,6 +25,39 @@ CATS = ["how-it-works", "reviews", "comparisons", "car-culture", "road-trips",
         "opinions", "advice-tips", "fun-facts", "short-stories", "interviews", "news"]
 
 
+SUB_START, SUB_END = "<!-- carveyance-subscribe -->", "<!-- /carveyance-subscribe -->"
+
+SUBSCRIBE_BLOCK = """<!-- carveyance-subscribe -->
+<section class="cv-sub" aria-label="Subscribe to the Industry Brief">
+  <style>
+  .cv-sub{max-width:720px;margin:48px auto 8px;padding:30px 32px;background:#131A24;color:#fff;border-radius:3px}
+  .cv-sub .k{font-family:'Barlow Semi Condensed',Arial,sans-serif;font-weight:700;font-size:15px;letter-spacing:.14em;
+    text-transform:uppercase;color:#E87C4A;margin:0 0 10px}
+  .cv-sub h3{font-family:'Fraunces',Georgia,serif;font-weight:700;font-size:29px;line-height:1.18;margin:0 0 10px;color:#fff}
+  .cv-sub p{font-family:'Newsreader',Georgia,serif;font-size:18px;line-height:1.5;color:#D6D2CA;margin:0 0 20px;max-width:56ch}
+  .cv-sub .fine{font-family:'Barlow Semi Condensed',Arial,sans-serif;font-size:14.5px;color:rgba(255,255,255,.5);margin:16px 0 0}
+  @media(max-width:600px){.cv-sub{margin:36px 0 4px;padding:24px 20px;border-radius:0}.cv-sub h3{font-size:25px}}
+  </style>
+  <p class="k">The Industry Brief</p>
+  <h3>Every Monday, the week in cars.</h3>
+  <p>What actually happened, what it means, and which stories are worth your time. Written here, sent to your inbox.</p>
+  <script async src="https://subscribe-forms.beehiiv.com/v3/loader.js" data-beehiiv-form="906117a9-25cb-49c6-b444-5bee5be01136"></script>
+  <p class="fine">Free. One email a week. Unsubscribe whenever you like.</p>
+</section>
+<!-- /carveyance-subscribe -->"""
+
+
+def inject_subscribe(page_html):
+    """put the Industry Brief signup at the foot of the article, once"""
+    block = SUBSCRIBE_BLOCK
+    if SUB_START in page_html:
+        return re.sub(re.escape(SUB_START) + r".*?" + re.escape(SUB_END), block, page_html, flags=re.S)
+    for marker in ("</main>", "<footer", "</body>"):
+        if marker in page_html:
+            return page_html.replace(marker, block + "\n\n" + marker, 1)
+    return page_html + block
+
+
 def read_articles(path="articles.js"):
     src = open(path, encoding="utf-8").read()
     body = src[src.find("const ARTICLES"):]
@@ -112,7 +145,8 @@ def write_sitemap(arts):
     today = datetime.date.today().isoformat()
     rows = [(f"{SITE}/", today, "daily", "1.0"),
             (f"{SITE}/articles/", today, "daily", "0.9"),
-            (f"{SITE}/about/", today, "monthly", "0.5")]
+            (f"{SITE}/about/", today, "monthly", "0.5"),
+            (f"{SITE}/subscribe/", today, "monthly", "0.6")]
     rows += [(f"{SITE}/categories/{c}/", today, "weekly", "0.7") for c in CATS]
     rows += [(f"{SITE}/articles/{a['slug']}/", a["date"], "monthly", "0.8") for a in arts]
     xml = ['<?xml version="1.0" encoding="UTF-8"?>',
@@ -138,11 +172,12 @@ def main():
         page = open(path, encoding="utf-8").read()
         new = inject(page, seo_block(a, byline_of(page)))
         new = set_title(new, a.get("seoTitle") or a["title"])
+        new = inject_subscribe(new)
         if new != page:
             open(path, "w", encoding="utf-8").write(new)
         done += 1
     n = write_sitemap(arts)
-    print(f"\nArticles tagged: {done}")
+    print(f"\nArticles tagged, with signup block: {done}")
     if missing:
         print(f"Entries with no page on disk: {missing}")
     print(f"sitemap.xml rebuilt with {n} URLs")

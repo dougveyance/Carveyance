@@ -87,6 +87,30 @@ const ARTICLES = [
     "featured": false
   },
   {
+    "slug": "industry-brief-2026-09-28",
+    "seoTitle": "Car News Roundup: 34.9 MPG Rule, Chinese Car Bill, Bentley EV",
+    "title": "The Industry Brief: 34.9 MPG, the Chinese-Car Bill and Bentley's First EV",
+    "subtitle": "8 stories that mattered in the week of September 21-28, ranked and weighed",
+    "category": "News",
+    "date": "2026-09-28",
+    "readTime": "19 min",
+    "blurb": "Washington finalized a 34.9-mpg fuel-economy target for 2031. The Senate took up a permanent ban on Chinese-connected cars, Mercedes put 2 German plants on notice, GM built a 1,230 lb-ft diesel, Nissan brought e-Power to America and Bentley revealed its first EV. Every story carries a status line, because a final rule, a press release and an anonymous tip are not the same kind of news.",
+    "image": "/assets/images/industry-brief-2026-09-28.jpg",
+    "vehicles": [
+      "Chevrolet Silverado HD",
+      "GMC Sierra HD",
+      "Nissan Rogue",
+      "Tesla Semi",
+      "Bentley Torcal",
+      "BYD Shark",
+      "Polestar 3",
+      "Ford F-150",
+      "Rivian R1S",
+      "Rivian R1T"
+    ],
+    "featured": false
+  },
+  {
     "slug": "how-porsche-became-volkswagens-problem-child",
     "seoTitle": "Why Porsche Became Volkswagen's Biggest Problem",
     "title": "How Porsche Became Volkswagen's Problem Child",

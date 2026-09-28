@@ -57,6 +57,36 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    "slug": "natural-selection",
+    "seoTitle": "Gas, Hybrid, EV or Hydrogen? Every Powertrain Explained",
+    "title": "Natural Selection",
+    "subtitle": "Every way to move a car in 2026, how each one works, and who each one is really for",
+    "category": "How It Works",
+    "date": "2026-09-28",
+    "readTime": "32 min",
+    "blurb": "For the first time since 1900, what moves your car is a real choice again. Gasoline, hybrid, plug-in, range extender, battery, hydrogen and fuel made from thin air, each explained simply, argued for and against, and matched to the lives they fit, plus the Chrysler Turbine Car, the brilliant one that lost.",
+    "image": "/assets/images/natural-selection.jpg",
+    "vehicles": [
+      "Toyota Prius",
+      "Toyota Mirai",
+      "Chrysler Turbine Car",
+      "Ram 1500 REV",
+      "Scout Traveler",
+      "Ford F-150 Lightning",
+      "BMW i3 REx",
+      "Mazda MX-30 R-EV",
+      "Volvo XC90",
+      "Nissan Leaf",
+      "GM EV1",
+      "Tesla Roadster",
+      "Detroit Electric",
+      "BMW Hydrogen 7",
+      "Hyundai Nexo",
+      "Rover JET1"
+    ],
+    "featured": false
+  },
+  {
     "slug": "how-porsche-became-volkswagens-problem-child",
     "seoTitle": "Why Porsche Became Volkswagen's Biggest Problem",
     "title": "How Porsche Became Volkswagen's Problem Child",

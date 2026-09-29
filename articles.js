@@ -74,6 +74,24 @@ const ARTICLES = [
     "featured": false
   },
   {
+    "slug": "the-gateway-theory",
+    "seoTitle": "Are EVs the Gateway to Hydrogen Cars? The Psychology of Getting Used to It",
+    "title": "The Gateway Theory",
+    "subtitle": "Electricity once terrified America. Electric cars may be doing for hydrogen what time did for the light switch",
+    "category": "Opinions",
+    "date": "2026-09-29",
+    "readTime": "17 min",
+    "blurb": "In the 1880s electricity killed linemen in public, and a president left his light switches to the staff. Within 2 generations nobody gave it a thought. How people get used to new technology, why a hydrogen car is really an electric car, what the research says for and against, and the price problem familiarity can't fix.",
+    "image": "/assets/images/the-gateway-theory.jpg",
+    "vehicles": [
+      "Toyota Mirai",
+      "Honda CR-V e:FCEV",
+      "Hyundai Nexo",
+      "Honda FCX Clarity"
+    ],
+    "featured": false
+  },
+  {
     "slug": "natural-selection",
     "seoTitle": "Gas, Hybrid, EV or Hydrogen? Every Powertrain Explained",
     "title": "Natural Selection",

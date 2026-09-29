@@ -57,6 +57,23 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    "slug": "the-1300-question",
+    "seoTitle": "New CAFE Rule Explained: What 34.9 MPG Means for Car Buyers",
+    "title": "The $1,300 Question",
+    "subtitle": "What Washington's new fuel-economy rule saves you at the dealer, and what it costs you at the pump",
+    "category": "How It Works",
+    "date": "2026-09-29",
+    "readTime": "10 min",
+    "blurb": "The Transportation Department says its new 34.9-mpg rule takes about $1,300 off a new car. Its own analysis says those cars burn more than $1,600 in extra fuel over their lives. Why both are true, why 34.9 is not the number on your sticker, who saves the most, and a 30-second way to run the numbers on your next car.",
+    "image": "/assets/images/the-1300-question.jpg",
+    "vehicles": [
+      "Chevrolet Suburban",
+      "Toyota RAV4",
+      "Chrysler 300"
+    ],
+    "featured": false
+  },
+  {
     "slug": "natural-selection",
     "seoTitle": "Gas, Hybrid, EV or Hydrogen? Every Powertrain Explained",
     "title": "Natural Selection",

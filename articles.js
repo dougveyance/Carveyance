@@ -79,6 +79,34 @@ const ARTICLES = [
     "featured": false
   },
   {
+    "slug": "the-brightest-star",
+    "seoTitle": "Subaru SVX: Specs, History and Why Nobody Bought It",
+    "title": "The Brightest Star",
+    "subtitle": "Subaru named the SVX after the brightest star in its own badge. Then it gave it a single gearbox, half a window and a price from the next tier up.",
+    "category": "Opinions",
+    "date": "2026-09-29",
+    "readTime": "18 min",
+    "blurb": "Giugiaro's canopy, a 3.3-liter flat-6, all-wheel drive and a chassis the road testers loved. Then an automatic-only gearbox, a window that opened 2/3 of the way, and a sticker that sat beside a Supra Turbo while a Prelude beat it to 60. Subaru planned on 10,000 a year and sold 3,859 in its best one. What were you thinking?",
+    "image": "/assets/images/the-brightest-star.jpg",
+    "vehicles": [
+      "Subaru SVX",
+      "Subaru Alcyone SVX",
+      "Mitsubishi 3000GT VR-4",
+      "Toyota Supra Turbo",
+      "Nissan 300ZX Twin Turbo",
+      "Mazda RX-7",
+      "Acura NSX",
+      "Lexus SC 400",
+      "Honda Prelude",
+      "Acura Integra GS-R",
+      "Mitsubishi Eclipse GSX",
+      "Ford Probe GT",
+      "Mazda MX-6",
+      "Volkswagen Corrado SLC"
+    ],
+    "featured": false
+  },
+  {
     "slug": "the-1300-question",
     "seoTitle": "New CAFE Rule Explained: What 34.9 MPG Means for Car Buyers",
     "title": "The $1,300 Question",
@@ -176,7 +204,7 @@ const ARTICLES = [
     "date": "2026-09-26",
     "readTime": "10 min",
     "blurb": "For 30 years Porsche was the part of Volkswagen that paid for the rest. In September 2026 the group wrote it down by 6 billion euros. The strange part is that nearly everything hurting Porsche now once saved it: the 1993 near-collapse and the Boxster and 996 that followed, the Cayenne that purists called a betrayal, the China boom, the takeover attempt, and the electric bet it reversed last year.",
-    "image": "/assets/images/how-porsche-became-volkswagens-problem-child.jpg",
+    "image": "/assets/images/how-porsche-became-volkswagens-problem-child-v2.jpg",
     "vehicles": [
       "Porsche 911",
       "Porsche 996",

@@ -182,7 +182,7 @@ const ARTICLES = [
     "date": "2026-09-26",
     "readTime": "10 min",
     "blurb": "For 30 years Porsche was the part of Volkswagen that paid for the rest. In September 2026 the group wrote it down by 6 billion euros. The strange part is that nearly everything hurting Porsche now once saved it: the 1993 near-collapse and the Boxster and 996 that followed, the Cayenne that purists called a betrayal, the China boom, the takeover attempt, and the electric bet it reversed last year.",
-    "image": "/assets/images/how-porsche-became-volkswagens-problem-child.jpg",
+    "image": "/assets/images/how-porsche-became-volkswagens-problem-child-v2.jpg",
     "vehicles": [
       "Porsche 911",
       "Porsche 996",

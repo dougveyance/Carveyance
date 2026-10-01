@@ -57,6 +57,34 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    "slug": "last-light",
+    "seoTitle": "Pontiac Solstice & Saturn Sky: Overlooked Roadster Bargains",
+    "title": "Last Light",
+    "subtitle": "Pontiac and Saturn went dark in 2010, but not before building two of the prettiest roadsters America ever made. The Miata is still king. The Solstice and Sky are the best argument yet for a rebellion — and right now, they are a steal.",
+    "category": "Opinions",
+    "date": "2026-10-01",
+    "readTime": "23 min",
+    "blurb": "Pontiac and Saturn died in 2010, but not before building the Solstice and Sky: beautiful, rear-drive, turbocharged roadsters that outsold the Miata in 2006 and now sell for about a third of their price new. The Lotus myth, the drive, the coupe, the racing and why they belong on your radar.",
+    "image": "/assets/images/last-light.jpg",
+    "vehicles": [
+      "Pontiac Solstice",
+      "Pontiac Solstice GXP",
+      "Pontiac Solstice Coupe",
+      "Saturn Sky",
+      "Saturn Sky Red Line",
+      "Opel GT",
+      "Opel Speedster",
+      "Vauxhall VX220",
+      "Mazda MX-5 Miata",
+      "Pontiac G8",
+      "Pontiac G8 GXP",
+      "Pontiac G8 ST",
+      "Pontiac G8 Firehawk",
+      "Daewoo G2X"
+    ],
+    "featured": false
+  },
+  {
     "slug": "send-in-the-clones",
     "seoTitle": "Why New Cars All Look the Same: The Appliance Theory",
     "title": "Send In the Clones",

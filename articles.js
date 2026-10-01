@@ -57,6 +57,34 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    "slug": "send-in-the-clones",
+    "seoTitle": "Why New Cars All Look the Same: The Appliance Theory",
+    "title": "Send In the Clones",
+    "subtitle": "Leapmotor, Omoda, Jaecoo and half the crossovers on any American freeway are turning into the same gray appliance. Maybe that's the point.",
+    "category": "Opinions",
+    "date": "2026-10-01",
+    "readTime": "26 min",
+    "blurb": "Roughly 4 out of 5 new cars are white, black, gray or silver, and the crossovers are melting into one shape. The designers, the wind tunnel, the safety rules, the psychology of not caring, the Chinese wave and a robotaxi that never reverses. Maybe the appliance is the point.",
+    "image": "/assets/images/send-in-the-clones.jpg",
+    "vehicles": [
+      "Leapmotor C10",
+      "Leapmotor T03",
+      "Omoda 7",
+      "Omoda 9",
+      "Omoda E5",
+      "Jaecoo 7",
+      "Genesis GV60 Magma",
+      "Bentley Bentayga Speed",
+      "Zoox robotaxi",
+      "Duesenberg Model J",
+      "Mercedes-Benz 540K",
+      "Cadillac Eldorado",
+      "Ford Mustang",
+      "Toyota Land Cruiser"
+    ],
+    "featured": false
+  },
+  {
     "slug": "no-replacement-for-displacement",
     "seoTitle": "GM's 8.3L Duramax Explained: 1,230 LB-FT and Why It Got Bigger",
     "title": "No Replacement for Displacement",

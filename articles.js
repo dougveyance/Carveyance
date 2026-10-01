@@ -57,6 +57,25 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    "slug": "no-replacement-for-displacement",
+    "seoTitle": "GM's 8.3L Duramax Explained: 1,230 LB-FT and Why It Got Bigger",
+    "title": "No Replacement for Displacement",
+    "subtitle": "GM's new 8.3-liter Duramax makes the most torque of any pickup by being bigger, not by working harder. Inside the engine, and what heavy-duty buyers are paying for",
+    "category": "How It Works",
+    "date": "2026-10-01",
+    "readTime": "11 min",
+    "blurb": "The 2027 Silverado HD and Sierra HD get an 8.3-liter Duramax with 555 hp and 1,230 lb-ft. Scale the old 6.6 by its extra size and you get almost exactly that. What's inside the engine, why GM chose size over strain, how it stacks up against Ford and Ram, and what the diesel option buys with fuel at a record price.",
+    "image": "/assets/images/no-replacement-for-displacement.jpg",
+    "vehicles": [
+      "Chevrolet Silverado HD",
+      "GMC Sierra HD",
+      "Ford Super Duty",
+      "Ram 2500",
+      "Ram 3500"
+    ],
+    "featured": false
+  },
+  {
     "slug": "built-here-banned-here",
     "seoTitle": "Why Polestar Is Leaving the US: The Chinese-Car Rule Explained",
     "title": "Built Here, Banned Here",

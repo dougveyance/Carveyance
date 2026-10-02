@@ -57,6 +57,26 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    "slug": "gas-in-electric-out",
+    "seoTitle": "Nissan e-Power Explained: How the 2027 Rogue Hybrid Works",
+    "title": "Gas In, Electric Out",
+    "subtitle": "The 2027 Rogue Hybrid drives every mile on electric motors and never plugs in. How Nissan's e-Power works, and where it beats the hybrids Americans already know",
+    "category": "How It Works",
+    "date": "2026-10-02",
+    "readTime": "8 min",
+    "blurb": "Nissan's e-Power arrives in America in the 2027 Rogue Hybrid: 2 electric motors do all the driving while a 1.5-liter engine only makes electricity. How it works, why its gains come in the city and not on the highway, how it stacks up against the RAV4, CR-V and Tucson hybrids, and who it pays off for.",
+    "image": "/assets/images/gas-in-electric-out.jpg",
+    "vehicles": [
+      "Nissan Rogue Hybrid",
+      "Nissan Rogue",
+      "Nissan Note",
+      "Toyota RAV4",
+      "Honda CR-V",
+      "Hyundai Tucson"
+    ],
+    "featured": false
+  },
+  {
     "slug": "last-light",
     "seoTitle": "Pontiac Solstice & Saturn Sky: Overlooked Roadster Bargains",
     "title": "Last Light",

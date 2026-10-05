@@ -57,6 +57,95 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    "slug": "industry-brief-2026-10-05",
+    "seoTitle": "Car News Roundup: Detroit's Record Low, MPG Rule in Court, Ram Sellout",
+    "title": "The Industry Brief: Toyota Closes In, Detroit Slips and a 90-Minute Sellout",
+    "subtitle": "7 stories that mattered in the week of September 28-October 5, ranked and weighed",
+    "category": "News",
+    "date": "2026-10-05",
+    "readTime": "19 min",
+    "blurb": "Detroit's share of the US market fell to a record low as Toyota's hybrids closed to within 38,000 vehicles of GM. The new fuel-economy rule went to court, the EV market split a year after the tax credit, Ram sold a year of V8 Rumble Bees in 90 minutes, Volkswagen traded the ID.4 name for an electric Tiguan, Hyundai moved the Tucson Hybrid to Alabama and Honda showed a road that charges trucks as they drive. Every story carries a status line.",
+    "image": "/assets/images/industry-brief-2026-10-05.jpg",
+    "vehicles": [
+      "Toyota RAV4",
+      "Toyota Camry",
+      "Toyota Prius",
+      "Chevrolet Equinox EV",
+      "Rivian R2",
+      "Ram 1500 Rumble Bee",
+      "Volkswagen ID.4",
+      "Volkswagen ID. Tiguan",
+      "Hyundai Tucson",
+      "Ford Super Duty"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "losing-at-home",
+    "seoTitle": "Detroit 3 Market Share Hits a Record Low: From 94% to 36%",
+    "title": "Losing at Home",
+    "subtitle": "GM still sells more vehicles in America than anyone, but Detroit's 3 automakers now account for barely more than a third of the market, the lowest share on record. How the home team went from 94% to 36%, and what the hybrid boom has to do with it",
+    "category": "Comparisons",
+    "date": "2026-10-05",
+    "readTime": "6 min",
+    "blurb": "In 1955, GM, Ford and Chrysler sold almost 19 of every 20 new vehicles in America. In the third quarter of 2026 it was just over 36%, a record low by Cox Automotive's count. The quarter maker by maker, how the share fell over 70 years, why hybrids, gas prices and $50,000 cars are speeding it up, where Detroit still wins, and where the so-called foreign cars are actually built.",
+    "image": "/assets/images/losing-at-home.jpg",
+    "vehicles": [
+      "Chevrolet Silverado",
+      "Toyota RAV4",
+      "Toyota Camry",
+      "Ford F-150",
+      "Ram 1500",
+      "Hyundai Tucson",
+      "Honda CR-V",
+      "Jeep Grand Cherokee"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "the-prius-paradox",
+    "seoTitle": "Why Prius Sales Are Falling While Toyota Hybrids Boom",
+    "title": "The Prius Paradox",
+    "subtitle": "Toyota just had the biggest hybrid quarter in its history, and the car that made the hybrid famous is selling about half as many as last year. Why the Prius is losing to its own family",
+    "category": "Car Culture",
+    "date": "2026-10-05",
+    "readTime": "6 min",
+    "blurb": "57.4% of everything Toyota sold in the third quarter was electrified, yet regular Prius sales are down 51% this year. How the Prius got its job, how the Camry, RAV4 and Sienna took it, why the best-reviewed Prius ever arrived at the worst time, and why the plug-in is the one holding steady.",
+    "image": "/assets/images/the-prius-paradox.jpg",
+    "vehicles": [
+      "Toyota Prius",
+      "Toyota Prius Plug-in Hybrid",
+      "Toyota Camry",
+      "Toyota RAV4",
+      "Toyota Corolla",
+      "Toyota Sienna",
+      "Toyota Sequoia"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "muscle-memory",
+    "seoTitle": "Ram Rumble Bee Sells Out: A Short History of the Muscle Truck",
+    "title": "Muscle Memory",
+    "subtitle": "Ram's V8 Rumble Bee sold out its first year's allocation in 90 minutes. The muscle truck has been here before: a short history of the hot-rod pickup, from the Li'l Red Express to a 777-hp Hemi",
+    "category": "Car Culture",
+    "date": "2026-10-05",
+    "readTime": "6 min",
+    "blurb": "The first allocation of 5.7-liter 2027 Ram 1500 Rumble Bees sold out in 90 minutes. What Ram built, what sold out really means, why the Hemi came back, and 50 years of hot-rod pickups, from the 1978 Li'l Red Express to the GMC Syclone, the F-150 Lightning, the Viper-engined Ram SRT-10 and the 702-hp TRX.",
+    "image": "/assets/images/muscle-memory.jpg",
+    "vehicles": [
+      "Ram 1500 Rumble Bee",
+      "Dodge Ram Rumble Bee",
+      "Dodge Li'l Red Express",
+      "Chevrolet 454 SS",
+      "GMC Syclone",
+      "Ford SVT F-150 Lightning",
+      "Dodge Ram SRT-10",
+      "Ram 1500 TRX"
+    ],
+    "featured": false
+  },
+  {
     "slug": "gas-in-electric-out",
     "seoTitle": "Nissan e-Power Explained: How the 2027 Rogue Hybrid Works",
     "title": "Gas In, Electric Out",

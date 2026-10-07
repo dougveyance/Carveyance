@@ -57,6 +57,32 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    "slug": "the-other-guys-brake-pads",
+    "seoTitle": "How Car Brakes Work: Drums, Discs, ABS and Regen Explained",
+    "title": "The Other Guy's Brake Pads",
+    "subtitle": "How the ability to stop made speed possible",
+    "category": "How It Works",
+    "date": "2026-10-07",
+    "readTime": "29 min",
+    "blurb": "Speed gets all the glory, but brakes are what make it possible. From the railroad air brake and a cobbler's leather on Bertha Benz's brakes to disc brakes at Le Mans, ABS, carbon-ceramics and electric cars that turn stopping into electricity, this is how we learned to stop, and why the other guy's brake pads are never a bargain.",
+    "image": "/assets/images/the-other-guys-brake-pads.jpg",
+    "vehicles": [
+      "Benz Patent-Motorwagen",
+      "Duesenberg Model A",
+      "Chrysler Six",
+      "Hispano-Suiza H6",
+      "Crosley",
+      "Jaguar C-Type",
+      "Citro\u00ebn DS",
+      "Jensen FF",
+      "Mercedes-Benz S-Class W116",
+      "Bugatti Veyron",
+      "Volkswagen ID.4",
+      "Boeing 737-10"
+    ],
+    "featured": false
+  },
+  {
     "slug": "the-one-on-the-wall",
     "seoTitle": "Mazda RX-7 FD: Why the Third-Gen Still Looks Brand New",
     "title": "The One on the Wall",

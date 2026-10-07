@@ -57,6 +57,31 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    "slug": "the-one-on-the-wall",
+    "seoTitle": "Mazda RX-7 FD: Why the Third-Gen Still Looks Brand New",
+    "title": "The One on the Wall",
+    "subtitle": "The third-generation Mazda RX-7 is 35 years old and still looks like next year's car. This is the FD, and the reason it never came off the bedroom wall",
+    "category": "Reviews",
+    "date": "2026-10-07",
+    "readTime": "18 min",
+    "blurb": "Some cars need explaining. The FD RX-7 only needs looking at. Why the third-generation shape never aged, how Mazda chased weight all the way down to the jack, how it stood up to the NSX and the 911 Turbo, and what Jinba Ittai feels like from the driver's seat.",
+    "image": "/assets/images/the-one-on-the-wall.jpg",
+    "vehicles": [
+      "Mazda RX-7",
+      "Mazda RX-7 FD",
+      "Mazda RX-7 FD3S",
+      "Mazda RX-7 R1",
+      "Acura NSX",
+      "Porsche 911 Turbo",
+      "Toyota Supra",
+      "Nissan 300ZX",
+      "Nissan Skyline GT-R",
+      "Mitsubishi 3000GT",
+      "Mazda Miata"
+    ],
+    "featured": false
+  },
+  {
     "slug": "industry-brief-2026-10-05",
     "seoTitle": "Car News Roundup: Detroit's Record Low, MPG Rule in Court, Ram Sellout",
     "title": "The Industry Brief: Toyota Closes In, Detroit Slips and a 90-Minute Sellout",

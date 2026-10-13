@@ -57,6 +57,112 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    "slug": "industry-brief-2026-10-12",
+    "seoTitle": "Car News: EU Caps Chinese Hybrids, Jaguar's $130,500 EV",
+    "title": "The Industry Brief: Europe Caps China's Hybrids, the EV Market Splits and Jaguar Gets Real",
+    "subtitle": "8 stories that mattered in the week of October 5-12, ranked and weighed",
+    "category": "News",
+    "date": "2026-10-12",
+    "readTime": "23 min",
+    "blurb": "Europe agreed to cap imports of Chinese-built hybrids at 350,000 a year, less than half this year's pace. EVs took 23% of Europe's market and 6% of America's, Honda bet its rebuild on 15 new hybrids, NHTSA opened a rewrite of the headlight rules, Jaguar priced its 1,015-hp Type 01 at $130,500, Tesla dropped the Full Self-Driving name in Europe, Polestar sold its last new cars in America and work pickups and vans struggled in IIHS crash-avoidance tests. Every story carries a status line.",
+    "image": "/assets/images/industry-brief-2026-10-12.jpg",
+    "vehicles": [
+      "Jaguar Type 01",
+      "Honda CR-V",
+      "Polestar 3",
+      "Ford F-350",
+      "Ram 3500",
+      "Chevrolet Silverado 3500HD",
+      "GMC Sierra 3500",
+      "Ford Transit",
+      "Ram ProMaster",
+      "Chevrolet Express",
+      "Rivian RCV",
+      "Citroën 2CV"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "europe-taxed-chinese-evs",
+    "seoTitle": "EU Caps Chinese Plug-In Hybrids at 350,000: Why It Happened",
+    "title": "Europe Taxed Chinese EVs. China Answered With Plug-In Hybrids.",
+    "subtitle": "Europe tried to slow China's electric-car expansion with tariffs. Chinese automakers changed powertrains instead, and started a new trade fight",
+    "category": "Car Culture",
+    "date": "2026-10-12",
+    "readTime": "6 min",
+    "blurb": "Chinese hybrid and plug-in hybrid exports to the EU tripled in a year, to $7.5 billion in the first half of 2026, after Europe's 2024 duties on Chinese EVs left hybrids paying only the standard 10%. Why the plug-in hybrid became China's answer, how the new 350,000-a-year cap works, why cars built in Europe don't count, and the question about plug-ins the trade fight skips.",
+    "image": "/assets/images/europe-taxed-chinese-evs.jpg",
+    "vehicles": [
+      "Chery Fulwin",
+      "BYD",
+      "MG"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "same-technology-two-ev-markets",
+    "seoTitle": "US vs Europe EV Sales: Why EVs Are 6% Here and 23% There",
+    "title": "Same Technology, 2 Completely Different EV Markets",
+    "subtitle": "Electric-car sales are falling in America and setting records in Europe. The cars didn't suddenly get better on one side of the Atlantic. Everything around them did",
+    "category": "Comparisons",
+    "date": "2026-10-12",
+    "readTime": "7 min",
+    "blurb": "EVs were 23.2% of new-vehicle sales in Europe through September and about 6% in America, down from 8.5%. How the end of the $7,500 credit, big batteries in big trucks, more than 150 European models, Chinese competition, hybrids and chargers split the same technology into 2 different markets.",
+    "image": "/assets/images/same-technology-two-ev-markets.jpg",
+    "vehicles": [
+      "Volkswagen ID. Polo",
+      "Renault 5",
+      "Citroën ë-C3",
+      "Honda Prologue",
+      "Rivian R2"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "honda-hybrid-not-a-bridge",
+    "seoTitle": "Honda Hybrid Explained: 15 New Hybrids and Electric AWD",
+    "title": "Honda Isn't Treating the Hybrid as a Bridge Anymore",
+    "subtitle": "Honda hasn't given up on the electric car. But its plan for the rest of the decade runs on hybrids that are cheaper, lighter, more efficient and, Honda promises, more enjoyable to drive",
+    "category": "How It Works",
+    "date": "2026-10-12",
+    "readTime": "7 min",
+    "blurb": "Honda's next-generation system, plainly named Honda Hybrid, arrives in 2027, with 15 models by March 2030, most of them for North America. How Honda's 2-motor hybrid works, what a lighter platform and electric all-wheel drive add, why the big SUVs are the real opportunity, and how it follows the cancellation of 3 US-built EVs.",
+    "image": "/assets/images/honda-hybrid-not-a-bridge.jpg",
+    "vehicles": [
+      "Honda CR-V Hybrid",
+      "Honda Accord Hybrid",
+      "Honda Civic Hybrid",
+      "Honda Pilot",
+      "Honda Passport",
+      "Honda Ridgeline",
+      "Honda Insight",
+      "Honda Prologue"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "it-replaced-jaguar",
+    "seoTitle": "Jaguar Type 01: Why the $130,500 EV Replaces the Old Jaguar",
+    "title": "Jaguar Didn't Replace the XJ. It Replaced Jaguar.",
+    "subtitle": "The 1,015-hp Type 01 isn't an electric successor to Jaguar's old sedans. It's an attempt to erase the company's old position and build a far more exclusive brand",
+    "category": "Opinions",
+    "date": "2026-10-12",
+    "readTime": "6 min",
+    "blurb": "Jaguar's production Type 01 is a 1,015-hp electric four-door GT from $130,500, with no rear window and Jaguar's estimate of up to 400 miles of range. Why it isn't a successor to the XJ or the XE, why Jaguar is moving above BMW and Mercedes, and why the real test is how it feels, not the horsepower.",
+    "image": "/assets/images/it-replaced-jaguar.jpg",
+    "vehicles": [
+      "Jaguar Type 01",
+      "Jaguar Type 00",
+      "Jaguar XJ",
+      "Jaguar XF",
+      "Jaguar XE",
+      "Jaguar F-Type",
+      "Jaguar F-Pace",
+      "Jaguar I-Pace"
+    ],
+    "featured": false
+  },
+  {
     "slug": "the-other-guys-brake-pads",
     "seoTitle": "How Car Brakes Work: Drums, Discs, ABS and Regen Explained",
     "title": "The Other Guy's Brake Pads",

@@ -57,6 +57,30 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    "slug": "the-long-way-for-crackers",
+    "seoTitle": "TVR Griffith 500: What It's Really Like to Drive One",
+    "title": "The Long Way for Crackers",
+    "subtitle": "A low seat, 3 pedals, an engine close enough to feel, and the discovery that an ordinary errand could become the best part of the day",
+    "category": "Reviews",
+    "date": "2026-10-15",
+    "readTime": "17 min",
+    "blurb": "A low seat, 3 pedals and a V8 close enough to feel. Driving a TVR Griffith 500 on a Welsh B-road, the foam model that gave it its face, the Porsche customers TVR poached, the pre-cat 4.3 its fans swear by, and why a run out for crackers became the best part of the day.",
+    "image": "/assets/images/the-long-way-for-crackers.jpg",
+    "vehicles": [
+      "TVR Griffith",
+      "TVR Griffith 500",
+      "TVR Griffith 430",
+      "TVR Chimaera",
+      "TVR Tuscan",
+      "TVR S",
+      "TVR Grantura",
+      "Mazda MX-5 Miata",
+      "Porsche 911",
+      "Lotus Elise"
+    ],
+    "featured": false
+  },
+  {
     "slug": "industry-brief-2026-10-12",
     "seoTitle": "Car News: EU Caps Chinese Hybrids, Jaguar's $130,500 EV",
     "title": "The Industry Brief: Europe Caps China's Hybrids, the EV Market Splits and Jaguar Gets Real",

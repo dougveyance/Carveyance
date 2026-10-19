@@ -57,6 +57,93 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    "slug": "industry-brief-2026-10-19",
+    "seoTitle": "Car News: Porsche Mission S, NVIDIA Deals, Tesla Roadster",
+    "title": "The Industry Brief: Porsche Goes Above the 911, Volvo and Mercedes Share a Brain and the Roadster Leaps",
+    "subtitle": "7 stories that mattered in the week of October 12-18, ranked and weighed",
+    "category": "News",
+    "date": "2026-10-19",
+    "readTime": "20 min",
+    "blurb": "Porsche previewed a permanent supercar line above the 911 a week after deciding to sell fewer, pricier cars. Volvo and Mercedes chose the same NVIDIA hardware and software for self-driving, America's EV sales had their best quarter in a year, Toyota set a 10-million-car software target, NHTSA's 5-star tests added pedestrian protection, BMW put a V8 back in the 7 Series and Tesla's Roadster hopped on thrusters. Every story carries a status line.",
+    "image": "/assets/images/industry-brief-2026-10-19.jpg",
+    "vehicles": [
+      "Porsche Mission S",
+      "Volvo EX90",
+      "Mercedes-Benz CLA",
+      "Rivian R2",
+      "Tesla Model Y",
+      "Toyota RAV4",
+      "Tesla Model 3",
+      "Kia Telluride",
+      "Volkswagen Atlas",
+      "BMW M760 xDrive",
+      "BMW 7 Series",
+      "Tesla Roadster"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "porsche-above-the-911",
+    "seoTitle": "Porsche Mission S and the Plan to Sell Fewer, Pricier Cars",
+    "title": "Fewer Cars, Higher Prices and a Supercar Above the 911: Porsche's New Future",
+    "subtitle": "The Mission S isn't simply another Porsche concept. It's the centerpiece of a plan to sell fewer cars, cut complexity and move the whole brand further beyond the reach of ordinary enthusiasts",
+    "category": "Opinions",
+    "date": "2026-10-19",
+    "readTime": "8 min",
+    "blurb": "Porsche's Mission S previews a permanent line of mid-engined super sports cars above the 911, a week after a strategy built on selling fewer cars for more money. What the car borrows from the GT1, 959 and 917, why Porsche wants to break even below 200,000 cars a year, the Ferrari playbook, and what happens to the attainable Porsche.",
+    "image": "/assets/images/porsche-above-the-911.jpg",
+    "vehicles": [
+      "Porsche Mission S",
+      "Porsche 911",
+      "Porsche 959",
+      "Porsche Carrera GT",
+      "Porsche 918 Spyder",
+      "Porsche 718 Boxster",
+      "Porsche 718 Cayman",
+      "Porsche Macan",
+      "Porsche Cayenne"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "nvidia-operating-system-of-the-car",
+    "seoTitle": "Volvo, Mercedes and NVIDIA: Who Controls Self-Driving Cars?",
+    "title": "Is NVIDIA Becoming the Operating System of the Automobile?",
+    "subtitle": "Volvo and Mercedes-Benz announced deeper NVIDIA partnerships on consecutive days. The technology could make their cars safer and more capable, and it raises a bigger question: who will control the most important machinery inside tomorrow's car",
+    "category": "How It Works",
+    "date": "2026-10-19",
+    "readTime": "8 min",
+    "blurb": "Volvo and Mercedes-Benz will build their next automated-driving systems on the same NVIDIA hardware, AI software and safety layer. What Hyperion, Alpamayo and Halos actually do, what stays Volvo or Mercedes, what the SAE levels really mean, why Volvo changed course after lidar, and who's responsible when the software drives.",
+    "image": "/assets/images/nvidia-operating-system-of-the-car.jpg",
+    "vehicles": [
+      "Volvo EX90",
+      "Volvo ES90",
+      "Mercedes-Benz CLA",
+      "Mercedes-Benz S-Class"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "the-2cv-again",
+    "seoTitle": "Citroën 2CV Concept: Can a €15,000 Electric Car Work?",
+    "title": "The Original 2CV Motorized France. Can the Electric One Do It Again?",
+    "subtitle": "While America keeps arguing about how much range and power an EV needs, Citroën is asking a more basic question: how little car can ordinary people really live with?",
+    "category": "Car Culture",
+    "date": "2026-10-19",
+    "readTime": "8 min",
+    "blurb": "Citroën's 2CV Concept is a 3.76 m electric car aiming for about 1,000 kg and a starting price around €15,000 (about $16,800). How the original motorized France, why the concept is the opposite of the American EV formula, the case for sufficient range, heritage as a weapon against Chinese rivals, and the EU rules that will decide whether the price is real.",
+    "image": "/assets/images/the-2cv-again.jpg",
+    "vehicles": [
+      "Citroën 2CV",
+      "Citroën 2CV Concept",
+      "Citroën 2CV6",
+      "Renault Twingo",
+      "Renault 5",
+      "Volkswagen ID. Polo"
+    ],
+    "featured": false
+  },
+  {
     "slug": "the-long-way-for-crackers",
     "seoTitle": "TVR Griffith 500: What It's Really Like to Drive One",
     "title": "The Long Way for Crackers",

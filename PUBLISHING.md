@@ -99,3 +99,38 @@ If the homepage ever goes blank after an edit, it's almost always a typo in
 Categories live in two places: the list at the top of
 `assets/js/carveyance.js`, and a folder in `categories/`. Ask Claude to add
 one — it's a two-minute job and not worth doing by hand.
+
+---
+
+## The Events page
+
+`carveyance.com/events/` reads one file: **`events.js`**, at the top level
+next to `articles.js`. It holds two lists.
+
+- `EVENTS` — dated shows, concours, races and auctions. Each one hides itself
+  the day after its `end` date, so old events never need deleting by hand.
+- `MEETS` — weekly and monthly meets (Cars & Coffee, cruise nights). These
+  stay up until someone removes them.
+
+To add one by hand, copy an existing entry in the right list and change the
+values. The rules:
+
+| Field | Rule |
+|---|---|
+| `start`, `end` | `YYYY-MM-DD`. One-day event: make them the same |
+| `region` | Exactly one of: `LA & South Bay`, `Southern California`, `West`, `Northwest`, `Mountain`, `Texas & South`, `Midwest`, `Southeast`, `Mid-Atlantic`, `Northeast` |
+| `url` | The organizer's own page, starting `https://`. Leave `""` if there isn't one |
+| `instagram` | `@handle`, or `""` |
+| `pick` | `true` puts the orange Carveyance Pick badge on it |
+| `added` | `YYYY-MM-DD` the day it went on the page; drives the "Most Recently Added" sort |
+| `image` | Optional, e.g. `"/assets/events/<id>.jpg"`. Only a flyer or photo the organizer sent (via the form, with the rights box ticked) or one you supplied. Leave it out and the card shows a Carveyance tile instead |
+| `EVENTS_UPDATED` | Change this date at the top when you edit the file |
+
+Event submissions from the form at the bottom of the page arrive in Netlify
+under **Forms → event-submission**, the same place the contributor form lands.
+A submitted flyer comes through as a file attachment on that submission. To use
+it, save it into `assets/events/` named after the entry's `id`, landscape, about
+1200px wide, and set that entry's `image`.
+
+The weekly events check from Claude sends a replacement `events.js` with
+drop instructions; drop it over the old one and push.

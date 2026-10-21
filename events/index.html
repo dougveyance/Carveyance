@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Car Shows, Meets &amp; Events — Carveyance</title>
+<!-- carveyance-seo -->
+<link rel="canonical" href="https://carveyance.com/events/">
+<meta name="description" content="Find car shows, Cars &amp; Coffee, cruise nights, concours and race weekends near you. Search by keyword, browse by state and town, from Los Angeles and the South Bay to the rest of the country.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Carveyance">
+<meta property="og:title" content="Car Shows, Meets &amp; Events — Carveyance">
+<meta property="og:description" content="Car shows, Cars &amp; Coffee, cruise nights and race weekends near you, searchable by state and town.">
+<meta property="og:url" content="https://carveyance.com/events/">
+<meta name="twitter:card" content="summary_large_image">
+<!-- /carveyance-seo -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+:root{
+  --steel:#2E6E96; --deep:#1B4E6B; --sky:#4E8DB5; --mist:#f0f3f7; --cloud:#e4ecf3;
+  --ink:#141820; --slate:#3a4553; --mid:#6b7684; --rule:#d0dae4; --white:#fff; --accent:#e05c2a;
+  /* tag families */
+  --g-coffee:#2E6E96; --g-meet:#F3B36B; --g-show:#C8462C; --g-race:#141820;
+  --g-market:#2F7D5B; --g-museum:#6B5BA8; --g-charity:#2B8A8A;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'DM Sans',sans-serif;background:var(--white);color:var(--ink);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{text-decoration:none;color:inherit}
+.wrap{max-width:1240px;margin:0 auto;padding:0 40px}
+
+/* nav — same as the category pages */
+nav{height:64px;display:flex;align-items:center;justify-content:space-between;
+  padding:0 40px;background:var(--ink);position:sticky;top:0;z-index:60}
+.nav-brand{font-family:'Bebas Neue',sans-serif;font-size:26px;letter-spacing:.08em;color:var(--white);line-height:1;font-weight:400}
+.nav-brand span{color:var(--sky)}
+.nav-center{display:flex;gap:18px}
+.nav-center a{font-size:11px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;
+  color:rgba(255,255,255,.62);transition:color .2s}
+.nav-center a:hover,.nav-center a.on{color:var(--white)}
+.nav-sub{font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
+  background:var(--accent);color:var(--white);padding:9px 18px;border-radius:3px;white-space:nowrap}
+.nav-sub:hover{background:#c44e20}
+.nav-brand,.nav-sub{flex-shrink:0}
+@media(max-width:1260px){.nav-center{display:none}}
+
+/* header + search */
+.chead{background:var(--cloud);padding:52px 0 40px;border-bottom:1px solid var(--rule)}
+.crumb{font-size:10px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--mid);margin-bottom:14px}
+.crumb a:hover{color:var(--steel)}
+.ctitle{font-family:'Bebas Neue',sans-serif;font-size:clamp(46px,8vw,78px);line-height:.95;letter-spacing:.02em;font-weight:400}
+.cblurb{font-size:15px;font-weight:300;color:var(--slate);line-height:1.7;max-width:640px;margin-top:12px}
+
+.search{margin-top:28px;display:flex;align-items:center;gap:22px;background:var(--white);border:1px solid var(--rule);
+  border-radius:999px;padding:10px 10px 10px 30px;box-shadow:0 6px 24px rgba(20,24,32,.06)}
+.sfield{flex:1;display:flex;flex-direction:column;min-width:0}
+.sfield.sort{flex:0 0 220px}
+.sfield label{font-size:11px;font-weight:500;color:var(--mid);margin-bottom:2px}
+.sfield input,.sfield select{font-family:'DM Sans',sans-serif;font-size:17px;color:var(--ink);border:none;
+  border-bottom:1px solid var(--rule);padding:4px 0 6px;background:transparent;outline:none;width:100%;border-radius:0;
+  -webkit-appearance:none;appearance:none}
+.sfield select{font-weight:600;cursor:pointer;padding-right:22px;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='7'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%232E6E96' stroke-width='1.6'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 2px center}
+.sfield input:focus,.sfield select:focus{border-bottom-color:var(--steel)}
+.sfield input::placeholder{color:#97a1ad}
+.sbtn{font-family:'DM Sans',sans-serif;display:inline-flex;align-items:center;gap:10px;background:var(--deep);color:var(--white);
+  border:none;border-radius:999px;padding:17px 34px;font-size:17px;font-weight:600;cursor:pointer;white-space:nowrap;transition:background .2s}
+.sbtn:hover{background:var(--steel)}
+.sbtn svg{width:20px;height:20px}
+
+.loc{margin-top:14px;background:var(--white);border:1px solid var(--rule);border-radius:14px}
+.loc summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;padding:18px 26px;
+  font-weight:600;font-size:17px}
+.loc summary::-webkit-details-marker{display:none}
+.loc summary .sumr{display:flex;align-items:center;gap:14px;font-size:13px;font-weight:500;color:var(--steel)}
+.loc summary .chev{transition:transform .2s}
+.loc[open] summary .chev{transform:rotate(180deg)}
+.loc-body{padding:0 26px 22px;border-top:1px solid var(--rule)}
+.loc-row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:16px}
+.loc-label{font-size:10px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--mid);width:100%;margin-bottom:2px}
+.fsel{font-family:'DM Sans',sans-serif;font-size:14px;color:var(--ink);background:var(--white);border:1px solid var(--rule);
+  border-radius:8px;padding:10px 36px 10px 12px;cursor:pointer;-webkit-appearance:none;appearance:none;min-width:240px;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%236b7684' stroke-width='1.5'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 12px center}
+
+.chip{font-family:'DM Sans',sans-serif;font-size:12px;font-weight:600;letter-spacing:.04em;background:var(--white);
+  border:1px solid var(--rule);color:var(--slate);padding:8px 14px;border-radius:999px;cursor:pointer;transition:.18s;
+  display:inline-flex;align-items:center;gap:7px;white-space:nowrap}
+.chip:hover{border-color:var(--steel);color:var(--steel)}
+.chip.on{background:var(--steel);border-color:var(--steel);color:var(--white)}
+.chip span{font-size:10px;opacity:.6;font-weight:500}
+.chip.on span{opacity:.85}
+:focus-visible{outline:2px solid var(--sky);outline-offset:2px}
+
+/* toolbar */
+.bar{position:sticky;top:64px;z-index:40;background:rgba(255,255,255,.97);border-bottom:1px solid var(--rule);backdrop-filter:blur(6px)}
+.bar-in{display:flex;align-items:center;gap:8px;padding:12px 40px;flex-wrap:wrap}
+.bar .sp{flex:1}
+.bar-in{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;gap:6px}
+.bar-in::-webkit-scrollbar{display:none}
+.bar .chip{padding:7px 12px;flex:0 0 auto}
+.bar .pick-toggle{flex:0 0 auto;margin-left:8px}
+.pick-toggle{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:600;color:var(--slate);cursor:pointer;user-select:none}
+.pick-toggle input{accent-color:var(--accent);width:15px;height:15px}
+
+.sec{padding:26px 0 70px}
+.status{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:18px}
+.status .count{font-size:14px;color:var(--slate)}
+.status .count b{color:var(--ink)}
+.status .clear{font-size:12px;font-weight:600;color:var(--steel);border-bottom:1px solid currentColor;cursor:pointer;background:none;border-top:0;border-left:0;border-right:0;font-family:inherit}
+.status .note{font-size:12px;color:var(--mid)}
+
+/* cards */
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px 26px}
+.card{position:relative;display:flex;flex-direction:column;border:1px solid var(--rule);border-radius:6px;overflow:hidden;background:var(--white);transition:box-shadow .2s,transform .2s}
+.card:hover{box-shadow:0 10px 28px rgba(20,24,32,.10);transform:translateY(-2px)}
+.cimg{position:relative;aspect-ratio:16/9;overflow:hidden;background:var(--ink)}
+.cimg img{width:100%;height:100%;object-fit:cover;display:block}
+.pickbadge{position:absolute;top:12px;left:12px;z-index:2;font-size:9.5px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;
+  background:var(--accent);color:var(--white);padding:5px 9px;border-radius:3px}
+
+/* designed tile when there's no photo */
+.tile{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;padding:18px 20px;color:var(--white);
+  background:
+    repeating-linear-gradient(135deg,rgba(255,255,255,.035) 0 2px,transparent 2px 14px),
+    linear-gradient(160deg,var(--ink) 0%,var(--ink) 52%,var(--tc) 160%)}
+.tile::before{content:"";position:absolute;right:-40px;top:-40px;width:170px;height:170px;border-radius:50%;
+  border:18px solid var(--tc);opacity:.55}
+.tile::after{content:"";position:absolute;left:20px;top:20px;width:34px;height:4px;background:var(--tc)}
+.tile-k{position:relative;font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.7);margin-bottom:4px}
+.tile-big{position:relative;font-family:'Bebas Neue',sans-serif;font-size:clamp(34px,3.4vw,46px);line-height:.92;letter-spacing:.03em}
+.tile-s{position:relative;font-size:12px;color:rgba(255,255,255,.72);margin-top:6px;max-width:calc(100% - 96px);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tile-wm{position:absolute;right:18px;bottom:16px;font-family:'Bebas Neue',sans-serif;font-size:13px;letter-spacing:.12em;color:rgba(255,255,255,.35)}
+.tile-wm span{color:rgba(78,141,181,.7)}
+
+.cbody{padding:18px 20px 18px;display:flex;flex-direction:column;flex:1}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.tag{font-size:12px;font-weight:600;padding:4px 11px;border-radius:999px;line-height:1.3}
+.tag.rec{background:#eceff2;color:var(--slate)}
+.tag.exp{background:none;border:1px solid var(--rule);color:var(--mid);font-weight:500}
+.t-coffee{background:var(--g-coffee);color:#fff}
+.t-meet{background:var(--g-meet);color:#3d2408}
+.t-show{background:var(--g-show);color:#fff}
+.t-race{background:var(--g-race);color:#fff}
+.t-market{background:var(--g-market);color:#fff}
+.t-museum{background:var(--g-museum);color:#fff}
+.t-charity{background:var(--g-charity);color:#fff}
+.card h3{font-family:'DM Serif Display',serif;font-weight:400;font-size:21px;line-height:1.2;margin-bottom:6px}
+.card h3 a{transition:color .2s}
+.card:hover h3 a{color:var(--steel)}
+.card h3 a::after{content:"";position:absolute;inset:0;z-index:1}  /* whole card clicks through */
+.when{font-size:14px;font-weight:600;color:var(--slate);margin-bottom:2px}
+.next{font-size:14px;color:var(--mid);margin-bottom:2px}
+.where{font-size:14px;color:var(--mid)}
+.blurb{font-size:13px;color:var(--mid);line-height:1.6;margin-top:10px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.clinks{margin-top:auto;padding-top:14px;display:flex;gap:16px;flex-wrap:wrap;position:relative;z-index:2}
+.clinks a{font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--steel)}
+.clinks a:hover{color:var(--deep);text-decoration:underline}
+
+.more{display:flex;justify-content:center;margin-top:36px}
+.more button{font-family:'DM Sans',sans-serif;font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
+  background:var(--white);color:var(--ink);border:1px solid var(--ink);border-radius:999px;padding:14px 30px;cursor:pointer}
+.more button:hover{background:var(--ink);color:var(--white)}
+
+.empty{text-align:center;padding:60px 20px;border:1px dashed var(--rule);background:var(--mist);border-radius:6px;grid-column:1/-1}
+.empty h3{font-family:'DM Serif Display',serif;font-weight:400;font-size:24px;margin-bottom:8px}
+.empty p{font-size:14px;font-weight:300;color:var(--mid)}
+.notice{font-size:12.5px;line-height:1.6;color:var(--mid);margin-top:34px;max-width:860px}
+
+/* submit */
+.submit{background:var(--cloud);border-top:1px solid var(--rule);padding:60px 0 70px}
+.submit-inner{display:grid;grid-template-columns:1fr 1.1fr;gap:56px;align-items:start}
+.submit h2{font-family:'DM Serif Display',serif;font-weight:400;font-size:clamp(28px,3.6vw,38px);line-height:1.15;margin-bottom:14px}
+.submit h2 em{color:var(--steel)}
+.submit p{font-size:15px;font-weight:300;color:var(--slate);line-height:1.7;margin-bottom:12px}
+.sform{background:var(--white);border:1px solid var(--rule);padding:26px;border-radius:6px}
+.sform .row{margin-bottom:14px}
+.sform .row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.sform label{display:block;font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--mid);margin-bottom:6px}
+.sform input,.sform textarea,.sform select{width:100%;font-family:'DM Sans',sans-serif;font-size:14px;color:var(--ink);
+  border:1px solid var(--rule);border-radius:3px;padding:10px 12px;background:var(--white)}
+.sform input[type=file]{padding:8px;background:var(--mist)}
+.sform input:focus,.sform textarea:focus,.sform select:focus{outline:2px solid var(--sky);outline-offset:0;border-color:var(--sky)}
+.sform textarea{min-height:84px;resize:vertical}
+.sform .consent{display:flex;gap:10px;align-items:flex-start;font-size:12.5px;color:var(--slate);line-height:1.5;text-transform:none;letter-spacing:0;font-weight:400}
+.sform .consent input{width:auto;margin-top:3px;accent-color:var(--steel)}
+.sform .hint{font-size:12px;color:var(--mid);margin-top:6px}
+.sform button{font-family:'DM Sans',sans-serif;font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
+  background:var(--accent);color:var(--white);border:none;padding:13px 24px;border-radius:3px;cursor:pointer}
+.sform button:hover{background:#c44e20}
+.hp{position:absolute;left:-9999px}
+.thanks{display:none;background:var(--ink);color:var(--white);padding:16px 18px;margin-bottom:16px;font-size:14px;line-height:1.6;border-radius:3px}
+.thanks.show{display:block}
+
+footer{background:var(--ink);color:rgba(255,255,255,.5);padding:36px 0;text-align:center;font-size:11px;letter-spacing:.08em}
+footer .fw{font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:.08em;color:var(--white);display:block;margin-bottom:10px}
+footer .fw span{color:var(--sky)}
+
+@media(max-width:1000px){.grid{grid-template-columns:repeat(2,1fr)}.submit-inner{grid-template-columns:1fr;gap:30px}}
+@media(max-width:760px){
+  .wrap{padding:0 16px}nav{padding:0 16px}
+  .chead{padding:36px 0 26px}
+  .search{flex-direction:column;align-items:stretch;border-radius:18px;padding:16px 18px 18px;gap:14px}
+  .sfield.sort{flex:1 1 auto}
+  .sbtn{justify-content:center}
+  .loc summary{padding:16px 18px;font-size:16px}
+  .loc-body{padding:0 18px 18px}
+  .fsel{min-width:0;width:100%}
+  .grid{grid-template-columns:1fr}
+  .bar-in{padding:12px 16px;flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .bar-in::-webkit-scrollbar{display:none}
+  .bar .sp{display:none}
+  .chip,.pick-toggle{flex:0 0 auto}
+  .sform .row2{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="/">Car<span>veyance</span></a>
+  <div class="nav-center">
+    <a href="/">Home</a>
+    <a href="/articles/">All Stories</a>
+    <a href="/categories/how-it-works/">How It Works</a>
+    <a href="/categories/reviews/">Reviews</a>
+    <a href="/categories/comparisons/">Comparisons</a>
+    <a href="/categories/opinions/">Opinions</a>
+    <a href="/categories/fun-facts/">Fun Facts</a>
+    <a href="/categories/car-culture/">Car Culture</a>
+    <a href="/categories/news/">News</a>
+    <a href="/events/" class="on">Events</a>
+    <a href="/about/">About</a>
+  </div>
+  <a class="nav-sub" href="#submit">Submit an Event</a>
+</nav>
+
+<header class="chead">
+  <div class="wrap">
+    <div class="crumb"><a href="/">Carveyance</a> &nbsp;/&nbsp; Events</div>
+    <h1 class="ctitle">Events</h1>
+    <p class="cblurb">Cars &amp; Coffee, cruise nights, car shows, concours and race weekends, from Los Angeles and the South Bay to every state we can reach. Search for a town, a car or a kind of meet.</p>
+
+    <form class="search" id="search" role="search" onsubmit="return false">
+      <div class="sfield">
+        <label for="q">Keyword</label>
+        <input id="q" type="search" placeholder="Event name, venue, town, car…" autocomplete="off">
+      </div>
+      <div class="sfield sort">
+        <label for="sort">Sort by</label>
+        <select id="sort">
+          <option value="upcoming">Upcoming</option>
+          <option value="all">All Events (A–Z)</option>
+          <option value="recent">Most Recently Added</option>
+        </select>
+      </div>
+      <button class="sbtn" id="go" type="submit">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        Search
+      </button>
+    </form>
+
+    <details class="loc" id="loc">
+      <summary>Browse events by location
+        <span class="sumr"><span id="loc-now"></span>
+          <svg class="chev" width="20" height="12" viewBox="0 0 20 12" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 2l8 8 8-8"/></svg></span>
+      </summary>
+      <div class="loc-body">
+        <div class="loc-row">
+          <div class="loc-label">Region</div>
+          <div id="region-chips" style="display:contents"></div>
+        </div>
+        <div class="loc-row">
+          <div class="loc-label">State</div>
+          <select class="fsel" id="state" aria-label="Choose a state"></select>
+        </div>
+        <div class="loc-row" id="town-row" hidden>
+          <div class="loc-label">Town</div>
+          <div id="town-chips" style="display:contents"></div>
+        </div>
+      </div>
+    </details>
+  </div>
+</header>
+
+<div class="bar">
+  <div class="wrap bar-in" id="type-chips">
+    <span class="sp"></span>
+    <label class="pick-toggle"><input type="checkbox" id="pick-only"> Carveyance Picks</label>
+  </div>
+</div>
+
+<section class="sec">
+  <div class="wrap">
+    <div class="status">
+      <div class="count" id="count"></div>
+      <div class="note" id="updated"></div>
+    </div>
+    <div class="grid" id="grid"></div>
+    <div class="more" id="more" hidden><button type="button" id="more-btn">Show more</button></div>
+    <p class="notice">Dates, times and venues come from each organizer and can change without much warning. Meets get rained out, moved or canceled, so check the official site or Instagram before you set off. Know one we missed? <a href="#submit" style="color:var(--steel);border-bottom:1px solid currentColor">Send it in</a>.</p>
+  </div>
+</section>
+
+<section class="submit" id="submit">
+  <div class="wrap submit-inner">
+    <div>
+      <h2>Running a show, a meet<br><em>or a Sunday drive?</em></h2>
+      <p>Send it in. Cars &amp; Coffee in a hardware-store parking lot counts as much as a concours on a golf course. If it has a website or an Instagram account and people bring interesting cars to it, we want it on this page.</p>
+      <p>We check every submission against the organizer's own page before it goes up, so include the link. Send a flyer or a photo you took and it can go on the event's card.</p>
+    </div>
+    <form class="sform" name="event-submission" method="POST" data-netlify="true" netlify-honeypot="bot-field" enctype="multipart/form-data" action="/events/?submitted=1#submit">
+      <div class="thanks" id="thanks">Thanks. We'll check it against the organizer's page and add it if it fits.</div>
+      <input type="hidden" name="form-name" value="event-submission">
+      <p class="hp"><label>Leave blank: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+      <div class="row"><label for="f-name">Event name</label><input id="f-name" type="text" name="event" required placeholder="South Bay Cars &amp; Coffee"></div>
+      <div class="row row2">
+        <div><label for="f-when">Date or schedule</label><input id="f-when" type="text" name="when" required placeholder="Every Saturday 7–9am, or Nov 14"></div>
+        <div><label for="f-kind">Kind of event</label>
+          <select id="f-kind" name="kind"><option>Weekly or monthly meet</option><option>One-off or annual event</option></select></div>
+      </div>
+      <div class="row"><label for="f-where">Venue and town</label><input id="f-where" type="text" name="where" required placeholder="Venue, Town, State"></div>
+      <div class="row row2">
+        <div><label for="f-url">Website</label><input id="f-url" type="url" name="url" placeholder="https://"></div>
+        <div><label for="f-ig">Instagram</label><input id="f-ig" type="text" name="instagram" placeholder="@handle"></div>
+      </div>
+      <div class="row"><label for="f-flyer">Flyer or photo (optional)</label><input id="f-flyer" type="file" name="flyer" accept="image/jpeg,image/png,image/webp">
+        <div class="hint">JPG or PNG, under 8 MB. Landscape works best.</div></div>
+      <div class="row"><label class="consent"><input type="checkbox" name="image_rights" value="yes"> I made this flyer or took this photo (or have the organizer's permission), and Carveyance may show it with the listing.</label></div>
+      <div class="row"><label for="f-email">Your email (optional)</label><input id="f-email" type="email" name="email" placeholder="In case we have a question"></div>
+      <div class="row"><label for="f-notes">Anything else</label><textarea id="f-notes" name="notes" placeholder="What makes it worth the drive?"></textarea></div>
+      <button type="submit">Send It In &rarr;</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <a class="fw" href="/">Car<span>veyance</span></a>
+  &copy; 2026 Carveyance — For the love of the drive.
+</footer>
+
+<script src="/events.js"></script>
+<script>
+(function(){
+  var EV=(typeof EVENTS!=='undefined')?EVENTS:[], MT=(typeof MEETS!=='undefined')?MEETS:[];
+  var REGION_ORDER=["LA & South Bay","Southern California","West","Northwest","Mountain","Texas & South","Midwest","Southeast","Mid-Atlantic","Northeast"];
+  var STATES={AL:"Alabama",AK:"Alaska",AZ:"Arizona",AR:"Arkansas",CA:"California",CO:"Colorado",CT:"Connecticut",DE:"Delaware",DC:"District of Columbia",FL:"Florida",GA:"Georgia",HI:"Hawaii",ID:"Idaho",IL:"Illinois",IN:"Indiana",IA:"Iowa",KS:"Kansas",KY:"Kentucky",LA:"Louisiana",ME:"Maine",MD:"Maryland",MA:"Massachusetts",MI:"Michigan",MN:"Minnesota",MS:"Mississippi",MO:"Missouri",MT:"Montana",NE:"Nebraska",NV:"Nevada",NH:"New Hampshire",NJ:"New Jersey",NM:"New Mexico",NY:"New York",NC:"North Carolina",ND:"North Dakota",OH:"Ohio",OK:"Oklahoma",OR:"Oregon",PA:"Pennsylvania",RI:"Rhode Island",SC:"South Carolina",SD:"South Dakota",TN:"Tennessee",TX:"Texas",UT:"Utah",VT:"Vermont",VA:"Virginia",WA:"Washington",WV:"West Virginia",WI:"Wisconsin",WY:"Wyoming"};
+  // type -> tag family
+  var FAM={"Cars & Coffee":"coffee","Cruise Night":"meet","Club Meet":"meet","Show & Shine":"meet","Canyon Run Spot":"meet",
+    "Museum Meet":"museum","Exhibition":"museum","Auto Show":"show","Concours":"show","Hot Rod & Kustom":"show","JDM & Import":"show",
+    "Festival":"show","Trade Show":"show","Cruise & Rally":"show","Racing":"race","Drift":"race","Track Day":"race",
+    "Auction":"market","Swap Meet":"market","Charity & Toy Drive":"charity"};
+  var FAM_LABEL={coffee:"Cars & Coffee",meet:"Meets & Cruises",show:"Shows & Concours",race:"Racing",market:"Auctions & Swaps",museum:"Museums",charity:"Charity"};
+  var FAM_ORDER=["coffee","meet","show","race","market","museum","charity"];
+  var FAM_COLOR={coffee:"#4E8DB5",meet:"#F3B36B",show:"#C8462C",race:"#8a96a6",market:"#3E9B71",museum:"#8A7BD0",charity:"#38A6A6"};
+  var M3=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  var MF=["January","February","March","April","May","June","July","August","September","October","November","December"];
+  var WD=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"], WDF=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+  var PAGE=24;
+
+  function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
+  function d(s){var p=String(s).split('-');return new Date(+p[0],+p[1]-1,+p[2]);}
+  var n0=new Date(), today=new Date(n0.getFullYear(),n0.getMonth(),n0.getDate());
+  function addDays(x,n){var y=new Date(x);y.setDate(y.getDate()+n);return y;}
+  function safeUrl(u){u=String(u||'').trim();return /^https?:\/\//i.test(u)?u:'';}
+  function igUrl(h){h=String(h||'').trim().replace(/^@/,'');return /^[A-Za-z0-9._]{1,30}$/.test(h)?'https://www.instagram.com/'+h+'/':'';}
+  function safeImg(u){u=String(u||'').trim();return /^(\/|https:\/\/)[^"'<>\s]+\.(jpe?g|png|webp)$/i.test(u)?u:'';}
+
+  // nth weekday of a month (n = 1..4, or -1 for the last)
+  function nthWeekday(y,m,wd,n){
+    if(n>0){var f=new Date(y,m,1),day=1+((wd-f.getDay()+7)%7)+(n-1)*7,x=new Date(y,m,day);return x.getMonth()===m?x:null;}
+    var l=new Date(y,m+1,0);return new Date(y,m,l.getDate()-((l.getDay()-wd+7)%7));
+  }
+  // next date a recurring meet happens, from its schedule text; null when the pattern is irregular
+  function nextOccur(m){
+    var s=String(m.schedule||''), wd=-1;
+    for(var i=0;i<7;i++){if(s.indexOf(WDF[i])>-1){wd=i;break;}}
+    if(wd<0) return null;
+    if(/^Every\b/i.test(s)) return addDays(today,(wd-today.getDay()+7)%7);
+    if(!/of the month/i.test(s)) return null;
+    var map={'1st':1,'2nd':2,'3rd':3,'4th':4,'last':-1}, ords=(s.match(/1st|2nd|3rd|4th|Last/gi)||[]).map(function(o){return map[o.toLowerCase()];});
+    if(!ords.length) return null;
+    for(var k=0;k<3;k++){
+      var base=new Date(today.getFullYear(),today.getMonth()+k,1), c=[];
+      ords.forEach(function(o){var x=nthWeekday(base.getFullYear(),base.getMonth(),wd,o);if(x&&x>=today)c.push(x);});
+      if(c.length){c.sort(function(a,b){return a-b;});return c[0];}
+    }
+    return null;
+  }
+  function fmtDay(x){return WD[x.getDay()]+', '+M3[x.getMonth()]+' '+x.getDate();}
+  function relDay(x){var diff=Math.round((x-today)/864e5);return diff===0?'Today':diff===1?'Tomorrow':fmtDay(x);}
+  function rangeText(e){
+    var s=d(e.start),en=d(e.end||e.start);
+    if(s.getTime()===en.getTime()) return fmtDay(s)+', '+s.getFullYear();
+    if(s.getMonth()===en.getMonth()&&s.getFullYear()===en.getFullYear()) return M3[s.getMonth()]+' '+s.getDate()+'–'+en.getDate()+', '+s.getFullYear();
+    return M3[s.getMonth()]+' '+s.getDate()+' – '+M3[en.getMonth()]+' '+en.getDate()+', '+en.getFullYear();
+  }
+  function tileBig(it){
+    var x=it.x;
+    if(it.kind==='meet'){
+      var s=String(x.schedule||'');
+      var m=s.match(/^Every (\w+)/i); if(m) return 'Every '+m[1];
+      m=s.match(/(1st and 3rd|1st|2nd|3rd|4th|Last) (\w+day)s? of the month/i); if(m) return m[1]+' '+m[2]+'s';
+      return x.day?x.day+'s':'Regular meet';
+    }
+    if(it.ongoing) return 'Open now';
+    var a=d(x.start),b=d(x.end||x.start);
+    if(a.getTime()===b.getTime()) return M3[a.getMonth()]+' '+a.getDate();
+    if(a.getMonth()===b.getMonth()) return M3[a.getMonth()]+' '+a.getDate()+'–'+b.getDate();
+    return M3[a.getMonth()]+' '+a.getDate()+'–'+M3[b.getMonth()]+' '+b.getDate();
+  }
+
+  // one list for everything
+  var ITEMS=[];
+  EV.forEach(function(e){
+    if(!e.start||d(e.end||e.start)<today) return;
+    var s=d(e.start);
+    ITEMS.push({kind:'event',x:e,next:s<today?today:s,ongoing:s<today});
+  });
+  MT.forEach(function(m){ITEMS.push({kind:'meet',x:m,next:nextOccur(m),ongoing:false});});
+  ITEMS.forEach(function(it){
+    var x=it.x; it.fam=FAM[x.type]||'show';
+    it.hay=[x.name,x.venue,x.city,x.state,STATES[x.state]||'',x.region,x.type,FAM_LABEL[it.fam],x.schedule,x.blurb,it.kind==='meet'?'recurring meet weekly monthly':'event'].join(' ').toLowerCase();
+  });
+
+  var st={q:'',sort:'upcoming',region:'',state:'',town:'',fam:'',pick:false,limit:PAGE};
+  try{
+    var p=new URLSearchParams(location.search);
+    st.q=p.get('q')||''; st.sort=['upcoming','all','recent'].indexOf(p.get('sort'))>-1?p.get('sort'):'upcoming';
+    st.region=p.get('region')||''; st.state=(p.get('state')||'').toUpperCase(); st.town=p.get('town')||'';
+    st.fam=FAM_LABEL[p.get('type')]?p.get('type'):''; st.pick=p.get('picks')==='1';
+    if(p.get('submitted')) document.getElementById('thanks').classList.add('show');
+  }catch(e){}
+
+  function syncUrl(){
+    try{
+      var p=new URLSearchParams();
+      if(st.q)p.set('q',st.q); if(st.sort!=='upcoming')p.set('sort',st.sort); if(st.region)p.set('region',st.region);
+      if(st.state)p.set('state',st.state); if(st.town)p.set('town',st.town); if(st.fam)p.set('type',st.fam); if(st.pick)p.set('picks','1');
+      var qs=p.toString(); history.replaceState(null,'',location.pathname+(qs?'?'+qs:'')+location.hash);
+    }catch(e){}
+  }
+
+  function matchLoc(it){
+    var x=it.x;
+    if(st.region&&x.region!==st.region) return false;
+    if(st.state&&x.state!==st.state) return false;
+    if(st.town&&x.city!==st.town) return false;
+    return true;
+  }
+  function qMatch(it){
+    if(!st.q) return true;
+    var w=st.q.toLowerCase().split(/\s+/).filter(Boolean);
+    for(var i=0;i<w.length;i++){if(it.hay.indexOf(w[i])===-1)return false;}
+    return true;
+  }
+  function matchRest(it){
+    if(st.fam&&it.fam!==st.fam) return false;
+    if(st.pick&&!it.x.pick) return false;
+    return qMatch(it);
+  }
+  function sorted(list){
+    var byName=function(a,b){return String(a.x.name).localeCompare(b.x.name);};
+    if(st.sort==='all') return list.sort(byName);
+    if(st.sort==='recent') return list.sort(function(a,b){return String(b.x.added||'').localeCompare(String(a.x.added||''))||((a.next||9e15)-(b.next||9e15))||byName(a,b);});
+    // dated things soonest first; exhibitions already open next (closing soonest first); irregular meets last
+    var rank=function(it){return it.ongoing?1:(it.next?0:2);};
+    return list.sort(function(a,b){
+      var r=rank(a)-rank(b); if(r) return r;
+      if(a.ongoing) return d(a.x.end)-d(b.x.end);
+      if(a.next) return (a.next-b.next)||((b.x.pick?1:0)-(a.x.pick?1:0))||byName(a,b);
+      return byName(a,b);
+    });
+  }
+
+  function card(it){
+    var x=it.x, u=safeUrl(x.url), ig=igUrl(x.instagram), main=u||ig, img=safeImg(x.image);
+    var tags=(it.kind==='meet'?'<span class="tag rec">Recurring</span>':'')+'<span class="tag t-'+it.fam+'">'+esc(x.type)+'</span>'+(x.status==='expected'?'<span class="tag exp">Dates expected</span>':'');
+    var media=img?'<img src="'+esc(img)+'" alt="'+esc(x.name)+'" loading="lazy">'
+      :'<div class="tile" style="--tc:'+FAM_COLOR[it.fam]+'"><span class="tile-k">'+esc(x.type)+'</span><span class="tile-big">'+esc(tileBig(it))+'</span>'+
+       '<span class="tile-s">'+esc([x.city,x.state].filter(Boolean).join(', '))+'</span><span class="tile-wm">CAR<span>VEYANCE</span></span></div>';
+    var when,next='';
+    if(it.kind==='meet'){
+      when=esc(x.schedule);
+      if(it.next) next='Next: '+relDay(it.next)+(x.time?' · '+esc(x.time):'');
+      else if(x.time) next=esc(x.time);
+    } else if(it.ongoing){
+      when='Open now'; var en=d(x.end); next='Closes '+fmtDay(en)+', '+en.getFullYear()+(x.cost?' · '+esc(x.cost):'');
+    } else {
+      when=esc(rangeText(x)); next=[x.time,x.cost].filter(Boolean).map(esc).join(' · ');
+    }
+    var where=[x.venue,[x.city,x.state].filter(Boolean).join(', ')].filter(Boolean).map(esc).join(' · ');
+    var links='';
+    if(u) links+='<a href="'+esc(u)+'" target="_blank" rel="noopener">Official site &#8599;</a>';
+    if(ig) links+='<a href="'+esc(ig)+'" target="_blank" rel="noopener">Instagram &#8599;</a>';
+    return '<article class="card">'+
+      '<div class="cimg">'+media+(x.pick?'<span class="pickbadge">Carveyance Pick</span>':'')+'</div>'+
+      '<div class="cbody"><div class="tags">'+tags+'</div>'+
+      '<h3>'+(main?'<a href="'+esc(main)+'" target="_blank" rel="noopener">'+esc(x.name)+'</a>':esc(x.name))+'</h3>'+
+      '<div class="when">'+when+'</div>'+(next?'<div class="next">'+next+'</div>':'')+
+      '<div class="where">'+where+'</div>'+
+      (x.blurb?'<p class="blurb">'+esc(x.blurb)+'</p>':'')+
+      (links?'<div class="clinks">'+links+'</div>':'')+'</div></article>';
+  }
+
+  function renderLocation(){
+    var base=ITEMS.filter(matchRest);
+    // regions
+    var rc={}; base.forEach(function(it){rc[it.x.region]=(rc[it.x.region]||0)+1;});
+    var h='<button type="button" class="chip'+(st.region?'':' on')+'" data-region="">Anywhere <span>'+base.length+'</span></button>';
+    REGION_ORDER.forEach(function(r){if(rc[r]) h+='<button type="button" class="chip'+(st.region===r?' on':'')+'" data-region="'+esc(r)+'">'+esc(r)+' <span>'+rc[r]+'</span></button>';});
+    document.getElementById('region-chips').innerHTML=h;
+    // states (within region)
+    var sc={}; base.filter(function(it){return !st.region||it.x.region===st.region;}).forEach(function(it){var s=it.x.state;if(s)sc[s]=(sc[s]||0)+1;});
+    var codes=Object.keys(sc).sort(function(a,b){return (STATES[a]||a).localeCompare(STATES[b]||b);});
+    if(st.state&&!sc[st.state]){st.state='';st.town='';}
+    var sel=document.getElementById('state');
+    sel.innerHTML='<option value="">Choose a state</option>'+codes.map(function(c){return '<option value="'+c+'"'+(st.state===c?' selected':'')+'>'+esc(STATES[c]||c)+' ('+sc[c]+')</option>';}).join('');
+    // towns
+    var row=document.getElementById('town-row');
+    if(st.state){
+      var tc={}; base.filter(function(it){return it.x.state===st.state&&(!st.region||it.x.region===st.region);}).forEach(function(it){var t=it.x.city;if(t)tc[t]=(tc[t]||0)+1;});
+      var towns=Object.keys(tc).sort();
+      if(st.town&&!tc[st.town]) st.town='';
+      document.getElementById('town-chips').innerHTML='<button type="button" class="chip'+(st.town?'':' on')+'" data-town="">All of '+esc(STATES[st.state]||st.state)+'</button>'+
+        towns.map(function(t){return '<button type="button" class="chip'+(st.town===t?' on':'')+'" data-town="'+esc(t)+'">'+esc(t)+' <span>'+tc[t]+'</span></button>';}).join('');
+      row.hidden=false;
+    } else row.hidden=true;
+    var now=[st.town,st.state?(STATES[st.state]||st.state):'',(!st.state&&st.region)?st.region:''].filter(Boolean).join(', ');
+    document.getElementById('loc-now').textContent=now||'Anywhere';
+  }
+
+  function renderTypes(){
+    var base=ITEMS.filter(function(it){return matchLoc(it)&&(!st.pick||it.x.pick)&&qMatch(it);});
+    var c={}; base.forEach(function(it){c[it.fam]=(c[it.fam]||0)+1;});
+    var h='<button type="button" class="chip'+(st.fam?'':' on')+'" data-fam="">All types <span>'+base.length+'</span></button>';
+    FAM_ORDER.forEach(function(f){if(c[f]) h+='<button type="button" class="chip'+(st.fam===f?' on':'')+'" data-fam="'+f+'">'+FAM_LABEL[f]+' <span>'+c[f]+'</span></button>';});
+    var bar=document.getElementById('type-chips');
+    bar.querySelectorAll('.chip').forEach(function(n){n.remove();});
+    bar.insertAdjacentHTML('afterbegin',h);
+  }
+
+  function render(){
+    document.getElementById('q').value=st.q; document.getElementById('sort').value=st.sort; document.getElementById('pick-only').checked=st.pick;
+    renderLocation(); renderTypes();
+    var list=sorted(ITEMS.filter(function(it){return matchLoc(it)&&matchRest(it);}));
+    var shown=list.slice(0,st.limit), grid=document.getElementById('grid');
+    grid.innerHTML=shown.length?shown.map(card).join(''):'<div class="empty"><h3>Nothing here yet</h3><p>Try another town or type, or send us one we should list.</p></div>';
+    document.getElementById('more').hidden=list.length<=st.limit;
+    var filtered=st.q||st.region||st.state||st.town||st.fam||st.pick;
+    document.getElementById('count').innerHTML='Showing <b>'+shown.length+'</b> of <b>'+list.length+'</b>'+(filtered?' &nbsp;<button type="button" class="clear" id="clear">Clear filters</button>':' events and regular meets');
+    syncUrl();
+  }
+
+  if(typeof EVENTS_UPDATED!=='undefined'){var u=d(EVENTS_UPDATED);document.getElementById('updated').textContent='Updated '+MF[u.getMonth()]+' '+u.getDate()+', '+u.getFullYear();}
+
+  var qEl=document.getElementById('q'), t=null;
+  function runSearch(){st.q=qEl.value.trim();st.limit=PAGE;render();}
+  document.getElementById('search').addEventListener('submit',function(e){e.preventDefault();runSearch();});
+  qEl.addEventListener('input',function(){clearTimeout(t);t=setTimeout(runSearch,220);});
+  document.getElementById('sort').addEventListener('change',function(){st.sort=this.value;st.limit=PAGE;render();});
+  document.getElementById('region-chips').addEventListener('click',function(e){var c=e.target.closest('.chip');if(!c)return;st.region=c.getAttribute('data-region');st.state='';st.town='';st.limit=PAGE;render();});
+  document.getElementById('state').addEventListener('change',function(){st.state=this.value;st.town='';st.limit=PAGE;render();});
+  document.getElementById('town-chips').addEventListener('click',function(e){var c=e.target.closest('.chip');if(!c)return;st.town=c.getAttribute('data-town');st.limit=PAGE;render();});
+  document.getElementById('type-chips').addEventListener('click',function(e){var c=e.target.closest('.chip');if(!c)return;st.fam=c.getAttribute('data-fam');st.limit=PAGE;render();});
+  document.getElementById('pick-only').addEventListener('change',function(){st.pick=this.checked;st.limit=PAGE;render();});
+  document.getElementById('more-btn').addEventListener('click',function(){st.limit+=PAGE;render();});
+  document.addEventListener('click',function(e){if(e.target&&e.target.id==='clear'){st={q:'',sort:st.sort,region:'',state:'',town:'',fam:'',pick:false,limit:PAGE};render();}});
+  if(st.region||st.state) document.getElementById('loc').open=true;
+  render();
+})();
+</script>
+</body>
+</html>

@@ -24,6 +24,12 @@
   [headers.values]
     Cache-Control = "public, max-age=0, must-revalidate"
 
+# Same for the events list, or new events won't appear until caches expire.
+[[headers]]
+  for = "/events.js"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
 # Sensible security headers site-wide
 [[headers]]
   for = "/*"

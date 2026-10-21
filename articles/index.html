@@ -30,7 +30,9 @@ nav{height:64px;display:flex;align-items:center;justify-content:space-between;
 .nav-sub{font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
   background:var(--accent);color:var(--white);padding:9px 18px;border-radius:3px;white-space:nowrap}
 .nav-sub:hover{background:#c44e20}
-@media(max-width:1180px){.nav-center{display:none}}
+.nav-brand,.nav-sub{flex-shrink:0}
+.nav-sub{white-space:nowrap}
+@media(max-width:1260px){.nav-center{display:none}}
 
 .ahead{background:var(--cloud);padding:56px 0 46px;border-bottom:1px solid var(--rule)}
 .crumb{font-size:10px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--mid);margin-bottom:14px}
@@ -88,9 +90,12 @@ footer .fw span{color:var(--sky)}
     <a href="/articles/" class="on">All Stories</a>
     <a href="/categories/how-it-works/">How It Works</a>
     <a href="/categories/reviews/">Reviews</a>
+    <a href="/categories/comparisons/">Comparisons</a>
     <a href="/categories/opinions/">Opinions</a>
     <a href="/categories/fun-facts/">Fun Facts</a>
     <a href="/categories/car-culture/">Car Culture</a>
+    <a href="/categories/news/">News</a>
+    <a href="/events/">Events</a>
     <a href="/about/">About</a>
   </div>
   <a class="nav-sub" href="/#submit">Write for Us</a>

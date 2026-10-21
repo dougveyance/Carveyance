@@ -146,7 +146,8 @@ def write_sitemap(arts):
     rows = [(f"{SITE}/", today, "daily", "1.0"),
             (f"{SITE}/articles/", today, "daily", "0.9"),
             (f"{SITE}/about/", today, "monthly", "0.5"),
-            (f"{SITE}/subscribe/", today, "monthly", "0.6")]
+            (f"{SITE}/subscribe/", today, "monthly", "0.6"),
+            (f"{SITE}/events/", today, "weekly", "0.8")]
     rows += [(f"{SITE}/categories/{c}/", today, "weekly", "0.7") for c in CATS]
     rows += [(f"{SITE}/articles/{a['slug']}/", a["date"], "monthly", "0.8") for a in arts]
     xml = ['<?xml version="1.0" encoding="UTF-8"?>',

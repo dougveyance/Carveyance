@@ -19,7 +19,7 @@
 const HERO_MODE = "daily";
 
 const CATEGORIES = [
-  "How It Works", "Reviews", "Comparisons", "Car Culture", "Road Trips",
+  "How It Works", "Reviews", "Comparisons", "Car Culture", "Owner's Manual", "Road Trips",
   "Opinions", "Advice & Tips", "Fun Facts", "Short Stories",
   "Interviews", "News"
 ];
@@ -257,12 +257,17 @@ function initCategory() {
 
   if (!grid) return;
   if (!arts.length) {
+    /* a category page can set its own empty message with data-empty-* attributes */
+    const eT = root.getAttribute("data-empty-title") || "Nothing here yet";
+    const eP = root.getAttribute("data-empty-text") || "This section is just getting started. Check back soon — or pitch us something.";
+    const eH = root.getAttribute("data-empty-href") || "/#submit";
+    const eL = root.getAttribute("data-empty-label") || "Submit a Story";
     grid.innerHTML = `
       <div class="cat-empty">
         <div class="cat-empty-icon">✎</div>
-        <h3>Nothing here yet</h3>
-        <p>This section is just getting started. Check back soon — or pitch us something.</p>
-        <a href="/#submit" class="rmore">Submit a Story</a>
+        <h3>${esc(eT)}</h3>
+        <p>${esc(eP)}</p>
+        <a href="${esc(eH)}" class="rmore">${esc(eL)}</a>
       </div>`;
     grid.style.gridTemplateColumns = "1fr";
   } else {

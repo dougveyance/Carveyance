@@ -24,6 +24,7 @@ nav{height:64px;display:flex;align-items:center;justify-content:space-between;
 .nav-brand{font-family:'Bebas Neue',sans-serif;font-size:26px;letter-spacing:.08em;color:var(--white)}
 .nav-brand span{color:var(--sky)}
 .nav-center{display:flex;gap:22px}
+@media(max-width:1500px){.nav-center{gap:14px}} /* cv-gap */
 .nav-center a{font-size:11px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;
   color:rgba(255,255,255,.62);transition:color .2s}
 .nav-center a:hover,.nav-center a.on{color:var(--white)}
@@ -79,6 +80,7 @@ footer{background:var(--ink);color:rgba(255,255,255,.5);padding:36px 0;text-alig
 footer .fw{font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:.08em;color:var(--white);
   display:block;margin-bottom:10px}
 footer .fw span{color:var(--sky)}
+footer .fl{margin-top:12px;font-size:12px;letter-spacing:.04em}footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
 </style>
 </head>
 <body>
@@ -94,6 +96,7 @@ footer .fw span{color:var(--sky)}
     <a href="/categories/opinions/">Opinions</a>
     <a href="/categories/fun-facts/">Fun Facts</a>
     <a href="/categories/car-culture/">Car Culture</a>
+    <a href="/categories/owners-manual/">Owner's Manual</a>
     <a href="/categories/news/">News</a>
     <a href="/events/">Events</a>
     <a href="/about/">About</a>
@@ -125,6 +128,7 @@ footer .fw span{color:var(--sky)}
 <footer>
   <a class="fw" href="/">Car<span>veyance</span></a>
   &copy; 2026 Carveyance — For the love of the drive.
+  <div class="fl"><a href="/events/">Events</a> &middot; <a href="/categories/owners-manual/">Owner's Manual</a> &middot; <a href="/advertise/">Advertise &amp; Partner</a></div>
 </footer>
 
 <script src="/articles.js"></script>

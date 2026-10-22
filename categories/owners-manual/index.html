@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Owner's Manual — Carveyance</title>
+<meta name="description" content="Owner's Manual: readers' cars, in their owners' words. Tell us about yours and it could be next.">
+<link rel="canonical" href="https://carveyance.com/categories/owners-manual/">
+<meta property="og:title" content="Owner's Manual — Carveyance">
+<meta property="og:description" content="Readers' cars, in their owners' words. Tell us about yours.">
+<meta property="og:url" content="https://carveyance.com/categories/owners-manual/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+:root{
+  --steel:#2E6E96; --deep:#1B4E6B; --sky:#4E8DB5; --mist:#f0f3f7; --cloud:#e4ecf3;
+  --ink:#141820; --slate:#3a4553; --mid:#6b7684; --rule:#d0dae4; --white:#fff; --accent:#e05c2a;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',sans-serif;background:var(--white);color:var(--ink);-webkit-font-smoothing:antialiased}
+a{text-decoration:none;color:inherit}
+.wrap{max-width:1240px;margin:0 auto;padding:0 40px}
+
+nav{height:64px;display:flex;align-items:center;justify-content:space-between;
+  padding:0 40px;background:var(--ink);position:sticky;top:0;z-index:60}
+.nav-brand{font-family:'Bebas Neue',sans-serif;font-size:26px;letter-spacing:.08em;color:var(--white)}
+.nav-brand span{color:var(--sky)}
+.nav-center{display:flex;gap:18px}
+.nav-center a{font-size:11px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;
+  color:rgba(255,255,255,.62);transition:color .2s}
+.nav-center a:hover,.nav-center a.on{color:var(--white)}
+.nav-sub{font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
+  background:var(--accent);color:var(--white);padding:9px 18px;border-radius:3px}
+.nav-brand,.nav-sub{flex-shrink:0}
+.nav-sub{white-space:nowrap}
+@media(max-width:1260px){.nav-center{display:none}}
+
+.chead{background:var(--cloud);padding:56px 0 48px;border-bottom:1px solid var(--rule)}
+.crumb{font-size:10px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--mid);margin-bottom:14px}
+.crumb a:hover{color:var(--steel)}
+.ctitle{font-family:'Bebas Neue',sans-serif;font-size:clamp(46px,8vw,78px);line-height:.95;letter-spacing:.02em}
+.cblurb{font-size:15px;font-weight:300;color:var(--slate);line-height:1.7;max-width:620px;margin-top:14px}
+#cat-count{display:inline-block;margin-top:18px;font-size:10px;font-weight:600;letter-spacing:.16em;
+  text-transform:uppercase;background:var(--steel);color:var(--white);padding:5px 13px;border-radius:20px}
+
+.sec{padding:56px 0 80px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.card{cursor:pointer;display:block}
+.card-img{overflow:hidden;aspect-ratio:3/2;background:#ccd5df;margin-bottom:16px}
+.card-img img{width:100%;height:100%;object-fit:cover;opacity:.9;
+  transition:transform .55s cubic-bezier(.23,1,.32,1)}
+.card:hover .card-img img{transform:scale(1.06);opacity:1}
+.card-cat{font-size:9px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--steel);margin-bottom:8px}
+.card-hed{font-family:'DM Serif Display',serif;font-size:20px;line-height:1.2;margin-bottom:8px;transition:color .2s}
+.card:hover .card-hed{color:var(--steel)}
+.card-dek{font-size:13px;color:var(--mid);line-height:1.6;margin-bottom:10px}
+.card-meta{font-size:11px;letter-spacing:.06em;color:var(--mid)}
+.card-meta .dot{color:var(--sky);font-size:7px;vertical-align:middle;margin:0 5px}
+@media(max-width:900px){.grid3{grid-template-columns:1fr}.wrap{padding:0 20px}nav{padding:0 20px}}
+
+.cat-empty{text-align:center;padding:70px 20px;border:1px dashed var(--rule);background:var(--mist)}
+.cat-empty-icon{font-size:34px;color:var(--sky);margin-bottom:10px}
+.cat-empty h3{font-family:'DM Serif Display',serif;font-size:26px;margin-bottom:8px}
+.cat-empty p{font-size:14px;font-weight:300;color:var(--mid);margin-bottom:20px}
+.rmore{display:inline-block;font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
+  background:var(--accent);color:var(--white);padding:12px 24px;border-radius:3px}
+.rmore:hover{background:#c44e20}
+
+.othercats{border-top:1px solid var(--rule);padding:40px 0 70px}
+.oc-label{font-size:10px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--mid);margin-bottom:16px}
+.oc-list{display:flex;flex-wrap:wrap;gap:10px}
+.oc-list a{font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;
+  border:1px solid var(--rule);color:var(--slate);padding:9px 15px;border-radius:20px;transition:.2s}
+.oc-list a:hover{background:var(--steel);color:var(--white);border-color:var(--steel)}
+
+footer{background:var(--ink);color:rgba(255,255,255,.5);padding:36px 0;text-align:center;
+  font-size:11px;letter-spacing:.08em}
+footer .fw{font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:.08em;color:var(--white);display:block;margin-bottom:10px}
+footer .fw span{color:var(--sky)}
+.hero-cta{display:inline-block;margin-top:18px;margin-right:16px;font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--steel);border-bottom:1px solid currentColor;padding-bottom:2px}
+.tell{background:var(--ink);color:var(--white);padding:70px 0 80px}
+.tell-in{display:grid;grid-template-columns:1fr 1.15fr;gap:56px;align-items:start}
+.tell .eyebrow{font-family:'Bebas Neue',sans-serif;font-size:13px;letter-spacing:.3em;color:var(--sky);margin-bottom:10px}
+.tell h2{font-family:'DM Serif Display',serif;font-weight:400;font-size:clamp(30px,4vw,42px);line-height:1.12;margin-bottom:20px}
+.tell h2 em{font-style:italic;color:var(--sky)}
+.tell-copy p{font-size:16px;line-height:1.8;font-weight:300;color:rgba(255,255,255,.82);margin-bottom:18px}
+.tell-list{list-style:none;margin-top:8px;border-top:1px solid rgba(255,255,255,.12)}
+.tell-list li{font-size:14.5px;line-height:1.6;color:rgba(255,255,255,.78);padding:12px 0;border-bottom:1px solid rgba(255,255,255,.12)}
+.tell-list b{color:var(--white);font-weight:600}
+.oform{background:var(--white);color:var(--ink);border-radius:6px;padding:28px 28px 30px}
+.oform .row{margin-bottom:16px}.oform .row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.oform label{display:block;font-size:12px;font-weight:600;letter-spacing:.04em;color:var(--slate);margin-bottom:6px}
+.oform input[type=text],.oform input[type=email],.oform input[type=url],.oform textarea{width:100%;font-family:'DM Sans',sans-serif;font-size:15px;color:var(--ink);
+  padding:11px 13px;border:1px solid var(--rule);border-radius:4px;background:var(--white)}
+.oform textarea{min-height:96px;resize:vertical;line-height:1.55}
+.oform input:focus,.oform textarea:focus{outline:none;border-color:var(--steel)}
+.oform .hint{font-size:12px;color:var(--mid);line-height:1.5;margin-top:4px}
+.oform .consent{display:flex;gap:10px;align-items:flex-start;font-weight:400;font-size:13.5px;line-height:1.5;color:var(--slate);letter-spacing:0}
+.oform .consent input{margin-top:3px;flex-shrink:0}
+.oform button{font-family:'DM Sans',sans-serif;font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;background:var(--accent);color:var(--white);
+  border:none;border-radius:3px;padding:15px 28px;cursor:pointer;margin-top:6px}
+.oform button:hover{background:#c44e20}
+.oform .hp{position:absolute;left:-9999px}
+.othanks{display:none;background:#e5f4e4;color:#1d4d1c;border-radius:4px;padding:14px 16px;font-size:15px;line-height:1.5;margin-bottom:18px}
+.othanks.show{display:block}
+@media(max-width:900px){.tell-in{grid-template-columns:1fr;gap:34px}.oform{padding:22px 18px}.oform .row2{grid-template-columns:1fr}}
+footer .fl{margin-top:12px;font-size:12px;letter-spacing:.04em}footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="/">Car<span>veyance</span></a>
+  <div class="nav-center">
+    <a href="/">Home</a>
+    <a href="/articles/">All Stories</a>
+    <a href="/categories/how-it-works/">How It Works</a>
+    <a href="/categories/reviews/">Reviews</a>
+    <a href="/categories/comparisons/">Comparisons</a>
+    <a href="/categories/opinions/">Opinions</a>
+    <a href="/categories/fun-facts/">Fun Facts</a>
+    <a href="/categories/car-culture/">Car Culture</a>
+    <a href="/categories/owners-manual/" class="on">Owner's Manual</a>
+    <a href="/categories/news/">News</a>
+    <a href="/events/">Events</a>
+    <a href="/about/">About</a>
+  </div>
+  <a class="nav-sub" href="/#submit">Submit a Story</a>
+</nav>
+
+<header class="chead">
+  <div class="wrap">
+    <div class="crumb"><a href="/">Carveyance</a> &nbsp;/&nbsp; Categories</div>
+    <h1 class="ctitle">Owner's Manual</h1>
+    <p class="cblurb">Readers' cars, in their owners' words. The one you saved up for, inherited, rescued or kept far longer than anyone expected, and what it's like to live with.</p>
+    <a class="hero-cta" href="#tell-us">Tell us about your car &darr;</a>
+    <div id="cat-count"></div>
+  </div>
+</header>
+
+<section class="sec" id="cat-root" data-category="Owner's Manual" data-empty-title="The first ones are on their way" data-empty-text="Owner's Manual is brand new. Tell us about your car and it could be one of the first we feature." data-empty-href="#tell-us" data-empty-label="Tell Us About Your Car">
+  <div class="wrap">
+    <div class="grid3" id="cat-grid"></div>
+  </div>
+</section>
+
+<section class="tell" id="tell-us">
+  <div class="wrap tell-in">
+    <div class="tell-copy">
+      <div class="eyebrow">Get your car in Owner's Manual</div>
+      <h2>Tell us about <em>your car</em></h2>
+      <p>Every car in Owner's Manual belongs to a reader. It doesn't have to be rare, fast or expensive. A 20-year-old commuter that has never let you down counts as much as a concours winner, as long as there's a story in it.</p>
+      <p>We read them all. If we pick yours, we'll write it up from your answers, quote you by name and ask for the rest of your photos at full size.</p>
+      <ul class="tell-list">
+        <li><b>Photos:</b> paste a link to a few shots (a shared album or an Instagram post). If we pick your car, we'll ask you to email the full-size photos.</li>
+        <li><b>Your own photos:</b> taken by you, or by a photographer who's happy for us to use them.</li>
+        <li><b>Never paid for:</b> nobody buys their way into Owner's Manual.</li>
+      </ul>
+    </div>
+    <form class="oform" name="owners-manual" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/categories/owners-manual/?submitted=1#tell-us">
+      <div class="othanks" id="othanks">Thanks. We read them all, and if we pick your car we'll be in touch by email.</div>
+      <input type="hidden" name="form-name" value="owners-manual">
+      <p class="hp"><label>Leave blank: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+      <div class="row row2">
+        <div><label for="o-name">Your name</label><input id="o-name" type="text" name="name" required autocomplete="name"></div>
+        <div><label for="o-email">Your email</label><input id="o-email" type="email" name="email" required autocomplete="email"></div>
+      </div>
+      <div class="row row2">
+        <div><label for="o-town">Where you and the car live</label><input id="o-town" type="text" name="town" required placeholder="Town, State"></div>
+        <div><label for="o-ig">Instagram (optional)</label><input id="o-ig" type="text" name="instagram" placeholder="@handle"></div>
+      </div>
+      <div class="row row2">
+        <div><label for="o-car">The car</label><input id="o-car" type="text" name="car" required placeholder="Year, make and model"></div>
+        <div><label for="o-owned">How long you've had it</label><input id="o-owned" type="text" name="owned" required placeholder="Since 2011"></div>
+      </div>
+      <div class="row"><label for="o-story">How did it come into your life?</label><textarea id="o-story" name="story" required></textarea></div>
+      <div class="row"><label for="o-drive">What's it like to drive, and to live with?</label><textarea id="o-drive" name="drive"></textarea></div>
+      <div class="row"><label for="o-changes">What have you changed, and what would you never change?</label><textarea id="o-changes" name="changes"></textarea></div>
+      <div class="row"><label for="o-best">The best day you've had with it</label><textarea id="o-best" name="best_day"></textarea></div>
+      <div class="row"><label for="o-album">Link to your photos</label><input id="o-album" type="url" name="album" placeholder="https://"><div class="hint">A shared Google Photos, iCloud or Dropbox album, or an Instagram post. A shot of the whole car in good light helps most.</div></div>
+      <div class="row"><label class="consent"><input type="checkbox" name="photo_rights" value="yes" required> I took my photos (or have the photographer's permission), and Carveyance may publish them with my story, with credit.</label></div>
+      <div class="row"><label class="consent"><input type="checkbox" name="edit_ok" value="yes" required> Carveyance may edit my answers for length and clarity, and quote me by name.</label></div>
+      <button type="submit">Send It In &rarr;</button>
+    </form>
+  </div>
+</section>
+
+<section class="othercats">
+  <div class="wrap">
+    <div class="oc-label">Browse other categories</div>
+    <div class="oc-list">
+      <a href="/categories/how-it-works/">How It Works</a>
+      <a href="/categories/reviews/">Reviews</a>
+      <a href="/categories/comparisons/">Comparisons</a>
+      <a href="/categories/car-culture/">Car Culture</a>
+      <a href="/categories/road-trips/">Road Trips</a>
+      <a href="/categories/opinions/">Opinions</a>
+      <a href="/categories/advice-tips/">Advice &amp; Tips</a>
+      <a href="/categories/fun-facts/">Fun Facts</a>
+      <a href="/categories/short-stories/">Short Stories</a>
+      <a href="/categories/interviews/">Interviews</a>
+      <a href="/categories/news/">News</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <a class="fw" href="/">Car<span>veyance</span></a>
+  &copy; 2026 Carveyance — For the love of the drive.
+  <div class="fl"><a href="/events/">Events</a> &middot; <a href="/categories/owners-manual/">Owner's Manual</a> &middot; <a href="/advertise/">Advertise &amp; Partner</a></div>
+</footer>
+
+<script src="/articles.js"></script>
+<script src="/assets/js/carveyance.js"></script>
+<script>
+(function(){
+  if(/[?&]submitted=1/.test(location.search)){document.getElementById('othanks').classList.add('show');}
+})();
+</script>
+<script src="/assets/js/cv-menu.js" defer></script>
+</body>
+</html>

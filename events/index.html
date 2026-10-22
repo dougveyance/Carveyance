@@ -267,6 +267,27 @@ footer .fw span{color:var(--sky)}
 .install:hover{background:var(--ink);color:#fff}
 .install-tip{font-size:13px;color:var(--slate)}
 @media(max-width:760px){#map{height:70vh}.status{flex-direction:column;align-items:flex-start}}
+.tip{background:var(--cloud);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:34px 0}
+.tip-in{display:grid;grid-template-columns:1fr 1.5fr;gap:32px;align-items:center}
+.tip h2{font-family:'DM Serif Display',serif;font-weight:400;font-size:26px;line-height:1.15;margin-bottom:6px}
+.tip-txt p{font-size:14.5px;line-height:1.6;color:var(--slate)}
+.tipform{display:flex;flex-direction:column;gap:10px}.tip-row{display:flex;gap:10px}
+.tipform input{font-family:'DM Sans',sans-serif;font-size:15px;padding:12px 14px;border:1px solid var(--rule);border-radius:8px;background:#fff;color:var(--ink);width:100%;min-width:0}
+.tipform input:focus{outline:none;border-color:var(--steel)}
+.tipform button{align-self:flex-start;font-family:'DM Sans',sans-serif;font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;background:var(--deep);color:#fff;border:none;border-radius:999px;padding:12px 22px;cursor:pointer}
+.tipform button:hover{background:var(--steel)}
+.tip .hp,.tip .sr{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.tip-thanks{margin-top:10px;font-weight:600;color:var(--deep)}
+@media(max-width:820px){.tip-in{grid-template-columns:1fr;gap:16px}.tip-row{flex-direction:column}}
+.bystate{padding:44px 0 36px;border-top:1px solid var(--rule)}
+.bystate h2{font-family:'Bebas Neue',sans-serif;font-weight:400;font-size:30px;letter-spacing:.05em;margin-bottom:14px}
+.states{list-style:none;display:flex;flex-wrap:wrap;gap:8px}
+.states a{display:inline-block;font-size:13px;font-weight:500;border:1px solid var(--rule);border-radius:999px;padding:7px 13px;color:var(--slate)}
+.states a:hover{border-color:var(--steel);color:var(--steel)}.states span{color:var(--mid);font-size:12px;margin-left:5px}
+.chip.pagelink{border-style:dashed;color:var(--steel)}
+.sfield.when{flex:0 0 190px}
+@media(max-width:760px){.sfield.when{flex:1 1 auto}}
+footer .fl{margin-top:12px;font-size:12px;letter-spacing:.04em}footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
 </style>
 </head>
 <body>
@@ -282,6 +303,7 @@ footer .fw span{color:var(--sky)}
     <a href="/categories/opinions/">Opinions</a>
     <a href="/categories/fun-facts/">Fun Facts</a>
     <a href="/categories/car-culture/">Car Culture</a>
+    <a href="/categories/owners-manual/">Owner's Manual</a>
     <a href="/categories/news/">News</a>
     <a href="/events/" class="on">Events</a>
     <a href="/about/">About</a>
@@ -301,6 +323,14 @@ footer .fw span{color:var(--sky)}
       <div class="sfield">
         <label for="q">Keyword</label>
         <input id="q" type="search" placeholder="Event name, venue, town, car…" autocomplete="off">
+      </div>
+      <div class="sfield sort when">
+        <label for="when">When</label>
+        <select id="when">
+          <option value="">Any time</option>
+          <option value="weekend">This weekend</option>
+          <option value="30">Next 30 days</option>
+        </select>
       </div>
       <div class="sfield sort">
         <label for="sort">Sort by</label>
@@ -366,9 +396,28 @@ footer .fw span{color:var(--sky)}
     <div class="grid" id="grid"></div>
     <div id="map" hidden></div>
     <div class="more" id="more" hidden><button type="button" id="more-btn">Show more</button></div>
-    <p class="notice">Dates, times and venues come from each organizer and can change without much warning. Meets get rained out, moved or canceled, so check the official site or Instagram before you set off. Know one we missed? <a href="#submit" style="color:var(--steel);border-bottom:1px solid currentColor">Send it in</a>. Saved events stay on this phone or browser only. Distances are measured to the town, not the exact venue. <span id="updated"></span></p>
+    <p class="notice">Dates, times and venues come from each organizer and can change without much warning. Meets get rained out, moved or canceled, so check the official site or Instagram before you set off. Know one we missed? <a href="#tip" style="color:var(--steel);border-bottom:1px solid currentColor">Send us a tip</a>. Saved events stay on this phone or browser only. Distances are measured to the town, not the exact venue. <span id="updated"></span></p>
   </div>
 </section>
+
+<!-- state-links:start -->
+<section class="bystate" aria-label="Car events by state"><div class="wrap"><h2>Car events by state</h2><ul class="states"><li><a href="/events/los-angeles/">Los Angeles &amp; the South Bay<span>57</span></a></li><li><a href="/events/alabama/">Alabama<span>3</span></a></li><li><a href="/events/alaska/">Alaska<span>2</span></a></li><li><a href="/events/arizona/">Arizona<span>14</span></a></li><li><a href="/events/arkansas/">Arkansas<span>5</span></a></li><li><a href="/events/california/">California<span>102</span></a></li><li><a href="/events/colorado/">Colorado<span>5</span></a></li><li><a href="/events/connecticut/">Connecticut<span>7</span></a></li><li><a href="/events/delaware/">Delaware<span>1</span></a></li><li><a href="/events/florida/">Florida<span>23</span></a></li><li><a href="/events/georgia/">Georgia<span>11</span></a></li><li><a href="/events/hawaii/">Hawaii<span>1</span></a></li><li><a href="/events/illinois/">Illinois<span>7</span></a></li><li><a href="/events/indiana/">Indiana<span>5</span></a></li><li><a href="/events/iowa/">Iowa<span>4</span></a></li><li><a href="/events/kansas/">Kansas<span>4</span></a></li><li><a href="/events/kentucky/">Kentucky<span>7</span></a></li><li><a href="/events/louisiana/">Louisiana<span>5</span></a></li><li><a href="/events/maine/">Maine<span>4</span></a></li><li><a href="/events/maryland/">Maryland<span>4</span></a></li><li><a href="/events/massachusetts/">Massachusetts<span>5</span></a></li><li><a href="/events/michigan/">Michigan<span>9</span></a></li><li><a href="/events/minnesota/">Minnesota<span>7</span></a></li><li><a href="/events/mississippi/">Mississippi<span>3</span></a></li><li><a href="/events/missouri/">Missouri<span>4</span></a></li><li><a href="/events/montana/">Montana<span>1</span></a></li><li><a href="/events/nebraska/">Nebraska<span>4</span></a></li><li><a href="/events/nevada/">Nevada<span>13</span></a></li><li><a href="/events/new-hampshire/">New Hampshire<span>1</span></a></li><li><a href="/events/new-jersey/">New Jersey<span>5</span></a></li><li><a href="/events/new-mexico/">New Mexico<span>1</span></a></li><li><a href="/events/new-york/">New York<span>15</span></a></li><li><a href="/events/north-carolina/">North Carolina<span>12</span></a></li><li><a href="/events/north-dakota/">North Dakota<span>4</span></a></li><li><a href="/events/ohio/">Ohio<span>9</span></a></li><li><a href="/events/oklahoma/">Oklahoma<span>5</span></a></li><li><a href="/events/oregon/">Oregon<span>6</span></a></li><li><a href="/events/pennsylvania/">Pennsylvania<span>18</span></a></li><li><a href="/events/rhode-island/">Rhode Island<span>5</span></a></li><li><a href="/events/south-carolina/">South Carolina<span>6</span></a></li><li><a href="/events/south-dakota/">South Dakota<span>1</span></a></li><li><a href="/events/tennessee/">Tennessee<span>6</span></a></li><li><a href="/events/texas/">Texas<span>22</span></a></li><li><a href="/events/utah/">Utah<span>3</span></a></li><li><a href="/events/vermont/">Vermont<span>2</span></a></li><li><a href="/events/virginia/">Virginia<span>4</span></a></li><li><a href="/events/washington/">Washington<span>10</span></a></li><li><a href="/events/wisconsin/">Wisconsin<span>5</span></a></li><li><a href="/events/wyoming/">Wyoming<span>2</span></a></li></ul></div></section>
+<!-- state-links:end -->
+
+<section class="tip" id="tip"><div class="wrap tip-in">
+  <div class="tip-txt"><h2>Know one we're missing?</h2><p>Send a tip. A name, a town and a day are plenty; we'll find the details and check them before anything goes up.</p></div>
+  <div>
+  <form class="tipform" name="event-tip" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/events/?tip=1#tip">
+    <input type="hidden" name="form-name" value="event-tip"><input type="hidden" name="page" value="events">
+    <p class="hp"><label>Leave blank: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+    <label class="sr" for="tip-what">Your tip</label><input id="tip-what" type="text" name="tip" required placeholder="What, where and when">
+    <div class="tip-row"><label class="sr" for="tip-link">Link or Instagram</label><input id="tip-link" type="text" name="link" placeholder="Link or @Instagram, if you have one">
+      <label class="sr" for="tip-email">Your email</label><input id="tip-email" type="email" name="email" placeholder="Your email (optional)"></div>
+    <button type="submit">Send tip &rarr;</button>
+  </form>
+  <p class="tip-thanks" id="tip-thanks" hidden>Thanks for the tip. We'll look into it.</p>
+  </div>
+</div></section>
 
 <section class="submit" id="submit">
   <div class="wrap submit-inner">
@@ -377,6 +426,7 @@ footer .fw span{color:var(--sky)}
       <p>Send it in. Cars &amp; Coffee in a hardware-store parking lot counts as much as a concours on a golf course. If it has a website or an Instagram account and people bring interesting cars to it, we want it on this page.</p>
       <p>We check every submission against the organizer's own page before it goes up, so include the link. Send a flyer or a photo you took and it can go on the event's card.</p>
       <p>Organizers: if a listed event is moved, changed or canceled, choose &ldquo;Update or cancellation&rdquo; below and we'll put a notice on its card.</p>
+      <p>Every listing here is free. For extra reach, ask about a <a href="/advertise/" style="color:var(--steel);border-bottom:1px solid currentColor">sponsored listing</a>.</p>
     </div>
     <form class="sform" name="event-submission" method="POST" data-netlify="true" netlify-honeypot="bot-field" enctype="multipart/form-data" action="/events/?submitted=1#submit">
       <div class="thanks" id="thanks">Thanks. We'll check it against the organizer's page and add it if it fits.</div>
@@ -406,6 +456,7 @@ footer .fw span{color:var(--sky)}
 <footer>
   <a class="fw" href="/">Car<span>veyance</span></a>
   &copy; 2026 Carveyance — For the love of the drive.
+  <div class="fl"><a href="/events/">Events</a> &middot; <a href="/categories/owners-manual/">Owner's Manual</a> &middot; <a href="/advertise/">Advertise &amp; Partner</a></div>
 </footer>
 
 <div id="calmenu" hidden role="menu">
@@ -473,13 +524,14 @@ footer .fw span{color:var(--sky)}
   });
   var BYID={}; ITEMS.forEach(function(it){BYID[it.x.id]=it;});
 
-  var st={q:'',sort:'upcoming',region:'',state:'',town:'',fam:'',pick:false,saved:false,radius:0,view:'grid',limit:PAGE,me:null};
+  var st={q:'',sort:'upcoming',when:'',region:'',state:'',town:'',fam:'',pick:false,saved:false,radius:0,view:'grid',limit:PAGE,me:null};
   try{
     var p=new URLSearchParams(location.search);
     st.q=p.get('q')||''; st.sort=['upcoming','all','recent'].indexOf(p.get('sort'))>-1?p.get('sort'):'upcoming';
     st.region=p.get('region')||''; st.state=(p.get('state')||'').toUpperCase(); st.town=p.get('town')||'';
     st.fam=FAM_LABEL[p.get('type')]?p.get('type'):''; st.pick=p.get('picks')==='1'; st.saved=p.get('saved')==='1';
-    st.view=p.get('view')==='map'?'map':'grid';
+    st.view=p.get('view')==='map'?'map':'grid'; st.when=['weekend','30'].indexOf(p.get('when'))>-1?p.get('when'):'';
+    if(p.get('tip')){var tt=document.getElementById('tip-thanks');if(tt)tt.hidden=false;}
     if(p.get('submitted')) document.getElementById('thanks').classList.add('show');
     var cached=JSON.parse(sessionStorage.getItem('cv-me')||'null'); if(cached&&typeof cached.lat==='number') st.me=cached;
   }catch(e){}
@@ -487,7 +539,7 @@ footer .fw span{color:var(--sky)}
   function syncUrl(){
     try{
       var p=new URLSearchParams();
-      if(st.q)p.set('q',st.q); if(st.sort!=='upcoming'&&st.sort!=='near')p.set('sort',st.sort); if(st.region)p.set('region',st.region);
+      if(st.q)p.set('q',st.q); if(st.when)p.set('when',st.when); if(st.sort!=='upcoming'&&st.sort!=='near')p.set('sort',st.sort); if(st.region)p.set('region',st.region);
       if(st.state)p.set('state',st.state); if(st.town)p.set('town',st.town); if(st.fam)p.set('type',st.fam);
       if(st.pick)p.set('picks','1'); if(st.saved)p.set('saved','1'); if(st.view==='map')p.set('view','map');
       var qs=p.toString(); history.replaceState(null,'',location.pathname+(qs?'?'+qs:'')+location.hash);
@@ -509,7 +561,24 @@ footer .fw span{color:var(--sky)}
     for(var i=0;i<w.length;i++){if(it.hay.indexOf(w[i])===-1)return false;}
     return true;
   }
+  // "When": this weekend (Fri–Sun; the rest of it if today is Fri–Sun) or the next 30 days
+  function win(){
+    if(!st.when) return null;
+    var a=today,b,g=today.getDay();
+    if(st.when==='30') b=C.addDays(today,30);
+    else if(g===0) b=today;
+    else if(g>=5) b=C.addDays(today,7-g);
+    else {a=C.addDays(today,5-g); b=C.addDays(a,2);}
+    return [a,b];
+  }
+  function matchWhen(it){
+    var w=win(); if(!w) return true; var x=it.x;
+    if(it.kind==='event') return d(x.start)<=w[1]&&d(x.end||x.start)>=w[0];
+    var n=C.nextOccur(x,w[0]); return !!n&&n<=w[1];
+  }
+  function slugS(n){return String(n||'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');}
   function matchRest(it){
+    if(!matchWhen(it)) return false;
     if(st.fam&&it.fam!==st.fam) return false;
     if(st.pick&&!it.x.pick) return false;
     if(st.saved&&!C.saved.has(it.x.id)) return false;
@@ -547,14 +616,14 @@ footer .fw span{color:var(--sky)}
   function card(it){
     var x=it.x, u=safeUrl(x.url), ig=igUrl(x.instagram), img=safeImg(x.image), page='/events/'+x.id+'/';
     var stt=STATUS[x.status]||'';
-    var tags=(it.kind==='meet'?'<span class="tag rec">Recurring</span>':'')+'<span class="tag t-'+it.fam+'">'+esc(x.type)+'</span>'+(x.status==='expected'?'<span class="tag exp">Dates expected</span>':'');
+    var tags=(it.kind==='meet'?'<span class="tag rec">Recurring</span>':'')+'<span class="tag t-'+it.fam+'">'+esc(x.type)+'</span>'+(x.status==='expected'?'<span class="tag exp">Dates expected</span>':'')+(x.sponsored?'<span class="tag exp">Sponsored</span>':'');
     var media=img?'<img src="'+esc(img)+'" alt="'+esc(x.name)+'" loading="lazy">'
       :'<div class="tile" style="--tc:'+FAM_COLOR[it.fam]+'"><span class="tile-k">'+esc(x.type)+'</span><span class="tile-big">'+esc(tileBig(it))+'</span>'+
        '<span class="tile-s">'+esc([x.city,x.state].filter(Boolean).join(', '))+'</span><span class="tile-wm">CAR<span>VEYANCE</span></span></div>';
     var wl=whenLines(it), dd=dist(it);
     var where=[x.venue,[x.city,x.state].filter(Boolean).join(', ')].filter(Boolean).map(esc).join(' · ');
     var links='';
-    if(u) links+='<a href="'+esc(u)+'" target="_blank" rel="noopener">Official site &#8599;</a>';
+    if(u) links+='<a href="'+esc(u)+'" target="_blank" rel="noopener">'+(x.via?'Details on '+esc(x.via):'Official site')+' &#8599;</a>';
     if(ig) links+='<a href="'+esc(ig)+'" target="_blank" rel="noopener">Instagram &#8599;</a>';
     if((it.kind==='event'&&!it.ongoing)||it.next) links+='<button type="button" class="calbtn" data-cal="'+esc(x.id)+'">Add to calendar</button>';
     var on=C.saved.has(x.id);
@@ -575,6 +644,7 @@ footer .fw span{color:var(--sky)}
     var rc={}; base.forEach(function(it){rc[it.x.region]=(rc[it.x.region]||0)+1;});
     var h='<button type="button" class="chip'+(st.region?'':' on')+'" data-region="">Anywhere <span>'+base.length+'</span></button>';
     REGION_ORDER.forEach(function(r){if(rc[r]) h+='<button type="button" class="chip'+(st.region===r?' on':'')+'" data-region="'+esc(r)+'">'+esc(r)+' <span>'+rc[r]+'</span></button>';});
+    if(st.region==='LA & South Bay') h+='<a class="chip pagelink" href="/events/los-angeles/">LA &amp; South Bay page &rarr;</a>';
     document.getElementById('region-chips').innerHTML=h;
     var sc={}; base.filter(function(it){return !st.region||it.x.region===st.region;}).forEach(function(it){var s=it.x.state;if(s)sc[s]=(sc[s]||0)+1;});
     var codes=Object.keys(sc).sort(function(a,b){return (STATES[a]||a).localeCompare(STATES[b]||b);});
@@ -586,7 +656,8 @@ footer .fw span{color:var(--sky)}
       var tc={}; base.filter(function(it){return it.x.state===st.state&&(!st.region||it.x.region===st.region);}).forEach(function(it){var t=it.x.city;if(t)tc[t]=(tc[t]||0)+1;});
       var towns=Object.keys(tc).sort(); if(st.town&&!tc[st.town]) st.town='';
       document.getElementById('town-chips').innerHTML='<button type="button" class="chip'+(st.town?'':' on')+'" data-town="">All of '+esc(STATES[st.state]||st.state)+'</button>'+
-        towns.map(function(t){return '<button type="button" class="chip'+(st.town===t?' on':'')+'" data-town="'+esc(t)+'">'+esc(t)+' <span>'+tc[t]+'</span></button>';}).join('');
+        towns.map(function(t){return '<button type="button" class="chip'+(st.town===t?' on':'')+'" data-town="'+esc(t)+'">'+esc(t)+' <span>'+tc[t]+'</span></button>';}).join('')+
+        '<a class="chip pagelink" href="/events/'+slugS(STATES[st.state])+'/">'+esc(STATES[st.state]||st.state)+' page &rarr;</a>';
       row.hidden=false;
     } else row.hidden=true;
     var now=[st.town,st.state?(STATES[st.state]||st.state):'',(!st.state&&st.region)?st.region:''].filter(Boolean).join(', ');
@@ -594,7 +665,7 @@ footer .fw span{color:var(--sky)}
   }
 
   function renderTypes(){
-    var base=ITEMS.filter(function(it){return matchLoc(it)&&(!st.pick||it.x.pick)&&(!st.saved||C.saved.has(it.x.id))&&qMatch(it);});
+    var base=ITEMS.filter(function(it){return matchLoc(it)&&matchWhen(it)&&(!st.pick||it.x.pick)&&(!st.saved||C.saved.has(it.x.id))&&qMatch(it);});
     var c={}; base.forEach(function(it){c[it.fam]=(c[it.fam]||0)+1;});
     var h='<button type="button" class="chip'+(st.fam?'':' on')+'" data-fam="">All types <span>'+base.length+'</span></button>';
     FAM_ORDER.forEach(function(f){if(c[f]) h+='<button type="button" class="chip'+(st.fam===f?' on':'')+'" data-fam="'+f+'">'+FAM_LABEL[f]+' <span>'+c[f]+'</span></button>';});
@@ -608,7 +679,7 @@ footer .fw span{color:var(--sky)}
 
   var lastList=[];
   function render(){
-    document.getElementById('q').value=st.q; document.getElementById('sort').value=st.sort; document.getElementById('pick-only').checked=st.pick;
+    document.getElementById('q').value=st.q; document.getElementById('when').value=st.when; document.getElementById('sort').value=st.sort; document.getElementById('pick-only').checked=st.pick;
     document.getElementById('radius').hidden=st.sort!=='near'||!st.me; document.getElementById('radius').value=String(st.radius);
     renderLocation(); renderTypes();
     var list=sorted(ITEMS.filter(function(it){return matchLoc(it)&&matchRest(it);})); lastList=list;
@@ -617,7 +688,7 @@ footer .fw span{color:var(--sky)}
       :'<div class="empty"><h3>Nothing here yet</h3><p>Try another town or type, or send us one we should list.</p></div>';
     grid.innerHTML=shown.length?shown.map(card).join(''):empty;
     document.getElementById('more').hidden=st.view==='map'||list.length<=st.limit;
-    var filtered=st.q||st.region||st.state||st.town||st.fam||st.pick||st.saved||(st.sort==='near'&&st.radius);
+    var filtered=st.q||st.when||st.region||st.state||st.town||st.fam||st.pick||st.saved||(st.sort==='near'&&st.radius);
     document.getElementById('count').innerHTML=(st.view==='map'?'<b>'+list.length+'</b> on the map':'Showing <b>'+shown.length+'</b> of <b>'+list.length+'</b>')+
       (filtered?' &nbsp;<button type="button" class="clear" id="clear">Clear filters</button>':(st.view==='map'?'':' events and regular meets'));
     document.querySelectorAll('.view button').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-view')===st.view);});
@@ -693,7 +764,7 @@ footer .fw span{color:var(--sky)}
     if(!e.target.closest('#calmenu')) calMenu.hidden=true;
     var sv=e.target.closest('.save'); if(sv){e.preventDefault(); var id=sv.getAttribute('data-save'); var on=C.saved.toggle(id);
       sv.classList.toggle('on',on); sv.setAttribute('aria-pressed',on?'true':'false'); renderTypes(); if(st.saved) render(); return;}
-    if(e.target&&e.target.id==='clear'){st={q:'',sort:st.sort==='near'?'near':'upcoming',region:'',state:'',town:'',fam:'',pick:false,saved:false,radius:st.radius?50:0,view:st.view,limit:PAGE,me:st.me};render();}
+    if(e.target&&e.target.id==='clear'){st={q:'',sort:st.sort==='near'?'near':'upcoming',when:'',region:'',state:'',town:'',fam:'',pick:false,saved:false,radius:st.radius?50:0,view:st.view,limit:PAGE,me:st.me};render();}
   });
   document.addEventListener('keydown',function(e){if(e.key==='Escape') calMenu.hidden=true;});
 
@@ -703,6 +774,7 @@ footer .fw span{color:var(--sky)}
   function runSearch(){st.q=qEl.value.trim();st.limit=PAGE;render();}
   document.getElementById('search').addEventListener('submit',function(e){e.preventDefault();runSearch();});
   qEl.addEventListener('input',function(){clearTimeout(t);t=setTimeout(runSearch,220);});
+  document.getElementById('when').addEventListener('change',function(){st.when=this.value;st.limit=PAGE;render();});
   document.getElementById('sort').addEventListener('change',function(){st.sort=this.value;st.limit=PAGE;if(st.sort==='near')locate();else{say('');render();}});
   document.getElementById('near-btn').addEventListener('click',function(){st.sort='near';st.limit=PAGE;locate();});
   document.getElementById('radius').addEventListener('change',function(){st.radius=+this.value;st.limit=PAGE;render();});

@@ -165,7 +165,7 @@
 
   // phones and tablets: load the site's Menu button (the top-bar links hide on narrow screens)
   (function () {
-    if (w.__cvMenu || document.querySelector('script[src="/assets/js/cv-menu.js"]')) return;
+    if (typeof document === "undefined" || w.__cvMenu || document.querySelector('script[src="/assets/js/cv-menu.js"]')) return;
     var sc = document.createElement("script"); sc.src = "/assets/js/cv-menu.js"; sc.defer = true;
     (document.head || document.documentElement).appendChild(sc);
   })();

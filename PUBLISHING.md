@@ -55,8 +55,8 @@ on its **category page**. You never edit the homepage.
 
 ```
 How It Works    Reviews         Comparisons     Car Culture
-Road Trips      Opinions        Advice & Tips   Fun Facts
-Short Stories   Interviews      News
+Owner's Manual  Road Trips      Opinions        Advice & Tips
+Fun Facts       Short Stories   Interviews      News
 ```
 
 ## Step 3 — Push it live
@@ -120,17 +120,22 @@ values. The rules:
 | `start`, `end` | `YYYY-MM-DD`. One-day event: make them the same |
 | `region` | Exactly one of: `LA & South Bay`, `Southern California`, `West`, `Northwest`, `Mountain`, `Texas & South`, `Midwest`, `Southeast`, `Mid-Atlantic`, `Northeast` |
 | `url` | The organizer's own page, starting `https://`. Leave `""` if there isn't one |
+| `via` | Only when `url` is a trusted local calendar rather than the organizer's own page, e.g. `"Frank's Cars in the Hood"`, `"LACar"` or `"SoCalCarLife"`. The button then reads "Details on …" and the event page says the organizer isn't confirmed. Use it only when the calendar shows an upcoming date. Leave it out when `url` is the organizer's own page. Sites like GetOutGarage that list unclaimed meets aren't trusted calendars: they're leads only |
 | `instagram` | `@handle`, or `""` |
 | `pick` | `true` puts the orange Carveyance Pick badge on it |
 | `added` | `YYYY-MM-DD` the day it went on the page; drives the "Most Recently Added" sort |
 | `image` | Optional, e.g. `"/assets/events/<id>.jpg"`. Only a flyer or photo the organizer sent (via the form, with the rights box ticked) or one you supplied. Leave it out and the card shows a Carveyance tile instead |
 | `status` | Leave out normally. `"canceled"`, `"postponed"`, `"moved"` or `"changed"` puts a notice on the card and the event page and tells Google. `"expected"` means the organizer hasn't posted dates yet |
 | `note` | One short line shown with a status, e.g. `"Rained out this Saturday"` |
+| `sponsored` | `true` only when an organizer has paid for a sponsored listing. Puts a gray "Sponsored" tag on the card and the event page. Never on a Carveyance Pick |
 | `lat`, `lng` | Map position of the town, added by Claude's weekly check. Leave them alone |
 | `EVENTS_UPDATED` | Change this date at the top when you edit the file |
 
 Event submissions from the form at the bottom of the page arrive in Netlify
 under **Forms → event-submission**, the same place the contributor form lands.
+One-line tips from the "Know one we're missing?" box (on the Events page and
+every state page) arrive under **Forms → event-tip**; the `page` field says
+which page it came from.
 A submitted flyer comes through as a file attachment on that submission. To use
 it, save it into `assets/events/` named after the entry's `id`, landscape, about
 1200px wide, and set that entry's `image`.
@@ -153,6 +158,18 @@ folder, it is safe to replace the folder whole. That is NOT true of the
 
 `tools/geocode_events.js` is for Claude's weekly check; you never need to run it.
 
+### State pages
+
+The same script builds a page for every state that has listings, at
+`carveyance.com/events/<state>/` (`/events/california/`, `/events/new-york/`),
+plus `/events/los-angeles/` for everything in the LA & South Bay region. They
+list what's coming up and the regular meets by town, and they're what Google
+shows for searches like "car shows in Texas". You never edit them: they're
+rebuilt every time `events_build.py` runs, and a state's page disappears by
+itself if it has no listings left. The "Car events by state" links on the
+Events page are refreshed at the same time, between the `state-links` markers
+in `events/index.html` (leave those two marker lines alone).
+
 The map uses OpenStreetMap's free tiles, which are fine at this site's
 traffic. If the Events page ever gets heavy use, switch the one tile line in
 events/index.html to a paid tile service.
@@ -172,3 +189,27 @@ before `</body>`:
     <script src="/assets/js/cv-menu.js" defer></script>
 
 The Events pages load it automatically through `events/events-common.js`.
+
+---
+
+## Owner's Manual (readers' cars)
+
+`carveyance.com/categories/owners-manual/` (short link: `carveyance.com/owners-manual`)
+is the section for readers' cars. Readers fill in the "Tell us about your car"
+form on that page; submissions arrive in Netlify under **Forms → owners-manual**,
+with a link to the owner's photos (a shared album or an Instagram post). The
+form deliberately takes no photo uploads: Netlify caps form attachments, and on
+the free plan going over that cap can pause the whole site.
+
+Nothing is published automatically. When you pick one, send Claude the
+submission. Claude writes it up as a normal article with
+`category: "Owner's Manual"`, quoting the owner by name, and it goes through the
+usual article steps above. Ask the owner for the full-size photos first. Only
+use photos the owner ticked the rights box for.
+
+## Advertise & Partner
+
+`carveyance.com/advertise/` has no prices on it. Inquiries arrive in Netlify
+under **Forms → partner-inquiry**. The page promises that anything paid for is
+labeled Sponsored, that sponsors don't buy reviews, Picks or story changes, and
+that a sponsored event listing is never a Carveyance Pick. Keep to that.

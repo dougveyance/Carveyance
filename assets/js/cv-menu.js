@@ -21,6 +21,7 @@
       "font-family:'DM Sans',sans-serif;font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;cursor:pointer;flex-shrink:0}" +
       ".cv-menu-btn:hover,.cv-menu-btn[aria-expanded=true]{border-color:#fff;background:rgba(255,255,255,.08)}" +
       ".cv-menu-btn svg{display:block}" +
+      "nav .nav-center a{white-space:nowrap}nav.cv-collapsed .nav-center{display:none!important}" +
       ".cv-menu-panel{position:fixed;left:0;right:0;top:var(--cv-nav-h,64px);z-index:1000;background:#141820;border-top:1px solid rgba(255,255,255,.08);" +
       "box-shadow:0 18px 40px rgba(0,0,0,.35);max-height:calc(100vh - var(--cv-nav-h,64px));overflow-y:auto;padding:8px 0 16px}" +
       ".cv-menu-panel[hidden]{display:none!important}" +
@@ -74,8 +75,26 @@
       btn.setAttribute("aria-expanded", open ? "true" : "false");
       btn.setAttribute("aria-label", open ? "Close the site menu" : "Open the site menu");
     }
+    // the section links need their full width; when the window is too narrow for them, use the Menu button instead
+    function fits() {
+      nav.classList.remove("cv-collapsed");
+      var cc = window.getComputedStyle(center);
+      if (cc.display === "none") return false;
+      var ns = window.getComputedStyle(nav);
+      var avail = nav.clientWidth - parseFloat(ns.paddingLeft) - parseFloat(ns.paddingRight);
+      var links = center.querySelectorAll("a"), gap = parseFloat(cc.columnGap) || 0, need = 0, i;
+      for (i = 0; i < links.length; i++) need += links[i].getBoundingClientRect().width;
+      need += gap * Math.max(0, links.length - 1) + (parseFloat(cc.marginLeft) || 0) + (parseFloat(cc.marginRight) || 0);
+      for (i = 0; i < nav.children.length; i++) {
+        var el = nav.children[i];
+        if (el === center || el === btn || window.getComputedStyle(el).display === "none") continue;
+        need += el.getBoundingClientRect().width;
+      }
+      return need + 32 <= avail;
+    }
     function sync() {
-      var narrow = window.getComputedStyle(center).display === "none";
+      var narrow = !fits();
+      if (narrow) nav.classList.add("cv-collapsed");
       btn.style.display = narrow ? "inline-flex" : "none";
       document.documentElement.style.setProperty("--cv-nav-h", Math.round(nav.getBoundingClientRect().bottom) + "px");
       if (!narrow) setOpen(false);
@@ -85,6 +104,7 @@
     document.addEventListener("click", function (e) { if (!panel.hidden && !panel.contains(e.target)) setOpen(false); });
     document.addEventListener("keydown", function (e) { if (e.key === "Escape" && !panel.hidden) { setOpen(false); btn.focus(); } });
     window.addEventListener("resize", sync);
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(sync);
     window.addEventListener("scroll", function () { if (!panel.hidden) sync(); }, { passive: true });
     sync();
   }

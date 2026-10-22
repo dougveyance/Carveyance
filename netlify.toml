@@ -30,6 +30,22 @@
   [headers.values]
     Cache-Control = "public, max-age=0, must-revalidate"
 
+# Events app: the service worker and shared script must never be cached hard
+[[headers]]
+  for = "/events/sw.js"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+[[headers]]
+  for = "/events/events-common.js"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/events/manifest.webmanifest"
+  [headers.values]
+    Content-Type = "application/manifest+json"
+
 # Sensible security headers site-wide
 [[headers]]
   for = "/*"

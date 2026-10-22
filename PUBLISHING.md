@@ -124,6 +124,9 @@ values. The rules:
 | `pick` | `true` puts the orange Carveyance Pick badge on it |
 | `added` | `YYYY-MM-DD` the day it went on the page; drives the "Most Recently Added" sort |
 | `image` | Optional, e.g. `"/assets/events/<id>.jpg"`. Only a flyer or photo the organizer sent (via the form, with the rights box ticked) or one you supplied. Leave it out and the card shows a Carveyance tile instead |
+| `status` | Leave out normally. `"canceled"`, `"postponed"`, `"moved"` or `"changed"` puts a notice on the card and the event page and tells Google. `"expected"` means the organizer hasn't posted dates yet |
+| `note` | One short line shown with a status, e.g. `"Rained out this Saturday"` |
+| `lat`, `lng` | Map position of the town, added by Claude's weekly check. Leave them alone |
 | `EVENTS_UPDATED` | Change this date at the top when you edit the file |
 
 Event submissions from the form at the bottom of the page arrive in Netlify
@@ -132,5 +135,40 @@ A submitted flyer comes through as a file attachment on that submission. To use
 it, save it into `assets/events/` named after the entry's `id`, landscape, about
 1200px wide, and set that entry's `image`.
 
-The weekly events check from Claude sends a replacement `events.js` with
-drop instructions; drop it over the old one and push.
+### Event pages, the map and the home-screen app
+
+Every listing also has its own page, `carveyance.com/events/<id>/`, which is
+what Google shows for "car show near me" searches. They are built from
+events.js by a script, so after ANY change to events.js run, from the repo root:
+
+    python3 events_build.py     (rebuilds events/<id>/ pages, removes ended ones)
+    python3 fix_links.py
+    python3 seo_inject.py       (adds the event pages to sitemap.xml)
+
+Everything inside the `events/` folder is either built by that script or part
+of the Events app (index.html, events-common.js, sw.js, manifest.webmanifest,
+icon-maskable-512.png). When a zip from Claude includes the whole `events`
+folder, it is safe to replace the folder whole. That is NOT true of the
+`articles` folder: never replace `articles` whole, only the files inside it.
+
+`tools/geocode_events.js` is for Claude's weekly check; you never need to run it.
+
+The map uses OpenStreetMap's free tiles, which are fine at this site's
+traffic. If the Events page ever gets heavy use, switch the one tile line in
+events/index.html to a paid tile service.
+
+The weekly events check from Claude sends a replacement `events.js` and a
+fresh `events` folder with drop instructions; drop them in and push.
+
+### The Menu button on phones and tablets
+
+On screens narrower than about 1,240px the section links in the top bar are
+hidden. `assets/js/cv-menu.js` adds a Menu button there that opens the same
+links in a panel (and, on the home page, Write for Us). It copies whatever is
+in the page's top-bar links, so adding a section to the nav needs no change to
+the script. Any new page that has the full top bar needs this one line just
+before `</body>`:
+
+    <script src="/assets/js/cv-menu.js" defer></script>
+
+The Events pages load it automatically through `events/events-common.js`.

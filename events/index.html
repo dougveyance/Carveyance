@@ -14,6 +14,13 @@
 <meta property="og:url" content="https://carveyance.com/events/">
 <meta name="twitter:card" content="summary_large_image">
 <!-- /carveyance-seo -->
+<link rel="manifest" href="/events/manifest.webmanifest">
+<meta name="theme-color" content="#141820">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Car Events">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&family=Bebas+Neue&display=swap" rel="stylesheet">
@@ -26,6 +33,7 @@
   --g-market:#2F7D5B; --g-museum:#6B5BA8; --g-charity:#2B8A8A;
 }
 *{box-sizing:border-box;margin:0;padding:0}
+[hidden]{display:none!important}
 html{scroll-behavior:smooth}
 body{font-family:'DM Sans',sans-serif;background:var(--white);color:var(--ink);-webkit-font-smoothing:antialiased;overflow-x:hidden}
 a{text-decoration:none;color:inherit}
@@ -216,6 +224,49 @@ footer .fw span{color:var(--sky)}
   .chip,.pick-toggle{flex:0 0 auto}
   .sform .row2{grid-template-columns:1fr}
 }
+
+/* v3: save, alerts, calendar, near me, map, install */
+.save{position:absolute;top:10px;right:10px;z-index:3;width:38px;height:38px;border-radius:50%;border:none;cursor:pointer;
+  background:rgba(20,24,32,.55);display:flex;align-items:center;justify-content:center;transition:background .2s,transform .15s}
+.save svg{fill:none;stroke:#fff;stroke-width:1.8}
+.save:hover{background:rgba(20,24,32,.8);transform:scale(1.06)}
+.save.on svg{fill:var(--accent);stroke:var(--accent)}
+.alert{padding:9px 20px;font-size:13px;line-height:1.45;border-bottom:1px solid var(--rule)}
+.alert b{text-transform:uppercase;letter-spacing:.08em;font-size:11.5px}
+.a-canceled{background:#fbebeb;color:#8a1f12}
+.a-postponed,.a-moved,.a-changed{background:#fff4e0;color:#6e4400}
+.card.has-alert{border-color:#e7b8ae}
+.dist{color:var(--steel);font-weight:600}
+.calbtn{font-family:'DM Sans',sans-serif;background:none;border:none;padding:0;cursor:pointer;font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--steel)}
+.calbtn:hover{color:var(--deep);text-decoration:underline}
+#calmenu{position:absolute;z-index:80;background:var(--white);border:1px solid var(--rule);border-radius:10px;box-shadow:0 12px 32px rgba(20,24,32,.16);padding:6px;min-width:220px}
+#calmenu a,#calmenu button{display:block;width:100%;text-align:left;font-family:'DM Sans',sans-serif;font-size:14px;color:var(--ink);background:none;border:none;padding:10px 12px;border-radius:6px;cursor:pointer}
+#calmenu a:hover,#calmenu button:hover{background:var(--mist)}
+#calmenu small{display:block;font-size:11.5px;color:var(--mid)}
+.status-r{display:flex;align-items:center;gap:10px}
+.fsel.sm{min-width:0;padding:8px 32px 8px 12px;font-size:13px;border-radius:999px}
+.view{display:inline-flex;border:1px solid var(--rule);border-radius:999px;overflow:hidden}
+.view button{font-family:'DM Sans',sans-serif;font-size:12px;font-weight:600;letter-spacing:.06em;background:var(--white);color:var(--slate);border:none;padding:8px 16px;cursor:pointer}
+.view button.on{background:var(--ink);color:var(--white)}
+.locmsg{font-size:13px;color:var(--slate);background:var(--mist);border-left:3px solid var(--accent);padding:10px 14px;margin:-6px 0 18px}
+#map{height:640px;border:1px solid var(--rule);border-radius:6px;overflow:hidden;background:var(--cloud);z-index:1}
+.pop{font-family:'DM Sans',sans-serif;min-width:180px}
+.pop-k{font-size:9.5px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--steel);margin-bottom:3px}
+.pop-h{display:block;font-family:'DM Serif Display',serif;font-size:16px;line-height:1.2;color:var(--ink);margin-bottom:4px}
+.pop-h:hover{color:var(--steel)}
+.pop-w{font-size:12.5px;font-weight:600;color:var(--slate)}
+.pop-n{font-size:12px;color:var(--mid)}
+.marker-cluster-small,.marker-cluster-medium,.marker-cluster-large{background-color:rgba(78,141,181,.35)!important}
+.marker-cluster-small div,.marker-cluster-medium div,.marker-cluster-large div{background-color:var(--deep)!important;color:#fff!important;font-family:'DM Sans',sans-serif;font-weight:600}
+.chip.near{border-color:var(--steel);color:var(--steel)}
+.chip.near:hover{background:var(--steel);color:#fff}
+.pickchip{margin-left:6px}
+.pickchip.on{background:var(--accent);border-color:var(--accent)}
+.hdr-tools{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:16px}
+.install{font-family:'DM Sans',sans-serif;font-size:12px;font-weight:600;letter-spacing:.06em;background:var(--white);color:var(--ink);border:1px solid var(--ink);border-radius:999px;padding:9px 16px;cursor:pointer}
+.install:hover{background:var(--ink);color:#fff}
+.install-tip{font-size:13px;color:var(--slate)}
+@media(max-width:760px){#map{height:70vh}.status{flex-direction:column;align-items:flex-start}}
 </style>
 </head>
 <body>
@@ -243,6 +294,8 @@ footer .fw span{color:var(--sky)}
     <div class="crumb"><a href="/">Carveyance</a> &nbsp;/&nbsp; Events</div>
     <h1 class="ctitle">Events</h1>
     <p class="cblurb">Cars &amp; Coffee, cruise nights, car shows, concours and race weekends, from Los Angeles and the South Bay to every state we can reach. Search for a town, a car or a kind of meet.</p>
+    <div class="hdr-tools"><button type="button" class="install" id="install-btn" hidden>&#8681; Add Events to your home screen</button>
+      <span class="install-tip" id="install-tip" hidden>On iPhone or iPad: tap the Share button, then &ldquo;Add to Home Screen.&rdquo;</span></div>
 
     <form class="search" id="search" role="search" onsubmit="return false">
       <div class="sfield">
@@ -253,6 +306,7 @@ footer .fw span{color:var(--sky)}
         <label for="sort">Sort by</label>
         <select id="sort">
           <option value="upcoming">Upcoming</option>
+          <option value="near">Nearest to me</option>
           <option value="all">All Events (A–Z)</option>
           <option value="recent">Most Recently Added</option>
         </select>
@@ -269,6 +323,9 @@ footer .fw span{color:var(--sky)}
           <svg class="chev" width="20" height="12" viewBox="0 0 20 12" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 2l8 8 8-8"/></svg></span>
       </summary>
       <div class="loc-body">
+        <div class="loc-row">
+          <button type="button" class="chip near" id="near-btn">&#9678; Use my location</button>
+        </div>
         <div class="loc-row">
           <div class="loc-label">Region</div>
           <div id="region-chips" style="display:contents"></div>
@@ -289,7 +346,7 @@ footer .fw span{color:var(--sky)}
 <div class="bar">
   <div class="wrap bar-in" id="type-chips">
     <span class="sp"></span>
-    <label class="pick-toggle"><input type="checkbox" id="pick-only"> Carveyance Picks</label>
+    <label class="pick-toggle" hidden><input type="checkbox" id="pick-only"> Carveyance Picks</label>
   </div>
 </div>
 
@@ -297,11 +354,19 @@ footer .fw span{color:var(--sky)}
   <div class="wrap">
     <div class="status">
       <div class="count" id="count"></div>
-      <div class="note" id="updated"></div>
+      <div class="status-r">
+        <select class="fsel sm" id="radius" aria-label="Distance" hidden>
+          <option value="10">Within 10 mi</option><option value="25">Within 25 mi</option><option value="50">Within 50 mi</option>
+          <option value="100">Within 100 mi</option><option value="250">Within 250 mi</option><option value="0">Any distance</option>
+        </select>
+        <div class="view" role="group" aria-label="View"><button type="button" data-view="grid" class="on">Grid</button><button type="button" data-view="map">Map</button></div>
+      </div>
     </div>
+    <div class="locmsg" id="locmsg" hidden></div>
     <div class="grid" id="grid"></div>
+    <div id="map" hidden></div>
     <div class="more" id="more" hidden><button type="button" id="more-btn">Show more</button></div>
-    <p class="notice">Dates, times and venues come from each organizer and can change without much warning. Meets get rained out, moved or canceled, so check the official site or Instagram before you set off. Know one we missed? <a href="#submit" style="color:var(--steel);border-bottom:1px solid currentColor">Send it in</a>.</p>
+    <p class="notice">Dates, times and venues come from each organizer and can change without much warning. Meets get rained out, moved or canceled, so check the official site or Instagram before you set off. Know one we missed? <a href="#submit" style="color:var(--steel);border-bottom:1px solid currentColor">Send it in</a>. Saved events stay on this phone or browser only. Distances are measured to the town, not the exact venue. <span id="updated"></span></p>
   </div>
 </section>
 
@@ -311,6 +376,7 @@ footer .fw span{color:var(--sky)}
       <h2>Running a show, a meet<br><em>or a Sunday drive?</em></h2>
       <p>Send it in. Cars &amp; Coffee in a hardware-store parking lot counts as much as a concours on a golf course. If it has a website or an Instagram account and people bring interesting cars to it, we want it on this page.</p>
       <p>We check every submission against the organizer's own page before it goes up, so include the link. Send a flyer or a photo you took and it can go on the event's card.</p>
+      <p>Organizers: if a listed event is moved, changed or canceled, choose &ldquo;Update or cancellation&rdquo; below and we'll put a notice on its card.</p>
     </div>
     <form class="sform" name="event-submission" method="POST" data-netlify="true" netlify-honeypot="bot-field" enctype="multipart/form-data" action="/events/?submitted=1#submit">
       <div class="thanks" id="thanks">Thanks. We'll check it against the organizer's page and add it if it fits.</div>
@@ -320,7 +386,7 @@ footer .fw span{color:var(--sky)}
       <div class="row row2">
         <div><label for="f-when">Date or schedule</label><input id="f-when" type="text" name="when" required placeholder="Every Saturday 7–9am, or Nov 14"></div>
         <div><label for="f-kind">Kind of event</label>
-          <select id="f-kind" name="kind"><option>Weekly or monthly meet</option><option>One-off or annual event</option></select></div>
+          <select id="f-kind" name="kind"><option>Weekly or monthly meet</option><option>One-off or annual event</option><option>Update or cancellation to a listed event</option></select></div>
       </div>
       <div class="row"><label for="f-where">Venue and town</label><input id="f-where" type="text" name="where" required placeholder="Venue, Town, State"></div>
       <div class="row row2">
@@ -342,54 +408,35 @@ footer .fw span{color:var(--sky)}
   &copy; 2026 Carveyance — For the love of the drive.
 </footer>
 
+<div id="calmenu" hidden role="menu">
+  <button type="button" class="cm-ics" role="menuitem">Apple, Outlook or phone calendar<small>Downloads an .ics file</small></button>
+  <a class="cm-g" href="#" target="_blank" rel="noopener" role="menuitem">Google Calendar<small>Opens in a new tab</small></a>
+</div>
+
 <script src="/events.js"></script>
+<script src="/events/events-common.js"></script>
 <script>
 (function(){
+  var C=window.CVE, d=C.d, today=C.today, M3=C.M3, WD=C.WD;
   var EV=(typeof EVENTS!=='undefined')?EVENTS:[], MT=(typeof MEETS!=='undefined')?MEETS:[];
   var REGION_ORDER=["LA & South Bay","Southern California","West","Northwest","Mountain","Texas & South","Midwest","Southeast","Mid-Atlantic","Northeast"];
   var STATES={AL:"Alabama",AK:"Alaska",AZ:"Arizona",AR:"Arkansas",CA:"California",CO:"Colorado",CT:"Connecticut",DE:"Delaware",DC:"District of Columbia",FL:"Florida",GA:"Georgia",HI:"Hawaii",ID:"Idaho",IL:"Illinois",IN:"Indiana",IA:"Iowa",KS:"Kansas",KY:"Kentucky",LA:"Louisiana",ME:"Maine",MD:"Maryland",MA:"Massachusetts",MI:"Michigan",MN:"Minnesota",MS:"Mississippi",MO:"Missouri",MT:"Montana",NE:"Nebraska",NV:"Nevada",NH:"New Hampshire",NJ:"New Jersey",NM:"New Mexico",NY:"New York",NC:"North Carolina",ND:"North Dakota",OH:"Ohio",OK:"Oklahoma",OR:"Oregon",PA:"Pennsylvania",RI:"Rhode Island",SC:"South Carolina",SD:"South Dakota",TN:"Tennessee",TX:"Texas",UT:"Utah",VT:"Vermont",VA:"Virginia",WA:"Washington",WV:"West Virginia",WI:"Wisconsin",WY:"Wyoming"};
-  // type -> tag family
   var FAM={"Cars & Coffee":"coffee","Cruise Night":"meet","Club Meet":"meet","Show & Shine":"meet","Canyon Run Spot":"meet",
     "Museum Meet":"museum","Exhibition":"museum","Auto Show":"show","Concours":"show","Hot Rod & Kustom":"show","JDM & Import":"show",
     "Festival":"show","Trade Show":"show","Cruise & Rally":"show","Racing":"race","Drift":"race","Track Day":"race",
     "Auction":"market","Swap Meet":"market","Charity & Toy Drive":"charity"};
-  var FAM_LABEL={coffee:"Cars & Coffee",meet:"Meets & Cruises",show:"Shows & Concours",race:"Racing",market:"Auctions & Swaps",museum:"Museums",charity:"Charity"};
+  var FAM_LABEL={coffee:"Cars & Coffee",meet:"Meets & Cruises",show:"Shows",race:"Racing",market:"Auctions & Swaps",museum:"Museums",charity:"Charity"};
   var FAM_ORDER=["coffee","meet","show","race","market","museum","charity"];
   var FAM_COLOR={coffee:"#4E8DB5",meet:"#F3B36B",show:"#C8462C",race:"#8a96a6",market:"#3E9B71",museum:"#8A7BD0",charity:"#38A6A6"};
-  var M3=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
   var MF=["January","February","March","April","May","June","July","August","September","October","November","December"];
-  var WD=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"], WDF=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+  var STATUS={canceled:"Canceled",postponed:"Postponed",moved:"Moved",changed:"Changed"};
   var PAGE=24;
 
   function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
-  function d(s){var p=String(s).split('-');return new Date(+p[0],+p[1]-1,+p[2]);}
-  var n0=new Date(), today=new Date(n0.getFullYear(),n0.getMonth(),n0.getDate());
-  function addDays(x,n){var y=new Date(x);y.setDate(y.getDate()+n);return y;}
   function safeUrl(u){u=String(u||'').trim();return /^https?:\/\//i.test(u)?u:'';}
   function igUrl(h){h=String(h||'').trim().replace(/^@/,'');return /^[A-Za-z0-9._]{1,30}$/.test(h)?'https://www.instagram.com/'+h+'/':'';}
   function safeImg(u){u=String(u||'').trim();return /^(\/|https:\/\/)[^"'<>\s]+\.(jpe?g|png|webp)$/i.test(u)?u:'';}
-
-  // nth weekday of a month (n = 1..4, or -1 for the last)
-  function nthWeekday(y,m,wd,n){
-    if(n>0){var f=new Date(y,m,1),day=1+((wd-f.getDay()+7)%7)+(n-1)*7,x=new Date(y,m,day);return x.getMonth()===m?x:null;}
-    var l=new Date(y,m+1,0);return new Date(y,m,l.getDate()-((l.getDay()-wd+7)%7));
-  }
-  // next date a recurring meet happens, from its schedule text; null when the pattern is irregular
-  function nextOccur(m){
-    var s=String(m.schedule||''), wd=-1;
-    for(var i=0;i<7;i++){if(s.indexOf(WDF[i])>-1){wd=i;break;}}
-    if(wd<0) return null;
-    if(/^Every\b/i.test(s)) return addDays(today,(wd-today.getDay()+7)%7);
-    if(!/of the month/i.test(s)) return null;
-    var map={'1st':1,'2nd':2,'3rd':3,'4th':4,'last':-1}, ords=(s.match(/1st|2nd|3rd|4th|Last/gi)||[]).map(function(o){return map[o.toLowerCase()];});
-    if(!ords.length) return null;
-    for(var k=0;k<3;k++){
-      var base=new Date(today.getFullYear(),today.getMonth()+k,1), c=[];
-      ords.forEach(function(o){var x=nthWeekday(base.getFullYear(),base.getMonth(),wd,o);if(x&&x>=today)c.push(x);});
-      if(c.length){c.sort(function(a,b){return a-b;});return c[0];}
-    }
-    return null;
-  }
+  function safeId(s){return /^[a-z0-9-]{1,90}$/.test(String(s||''))?s:'';}
   function fmtDay(x){return WD[x.getDay()]+', '+M3[x.getMonth()]+' '+x.getDate();}
   function relDay(x){var diff=Math.round((x-today)/864e5);return diff===0?'Today':diff===1?'Tomorrow':fmtDay(x);}
   function rangeText(e){
@@ -401,8 +448,7 @@ footer .fw span{color:var(--sky)}
   function tileBig(it){
     var x=it.x;
     if(it.kind==='meet'){
-      var s=String(x.schedule||'');
-      var m=s.match(/^Every (\w+)/i); if(m) return 'Every '+m[1];
+      var s=String(x.schedule||''), m=s.match(/^Every (\w+)/i); if(m) return 'Every '+m[1];
       m=s.match(/(1st and 3rd|1st|2nd|3rd|4th|Last) (\w+day)s? of the month/i); if(m) return m[1]+' '+m[2]+'s';
       return x.day?x.day+'s':'Regular meet';
     }
@@ -416,39 +462,45 @@ footer .fw span{color:var(--sky)}
   // one list for everything
   var ITEMS=[];
   EV.forEach(function(e){
-    if(!e.start||d(e.end||e.start)<today) return;
-    var s=d(e.start);
-    ITEMS.push({kind:'event',x:e,next:s<today?today:s,ongoing:s<today});
+    if(!e.start||!safeId(e.id)||d(e.end||e.start)<today) return;
+    var s=d(e.start); ITEMS.push({kind:'event',x:e,next:s<today?today:s,ongoing:s<today});
   });
-  MT.forEach(function(m){ITEMS.push({kind:'meet',x:m,next:nextOccur(m),ongoing:false});});
+  MT.forEach(function(m){ if(safeId(m.id)) ITEMS.push({kind:'meet',x:m,next:C.nextOccur(m),ongoing:false}); });
   ITEMS.forEach(function(it){
     var x=it.x; it.fam=FAM[x.type]||'show';
+    it.hasLL=typeof x.lat==='number'&&typeof x.lng==='number';
     it.hay=[x.name,x.venue,x.city,x.state,STATES[x.state]||'',x.region,x.type,FAM_LABEL[it.fam],x.schedule,x.blurb,it.kind==='meet'?'recurring meet weekly monthly':'event'].join(' ').toLowerCase();
   });
+  var BYID={}; ITEMS.forEach(function(it){BYID[it.x.id]=it;});
 
-  var st={q:'',sort:'upcoming',region:'',state:'',town:'',fam:'',pick:false,limit:PAGE};
+  var st={q:'',sort:'upcoming',region:'',state:'',town:'',fam:'',pick:false,saved:false,radius:0,view:'grid',limit:PAGE,me:null};
   try{
     var p=new URLSearchParams(location.search);
     st.q=p.get('q')||''; st.sort=['upcoming','all','recent'].indexOf(p.get('sort'))>-1?p.get('sort'):'upcoming';
     st.region=p.get('region')||''; st.state=(p.get('state')||'').toUpperCase(); st.town=p.get('town')||'';
-    st.fam=FAM_LABEL[p.get('type')]?p.get('type'):''; st.pick=p.get('picks')==='1';
+    st.fam=FAM_LABEL[p.get('type')]?p.get('type'):''; st.pick=p.get('picks')==='1'; st.saved=p.get('saved')==='1';
+    st.view=p.get('view')==='map'?'map':'grid';
     if(p.get('submitted')) document.getElementById('thanks').classList.add('show');
+    var cached=JSON.parse(sessionStorage.getItem('cv-me')||'null'); if(cached&&typeof cached.lat==='number') st.me=cached;
   }catch(e){}
 
   function syncUrl(){
     try{
       var p=new URLSearchParams();
-      if(st.q)p.set('q',st.q); if(st.sort!=='upcoming')p.set('sort',st.sort); if(st.region)p.set('region',st.region);
-      if(st.state)p.set('state',st.state); if(st.town)p.set('town',st.town); if(st.fam)p.set('type',st.fam); if(st.pick)p.set('picks','1');
+      if(st.q)p.set('q',st.q); if(st.sort!=='upcoming'&&st.sort!=='near')p.set('sort',st.sort); if(st.region)p.set('region',st.region);
+      if(st.state)p.set('state',st.state); if(st.town)p.set('town',st.town); if(st.fam)p.set('type',st.fam);
+      if(st.pick)p.set('picks','1'); if(st.saved)p.set('saved','1'); if(st.view==='map')p.set('view','map');
       var qs=p.toString(); history.replaceState(null,'',location.pathname+(qs?'?'+qs:'')+location.hash);
     }catch(e){}
   }
+  function dist(it){ if(!st.me||!it.hasLL) return null; return C.miles(st.me.lat,st.me.lng,it.x.lat,it.x.lng); }
 
   function matchLoc(it){
     var x=it.x;
     if(st.region&&x.region!==st.region) return false;
     if(st.state&&x.state!==st.state) return false;
     if(st.town&&x.city!==st.town) return false;
+    if(st.sort==='near'&&st.me&&st.radius){var dd=dist(it); if(dd===null||dd>st.radius) return false;}
     return true;
   }
   function qMatch(it){
@@ -460,13 +512,14 @@ footer .fw span{color:var(--sky)}
   function matchRest(it){
     if(st.fam&&it.fam!==st.fam) return false;
     if(st.pick&&!it.x.pick) return false;
+    if(st.saved&&!C.saved.has(it.x.id)) return false;
     return qMatch(it);
   }
   function sorted(list){
     var byName=function(a,b){return String(a.x.name).localeCompare(b.x.name);};
     if(st.sort==='all') return list.sort(byName);
     if(st.sort==='recent') return list.sort(function(a,b){return String(b.x.added||'').localeCompare(String(a.x.added||''))||((a.next||9e15)-(b.next||9e15))||byName(a,b);});
-    // dated things soonest first; exhibitions already open next (closing soonest first); irregular meets last
+    if(st.sort==='near'&&st.me) return list.sort(function(a,b){var da=dist(a),db=dist(b);if(da===null&&db===null)return byName(a,b);if(da===null)return 1;if(db===null)return -1;return (da-db)||((a.next||9e15)-(b.next||9e15));});
     var rank=function(it){return it.ongoing?1:(it.next?0:2);};
     return list.sort(function(a,b){
       var r=rank(a)-rank(b); if(r) return r;
@@ -476,13 +529,8 @@ footer .fw span{color:var(--sky)}
     });
   }
 
-  function card(it){
-    var x=it.x, u=safeUrl(x.url), ig=igUrl(x.instagram), main=u||ig, img=safeImg(x.image);
-    var tags=(it.kind==='meet'?'<span class="tag rec">Recurring</span>':'')+'<span class="tag t-'+it.fam+'">'+esc(x.type)+'</span>'+(x.status==='expected'?'<span class="tag exp">Dates expected</span>':'');
-    var media=img?'<img src="'+esc(img)+'" alt="'+esc(x.name)+'" loading="lazy">'
-      :'<div class="tile" style="--tc:'+FAM_COLOR[it.fam]+'"><span class="tile-k">'+esc(x.type)+'</span><span class="tile-big">'+esc(tileBig(it))+'</span>'+
-       '<span class="tile-s">'+esc([x.city,x.state].filter(Boolean).join(', '))+'</span><span class="tile-wm">CAR<span>VEYANCE</span></span></div>';
-    var when,next='';
+  function whenLines(it){
+    var x=it.x, when, next='';
     if(it.kind==='meet'){
       when=esc(x.schedule);
       if(it.next) next='Next: '+relDay(it.next)+(x.time?' · '+esc(x.time):'');
@@ -492,86 +540,185 @@ footer .fw span{color:var(--sky)}
     } else {
       when=esc(rangeText(x)); next=[x.time,x.cost].filter(Boolean).map(esc).join(' · ');
     }
+    return {when:when,next:next};
+  }
+  var HEART='<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 21s-7.5-4.6-9.6-9.3C.9 8.4 2.9 4.5 6.6 4.5c2.1 0 3.6 1.2 4.4 2.5.8-1.3 2.3-2.5 4.4-2.5 3.7 0 5.7 3.9 4.2 7.2C19.5 16.4 12 21 12 21z"/></svg>';
+
+  function card(it){
+    var x=it.x, u=safeUrl(x.url), ig=igUrl(x.instagram), img=safeImg(x.image), page='/events/'+x.id+'/';
+    var stt=STATUS[x.status]||'';
+    var tags=(it.kind==='meet'?'<span class="tag rec">Recurring</span>':'')+'<span class="tag t-'+it.fam+'">'+esc(x.type)+'</span>'+(x.status==='expected'?'<span class="tag exp">Dates expected</span>':'');
+    var media=img?'<img src="'+esc(img)+'" alt="'+esc(x.name)+'" loading="lazy">'
+      :'<div class="tile" style="--tc:'+FAM_COLOR[it.fam]+'"><span class="tile-k">'+esc(x.type)+'</span><span class="tile-big">'+esc(tileBig(it))+'</span>'+
+       '<span class="tile-s">'+esc([x.city,x.state].filter(Boolean).join(', '))+'</span><span class="tile-wm">CAR<span>VEYANCE</span></span></div>';
+    var wl=whenLines(it), dd=dist(it);
     var where=[x.venue,[x.city,x.state].filter(Boolean).join(', ')].filter(Boolean).map(esc).join(' · ');
     var links='';
     if(u) links+='<a href="'+esc(u)+'" target="_blank" rel="noopener">Official site &#8599;</a>';
     if(ig) links+='<a href="'+esc(ig)+'" target="_blank" rel="noopener">Instagram &#8599;</a>';
-    return '<article class="card">'+
-      '<div class="cimg">'+media+(x.pick?'<span class="pickbadge">Carveyance Pick</span>':'')+'</div>'+
+    if((it.kind==='event'&&!it.ongoing)||it.next) links+='<button type="button" class="calbtn" data-cal="'+esc(x.id)+'">Add to calendar</button>';
+    var on=C.saved.has(x.id);
+    return '<article class="card'+(stt?' has-alert':'')+'">'+
+      '<div class="cimg">'+media+(x.pick?'<span class="pickbadge">Carveyance Pick</span>':'')+
+        '<button type="button" class="save'+(on?' on':'')+'" data-save="'+esc(x.id)+'" aria-pressed="'+(on?'true':'false')+'" aria-label="'+(on?'Remove from saved':'Save')+' '+esc(x.name)+'">'+HEART+'</button></div>'+
+      (stt?'<div class="alert a-'+esc(x.status)+'"><b>'+stt+'</b>'+(x.note?' — '+esc(x.note):'')+'</div>':'')+
       '<div class="cbody"><div class="tags">'+tags+'</div>'+
-      '<h3>'+(main?'<a href="'+esc(main)+'" target="_blank" rel="noopener">'+esc(x.name)+'</a>':esc(x.name))+'</h3>'+
-      '<div class="when">'+when+'</div>'+(next?'<div class="next">'+next+'</div>':'')+
-      '<div class="where">'+where+'</div>'+
+      '<h3><a href="'+page+'">'+esc(x.name)+'</a></h3>'+
+      '<div class="when">'+wl.when+'</div>'+(wl.next?'<div class="next">'+wl.next+'</div>':'')+
+      '<div class="where">'+where+(dd!==null&&st.sort==='near'?' <span class="dist">· '+(dd<10?dd.toFixed(1):Math.round(dd))+' mi away</span>':'')+'</div>'+
       (x.blurb?'<p class="blurb">'+esc(x.blurb)+'</p>':'')+
-      (links?'<div class="clinks">'+links+'</div>':'')+'</div></article>';
+      '<div class="clinks">'+links+'</div></div></article>';
   }
 
   function renderLocation(){
     var base=ITEMS.filter(matchRest);
-    // regions
     var rc={}; base.forEach(function(it){rc[it.x.region]=(rc[it.x.region]||0)+1;});
     var h='<button type="button" class="chip'+(st.region?'':' on')+'" data-region="">Anywhere <span>'+base.length+'</span></button>';
     REGION_ORDER.forEach(function(r){if(rc[r]) h+='<button type="button" class="chip'+(st.region===r?' on':'')+'" data-region="'+esc(r)+'">'+esc(r)+' <span>'+rc[r]+'</span></button>';});
     document.getElementById('region-chips').innerHTML=h;
-    // states (within region)
     var sc={}; base.filter(function(it){return !st.region||it.x.region===st.region;}).forEach(function(it){var s=it.x.state;if(s)sc[s]=(sc[s]||0)+1;});
     var codes=Object.keys(sc).sort(function(a,b){return (STATES[a]||a).localeCompare(STATES[b]||b);});
     if(st.state&&!sc[st.state]){st.state='';st.town='';}
     var sel=document.getElementById('state');
     sel.innerHTML='<option value="">Choose a state</option>'+codes.map(function(c){return '<option value="'+c+'"'+(st.state===c?' selected':'')+'>'+esc(STATES[c]||c)+' ('+sc[c]+')</option>';}).join('');
-    // towns
     var row=document.getElementById('town-row');
     if(st.state){
       var tc={}; base.filter(function(it){return it.x.state===st.state&&(!st.region||it.x.region===st.region);}).forEach(function(it){var t=it.x.city;if(t)tc[t]=(tc[t]||0)+1;});
-      var towns=Object.keys(tc).sort();
-      if(st.town&&!tc[st.town]) st.town='';
+      var towns=Object.keys(tc).sort(); if(st.town&&!tc[st.town]) st.town='';
       document.getElementById('town-chips').innerHTML='<button type="button" class="chip'+(st.town?'':' on')+'" data-town="">All of '+esc(STATES[st.state]||st.state)+'</button>'+
         towns.map(function(t){return '<button type="button" class="chip'+(st.town===t?' on':'')+'" data-town="'+esc(t)+'">'+esc(t)+' <span>'+tc[t]+'</span></button>';}).join('');
       row.hidden=false;
     } else row.hidden=true;
     var now=[st.town,st.state?(STATES[st.state]||st.state):'',(!st.state&&st.region)?st.region:''].filter(Boolean).join(', ');
-    document.getElementById('loc-now').textContent=now||'Anywhere';
+    document.getElementById('loc-now').textContent=now||(st.sort==='near'&&st.me?'Near you':'Anywhere');
   }
 
   function renderTypes(){
-    var base=ITEMS.filter(function(it){return matchLoc(it)&&(!st.pick||it.x.pick)&&qMatch(it);});
+    var base=ITEMS.filter(function(it){return matchLoc(it)&&(!st.pick||it.x.pick)&&(!st.saved||C.saved.has(it.x.id))&&qMatch(it);});
     var c={}; base.forEach(function(it){c[it.fam]=(c[it.fam]||0)+1;});
     var h='<button type="button" class="chip'+(st.fam?'':' on')+'" data-fam="">All types <span>'+base.length+'</span></button>';
     FAM_ORDER.forEach(function(f){if(c[f]) h+='<button type="button" class="chip'+(st.fam===f?' on':'')+'" data-fam="'+f+'">'+FAM_LABEL[f]+' <span>'+c[f]+'</span></button>';});
+    var nSaved=C.saved.all().filter(function(id){return BYID[id];}).length;
+    h+='<button type="button" class="chip pickchip'+(st.pick?' on':'')+'" data-pickchip="1">&#9733; Picks</button>';
+    h+='<button type="button" class="chip savedchip'+(st.saved?' on':'')+'" data-savedchip="1">&#9829; Saved <span>'+nSaved+'</span></button>';
     var bar=document.getElementById('type-chips');
     bar.querySelectorAll('.chip').forEach(function(n){n.remove();});
     bar.insertAdjacentHTML('afterbegin',h);
   }
 
+  var lastList=[];
   function render(){
     document.getElementById('q').value=st.q; document.getElementById('sort').value=st.sort; document.getElementById('pick-only').checked=st.pick;
+    document.getElementById('radius').hidden=st.sort!=='near'||!st.me; document.getElementById('radius').value=String(st.radius);
     renderLocation(); renderTypes();
-    var list=sorted(ITEMS.filter(function(it){return matchLoc(it)&&matchRest(it);}));
+    var list=sorted(ITEMS.filter(function(it){return matchLoc(it)&&matchRest(it);})); lastList=list;
     var shown=list.slice(0,st.limit), grid=document.getElementById('grid');
-    grid.innerHTML=shown.length?shown.map(card).join(''):'<div class="empty"><h3>Nothing here yet</h3><p>Try another town or type, or send us one we should list.</p></div>';
-    document.getElementById('more').hidden=list.length<=st.limit;
-    var filtered=st.q||st.region||st.state||st.town||st.fam||st.pick;
-    document.getElementById('count').innerHTML='Showing <b>'+shown.length+'</b> of <b>'+list.length+'</b>'+(filtered?' &nbsp;<button type="button" class="clear" id="clear">Clear filters</button>':' events and regular meets');
+    var empty=st.saved?'<div class="empty"><h3>Nothing saved yet</h3><p>Tap the heart on any event to keep it here. Saved events stay on this phone or browser.</p></div>'
+      :'<div class="empty"><h3>Nothing here yet</h3><p>Try another town or type, or send us one we should list.</p></div>';
+    grid.innerHTML=shown.length?shown.map(card).join(''):empty;
+    document.getElementById('more').hidden=st.view==='map'||list.length<=st.limit;
+    var filtered=st.q||st.region||st.state||st.town||st.fam||st.pick||st.saved||(st.sort==='near'&&st.radius);
+    document.getElementById('count').innerHTML=(st.view==='map'?'<b>'+list.length+'</b> on the map':'Showing <b>'+shown.length+'</b> of <b>'+list.length+'</b>')+
+      (filtered?' &nbsp;<button type="button" class="clear" id="clear">Clear filters</button>':(st.view==='map'?'':' events and regular meets'));
+    document.querySelectorAll('.view button').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-view')===st.view);});
+    grid.hidden=st.view==='map'; document.getElementById('map').hidden=st.view!=='map';
+    if(st.view==='map') drawMap(list);
     syncUrl();
   }
 
-  if(typeof EVENTS_UPDATED!=='undefined'){var u=d(EVENTS_UPDATED);document.getElementById('updated').textContent='Updated '+MF[u.getMonth()]+' '+u.getDate()+', '+u.getFullYear();}
+  // ---- near me
+  var locmsg=document.getElementById('locmsg');
+  function say(t){locmsg.textContent=t;locmsg.hidden=!t;}
+  function locate(){
+    if(st.me){render();return;}
+    if(!navigator.geolocation){say('Your browser can’t share a location. Pick a state or town instead.');st.sort='upcoming';render();return;}
+    say('Finding you…');
+    navigator.geolocation.getCurrentPosition(function(pos){
+      st.me={lat:pos.coords.latitude,lng:pos.coords.longitude}; if(!st.radius) st.radius=50;
+      try{sessionStorage.setItem('cv-me',JSON.stringify(st.me));}catch(e){}
+      say(''); st.limit=PAGE; render();
+    },function(){
+      say('Location is off for this site, so we can’t sort by distance. Pick a state or town under “Browse events by location” instead.');
+      st.sort='upcoming'; render();
+    },{enableHighAccuracy:false,timeout:12000,maximumAge:600000});
+  }
+
+  // ---- map (Leaflet loads only when the map is opened)
+  var LMAP=null, LAYER=null, loading=false;
+  function loadCss(h){var l=document.createElement('link');l.rel='stylesheet';l.href=h;document.head.appendChild(l);}
+  function loadJs(s,cb){var e=document.createElement('script');e.src=s;e.onload=cb;e.onerror=function(){say('The map couldn’t load. Check your connection and try again.');};document.head.appendChild(e);}
+  function ensureLeaflet(cb){
+    if(window.L&&window.L.markerClusterGroup){cb();return;}
+    if(loading) return; loading=true;
+    var B='https://cdnjs.cloudflare.com/ajax/libs/';
+    loadCss(B+'leaflet/1.9.4/leaflet.min.css'); loadCss(B+'leaflet.markercluster/1.5.3/MarkerCluster.min.css'); loadCss(B+'leaflet.markercluster/1.5.3/MarkerCluster.Default.min.css');
+    loadJs(B+'leaflet/1.9.4/leaflet.min.js',function(){loadJs(B+'leaflet.markercluster/1.5.3/leaflet.markercluster.min.js',function(){loading=false;cb();});});
+  }
+  function drawMap(list){
+    ensureLeaflet(function(){
+      var L=window.L;
+      if(!LMAP){
+        LMAP=L.map('map',{scrollWheelZoom:false,worldCopyJump:true}).setView([39.5,-98.35],4);
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(LMAP);
+      }
+      if(LAYER) LMAP.removeLayer(LAYER);
+      LAYER=L.markerClusterGroup({showCoverageOnHover:false,maxClusterRadius:46});
+      var pts=[];
+      list.forEach(function(it){
+        if(!it.hasLL) return; var x=it.x, wl=whenLines(it);
+        var mk=L.circleMarker([x.lat,x.lng],{radius:8,weight:2,color:'#141820',fillColor:FAM_COLOR[it.fam],fillOpacity:.95});
+        mk.bindPopup('<div class="pop"><div class="pop-k">'+esc(x.type)+'</div><a class="pop-h" href="/events/'+x.id+'/">'+esc(x.name)+'</a><div class="pop-w">'+wl.when+'</div>'+(wl.next?'<div class="pop-n">'+wl.next+'</div>':'')+'<div class="pop-n">'+esc([x.city,x.state].filter(Boolean).join(', '))+'</div></div>');
+        LAYER.addLayer(mk); pts.push([x.lat,x.lng]);
+      });
+      LMAP.addLayer(LAYER);
+      if(st.me){ L.circleMarker([st.me.lat,st.me.lng],{radius:7,weight:3,color:'#fff',fillColor:'#e05c2a',fillOpacity:1}).addTo(LAYER).bindPopup('You are here'); pts.push([st.me.lat,st.me.lng]); }
+      setTimeout(function(){LMAP.invalidateSize(); if(pts.length) LMAP.fitBounds(pts,{padding:[30,30],maxZoom:11});},30);
+    });
+  }
+
+  // ---- calendar menu
+  var calMenu=document.getElementById('calmenu');
+  function openCal(btn){
+    var it=BYID[btn.getAttribute('data-cal')]; if(!it) return;
+    var g=C.google(it.x,it.kind); calMenu.setAttribute('data-id',it.x.id);
+    calMenu.querySelector('.cm-g').href=g||'#';
+    var r=btn.getBoundingClientRect(); calMenu.hidden=false;
+    var top=r.bottom+window.scrollY+6, left=Math.min(r.left+window.scrollX, window.scrollX+document.documentElement.clientWidth-calMenu.offsetWidth-12);
+    calMenu.style.top=top+'px'; calMenu.style.left=Math.max(12,left)+'px';
+  }
+  document.addEventListener('click',function(e){
+    var cb=e.target.closest('.calbtn'); if(cb){e.preventDefault();openCal(cb);return;}
+    if(e.target.closest('.cm-ics')){var it=BYID[calMenu.getAttribute('data-id')]; if(it) C.downloadIcs(it.x,it.kind); calMenu.hidden=true; return;}
+    if(e.target.closest('.cm-g')){calMenu.hidden=true;return;}
+    if(!e.target.closest('#calmenu')) calMenu.hidden=true;
+    var sv=e.target.closest('.save'); if(sv){e.preventDefault(); var id=sv.getAttribute('data-save'); var on=C.saved.toggle(id);
+      sv.classList.toggle('on',on); sv.setAttribute('aria-pressed',on?'true':'false'); renderTypes(); if(st.saved) render(); return;}
+    if(e.target&&e.target.id==='clear'){st={q:'',sort:st.sort==='near'?'near':'upcoming',region:'',state:'',town:'',fam:'',pick:false,saved:false,radius:st.radius?50:0,view:st.view,limit:PAGE,me:st.me};render();}
+  });
+  document.addEventListener('keydown',function(e){if(e.key==='Escape') calMenu.hidden=true;});
+
+  if(typeof EVENTS_UPDATED!=='undefined'){var u=d(EVENTS_UPDATED);document.getElementById('updated').textContent='Updated '+MF[u.getMonth()]+' '+u.getDate()+', '+u.getFullYear()+'.';}
 
   var qEl=document.getElementById('q'), t=null;
   function runSearch(){st.q=qEl.value.trim();st.limit=PAGE;render();}
   document.getElementById('search').addEventListener('submit',function(e){e.preventDefault();runSearch();});
   qEl.addEventListener('input',function(){clearTimeout(t);t=setTimeout(runSearch,220);});
-  document.getElementById('sort').addEventListener('change',function(){st.sort=this.value;st.limit=PAGE;render();});
+  document.getElementById('sort').addEventListener('change',function(){st.sort=this.value;st.limit=PAGE;if(st.sort==='near')locate();else{say('');render();}});
+  document.getElementById('near-btn').addEventListener('click',function(){st.sort='near';st.limit=PAGE;locate();});
+  document.getElementById('radius').addEventListener('change',function(){st.radius=+this.value;st.limit=PAGE;render();});
   document.getElementById('region-chips').addEventListener('click',function(e){var c=e.target.closest('.chip');if(!c)return;st.region=c.getAttribute('data-region');st.state='';st.town='';st.limit=PAGE;render();});
   document.getElementById('state').addEventListener('change',function(){st.state=this.value;st.town='';st.limit=PAGE;render();});
   document.getElementById('town-chips').addEventListener('click',function(e){var c=e.target.closest('.chip');if(!c)return;st.town=c.getAttribute('data-town');st.limit=PAGE;render();});
-  document.getElementById('type-chips').addEventListener('click',function(e){var c=e.target.closest('.chip');if(!c)return;st.fam=c.getAttribute('data-fam');st.limit=PAGE;render();});
+  document.getElementById('type-chips').addEventListener('click',function(e){var c=e.target.closest('.chip');if(!c)return;
+    if(c.hasAttribute('data-savedchip')){st.saved=!st.saved;}else if(c.hasAttribute('data-pickchip')){st.pick=!st.pick;}else{st.fam=c.getAttribute('data-fam');} st.limit=PAGE;render();});
   document.getElementById('pick-only').addEventListener('change',function(){st.pick=this.checked;st.limit=PAGE;render();});
   document.getElementById('more-btn').addEventListener('click',function(){st.limit+=PAGE;render();});
-  document.addEventListener('click',function(e){if(e.target&&e.target.id==='clear'){st={q:'',sort:st.sort,region:'',state:'',town:'',fam:'',pick:false,limit:PAGE};render();}});
+  document.querySelector('.view').addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;st.view=b.getAttribute('data-view');render();});
   if(st.region||st.state) document.getElementById('loc').open=true;
+  C.installSetup(document.getElementById('install-btn'));
   render();
 })();
+
 </script>
 </body>
 </html>

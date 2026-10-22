@@ -22,6 +22,9 @@
     image:     "/assets/images/your-article-folder-name.jpg",
     icon:      "🚗",     <- OPTIONAL. only used by the Fun Facts
                               band on the homepage. any emoji.
+    owner:     "tony-m", <- OPTIONAL. Owner's Manual stories only:
+    ownerCar:  "rx7",       the owner's id and car id from owners.js.
+                            Then run python3 owners_build.py.
     featured:  false
   },
 
@@ -31,9 +34,9 @@
    1. slug     = the exact folder name inside /articles/
    2. category = must be spelled EXACTLY as one of these:
                  "How It Works"   "Reviews"        "Comparisons"
-                 "Car Culture"    "Road Trips"     "Opinions"
-                 "Advice & Tips"  "Fun Facts"      "Short Stories"
-                 "Interviews"     "News"
+                 "Car Culture"    "Owner's Manual" "Road Trips"
+                 "Opinions"       "Advice & Tips"  "Fun Facts"
+                 "Short Stories"  "Interviews"     "News"
    3. date     = YYYY-MM-DD  (controls the order — newest first)
    4. featured = true puts it in the big homepage slot. Only ONE.
    5. image    = put the card image in /assets/images/ and point to it.

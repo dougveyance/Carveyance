@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Owner's Manual — Carveyance</title>
-<meta name="description" content="Owner's Manual: readers' cars, in their owners' words. Tell us about yours and it could be next.">
+<meta name="description" content="Owner's Manual: readers' cars and the road trips they've taken in them, in their owners' words. Tell us about yours and it could be next.">
 <link rel="canonical" href="https://carveyance.com/categories/owners-manual/">
 <meta property="og:title" content="Owner's Manual — Carveyance">
 <meta property="og:description" content="Readers' cars, in their owners' words. Tell us about yours.">
@@ -41,6 +41,7 @@ nav{height:64px;display:flex;align-items:center;justify-content:space-between;
 .crumb a:hover{color:var(--steel)}
 .ctitle{font-family:'Bebas Neue',sans-serif;font-size:clamp(46px,8vw,78px);line-height:.95;letter-spacing:.02em}
 .cblurb{font-size:15px;font-weight:300;color:var(--slate);line-height:1.7;max-width:620px;margin-top:14px}
+.cnote{font-size:13.5px;color:var(--mid);margin-top:10px}.cnote a{color:var(--steel);border-bottom:1px solid currentColor}
 #cat-count{display:inline-block;margin-top:18px;font-size:10px;font-weight:600;letter-spacing:.16em;
   text-transform:uppercase;background:var(--steel);color:var(--white);padding:5px 13px;border-radius:20px}
 
@@ -79,6 +80,16 @@ footer{background:var(--ink);color:rgba(255,255,255,.5);padding:36px 0;text-alig
 footer .fw{font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:.08em;color:var(--white);display:block;margin-bottom:10px}
 footer .fw span{color:var(--sky)}
 .hero-cta{display:inline-block;margin-top:18px;margin-right:16px;font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--steel);border-bottom:1px solid currentColor;padding-bottom:2px}
+.owners-row{padding:0 0 60px}
+.owners-row[hidden]{display:none}
+.orow{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
+.oitem{display:flex;gap:14px;align-items:center;border:1px solid var(--rule);border-radius:6px;padding:14px 16px;transition:border-color .2s}
+.oitem:hover{border-color:var(--steel)}
+.oface{flex:0 0 56px;width:56px;height:56px;border-radius:50%;overflow:hidden;background:var(--deep);color:#fff;display:flex;align-items:center;justify-content:center;font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:.04em}
+.oface img{width:100%;height:100%;object-fit:cover}
+.oitem b{display:block;font-family:'DM Serif Display',serif;font-weight:400;font-size:19px;line-height:1.2}
+.oitem small{font-size:12.5px;color:var(--mid)}
+.orow-all{display:inline-block;margin-top:16px;font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--steel);border-bottom:1px solid currentColor}
 .tell{background:var(--ink);color:var(--white);padding:70px 0 80px}
 .tell-in{display:grid;grid-template-columns:1fr 1.15fr;gap:56px;align-items:start}
 .tell .eyebrow{font-family:'Bebas Neue',sans-serif;font-size:13px;letter-spacing:.3em;color:var(--sky);margin-bottom:10px}
@@ -93,6 +104,7 @@ footer .fw span{color:var(--sky)}
 .oform label{display:block;font-size:12px;font-weight:600;letter-spacing:.04em;color:var(--slate);margin-bottom:6px}
 .oform input[type=text],.oform input[type=email],.oform input[type=url],.oform textarea{width:100%;font-family:'DM Sans',sans-serif;font-size:15px;color:var(--ink);
   padding:11px 13px;border:1px solid var(--rule);border-radius:4px;background:var(--white)}
+.oform select{width:100%;font-family:'DM Sans',sans-serif;font-size:15px;color:var(--ink);padding:11px 13px;border:1px solid var(--rule);border-radius:4px;background:var(--white)}
 .oform textarea{min-height:96px;resize:vertical;line-height:1.55}
 .oform input:focus,.oform textarea:focus{outline:none;border-color:var(--steel)}
 .oform .hint{font-size:12px;color:var(--mid);line-height:1.5;margin-top:4px}
@@ -133,15 +145,24 @@ footer .fl{margin-top:12px;font-size:12px;letter-spacing:.04em}footer .fl a{colo
   <div class="wrap">
     <div class="crumb"><a href="/">Carveyance</a> &nbsp;/&nbsp; Categories</div>
     <h1 class="ctitle">Owner's Manual</h1>
-    <p class="cblurb">Readers' cars, in their owners' words. The one you saved up for, inherited, rescued or kept far longer than anyone expected, and what it's like to live with.</p>
+    <p class="cblurb">Readers' cars, in their owners' words. The one you saved up for, inherited, rescued or kept far longer than anyone expected, what it's like to live with, and the adventures and road trips you've taken in it. Every owner gets a page that grows like a journal, one story at a time.</p>
+    <p class="cnote">Looking for where to drive? <a href="/categories/road-trips/">Road Trips</a> has the routes, the stops and the roads less traveled.</p>
     <a class="hero-cta" href="#tell-us">Tell us about your car &darr;</a>
     <div id="cat-count"></div>
   </div>
 </header>
 
-<section class="sec" id="cat-root" data-category="Owner's Manual" data-empty-title="The first ones are on their way" data-empty-text="Owner's Manual is brand new. Tell us about your car and it could be one of the first we feature." data-empty-href="#tell-us" data-empty-label="Tell Us About Your Car">
+<section class="sec" id="cat-root" data-category="Owner's Manual" data-include-owned data-empty-title="The first ones are on their way" data-empty-text="Owner's Manual is brand new. Tell us about your car and it could be one of the first we feature." data-empty-href="#tell-us" data-empty-label="Tell Us About Your Car">
   <div class="wrap">
     <div class="grid3" id="cat-grid"></div>
+  </div>
+</section>
+
+<section class="owners-row" id="owners-row" hidden>
+  <div class="wrap">
+    <div class="oc-label">The owners</div>
+    <div class="orow" id="orow"></div>
+    <a class="orow-all" href="/owners/">All owners &rarr;</a>
   </div>
 </section>
 
@@ -151,6 +172,7 @@ footer .fl{margin-top:12px;font-size:12px;letter-spacing:.04em}footer .fl a{colo
       <div class="eyebrow">Get your car in Owner's Manual</div>
       <h2>Tell us about <em>your car</em></h2>
       <p>Every car in Owner's Manual belongs to a reader. It doesn't have to be rare, fast or expensive. A 20-year-old commuter that has never let you down counts as much as a concours winner, as long as there's a story in it.</p>
+      <p>Think of it as a journal for your car. Send the first story now, then the next road trip, adventure or breakdown in the middle of nowhere whenever it happens. Every owner we feature gets their own page with their garage and all their stories.</p>
       <p>We read them all. If we pick yours, we'll write it up from your answers, quote you by name and ask for the rest of your photos at full size.</p>
       <ul class="tell-list">
         <li><b>Photos:</b> paste a link to a few shots (a shared album or an Instagram post). If we pick your car, we'll ask you to email the full-size photos.</li>
@@ -167,6 +189,11 @@ footer .fl{margin-top:12px;font-size:12px;letter-spacing:.04em}footer .fl a{colo
         <div><label for="o-email">Your email</label><input id="o-email" type="email" name="email" required autocomplete="email"></div>
       </div>
       <div class="row row2">
+        <div><label for="o-credit">How should we credit you?</label><input id="o-credit" type="text" name="credit" required placeholder="Full name, first name and initial, or a nickname"></div>
+        <div><label for="o-before">Sent us a story before?</label>
+          <select id="o-before" name="sent_before"><option>No, this is my first</option><option>Yes, about the same car</option><option>Yes, about a different car</option></select></div>
+      </div>
+      <div class="row row2">
         <div><label for="o-town">Where you and the car live</label><input id="o-town" type="text" name="town" required placeholder="Town, State"></div>
         <div><label for="o-ig">Instagram (optional)</label><input id="o-ig" type="text" name="instagram" placeholder="@handle"></div>
       </div>
@@ -174,10 +201,14 @@ footer .fl{margin-top:12px;font-size:12px;letter-spacing:.04em}footer .fl a{colo
         <div><label for="o-car">The car</label><input id="o-car" type="text" name="car" required placeholder="Year, make and model"></div>
         <div><label for="o-owned">How long you've had it</label><input id="o-owned" type="text" name="owned" required placeholder="Since 2011"></div>
       </div>
-      <div class="row"><label for="o-story">How did it come into your life?</label><textarea id="o-story" name="story" required></textarea></div>
-      <div class="row"><label for="o-drive">What's it like to drive, and to live with?</label><textarea id="o-drive" name="drive"></textarea></div>
-      <div class="row"><label for="o-changes">What have you changed, and what would you never change?</label><textarea id="o-changes" name="changes"></textarea></div>
-      <div class="row"><label for="o-best">The best day you've had with it</label><textarea id="o-best" name="best_day"></textarea></div>
+      <div class="row"><label for="o-kind">What's this story about?</label>
+        <select id="o-kind" name="story_type"><option>The car and me: how it started, living with it</option><option>A road trip or adventure in it</option><option>Something else</option></select></div>
+      <div class="row"><label for="o-story">Your story</label><textarea id="o-story" name="story" required></textarea>
+        <div class="hint">How it came into your life, a road trip you'll never forget, the day it let you down 200 miles from home. Tell it your way.</div></div>
+      <div class="row"><label for="o-drive">What's it like to drive, and to live with? (optional)</label><textarea id="o-drive" name="drive"></textarea></div>
+      <div class="row"><label for="o-changes">What have you changed, and what would you never change? (optional)</label><textarea id="o-changes" name="changes"></textarea></div>
+      <div class="row"><label for="o-road">Found a road worth the drive? (optional)</label><input id="o-road" type="text" name="road" placeholder="Where it is, and why it's worth it">
+        <div class="hint">The best ones may end up in Road Trips, with credit to you.</div></div>
       <div class="row"><label for="o-album">Link to your photos</label><input id="o-album" type="url" name="album" placeholder="https://"><div class="hint">A shared Google Photos, iCloud or Dropbox album, or an Instagram post. A shot of the whole car in good light helps most.</div></div>
       <div class="row"><label class="consent"><input type="checkbox" name="photo_rights" value="yes" required> I took my photos (or have the photographer's permission), and Carveyance may publish them with my story, with credit.</label></div>
       <div class="row"><label class="consent"><input type="checkbox" name="edit_ok" value="yes" required> Carveyance may edit my answers for length and clarity, and quote me by name.</label></div>
@@ -212,6 +243,7 @@ footer .fl{margin-top:12px;font-size:12px;letter-spacing:.04em}footer .fl a{colo
 </footer>
 
 <script src="/articles.js"></script>
+<script src="/owners.js"></script>
 <script src="/assets/js/carveyance.js"></script>
 <script>
 (function(){

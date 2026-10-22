@@ -60,13 +60,19 @@ function byCategory(cat) {
 
 function url(a) { return "/articles/" + a.slug + "/"; }
 
+/* the reader who owns the car in an Owner's Manual story (owners.js is only loaded where it's needed) */
+function ownerOf(a) {
+  if (!a || !a.owner || typeof OWNERS === "undefined" || !Array.isArray(OWNERS)) return null;
+  return OWNERS.find(o => o && o.id === a.owner) || null;
+}
+
 /* ---------- card builders ---------- */
 
 function cardHTML(a) {
   return `
   <a class="card" href="${url(a)}">
     <div class="card-img"><img src="${esc(a.image)}" alt="" loading="lazy"></div>
-    <div class="card-cat">${esc(a.category)}</div>
+    <div class="card-cat">${esc(a.category)}${ownerOf(a) ? " · " + esc(ownerOf(a).name) : ""}</div>
     <h3 class="card-hed">${esc(a.title)}</h3>
     <p class="card-dek">${esc(a.blurb)}</p>
     <div class="card-meta">${fmtDate(a.date)} <span class="dot">●</span> ${esc(a.readTime || "")}</div>
@@ -248,7 +254,10 @@ function initCategory() {
   const root = document.getElementById("cat-root");
   if (!root) return;
   const cat = root.getAttribute("data-category");
-  const arts = byCategory(cat);
+  /* Owner's Manual also shows readers' stories filed elsewhere (say, Road Trips) */
+  const arts = root.hasAttribute("data-include-owned")
+    ? allArticles().filter(a => a.category === cat || a.owner)
+    : byCategory(cat);
   const grid = document.getElementById("cat-grid");
   const count = document.getElementById("cat-count");
 
@@ -272,6 +281,27 @@ function initCategory() {
     grid.style.gridTemplateColumns = "1fr";
   } else {
     grid.innerHTML = arts.map(cardHTML).join("");
+  }
+
+  /* Owner's Manual: a row of the owners, each linking to their page */
+  const row = document.getElementById("orow");
+  if (row && typeof OWNERS !== "undefined" && Array.isArray(OWNERS)) {
+    const list = OWNERS.map(o => {
+      const mine = arts.filter(a => a.owner === o.id);
+      return { o, n: mine.length, last: mine.length ? mine[0].date : "" };
+    }).filter(x => x.o && /^[a-z0-9-]+$/.test(x.o.id || "") && x.n > 0)
+      .sort((a, b) => String(b.last).localeCompare(String(a.last)));
+    if (list.length) {
+      row.innerHTML = list.map(({ o, n }) => {
+        const pic = /^(\/|https:\/\/)[^"'<>\s]+\.(jpe?g|png|webp)$/i.test(o.photo || "")
+          ? `<img src="${esc(o.photo)}" alt="">`
+          : esc(String(o.name || "").replace(/\./g, " ").split(/\s+/).filter(Boolean).slice(0, 2).map(w => w[0]).join("").toUpperCase());
+        return `<a class="oitem" href="/owners/${esc(o.id)}/"><span class="oface">${pic}</span>` +
+          `<span><b>${esc(o.name)}</b><small>${[o.town, n === 1 ? "1 story" : n + " stories"].filter(Boolean).map(esc).join(" · ")}</small></span></a>`;
+      }).join("");
+      const sec = document.getElementById("owners-row");
+      if (sec) sec.hidden = false;
+    }
   }
 }
 

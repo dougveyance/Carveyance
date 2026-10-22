@@ -147,8 +147,9 @@ what Google shows for "car show near me" searches. They are built from
 events.js by a script, so after ANY change to events.js run, from the repo root:
 
     python3 events_build.py     (rebuilds events/<id>/ pages, removes ended ones)
+    python3 owners_build.py     (rebuilds the Owner's Manual owner pages)
     python3 fix_links.py
-    python3 seo_inject.py       (adds the event pages to sitemap.xml)
+    python3 seo_inject.py       (adds the event and owner pages to sitemap.xml)
 
 Everything inside the `events/` folder is either built by that script or part
 of the Events app (index.html, events-common.js, sw.js, manifest.webmanifest,
@@ -201,11 +202,43 @@ with a link to the owner's photos (a shared album or an Instagram post). The
 form deliberately takes no photo uploads: Netlify caps form attachments, and on
 the free plan going over that cap can pause the whole site.
 
+It works like a journal for each reader's car: the first story, then each
+road trip or adventure after it. The form asks what the story is about, how
+the owner wants to be credited, and whether they've sent one before.
+
 Nothing is published automatically. When you pick one, send Claude the
 submission. Claude writes it up as a normal article with
 `category: "Owner's Manual"`, quoting the owner by name, and it goes through the
 usual article steps above. Ask the owner for the full-size photos first. Only
 use photos the owner ticked the rights box for.
+
+### Owner pages
+
+Every featured owner gets a page at `carveyance.com/owners/<id>/` with their
+garage (each car they've written about) and their journal (all their stories,
+grouped by car, newest first). `carveyance.com/owners/` lists all of them, the
+Owner's Manual page shows a row of owners, and each story gets an "About the
+owner" box at the foot linking back to their page.
+
+- The owners themselves are listed in **`owners.js`** (top level, next to
+  `articles.js`): id, how they're credited, town, Instagram, a line about
+  them, an optional photo, and their cars. The instructions are at the top of
+  that file. Add an owner once; a repeat owner reuses the same entry.
+- A story is theirs when its entry in `articles.js` has
+  `"owner": "<id>"` and `"ownerCar": "<car id>"`.
+- Then run `python3 owners_build.py` (it's in the list of scripts above). It
+  builds the owner pages and the boxes, and removes an owner's page if they
+  have no stories left. Never edit those pages by hand.
+- An owner's story can sit in another section, say Road Trips, and it will
+  still show in Owner's Manual and on their page.
+
+### Owner's Manual and Road Trips
+
+Owner's Manual is readers' own stories about their own cars, road trips
+included. Road Trips is the guide: where to go, where to stop, what to see,
+where to eat, and the roads less traveled. When a reader's story turns up a
+great road, it can become a Road Trips piece with credit to them (the form
+asks "Found a road worth the drive?").
 
 ## Advertise & Partner
 

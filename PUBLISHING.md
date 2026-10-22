@@ -171,6 +171,22 @@ itself if it has no listings left. The "Car events by state" links on the
 Events page are refreshed at the same time, between the `state-links` markers
 in `events/index.html` (leave those two marker lines alone).
 
+### Grid, Map and Calendar
+
+The Events page has 3 views. Calendar shows one month at a time, with each
+listing colored by its type (the same colors as the type tags on the cards)
+and a key above it. A day with more than 3 listings shows "+N more"; clicking
+a day lists everything on it. All the filters apply except "When", since the
+calendar has its own dates. Nothing to maintain: it reads events.js like the
+rest of the page.
+
+### The "near you" link
+
+`carveyance.com/near` opens the Events page set to "This weekend" and "Nearest
+to me". The reader's phone or browser asks once to share their location, then
+shows what's on within 50 miles (they can widen it). Use it in the newsletter
+and on social for anyone outside LA. It's set in `_redirects`.
+
 The map uses OpenStreetMap's free tiles, which are fine at this site's
 traffic. If the Events page ever gets heavy use, switch the one tile line in
 events/index.html to a paid tile service.

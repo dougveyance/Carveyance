@@ -285,6 +285,41 @@ footer .fw span{color:var(--sky)}
 .states a{display:inline-block;font-size:13px;font-weight:500;border:1px solid var(--rule);border-radius:999px;padding:7px 13px;color:var(--slate)}
 .states a:hover{border-color:var(--steel);color:var(--steel)}.states span{color:var(--mid);font-size:12px;margin-left:5px}
 .chip.pagelink{border-style:dashed;color:var(--steel)}
+/* calendar view */
+#cal[hidden]{display:none}
+.cal-head{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.cal-head h3{font-family:'Bebas Neue',sans-serif;font-weight:400;font-size:34px;letter-spacing:.04em;margin:0 auto 0 4px;order:-1}
+.cal-head button{font-family:'DM Sans',sans-serif;font-size:13px;font-weight:600;background:var(--white);color:var(--ink);border:1px solid var(--rule);border-radius:999px;padding:8px 14px;cursor:pointer}
+.cal-head button:hover{border-color:var(--steel);color:var(--steel)}
+.cal-legend{display:flex;flex-wrap:wrap;gap:6px 14px;margin-bottom:12px;font-size:12px;color:var(--slate)}
+.cal-legend span{display:inline-flex;align-items:center;gap:6px}
+.cal-legend i{width:12px;height:12px;border-radius:3px;display:inline-block}
+.cal-tip{font-size:13px;color:var(--mid);margin:-4px 0 12px}
+.cal-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));border-top:1px solid var(--rule);border-left:1px solid var(--rule)}
+.cal-dow{font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--mid);text-align:center;padding:8px 0;border-right:1px solid var(--rule);border-bottom:1px solid var(--rule);background:var(--mist)}
+.cal-cell{min-height:124px;padding:6px 6px 8px;border-right:1px solid var(--rule);border-bottom:1px solid var(--rule);background:var(--white);cursor:pointer;min-width:0}
+.cal-cell.out{background:#fafbfc}.cal-cell.out .cal-num{color:#b6bec8}
+.cal-cell.past{opacity:.55}
+.cal-cell.today{background:#fff8e6}
+.cal-cell.sel{box-shadow:inset 0 0 0 2px var(--steel)}
+.cal-num{display:block;text-align:right;font-size:13px;font-weight:600;color:var(--slate);margin-bottom:4px}
+.cal-chip{display:block;font-size:11.5px;font-weight:600;line-height:1.25;color:#fff;border-radius:4px;padding:3px 6px;margin-bottom:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cal-chip:hover{filter:brightness(1.1)}
+.cal-chip.c-meet{color:#3d2408}
+.cal-more{display:block;font-size:11.5px;font-weight:600;color:var(--steel);padding:2px 2px 0}
+.cal-dots{display:none;gap:3px;flex-wrap:wrap;justify-content:center}
+.cal-dots i{width:7px;height:7px;border-radius:50%;display:inline-block}
+.cal-day{margin-top:22px;border:1px solid var(--rule);border-radius:8px;padding:18px 20px}
+.cal-day h4{font-family:'DM Serif Display',serif;font-weight:400;font-size:24px;margin-bottom:10px}
+.cal-day ul{list-style:none;border-top:1px solid var(--rule)}
+.cal-day li{border-bottom:1px solid var(--rule)}
+.cal-day a{display:flex;gap:12px;align-items:baseline;padding:10px 0}
+.cal-day a:hover b{color:var(--steel)}
+.cal-day i{flex:0 0 10px;width:10px;height:10px;border-radius:3px;display:inline-block;transform:translateY(1px)}
+.cal-day b{font-weight:600;font-size:15px}
+.cal-day span{display:block;font-size:13px;color:var(--mid);margin-top:2px}
+@media(max-width:760px){.cal-cell{min-height:64px;padding:4px}.cal-chip,.cal-more{display:none}.cal-dots{display:flex}.cal-num{text-align:center;font-size:12px}.cal-head h3{font-size:26px}.cal-day{padding:14px}}
+
 .sfield.when{flex:0 0 190px}
 @media(max-width:760px){.sfield.when{flex:1 1 auto}}
 footer .fl{margin-top:12px;font-size:12px;letter-spacing:.04em}footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
@@ -389,19 +424,26 @@ footer .fl{margin-top:12px;font-size:12px;letter-spacing:.04em}footer .fl a{colo
           <option value="10">Within 10 mi</option><option value="25">Within 25 mi</option><option value="50">Within 50 mi</option>
           <option value="100">Within 100 mi</option><option value="250">Within 250 mi</option><option value="0">Any distance</option>
         </select>
-        <div class="view" role="group" aria-label="View"><button type="button" data-view="grid" class="on">Grid</button><button type="button" data-view="map">Map</button></div>
+        <div class="view" role="group" aria-label="View"><button type="button" data-view="grid" class="on">Grid</button><button type="button" data-view="map">Map</button><button type="button" data-view="cal">Calendar</button></div>
       </div>
     </div>
     <div class="locmsg" id="locmsg" hidden></div>
     <div class="grid" id="grid"></div>
     <div id="map" hidden></div>
+    <div id="cal" hidden>
+      <div class="cal-head"><h3 id="cal-title"></h3><button type="button" id="cal-prev" aria-label="Previous month">&lsaquo;</button><button type="button" id="cal-today">Today</button><button type="button" id="cal-next" aria-label="Next month">&rsaquo;</button></div>
+      <div class="cal-legend" id="cal-legend"></div>
+      <p class="cal-tip" id="cal-tip" hidden>Showing everywhere. Pick a region or state under &ldquo;Browse events by location&rdquo;, or use Nearest to me, to narrow it down.</p>
+      <div class="cal-grid" id="cal-grid"></div>
+      <div class="cal-day" id="cal-day" hidden></div>
+    </div>
     <div class="more" id="more" hidden><button type="button" id="more-btn">Show more</button></div>
     <p class="notice">Dates, times and venues come from each organizer and can change without much warning. Meets get rained out, moved or canceled, so check the official site or Instagram before you set off. Know one we missed? <a href="#tip" style="color:var(--steel);border-bottom:1px solid currentColor">Send us a tip</a>. Saved events stay on this phone or browser only. Distances are measured to the town, not the exact venue. <span id="updated"></span></p>
   </div>
 </section>
 
 <!-- state-links:start -->
-<section class="bystate" aria-label="Car events by state"><div class="wrap"><h2>Car events by state</h2><ul class="states"><li><a href="/events/los-angeles/">Los Angeles &amp; the South Bay<span>57</span></a></li><li><a href="/events/alabama/">Alabama<span>3</span></a></li><li><a href="/events/alaska/">Alaska<span>2</span></a></li><li><a href="/events/arizona/">Arizona<span>14</span></a></li><li><a href="/events/arkansas/">Arkansas<span>5</span></a></li><li><a href="/events/california/">California<span>102</span></a></li><li><a href="/events/colorado/">Colorado<span>5</span></a></li><li><a href="/events/connecticut/">Connecticut<span>7</span></a></li><li><a href="/events/delaware/">Delaware<span>1</span></a></li><li><a href="/events/florida/">Florida<span>23</span></a></li><li><a href="/events/georgia/">Georgia<span>11</span></a></li><li><a href="/events/hawaii/">Hawaii<span>1</span></a></li><li><a href="/events/illinois/">Illinois<span>7</span></a></li><li><a href="/events/indiana/">Indiana<span>5</span></a></li><li><a href="/events/iowa/">Iowa<span>4</span></a></li><li><a href="/events/kansas/">Kansas<span>4</span></a></li><li><a href="/events/kentucky/">Kentucky<span>7</span></a></li><li><a href="/events/louisiana/">Louisiana<span>5</span></a></li><li><a href="/events/maine/">Maine<span>4</span></a></li><li><a href="/events/maryland/">Maryland<span>4</span></a></li><li><a href="/events/massachusetts/">Massachusetts<span>5</span></a></li><li><a href="/events/michigan/">Michigan<span>9</span></a></li><li><a href="/events/minnesota/">Minnesota<span>7</span></a></li><li><a href="/events/mississippi/">Mississippi<span>3</span></a></li><li><a href="/events/missouri/">Missouri<span>4</span></a></li><li><a href="/events/montana/">Montana<span>1</span></a></li><li><a href="/events/nebraska/">Nebraska<span>4</span></a></li><li><a href="/events/nevada/">Nevada<span>13</span></a></li><li><a href="/events/new-hampshire/">New Hampshire<span>1</span></a></li><li><a href="/events/new-jersey/">New Jersey<span>5</span></a></li><li><a href="/events/new-mexico/">New Mexico<span>1</span></a></li><li><a href="/events/new-york/">New York<span>15</span></a></li><li><a href="/events/north-carolina/">North Carolina<span>12</span></a></li><li><a href="/events/north-dakota/">North Dakota<span>4</span></a></li><li><a href="/events/ohio/">Ohio<span>9</span></a></li><li><a href="/events/oklahoma/">Oklahoma<span>5</span></a></li><li><a href="/events/oregon/">Oregon<span>6</span></a></li><li><a href="/events/pennsylvania/">Pennsylvania<span>18</span></a></li><li><a href="/events/rhode-island/">Rhode Island<span>5</span></a></li><li><a href="/events/south-carolina/">South Carolina<span>6</span></a></li><li><a href="/events/south-dakota/">South Dakota<span>1</span></a></li><li><a href="/events/tennessee/">Tennessee<span>6</span></a></li><li><a href="/events/texas/">Texas<span>22</span></a></li><li><a href="/events/utah/">Utah<span>3</span></a></li><li><a href="/events/vermont/">Vermont<span>2</span></a></li><li><a href="/events/virginia/">Virginia<span>4</span></a></li><li><a href="/events/washington/">Washington<span>10</span></a></li><li><a href="/events/wisconsin/">Wisconsin<span>5</span></a></li><li><a href="/events/wyoming/">Wyoming<span>2</span></a></li></ul></div></section>
+<section class="bystate" aria-label="Car events by state"><div class="wrap"><h2>Car events by state</h2><ul class="states"><li><a href="/events/los-angeles/">Los Angeles &amp; the South Bay<span>58</span></a></li><li><a href="/events/alabama/">Alabama<span>3</span></a></li><li><a href="/events/alaska/">Alaska<span>3</span></a></li><li><a href="/events/arizona/">Arizona<span>14</span></a></li><li><a href="/events/arkansas/">Arkansas<span>5</span></a></li><li><a href="/events/california/">California<span>104</span></a></li><li><a href="/events/colorado/">Colorado<span>5</span></a></li><li><a href="/events/connecticut/">Connecticut<span>7</span></a></li><li><a href="/events/delaware/">Delaware<span>2</span></a></li><li><a href="/events/florida/">Florida<span>23</span></a></li><li><a href="/events/georgia/">Georgia<span>12</span></a></li><li><a href="/events/hawaii/">Hawaii<span>1</span></a></li><li><a href="/events/illinois/">Illinois<span>8</span></a></li><li><a href="/events/indiana/">Indiana<span>7</span></a></li><li><a href="/events/iowa/">Iowa<span>4</span></a></li><li><a href="/events/kansas/">Kansas<span>4</span></a></li><li><a href="/events/kentucky/">Kentucky<span>8</span></a></li><li><a href="/events/louisiana/">Louisiana<span>5</span></a></li><li><a href="/events/maine/">Maine<span>4</span></a></li><li><a href="/events/maryland/">Maryland<span>4</span></a></li><li><a href="/events/massachusetts/">Massachusetts<span>5</span></a></li><li><a href="/events/michigan/">Michigan<span>9</span></a></li><li><a href="/events/minnesota/">Minnesota<span>8</span></a></li><li><a href="/events/mississippi/">Mississippi<span>3</span></a></li><li><a href="/events/missouri/">Missouri<span>6</span></a></li><li><a href="/events/montana/">Montana<span>1</span></a></li><li><a href="/events/nebraska/">Nebraska<span>4</span></a></li><li><a href="/events/nevada/">Nevada<span>13</span></a></li><li><a href="/events/new-hampshire/">New Hampshire<span>1</span></a></li><li><a href="/events/new-jersey/">New Jersey<span>5</span></a></li><li><a href="/events/new-mexico/">New Mexico<span>1</span></a></li><li><a href="/events/new-york/">New York<span>21</span></a></li><li><a href="/events/north-carolina/">North Carolina<span>12</span></a></li><li><a href="/events/north-dakota/">North Dakota<span>4</span></a></li><li><a href="/events/ohio/">Ohio<span>12</span></a></li><li><a href="/events/oklahoma/">Oklahoma<span>5</span></a></li><li><a href="/events/oregon/">Oregon<span>6</span></a></li><li><a href="/events/pennsylvania/">Pennsylvania<span>19</span></a></li><li><a href="/events/rhode-island/">Rhode Island<span>5</span></a></li><li><a href="/events/south-carolina/">South Carolina<span>6</span></a></li><li><a href="/events/south-dakota/">South Dakota<span>1</span></a></li><li><a href="/events/tennessee/">Tennessee<span>6</span></a></li><li><a href="/events/texas/">Texas<span>23</span></a></li><li><a href="/events/utah/">Utah<span>3</span></a></li><li><a href="/events/vermont/">Vermont<span>2</span></a></li><li><a href="/events/virginia/">Virginia<span>4</span></a></li><li><a href="/events/washington/">Washington<span>10</span></a></li><li><a href="/events/wisconsin/">Wisconsin<span>7</span></a></li><li><a href="/events/wyoming/">Wyoming<span>2</span></a></li></ul></div></section>
 <!-- state-links:end -->
 
 <section class="tip" id="tip"><div class="wrap tip-in">
@@ -524,13 +566,16 @@ footer .fl{margin-top:12px;font-size:12px;letter-spacing:.04em}footer .fl a{colo
   });
   var BYID={}; ITEMS.forEach(function(it){BYID[it.x.id]=it;});
 
+  var wantNear=false, cal={y:today.getFullYear(),m:today.getMonth(),sel:null};
   var st={q:'',sort:'upcoming',when:'',region:'',state:'',town:'',fam:'',pick:false,saved:false,radius:0,view:'grid',limit:PAGE,me:null};
   try{
     var p=new URLSearchParams(location.search);
     st.q=p.get('q')||''; st.sort=['upcoming','all','recent'].indexOf(p.get('sort'))>-1?p.get('sort'):'upcoming';
     st.region=p.get('region')||''; st.state=(p.get('state')||'').toUpperCase(); st.town=p.get('town')||'';
     st.fam=FAM_LABEL[p.get('type')]?p.get('type'):''; st.pick=p.get('picks')==='1'; st.saved=p.get('saved')==='1';
-    st.view=p.get('view')==='map'?'map':'grid'; st.when=['weekend','30'].indexOf(p.get('when'))>-1?p.get('when'):'';
+    wantNear=p.get('near')==='1'||p.get('sort')==='near';   // carveyance.com/near opens here with near=1
+    st.view=['map','cal'].indexOf(p.get('view'))>-1?p.get('view'):'grid';
+    var pm=/^(\d{4})-(\d{2})$/.exec(p.get('month')||''); if(pm){cal.y=+pm[1];cal.m=+pm[2]-1;} st.when=['weekend','30'].indexOf(p.get('when'))>-1?p.get('when'):'';
     if(p.get('tip')){var tt=document.getElementById('tip-thanks');if(tt)tt.hidden=false;}
     if(p.get('submitted')) document.getElementById('thanks').classList.add('show');
     var cached=JSON.parse(sessionStorage.getItem('cv-me')||'null'); if(cached&&typeof cached.lat==='number') st.me=cached;
@@ -541,7 +586,7 @@ footer .fl{margin-top:12px;font-size:12px;letter-spacing:.04em}footer .fl a{colo
       var p=new URLSearchParams();
       if(st.q)p.set('q',st.q); if(st.when)p.set('when',st.when); if(st.sort!=='upcoming'&&st.sort!=='near')p.set('sort',st.sort); if(st.region)p.set('region',st.region);
       if(st.state)p.set('state',st.state); if(st.town)p.set('town',st.town); if(st.fam)p.set('type',st.fam);
-      if(st.pick)p.set('picks','1'); if(st.saved)p.set('saved','1'); if(st.view==='map')p.set('view','map');
+      if(st.pick)p.set('picks','1'); if(st.saved)p.set('saved','1'); if(st.view!=='grid')p.set('view',st.view); if(st.view==='cal'&&(cal.y!==today.getFullYear()||cal.m!==today.getMonth()))p.set('month',cal.y+'-'+('0'+(cal.m+1)).slice(-2));
       var qs=p.toString(); history.replaceState(null,'',location.pathname+(qs?'?'+qs:'')+location.hash);
     }catch(e){}
   }
@@ -687,15 +732,76 @@ footer .fl{margin-top:12px;font-size:12px;letter-spacing:.04em}footer .fl a{colo
     var empty=st.saved?'<div class="empty"><h3>Nothing saved yet</h3><p>Tap the heart on any event to keep it here. Saved events stay on this phone or browser.</p></div>'
       :'<div class="empty"><h3>Nothing here yet</h3><p>Try another town or type, or send us one we should list.</p></div>';
     grid.innerHTML=shown.length?shown.map(card).join(''):empty;
-    document.getElementById('more').hidden=st.view==='map'||list.length<=st.limit;
+    document.getElementById('more').hidden=st.view!=='grid'||list.length<=st.limit;
     var filtered=st.q||st.when||st.region||st.state||st.town||st.fam||st.pick||st.saved||(st.sort==='near'&&st.radius);
     document.getElementById('count').innerHTML=(st.view==='map'?'<b>'+list.length+'</b> on the map':'Showing <b>'+shown.length+'</b> of <b>'+list.length+'</b>')+
       (filtered?' &nbsp;<button type="button" class="clear" id="clear">Clear filters</button>':(st.view==='map'?'':' events and regular meets'));
     document.querySelectorAll('.view button').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-view')===st.view);});
-    grid.hidden=st.view==='map'; document.getElementById('map').hidden=st.view!=='map';
+    grid.hidden=st.view!=='grid'; document.getElementById('map').hidden=st.view!=='map'; document.getElementById('cal').hidden=st.view!=='cal';
     if(st.view==='map') drawMap(list);
+    if(st.view==='cal') drawCal();
     syncUrl();
   }
+
+
+  // ---- calendar (one month; colors follow the event type)
+  var DOW=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+  var CAL_COLOR={coffee:'#2E6E96',meet:'#F3B36B',show:'#C8462C',race:'#141820',market:'#2F7D5B',museum:'#6B5BA8',charity:'#2B8A8A'}; // same as the type tags on the cards
+  function calList(){ // every filter except "When": the calendar has its own dates
+    return ITEMS.filter(function(it){return matchLoc(it)&&(!st.fam||it.fam===st.fam)&&(!st.pick||it.x.pick)&&(!st.saved||C.saved.has(it.x.id))&&qMatch(it);});
+  }
+  function drawCal(){
+    var first=new Date(cal.y,cal.m,1), start=C.addDays(first,-first.getDay()), end=C.addDays(start,41), byDay={}, k;
+    function key(x){return x.getFullYear()+'-'+x.getMonth()+'-'+x.getDate();}
+    function add(x,it){var kk=key(x);(byDay[kk]=byDay[kk]||[]).push(it);}
+    var monthIds={};
+    calList().forEach(function(it){
+      var x=it.x;
+      if(it.kind==='event'){
+        var a=d(x.start),b=d(x.end||x.start); if(a<start)a=start; if(b>end)b=end;
+        for(var t=a;t<=b;t=C.addDays(t,1)){add(t,it); if(t.getMonth()===cal.m) monthIds[x.id]=1;}
+      } else {
+        var n=C.nextOccur(x,start), guard=0;
+        while(n&&n<=end&&guard++<45){add(n,it); if(n.getMonth()===cal.m) monthIds[x.id]=1; n=C.nextOccur(x,C.addDays(n,1));}
+      }
+    });
+    // short dated events first, then Picks, then regular meets; months-long exhibitions last so they don't crowd every day
+    var rank=function(it){var x=it.x; if(it.kind==='event'){var span=(d(x.end||x.start)-d(x.start))/864e5; return span>14?4:(x.pick?0:1);} return x.pick?2:3;};
+    var h=DOW.map(function(w){return '<div class="cal-dow">'+w+'</div>';}).join('');
+    for(var i=0;i<42;i++){
+      var day=C.addDays(start,i), items=(byDay[key(day)]||[]).slice().sort(function(a,b){return rank(a)-rank(b)||String(a.x.name).localeCompare(b.x.name);});
+      var cls='cal-cell'+(day.getMonth()!==cal.m?' out':'')+(day<today?' past':'')+(day.getTime()===today.getTime()?' today':'')+(cal.sel&&cal.sel.getTime()===day.getTime()?' sel':'');
+      var chips=items.slice(0,3).map(function(it){return '<a class="cal-chip c-'+it.fam+'" style="background:'+CAL_COLOR[it.fam]+'" href="/events/'+it.x.id+'/" title="'+esc(it.x.name)+'">'+esc(it.x.name)+'</a>';}).join('');
+      var more=items.length>3?'<span class="cal-more">+'+(items.length-3)+' more</span>':'';
+      var dots=items.slice(0,6).map(function(it){return '<i style="background:'+CAL_COLOR[it.fam]+'"></i>';}).join('');
+      h+='<div class="'+cls+'" data-day="'+i+'"><span class="cal-num">'+day.getDate()+'</span>'+chips+more+(dots?'<span class="cal-dots">'+dots+'</span>':'')+'</div>';
+    }
+    document.getElementById('cal-grid').innerHTML=h;
+    document.getElementById('cal-title').textContent=MF[cal.m]+' '+cal.y;
+    var used={}; Object.keys(byDay).forEach(function(kk){byDay[kk].forEach(function(it){used[it.fam]=1;});});
+    document.getElementById('cal-legend').innerHTML=FAM_ORDER.filter(function(f){return used[f];}).map(function(f){return '<span><i style="background:'+CAL_COLOR[f]+'"></i>'+FAM_LABEL[f]+'</span>';}).join('');
+    document.getElementById('cal-tip').hidden=!!(st.region||st.state||st.town||(st.sort==='near'&&st.me&&st.radius));
+    var n=Object.keys(monthIds).length;
+    document.getElementById('count').innerHTML='<b>'+n+'</b> '+(n===1?'listing':'listings')+' in '+MF[cal.m]+(document.getElementById('clear')||st.q||st.region||st.state||st.town||st.fam||st.pick||st.saved?' &nbsp;<button type="button" class="clear" id="clear">Clear filters</button>':'');
+    var box=document.getElementById('cal-day');
+    if(cal.sel&&cal.sel>=start&&cal.sel<=end){
+      var its=(byDay[key(cal.sel)]||[]).slice().sort(function(a,b){return rank(a)-rank(b)||String(a.x.name).localeCompare(b.x.name);});
+      box.innerHTML='<h4>'+WD[cal.sel.getDay()]+', '+M3[cal.sel.getMonth()]+' '+cal.sel.getDate()+'</h4>'+(its.length?'<ul>'+its.map(function(it){
+        var x=it.x, st2=STATUS[x.status]?' · '+STATUS[x.status]:'';
+        return '<li><a href="/events/'+x.id+'/"><i style="background:'+CAL_COLOR[it.fam]+'"></i><span style="margin:0"><b>'+esc(x.name)+'</b><span>'+esc([x.type,x.time,[x.city,x.state].filter(Boolean).join(', ')].filter(Boolean).join(' · '))+esc(st2)+'</span></span></a></li>';}).join('')+'</ul>':'<p style="color:var(--mid)">Nothing listed that day with these filters.</p>');
+      box.hidden=false;
+    } else box.hidden=true;
+    cal.byDay=null;
+  }
+  document.getElementById('cal-prev').addEventListener('click',function(){cal.m--; if(cal.m<0){cal.m=11;cal.y--;} cal.sel=null; render();});
+  document.getElementById('cal-next').addEventListener('click',function(){cal.m++; if(cal.m>11){cal.m=0;cal.y++;} cal.sel=null; render();});
+  document.getElementById('cal-today').addEventListener('click',function(){cal.y=today.getFullYear();cal.m=today.getMonth();cal.sel=today; render();});
+  document.getElementById('cal-grid').addEventListener('click',function(e){
+    if(e.target.closest('.cal-chip')&&window.matchMedia('(min-width:761px)').matches) return;   // a name opens its page on big screens
+    var c=e.target.closest('.cal-cell'); if(!c) return; e.preventDefault();
+    var first=new Date(cal.y,cal.m,1); cal.sel=C.addDays(C.addDays(first,-first.getDay()),+c.getAttribute('data-day'));
+    render(); var box=document.getElementById('cal-day'); if(!box.hidden) box.scrollIntoView({behavior:'smooth',block:'nearest'});
+  });
 
   // ---- near me
   var locmsg=document.getElementById('locmsg');
@@ -710,7 +816,7 @@ footer .fl{margin-top:12px;font-size:12px;letter-spacing:.04em}footer .fl a{colo
       say(''); st.limit=PAGE; render();
     },function(){
       say('Location is off for this site, so we can’t sort by distance. Pick a state or town under “Browse events by location” instead.');
-      st.sort='upcoming'; render();
+      st.sort='upcoming'; document.getElementById('loc').open=true; render();
     },{enableHighAccuracy:false,timeout:12000,maximumAge:600000});
   }
 
@@ -789,6 +895,7 @@ footer .fl{margin-top:12px;font-size:12px;letter-spacing:.04em}footer .fl a{colo
   if(st.region||st.state) document.getElementById('loc').open=true;
   C.installSetup(document.getElementById('install-btn'));
   render();
+  if(wantNear){st.sort='near';st.limit=PAGE;locate();}
 })();
 
 </script>

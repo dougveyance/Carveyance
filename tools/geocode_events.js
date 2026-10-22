@@ -43,7 +43,12 @@ const MANUAL = {
   "Eagle Rock|CA": [34.1392, -118.2128],
   "Kingwood|TX": [30.0499, -95.1847],
   "Meadowlands|PA": [40.2187, -80.2273],
-  "Seal Cove|ME": [44.2934, -68.4022]
+  "Seal Cove|ME": [44.2934, -68.4022],
+  "Malta|NY": [42.9767, -73.7935],
+  "Morton|MN": [44.5513, -94.9839],
+  "Piffard|NY": [42.7809, -77.8547],
+  "Arena|WI": [43.1636, -89.9076],
+  "Glacier View|AK": [61.8017, -147.6844]
 };
 const ALIAS = { "new york": "new york city", "nyc": "new york city", "saint": "st", "mount": "mt", "fort": "ft" };
 

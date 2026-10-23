@@ -44,7 +44,7 @@
   <option value="Engine"></option><option value="Power"></option><option value="Torque"></option>
   <option value="Gearbox"></option><option value="Drivetrain"></option><option value="Weight"></option>
   <option value="0–60 mph"></option><option value="Top speed"></option><option value="Color"></option>
-  <option value="Miles"></option><option value="Wheels"></option><option value="Tires"></option>
+  <option value="Odometer"></option><option value="Wheels"></option><option value="Tires"></option>
 </datalist>
 <datalist id="ev-picks"></datalist>
 
@@ -280,23 +280,111 @@
 
   function storyCount() { var s = document.getElementById("story-n"); if (s) s.textContent = (w.story || "").length + " of 1,200 characters"; }
 
-  function drawSpecs(focusLast) {
-    var box = document.getElementById("specs");
+  /* Specs with units: pick the label and the page writes the value the same way every time. */
+  function fmtNum(n) { return Number(n).toLocaleString("en-US", { maximumFractionDigits: 1 }); }
+  var SPEC_TYPES = {
+    power: { units: ["hp", "whp"], ph: "255", fmt: function (n, u) { return fmtNum(n) + " " + u; },
+             hint: "hp = at the engine, whp = measured at the wheels" },
+    torque: { units: ["lb-ft"], ph: "217", fmt: function (n) { return fmtNum(n) + " lb-ft"; } },
+    weight: { units: ["kg", "lb"], ph: "1270", fmt: function (n, u) {
+      var kg = u === "kg" ? n : n / 2.20462, lb = u === "lb" ? n : n * 2.20462;
+      return fmtNum(Math.round(kg)) + " kg (" + fmtNum(Math.round(lb)) + " lb)"; } },
+    odometer: { units: ["miles", "km"], ph: "68400", fmt: function (n, u) {
+      return u === "km" ? fmtNum(n) + " km (" + fmtNum(Math.round(n / 1.609344)) + " miles)"
+                        : fmtNum(n) + " miles (" + fmtNum(Math.round(n * 1.609344)) + " km)"; } },
+    zero60: { units: ["seconds"], ph: "5.9", fmt: function (n) { return fmtNum(n) + " seconds"; } },
+    topspeed: { units: ["mph", "km/h"], ph: "155", fmt: function (n, u) {
+      return u === "km/h" ? fmtNum(n) + " km/h (" + fmtNum(Math.round(n / 1.609344)) + " mph)"
+                          : fmtNum(n) + " mph (" + fmtNum(Math.round(n * 1.609344)) + " km/h)"; } },
+    tires: { two: true }
+  };
+  function specType(label) {
+    var l = String(label || "").trim().toLowerCase().replace(/[–—]/g, "-");
+    if (l === "power" || l === "horsepower") return "power";
+    if (l === "torque") return "torque";
+    if (l === "weight" || l === "curb weight") return "weight";
+    if (l === "odometer" || l === "miles" || l === "mileage") return "odometer";
+    if (l === "0-60 mph" || l === "0-60") return "zero60";
+    if (l === "top speed") return "topspeed";
+    if (l === "tires") return "tires";
+    return "";
+  }
+  function parseNum(v) { var m = String(v || "").replace(/,/g, "").match(/\d+(\.\d+)?/); return m ? m[0] : ""; }
+  function guessUnit(t, v) {
+    var s = String(v || "").toLowerCase(), u = SPEC_TYPES[t].units;
+    if (t === "power" && /whp|wheel/.test(s)) return "whp";
+    if (t === "odometer" && /^\s*[\d,.]+\s*km/.test(s)) return "km";
+    if (t === "weight" && /^\s*[\d,.]+\s*(lb|pound)/.test(s)) return "lb";
+    if (t === "topspeed" && /km\/?h|kph/.test(s)) return "km/h";
+    return u[0];
+  }
+  function specValueHTML(s, i, t) {
+    var lab = ' aria-label="Spec ' + (i + 1) + ' ';
+    if (!t) return '<input class="input" ' + lab + 'value" placeholder="1.3-liter twin-turbo rotary" maxlength="60" data-i="' + i + '" data-f="value" value="' + esc(s.value) + '">';
+    if (t === "tires") {
+      return '<div class="sv two"><input class="input"' + lab + 'tire size" placeholder="245/40R18" maxlength="24" data-i="' + i + '" data-f="a" value="' + esc(s.a || "") + '">' +
+        '<input class="input"' + lab + 'tire brand and model" placeholder="Michelin Pilot Sport 4S" maxlength="40" data-i="' + i + '" data-f="b" value="' + esc(s.b || "") + '"></div>' +
+        '<span class="hint">Size, then brand and model</span>';
+    }
+    var T = SPEC_TYPES[t], n = s.n != null && s.n !== "" ? s.n : parseNum(s.value), u = s.unit && T.units.indexOf(s.unit) >= 0 ? s.unit : guessUnit(t, s.value);
+    var unitHTML = T.units.length > 1
+      ? '<select class="input"' + lab + 'unit" data-i="' + i + '" data-f="unit">' + T.units.map(function (x) { return '<option' + (x === u ? " selected" : "") + ">" + x + "</option>"; }).join("") + "</select>"
+      : '<span class="unit">' + T.units[0] + "</span>";
+    return '<div class="sv"><input class="input"' + lab + 'number" inputmode="decimal" placeholder="' + T.ph + '" maxlength="9" data-i="' + i + '" data-f="n" value="' + esc(n) + '">' + unitHTML + "</div>" +
+      '<span class="hint" data-shows="' + i + '">' + (s.value ? "Shows as: " + esc(s.value) : (T.hint || "")) + "</span>";
+  }
+  function recompute(s) {
+    var t = specType(s.label);
+    if (t === "tires") { s.value = [String(s.a || "").trim(), String(s.b || "").trim()].filter(Boolean).join(" · "); return; }
+    if (!t) return;
+    var T = SPEC_TYPES[t], n = parseFloat(String(s.n == null ? "" : s.n).replace(/,/g, ""));
+    if (!s.unit || T.units.indexOf(s.unit) < 0) s.unit = T.units[0];
+    s.value = isFinite(n) ? T.fmt(n, s.unit) : "";
+  }
+  function drawSpecs(focusLast, refocus) {
+    var box = document.getElementById("specs"), upgraded = false;
     box.innerHTML = w.specs.map(function (s, i) {
+      var t = specType(s.label);
+      s._t = t;
+      // Older entries typed as plain text: a bare number like "250" gets its unit; anything wordier is left alone.
+      if (t === "tires" && s.a == null) { s.a = s.value || ""; s.b = ""; }
+      else if (t && t !== "tires" && (s.n == null || s.n === "") && /^\s*[\d,.]+\s*[a-z-]*\s*$/i.test(s.value || "")) {
+        var before = s.value; s.n = parseNum(s.value); s.unit = guessUnit(t, s.value); recompute(s);
+        if (s.value !== before) upgraded = true;
+      }
       return '<div class="r"><input class="input" list="spec-labels" aria-label="Spec ' + (i + 1) + ' name" placeholder="Engine" maxlength="30" data-i="' + i + '" data-f="label" value="' + esc(s.label) + '">' +
-        '<input class="input v" aria-label="Spec ' + (i + 1) + ' value" placeholder="1.3-liter twin-turbo rotary" maxlength="60" data-i="' + i + '" data-f="value" value="' + esc(s.value) + '">' +
+        '<div class="v">' + specValueHTML(s, i, t) + "</div>" +
         '<select class="input kind" aria-label="Spec ' + (i + 1) + ' type" data-i="' + i + '" data-f="kind"><option value="factory"' + (s.kind !== "now" ? " selected" : "") + '>Factory spec</option><option value="now"' + (s.kind === "now" ? " selected" : "") + ">As modified</option></select>" +
         '<button type="button" class="x" data-del="' + i + '" aria-label="Remove spec ' + (i + 1) + '">×</button></div>';
     }).join("") || '<p class="small" style="margin-bottom:10px">No specs yet.</p>';
     box.querySelectorAll("[data-f]").forEach(function (el) {
       el.addEventListener(el.tagName === "SELECT" ? "change" : "input", function () {
-        w.specs[+el.dataset.i][el.dataset.f] = el.value; setDirty(true); refreshPreview();
+        var i = +el.dataset.i, s = w.specs[i], f = el.dataset.f;
+        s[f] = el.value;
+        if (f === "label") {
+          var t = specType(el.value);
+          if (t !== s._t) {           // switched to (or away from) a spec with units: redraw that row's inputs
+            if (t && t !== "tires") { s.n = parseNum(s.value); s.unit = guessUnit(t, s.value); }
+            recompute(s); setDirty(true); refreshPreview();
+            drawSpecs(false, { i: i, pos: el.selectionStart }); return;
+          }
+        } else if (f === "n" || f === "unit" || f === "a" || f === "b") {
+          recompute(s);
+          var h = box.querySelector('[data-shows="' + i + '"]');
+          if (h) h.textContent = s.value ? "Shows as: " + s.value : "";
+        }
+        setDirty(true); refreshPreview();
       });
     });
     box.querySelectorAll("[data-del]").forEach(function (b) {
       b.addEventListener("click", function () { w.specs.splice(+b.dataset.del, 1); drawSpecs(); setDirty(true); refreshPreview(); });
     });
+    if (upgraded) setDirty(true);
     if (focusLast) { var ins = box.querySelectorAll('[data-f="label"]'); if (ins.length) ins[ins.length - 1].focus(); }
+    if (refocus) {
+      var el = box.querySelector('[data-f="label"][data-i="' + refocus.i + '"]');
+      if (el) { el.focus(); try { el.setSelectionRange(refocus.pos, refocus.pos); } catch (e) {} }
+    }
   }
   function drawBuild(focusLast) {
     var box = document.getElementById("build");
@@ -321,8 +409,13 @@
     var row = {
       owner_name: w.owner_name.trim(), town: w.town.trim(), instagram: G.instaHandle(w.instagram), year: y ? +y : null,
       make: w.make.trim(), model: w.model.trim(), nickname: w.nickname.trim().replace(/^["“]|["”]$/g, ""), story: w.story.trim(),
-      specs: w.specs.map(function (s) { return { label: s.label.trim(), value: s.value.trim(), kind: s.kind === "now" ? "now" : "factory" }; })
-        .filter(function (s) { return s.label && s.value; }),
+      specs: w.specs.map(function (s) {
+          var o = { label: String(s.label || "").trim(), value: String(s.value || "").trim(), kind: s.kind === "now" ? "now" : "factory" };
+          var t = specType(o.label);
+          if (t === "tires") { o.a = String(s.a || "").trim(); o.b = String(s.b || "").trim(); }
+          else if (t) { o.n = String(s.n == null ? "" : s.n).trim(); o.unit = s.unit || SPEC_TYPES[t].units[0]; }
+          return o;
+        }).filter(function (s) { return s.label && s.value; }),
       build: w.build.map(function (b) { return { year: String(b.year).trim(), text: b.text.trim() }; }).filter(function (b) { return b.text; })
         .sort(function (a, b) { return (parseInt(a.year, 10) || 0) - (parseInt(b.year, 10) || 0); }),
       card_color: w.card_color, owner_hidden: !!w.owner_hidden

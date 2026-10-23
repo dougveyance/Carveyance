@@ -10,6 +10,6 @@
    getting ready instead of breaking.
    ============================================================ */
 window.CV_GARAGE = {
-  supabaseUrl: "",   // e.g. "https://abcdefghijklmnop.supabase.co"
-  supabaseKey: ""    // the "anon public" key (newer projects: "publishable" key, starts sb_publishable_)
+  supabaseUrl: "https://dsfnulyorjctbzqednyf.supabase.co",
+  supabaseKey: "sb_publishable_NGqTXnFsh-8Yj9PNV4aVHg_k5N2_EaF"   // publishable key: safe to be public
 };

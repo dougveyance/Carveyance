@@ -136,6 +136,8 @@ create or replace function public.is_admin() returns boolean
 language sql stable security definer set search_path = public, pg_temp as $$
   select exists (select 1 from public.admins where user_id = auth.uid())
 $$;
+-- The security rules below call this, so every visitor must be allowed to run it.
+grant execute on function public.is_admin() to anon, authenticated;
 
 -- cars: anyone can read a public page; owners read and edit their own
 -- car (only the columns listed); Carveyance reads everything.

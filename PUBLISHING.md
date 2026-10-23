@@ -262,3 +262,125 @@ asks "Found a road worth the drive?").
 under **Forms → partner-inquiry**. The page promises that anything paid for is
 labeled Sponsored, that sponsors don't buy reviews, Picks or story changes, and
 that a sponsored event listing is never a Carveyance Pick. Keep to that.
+
+---
+
+## Carveyance Garage (car stickers)
+
+Each Carveyance sticker has its own number and QR code. Scanning it opens
+`carveyance.com/c/<number>`:
+
+- **A new sticker** shows "This car's page is coming soon" plus a box for the
+  owner to claim it with the claim code from the card it came on.
+- **A claimed sticker** shows the car's page: photos, specs, the build, where
+  it's been, and a "Collect this card" button.
+- **Owners** edit their page at `carveyance.com/garage/`.
+- **Visitors' collected cards** are saved on their phone, at `carveyance.com/cards/`.
+- **You** moderate at `carveyance.com/garage/admin/`.
+
+Stamps and rewards aren't built yet, on purpose: they come after the trial runs.
+
+The pages keep their data in Supabase, a hosted database with logins and photo
+storage. The files:
+
+| File | What it is |
+|---|---|
+| `c/index.html` | The car page every sticker opens |
+| `cards/index.html` | My cards |
+| `garage/index.html` | The owner's editor (sign in, claim, edit) |
+| `garage/admin/index.html` | Your admin page |
+| `assets/js/cv-garage.js`, `assets/css/garage.css` | Shared code and styles for those pages |
+| `assets/js/cv-garage-config.js` | The 2 connection settings you fill in once |
+| `assets/js/vendor/supabase-js-2.117.2.js` | The database library, kept on our own site |
+| `tools/garage/schema.sql` | The database setup, pasted into Supabase once |
+| `tools/make_stickers.py` | Makes sticker numbers and claim codes for the printer |
+| `_redirects` | The line `/c/* /c/index.html 200` sends every sticker number to the car page |
+
+### One-time setup (about 20 minutes)
+
+1. **Create the project.** Sign up free at supabase.com, then click New project.
+   Name it `carveyance`, pick a West US region, and save the database password
+   somewhere safe (you won't need it day to day).
+2. **Set up the database.** Open SQL Editor, start a new query, paste in all of
+   `tools/garage/schema.sql` and click Run. "Success. No rows returned" means it
+   worked. It's safe to run again later.
+3. **Let owners sign up on the spot.** Go to Authentication → Sign In / Providers
+   → Email. Leave Email on and turn **off** "Confirm email". Supabase's built-in
+   email only sends about 4 emails an hour, so if every new account needed a
+   confirmation email, owners couldn't sign up at a meet. With it off, they make
+   an account with an email and password and claim their sticker right away.
+   "Forgot password" emails still work.
+4. **Tell it where the site is.** Go to Authentication → URL Configuration. Set
+   Site URL to `https://carveyance.com` and add `https://carveyance.com/garage/**`
+   under Redirect URLs.
+5. **Connect the site.** Go to Settings → API (newer dashboards call it API Keys).
+   Copy the Project URL and the **anon public** key (newer projects call it the
+   publishable key; it starts `sb_publishable_`). Paste both into
+   `assets/js/cv-garage-config.js`, then commit and push. **Never** paste the
+   `service_role` or secret key anywhere in the site.
+6. **Make your own account.** Go to `carveyance.com/garage/` and create an
+   account with your email.
+7. **Make yourself an admin.** In the SQL Editor, run this with your email:
+
+       insert into admins (user_id) select id from auth.users where email = 'you@example.com';
+
+   `carveyance.com/garage/admin/` now opens for you.
+8. **Test with a practice sticker.** From the repo folder in Terminal:
+
+       python3 tools/make_stickers.py --start 9999 --count 1 --batch test
+
+   - Paste `sticker_batches/test/load.sql` into the SQL Editor and Run.
+   - Open `carveyance.com/c/9999` and claim it with the code in
+     `sticker_batches/test/printer.csv`.
+   - Fill in a car, then collect its card from another phone.
+   - To remove the test afterward, run this in the SQL Editor:
+
+         delete from cars where sticker_number = 9999; delete from stickers where number = 9999;
+
+### Making stickers for the printer
+
+    python3 tools/make_stickers.py --start 1 --count 50 --batch trial-1
+
+This writes 2 files into `sticker_batches/trial-1/`:
+
+- **`printer.csv` goes to the printer.** The `qr_url` column is what each QR code
+  must open. The `claim_code` column goes on the matching backing card. Keep this
+  file private: anyone with a code can claim that sticker.
+- **`load.sql` gets pasted into the SQL Editor and Run.** It loads the stickers
+  with only a scrambled copy of each code. If any of the numbers already exist,
+  it stops without loading anything.
+
+`sticker_batches/` is ignored by Git, so GitHub Desktop never shows it and the
+codes never reach the live site. Start each new batch where the last one ended.
+
+### During the trial
+
+- **Owners:** scan the sticker, create an account, enter the claim code, fill in
+  the car. Photos are shrunk on the phone before they upload. After 10 wrong
+  codes a sticker locks; unlock it from the admin page once you know who has it.
+- **Your admin page:**
+  - Read and clear reports.
+  - Hide a page.
+  - Mark a car's specs as checked by Carveyance.
+  - Link a car to its owner's page by the owner's id from `owners.js`. Their
+    Owner's Manual stories then show on the car page as its journal.
+  - Add "Seen by Carveyance" to a car's events.
+- **The numbers:**
+  - Page visits count once per phone per day. The owner's own visits don't count.
+  - Cards collected count once per phone per car.
+  - Owners see their own numbers privately in their editor.
+
+### Good to know
+
+- **The free Supabase plan pauses a project after 7 days without visitors.**
+  While it's paused, sticker pages say "We couldn't load this car." Restore it
+  from the Supabase dashboard. Move to the Pro plan ($25/month) before a real
+  launch.
+- **Collected cards live in the visitor's browser**, so clearing it removes them.
+- **Car pages are built in the browser.** A link to one pasted into a text or
+  Instagram shows a general Carveyance preview, not the car.
+- **Not built yet:**
+  - stamps and rewards
+  - organizer check-in (the "Checked in" label is ready but nothing sets it yet)
+  - factory specs filled in automatically
+  - a page for readers to request a sticker

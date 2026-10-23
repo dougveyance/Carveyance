@@ -3,3 +3,4 @@
 /owners-manual/ /categories/owners-manual/ 301
 /near /events/?near=1&when=weekend 302
 /near/ /events/?near=1&when=weekend 302
+/c/* /c/index.html 200

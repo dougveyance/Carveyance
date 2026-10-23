@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Car page — Carveyance</title>
+<meta name="description" content="A reader's car on Carveyance: the specs, the build, and where it has been.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700&family=Bebas+Neue&family=DM+Sans:wght@400;500;600&family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/garage.css">
+<link rel="icon" href="/favicon-32x32.png">
+</head>
+<body class="g-mist">
+
+<nav>
+  <a class="nav-brand" href="/">Car<span>veyance</span></a>
+  <div class="nav-center">
+    <a href="/">Home</a>
+    <a href="/articles/">All Stories</a>
+    <a href="/categories/how-it-works/">How It Works</a>
+    <a href="/categories/reviews/">Reviews</a>
+    <a href="/categories/comparisons/">Comparisons</a>
+    <a href="/categories/opinions/">Opinions</a>
+    <a href="/categories/fun-facts/">Fun Facts</a>
+    <a href="/categories/car-culture/">Car Culture</a>
+    <a href="/categories/owners-manual/">Owner's Manual</a>
+    <a href="/categories/news/">News</a>
+    <a href="/events/">Events</a>
+    <a href="/about/">About</a>
+  </div>
+  <a class="nav-sub" href="/#submit">Write for Us</a>
+</nav>
+
+<main id="app" class="g-page" aria-live="polite">
+  <div class="g-state"><p>Loading…</p></div>
+</main>
+
+<footer class="site">
+  <a class="fw" href="/">Car<span>veyance</span></a>
+  &copy; 2026 Carveyance — For the love of the drive. Los Angeles, CA.
+  <div class="fl"><a href="/events/">Events</a> &middot; <a href="/categories/owners-manual/">Owner's Manual</a> &middot; <a href="/cards/">My cards</a> &middot; <a href="/advertise/">Advertise &amp; Partner</a></div>
+</footer>
+
+<script src="/assets/js/vendor/supabase-js-2.117.2.js"></script>
+<script src="/assets/js/cv-garage-config.js"></script>
+<script src="/assets/js/cv-garage.js"></script>
+<script>
+(function () {
+  "use strict";
+  var G = window.CVG, app = document.getElementById("app"), esc = G.esc;
+  var m = location.pathname.match(/^\/c\/0*(\d{1,5})\/?$/);
+  var num = m ? parseInt(m[1], 10) : null;
+
+  function noindex() {
+    var t = document.createElement("meta"); t.name = "robots"; t.content = "noindex"; document.head.appendChild(t);
+  }
+  function setDesc(text) {
+    var d = document.querySelector('meta[name="description"]'); if (d) d.content = text;
+  }
+
+  /* ---------- simple states ---------- */
+  function renderLookup(note) {
+    noindex();
+    app.innerHTML =
+      '<div class="g-state"><div class="kicker">Carveyance car stickers</div>' +
+      "<h1>Find a car</h1><p>Type the number printed under the sticker's QR code.</p>" +
+      (note ? '<p class="msg info" style="display:inline-block">' + esc(note) + "</p>" : "") +
+      '<form id="look" style="max-width:300px;margin:18px auto 0;display:flex;gap:10px">' +
+      '<label for="lk" class="label" style="position:absolute;left:-9999px">Sticker number</label>' +
+      '<input id="lk" class="input code-input" inputmode="numeric" pattern="[0-9]*" maxlength="5" placeholder="0184" required>' +
+      '<button class="btn" type="submit">Go</button></form>' +
+      '<p style="margin-top:22px" class="small"><a href="/cards/">My cards</a></p></div>';
+    document.getElementById("look").addEventListener("submit", function (e) {
+      e.preventDefault();
+      var v = parseInt(document.getElementById("lk").value, 10);
+      if (v > 0) location.href = "/c/" + G.pad(v);
+    });
+  }
+  function renderError() {
+    noindex();
+    app.innerHTML = '<div class="g-state"><div class="kicker">No. ' + G.pad(num) + "</div><h1>We couldn't load this car</h1>" +
+      "<p>The connection dropped or our end is having a moment. Try again in a minute.</p>" +
+      '<p style="margin-top:16px"><button class="btn" type="button" onclick="location.reload()">Try again</button></p></div>';
+  }
+  function renderHidden() {
+    noindex();
+    app.innerHTML = '<div class="g-state"><span class="chip sticker">STICKER No. ' + G.pad(num) + "</span>" +
+      "<h1>This page isn't public right now</h1><p>The owner has made it private for the moment.</p>" +
+      '<p style="margin-top:16px" class="small"><a href="/garage/">Your car? Sign in</a></p></div>';
+  }
+
+  /* ---------- an unclaimed sticker ---------- */
+  function renderUnclaimed(session) {
+    noindex();
+    app.innerHTML =
+      '<div class="g-state" style="padding-bottom:30px"><span class="chip sticker">STICKER No. ' + G.pad(num) + "</span>" +
+      "<h1>This car's page is coming soon</h1><p>The owner hasn't set it up yet. Check back after the meet.</p></div>" +
+      '<div class="g-pad" style="padding-bottom:44px"><div class="box">' +
+      '<div class="h3">Is this your car?</div>' +
+      '<p class="muted" style="margin:6px 0 16px">Claim this sticker with the code on the card it came on. Then the page is yours to fill in.</p>' +
+      '<div id="claim-area"></div></div>' +
+      '<p class="small" style="margin-top:16px"><a href="/cards/">My cards</a> · <a href="/events/">Car events</a></p></div>';
+    var area = document.getElementById("claim-area");
+    if (session) claimForm(area, session);
+    else G.authForm(area, function (s) { claimForm(area, s); });
+  }
+  function claimForm(area, session) {
+    area.innerHTML =
+      '<p class="small" style="margin-bottom:12px">Signed in as ' + esc(session.user.email) + '. <button type="button" class="linkbtn" data-out>Not you?</button></p>' +
+      '<form id="claim" novalidate><div class="field"><label for="code">Claim code from your card</label>' +
+      '<input id="code" class="code-input" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="XXXX-XXXX" maxlength="12" required></div>' +
+      '<button class="btn" type="submit" style="width:100%">Claim this car</button></form>' +
+      '<div class="msg" role="alert" hidden></div>';
+    var msg = area.querySelector(".msg");
+    function say(t, k) { msg.hidden = false; msg.className = "msg " + (k || "err"); msg.textContent = t; }
+    area.querySelector("[data-out]").addEventListener("click", async function () {
+      await G.db.auth.signOut(); G.authForm(area, function (s) { claimForm(area, s); }, { mode: "in" });
+    });
+    area.querySelector("#claim").addEventListener("submit", async function (e) {
+      e.preventDefault();
+      var code = area.querySelector("#code").value.trim();
+      if (code.replace(/[^A-Za-z0-9]/g, "").length < 8) return say("The claim code has 8 letters and numbers, like 7KQ4-M2XD.");
+      var btn = e.target.querySelector("button"); btn.disabled = true;
+      var r = await G.db.rpc("claim_sticker", { p_number: num, p_code: code });
+      btn.disabled = false;
+      var d = r.data || {};
+      if (r.error) return say("Something went wrong. Try again in a minute.");
+      if (d.ok) { location.href = "/garage/?car=" + encodeURIComponent(d.car_id) + "&new=1"; return; }
+      if (d.error === "wrong_code") return say("That code doesn't match this sticker. Check the card and try again (" + d.left + " tries left).");
+      if (d.error === "locked") return say("This sticker is locked after too many wrong codes. Email info@carveyance.com with your sticker number and we'll unlock it.");
+      if (d.error === "claimed") return say("This sticker has just been claimed. If it's yours, email info@carveyance.com.");
+      if (d.error === "signed_out") { G.authForm(area, function (s) { claimForm(area, s); }, { mode: "in" }); return; }
+      say("We couldn't find this sticker. Email info@carveyance.com.");
+    });
+  }
+
+  /* ---------- a claimed car ---------- */
+  var LEVEL = {
+    owner: '<span class="chip owner">Owner-reported</span>',
+    seen: '<span class="chip seen">Seen by Carveyance</span>',
+    checked: '<span class="chip checked"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 6.5l2.5 2.5L10 3.5" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Checked in</span>'
+  };
+  function eventLink(ev) {
+    var l = G.findListing(ev.event_id);
+    if (!l || (l.end && l.end < G.today())) return null;
+    return "/events/" + encodeURIComponent(l.id) + "/";
+  }
+  function passportItem(ev) {
+    var href = eventLink(ev);
+    var when = G.fmtDate(ev.event_date) + (ev.town ? " · " + ev.town : "");
+    return '<li><span class="when">' + esc(when) + "</span>" +
+      (href ? '<a class="name" href="' + esc(href) + '">' + esc(ev.name) + "</a>" : '<span class="name">' + esc(ev.name) + "</span>") +
+      "<div>" + (LEVEL[ev.level] || LEVEL.owner) + "</div></li>";
+  }
+
+  function renderCar(car, events, isOwner) {
+    var name = G.carName(car), n = car.sticker_number;
+    document.title = name + " — Carveyance";
+    setDesc(name + (car.nickname ? " “" + car.nickname + "”" : "") + " on Carveyance: the specs, the build and where it has been.");
+    var photos = Array.isArray(car.photos) ? car.photos : [];
+    var specs = (car.specs || []).filter(function (s) { return s && s.label && s.value; });
+    var build = (car.build || []).filter(function (b) { return b && b.text; })
+      .sort(function (a, b) { return (parseInt(a.year, 10) || 0) - (parseInt(b.year, 10) || 0); });
+    var evs = events.slice().sort(function (a, b) { return a.event_date < b.event_date ? 1 : -1; });
+    var collected = G.cards.has(n);
+    var who = [car.owner_name, car.town].filter(Boolean).join(" · ");
+    var insta = G.instaHandle(car.instagram);
+    var first = String(car.owner_name || "").trim().split(/\s+/)[0];
+
+    var h = "";
+    if (isOwner) h += '<div class="msg info" style="margin:0;border-radius:0;text-align:center">This is your car\'s page. <a href="/garage/?car=' + esc(car.id) + '">Edit it</a>' +
+      (car.owner_hidden ? " · Only you can see it right now." : "") + "</div>";
+    h += '<div class="hero">' + (photos[0] ? '<img src="' + esc(G.photoUrl(photos[0])) + '" alt="' + esc(name) + '">' :
+      '<div class="ph" aria-hidden="true">CAR<span>VEYANCE</span></div>') + "</div>";
+    h += '<div class="cp-head"><span class="chip sticker" style="align-self:flex-start">STICKER No. ' + G.pad(n) + "</span>" +
+      '<div><h1 class="h1">' + esc(name) + "</h1>" + (car.nickname ? '<div class="dek">“' + esc(car.nickname) + "”</div>" : "") + "</div>";
+    if (who || insta || car.owner_slug) {
+      h += '<div class="owner-box"><div class="avatar" aria-hidden="true">' + esc(G.initials(car.owner_name)) + "</div><div>" +
+        (who ? '<div class="who">' + esc(who) + "</div>" : "") +
+        (car.owner_slug ? '<a href="/owners/' + esc(car.owner_slug) + '/">See ' + esc(first || "the owner") + "'s garage and journal</a>" :
+          insta ? '<a href="https://www.instagram.com/' + esc(insta) + '/" rel="noopener">@' + esc(insta) + "</a>" : "") +
+        "</div></div>";
+    }
+    h += '<div class="small">This page is written by the car\'s owner.</div></div>';
+
+    h += '<div class="g-pad" style="padding-top:18px"><div class="row-btns">' +
+      (collected ? '<a class="btn done grow" href="/cards/">In your cards ✓</a>' : '<button type="button" class="btn grow" id="collect">Collect this card</button>') +
+      '<button type="button" class="btn line" id="share" style="min-width:96px">Share</button></div></div>';
+    h += '<div class="card-row">' + G.cardHTML(car, { size: "mini", events: evs.length }) +
+      '<div><div class="h3">This car\'s card</div><p class="muted" style="font-size:15px;margin-top:4px">Collect it and it\'s saved on your phone, stamped with where you saw the car.</p></div></div>';
+
+    if (car.story) h += '<div class="sec"><h2 class="h2" style="margin-bottom:10px">The story</h2><p class="story">' + esc(car.story) + "</p></div>";
+
+    if (specs.length) {
+      h += '<div class="sec"><div class="sec-head"><h2 class="h2">The specs</h2>' +
+        (car.specs_checked ? '<span class="chip seen">Checked by Carveyance</span>' : '<span class="small">From the owner</span>') + "</div>" +
+        '<ul class="specs">' + specs.map(function (s) {
+          return '<li><div class="line"><span class="k">' + esc(s.label) + '</span><span class="v">' + esc(s.value) + "</span></div>" +
+            (s.kind === "now" ? '<span class="chip owner">As modified</span>' : '<span class="chip factory">Factory spec</span>') + "</li>";
+        }).join("") + "</ul></div>";
+    }
+    if (build.length) {
+      h += '<div class="sec"><h2 class="h2" style="margin-bottom:12px">The build</h2><ol class="timeline">' + build.map(function (b) {
+        return '<li><div class="y">' + esc(b.year || "") + '</div><div style="font-size:16px">' + esc(b.text) + "</div></li>";
+      }).join("") + "</ol></div>";
+    }
+    if (evs.length) {
+      h += '<div class="sec band"><h2 class="h2">Where it\'s been</h2>' +
+        '<div class="h3" style="font-size:24px;margin:4px 0 14px">' + evs.length + " event" + (evs.length === 1 ? "" : "s") + "</div>" +
+        '<div class="legend">' +
+          '<div><span class="lk">' + LEVEL.owner + "</span>The owner says the car was there.</div>" +
+          '<div><span class="lk">' + LEVEL.seen + "</span>We saw it there ourselves.</div>" +
+          '<div><span class="lk">' + LEVEL.checked + "</span>Scanned at the gate by the organizer.</div></div>" +
+        '<ul class="passport" id="passport">' + evs.slice(0, 5).map(passportItem).join("") + "</ul>" +
+        (evs.length > 5 ? '<button type="button" class="btn line" id="allev" style="width:100%;margin-top:14px">Show all ' + evs.length + " events</button>" : "") +
+        '<p class="small" style="margin-top:12px">Events appear here after they\'re over, never while the car is there.</p></div>';
+    }
+    if (photos.length > 1) {
+      h += '<div class="sec"><h2 class="h2" style="margin-bottom:12px">Photos</h2><div class="photos">' + photos.slice(1).map(function (p, i) {
+        return '<a href="' + esc(G.photoUrl(p)) + '" target="_blank" rel="noopener" aria-label="Photo ' + (i + 2) + ' of ' + photos.length + '"><img src="' + esc(G.photoUrl(p)) + '" alt="" loading="lazy"></a>';
+      }).join("") + "</div></div>";
+    }
+    if (car.owner_slug) h += '<div class="sec" id="journal" hidden><div class="sec-head"><h2 class="h2">The journal</h2><span class="small">From Owner\'s Manual</span></div><div class="journal" id="jlist"></div>' +
+      '<p class="small">Journal stories are edited by Carveyance.</p></div>';
+    h += '<div class="cp-foot"><p>Carveyance never shows a car\'s VIN, plates, address or where it is right now.</p>' +
+      '<div class="links"><button type="button" class="linkbtn" id="report">Report this page</button>' +
+      '<a href="/garage/">Your car? Sign in to edit</a><a href="/cards/">My cards</a></div></div>';
+    app.innerHTML = h;
+
+    var all = document.getElementById("allev");
+    if (all) all.addEventListener("click", function () {
+      document.getElementById("passport").innerHTML = evs.map(passportItem).join(""); all.remove();
+    });
+    var cb = document.getElementById("collect");
+    if (cb) cb.addEventListener("click", function () { openCollect(car, evs.length); });
+    document.getElementById("share").addEventListener("click", async function () {
+      var url = location.origin + "/c/" + G.pad(n);
+      if (navigator.share) { try { await navigator.share({ title: name, url: url }); } catch (e) {} return; }
+      try { await navigator.clipboard.writeText(url); G.toast("Link copied"); } catch (e) { prompt("Copy this link:", url); }
+    });
+    document.getElementById("report").addEventListener("click", function () { openReport(car); });
+    if (car.owner_slug) loadJournal(car.owner_slug);
+  }
+
+  async function loadJournal(slug) {
+    await G.loadScript("/articles.js");
+    var list = [];
+    try { list = (typeof ARTICLES !== "undefined" ? ARTICLES : []).filter(function (a) { return a.owner === slug; }); } catch (e) {}
+    if (!list.length) return;
+    document.getElementById("jlist").innerHTML = list.map(function (a) {
+      return '<a href="/articles/' + esc(a.slug) + '/"><div class="th">' + (a.image ? '<img src="' + esc(a.image) + '" alt="" loading="lazy">' : "") +
+        '</div><div><div class="t">' + esc(a.title) + '</div><div class="small">' + esc(a.category || "") + (a.readTime ? " · " + esc(a.readTime) : "") + "</div></div></a>";
+    }).join("");
+    document.getElementById("journal").hidden = false;
+  }
+
+  /* ---------- collect ---------- */
+  async function openCollect(car, evCount) {
+    await G.loadScript("/events.js");
+    var today = G.todays();
+    var groups = {};
+    today.forEach(function (l) { (groups[l.region || "Elsewhere"] = groups[l.region || "Elsewhere"] || []).push(l); });
+    var order = Object.keys(groups).sort(function (a, b) {
+      return (a === "LA & South Bay" ? -1 : b === "LA & South Bay" ? 1 : a.localeCompare(b));
+    });
+    var opts = '<option value="">Not at a listed meet</option>' + order.map(function (g) {
+      return '<optgroup label="' + esc(g) + '">' + groups[g].sort(function (a, b) { return a.name.localeCompare(b.name); }).map(function (l) {
+        return '<option value="' + esc(l.id) + '">' + esc(l.name + (l.town ? " — " + l.town : "")) + "</option>";
+      }).join("") + "</optgroup>";
+    }).join("");
+    var s = G.sheet('<h2>Save this card</h2><p class="muted" style="margin-bottom:16px">It\'s saved on this phone, stamped with where you saw the car.</p>' +
+      '<div class="field"><label for="where">Where are you?</label><select id="where">' + opts + "</select>" +
+      '<span class="hint">Only meets on the Carveyance calendar today are listed. Anywhere else, the card gets today\'s date and no place.</span></div>' +
+      '<button type="button" class="btn" id="save" style="width:100%">Save card</button>', "Save this card");
+    s.el.querySelector("#save").addEventListener("click", function () {
+      var sel = s.el.querySelector("#where"), id = sel.value;
+      var l = id ? today.find(function (x) { return x.id === id; }) : null;
+      var snap = {
+        sticker_number: car.sticker_number, car_id: car.id, year: car.year, make: car.make, model: car.model,
+        nickname: car.nickname, owner_name: car.owner_name, town: car.town, card_color: car.card_color,
+        photos: (car.photos || []).slice(0, 1), specs: (car.specs || []).slice(0, 3), events: evCount,
+        collected_at: G.today(), event_id: l ? l.id : "", event_name: l ? l.name : ""
+      };
+      var ok = G.cards.add(snap);
+      G.db.rpc("record_collect", { p_car: car.id, p_device: G.deviceId(), p_event_id: snap.event_id, p_event_name: snap.event_name });
+      s.close();
+      var b = document.getElementById("collect");
+      if (b) b.outerHTML = '<a class="btn done grow" href="/cards/">In your cards ✓</a>';
+      G.toast(ok ? "Saved to My cards" : "Your browser isn't saving cards right now (private window?)");
+    });
+  }
+
+  /* ---------- report ---------- */
+  function openReport(car) {
+    var s = G.sheet('<h2>Report this page</h2><p class="muted" style="margin-bottom:16px">Tell Carveyance what\'s wrong. We read every report.</p>' +
+      '<form id="rep"><div class="field"><label for="why">What\'s wrong?</label><select id="why">' +
+      "<option>It's my car, but someone else claimed it</option><option>Wrong information</option>" +
+      "<option>Shows private information</option><option>Inappropriate photos or words</option><option>Something else</option></select></div>" +
+      '<div class="field"><label for="det">Anything else? (optional)</label><textarea id="det" maxlength="1000"></textarea>' +
+      '<span class="hint">Want a reply? Include your email.</span></div>' +
+      '<button class="btn" type="submit" style="width:100%">Send report</button></form><div class="msg" role="alert" hidden></div>', "Report this page");
+    s.el.querySelector("#rep").addEventListener("submit", async function (e) {
+      e.preventDefault();
+      var btn = e.target.querySelector("button"); btn.disabled = true;
+      var r = await G.db.from("reports").insert({ car_id: car.id, reason: s.el.querySelector("#why").value.slice(0, 60),
+        details: s.el.querySelector("#det").value.slice(0, 1000) });
+      if (r.error) { var m = s.el.querySelector(".msg"); m.hidden = false; m.className = "msg err"; m.textContent = "That didn't send. Try again in a minute."; btn.disabled = false; return; }
+      s.close(); G.toast("Thanks. We'll take a look.");
+    });
+  }
+
+  /* ---------- start ---------- */
+  async function start() {
+    if (!G.configured) { noindex(); app.innerHTML = G.notReadyHTML(); return; }
+    if (!num) return renderLookup();
+    document.title = "No. " + G.pad(num) + " — Carveyance";
+    var st, session = null;
+    try {
+      session = (await G.db.auth.getSession()).data.session;
+      var r = await G.db.rpc("sticker_status", { p_number: num });
+      if (r.error) throw r.error;
+      st = (r.data || [])[0];
+    } catch (e) { return renderError(); }
+    if (!st || st.status === "unknown") return renderLookup("We can't find sticker No. " + G.pad(num) + ". Check the number and try again.");
+    if (st.status === "unclaimed") { G.db.rpc("record_scan", { p_number: num, p_device: G.deviceId() }); return renderUnclaimed(session); }
+
+    // claimed, or hidden (the owner can still see a hidden page)
+    var q = G.db.from("cars").select(session ? G.OWNER_COLS : G.PUBLIC_COLS).eq("sticker_number", num).maybeSingle();
+    var cr = await q;
+    if (cr.error) return renderError();
+    var car = cr.data;
+    if (!car) return renderHidden();
+    var isOwner = !!(session && car.owner_id === session.user.id);
+    if (!isOwner) G.db.rpc("record_scan", { p_number: num, p_device: G.deviceId() });
+    var er = await G.db.from("car_events").select("id,event_id,name,town,event_date,level").eq("car_id", car.id);
+    await G.loadScript("/events.js");
+    renderCar(car, er.data || [], isOwner);
+  }
+  start();
+})();
+</script>
+<script src="/assets/js/cv-menu.js" defer></script>
+</body>
+</html>

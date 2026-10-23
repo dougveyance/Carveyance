@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your car — Carveyance Garage</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700&family=Bebas+Neue&family=DM+Sans:wght@400;500;600&family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/garage.css">
+<link rel="icon" href="/favicon-32x32.png">
+</head>
+<body class="g-mist">
+
+<nav>
+  <a class="nav-brand" href="/">Car<span>veyance</span></a>
+  <div class="nav-center">
+    <a href="/">Home</a>
+    <a href="/articles/">All Stories</a>
+    <a href="/categories/how-it-works/">How It Works</a>
+    <a href="/categories/reviews/">Reviews</a>
+    <a href="/categories/comparisons/">Comparisons</a>
+    <a href="/categories/opinions/">Opinions</a>
+    <a href="/categories/fun-facts/">Fun Facts</a>
+    <a href="/categories/car-culture/">Car Culture</a>
+    <a href="/categories/owners-manual/">Owner's Manual</a>
+    <a href="/categories/news/">News</a>
+    <a href="/events/">Events</a>
+    <a href="/about/">About</a>
+  </div>
+  <a class="nav-sub" href="/#submit">Write for Us</a>
+</nav>
+
+<main class="g-mist"><div class="g-wrap" id="app" aria-live="polite"><p class="muted">Loading…</p></div></main>
+
+<footer class="site">
+  <a class="fw" href="/">Car<span>veyance</span></a>
+  &copy; 2026 Carveyance — For the love of the drive. Los Angeles, CA.
+  <div class="fl"><a href="/events/">Events</a> &middot; <a href="/categories/owners-manual/">Owner's Manual</a> &middot; <a href="/cards/">My cards</a> &middot; <a href="/advertise/">Advertise &amp; Partner</a></div>
+</footer>
+
+<datalist id="spec-labels">
+  <option value="Engine"></option><option value="Power"></option><option value="Torque"></option>
+  <option value="Gearbox"></option><option value="Drivetrain"></option><option value="Weight"></option>
+  <option value="0–60 mph"></option><option value="Top speed"></option><option value="Color"></option>
+  <option value="Miles"></option><option value="Wheels"></option><option value="Tires"></option>
+</datalist>
+<datalist id="ev-picks"></datalist>
+
+<script src="/assets/js/vendor/supabase-js-2.117.2.js"></script>
+<script src="/assets/js/cv-garage-config.js"></script>
+<script src="/assets/js/cv-garage.js"></script>
+<script>
+(function () {
+  "use strict";
+  var G = window.CVG, esc = G.esc, app = document.getElementById("app");
+  var params = new URLSearchParams(location.search);
+  var session = null, cars = [], car = null, events = [], w = null, dirty = false, recovering = false;
+
+  window.addEventListener("beforeunload", function (e) { if (dirty) { e.preventDefault(); e.returnValue = ""; } });
+
+  /* ---------- signed out ---------- */
+  function renderSignedOut() {
+    app.innerHTML =
+      '<div class="kicker">Carveyance Garage</div><h1 class="h1" style="margin:6px 0 10px">Your car on Carveyance</h1>' +
+      '<p class="muted" style="margin-bottom:20px">Sign in to edit your car\'s page. New here? Scan your Carveyance sticker to claim it, or create an account and enter your sticker\'s number and claim code.</p>' +
+      '<div class="box" style="max-width:460px"><div id="auth"></div></div>';
+    G.authForm(document.getElementById("auth"), function (s) { session = s; loadCars(); }, { mode: "in" });
+  }
+
+  function renderRecovery() {
+    app.innerHTML = '<h1 class="h1" style="margin-bottom:12px">Set a new password</h1><div class="box" style="max-width:460px">' +
+      '<form id="np"><div class="field"><label for="pw">New password</label><input id="pw" type="password" minlength="8" autocomplete="new-password" required>' +
+      '<span class="hint">At least 8 characters.</span></div><button class="btn" type="submit" style="width:100%">Save password</button></form>' +
+      '<div class="msg" role="alert" hidden></div></div>';
+    document.getElementById("np").addEventListener("submit", async function (e) {
+      e.preventDefault();
+      var pw = document.getElementById("pw").value, m = app.querySelector(".msg");
+      if (pw.length < 8) { m.hidden = false; m.className = "msg err"; m.textContent = "Your password needs at least 8 characters."; return; }
+      var r = await G.db.auth.updateUser({ password: pw });
+      if (r.error) { m.hidden = false; m.className = "msg err"; m.textContent = r.error.message; return; }
+      recovering = false; history.replaceState(null, "", "/garage/"); G.toast("Password saved"); loadCars();
+    });
+  }
+
+  /* ---------- claiming from here ---------- */
+  function claimHTML() {
+    return '<form id="claim" novalidate><div class="grid2"><div class="field"><label for="cl-num">Sticker number</label>' +
+      '<input id="cl-num" inputmode="numeric" maxlength="5" placeholder="0184" required></div>' +
+      '<div class="field"><label for="cl-code">Claim code from your card</label><input id="cl-code" class="code-input" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="XXXX-XXXX" maxlength="12" required></div></div>' +
+      '<button class="btn" type="submit">Claim this sticker</button><div class="msg" role="alert" hidden></div></form>';
+  }
+  function wireClaim(root) {
+    root.querySelector("#claim").addEventListener("submit", async function (e) {
+      e.preventDefault();
+      var m = root.querySelector("#claim .msg");
+      function say(t) { m.hidden = false; m.className = "msg err"; m.textContent = t; }
+      var n = parseInt(root.querySelector("#cl-num").value, 10), code = root.querySelector("#cl-code").value;
+      if (!(n > 0)) return say("Enter the number printed under your sticker's QR code.");
+      var r = await G.db.rpc("claim_sticker", { p_number: n, p_code: code });
+      var d = r.data || {};
+      if (r.error) return say("Something went wrong. Try again in a minute.");
+      if (d.ok) { location.href = "/garage/?car=" + encodeURIComponent(d.car_id) + "&new=1"; return; }
+      say({ wrong_code: "That code doesn't match this sticker (" + d.left + " tries left).",
+            locked: "This sticker is locked after too many wrong codes. Email info@carveyance.com and we'll unlock it.",
+            claimed: "That sticker has already been claimed. If it's yours, email info@carveyance.com.",
+            unknown: "We can't find a sticker with that number." }[d.error] || "We couldn't claim that sticker.");
+    });
+  }
+  function renderNoCars() {
+    app.innerHTML = '<div class="kicker">Carveyance Garage</div><h1 class="h1" style="margin:6px 0 10px">Claim your sticker</h1>' +
+      '<p class="muted" style="margin-bottom:18px">Enter the number under your sticker\'s QR code and the claim code from the card it came on. Or just scan the sticker.</p>' +
+      '<div class="box">' + claimHTML() + "</div>" + accountHTML();
+    wireClaim(app); wireAccount();
+  }
+  function accountHTML() {
+    return '<p class="small" style="margin-top:22px">Signed in as ' + esc(session.user.email) + ' · <button type="button" class="linkbtn" id="out">Sign out</button></p>';
+  }
+  function wireAccount() {
+    document.getElementById("out").addEventListener("click", async function () {
+      if (dirty && !confirm("You have unsaved changes. Sign out anyway?")) return;
+      dirty = false; await G.db.auth.signOut(); location.href = "/garage/";
+    });
+  }
+
+  /* ---------- load ---------- */
+  async function loadCars() {
+    if (recovering) return;
+    app.innerHTML = '<p class="muted">Loading your car…</p>';
+    var r = await G.db.from("cars").select(G.OWNER_COLS).eq("owner_id", session.user.id).order("sticker_number");
+    if (r.error) { app.innerHTML = '<div class="msg err">We couldn\'t load your car. Refresh to try again.</div>'; return; }
+    cars = r.data || [];
+    if (!cars.length) return renderNoCars();
+    car = cars.find(function (c) { return c.id === params.get("car"); }) || cars[0];
+    await loadEvents();
+    G.loadScript("/events.js").then(fillPicks);
+    renderEditor();
+  }
+  async function loadEvents() {
+    var r = await G.db.from("car_events").select("id,event_id,name,town,event_date,level").eq("car_id", car.id).order("event_date", { ascending: false });
+    events = r.data || [];
+  }
+  function fillPicks() {
+    var dl = document.getElementById("ev-picks");
+    dl.innerHTML = G.pastPicks().map(function (p) { return '<option value="' + esc(p.name + (p.town ? " — " + p.town : "")) + '"></option>'; }).join("");
+  }
+
+  /* ---------- the editor ---------- */
+  function working() {
+    return {
+      owner_name: car.owner_name || "", town: car.town || "", instagram: car.instagram || "", year: car.year || "",
+      make: car.make || "", model: car.model || "", nickname: car.nickname || "", story: car.story || "",
+      specs: JSON.parse(JSON.stringify(car.specs || [])), build: JSON.parse(JSON.stringify(car.build || [])),
+      card_color: G.color(car.card_color), owner_hidden: !!car.owner_hidden
+    };
+  }
+  function merged() { var m = Object.assign({}, car, w); m.year = parseInt(w.year, 10) || null; return m; }
+  function setDirty(v) {
+    dirty = v;
+    var b = document.getElementById("save"), st = document.getElementById("save-st");
+    if (b) b.disabled = !v;
+    if (st) st.textContent = v ? "Unsaved changes" : "All changes saved";
+  }
+  function refreshPreview() {
+    var p = document.getElementById("preview");
+    if (p) p.innerHTML = G.cardHTML(merged(), { events: events.length });
+  }
+  function field(id, label, value, attrs, hint) {
+    return '<div class="field"><label for="' + id + '">' + label + '</label><input id="' + id + '" value="' + esc(value) + '" ' + (attrs || "") + ">" +
+      (hint ? '<span class="hint">' + hint + "</span>" : "") + "</div>";
+  }
+
+  function renderEditor() {
+    w = working();
+    var n = G.pad(car.sticker_number);
+    var pick = cars.length > 1 ? '<div class="field" style="max-width:320px"><label for="pickcar">Your cars</label><select id="pickcar">' +
+      cars.map(function (c) { return '<option value="' + esc(c.id) + '"' + (c.id === car.id ? " selected" : "") + ">No. " + G.pad(c.sticker_number) + " · " + esc(G.carName(c)) + "</option>"; }).join("") +
+      "</select></div>" : "";
+    app.innerHTML =
+      (params.get("new") ? '<div class="msg ok">Sticker No. ' + n + " is yours. Fill in your car below, then tap Save. Photos save as soon as they upload.</div>" : "") +
+      pick +
+      '<div class="kicker">Sticker No. ' + n + '</div><h1 class="h1" style="margin:6px 0 4px" id="ed-title">' + esc(G.carName(car)) + "</h1>" +
+      '<p class="small">Your page: <a href="/c/' + n + '">carveyance.com/c/' + n + "</a></p>" +
+      '<div class="stats" id="stats"><div class="stat"><b>–</b><span>Page visits, last 30 days</span></div><div class="stat"><b>–</b><span>Cards collected</span></div><div class="stat"><b>' + events.length + '</b><span>Events on your page</span></div></div>' +
+      '<p class="small" id="topmeets" style="margin-top:8px"></p>' +
+      '<p class="small" style="margin-top:4px">Only you see these numbers.</p>' +
+
+      '<section class="ed-sec"><h2 class="h2">Your card</h2><span class="small">It updates as you edit. Pick its color.</span>' +
+      '<div class="preview-wrap"><div id="preview"></div><div style="display:flex;flex-direction:column;gap:14px;min-width:200px">' +
+      '<div class="swatches" role="group" aria-label="Card color">' + G.COLORS.map(function (c) {
+        return '<button type="button" data-color="' + c + '" style="background:' + c + '" aria-label="Card color ' + c + '" aria-pressed="' + (c === w.card_color) + '"></button>';
+      }).join("") + "</div>" +
+      '<button type="button" class="btn line" id="dl">Download card for Instagram</button>' +
+      '<span class="small">Save first so the card matches your page.</span></div></div></section>' +
+
+      '<section class="ed-sec"><h2 class="h2">The car</h2><span class="small">Make and model as you\'d say them, like “Mazda” and “RX-7 R2”.</span>' +
+      '<div class="grid3">' + field("f-year", "Year", w.year, 'inputmode="numeric" maxlength="4" data-k="year"') +
+      field("f-make", "Make", w.make, 'maxlength="40" data-k="make"') + field("f-model", "Model", w.model, 'maxlength="60" data-k="model"') + "</div>" +
+      field("f-nick", "Nickname (optional)", w.nickname, 'maxlength="60" data-k="nickname"', "Does the car have a name?") + "</section>" +
+
+      '<section class="ed-sec"><h2 class="h2">About you</h2><span class="small">Shown on your page. No street address: town and state only.</span>' +
+      '<div class="grid2">' + field("f-name", "Your name as you\'d like it shown", w.owner_name, 'maxlength="60" autocomplete="name" data-k="owner_name"', "Full name, first name and last initial, or a nickname.") +
+      field("f-town", "Town", w.town, 'maxlength="60" placeholder="Torrance, CA" data-k="town"') + "</div>" +
+      field("f-ig", "Instagram (optional)", w.instagram, 'maxlength="40" placeholder="@yourhandle" autocapitalize="off" data-k="instagram"') + "</section>" +
+
+      '<section class="ed-sec"><h2 class="h2">The story</h2><span class="small">A few lines in your own words: how you found it, what it means to you.</span>' +
+      '<div class="field"><label for="f-story">Story</label><textarea id="f-story" maxlength="1200" data-k="story">' + esc(w.story) + '</textarea><span class="hint" id="story-n"></span></div></section>' +
+
+      '<section class="ed-sec"><h2 class="h2">The specs</h2><span class="small">Mark each one as the factory figure or as it is now, after your changes. The first 3 go on your card.</span>' +
+      '<div class="rows specs-ed" id="specs"></div><button type="button" class="btn line small" id="add-spec">Add a spec</button></section>' +
+
+      '<section class="ed-sec"><h2 class="h2">The build</h2><span class="small">What\'s been done to the car, by year.</span>' +
+      '<div class="rows build-ed" id="build"></div><button type="button" class="btn line small" id="add-build">Add to the build</button></section>' +
+
+      '<section class="ed-sec"><h2 class="h2">Photos</h2><span class="small">Up to ' + G.MAX_PHOTOS + '. The first is your cover and goes on your card. Hide your plate before uploading. Photos save as soon as they upload.</span>' +
+      '<div class="ph-grid" id="photos"></div>' +
+      '<div style="margin-top:12px"><label class="btn line small" for="ph-in" id="ph-label">Add photos</label>' +
+      '<input id="ph-in" type="file" accept="image/*" multiple hidden></div><p class="small" id="ph-st" role="status"></p></section>' +
+
+      '<section class="ed-sec"><h2 class="h2">Where it\'s been</h2><span class="small">Meets and shows the car has been to. Pick one from the Carveyance calendar or type it in. These add to your page right away.</span>' +
+      '<ul class="ev-list" id="evs"></ul>' +
+      '<form id="ev-add" novalidate><div class="field"><label for="ev-name">Event</label><input id="ev-name" list="ev-picks" maxlength="120" placeholder="Start typing a meet or show" required></div>' +
+      '<div class="grid2"><div class="field"><label for="ev-date">Date</label><input id="ev-date" type="date" max="' + G.today() + '" required></div>' +
+      field("ev-town", "Town", "", 'maxlength="60" placeholder="Torrance, CA"') + "</div>" +
+      '<button class="btn line small" type="submit">Add event</button><div class="msg" role="alert" hidden></div></form></section>' +
+
+      '<section class="ed-sec"><h2 class="h2">Privacy</h2>' +
+      '<label style="display:flex;gap:12px;align-items:flex-start;margin-top:10px;cursor:pointer"><input type="checkbox" id="f-hide" data-k="owner_hidden" style="width:22px;height:22px;margin-top:2px"' + (w.owner_hidden ? " checked" : "") + ">" +
+      '<span>Hide my car\'s page<br><span class="small">While it\'s hidden, a scan of your sticker says the page isn\'t public right now.</span></span></label></section>' +
+
+      '<div class="savebar"><button type="button" class="btn" id="save" disabled>Save changes</button><span class="st" id="save-st" role="status">All changes saved</span>' +
+      '<a class="small" href="/c/' + n + '" style="margin-left:auto">View page</a></div>' +
+
+      '<section class="ed-sec"><h2 class="h2">Another car?</h2><span class="small">Claim another sticker with its number and claim code.</span>' + claimHTML() + "</section>" +
+      accountHTML();
+
+    if (cars.length > 1) document.getElementById("pickcar").addEventListener("change", function (e) {
+      if (dirty && !confirm("You have unsaved changes. Switch cars anyway?")) { e.target.value = car.id; return; }
+      location.href = "/garage/?car=" + encodeURIComponent(e.target.value);
+    });
+    app.querySelectorAll("[data-k]").forEach(function (el) {
+      el.addEventListener(el.type === "checkbox" ? "change" : "input", function () {
+        w[el.dataset.k] = el.type === "checkbox" ? el.checked : el.value;
+        if (el.dataset.k === "story") storyCount();
+        setDirty(true); refreshPreview();
+      });
+    });
+    app.querySelectorAll("[data-color]").forEach(function (b) {
+      b.addEventListener("click", function () {
+        w.card_color = b.dataset.color;
+        app.querySelectorAll("[data-color]").forEach(function (x) { x.setAttribute("aria-pressed", String(x === b)); });
+        setDirty(true); refreshPreview();
+      });
+    });
+    document.getElementById("dl").addEventListener("click", async function () {
+      try { var r = await G.shareCard(merged(), events.length); if (r === "downloaded") G.toast("Card downloaded"); }
+      catch (e) { G.toast("We couldn't make the image. Try again."); }
+    });
+    document.getElementById("add-spec").addEventListener("click", function () {
+      if (w.specs.length >= 12) return G.toast("12 specs is the limit");
+      w.specs.push({ label: "", value: "", kind: "factory" }); drawSpecs(true); setDirty(true);
+    });
+    document.getElementById("add-build").addEventListener("click", function () {
+      if (w.build.length >= 20) return G.toast("20 entries is the limit");
+      w.build.push({ year: "", text: "" }); drawBuild(true); setDirty(true);
+    });
+    document.getElementById("save").addEventListener("click", save);
+    document.getElementById("ph-in").addEventListener("change", addPhotos);
+    document.getElementById("ev-add").addEventListener("submit", addEvent);
+    document.getElementById("ev-name").addEventListener("change", function () {
+      var v = this.value, p = G.pastPicks().find(function (x) { return v === x.name + (x.town ? " — " + x.town : ""); });
+      if (p) document.getElementById("ev-town").value = p.town;
+    });
+    wireClaim(app); wireAccount();
+    storyCount(); drawSpecs(); drawBuild(); drawPhotos(); drawEvents(); refreshPreview(); loadStats();
+  }
+
+  function storyCount() { var s = document.getElementById("story-n"); if (s) s.textContent = (w.story || "").length + " of 1,200 characters"; }
+
+  function drawSpecs(focusLast) {
+    var box = document.getElementById("specs");
+    box.innerHTML = w.specs.map(function (s, i) {
+      return '<div class="r"><input class="input" list="spec-labels" aria-label="Spec ' + (i + 1) + ' name" placeholder="Engine" maxlength="30" data-i="' + i + '" data-f="label" value="' + esc(s.label) + '">' +
+        '<input class="input v" aria-label="Spec ' + (i + 1) + ' value" placeholder="1.3-liter twin-turbo rotary" maxlength="60" data-i="' + i + '" data-f="value" value="' + esc(s.value) + '">' +
+        '<select class="input kind" aria-label="Spec ' + (i + 1) + ' type" data-i="' + i + '" data-f="kind"><option value="factory"' + (s.kind !== "now" ? " selected" : "") + '>Factory spec</option><option value="now"' + (s.kind === "now" ? " selected" : "") + ">As modified</option></select>" +
+        '<button type="button" class="x" data-del="' + i + '" aria-label="Remove spec ' + (i + 1) + '">×</button></div>';
+    }).join("") || '<p class="small" style="margin-bottom:10px">No specs yet.</p>';
+    box.querySelectorAll("[data-f]").forEach(function (el) {
+      el.addEventListener(el.tagName === "SELECT" ? "change" : "input", function () {
+        w.specs[+el.dataset.i][el.dataset.f] = el.value; setDirty(true); refreshPreview();
+      });
+    });
+    box.querySelectorAll("[data-del]").forEach(function (b) {
+      b.addEventListener("click", function () { w.specs.splice(+b.dataset.del, 1); drawSpecs(); setDirty(true); refreshPreview(); });
+    });
+    if (focusLast) { var ins = box.querySelectorAll('[data-f="label"]'); if (ins.length) ins[ins.length - 1].focus(); }
+  }
+  function drawBuild(focusLast) {
+    var box = document.getElementById("build");
+    box.innerHTML = w.build.map(function (b, i) {
+      return '<div class="r"><input class="input" aria-label="Year" inputmode="numeric" maxlength="4" placeholder="2021" data-i="' + i + '" data-f="year" value="' + esc(b.year) + '">' +
+        '<input class="input" aria-label="What was done" maxlength="140" placeholder="Engine rebuilt, new apex seals" data-i="' + i + '" data-f="text" value="' + esc(b.text) + '">' +
+        '<button type="button" class="x" data-del="' + i + '" aria-label="Remove this entry">×</button></div>';
+    }).join("") || '<p class="small" style="margin-bottom:10px">Nothing added yet.</p>';
+    box.querySelectorAll("[data-f]").forEach(function (el) {
+      el.addEventListener("input", function () { w.build[+el.dataset.i][el.dataset.f] = el.value; setDirty(true); });
+    });
+    box.querySelectorAll("[data-del]").forEach(function (b) {
+      b.addEventListener("click", function () { w.build.splice(+b.dataset.del, 1); drawBuild(); setDirty(true); });
+    });
+    if (focusLast) { var ins = box.querySelectorAll('[data-f="year"]'); if (ins.length) ins[ins.length - 1].focus(); }
+  }
+
+  /* ---------- save ---------- */
+  async function save() {
+    var y = String(w.year || "").trim();
+    if (y && !(/^\d{4}$/.test(y) && +y >= 1885 && +y <= 2100)) { G.toast("The year needs 4 digits, like 1994"); document.getElementById("f-year").focus(); return; }
+    var row = {
+      owner_name: w.owner_name.trim(), town: w.town.trim(), instagram: G.instaHandle(w.instagram), year: y ? +y : null,
+      make: w.make.trim(), model: w.model.trim(), nickname: w.nickname.trim().replace(/^["“]|["”]$/g, ""), story: w.story.trim(),
+      specs: w.specs.map(function (s) { return { label: s.label.trim(), value: s.value.trim(), kind: s.kind === "now" ? "now" : "factory" }; })
+        .filter(function (s) { return s.label && s.value; }),
+      build: w.build.map(function (b) { return { year: String(b.year).trim(), text: b.text.trim() }; }).filter(function (b) { return b.text; })
+        .sort(function (a, b) { return (parseInt(a.year, 10) || 0) - (parseInt(b.year, 10) || 0); }),
+      card_color: w.card_color, owner_hidden: !!w.owner_hidden
+    };
+    var btn = document.getElementById("save"); btn.disabled = true;
+    document.getElementById("save-st").textContent = "Saving…";
+    var r = await G.db.from("cars").update(row).eq("id", car.id).select(G.OWNER_COLS).single();
+    if (r.error) { btn.disabled = false; document.getElementById("save-st").textContent = "That didn't save. Check your connection and try again."; return; }
+    car = r.data; cars = cars.map(function (c) { return c.id === car.id ? car : c; });
+    w = working(); setDirty(false); drawSpecs(); drawBuild(); refreshPreview();
+    document.getElementById("ed-title").textContent = G.carName(car);
+    G.toast("Saved");
+  }
+
+  /* ---------- photos (save right away) ---------- */
+  function drawPhotos() {
+    var p = car.photos || [];
+    document.getElementById("photos").innerHTML = p.map(function (path, i) {
+      return '<div class="ph-item"><div class="im"><img src="' + esc(G.photoUrl(path)) + '" alt="Photo ' + (i + 1) + '" loading="lazy"></div><div class="acts">' +
+        (i === 0 ? '<span class="cover">COVER</span>' : '<button type="button" class="linkbtn" data-cover="' + i + '" style="font-size:13px;padding:8px 2px">Make cover</button>') +
+        '<button type="button" class="x" data-rm="' + i + '" aria-label="Remove photo ' + (i + 1) + '" style="width:36px;height:36px">×</button></div></div>';
+    }).join("");
+    document.getElementById("ph-label").hidden = p.length >= G.MAX_PHOTOS;
+    document.querySelectorAll("[data-cover]").forEach(function (b) {
+      b.addEventListener("click", function () { var a = (car.photos || []).slice(), x = a.splice(+b.dataset.cover, 1)[0]; a.unshift(x); setPhotos(a); });
+    });
+    document.querySelectorAll("#photos [data-rm]").forEach(function (b) {
+      b.addEventListener("click", async function () {
+        if (!confirm("Remove this photo?")) return;
+        var a = (car.photos || []).slice(), x = a.splice(+b.dataset.rm, 1)[0];
+        if (await setPhotos(a)) G.db.storage.from("car-photos").remove([x]);
+      });
+    });
+  }
+  async function setPhotos(list) {
+    var r = await G.db.from("cars").update({ photos: list }).eq("id", car.id).select("photos").single();
+    if (r.error) { G.toast("That didn't save. Try again."); return false; }
+    car.photos = r.data.photos; drawPhotos(); refreshPreview(); return true;
+  }
+  async function addPhotos(e) {
+    var files = Array.prototype.slice.call(e.target.files || []); e.target.value = "";
+    var room = G.MAX_PHOTOS - (car.photos || []).length, st = document.getElementById("ph-st");
+    if (files.length > room) { G.toast("Only " + room + " more photo" + (room === 1 ? "" : "s") + " fit"); files = files.slice(0, room); }
+    var added = [];
+    for (var i = 0; i < files.length; i++) {
+      st.textContent = "Uploading " + (i + 1) + " of " + files.length + "…";
+      try {
+        var blob = await G.resizeImage(files[i], 1600);
+        var path = car.id + "/" + Date.now() + "-" + Math.random().toString(36).slice(2, 8) + ".jpg";
+        var up = await G.db.storage.from("car-photos").upload(path, blob, { contentType: "image/jpeg", cacheControl: "31536000", upsert: false });
+        if (up.error) throw up.error;
+        added.push(path);
+      } catch (err) { G.toast("One photo didn't upload: " + (err.message || "try again")); }
+    }
+    st.textContent = "";
+    if (added.length) { await setPhotos((car.photos || []).concat(added)); G.toast(added.length + " photo" + (added.length === 1 ? "" : "s") + " added"); }
+  }
+
+  /* ---------- events (save right away) ---------- */
+  var LV = { owner: "Owner-reported", seen: "Seen by Carveyance", checked: "Checked in" };
+  function drawEvents() {
+    document.getElementById("evs").innerHTML = events.map(function (ev) {
+      return '<li><div><div class="name">' + esc(ev.name) + '</div><div class="small">' + esc(G.fmtDate(ev.event_date) + (ev.town ? " · " + ev.town : "") + " · " + LV[ev.level]) + "</div></div>" +
+        (ev.level === "owner" ? '<button type="button" class="x" data-ev="' + ev.id + '" aria-label="Remove ' + esc(ev.name) + '">×</button>' : "") + "</li>";
+    }).join("") || '<li class="small">No events yet.</li>';
+    document.querySelectorAll("[data-ev]").forEach(function (b) {
+      b.addEventListener("click", async function () {
+        var r = await G.db.from("car_events").delete().eq("id", +b.dataset.ev);
+        if (r.error) return G.toast("That didn't remove. Try again.");
+        await loadEvents(); drawEvents(); refreshPreview(); statEvents();
+      });
+    });
+  }
+  function statEvents() { var s = document.querySelectorAll("#stats .stat b"); if (s[2]) s[2].textContent = events.length; }
+  async function addEvent(e) {
+    e.preventDefault();
+    var f = e.target, m = f.querySelector(".msg");
+    function say(t) { m.hidden = false; m.className = "msg err"; m.textContent = t; }
+    var raw = f.querySelector("#ev-name").value.trim(), date = f.querySelector("#ev-date").value, townV = f.querySelector("#ev-town").value.trim();
+    if (!raw) return say("Name the meet or show.");
+    if (!date) return say("Add the date you went.");
+    if (date > G.today()) return say("Only events that have already happened go on your page.");
+    var p = G.pastPicks().find(function (x) { return raw === x.name + (x.town ? " — " + x.town : ""); });
+    var r = await G.db.from("car_events").insert({ car_id: car.id, event_id: p ? p.id : "", name: (p ? p.name : raw).slice(0, 120),
+      town: (townV || (p ? p.town : "")).slice(0, 60), event_date: date, level: "owner" });
+    if (r.error) return say("That didn't save. Try again.");
+    m.hidden = true; f.reset();
+    await loadEvents(); drawEvents(); refreshPreview(); statEvents(); G.toast("Event added");
+  }
+
+  /* ---------- the owner's numbers ---------- */
+  async function loadStats() {
+    var r = await G.db.rpc("car_stats", { p_car: car.id });
+    if (r.error || !r.data) return;
+    var s = document.querySelectorAll("#stats .stat b");
+    s[0].textContent = r.data.scans_30d; s[1].textContent = r.data.collects;
+    var top = r.data.by_event || [];
+    document.getElementById("topmeets").textContent = top.length ? "Most collected at: " + top.map(function (t) { return t.name + " (" + t.n + ")"; }).join(", ") : "";
+  }
+
+  /* ---------- start ---------- */
+  async function start() {
+    if (!G.configured) { app.innerHTML = G.notReadyHTML(); return; }
+    G.db.auth.onAuthStateChange(function (ev, s) {
+      if (ev === "PASSWORD_RECOVERY") { recovering = true; session = s; renderRecovery(); }
+    });
+    if (/type=recovery/.test(location.hash)) { recovering = true; }
+    session = (await G.db.auth.getSession()).data.session;
+    if (recovering) { if (session) renderRecovery(); return; }
+    if (!session) return renderSignedOut();
+    loadCars();
+  }
+  start();
+})();
+</script>
+<script src="/assets/js/cv-menu.js" defer></script>
+</body>
+</html>

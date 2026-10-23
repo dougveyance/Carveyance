@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Garage admin — Carveyance</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700&family=Bebas+Neue&family=DM+Sans:wght@400;500;600&family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/garage.css">
+<link rel="icon" href="/favicon-32x32.png">
+</head>
+<body class="g-mist">
+
+<nav>
+  <a class="nav-brand" href="/">Car<span>veyance</span></a>
+  <div class="nav-center"><a href="/garage/">Garage</a><a href="/cards/">My cards</a><a href="/events/">Events</a></div>
+  <a class="nav-sub" href="/">Home</a>
+</nav>
+
+<main class="g-mist"><div class="g-wrap" id="app" style="max-width:1100px" aria-live="polite"><p class="muted">Loading…</p></div></main>
+
+<datalist id="ev-picks"></datalist>
+
+<script src="/assets/js/vendor/supabase-js-2.117.2.js"></script>
+<script src="/assets/js/cv-garage-config.js"></script>
+<script src="/assets/js/cv-garage.js"></script>
+<script>
+(function () {
+  "use strict";
+  var G = window.CVG, esc = G.esc, app = document.getElementById("app");
+  var session = null, list = [];
+
+  function signIn() {
+    app.innerHTML = '<div class="kicker">Carveyance Garage</div><h1 class="h1" style="margin:6px 0 16px">Admin</h1>' +
+      '<div class="box" style="max-width:460px"><div id="auth"></div></div>';
+    G.authForm(document.getElementById("auth"), function (s) { session = s; load(); }, { mode: "in" });
+  }
+
+  async function load() {
+    app.innerHTML = '<p class="muted">Loading…</p>';
+    var o = await G.db.rpc("admin_overview");
+    if (o.error || !o.data) {
+      app.innerHTML = '<h1 class="h1" style="margin-bottom:10px">Admin</h1><div class="msg err">' + esc(session.user.email) +
+        " isn't a Carveyance admin. See “Make yourself an admin” in PUBLISHING.md.</div>" +
+        '<p class="small"><button type="button" class="linkbtn" id="out">Sign out</button></p>';
+      document.getElementById("out").addEventListener("click", async function () { await G.db.auth.signOut(); location.reload(); });
+      return;
+    }
+    var d = o.data;
+    var cl = await G.db.rpc("admin_car_list"); list = cl.data || [];
+    var rp = await G.db.from("reports").select("id,car_id,reason,details,created_at").order("created_at", { ascending: false });
+    var reports = rp.data || [];
+    var byId = {}; list.forEach(function (c) { byId[c.id] = c; });
+
+    function tile(v, l) { return '<div class="stat"><b>' + esc(v) + "</b><span>" + esc(l) + "</span></div>"; }
+    app.innerHTML =
+      '<div style="display:flex;justify-content:space-between;align-items:baseline;gap:12px"><h1 class="h1">Garage admin</h1>' +
+      '<span class="small">' + esc(session.user.email) + ' · <button type="button" class="linkbtn" id="out">Sign out</button></span></div>' +
+      '<div class="tiles">' + tile(d.stickers, "Stickers loaded") + tile(d.claimed, "Claimed") + tile(d.public_cars, "Public car pages") +
+        tile(d.scans_30d, "Page visits, 30 days") + tile(d.collects, "Cards collected") + tile(d.reports, "Open reports") + tile(d.locked, "Locked stickers") + "</div>" +
+
+      '<h2 class="h2" style="margin-bottom:10px">Reports</h2>' +
+      (reports.length ? '<div class="tbl-wrap" style="margin-bottom:28px"><table class="tbl"><thead><tr><th>When</th><th>Car</th><th>Reason</th><th>Details</th><th></th></tr></thead><tbody>' +
+        reports.map(function (r) {
+          var c = byId[r.car_id];
+          return "<tr><td>" + esc(G.fmtDate(r.created_at)) + "</td><td>" + (c ? '<a href="/c/' + G.pad(c.sticker_number) + '" target="_blank" rel="noopener">No. ' + G.pad(c.sticker_number) + "</a>" : "–") +
+            "</td><td class=\"wrap\">" + esc(r.reason) + '</td><td class="wrap">' + esc(r.details) + '</td><td><button type="button" class="btn line small" data-clear="' + r.id + '">Resolved</button></td></tr>';
+        }).join("") + "</tbody></table></div>" : '<p class="small" style="margin-bottom:28px">No reports.</p>') +
+
+      '<h2 class="h2" style="margin-bottom:10px">Cars</h2>' +
+      (list.length ? '<div class="tbl-wrap"><table class="tbl"><thead><tr><th>No.</th><th>Car</th><th>Owner</th><th>Visits</th><th>Collects</th><th>Events</th><th>Status</th><th></th></tr></thead><tbody>' +
+        list.map(function (c, i) {
+          var flags = [c.hidden ? "Hidden by us" : "", c.owner_hidden ? "Hidden by owner" : "", c.specs_checked ? "Specs checked" : "", c.owner_slug ? "Owner page: " + c.owner_slug : ""].filter(Boolean).join(" · ") || "Public";
+          return '<tr><td><a href="/c/' + G.pad(c.sticker_number) + '" target="_blank" rel="noopener">' + G.pad(c.sticker_number) + "</a></td>" +
+            '<td class="wrap">' + esc(G.carName(c)) + '</td><td class="wrap">' + esc([c.owner_name, c.town].filter(Boolean).join(" · ") || "–") + "</td>" +
+            "<td>" + c.scans + "</td><td>" + c.collects + "</td><td>" + c.events + '</td><td class="wrap">' + esc(flags) + "</td>" +
+            '<td><button type="button" class="btn line small" data-open="' + i + '">Manage</button></td></tr>' +
+            '<tr id="m' + i + '" hidden><td colspan="8"><div class="adm-edit">' +
+              '<div style="display:flex;gap:20px;flex-wrap:wrap;margin-bottom:12px">' +
+                '<label style="display:flex;gap:8px;align-items:center"><input type="checkbox" data-hide' + (c.hidden ? " checked" : "") + '> Hide this page</label>' +
+                '<label style="display:flex;gap:8px;align-items:center"><input type="checkbox" data-checked' + (c.specs_checked ? " checked" : "") + '> Specs checked by Carveyance</label></div>' +
+              '<div class="field" style="max-width:360px"><label for="sl' + i + '">Owner page id (from owners.js, e.g. tony-m)</label><input id="sl' + i + '" data-slug value="' + esc(c.owner_slug) + '" pattern="[a-z0-9-]*"></div>' +
+              '<button type="button" class="btn small" data-save="' + i + '">Save</button>' +
+              '<hr style="border:0;border-top:1px solid var(--rule);margin:16px 0">' +
+              '<div class="label" style="margin-bottom:8px">Add “Seen by Carveyance”</div>' +
+              '<div class="grid3" style="grid-template-columns:minmax(0,2fr) 160px minmax(0,1fr)"><div class="field"><label for="ev' + i + '">Event</label><input id="ev' + i + '" data-ev list="ev-picks" maxlength="120"></div>' +
+              '<div class="field"><label for="dt' + i + '">Date</label><input id="dt' + i + '" data-date type="date" max="' + G.today() + '"></div>' +
+              '<div class="field"><label for="tw' + i + '">Town</label><input id="tw' + i + '" data-town maxlength="60"></div></div>' +
+              '<button type="button" class="btn line small" data-seen="' + i + '">Add</button></div></td></tr>';
+        }).join("") + "</tbody></table></div>" : '<p class="small">No cars claimed yet.</p>') +
+
+      '<h2 class="h2" style="margin:28px 0 10px">Unlock a sticker</h2><p class="small" style="margin-bottom:10px">A sticker locks after 10 wrong claim codes. Unlock it once you\'ve checked who has it.</p>' +
+      '<form id="unlock" style="display:flex;gap:10px;max-width:320px"><input class="input" id="un-n" inputmode="numeric" placeholder="0184" aria-label="Sticker number"><button class="btn small" type="submit">Unlock</button></form>';
+
+    G.loadScript("/events.js").then(function () {
+      document.getElementById("ev-picks").innerHTML = G.pastPicks().map(function (p) { return '<option value="' + esc(p.name + (p.town ? " — " + p.town : "")) + '"></option>'; }).join("");
+    });
+    document.getElementById("out").addEventListener("click", async function () { await G.db.auth.signOut(); location.reload(); });
+    app.querySelectorAll("[data-clear]").forEach(function (b) {
+      b.addEventListener("click", async function () { await G.db.from("reports").delete().eq("id", +b.dataset.clear); load(); });
+    });
+    app.querySelectorAll("[data-open]").forEach(function (b) {
+      b.addEventListener("click", function () { var r = document.getElementById("m" + b.dataset.open); r.hidden = !r.hidden; });
+    });
+    app.querySelectorAll("[data-save]").forEach(function (b) {
+      b.addEventListener("click", async function () {
+        var c = list[+b.dataset.save], box = document.getElementById("m" + b.dataset.save);
+        var slug = box.querySelector("[data-slug]").value.trim().toLowerCase();
+        if (!/^[a-z0-9-]*$/.test(slug)) return G.toast("Owner page id: lowercase letters, numbers and hyphens only");
+        var r = await G.db.rpc("admin_set_car", { p_car: c.id, p_hidden: box.querySelector("[data-hide]").checked,
+          p_specs_checked: box.querySelector("[data-checked]").checked, p_owner_slug: slug });
+        if (r.error || !r.data) return G.toast("That didn't save");
+        G.toast("Saved"); load();
+      });
+    });
+    app.querySelectorAll("[data-seen]").forEach(function (b) {
+      b.addEventListener("click", async function () {
+        var c = list[+b.dataset.seen], box = document.getElementById("m" + b.dataset.seen);
+        var raw = box.querySelector("[data-ev]").value.trim(), date = box.querySelector("[data-date]").value, town = box.querySelector("[data-town]").value.trim();
+        if (!raw || !date) return G.toast("Add the event and the date");
+        var p = G.pastPicks().find(function (x) { return raw === x.name + (x.town ? " — " + x.town : ""); });
+        var r = await G.db.from("car_events").insert({ car_id: c.id, event_id: p ? p.id : "", name: (p ? p.name : raw).slice(0, 120),
+          town: (town || (p ? p.town : "")).slice(0, 60), event_date: date, level: "seen" });
+        if (r.error) return G.toast("That didn't save: " + r.error.message);
+        G.toast("Added"); load();
+      });
+    });
+    document.getElementById("unlock").addEventListener("submit", async function (e) {
+      e.preventDefault();
+      var n = parseInt(document.getElementById("un-n").value, 10);
+      if (!(n > 0)) return;
+      var r = await G.db.rpc("admin_unlock_sticker", { p_number: n });
+      G.toast(r.data ? "Sticker No. " + G.pad(n) + " unlocked" : "No sticker with that number");
+    });
+  }
+
+  async function start() {
+    if (!G.configured) { app.innerHTML = G.notReadyHTML(); return; }
+    session = (await G.db.auth.getSession()).data.session;
+    if (!session) return signIn();
+    load();
+  }
+  start();
+})();
+</script>
+<script src="/assets/js/cv-menu.js" defer></script>
+</body>
+</html>

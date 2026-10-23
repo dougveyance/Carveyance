@@ -22,5 +22,9 @@ node_modules/
 Claude outputs/
 *.zip
 
+# Sticker claim codes (tools/make_stickers.py). Private: never commit,
+# or the codes would be public on the live site.
+sticker_batches/
+
 # Wordmark script backups
 _wordmark_backup/

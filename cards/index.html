@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My cards — Carveyance</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700&family=Bebas+Neue&family=DM+Sans:wght@400;500;600&family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/garage.css">
+<link rel="icon" href="/favicon-32x32.png">
+</head>
+<body class="g-mist">
+
+<nav>
+  <a class="nav-brand" href="/">Car<span>veyance</span></a>
+  <div class="nav-center">
+    <a href="/">Home</a>
+    <a href="/articles/">All Stories</a>
+    <a href="/categories/how-it-works/">How It Works</a>
+    <a href="/categories/reviews/">Reviews</a>
+    <a href="/categories/comparisons/">Comparisons</a>
+    <a href="/categories/opinions/">Opinions</a>
+    <a href="/categories/fun-facts/">Fun Facts</a>
+    <a href="/categories/car-culture/">Car Culture</a>
+    <a href="/categories/owners-manual/">Owner's Manual</a>
+    <a href="/categories/news/">News</a>
+    <a href="/events/">Events</a>
+    <a href="/about/">About</a>
+  </div>
+  <a class="nav-sub" href="/#submit">Write for Us</a>
+</nav>
+
+<main class="g-page g-mist">
+  <div class="g-wrap" style="max-width:640px">
+    <div style="display:flex;justify-content:space-between;align-items:flex-end;gap:12px;margin-bottom:18px">
+      <div><h1 class="h1">My cards</h1><div class="small" id="count" style="margin-top:4px"></div></div>
+      <button type="button" class="btn line small" id="edit" hidden>Edit</button>
+    </div>
+    <div id="list"></div>
+    <div class="box" style="margin-top:8px">
+      <p class="muted" style="font-size:15px">Your cards live on this phone, in this browser. Clearing your browser's data removes them.</p>
+      <p style="margin-top:12px"><a class="btn" href="/c/">Find a car by its sticker number</a></p>
+    </div>
+  </div>
+</main>
+
+<footer class="site">
+  <a class="fw" href="/">Car<span>veyance</span></a>
+  &copy; 2026 Carveyance — For the love of the drive. Los Angeles, CA.
+  <div class="fl"><a href="/events/">Events</a> &middot; <a href="/categories/owners-manual/">Owner's Manual</a> &middot; <a href="/advertise/">Advertise &amp; Partner</a></div>
+</footer>
+
+<script src="/assets/js/cv-garage-config.js"></script>
+<script src="/assets/js/cv-garage.js"></script>
+<script>
+(function () {
+  "use strict";
+  var G = window.CVG, esc = G.esc, editing = false;
+  var list = document.getElementById("list"), count = document.getElementById("count"), edit = document.getElementById("edit");
+
+  function render() {
+    var cards = G.cards.all();
+    edit.hidden = !cards.length;
+    edit.textContent = editing ? "Done" : "Edit";
+    if (!cards.length) {
+      count.textContent = "";
+      list.innerHTML = '<div class="box g-center" style="padding:34px 20px;margin-bottom:8px"><div class="h3">No cards yet</div>' +
+        '<p class="muted" style="margin-top:8px">Scan a Carveyance sticker on a car at a meet, then tap “Collect this card.”</p></div>';
+      return;
+    }
+    var groups = [], byKey = {};
+    cards.forEach(function (c) {
+      var key = (c.collected_at || "") + "|" + (c.event_name || "");
+      if (!byKey[key]) { byKey[key] = { date: c.collected_at, place: c.event_name, cards: [] }; groups.push(byKey[key]); }
+      byKey[key].cards.push(c);
+    });
+    groups.sort(function (a, b) { return (a.date || "") < (b.date || "") ? 1 : -1; });
+    var meets = groups.filter(function (g) { return g.place; }).length;
+    count.textContent = cards.length + " card" + (cards.length === 1 ? "" : "s") +
+      (meets ? " from " + meets + " meet" + (meets === 1 ? "" : "s") : "") + ", saved on this phone";
+    list.innerHTML = groups.map(function (g) {
+      return '<section class="cards-group"><h2>' + esc([G.fmtDate(g.date), g.place].filter(Boolean).join(" · ")) + "</h2>" +
+        '<div class="cards-grid">' + g.cards.map(function (c) {
+          var tile = G.cardHTML(c, { size: "tile", href: "/c/" + G.pad(c.sticker_number), label: G.carName(c) + ", sticker No. " + G.pad(c.sticker_number) });
+          return editing ? '<div style="position:relative">' + tile +
+            '<button type="button" class="x" data-rm="' + c.sticker_number + '" aria-label="Remove ' + esc(G.carName(c)) + '" style="position:absolute;top:-8px;right:-8px;background:#fff;border-radius:22px">×</button></div>' : tile;
+        }).join("") + "</div></section>";
+    }).join("");
+    list.querySelectorAll("[data-rm]").forEach(function (b) {
+      b.addEventListener("click", function () { G.cards.remove(parseInt(b.dataset.rm, 10)); render(); });
+    });
+  }
+  edit.addEventListener("click", function () { editing = !editing; render(); });
+  render();
+})();
+</script>
+<script src="/assets/js/cv-menu.js" defer></script>
+</body>
+</html>

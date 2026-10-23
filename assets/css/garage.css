@@ -238,7 +238,9 @@ footer.site .fl a:hover{color:#fff}
 .swatches button[aria-pressed="true"]{box-shadow:0 0 0 3px var(--ink)}
 .preview-wrap{display:flex;gap:18px;align-items:flex-start;flex-wrap:wrap}
 .savebar{position:sticky;bottom:0;background:var(--white);border-top:1px solid var(--rule);padding:12px 0 14px;display:flex;gap:12px;align-items:center;z-index:20}
-.savebar .st{font-family:var(--label);font-size:14px;color:var(--slate)}
+.savebar .st{font-family:var(--label);font-size:14px;color:var(--slate);flex:1;min-width:0;line-height:1.25}
+.savebar .btn{white-space:nowrap;padding:0 14px}
+@media(max-width:420px){.savebar{gap:8px}.savebar .btn{font-size:15px;padding:0 12px}.savebar .st{font-size:13px}}
 .ev-list{list-style:none;margin-bottom:12px}
 .ev-list li{display:flex;justify-content:space-between;gap:10px;align-items:center;padding:10px 0;border-bottom:1px solid var(--rule)}
 .ev-list .name{font-family:var(--display);font-weight:600;font-size:17px}

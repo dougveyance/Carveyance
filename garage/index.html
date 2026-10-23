@@ -181,7 +181,9 @@
       (params.get("new") ? '<div class="msg ok">Sticker No. ' + n + " is yours. Fill in your car below, then tap Save. Photos save as soon as they upload.</div>" : "") +
       pick +
       '<div class="kicker">Sticker No. ' + n + '</div><h1 class="h1" style="margin:6px 0 4px" id="ed-title">' + esc(G.carName(car)) + "</h1>" +
-      '<p class="small">Your page: <a href="/c/' + n + '">carveyance.com/c/' + n + "</a></p>" +
+      '<div style="display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin:14px 0 6px">' +
+        '<a class="btn dark" href="/c/' + n + '">View your car\'s page →</a>' +
+        '<span class="small">carveyance.com/c/' + n + "</span></div>" +
       '<div class="stats" id="stats"><div class="stat"><b>–</b><span>Page visits, last 30 days</span></div><div class="stat"><b>–</b><span>Cards collected</span></div><div class="stat"><b>' + events.length + '</b><span>Events on your page</span></div></div>' +
       '<p class="small" id="topmeets" style="margin-top:8px"></p>' +
       '<p class="small" style="margin-top:4px">Only you see these numbers.</p>' +
@@ -230,7 +232,7 @@
       '<span>Hide my car\'s page<br><span class="small">While it\'s hidden, a scan of your sticker says the page isn\'t public right now.</span></span></label></section>' +
 
       '<div class="savebar"><button type="button" class="btn" id="save" disabled>Save changes</button><span class="st" id="save-st" role="status">All changes saved</span>' +
-      '<a class="small" href="/c/' + n + '" style="margin-left:auto">View page</a></div>' +
+      '<a class="btn line" href="/c/' + n + '" style="margin-left:auto">View page</a></div>' +
 
       '<section class="ed-sec"><h2 class="h2">Another car?</h2><span class="small">Claim another sticker with its number and claim code.</span>' + claimHTML() + "</section>" +
       accountHTML();

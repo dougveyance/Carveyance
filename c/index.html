@@ -283,7 +283,7 @@
         collected_at: G.today(), event_id: l ? l.id : "", event_name: l ? l.name : ""
       };
       var ok = G.cards.add(snap);
-      G.db.rpc("record_collect", { p_car: car.id, p_device: G.deviceId(), p_event_id: snap.event_id, p_event_name: snap.event_name });
+      G.fire(G.db.rpc("record_collect", { p_car: car.id, p_device: G.deviceId(), p_event_id: snap.event_id, p_event_name: snap.event_name }));
       s.close();
       var b = document.getElementById("collect");
       if (b) b.outerHTML = '<a class="btn done grow" href="/cards/">In your cards ✓</a>';
@@ -323,7 +323,7 @@
       st = (r.data || [])[0];
     } catch (e) { return renderError(); }
     if (!st || st.status === "unknown") return renderLookup("We can't find sticker No. " + G.pad(num) + ". Check the number and try again.");
-    if (st.status === "unclaimed") { G.db.rpc("record_scan", { p_number: num, p_device: G.deviceId() }); return renderUnclaimed(session); }
+    if (st.status === "unclaimed") { G.fire(G.db.rpc("record_scan", { p_number: num, p_device: G.deviceId() })); return renderUnclaimed(session); }
 
     // claimed, or hidden (the owner can still see a hidden page)
     var q = G.db.from("cars").select(session ? G.OWNER_COLS : G.PUBLIC_COLS).eq("sticker_number", num).maybeSingle();
@@ -332,7 +332,7 @@
     var car = cr.data;
     if (!car) return renderHidden();
     var isOwner = !!(session && car.owner_id === session.user.id);
-    if (!isOwner) G.db.rpc("record_scan", { p_number: num, p_device: G.deviceId() });
+    if (!isOwner) G.fire(G.db.rpc("record_scan", { p_number: num, p_device: G.deviceId() }));
     var er = await G.db.from("car_events").select("id,event_id,name,town,event_date,level").eq("car_id", car.id);
     await G.loadScript("/events.js");
     renderCar(car, er.data || [], isOwner);

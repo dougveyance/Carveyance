@@ -25,6 +25,10 @@
   G.COLORS = ["#9E2B25", "#1F3F73", "#2F5D3A", "#4A4F57", "#7A5A1E", "#5B3C6E"];
   G.MAX_PHOTOS = 12;
 
+  /* Send a database request without waiting for the answer. The library only
+     sends a request once something asks for its result, so ask and ignore it. */
+  G.fire = function (q) { try { q.then(function () {}, function () {}); } catch (e) {} };
+
   /* ---------- small helpers ---------- */
   G.pad = function (n) { return String(n).padStart(4, "0"); };
   G.esc = function (s) {

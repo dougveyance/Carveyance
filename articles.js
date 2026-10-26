@@ -60,6 +60,97 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    "slug": "industry-brief-2026-10-26",
+    "seoTitle": "Car News: $823 Car Payments, GM's Future, Volvo's Loss",
+    "title": "The Industry Brief: The $823 Payment, GM's Trucks Pay for the Future and Volvo Hits the Wall",
+    "subtitle": "8 stories that mattered in the week of October 19-25, ranked and weighed",
+    "category": "News",
+    "date": "2026-10-26",
+    "readTime": "25 min",
+    "blurb": "The average new-car payment hit an October record of $823 while prices stood still. GM's pickups are paying for eyes-off driving, Volvo lost money and cut 2,500 more jobs, Tesla wants to sell a car with no steering wheel as NHTSA proposes a light for it, electric cars took nearly 30% of Europe's September, CATL bet on 5-minute battery swaps for trucks, Audi planned its first US factory and Ferrari built a manual that can stall. Every story carries a status line.",
+    "image": "/assets/images/industry-brief-2026-10-26.jpg",
+    "vehicles": [
+      "Chevrolet Silverado",
+      "Cadillac Escalade IQ",
+      "Volvo EX60",
+      "Tesla Cybercab",
+      "Tesla Model Y",
+      "Audi Q7",
+      "Audi Q8",
+      "Ferrari 12Cilindri Manuale",
+      "Ford Mustang Mach-E",
+      "Porsche 911 GT3",
+      "Toyota Land Cruiser"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "the-cost-of-owning-one",
+    "seoTitle": "Why Car Payments Hit $823 When Prices Stopped Rising",
+    "title": "The Price of a New Car Has Stopped Rising. The Cost of Owning One Hasn't.",
+    "subtitle": "The sticker has gone flat and the incentives are back. Americans are still paying a record amount every month, because the problem has moved from the price of the car to the price of the money",
+    "category": "Comparisons",
+    "date": "2026-10-26",
+    "readTime": "7 min",
+    "blurb": "The average new-car payment is forecast at a record $823 for October while prices have been flat for 3 years. How the amount borrowed, the rate and the length of the loan set the payment, what a 7-year loan really costs, why nearly 3 in 10 trade-ins are underwater, what fuel, repairs and insurance did, and how the new auto-loan interest deduction works.",
+    "image": "/assets/images/the-cost-of-owning-one.jpg",
+    "vehicles": [],
+    "featured": false
+  },
+  {
+    "slug": "trucks-paying-for-the-future",
+    "seoTitle": "GM's Eyes-Off Driving and LMR Batteries, Paid for by Trucks",
+    "title": "GM's Trucks Are Paying for a Future in Which They May Drive Themselves",
+    "subtitle": "GM is tying cheaper battery chemistry, centralized computing and eyes-off driving into one strategy, and its pickups are paying for it",
+    "category": "Opinions",
+    "date": "2026-10-26",
+    "readTime": "7 min",
+    "blurb": "GM's pickups helped it earn $3.3 billion in the third quarter, and the company is spending it on one plan: lithium manganese-rich batteries, a single central computer and eyes-off highway driving that debuts on the 2028 Cadillac Escalade IQ before reaching its full-size trucks and SUVs. What each piece does, what's still a projection, and why execution is the test.",
+    "image": "/assets/images/trucks-paying-for-the-future.jpg",
+    "vehicles": [
+      "Cadillac Escalade IQ",
+      "Chevrolet Silverado",
+      "GMC Sierra",
+      "Chevrolet Tahoe",
+      "GMC Yukon",
+      "Chevrolet Blazer EV"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "no-steering-wheel",
+    "seoTitle": "Tesla Cybercab and the Cyan Light: Are the Rules Ready?",
+    "title": "Tesla Wants to Sell You a Car With No Steering Wheel. The Rules Aren't Ready.",
+    "subtitle": "A proposed cyan marker light is an attempt to solve one of autonomy's most basic problems, how a car with no driver talks to everyone outside it, in the same week Tesla said it's trying to start selling one",
+    "category": "Car Culture",
+    "date": "2026-10-26",
+    "readTime": "8 min",
+    "blurb": "Tesla says it's trying to deliver Cybercabs, with no steering wheel, pedals or mirrors, to customers by the end of 2026, while NHTSA audits how it certified the car. The same week, NHTSA proposed optional cyan lamps to show when a car is driving itself. What the light would tell you, what it can't, the rules a car with no controls has to clear, and who's responsible when no one is driving.",
+    "image": "/assets/images/no-steering-wheel.jpg",
+    "vehicles": [
+      "Tesla Cybercab",
+      "Mercedes-Benz S-Class",
+      "Mercedes-Benz EQS"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "change-batteries-like-tires",
+    "seoTitle": "CATL Battery Swapping for Electric Semis, Explained",
+    "title": "China Thinks an Electric Semi Should Change Batteries Like a Race Car Changes Tires",
+    "subtitle": "CATL's 5-minute battery swap attacks the electric truck's most expensive weakness: the time a revenue-earning vehicle spends standing still",
+    "category": "How It Works",
+    "date": "2026-10-26",
+    "readTime": "6 min",
+    "blurb": "CATL launched heavy-truck batteries of up to 760 kWh and plans 900 swap stations in China by the end of 2026, where a depleted battery can be exchanged in about 5 minutes. How swapping moves charging off the truck, why rival truck makers have to share a pack, and how it compares with megawatt charging, hydrogen and onboard generators.",
+    "image": "/assets/images/change-batteries-like-tires.jpg",
+    "vehicles": [
+      "Tesla Semi",
+      "Mercedes-Benz GenH2 Truck"
+    ],
+    "featured": false
+  },
+  {
     "slug": "industry-brief-2026-10-19",
     "seoTitle": "Car News: Porsche Mission S, NVIDIA Deals, Tesla Roadster",
     "title": "The Industry Brief: Porsche Goes Above the 911, Volvo and Mercedes Share a Brain and the Roadster Leaps",
@@ -115,7 +206,7 @@ const ARTICLES = [
     "subtitle": "Volvo and Mercedes-Benz announced deeper NVIDIA partnerships on consecutive days. The technology could make their cars safer and more capable, and it raises a bigger question: who will control the most important machinery inside tomorrow's car",
     "category": "How It Works",
     "date": "2026-10-19",
-    "readTime": "8 min",
+    "readTime": "9 min",
     "blurb": "Volvo and Mercedes-Benz will build their next automated-driving systems on the same NVIDIA hardware, AI software and safety layer. What Hyperion, Alpamayo and Halos actually do, what stays Volvo or Mercedes, what the SAE levels really mean, why Volvo changed course after lidar, and who's responsible when the software drives.",
     "image": "/assets/images/nvidia-operating-system-of-the-car.jpg",
     "vehicles": [

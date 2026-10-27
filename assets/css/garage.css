@@ -259,3 +259,33 @@ table.tbl{width:100%;border-collapse:collapse;font-family:var(--label);font-size
 .tbl th{font-weight:700;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--slate);background:var(--mist)}
 .tbl td.wrap{white-space:normal;min-width:180px}
 .adm-edit{background:var(--mist);padding:14px;border-radius:8px;margin:8px 0 4px;white-space:normal}
+
+/* ---- The Lot: a car for sale (car page, editor, /lot/) ---- */
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#lot-box{padding:16px 20px 0}
+.lot-box{border:2px solid var(--ink);border-radius:10px;padding:16px 18px;background:var(--white)}
+.lot-box.sold{border-color:var(--rule);display:flex;gap:10px;align-items:center}
+.lot-k{font-family:var(--label);font-weight:700;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+.lot-k a{color:var(--accent)}
+.lot-price{font-family:var(--display);font-weight:700;font-size:34px;line-height:1.1;margin-top:4px}
+.lot-note{margin-top:8px;font-size:16px;color:var(--slate);white-space:pre-line}
+.inq{border:1px solid var(--rule);border-radius:8px;padding:12px 14px;margin-top:10px}
+.inq.unread{border-color:var(--steel);box-shadow:inset 3px 0 0 var(--steel)}
+.inq .who{font-family:var(--label);font-weight:600;font-size:16px}
+.inq .when{font-family:var(--label);font-size:13px;color:var(--mid)}
+.inq p{margin:6px 0 10px;white-space:pre-line;font-size:16px}
+.inq .acts{display:flex;gap:8px;flex-wrap:wrap}
+.badge-n{display:inline-block;min-width:22px;padding:1px 7px;border-radius:999px;background:var(--accent);color:var(--white);
+  font-family:var(--label);font-weight:700;font-size:13px;text-align:center;margin-left:6px;vertical-align:middle}
+.lot-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.lot-card{display:block;border:1px solid var(--rule);border-radius:10px;overflow:hidden;color:var(--ink);text-decoration:none;background:var(--white)}
+.lot-card:hover{box-shadow:0 10px 26px rgba(20,24,32,.10);color:var(--ink)}
+.lot-card .im{aspect-ratio:4/3;background:var(--ink);overflow:hidden}
+.lot-card .im img{width:100%;height:100%;object-fit:cover}
+.lot-card .ph{height:100%;display:flex;align-items:center;justify-content:center;font-family:var(--brand);font-size:30px;letter-spacing:.08em;color:#3d4a59}
+.lot-card .bd{padding:14px 16px 16px}
+.lot-card .nm{font-family:var(--display);font-weight:600;font-size:21px;line-height:1.2}
+.lot-card .pr{font-family:var(--label);font-weight:700;font-size:20px;margin-top:6px}
+.lot-card .tw{font-family:var(--label);font-size:14px;color:var(--mid);margin-top:2px}
+@media(max-width:900px){.lot-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.lot-grid{grid-template-columns:1fr}}

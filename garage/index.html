@@ -27,6 +27,7 @@
     <a href="/categories/owners-manual/">Owner's Manual</a>
     <a href="/categories/news/">News</a>
     <a href="/events/">Events</a>
+    <a href="/paddock/">The Paddock</a>
     <a href="/about/">About</a>
   </div>
   <a class="nav-sub" href="/#submit">Write for Us</a>
@@ -37,7 +38,7 @@
 <footer class="site">
   <a class="fw" href="/">Car<span>veyance</span></a>
   &copy; 2026 Carveyance — For the love of the drive. Los Angeles, CA.
-  <div class="fl"><a href="/events/">Events</a> &middot; <a href="/categories/owners-manual/">Owner's Manual</a> &middot; <a href="/cards/">My cards</a> &middot; <a href="/advertise/">Advertise &amp; Partner</a></div>
+  <div class="fl"><a href="/events/">Events</a> &middot; <a href="/paddock/">The Paddock</a> &middot; <a href="/lot/">The Lot</a> &middot; <a href="/categories/owners-manual/">Owner's Manual</a> &middot; <a href="/cards/">My cards</a> &middot; <a href="/advertise/">Advertise &amp; Partner</a></div>
 </footer>
 
 <datalist id="spec-labels">
@@ -234,6 +235,8 @@
       '<div class="savebar"><button type="button" class="btn" id="save" disabled>Save changes</button><span class="st" id="save-st" role="status">All changes saved</span>' +
       '<a class="btn line" href="/c/' + n + '" style="margin-left:auto">View page</a></div>' +
 
+      '<section class="ed-sec" id="lot" hidden></section>' +
+
       '<section class="ed-sec"><h2 class="h2">Another car?</h2><span class="small">Claim another sticker with its number and claim code.</span>' + claimHTML() + "</section>" +
       accountHTML();
 
@@ -268,6 +271,7 @@
       w.build.push({ year: "", text: "" }); drawBuild(true); setDirty(true);
     });
     document.getElementById("save").addEventListener("click", save);
+    loadLot();
     document.getElementById("ph-in").addEventListener("change", addPhotos);
     document.getElementById("ev-add").addEventListener("submit", addEvent);
     document.getElementById("ev-name").addEventListener("change", function () {
@@ -400,6 +404,62 @@
       b.addEventListener("click", function () { w.build.splice(+b.dataset.del, 1); drawBuild(); setDirty(true); });
     });
     if (focusLast) { var ins = box.querySelectorAll('[data-f="year"]'); if (ins.length) ins[ins.length - 1].focus(); }
+  }
+
+  /* ---------- The Lot: sell this car, and buyers' messages ---------- */
+  function money(n) { return "$" + Number(n).toLocaleString("en-US"); }
+  async function loadLot() {
+    var sec = document.getElementById("lot"); if (!sec) return;
+    var r = await G.db.from("cars").select("for_sale,sale_price,sale_note,sale_sold,sale_approved,listed_at").eq("id", car.id).maybeSingle();
+    if (r.error || !r.data) return;            // The Lot isn't switched on yet: keep the section hidden
+    var s = r.data;
+    var inq = await G.db.from("inquiries").select("id,name,email,phone,message,read,created_at").eq("car_id", car.id).order("created_at", { ascending: false });
+    var msgs = inq.data || [];
+    var unread = msgs.filter(function (m) { return !m.read; }).length;
+    var status = !s.for_sale ? (s.sale_sold ? "Marked as sold." : "Not listed.") :
+      s.sale_sold ? "Marked as sold. It's off The Lot." :
+      s.sale_approved ? 'Live on <a href="/lot/">The Lot</a>.' : "Waiting for Carveyance to approve it. We check every listing first, usually within a day.";
+    sec.hidden = false;
+    sec.innerHTML = '<h2 class="h2">Sell this car' + (unread ? '<span class="badge-n" title="Unread messages">' + unread + "</span>" : "") + "</h2>" +
+      '<span class="small">List it on <a href="/lot/">The Lot</a>, Carveyance\'s cars for sale. Listing is free. Buyers message you through your car\'s page; your email and phone stay private until you choose to reply.</span>' +
+      '<label style="display:flex;gap:12px;align-items:flex-start;margin-top:14px;cursor:pointer"><input type="checkbox" id="l-on" style="width:22px;height:22px;margin-top:2px"' + (s.for_sale ? " checked" : "") + ">" +
+      "<span>List this car for sale<br><span class=\"small\">Your car page gets a For Sale box and a Message the owner button.</span></span></label>" +
+      '<div id="l-fields"' + (s.for_sale ? "" : " hidden") + ">" +
+        '<div class="grid2" style="margin-top:12px"><div class="field"><label for="l-price">Asking price in US dollars</label><input id="l-price" inputmode="numeric" maxlength="12" placeholder="Leave blank for “Make an offer”" value="' + (s.sale_price || "") + '"></div></div>' +
+        '<div class="field"><label for="l-note">Sale notes (optional)</label><textarea id="l-note" maxlength="800" placeholder="Title status, miles, what comes with it, why you\'re selling">' + esc(s.sale_note || "") + "</textarea></div>" +
+        '<label style="display:flex;gap:12px;align-items:center;cursor:pointer;margin-bottom:12px"><input type="checkbox" id="l-sold" style="width:20px;height:20px"' + (s.sale_sold ? " checked" : "") + "> It's sold</label>" +
+      "</div>" +
+      '<div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap"><button type="button" class="btn small" id="l-save">Save sale details</button><span class="small" id="l-st">' + status + "</span></div>" +
+      '<h3 class="h3" style="margin-top:22px">Messages from buyers</h3>' +
+      (msgs.length ? msgs.map(function (m) {
+        var subj = encodeURIComponent("Your message about my " + G.carName(car) + " on Carveyance");
+        return '<div class="inq' + (m.read ? "" : " unread") + '"><div class="who">' + esc(m.name) + ' <span class="when">· ' + esc(G.fmtDate(m.created_at)) + "</span></div>" +
+          "<p>" + esc(m.message) + "</p>" +
+          '<div class="small" style="margin-bottom:8px">' + esc(m.email) + (m.phone ? " · " + esc(m.phone) : "") + "</div>" +
+          '<div class="acts"><a class="btn small" href="mailto:' + esc(m.email) + "?subject=" + subj + '" data-read="' + m.id + '">Reply by email</a>' +
+          (m.phone ? '<a class="btn line small" href="tel:' + esc(m.phone.replace(/[^0-9+]/g, "")) + '" data-read="' + m.id + '">Call</a>' : "") +
+          (m.read ? "" : '<button type="button" class="btn line small" data-mark="' + m.id + '">Mark as read</button>') + "</div></div>";
+      }).join("") : '<p class="small" style="margin-top:6px">No messages yet.</p>') +
+      '<p class="small" style="margin-top:14px">Safety: meet buyers in a public place, check their ID before a test drive, and only hand over the title once payment has fully cleared. Carveyance never asks you to pay to receive a message.</p>';
+
+    var on = sec.querySelector("#l-on");
+    on.addEventListener("change", function () { sec.querySelector("#l-fields").hidden = !on.checked; });
+    sec.querySelector("#l-save").addEventListener("click", async function () {
+      var raw = sec.querySelector("#l-price").value.replace(/[$,\s]/g, "");
+      if (raw && !/^\d{1,9}$/.test(raw)) { G.toast("Price: numbers only, like 24500"); return; }
+      var row = { for_sale: on.checked, sale_price: raw ? +raw : null, sale_note: sec.querySelector("#l-note").value.trim().slice(0, 800),
+                  sale_sold: on.checked && sec.querySelector("#l-sold").checked };
+      if (!on.checked && s.for_sale && s.sale_approved && !confirm("Take your car off The Lot? If you list it again later, Carveyance checks it again first.")) return;
+      var b = this; b.disabled = true;
+      var u = await G.db.from("cars").update(row).eq("id", car.id).select("id").single();
+      b.disabled = false;
+      if (u.error) { G.toast("That didn't save. Try again."); return; }
+      G.toast("Saved"); loadLot();
+    });
+    async function mark(id) { await G.db.from("inquiries").update({ read: true }).eq("id", id); }
+    sec.querySelectorAll("[data-mark]").forEach(function (b) { b.addEventListener("click", async function () { await mark(+b.dataset.mark); loadLot(); }); });
+    sec.querySelectorAll("[data-read]").forEach(function (a) { a.addEventListener("click", function () { G.fire(G.db.from("inquiries").update({ read: true }).eq("id", +a.dataset.read)); }); });
+    if (location.hash === "#lot") sec.scrollIntoView();
   }
 
   /* ---------- save ---------- */

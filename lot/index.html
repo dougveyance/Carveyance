@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Lot: Enthusiast Cars for Sale by Their Owners — Carveyance</title>
+<!-- carveyance-seo -->
+<link rel="canonical" href="https://carveyance.com/lot/">
+<meta name="description" content="The Lot is Carveyance's page of enthusiast cars for sale by their owners. Every car has a Carveyance car page with its specs, the work that's been done and where it's been. Message the owner privately.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Carveyance">
+<meta property="og:title" content="The Lot — Carveyance">
+<meta property="og:description" content="Enthusiast cars for sale by the people who own them.">
+<meta property="og:url" content="https://carveyance.com/lot/">
+<meta name="twitter:card" content="summary_large_image">
+<!-- /carveyance-seo -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700&family=Bebas+Neue&family=DM+Sans:wght@400;500;600&family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/garage.css">
+<link rel="icon" href="/favicon-32x32.png">
+<style>
+.lot-head{background:var(--ink);color:var(--white);padding:44px 0 36px}
+.lot-head .in,.lot-main{max-width:1180px;margin:0 auto;padding:0 20px}
+.lot-head .k{font-family:var(--label);font-weight:700;font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent)}
+.lot-head h1{font-family:var(--brand);font-weight:400;font-size:clamp(52px,9vw,84px);letter-spacing:.03em;line-height:.95;margin-top:6px}
+.lot-head p{font-size:18px;line-height:1.55;color:rgba(255,255,255,.78);max-width:680px;margin-top:10px}
+.lot-tools{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:24px 0 18px}
+.lot-tools input,.lot-tools select{font-family:var(--label);font-size:17px;padding:10px 12px;border:1px solid var(--rule);border-radius:8px;background:var(--white)}
+.lot-tools input{flex:1;min-width:220px}
+.lot-count{font-family:var(--label);font-size:15px;color:var(--mid);margin-bottom:14px}
+.how{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin:44px 0 10px}
+.how h3{font-family:var(--display);font-weight:600;font-size:20px;margin-bottom:6px}
+.how p{font-size:16px;color:var(--slate)}
+.sell{margin:30px 0 60px;padding:24px;border-radius:10px;background:var(--mist);display:flex;gap:20px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.sell h2{font-family:var(--display);font-weight:600;font-size:24px}
+.sell p{font-size:16px;color:var(--slate);max-width:640px;margin-top:4px}
+.empty{padding:30px 0;color:var(--slate);font-size:17px}
+@media(max-width:760px){.how{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="/">Car<span>veyance</span></a>
+  <div class="nav-center">
+    <a href="/">Home</a>
+    <a href="/articles/">All Stories</a>
+    <a href="/categories/how-it-works/">How It Works</a>
+    <a href="/categories/reviews/">Reviews</a>
+    <a href="/categories/comparisons/">Comparisons</a>
+    <a href="/categories/opinions/">Opinions</a>
+    <a href="/categories/fun-facts/">Fun Facts</a>
+    <a href="/categories/car-culture/">Car Culture</a>
+    <a href="/categories/owners-manual/">Owner's Manual</a>
+    <a href="/categories/news/">News</a>
+    <a href="/events/">Events</a>
+    <a href="/paddock/">The Paddock</a>
+    <a href="/about/">About</a>
+  </div>
+  <a class="nav-sub" href="/garage/">Sell Yours</a>
+</nav>
+
+<header class="lot-head"><div class="in">
+  <div class="k">Carveyance</div>
+  <h1>The Lot</h1>
+  <p>Enthusiast cars for sale by the people who own them. Every car here has a Carveyance car page with its specs, the work that's been done and where it's been. Message the owner privately from the car's page.</p>
+</div></header>
+
+<main class="lot-main">
+  <div class="lot-tools">
+    <label for="lq" class="hp">Search</label>
+    <input id="lq" type="search" placeholder="Make, model, town…" autocomplete="off">
+    <label for="ls" class="hp">Sort</label>
+    <select id="ls"><option value="new">Newest first</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option></select>
+  </div>
+  <div class="lot-count" id="count"></div>
+  <div class="lot-grid" id="grid"><p class="muted">Loading…</p></div>
+
+  <section class="how">
+    <div><h3>Free to list</h3><p>Any car with a Carveyance sticker can go on The Lot. The owner sets the price and writes the notes; Carveyance checks each listing before it shows.</p></div>
+    <div><h3>Private messages</h3><p>Buyers message the owner from the car's page. The owner's email and phone stay private until they choose to reply.</p></div>
+    <div><h3>Buy smart</h3><p>See the car in person, check the title and VIN, and never send a deposit to someone you haven't met. Carveyance doesn't handle money between buyers and sellers.</p></div>
+  </section>
+  <div class="sell">
+    <div><h2>Selling an enthusiast car?</h2><p>Put a Carveyance sticker on it, fill in its page, then switch on “List this car for sale” in your editor. No sticker yet? Email <a href="mailto:info@carveyance.com?subject=A%20sticker%20for%20The%20Lot">info@carveyance.com</a>.</p></div>
+    <a class="btn" href="/garage/">Sign in to list your car</a>
+  </div>
+</main>
+
+<footer class="site">
+  <a class="fw" href="/">Car<span>veyance</span></a>
+  &copy; 2026 Carveyance — For the love of the drive. Los Angeles, CA.
+  <div class="fl"><a href="/events/">Events</a> &middot; <a href="/paddock/">The Paddock</a> &middot; <a href="/lot/">The Lot</a> &middot; <a href="/cards/">My cards</a> &middot; <a href="/advertise/">Advertise &amp; Partner</a></div>
+</footer>
+
+<script src="/assets/js/vendor/supabase-js-2.117.2.js"></script>
+<script src="/assets/js/cv-garage-config.js"></script>
+<script src="/assets/js/cv-garage.js"></script>
+<script>
+(function () {
+  "use strict";
+  var G = window.CVG, esc = G.esc, grid = document.getElementById("grid"), count = document.getElementById("count");
+  var all = [];
+  function money(n) { return "$" + Number(n).toLocaleString("en-US"); }
+  function card(c) {
+    var cover = (c.photos || [])[0];
+    return '<a class="lot-card" href="/c/' + G.pad(c.sticker_number) + '">' +
+      '<div class="im">' + (cover ? '<img src="' + esc(G.photoUrl(cover)) + '" alt="' + esc(G.carName(c)) + '" loading="lazy">' : '<div class="ph">CAR<span style="color:#4E8DB5">VEYANCE</span></div>') + "</div>" +
+      '<div class="bd"><div class="nm">' + esc(G.carName(c)) + "</div>" +
+      (c.nickname ? '<div class="small">“' + esc(c.nickname) + "”</div>" : "") +
+      '<div class="pr">' + (c.sale_price ? money(c.sale_price) : "Make an offer") + "</div>" +
+      '<div class="tw">' + esc([c.town, "Listed " + G.fmtDate(c.listed_at)].filter(Boolean).join(" · ")) + "</div></div></a>";
+  }
+  function render() {
+    var q = document.getElementById("lq").value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    var s = document.getElementById("ls").value;
+    var list = all.filter(function (c) {
+      var h = [c.year, c.make, c.model, c.nickname, c.town, c.sale_note].join(" ").toLowerCase();
+      return q.every(function (w) { return h.indexOf(w) >= 0; });
+    }).sort(function (a, b) {
+      if (s === "low") return (a.sale_price || 1e12) - (b.sale_price || 1e12);
+      if (s === "high") return (b.sale_price || 0) - (a.sale_price || 0);
+      return String(b.listed_at || "").localeCompare(String(a.listed_at || ""));
+    });
+    count.textContent = list.length + (list.length === 1 ? " car" : " cars") + " for sale";
+    grid.innerHTML = list.length ? list.map(card).join("") :
+      '<p class="empty">' + (all.length ? "Nothing matches that search." : "No cars on The Lot right now. The first listings are on their way.") + "</p>";
+  }
+  async function start() {
+    if (!G.configured) { grid.innerHTML = '<p class="empty">The Lot opens soon.</p>'; return; }
+    var r = await G.db.from("cars").select(G.PUBLIC_COLS + ",sale_price,sale_note,listed_at")
+      .eq("for_sale", true).eq("sale_approved", true).eq("sale_sold", false)
+      .order("listed_at", { ascending: false }).limit(300);
+    if (r.error) { grid.innerHTML = '<p class="empty">The Lot opens soon. Check back after the next meet.</p>'; count.textContent = ""; return; }
+    all = r.data || []; render();
+  }
+  document.getElementById("lq").addEventListener("input", render);
+  document.getElementById("ls").addEventListener("change", render);
+  start();
+})();
+</script>
+<script src="/assets/js/cv-menu.js" defer></script>
+</body>
+</html>

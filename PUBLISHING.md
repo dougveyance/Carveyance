@@ -209,6 +209,64 @@ The Events pages load it automatically through `events/events-common.js`.
 
 ---
 
+## The Paddock (the directory)
+
+`carveyance.com/paddock/` is the guide to car clubs, museums, tracks and
+driving schools, shops and specialty dealers. It reads one file, **`paddock.js`**,
+at the top level next to `events.js`: one line per listing.
+
+| Field | Rule |
+|---|---|
+| `id` | Lowercase-hyphen name plus town, e.g. `eurocode-tuning-torrance`. Never change it once it's live: it's the page address |
+| `category` | Exactly one of the names in `PADDOCK_CATEGORIES` at the top of the file |
+| `region` | Same 10 regions as the Events page |
+| `url`, `instagram` | The business's own website and `@handle`. At least one |
+| `address`, `phone` | Only if the business posts them itself |
+| `tags` | Up to 4 short specialties, e.g. `"Porsche"`, `"PPF"` |
+| `blurb` | 1–2 sentences in our own words on why a car person would go |
+| `featured` | `true` only when a business pays to be Featured: sorts first, orange "Featured" tag, a "Paid listing" note |
+| `sponsored` | `true` for any other paid placement: gray "Sponsored" tag. Its links are marked as sponsored for Google |
+| `affiliate` | `true` when `url` is an affiliate link: the page shows the commission note |
+| `lat`, `lng`, `added` | Filled in by Claude |
+
+After any change to paddock.js, from the top level of the repo run:
+
+    python3 paddock_build.py    (rebuilds paddock/<id>/ pages and the category pages)
+    python3 seo_inject.py       (adds them to sitemap.xml)
+
+Everything in `paddock/` except `index.html` and `paddock-common.js` is built
+by that script, so a zip from Claude with the whole `paddock` folder is safe to
+drop in whole. Submissions from the "Get listed" form arrive in Netlify under
+**Forms → paddock-submission**; a claim from a listing's page carries its
+`listing_id`.
+
+**Clicks for advertisers.** Every tap on a listing's Website, Instagram, phone
+or Directions is counted once per phone per day. The totals for the last 30
+days are on your Garage admin page, under The Paddock. Use them when you talk
+to a business about being Featured.
+
+## The Lot (cars for sale)
+
+`carveyance.com/lot/` lists cars for sale from their owners. It is built on
+the sticker car pages (Carveyance Garage below), so only a car with a claimed
+sticker can be listed.
+
+- **Owners** switch on "List this car for sale" in their editor at
+  `carveyance.com/garage/`, add a price (or leave it blank for "Make an
+  offer") and notes, and mark it sold when it sells.
+- **You approve each listing** on the Garage admin page before it shows on The
+  Lot or the car page. Listing again after taking it down needs approval again.
+- **Buyers** tap "Message the owner" on the car page. The message is stored
+  privately; the owner reads it in their editor and replies by email. The
+  owner's email and phone are never shown. Limits: 2 messages per phone per
+  car per day, 6 per phone per day. You can hide spam from the admin page.
+- Carveyance never handles money between buyer and seller.
+- **Not built yet:** an email to the owner when a message arrives (for now the
+  editor shows an unread count), and buying through Carveyance with escrow.
+
+The database part is `tools/garage/lot_and_paddock.sql`, run once in the
+Supabase SQL Editor after `schema.sql`.
+
 ## Owner's Manual (readers' cars)
 
 `carveyance.com/categories/owners-manual/` (short link: `carveyance.com/owners-manual`)

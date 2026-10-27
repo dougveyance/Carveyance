@@ -27,6 +27,7 @@
     <a href="/categories/owners-manual/">Owner's Manual</a>
     <a href="/categories/news/">News</a>
     <a href="/events/">Events</a>
+    <a href="/paddock/">The Paddock</a>
     <a href="/about/">About</a>
   </div>
   <a class="nav-sub" href="/#submit">Write for Us</a>
@@ -39,7 +40,7 @@
 <footer class="site">
   <a class="fw" href="/">Car<span>veyance</span></a>
   &copy; 2026 Carveyance — For the love of the drive. Los Angeles, CA.
-  <div class="fl"><a href="/events/">Events</a> &middot; <a href="/categories/owners-manual/">Owner's Manual</a> &middot; <a href="/cards/">My cards</a> &middot; <a href="/advertise/">Advertise &amp; Partner</a></div>
+  <div class="fl"><a href="/events/">Events</a> &middot; <a href="/paddock/">The Paddock</a> &middot; <a href="/lot/">The Lot</a> &middot; <a href="/categories/owners-manual/">Owner's Manual</a> &middot; <a href="/cards/">My cards</a> &middot; <a href="/advertise/">Advertise &amp; Partner</a></div>
 </footer>
 
 <script src="/assets/js/vendor/supabase-js-2.117.2.js"></script>
@@ -183,6 +184,7 @@
         "</div></div>";
     }
     h += '<div class="small">This page is written by the car\'s owner.</div></div>';
+    h += '<div id="lot-box"></div>';
 
     h += '<div class="g-pad" style="padding-top:18px"><div class="row-btns">' +
       (collected ? '<a class="btn done grow" href="/cards/">In your cards ✓</a>' : '<button type="button" class="btn grow" id="collect">Collect this card</button>') +
@@ -241,6 +243,68 @@
     });
     document.getElementById("report").addEventListener("click", function () { openReport(car); });
     if (car.owner_slug) loadJournal(car.owner_slug);
+    loadSale(car, isOwner);
+  }
+
+  /* ---------- The Lot: for sale ---------- */
+  function money(n) { return "$" + Number(n).toLocaleString("en-US"); }
+  async function loadSale(car, isOwner) {
+    var box = document.getElementById("lot-box"); if (!box) return;
+    var r = await G.db.from("cars").select("for_sale,sale_price,sale_note,sale_sold,sale_approved,listed_at").eq("id", car.id).maybeSingle();
+    if (r.error || !r.data) return;            // The Lot isn't switched on yet: show nothing
+    var s = r.data;
+    if (s.sale_sold && !s.for_sale) return;
+    var live = s.for_sale && s.sale_approved && !s.sale_sold;
+    if (!live && !(isOwner && s.for_sale) && !s.sale_sold) return;
+    if (s.sale_sold) {
+      box.innerHTML = '<div class="lot-box sold"><span class="chip owner">Sold</span><span class="small">This car was on The Lot and has been sold.</span></div>';
+      return;
+    }
+    var h = '<div class="lot-box"><div class="lot-k">For sale on <a href="/lot/">The Lot</a></div>' +
+      '<div class="lot-price">' + (s.sale_price ? money(s.sale_price) : "Make an offer") + "</div>" +
+      (s.sale_note ? '<p class="lot-note">' + esc(s.sale_note) + "</p>" : "");
+    if (isOwner && !live) h += '<p class="small" style="margin-top:8px">Waiting for Carveyance to approve your listing. Only you can see this box until then.</p>';
+    else if (isOwner) h += '<p class="small" style="margin-top:8px">Buyers can message you from here. Read their messages in <a href="/garage/?car=' + esc(car.id) + '#lot">your editor</a>.</p>';
+    else h += '<button type="button" class="btn" id="msg-owner" style="width:100%;margin-top:12px">Message the owner</button>' +
+      '<p class="small" style="margin-top:8px">Your message goes privately to the owner. Their email and phone stay private.</p>';
+    box.innerHTML = h + "</div>";
+    var mb = document.getElementById("msg-owner");
+    if (mb) mb.addEventListener("click", function () { openInquiry(car, s); });
+  }
+  function openInquiry(car, s) {
+    var sh = G.sheet('<h2>Message the owner</h2><p class="muted" style="margin-bottom:16px">About the ' + esc(G.carName(car)) +
+      (s.sale_price ? " listed at " + money(s.sale_price) : "") + '. The owner replies to the email you give here.</p>' +
+      '<form id="inq" novalidate>' +
+      '<div class="field"><label for="iq-name">Your name</label><input id="iq-name" maxlength="80" autocomplete="name" required></div>' +
+      '<div class="field"><label for="iq-email">Your email</label><input id="iq-email" type="email" maxlength="120" autocomplete="email" required></div>' +
+      '<div class="field"><label for="iq-phone">Phone (optional)</label><input id="iq-phone" type="tel" maxlength="30" autocomplete="tel"></div>' +
+      '<div class="field"><label for="iq-msg">Message</label><textarea id="iq-msg" maxlength="2000" required placeholder="Ask about the car, its history or a time to see it."></textarea></div>' +
+      '<p class="hp" aria-hidden="true"><label>Leave blank <input id="iq-hp" tabindex="-1" autocomplete="off"></label></p>' +
+      '<button class="btn" type="submit" style="width:100%">Send message</button>' +
+      '<p class="small" style="margin-top:12px">Carveyance passes your message to the owner and keeps a copy in case of a dispute. We never handle money between buyer and seller. ' +
+      'See the car in person, check the title and the VIN, and never send a deposit to someone you haven\'t met.</p></form>' +
+      '<div class="msg" role="alert" hidden></div>', "Message the owner");
+    var msg = sh.el.querySelector(".msg");
+    function say(t, k) { msg.hidden = false; msg.className = "msg " + (k || "err"); msg.textContent = t; }
+    sh.el.querySelector("#inq").addEventListener("submit", async function (e) {
+      e.preventDefault();
+      if (sh.el.querySelector("#iq-hp").value) { sh.close(); return; }
+      var name = sh.el.querySelector("#iq-name").value.trim(), email = sh.el.querySelector("#iq-email").value.trim(),
+          phone = sh.el.querySelector("#iq-phone").value.trim(), text = sh.el.querySelector("#iq-msg").value.trim();
+      if (!name || !text) return say("Add your name and a message.");
+      if (!/^\S+@\S+\.\S+$/.test(email)) return say("Add an email address the owner can reply to.");
+      var btn = e.target.querySelector("button[type=submit]"); btn.disabled = true;
+      var r = await G.db.rpc("send_inquiry", { p_car: car.id, p_name: name, p_email: email, p_phone: phone, p_message: text, p_device: G.deviceId() });
+      btn.disabled = false;
+      var d = r.data || {};
+      if (r.error) return say("That didn't send. Check your connection and try again.");
+      if (d.ok) { sh.close(); G.toast("Sent. The owner will reply by email."); return; }
+      if (d.error === "limit") return say("You've sent a few messages already today. Give the owner a chance to reply.");
+      if (d.error === "busy") return say("This car has had a lot of messages today. Try again tomorrow.");
+      if (d.error === "own_car") return say("This is your own car.");
+      if (d.error === "not_for_sale") return say("This car isn't on The Lot right now.");
+      say("Check your name, email and message, then try again.");
+    });
   }
 
   async function loadJournal(slug) {

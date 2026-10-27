@@ -301,13 +301,14 @@ NAV = """<nav>
     <a href="/categories/owners-manual/">Owner's Manual</a>
     <a href="/categories/news/">News</a>
     <a href="/events/" class="on">Events</a>
+    <a href="/paddock/">The Paddock</a>
     <a href="/about/">About</a>
   </div>
   <a class="nav-sub" href="/events/#submit">Submit an Event</a>
 </nav>"""
 
 FOOT = f"""<footer><a class="fw" href="/">Car<span>veyance</span></a>&copy; {TODAY.year} Carveyance — For the love of the drive.
-<div class="fl"><a href="/events/">Events</a> &middot; <a href="/categories/owners-manual/">Owner's Manual</a> &middot; <a href="/advertise/">Advertise &amp; Partner</a></div></footer>"""
+<div class="fl"><a href="/events/">Events</a> &middot; <a href="/paddock/">The Paddock</a> &middot; <a href="/lot/">The Lot</a> &middot; <a href="/categories/owners-manual/">Owner's Manual</a> &middot; <a href="/advertise/">Advertise &amp; Partner</a></div></footer>"""
 
 HEART = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7.5-4.6-9.6-9.3C.9 8.4 2.9 4.5 6.6 4.5c2.1 0 3.6 1.2 4.4 2.5.8-1.3 2.3-2.5 4.4-2.5 3.7 0 5.7 3.9 4.2 7.2C19.5 16.4 12 21 12 21z"/></svg>'
 CAL = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>'

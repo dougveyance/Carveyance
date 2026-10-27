@@ -15,7 +15,8 @@
 
 <nav>
   <a class="nav-brand" href="/">Car<span>veyance</span></a>
-  <div class="nav-center"><a href="/garage/">Garage</a><a href="/cards/">My cards</a><a href="/events/">Events</a></div>
+  <div class="nav-center"><a href="/garage/">Garage</a><a href="/cards/">My cards</a><a href="/events/">Events</a>
+    <a href="/paddock/">The Paddock</a></div>
   <a class="nav-sub" href="/">Home</a>
 </nav>
 
@@ -26,6 +27,7 @@
 <script src="/assets/js/vendor/supabase-js-2.117.2.js"></script>
 <script src="/assets/js/cv-garage-config.js"></script>
 <script src="/assets/js/cv-garage.js"></script>
+<script src="/paddock.js"></script>
 <script>
 (function () {
   "use strict";
@@ -91,6 +93,7 @@
               '<button type="button" class="btn line small" data-seen="' + i + '">Add</button></div></td></tr>';
         }).join("") + "</tbody></table></div>" : '<p class="small">No cars claimed yet.</p>') +
 
+      '<div id="adm-lot"></div>' +
       '<h2 class="h2" style="margin:28px 0 10px">Unlock a sticker</h2><p class="small" style="margin-bottom:10px">A sticker locks after 10 wrong claim codes. Unlock it once you\'ve checked who has it.</p>' +
       '<form id="unlock" style="display:flex;gap:10px;max-width:320px"><input class="input" id="un-n" inputmode="numeric" placeholder="0184" aria-label="Sticker number"><button class="btn small" type="submit">Unlock</button></form>';
 
@@ -127,12 +130,71 @@
         G.toast("Added"); load();
       });
     });
+    loadLotAdmin(byId);
     document.getElementById("unlock").addEventListener("submit", async function (e) {
       e.preventDefault();
       var n = parseInt(document.getElementById("un-n").value, 10);
       if (!(n > 0)) return;
       var r = await G.db.rpc("admin_unlock_sticker", { p_number: n });
       G.toast(r.data ? "Sticker No. " + G.pad(n) + " unlocked" : "No sticker with that number");
+    });
+  }
+
+  /* ---------- The Lot and The Paddock ---------- */
+  function money(n) { return "$" + Number(n).toLocaleString("en-US"); }
+  async function loadLotAdmin(byId) {
+    var box = document.getElementById("adm-lot"); if (!box) return;
+    var lot = await G.db.rpc("admin_lot_list");
+    if (lot.error) {
+      box.innerHTML = '<h2 class="h2" style="margin:28px 0 10px">The Lot</h2><p class="small">Not switched on yet: run tools/garage/lot_and_paddock.sql in the Supabase SQL Editor.</p>';
+      return;
+    }
+    var cars = lot.data || [];
+    var inq = await G.db.from("inquiries").select("id,car_id,name,email,message,hidden,created_at").order("created_at", { ascending: false }).limit(50);
+    var msgs = inq.data || [];
+    var clicks = await G.db.rpc("admin_paddock_clicks", { p_days: 30 });
+    var cl = clicks.data || [];
+    var names = {}; try { (typeof PADDOCK !== "undefined" ? PADDOCK : []).forEach(function (x) { names[x.id] = x.name; }); } catch (e) {}
+    var h = '<h2 class="h2" style="margin:28px 0 10px">The Lot</h2>' +
+      '<p class="small" style="margin-bottom:10px">Approve a listing after you\'ve looked at the car page: real photos, nothing private showing, a sensible price. Pending listings come first.</p>' +
+      (cars.length ? '<div class="tbl-wrap" style="margin-bottom:24px"><table class="tbl"><thead><tr><th>No.</th><th>Car</th><th>Owner</th><th>Price</th><th>Listed</th><th>Messages</th><th>Status</th><th></th></tr></thead><tbody>' +
+        cars.map(function (c) {
+          var st = c.sale_sold ? "Sold" : c.sale_approved ? "Live" : "Waiting for approval";
+          return '<tr><td><a href="/c/' + G.pad(c.sticker_number) + '" target="_blank" rel="noopener">' + G.pad(c.sticker_number) + "</a></td>" +
+            '<td class="wrap">' + esc(G.carName(c)) + '</td><td class="wrap">' + esc([c.owner_name, c.town].filter(Boolean).join(" · ") || "–") + "</td>" +
+            "<td>" + (c.sale_price ? money(c.sale_price) : "Offers") + "</td><td>" + esc(G.fmtDate(c.listed_at)) + "</td><td>" + c.messages + "</td><td>" + st + "</td>" +
+            "<td>" + (c.sale_sold ? "" : c.sale_approved ? '<button type="button" class="btn line small" data-unapprove="' + c.id + '">Take down</button>' :
+              '<button type="button" class="btn small" data-approve="' + c.id + '">Approve</button>') + "</td></tr>";
+        }).join("") + "</tbody></table></div>" : '<p class="small" style="margin-bottom:24px">No cars listed for sale yet.</p>') +
+      '<h3 class="h3" style="margin-bottom:8px">Latest buyer messages</h3>' +
+      (msgs.length ? '<div class="tbl-wrap" style="margin-bottom:24px"><table class="tbl"><thead><tr><th>When</th><th>Car</th><th>From</th><th>Message</th><th></th></tr></thead><tbody>' +
+        msgs.map(function (m) {
+          var c = byId[m.car_id];
+          return "<tr" + (m.hidden ? ' style="opacity:.5"' : "") + "><td>" + esc(G.fmtDate(m.created_at)) + "</td><td>" + (c ? '<a href="/c/' + G.pad(c.sticker_number) + '" target="_blank" rel="noopener">No. ' + G.pad(c.sticker_number) + "</a>" : "–") + "</td>" +
+            '<td class="wrap">' + esc(m.name) + "<br>" + esc(m.email) + '</td><td class="wrap">' + esc(m.message) + "</td>" +
+            '<td><button type="button" class="btn line small" data-hidemsg="' + m.id + '" data-h="' + (m.hidden ? 0 : 1) + '">' + (m.hidden ? "Unhide" : "Hide as spam") + "</button></td></tr>";
+        }).join("") + "</tbody></table></div>" : '<p class="small" style="margin-bottom:24px">No messages yet.</p>') +
+      '<h2 class="h2" style="margin:28px 0 10px">The Paddock: who we sent where, last 30 days</h2>' +
+      '<p class="small" style="margin-bottom:10px">Taps on each listing\'s website, Instagram, phone and directions, counted once per phone per day. Use these numbers when you talk to a business about being Featured.</p>' +
+      (cl.length ? '<div class="tbl-wrap"><table class="tbl"><thead><tr><th>Listing</th><th>Website</th><th>Instagram</th><th>Phone</th><th>Directions</th><th>Total</th></tr></thead><tbody>' +
+        cl.map(function (r) {
+          return '<tr><td class="wrap"><a href="/paddock/' + esc(r.listing) + '/" target="_blank" rel="noopener">' + esc(names[r.listing] || r.listing) + "</a></td><td>" + r.site + "</td><td>" + r.ig + "</td><td>" + r.phone + "</td><td>" + r.map + "</td><td><b>" + r.total + "</b></td></tr>";
+        }).join("") + "</tbody></table></div>" : '<p class="small">No taps recorded yet.</p>');
+    box.innerHTML = h;
+    box.querySelectorAll("[data-approve],[data-unapprove]").forEach(function (b) {
+      b.addEventListener("click", async function () {
+        var id = b.dataset.approve || b.dataset.unapprove;
+        var r = await G.db.rpc("admin_set_sale", { p_car: id, p_approved: !!b.dataset.approve });
+        if (r.error || !r.data) return G.toast("That didn't save");
+        G.toast(b.dataset.approve ? "Approved: it's live on The Lot" : "Taken down"); loadLotAdmin(byId);
+      });
+    });
+    box.querySelectorAll("[data-hidemsg]").forEach(function (b) {
+      b.addEventListener("click", async function () {
+        var r = await G.db.rpc("admin_hide_inquiry", { p_id: +b.dataset.hidemsg, p_hidden: b.dataset.h === "1" });
+        if (r.error || !r.data) return G.toast("That didn't save");
+        loadLotAdmin(byId);
+      });
     });
   }
 

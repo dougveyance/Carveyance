@@ -60,6 +60,41 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    "slug": "bright-idea",
+    "seoTitle": "Car Headlight History: From Oil Lamps to LEDs and Lasers",
+    "title": "Bright Idea",
+    "subtitle": "From oil lamps to computer-controlled beams, the headlight's story is also a story of glass lenses, disappearing eyes, yellow French nights and the clear covers that reshaped the face of the modern car",
+    "category": "How It Works",
+    "date": "2026-10-26",
+    "readTime": "23 min",
+    "blurb": "In the 1890s you struck a match to light your headlamps. Today a camera cuts a moving hole in the high beam around every oncoming car. The cars that moved the headlight forward, why France drove on yellow light for 56 years, what a cloudy lens costs you, and the glow on your side of the glass.",
+    "image": "/assets/images/bright-idea.jpg",
+    "vehicles": [
+      "Cadillac Model 30",
+      "Cord 810",
+      "Tucker 48",
+      "Nash Ambassador",
+      "Cadillac Eldorado Brougham",
+      "Citroën DS",
+      "Citroën SM",
+      "Chevrolet Corvette",
+      "Lotus Esprit",
+      "Lincoln Mark VII",
+      "Lincoln Mark VIII",
+      "BMW 750iL",
+      "BMW 7 Series E38",
+      "Lexus LS 600h",
+      "Audi R8",
+      "Audi A8",
+      "BMW i8",
+      "Saab 99",
+      "Saab 900",
+      "Peugeot 504",
+      "Mercedes-Benz EQS"
+    ],
+    "featured": false
+  },
+  {
     "slug": "industry-brief-2026-10-26",
     "seoTitle": "Car News: $823 Car Payments, GM's Future, Volvo's Loss",
     "title": "The Industry Brief: The $823 Payment, GM's Trucks Pay for the Future and Volvo Hits the Wall",

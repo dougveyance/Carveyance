@@ -60,6 +60,44 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    "slug": "ill-take-supercars-for-100ish",
+    "seoTitle": "Lotus Evora GT vs Porsche 996 GT3 vs Audi R8 V8 Manual",
+    "title": "I'll Take Supercars for 100ish, Please",
+    "subtitle": "The $100,000 question: a Lotus Evora GT, a Porsche 996 GT3 or a gated-manual Audi R8 V8. 3 sets of keys, 1 Saturday morning, and no wrong answer",
+    "category": "Comparisons",
+    "date": "2026-10-27",
+    "readTime": "15 min",
+    "blurb": "A Lotus Evora GT, a Porsche 996 GT3 and a gated-manual Audi R8 V8 all hit 60 mph in 4.0 seconds and all live within reach of $100,000. How differently they get there, what each one costs now, how the same money aged in each, and which set of keys suits which driver.",
+    "image": "/assets/images/ill-take-supercars-for-100ish.jpg",
+    "vehicles": [
+      "Lotus Evora GT",
+      "Porsche 996 GT3",
+      "Porsche 911 GT3",
+      "Audi R8 V8",
+      "Audi R8"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "daily-double",
+    "seoTitle": "Corvette Grand Sport vs Used McLaren 12C at $100K",
+    "title": "Daily Double",
+    "subtitle": "Corvette Grand Sport vs. McLaren 12C: 2 ways to make an ordinary day worth driving",
+    "category": "Comparisons",
+    "date": "2026-10-27",
+    "readTime": "14 min",
+    "blurb": "A new Corvette Grand Sport or a used McLaren 12C, at almost exactly the same money. A big naturally aspirated V8 against a twin-turbo carbon-tub exotic, what the tests say, what a 12C costs now against its price new, and which one you could live with on a Monday.",
+    "image": "/assets/images/daily-double.jpg",
+    "vehicles": [
+      "Chevrolet Corvette Grand Sport",
+      "Chevrolet Corvette",
+      "McLaren 12C",
+      "McLaren MP4-12C",
+      "McLaren 650S"
+    ],
+    "featured": false
+  },
+  {
     "slug": "bright-idea",
     "seoTitle": "Car Headlight History: From Oil Lamps to LEDs and Lasers",
     "title": "Bright Idea",

@@ -113,16 +113,23 @@ def commons_thumb(file, width):
     return f"https://upload.wikimedia.org/wikipedia/commons/thumb/{h[0]}/{h[:2]}/{q}/{width}px-{thumb}"
 
 
+# Since January 2026 Wikimedia only serves resized copies at its standard widths
+# (an 800px copy comes back broken). 960 is one of them; 1280 is tried first for
+# the big photo on each car page, falling back to 960 if Wikimedia refuses it.
+SAFE_W, BIG_W = 960, 1280
+
+
 def photo_urls(c):
     p = c.get("photo") or {}
     local = os.path.join(PHOTO_DIR, c["id"] + ".jpg")
     if os.path.exists(local):
         u = "/" + local.replace(os.sep, "/")
-        return {"hero": u, "card": u, "small": u}
+        return {"hero": u, "safe": u, "card": u, "small": u}
     if p.get("file"):
-        return {"hero": commons_thumb(p["file"], 1280), "card": commons_thumb(p["file"], 800), "small": commons_thumb(p["file"], 640)}
+        safe = commons_thumb(p["file"], SAFE_W)
+        return {"hero": commons_thumb(p["file"], BIG_W), "safe": safe, "card": safe, "small": safe}
     if p.get("src"):
-        return {"hero": p["src"], "card": p["src"], "small": p["src"]}
+        return {"hero": p["src"], "safe": p["src"], "card": p["src"], "small": p["src"]}
     return {}
 
 
@@ -134,17 +141,22 @@ def download_photos(cars):
         dest = os.path.join(PHOTO_DIR, c["id"] + ".jpg")
         if not p.get("file") or os.path.exists(dest):
             continue
-        url = commons_thumb(p["file"], 1280)
-        try:
-            req = urllib.request.Request(url, headers={"User-Agent": UA})
-            data = urllib.request.urlopen(req, timeout=60).read()
-            if len(data) < 5000:
-                raise ValueError("file too small")
-            open(dest, "wb").write(data)
-            got += 1
-            print("  saved", dest)
-        except Exception as e:
-            print(f"  couldn't fetch the photo for {c['id']}: {e}")
+        err = None
+        for width in (BIG_W, SAFE_W):
+            try:
+                req = urllib.request.Request(commons_thumb(p["file"], width), headers={"User-Agent": UA})
+                data = urllib.request.urlopen(req, timeout=60).read()
+                if len(data) < 5000:
+                    raise ValueError("file too small")
+                open(dest, "wb").write(data)
+                got += 1
+                print("  saved", dest)
+                err = None
+                break
+            except Exception as e:
+                err = e
+        if err:
+            print(f"  couldn't fetch the photo for {c['id']}: {err}")
     print(f"Photos saved: {got}")
 
 
@@ -290,8 +302,8 @@ def json_ld(c, url, photo):
          "brand": {"@type": "Brand", "name": c["make"]},
          "manufacturer": {"@type": "Organization", "name": c.get("maker") or c["make"]},
          "description": c.get("quick", "")}
-    if photo.get("hero"):
-        o["image"] = photo["hero"] if photo["hero"].startswith("http") else SITE + photo["hero"]
+    if photo.get("safe"):
+        o["image"] = photo["safe"] if photo["safe"].startswith("http") else SITE + photo["safe"]
     if c.get("start"):
         o["productionDate"] = str(c["start"])
     if c.get("body"):
@@ -335,10 +347,12 @@ def car_page(c, cars, by_id, arts, photos):
     title = f"{c['name']}: Specs, Story and Reader Score ({c.get('years', '')}) — The Car Index"
     desc = c.get("quick", "")
     hero_img = photo.get("hero", "")
-    og = hero_img if hero_img.startswith("http") else (SITE + hero_img if hero_img else "")
+    safe_img = photo.get("safe", "")
+    og = safe_img if safe_img.startswith("http") else (SITE + safe_img if safe_img else "")
 
     if hero_img:
-        himg = f'<img src="{esc(hero_img)}" alt="{esc(c["name"])}" fetchpriority="high"{img_style(c)}>'
+        fallback = (f' onerror="this.onerror=null;this.src=\'{esc(safe_img)}\'"' if safe_img and safe_img != hero_img else "")
+        himg = f'<img src="{esc(hero_img)}" alt="{esc(c["name"])}" fetchpriority="high"{img_style(c)}{fallback}>'
     else:
         himg = f'<div class="ph"><b>{esc(c["name"])}</b><span>Photo coming soon</span></div>'
 

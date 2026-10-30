@@ -126,7 +126,7 @@
         (c.photo.fit === "contain" ? "object-fit:contain;" : "") : "";
       var img = c.photo && c.photo.card
         ? '<img src="' + esc(c.photo.card) + '" alt="' + esc(c.name) + '" loading="lazy"' +
-          (st ? ' style="' + esc(st) + '"' : "") + ">"
+          (st ? ' style="' + esc(st) + '"' : "") + ' onerror="this.style.visibility=\'hidden\'">'
         : '<span class="ph">' + esc(c.name) + "</span>";
       var n = (c.articles || []).length;
       return '<a class="card" href="/cars/' + esc(c.id) + '/">' +

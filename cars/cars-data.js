@@ -13,11 +13,12 @@ const CARS_INDEX = [
   "country": "United Kingdom",
   "quick": "The Evora's North American farewell: a supercharged, mid-engined 2+2 with 416 hp, a clutch pedal and hydraulic steering, sold for just 2 model years before the Emira took over. It tied a Porsche 911 GT3 to 60 mph in testing, but its real case rests on how it feels on a good road.",
   "articles": [
-   "ill-take-supercars-for-100ish"
+   "ill-take-supercars-for-100ish",
+   "simplify-then-add-soul"
   ],
   "latest": "2026-10-27",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/2021_Lotus_Evora_GT_British_Racing_Green_Metallic_front_three_quarter.jpg/800px-2021_Lotus_Evora_GT_British_Racing_Green_Metallic_front_three_quarter.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/2021_Lotus_Evora_GT_British_Racing_Green_Metallic_front_three_quarter.jpg/960px-2021_Lotus_Evora_GT_British_Racing_Green_Metallic_front_three_quarter.jpg",
    "pos": "",
    "fit": ""
   }
@@ -39,7 +40,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-10-27",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/2004_Porsche_911_GT3,_front_left,_08-29-2026.jpg/800px-2004_Porsche_911_GT3,_front_left,_08-29-2026.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/2004_Porsche_911_GT3,_front_left,_08-29-2026.jpg/960px-2004_Porsche_911_GT3,_front_left,_08-29-2026.jpg",
    "pos": "",
    "fit": ""
   }
@@ -59,11 +60,13 @@ const CARS_INDEX = [
   "country": "Germany",
   "quick": "Audi's first mid-engined supercar and the last production sports car sold with a true open-gated manual. A 420-hp V8 behind the seats, quattro all-wheel drive and a polished metal shift gate turned even a short errand into a small ceremony.",
   "articles": [
-   "ill-take-supercars-for-100ish"
+   "ill-take-supercars-for-100ish",
+   "bright-idea",
+   "the-other-german"
   ],
   "latest": "2026-10-27",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Audi_R8_Audi_le_mans.jpg/800px-Audi_R8_Audi_le_mans.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Audi_R8_Audi_le_mans.jpg/960px-Audi_R8_Audi_le_mans.jpg",
    "pos": "",
    "fit": ""
   }
@@ -81,11 +84,12 @@ const CARS_INDEX = [
   "country": "United Kingdom",
   "quick": "Lotus's bid to build a grown-up car that still felt like a Lotus: a mid-engined 2+2 grand tourer with room for luggage, real comfort and a Toyota V6, built at Hethel from 2009 to 2021. It survived its maker's near-collapse, improved almost every year, and earned a reputation for some of the finest steering and ride quality of its era.",
   "articles": [
-   "simplify-then-add-soul"
+   "simplify-then-add-soul",
+   "ill-take-supercars-for-100ish"
   ],
-  "latest": "2026-05-09",
+  "latest": "2026-10-27",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/2011_Lotus_Evora_4_V6_3.5_Front.jpg/800px-2011_Lotus_Evora_4_V6_3.5_Front.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/2011_Lotus_Evora_4_V6_3.5_Front.jpg/960px-2011_Lotus_Evora_4_V6_3.5_Front.jpg",
    "pos": "",
    "fit": ""
   }
@@ -110,7 +114,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-09-02",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/1993_Lotus_Esprit_2.2_Sport_300.jpg/800px-1993_Lotus_Esprit_2.2_Sport_300.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/1993_Lotus_Esprit_2.2_Sport_300.jpg/960px-1993_Lotus_Esprit_2.2_Sport_300.jpg",
    "pos": "",
    "fit": ""
   }
@@ -132,7 +136,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-09-02",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Lotus_Esprit_S4S_(M75_TVU)_-_25_April_2026.jpg/800px-Lotus_Esprit_S4S_(M75_TVU)_-_25_April_2026.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Lotus_Esprit_S4S_(M75_TVU)_-_25_April_2026.jpg/960px-Lotus_Esprit_S4S_(M75_TVU)_-_25_April_2026.jpg",
    "pos": "",
    "fit": ""
   }
@@ -154,7 +158,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-09-02",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/1999_Lotus_Esprit_V8_type_918.jpg/800px-1999_Lotus_Esprit_V8_type_918.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/1999_Lotus_Esprit_V8_type_918.jpg/960px-1999_Lotus_Esprit_V8_type_918.jpg",
    "pos": "",
    "fit": ""
   }
@@ -179,7 +183,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-09-01",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/1993_Vauxhall_Lotus_Carlton_(31750565976).jpg/800px-1993_Vauxhall_Lotus_Carlton_(31750565976).jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/1993_Vauxhall_Lotus_Carlton_(31750565976).jpg/960px-1993_Vauxhall_Lotus_Carlton_(31750565976).jpg",
    "pos": "",
    "fit": ""
   }
@@ -204,7 +208,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-10-07",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/1994_Mazda_RX-7_R2_in_Vintage_Red,_front_left_(Lime_Rock).jpg/800px-1994_Mazda_RX-7_R2_in_Vintage_Red,_front_left_(Lime_Rock).jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/1994_Mazda_RX-7_R2_in_Vintage_Red,_front_left_(Lime_Rock).jpg/960px-1994_Mazda_RX-7_R2_in_Vintage_Red,_front_left_(Lime_Rock).jpg",
    "pos": "",
    "fit": ""
   }
@@ -228,7 +232,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-08-17",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/1989_Mazda_RX-7_GTU_in_Noble_White,_front_right.jpg/800px-1989_Mazda_RX-7_GTU_in_Noble_White,_front_right.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/1989_Mazda_RX-7_GTU_in_Noble_White,_front_right.jpg/960px-1989_Mazda_RX-7_GTU_in_Noble_White,_front_right.jpg",
    "pos": "",
    "fit": ""
   }
@@ -250,11 +254,12 @@ const CARS_INDEX = [
   "quick": "The only production car ever powered by a three-rotor rotary, wrapped in a long, quiet luxury coupe with a color GPS touchscreen years ahead of its time. Built for Japan's boom years and launched just as the boom ended, it remains Mazda's most extravagant road car.",
   "articles": [
    "the-rotary-club",
-   "you-spin-me-round"
+   "you-spin-me-round",
+   "the-middle-child"
   ],
   "latest": "2026-09-02",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/1991_Mazda_Eunos_Cosmo_Supercarfest23.jpg/800px-1991_Mazda_Eunos_Cosmo_Supercarfest23.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/1991_Mazda_Eunos_Cosmo_Supercarfest23.jpg/960px-1991_Mazda_Eunos_Cosmo_Supercarfest23.jpg",
    "pos": "",
    "fit": ""
   }
@@ -275,11 +280,12 @@ const CARS_INDEX = [
   "country": "Japan",
   "quick": "Mazda's first rotary car and the world's first production car with a twin-rotor engine, built by hand in a run of just 343. Light, fast-revving and unlike anything else from Japan in 1967, it proved the Wankel could be made to last.",
   "articles": [
-   "first-flight"
+   "first-flight",
+   "you-spin-me-round"
   ],
-  "latest": "2026-07-23",
+  "latest": "2026-09-02",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Mazda_Cosmo_Sport_(L10A)_front.jpg/800px-Mazda_Cosmo_Sport_(L10A)_front.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Mazda_Cosmo_Sport_(L10A)_front.jpg/960px-Mazda_Cosmo_Sport_(L10A)_front.jpg",
    "pos": "",
    "fit": ""
   }
@@ -352,7 +358,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-07-23",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Mazda_929.JPG/800px-Mazda_929.JPG",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Mazda_929.JPG/960px-Mazda_929.JPG",
    "pos": "",
    "fit": ""
   }
@@ -378,7 +384,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-08-19",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/2009_Mazda5,_front_right,_07-25-2026.jpg/800px-2009_Mazda5,_front_right,_07-25-2026.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/2009_Mazda5,_front_right,_07-25-2026.jpg/960px-2009_Mazda5,_front_right,_07-25-2026.jpg",
    "pos": "",
    "fit": ""
   }
@@ -403,7 +409,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-08-19",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/2003_Mazda_Proteg%C3%A95_in_Midnight_Blue_Mica,_front_left,_07-06-2026.jpg/800px-2003_Mazda_Proteg%C3%A95_in_Midnight_Blue_Mica,_front_left,_07-06-2026.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/2003_Mazda_Proteg%C3%A95_in_Midnight_Blue_Mica,_front_left,_07-06-2026.jpg/960px-2003_Mazda_Proteg%C3%A95_in_Midnight_Blue_Mica,_front_left,_07-06-2026.jpg",
    "pos": "",
    "fit": ""
   }
@@ -426,7 +432,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-08-19",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Mazda_Protege_MP3_(4738701236).jpg/800px-Mazda_Protege_MP3_(4738701236).jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Mazda_Protege_MP3_(4738701236).jpg/960px-Mazda_Protege_MP3_(4738701236).jpg",
    "pos": "",
    "fit": ""
   }
@@ -449,7 +455,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-08-19",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/%2703_Mazdaspeed_Proteg%C3%A9_Sedan_(Les_chauds_vendredis_%2710).jpg/800px-%2703_Mazdaspeed_Proteg%C3%A9_Sedan_(Les_chauds_vendredis_%2710).jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/%2703_Mazdaspeed_Proteg%C3%A9_Sedan_(Les_chauds_vendredis_%2710).jpg/960px-%2703_Mazdaspeed_Proteg%C3%A9_Sedan_(Les_chauds_vendredis_%2710).jpg",
    "pos": "",
    "fit": ""
   }
@@ -475,7 +481,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-10-07",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Mitsubishi_3000GT_front.jpg/800px-Mitsubishi_3000GT_front.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Mitsubishi_3000GT_front.jpg/960px-Mitsubishi_3000GT_front.jpg",
    "pos": "",
    "fit": ""
   }
@@ -497,7 +503,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-09-25",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Dodge_Stealth_Z11A_RT_Bright_Blue_Metallic_01.jpg/800px-Dodge_Stealth_Z11A_RT_Bright_Blue_Metallic_01.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Dodge_Stealth_Z11A_RT_Bright_Blue_Metallic_01.jpg/960px-Dodge_Stealth_Z11A_RT_Bright_Blue_Metallic_01.jpg",
    "pos": "",
    "fit": ""
   }
@@ -521,7 +527,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-09-29",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Subaru_Alcyone_in_Black_Mica,_front_right.jpg/800px-Subaru_Alcyone_in_Black_Mica,_front_right.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Subaru_Alcyone_in_Black_Mica,_front_right.jpg/960px-Subaru_Alcyone_in_Black_Mica,_front_right.jpg",
    "pos": "",
    "fit": ""
   }
@@ -539,11 +545,12 @@ const CARS_INDEX = [
   "country": "United States",
   "quick": "A Ford-styled, Mazda-engineered front-drive coupe with a 2.5-liter V6 and a chassis good enough to beat the Prelude, Eclipse, Corrado and its own Mazda MX-6 cousin in a 1993 Car and Driver comparison. Born from a plan to replace the Mustang, it became a quiet cult favorite for drivers who prize balance over brute force.",
   "articles": [
-   "a-golden-relic"
+   "a-golden-relic",
+   "the-brightest-star"
   ],
-  "latest": "2026-07-20",
+  "latest": "2026-09-29",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/1993_Ford_Probe_GT_in_Black,_Front_Right,_05-21-2023.jpg/800px-1993_Ford_Probe_GT_in_Black,_Front_Right,_05-21-2023.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/1993_Ford_Probe_GT_in_Black,_Front_Right,_05-21-2023.jpg/960px-1993_Ford_Probe_GT_in_Black,_Front_Right,_05-21-2023.jpg",
    "pos": "",
    "fit": ""
   }
@@ -565,7 +572,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-08-31",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Lexus_IS_F_USE20_Obsidian_-_front.jpg/800px-Lexus_IS_F_USE20_Obsidian_-_front.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Lexus_IS_F_USE20_Obsidian_-_front.jpg/960px-Lexus_IS_F_USE20_Obsidian_-_front.jpg",
    "pos": "",
    "fit": ""
   }
@@ -587,7 +594,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-08-14",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Infiniti_FX45_(48981085643).jpg/800px-Infiniti_FX45_(48981085643).jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Infiniti_FX45_(48981085643).jpg/960px-Infiniti_FX45_(48981085643).jpg",
    "pos": "",
    "fit": ""
   }
@@ -609,7 +616,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-05-02",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/1999_Isuzu_VehiCROSS_Ironman_Edition_in_Victory_White,_front_right,_08-17-2026.jpg/800px-1999_Isuzu_VehiCROSS_Ironman_Edition_in_Victory_White,_front_right,_08-17-2026.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/1999_Isuzu_VehiCROSS_Ironman_Edition_in_Victory_White,_front_right,_08-17-2026.jpg/960px-1999_Isuzu_VehiCROSS_Ironman_Edition_in_Victory_White,_front_right,_08-17-2026.jpg",
    "pos": "",
    "fit": ""
   }
@@ -634,7 +641,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-08-14",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/1991_Mitsubishi_Pajero_2.5TD_Wagon_LWB,_front_right_(Bridgehampton).jpg/800px-1991_Mitsubishi_Pajero_2.5TD_Wagon_LWB,_front_right_(Bridgehampton).jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/1991_Mitsubishi_Pajero_2.5TD_Wagon_LWB,_front_right_(Bridgehampton).jpg/960px-1991_Mitsubishi_Pajero_2.5TD_Wagon_LWB,_front_right_(Bridgehampton).jpg",
    "pos": "",
    "fit": ""
   }
@@ -665,7 +672,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-08-14",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/1998_Isuzu_Trooper_DT_LWB_3.0_Front.jpg/800px-1998_Isuzu_Trooper_DT_LWB_3.0_Front.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/1998_Isuzu_Trooper_DT_LWB_3.0_Front.jpg/960px-1998_Isuzu_Trooper_DT_LWB_3.0_Front.jpg",
    "pos": "",
    "fit": ""
   }
@@ -692,7 +699,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-06-17",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Subaru_Brat_-_41322809685.jpg/800px-Subaru_Brat_-_41322809685.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Subaru_Brat_-_41322809685.jpg/960px-Subaru_Brat_-_41322809685.jpg",
    "pos": "",
    "fit": ""
   }
@@ -715,7 +722,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-08-26",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/2013_BMW_135is.jpg/800px-2013_BMW_135is.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/2013_BMW_135is.jpg/960px-2013_BMW_135is.jpg",
    "pos": "",
    "fit": ""
   }
@@ -741,7 +748,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-08-26",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/BMW_1_Series_M_Coupe_(front_quarter).jpg/800px-BMW_1_Series_M_Coupe_(front_quarter).jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/BMW_1_Series_M_Coupe_(front_quarter).jpg/960px-BMW_1_Series_M_Coupe_(front_quarter).jpg",
    "pos": "",
    "fit": ""
   }
@@ -767,7 +774,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-08-25",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/BMW_Z3_M_Coupe_Estoril_Blue.jpg/800px-BMW_Z3_M_Coupe_Estoril_Blue.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/BMW_Z3_M_Coupe_Estoril_Blue.jpg/960px-BMW_Z3_M_Coupe_Estoril_Blue.jpg",
    "pos": "",
    "fit": ""
   }
@@ -791,7 +798,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-08-14",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/2007_BMW_Z4_M_Coup%C3%A9_in_Monaco_Blue_Metallic,_front_left.jpg/800px-2007_BMW_Z4_M_Coup%C3%A9_in_Monaco_Blue_Metallic,_front_left.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/2007_BMW_Z4_M_Coup%C3%A9_in_Monaco_Blue_Metallic,_front_left.jpg/960px-2007_BMW_Z4_M_Coup%C3%A9_in_Monaco_Blue_Metallic,_front_left.jpg",
    "pos": "",
    "fit": ""
   }
@@ -815,7 +822,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-07-23",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/BMW_Z4_sDrive35is.JPG/800px-BMW_Z4_sDrive35is.JPG",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/BMW_Z4_sDrive35is.JPG/960px-BMW_Z4_sDrive35is.JPG",
    "pos": "",
    "fit": ""
   }
@@ -837,7 +844,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-07-03",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/BMW_507_Classic-Gala_2022_1X7A0187.jpg/800px-BMW_507_Classic-Gala_2022_1X7A0187.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/BMW_507_Classic-Gala_2022_1X7A0187.jpg/960px-BMW_507_Classic-Gala_2022_1X7A0187.jpg",
    "pos": "",
    "fit": ""
   }
@@ -863,7 +870,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-10-26",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/BMW_i8_Roadster,_GIMS_2018,_Le_Grand-Saconnex_(1X7A1877).jpg/800px-BMW_i8_Roadster,_GIMS_2018,_Le_Grand-Saconnex_(1X7A1877).jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/BMW_i8_Roadster,_GIMS_2018,_Le_Grand-Saconnex_(1X7A1877).jpg/960px-BMW_i8_Roadster,_GIMS_2018,_Le_Grand-Saconnex_(1X7A1877).jpg",
    "pos": "",
    "fit": ""
   }
@@ -884,11 +891,12 @@ const CARS_INDEX = [
   "quick": "The first water-cooled 911, and for years the one purists loved to mock for its Boxster parts and teardrop headlights. It was also the car that rebuilt the 911 for the modern era and set the template every later generation has followed.",
   "articles": [
    "the-unsung-hero-996",
+   "ill-take-supercars-for-100ish",
    "how-porsche-became-volkswagens-problem-child"
   ],
-  "latest": "2026-09-26",
+  "latest": "2026-10-27",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Porsche_GH-99603_911_Carrera_(23052111445).jpg/800px-Porsche_GH-99603_911_Carrera_(23052111445).jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Porsche_GH-99603_911_Carrera_(23052111445).jpg/960px-Porsche_GH-99603_911_Carrera_(23052111445).jpg",
    "pos": "",
    "fit": ""
   }
@@ -911,7 +919,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-07-07",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/1982_Porsche_911_SC_Targa_in_Weinrot_Metallic,_Front_Right,_05-27-2023.jpg/800px-1982_Porsche_911_SC_Targa_in_Weinrot_Metallic,_Front_Right,_05-27-2023.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/1982_Porsche_911_SC_Targa_in_Weinrot_Metallic,_Front_Right,_05-27-2023.jpg/960px-1982_Porsche_911_SC_Targa_in_Weinrot_Metallic,_Front_Right,_05-27-2023.jpg",
    "pos": "",
    "fit": ""
   }
@@ -935,7 +943,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-08-14",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/1993_Porsche_968_CS_in_Speedgelb,_front_right.jpg/800px-1993_Porsche_968_CS_in_Speedgelb,_front_right.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/1993_Porsche_968_CS_in_Speedgelb,_front_right.jpg/960px-1993_Porsche_968_CS_in_Speedgelb,_front_right.jpg",
    "pos": "",
    "fit": ""
   }
@@ -957,7 +965,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-08-14",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Porsche_928_GTS_1X7A6513.jpg/800px-Porsche_928_GTS_1X7A6513.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Porsche_928_GTS_1X7A6513.jpg/960px-Porsche_928_GTS_1X7A6513.jpg",
    "pos": "",
    "fit": ""
   }
@@ -982,7 +990,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-04-20",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Jaguar_Mark_2_3.8_Litre,_front_view.jpg/800px-Jaguar_Mark_2_3.8_Litre,_front_view.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Jaguar_Mark_2_3.8_Litre,_front_view.jpg/960px-Jaguar_Mark_2_3.8_Litre,_front_view.jpg",
    "pos": "",
    "fit": ""
   }
@@ -1007,7 +1015,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-05-20",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Jaguar_E-Type_Flat_Floor_Roadster_850049_1961.jpg/800px-Jaguar_E-Type_Flat_Floor_Roadster_850049_1961.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Jaguar_E-Type_Flat_Floor_Roadster_850049_1961.jpg/960px-Jaguar_E-Type_Flat_Floor_Roadster_850049_1961.jpg",
    "pos": "",
    "fit": ""
   }
@@ -1030,7 +1038,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-10-12",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/2020_Jaguar_F-Type_coupe.jpg/800px-2020_Jaguar_F-Type_coupe.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/2020_Jaguar_F-Type_coupe.jpg/960px-2020_Jaguar_F-Type_coupe.jpg",
    "pos": "",
    "fit": ""
   }
@@ -1053,7 +1061,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-09-09",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Jaguar_XJR_X308_Racing_Green_Metallic.jpg/800px-Jaguar_XJR_X308_Racing_Green_Metallic.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Jaguar_XJR_X308_Racing_Green_Metallic.jpg/960px-Jaguar_XJR_X308_Racing_Green_Metallic.jpg",
    "pos": "",
    "fit": ""
   }
@@ -1075,7 +1083,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-09-09",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/2004_Jaguar_XJR_V8_S_C_Auto_(53586867472).jpg/800px-2004_Jaguar_XJR_V8_S_C_Auto_(53586867472).jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/2004_Jaguar_XJR_V8_S_C_Auto_(53586867472).jpg/960px-2004_Jaguar_XJR_V8_S_C_Auto_(53586867472).jpg",
    "pos": "",
    "fit": ""
   }
@@ -1097,7 +1105,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-07-23",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/2002_Jaguar_XKR_Coupe_(8113541450).jpg/800px-2002_Jaguar_XKR_Coupe_(8113541450).jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/2002_Jaguar_XKR_Coupe_(8113541450).jpg/960px-2002_Jaguar_XKR_Coupe_(8113541450).jpg",
    "pos": "",
    "fit": ""
   }
@@ -1122,7 +1130,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-08-19",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Mercedes-Benz_R129_500_SL_1X7A0335.jpg/800px-Mercedes-Benz_R129_500_SL_1X7A0335.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Mercedes-Benz_R129_500_SL_1X7A0335.jpg/960px-Mercedes-Benz_R129_500_SL_1X7A0335.jpg",
    "pos": "",
    "fit": ""
   }
@@ -1144,7 +1152,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-07-23",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Mercedes-Benz_280_SL_(R_107)_P6280184.jpg/800px-Mercedes-Benz_280_SL_(R_107)_P6280184.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Mercedes-Benz_280_SL_(R_107)_P6280184.jpg/960px-Mercedes-Benz_280_SL_(R_107)_P6280184.jpg",
    "pos": "",
    "fit": ""
   }
@@ -1168,7 +1176,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-06-03",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Rolls-Royce_Corniche_Petersen_Automotive_Museum.jpg/800px-Rolls-Royce_Corniche_Petersen_Automotive_Museum.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Rolls-Royce_Corniche_Petersen_Automotive_Museum.jpg/960px-Rolls-Royce_Corniche_Petersen_Automotive_Museum.jpg",
    "pos": "",
    "fit": ""
   }
@@ -1190,7 +1198,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-08-18",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Blue_Mercedes-AMG_GT_S_(C190)_front.JPG/800px-Blue_Mercedes-AMG_GT_S_(C190)_front.JPG",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Blue_Mercedes-AMG_GT_S_(C190)_front.JPG/960px-Blue_Mercedes-AMG_GT_S_(C190)_front.JPG",
    "pos": "",
    "fit": ""
   }
@@ -1212,7 +1220,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-10-15",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/W1400-TVR_Griffith500_V8-5L-340hp_1995_82306.JPG/800px-W1400-TVR_Griffith500_V8-5L-340hp_1995_82306.JPG",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/W1400-TVR_Griffith500_V8-5L-340hp_1995_82306.JPG/960px-W1400-TVR_Griffith500_V8-5L-340hp_1995_82306.JPG",
    "pos": "",
    "fit": ""
   }
@@ -1234,7 +1242,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-10-27",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Chevrolet_Corvette_Grand_Sport_Coup%C3%A9_(C8,_2026)_(55208173086).jpg/800px-Chevrolet_Corvette_Grand_Sport_Coup%C3%A9_(C8,_2026)_(55208173086).jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Chevrolet_Corvette_Grand_Sport_Coup%C3%A9_(C8,_2026)_(55208173086).jpg/960px-Chevrolet_Corvette_Grand_Sport_Coup%C3%A9_(C8,_2026)_(55208173086).jpg",
    "pos": "",
    "fit": ""
   }
@@ -1258,7 +1266,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-10-27",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/2011_McLaren_MP4-12C_3.8_Front.jpg/800px-2011_McLaren_MP4-12C_3.8_Front.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/2011_McLaren_MP4-12C_3.8_Front.jpg/960px-2011_McLaren_MP4-12C_3.8_Front.jpg",
    "pos": "",
    "fit": ""
   }
@@ -1280,7 +1288,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-07-23",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Dodge_Viper_GTS_ACR_(2000)_(53799898010).jpg/800px-Dodge_Viper_GTS_ACR_(2000)_(53799898010).jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Dodge_Viper_GTS_ACR_(2000)_(53799898010).jpg/960px-Dodge_Viper_GTS_ACR_(2000)_(53799898010).jpg",
    "pos": "",
    "fit": ""
   }
@@ -1302,7 +1310,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-07-23",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/2000_Ford_Mustang_SVT_Cobra_R_in_Performance_Red,_Front_Left_(Hilton_Beach_2023).jpg/800px-2000_Ford_Mustang_SVT_Cobra_R_in_Performance_Red,_Front_Left_(Hilton_Beach_2023).jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/2000_Ford_Mustang_SVT_Cobra_R_in_Performance_Red,_Front_Left_(Hilton_Beach_2023).jpg/960px-2000_Ford_Mustang_SVT_Cobra_R_in_Performance_Red,_Front_Left_(Hilton_Beach_2023).jpg",
    "pos": "",
    "fit": ""
   }
@@ -1324,7 +1332,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-07-23",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2003_Chevrolet_Corvette_Z06,_front_left,_09-09-2023.jpg/800px-2003_Chevrolet_Corvette_Z06,_front_left,_09-09-2023.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2003_Chevrolet_Corvette_Z06,_front_left,_09-09-2023.jpg/960px-2003_Chevrolet_Corvette_Z06,_front_left,_09-09-2023.jpg",
    "pos": "",
    "fit": ""
   }
@@ -1346,7 +1354,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-07-23",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/2002_Mitsubishi_Lancer_Evolution_VII_in_Palmer_Red,_Front_Left,_07-25-2023.jpg/800px-2002_Mitsubishi_Lancer_Evolution_VII_in_Palmer_Red,_Front_Left,_07-25-2023.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/2002_Mitsubishi_Lancer_Evolution_VII_in_Palmer_Red,_Front_Left,_07-25-2023.jpg/960px-2002_Mitsubishi_Lancer_Evolution_VII_in_Palmer_Red,_Front_Left,_07-25-2023.jpg",
    "pos": "",
    "fit": ""
   }
@@ -1369,7 +1377,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-09-02",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Chevrolet_Corvair,_Blenheim_Classics_Auto_Show,_Blenheim,_Ontario,_2025-06-21_01.jpg/800px-Chevrolet_Corvair,_Blenheim_Classics_Auto_Show,_Blenheim,_Ontario,_2025-06-21_01.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Chevrolet_Corvair,_Blenheim_Classics_Auto_Show,_Blenheim,_Ontario,_2025-06-21_01.jpg/960px-Chevrolet_Corvair,_Blenheim_Classics_Auto_Show,_Blenheim,_Ontario,_2025-06-21_01.jpg",
    "pos": "",
    "fit": ""
   }
@@ -1391,7 +1399,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-09-11",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/2019_Cadillac_CTS-V_Base,_front_left.jpg/800px-2019_Cadillac_CTS-V_Base,_front_left.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/2019_Cadillac_CTS-V_Base,_front_left.jpg/960px-2019_Cadillac_CTS-V_Base,_front_left.jpg",
    "pos": "",
    "fit": ""
   }
@@ -1413,7 +1421,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-10-01",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/2007_Pontiac_Solstice_GXP,_front_left,_08-27-2023.jpg/800px-2007_Pontiac_Solstice_GXP,_front_left,_08-27-2023.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/2007_Pontiac_Solstice_GXP,_front_left,_08-27-2023.jpg/960px-2007_Pontiac_Solstice_GXP,_front_left,_08-27-2023.jpg",
    "pos": "",
    "fit": ""
   }
@@ -1438,7 +1446,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-10-01",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/2008_Saturn_Sky_Redline_in_Bluestone,_front_left.jpg/800px-2008_Saturn_Sky_Redline_in_Bluestone,_front_left.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/2008_Saturn_Sky_Redline_in_Bluestone,_front_left.jpg/960px-2008_Saturn_Sky_Redline_in_Bluestone,_front_left.jpg",
    "pos": "",
    "fit": ""
   }
@@ -1460,7 +1468,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-08-17",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Dodge_Durango_SRT_Hellcat_MYLE_Festival_2025_DSC_9644.jpg/800px-Dodge_Durango_SRT_Hellcat_MYLE_Festival_2025_DSC_9644.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Dodge_Durango_SRT_Hellcat_MYLE_Festival_2025_DSC_9644.jpg/960px-Dodge_Durango_SRT_Hellcat_MYLE_Festival_2025_DSC_9644.jpg",
    "pos": "",
    "fit": ""
   }
@@ -1492,7 +1500,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-10-26",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Citroen_DS_Classic-Days_2022_IMG_7189.jpg/800px-Citroen_DS_Classic-Days_2022_IMG_7189.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Citroen_DS_Classic-Days_2022_IMG_7189.jpg/960px-Citroen_DS_Classic-Days_2022_IMG_7189.jpg",
    "pos": "",
    "fit": ""
   }
@@ -1516,7 +1524,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-10-26",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/2013-05-04_(9591b)_Citro%C3%ABn_SM,_Bj._1973.JPG/800px-2013-05-04_(9591b)_Citro%C3%ABn_SM,_Bj._1973.JPG",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/2013-05-04_(9591b)_Citro%C3%ABn_SM,_Bj._1973.JPG/960px-2013-05-04_(9591b)_Citro%C3%ABn_SM,_Bj._1973.JPG",
    "pos": "",
    "fit": ""
   }
@@ -1547,7 +1555,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-09-02",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Citroen_Traction_Avant_Classic-Gala_2021_1X7A0158.jpg/800px-Citroen_Traction_Avant_Classic-Gala_2021_1X7A0158.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Citroen_Traction_Avant_Classic-Gala_2021_1X7A0158.jpg/960px-Citroen_Traction_Avant_Classic-Gala_2021_1X7A0158.jpg",
    "pos": "",
    "fit": ""
   }
@@ -1574,7 +1582,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-10-19",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/2025-05-01_Muensingen_Citroen_2CV6_front-side.jpg/800px-2025-05-01_Muensingen_Citroen_2CV6_front-side.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/2025-05-01_Muensingen_Citroen_2CV6_front-side.jpg/960px-2025-05-01_Muensingen_Citroen_2CV6_front-side.jpg",
    "pos": "",
    "fit": ""
   }
@@ -1601,7 +1609,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-07-26",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/1992_Lancia_Delta_Integrale_Evoluzione_in_Black_Mica,_front_right.jpg/800px-1992_Lancia_Delta_Integrale_Evoluzione_in_Black_Mica,_front_right.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/1992_Lancia_Delta_Integrale_Evoluzione_in_Black_Mica,_front_right.jpg/960px-1992_Lancia_Delta_Integrale_Evoluzione_in_Black_Mica,_front_right.jpg",
    "pos": "",
    "fit": ""
   }
@@ -1625,7 +1633,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-09-08",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/1979_Volkswagen_Golf_GTi_1.6_Front.jpg/800px-1979_Volkswagen_Golf_GTi_1.6_Front.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/1979_Volkswagen_Golf_GTi_1.6_Front.jpg/960px-1979_Volkswagen_Golf_GTi_1.6_Front.jpg",
    "pos": "",
    "fit": ""
   }
@@ -1649,7 +1657,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-09-08",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/2005_Volkswagen_Golf_GTi_2.0_Front.jpg/800px-2005_Volkswagen_Golf_GTi_2.0_Front.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/2005_Volkswagen_Golf_GTi_2.0_Front.jpg/960px-2005_Volkswagen_Golf_GTi_2.0_Front.jpg",
    "pos": "",
    "fit": ""
   }
@@ -1675,7 +1683,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-07-23",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Volvo_244_1982.jpg/800px-Volvo_244_1982.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Volvo_244_1982.jpg/960px-Volvo_244_1982.jpg",
    "pos": "",
    "fit": ""
   }
@@ -1699,7 +1707,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-06-30",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Audi_allroad_quattro_I_20090321_front.jpg/800px-Audi_allroad_quattro_I_20090321_front.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Audi_allroad_quattro_I_20090321_front.jpg/960px-Audi_allroad_quattro_I_20090321_front.jpg",
    "pos": "",
    "fit": ""
   }
@@ -1721,7 +1729,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-08-21",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/2021_Polestar_1_in_Magnesium,_front_left.jpg/800px-2021_Polestar_1_in_Magnesium,_front_left.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/2021_Polestar_1_in_Magnesium,_front_left.jpg/960px-2021_Polestar_1_in_Magnesium,_front_left.jpg",
    "pos": "",
    "fit": ""
   }
@@ -1744,7 +1752,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-08-18",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/2022_Ford_Everest_2.0_Bi-Turbo_Titanium%2B_4x4_in_Arctic_White,_front_right.jpg/800px-2022_Ford_Everest_2.0_Bi-Turbo_Titanium%2B_4x4_in_Arctic_White,_front_right.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/2022_Ford_Everest_2.0_Bi-Turbo_Titanium%2B_4x4_in_Arctic_White,_front_right.jpg/960px-2022_Ford_Everest_2.0_Bi-Turbo_Titanium%2B_4x4_in_Arctic_White,_front_right.jpg",
    "pos": "",
    "fit": ""
   }
@@ -1766,7 +1774,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-09-14",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/1998_Lamborghini_Diablo_SV_Yellow_Supercarfest.jpg/800px-1998_Lamborghini_Diablo_SV_Yellow_Supercarfest.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/1998_Lamborghini_Diablo_SV_Yellow_Supercarfest.jpg/960px-1998_Lamborghini_Diablo_SV_Yellow_Supercarfest.jpg",
    "pos": "",
    "fit": ""
   }
@@ -1880,7 +1888,7 @@ const CARS_INDEX = [
   ],
   "latest": "2026-04-28",
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/1976_Ferrari_365_GTC-4_Beach_Car_by_Michelotti.jpg/800px-1976_Ferrari_365_GTC-4_Beach_Car_by_Michelotti.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/1976_Ferrari_365_GTC-4_Beach_Car_by_Michelotti.jpg/960px-1976_Ferrari_365_GTC-4_Beach_Car_by_Michelotti.jpg",
    "pos": "",
    "fit": ""
   }

@@ -96,6 +96,7 @@ const CARS = [
       "pos": ""
     },
     "match": [
+      "Lotus Evora",
       "Lotus Evora GT"
     ]
   },
@@ -222,7 +223,9 @@ const CARS = [
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "pos": ""
     },
-    "match": []
+    "match": [
+      "Audi R8"
+    ]
   },
   {
     "id": "lotus-evora",
@@ -288,7 +291,8 @@ const CARS = [
       "pos": ""
     },
     "match": [
-      "Lotus Evora"
+      "Lotus Evora",
+      "Lotus Evora GT"
     ]
   },
   {
@@ -772,6 +776,7 @@ const CARS = [
     },
     "match": [
       "Eunos Cosmo",
+      "Mazda Cosmo",
       "Mazda Eunos Cosmo"
     ]
   },
@@ -837,6 +842,7 @@ const CARS = [
       "pos": ""
     },
     "match": [
+      "Mazda Cosmo Sport",
       "Mazda Cosmo Sport Series I"
     ]
   },
@@ -1527,7 +1533,9 @@ const CARS = [
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "pos": ""
     },
-    "match": []
+    "match": [
+      "Ford Probe GT"
+    ]
   },
   {
     "id": "lexus-is-f",
@@ -2460,7 +2468,8 @@ const CARS = [
       "pos": ""
     },
     "match": [
-      "Porsche 996"
+      "Porsche 996",
+      "Porsche 996 GT3"
     ]
   },
   {

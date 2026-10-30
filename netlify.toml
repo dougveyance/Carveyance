@@ -30,6 +30,22 @@
   [headers.values]
     Cache-Control = "public, max-age=0, must-revalidate"
 
+# The Car Index: its car list, script and styles change when cars are added
+[[headers]]
+  for = "/cars/cars-data.js"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/cars/cars-common.js"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/cars/cars.css"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
 # Events app: the service worker and shared script must never be cached hard
 [[headers]]
   for = "/events/sw.js"

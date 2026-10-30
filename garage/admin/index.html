@@ -94,6 +94,7 @@
         }).join("") + "</tbody></table></div>" : '<p class="small">No cars claimed yet.</p>') +
 
       '<div id="adm-lot"></div>' +
+      '<div id="adm-index"></div>' +
       '<h2 class="h2" style="margin:28px 0 10px">Unlock a sticker</h2><p class="small" style="margin-bottom:10px">A sticker locks after 10 wrong claim codes. Unlock it once you\'ve checked who has it.</p>' +
       '<form id="unlock" style="display:flex;gap:10px;max-width:320px"><input class="input" id="un-n" inputmode="numeric" placeholder="0184" aria-label="Sticker number"><button class="btn small" type="submit">Unlock</button></form>';
 
@@ -131,6 +132,7 @@
       });
     });
     loadLotAdmin(byId);
+    loadIndexAdmin();
     document.getElementById("unlock").addEventListener("submit", async function (e) {
       e.preventDefault();
       var n = parseInt(document.getElementById("un-n").value, 10);
@@ -194,6 +196,32 @@
         var r = await G.db.rpc("admin_hide_inquiry", { p_id: +b.dataset.hidemsg, p_hidden: b.dataset.h === "1" });
         if (r.error || !r.data) return G.toast("That didn't save");
         loadLotAdmin(byId);
+      });
+    });
+  }
+
+  /* ---------- The Car Index: reader reviews ---------- */
+  async function loadIndexAdmin() {
+    var box = document.getElementById("adm-index"); if (!box) return;
+    var r = await G.db.rpc("admin_index_reviews");
+    if (r.error) {
+      box.innerHTML = '<h2 class="h2" style="margin:28px 0 10px">The Car Index</h2><p class="small">Not switched on yet: run tools/garage/car_index.sql in the Supabase SQL Editor.</p>';
+      return;
+    }
+    var rows = r.data || [];
+    box.innerHTML = '<h2 class="h2" style="margin:28px 0 10px">The Car Index: ratings and reviews</h2>' +
+      '<p class="small" style="margin-bottom:10px">Reported ones come first. Hiding a rating removes its review and stops its score counting toward the car\'s average.</p>' +
+      (rows.length ? '<div class="tbl-wrap"><table class="tbl"><thead><tr><th>When</th><th>Car</th><th>Score</th><th>Name</th><th>Review</th><th>Reports</th><th></th></tr></thead><tbody>' +
+        rows.map(function (x) {
+          return "<tr" + (x.hidden ? ' style="opacity:.5"' : "") + "><td>" + esc(G.fmtDate(x.updated_at)) + '</td><td><a href="/cars/' + esc(x.car_id) + '/" target="_blank" rel="noopener">' + esc(x.car_id) + "</a></td>" +
+            "<td>" + x.score + "/10</td><td>" + esc(x.display_name || "–") + '</td><td class="wrap">' + esc(x.review || "–") + "</td><td>" + (x.reports ? "<b>" + x.reports + "</b>" : "0") + "</td>" +
+            '<td><button type="button" class="btn line small" data-hiderate="' + x.id + '" data-h="' + (x.hidden ? 0 : 1) + '">' + (x.hidden ? "Show" : "Hide") + "</button></td></tr>";
+        }).join("") + "</tbody></table></div>" : '<p class="small">No ratings yet.</p>');
+    box.querySelectorAll("[data-hiderate]").forEach(function (b) {
+      b.addEventListener("click", async function () {
+        var res = await G.db.rpc("admin_hide_rating", { p_id: +b.dataset.hiderate, p_hidden: b.dataset.h === "1" });
+        if (res.error || !res.data) return G.toast("That didn't save");
+        loadIndexAdmin();
       });
     });
   }

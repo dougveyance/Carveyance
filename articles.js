@@ -60,6 +60,133 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    "slug": "industry-brief-2026-11-02",
+    "seoTitle": "Car News: Toyota and Waymo, VW's Loss, the Canada Tariff Cliff",
+    "title": "The Industry Brief: Toyota Builds Waymo's Robotaxi, Germany's Rough Quarter and the Canada Tariff Cliff",
+    "subtitle": "8 stories that mattered in the week of October 26 to November 1, ranked and weighed, plus the Corolla at 60",
+    "category": "News",
+    "date": "2026-11-02",
+    "readTime": "32 min",
+    "blurb": "Toyota will build Waymo's next robotaxi in the plant it opened for the first Corolla. Volkswagen lost €5.9 billion in 3 months as Germany's carmakers lose China, Ford's $28,350 Fathom learns to power a house, a 50% tariff on Canadian-built cars is 2 months away, GM readies its biggest crossover plant for hybrids, Rivian's R2 becomes its best seller, NHTSA starts rewriting the tire rules and Aston Martin takes the roof off the Valhalla. Plus a Special News Spotlight on the Corolla at 60. Every story carries a status line.",
+    "image": "/assets/images/industry-brief-2026-11-02.jpg",
+    "vehicles": [
+      "Toyota bZ4X",
+      "Toyota Corolla",
+      "Ford Fathom",
+      "Toyota RAV4",
+      "Honda CR-V",
+      "Honda Civic",
+      "Chrysler Pacifica",
+      "Ford Super Duty",
+      "Chevrolet Traverse",
+      "GMC Acadia",
+      "Buick Enclave",
+      "Chevrolet Corvette E-Ray",
+      "Rivian R2",
+      "Aston Martin Valhalla Spider",
+      "Toyota Sienna",
+      "Audi Q4 e-tron",
+      "Lincoln Nautilus",
+      "Lincoln Corsair",
+      "Koenigsegg CC850",
+      "Mazda CX-70",
+      "Mazda CX-90",
+      "Honda NSX"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "the-robotaxi-becomes-a-production-car",
+    "seoTitle": "Toyota and Waymo: Why the Robotaxi Is Moving Into the Factory",
+    "title": "The Robotaxi Is Becoming a Production Car",
+    "subtitle": "Every Waymo so far has been a car someone else finished building, then fitted with sensors. Toyota's plan to do the whole job in the plant it opened for the first Corolla is how a self-driving science project starts to look like an ordinary product",
+    "category": "Car Culture",
+    "date": "2026-11-02",
+    "readTime": "7 min",
+    "blurb": "Toyota will build a custom bZ4X for Waymo at its Takaoka plant and fit Waymo's self-driving hardware in the same plant, with testing in Japan from 2027. Why every Waymo until now was converted after another automaker built it, what changes when a robotaxi comes off a production line, why Japan's shortage of taxi drivers matters, and what Toyota and Waymo still haven't said.",
+    "image": "/assets/images/the-robotaxi-becomes-a-production-car.jpg",
+    "vehicles": [
+      "Toyota bZ4X",
+      "Jaguar I-Pace",
+      "Zeekr Ojai",
+      "Hyundai Ioniq 5",
+      "Tesla Cybercab"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "germanys-china-problem",
+    "seoTitle": "Why VW, Mercedes and Porsche Are All Losing China at Once",
+    "title": "Germany Built Its Car Industry on China. China Doesn't Need It Anymore.",
+    "subtitle": "German brands had about 26% of China's car market in 2019 and about 16% in 2025, and this year is worse. Why Volkswagen, Mercedes and Porsche are all losing the same market at once, and the 3 different ways they're answering",
+    "category": "Comparisons",
+    "date": "2026-11-02",
+    "readTime": "7 min",
+    "blurb": "Volkswagen's China deliveries fell 38.5% in the third quarter, Mercedes cut its forecast after its China sales fell 31%, and Porsche's profit came back while it sold 16% fewer cars. How German brands went from about 26% of China's market to about 16%, what Chinese carmakers are selling instead, and the 3 different ways Volkswagen, Mercedes and Porsche are answering.",
+    "image": "/assets/images/germanys-china-problem.jpg",
+    "vehicles": [
+      "BYD Qin Plus DM-i"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "replace-your-generator",
+    "seoTitle": "Ford Fathom Home Backup Power vs a Generator and a Powerwall",
+    "title": "Can a $28,350 Electric Truck Replace Your Generator?",
+    "subtitle": "Ford says its cheapest EV will be able to run a house in a blackout, with home hardware that costs a fraction of what the F-150 Lightning needed",
+    "category": "How It Works",
+    "date": "2026-11-02",
+    "readTime": "7 min",
+    "blurb": "Ford says its $28,350 Fathom pickup will send more than 10 kW to a house in a blackout, with home hardware far cheaper than the F-150 Lightning needed. How vehicle-to-home power works, what it costs against a standby generator, a portable one and a Tesla Powerwall, and what Ford still hasn't said about the battery, the range and the price of the home kit.",
+    "image": "/assets/images/replace-your-generator.jpg",
+    "vehicles": [
+      "Ford Fathom",
+      "Ford F-150 Lightning",
+      "Chevrolet Bolt"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "gm-hybrid-u-turn",
+    "seoTitle": "Why GM Is Finally Building Hybrids, and What Took So Long",
+    "title": "GM Spent Years Saying No to Hybrids. Now It Says \"We Will Have Hybrids.\"",
+    "subtitle": "The company that built a hybrid Tahoe and the Chevrolet Volt ended up with a single hybrid, a Corvette. A hybrid Traverse would be GM's most ordinary product decision in years, and maybe its most overdue",
+    "category": "Opinions",
+    "date": "2026-11-02",
+    "readTime": "7 min",
+    "blurb": "GM's only hybrid today is the Corvette E-Ray, and now it's preparing the Lansing plant that builds the Traverse, Acadia and Enclave for hybrids. How the company that built a hybrid Tahoe and the Volt spent years saying no, what happened while its dealers asked and Toyota kept selling, and why a hybrid Traverse may be GM's most overdue decision.",
+    "image": "/assets/images/gm-hybrid-u-turn.jpg",
+    "vehicles": [
+      "Chevrolet Traverse",
+      "GMC Acadia",
+      "Buick Enclave",
+      "Chevrolet Corvette E-Ray",
+      "Chevrolet Volt",
+      "Toyota Grand Highlander",
+      "Hyundai Palisade Hybrid"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "the-car-that-carried-the-world",
+    "seoTitle": "The Toyota Corolla at 60: The Car That Carried the World",
+    "title": "The Car That Carried the World",
+    "subtitle": "It was never intended to be an exotic car, a status symbol or a machine destined for bedroom walls. The Corolla became something more important: the car that allowed millions of people to build the lives they imagined",
+    "category": "Car Culture",
+    "date": "2026-11-02",
+    "readTime": "10 min",
+    "blurb": "On November 5, 1966, Toyota introduced a small sedan created to work, not to be worshipped. 60 years and more than 57 million cars later, the Corolla is the best-selling nameplate in history. How Tatsuo Hasegawa's \"80 points plus alpha\" idea made Toyota global, why it changed what Americans expected from a small car, and why being ordinary may be its greatest achievement.",
+    "image": "/assets/images/the-car-that-carried-the-world.jpg",
+    "vehicles": [
+      "Toyota Corolla",
+      "Toyota Corolla Cross",
+      "Toyota GR Corolla",
+      "Toyota Corolla Levin AE86",
+      "Toyota Sprinter Trueno AE86"
+    ],
+    "featured": false
+  },
+  {
     "slug": "ill-take-supercars-for-100ish",
     "seoTitle": "Lotus Evora GT vs Porsche 996 GT3 vs Audi R8 V8 Manual",
     "title": "I'll Take Supercars for 100ish, Please",

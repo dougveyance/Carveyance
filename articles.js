@@ -60,6 +60,28 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    "slug": "the-world-is-your-driveway",
+    "seoTitle": "Campervan Swaps and $1 RV Relocations: How They Work",
+    "title": "The World Is Your Driveway",
+    "subtitle": "The brilliant rise of campervan swapping, $1 road trips, and the art of seeing the world without buying another RV",
+    "category": "Road Trips",
+    "date": "2026-11-03",
+    "readTime": "20 min",
+    "blurb": "Swap your campervan with an owner on the other side of the world, drive a rental motorhome across the country for $1 a day, or put your own rig on a ship. How RV Worldwide, Swap My Van, SwapTheRoad, Imoova and the shipping companies actually work, what they cost, and the paperwork nobody should skip.",
+    "image": "/assets/images/the-world-is-your-driveway.jpg",
+    "vehicles": [
+      "Mercedes-Benz Sprinter",
+      "Volkswagen Eurovan",
+      "Ford Econoline",
+      "Volkswagen Transporter",
+      "Volkswagen Vanagon",
+      "Volkswagen Westfalia",
+      "Winnebago Spirit",
+      "Fiat Ducato"
+    ],
+    "featured": false
+  },
+  {
     "slug": "industry-brief-2026-11-02",
     "seoTitle": "Car News: Toyota and Waymo, VW's Loss, the Canada Tariff Cliff",
     "title": "The Industry Brief: Toyota Builds Waymo's Robotaxi, Germany's Rough Quarter and the Canada Tariff Cliff",

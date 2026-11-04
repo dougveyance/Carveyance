@@ -6,10 +6,10 @@
 // ZIP, distance and model, so repeat visits don't use up the monthly allowance.
 
 const MODELS = {
-  "corolla-h":   { make: "Toyota",    models: ["Corolla", "Corolla Hybrid"], need: /hybrid/i, first: 2020 },
+  "corolla-h":   { make: "Toyota",    models: ["Corolla Hybrid"], need: /hybrid/i, first: 2020 },
   "civic":       { make: "Honda",     models: ["Civic"], avoid: /type r|hybrid/i, first: 2020 },
   "versa":       { make: "Nissan",    models: ["Versa"], first: 2020 },
-  "rav4-h":      { make: "Toyota",    models: ["RAV4", "RAV4 Hybrid"], need: /hybrid/i, avoid: /prime|plug/i, first: 2020 },
+  "rav4-h":      { make: "Toyota",    models: ["RAV4 Hybrid"], need: /hybrid/i, avoid: /prime|plug/i, first: 2020 },
   "crv-h":       { make: "Honda",     models: ["CR-V", "CR-V Hybrid"], need: /hybrid/i, first: 2020 },
   "cx5":         { make: "Mazda",     models: ["CX-5"], first: 2020 },
   "outback":     { make: "Subaru",    models: ["Outback"], first: 2020 },
@@ -46,14 +46,17 @@ function pick(item, year) {
   const miles = num(r.miles ?? r.mileage ?? item.miles ?? item.mileage);
   const y = num(v.year);
   const used = r.used != null ? (r.used === true || r.used === "true") : !((miles ?? 0) < 300 && (y ?? 0) >= year - 1);
+  const h = item.history && typeof item.history === "object" ? item.history : null;
   const dealer = typeof r.dealer === "string" ? r.dealer : (r.dealer && (r.dealer.name || r.dealer.dealerName)) || "";
   return {
     vin: item.vin || v.vin || "", year: y, make: v.make || "", model: v.model || "", trim: v.trim || "",
-    drivetrain: v.drivetrain || "", fuel: v.fuel || "", engine: v.engine || "",
+    drivetrain: v.drivetrain || "", fuel: v.fuel || "", engine: v.engine || "", series: v.series || "", color: v.exteriorColor || "",
     price: num(r.price) || 0, miles: miles ?? 0, used, cpo: r.cpo === true || r.cpo === "true",
     dealer, city: r.city || "", state: r.state || "", zip: r.zip || "",
     vdp: r.vdp || r.vdpUrl || "", photo: r.primaryImage || "", photoCount: num(r.photoCount) || 0,
     carfax: r.carfaxUrl || "", createdAt: item.createdAt || null,
+    history: h ? { accidents: h.accidents === true, accidentCount: num(h.accidentCount), ownerCount: num(h.ownerCount),
+      oneOwner: h.oneOwner === true, usage: h.usageType || "" } : null,
   };
 }
 
@@ -98,7 +101,7 @@ export default async (req) => {
   const rows = Array.isArray(body.data) ? body.data : [];
   const listings = rows.map((it) => pick(it, year)).filter((x) => {
     if (!x.vin || !x.price) return false;
-    const text = [x.model, x.trim, x.fuel, x.engine].join(" ");
+    const text = [x.model, x.trim, x.fuel, x.engine, x.series].join(" ");
     if (spec.need && !spec.need.test(text)) return false;
     if (spec.avoid && spec.avoid.test(text)) return false;
     return true;

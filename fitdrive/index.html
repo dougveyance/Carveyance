@@ -1086,7 +1086,7 @@ function liveToListing(r,m){
   const vin=String(r.vin||"");
   return {id:"live-"+vin.replace(/[^A-Za-z0-9]/g,""),model:m,year,age,miles,awd,cond,seller:"dealer",warranty,price:Math.round(+r.price||0),
     dist:null,where:r.dealer||"Dealer",city:r.city||"",state:r.state||"",vin:vin.slice(-4),fullVin:vin,trim:r.trim||"",url:r.vdp||"",
-    photo:r.photo||"",carfax:r.carfax||"",createdAt:r.createdAt||null,live:true};
+    photo:r.photo||"",carfax:r.carfax||"",createdAt:r.createdAt||null,color:r.color||"",hist:r.history||null,live:true};
 }
 function setLive(rows){
   MODELS.forEach(m=>{m.listings=[];});
@@ -1671,8 +1671,19 @@ function cardHTML(L,p){
   return `<article class="ccard"><button type="button" class="open" data-go="car-${L.id}" aria-label="${esc(lname(L))}, ${money(L.price)}">${carArt(L)}
     <span class="ct">${esc(lname(L))}</span><span class="cm">${condLabel[L.cond]} · ${milesText(L)} · ${esc(L.where)} · ${distText(L)}</span>
     <span class="cp"><b>${money(L.price)}</b><span>≈ ${money(c.total)}/mo all-in</span></span></button>
-    <div class="cbadges">${fitBadge(L)}<span class="pill ${d.rating==="Good price"?"good":d.rating==="Priced high"?"bad":"amber"}">${d.rating}</span>${L.awd?`<span class="pill blue">AWD</span>`:""}</div>
+    <div class="cbadges">${fitBadge(L)}<span class="pill ${d.rating==="Good price"?"good":d.rating==="Priced high"?"bad":"amber"}">${d.rating}</span>${L.awd?`<span class="pill blue">AWD</span>`:""}${histPill(L)}</div>
     <div class="cacts"><button type="button" class="tbtn" data-heart="${L.id}" aria-pressed="${saved}">${saved?"Saved":"Save"}</button><button type="button" class="tbtn" data-cmp="${L.id}" aria-pressed="${inC}">${inC?"In compare":"+ Compare"}</button></div></article>`;
+}
+function histPill(L){
+  const h=L.hist; if(!h||L.cond==="new") return "";
+  if(h.accidents||h.accidentCount>0) return `<span class="pill bad">Accident reported</span>`;
+  return `<span class="pill good">No accidents reported</span>`;
+}
+function histText(L){
+  const h=L.hist; if(!h) return "";
+  const acc=h.accidents||h.accidentCount>0?`${h.accidentCount||1} accident${(h.accidentCount||1)>1?"s":""} reported`:"No accidents reported";
+  const own=h.ownerCount?`${h.ownerCount} owner${h.ownerCount>1?"s":""}`:h.oneOwner?"1 owner":"";
+  return [acc,own,h.usage?h.usage.toLowerCase():""].filter(Boolean).join(" · ");
 }
 function browseHTML(){
   const f=S.browse, p=prof();
@@ -1825,7 +1836,7 @@ function listingHTML(){
   return `<nav class="crumbs" aria-label="Breadcrumb"><button type="button" data-go="${PLAN?"plan":"browse"}">${PLAN?"Your plan":"Browse cars"}</button><span aria-hidden="true">›</span><span>${esc(lname(L))}</span></nav>
   <div class="cols"><div class="main">
     <div>${carArt(L,"lg")}<p class="art-cap">${L.live?"Photo from the dealer's listing.":"Illustration only. The live version shows the seller's photos."}</p></div>
-    <div class="l-title"><h1 id="pagetitle" tabindex="-1">${esc(lname(L))}</h1><p>${L.trim?esc(L.trim)+" · ":""}${condLabel[L.cond]} · ${milesText(L)} · ${PT_LABEL[m.pt]}${L.awd?" · AWD":""} · ${esc(L.where)}, ${distText(L)} · VIN ••••${L.vin}</p></div>
+    <div class="l-title"><h1 id="pagetitle" tabindex="-1">${esc(lname(L))}</h1><p>${L.trim?esc(L.trim)+" · ":""}${L.color?esc(L.color)+" · ":""}${condLabel[L.cond]} · ${milesText(L)} · ${PT_LABEL[m.pt]}${L.awd?" · AWD":""} · ${esc(L.where)}, ${distText(L)} · VIN ••••${L.vin}</p></div>
     ${why?`<section class="section" aria-labelledby="why-h"><div class="sec-head"><h2 id="why-h">Why it fits you</h2><span class="pill blue">${Math.round(f.overall)} overall fit</span></div><ul class="why">${why.why.map(x=>`<li>${esc(x)}</li>`).join("")}</ul><p class="watch"><b>Watch</b>${esc(why.watch)}</p></section>`:f&&f.ruled?`<div class="note bad"><b>This car doesn't fit your needs.</b> ${esc(f.ruled)}</div>`:""}
     <section class="section" aria-labelledby="deal-h"><div class="sec-head"><h2 id="deal-h">Deal check</h2><span class="hint">${d.live?"Compared with listings near you":"Demo market data"}</span></div>
       <div class="grid3"><div class="box"><span class="eyebrow">Vs similar listings</span>${d.typ==null?`<span class="big" style="font-size:22px">Not enough to compare</span><p>Fewer than 2 similar ${esc(m.model)} listings nearby.</p>`:`<span class="big" style="color:${d.diff<=0?"var(--good)":"var(--bad)"}">${d.diff===0?"Right at typical":money(Math.abs(d.diff))+(d.diff<0?" below":" above")}</span><p>${d.live?`Middle price of ${d.peers} similar listings nearby: ${money(d.typ)}.`:`Typical price ${money(d.typ)} for this year and mileage.`}</p>`}</div>
@@ -1839,7 +1850,7 @@ function listingHTML(){
     ${insHTML(L,p,c)}
     ${chargeHTML(L,p)}
     <section class="section" aria-labelledby="hist-h"><h2 id="hist-h">History and recalls</h2>
-      <div class="grid3"><div class="box"><h3>Vehicle history report</h3>${L.carfax?`<p>The dealer offers a free Carfax report for this car.</p><a href="${esc(L.carfax)}" target="_blank" rel="noopener">Open the Carfax report</a>`:`<p>Accidents, owners and service records${L.live?". Ask the dealer for a Carfax or AutoCheck report.":", from a Carfax or AutoCheck partner in the live version."}</p>`}</div>
+      <div class="grid3"><div class="box"><h3>Vehicle history report</h3>${L.hist?`<p><b>${esc(histText(L))}</b></p>`:""}${L.carfax?`<p>The dealer offers a free Carfax report for this car.</p><a href="${esc(L.carfax)}" target="_blank" rel="noopener">Open the Carfax report</a>`:`<p>Accidents, owners and service records${L.live?". Ask the dealer for a Carfax or AutoCheck report.":", from a Carfax or AutoCheck partner in the live version."}</p>`}</div>
         <div class="box"><h3>Title check</h3><p>Salvage, flood and odometer brands from the national title database (NMVTIS) in the live version.</p></div>
         <div class="box"><h3>Recalls</h3><p>The live version lists every NHTSA recall for the ${L.year} ${esc(m.make+" "+m.model)}. Ask the seller to confirm each is fixed. After you buy, FitDrive keeps watching for new ones.</p><a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">Check any VIN at NHTSA</a></div></div></section>
     <section class="section" aria-labelledby="wrong-h"><div class="sec-head"><h2 id="wrong-h">What typically goes wrong</h2><span class="pill amber">Example layout</span></div>
@@ -1857,7 +1868,7 @@ function listingHTML(){
       <div class="kv"><div><span>Out the door</span><span>${money(o.total)}</span></div><div><span>All-in a month</span><span><b>${money(c.total)}</b></span></div><div><span>Working budget</span><span>${money(bud().target)}</span></div>${f&&f.overall!=null?`<div><span>Fit for you</span><span><b>${Math.round(f.overall)}/100</b></span></div>`:""}</div>
       <button type="button" class="btn" data-go="ask-${L.id}">Check availability</button>
       <div class="row"><button type="button" class="tbtn" style="flex:1" data-heart="${L.id}" aria-pressed="${saved}">${saved?"Saved":"Save"}</button><button type="button" class="tbtn" style="flex:1" data-cmp="${L.id}" aria-pressed="${inC}">${inC?"In compare":"+ Compare"}</button></div>
-      ${L.url?`<a class="btn ghost" href="${esc(L.url)}" target="_blank" rel="noopener">See it on the dealer's site</a>`:`<button type="button" class="linkbtn" disabled style="opacity:.6;align-self:flex-start;text-decoration:none">Seller's own listing (live version)</button>`}</div>
+      ${L.url?`<a class="btn ghost" href="${esc(L.url)}" target="_blank" rel="noopener">See the full listing</a>`:`<button type="button" class="linkbtn" disabled style="opacity:.6;align-self:flex-start;text-decoration:none">Seller's own listing (live version)</button>`}</div>
     <div class="pricebox"><div class="row" style="justify-content:space-between;flex-wrap:nowrap"><b>Price-drop alert</b><button type="button" class="toggle" data-act="alert" data-id="${L.id}" aria-pressed="${alert}" aria-label="Price-drop alert"><i></i></button></div>
       <p class="hint">${alert?"On. In the live version FitDrive emails you when the price drops, and nothing else.":"Turn it on to hear when the price drops."}</p></div>
     <div class="pricebox"><b>Bought it?</b><p class="hint">See what FitDrive does after you buy: recall alerts, coverage left and reminders.</p><button type="button" class="btn ghost small" data-act="bought" data-id="${L.id}">I bought this car (demo)</button></div>

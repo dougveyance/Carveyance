@@ -1,0 +1,16 @@
+{
+  "name": "Carveyance",
+  "short_name": "Carveyance",
+  "description": "Carveyance: independent car stories, reviews, events and The Paddock.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F9FAF7",
+  "theme_color": "#182F41",
+  "icons": [
+    {"src": "/assets/icons/carveyance-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "/assets/icons/carveyance-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "/assets/icons/carveyance-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}

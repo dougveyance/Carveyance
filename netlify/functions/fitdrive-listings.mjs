@@ -1,4 +1,4 @@
-// FitDrive by Carveyance: real dealer listings for one catalog model near a ZIP code.
+// FitDrive by Carveyance: real dealer listings for one catalog model near a ZIP code (32 models).
 // The browser calls /.netlify/functions/fitdrive-listings?zip=60614&distance=50&model=corolla-h
 // This function adds the auto.dev key (from the AUTODEV_API_KEY environment variable in Netlify),
 // asks auto.dev for listings, keeps only the ones that match the FitDrive model, and returns
@@ -25,6 +25,19 @@ const MODELS = {
   "miata":       { make: "Mazda",     models: ["MX-5 Miata", "MX-5", "Miata"], first: 2020 },
   "bmw330i":     { make: "BMW",       models: ["3 Series", "330i"], need: /330/i, first: 2020 },
   "rx350h":      { make: "Lexus",     models: ["RX", "RX 350h"], need: /350h/i, first: 2023 },
+  "lexus-es-h":  { make: "Lexus",     models: ["ES", "ES 300h"], need: /300h/i, first: 2019 },
+  "bmw-x3":      { make: "BMW",       models: ["X3"], avoid: /\bx3 m\b|competition|30e|plug-in|phev/i, first: 2018 },
+  "bmw-x5":      { make: "BMW",       models: ["X5"], avoid: /\bx5 m\b|competition|45e|50e|plug-in|phev/i, first: 2019 },
+  "merc-c300":   { make: "Mercedes-Benz", models: ["C-Class", "C 300", "C300"], avoid: /amg|coupe|cabriolet|convertible|\bc ?43\b|\bc ?63\b|350e/i, first: 2018 },
+  "merc-glc":    { make: "Mercedes-Benz", models: ["GLC", "GLC 300", "GLC-Class"], avoid: /amg|coupe|\b43\b|\b63\b|350e|plug-in|phev/i, first: 2018 },
+  "merc-gle":    { make: "Mercedes-Benz", models: ["GLE", "GLE 350", "GLE-Class"], avoid: /amg|coupe|\b53\b|\b63\b|400e|450e|plug-in|phev/i, first: 2020 },
+  "audi-q5":     { make: "Audi",      models: ["Q5"], avoid: /sportback|\bsq5\b|55 tfsi e|plug-in|phev/i, first: 2018 },
+  "genesis-gv70":{ make: "Genesis",   models: ["GV70"], avoid: /electrified|electric/i, first: 2022 },
+  "volvo-xc90":  { make: "Volvo",     models: ["XC90"], avoid: /recharge|\bt8\b|plug-in|phev/i, first: 2018 },
+  "model-y":     { make: "Tesla",     models: ["Model Y"], first: 2020 },
+  "porsche-macan":   { make: "Porsche", models: ["Macan"], avoid: /electric/i, first: 2018, last: 2025 },
+  "porsche-cayenne": { make: "Porsche", models: ["Cayenne"], avoid: /e-hybrid|plug-in|coupe|turbo gt/i, first: 2019 },
+  "porsche-911":     { make: "Porsche", models: ["911"], avoid: /gt3|gt2|turbo s|\brs\b|dakar|s\/t|sport classic/i, first: 2017 },
 };
 
 const json = (status, body, cache) => new Response(JSON.stringify(body), {
@@ -77,8 +90,8 @@ export default async (req) => {
   const q = [
     "vehicle.make=" + encodeURIComponent(spec.make),
     "vehicle.model=" + spec.models.map(encodeURIComponent).join(","),
-    "vehicle.year=" + Math.max(spec.first, year - 13) + "-" + (year + 1),
-    "retailListing.price=1-80000",
+    "vehicle.year=" + Math.max(spec.first, year - 13) + "-" + Math.min(spec.last || 9999, year + 1),
+    "retailListing.price=1-100000",
     "zip=" + zip,
     "distance=" + distance,
     "limit=20",

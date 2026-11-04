@@ -60,6 +60,28 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    "slug": "shaken-not-rushed",
+    "seoTitle": "TVR Chimaera: Why It Became TVR's Best-Selling Car",
+    "title": "Shaken, Not Rushed",
+    "subtitle": "Dressed for dinner, packed for the Riviera and carrying a V8 it would rather not have to use: a long weekend in the TVR people fell for and kept",
+    "category": "Reviews",
+    "date": "2026-11-04",
+    "readTime": "14 min",
+    "blurb": "A long weekend from Calais to the Riviera in the TVR Chimaera, the spy on holiday: a trunk for 2 golf bags, a face partly designed by the boss's dog, Jaguar XK8 manners for about half the price, and why it became the TVR people married instead of just dating.",
+    "image": "/assets/images/shaken-not-rushed.jpg",
+    "vehicles": [
+      "TVR Chimaera",
+      "TVR Chimaera 400",
+      "TVR Chimaera 450",
+      "TVR Chimaera 500",
+      "TVR Griffith",
+      "TVR Cerbera",
+      "Jaguar XK8",
+      "Mazda MX-5 Miata"
+    ],
+    "featured": false
+  },
+  {
     "slug": "the-world-is-your-driveway",
     "seoTitle": "Campervan Swaps and $1 RV Relocations: How They Work",
     "title": "The World Is Your Driveway",

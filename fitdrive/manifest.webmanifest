@@ -1,0 +1,29 @@
+{
+  "name": "FitDrive by Carveyance",
+  "short_name": "FitDrive",
+  "description": "Tell it how you live and drive, and see the cars that fit with their true monthly cost.",
+  "id": "/fitdrive/",
+  "start_url": "/fitdrive/",
+  "scope": "/fitdrive/",
+  "display": "standalone",
+  "background_color": "#F5F7FA",
+  "theme_color": "#111827",
+  "icons": [
+    {
+      "src": "/fitdrive/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/fitdrive/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/fitdrive/icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

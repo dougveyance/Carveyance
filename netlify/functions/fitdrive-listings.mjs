@@ -1,5 +1,6 @@
 // FitDrive by Carveyance: real dealer listings for one catalog model near a ZIP code (32 models).
 // The browser calls /.netlify/functions/fitdrive-listings?zip=60614&distance=50&model=corolla-h
+// (or &nationwide=1 with no ZIP for cars anywhere in the country).
 // This function adds the auto.dev key (from the AUTODEV_API_KEY environment variable in Netlify),
 // asks auto.dev for listings, keeps only the ones that match the FitDrive model, and returns
 // a short list. The key never reaches the browser. Results are cached for 12 hours per
@@ -40,6 +41,52 @@ const MODELS = {
   "porsche-911":     { make: "Porsche", models: ["911"], avoid: /gt3|gt2|turbo s|\brs\b|dakar|s\/t|sport classic/i, first: 2017 },
 };
 
+// NHTSA 5-Star Safety Ratings: the model names NHTSA uses for each FitDrive model, best match first.
+const NHTSA = {
+  "corolla-h": [/^COROLLA HYBRID$/], "civic": [/^CIVIC HATCHBACK$/, /^CIVIC$/], "versa": [/^VERSA$/, /^VERSA SEDAN$/],
+  "rav4-h": [/^RAV4 HYBRID$/], "crv-h": [/^CR-V HYBRID$/, /^CR-V$/], "cx5": [/^CX-5$/], "outback": [/^OUTBACK$/],
+  "sienna": [/^SIENNA HYBRID$/, /^SIENNA$/], "telluride": [/^TELLURIDE$/], "f150": [/^F-150.*SUPER ?CREW(?!.*(HEV|BEV|LIGHTNING|HYBRID))/],
+  "maverick-h": [/^MAVERICK (HEV|HYBRID)$/, /^MAVERICK$/], "4runner": [/^4RUNNER$/], "tucson-phev": [/^TUCSON (PHEV|PLUG-IN HYBRID)$/],
+  "model3": [/^MODEL 3/], "ioniq5": [/^IONIQ 5$/], "equinox-ev": [/^EQUINOX EV$/], "miata": [/^MX-5/],
+  "bmw330i": [/^3 SERIES SEDAN$/, /^3 SERIES$/], "rx350h": [/^RX 350H$/], "lexus-es-h": [/^ES 300H$/],
+  "bmw-x3": [/^X3$/], "bmw-x5": [/^X5$/], "merc-c300": [/^C-CLASS$/, /^C-CLASS SEDAN$/], "merc-glc": [/^GLC$/, /^GLC SUV$/],
+  "merc-gle": [/^GLE$/, /^GLE SUV$/], "audi-q5": [/^Q5$/], "genesis-gv70": [/^GV70$/], "volvo-xc90": [/^XC90( B5| B6| T5| T6)?$/],
+  "model-y": [/^MODEL Y/], "porsche-macan": [/^MACAN$/], "porsche-cayenne": [/^CAYENNE$/], "porsche-911": [/^911 CARRERA$/],
+};
+const NHTSA_BASE = "https://api.nhtsa.gov/SafetyRatings";
+const stars = (v) => { const n = parseInt(v, 10); return n >= 1 && n <= 5 ? n : null; };
+async function nhtsaJson(path) {
+  const r = await fetch(NHTSA_BASE + path + (path.includes("?") ? "&" : "?") + "format=json");
+  if (!r.ok) throw new Error("nhtsa " + r.status);
+  const j = await r.json(); return Array.isArray(j.Results) ? j.Results : [];
+}
+// Crash test ratings for one model year: /.netlify/functions/fitdrive-listings?ratings=corolla-h&year=2024
+async function ratings(id, year) {
+  const spec = MODELS[id], pats = NHTSA[id];
+  if (!spec || !pats || !/^\d{4}$/.test(year)) return json(400, { ok: false, error: "bad_request" });
+  const long = { "Cache-Control": "public, max-age=86400", "Netlify-CDN-Cache-Control": "public, durable, max-age=2592000",
+    "Netlify-Vary": "query=ratings|year", "Content-Type": "application/json; charset=utf-8" };
+  try {
+    const make = encodeURIComponent(spec.make.toLowerCase());
+    const names = (await nhtsaJson(`/modelyear/${year}/make/${make}`)).map((x) => String(x.Model || ""));
+    let pick = [];
+    for (const re of pats) { pick = names.filter((n) => re.test(n.toUpperCase())); if (pick.length) break; }
+    const variants = [];
+    for (const name of pick.slice(0, 2)) {
+      const ids = (await nhtsaJson(`/modelyear/${year}/make/${make}/model/${encodeURIComponent(name)}`)).slice(0, 4);
+      for (const v of ids) {
+        const d = (await nhtsaJson(`/VehicleId/${v.VehicleId}`))[0] || {};
+        variants.push({ desc: d.VehicleDescription || v.VehicleDescription || "", overall: stars(d.OverallRating),
+          front: stars(d.OverallFrontCrashRating), side: stars(d.OverallSideCrashRating), rollover: stars(d.RolloverRating),
+          recalls: Number(d.RecallsCount) || 0, complaints: Number(d.ComplaintsCount) || 0, vehicleId: v.VehicleId });
+      }
+    }
+    return new Response(JSON.stringify({ ok: true, id, year: +year, model: pick[0] || null, variants }), { status: 200, headers: long });
+  } catch (e) {
+    return json(502, { ok: false, error: "nhtsa_unavailable" });
+  }
+}
+
 const json = (status, body, cache) => new Response(JSON.stringify(body), {
   status,
   headers: {
@@ -47,7 +94,7 @@ const json = (status, body, cache) => new Response(JSON.stringify(body), {
     ...(cache ? {
       "Cache-Control": "public, max-age=600",
       "Netlify-CDN-Cache-Control": "public, durable, max-age=43200, stale-while-revalidate=86400",
-      "Netlify-Vary": "query=zip|distance|model",
+      "Netlify-Vary": "query=zip|distance|model|photos|nationwide",
     } : { "Cache-Control": "no-store" }),
   },
 });
@@ -68,18 +115,49 @@ function pick(item, year) {
     dealer, city: r.city || "", state: r.state || "", zip: r.zip || "",
     vdp: r.vdp || r.vdpUrl || "", photo: r.primaryImage || "", photoCount: num(r.photoCount) || 0,
     carfax: r.carfaxUrl || "", createdAt: item.createdAt || null,
+    loc: Array.isArray(item.location) && item.location.length === 2 && num(item.location[0]) != null && num(item.location[1]) != null
+      ? [num(item.location[1]), num(item.location[0])] : null,
     history: h ? { accidents: h.accidents === true, accidentCount: num(h.accidentCount), ownerCount: num(h.ownerCount),
       oneOwner: h.oneOwner === true, usage: h.usageType || "" } : null,
   };
 }
 
+// Photo gallery for one car: /.netlify/functions/fitdrive-listings?photos=VIN
+async function photos(vin, key) {
+  if (!/^[A-HJ-NPR-Z0-9]{17}$/i.test(vin)) return json(400, { ok: false, error: "bad_vin" });
+  let res;
+  try {
+    res = await fetch("https://api.auto.dev/photos/" + encodeURIComponent(vin.toUpperCase()), {
+      headers: { Authorization: "Bearer " + key, "Content-Type": "application/json" },
+    });
+  } catch (e) {
+    return json(502, { ok: false, error: "upstream_unreachable" });
+  }
+  if (res.status === 404) return json(200, { ok: true, vin, photos: [] }, true);
+  if (res.status === 429) return json(429, { ok: false, error: "rate_limited" });
+  if (!res.ok) return json(502, { ok: false, error: "upstream_error", status: res.status });
+  let body;
+  try { body = await res.json(); } catch (e) { return json(502, { ok: false, error: "upstream_bad_json" }); }
+  const list = body && body.data && Array.isArray(body.data.retail) ? body.data.retail : [];
+  return json(200, { ok: true, vin, photos: list.filter((u) => typeof u === "string" && /^https:\/\//.test(u)).slice(0, 40) }, true);
+}
+
 export default async (req) => {
   const url = new URL(req.url);
+  const ratingId = url.searchParams.get("ratings");
+  if (ratingId) return ratings(ratingId, url.searchParams.get("year") || "");
+  const photoVin = url.searchParams.get("photos");
+  if (photoVin) {
+    const k = (globalThis.Netlify && Netlify.env && Netlify.env.get("AUTODEV_API_KEY")) || process.env.AUTODEV_API_KEY;
+    if (!k) return json(500, { ok: false, error: "missing_key" });
+    return photos(photoVin, k);
+  }
   const zip = url.searchParams.get("zip") || "";
   const model = url.searchParams.get("model") || "";
   const distance = Math.min(200, Math.max(10, parseInt(url.searchParams.get("distance") || "50", 10) || 50));
   const debug = url.searchParams.get("debug") === "1";
-  if (!/^\d{5}$/.test(zip)) return json(400, { ok: false, error: "bad_zip" });
+  const nationwide = url.searchParams.get("nationwide") === "1";
+  if (!nationwide && !/^\d{5}$/.test(zip)) return json(400, { ok: false, error: "bad_zip" });
   const spec = MODELS[model];
   if (!spec) return json(400, { ok: false, error: "unknown_model" });
 
@@ -87,14 +165,17 @@ export default async (req) => {
   if (!key) return json(500, { ok: false, error: "missing_key", hint: "Add AUTODEV_API_KEY in Netlify, then redeploy." });
 
   const year = new Date().getFullYear();
+  // Results per search: 20 on auto.dev's free plan. After upgrading, set AUTODEV_LIMIT in Netlify (Growth allows 100).
+  const limitEnv = (globalThis.Netlify && Netlify.env && Netlify.env.get("AUTODEV_LIMIT")) || process.env.AUTODEV_LIMIT;
+  const limit = Math.min(500, Math.max(1, parseInt(limitEnv || "20", 10) || 20));
+  // Nationwide: no ZIP, the last 8 model years, cheapest first, so shipping a car in can be worth it.
   const q = [
     "vehicle.make=" + encodeURIComponent(spec.make),
     "vehicle.model=" + spec.models.map(encodeURIComponent).join(","),
-    "vehicle.year=" + Math.max(spec.first, year - 13) + "-" + Math.min(spec.last || 9999, year + 1),
+    "vehicle.year=" + Math.max(spec.first, year - (nationwide ? 8 : 13)) + "-" + Math.min(spec.last || 9999, year + 1),
     "retailListing.price=1-100000",
-    "zip=" + zip,
-    "distance=" + distance,
-    "limit=20",
+    ...(nationwide ? ["sort=price.asc"] : ["zip=" + zip, "distance=" + distance]),
+    "limit=" + limit,
   ].join("&");
 
   let res;
@@ -120,7 +201,7 @@ export default async (req) => {
     return true;
   });
 
-  const out = { ok: true, model, zip, distance, count: listings.length, listings };
+  const out = { ok: true, model, zip: nationwide ? null : zip, distance: nationwide ? null : distance, nationwide, count: listings.length, listings };
   if (debug) { out.raw = rows.slice(0, 2); out.query = q; }
   return json(200, out, !debug);
 };

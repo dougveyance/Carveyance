@@ -6,6 +6,14 @@
 <meta name="robots" content="noindex,nofollow">
 <title>FitDrive by Carveyance</title>
 <meta name="description" content="FitDrive by Carveyance: tell it how you live and drive, and see the cars that fit with their true monthly cost.">
+<link rel="manifest" href="/fitdrive/manifest.webmanifest">
+<meta name="theme-color" content="#111827">
+<link rel="icon" type="image/png" sizes="192x192" href="/fitdrive/icons/icon-192.png">
+<link rel="apple-touch-icon" href="/fitdrive/icons/apple-touch-icon.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="FitDrive">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,500..800&family=Public+Sans:wght@400;500;600;700&family=Bebas+Neue&display=swap">
@@ -492,6 +500,24 @@ ul.plain{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:5px;f
 .copybox{width:100%;min-height:120px;font-size:13px}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 
+.tries{display:grid;gap:10px;margin-top:16px}
+.try{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:16px}
+.try-id{display:flex;flex-direction:column;gap:6px;flex:1 1 320px;min-width:0}
+.try-id p{margin:0}
+.try-act{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+
+.gallery{display:flex;flex-direction:column;gap:8px}
+.thumbs{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px;scrollbar-width:thin}
+.thumb{flex:0 0 96px;height:64px;padding:0;border:2px solid transparent;border-radius:8px;overflow:hidden;background:var(--art-bg);cursor:pointer}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.thumb.on{border-color:var(--blue)}
+.vinrow{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:6px 0 0}
+.vin{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:.04em;user-select:all;color:var(--ink)}
+
+.stars{color:#E3A008;letter-spacing:1px;font-size:1.05em}
+.grid4{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px}
+.stars .off{color:var(--line2)}
+
 </style>
 </head>
 <body>
@@ -528,6 +554,7 @@ const FITDRIVE_LIVE=true;
    sales and use tax rates operative Oct 1, 2026, matched to each ZIP's postal city (a ZIP that
    crosses a city line gets its postal city's rate). */
 const ZIP3_STATE="005NY006PR008VI009PR010MA028RI030NH039ME050VT055MA056VT060CT070NJ090AE100NY150PA197DE200DC201VA202DC206MD220VA247WV270NC290SC300GA320FL340AA341FL350AL370TN386MS398GA400KY430OH460IN480MI500IA530WI550MN569DC570SD580ND590MT600IL630MO660KS680NE700LA716AR730OK733TX734OK750TX800CO820WY832ID840UT850AZ870NM885TX889NV900CA962AP967HI969GU970OR980WA995AK";
+const ZIP3_LL={"005":[4082,-7305],"006":[1829,-6685],"007":[1815,-6611],"008":[1800,-6482],"009":[1839,-6608],"010":[4226,-7257],"011":[4212,-7257],"012":[4235,-7323],"013":[4259,-7258],"014":[4259,-7178],"015":[4222,-7182],"016":[4228,-7183],"017":[4235,-7145],"018":[4262,-7119],"019":[4260,-7090],"020":[4215,-7105],"021":[4233,-7107],"022":[4235,-7103],"023":[4201,-7089],"024":[4236,-7122],"025":[4158,-7055],"026":[4173,-7017],"027":[4176,-7108],"028":[4167,-7152],"029":[4182,-7143],"030":[4288,-7148],"031":[4299,-7146],"032":[4352,-7165],"033":[4325,-7156],"034":[4291,-7220],"035":[4449,-7148],"036":[4317,-7234],"037":[4370,-7215],"038":[4337,-7104],"039":[4319,-7071],"040":[4373,-7051],"041":[4367,-7025],"042":[4431,-7037],"043":[4430,-6978],"044":[4512,-6872],"045":[4395,-6957],"046":[4454,-6801],"047":[4671,-6827],"048":[4411,-6911],"049":[4476,-6965],"050":[4382,-7239],"051":[4325,-7262],"052":[4303,-7314],"053":[4293,-7274],"054":[4459,-7304],"055":[4265,-7118],"056":[4433,-7257],"057":[4366,-7305],"058":[4467,-7213],"059":[4479,-7165],"060":[4186,-7279],"061":[4178,-7270],"062":[4183,-7209],"063":[4149,-7204],"064":[4143,-7279],"065":[4132,-7293],"066":[4119,-7319],"067":[4163,-7316],"068":[4120,-7343],"069":[4107,-7354],"070":[4076,-7423],"071":[4075,-7419],"072":[4067,-7423],"073":[4073,-7406],"074":[4104,-7430],"075":[4094,-7420],"076":[4093,-7402],"077":[4031,-7411],"078":[4094,-7476],"079":[4075,-7452],"080":[3982,-7498],"081":[3993,-7509],"082":[3927,-7468],"083":[3943,-7503],"084":[3935,-7447],"085":[4028,-7467],"086":[4025,-7472],"087":[3998,-7414],"088":[4054,-7463],"089":[4048,-7445],"090":[3163,569],"091":[4954,905],"092":[4269,761],"093":[515,135],"094":[3835,-58],"095":[122,-460],"096":[2681,939],"097":[2525,194],"098":[2538,3362],"100":[4075,-7398],"101":[4077,-7398],"102":[4073,-6937],"103":[4059,-7415],"104":[4085,-7388],"105":[4118,-7378],"106":[4105,-7377],"107":[4095,-7386],"108":[4092,-7379],"109":[4126,-7417],"110":[4075,-7368],"111":[4076,-7393],"112":[4066,-7396],"113":[4074,-7384],"114":[4069,-7381],"115":[4071,-7363],"116":[4060,-7382],"117":[4080,-7325],"118":[4077,-7352],"119":[4092,-7255],"120":[4269,-7394],"121":[4269,-7393],"122":[4266,-7376],"123":[4281,-7395],"124":[4208,-7421],"125":[4177,-7386],"126":[4173,-7382],"127":[4169,-7477],"128":[4349,-7372],"129":[4457,-7392],"130":[4298,-7619],"131":[4307,-7627],"132":[4305,-7616],"133":[4315,-7523],"134":[4311,-7527],"135":[4310,-7523],"136":[4429,-7553],"137":[4225,-7554],"138":[4233,-7557],"139":[4211,-7589],"140":[4280,-7863],"141":[4282,-7872],"142":[4287,-7885],"143":[4310,-7903],"144":[4297,-7761],"145":[4295,-7749],"146":[4319,-7763],"147":[4220,-7886],"148":[4231,-7711],"149":[4210,-7682],"150":[4047,-8006],"151":[4043,-7993],"152":[4044,-8000],"153":[4004,-8016],"154":[3995,-7975],"155":[3997,-7889],"156":[4032,-7954],"157":[4073,-7903],"158":[4125,-7871],"159":[4036,-7886],"160":[4094,-7988],"161":[4115,-8035],"162":[4101,-7939],"163":[4158,-7955],"164":[4189,-8003],"165":[4213,-8007],"166":[4048,-7835],"167":[4181,-7850],"168":[4094,-7799],"169":[4183,-7727],"170":[4040,-7703],"171":[4028,-7686],"172":[4000,-7777],"173":[3990,-7688],"174":[3996,-7670],"175":[4006,-7624],"176":[4004,-7631],"177":[4128,-7714],"178":[4088,-7680],"179":[4071,-7627],"180":[4064,-7545],"181":[4060,-7550],"182":[4091,-7595],"183":[4108,-7523],"184":[4156,-7541],"185":[4140,-7567],"186":[4131,-7606],"187":[4126,-7588],"188":[4182,-7608],"189":[4035,-7518],"190":[4001,-7522],"191":[3999,-7514],"192":[4000,-7512],"193":[3993,-7572],"194":[4017,-7543],"195":[4041,-7588],"196":[4035,-7594],"197":[3963,-7564],"198":[3971,-7557],"199":[3888,-7544],"200":[3890,-7702],"201":[3893,-7758],"202":[3889,-7702],"203":[3889,-7702],"204":[3890,-7702],"205":[3889,-7703],"206":[3840,-7673],"207":[3891,-7683],"208":[3911,-7716],"209":[3901,-7702],"210":[3937,-7657],"211":[3939,-7664],"212":[3931,-7661],"214":[3899,-7652],"215":[3959,-7897],"216":[3887,-7603],"217":[3950,-7748],"218":[3827,-7561],"219":[3957,-7595],"220":[3884,-7726],"221":[3879,-7725],"222":[3888,-7710],"223":[3880,-7708],"224":[3813,-7707],"225":[3805,-7700],"226":[3903,-7822],"227":[3847,-7806],"228":[3856,-7882],"229":[3804,-7857],"230":[3759,-7713],"231":[3755,-7705],"232":[3752,-7746],"233":[3737,-7596],"234":[3724,-7600],"235":[3689,-7626],"236":[3711,-7644],"237":[3684,-7634],"238":[3697,-7744],"239":[3702,-7841],"240":[3720,-8004],"241":[3708,-8015],"242":[3683,-8247],"243":[3684,-8113],"244":[3808,-7936],"245":[3714,-7914],"246":[3720,-8180],"247":[3740,-8122],"248":[3747,-8164],"249":[3785,-8042],"250":[3820,-8149],"251":[3823,-8153],"252":[3862,-8156],"253":[3834,-8162],"254":[3940,-7804],"255":[3829,-8217],"256":[3776,-8205],"257":[3841,-8234],"258":[3779,-8121],"259":[3778,-8106],"260":[4017,-8063],"261":[3922,-8129],"262":[3877,-8006],"263":[3920,-8052],"264":[3926,-8040],"265":[3957,-8011],"266":[3846,-8081],"267":[3936,-7896],"268":[3895,-7902],"270":[3625,-8040],"271":[3607,-8024],"272":[3589,-7969],"273":[3596,-7965],"274":[3608,-7980],"275":[3588,-7857],"276":[3581,-7863],"277":[3602,-7889],"278":[3591,-7743],"279":[3610,-7619],"280":[3537,-8102],"281":[3529,-8077],"282":[3523,-8082],"283":[3498,-7899],"284":[3430,-7820],"285":[3501,-7712],"286":[3607,-8137],"287":[3544,-8268],"288":[3560,-8254],"289":[3508,-8395],"290":[3397,-8082],"291":[3389,-8088],"292":[3402,-8101],"293":[3487,-8191],"294":[3297,-8010],"295":[3407,-7941],"296":[3468,-8256],"297":[3488,-8095],"298":[3352,-8176],"299":[3254,-8090],"300":[3388,-8419],"301":[3402,-8487],"302":[3333,-8448],"303":[3380,-8439],"304":[3242,-8212],"305":[3452,-8372],"306":[3389,-8327],"307":[3476,-8509],"308":[3334,-8236],"309":[3344,-8206],"310":[3260,-8346],"311":[3382,-8439],"312":[3282,-8366],"313":[3192,-8142],"314":[3202,-8110],"315":[3134,-8213],"316":[3099,-8321],"317":[3146,-8387],"318":[3252,-8472],"319":[3248,-8493],"320":[3016,-8212],"321":[2931,-8143],"322":[3031,-8163],"323":[3034,-8427],"324":[3049,-8558],"325":[3053,-8700],"326":[2960,-8245],"327":[2878,-8130],"328":[2852,-8131],"329":[2803,-8059],"330":[2577,-8041],"331":[2577,-8026],"332":[2577,-8020],"333":[2613,-8021],"334":[2661,-8018],"335":[2809,-8227],"336":[2794,-8246],"337":[2786,-8273],"338":[2790,-8171],"339":[2669,-8190],"340":[144,-4919],"341":[2614,-8166],"342":[2731,-8242],"344":[2902,-8232],"346":[2830,-8261],"347":[2850,-8161],"349":[2730,-8039],"350":[3357,-8671],"351":[3350,-8663],"352":[3351,-8684],"354":[3314,-8772],"355":[3397,-8764],"356":[3470,-8730],"357":[3474,-8635],"358":[3472,-8658],"359":[3428,-8595],"360":[3216,-8614],"361":[3231,-8625],"362":[3358,-8571],"363":[3129,-8555],"364":[3141,-8707],"365":[3088,-8794],"366":[3068,-8811],"367":[3231,-8739],"368":[3257,-8533],"369":[3214,-8825],"370":[3612,-8685],"371":[3606,-8671],"372":[3617,-8679],"373":[3527,-8535],"374":[3504,-8528],"375":[3516,-9002],"376":[3638,-8236],"377":[3616,-8387],"378":[3610,-8378],"379":[3597,-8397],"380":[3549,-8947],"381":[3516,-8996],"382":[3628,-8875],"383":[3561,-8856],"384":[3530,-8730],"385":[3619,-8542],"386":[3459,-8983],"387":[3357,-9081],"388":[3431,-8866],"389":[3377,-8995],"390":[3245,-9016],"391":[3236,-9025],"392":[3230,-9018],"393":[3237,-8882],"394":[3133,-8930],"395":[3044,-8900],"396":[3135,-9054],"397":[3353,-8883],"398":[3131,-8465],"399":[3389,-8407],"400":[3812,-8533],"401":[3787,-8613],"402":[3821,-8570],"403":[3806,-8419],"404":[3752,-8442],"405":[3803,-8448],"406":[3823,-8487],"407":[3698,-8408],"408":[3690,-8328],"409":[3694,-8371],"410":[3879,-8440],"411":[3837,-8295],"412":[3786,-8271],"413":[3757,-8351],"414":[3784,-8314],"415":[3745,-8237],"416":[3750,-8274],"417":[3724,-8322],"418":[3722,-8286],"420":[3691,-8858],"421":[3689,-8606],"422":[3696,-8697],"423":[3750,-8704],"424":[3751,-8767],"425":[3714,-8470],"426":[3678,-8469],"427":[3734,-8574],"430":[4016,-8292],"431":[3971,-8289],"432":[3999,-8299],"433":[4053,-8334],"434":[4146,-8329],"435":[4146,-8413],"436":[4167,-8352],"437":[3985,-8169],"438":[4027,-8185],"439":[4022,-8085],"440":[4155,-8139],"441":[4149,-8167],"442":[4112,-8158],"443":[4108,-8153],"444":[4110,-8075],"445":[4108,-8068],"446":[4067,-8146],"447":[4081,-8138],"448":[4103,-8276],"449":[4076,-8252],"450":[3939,-8449],"451":[3911,-8392],"452":[3917,-8450],"453":[3999,-8428],"454":[3975,-8420],"455":[3993,-8381],"456":[3893,-8282],"457":[3935,-8181],"458":[4083,-8419],"459":[3917,-8454],"460":[4015,-8603],"461":[3965,-8616],"462":[3980,-8614],"463":[4144,-8716],"464":[4156,-8734],"465":[4146,-8605],"466":[4167,-8626],"467":[4117,-8520],"468":[4109,-8510],"469":[4072,-8610],"470":[3916,-8507],"471":[3838,-8597],"472":[3906,-8575],"473":[4006,-8521],"474":[3904,-8666],"475":[3841,-8700],"476":[3815,-8745],"477":[3800,-8757],"478":[3946,-8732],"479":[4040,-8705],"480":[4267,-8292],"481":[4222,-8350],"482":[4235,-8310],"483":[4263,-8332],"484":[4324,-8329],"485":[4301,-8371],"486":[4381,-8428],"487":[4390,-8357],"488":[4303,-8468],"489":[4272,-8457],"490":[4222,-8558],"491":[4189,-8643],"492":[4205,-8434],"493":[4321,-8555],"494":[4323,-8613],"495":[4297,-8562],"496":[4455,-8563],"497":[4558,-8455],"498":[4607,-8720],"499":[4674,-8883],"500":[4170,-9378],"501":[4160,-9347],"502":[4168,-9356],"503":[4164,-9360],"504":[4316,-9334],"505":[4275,-9444],"506":[4263,-9245],"507":[4247,-9231],"508":[4096,-9455],"509":[4165,-9358],"510":[4260,-9591],"511":[4248,-9639],"512":[4326,-9603],"513":[4325,-9511],"514":[4209,-9507],"515":[4145,-9556],"516":[4073,-9536],"520":[4248,-9095],"521":[4316,-9173],"522":[4189,-9175],"523":[4190,-9172],"524":[4204,-9164],"525":[4096,-9243],"526":[4087,-9145],"527":[4166,-9074],"528":[4157,-9059],"530":[4345,-8821],"531":[4274,-8822],"532":[4305,-8795],"534":[4273,-8778],"535":[4294,-8961],"537":[4307,-8940],"538":[4282,-9075],"539":[4361,-8952],"540":[4507,-9249],"541":[4486,-8824],"542":[4455,-8756],"543":[4449,-8803],"544":[4487,-8980],"545":[4591,-8988],"546":[4386,-9091],"547":[4483,-9159],"548":[4603,-9163],"549":[4421,-8883],"550":[4505,-9302],"551":[4496,-9311],"553":[4498,-9387],"554":[4498,-9330],"555":[4502,-9372],"556":[4749,-9101],"557":[4717,-9278],"558":[4679,-9213],"559":[4390,-9229],"560":[4400,-9397],"561":[4390,-9567],"562":[4502,-9566],"563":[4575,-9460],"564":[4658,-9451],"565":[4684,-9613],"566":[4784,-9445],"567":[4843,-9634],"569":[3889,-7703],"570":[4348,-9701],"571":[4359,-9674],"572":[4504,-9710],"573":[4380,-9840],"574":[4535,-9874],"575":[4375,-10042],"576":[4554,-10137],"577":[4409,-10309],"580":[4668,-9731],"581":[4687,-9680],"582":[4821,-9761],"583":[4835,-9920],"584":[4695,-9902],"585":[4679,-10090],"586":[4677,-10290],"587":[4836,-10156],"588":[4824,-10351],"590":[4582,-10867],"591":[4580,-10852],"592":[4832,-10530],"593":[4631,-10537],"594":[4774,-11122],"595":[4849,-10942],"596":[4655,-11192],"597":[4569,-11212],"598":[4701,-11427],"599":[4832,-11446],"600":[4222,-8800],"601":[4197,-8822],"602":[4202,-8769],"603":[4190,-8782],"604":[4153,-8791],"605":[4174,-8828],"606":[4186,-8767],"607":[4195,-8777],"608":[4172,-8771],"609":[4082,-8793],"610":[4221,-8952],"611":[4230,-8910],"612":[4149,-9036],"613":[4134,-8921],"614":[4084,-9041],"615":[4069,-8970],"616":[4072,-8963],"617":[4050,-8892],"618":[4010,-8813],"619":[3968,-8822],"620":[3906,-9000],"622":[3844,-8980],"623":[4003,-9106],"624":[3905,-8821],"625":[3971,-8922],"626":[3982,-8999],"627":[3978,-8962],"628":[3831,-8868],"629":[3755,-8899],"630":[3845,-9066],"631":[3864,-9029],"633":[3895,-9101],"634":[3997,-9178],"635":[4020,-9259],"636":[3765,-9062],"637":[3733,-8977],"638":[3650,-8979],"639":[3685,-9051],"640":[3909,-9422],"641":[3911,-9457],"644":[4011,-9468],"645":[3975,-9484],"646":[3987,-9357],"647":[3809,-9420],"648":[3697,-9437],"649":[3902,-9457],"650":[3846,-9228],"651":[3857,-9218],"652":[3918,-9239],"653":[3876,-9325],"654":[3769,-9182],"655":[3764,-9191],"656":[3706,-9312],"657":[3705,-9299],"658":[3722,-9330],"660":[3893,-9511],"661":[3910,-9469],"662":[3896,-9471],"664":[3939,-9606],"665":[3933,-9611],"666":[3904,-9570],"667":[3760,-9509],"668":[3835,-9638],"669":[3978,-9771],"670":[3756,-9760],"671":[3755,-9767],"672":[3769,-9734],"673":[3719,-9576],"674":[3894,-9774],"675":[3823,-9883],"676":[3932,-9940],"677":[3934,-10108],"678":[3780,-10066],"679":[3714,-10138],"680":[4147,-9642],"681":[4125,-9600],"683":[4047,-9683],"684":[4054,-9661],"685":[4082,-9669],"686":[4148,-9751],"687":[4239,-9772],"688":[4114,-9892],"689":[4035,-9881],"690":[4033,-10087],"691":[4128,-10160],"692":[4275,-10061],"693":[4216,-10303],"700":[2988,-9016],"701":[2996,-9007],"703":[2968,-9078],"704":[3057,-9020],"705":[3023,-9212],"706":[3039,-9319],"707":[3051,-9117],"708":[3048,-9111],"710":[3249,-9348],"711":[3255,-9375],"712":[3255,-9201],"713":[3132,-9202],"714":[3155,-9286],"716":[3370,-9176],"717":[3350,-9280],"718":[3367,-9381],"719":[3440,-9351],"720":[3496,-9199],"721":[3490,-9209],"722":[3476,-9234],"723":[3511,-9052],"724":[3604,-9074],"725":[3600,-9179],"726":[3617,-9286],"727":[3617,-9416],"728":[3528,-9339],"729":[3534,-9424],"730":[3531,-9774],"731":[3549,-9749],"733":[3033,-9777],"734":[3423,-9717],"735":[3453,-9872],"736":[3550,-9928],"737":[3638,-9812],"738":[3646,-9947],"739":[3673,-10153],"740":[3626,-9618],"741":[3614,-9597],"743":[3654,-9497],"744":[3565,-9544],"745":[3466,-9570],"746":[3669,-9715],"747":[3401,-9558],"748":[3517,-9669],"749":[3521,-9470],"750":[3303,-9678],"751":[3255,-9647],"752":[3280,-9679],"753":[3277,-9678],"754":[3336,-9581],"755":[3328,-9434],"756":[3246,-9464],"757":[3226,-9533],"758":[3150,-9570],"759":[3130,-9439],"760":[3267,-9734],"761":[3276,-9731],"762":[3340,-9728],"763":[3380,-9875],"764":[3253,-9846],"765":[3109,-9755],"766":[3176,-9703],"767":[3155,-9717],"768":[3133,-9933],"769":[3142,-10057],"770":[2978,-9541],"772":[2981,-9542],"773":[3035,-9534],"774":[2948,-9594],"775":[2958,-9504],"776":[3009,-9413],"777":[3009,-9414],"778":[3066,-9633],"779":[2890,-9692],"780":[2893,-9889],"781":[2920,-9798],"782":[2946,-9850],"783":[2772,-9784],"784":[2777,-9743],"785":[2627,-9805],"786":[3028,-9791],"787":[3031,-9776],"788":[2926,-10011],"789":[2992,-9682],"790":[3534,-10154],"791":[3525,-10186],"792":[3427,-10067],"793":[3351,-10219],"794":[3357,-10187],"795":[3265,-10020],"796":[3244,-9975],"797":[3172,-10247],"798":[3077,-10476],"799":[3176,-10640],"800":[3980,-10492],"801":[3951,-10484],"802":[3974,-10498],"803":[4003,-10529],"804":[3983,-10592],"805":[4041,-10513],"806":[4033,-10463],"807":[4048,-10309],"808":[3908,-10383],"809":[3885,-10477],"810":[3790,-10378],"811":[3741,-10619],"812":[3851,-10613],"813":[3743,-10843],"814":[3843,-10801],"815":[3906,-10861],"816":[3970,-10738],"820":[4129,-10506],"821":[4480,-11061],"822":[4230,-10455],"823":[4165,-10715],"824":[4445,-10838],"825":[4314,-10878],"826":[4299,-10660],"827":[4434,-10484],"828":[4470,-10684],"829":[4174,-10987],"830":[4361,-11072],"831":[4254,-11072],"832":[4291,-11238],"833":[4282,-11426],"834":[4402,-11213],"835":[4617,-11631],"836":[4388,-11634],"837":[4356,-11623],"838":[4768,-11656],"840":[4063,-11142],"841":[4071,-11189],"842":[4125,-11198],"843":[4171,-11209],"844":[4124,-11196],"845":[3868,-11028],"846":[3955,-11186],"847":[3778,-11271],"850":[3349,-11208],"851":[3306,-11152],"852":[3331,-11172],"853":[3347,-11288],"855":[3333,-11032],"856":[3183,-11047],"857":[3223,-11094],"859":[3421,-10990],"860":[3570,-11122],"863":[3469,-11229],"864":[3522,-11418],"865":[3575,-10946],"870":[3522,-10677],"871":[3508,-10665],"873":[3550,-10856],"874":[3671,-10825],"875":[3610,-10592],"876":[3299,-10697],"877":[3603,-10495],"878":[3405,-10776],"879":[3296,-10730],"880":[3243,-10752],"881":[3420,-10349],"882":[3281,-10389],"883":[3325,-10563],"884":[3566,-10379],"885":[3170,-10630],"889":[3613,-11490],"890":[3648,-11532],"891":[3616,-11518],"893":[3923,-11528],"894":[3967,-11909],"895":[3954,-11981],"897":[3917,-11978],"898":[4107,-11554],"900":[3403,-11828],"901":[3401,-11819],"902":[3394,-11835],"903":[3392,-11834],"904":[3402,-11849],"905":[3381,-11831],"906":[3393,-11803],"907":[3380,-11819],"908":[3379,-11820],"910":[3418,-11812],"911":[3415,-11814],"912":[3416,-11825],"913":[3426,-11858],"914":[3418,-11846],"915":[3418,-11831],"916":[3415,-11838],"917":[3406,-11786],"918":[3409,-11813],"919":[3270,-11686],"920":[3309,-11713],"921":[3276,-11714],"922":[3361,-11595],"923":[3447,-11701],"924":[3412,-11729],"925":[3379,-11721],"926":[3363,-11779],"927":[3373,-11785],"928":[3384,-11784],"930":[3428,-11910],"931":[3442,-11975],"932":[3590,-11922],"933":[3533,-11899],"934":[3520,-12059],"935":[3552,-11810],"936":[3685,-11970],"937":[3676,-11970],"938":[3675,-11964],"939":[3651,-12163],"940":[3748,-12227],"941":[3777,-12242],"942":[3858,-12149],"943":[3744,-12215],"944":[3755,-12231],"945":[3794,-12206],"946":[3780,-12225],"947":[3787,-12227],"948":[3795,-12233],"949":[3808,-12264],"950":[3711,-12187],"951":[3732,-12188],"952":[3809,-12099],"953":[3764,-12068],"954":[3885,-12304],"955":[4073,-12393],"956":[3864,-12128],"957":[3885,-12097],"958":[3858,-12144],"959":[3949,-12153],"960":[4086,-12227],"961":[3990,-12025],"962":[2779,9754],"963":[2481,10456],"964":[277,2005],"965":[-213,6797],"966":[0,0],"967":[2041,-15720],"968":[2129,-15162],"969":[1161,14740],"970":[4544,-12226],"971":[4553,-12350],"972":[4552,-12266],"973":[4476,-12319],"974":[4357,-12342],"975":[4238,-12311],"976":[4243,-12122],"977":[4386,-12061],"978":[4520,-11862],"979":[4388,-11755],"980":[4755,-12216],"981":[4760,-12233],"982":[4836,-12231],"983":[4744,-12267],"984":[4721,-12246],"985":[4693,-12322],"986":[4591,-12252],"988":[4785,-11990],"989":[4666,-12056],"990":[4762,-11745],"991":[4780,-11797],"992":[4766,-11740],"993":[4636,-11898],"994":[4622,-11705],"995":[6010,-15520],"996":[6023,-15669],"997":[6569,-15319],"998":[5802,-13486],"999":[5566,-13224]};
 const CA_TAX_ROWS=[
 ["Los Angeles County", 10250, "90001 90002 90003 90004 90005 90006 90007 90008 90009 90010 90011 90012 90013 90014 90015 90016 90017 90018 90019 90020 90021 90022 90023 90024 90025 90026 90027 90028 90029 90030 90031 90032 90033 90034 90035 90036 90037 90038 90039 90040 90041 90042 90043 90044 90045 90046 90047 90048 90049 90050 90051 90052 90053 90054 90055 90056 90057 90058 90059 90060 90061 90062 90063 90064 90065 90066 90067 90068 90070 90071 90072 90073 90074 90075 90076 90077 90078 90079 90080 90081 90082 90083 90084 90086 90087 90088 90089 90090 90091 90093 90094 90095 90096 90099 90101 90102 90103 90189 90202 90209 90210 90211 90212 90213 90254 90270 90272 90274 90275 90277 90278 90290 90291 90292 90293 90294 90295 90296 90313 90630 90637 90638 90639 90703 90710 90731 90732 90733 90734 90744 90748 90845 90888 91001 91003 91020 91021 91023 91040 91041 91042 91043 91046 91131 91214 91224 91301 91303 91304 91305 91306 91307 91308 91309 91310 91316 91321 91322 91324 91325 91326 91327 91328 91329 91330 91331 91333 91334 91335 91337 91342 91343 91344 91345 91346 91350 91351 91352 91353 91354 91355 91356 91357 91364 91365 91367 91371 91376 91380 91381 91382 91383 91384 91385 91386 91387 91388 91390 91392 91393 91394 91395 91396 91399 91401 91402 91403 91404 91405 91406 91407 91408 91409 91410 91411 91412 91413 91416 91423 91426 91436 91470 91482 91495 91496 91497 91499 91601 91602 91603 91604 91605 91606 91607 91608 91609 91610 91611 91612 91614 91615 91616 91617 91618 91711 91714 91715 91716 91745 91748 91765 91770 91771 91772 91773 91788 91789 91790 91791 91792 91793 91795 91799 92397 93510 93532 93543 93544 93553 93563"],
 ["San Diego County", 7750, "91901 91902 91903 91905 91906 91908 91916 91917 91931 91934 91935 91947 91948 91962 91963 91976 91977 91978 91979 91980 91987 91990 92003 92004 92007 92008 92009 92010 92011 92013 92018 92023 92024 92028 92036 92037 92038 92039 92040 92055 92059 92060 92061 92064 92065 92066 92067 92068 92070 92071 92072 92074 92082 92086 92088 92091 92092 92093 92101 92102 92103 92104 92105 92106 92107 92108 92109 92110 92111 92112 92113 92114 92115 92116 92117 92118 92119 92120 92121 92122 92123 92124 92126 92127 92128 92129 92130 92131 92132 92133 92134 92135 92136 92137 92138 92139 92140 92142 92143 92145 92147 92149 92150 92152 92153 92154 92155 92158 92159 92160 92161 92162 92163 92164 92165 92166 92167 92168 92169 92170 92171 92172 92173 92174 92175 92176 92177 92178 92179 92182 92184 92186 92187 92190 92191 92192 92193 92194 92195 92196 92197 92198 92199 92536"],
@@ -1010,6 +1037,10 @@ const MODELS = [
  {id:"porsche-911",make:"Porsche",model:"911 Carrera",body:"sport",size:"S",pt:"ice",seats:4,cargo:9,tow:0,clear:4.3,awd:false,fourwd:false,mpg:21,rel:.78,dealer:.55,safety:5,price:125000,dep:.25,ins:1.6,maint:1500,first:2017,perf:1,lux:.85,fun:1,rear:.2,step:"low",feats:["safety","cruise","phone","heated"],watch:"A 2-plus-2 with a tiny rear seat. Best as a second car."},
 ];
 
+/* Fuel economy for filters and sorting: combined mpg, or MPGe for EVs (33.7 kWh = 1 gallon). Catalog
+   figures are typical EPA combined numbers for the model; exact ones vary by year and version. */
+const mpgOf=m=>m.pt==="bev"?Math.round(3370/m.kwh):m.mpg;
+const mpgText=m=>m.pt==="bev"?`About ${mpgOf(m)} MPGe · ${m.range} mi range`:m.pt==="phev"?`About ${m.mpg} mpg on gas · ${m.range} mi electric`:`About ${m.mpg} mpg combined`;
 const PT_LABEL = {bev:"Electric",hybrid:"Hybrid",phev:"Plug-in hybrid",ice:"Gas"};
 const BODY_LABEL = {sedan:"Sedan",hatch:"Hatchback",suv:"SUV",wagon:"Wagon",truck:"Truck",minivan:"Minivan",sport:"Convertible"};
 const CARGO_NEED = {none:12,groceries:15,stroller:22,dog:28,sports:24,tools:32,mobility:30};
@@ -1107,7 +1138,7 @@ function makeProfile(A){
   p.credit=v("credit"); p.repairs=v("repairs");
   p.pax=v("pax"); p.cargo=v("cargo")||["none"]; p.access=v("access"); p.tow=+v("tow")||0;
   p.bodies=(A.bodies||[]).filter(x=>x!=="any"); p.pts=(A.pts||[]).filter(x=>x!=="open"); p.feats=A.feats||[];
-  p.brands=(A.brands||[]).filter(x=>x!=="any"); p.condPref=A.condPref||"any"; p.maxMiles=p.condPref==="new"?0:(+A.maxMiles||0);
+  p.condPref=A.condPref||"any"; p.maxMiles=p.condPref==="new"?0:(+A.maxMiles||0);
   p.second=p.role==="extra";
   p.primary=!p.second&&p.purpose!=="weekend";
   p.guard=p.primary?{age:8,miles:75000}:{age:13,miles:100000};
@@ -1173,6 +1204,25 @@ function stateFor(zip){
   const k=zip.slice(0,3); let st=null;
   for(let i=0;i<ZIP3_STATE.length;i+=5){if(ZIP3_STATE.slice(i,i+3)<=k) st=ZIP3_STATE.slice(i+3,i+5); else break;}
   return STATES[st]?st:null;
+}
+function zipLL(zip){const v=/^\d{5}$/.test(zip||"")&&ZIP3_LL[zip.slice(0,3)];return v?[v[0]/100,v[1]/100]:null;}
+function milesBetween(a,b){
+  if(!a||!b) return null; const R=3958.8, t=Math.PI/180, dLa=(b[0]-a[0])*t, dLo=(b[1]-a[1])*t;
+  const h=Math.sin(dLa/2)**2+Math.cos(a[0]*t)*Math.cos(b[0]*t)*Math.sin(dLo/2)**2; return 2*R*Math.asin(Math.sqrt(h));
+}
+/* Shipping on an open carrier, regular sedan, from FreightWaves' 2026 typical prices: about $1.25–$2.00
+   a mile under 500 miles, $0.65–$1.20 in the middle distances and $0.55–$0.95 over 1,500 miles, with short
+   trips running $540–$1,100. Road miles are taken as 1.2x the straight-line distance. */
+function shipEstimate(straight){
+  const mi=straight*1.2;
+  // Totals at each band edge (miles x rate), joined in straight lines so a longer trip never
+  // estimates cheaper than a shorter one. Past 3,000 miles, the long-haul rate continues.
+  const A=[[0,540,800],[500,625,1000],[1000,650,1200],[1500,825,1425],[2000,1100,1900],[3000,1650,2850]];
+  let lo, hi;
+  if(mi>=3000){lo=1650+(mi-3000)*.55;hi=2850+(mi-3000)*.95;}
+  else for(let k=1;k<A.length;k++) if(mi<=A[k][0]){const [m0,l0,h0]=A[k-1],[m1,l1,h1]=A[k],t=(mi-m0)/(m1-m0);lo=l0+(l1-l0)*t;hi=h0+(h1-h0)*t;break;}
+  const r=v=>Math.round(v/10)*10, days=mi<500?"1–2":mi<1000?"2–4":mi<1500?"4–6":mi<2000?"5–7":"7–10";
+  return {miles:Math.round(mi),low:r(lo),high:r(hi),mid:r((lo+hi)/2),days};
 }
 let CA_TAX=null;
 function caTaxFor(zip){
@@ -1272,6 +1322,10 @@ function otdFor(L,p){
     const lines=[["Sales tax (estimate, 7%)",L.price*.07],["Title and registration (estimate)",350]];
     if(L.seller==="dealer") lines.push(["Dealer doc fee (estimate)",300]);
     o={lines,exact:false,hint:"Estimate",fine:"Add your ZIP code in the questions to see your state's car taxes and fees."};
+  }
+  if(L.ship){
+    o.lines.push(["Shipping to you (estimate)",L.ship.mid]);
+    o.fine+=` Shipping from ${[L.city,L.state].filter(Boolean).join(", ")}, about ${num(L.away)} miles away: typically ${money(L.ship.low)} to ${money(L.ship.high)} and ${L.ship.days} days on an open carrier. Your home state's tax and fees still apply.`;
   }
   o.total=L.price+o.lines.reduce((a,b)=>a+b[1],0); o.chicago=chicago; o.st=st;
   return o;
@@ -1464,12 +1518,12 @@ function scoreListing(L,p,ctx){
     work:Math.min(1,m.tow/7000*.6+m.cargo/50*.4)};
   let psum=0,pw=0; p.purposes.forEach((k,i)=>{if(PUR[k]!=null){const w=[1,.5,.25][i]||.25;psum+=PUR[k]*w;pw+=w;}});
   const purS=pw?psum/pw:.7;
-  const brandS=!p.brands.length?.7:p.brands.includes(m.make)?1:.2;
   // When the top purpose is luxury, performance or a weekend car, the experience is the point,
-  // so purpose and brand count for more and the overall leans 65/35 instead of 80/20.
+  // so purpose counts for more and the overall leans 65/35 instead of 80/20.
+  // Brands never enter the score: buyers try them after the plan, side by side with the picks.
   const xp=EXPERIENCE_LED.includes(p.purpose);
-  const W=xp?{b:20,t:10,f:15,u:40,m:p.brands.length?15:0}:{b:35,t:20,f:25,u:20,m:p.brands.length?20:0};
-  const exp=(bodyS*W.b+ptS*W.t+featS*W.f+purS*W.u+brandS*W.m)/(W.b+W.t+W.f+W.u+W.m);
+  const W=xp?{b:25,t:15,f:20,u:40}:{b:35,t:20,f:25,u:20};
+  const exp=(bodyS*W.b+ptS*W.t+featS*W.f+purS*W.u)/100;
   // Over-budget cars also lose ground in the overall ranking, so a car well past the
   // working budget can't be called the best fit. Inside the budget nothing changes.
   const pen=r<=1?1:Math.max(.4,1-(r-1)*.6);
@@ -1546,21 +1600,24 @@ function buildPlan(A,filters){
   }
   fits.sort((a,b)=>b.overall-a.overall);
   fits.forEach((s,i)=>{s.rank=i+1;Object.assign(s,reasonsFor(s,p,bud));});
+  // Picks come from the models FitDrive chose to search for these answers. Brands the buyer tries
+  // afterward, or browses, are scored the same way but shown next to the picks, not mixed in.
+  const pool=LIVE_BASE?fits.filter(x=>LIVE_BASE.has(x.m.id)):fits;
 
   // Three valid paths, not one winner.
   const picks=[];
-  const top=fits[0];
+  const top=pool[0];
   if(top){
     picks.push({tag:"Best overall fit",s:top});
     // For a buyer whose top purpose is the experience, the cheaper pick still has to deliver some of it.
     const xpLed=EXPERIENCE_LED.includes(p.purpose);
-    const cheap=fits.filter(x=>x!==top&&x.needs>=Math.max(60,top.needs-15)&&x.costs.total<top.costs.total-25&&(!xpLed||x.exp>=top.exp-.12))
+    const cheap=pool.filter(x=>x!==top&&x.needs>=Math.max(60,top.needs-15)&&x.costs.total<top.costs.total-25&&(!xpLed||x.exp>=top.exp-.12))
       .sort((a,b)=>a.costs.total-b.costs.total)[0];
     if(cheap) picks.push({tag:"Lowest monthly cost",s:cheap});
-    const fun=fits.filter(x=>!picks.some(k=>k.s===x)&&x.needs>=Math.max(55,top.needs-20)&&x.costs.total<=bud.target&&x.exp>top.exp+.02&&x.c.energy>=5&&x.c.practical>=6)
+    const fun=pool.filter(x=>!picks.some(k=>k.s===x)&&x.needs>=Math.max(55,top.needs-20)&&x.costs.total<=bud.target&&x.exp>top.exp+.02&&x.c.energy>=5&&x.c.practical>=6)
       .sort((a,b)=>b.exp-a.exp)[0];
     if(fun) picks.push({tag:"More enjoyable, inside your budget",s:fun});
-    for(const x of fits){ if(picks.length>=3) break; if(!picks.some(k=>k.s===x)) picks.push({tag:"Also a strong fit",s:x}); }
+    for(const x of pool){ if(picks.length>=3) break; if(!picks.some(k=>k.s===x)) picks.push({tag:"Also a strong fit",s:x}); }
   }
   const within=fits.filter(x=>x.costs.total<=bud.target).length;
 
@@ -1650,6 +1707,7 @@ MODELS.forEach(m=>{m.demoListings=m.listings;});
 const listingById=id=>ALL_LISTINGS.find(l=>l.id===id);
 /* Live listings from the site's own server function (auto.dev data). Each row is matched to a
    catalog model, so the fit score still uses FitDrive's specs for that model. */
+let LIVE_HOME=null, LIVE_RADIUS=60;
 function liveToListing(r,m){
   const year=+r.year||YEAR, age=Math.max(0,YEAR-year), cond=!r.used?"new":r.cpo?"cpo":"used";
   const miles=cond==="new"?Math.max(0,+r.miles||0):Math.max(0,+r.miles||0);
@@ -1659,18 +1717,42 @@ function liveToListing(r,m){
   const vin=String(r.vin||"");
   return {id:"live-"+vin.replace(/[^A-Za-z0-9]/g,""),model:m,year,age,miles,awd,cond,seller:"dealer",warranty,price:Math.round(+r.price||0),
     dist:null,where:r.dealer||"Dealer",city:r.city||"",state:r.state||"",vin:vin.slice(-4),fullVin:vin,trim:r.trim||"",url:r.vdp||"",
-    photo:r.photo||"",carfax:r.carfax||"",createdAt:r.createdAt||null,color:r.color||"",hist:r.history||null,live:true};
+    photo:r.photo||"",photoCount:+r.photoCount||0,carfax:r.carfax||"",createdAt:r.createdAt||null,color:r.color||"",hist:r.history||null,live:true,
+    ...placeFor(r)};
 }
-let LIVE_SEARCHED=null;
-function setLive(rows,ids){
-  LIVE_SEARCHED=ids?new Set(ids):null;
+let LIVE_SEARCHED=null, LIVE_BASE=null;
+// Distance from the buyer's ZIP. Exact when the listing gives coordinates, otherwise ZIP-prefix centers.
+function placeFor(r){
+  const exact=Array.isArray(r.loc)&&r.loc.length===2&&isFinite(r.loc[0])&&isFinite(r.loc[1]);
+  const at=exact?r.loc:zipLL(String(r.zip||"")), away=LIVE_HOME&&at?milesBetween(LIVE_HOME,at):null;
+  const ships=away!=null&&away>LIVE_RADIUS+25&&(!!r.national||away>LIVE_RADIUS*1.5);
+  return {away:away==null?null:Math.round(away),awayExact:exact,ships,ship:ships?shipEstimate(away):null,national:!!r.national};
+}
+function setLive(rows,ids,base,home,radius){
+  LIVE_HOME=home||null; LIVE_RADIUS=radius||60;
+  LIVE_SEARCHED=ids?new Set(ids):null; LIVE_BASE=base?new Set(base):null;
   MODELS.forEach(m=>{m.listings=[];});
   const seen=new Set();
   (rows||[]).forEach(r=>{const m=MODELS.find(x=>x.id===r.modelId);if(!m||!r.vin||!(+r.price>0)||seen.has(r.vin))return;seen.add(r.vin);m.listings.push(liveToListing(r,m));});
   ALL_LISTINGS=MODELS.flatMap(m=>m.listings);
   return ALL_LISTINGS.length;
 }
-function setDemo(){LIVE_SEARCHED=null;MODELS.forEach(m=>{m.listings=m.demoListings;});ALL_LISTINGS=MODELS.flatMap(m=>m.listings);}
+function setDemo(){LIVE_SEARCHED=null;LIVE_BASE=null;MODELS.forEach(m=>{m.listings=m.demoListings;});ALL_LISTINGS=MODELS.flatMap(m=>m.listings);}
+/* "Had something else in mind?" Every model of the brands a buyer tries, scored exactly like the
+   plan (same needs score, same budget), with the reason when one doesn't fit. */
+function tryBrandResults(A,filters,makes){
+  const p=makeProfile(A), bud=budget(p), ev=evFeas(p), f=Object.assign({},FILTER_DEFAULTS,filters||{});
+  const ctx={p,bud,ev,hyb:hybridFit(p),phev:phevFit(p),ice:iceFit(p)}, out=[];
+  for(const m of MODELS){
+    if(!makes.includes(m.make)) continue;
+    const mr=modelFilter(m,p,ev); if(mr){out.push({m,reason:mr});continue;}
+    let best=null;
+    for(const L of m.listings){if(listingFilter(L,p,f)) continue; const s=scoreListing(L,p,ctx); if(!best||s.overall>best.overall) best=s;}
+    if(!best){out.push({m,reason:m.listings.length?"None near you pass your limits and filters.":"None for sale near you right now."});continue;}
+    Object.assign(best,reasonsFor(best,p,bud)); out.push({m,s:best});
+  }
+  return out.sort((a,b)=>(b.s?b.s.overall:-1)-(a.s?a.s.overall:-1));
+}
 /* Models that pass the needs filter, best expected fit first. Example listings stand in for real
    ones, so the live version can search the most promising models without using up the allowance. */
 function prefitModels(A){
@@ -1886,9 +1968,7 @@ const SCREENS=[
   {k:"bodies",type:"multi",excl:"any",label:"Body styles",ihelp:"The manufacturer stays out of this question.",opts:[["any","Any"],["sedan","Sedan"],["hatch","Hatchback"],["suv","SUV or crossover"],
    ["wagon","Wagon"],["truck","Truck"],["minivan","Minivan"],["sport","Coupe or convertible"]]},
   {k:"pts",type:"multi",excl:"open",label:"Curious about a powertrain?",ihelp:"Curiosity, not commitment. FitDrive will say honestly whether it fits.",
-   opts:[["open","Open to anything"],["bev","Electric"],["hybrid","Hybrid"],["phev","Plug-in hybrid"],["ice","Gas"]]},
-  {k:"brands",type:"multi",excl:"any",label:"Any brands you'd like to see?",ihelp:"Optional. Brands you pick get searched near you and count toward your experience fit, never the needs score.",
-   opts:[["any","No preference"],...[...new Set(MODELS.map(m=>m.make))].sort().map(x=>[x,x])]}]},
+   opts:[["open","Open to anything"],["bev","Electric"],["hybrid","Hybrid"],["phev","Plug-in hybrid"],["ice","Gas"]]}]},
  {id:"feats",sec:"vehicle",title:"Any features that would change your decision?",help:"Pick up to 3, or none.",items:[
   {k:"feats",type:"multi",max:3,opts:[["safety","Advanced safety suite"],["cruise","Adaptive cruise control"],["phone","Apple CarPlay or Android Auto"],["heated","Heated seats"],
    ["fast","Fast charging"],["tow","Tow package"],["third","Third row"],["awd","All-wheel drive"]]}]},
@@ -1902,14 +1982,15 @@ const ITEM={};SCREENS.forEach(s=>s.items.forEach(it=>{ITEM[it.k]={it,s};}));
 const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const LIVE=typeof FITDRIVE_LIVE!=="undefined"&&!!FITDRIVE_LIVE;
 const KEY=LIVE?"fitdrive-live-v1":"fitdrive-demo-v3";
-const distText=L=>L.live?([L.city,L.state].filter(Boolean).join(", ")||"Near you"):`${L.dist} mi away`;
-const BROWSE_DEFAULTS={make:"any",model:"any",body:"any",pt:"any",cond:"any",seller:"any",max:0,miles:0,sort:"fit"};
+const distText=L=>{if(!L.live) return `${L.dist} mi away`; const at=[L.city,L.state].filter(Boolean).join(", ")||"Near you";
+  if(L.ships) return `${at} · ${num(L.away)} mi away, ships to you`; return L.away!=null&&(L.awayExact||L.away>100)?`${at} · about ${num(L.away)} mi`:at;};
+const BROWSE_DEFAULTS={make:"any",model:"any",body:"any",pt:"any",cond:"any",seller:"any",max:0,miles:0,mpg:0,sort:"fit"};
 let S={A:{},visited:[],idx:0,view:"home",carId:null,planBuilt:false,filters:{...FILTER_DEFAULTS},saved:[],compare:[],sample:null,
   ledgerOpen:false,savedOpen:false,open:{},browse:{...BROWSE_DEFAULTS},calc:{},charge:{},alerts:{},req:{},bought:null,
-  lang:"en",langOpen:false,langNote:null,liveState:"idle",liveKey:null,liveZip:null,liveCount:0,liveDone:0,liveTotal:0,fb:{open:false,notes:[],reaction:null,draft:{like:"",change:"",add:""},use:null,best:"",copied:false}};
-try{const j=JSON.parse(localStorage.getItem(KEY)||"null");if(j&&typeof j==="object"){Object.assign(S,j);S.savedOpen=false;S.langOpen=false;S.fb=Object.assign({open:false,notes:[],reaction:null,draft:{like:"",change:"",add:""},use:null,best:"",copied:false},j.fb||{},{open:false,copied:false});}}catch(e){}
+  tryBrands:[],photos:{},photoIdx:{},ratings:{},nationwide:false,lang:"en",langOpen:false,langNote:null,liveState:"idle",liveKey:null,liveZip:null,liveCount:0,liveDone:0,liveTotal:0,fb:{open:false,notes:[],reaction:null,draft:{like:"",change:"",add:""},use:null,best:"",copied:false}};
+try{const j=JSON.parse(localStorage.getItem(KEY)||"null");if(j&&typeof j==="object"){Object.assign(S,j);S.savedOpen=false;S.langOpen=false;S.fb=Object.assign({open:false,notes:[],reaction:null,draft:{like:"",change:"",add:""},use:null,best:"",copied:false},j.fb||{},{open:false,copied:false});S.browse=Object.assign({},BROWSE_DEFAULTS,S.browse||{});if(!Array.isArray(S.tryBrands))S.tryBrands=[];}}catch(e){}
 function persist(){try{localStorage.setItem(KEY,JSON.stringify({A:S.A,visited:S.visited,idx:S.idx,planBuilt:S.planBuilt,filters:S.filters,saved:S.saved,compare:S.compare,
-  sample:S.sample,open:S.open,browse:S.browse,calc:S.calc,charge:S.charge,alerts:S.alerts,req:S.req,bought:S.bought,lang:S.lang,fb:S.fb}));}catch(e){}}
+  sample:S.sample,open:S.open,browse:S.browse,calc:S.calc,charge:S.charge,alerts:S.alerts,req:S.req,bought:S.bought,lang:S.lang,fb:S.fb,tryBrands:S.tryBrands,nationwide:S.nationwide}));}catch(e){}}
 
 const visScreens=()=>SCREENS.filter(s=>!s.when||s.when(S.A));
 const visItems=s=>s.items.filter(it=>!it.when||it.when(S.A));
@@ -2079,7 +2160,6 @@ function ledgerData(){
   if(a.tow) ins.push(`Towing ${lbkg(a.tow)} rules out most cars. That's expected.`);
   if(a.condPref==="new") ins.push("New only. It costs more, but you get the full factory warranty.");
   if(p.milesLimit) ins.push(`Used cars over ${num(p.maxMiles)} miles are left out of your plan.`);
-  if(p.brands.length) ins.push(`${p.brands.length>2?p.brands.slice(0,-1).join(", ")+" and "+p.brands.slice(-1):p.brands.join(" and ")} will be searched and count toward your experience fit.`);
   return {f,ins:ins.slice(-3),as:assumptions()};
 }
 function ledgerHTML(){
@@ -2168,9 +2248,10 @@ function listingRow(o){
     <div class="lacts"><button type="button" class="tbtn" data-go="car-${L.id}">See this car</button><button type="button" class="tbtn" data-heart="${L.id}" aria-pressed="${saved}">${saved?"Saved":"Save"}</button><button type="button" class="tbtn" data-cmp="${L.id}" aria-pressed="${inC}">${inC?"In compare":"+ Compare"}</button></div></div>`;
 }
 function pickHTML(k,P){
+  loadRatings(k.s.L);
   const s=k.s, m=s.m, L=s.L, id=m.id, sOpen=!!S.open["s-"+id], lOpen=!!S.open["l-"+id], inC=S.compare.includes(L.id);
   const meta=[L.year,condLabel[L.cond],PT_LABEL[m.pt],BODY_LABEL[m.body],s.awd?"AWD":null,money(L.price)].filter(Boolean).join(" · ");
-  return `<article class="pick"><div class="pick-top">${carArt(L)}<div class="pick-id"><span class="pill amber" style="align-self:flex-start">${esc(k.tag)}</span><h3>${esc(m.make+" "+m.model)}</h3><div class="pmeta">${esc(meta)}</div><div class="pmeta">${esc(L.where)} · ${distText(L)}</div></div>
+  return `<article class="pick"><div class="pick-top">${carArt(L)}<div class="pick-id"><span class="pill amber" style="align-self:flex-start">${esc(k.tag)}</span><h3>${esc(m.make+" "+m.model)}</h3><div class="pmeta">${esc(meta)}</div><div class="pmeta">${esc(L.where)} · ${distText(L)}</div><div class="pmeta">${esc(mpgText(m))}</div><div class="cbadges">${starPill(L)}</div></div>
     <div class="fit"><b>${Math.round(s.overall)}</b><span>/100 overall fit</span></div></div>
     <div class="pick-body"><div><ul class="why">${s.why.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>
       <p class="watch"><b>Watch</b>${esc(s.watch)}</p><div class="subs">Needs ${Math.round(s.needs)}/100 · Experience ${Math.round(s.exp*100)}% · #${s.rank} of ${P.fits.length}</div></div>
@@ -2197,7 +2278,7 @@ function filtersHTML(P){
   const changed=Object.keys(d).some(k=>String(f[k])!==String(d[k]));
   return `<section class="filters" aria-label="Narrow the listings"><div class="filters-h"><h2>Narrow the listings</h2>
     <span>${P.fits.length} of ${MODELS.length} models fit · ${P.within} inside your budget${changed?` · <button type="button" class="linkbtn" data-act="reset-filters">Reset</button>`:""}</span></div>
-    <div class="fgrid">${sel("cond","New or used",[["any","Either"],["new","New only"],["used","Used or certified"]])}
+    <div class="fgrid">${LIVE?`<label for="f-where">Where to look<select id="f-where" data-where="1" class="${S.nationwide?"changed":""}"><option value="local"${S.nationwide?"":" selected"}>Near me</option><option value="nation"${S.nationwide?" selected":""}>Nationwide, shipped to you</option></select></label>`:""}${sel("cond","New or used",[["any","Either"],["new","New only"],["used","Used or certified"]])}
       ${sel("year","Model year",[[0,"Any year"],[2020,"2020 or newer"],[2022,"2022 or newer"],[2024,"2024 or newer"]])}
       ${sel("miles","Miles on it",[[0,"Any mileage"],[60000,"Under 60,000"],[30000,"Under 30,000"],[15000,"Under 15,000"]])}
       ${sel("seller","Who's selling",[["any","Dealers and private sellers"],["dealer","Dealers only"]])}
@@ -2260,7 +2341,7 @@ function planHTML(){
     ${filtersHTML(P)}${spotHTML(P)}
     <section class="picks" aria-label="Your matches"><div class="picks-h"><h2>Your matches</h2>${pickIds.length>1?`<button type="button" class="btn small" data-act="cmp-picks">Compare these ${pickIds.length}</button>`:""}</div>
       ${P.picks.length?P.picks.map(k=>pickHTML(k,P)).join(""):`<div class="alert bad"><b>No car fits every need with these filters.</b> Try loosening a filter, or check the cars ruled out below to see what's blocking them.</div>`}</section>
-    ${keepHTML(P)}${payHTML(P)}${ruledHTML(P)}
+    ${tryHTML(P)}${keepHTML(P)}${payHTML(P)}${ruledHTML(P)}
     <section class="panel"><h2>Before you sign</h2><p>Get a used car inspected, check the paperwork line by line, and know which numbers to hold on to.</p><div class="row"><button type="button" class="btn ghost small" data-go="guide">Read the buying guide</button></div></section>
     <p class="fine">${LIVE&&S.liveState==="ok"?"Listings come from dealer inventory data (auto.dev) and can change. Payments, APRs, lease figures, insurance and repair estimates and local counts are estimates, not offers, approvals or financial advice.":"FitDrive is a demo. Listings, dealers, prices, payments, APRs, lease figures, insurance and repair estimates and local counts are examples, not offers, approvals or financial advice."}</p></div>`;
 }
@@ -2270,8 +2351,8 @@ function cardHTML(L,p){
   const c=costsFor(L,p), saved=S.saved.includes(L.id), inC=S.compare.includes(L.id), d=dealCheck(L);
   return `<article class="ccard"><button type="button" class="open" data-go="car-${L.id}" aria-label="${esc(lname(L))}, ${money(L.price)}">${carArt(L)}
     <span class="ct">${esc(lname(L))}</span><span class="cm">${condLabel[L.cond]} · ${milesText(L)} · ${esc(L.where)} · ${distText(L)}</span>
-    <span class="cp"><b>${money(L.price)}</b><span>≈ ${money(c.total)}/mo all-in</span></span></button>
-    <div class="cbadges">${fitBadge(L)}<span class="pill ${d.rating==="Good price"?"good":d.rating==="Priced high"?"bad":"amber"}">${d.rating}</span>${L.awd?`<span class="pill blue">AWD</span>`:""}${histPill(L)}</div>
+    <span class="cp"><b>${money(L.price)}</b><span>≈ ${money(c.total)}/mo all-in</span></span><span class="cm">${esc(mpgText(L.model))}</span></button>
+    <div class="cbadges">${fitBadge(L)}${starPill(L)}<span class="pill ${d.rating==="Good price"?"good":d.rating==="Priced high"?"bad":"amber"}">${d.rating}</span>${L.awd?`<span class="pill blue">AWD</span>`:""}${histPill(L)}</div>
     <div class="cacts"><button type="button" class="tbtn" data-heart="${L.id}" aria-pressed="${saved}">${saved?"Saved":"Save"}</button><button type="button" class="tbtn" data-cmp="${L.id}" aria-pressed="${inC}">${inC?"In compare":"+ Compare"}</button></div></article>`;
 }
 function histPill(L){
@@ -2291,6 +2372,7 @@ function browseHTML(){
   if(f.make&&f.make!=="any") list=list.filter(L=>L.model.make===f.make);
   if(f.model&&f.model!=="any") list=list.filter(L=>L.model.id===f.model);
   if(+f.miles) list=list.filter(L=>L.miles<=+f.miles);
+  if(+f.mpg) list=list.filter(L=>mpgOf(L.model)>=+f.mpg);
   if(f.body!=="any") list=list.filter(L=>L.model.body===f.body);
   if(f.pt!=="any") list=list.filter(L=>L.model.pt===f.pt);
   if(f.cond==="new") list=list.filter(L=>L.cond==="new"); else if(f.cond==="used") list=list.filter(L=>L.cond!=="new");
@@ -2299,13 +2381,15 @@ function browseHTML(){
   const cost=L=>costsFor(L,p).total;
   const fitv=L=>{const x=fitFor(L);return x&&x.overall!=null?x.overall:-1;};
   const sort=f.sort==="fit"&&!PLAN?"allin":f.sort;
-  list.sort(sort==="fit"?(a,b)=>fitv(b)-fitv(a):sort==="price"?(a,b)=>a.price-b.price:sort==="miles"?(a,b)=>a.miles-b.miles:(a,b)=>cost(a)-cost(b));
+  list.sort(sort==="fit"?(a,b)=>fitv(b)-fitv(a):sort==="price"?(a,b)=>a.price-b.price:sort==="pricehi"?(a,b)=>b.price-a.price:sort==="miles"?(a,b)=>a.miles-b.miles:sort==="newest"?(a,b)=>b.year-a.year||a.miles-b.miles:sort==="mpg"?(a,b)=>mpgOf(b.model)-mpgOf(a.model)||cost(a)-cost(b):(a,b)=>cost(a)-cost(b));
+  list.slice(0,12).forEach(loadRatings);
   const sel=(k,label,opts)=>`<label for="b-${k}">${label}<select id="b-${k}" data-bfilter="${k}" class="${String(f[k])!==String(BROWSE_DEFAULTS[k])?"changed":""}">${opts.map(o=>`<option value="${o[0]}"${String(f[k])===String(o[0])?" selected":""}>${o[1]}</option>`).join("")}</select></label>`;
   if(LIVE&&S.liveState==="nozip") return `<div class="stack"><header class="plan-head"><span class="eyebrow blue">Browse</span><h1 id="pagetitle" tabindex="-1">Browse cars for sale near you</h1>
     <p>Real dealer listings, each with its true monthly cost. Enter your ZIP code to start.</p></header>${zipFormHTML("Your ZIP code")}</div>`;
   return `<div class="stack">${liveBannerHTML()}<header class="plan-head"><span class="eyebrow blue">Browse</span><h1 id="pagetitle" tabindex="-1">Browse cars</h1>
     <p>${PLAN?"Sorted by how well each one fits your answers. Monthly costs use your numbers.":"Monthly costs use typical numbers until you answer the questions. Then every car gets a fit score for you."}</p></header>
     <section class="bfilters" aria-label="Filters"><div class="fgrid">
+      ${LIVE?`<label for="b-where">Where<select id="b-where" data-where="1" class="${S.nationwide?"changed":""}"><option value="local"${S.nationwide?"":" selected"}>Near me</option><option value="nation"${S.nationwide?" selected":""}>Nationwide, shipped to you</option></select></label>`:""}
       ${sel("make","Brand",[["any","Any"],...[...new Set(MODELS.map(m=>m.make))].sort().map(x=>[x,x])])}
       ${sel("model","Model",[["any","Any"],...MODELS.filter(m=>!f.make||f.make==="any"||m.make===f.make).slice().sort((a,b)=>(a.make+a.model).localeCompare(b.make+b.model)).map(m=>[m.id,(f.make&&f.make!=="any"?"":m.make+" ")+m.model])])}
       ${sel("body","Body style",[["any","Any"],["sedan","Sedan"],["hatch","Hatchback"],["suv","SUV"],["wagon","Wagon"],["truck","Truck"],["minivan","Minivan"],["sport","Convertible"]])}
@@ -2313,10 +2397,136 @@ function browseHTML(){
       ${sel("cond","New or used",[["any","Either"],["new","New"],["used","Used or certified"]])}
       ${sel("seller","Seller",[["any","Dealers and private"],["dealer","Dealers only"],["private","Private sellers only"]])}
       ${sel("max","Max price",[[0,"No max"],[15000,"$15,000"],[20000,"$20,000"],[25000,"$25,000"],[30000,"$30,000"],[40000,"$40,000"],[60000,"$60,000"],[80000,"$80,000"],[100000,"$100,000"]])}
+      ${sel("mpg","Min MPG",[[0,"Any"],[25,"25 or more"],[30,"30 or more"],[35,"35 or more"],[40,"40 or more"]])}
       ${sel("miles","Max miles",[[0,"Any"],[15000,"15,000"],[30000,"30,000"],[50000,"50,000"],[75000,"75,000"],[100000,"100,000"]])}
-      ${sel("sort","Sort by",PLAN?[["fit","Best fit for you"],["allin","Lowest monthly cost"],["price","Lowest price"],["miles","Fewest miles"]]:[["allin","Lowest monthly cost"],["price","Lowest price"],["miles","Fewest miles"]])}</div>
-      <div class="row" style="justify-content:space-between"><span class="hint">${list.length} car${list.length===1?"":"s"} · ${LIVE&&S.liveState==="ok"?"real listings near "+esc(S.liveZip):"example listings"}</span>${Object.keys(BROWSE_DEFAULTS).some(k=>String(f[k])!==String(BROWSE_DEFAULTS[k]))?`<button type="button" class="linkbtn" data-act="reset-browse">Clear filters</button>`:""}</div></section>
+      ${sel("sort","Sort by",[...(PLAN?[["fit","Best fit for you"]]:[]),["allin","Lowest monthly cost"],["price","Price: low to high"],["pricehi","Price: high to low"],["miles","Fewest miles"],["newest","Newest first"],["mpg","Best MPG"]])}</div>
+      <div class="row" style="justify-content:space-between"><span class="hint">${list.length} car${list.length===1?"":"s"} · ${LIVE&&S.liveState==="ok"?"real listings near "+esc(S.liveZip)+(S.nationwide?", plus cars that can ship to you":""):"example listings"}</span>${Object.keys(BROWSE_DEFAULTS).some(k=>String(f[k])!==String(BROWSE_DEFAULTS[k]))?`<button type="button" class="linkbtn" data-act="reset-browse">Clear filters</button>`:""}</div></section>
     ${list.length?`<div class="cards">${list.map(L=>cardHTML(L,p)).join("")}</div>`:`<div class="empty"><b>No cars match these filters.</b><button type="button" class="btn ghost small" data-act="reset-browse">Clear filters</button></div>`}</div>`;
+}
+
+/* ---------- add to home screen ---------- */
+let INSTALL_PROMPT=null;
+const standalone=()=>{try{return matchMedia("(display-mode: standalone)").matches||navigator.standalone===true;}catch(e){return false;}};
+const isIOS=()=>/iphone|ipad|ipod/i.test(navigator.userAgent)||(navigator.platform==="MacIntel"&&navigator.maxTouchPoints>1);
+if(LIVE){
+  window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();INSTALL_PROMPT=e;if(["home","plan"].includes(S.view))render();});
+  window.addEventListener("appinstalled",()=>{INSTALL_PROMPT=null;toast("FitDrive is on your home screen");render();});
+  if("serviceWorker" in navigator) window.addEventListener("load",()=>{navigator.serviceWorker.register("/fitdrive/sw.js",{scope:"/fitdrive/"}).catch(()=>{});});
+}
+function installHTML(){
+  if(!LIVE||standalone()) return "";
+  const help=S.open.install?(isIOS()?`<p>On iPhone or iPad, open this page in Safari, tap the Share button, then tap <b>Add to Home Screen</b>.</p>`
+    :`<p>On Android, open the browser menu and tap <b>Add to Home screen</b> or <b>Install app</b>. On a computer, use the install icon in the address bar in Chrome or Edge.</p>`):"";
+  return `<section class="panel install" aria-labelledby="inst-h" style="margin-top:24px"><h2 id="inst-h">Put FitDrive on your home screen</h2>
+    <p>It opens like an app, full screen, with your plan saved.</p>
+    <div class="row"><button type="button" class="btn small" data-act="install">${INSTALL_PROMPT?"Add to home screen":"Show me how"}</button></div>${help}</section>`;
+}
+
+/* ---------- crash test ratings (NHTSA 5-Star Safety Ratings) ---------- */
+let RT_TIMER=null;
+function loadRatings(L){
+  if(!LIVE||!L||!L.model) return; const k=L.model.id+"-"+L.year;
+  if(S.ratings[k]!==undefined) return;
+  const c=ssGet("fd-rt-"+k); if(c){S.ratings[k]=c;return;}
+  S.ratings[k]=null;
+  fetch(`/.netlify/functions/fitdrive-listings?ratings=${encodeURIComponent(L.model.id)}&year=${L.year}`).then(r=>r.json()).then(j=>{
+    S.ratings[k]=j&&j.ok?j:{ok:false}; if(j&&j.ok) ssSet("fd-rt-"+k,j);
+  }).catch(()=>{S.ratings[k]={ok:false};}).finally(()=>{clearTimeout(RT_TIMER);RT_TIMER=setTimeout(()=>{if(["browse","car","compare","plan"].includes(S.view)){const y=window.scrollY;render();window.scrollTo(0,y);}},250);});
+}
+// The version that matches this car's drive (AWD vs 2WD) when NHTSA rates them separately.
+function ratingFor(L){
+  if(!LIVE) return {overall:Math.round(L.model.safety),example:true};
+  const j=S.ratings[L.model.id+"-"+L.year]; if(j===undefined||j===null) return j;
+  if(!j.ok) return {error:true};
+  const rated=(j.variants||[]).filter(v=>v.overall); if(!rated.length) return {none:true,variants:j.variants||[]};
+  const awd=v=>/\b(AWD|4WD|4X4)\b/i.test(v.desc);
+  const pick=rated.find(v=>L.awd?awd(v):!awd(v))||rated[0];
+  const lo=Math.min(...rated.map(v=>v.overall)), hi=Math.max(...rated.map(v=>v.overall));
+  return Object.assign({},pick,{lo,hi,count:rated.length,model:j.model});
+}
+const starsHTML=n=>`<span class="stars" aria-hidden="true">${"★".repeat(n)}<span class="off">${"★".repeat(5-n)}</span></span>`;
+function starPill(L){
+  const r=ratingFor(L); if(!r||r.error) return "";
+  if(r.none) return `<span class="pill">Not crash-rated by NHTSA</span>`;
+  return `<span class="pill good" title="NHTSA overall crash rating${r.example?" (example)":""}">${starsHTML(r.overall)}<span class="sr">${r.overall} of 5 stars</span> ${r.example?"Example rating":"NHTSA"}</span>`;
+}
+function ratingCell(L){
+  const r=ratingFor(L);
+  if(r===null||r===undefined) return `<span class="no">Checking…</span>`;
+  if(r.error) return `<span class="no">Couldn't load</span>`;
+  if(r.none) return `<span class="no">Not rated by NHTSA</span>`;
+  return `${starsHTML(r.overall)} ${r.overall} of 5${r.example?" (example)":""}`;
+}
+function safetyHTML(L){
+  loadRatings(L);
+  const r=ratingFor(L), m=L.model, link=`<a href="https://www.nhtsa.gov/ratings" target="_blank" rel="noopener">NHTSA 5-Star Safety Ratings</a>`;
+  let body;
+  if(r===null||r===undefined) body=`<p class="muted" role="status">Checking NHTSA's crash test ratings…</p>`;
+  else if(r.error) body=`<p class="muted">NHTSA's ratings couldn't load right now. Check them at ${link}.</p>`;
+  else if(r.none) body=`<p>NHTSA hasn't crash-tested the ${L.year} ${esc(m.make+" "+m.model)}. Many luxury and low-volume cars aren't tested. The Insurance Institute for Highway Safety (<a href="https://www.iihs.org/ratings" target="_blank" rel="noopener">IIHS</a>) may have rated it.</p>`;
+  else{
+    const k=(label,v)=>`<div class="box"><span class="eyebrow">${label}</span><span class="big">${v?starsHTML(v):"–"}</span><p>${v?v+" of 5 stars":"Not rated"}</p></div>`;
+    body=`<div class="grid4">${k("Overall",r.overall)}${k("Frontal crash",r.front)}${k("Side crash",r.side)}${k("Rollover",r.rollover)}</div>
+      ${r.lo!==r.hi?`<p class="hint">Versions of this model score from ${r.lo} to ${r.hi} stars. This shows the ${L.awd?"all-wheel-drive":"two-wheel-drive"} version where NHTSA rates it separately.</p>`:""}
+      ${r.example?`<p class="fine">Example rating in this demo. The live version shows NHTSA's ratings for each car's model year.</p>`:`<p class="fine">${esc(r.desc||"")}. From ${link}. ${r.recalls?`NHTSA lists ${r.recalls} recall${r.recalls>1?"s":""} and ${r.complaints} owner complaint${r.complaints===1?"":"s"} for this model year.`:""}</p>`}`;
+  }
+  return `<section class="section" aria-labelledby="safe-h"><div class="sec-head"><h2 id="safe-h">Crash test ratings</h2><span class="hint">${LIVE?"NHTSA, "+L.year+" model year":"Example"}</span></div>${body}</section>`;
+}
+
+/* ---------- shipping ---------- */
+function shipHTML(L){
+  const sh=L.ship, rt=retailer(L);
+  return `<section class="section" aria-labelledby="ship-h"><div class="sec-head"><h2 id="ship-h">Shipping it to you</h2><span class="hint">Estimate</span></div>
+    <div class="grid3"><div class="box"><span class="eyebrow">Distance</span><span class="big">${num(L.away)} mi</span><p>From ${esc([L.city,L.state].filter(Boolean).join(", ")||"the seller")}, about ${num(sh.miles)} miles by road.</p></div>
+      <div class="box"><span class="eyebrow">Typical cost</span><span class="big">${money(sh.low)}–${money(sh.high)}</span><p>Open carrier, door to door. An enclosed truck runs about 30% to 60% more.</p></div>
+      <div class="box"><span class="eyebrow">Time on the road</span><span class="big">${sh.days} days</span><p>Plus 1 to 5 business days to schedule the pickup.</p></div></div>
+    ${rt?`<div class="note warn"><b>${rt} sets its own transfer or delivery fee</b> and shows it on the car's page. It can be higher or lower than this estimate.</div>`:""}
+    <p class="muted">Get 2 or 3 quotes, for example from <a href="https://www.montway.com" target="_blank" rel="noopener">Montway</a>, <a href="https://www.sherpaautotransport.com" target="_blank" rel="noopener">Sherpa Auto Transport</a> or <a href="https://www.uship.com" target="_blank" rel="noopener">uShip</a>. FitDrive doesn't rank or recommend them. Check that a carrier is registered with the <a href="https://safer.fmcsa.dot.gov" target="_blank" rel="noopener">FMCSA</a>, and see the car in person or get an inspection before you pay.</p>
+    <p class="fine">Estimate from FreightWaves' 2026 typical prices for a regular sedan. The out-the-door price above includes the middle of this range.</p></section>`;
+}
+
+/* ---------- photos ---------- */
+const retailer=L=>{const w=String(L.where||"");return /carmax/i.test(w)?"CarMax":/carvana/i.test(w)?"Carvana":null;};
+function loadPhotos(L){
+  const vin=L.fullVin; if(!LIVE||!vin||S.photos[vin]!==undefined) return;
+  const k="fd-photos-"+vin, c=ssGet(k); if(c){S.photos[vin]=c;return;}
+  S.photos[vin]=null;
+  fetch(`/.netlify/functions/fitdrive-listings?photos=${encodeURIComponent(vin)}`).then(r=>r.json()).then(j=>{
+    S.photos[vin]=j&&j.ok&&Array.isArray(j.photos)?j.photos:[]; ssSet(k,S.photos[vin]);
+  }).catch(()=>{S.photos[vin]=[];}).finally(()=>{if(S.view==="car"){const y=window.scrollY;render();window.scrollTo(0,y);}});
+}
+function galleryHTML(L){
+  if(!L.live) return `<div>${carArt(L,"lg")}<p class="art-cap">Illustration only. The live version shows the seller's photos.</p></div>`;
+  loadPhotos(L);
+  const list=(S.photos[L.fullVin]||[]).slice(), alt=esc(lname(L)+(L.trim?" "+L.trim:""));
+  if(L.photo&&!list.includes(L.photo)&&!list.length) list.push(L.photo);
+  const i=Math.min(S.photoIdx[L.fullVin]||0,Math.max(0,list.length-1)), main=list[i]||L.photo, total=Math.max(L.photoCount||0,list.length);
+  const more=L.url&&total>list.length?`<a href="${esc(L.url)}" target="_blank" rel="noopener">See all ${total} photos on the dealer's listing</a>`:L.url?`<a href="${esc(L.url)}" target="_blank" rel="noopener">See the dealer's listing</a>`:"";
+  return `<div class="gallery">${main?`<img class="art lg" src="${esc(main)}" alt="${alt}, photo ${i+1}" referrerpolicy="no-referrer" style="object-fit:cover" onerror="this.onerror=null;this.src='${esc(L.photo||"")}'">`:carArt(L,"lg")}
+    ${list.length>1?`<div class="thumbs" role="group" aria-label="More photos">${list.map((u,n)=>`<button type="button" class="thumb${n===i?" on":""}" data-act="photo" data-vin="${esc(L.fullVin)}" data-i="${n}" aria-label="Photo ${n+1} of ${list.length}" aria-pressed="${n===i}"><img src="${esc(u)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('.thumb').remove()"></button>`).join("")}</div>`:""}
+    <p class="art-cap">${list.length>1?`Photo ${i+1} of ${list.length}, from the dealer's listing.`:S.photos[L.fullVin]===null?"Loading more photos…":"Photo from the dealer's listing."} ${more}</p></div>`;
+}
+
+/* ---------- had something else in mind? ---------- */
+function tryHTML(P){
+  const makes=[...new Set(MODELS.map(m=>m.make))].sort(), on=S.tryBrands||[], top=P.picks[0]&&P.picks[0].s;
+  let body="";
+  if(on.length&&LIVE&&S.liveState==="loading") body=`<p class="muted" role="status">Searching ${esc(on.join(", "))} near you…</p>`;
+  else if(on.length){
+    const R=tryBrandResults(S.A,S.filters,on);
+    body=`<div class="tries">${R.map(r=>{
+      const name=r.m.make+" "+r.m.model;
+      if(!r.s) return `<div class="try"><div class="try-id"><b>${esc(name)}</b><p class="muted">Doesn't fit you: ${esc(r.reason)}</p></div></div>`;
+      const s=r.s, L=s.L, mine=P.picks.some(k=>k.s.m===r.m), d=top?s.costs.total-top.costs.total:0;
+      const vs=mine?"Already one of your matches above.":top?`${Math.round(s.overall)} fit vs ${Math.round(top.overall)} for your top match, the ${top.m.make} ${top.m.model}, and about ${money(Math.abs(d))} ${d>=0?"more":"less"} a month all-in.`:"";
+      return `<div class="try"><div class="try-id"><b>${esc(L.year+" "+name)}</b><span class="pmeta">${esc(condLabel[L.cond])} · ${money(L.price)} · ${money(s.costs.total)}/mo all-in${s.overBudget?" · over your budget":""}</span>
+        <p>${esc(vs)}</p><p class="watch"><b>Watch</b>${esc(s.watch)}</p></div>
+        <div class="try-act"><span class="pill blue">${Math.round(s.overall)} fit</span><button type="button" class="btn ghost small" data-go="car-${esc(L.id)}">See this car</button>${mine?"":`<button type="button" class="btn small" data-act="try-cmp" data-id="${esc(L.id)}">Compare with my matches</button>`}</div></div>`;}).join("")}</div>`;
+  }
+  return `<section class="section" aria-labelledby="try-h"><div class="sec-head"><h2 id="try-h">Had something else in mind?</h2></div>
+    <p class="muted">Your matches come from your answers alone, before any brand had a say. Pick a brand to see how its cars do with the same answers and the same budget, then compare them side by side.</p>
+    <div class="chips" role="group" aria-label="Brands to try">${makes.map(mk=>`<button type="button" class="chip${on.includes(mk)?" on":""}" data-act="try-brand" data-make="${esc(mk)}" aria-pressed="${on.includes(mk)}">${esc(mk)}</button>`).join("")}</div>
+    ${body}</section>`;
 }
 
 /* ---------- compare ---------- */
@@ -2327,11 +2537,12 @@ function compareHTML(){
     const quick=PLAN?PLAN.picks.map(k=>k.s.L):LIVE?MODELS.map(m=>m.listings[0]).filter(Boolean).slice(0,3):["corolla-h-1","crv-h-0","rav4-h-2"].map(listingById).filter(Boolean);
     return `<div class="stack">${head}<div class="empty"><b>Nothing to compare yet.</b><p class="muted">Add cars with "+ Compare" from your plan or from Browse.</p><div class="row"><button type="button" class="btn small" data-act="cmp-set" data-ids="${quick.map(L=>L.id).join(",")}">${PLAN?"Compare my top picks":"Try an example"}</button><button type="button" class="btn ghost small" data-go="browse">Browse cars</button></div></div></div>`;
   }
+  Ls.forEach(loadRatings);
   const D=Ls.map(L=>{const c=costsFor(L,p), o=otdFor(L,p), f5=fiveYearCost(L,p), cov=coverageFor(L,p), f=fitFor(L);
     const must=p.feats.length?p.feats.filter(x=>L.model.feats.includes(x)).length:null;
     return {L,c,o,f5,cov,f,must};});
   const best=(vals,low)=>{const nums=vals.filter(v=>v!=null);if(nums.length<2)return -1;const t=low?Math.min(...nums):Math.max(...nums);if(nums.every(v=>v===t))return -1;return vals.indexOf(t);};
-  const row=(label,vals,fmt,low)=>{const bi=best(vals,low);return `<tr><th scope="row">${label}</th>${vals.map((v,i)=>`<td class="${i===bi?"best":""}">${i===bi?`<span class="tag">${low?"Lowest":"Best"}</span>`:""}${v==null?`<span class="no">Not given</span>`:fmt(v)}</td>`).join("")}</tr>`;};
+  const row=(label,vals,fmt,low)=>{const bi=best(vals,low);return `<tr><th scope="row">${label}</th>${vals.map((v,i)=>`<td class="${i===bi?"best":""}">${i===bi?`<span class="tag">${low?"Lowest":"Best"}</span>`:""}${v==null?`<span class="no">Not given</span>`:fmt(v,i)}</td>`).join("")}</tr>`;};
   const trow=(label,vals)=>`<tr><th scope="row">${label}</th>${vals.map(v=>`<td>${v}</td>`).join("")}</tr>`;
   const grp=t=>`<tr class="grp"><th colspan="${Ls.length+1}" scope="colgroup">${t}</th></tr>`;
   const feats=Object.keys(FEATURE_NAMES);
@@ -2349,6 +2560,9 @@ function compareHTML(){
       ${row("Repairs and upkeep",D.map(d=>d.c.reserve),v=>money(v)+"/mo",true)}
       ${row("All-in each month",D.map(d=>d.c.total),v=>`<b>${money(v)}/mo</b>`,true)}
       ${row("5-year cost to own",D.map(d=>d.f5.total),v=>`<b>${money(v)}</b>`,true)}
+      ${grp("Safety and economy")}
+      ${trow("Crash test rating (NHTSA)",D.map(d=>ratingCell(d.L)))}
+      ${row("Fuel economy",D.map(d=>mpgOf(d.L.model)),(v,i)=>esc(mpgText(D[i].L.model)),false)}
       ${grp("Living with it")}
       ${row("Reliability (demo rating)",D.map(d=>relScore(d.L.model)),v=>v.toFixed(1)+" / 10",false)}
       ${trow("What typically goes wrong",D.map(d=>esc(d.L.model.watch)))}
@@ -2361,7 +2575,7 @@ function compareHTML(){
       ${grp("Specs")}
       ${trow("Seats",D.map(d=>d.L.model.seats))}
       ${trow("Cargo space",D.map(d=>`${d.L.model.cargo} cu ft`))}
-      ${trow("Efficiency",D.map(d=>d.L.model.pt==="bev"?`${d.L.model.kwh} kWh/100 mi · ${d.L.model.range} mi range`:`${d.L.model.mpg} mpg combined`))}
+      ${trow("Energy use",D.map(d=>d.L.model.pt==="bev"||d.L.model.pt==="phev"?`${d.L.model.kwh} kWh per 100 mi`:`${d.L.model.mpg} mpg combined`))}
       ${trow("Towing",D.map(d=>d.L.model.tow?lbkg(d.L.model.tow):"Not rated"))}
       ${trow("Powertrain",D.map(d=>PT_LABEL[d.L.model.pt]+(d.L.awd?" · AWD":"")))}
     </tbody></table></div>
@@ -2443,8 +2657,9 @@ function listingHTML(){
   const bl=cov.basicLeft, keep=cov.keepYears, needPlan=bl<keep-.5;
   return `<nav class="crumbs" aria-label="Breadcrumb"><button type="button" data-go="${PLAN?"plan":"browse"}">${PLAN?"Your plan":"Browse cars"}</button><span aria-hidden="true">›</span><span>${esc(lname(L))}</span></nav>
   <div class="cols"><div class="main">
-    <div>${carArt(L,"lg")}<p class="art-cap">${L.live?"Photo from the dealer's listing.":"Illustration only. The live version shows the seller's photos."}</p></div>
-    <div class="l-title"><h1 id="pagetitle" tabindex="-1">${esc(lname(L))}</h1><p>${L.trim?esc(L.trim)+" · ":""}${L.color?esc(L.color)+" · ":""}${condLabel[L.cond]} · ${milesText(L)} · ${PT_LABEL[m.pt]}${L.awd?" · AWD":""} · ${esc(L.where)}, ${distText(L)} · VIN ••••${L.vin}</p></div>
+    ${galleryHTML(L)}
+    <div class="l-title"><h1 id="pagetitle" tabindex="-1">${esc(lname(L))}</h1><p>${L.trim?esc(L.trim)+" · ":""}${L.color?esc(L.color)+" · ":""}${condLabel[L.cond]} · ${milesText(L)} · ${PT_LABEL[m.pt]}${L.awd?" · AWD":""} · ${esc(L.where)}, ${distText(L)}</p>
+      ${L.fullVin?`<p class="vinrow">VIN <span class="vin num">${esc(L.fullVin)}</span><button type="button" class="tbtn" data-act="copy-vin" data-vin="${esc(L.fullVin)}">Copy VIN</button></p>`:`<p class="vinrow">VIN ••••${esc(L.vin)} <span class="hint">(example car)</span></p>`}</div>
     ${why?`<section class="section" aria-labelledby="why-h"><div class="sec-head"><h2 id="why-h">Why it fits you</h2><span class="pill blue">${Math.round(f.overall)} overall fit</span></div><ul class="why">${why.why.map(x=>`<li>${esc(x)}</li>`).join("")}</ul><p class="watch"><b>Watch</b>${esc(why.watch)}</p></section>`:f&&f.ruled?`<div class="note bad"><b>This car doesn't fit your needs.</b> ${esc(f.ruled)}</div>`:""}
     <section class="section" aria-labelledby="deal-h"><div class="sec-head"><h2 id="deal-h">Deal check</h2><span class="hint">${d.live?"Compared with listings near you":"Demo market data"}</span></div>
       <div class="grid3"><div class="box"><span class="eyebrow">Vs similar listings</span>${d.typ==null?`<span class="big" style="font-size:22px">Not enough to compare</span><p>Fewer than 2 similar ${esc(m.model)} listings nearby.</p>`:`<span class="big" style="color:${d.diff<=0?"var(--good)":"var(--bad)"}">${d.diff===0?"Right at typical":money(Math.abs(d.diff))+(d.diff<0?" below":" above")}</span><p>${d.live?`Middle price of ${d.peers} similar listings nearby: ${money(d.typ)}.`:`Typical price ${money(d.typ)} for this year and mileage.`}</p>`}</div>
@@ -2454,13 +2669,15 @@ function listingHTML(){
     <section class="section" aria-labelledby="otd-h"><div class="sec-head"><h2 id="otd-h">Out-the-door price</h2><span class="hint">${esc(o.hint)}</span></div>
       <div class="kv"><div><span>Price</span><span>${money(L.price)}</span></div>${o.lines.map(x=>`<div><span>${esc(x[0])}</span><span>${money(x[1])}</span></div>`).join("")}<div class="tot"><span>Out the door</span><span>${money(o.total)}</span></div></div>
       <p class="fine">${esc(o.fine)}</p></section>
+    ${L.ship?shipHTML(L):""}
     ${calcHTML(L,p,c)}
     ${insHTML(L,p,c)}
     ${chargeHTML(L,p)}
+    ${safetyHTML(L)}
     <section class="section" aria-labelledby="hist-h"><h2 id="hist-h">History and recalls</h2>
-      <div class="grid3"><div class="box"><h3>Vehicle history report</h3>${L.hist?`<p><b>${esc(histText(L))}</b></p>`:""}${L.carfax?`<p>The dealer offers a free Carfax report for this car.</p><a href="${esc(L.carfax)}" target="_blank" rel="noopener">Open the Carfax report</a>`:`<p>Accidents, owners and service records${L.live?". Ask the dealer for a Carfax or AutoCheck report.":", from a Carfax or AutoCheck partner in the live version."}</p>`}</div>
-        <div class="box"><h3>Title check</h3><p>Salvage, flood and odometer brands from the national title database (NMVTIS) in the live version.</p></div>
-        <div class="box"><h3>Recalls</h3><p>The live version lists every NHTSA recall for the ${L.year} ${esc(m.make+" "+m.model)}. Ask the seller to confirm each is fixed. After you buy, FitDrive keeps watching for new ones.</p><a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">Check any VIN at NHTSA</a></div></div></section>
+      <div class="grid3"><div class="box"><h3>Vehicle history report</h3>${L.hist?`<p><b>${esc(histText(L))}</b></p>`:""}${L.carfax?`<p>The dealer offers a free Carfax report for this car.</p><a href="${esc(L.carfax)}" target="_blank" rel="noopener">Open the free Carfax report</a>`:L.live&&L.url?`<p>Many dealers post a free Carfax or AutoCheck report on their listing. If this one doesn't, ask the dealer for it.</p><a href="${esc(L.url)}" target="_blank" rel="noopener">Look for it on the dealer's listing</a>`:`<p>Accidents, owners and service records, from a Carfax or AutoCheck partner in the live version.</p>`}</div>
+        <div class="box"><h3>Title check</h3><p>${LIVE?"Coming soon: salvage, flood and odometer brands from the national title database (NMVTIS).":"Salvage, flood and odometer brands from the national title database (NMVTIS) in the live version."}</p></div>
+        <div class="box"><h3>Recalls</h3><p>${LIVE?`Check this exact car for open recalls, and ask the seller to confirm any are fixed.`:`The live version lists every NHTSA recall for the ${L.year} ${esc(m.make+" "+m.model)}. Ask the seller to confirm each is fixed. After you buy, FitDrive keeps watching for new ones.`}</p>${L.fullVin?`<p class="hint">Copy the VIN, then paste it into NHTSA's recall lookup.</p><div class="row"><button type="button" class="tbtn" data-act="copy-vin" data-vin="${esc(L.fullVin)}">Copy VIN</button><a href="https://www.nhtsa.gov/recalls?vin=${encodeURIComponent(L.fullVin)}" target="_blank" rel="noopener">Check recalls at NHTSA</a></div>`:`<a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">Check any VIN at NHTSA</a>`}</div></div></section>
     <section class="section" aria-labelledby="wrong-h"><div class="sec-head"><h2 id="wrong-h">What typically goes wrong</h2><span class="pill amber">Example layout</span></div>
       <p class="muted">The live version groups owner complaints filed with NHTSA by area. These bars are made up to show the layout. They are not real data for this car.</p>
       <div class="hbars" aria-label="Example complaint areas">${comp.map(x=>`<div class="hbar"><span>${esc(x.a)}</span><div class="b"><i style="width:${Math.round(x.n/maxN*100)}%"></i></div><b>${x.n}</b></div>`).join("")}</div>
@@ -2474,9 +2691,9 @@ function listingHTML(){
   <aside class="side" aria-label="Price and actions">
     <div class="pricebox"><div class="row" style="justify-content:space-between"><span class="big num">${money(L.price)}</span><span class="pill ${d.rating==="Good price"?"good":d.rating==="Priced high"?"bad":"amber"}">${d.rating}</span></div>
       <div class="kv"><div><span>Out the door</span><span>${money(o.total)}</span></div><div><span>All-in a month</span><span><b>${money(c.total)}</b></span></div><div><span>Working budget</span><span>${money(bud().target)}</span></div>${f&&f.overall!=null?`<div><span>Fit for you</span><span><b>${Math.round(f.overall)}/100</b></span></div>`:""}</div>
-      <button type="button" class="btn" data-go="ask-${L.id}">Check availability</button>
+      ${retailer(L)&&L.url?`<a class="btn" href="${esc(L.url)}" target="_blank" rel="noopener">Continue at ${retailer(L)}</a><p class="hint">${retailer(L)} handles pre-approval, appointments, test drives and delivery on its own site.</p>`:`<button type="button" class="btn" data-go="ask-${L.id}">Check availability</button>`}
       <div class="row"><button type="button" class="tbtn" style="flex:1" data-heart="${L.id}" aria-pressed="${saved}">${saved?"Saved":"Save"}</button><button type="button" class="tbtn" style="flex:1" data-cmp="${L.id}" aria-pressed="${inC}">${inC?"In compare":"+ Compare"}</button></div>
-      ${L.url?`<a class="btn ghost" href="${esc(L.url)}" target="_blank" rel="noopener">See the full listing</a>`:`<button type="button" class="linkbtn" disabled style="opacity:.6;align-self:flex-start;text-decoration:none">Seller's own listing (live version)</button>`}</div>
+      ${retailer(L)?"":L.url?`<a class="btn ghost" href="${esc(L.url)}" target="_blank" rel="noopener">See the full listing</a>`:`<button type="button" class="linkbtn" disabled style="opacity:.6;align-self:flex-start;text-decoration:none">Seller's own listing (live version)</button>`}</div>
     <div class="pricebox"><div class="row" style="justify-content:space-between;flex-wrap:nowrap"><b>Price-drop alert</b><button type="button" class="toggle" data-act="alert" data-id="${L.id}" aria-pressed="${alert}" aria-label="Price-drop alert"><i></i></button></div>
       <p class="hint">${alert?"On. In the live version FitDrive emails you when the price drops, and nothing else.":"Turn it on to hear when the price drops."}</p></div>
     <div class="pricebox"><b>Bought it?</b><p class="hint">See what FitDrive does after you buy: recall alerts, coverage left and reminders.</p><button type="button" class="btn ghost small" data-act="bought" data-id="${L.id}">I bought this car (demo)</button></div>
@@ -2578,7 +2795,7 @@ function howHTML(){
       <tr><th scope="row">Service and reliability</th><td>3</td><td>Dealers and shops nearby, track record</td></tr><tr><th scope="row">Manufacturer</th><td>2</td><td>A tie-break only</td></tr></tbody></table></div>
       <p class="muted">Overall fit = 80% needs + 20% experience. When your top purpose is luxury, performance or a weekend car, it's 65% needs and 35% experience, because the experience is the point. Cars over your budget lose ground in the ranking.</p></section>
     <section class="section" aria-labelledby="w2"><h2 id="w2">Your working budget</h2><p class="muted">A payment is only part of the cost. FitDrive assumes the payment is about 60% of the all-in monthly cost, then caps it at 15% of gross monthly income and a 36% debt-to-income limit if you share income.</p></section>
-    ${LIVE?`<section class="section" aria-labelledby="w3"><h2 id="w3">What's real and what's estimated</h2><div class="grid2"><div class="box"><h3>Real</h3><p>Dealer listings near your ZIP: price, miles, photos, the dealer and a link to their page, from auto.dev's inventory data. Sales tax by city for California ZIP codes and Chicago, each state's car tax rules, and state gas and electricity prices.</p></div><div class="box"><h3>Estimated for now</h3><p>Payments, insurance and repair costs, local tax add-ons outside California and Chicago, most title and registration fees, reliability ratings, the complaint chart and local charger counts.</p></div></div></section>`:`<section class="section" aria-labelledby="w3"><h2 id="w3">Demo now, live data later</h2><div class="grid2"><div class="box"><h3>In this demo</h3><p>Example listings and dealers, demo ratings and example complaint charts. Taxes use each state's car tax rules, with real city rates for California and Chicago.</p></div><div class="box"><h3>In the live version</h3><p>Real dealer and private-seller listings, NHTSA recalls and complaints, EPA fuel data, charging stations and rebates by ZIP, and exact local taxes and fees for every ZIP.</p></div></div></section>`}
+    ${LIVE?`<section class="section" aria-labelledby="w3"><h2 id="w3">What's real and what's estimated</h2><div class="grid2"><div class="box"><h3>Real</h3><p>Dealer listings near your ZIP: price, miles, photos, the dealer and a link to their page, from auto.dev's inventory data. Sales tax by city for California ZIP codes and Chicago, each state's car tax rules, state gas and electricity prices, and NHTSA crash test ratings and recall counts for each model year.</p></div><div class="box"><h3>Estimated for now</h3><p>Payments, insurance and repair costs, local tax add-ons outside California and Chicago, most title and registration fees, reliability ratings, the complaint chart and local charger counts.</p></div></div></section>`:`<section class="section" aria-labelledby="w3"><h2 id="w3">Demo now, live data later</h2><div class="grid2"><div class="box"><h3>In this demo</h3><p>Example listings and dealers, demo ratings and example complaint charts. Taxes use each state's car tax rules, with real city rates for California and Chicago.</p></div><div class="box"><h3>In the live version</h3><p>Real dealer and private-seller listings, NHTSA recalls and complaints, EPA fuel data, charging stations and rebates by ZIP, and exact local taxes and fees for every ZIP.</p></div></div></section>`}
     <section class="section" aria-labelledby="w4"><h2 id="w4">Money and privacy</h2><ul class="plain"><li>Paid placements will always be labeled Sponsored and never change a car's fit score or its order.</li><li>FitDrive doesn't sell cars, lend money or take deposits.</li><li>Your income and credit answers are never shared with sellers. In this demo, your answers stay in this browser.</li></ul></section></div>`;
 }
 
@@ -2588,10 +2805,16 @@ function withDemo(fn){const saved=MODELS.map(m=>m.listings),all=ALL_LISTINGS,ls=
 function liveZipValue(){return S.A.zip&&/^\d{5}$/.test(S.A.zip)?S.A.zip:null;}
 function liveDistance(){const p=makeProfile(S.A);return p.place==="rural"?150:p.place==="city"?40:60;}
 const LIVE_MAX=16;
-function liveModels(){
-  const p=makeProfile(S.A), ranked=prefitModels(S.A), ids=new Set(ranked.slice(0,LIVE_MAX).map(m=>m.id));
-  ranked.filter(m=>p.brands.includes(m.make)).forEach(m=>ids.add(m.id));
+// The plan's own search: the best expected fits for these answers, plus the car in mind.
+function liveBase(){
+  const ids=new Set(prefitModels(S.A).slice(0,LIVE_MAX).map(m=>m.id));
   if(S.A.mode==="test"&&S.A.wantCar) ids.add(S.A.wantCar);
+  return MODELS.filter(m=>ids.has(m.id)).map(m=>m.id);
+}
+// Everything to search: the plan's models, brands tried after the plan, and Browse picks.
+function liveModels(){
+  const ids=new Set(liveBase());
+  (S.tryBrands||[]).forEach(mk=>MODELS.filter(m=>m.make===mk).forEach(m=>ids.add(m.id)));
   const b=S.browse||{};
   if(b.make&&b.make!=="any") MODELS.filter(m=>m.make===b.make).forEach(m=>ids.add(m.id));
   if(b.model&&b.model!=="any") ids.add(b.model);
@@ -2611,21 +2834,30 @@ async function fetchModel(zip,dist,id){
   }
   throw new Error("rate_limited");
 }
+async function fetchNational(id){
+  const k=`fd-nat-${id}`, c=ssGet(k); if(c) return c;
+  const r=await fetch(`/.netlify/functions/fitdrive-listings?nationwide=1&model=${encodeURIComponent(id)}`);
+  const j=await r.json(); if(!r.ok||!j.ok) throw new Error(j.error||("HTTP "+r.status));
+  ssSet(k,j.listings||[]); return j.listings||[];
+}
 function ensureLive(){
   if(!LIVE) return;
   const zip=liveZipValue();
   if(!zip){if(S.liveZip){setDemo();S.liveZip=null;S.liveKey=null;}S.liveState="nozip";return;}
-  const dist=liveDistance(), ids=liveModels(), key=zip+"-"+dist+"-"+ids.join(".");
+  const dist=liveDistance(), ids=liveModels(), nat=!!S.nationwide, key=zip+"-"+dist+"-"+(nat?"N-":"")+ids.join(".");
   if(S.liveKey===key) return;
+  // Adding a brand or model to a search that already loaded keeps the page up while it searches.
+  S.liveSoft=S.liveState==="ok"&&S.liveZip===zip&&S.liveDist===dist;
   S.liveKey=key; S.liveState="loading"; S.liveDone=0; S.liveTotal=ids.length;
-  const rows=[]; let failed=0, i=0;
-  const worker=async()=>{while(i<ids.length){const id=ids[i++], cached=!!ssGet(`fd-live-${zip}-${dist}-${id}`);
+  const rows=[], far=[]; let failed=0, i=0;
+  const worker=async()=>{while(i<ids.length){const id=ids[i++], cached=!!ssGet(`fd-live-${zip}-${dist}-${id}`)&&(!nat||!!ssGet(`fd-nat-${id}`));
     try{const got=await fetchModel(zip,dist,id);got.forEach(x=>rows.push(Object.assign({},x,{modelId:id})));}catch(e){failed++;}
+    if(nat){try{const got=await fetchNational(id);got.forEach(x=>far.push(Object.assign({},x,{modelId:id,national:true})));}catch(e){}}
     if(S.liveKey!==key) return; S.liveDone++; const el=document.getElementById("live-progress"); if(el) el.textContent=`Checked ${S.liveDone} of ${S.liveTotal} models`;
     if(!cached) await new Promise(res=>setTimeout(res,250));}};
   Promise.all([worker(),worker(),worker()]).then(()=>{
     if(S.liveKey!==key) return;
-    const n=setLive(rows,ids); S.liveZip=zip; S.liveCount=n; S.liveIds=ids;
+    const n=setLive(rows.concat(far),ids,liveBase(),zipLL(zip),dist); S.liveZip=zip; S.liveDist=dist; S.liveCount=n; S.liveIds=ids; S.liveSoft=false;
     if(n){S.liveState="ok";} else {setDemo();S.liveState=failed>=ids.length?"error":"empty";}
     render();
   });
@@ -2734,8 +2966,8 @@ function render(focus){
   document.getElementById("savedpop").innerHTML=savedHTML();
   document.getElementById("langnote").innerHTML=langNoteHTML();
   const V={home:homeHTML,flow:flowHTML,plan:planHTML,browse:browseHTML,compare:compareHTML,car:listingHTML,ask:askHTML,garage:garageHTML,guide:guideHTML,how:howHTML}[S.view]||homeHTML;
-  const waiting=LIVE&&S.liveState==="loading"&&["plan","browse","compare"].includes(S.view);
-  document.getElementById("app").innerHTML=waiting?loadingHTML():V();
+  const waiting=LIVE&&S.liveState==="loading"&&!S.liveSoft&&["plan","browse","compare"].includes(S.view);
+  document.getElementById("app").innerHTML=waiting?loadingHTML():V()+(["home","plan"].includes(S.view)?installHTML():"");
   document.getElementById("tray").innerHTML=trayHTML();
   renderFb();
   persist();
@@ -2817,7 +3049,7 @@ document.addEventListener("click",e=>{
     case "liveretry":S.liveKey=null;render();return;
     case "fb-send":{sendFeedback();return;}
     case "edit":S.idx=0;S.sample=null;go("questions");return;
-    case "restart":S.A={};S.visited=[];S.idx=0;S.planBuilt=false;S.sample=null;S.filters={...FILTER_DEFAULTS};S.open={};S.calc={};S.charge={};go("questions");return;
+    case "restart":S.tryBrands=[];S.A={};S.visited=[];S.idx=0;S.planBuilt=false;S.sample=null;S.filters={...FILTER_DEFAULTS};S.open={};S.calc={};S.charge={};go("questions");return;
     case "reset-filters":S.filters={...FILTER_DEFAULTS};render();return;
     case "reset-browse":S.browse={...BROWSE_DEFAULTS};render();return;
     case "saved":S.savedOpen=!S.savedOpen;S.langOpen=false;render();return;
@@ -2825,6 +3057,11 @@ document.addEventListener("click",e=>{
     case "langclose":S.langNote=null;render();return;
     case "langvote":{const name=(LANGS.find(x=>x[0]===S.langNote)||[])[1];S.fb.notes.push({screen:"Language menu",lang:S.langNote,reaction:null,like:`Would use the ${name} version`,change:"",add:""});persist();render();toast("Noted in your feedback");return;}
     case "cmp-picks":S.compare=PLAN.picks.map(k=>k.s.L.id).slice(0,3);go("compare");return;
+    case "copy-vin":{const v=d.vin||"";const done=()=>toast("VIN copied");try{navigator.clipboard.writeText(v).then(done,()=>toast("Select the VIN and copy it"));}catch(e){toast("Select the VIN and copy it");}return;}
+    case "photo":{S.photoIdx[d.vin]=+d.i;const y=window.scrollY;render();window.scrollTo(0,y);return;}
+    case "install":if(INSTALL_PROMPT){const ev=INSTALL_PROMPT;INSTALL_PROMPT=null;ev.prompt();ev.userChoice.finally(()=>render());}else{S.open.install=!S.open.install;const y=window.scrollY;render();window.scrollTo(0,y);}return;
+    case "try-brand":{const mk=d.make;S.tryBrands=S.tryBrands.includes(mk)?S.tryBrands.filter(x=>x!==mk):[...S.tryBrands,mk];render();return;}
+    case "try-cmp":S.compare=[d.id,...PLAN.picks.map(k=>k.s.L.id).filter(x=>x!==d.id)].slice(0,3);go("compare");return;
     case "cmp-set":S.compare=(d.ids||"").split(",").filter(listingById).slice(0,3);render();return;
     case "alert":S.alerts[d.id]=!S.alerts[d.id];{const y=window.scrollY;render();window.scrollTo(0,y);}toast(S.alerts[d.id]?"Price-drop alert on":"Price-drop alert off");return;
     case "bought":S.bought=d.id;go("garage");return;
@@ -2871,6 +3108,7 @@ document.addEventListener("change",e=>{
   const el=e.target;
   if(el.dataset.car){if(el.value) S.A.wantCar=el.value; else delete S.A.wantCar; refreshLive(); return;}
   if(el.dataset.filter){const k=el.dataset.filter;S.filters[k]=isNaN(+el.value)?el.value:+el.value;render();return;}
+  if(el.dataset.where){S.nationwide=el.value==="nation";render();return;}
   if(el.dataset.bfilter){const k=el.dataset.bfilter;S.browse[k]=isNaN(+el.value)?el.value:+el.value;
     if(k==="make"&&S.browse.model!=="any"){const m=MODELS.find(x=>x.id===S.browse.model);if(!m||(S.browse.make!=="any"&&m.make!==S.browse.make))S.browse.model="any";}
     render();return;}

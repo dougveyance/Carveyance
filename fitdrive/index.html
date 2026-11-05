@@ -575,6 +575,8 @@ ul.plain{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:5px;f
 .favst.warn{background:var(--amber-bg);color:var(--amber-ink)}
 .favst.good{background:var(--good-bg);color:var(--good)}
 a.tbtn{text-decoration:none;display:inline-flex;align-items:center}
+@media (max-width:520px){.top>.in{column-gap:10px}.top-tools{gap:6px}.favtop,.globe{padding:7px 9px}}
+@media (max-width:380px){.globe span{display:none}}
 
 </style>
 </head>
@@ -588,6 +590,10 @@ a.tbtn{text-decoration:none;display:inline-flex;align-items:center}
   <input name="model"><input name="car"><input name="year"><input name="own"><input name="owned"><input name="miles"><input name="rating"><input name="again">
   <textarea name="love"></textarea><textarea name="bugs"></textarea><textarea name="broke"></textarea>
   <input name="name"><input name="email"><input name="vin"><input name="agree"><input name="bot-field">
+</form>
+<form name="fitdrive-accounts" data-netlify="true" netlify-honeypot="bot-field" hidden>
+  <input type="hidden" name="form-name" value="fitdrive-accounts">
+  <input name="email"><input name="bot-field">
 </form>
 <form name="fitdrive-dealer" data-netlify="true" netlify-honeypot="bot-field" hidden>
   <input type="hidden" name="form-name" value="fitdrive-dealer">
@@ -604,6 +610,7 @@ a.tbtn{text-decoration:none;display:inline-flex;align-items:center}
     <nav class="mainnav" id="mainnav" aria-label="FitDrive"></nav>
     <div class="top-tools">
       <button type="button" class="favtop" id="favtop" data-act="saved" aria-expanded="false" aria-label="Favorites"></button>
+      <button type="button" class="favtop" id="accttop" data-act="acct" aria-expanded="false" aria-label="Account"></button>
       <button type="button" class="globe" id="globe" data-act="lang" aria-expanded="false" aria-haspopup="true" aria-label="Language: English">
         <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"></circle><ellipse cx="12" cy="12" rx="4" ry="9" fill="none" stroke="currentColor" stroke-width="1.8"></ellipse><line x1="3" y1="12" x2="21" y2="12" stroke="currentColor" stroke-width="1.8"></line></svg><span>EN</span>
       </button>
@@ -2223,7 +2230,7 @@ function parseRoute(h){
 function routeName(){return S.view==="home"?"home":S.view==="flow"?"questions":S.view==="car"?"car-"+S.carId:S.view==="ask"?"ask-"+S.carId:S.view;}
 let ignoreHash=null;
 function go(name){
-  const r=parseRoute(name); S.view=r.view; S.carId=r.carId||null; S.savedOpen=false; S.langOpen=false;
+  const r=parseRoute(name); S.view=r.view; S.carId=r.carId||null; S.savedOpen=false; S.acctOpen=false; S.langOpen=false;
   render(true);
   const want="#"+routeName();
   if(location.hash!==want){ignoreHash=want;try{location.hash=routeName();}catch(e){}}
@@ -3142,7 +3149,7 @@ function render(focus){
   document.getElementById("mainnav").innerHTML=navHTML();
   document.getElementById("langmenu").innerHTML=langMenuHTML();
   const g=document.getElementById("globe"); g.setAttribute("aria-expanded",S.langOpen);
-  document.getElementById("savedpop").innerHTML=savedHTML(); favTopRender();
+  document.getElementById("savedpop").innerHTML=S.acctOpen?acctHTML():savedHTML(); favTopRender(); acctTopRender();
   document.getElementById("langnote").innerHTML=langNoteHTML();
   const V={home:homeHTML,flow:flowHTML,plan:planHTML,browse:browseHTML,compare:compareHTML,car:listingHTML,ask:askHTML,garage:garageHTML,guide:guideHTML,how:howHTML,privacy:privacyHTML,dealers:dealersHTML,worth:worthHTML}[S.view]||homeHTML;
   const waiting=LIVE&&S.liveState==="loading"&&!S.liveSoft&&["plan","browse","compare"].includes(S.view);
@@ -3232,8 +3239,11 @@ document.addEventListener("click",e=>{
     case "restart":S.tryBrands=[];S.A={};S.visited=[];S.idx=0;S.planBuilt=false;S.sample=null;S.filters={...FILTER_DEFAULTS};S.open={};S.calc={};S.charge={};go("questions");return;
     case "reset-filters":S.filters={...FILTER_DEFAULTS};render();return;
     case "reset-browse":S.browse={...BROWSE_DEFAULTS};render();return;
-    case "saved":S.savedOpen=!S.savedOpen;S.langOpen=false;render();return;
-    case "lang":S.langOpen=!S.langOpen;S.savedOpen=false;render();return;
+    case "saved":S.savedOpen=!S.savedOpen;S.acctOpen=false;S.langOpen=false;render();return;
+    case "acct":S.acctOpen=!S.acctOpen;S.savedOpen=false;S.langOpen=false;render();if(S.acctOpen){const h=document.getElementById("ac-h");if(h){h.setAttribute("tabindex","-1");h.focus({preventScroll:true});}}return;
+    case "acct-send":sendAcct();return;
+    case "acct-plan":S.acctOpen=false;S.open.save=true;go("plan");return;
+    case "lang":S.langOpen=!S.langOpen;S.savedOpen=false;S.acctOpen=false;render();return;
     case "langclose":S.langNote=null;render();return;
     case "langvote":{const name=(LANGS.find(x=>x[0]===S.langNote)||[])[1];S.fb.notes.push({screen:"Language menu",lang:S.langNote,reaction:null,like:`Would use the ${name} version`,change:"",add:""});persist();render();toast("Noted in your feedback");return;}
     case "cmp-picks":S.compare=PLAN.picks.map(k=>k.s.L.id).slice(0,3);go("compare");return;
@@ -3504,10 +3514,11 @@ function privacyHTML(){
   <section class="section"><h2>What you choose to send us</h2><ul class="plain">
     <li><b>Feedback</b> goes to Carveyance only, through our website host, Netlify.</li>
     <li><b>Reviews</b> include the name you choose to show, your email and, if you add it, your VIN. We show the name and the review. We never show your email or VIN. We use them only to check that you're a real owner.</li>
-    <li><b>Dealer contact forms</b> go to Carveyance only.</li></ul>
+    <li><b>Dealer contact forms</b> go to Carveyance only.</li>
+    <li><b>An email to hear when accounts open</b> is kept for that one message and used for nothing else.</li></ul>
     <p>FitDrive doesn't send anything to dealers today. If that changes, nothing will go to a dealer unless you ask for it on a specific car and agree first.</p></section>
   <section class="section"><h2>What we never do</h2><ul class="plain"><li>Sell your information, or share it for advertising.</li><li>Run credit checks. FitDrive never sees your credit report.</li><li>Let a sponsor change a car's fit score or its order. Paid spots are always labeled Sponsored.</li></ul></section>
-  <section class="section"><h2>Your choices</h2><p>You can delete everything FitDrive keeps on this device at any time. If you're in California, you can also ask what we hold about you or ask us to delete it, such as a review or a message you sent. Send the request through the Feedback button and include your email.</p>
+  <section class="section"><h2>Your choices</h2><p>You can delete everything FitDrive keeps on this device at any time. If you're in California, you can also ask what we hold about you or ask us to delete it, such as a review or a message you sent. Email <a href="mailto:doug@carveyance.com">doug@carveyance.com</a> with your request.</p>
     <div class="row"><button type="button" class="btn ${S.open.clearAsk?"":"ghost "}small" data-act="clear-data">${S.open.clearAsk?"Yes, delete my answers, saved cars and settings":"Delete my FitDrive data on this device"}</button>${S.open.clearAsk?`<span class="hint">This can't be undone.</span>`:""}</div></section>
   <section class="section"><h2>Terms of use</h2><ul class="plain">
     <li><b>Estimates, not offers.</b> Payments, rates, taxes, fees, insurance, shipping, values and repair costs are estimates to help you plan. They aren't loan offers, quotes or financial, legal or tax advice. Confirm every number with the seller, your lender and your insurer.</li>
@@ -3516,7 +3527,7 @@ function privacyHTML(){
     <li><b>FitDrive doesn't sell cars, lend money or take deposits,</b> and isn't part of any sale between you and a seller.</li>
     <li><b>Reviews must be your own honest experience</b> as a current or past owner. No ads, no personal information about other people, and nothing written for pay. We publish good and bad reviews alike. We remove reviews that break these rules.</li>
     <li><b>FitDrive is for adults</b> shopping for a car, and isn't meant for children under 13.</li></ul></section>
-  <section class="section"><h2>Who runs FitDrive</h2><p>FitDrive is a tool from <a href="https://carveyance.com" target="_blank" rel="noopener">Carveyance</a>, an independent car publication based in Los Angeles. Questions about this page can go through the Feedback button.</p></section></div>`;
+  <section class="section"><h2>Who runs FitDrive</h2><p>FitDrive is a tool from <a href="https://carveyance.com" target="_blank" rel="noopener">Carveyance</a>, an independent car publication based in Los Angeles. Questions about this page can go to <a href="mailto:doug@carveyance.com">doug@carveyance.com</a>.</p></section></div>`;
 }
 
 /* ---------- for dealers ---------- */
@@ -3535,7 +3546,7 @@ function dealersHTML(){
     <li>Honest deal checks that reward cars priced right</li>
     <li>Your dealership in front of Carveyance readers, who care about cars</li></ul>
     <p class="muted">We're starting with a small group of dealers in Southern California. Pilot dealers join free while we prove the leads are worth it.</p></section>
-  <section class="section" aria-labelledby="dl-h"><h2 id="dl-h">Join the pilot</h2>
+  <section class="section" aria-labelledby="dl-h"><h2 id="dl-h">Join the pilot</h2><p>Fill this in, or email <a href="mailto:doug@carveyance.com">doug@carveyance.com</a> and we'll set up a time to show you FitDrive with your own inventory.</p>
     ${d.sent?`<div class="note good" role="status"><b>Thank you.</b> We'll be in touch within 2 business days.</div>`
     :`<form class="rvform" onsubmit="return false" aria-label="Dealer contact"><div class="rvgrid">${inp("dealer","Dealership","Dealership name")}${inp("name","Your name","")}${inp("email","Email","","email")}${inp("phone","Phone","","tel")}${inp("site","Website","https://")}</div>
       <label class="fld"><span>Anything we should know?</span><textarea data-dl="msg" rows="3" maxlength="1000" placeholder="Brands you carry, your inventory provider, best time to talk">${esc(d.msg)}</textarea></label>
@@ -3666,6 +3677,32 @@ function favTopRender(){
   b.innerHTML=HEART(n>0)+`<span class="favlbl">Favorites</span>`+(n?`<span class="count">${n}</span>`:"");
   b.classList.toggle("on",n>0);
 }
+
+/* ---------- account (accounts aren't built yet: this says so, and takes an email for when they open) ---------- */
+const PERSON=`<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="8.2" r="3.8" fill="none" stroke="currentColor" stroke-width="2"/><path d="M4.5 20.2c.9-3.9 3.9-6 7.5-6s6.6 2.1 7.5 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>`;
+function acState(){return S.ac=S.ac||{email:"",sending:false,sent:false,err:""};}
+function acctHTML(){
+  const a=acState();
+  return `<div class="in" style="padding-top:14px"><section class="section" aria-labelledby="ac-h"><div class="sec-head"><h2 id="ac-h">Accounts are coming</h2><button type="button" class="tbtn" data-act="acct">Close</button></div>
+    <p>Soon you'll be able to sign in to keep your plan and favorites on every phone and computer, and get an email when a favorite drops in price or sells.</p>
+    <p class="muted">For now there's nothing to sign in to. Your answers, plan and ${S.saved.length?`${S.saved.length} favorite${S.saved.length>1?"s":""}`:"favorites"} are saved on this device.${S.planBuilt?` To open your plan on another device, use <button type="button" class="linkbtn" data-act="acct-plan">Save my plan</button>.`:""}</p>
+    ${a.sent?`<div class="note good" role="status"><b>Thanks.</b> We'll email you once, when accounts open.</div>`
+    :`<form class="rvform" onsubmit="return false" aria-label="Email me when accounts open" style="border-top:0;padding-top:0"><div class="row" style="align-items:flex-end"><label class="fld" style="flex:1 1 240px"><span>Email me when accounts open</span><input data-ac="email" type="email" value="${esc(a.email)}" placeholder="you@example.com" autocomplete="email"></label>
+      <button type="button" class="btn small" data-act="acct-send"${a.sending?" disabled":""}>${a.sending?"Sending…":"Notify me"}</button></div>
+      ${a.err?`<p class="note bad" role="alert">${esc(a.err)}</p>`:""}<p class="hint">One email, and nothing else. See <a href="#privacy">privacy and terms</a>.</p></form>`}</section></div>`;
+}
+function sendAcct(){
+  const a=acState(); if(a.sending) return;
+  if(!/^\S+@\S+\.\S+$/.test(a.email.trim())){a.err="Please add your email.";render();return;}
+  if(!LIVE){a.sent=true;a.err="";render();toast("Demo only: this sends on the live site");return;}
+  a.sending=true;a.err="";render();
+  netlifyPost("fitdrive-accounts",{email:a.email.trim()}).then(()=>{a.sending=false;a.sent=true;render();}).catch(()=>{a.sending=false;a.err="It didn't send. Try again.";render();});
+}
+function acctTopRender(){
+  const b=document.getElementById("accttop"); if(!b) return;
+  b.setAttribute("aria-expanded",!!S.acctOpen); b.innerHTML=PERSON+`<span class="favlbl">Account</span>`;
+}
+document.addEventListener("input",e=>{const el=e.target;if(el.dataset&&el.dataset.ac){acState()[el.dataset.ac]=el.value;}});
 
 /* ---------- start the page (last, after every file has loaded) ---------- */
 (function boot(){if(loadPlanFromHash()){render(false);return;}const r=parseRoute(location.hash);if(location.hash){S.view=r.view;S.carId=r.carId||null;}else{S.view="home";}render(false);})();

@@ -87,6 +87,81 @@ async function ratings(id, year) {
   }
 }
 
+// NHTSA recall lookups use these model names, tried in order until one returns recalls.
+const RECALL_NAMES = {
+  "corolla-h": ["COROLLA HYBRID", "COROLLA"], "civic": ["CIVIC"], "versa": ["VERSA"], "rav4-h": ["RAV4 HYBRID", "RAV4"],
+  "crv-h": ["CR-V HYBRID", "CR-V"], "cx5": ["CX-5"], "outback": ["OUTBACK"], "sienna": ["SIENNA"], "telluride": ["TELLURIDE"],
+  "f150": ["F-150"], "maverick-h": ["MAVERICK"], "4runner": ["4RUNNER"], "tucson-phev": ["TUCSON PLUG-IN HYBRID", "TUCSON PHEV", "TUCSON"],
+  "model3": ["MODEL 3"], "ioniq5": ["IONIQ 5"], "equinox-ev": ["EQUINOX EV", "EQUINOX"], "miata": ["MX-5 MIATA", "MX-5"],
+  "bmw330i": ["330I", "3 SERIES"], "rx350h": ["RX 350H", "RX"], "lexus-es-h": ["ES 300H", "ES"], "bmw-x3": ["X3"], "bmw-x5": ["X5"],
+  "merc-c300": ["C300", "C-CLASS"], "merc-glc": ["GLC300", "GLC"], "merc-gle": ["GLE350", "GLE"], "audi-q5": ["Q5"],
+  "genesis-gv70": ["GV70"], "volvo-xc90": ["XC90"], "model-y": ["MODEL Y"], "porsche-macan": ["MACAN"],
+  "porsche-cayenne": ["CAYENNE"], "porsche-911": ["911"],
+};
+const LONG = (vary) => ({ "Cache-Control": "public, max-age=86400", "Netlify-CDN-Cache-Control": "public, durable, max-age=604800",
+  "Netlify-Vary": "query=" + vary, "Content-Type": "application/json; charset=utf-8" });
+// Recalls for one model year: ?recalls=corolla-h&year=2024
+async function recalls(id, year) {
+  const spec = MODELS[id], names = RECALL_NAMES[id];
+  if (!spec || !names || !/^\d{4}$/.test(year)) return json(400, { ok: false, error: "bad_request" });
+  try {
+    for (const name of names) {
+      const r = await fetch(`https://api.nhtsa.gov/recalls/recallsByVehicle?make=${encodeURIComponent(spec.make)}&model=${encodeURIComponent(name)}&modelYear=${year}`);
+      if (!r.ok) continue;
+      const j = await r.json(), list = Array.isArray(j.results) ? j.results : Array.isArray(j.Results) ? j.Results : [];
+      if (!list.length) continue;
+      const out = list.slice(0, 25).map((x) => ({ id: x.NHTSACampaignNumber || "", date: x.ReportReceivedDate || "", component: x.Component || "",
+        summary: x.Summary || "", consequence: x.Consequence || "", remedy: x.Remedy || "", parkIt: !!x.parkIt, ota: !!x.overTheAirUpdate }));
+      return new Response(JSON.stringify({ ok: true, id, year: +year, model: name, recalls: out }), { status: 200, headers: LONG("recalls|year") });
+    }
+    return new Response(JSON.stringify({ ok: true, id, year: +year, model: names[0], recalls: [] }), { status: 200, headers: LONG("recalls|year") });
+  } catch (e) {
+    return json(502, { ok: false, error: "nhtsa_unavailable" });
+  }
+}
+// Model names for a make and year (NHTSA vPIC), for the car value tool: ?models=toyota&year=2020
+async function modelsFor(make, year) {
+  if (!/^[a-z0-9 .\-]{2,30}$/i.test(make) || !/^\d{4}$/.test(year)) return json(400, { ok: false, error: "bad_request" });
+  try {
+    const r = await fetch(`https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/${encodeURIComponent(make)}/modelyear/${year}?format=json`);
+    const j = await r.json(); const names = [...new Set((j.Results || []).map((x) => String(x.Model_Name || "").trim()).filter(Boolean))].sort((a, b) => a.localeCompare(b));
+    return new Response(JSON.stringify({ ok: true, make, year: +year, models: names }), { status: 200, headers: LONG("models|year") });
+  } catch (e) {
+    return json(502, { ok: false, error: "vpic_unavailable" });
+  }
+}
+// What a car like yours is listed for near you: ?value=1&make=Toyota&model=RAV4&year=2020&miles=60000&zip=90026&awd=any&hybrid=0
+async function valueOf(p, key, limit) {
+  const make = p.get("make") || "", model = p.get("model") || "", year = parseInt(p.get("year") || "", 10), miles = Math.max(0, parseInt(p.get("miles") || "0", 10) || 0);
+  const zip = p.get("zip") || "", awd = p.get("awd") || "any", hybrid = p.get("hybrid") === "1";
+  if (!make || !model || !(year > 1980) || !/^\d{5}$/.test(zip)) return json(400, { ok: false, error: "bad_request" });
+  const names = hybrid ? [model + " Hybrid", model] : [model];
+  const q = ["vehicle.make=" + encodeURIComponent(make), "vehicle.model=" + names.map(encodeURIComponent).join(","),
+    "vehicle.year=" + (year - 1) + "-" + (year + 1), "zip=" + zip, "distance=100", "limit=" + limit].join("&");
+  let res;
+  try { res = await fetch("https://api.auto.dev/listings?" + q, { headers: { Authorization: "Bearer " + key, "Content-Type": "application/json" } }); }
+  catch (e) { return json(502, { ok: false, error: "upstream_unreachable" }); }
+  if (res.status === 429) return json(429, { ok: false, error: "rate_limited" });
+  if (!res.ok) return json(502, { ok: false, error: "upstream_error", status: res.status });
+  const body = await res.json().catch(() => ({}));
+  let rows = (Array.isArray(body.data) ? body.data : []).map((it) => pick(it, year)).filter((x) => x.price > 500 && x.used);
+  const text = (x) => [x.model, x.trim, x.fuel, x.engine, x.series].join(" ");
+  rows = rows.filter((x) => hybrid ? /hybrid|plug/i.test(text(x)) : !/hybrid|plug-in|phev/i.test(text(x)));
+  const four = (x) => /awd|4wd|4x4|all|four/i.test(String(x.drivetrain || ""));
+  if (awd === "1") rows = rows.filter(four); else if (awd === "0") rows = rows.filter((x) => x.drivetrain && !four(x));
+  const n = rows.length;
+  if (n < 3) return new Response(JSON.stringify({ ok: true, n, enough: false }), { status: 200, headers: LONG("value|make|model|year|miles|zip|awd|hybrid") });
+  const prices = rows.map((x) => x.price).sort((a, b) => a - b), q_ = (f) => prices[Math.min(n - 1, Math.max(0, Math.round(f * (n - 1))))];
+  // Adjust for mileage with a straight-line fit of price against miles when the listings spread enough.
+  const mx = rows.reduce((a, x) => a + x.miles, 0) / n, my = rows.reduce((a, x) => a + x.price, 0) / n;
+  const sxx = rows.reduce((a, x) => a + (x.miles - mx) ** 2, 0), sxy = rows.reduce((a, x) => a + (x.miles - mx) * (x.price - my), 0);
+  let mid = q_(0.5);
+  if (n >= 5 && sxx > 0) { const b = Math.min(0, sxy / sxx); mid = my + b * (miles - mx); }
+  mid = Math.min(q_(0.9), Math.max(q_(0.1), mid));
+  const out = { ok: true, n, enough: true, low: q_(0.25), high: q_(0.75), mid: Math.round(mid / 50) * 50, typicalMiles: Math.round(mx / 100) * 100 };
+  return new Response(JSON.stringify(out), { status: 200, headers: LONG("value|make|model|year|miles|zip|awd|hybrid") });
+}
+
 const json = (status, body, cache) => new Response(JSON.stringify(body), {
   status,
   headers: {
@@ -110,7 +185,7 @@ function pick(item, year) {
   const dealer = typeof r.dealer === "string" ? r.dealer : (r.dealer && (r.dealer.name || r.dealer.dealerName)) || "";
   return {
     vin: item.vin || v.vin || "", year: y, make: v.make || "", model: v.model || "", trim: v.trim || "",
-    drivetrain: v.drivetrain || "", fuel: v.fuel || "", engine: v.engine || "", series: v.series || "", color: v.exteriorColor || "",
+    drivetrain: v.drivetrain || "", trans: v.transmission || "", fuel: v.fuel || "", engine: v.engine || "", series: v.series || "", color: v.exteriorColor || "",
     price: num(r.price) || 0, miles: miles ?? 0, used, cpo: r.cpo === true || r.cpo === "true",
     dealer, city: r.city || "", state: r.state || "", zip: r.zip || "",
     vdp: r.vdp || r.vdpUrl || "", photo: r.primaryImage || "", photoCount: num(r.photoCount) || 0,
@@ -123,6 +198,56 @@ function pick(item, year) {
 }
 
 // Photo gallery for one car: /.netlify/functions/fitdrive-listings?photos=VIN
+// Equipment for one exact car from NHTSA's free VIN record: ?equip=VIN
+// Each value is "std" (standard), "opt" (optional, so the VIN alone can't say) or null (not in the record).
+async function equipFor(vin) {
+  if (!/^[A-HJ-NPR-Z0-9]{17}$/i.test(vin)) return json(400, { ok: false, error: "bad_vin" });
+  let d;
+  try {
+    const r = await fetch("https://vpic.nhtsa.dot.gov/api/vehicles/DecodeVinValues/" + encodeURIComponent(vin.toUpperCase()) + "?format=json");
+    if (!r.ok) return json(502, { ok: false, error: "nhtsa_error", status: r.status });
+    d = ((await r.json()).Results || [])[0] || {};
+  } catch (e) {
+    return json(502, { ok: false, error: "nhtsa_unreachable" });
+  }
+  const st = (v) => /^standard$/i.test(String(v || "").trim()) ? "std" : /^optional$/i.test(String(v || "").trim()) ? "opt" : null;
+  const any = (...vs) => { const x = vs.map(st); return x.includes("std") ? "std" : x.includes("opt") ? "opt" : null; };
+  const equip = {
+    cam: st(d.RearVisibilitySystem), bsm: any(d.BlindSpotMon, d.BlindSpotIntervention), rcta: st(d.RearCrossTrafficAlert),
+    aeb: any(d.CIB, d.PedestrianAutomaticEmergencyBraking), lka: any(d.LaneKeepSystem, d.LaneCenteringAssistance), park: st(d.ParkAssist),
+    lights: any(d.SemiautomaticHeadlampBeamSwitching, d.AdaptiveDrivingBeam) || (/LED/i.test(d.LowerBeamHeadlampLightSource || "") ? "std" : null),
+    cruise: st(d.AdaptiveCruiseControl), keyless: st(d.KeylessIgnition),
+  };
+  const body = { ok: true, vin: vin.toUpperCase(), year: d.ModelYear || "", make: d.Make || "", model: d.Model || "", trim: d.Trim || "",
+    trans: d.TransmissionStyle || "", speeds: d.TransmissionSpeeds || "", drive: d.DriveType || "", equip };
+  return new Response(JSON.stringify(body), { status: 200, headers: { ...LONG("equip"), "Netlify-CDN-Cache-Control": "public, durable, max-age=2592000" } });
+}
+
+// Is a saved car still for sale? ?listing=VIN. auto.dev keeps the last listing and adds removedAt once it's gone.
+async function listingByVin(vin, key) {
+  if (!/^[A-HJ-NPR-Z0-9]{17}$/i.test(vin)) return json(400, { ok: false, error: "bad_vin" });
+  let res;
+  try {
+    res = await fetch("https://api.auto.dev/listings/" + encodeURIComponent(vin.toUpperCase()), {
+      headers: { Authorization: "Bearer " + key, "Content-Type": "application/json" },
+    });
+  } catch (e) {
+    return json(502, { ok: false, error: "upstream_unreachable" });
+  }
+  const cache6h = { "Content-Type": "application/json; charset=utf-8", "Cache-Control": "public, max-age=1800",
+    "Netlify-CDN-Cache-Control": "public, durable, max-age=21600", "Netlify-Vary": "query=listing" };
+  if (res.status === 404) return new Response(JSON.stringify({ ok: true, vin, found: false }), { status: 200, headers: cache6h });
+  if (res.status === 429) return json(429, { ok: false, error: "rate_limited" });
+  if (!res.ok) return json(502, { ok: false, error: "upstream_error", status: res.status });
+  let body;
+  try { body = await res.json(); } catch (e) { return json(502, { ok: false, error: "upstream_bad_json" }); }
+  const item = body && body.data ? body.data : body || {};
+  const r = item.retailListing || {};
+  const removed = item.removedAt || r.removedAt || null;
+  return new Response(JSON.stringify({ ok: true, vin, found: true, removedAt: removed, price: num(r.price), miles: num(r.miles ?? r.mileage),
+    vdp: r.vdp || r.vdpUrl || "", trans: (item.vehicle && item.vehicle.transmission) || "" }), { status: 200, headers: cache6h });
+}
+
 async function photos(vin, key) {
   if (!/^[A-HJ-NPR-Z0-9]{17}$/i.test(vin)) return json(400, { ok: false, error: "bad_vin" });
   let res;
@@ -144,6 +269,24 @@ async function photos(vin, key) {
 
 export default async (req) => {
   const url = new URL(req.url);
+  const recallId = url.searchParams.get("recalls");
+  if (recallId) return recalls(recallId, url.searchParams.get("year") || "");
+  const modelsMake = url.searchParams.get("models");
+  if (modelsMake) return modelsFor(modelsMake, url.searchParams.get("year") || "");
+  if (url.searchParams.get("value") === "1") {
+    const k = (globalThis.Netlify && Netlify.env && Netlify.env.get("AUTODEV_API_KEY")) || process.env.AUTODEV_API_KEY;
+    if (!k) return json(500, { ok: false, error: "missing_key" });
+    const le = (globalThis.Netlify && Netlify.env && Netlify.env.get("AUTODEV_LIMIT")) || process.env.AUTODEV_LIMIT;
+    return valueOf(url.searchParams, k, Math.min(500, Math.max(1, parseInt(le || "20", 10) || 20)));
+  }
+  const equipVin = url.searchParams.get("equip");
+  if (equipVin) return equipFor(equipVin);
+  const listVin = url.searchParams.get("listing");
+  if (listVin) {
+    const k = (globalThis.Netlify && Netlify.env && Netlify.env.get("AUTODEV_API_KEY")) || process.env.AUTODEV_API_KEY;
+    if (!k) return json(500, { ok: false, error: "missing_key" });
+    return listingByVin(listVin, k);
+  }
   const ratingId = url.searchParams.get("ratings");
   if (ratingId) return ratings(ratingId, url.searchParams.get("year") || "");
   const photoVin = url.searchParams.get("photos");

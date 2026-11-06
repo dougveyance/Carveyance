@@ -219,6 +219,59 @@ main:focus{outline:none}
 .nav{display:flex;align-items:center;gap:12px;border-top:1px solid var(--line);padding-top:18px}
 .nav .left-time{margin-right:auto;font-size:14px;color:var(--muted)}
 .nav #back{order:-1}
+/* Update 14: in-app Back, and steps 1–7 you can tap */
+.backlink{align-self:flex-start;background:none;border:0;padding:6px 0;color:var(--blue-ink);font-weight:700;font-size:15px;display:inline-flex;gap:6px;align-items:center;min-height:36px}
+.backlink:hover{text-decoration:underline;text-underline-offset:3px}
+.backbar{max-width:1200px;margin:0 auto 10px}
+.steps ol{list-style:none;margin:0;padding:0;display:flex;gap:6px;flex-wrap:wrap}
+.steps button{display:flex;align-items:center;gap:8px;background:var(--card);border:1.5px solid var(--line2);border-radius:999px;padding:4px 12px 4px 4px;font-size:14px;font-weight:600;min-height:38px;color:var(--ink)}
+.steps button:hover:not(:disabled){border-color:var(--blue)}
+.steps .n{flex:0 0 28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font:800 13px/1 var(--display);border:1.5px solid var(--line2);color:var(--muted)}
+.steps .done .n{background:var(--good-bg);border-color:var(--good);color:var(--good)}
+.steps .cur button{background:var(--tint);border-color:var(--blue);color:var(--blue-ink)}
+.steps .cur .n{background:var(--blue);border-color:var(--blue);color:var(--on-blue)}
+.steps button:disabled{cursor:default}
+.steps .todo button:disabled{opacity:.55}
+.planbar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px}
+.planbar-steps{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.fit .rk{margin-top:4px;font-size:12px;font-weight:700;color:var(--muted)}
+.stages{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;max-width:360px}
+.stages div{border:1px solid var(--line);border-radius:10px;padding:7px 10px;display:flex;flex-direction:column;gap:1px;background:var(--ground)}
+.stages span{font:700 11px var(--text);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.stages b{font:800 22px/1.05 var(--display);font-variant-numeric:tabular-nums;color:var(--ink)}
+.stages.dark div{background:#1F2937;border-color:var(--panel-line)}
+.stages.dark span{color:var(--on-panel-muted)}
+.stages.dark b{color:var(--on-panel)}
+.whybox h4{margin:6px 0 0;font:700 15px/1.3 var(--text)}
+.whybox h4 .hint{font-weight:600;margin-left:6px}
+.pagelinks{display:flex;flex-wrap:wrap;align-items:center;gap:6px 14px;font-size:14px;border-top:1px solid var(--line);padding-top:12px}
+.pagelinks>span{color:var(--muted);font-weight:600}
+.panel.dark{background:var(--panel);border-color:var(--panel);color:var(--on-panel)}
+.panel.dark h2{color:var(--on-panel)}
+.panel.dark p{color:#D5DBE4}
+.panel.dark .demo-note{color:var(--on-panel-muted)}
+.panel.dark .linkbtn{color:#8AB4FF}
+.panel.dark .keepcmp div{background:rgba(255,255,255,.07);gap:2px}
+.panel.dark .keepcmp span{color:var(--on-panel-muted)}
+.panel.dark .keepcmp b{color:var(--on-panel);font-variant-numeric:tabular-nums}
+.keep .explain{font-size:15px;line-height:1.55}
+.keepstage{display:flex;flex-direction:column;gap:8px;border-top:1px solid var(--panel-line);padding-top:12px}
+.keepstage .k{font:700 12px var(--text);letter-spacing:.14em;text-transform:uppercase;color:var(--on-panel-muted)}
+.keepstage .trio div{background:rgba(255,255,255,.07);border-radius:10px;padding:10px 12px;display:flex;flex-direction:column;gap:2px}
+.keepstage .trio b{font:700 11px var(--text);letter-spacing:.14em;text-transform:uppercase;color:var(--amber)}
+.keepstage .trio span{font-size:14px;color:var(--on-panel)}
+table.cmp .sub{display:block;font-size:12px;color:var(--muted);font-weight:400;margin-top:2px}
+ul.plain.small{font-size:13px;gap:3px;padding-left:16px}
+.qbtn{display:inline-block;margin-top:6px;font-size:13px}
+.qed{display:flex;flex-direction:column;gap:6px;margin-top:8px;font-size:13px;min-width:180px}
+.qed label{font-weight:700}
+.qrow{display:flex;gap:6px;align-items:center}
+.qrow .field{flex:1;min-width:0;padding:0 10px}
+.qrow .field input{padding:8px 0;font-size:15px}
+.qhow{border:0;margin:0;padding:0;display:flex;flex-direction:column;gap:6px;min-width:0}
+.qhow legend{font-weight:700;padding:0;margin-bottom:6px}
+.qhow .chip{font-size:13px;padding:6px 11px;min-height:34px}
+@media (max-width:640px){.steps ol{gap:4px}.steps .nm{display:none}.steps .cur .nm{display:inline;font-size:13px}.steps button{padding:2px;min-height:32px;gap:6px}.steps .cur button{padding-right:10px}.steps .n{flex-basis:24px;height:24px;font-size:12px}}
 .ledger{flex:1 1 300px;min-width:0;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px;display:flex;flex-direction:column;gap:12px}
 .ledger-h{display:flex;justify-content:space-between;align-items:baseline;background:none;border:0;padding:0;text-align:left;width:100%}
 .ledger-h b{font:800 19px/1.2 var(--display);font-stretch:108%}
@@ -1173,29 +1226,29 @@ const MODELS = [
  {id:"outback",make:"Subaru",model:"Outback",body:"wagon",size:"M",pt:"ice",seats:5,cargo:32.6,tow:2700,clear:8.7,awd:true,fourwd:false,mpg:28,rel:.78,dealer:.82,safety:5,price:32000,dep:.40,ins:.98,maint:700,first:2020,perf:.35,lux:.45,fun:.4,rear:.8,step:"normal",feats:["safety","cruise","phone","heated","awd"],watch:"Feels slow when fully loaded."},
  {id:"sienna",make:"Toyota",model:"Sienna",body:"minivan",size:"L",pt:"hybrid",seats:8,cargo:33.5,tow:3500,clear:6.9,awd:true,fourwd:false,mpg:36,rel:.87,dealer:.97,safety:5,price:41000,dep:.35,ins:.95,maint:650,first:2021,perf:.2,lux:.5,fun:.2,rear:1,step:"low",feats:["safety","cruise","phone","heated","third","awd"],watch:"Big to park."},
  {id:"telluride",make:"Kia",model:"Telluride",body:"suv",size:"L",pt:"ice",seats:8,cargo:46,tow:5000,clear:8.0,awd:true,fourwd:false,mpg:23,rel:.78,dealer:.84,safety:5,price:39000,dep:.40,ins:1.05,maint:800,first:2020,perf:.35,lux:.65,fun:.3,rear:.9,step:"high",feats:["safety","cruise","phone","heated","third","awd"],watch:"Thirsty in town."},
- {id:"f150",make:"Ford",model:"F-150",body:"truck",size:"L",pt:"ice",seats:5,cargo:52,tow:11000,clear:9.4,awd:true,fourwd:true,mpg:20,rel:.68,dealer:.98,safety:4.5,price:47000,dep:.38,ins:1.10,maint:950,first:2020,perf:.45,lux:.45,fun:.35,rear:.8,step:"high",feats:["safety","cruise","phone","tow","awd"],watch:"Big to park and costly to run."},
+ {id:"f150",rwd:true,make:"Ford",model:"F-150",body:"truck",size:"L",pt:"ice",seats:5,cargo:52,tow:11000,clear:9.4,awd:true,fourwd:true,mpg:20,rel:.68,dealer:.98,safety:4.5,price:47000,dep:.38,ins:1.10,maint:950,first:2020,perf:.45,lux:.45,fun:.35,rear:.8,step:"high",feats:["safety","cruise","phone","tow","awd"],watch:"Big to park and costly to run."},
  {id:"maverick-h",make:"Ford",model:"Maverick Hybrid",body:"truck",size:"M",pt:"hybrid",seats:5,cargo:33,tow:2000,clear:8.3,awd:true,fourwd:false,mpg:38,rel:.74,dealer:.98,safety:4,price:29000,dep:.30,ins:.95,maint:550,first:2022,awdFrom:2025,perf:.3,lux:.2,fun:.45,rear:.65,step:"high",feats:["safety","phone","tow","awd"],watch:"Short bed, and it tows only about 900 kg (2,000 lb)."},
- {id:"4runner",make:"Toyota",model:"4Runner",body:"suv",size:"M",pt:"ice",seats:5,cargo:47,tow:6000,clear:9.6,awd:true,fourwd:true,mpg:20,rel:.86,dealer:.97,safety:4,price:42000,dep:.28,ins:1.02,maint:700,first:2020,perf:.35,lux:.45,fun:.55,rear:.75,step:"high",feats:["safety","cruise","phone","tow","awd"],watch:"Truck-like ride and fuel use."},
+ {id:"4runner",rwd:true,make:"Toyota",model:"4Runner",body:"suv",size:"M",pt:"ice",seats:5,cargo:47,tow:6000,clear:9.6,awd:true,fourwd:true,mpg:20,rel:.86,dealer:.97,safety:4,price:42000,dep:.28,ins:1.02,maint:700,first:2020,perf:.35,lux:.45,fun:.55,rear:.75,step:"high",feats:["safety","cruise","phone","tow","awd"],watch:"Truck-like ride and fuel use."},
  {id:"tucson-phev",make:"Hyundai",model:"Tucson Plug-in Hybrid",body:"suv",size:"M",pt:"phev",seats:5,cargo:31.9,tow:2000,clear:8.3,awd:true,fourwd:false,mpg:35,kwh:34,range:33,rel:.74,dealer:.85,safety:5,price:39500,dep:.48,ins:1.02,maint:650,first:2022,perf:.4,lux:.55,fun:.35,rear:.8,step:"high",feats:["safety","cruise","phone","heated","awd"],watch:"Electric range is short, about 33 miles."},
- {id:"model3",make:"Tesla",model:"Model 3",body:"sedan",size:"M",pt:"bev",seats:5,cargo:24,tow:0,clear:5.5,awd:false,fourwd:false,kwh:25,range:300,rel:.62,dealer:.45,safety:5,price:42500,dep:.55,ins:1.35,maint:400,first:2020,perf:.8,lux:.5,fun:.7,rear:.6,step:"normal",feats:["safety","cruise","heated","fast"],watch:"No Apple CarPlay or Android Auto, and fewer service centers."},
+ {id:"model3",rwd:true,make:"Tesla",model:"Model 3",body:"sedan",size:"M",pt:"bev",seats:5,cargo:24,tow:0,clear:5.5,awd:false,fourwd:false,kwh:25,range:300,rel:.62,dealer:.45,safety:5,price:42500,dep:.55,ins:1.35,maint:400,first:2020,perf:.8,lux:.5,fun:.7,rear:.6,step:"normal",feats:["safety","cruise","heated","fast"],watch:"No Apple CarPlay or Android Auto, and fewer service centers."},
  {id:"ioniq5",make:"Hyundai",model:"Ioniq 5",body:"suv",size:"M",pt:"bev",seats:5,cargo:27,tow:1650,clear:6.1,awd:true,fourwd:false,kwh:30,range:290,rel:.74,dealer:.85,safety:5,price:43500,dep:.55,ins:1.10,maint:400,first:2022,perf:.6,lux:.55,fun:.6,rear:.85,step:"normal",feats:["safety","cruise","phone","heated","fast","awd"],watch:"Range drops noticeably in deep cold."},
  {id:"equinox-ev",make:"Chevrolet",model:"Equinox EV",body:"suv",size:"M",pt:"bev",seats:5,cargo:26,tow:1500,clear:7.0,awd:true,fourwd:false,kwh:30,range:315,rel:.72,dealer:.90,safety:5,price:35500,dep:.55,ins:1.05,maint:400,first:2024,perf:.35,lux:.4,fun:.35,rear:.8,step:"high",feats:["safety","cruise","heated","fast","awd"],watch:"No Apple CarPlay or Android Auto."},
- {id:"miata",make:"Mazda",model:"MX-5 Miata",body:"sport",size:"S",pt:"ice",seats:2,cargo:4.6,tow:0,clear:4.5,awd:false,fourwd:false,mpg:30,rel:.86,dealer:.80,safety:4,price:31000,dep:.33,ins:1.05,maint:600,first:2020,perf:.75,lux:.35,fun:1,rear:0,step:"low",feats:["safety","phone"],watch:"2 seats and a tiny trunk."},
- {id:"bmw330i",make:"BMW",model:"330i",body:"sedan",size:"M",pt:"ice",seats:5,cargo:17,tow:0,clear:5.5,awd:true,fourwd:false,mpg:30,rel:.70,dealer:.70,safety:5,price:47500,dep:.55,ins:1.20,maint:1100,first:2020,perf:.8,lux:.8,fun:.75,rear:.6,step:"normal",feats:["safety","cruise","phone","heated","awd"],watch:"Repair costs climb as it ages."},
+ {id:"miata",rwd:true,make:"Mazda",model:"MX-5 Miata",body:"sport",size:"S",pt:"ice",seats:2,cargo:4.6,tow:0,clear:4.5,awd:false,fourwd:false,mpg:30,rel:.86,dealer:.80,safety:4,price:31000,dep:.33,ins:1.05,maint:600,first:2020,perf:.75,lux:.35,fun:1,rear:0,step:"low",feats:["safety","phone"],watch:"2 seats and a tiny trunk."},
+ {id:"bmw330i",rwd:true,make:"BMW",model:"330i",body:"sedan",size:"M",pt:"ice",seats:5,cargo:17,tow:0,clear:5.5,awd:true,fourwd:false,mpg:30,rel:.70,dealer:.70,safety:5,price:47500,dep:.55,ins:1.20,maint:1100,first:2020,perf:.8,lux:.8,fun:.75,rear:.6,step:"normal",feats:["safety","cruise","phone","heated","awd"],watch:"Repair costs climb as it ages."},
  {id:"rx350h",make:"Lexus",model:"RX 350h",body:"suv",size:"M",pt:"hybrid",seats:5,cargo:29.6,tow:3500,clear:8.1,awd:true,fourwd:false,mpg:36,rel:.92,dealer:.78,safety:5,price:52000,dep:.38,ins:1.10,maint:700,first:2023,perf:.45,lux:.95,fun:.4,rear:.85,step:"high",feats:["safety","cruise","phone","heated","awd"],watch:"Pricey, with fewer dealers than Toyota."},
  {id:"lexus-es-h",make:"Lexus",model:"ES 300h",body:"sedan",size:"M",pt:"hybrid",seats:5,cargo:13.9,tow:0,clear:5.9,awd:false,fourwd:false,mpg:44,rel:.94,dealer:.78,safety:5,price:46000,dep:.40,ins:1.05,maint:600,first:2019,perf:.3,lux:.82,fun:.3,rear:.75,step:"normal",feats:["safety","cruise","phone","heated"],watch:"Front-wheel drive only, and an average-size trunk."},
- {id:"bmw-x3",make:"BMW",model:"X3",body:"suv",size:"M",pt:"ice",seats:5,cargo:29,tow:4400,clear:8.0,awd:true,fourwd:false,mpg:26,rel:.70,dealer:.72,safety:5,price:50500,dep:.52,ins:1.20,maint:1100,first:2018,perf:.65,lux:.78,fun:.62,rear:.7,step:"normal",feats:["safety","cruise","phone","heated","awd","tow"],watch:"Repairs cost more once the warranty ends."},
- {id:"bmw-x5",make:"BMW",model:"X5",body:"suv",size:"L",pt:"ice",seats:5,cargo:33.9,tow:7200,clear:8.3,awd:true,fourwd:false,mpg:23,rel:.66,dealer:.72,safety:5,price:67600,dep:.56,ins:1.30,maint:1350,first:2019,perf:.75,lux:.88,fun:.6,rear:.8,step:"high",feats:["safety","cruise","phone","heated","awd","tow"],watch:"Expensive to fix out of warranty."},
- {id:"merc-c300",make:"Mercedes-Benz",model:"C 300",body:"sedan",size:"M",pt:"ice",seats:5,cargo:12.6,tow:0,clear:4.7,awd:true,fourwd:false,mpg:29,rel:.66,dealer:.74,safety:5,price:49000,dep:.58,ins:1.22,maint:1150,first:2018,perf:.55,lux:.85,fun:.5,rear:.6,step:"normal",feats:["safety","cruise","phone","heated","awd"],watch:"A small trunk, and costly repairs after the warranty."},
- {id:"merc-glc",make:"Mercedes-Benz",model:"GLC 300",body:"suv",size:"M",pt:"ice",seats:5,cargo:21,tow:3500,clear:7.4,awd:true,fourwd:false,mpg:26,rel:.68,dealer:.74,safety:5,price:50500,dep:.55,ins:1.20,maint:1150,first:2018,perf:.55,lux:.85,fun:.5,rear:.75,step:"normal",feats:["safety","cruise","phone","heated","awd","tow"],watch:"Less cargo room than most SUVs its size."},
- {id:"merc-gle",make:"Mercedes-Benz",model:"GLE 350",body:"suv",size:"L",pt:"ice",seats:5,cargo:33.3,tow:7700,clear:7.7,awd:true,fourwd:false,mpg:22,rel:.62,dealer:.74,safety:5,price:63000,dep:.58,ins:1.30,maint:1400,first:2020,perf:.6,lux:.9,fun:.5,rear:.8,step:"high",feats:["safety","cruise","phone","heated","awd","tow"],watch:"One of the costlier SUVs to repair once the warranty ends."},
+ {id:"bmw-x3",rwd:true,make:"BMW",model:"X3",body:"suv",size:"M",pt:"ice",seats:5,cargo:29,tow:4400,clear:8.0,awd:true,fourwd:false,mpg:26,rel:.70,dealer:.72,safety:5,price:50500,dep:.52,ins:1.20,maint:1100,first:2018,perf:.65,lux:.78,fun:.62,rear:.7,step:"normal",feats:["safety","cruise","phone","heated","awd","tow"],watch:"Repairs cost more once the warranty ends."},
+ {id:"bmw-x5",rwd:true,make:"BMW",model:"X5",body:"suv",size:"L",pt:"ice",seats:5,cargo:33.9,tow:7200,clear:8.3,awd:true,fourwd:false,mpg:23,rel:.66,dealer:.72,safety:5,price:67600,dep:.56,ins:1.30,maint:1350,first:2019,perf:.75,lux:.88,fun:.6,rear:.8,step:"high",feats:["safety","cruise","phone","heated","awd","tow"],watch:"Expensive to fix out of warranty."},
+ {id:"merc-c300",rwd:true,make:"Mercedes-Benz",model:"C 300",body:"sedan",size:"M",pt:"ice",seats:5,cargo:12.6,tow:0,clear:4.7,awd:true,fourwd:false,mpg:29,rel:.66,dealer:.74,safety:5,price:49000,dep:.58,ins:1.22,maint:1150,first:2018,perf:.55,lux:.85,fun:.5,rear:.6,step:"normal",feats:["safety","cruise","phone","heated","awd"],watch:"A small trunk, and costly repairs after the warranty."},
+ {id:"merc-glc",rwd:true,make:"Mercedes-Benz",model:"GLC 300",body:"suv",size:"M",pt:"ice",seats:5,cargo:21,tow:3500,clear:7.4,awd:true,fourwd:false,mpg:26,rel:.68,dealer:.74,safety:5,price:50500,dep:.55,ins:1.20,maint:1150,first:2018,perf:.55,lux:.85,fun:.5,rear:.75,step:"normal",feats:["safety","cruise","phone","heated","awd","tow"],watch:"Less cargo room than most SUVs its size."},
+ {id:"merc-gle",rwd:true,make:"Mercedes-Benz",model:"GLE 350",body:"suv",size:"L",pt:"ice",seats:5,cargo:33.3,tow:7700,clear:7.7,awd:true,fourwd:false,mpg:22,rel:.62,dealer:.74,safety:5,price:63000,dep:.58,ins:1.30,maint:1400,first:2020,perf:.6,lux:.9,fun:.5,rear:.8,step:"high",feats:["safety","cruise","phone","heated","awd","tow"],watch:"One of the costlier SUVs to repair once the warranty ends."},
  {id:"audi-q5",make:"Audi",model:"Q5",body:"suv",size:"M",pt:"ice",seats:5,cargo:25.8,tow:4400,clear:8.2,awd:true,fourwd:false,mpg:25,rel:.72,dealer:.72,safety:5,price:48000,dep:.52,ins:1.15,maint:1000,first:2018,perf:.6,lux:.78,fun:.55,rear:.75,step:"normal",feats:["safety","cruise","phone","heated","awd","tow"],watch:"Costly repairs after the warranty."},
  {id:"genesis-gv70",make:"Genesis",model:"GV70",body:"suv",size:"M",pt:"ice",seats:5,cargo:28.9,tow:3500,clear:7.3,awd:true,fourwd:false,mpg:24,rel:.78,dealer:.55,safety:5,price:47000,dep:.55,ins:1.10,maint:800,first:2022,perf:.65,lux:.85,fun:.6,rear:.7,step:"normal",feats:["safety","cruise","phone","heated","awd","tow"],watch:"Fewer dealers than the German brands."},
  {id:"volvo-xc90",make:"Volvo",model:"XC90",body:"suv",size:"L",pt:"ice",seats:7,cargo:41.8,tow:5000,clear:8.9,awd:true,fourwd:false,mpg:23,rel:.68,dealer:.65,safety:5,price:59000,dep:.55,ins:1.12,maint:1100,first:2018,perf:.5,lux:.85,fun:.45,rear:.85,step:"high",feats:["safety","cruise","phone","heated","awd","tow","third"],watch:"The third row is best for kids."},
- {id:"model-y",make:"Tesla",model:"Model Y",body:"suv",size:"M",pt:"bev",seats:5,cargo:30,tow:3500,clear:6.6,awd:true,fourwd:false,kwh:27,range:310,rel:.64,dealer:.45,safety:5,price:46000,dep:.55,ins:1.15,maint:500,first:2020,perf:.7,lux:.6,fun:.65,rear:.8,step:"normal",feats:["safety","cruise","heated","fast","awd","tow"],watch:"No Apple CarPlay or Android Auto, and a firm ride."},
+ {id:"model-y",rwd:true,make:"Tesla",model:"Model Y",body:"suv",size:"M",pt:"bev",seats:5,cargo:30,tow:3500,clear:6.6,awd:true,fourwd:false,kwh:27,range:310,rel:.64,dealer:.45,safety:5,price:46000,dep:.55,ins:1.15,maint:500,first:2020,perf:.7,lux:.6,fun:.65,rear:.8,step:"normal",feats:["safety","cruise","heated","fast","awd","tow"],watch:"No Apple CarPlay or Android Auto, and a firm ride."},
  {id:"porsche-macan",make:"Porsche",model:"Macan",body:"suv",size:"M",pt:"ice",seats:5,cargo:17.2,tow:4400,clear:7.5,awd:true,fourwd:false,mpg:21,rel:.72,dealer:.55,safety:5,price:63000,dep:.45,ins:1.35,maint:1400,first:2018,last:2025,perf:.88,lux:.82,fun:.88,rear:.55,step:"normal",feats:["safety","cruise","phone","heated","awd","tow"],watch:"A tight rear seat and cargo area, and Porsche service can be far away."},
  {id:"porsche-cayenne",make:"Porsche",model:"Cayenne",body:"suv",size:"L",pt:"ice",seats:5,cargo:27.2,tow:7700,clear:8.3,awd:true,fourwd:false,mpg:20,rel:.68,dealer:.55,safety:5,price:86000,dep:.50,ins:1.45,maint:1600,first:2019,perf:.9,lux:.9,fun:.8,rear:.8,step:"high",feats:["safety","cruise","phone","heated","awd","tow"],watch:"High running costs, and Porsche dealers are spread thin."},
- {id:"porsche-911",make:"Porsche",model:"911 Carrera",body:"sport",size:"S",pt:"ice",seats:4,cargo:9,tow:0,clear:4.3,awd:false,fourwd:false,mpg:21,rel:.78,dealer:.55,safety:5,price:125000,dep:.25,ins:1.6,maint:1500,first:2017,perf:1,lux:.85,fun:1,rear:.2,step:"low",feats:["safety","cruise","phone","heated"],watch:"A 2-plus-2 with a tiny rear seat. Best as a second car."},
+ {id:"porsche-911",rwd:true,make:"Porsche",model:"911 Carrera",body:"sport",size:"S",pt:"ice",seats:4,cargo:9,tow:0,clear:4.3,awd:false,fourwd:false,mpg:21,rel:.78,dealer:.55,safety:5,price:125000,dep:.25,ins:1.6,maint:1500,first:2017,perf:1,lux:.85,fun:1,rear:.2,step:"low",feats:["safety","cruise","phone","heated"],watch:"A 2-plus-2 with a tiny rear seat. Best as a second car."},
 ];
 
 /* Fuel economy for filters and sorting: combined mpg, or MPGe for EVs (33.7 kWh = 1 gallon). Catalog
@@ -1230,7 +1283,8 @@ function buildListings(m){
     }
     p*=.97+r2*.06; if(s.seller==="private") p*=.94;
     const warranty=s.cond==="new"?"factory":s.cond==="cpo"?"cpo":(s.age<=5&&miles<60000?"powertrain":"none");
-    out.push({id:m.id+"-"+i,model:m,year,age:s.age,miles,awd:m.awd&&(!m.awdFrom||year>=m.awdFrom),cond:s.cond,seller:s.seller,warranty,
+    const awd=m.awd&&(!m.awdFrom||year>=m.awdFrom);
+    out.push({id:m.id+"-"+i,model:m,year,age:s.age,miles,awd,rwd:!awd&&!!m.rwd,cond:s.cond,seller:s.seller,warranty,
       price:Math.round(p/100)*100-10,dist:Math.round(3+r2*44),
       where:s.seller==="private"?"Private seller":DEALERS[Math.floor(r*DEALERS.length)],
       vin:String(1000+Math.floor(r2*8999))});
@@ -1242,7 +1296,7 @@ MODELS.forEach(m=>{m.listings=buildListings(m);});
 /* ---------- answers → profile (skipped answers fall back to stated assumptions) ---------- */
 const DEFAULTS = {covers:"yes",repairCost:1750,role:"replace",purpose:"dependable",timing:"6mo",household:"solo",childSeats:1,
   changes:["none"],changeWhen:"1to2",areaStay:"settled",keep:"3to5",commute:15,days:5,other:"moderate",trips:"few",
-  zip:"",place:"suburb",charger:"unsure",workCharge:"no",conditions:["mild"],traction:"nopref",parking:"open",
+  zip:"",place:"suburb",charger:"unsure",workCharge:"no",conditions:["mild"],traction:"nopref",tracFirm:"nice",parking:"open",
   down:0,income:null,debt:0,credit:660,repairs:"both",cargo:["none"],access:"none",tow:0,bodies:[],pts:[],feats:[],pax:4,payment:450};
 
 function localData(zip,place){
@@ -1272,6 +1326,7 @@ function makeProfile(A){
   p.role=p.hasCar?v("role"):"only";
   const tr=p.hasCar&&p.role==="replace";
   p.tradeWorth=tr?(+A.tradeWorth||0):0; p.tradeOwe=tr?(+A.tradeOwe||0):0; p.curPayment=tr?(+A.curPayment||0):0;
+  p.curRun=tr&&A.curRun!=null&&A.curRun!==""?(+A.curRun||0):null;   // fuel, insurance and upkeep on the car they have, if they said
   p.equity=p.tradeWorth-p.tradeOwe;
   const arr=x=>Array.isArray(x)?x.filter(y=>y!=null&&y!==""):(x==null||x===""?[]:[x]);
   p.purposes=arr(A.purpose).length?arr(A.purpose):[DEFAULTS.purpose]; p.purpose=p.purposes[0]; p.timing=v("timing");
@@ -1292,7 +1347,12 @@ function makeProfile(A){
   p.l2=home&&p.charger==="yes";
   p.conditions=v("conditions")||["mild"];
   p.snow=p.conditions.includes("snow")||p.local.climate==="severe"; p.rough=p.conditions.includes("rough"); p.rain=p.conditions.includes("rain");
-  p.traction=(p.conditions.includes("snow")||p.rough||p.rain)?v("traction"):"nopref";
+  // Drive wheels: no preference, FWD is fine, RWD, or AWD/4WD, each "nice to have" or "must have".
+  // Older saved answers (AWD preferred / AWD required / 4WD required) read as AWD or 4WD.
+  let trac=v("traction"), firm=A.tracFirm;
+  if(trac==="awdpref"){trac="awd";if(firm===undefined)firm="nice";} else if(trac==="awdreq"||trac==="4wdreq"){trac="awd";if(firm===undefined)firm="must";}
+  p.traction=["fwd","rwd","awd"].includes(trac)?trac:"nopref";
+  p.tracMust=(p.traction==="rwd"||p.traction==="awd")&&(firm||DEFAULTS.tracFirm)==="must";
   p.parking=v("parking");
   p.payment=+v("payment")||0; p.down=+v("down")||0;
   p.income=A.income!==undefined?A.income:null; p.debt=p.income!=null?(+v("debt")||0):0;
@@ -1305,6 +1365,8 @@ function makeProfile(A){
   p.guard=p.primary?{age:8,miles:75000}:{age:13,miles:100000};
   p.milesLimit=p.maxMiles>0&&p.maxMiles<p.guard.miles; if(p.milesLimit) p.guard.miles=p.maxMiles;
   p.seatsNeed=Math.max(p.pax,p.childSeats+1);
+  // "AWD or 4WD, must have" on rough roads with heavy towing or work use means true 4WD.
+  p.need4wd=p.traction==="awd"&&p.tracMust&&p.rough&&(p.tow>=5000||p.purposes.includes("work"));
   return p;
 }
 
@@ -1567,16 +1629,25 @@ function costsFor(L,p){
   const st=structure(L,p);
   let q=st.rec==="lease"?leaseQuote(L,p):null;
   if(!q){q=financeQuote(L,p);st.rec="finance";}
-  const energy=energyCost(L.model,p), insurance=insuranceCost(L,p), reserve=repairReserve(L,p);
-  return {quote:q,structure:st,payment:q.payment,energy,insurance,reserve,total:q.payment+energy+insurance+reserve};
+  const energy=energyCost(L.model,p), insEst=insuranceCost(L,p), reserve=repairReserve(L,p);
+  // Quotes the buyer was given replace FitDrive's estimates. A service contract either joins the loan
+  // (it's then paid monthly, with interest at the loan's rate) or is paid once, up front, at signing.
+  const Q=quoteFor(L), insurance=Q.ins>0?Q.ins:insEst;
+  const svc=Q.svc>0?Q.svc:0, svcHow=svc&&(Q.how==="loan"||Q.how==="once")?Q.how:"";
+  const svcMonthly=svcHow==="loan"?(q.type==="finance"?loanPmt(svc,q.apr,q.months):svc/q.months):0, svcOnce=svcHow==="once"?svc:0;
+  const payment=q.payment+svcMonthly;
+  return {quote:q,structure:st,payment,basePayment:q.payment,energy,insurance,insEst,insQuote:Q.ins>0,svc,svcHow,svcMonthly,svcOnce,reserve,total:payment+energy+insurance+reserve};
 }
+function quoteFor(L){return (L&&S.quotes&&S.quotes[L.id])||{};}
+function cashAtSigning(L,p,c){return p.down+c.svcOnce;}
 
 /* ---------- filters (model-level needs, then listing-level guardrails and filters) ---------- */
 function modelFilter(m,p,ev){
   if(m.seats<p.seatsNeed) return `Seats ${m.seats}; you need ${p.seatsNeed}.`;
   if(p.tow&&m.tow<p.tow) return m.tow?`Tows about ${lbkg(m.tow)}; you need ${lbkg(p.tow)}.`:`Not rated to tow; you need ${lbkg(p.tow)}.`;
-  if(p.traction==="4wdreq"&&!m.fourwd) return "You need 4WD, and this doesn't offer it.";
-  if(p.traction==="awdreq"&&!m.awd) return "You need all-wheel drive, and this doesn't offer it.";
+  if(p.need4wd&&!m.fourwd) return "Rough roads with heavy towing or work call for true 4WD, and this doesn't offer it.";
+  if(p.tracMust&&p.traction==="awd"&&!m.awd) return "You need AWD or 4WD, and this doesn't offer it.";
+  if(p.tracMust&&p.traction==="rwd"&&!m.rwd) return "You want rear-wheel drive, and this doesn't offer it.";
   if(p.rough&&m.clear<7) return `Too low for regular rough roads (about ${m.clear} in of clearance).`;
   if(m.pt==="bev"&&ev.score<.30) return "Your charging situation can't realistically support a full EV.";
   if(m.pt==="bev"){
@@ -1588,7 +1659,8 @@ function modelFilter(m,p,ev){
 const FILTER_DEFAULTS={cond:"any",year:0,miles:0,seller:"any",warranty:"any"};
 function listingFilter(L,p,f){
   if(L.price>CEILING.price) return "guard";
-  if((p.traction==="awdreq"||p.traction==="4wdreq")&&!L.awd) return "awd";
+  if(p.tracMust&&p.traction==="awd"&&!L.awd) return "drive";
+  if(p.tracMust&&p.traction==="rwd"&&!L.rwd) return "drive";
   if(L.age>p.guard.age||L.miles>p.guard.miles) return "guard";
   if(p.condPref==="new"&&L.cond!=="new") return "pref";
   if(p.condPref==="used"&&L.cond==="new") return "pref";
@@ -1658,10 +1730,12 @@ function scoreListing(L,p,ctx){
   c.energy=e*10;
   // Practicality: traction, parking, clearance
   let t=1;
-  const awd=L.awd;
-  if(p.snow||p.rough) t=awd?1:(p.traction==="fwd"?.9:.5);
-  else if(p.traction==="awdpref") t=awd?1:.6;
-  else if(p.rain) t=awd?1:(p.traction==="fwd"?.95:.8);   // frequent rain: AWD helps, but less than in snow
+  const awd=L.awd, rwd=!!L.rwd;
+  // Snow, ice or rough roads: AWD earns full marks (true 4WD on rough roads). FWD is fine if the buyer
+  // said so. RWD can work on winter tires but takes more care, so it scores below FWD unless asked for.
+  if(p.snow||p.rough) t=awd?(p.rough&&!m.fourwd?.9:1):(p.traction==="fwd"&&!rwd?.9:p.traction==="rwd"&&rwd?.75:rwd?.4:.5);
+  else if(p.traction==="awd") t=awd?1:.6;
+  else if(p.rain) t=awd?1:(p.traction==="fwd"&&!rwd?.95:p.traction==="rwd"&&rwd?.9:.8);   // frequent rain: AWD helps, but less than in snow
   const tight=p.parking==="tight"||p.parking==="street";
   const pk=tight?{S:1,M:.7,L:.3}[m.size]:p.parking==="garage"?(m.size==="L"?.7:1):1;
   const rg=p.rough?(m.clear>=8.5?1:m.clear>=7.5?.7:.4):1;
@@ -1685,12 +1759,35 @@ function scoreListing(L,p,ctx){
   // Brands never enter the score: buyers try them after the plan, side by side with the picks.
   const xp=EXPERIENCE_LED.includes(p.purpose);
   const W=xp?{b:25,t:15,f:20,u:40}:{b:35,t:20,f:25,u:20};
-  const exp=(bodyS*W.b+ptS*W.t+featS*W.f+purS*W.u)/100;
+  let exp=(bodyS*W.b+ptS*W.t+featS*W.f+purS*W.u)/100;
+  // Rear-wheel drive as a "nice to have" is about how the car feels, so it lifts the experience fit.
+  if(p.traction==="rwd"&&!p.tracMust) exp=exp*.88+(rwd?.12:0);
   // Over-budget cars also lose ground in the overall ranking, so a car well past the
   // working budget can't be called the best fit. Inside the budget nothing changes.
   const pen=r<=1?1:Math.max(.4,1-(r-1)*.6);
   const overall=(xp?needs*.65+exp*100*.35:needs*.8+exp*100*.2)*pen;
-  return {L,m,c,needs,exp,overall,costs,overBudget:r>1,babyF,awd};
+  return {L,m,c,needs,exp,overall,costs,overBudget:r>1,babyF,awd,rwd,xp,stage:stageScores(L,p,c,costs)};
+}
+
+/* ---------- Now, Next, Exit: the same needs score, split by stage ----------
+   Now: cost, seats, cargo, driving, charging and roads today (77 of the 100 needs points).
+   Next: the life changes you expect, plus reliability and service (21 points).
+   Exit: how much value it keeps, less a penalty if you'd owe more than it's worth when you plan to move on. */
+function heldYears(p){let y=p.keep==="6plus"?6:p.keep==="under3"?2.5:4;if(p.areaStay==="under2"||p.changes.includes("contract"))y=Math.min(y,2);return y;}
+function stageScores(L,p,c,costs){
+  const now=(c.afford+c.today+c.driving+c.energy+c.practical)/77*100;
+  const next=(c.future+c.service)/21*100;
+  const m=L.model, y=heldYears(p), q=costs.quote;
+  const keepFrac=1-m.dep*Math.min(1,y/5), value=L.price*keepFrac*(y>5?Math.pow(.92,y-5):1);
+  let owe=0;
+  if(q&&q.type==="finance"&&q.loan>0){const r=q.apr/12,n=Math.min(q.months,Math.round(y*12));owe=n>=q.months?0:q.loan*Math.pow(1+r,n)-q.payment*((Math.pow(1+r,n)-1)/r);}
+  let exit;
+  if(q&&q.type==="lease") exit=p.annualMiles<=13000?85:p.annualMiles<=16000?70:55;
+  else {exit=40+((1-m.dep)-.4)/.35*55; if(owe>value) exit-=Math.min(25,(owe-value)/L.price*100);}
+  return {now:clamp(now,0,100),next:clamp(next,0,100),exit:clamp(exit,5,99),value,owe:Math.max(0,owe),years:y,lease:!!(q&&q.type==="lease")};
+}
+function stageHTML(st,dark){
+  return `<div class="stages${dark?" dark":""}" aria-label="Now, Next and Exit scores"><div><span>Now</span><b>${Math.round(st.now)}</b></div><div><span>Next</span><b>${Math.round(st.next)}</b></div><div><span>Exit</span><b>${Math.round(st.exit)}</b></div></div>`;
 }
 
 /* ---------- plain-language reasons ---------- */
@@ -1710,8 +1807,10 @@ function reasonsFor(s,p,bud){
   if(m.pt==="bev"&&p.l2) why.push("You'd charge at home and start most days full.");
   if(m.pt==="bev"&&!p.home&&p.sleeps!=="aptcharge") watch.push("Charging would be mostly public, about a 30–40 minute stop each week.");
   if((p.snow||p.rough)&&s.awd) why.push(p.rough?"All-wheel drive and clearance for rough roads.":"All-wheel drive for your snow and ice.");
-  if((p.snow||p.rough)&&!s.awd) watch.push("No all-wheel drive. Winter tires help, but it isn't ideal.");
+  if((p.snow||p.rough)&&!s.awd) watch.push(s.rwd?"Rear-wheel drive in snow takes winter tires and extra care.":"No all-wheel drive. Winter tires help, but it isn't ideal.");
   if(p.rain&&!p.snow&&!p.rough&&s.awd) why.push("All-wheel drive for your wet roads.");
+  if(p.traction==="awd"&&!p.snow&&!p.rough&&!p.rain&&s.awd) why.push("All-wheel drive, which you asked for.");
+  if(p.traction==="rwd"&&s.rwd) why.push("Rear-wheel drive, which you asked for.");
   if(p.tow&&m.tow>=p.tow) why.push(`Tows up to ${lbkg(m.tow)}, enough for your ${lbkg(p.tow)}.`);
   const tight=p.parking==="tight"||p.parking==="street";
   if(tight&&m.size==="S") why.push("Small enough for tight parking.");
@@ -1729,7 +1828,7 @@ function reasonsFor(s,p,bud){
     const got=p.feats.map(k=>({k,s:featHas(s.L,k)})), miss=got.filter(x=>x.s===0), some=got.filter(x=>x.s===.5);
     if(miss.length) watch.unshift(`No ${MUST_NAMES[miss[0].k].toLowerCase().replace("apple carplay","Apple CarPlay").replace("android auto","Android Auto")}, which you picked as a must-have.`);
     else if(some.length){const n=MUST_NAMES[some[0].k],pl=/s$/.test(n);watch.push(`${n} ${pl?"come":"comes"} on some trims only, so confirm ${pl?"them":"it"} on the listing.`);}
-    else if(p.feats.length>1) why.push(`Has all ${p.feats.length} of your must-have features.`);
+    else if(p.feats.length>1) why.push(p.feats.length===2?"Has both of your must-have features.":`Has all ${p.feats.length} of your must-have features.`);
   }
   if(!watch.length) watch.push(m.watch);
   return {why:why.slice(0,3),watch:watch[0]};
@@ -1750,7 +1849,7 @@ function buildPlan(A,filters){
     const ok=[]; let guard=0, filt=0, pref=0, over=[];
     for(const L of m.listings){
       const lf=listingFilter(L,p,f);
-      if(lf==="guard"){guard++;continue;} if(lf==="filter"){filt++;continue;} if(lf==="pref"){pref++;continue;} if(lf==="awd"){continue;}
+      if(lf==="guard"){guard++;continue;} if(lf==="filter"){filt++;continue;} if(lf==="pref"){pref++;continue;} if(lf==="drive"){continue;}
       const s=scoreListing(L,p,ctx);
       if(s.costs.total>farLimit){over.push(s.costs.total);continue;}
       ok.push(s);
@@ -1760,7 +1859,7 @@ function buildPlan(A,filters){
       if(over.length) reason=`Roughly ${money(Math.min(...over))} a month all-in, far beyond your budget.`;
       else if(filt){reason="No listings match your filters right now.";kind="filter";}
       else if(pref&&!guard){reason=p.condPref==="new"?"No new ones for sale near you right now.":"No used ones for sale near you right now.";kind="filter";}
-      else if(!guard){reason="None of these listings has the all-wheel drive you need.";kind="need";}
+      else if(!guard){reason=p.traction==="rwd"?"None of these listings is rear-wheel drive.":"None of these listings has the AWD or 4WD you need.";kind="need";}
       else {reason=p.milesLimit?`None for sale under your ${num(p.guard.miles)}-mile limit right now.`:`Every listing is outside your ${p.guard.age}-year, ${num(p.guard.miles)}-mile guardrail.`;kind="guard";}
       ruled.push({m,reason,kind});continue;
     }
@@ -1794,13 +1893,20 @@ function buildPlan(A,filters){
   // The "do nothing" answer.
   let keep=null;
   if(p.hasCar&&p.role==="replace"&&p.covers!=="no"){
-    const basis=Math.max(p.curPayment, top?top.costs.payment:0, 1);
+    const newPay=top?top.costs.payment:0, basis=Math.max(p.curPayment,newPay,1);
     const months=p.repairCost/basis;
-    const favored=p.covers==="yes"?p.timing!=="now":months<=8;
-    keep={favored,repair:p.repairCost,months,basis,
+    // Payment to payment, since the buyer may already have one. If they told FitDrive what their car
+    // costs to run, the full monthly cost is compared instead.
+    const full=p.curRun!=null, keepMo=p.curPayment+(full?p.curRun:0), newMo=top?(full?top.costs.total:newPay):0, diff=newMo-keepMo;
+    const favored=p.covers==="yes"?p.timing!=="now"&&(!top||diff>0):months<=8;
+    const nm=top?`the ${top.m.make} ${top.m.model}`:"a new car";
+    const yes=diff>0
+      ?`Your car can cover the next year. Keeping it while you save a bigger down payment avoids about ${money(diff)} a month more ${full?"than you spend on it now":p.curPayment?"in car payments":"in car payments, since yours is paid off"}.`
+      :`Your car can cover the next year. ${nm[0].toUpperCase()+nm.slice(1)} would cost about ${money(-diff)} a month less ${full?"all in than your car does now":"in payments than you pay now"}, so replacing it wouldn't raise your monthly cost. Keeping it still saves the down payment, taxes and fees of buying.`;
+    keep={favored,repair:p.repairCost,months,basis,full,keepMo,newMo,diff,newPay,newTotal:top?top.costs.total:0,
       text:p.covers==="yes"
-        ?`Your car can cover the next year. Keeping it while you save a bigger down payment avoids about ${money(top?top.costs.total:0)} a month in new costs.`
-        :`The ${money(p.repairCost)} repair equals about ${Math.max(1,Math.round(months))} month${Math.round(months)===1?"":"s"} of the new car's ${money(basis)} payment. ${months<=8?"That usually makes repairing and keeping it the cheaper path.":"At that size, replacing it deserves a serious look."}`};
+        ?yes
+        :`The ${money(p.repairCost)} repair equals about ${Math.max(1,Math.round(months))} month${Math.max(1,Math.round(months))===1?"":"s"} of ${newPay>=p.curPayment?"the new car's":"your current"} ${money(basis)} payment. ${months<=8?"That usually makes repairing and keeping it the cheaper path.":"At that size, replacing it deserves a serious look."}`};
   }
 
   // Exit before entry.
@@ -1883,9 +1989,11 @@ function liveToListing(r,m){
   const miles=cond==="new"?Math.max(0,+r.miles||0):Math.max(0,+r.miles||0);
   const dt=String(r.drivetrain||"");
   const awd=dt?/awd|4wd|4x4|all|four/i.test(dt):(m.awd&&(!m.awdFrom||year>=m.awdFrom));
+  // Rear-wheel drive: said outright, or "2WD/4x2" on a model that only comes in RWD or AWD.
+  const rwd=!awd&&(dt?(/rwd|rear/i.test(dt)||(!!m.rwd&&/4x2|2wd|two/i.test(dt))):(!!m.rwd&&!m.awd));
   const warranty=cond==="new"?"factory":cond==="cpo"?"cpo":(age<=5&&miles<60000?"powertrain":"none");
   const vin=String(r.vin||"");
-  return {id:"live-"+vin.replace(/[^A-Za-z0-9]/g,""),model:m,year,age,miles,awd,cond,seller:"dealer",warranty,price:Math.round(+r.price||0),
+  return {id:"live-"+vin.replace(/[^A-Za-z0-9]/g,""),model:m,year,age,miles,awd,rwd,cond,seller:"dealer",warranty,price:Math.round(+r.price||0),
     dist:null,where:r.dealer||"Dealer",city:r.city||"",state:r.state||"",vin:vin.slice(-4),fullVin:vin,trim:r.trim||"",url:r.vdp||"",
     photo:r.photo||"",photoCount:+r.photoCount||0,carfax:r.carfax||"",createdAt:r.createdAt||null,color:r.color||"",hist:r.history||null,live:true,
     ...placeFor(r)};
@@ -1983,10 +2091,11 @@ function dealCheck(L){
 function loadedScore(m){return clamp(Math.round(m.feats.length*1.1+m.lux*4),1,10);}
 function relScore(m){return Math.round(m.rel*100)/10;}
 function fiveYearCost(L,p){
-  const q=financeQuote(L,p,60), ins=insuranceCost(L,p), en=energyCost(L.model,p), res=repairReserve(L,p);
+  const q=financeQuote(L,p,60), c=costsFor(L,p), ins=c.insurance, en=c.energy, res=c.reserve;
+  const svcM=c.svcHow==="loan"?loanPmt(c.svc,q.apr,60):0;
   const resale=L.price*(1-L.model.dep);
-  const total=p.down+Math.max(0,p.equity)+q.payment*60+(ins+en+res)*60-resale;
-  return {total,resale,payment:q.payment};
+  const total=p.down+Math.max(0,p.equity)+(q.payment+svcM)*60+c.svcOnce+(ins+en+res)*60-resale;
+  return {total,resale,payment:q.payment+svcM,mine:c.insQuote||!!c.svcHow};
 }
 // Example complaint layout. NOT real data: the live version groups NHTSA owner complaints by area.
 function complaintsExample(m){
@@ -2013,7 +2122,7 @@ const SAMPLES=[
      payment:550,down:4000,income:78000,debt:450,credit:710,repairs:"both",pax:4,cargo:["groceries"],access:"none",tow:0,bodies:["sedan"],pts:["bev"],feats:["phone","cruise","heated"]}},
  {key:"dana",name:"Dana, rural Montana",blurb:"Tows a camper on unpaved roads.",
   A:{mode:"choose",hasCar:"yes",covers:"no",role:"replace",tradeWorth:6000,tradeOwe:0,curPayment:0,purpose:"work",timing:"now",household:"couple",changes:["none"],areaStay:"settled",keep:"6plus",
-     commute:45,days:5,other:"alot",trips:"monthly",zip:"59701",place:"rural",sleeps:"garage",charger:"yes",conditions:["snow","rough"],traction:"4wdreq",parking:"open",
+     commute:45,days:5,other:"alot",trips:"monthly",zip:"59701",place:"rural",sleeps:"garage",charger:"yes",conditions:["snow","rough"],traction:"awd",tracFirm:"must",parking:"open",
      payment:700,down:6000,income:95000,debt:800,credit:710,repairs:"self",pax:5,cargo:["tools"],access:"none",tow:7000,bodies:["truck"],pts:[],feats:["tow"]}},
  {key:"priya",name:"Priya, Bay Area",blurb:"Second car, garage charger, short commute.",
   A:{mode:"choose",hasCar:"yes",covers:"yes",role:"extra",purpose:"practical",timing:"6mo",household:"family",childSeats:1,changes:["none"],areaStay:"settled",keep:"under3",
@@ -2021,7 +2130,7 @@ const SAMPLES=[
      payment:600,down:8000,income:155000,debt:1900,credit:790,repairs:"fixed",pax:4,cargo:["stroller"],access:"none",tow:0,bodies:[],pts:[],feats:["phone","cruise","bsm"]}},
  {key:"rob",name:"Rob, Dayton",blurb:"Tight budget, 2 car seats, a baby on the way.",
   A:{mode:"choose",hasCar:"no",purpose:"dependable",timing:"6mo",household:"family",childSeats:2,changes:["baby"],changeWhen:"1to2",areaStay:"settled",keep:"6plus",
-     commute:27,days:5,other:"moderate",trips:"rare",zip:"45402",place:"suburb",sleeps:"driveway",charger:"no",conditions:["snow"],traction:"awdpref",parking:"open",
+     commute:27,days:5,other:"moderate",trips:"rare",zip:"45402",place:"suburb",sleeps:"driveway",charger:"no",conditions:["snow"],traction:"awd",tracFirm:"nice",parking:"open",
      payment:525,down:1500,income:48000,debt:390,credit:630,repairs:"fixed",pax:4,cargo:["stroller","groceries"],access:"none",tow:0,bodies:["suv"],pts:[],feats:["third","awd"]}},
  {key:"ana",name:"Ana, Los Angeles",blurb:"Also wants a Tesla, but parks on the street.",
   A:{mode:"test",wantCar:"model3",hasCar:"no",purpose:"dependable",timing:"6mo",household:"solo",changes:["none"],areaStay:"settled",keep:"3to5",
@@ -2060,7 +2169,9 @@ const SCREENS=[
   help:"All optional. Use a value you found yourself, or check one with the car value tool. FitDrive doesn't verify or negotiate trade-ins.",items:[
   {k:"tradeWorth",type:"money",label:"What it's worth",ph:"e.g. 9,000"},
   {k:"tradeOwe",type:"money",label:"What you still owe",ph:"0 if paid off"},
-  {k:"curPayment",type:"money",label:"Current monthly payment",ph:"0 if none"}]},
+  {k:"curPayment",type:"money",label:"Current monthly payment",ph:"0 if none"},
+  {k:"curRun",type:"money",label:"What it costs to run each month",ph:"e.g. 350",
+   help:"Fuel, insurance and upkeep together. With it, FitDrive compares your full monthly cost against the new car's, not only the payments."}]},
  {id:"purpose",sec:"today",title:"What's the honest purpose of this car?",items:[
   {k:"purpose",type:"rank",max:3,cols:2,help:"Pick up to 3, most important first. Tap a choice again to remove it.",opts:[["dependable","Dependable transportation"],["practical","Practical and enjoyable"],["performance","A performance experience"],
    ["luxury","Luxury and comfort"],["weekend","A weekend or fun car"],["work","Work capability"]],assume:["dependable","Assumed dependable transportation"]},
@@ -2105,9 +2216,14 @@ const SCREENS=[
  {id:"roads",sec:"local",title:"What are your roads and parking like?",items:[
   {k:"conditions",type:"multi",excl:"mild",label:"Toughest conditions you drive in regularly",opts:[["mild","Mild, paved roads"],["rain","Frequent rain"],["snow","Snow or ice"],["rough","Unpaved or rough roads"]],
    assume:[["mild"],"Assumed mild, paved roads"]},
-  {k:"traction",type:"single",when:A=>Array.isArray(A.conditions)&&(A.conditions.includes("snow")||A.conditions.includes("rough")||A.conditions.includes("rain")),label:"How much traction do you need?",
-   help:"Good tires matter more than the badge. AWD helps most in snow and also in heavy rain; 4WD is for rough terrain and heavy work.",cols:2,
-   opts:[["nopref","No preference"],["fwd","Front-wheel drive is fine"],["awdpref","AWD preferred"],["awdreq","AWD required"],["4wdreq","4WD required"]],assume:["nopref","No traction preference"]},
+  {k:"traction",type:"single",label:"Which wheels should drive the car?",
+   help:"Good tires matter more than the badge. AWD helps most in snow and also in heavy rain; 4WD is for rough terrain and heavy work. Rear-wheel drive is mostly about how a car feels to drive.",cols:2,
+   opts:[["nopref","No preference"],["fwd","Front-wheel drive is fine"],["rwd","Rear-wheel drive"],["awd","AWD or 4WD"]],assume:["nopref","No drive-wheel preference"]},
+  {k:"tracFirm",type:"single",when:A=>A.traction==="rwd"||A.traction==="awd",label:"How firm is that?",cols:2,
+   help:A=>A.traction==="awd"?"FitDrive works out whether you need AWD or true 4WD from the roads you picked above."
+     :A.tracFirm==="must"?"Only rear-wheel-drive cars will make your shortlist.":"Rear-wheel-drive cars get a lift in your matches, but others can still make the list.",
+   note:A=>A.traction==="rwd"&&Array.isArray(A.conditions)&&(A.conditions.includes("snow")||A.conditions.includes("rough"))?"Rear-wheel drive can work in snow on good winter tires, but it takes more care than AWD. Your matches will show how each car handles the roads you picked.":"",
+   opts:[["nice","Nice to have"],["must","Must have"]],assume:["nice","Assumed the drive wheels are nice to have, not a must"]},
   {k:"parking",type:"single",label:"Tightest spot you park regularly",cols:2,opts:[["open","An open driveway or lot"],["garage","A standard garage"],["tight","A tight garage or narrow space"],["street","Street parallel parking"]],
    assume:["open","Assumed open parking"]}]},
  {id:"pay",sec:"money",title:"What monthly payment feels comfortable?",help:"Just the payment. FitDrive adds fuel, insurance and upkeep itself.",items:[
@@ -2161,18 +2277,20 @@ const distText=L=>{if(!L.live) return `${L.dist} mi away`; const at=[L.city,L.st
   if(L.ships) return `${at} · ${num(L.away)} mi away, ships to you`; return L.away!=null&&(L.awayExact||L.away>100)?`${at} · about ${num(L.away)} mi`:at;};
 const BROWSE_DEFAULTS={make:"any",model:"any",body:"any",pt:"any",drive:"any",cond:"any",seller:"any",max:0,miles:0,mpg:0,range:0,sort:"fit"};
 let S={A:{},visited:[],idx:0,view:"home",carId:null,planBuilt:false,filters:{...FILTER_DEFAULTS},saved:[],compare:[],sample:null,
-  ledgerOpen:false,savedOpen:false,open:{},browse:{...BROWSE_DEFAULTS},calc:{},charge:{},alerts:{},req:{},bought:null,
+  ledgerOpen:false,savedOpen:false,open:{},browse:{...BROWSE_DEFAULTS},calc:{},charge:{},alerts:{},req:{},bought:null,quotes:{},
   tryBrands:[],favSnap:{},photos:{},photoIdx:{},ratings:{},nationwide:false,lang:"en",langOpen:false,langNote:null,liveState:"idle",liveKey:null,liveZip:null,liveCount:0,liveDone:0,liveTotal:0,fb:{open:false,notes:[],reaction:null,draft:{like:"",change:"",add:""},use:null,best:"",copied:false}};
-try{const j=JSON.parse(localStorage.getItem(KEY)||"null");if(j&&typeof j==="object"){Object.assign(S,j);S.savedOpen=false;S.langOpen=false;S.fb=Object.assign({open:false,notes:[],reaction:null,draft:{like:"",change:"",add:""},use:null,best:"",copied:false},j.fb||{},{open:false,copied:false});S.browse=Object.assign({},BROWSE_DEFAULTS,S.browse||{});if(!Array.isArray(S.tryBrands))S.tryBrands=[];if(!S.favSnap||typeof S.favSnap!=="object")S.favSnap={};if(S.open)S.open.clearAsk=false;if(S.A&&Array.isArray(S.A.feats))S.A.feats=[...new Set(S.A.feats.map(x=>x==="safety"?"aeb":x))];}}catch(e){}
+try{const j=JSON.parse(localStorage.getItem(KEY)||"null");if(j&&typeof j==="object"){Object.assign(S,j);S.savedOpen=false;S.langOpen=false;S.fb=Object.assign({open:false,notes:[],reaction:null,draft:{like:"",change:"",add:""},use:null,best:"",copied:false},j.fb||{},{open:false,copied:false});S.browse=Object.assign({},BROWSE_DEFAULTS,S.browse||{});if(!Array.isArray(S.tryBrands))S.tryBrands=[];if(!S.favSnap||typeof S.favSnap!=="object")S.favSnap={};if(!S.quotes||typeof S.quotes!=="object")S.quotes={};if(S.open)S.open.clearAsk=false;if(S.A&&Array.isArray(S.A.feats))S.A.feats=[...new Set(S.A.feats.map(x=>x==="safety"?"aeb":x))];}}catch(e){}
 let CLEARED=false;
 function persist(){if(CLEARED)return;try{localStorage.setItem(KEY,JSON.stringify({A:S.A,visited:S.visited,idx:S.idx,planBuilt:S.planBuilt,filters:S.filters,saved:S.saved,compare:S.compare,
-  sample:S.sample,open:S.open,browse:S.browse,calc:S.calc,charge:S.charge,alerts:S.alerts,req:S.req,bought:S.bought,lang:S.lang,fb:S.fb,tryBrands:S.tryBrands,favSnap:S.favSnap,nationwide:S.nationwide}));}catch(e){}}
+  sample:S.sample,open:S.open,browse:S.browse,calc:S.calc,charge:S.charge,alerts:S.alerts,req:S.req,bought:S.bought,lang:S.lang,fb:S.fb,tryBrands:S.tryBrands,favSnap:S.favSnap,nationwide:S.nationwide,quotes:S.quotes}));}catch(e){}}
 
 const visScreens=()=>SCREENS.filter(s=>!s.when||s.when(S.A));
 const visItems=s=>s.items.filter(it=>!it.when||it.when(S.A));
 const answered=it=>{const v=S.A[it.k];if(it.type==="zip")return /^\d{5}$/.test(String(v||""));return it.type==="multi"||it.type==="rank"?Array.isArray(v)&&v.length>0:v!==undefined&&v!=="";};
 const reqOK=s=>visItems(s).every(it=>!it.req||answered(it));
-function prune(){let changed=true;while(changed){changed=false;for(const s of SCREENS){const sv=!s.when||s.when(S.A);for(const it of s.items){const iv=sv&&(!it.when||it.when(S.A));if(!iv&&it.k in S.A){delete S.A[it.k];changed=true;}}}}}
+// Answers saved before Update 14 used "AWD preferred / AWD required / 4WD required".
+function migrateA(A){if(!A||typeof A!=="object")return;const t=A.traction;if(t==="awdpref"||t==="awdreq"||t==="4wdreq"){A.traction="awd";if(A.tracFirm===undefined)A.tracFirm=t==="awdpref"?"nice":"must";}}
+function prune(){migrateA(S.A);let changed=true;while(changed){changed=false;for(const s of SCREENS){const sv=!s.when||s.when(S.A);for(const it of s.items){const iv=sv&&(!it.when||it.when(S.A));if(!iv&&it.k in S.A){delete S.A[it.k];changed=true;}}}}}
 function assumptions(){const out=[];for(const s of visScreens()){if(!S.visited.includes(s.id))continue;for(const it of visItems(s))if(it.assume&&!answered(it)&&!(it.k==="income"&&S.A.income===null))out.push({k:it.k,label:it.assume[1],screen:s.id});}return out;}
 const optLabel=(k,v)=>{const o=(ITEM[k].it.opts||[]).find(o=>o[0]===v);return o?o[1]:"";};
 const carName=id=>{const m=MODELS.find(x=>x.id===id);return m?`${m.make} ${m.model}`:"";};
@@ -2229,16 +2347,34 @@ function parseRoute(h){
 }
 function routeName(){return S.view==="home"?"home":S.view==="flow"?"questions":S.view==="car"?"car-"+S.carId:S.view==="ask"?"ask-"+S.carId:S.view;}
 let ignoreHash=null;
-function go(name){
+// In-app Back: the pages visited in this session, newest last (the browser's own Back still works too).
+let NAV=[];
+function go(name,isBack){
+  const from=routeName();
   const r=parseRoute(name); S.view=r.view; S.carId=r.carId||null; S.savedOpen=false; S.acctOpen=false; S.langOpen=false;
+  const to=routeName();
+  if(!isBack&&from!==to){NAV.push(from);if(NAV.length>40)NAV.shift();}
   render(true);
-  const want="#"+routeName();
-  if(location.hash!==want){ignoreHash=want;try{location.hash=routeName();}catch(e){}}
+  const want="#"+to;
+  if(location.hash!==want){ignoreHash=want;try{location.hash=to;}catch(e){}}
 }
+function backTarget(){
+  for(let i=NAV.length-1;i>=0;i--){const r=parseRoute(NAV[i]);if(NAV[i]!==routeName()&&!((r.view==="car"||r.view==="ask")&&!listingById(r.carId)))return {i,name:NAV[i]};}
+  return {i:-1,name:S.view==="ask"&&S.carId?"car-"+S.carId:S.planBuilt?"plan":"home"};
+}
+function backLabel(name){
+  const r=parseRoute(name);
+  if(r.view==="car"){const L=listingById(r.carId);return L?`Back to the ${L.year} ${L.model.model}`:"Back to the car";}
+  return {home:"Back to the homepage",flow:"Back to the questions",plan:"Back to your plan",browse:"Back to Browse cars",compare:"Back to Compare",ask:"Back to the request",garage:"Back to My Garage",guide:"Back to the buying guide",how:"Back to How it works",privacy:"Back to Privacy and terms",dealers:"Back to For dealers",worth:"Back to the car value tool"}[r.view]||"Back";
+}
+function goBack(){const t=backTarget();if(t.i>=0)NAV=NAV.slice(0,t.i);go(t.name,true);}
+function backBarHTML(){return `<div class="backbar"><button type="button" class="backlink" data-act="back"><span aria-hidden="true">←</span> ${esc(backLabel(backTarget().name))}</button></div>`;}
 window.addEventListener("hashchange",()=>{
   if(typeof loadPlanFromHash==="function"&&loadPlanFromHash()){render(true);return;}
   if(location.hash===ignoreHash){ignoreHash=null;return;}
-  const r=parseRoute(location.hash); S.view=r.view; S.carId=r.carId||null; render(true);
+  const r=parseRoute(location.hash); S.view=r.view; S.carId=r.carId||null;
+  if(NAV.length&&NAV[NAV.length-1]===routeName()) NAV.pop();   // the browser's Back went where ours would have
+  render(true);
 });
 
 /* ---------- header ---------- */
@@ -2310,6 +2446,7 @@ function ledgerData(){
   if(a.commute!==undefined||S.visited.includes("commute")) f.push(["Miles a year",`About ${num(p.annualMiles)}`]);
   if(p.local.known) f.push(["Nearby (demo data)",`${p.local.chargers10} chargers, ${p.local.shops15} repair shops`]);
   if(a.sleeps) f.push(["Home charging",p.l2?"240V at home":p.home&&p.charger==="landlord"?"Needs landlord OK":p.home?"Regular outlet":a.sleeps==="aptcharge"?"Building chargers":p.workCharge==="yes"?"At work only":"Public only"]);
+  if(a.traction&&a.traction!=="nopref") f.push(["Drive wheels",{fwd:"FWD is fine",rwd:"Rear-wheel drive",awd:"AWD or 4WD"}[p.traction]+(p.traction!=="fwd"?(p.tracMust?", must have":", nice to have"):"")]);
   if(a.payment){f.push(["Payment, then all-in",`${money(a.payment)} → ${money(b.statedAllIn)}`]); if(b.comfortable!=null) f.push(["Income supports",`${money(b.comfortable)}/mo`]);}
   if(a.pax!==undefined) f.push(["Seats needed",String(p.seatsNeed)]);
   if(a.tow) f.push(["Towing",lbkg(a.tow)]);
@@ -2324,6 +2461,8 @@ function ledgerData(){
   if(a.sleeps==="street") ins.push(a.workCharge==="yes"?"No home charging, but work charging keeps an EV realistic.":"No home charging. EVs get much harder, and hybrids move up.");
   if(a.sleeps&&p.l2) ins.push("Home charging is the single biggest EV advantage, and you have it.");
   if(a.conditions&&(p.snow||p.rough)) ins.push("All-wheel drive gets extra weight. Good tires still matter more than the badge.");
+  if(a.traction==="rwd") ins.push(p.tracMust?"Rear-wheel drive only. Fewer cars qualify, and FitDrive shows which ones were ruled out.":"Rear-wheel-drive cars get a lift, but others can still make your list.");
+  if(a.traction==="awd"&&p.tracMust) ins.push(p.need4wd?"Rough roads plus heavy towing or work: FitDrive looks for true 4WD.":"AWD or 4WD only. Cars without it are ruled out.");
   if(a.payment) ins.push(`A ${money(a.payment)} payment is closer to ${money(b.statedAllIn)} a month once fuel, insurance and upkeep are counted.`);
   if(a.payment&&b.comfortable!=null&&b.statedAllIn>b.comfortable) ins.push(`That's above the ${money(b.comfortable)} your income comfortably supports, so FitDrive plans around ${money(b.comfortable)}.`);
   if(a.credit&&a.credit<660) ins.push("At this credit level lease approvals get harder, so financing is likely.");
@@ -2346,7 +2485,8 @@ function zipPreview(p){const l=p.local;return `Within 25 miles of ${esc(l.zip)}:
 function itemHTML(it,sc){
   const v=S.A[it.k];
   const head=it.label?`<h3 id="h-${it.k}">${esc(it.label)}</h3>`:"";
-  const help=it.help?`<p class="ihelp">${esc(it.help)}</p>`:it.ihelp?`<p class="ihelp">${esc(it.ihelp)}</p>`:"";
+  const hv=typeof it.help==="function"?it.help(S.A):it.help, nv=typeof it.note==="function"?it.note(S.A):"";
+  const help=hv?`<p class="ihelp">${esc(hv)}</p>`:it.ihelp?`<p class="ihelp">${esc(it.ihelp)}</p>`:"";
   let body="";
   if(it.type==="single"){
     body=`<div class="opts${it.cols===2?" c2":it.cols===3?" c3":""}" role="group" aria-label="${esc(it.label||sc.title)}">${it.opts.map((o,i)=>{const on=v!==undefined&&v===o[0];
@@ -2371,7 +2511,25 @@ function itemHTML(it,sc){
     const makes=[...new Set(MODELS.map(m=>m.make))].sort();
     body=`<label class="field wide"><select id="in-car" data-car="wantCar" aria-label="Car you have in mind"><option value="">Choose a car</option>${makes.map(mk=>`<optgroup label="${esc(mk)}">${MODELS.filter(m=>m.make===mk).map(m=>`<option value="${m.id}"${v===m.id?" selected":""}>${esc(m.make+" "+m.model)}</option>`).join("")}</optgroup>`).join("")}</select></label>`;
   }
-  return `<div class="item">${head}${help}${body}</div>`;
+  return `<div class="item">${head}${help}${body}${nv?`<p class="note warn">${esc(nv)}</p>`:""}</div>`;
+}
+/* ---------- steps 1–7: tap one to jump straight to it (answers are kept) ---------- */
+function furthestIdx(){const list=visScreens();if(S.planBuilt)return list.length-1;const i=list.findIndex(s=>!S.visited.includes(s.id));return i<0?list.length-1:Math.max(i,S.idx);}
+function stepsHTML(where){
+  const list=visScreens(), cur=where==="flow"?list[S.idx]:null, far=furthestIdx();
+  const items=SECS.map((sec,i)=>{
+    let state, can, first=-1;
+    if(sec.id==="plan"){state=where==="plan"?"cur":S.planBuilt?"done":"todo";can=S.planBuilt&&where!=="plan";}
+    else {
+      const mine=list.filter(s=>s.sec===sec.id); first=list.findIndex(s=>s.sec===sec.id);
+      const done=mine.length>0&&mine.every(s=>S.visited.includes(s.id));
+      state=cur&&cur.sec===sec.id?"cur":done?"done":"todo";
+      can=first>=0&&first<=far&&!(cur&&list[first]===cur);
+    }
+    const lab=`${sec.name}${state==="done"?", done":state==="cur"?", current step":""}`;
+    return `<li class="${state}"><button type="button" data-step="${sec.id}"${can?"":" disabled"}${state==="cur"?' aria-current="step"':""} aria-label="Step ${i+1}: ${esc(lab)}"><span class="n" aria-hidden="true">${i+1}</span><span class="nm">${esc(sec.name)}</span></button></li>`;
+  }).join("");
+  return `<nav class="steps" aria-label="Steps 1 to 7. Tap a step to jump to it; your answers are kept."><ol>${items}</ol></nav>`;
 }
 function flowHTML(){
   const list=visScreens(); S.idx=clamp(S.idx,0,list.length-1);
@@ -2381,12 +2539,16 @@ function flowHTML(){
   const nextLabel=last?"Build my plan":"Continue";
   const samples=sc.hero?`<div class="stack" style="gap:8px;border-top:1px solid var(--line);padding-top:16px"><p class="hint">Just looking? Open a sample plan:</p><div class="chips">${SAMPLES.map(x=>`<button type="button" class="chip" data-sample="${x.key}">${esc(x.name)}</button>`).join("")}</div></div>`:"";
   const pct=Math.round(S.idx/Math.max(1,list.length-1)*100);
+  const prev=S.idx>0?list[S.idx-1]:null, prevSec=prev&&SECS.find(x=>x.id===prev.sec);
+  const backLabel=!prev?(S.planBuilt?"Back to your plan":"Back to the homepage"):prevSec&&prev.sec!==sc.sec?`Back to ${prevSec.name}`:"Back";
   return `<div class="flow"><section class="qcard" aria-labelledby="pagetitle">
+    ${stepsHTML("flow")}
     <div class="progress" aria-hidden="true"><i style="width:${pct}%"></i></div>
+    <button type="button" class="backlink" data-act="qback"><span aria-hidden="true">←</span> ${esc(backLabel)}</button>
     <div class="qhead"><div class="eyebrow"><b>${esc(sec.eyebrow)}</b><span>Question ${S.idx+1} of ${list.length}</span></div>
       <h1 id="pagetitle" tabindex="-1">${esc(sc.title)}</h1>${sc.help?`<p>${esc(sc.help)}</p>`:""}${sc.id==="trade"?`<p><button type="button" class="linkbtn" data-go="worth">Not sure what it's worth? Check it here</button></p>`:""}</div>
     ${its.map(it=>itemHTML(it,sc)).join("")}
-    <div class="nav"><button type="button" class="btn ghost" id="back"${S.idx===0?" hidden":""}>Back</button>
+    <div class="nav"><button type="button" class="btn ghost" id="back"><span aria-hidden="true">←</span> Back</button>
       <span class="left-time">${left?`About ${mins} minute${mins>1?"s":""} left`:"Last question"}</span>
       <button type="button" class="btn" id="next"${reqOK(sc)?"":" disabled"}>${nextLabel}</button></div>
     ${samples}</section>${ledgerHTML()}</div>`;
@@ -2397,19 +2559,64 @@ function stickerHTML(s,b){
   const c=s.costs, q=c.quote, over=c.total-b.target;
   const payLbl=q.type==="lease"?`Lease, ${q.months} mo`:`Finance, ${q.months} mo at ${(q.apr*100).toFixed(1)}%`;
   return `<div class="sticker" aria-label="True monthly cost"><div class="sh">True monthly cost</div>
-    <div class="srow"><span>${payLbl}</span><b>${money(c.payment)}</b></div>
+    <div class="srow"><span>${payLbl}${c.svcMonthly?" + service contract":""}</span><b>${money(c.payment)}</b></div>
     <div class="srow"><span>${s.m.pt==="bev"?"Charging":s.m.pt==="phev"?"Charging + fuel":"Fuel"}</span><b>${money(c.energy)}</b></div>
-    <div class="srow"><span>Insurance estimate*</span><b>${money(c.insurance)}</b></div>
+    <div class="srow"><span>${c.insQuote?"Insurance, your quote":"Insurance estimate*"}</span><b>${money(c.insurance)}</b></div>
     <div class="srow"><span>Repair reserve</span><b>${money(c.reserve)}</b></div>
     <div class="srow total"><span>All-in</span><b>${money(c.total)}/mo</b></div>
     <div class="verdict ${over<=0?"in":"over"}">${over<=0?`Inside your ${money(b.target)} budget`:`${money(over)} over your ${money(b.target)} budget`}</div>
-    <p class="ins-note">*Based on the car's year, make, model, features and ZIP only. Not a quote.</p></div>`;
+    <p class="ins-note">${c.insQuote?"Insurance is the quote you added.":"*Based on the car's year, make, model, features and ZIP only. Not a quote. Add yours on the car's page or in Compare."}${c.svcOnce?` Service contract: ${money(c.svcOnce)} paid at signing.`:""}</p></div>`;
 }
-function scoreHTML(s){
-  return `<div class="drawer">${Object.keys(MAX).map(k=>`<div class="bar-row"><span>${PART_LABEL[k]}</span><div class="bar"><i style="width:${Math.round(s.c[k]/MAX[k]*100)}%"></i></div><b>${s.c[k].toFixed(1)} / ${MAX[k]}</b></div>`).join("")}
+/* ---------- "Why this car?": the plain facts behind a pick, then how its score adds up ---------- */
+const BODY_A={sedan:"A sedan",hatch:"A hatchback",suv:"An SUV",wagon:"A wagon",truck:"A pickup truck",minivan:"A minivan",sport:"A sports car"};
+function highlights(s,p,bud,P){
+  const L=s.L, m=s.m, c=s.costs, out=[], add=x=>{if(x&&!out.includes(x))out.push(x);};
+  if(s.awd&&(p.snow||p.rain||p.rough)) add(`All-wheel drive, for the ${p.rough?"rough roads":p.snow&&p.rain?"rain and snow":p.snow?"snow and ice":"rain"} you drive in`);
+  else if(s.awd&&p.traction==="awd") add("All-wheel drive, which you asked for");
+  if(s.rwd&&p.traction==="rwd") add("Rear-wheel drive, which you asked for");
+  if(P&&P.picks.length>1){
+    const ps=P.picks.map(k=>k.s);
+    if(ps.every(x=>x===s||x.costs.total>s.costs.total)) add(`Lowest all-in cost each month of your ${ps.length} matches`);
+    if(ps.every(x=>x===s||x.L.price>L.price)) add(`Lowest price of your ${ps.length} matches, at ${money(L.price)}`);
+    if(ps.every(x=>x===s||x.exp<s.exp)&&s.exp>=.7) add(`The best match for your wants of your ${ps.length} matches`);
+  }
+  if(m.pt==="bev") add(`About ${m.range} miles of range${p.l2?", and you can charge at home":""}. Charging runs about ${money(c.energy)} a month`);
+  else if(m.pt==="phev") add(`About ${m.range} electric miles, then about ${m.mpg} mpg on gas. Fuel and charging run about ${money(c.energy)} a month`);
+  else add(`About ${m.mpg} mpg combined, so fuel runs about ${money(c.energy)} a month`);
+  if(p.bodies.includes(m.body)&&BODY_A[m.body]) add(`${BODY_A[m.body]}, one of the body styles you picked`);
+  const need=Math.max(...p.cargo.map(x=>CARGO_NEED[x]||12));
+  if(need>12||m.cargo>=25) add(`${m.cargo} cu ft of cargo space ${m.body==="truck"?"in the bed":"behind the rear seats"}`);
+  if(p.seatsNeed>=5||p.childSeats) add(`Seats ${m.seats}; you need ${p.seatsNeed}`);
+  const r=ratingFor(L); if(r&&!r.error&&!r.none&&r.overall>=4) add(`${r.overall}-star NHTSA overall crash rating${r.example?" (example rating)":""}`);
+  if(L.cond==="new") add("New, with the full factory warranty");
+  else if(L.cond==="cpo") add(`Certified pre-owned with ${num(L.miles)} miles, plus the maker's certified coverage`);
+  else if(L.miles<1000) add(`Practically new: ${num(L.miles)} miles on the odometer`);
+  else if(L.miles/Math.max(1,L.age)<10000) add(`Low miles: ${num(L.miles)} on a ${L.year}`);
+  if(m.rel>=.85) add(m.dealer>=.9?"Strong reliability record and a large dealer network":"Strong reliability record");
+  if(p.tow&&m.tow>=p.tow) add(`Tows up to ${lbkg(m.tow)}, enough for your ${lbkg(p.tow)}`);
+  if(p.feats.length){const full=p.feats.filter(k=>featHas(L,k)===1).length, n=p.feats.length;
+    if(full===n) add(n===1?"Has your must-have feature as standard":n===2?"Has both of your must-have features as standard":`Has all ${n} of your must-have features as standard`);
+    else if(full) add(`Has ${full} of your ${n} must-have features as standard`);}
+  if(p.purpose==="performance"&&m.perf>=.75) add("Quick and sharp to drive, which you ranked first");
+  else if(p.purpose==="weekend"&&m.fun>=.75) add("Fun to drive, for the weekend car you want");
+  else if(p.purpose==="luxury"&&m.lux>=.75) add("A quiet, upscale cabin, which you ranked first");
+  add(c.total<=bud.target?`About ${money(c.total)} a month all-in, inside your ${money(bud.target)} working budget`:`About ${money(c.total)} a month all-in, ${money(c.total-bud.target)} over your ${money(bud.target)} working budget`);
+  return out.slice(0,7);
+}
+function scoreHTML(s,P){
+  const p=P?P.p:prof(), b=P?P.bud:bud(), st=s.stage, xp=!!s.xp, n=P?P.fits.length:0;
+  const rank=s.rank||(P&&(P.fits.find(x=>x.m===s.m)||{}).rank);
+  return `<div class="drawer whybox"><h4>Why FitDrive picked it</h4><ul class="why">${highlights(s,p,b,P).map(x=>`<li>${esc(x)}</li>`).join("")}</ul>
+    <h4>How the ${Math.round(s.overall)} adds up${rank&&n?` <span class="hint">#${rank} of ${n} that fit</span>`:""}</h4>
+    ${Object.keys(MAX).map(k=>`<div class="bar-row"><span>${PART_LABEL[k]}</span><div class="bar"><i style="width:${Math.round(s.c[k]/MAX[k]*100)}%"></i></div><b>${s.c[k].toFixed(1)} / ${MAX[k]}</b></div>`).join("")}
     <div class="bar-row"><span><b>Needs score</b></span><div class="bar"><i style="width:${Math.round(s.needs)}%"></i></div><b>${Math.round(s.needs)} / 100</b></div>
     <div class="bar-row"><span>Experience fit</span><div class="bar"><i style="width:${Math.round(s.exp*100)}%"></i></div><b>${Math.round(s.exp*100)}%</b></div>
-    <p class="demo-note">Overall fit is 80% needs and 20% experience${s.overBudget?", reduced because this car runs over your working budget":""}. The manufacturer is worth 2 points.</p></div>`;
+    <p class="demo-note">Your needs count for ${xp?"65":"80"}% of the score and your wants for ${xp?"35":"20"}%${xp?", because your top purpose is the experience itself":""}${s.overBudget?". It's reduced because this car runs over your working budget":""}. There's no cap: a car that met every need and want perfectly would score 100. Scores are rounded to whole numbers, so close cars can show the same number, and the rank breaks the tie. The manufacturer is worth 2 points.</p>
+    ${st?`<h4>Now, Next and Exit</h4>${stageHTML(st)}<p class="demo-note"><b>Now</b> is how well it fits your life today: cost, seats, cargo, driving, charging and roads. <b>Next</b> is how it holds up through the changes you expect, plus reliability. <b>Exit</b> is how cleanly you can move on: ${st.lease?"a lease ends with a hand-back, so it's clean unless you go over the miles.":`how much value it keeps over the about ${st.years} years you'll keep it${st.owe>st.value?", minus a penalty because you'd likely owe more than it's worth then":""}.`}</p>`:""}</div>`;
+}
+function pageLinksHTML(L,id){
+  const go=(to,label)=>`<button type="button" class="linkbtn" data-go="car-${L.id}" data-to="${to}">${label}</button>`;
+  return `<div class="pagelinks"><span>On this car's page:</span>${id?`<button type="button" class="linkbtn" data-toggle="l-${id}">Listings near you</button>`:""}${go("deal-h","Deal check")}${go("hist-h","History and recalls")}${go("insp-h","Buyer's checklist")}${go("cov-h","Service contracts")}${go("rv-h","Owner ratings")}</div>`;
 }
 function listingRow(o){
   const L=o.L, saved=S.saved.includes(L.id), inC=S.compare.includes(L.id);
@@ -2421,17 +2628,18 @@ function listingRow(o){
 function pickHTML(k,P){
   loadRatings(k.s.L);
   const s=k.s, m=s.m, L=s.L, id=m.id, sOpen=!!S.open["s-"+id], lOpen=!!S.open["l-"+id], inC=S.compare.includes(L.id);
-  const meta=[L.year,condLabel[L.cond],PT_LABEL[m.pt],BODY_LABEL[m.body],s.awd?"AWD":null,money(L.price)].filter(Boolean).join(" · ");
+  const meta=[L.year,condLabel[L.cond],PT_LABEL[m.pt],BODY_LABEL[m.body],s.awd?"AWD":s.rwd?"RWD":null,money(L.price)].filter(Boolean).join(" · ");
   return `<article class="pick"><div class="pick-top">${carArt(L)}<div class="pick-id"><span class="pill amber" style="align-self:flex-start">${esc(k.tag)}</span><h3>${esc(m.make+" "+m.model)}</h3><div class="pmeta">${esc(meta)}</div><div class="pmeta">${esc(L.where)} · ${distText(L)}</div><div class="pmeta">${esc(mpgText(m))}</div><div class="cbadges">${starPill(L)}</div></div>
-    <div class="fit"><b>${Math.round(s.overall)}</b><span>/100 overall fit</span></div></div>
+    <div class="fit"><b>${Math.round(s.overall)}</b><span>/100 overall fit</span><span class="rk">#${s.rank} of ${P.fits.length} that fit</span></div></div>
     <div class="pick-body"><div><ul class="why">${s.why.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>
-      <p class="watch"><b>Watch</b>${esc(s.watch)}</p><div class="subs">Needs ${Math.round(s.needs)}/100 · Experience ${Math.round(s.exp*100)}% · #${s.rank} of ${P.fits.length}</div></div>
+      <p class="watch"><b>Watch</b>${esc(s.watch)}</p>${stageHTML(s.stage)}<div class="subs">Needs ${Math.round(s.needs)}/100 · Experience ${Math.round(s.exp*100)}%</div></div>
       ${stickerHTML(s,P.bud)}</div>
     <div class="pick-actions"><button type="button" class="btn small" data-go="car-${L.id}">See this car</button>
-      <button type="button" class="tbtn" data-cmp="${L.id}" aria-pressed="${inC}">${inC?"In compare":"+ Compare"}</button>
-      <button type="button" class="tbtn" data-toggle="s-${id}" aria-expanded="${sOpen}">Score breakdown</button>
+      <button type="button" class="tbtn" data-cmp="${L.id}" aria-pressed="${inC}">${inC?"In compare":"+ Compare"}</button>${favBtn(L)}
+      <button type="button" class="tbtn" data-toggle="s-${id}" aria-expanded="${sOpen}" aria-pressed="${sOpen}">${sOpen?"Hide the reasons":"Why this car?"}</button>
       <button type="button" class="tbtn" data-toggle="l-${id}" aria-expanded="${lOpen}">Other listings (${s.options.length})</button></div>
-    <div ${sOpen?"":"hidden"}>${scoreHTML(s)}</div><div ${lOpen?"":"hidden"}><div class="drawer">${s.options.map(listingRow).join("")}<p class="demo-note">${LIVE&&S.liveState==="ok"?"Real dealer listings within your filters and guardrail. Confirm price and availability with the dealer.":"Example listings within your filters and guardrail. The live version shows real dealer cars."}</p></div></div></article>`;
+    ${pageLinksHTML(L,id)}
+    <div ${sOpen?"":"hidden"}>${scoreHTML(s,P)}</div><div ${lOpen?"":"hidden"}><div class="drawer">${s.options.map(listingRow).join("")}<p class="demo-note">${LIVE&&S.liveState==="ok"?"Real dealer listings within your filters and guardrail. Confirm price and availability with the dealer.":"Example listings within your filters and guardrail. The live version shows real dealer cars."}</p></div></div></article>`;
 }
 function spotHTML(P){
   const sp=P.spotlight; if(!sp) return "";
@@ -2458,14 +2666,14 @@ function filtersHTML(P){
 }
 function payHTML(P){
   const top=P.picks[0]&&P.picks[0].s; if(!top) return "";
-  const p=P.p, fin=financeQuote(top.L,p), newL=top.L.cond==="new"?top.L:top.m.listings.find(l=>l.cond==="new");
+  const p=P.p, fin=financeQuote(top.L,p), svcM=top.costs.svcHow==="loan"?loanPmt(top.costs.svc,fin.apr,fin.months):0, newL=top.L.cond==="new"?top.L:top.m.listings.find(l=>l.cond==="new");
   const lq=newL&&newL.price<=CEILING.price?leaseQuote(newL,p):null, rec=top.costs.structure.rec, name=`${top.m.make} ${top.m.model}`;
   let extra="";
   if(P.route&&P.route.key==="flex") extra=`<p><b>Or stay flexible.</b> ${esc(P.route.text)}</p>`;
   if(P.route&&P.route.key==="keep") extra=`<p><b>Or wait.</b> ${esc(P.route.text)}</p>`;
   return `<section class="panel"><h2>How to pay for the ${esc(name)}</h2>
-    <div class="pay"><div class="payopt${rec==="finance"?" rec":""}"><span class="pk">${rec==="finance"?"Recommended · ":""}Finance 60 months</span><b>${money(fin.payment)}/mo</b>
-      <span>About ${(fin.apr*100).toFixed(1)}% APR on the ${top.L.year} listing, ${money(p.down)} down${p.equity?`, ${money(p.equity)} trade equity`:""}. No mileage limit.</span></div>
+    <div class="pay"><div class="payopt${rec==="finance"?" rec":""}"><span class="pk">${rec==="finance"?"Recommended · ":""}Finance 60 months</span><b>${money(fin.payment+svcM)}/mo</b>
+      <span>About ${(fin.apr*100).toFixed(1)}% APR on the ${top.L.year} listing, ${money(p.down)} down${p.equity?`, ${money(p.equity)} trade equity`:""}. No mileage limit.${svcM?` Includes your ${money(top.costs.svc)} service contract.`:""}</span></div>
       <div class="payopt${rec==="lease"?" rec":""}"><span class="pk">${rec==="lease"?"Recommended · ":""}Lease 36 months</span>${lq?`<b>${money(lq.payment)}/mo</b>
       <span>On a new ${newL.year} at ${money(newL.price)}, 12,000 miles a year${lq.overage>1?`, including about ${money(lq.overage)} a month in expected mileage overage`:""}.</span>`:`<b>Not available</b><span>Leases are for new cars, and there's no new listing in range.</span>`}</div></div>
     ${top.costs.structure.reasons[0]==="Financing builds equity and has no mileage limit."?"":`<p>${esc(top.costs.structure.reasons.slice(0,2).join(" "))}</p>`}${extra}
@@ -2473,10 +2681,21 @@ function payHTML(P){
 }
 function keepHTML(P){
   const k=P.keep; if(!k) return "";
-  const top=P.picks[0]&&P.picks[0].s;
-  return `<section class="panel"><h2>${k.favored?"Keeping your car is the smarter move for now":"Keeping your car, compared fairly"}</h2><p>${esc(k.text)}</p>
-    <div class="keepcmp"><div><span>${k.repair?"Repair now":"Keep driving it"}</span><b>${k.repair?money(k.repair):"$0 extra"}</b></div>
-      <div><span>Replace with the ${esc(top?top.m.model:"top pick")}</span><b>${top?money(top.costs.total)+"/mo":"Nothing fits yet"}</b></div></div>
+  const top=P.picks[0]&&P.picks[0].s, p=P.p, name=top?top.m.model:"top pick";
+  const keepSub=(k.full?(p.curPayment?`your ${money(p.curPayment)} payment + ${money(p.curRun)} to run it`:`paid off, plus ${money(p.curRun)} to run it`)
+    :(p.curPayment?"your payment now":"paid off, no payment"))+(k.repair?`, plus the ${money(k.repair)} repair`:"");
+  const add=`<button type="button" class="linkbtn" data-jump="trade">${k.full?"Change what it costs to run":"Add what your car costs to run"}</button>`;
+  const explain=k.full
+    ?`This compares the full monthly cost: your payment and what you said your car costs to run, against the ${esc(name)}'s payment, fuel, insurance and upkeep.${k.repair?` The repair is a one-time cost on top.`:""} ${add}`
+    :`${p.curPayment?`You already pay ${money(p.curPayment)} a month, so this compares payment to payment.`:`Your car is paid off, so the new car's payment is all new money.`} Fuel, insurance and upkeep change too: the ${esc(name)} runs about ${money(k.newTotal)} a month all in. ${add} and FitDrive compares the full monthly cost instead.`;
+  const nowT=p.covers==="repairs"?`Needs about ${money(k.repair)} in repairs`:"Gets you through the next year";
+  const exitT=p.tradeWorth?`Worth about ${money(p.tradeWorth)} by your estimate${p.tradeOwe?`, with ${money(p.tradeOwe)} still owed`:""}`:"Sell or trade it when you're ready. No new loan.";
+  return `<section class="panel dark keep" aria-labelledby="keep-h"><h2 id="keep-h">${k.favored?"Keeping your car is the smarter move for now":"Keeping your car, compared fairly"}</h2><p>${esc(k.text)}</p>
+    ${top?`<div class="keepcmp"><div><span>Keep it</span><b>${money(k.keepMo)}/mo</b><span>${esc(keepSub)}</span></div>
+      <div><span>Replace with the ${esc(name)}</span><b>${money(k.newMo)}/mo</b><span>${k.full?"all in: payment, fuel, insurance and upkeep":"its car payment"}</span></div>
+      <div><span>Difference</span><b>${k.diff>=0?"+":"−"}${money(Math.abs(k.diff))}/mo</b><span>${k.diff>=0?"more":"less"} ${k.full?"each month, all in":"in payments each month"}</span></div></div>
+    <p class="explain">${explain}</p>`:""}
+    <div class="keepstage"><span class="k">Your car, by stage</span><div class="trio"><div><b>Now</b><span>${esc(nowT)}</span></div><div><b>Next</b><span>Revisit if a repair tops 8 months of payments, or your life changes</span></div><div><b>Exit</b><span>${esc(exitT)}</span></div></div></div>
     <p class="demo-note">Any trade value is your own estimate. FitDrive doesn't appraise, verify or negotiate it.</p></section>`;
 }
 function ruledHTML(P){
@@ -2493,6 +2712,7 @@ function planHTML(){
   const alert=P.fits.length&&!P.within?`<div class="alert warn"><b>Nothing here fits ${money(b.target)} a month all-in.</b> The closest workable option runs about ${money(cheapest)}. A bigger down payment, an older car or ${p.hasCar?"keeping your current car":"waiting a few months"} would close the gap.</div>`:"";
   const pickIds=P.picks.map(k=>k.s.L.id);
   return `<div class="stack">
+    <div class="planbar"><button type="button" class="backlink" data-act="to-answers"><span aria-hidden="true">←</span> Back to your answers</button><div class="planbar-steps"><span class="hint">Jump to a step</span>${stepsHTML("plan")}</div></div>
     ${liveBannerHTML()}${smp?`<div class="banner"><span><b>Sample plan: ${esc(smp.name)}.</b> ${esc(smp.blurb)}</span><button type="button" class="btn small" data-act="restart">Start my own</button></div>`:""}
     <header class="plan-head"><span class="eyebrow blue">Your FitDrive plan</span>
       <h1 id="pagetitle" tabindex="-1">Choose for today. Protect your next. Plan the exit.</h1>
@@ -2514,6 +2734,7 @@ function planHTML(){
       ${P.picks.length?P.picks.map(k=>pickHTML(k,P)).join(""):`<div class="alert bad"><b>No car fits every need with these filters.</b> Try loosening a filter, or check the cars ruled out below to see what's blocking them.</div>`}</section>
     ${tryHTML(P)}${keepHTML(P)}${payHTML(P)}${ruledHTML(P)}
     <section class="panel"><h2>Before you sign</h2><p>Get a used car inspected, check the paperwork line by line, and know which numbers to hold on to.</p><div class="row"><button type="button" class="btn ghost small" data-go="guide">Read the buying guide</button></div></section>
+    <div class="row"><button type="button" class="btn ghost small" data-act="to-answers"><span aria-hidden="true">←</span> Back to your answers</button><button type="button" class="btn ghost small" data-act="restart">Start over</button></div>
     <p class="fine">${LIVE&&S.liveState==="ok"?"Listings come from dealer inventory data (auto.dev) and can change. Payments, APRs, lease figures, insurance and repair estimates and local counts are estimates, not offers, approvals or financial advice.":"FitDrive is a demo. Listings, dealers, prices, payments, APRs, lease figures, insurance and repair estimates and local counts are examples, not offers, approvals or financial advice."}</p></div>`;
 }
 
@@ -2523,7 +2744,7 @@ function cardHTML(L,p){
   return `<article class="ccard"><button type="button" class="open" data-go="car-${L.id}" aria-label="${esc(lname(L))}, ${money(L.price)}">${carArt(L)}
     <span class="ct">${esc(lname(L))}</span><span class="cm">${condLabel[L.cond]} · ${milesText(L)} · ${esc(L.where)} · ${distText(L)}</span>
     <span class="cp"><b>${money(L.price)}</b><span>≈ ${money(c.total)}/mo all-in</span></span><span class="cm">${esc(mpgText(L.model))}</span></button>
-    <div class="cbadges">${fitBadge(L)}${starPill(L)}<span class="pill ${d.rating==="Good price"?"good":d.rating==="Priced high"?"bad":"amber"}">${d.rating}</span>${L.awd?`<span class="pill blue">AWD</span>`:""}${histPill(L)}</div>
+    <div class="cbadges">${fitBadge(L)}${starPill(L)}<span class="pill ${d.rating==="Good price"?"good":d.rating==="Priced high"?"bad":"amber"}">${d.rating}</span>${L.awd?`<span class="pill blue">AWD</span>`:L.rwd?`<span class="pill blue">RWD</span>`:""}${histPill(L)}</div>
     <div class="cacts">${favBtn(L)}<button type="button" class="tbtn" data-cmp="${L.id}" aria-pressed="${inC}">${inC?"In compare":"+ Compare"}</button></div></article>`;
 }
 function histPill(L){
@@ -2547,7 +2768,7 @@ function browseHTML(){
   if(+f.range) list=list.filter(L=>L.model.pt==="bev"&&L.model.range>=+f.range);
   if(f.body!=="any") list=list.filter(L=>L.model.body===f.body);
   if(f.pt!=="any") list=list.filter(L=>L.model.pt===f.pt);
-  if(f.drive==="awd") list=list.filter(L=>L.awd); else if(f.drive==="2wd") list=list.filter(L=>!L.awd);
+  if(f.drive==="awd") list=list.filter(L=>L.awd); else if(f.drive==="rwd") list=list.filter(L=>L.rwd); else if(f.drive==="2wd") list=list.filter(L=>!L.awd);
   if(f.cond==="new") list=list.filter(L=>L.cond==="new"); else if(f.cond==="used") list=list.filter(L=>L.cond!=="new");
   if(f.seller==="dealer") list=list.filter(L=>L.seller==="dealer"); else if(f.seller==="private") list=list.filter(L=>L.seller==="private");
   if(+f.max) list=list.filter(L=>L.price<=+f.max);
@@ -2567,7 +2788,7 @@ function browseHTML(){
       ${sel("model","Model",[["any","Any"],...MODELS.filter(m=>!f.make||f.make==="any"||m.make===f.make).slice().sort((a,b)=>(a.make+a.model).localeCompare(b.make+b.model)).map(m=>[m.id,(f.make&&f.make!=="any"?"":m.make+" ")+m.model])])}
       ${sel("body","Body style",[["any","Any"],["sedan","Sedan"],["hatch","Hatchback"],["suv","SUV"],["wagon","Wagon"],["truck","Truck"],["minivan","Minivan"],["sport","Convertible"]])}
       ${sel("pt","Powertrain",[["any","Any"],["ice","Gas"],["hybrid","Hybrid"],["phev","Plug-in hybrid"],["bev","Electric"]])}
-      ${sel("drive","Drive",[["any","Any"],["awd","AWD or 4WD"],["2wd","2WD"]])}
+      ${sel("drive","Drive",[["any","Any"],["awd","AWD or 4WD"],["rwd","Rear-wheel drive"],["2wd","2WD"]])}
       ${sel("cond","New or used",[["any","Either"],["new","New"],["used","Used or certified"]])}
       ${sel("seller","Seller",[["any","Dealers and private"],["dealer","Dealers only"],["private","Private sellers only"]])}
       ${sel("max","Max price",[[0,"No max"],[15000,"$15,000"],[20000,"$20,000"],[25000,"$25,000"],[30000,"$30,000"],[40000,"$40,000"],[60000,"$60,000"],[80000,"$80,000"],[100000,"$100,000"]])}
@@ -2704,10 +2925,24 @@ function tryHTML(P){
     ${body}</section>`;
 }
 
+/* ---------- your own quotes (insurance a month, a service contract's price) ---------- */
+function quoteEd(L,kind){
+  const Q=quoteFor(L), key=`q-${kind}-${L.id}`, open=!!S.open[key], has=kind==="ins"?Q.ins>0:Q.svc>0;
+  if(!open) return `<button type="button" class="linkbtn qbtn" data-act="q-open" data-k="${kind}" data-id="${esc(L.id)}">${has?"Change your quote":kind==="ins"?"Add your insurance quote":"Add a service contract quote"}</button>`;
+  const iid=`qi-${kind}-${String(L.id).replace(/[^A-Za-z0-9-]/g,"")}`, how=Q.how||"";
+  return `<div class="qed"><label for="${iid}">${kind==="ins"?"Your insurance quote, per month":"Service contract price, the total for the plan"}</label>
+    <div class="qrow"><span class="field"><span aria-hidden="true">$</span><input id="${iid}" data-quote="${kind}" data-id="${esc(L.id)}" inputmode="numeric" autocomplete="off" placeholder="${kind==="ins"?"e.g. 142":"e.g. 2,400"}" value="${has?esc(num(kind==="ins"?Q.ins:Q.svc)):""}"></span><button type="button" class="btn small" data-act="q-done" data-k="${kind}" data-id="${esc(L.id)}">Done</button></div>
+    ${kind==="svc"?`<fieldset class="qhow"><legend>How will you pay for it?</legend><div class="chips"><button type="button" class="chip${how==="loan"?" on":""}" data-act="q-how" data-v="loan" data-id="${esc(L.id)}" aria-pressed="${how==="loan"}">Add it to my car loan</button><button type="button" class="chip${how==="once"?" on":""}" data-act="q-how" data-v="once" data-id="${esc(L.id)}" aria-pressed="${how==="once"}">Pay it once, up front</button></div>
+      <p class="hint">In the loan, it joins your monthly car payment, with interest at the loan's rate, so all your car costs stay in one payment. Paid up front, it's added to what you pay at signing.</p></fieldset>`:""}
+    ${has?`<button type="button" class="linkbtn" data-act="q-clear" data-k="${kind}" data-id="${esc(L.id)}">Remove my quote</button>`:""}</div>`;
+}
+function svcText(c){return !c.svc?"Not added":money(c.svc)+(c.svcHow==="loan"?" in your loan":c.svcHow==="once"?" paid up front":"");}
+function svcSub(c){return !c.svc?"":c.svcHow==="loan"?`+${money(c.svcMonthly)}/mo · ${money(c.svcMonthly*c.quote.months)} with interest`:c.svcHow==="once"?"Added to what you pay at signing":"Pick how you'll pay to add it to your totals";}
+
 /* ---------- compare ---------- */
 function compareHTML(){
   const p=prof(), Ls=S.compare.map(listingById).filter(Boolean);
-  const head=`<header class="plan-head"><span class="eyebrow blue">Compare</span><h1 id="pagetitle" tabindex="-1">Side by side</h1><p>Up to 3 cars. Green marks the best in each row.</p></header>`;
+  const head=`<header class="plan-head"><span class="eyebrow blue">Compare</span><h1 id="pagetitle" tabindex="-1">Side by side</h1><p>Up to 3 cars. Green marks the best in each row, and every car that ties for it. Add a quote you were given, and it replaces the estimate in every total.</p></header>`;
   if(!Ls.length){
     const quick=PLAN?PLAN.picks.map(k=>k.s.L):LIVE?MODELS.map(m=>m.listings[0]).filter(Boolean).slice(0,3):["corolla-h-1","crv-h-0","rav4-h-2"].map(listingById).filter(Boolean);
     return `<div class="stack">${head}<div class="empty"><b>Nothing to compare yet.</b><p class="muted">Add cars with "+ Compare" from your plan or from Browse.</p><div class="row"><button type="button" class="btn small" data-act="cmp-set" data-ids="${quick.map(L=>L.id).join(",")}">${PLAN?"Compare my top picks":"Try an example"}</button><button type="button" class="btn ghost small" data-go="browse">Browse cars</button></div></div></div>`;
@@ -2715,56 +2950,69 @@ function compareHTML(){
   Ls.forEach(loadRatings); Ls.forEach(loadVin); loadReviews();
   const D=Ls.map(L=>{const c=costsFor(L,p), o=otdFor(L,p), f5=fiveYearCost(L,p), cov=coverageFor(L,p), f=fitFor(L);
     const must=p.feats.length?p.feats.reduce((a,k)=>a+featHas(L,k),0):null, mustFull=p.feats.filter(k=>featHas(L,k)===1).length, mustSome=p.feats.filter(k=>featHas(L,k)===.5).length;
-    return {L,c,o,f5,cov,f,must,mustFull,mustSome};});
-  const best=(vals,low)=>{const nums=vals.filter(v=>v!=null);if(nums.length<2)return -1;const t=low?Math.min(...nums):Math.max(...nums);if(nums.every(v=>v===t))return -1;return vals.indexOf(t);};
-  const row=(label,vals,fmt,low,none)=>{const bi=best(vals,low);const cells=vals.map((v,i)=>`<td class="${i===bi?"best":""}">${i===bi?`<span class="tag">${low?"Lowest":"Best"}</span>`:""}${v==null?`<span class="no">${none||"Not given"}</span>`:fmt(v,i)}</td>`);return `<tr${cells.every(c=>c===cells[0])?' class="same"':""}><th scope="row">${label}</th>${cells.join("")}</tr>`;};
+    return {L,c,o,f5,cov,f,must,mustFull,mustSome,s:f&&f.s?f.s:null};});
+  // Every car that ties for the best value is marked, not only the first. Values are compared the way
+  // they're shown (whole dollars, one decimal for ratings), so cars that look tied are treated as tied.
+  const best=(vals,low,f)=>{f=f||1;const r=vals.map(v=>v==null?null:Math.round(v*f)/f), nums=r.filter(v=>v!=null);if(nums.length<2)return [];
+    const t=low?Math.min(...nums):Math.max(...nums);if(nums.length===vals.length&&nums.every(v=>v===t))return [];return r.map((v,i)=>v===t?i:-1).filter(i=>i>=0);};
+  const tagFor=(n,low)=>n>1?(low?"Tied lowest":"Tied best"):(low?"Lowest":"Best");
+  const row=(label,vals,fmt,low,none,f)=>{const bi=best(vals,low,f);const cells=vals.map((v,i)=>{const on=bi.includes(i);return `<td class="${on?"best":""}">${on?`<span class="tag">${tagFor(bi.length,low)}</span>`:""}${v==null?`<span class="no">${none||"Not given"}</span>`:fmt(v,i)}</td>`;});
+    return `<tr${cells.every(c=>c===cells[0])?' class="same"':""}><th scope="row">${label}</th>${cells.join("")}</tr>`;};
   const trow=(label,vals)=>`<tr${vals.every(v=>String(v)===String(vals[0]))?' class="same"':""}><th scope="row">${label}</th>${vals.map(v=>`<td>${v}</td>`).join("")}</tr>`;
-  // Only-differences view: drop identical rows, and any group left with no rows.
-  const sect=(title,rows)=>{const keep=S.open.cmpDiff&&Ls.length>1?rows.filter(r=>r&&!r.startsWith('<tr class="same"')):rows.filter(Boolean);return keep.length?grp(title)+keep.join(""):"";};
+  // Only-differences view: drop identical rows in every group, and any group left with no rows.
+  let hidden=0;
+  const diffOn=S.open.cmpDiff&&Ls.length>1;
+  const sect=(title,rows)=>{const all=rows.filter(Boolean), keep=diffOn?all.filter(r=>!r.startsWith('<tr class="same"')):all;hidden+=all.length-keep.length;return keep.length?grp(title)+keep.join(""):"";};
   const ecell=(L,k)=>{const f=featInfo(L,k);return `<span class="${f.score===1?"yes":f.score===.5?"some":"no"}">${esc(f.label)}</span>${f.src==="vin"?` <span class="vinmark">by VIN</span>`:""}`;};
   const erow=k=>trow(esc(MUST_NAMES[k]),Ls.map(L=>ecell(L,k)));
   const EXTRA={safety:["cruise"],comfort:["heated","third"],tech:["phone",...(Ls.some(L=>L.model.pt==="bev"||L.model.pt==="phev")?["fast"]:[])],practical:["awd","tow"]};
   const grp=t=>`<tr class="grp"><th colspan="${Ls.length+1}" scope="colgroup">${t}</th></tr>`;
+  const sub=t=>t?`<span class="sub">${t}</span>`:"";
   const basicTxt=d=>{const it=d.cov.items[0];return it.left?yearsText(it.left)+" at your miles":"Expired";};
-  const plan=d=>{const keep=d.cov.keepYears, bl=d.cov.basicLeft;return bl>=keep-.5?"Not needed: factory coverage lasts as long as you'll keep it":`Worth pricing: coverage ends ${bl?"in about "+(Math.round(bl*2)/2)+" yr":"now"}, you'll keep it about ${keep} yr`;};
+  const plan=d=>{const keep=d.cov.keepYears, bl=d.cov.basicLeft;return bl>=keep-.5?"Factory coverage lasts as long as you'll keep it":`Worth pricing: coverage ends ${bl?"in about "+(Math.round(bl*2)/2)+" yr":"now"}, and you'll keep it about ${keep} yr`;};
+  const B=bud();
+  const svcRow=`<tr><th scope="row">Service contract</th>${D.map(d=>`<td>${d.c.svc?`<b>${esc(svcText(d.c))}</b>`:`<span class="no">Not added</span>`}${sub(d.c.svc?svcSub(d.c):plan(d))}${quoteEd(d.L,"svc")}</td>`).join("")}</tr>`;
+  const watchRow=`<tr><th scope="row">Price-drop alerts</th>${D.map(d=>{const on=!!S.alerts[d.L.id];return `<td><button type="button" class="tbtn" data-act="alert" data-id="${esc(d.L.id)}" aria-pressed="${on}">${on?"Watching the price":"Watch the price"}</button></td>`;}).join("")}</tr>`;
+  const anyMine=D.some(d=>d.c.insQuote||d.c.svc);
   return `<div class="stack">${head}
     ${Ls.length>1?`<div class="row"><button type="button" class="tbtn" data-act="cmp-diff" aria-pressed="${!!S.open.cmpDiff}">${S.open.cmpDiff?"Showing only differences · Show everything":"Show only differences"}</button></div>`:""}
     <div class="cmp-wrap"><table class="cmp"><caption class="sr">Comparison of ${Ls.length} cars</caption><thead><tr><th scope="col"><span class="sr">Item</span></th>${D.map(d=>`<th scope="col"><div class="cmp-head">${carArt(d.L)}<b>${esc(lname(d.L))}</b><span>${condLabel[d.L.cond]} · ${milesText(d.L)} · ${money(d.L.price)}</span><div class="row"><button type="button" class="tbtn" data-go="car-${d.L.id}">See car</button><button type="button" class="tbtn" data-cmp="${d.L.id}" aria-label="Remove ${esc(lname(d.L))} from compare">Remove</button></div></div></th>`).join("")}</tr></thead>
     <tbody>
-      ${PLAN?row("Fit for you",D.map(d=>d.f&&d.f.overall!=null?Math.round(d.f.overall):null),v=>`<b class="big" style="font-size:22px">${v}</b>/100`,false):""}
-      ${grp("Money")}
-      ${row("Out-the-door",D.map(d=>d.o.total),v=>money(v),true)}
-      ${row("Car payment",D.map(d=>d.c.payment),v=>money(v)+"/mo",true)}
-      ${row("Fuel or charging",D.map(d=>d.c.energy),v=>money(v)+"/mo",true)}
-      ${row("Insurance estimate",D.map(d=>d.c.insurance),v=>money(v)+"/mo",true)}
-      ${row("Repairs and upkeep",D.map(d=>d.c.reserve),v=>money(v)+"/mo",true)}
-      ${row("All-in each month",D.map(d=>d.c.total),v=>`<b>${money(v)}/mo</b>`,true)}
-      ${row("5-year cost to own",D.map(d=>d.f5.total),v=>`<b>${money(v)}</b>`,true)}
-      ${grp("Safety and economy")}
-      ${trow("Crash test rating (NHTSA)",D.map(d=>ratingCell(d.L)))}
-      ${row("Fuel economy",D.map(d=>mpgOf(d.L.model)),(v,i)=>esc(mpgText(D[i].L.model)),false)}
-      ${D.some(d=>d.L.model.range)?row("Electric range",D.map(d=>d.L.model.range||null),v=>`About ${v} mi`,false,"No plug"):""}
-      ${grp("Living with it")}
-      ${row("Reliability (demo rating)",D.map(d=>relScore(d.L.model)),v=>v.toFixed(1)+" / 10",false)}
-      ${trow("What owners say",D.map(d=>reviewCell(d.L)))}
-      ${trow("What typically goes wrong",D.map(d=>esc(d.L.model.watch)))}
-      ${trow("Factory coverage left",D.map(d=>basicTxt(d)))}
-      ${trow("Service plan",D.map(d=>plan(d)))}
+      ${PLAN?sect("Fit",[row("Fit for you",D.map(d=>d.f&&d.f.overall!=null?Math.round(d.f.overall):null),v=>`<b class="big" style="font-size:22px">${v}</b>/100`,false,"Not scored"),
+        trow("Why it's here",D.map(d=>d.s?`<ul class="plain small">${highlights(d.s,p,B,PLAN).slice(0,3).map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:`<span class="no">${d.f&&d.f.ruled?"Doesn't fit your needs":"Outside your plan"}</span>`)),
+        trow("Now · Next · Exit",D.map(d=>d.s&&d.s.stage?stageHTML(d.s.stage):`<span class="no">Not scored</span>`))]):""}
+      ${sect("Money",[
+        row("Cost to get in",D.map(d=>cashAtSigning(d.L,p,d.c)),(v,i)=>`${money(v)} at signing${sub(D[i].c.svcOnce?`${money(p.down)} down + ${money(D[i].c.svcOnce)} service contract`:p.equity>0?`Plus your ${money(p.equity)} trade equity`:"")}`,true),
+        row("Out-the-door",D.map(d=>d.o.total),v=>money(v),true),
+        row("Car payment",D.map(d=>d.c.payment),(v,i)=>money(v)+"/mo"+sub(D[i].c.svcMonthly?"Includes your service contract":""),true),
+        row("Fuel or charging",D.map(d=>d.c.energy),v=>money(v)+"/mo",true),
+        row("Insurance",D.map(d=>d.c.insurance),(v,i)=>money(v)+"/mo"+sub(D[i].c.insQuote?"Your quote":"Estimate")+quoteEd(D[i].L,"ins"),true),
+        row("Repairs and upkeep",D.map(d=>d.c.reserve),v=>money(v)+"/mo",true),
+        svcRow,
+        row("All-in each month",D.map(d=>d.c.total),v=>`<b>${money(v)}/mo</b>`,true),
+        row("5-year cost to own",D.map(d=>d.f5.total),(v,i)=>`<b>${money(v)}</b>${sub(D[i].f5.mine?"Includes your quotes":"")}`,true)])}
+      ${sect("Safety and economy",[trow("Crash test rating (NHTSA)",D.map(d=>ratingCell(d.L))),
+        row("Fuel economy",D.map(d=>mpgOf(d.L.model)),(v,i)=>esc(mpgText(D[i].L.model)),false),
+        D.some(d=>d.L.model.range)?row("Electric range",D.map(d=>d.L.model.range||null),v=>`About ${v} mi`,false,"No plug"):""])}
+      ${sect("Living with it",[row("Reliability (demo rating)",D.map(d=>relScore(d.L.model)),v=>v.toFixed(1)+" / 10",false,"",10),
+        trow("What owners say",D.map(d=>reviewCell(d.L))),
+        trow("Factory coverage left",D.map(d=>basicTxt(d)))])}
+      ${sect("Keep an eye on",[watchRow,trow("Watch out for",D.map(d=>esc(d.L.model.watch)))])}
       ${sect("Features and equipment",[row("How loaded",D.map(d=>loadedScore(d.L.model)),v=>v+" / 10",false),
-        p.feats.length?row("Your must-haves",D.map(d=>d.must),(v,i)=>`${D[i].mustFull} of ${p.feats.length}${D[i].mustSome?` <span class="hint">(+${D[i].mustSome} on some trims)</span>`:""}`,false):""])}
+        p.feats.length?row("Your must-haves",D.map(d=>d.must),(v,i)=>`${D[i].mustFull} of ${p.feats.length}${D[i].mustSome?` <span class="hint">(+${D[i].mustSome} on some trims)</span>`:""}`,false,"",2):""])}
       ${p.feats.length?sect("Your must-haves",p.feats.map(erow)):""}
       ${EQUIP_GROUPS.map(g=>sect(g.label,[...g.keys.map(x=>x[0]),...EXTRA[g.id]].filter(k=>!p.feats.includes(k)).map(erow))).join("")}
-      ${grp("Specs")}
-      ${trow("Seats",D.map(d=>d.L.model.seats))}
-      ${trow("Cargo space",D.map(d=>`${d.L.model.cargo} cu ft`))}
-      ${trow("Energy use",D.map(d=>d.L.model.pt==="bev"||d.L.model.pt==="phev"?`${d.L.model.kwh} kWh per 100 mi`:`${d.L.model.mpg} mpg combined`))}
-      ${trow("Towing",D.map(d=>d.L.model.tow?lbkg(d.L.model.tow):"Not rated"))}
-      ${trow("Powertrain",D.map(d=>PT_LABEL[d.L.model.pt]+(d.L.awd?" · AWD":"")))}
+      ${sect("Specs",[trow("Seats",D.map(d=>d.L.model.seats)),
+        trow("Cargo space",D.map(d=>`${d.L.model.cargo} cu ft`)),
+        trow("Energy use",D.map(d=>d.L.model.pt==="bev"||d.L.model.pt==="phev"?`${d.L.model.kwh} kWh per 100 mi`:`${d.L.model.mpg} mpg combined`)),
+        trow("Towing",D.map(d=>d.L.model.tow?lbkg(d.L.model.tow):"Not rated")),
+        trow("Powertrain",D.map(d=>PT_LABEL[d.L.model.pt]+(d.L.awd?" · AWD":d.L.rwd?" · RWD":"")))])}
     </tbody></table></div>
-    <p class="fine">5-year cost to own counts your down payment, 60 months of payments, fuel, insurance and upkeep, minus what the car should be worth after 5 years. Reliability ratings and complaint areas are demo data. Owner reviews are from real owners, checked before they appear.</p>
+    ${diffOn&&hidden?`<p class="hint">${hidden} row${hidden===1?" is":"s are"} hidden because ${Ls.length===2?"both":"all "+Ls.length} cars match.</p>`:""}
+    <p class="fine">Your quotes stay on this device. An insurance quote replaces the monthly estimate. For a service contract, you choose how to pay: add it to your car loan and it joins your monthly payment, with interest at the loan's rate, or pay it once up front and it's added to what you pay at signing. Either way it counts in the 5-year cost. Repairs and upkeep stay in the totals, because service contracts cover breakdowns, not oil changes, tires or brakes.${anyMine?" Totals marked \"Includes your quotes\" use what you entered.":""}</p>
+    <p class="fine">5-year cost to own counts your down payment, 60 months of payments, fuel, insurance and upkeep, minus what the car should be worth after 5 years. Now, Next and Exit split the fit score by stage: today, the changes you expect, and how cleanly you can move on. Reliability ratings and complaint areas are demo data. Owner reviews are from real owners, checked before they appear.</p>
     <p class="fine">Features show what each model typically has in the years FitDrive covers: Standard, Some trims or Not offered. Trims and option packages vary, so confirm on the dealer's listing. "By VIN" means NHTSA's record for that exact car says so. Electric range is the EPA estimate for a typical version; it drops in cold weather.</p></div>`;
 }
-
 /* ---------- listing ---------- */
 const BANDS=[{id:"top",label:"780 and up",score:790},{id:"good",label:"660 to 779",score:710},{id:"fair",label:"600 to 659",score:630},{id:"low",label:"500 to 599",score:560},{id:"vlow",label:"Under 500",score:450},{id:"unsure",label:"Not sure",score:660}];
 const bandFor=score=>score>=780?"top":score>=660?"good":score>=600?"fair":score>=500?"low":"vlow";
@@ -2773,7 +3021,7 @@ function calcState(L,p){
   return S.calc[L.id];
 }
 function calcHTML(L,p,c){
-  const st=calcState(L,p), otd=otdFor(L,p).total, eq=Math.max(0,p.equity), B=bud();
+  const st=calcState(L,p), otd0=otdFor(L,p).total, svcL=c.svcHow==="loan"?c.svc:0, otd=otd0+svcL, eq=Math.max(0,p.equity), B=bud();
   const band=BANDS.find(b=>b.id===st.band)||BANDS[1], apr=st.own?st.rate/100:aprFor(band.score,L.cond);
   const run=c.energy+c.insurance+c.reserve;
   const calc=t=>{ if(st.mode==="down"){const loan=Math.max(0,otd-st.down-eq),pay=loanPmt(loan,apr,t);return {down:Math.min(st.down,otd),loan,pay,interest:pay*t-loan};}
@@ -2781,7 +3029,7 @@ function calcHTML(L,p,c){
     return {down:need,loan,pay,interest:pay*t-loan};};
   const cur=calc(st.term), allIn=cur.pay+run, diff=B.target-allIn;
   const terms=[36,48,60,72];
-  return `<section class="section" aria-labelledby="calc-h"><div class="sec-head"><h2 id="calc-h">Payment calculator</h2><span class="hint">Based on the ${money(otd)} out-the-door price</span></div>
+  return `<section class="section" aria-labelledby="calc-h"><div class="sec-head"><h2 id="calc-h">Payment calculator</h2><span class="hint">Based on the ${money(otd0)} out-the-door price${svcL?` plus your ${money(svcL)} service contract`:""}</span></div>
     <div class="calc"><div class="ctrl">
       <div class="seg" role="group" aria-label="Start with"><button type="button" data-calc="mode" data-v="down" aria-pressed="${st.mode==="down"}">I know my down payment</button><button type="button" data-calc="mode" data-v="monthly" aria-pressed="${st.mode==="monthly"}">I know my monthly payment</button></div>
       ${st.mode==="down"?`<div class="item"><h3 id="dlbl">How much can you put down?</h3><div class="stepper"><button type="button" data-calc="down" data-v="-500" aria-label="$500 less down">−</button><output aria-labelledby="dlbl">${money(st.down)}</output><button type="button" data-calc="down" data-v="500" aria-label="$500 more down">+</button></div><p class="ihelp">Cash, plus any trade-in value after what you still owe on it${eq?` (your ${money(eq)} trade equity is already counted)`:""}.</p></div>`
@@ -2820,30 +3068,33 @@ function chargeHTML(L,p){
     <p class="fine">Cold weather uses more energy, so expect higher costs in winter. Battery coverage is shown under warranty below.</p></section>`;
 }
 function insHTML(L,p,c){
-  const lo=Math.round(c.insurance*.8/5)*5, hi=Math.round(c.insurance*1.2/5)*5;
+  const est=c.insEst!=null?c.insEst:c.insurance, lo=Math.round(est*.8/5)*5, hi=Math.round(est*1.2/5)*5;
   const f=[featHas(L,"aeb")===1&&"automatic emergency braking",L.awd&&"all-wheel drive"].filter(Boolean);
   return `<section class="section" aria-labelledby="ins-h"><div class="sec-head"><h2 id="ins-h">Insurance estimate</h2><span class="hint">${esc(lname(L))}${p.zip?" · ZIP "+esc(p.zip):""}</span></div>
     <div class="disclaimer"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"></circle><line x1="12" y1="7" x2="12" y2="13" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"></line><circle cx="12" cy="17" r="1.4" fill="currentColor"></circle></svg>
       <p><b>This is just an estimate</b> from a general database, based on the car's year, make, model, features and ZIP code. It does not include your driving record, credit history or any other personal factors. Contact an insurance company for an accurate quote.</p></div>
-    <div class="grid3"><div class="box"><span class="eyebrow">Estimated full coverage</span><span class="big">About ${money(c.insurance)}/mo</span><p>Most people would likely pay between ${money(lo)} and ${money(hi)} a month. Full coverage is what a lender requires on a financed car.</p></div>
+    <div class="grid3"><div class="box"><span class="eyebrow">Estimated full coverage</span><span class="big">About ${money(est)}/mo</span><p>Most people would likely pay between ${money(lo)} and ${money(hi)} a month. Full coverage is what a lender requires on a financed car.</p></div>
       <div class="box"><h3>Based on</h3><ul class="plain"><li>${L.year} ${esc(L.model.make+" "+L.model.model)}</li>${f.length?`<li>${esc(f.join(", "))}</li>`:""}<li>Claims history for this model vs the average car</li><li>${p.zip?"Typical rates in ZIP "+esc(p.zip):"National average rates (add your ZIP in the questions)"}</li></ul></div>
       <div class="box"><h3>Not included</h3><ul class="plain"><li>Your driving record and past claims</li><li>Your credit history</li><li>Your age, or who else drives</li><li>Coverage limits and deductible</li><li>Discounts, like bundling</li></ul></div></div>
-    <p class="fine">Tip: give your insurer this car's VIN before you buy and ask for a real quote.</p></section>`;
+    <div class="box quotebox"><h3>Have a real quote?</h3>${c.insQuote?`<p><b>Your quote: ${money(c.insurance)} a month.</b> It replaces the estimate in your all-in cost, your plan and Compare.</p>`:`<p>Add it and FitDrive uses it instead of the estimate, here, in your plan and in Compare.</p>`}${quoteEd(L,"ins")}</div>
+    <p class="fine">Tip: give your insurer this car's VIN before you buy and ask for a real quote. Your quote stays on this device.</p></section>`;
 }
 function listingHTML(){
   const L=listingById(S.carId); if(!L) return `<p>That car isn't available.</p>`;
   const p=prof(), c=costsFor(L,p), o=otdFor(L,p), d=dealCheck(L), f=fitFor(L), cov=coverageFor(L,p), m=L.model;
   const saved=S.saved.includes(L.id), inC=S.compare.includes(L.id), alert=!!S.alerts[L.id];
   const sv=PLAN&&f&&f.s?f.s:null;
-  const why=sv&&PLAN?reasonsFor(sv,PLAN.p,PLAN.bud):null;
+  const why=sv&&PLAN?reasonsFor(sv,PLAN.p,PLAN.bud):null, mRank=PLAN&&sv?(PLAN.fits.find(x=>x.m===m)||{}).rank:null;
   const comp=complaintsExample(m), maxN=Math.max(...comp.map(x=>x.n));
   const bl=cov.basicLeft, keep=cov.keepYears, needPlan=bl<keep-.5;
   return `<nav class="crumbs" aria-label="Breadcrumb"><button type="button" data-go="${PLAN?"plan":"browse"}">${PLAN?"Your plan":"Browse cars"}</button><span aria-hidden="true">›</span><span>${esc(lname(L))}</span></nav>
   <div class="cols"><div class="main">
     ${galleryHTML(L)}
-    <div class="l-title"><h1 id="pagetitle" tabindex="-1">${esc(lname(L))}</h1><p>${L.trim?esc(L.trim)+" · ":""}${L.color?esc(L.color)+" · ":""}${condLabel[L.cond]} · ${milesText(L)} · ${PT_LABEL[m.pt]}${L.awd?" · AWD":""} · ${esc(L.where)}, ${distText(L)}</p>
+    <div class="l-title"><h1 id="pagetitle" tabindex="-1">${esc(lname(L))}</h1><p>${L.trim?esc(L.trim)+" · ":""}${L.color?esc(L.color)+" · ":""}${condLabel[L.cond]} · ${milesText(L)} · ${PT_LABEL[m.pt]}${L.awd?" · AWD":L.rwd?" · RWD":""} · ${esc(L.where)}, ${distText(L)}</p>
       ${L.fullVin?`<p class="vinrow">VIN <span class="vin num">${esc(L.fullVin)}</span><button type="button" class="tbtn" data-act="copy-vin" data-vin="${esc(L.fullVin)}">Copy VIN</button></p>`:`<p class="vinrow">VIN ••••${esc(L.vin)} <span class="hint">(example car)</span></p>`}</div>
-    ${why?`<section class="section" aria-labelledby="why-h"><div class="sec-head"><h2 id="why-h">Why it fits you</h2><span class="pill blue">${Math.round(f.overall)} overall fit</span></div><ul class="why">${why.why.map(x=>`<li>${esc(x)}</li>`).join("")}</ul><p class="watch"><b>Watch</b>${esc(why.watch)}</p></section>`:f&&f.ruled?`<div class="note bad"><b>This car doesn't fit your needs.</b> ${esc(f.ruled)}</div>`:""}
+    ${why?`<section class="section" aria-labelledby="why-h"><div class="sec-head"><h2 id="why-h">Why it fits you</h2><span class="pill blue">${Math.round(f.overall)} overall fit</span>${mRank?`<span class="hint">Its model ranks #${mRank} of ${PLAN.fits.length} that fit</span>`:""}</div><ul class="why">${why.why.map(x=>`<li>${esc(x)}</li>`).join("")}</ul><p class="watch"><b>Watch</b>${esc(why.watch)}</p>
+      ${sv.stage?stageHTML(sv.stage):""}<div class="row"><button type="button" class="tbtn" data-toggle="why-car" aria-expanded="${!!S.open["why-car"]}" aria-pressed="${!!S.open["why-car"]}">${S.open["why-car"]?"Hide the reasons":"Why this car?"}</button></div>
+      <div ${S.open["why-car"]?"":"hidden"}>${scoreHTML(sv,PLAN)}</div></section>`:f&&f.ruled?`<div class="note bad"><b>This car doesn't fit your needs.</b> ${esc(f.ruled)}</div>`:""}
     <section class="section" aria-labelledby="deal-h"><div class="sec-head"><h2 id="deal-h">Deal check</h2><span class="hint">${d.live?"Compared with listings near you":"Demo market data"}</span></div>
       <div class="grid3"><div class="box"><span class="eyebrow">Vs similar listings</span>${d.typ==null?`<span class="big" style="font-size:22px">Not enough to compare</span><p>Fewer than 2 similar ${esc(m.model)} listings nearby.</p>`:`<span class="big" style="color:${d.diff<=0?"var(--good)":"var(--bad)"}">${d.diff===0?"Right at typical":money(Math.abs(d.diff))+(d.diff<0?" below":" above")}</span><p>${d.live?`Middle price of ${d.peers} similar listings nearby: ${money(d.typ)}.`:`Typical price ${money(d.typ)} for this year and mileage.`}</p>`}</div>
         <div class="box"><span class="eyebrow">Days on market</span><span class="big">${d.dom==null?"Unknown":d.dom+" days"}</span><p>${d.dom==null?"The listing doesn't say when it went up.":d.dom>45?"Sitting a while. There may be room to negotiate.":"Listed recently."}</p></div>
@@ -2872,7 +3123,8 @@ function listingHTML(){
       <div class="cov">${cov.items.map(it=>{const pct=it.left?Math.round(it.left/it.y*100):0;return `<div class="cov-row"><div class="ch"><b>${it.k}</b><span>${it.y} yr / ${num(it.mi)} mi · ${yearsText(it.left)} left at your miles</span></div><div class="b"><i class="${pct<35?"low":""}" style="width:${Math.max(2,pct)}%"></i></div></div>`;}).join("")}</div>
       ${cov.cpo?`<p class="fine">Certified pre-owned cars add the maker's certified coverage on top of this.</p>`:""}
       <div class="note ${needPlan?"warn":"good"}">${needPlan?`<b>Worth pricing a service plan.</b> The basic warranty ${bl?`runs out in about ${Math.round(bl*2)/2} years`:"has already run out"} at your miles, and you plan to keep the car about ${keep} years. Or put about ${money(c.reserve)} a month into a repair fund.`:`<b>You likely don't need a service plan.</b> Factory coverage lasts about as long as you plan to keep the car.`}</div>
-      ${needPlan?`<p class="fine">Service plan providers to compare: <a href="https://www.chaiz.com" target="_blank" rel="noopener">Chaiz</a>, <a href="https://www.endurancewarranty.com" target="_blank" rel="noopener">Endurance</a>, <a href="https://www.olive.com" target="_blank" rel="noopener">Olive</a>. FitDrive doesn't rank or recommend them. Read what each covers, and see the <a href="https://consumer.ftc.gov/consumer-alerts/2023/03/what-know-about-auto-service-contracts-extended-warranty-scams" target="_blank" rel="noopener">FTC's guidance</a> first.</p>`:""}</section>
+      ${needPlan?`<p class="fine">Service plan providers to compare: <a href="https://www.chaiz.com" target="_blank" rel="noopener">Chaiz</a>, <a href="https://www.endurancewarranty.com" target="_blank" rel="noopener">Endurance</a>, <a href="https://www.olive.com" target="_blank" rel="noopener">Olive</a>. FitDrive doesn't rank or recommend them. Read what each covers, and see the <a href="https://consumer.ftc.gov/consumer-alerts/2023/03/what-know-about-auto-service-contracts-extended-warranty-scams" target="_blank" rel="noopener">FTC's guidance</a> first.</p>`:""}
+      <div class="box quotebox"><h3>Got a service contract quote?</h3>${c.svc?`<p><b>${esc(svcText(c))}.</b> ${c.svcHow?esc(svcSub(c))+".":"Pick how you'll pay for it to add it to your totals."}</p>`:`<p>Add the price you were quoted and choose how you'd pay it: in your car loan, so all your car costs are one monthly payment, or once, up front.</p>`}${quoteEd(L,"svc")}</div></section>
   </div>
   <aside class="side" aria-label="Price and actions">
     <div class="pricebox"><div class="row" style="justify-content:space-between"><span class="big num">${money(L.price)}</span><span class="pill ${d.rating==="Good price"?"good":d.rating==="Priced high"?"bad":"amber"}">${d.rating}</span></div>
@@ -3153,7 +3405,8 @@ function render(focus){
   document.getElementById("langnote").innerHTML=langNoteHTML();
   const V={home:homeHTML,flow:flowHTML,plan:planHTML,browse:browseHTML,compare:compareHTML,car:listingHTML,ask:askHTML,garage:garageHTML,guide:guideHTML,how:howHTML,privacy:privacyHTML,dealers:dealersHTML,worth:worthHTML}[S.view]||homeHTML;
   const waiting=LIVE&&S.liveState==="loading"&&!S.liveSoft&&["plan","browse","compare"].includes(S.view);
-  document.getElementById("app").innerHTML=waiting?loadingHTML():V()+(["home","plan"].includes(S.view)?installHTML():"");
+  const back=["home","flow","plan"].includes(S.view)?"":backBarHTML();
+  document.getElementById("app").innerHTML=waiting?back+loadingHTML():back+V()+(["home","plan"].includes(S.view)?installHTML():"");
   document.getElementById("tray").innerHTML=trayHTML();
   const ft=document.getElementById("foot"); if(ft) ft.innerHTML=footHTML();
   renderFb();
@@ -3174,6 +3427,12 @@ function goNext(){
   S.idx++; render(true);
 }
 function goTo(screenId){const i=visScreens().findIndex(s=>s.id===screenId);if(i>=0){S.idx=i;go("questions");}}
+function qBack(){if(S.idx>0){S.idx--;render(true);}else go(S.planBuilt?"plan":"home");}
+function goStep(secId){
+  if(secId==="plan"){if(S.planBuilt)go("plan");return;}
+  const list=visScreens(), i=list.findIndex(s=>s.sec===secId);
+  if(i>=0&&i<=furthestIdx()){clearTimeout(advT);S.idx=i;if(S.view==="flow")render(true);else go("questions");}
+}
 function toggleCompare(id){
   if(S.compare.includes(id)) S.compare=S.compare.filter(x=>x!==id);
   else if(S.compare.length>=3) {toast("Compare holds 3 cars. Remove one first.");return false;}
@@ -3185,7 +3444,7 @@ function toggleCompare(id){
 document.addEventListener("click",e=>{
   const t=e.target.closest("button,[data-jump]"); if(!t||t.disabled) return;
   const d=t.dataset;
-  if(d.go){go(d.go);return;}
+  if(d.go){go(d.go);if(d.to){const to=d.to;setTimeout(()=>{const h=document.getElementById(to);if(!h)return;const sec=h.closest("section")||h;sec.scrollIntoView({block:"start"});h.setAttribute("tabindex","-1");h.focus({preventScroll:true});},40);}return;}
   if(d.scroll){const el=document.getElementById(d.scroll);if(el){el.scrollIntoView({behavior:window.matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth",block:"start"});const h=el.querySelector("h2");if(h){h.setAttribute("tabindex","-1");h.focus({preventScroll:true});}}return;}
   if(d.opt&&!d.req){
     const it=ITEM[d.opt].it; S.A[d.opt]=it.opts[+d.i][0]; render();
@@ -3208,6 +3467,7 @@ document.addEventListener("click",e=>{
   if(d.money){S.A[d.money]=+d.v;render();return;}
   if(d.sample){const smp=SAMPLES.find(x=>x.key===d.sample);S.A=JSON.parse(JSON.stringify(smp.A));S.visited=SCREENS.map(s=>s.id);S.planBuilt=true;S.sample=smp.key;S.filters={...FILTER_DEFAULTS};S.open={};S.calc={};S.charge={};go("plan");return;}
   if(d.jump){goTo(d.jump);return;}
+  if(d.step){if(S.view==="plan")S.sample=null;goStep(d.step);return;}
   if(d.toggle){S.open[d.toggle]=!S.open[d.toggle];render();return;}
   if(d.heart){toggleFav(d.heart);return;}
   if(d.cmp){const was=S.compare.includes(d.cmp);if(toggleCompare(d.cmp)){render();if(!was)toast(S.compare.length>=2?"Added. Compare is ready.":"Added to compare");}return;}
@@ -3236,6 +3496,13 @@ document.addEventListener("click",e=>{
     case "liveretry":S.liveKey=null;render();return;
     case "fb-send":{sendFeedback();return;}
     case "edit":S.idx=0;S.sample=null;go("questions");return;
+    case "to-answers":S.idx=Math.max(0,visScreens().length-1);S.sample=null;go("questions");return;
+    case "qback":clearTimeout(advT);qBack();return;
+    case "q-open":{S.open[`q-${d.k}-${d.id}`]=true;keepScroll(render);const el=document.querySelector(`input[data-quote="${d.k}"][data-id="${CSS.escape(d.id)}"]`);if(el)el.focus({preventScroll:true});return;}
+    case "q-done":S.open[`q-${d.k}-${d.id}`]=false;keepScroll(render);{const b=document.querySelector(`button[data-act="q-open"][data-k="${d.k}"][data-id="${CSS.escape(d.id)}"]`);if(b)b.focus({preventScroll:true});}return;
+    case "q-how":{const Q=S.quotes[d.id]||(S.quotes[d.id]={});Q.how=d.v;keepScroll(render);toast(d.v==="loan"?"Added to your car loan":"Added to what you pay at signing");return;}
+    case "q-clear":{const Q=S.quotes[d.id]||{};if(d.k==="ins")delete Q.ins;else{delete Q.svc;delete Q.how;}if(!Q.ins&&!Q.svc)delete S.quotes[d.id];S.open[`q-${d.k}-${d.id}`]=false;keepScroll(render);toast("Quote removed");return;}
+    case "back":goBack();return;
     case "restart":S.tryBrands=[];S.A={};S.visited=[];S.idx=0;S.planBuilt=false;S.sample=null;S.filters={...FILTER_DEFAULTS};S.open={};S.calc={};S.charge={};go("questions");return;
     case "reset-filters":S.filters={...FILTER_DEFAULTS};render();return;
     case "reset-browse":S.browse={...BROWSE_DEFAULTS};render();return;
@@ -3278,7 +3545,7 @@ document.addEventListener("click",e=>{
     case "fb-comment":{if(!COMMENTS)return;const el=document.getElementById("app");COMMENTS.openComposer({element:el}).then(r=>{if(r&&r.opened){S.fb.open=false;renderFb();}}).catch(()=>{COMMENTS=null;renderFb();toast("Comments aren't available in this view");});return;}
   }
   if(t.id==="next"){clearTimeout(advT);goNext();return;}
-  if(t.id==="back"){clearTimeout(advT);if(S.idx>0){S.idx--;render(true);}return;}
+  if(t.id==="back"){clearTimeout(advT);qBack();return;}
 });
 document.addEventListener("submit",e=>{
   if(e.target.id==="zipform"){e.preventDefault();const v=(document.getElementById("zip-live")||{}).value||"";const z=v.replace(/\D/g,"").slice(0,5);
@@ -3319,6 +3586,7 @@ document.addEventListener("change",e=>{
 });
 document.addEventListener("toggle",e=>{const d=e.target;if(d.dataset&&d.dataset.det){S.open[d.dataset.det]=d.open;persist();}},true);
 document.addEventListener("keydown",e=>{
+  if(e.key==="Enter"&&e.target.dataset&&e.target.dataset.quote){e.preventDefault();const b=document.querySelector(`button[data-act="q-done"][data-k="${e.target.dataset.quote}"][data-id="${CSS.escape(e.target.dataset.id)}"]`);if(b)b.click();return;}
   if(e.key==="Enter"&&S.view==="flow"&&e.target.matches("input")){e.preventDefault();goNext();}
   if(e.key==="Escape"){if(S.fb.open){S.fb.open=false;renderFb();const b=document.querySelector(".fbbtn");if(b)b.focus();}else if(S.langOpen){S.langOpen=false;render();}}
 });
@@ -3506,7 +3774,7 @@ function worthHTML(){
 function privacyHTML(){
   return `<div class="stack legal"><header class="plan-head"><span class="eyebrow blue">FitDrive by Carveyance</span><h1 id="pagetitle" tabindex="-1">Privacy and terms</h1><p>Plain English, last updated Nov 4, 2026.</p></header>
   <section class="section"><h2>What FitDrive keeps, and where</h2><ul class="plain">
-    <li><b>Your answers stay in your browser.</b> Your plan, saved cars and settings are stored on your device. FitDrive has no accounts yet and doesn't store your answers on a server.</li>
+    <li><b>Your answers stay in your browser.</b> Your plan, saved cars, settings and any insurance or service contract quotes you add are stored on your device. FitDrive has no accounts yet and doesn't store your answers on a server.</li>
     <li><b>Your ZIP code is used to find cars near you.</b> FitDrive sends it, with the car models to search, to our listings provider to look up cars for sale. It isn't attached to your name.</li>
     <li><b>Income and credit answers never leave your device.</b> They're used only to work out a comfortable budget on your screen.</li>
     <li><b>A saved-plan link carries your answers inside the link.</b> Anyone you send it to can see them.</li>
@@ -3574,6 +3842,8 @@ document.addEventListener("input",e=>{
   if(el.dataset.rv){const r=rvState(el.dataset.id);r[el.dataset.rv]=el.type==="checkbox"?el.checked:el.value;return;}
   if(el.dataset.wv&&el.tagName!=="SELECT"){const w=wState();w[el.dataset.wv]=el.type==="checkbox"?el.checked:el.value;return;}
   if(el.dataset.dl){dlState()[el.dataset.dl]=el.value;return;}
+  if(el.dataset.quote){const id=el.dataset.id, k=el.dataset.quote, n=+(el.value.replace(/[^\d]/g,"").slice(0,6))||0, Q=S.quotes[id]||(S.quotes[id]={});
+    if(n>0)Q[k]=n; else delete Q[k]; if(!Q.ins&&!Q.svc)delete S.quotes[id]; persist(); return;}
 });
 document.addEventListener("change",e=>{
   const el=e.target;

@@ -60,6 +60,102 @@ const MOST_READ = [];
 
 const ARTICLES = [
   {
+    "slug": "the-assassin",
+    "seoTitle": "TVR Sagaris: The Fiercest TVR, Built Just Before the End",
+    "title": "The Assassin",
+    "subtitle": "400 horsepower from 6 cylinders, a body shaped by racing and an attitude that bordered on criminal: Blackpool's last great rebellion, which arrived just in time to say goodbye",
+    "category": "Reviews",
+    "date": "2026-11-18",
+    "readTime": "18 min",
+    "blurb": "The TVR Sagaris, here for one thing and you're it: slashes and vents that did real work, a Speed Six good for 0–60 mph in 3.7 seconds by TVR's claim, Ferrari F430 speed through the quarter mile for less than half the money, and only 211 built before the Blackpool factory closed.",
+    "image": "/assets/images/the-assassin.jpg",
+    "vehicles": [
+      "TVR Sagaris",
+      "TVR T350",
+      "TVR Tamora",
+      "TVR Tuscan",
+      "TVR Cerbera",
+      "TVR Griffith",
+      "Porsche 911 GT3 RS",
+      "Ferrari F430"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "the-one-nobody-saw-coming",
+    "seoTitle": "TVR Tamora: The Overlooked TVR That Made 350 bhp Feel Easy",
+    "title": "The One Nobody Saw Coming",
+    "subtitle": "The Griffith had the muscle, the Chimaera had the manners and the Tuscan had the theatrics. The Tamora made TVR's performance feel natural, and almost nobody noticed",
+    "category": "Reviews",
+    "date": "2026-11-15",
+    "readTime": "16 min",
+    "blurb": "The TVR Tamora, the weekend escape artist: a 350 bhp straight-six roadster with no ABS and no traction control, built to take on the Porsche Boxster and Mercedes SLK, barely longer than a Griffith, easy to drive fast, and overlooked so completely that only about 356 were built.",
+    "image": "/assets/images/the-one-nobody-saw-coming.jpg",
+    "vehicles": [
+      "TVR Tamora",
+      "TVR T350",
+      "TVR Griffith",
+      "TVR Chimaera",
+      "TVR Tuscan",
+      "Porsche Boxster",
+      "Porsche Boxster S",
+      "Mercedes-Benz SLK32 AMG",
+      "Lotus Elise"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "the-art-of-making-an-entrance",
+    "seoTitle": "TVR Tuscan Speed Six: The Showman That Took On the 911 GT3",
+    "title": "The Art of Making an Entrance",
+    "subtitle": "Some cars are designed to be driven and others to be admired. The TVR Tuscan was designed to make sure you never forgot seeing it, and it had the performance to justify the spectacle",
+    "category": "Reviews",
+    "date": "2026-11-11",
+    "readTime": "17 min",
+    "blurb": "The TVR Tuscan, the showman: chameleon paint and more than 850 orders on its 1998 debut, a lift-out roof and rear window, a cabin from a future that never happened, the Speed Six that nearly broke TVR, and the Tuscan S that took on the Porsche 911 GT3 and Ferrari 360 Modena.",
+    "image": "/assets/images/the-art-of-making-an-entrance.jpg",
+    "vehicles": [
+      "TVR Tuscan",
+      "TVR Tuscan Speed Six",
+      "TVR Tuscan S",
+      "TVR Tuscan Red Rose",
+      "TVR Tuscan Mk2",
+      "TVR Griffith",
+      "TVR Chimaera",
+      "TVR Cerbera",
+      "Porsche 911 GT3",
+      "Ferrari 360 Modena"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "the-family-man-with-a-criminal-record",
+    "seoTitle": "TVR Cerbera: The 2+2 Supercar That Built Its Own V8",
+    "title": "The Family Man with a Criminal Record",
+    "subtitle": "4 seats, a tailored suit and a flat-plane V8: a grand tourer with the manners of a gentleman, the performance of a supercar and a personality that could get everyone into trouble",
+    "category": "Reviews",
+    "date": "2026-11-08",
+    "readTime": "28 min",
+    "blurb": "The TVR Cerbera, the sleeper: rear seats for 2 children, the V8 TVR built itself when Rover's future looked shaky, 60 mph in 3.9 seconds by TVR's figures, a cabin that ignored the rulebook, and a night at the opera that ends with the gentleman gone and the criminal record intact.",
+    "image": "/assets/images/the-family-man-with-a-criminal-record.jpg",
+    "vehicles": [
+      "TVR Cerbera",
+      "TVR Cerbera 4.2",
+      "TVR Cerbera 4.5",
+      "TVR Cerbera Speed Six",
+      "TVR Cerbera Red Rose",
+      "TVR Griffith",
+      "TVR Chimaera",
+      "Ferrari F355",
+      "Porsche 911 Turbo",
+      "Porsche 911 Carrera",
+      "BMW M3",
+      "Aston Martin DB7",
+      "Dodge Viper"
+    ],
+    "featured": false
+  },
+  {
     "slug": "shaken-not-rushed",
     "seoTitle": "TVR Chimaera: Why It Became TVR's Best-Selling Car",
     "title": "Shaken, Not Rushed",

@@ -319,7 +319,7 @@
   async function loadJournal(slug) {
     await G.loadScript("/articles.js");
     var list = [];
-    try { list = (typeof ARTICLES !== "undefined" ? ARTICLES : []).filter(function (a) { return a.owner === slug; }); } catch (e) {}
+    try { var d0 = new Date(), p2 = function (n) { return (n < 10 ? "0" : "") + n; }, today = d0.getFullYear() + "-" + p2(d0.getMonth() + 1) + "-" + p2(d0.getDate()); list = (typeof ARTICLES !== "undefined" ? ARTICLES : []).filter(function (a) { return a.owner === slug && (!a.date || a.date <= today); }); } catch (e) {}
     if (!list.length) return;
     document.getElementById("jlist").innerHTML = list.map(function (a) {
       return '<a href="/articles/' + esc(a.slug) + '/"><div class="th">' + (a.image ? '<img src="' + esc(a.image) + '" alt="" loading="lazy">' : "") +

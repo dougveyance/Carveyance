@@ -210,7 +210,7 @@ def write_sitemap(arts):
             (f"{SITE}/lot/", today, "daily", "0.6"),
             (f"{SITE}/advertise/", today, "monthly", "0.4")]
     rows += [(f"{SITE}/categories/{c}/", today, "weekly", "0.7") for c in CATS]
-    rows += [(f"{SITE}/articles/{a['slug']}/", a["date"], "monthly", "0.8") for a in arts]
+    rows += [(f"{SITE}/articles/{a['slug']}/", min(a["date"], today), "monthly", "0.8") for a in arts]
     rows += event_rows(today)
     rows += owner_rows(today)
     rows += paddock_rows(today)

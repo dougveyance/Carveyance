@@ -46,11 +46,20 @@ function esc(s) {
     .replace(/"/g, "&quot;");
 }
 
-/* newest first */
+/* today's date where the reader is, as YYYY-MM-DD */
+function todayISO() {
+  const d = new Date(), p = n => (n < 10 ? "0" : "") + n;
+  return d.getFullYear() + "-" + p(d.getMonth() + 1) + "-" + p(d.getDate());
+}
+
+/* newest first. A story dated in the future stays hidden until that day,
+   so several can be pushed at once and appear one by one. */
 function allArticles() {
   const list = (typeof ARTICLES !== "undefined" && Array.isArray(ARTICLES)) ? ARTICLES.slice() : [];
+  const today = todayISO();
   return list
     .filter(a => a && a.slug && a.title && a.category)
+    .filter(a => !a.date || a.date <= today)
     .sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")));
 }
 

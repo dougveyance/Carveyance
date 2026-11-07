@@ -75,7 +75,9 @@ a{text-decoration:none;color:inherit}
 (function(){
   var list = document.getElementById('list');
   var arts = (typeof ARTICLES !== 'undefined' && Array.isArray(ARTICLES)) ? ARTICLES.slice() : [];
-  arts = arts.filter(function(a){ return a && a.slug && a.title && a.category; })
+  var d0 = new Date(), p2 = function(n){ return (n<10?'0':'')+n; };
+  var today = d0.getFullYear()+'-'+p2(d0.getMonth()+1)+'-'+p2(d0.getDate());
+  arts = arts.filter(function(a){ return a && a.slug && a.title && a.category && (!a.date || a.date <= today); })
              .sort(function(a,b){ return String(b.date||'').localeCompare(String(a.date||'')); })
              .slice(0, 8);
   if (!arts.length) { list.innerHTML = '<div class="empty">Stories are on their way.</div>'; return; }

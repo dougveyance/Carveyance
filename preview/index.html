@@ -401,7 +401,7 @@ footer .in{display:flex;flex-direction:column;gap:32px}
 
 <section id="find" aria-labelledby="find-title">
   <div class="in">
-    <div class="sec-h"><div><p class="kick">Find a car</p><h2 class="h2" id="find-title">Shop like an enthusiast</h2></div><a class="more" href="/cars/">Browse the Car Index &rarr;</a></div>
+    <div class="sec-h"><div><p class="kick">Explore the Car Index</p><h2 class="h2" id="find-title">Find your kind of car</h2></div><a class="more" href="/cars/">Browse the Car Index &rarr;</a></div>
     <div class="frow" id="f-feel"><span class="lbl">What's under the hood</span><div class="chips" id="feelchips"></div></div>
     <div class="frow" id="f-body"><span class="lbl">Body style</span><div class="tiles" id="bodytiles"></div></div>
     <div class="minis">
@@ -654,7 +654,7 @@ footer .in{display:flex;flex-direction:column;gap:32px}
     if (!quiet) box.scrollIntoView({ block: "start" });
   }
 
-  /* ---------- shop like an enthusiast: filters on the Car Index ---------- */
+  /* ---------- find your kind of car: filters on the Car Index ---------- */
   var F = {
     feel: [["rotary", "Rotary-powered", function (c) { return /rotary|wankel/i.test(c.engine); }],
            ["v8", "V8s", function (c) { return /\bV8\b/i.test(c.engine); }],

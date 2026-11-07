@@ -313,3 +313,19 @@ a.lin .go{margin-left:auto;color:var(--steel);font-size:18px}
   .quick{font-size:18px}
   .story p{font-size:16.5px}
 }
+
+/* ---------- find one for sale (built by cars-common.js from /assets/js/cv-markets.js) ---------- */
+.forsale{padding:52px 0 12px}
+.forsale .kick{margin-bottom:10px}
+.forsale .fs-sub{font-size:15px;color:var(--slate);line-height:1.6;max-width:640px;margin:-4px 0 24px}
+.forsale .mkts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px 28px;align-items:start}
+.forsale .mkg h4{font-size:11px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--mid);margin-bottom:10px}
+.forsale .grid{display:grid;grid-template-columns:1fr;gap:8px}
+.forsale .mkts a{display:flex;justify-content:space-between;align-items:center;gap:12px;min-height:48px;padding:10px 14px;border:1px solid var(--rule);border-radius:10px;background:#fff;font-size:15px;font-weight:600;color:var(--ink);line-height:1.25;transition:border-color .2s,color .2s}
+.forsale .mkts a span{font-size:13px;font-weight:400;color:var(--mid);text-align:right}
+.forsale .mkts a:hover{border-color:var(--steel);color:var(--steel)}
+.forsale .mknote{grid-column:1/-1;font-size:13px;color:var(--mid);line-height:1.55;max-width:760px}
+@media(max-width:860px){.forsale{padding-top:40px}.forsale .mkts{grid-template-columns:1fr;gap:22px}
+  .forsale .grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .forsale .mkts a{flex-direction:column;align-items:flex-start;justify-content:center;gap:3px;padding:9px 12px;min-height:56px}
+  .forsale .mkts a span{text-align:left}}

@@ -179,7 +179,42 @@
   /* ============================================================
      A CAR PAGE
      ============================================================ */
+  /* ---------- "Find one for sale": plain links to the marketplaces ----------
+     Built here so all the car pages get it without a rebuild. The links
+     themselves live in /assets/js/cv-markets.js, shared with the homepage. */
+  I.forSale = function () {
+    if (document.getElementById("for-sale")) return;
+    var h1 = document.querySelector(".htitle");
+    var after = document.getElementById("verdict");
+    if (!h1 || !after || !after.parentNode) return;
+    // The page title shows the generation in <em> ("Mazda RX-7 <em>FD</em>"): search without it, show it in the heading.
+    var gen = h1.querySelector("em"), bare = h1.cloneNode(true);
+    [].forEach.call(bare.querySelectorAll("em"), function (e) { e.remove(); });
+    var q = bare.textContent.replace(/\s+/g, " ").trim(), name = q + (gen ? " (" + gen.textContent.trim() + ")" : "");
+    var mk = document.querySelector('.crumb a[href^="/cars/?make="]');
+    var make = mk ? mk.textContent.trim() : "";
+    var sec = document.createElement("section");
+    sec.className = "forsale"; sec.id = "for-sale"; sec.setAttribute("aria-labelledby", "fs-title");
+    sec.innerHTML = '<div class="wrap"><div class="kick">Find one for sale</div>' +
+      '<h2 class="h2" id="fs-title">' + I.esc(name) + ' for sale</h2>' +
+      '<p class="fs-sub">Where to look right now, from auctions to dealers, and what they have sold for.</p>' +
+      '<div class="mkts" id="fs-links"></div></div>';
+    function fill() {
+      if (!window.CVMarkets) { sec.remove(); return; }
+      sec.querySelector("#fs-links").innerHTML = window.CVMarkets.html(q, make);
+      after.parentNode.insertBefore(sec, after.nextSibling);
+      var mp = document.querySelector(".hinfo .maker");
+      if (mp && !mp.querySelector('a[href="#for-sale"]')) mp.insertAdjacentHTML("beforeend", ' &middot; <a href="#for-sale">Find one for sale</a>');
+    }
+    if (window.CVMarkets) { fill(); return; }
+    var sc = document.createElement("script");
+    sc.src = "/assets/js/cv-markets.js";
+    sc.onload = fill;
+    document.head.appendChild(sc);
+  };
+
   I.carPage = function (carId) {
+    I.forSale();
     var hs = document.getElementById("hscore");
     var vsum = document.getElementById("vsum");
     var vbox = document.getElementById("vbox");

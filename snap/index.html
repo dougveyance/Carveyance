@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- carveyance-pwa -->
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="theme-color" content="#182F41">
+<link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Carveyance">
+<script>if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/sw.js").catch(function(){});});}</script>
+<!-- /carveyance-pwa -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Snap a Car: What Car Is That? — Carveyance</title>
+<!-- carveyance-seo -->
+<link rel="canonical" href="https://carveyance.com/snap/">
+<meta name="description" content="See a car you like? Take a photo. Carveyance tells you what it is, the numbers behind it, what we've written about it, where to see one and where to buy one.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Carveyance">
+<meta property="og:title" content="Snap a Car — Carveyance">
+<meta property="og:description" content="Take a photo of any car and find out exactly what it is, with specs, stories, events and cars for sale.">
+<meta property="og:url" content="https://carveyance.com/snap/">
+<meta name="twitter:card" content="summary_large_image">
+<!-- /carveyance-seo -->
+<link rel="icon" href="/favicon-32x32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   CARVEYANCE — SNAP A CAR
+   Same palette and type as the Car Index and the other section
+   pages: DM Serif Display, DM Sans, Bebas Neue.
+   ============================================================ */
+:root{
+  --steel:#2E6E96; --deep:#1B4E6B; --sky:#4E8DB5; --mist:#f0f3f7; --cloud:#e4ecf3;
+  --ink:#141820; --slate:#3a4553; --mid:#6b7684; --rule:#d0dae4; --white:#fff; --accent:#e05c2a;
+  --panel:#1c2430; --good:#1d6b3a; --warn:#9a5b00; --bad:#a3271b;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%}
+body{font-family:'DM Sans',sans-serif;background:var(--white);color:var(--ink);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{text-decoration:none;color:inherit}
+img{display:block;max-width:100%}
+button{font-family:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:0 40px}
+:focus-visible{outline:2px solid var(--sky);outline-offset:2px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* nav and footer: the same bar every section page uses */
+nav{height:64px;display:flex;align-items:center;justify-content:space-between;padding:0 40px;background:var(--ink);position:sticky;top:0;z-index:60}
+.nav-brand{font-family:'Bebas Neue',sans-serif;font-size:26px;letter-spacing:.08em;color:var(--white);line-height:1;font-weight:400}
+.nav-brand span{color:var(--sky)}
+.nav-center{display:flex;gap:18px}
+.nav-center a{font-size:11px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.62);transition:color .2s}
+.nav-center a:hover,.nav-center a.on{color:var(--white)}
+.nav-sub{font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;background:var(--accent);color:var(--white);padding:9px 18px;border-radius:3px;white-space:nowrap}
+.nav-sub:hover{background:#c44e20}
+.nav-brand,.nav-sub{flex-shrink:0}
+@media(max-width:1340px){.nav-center{display:none}}
+footer{background:var(--ink);color:rgba(255,255,255,.5);padding:36px 16px;text-align:center;font-size:11px;letter-spacing:.08em}
+footer .fw{font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:.08em;color:#fff;display:block;margin-bottom:10px}
+footer .fw span{color:var(--sky)}
+footer .fl{margin-top:12px;font-size:12px;letter-spacing:.04em;line-height:1.9}
+footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
+
+/* shared pieces */
+.crumb{font-size:10px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--mid);margin-bottom:14px}
+.kick{font-size:11px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--steel)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border:none;border-radius:999px;background:var(--deep);color:#fff;
+  font-size:13px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;padding:14px 24px;cursor:pointer;min-height:48px;text-align:center}
+.btn:hover{background:var(--steel)}
+.btn.hot{background:var(--accent)}.btn.hot:hover{background:#c44e20}
+.btn.line{background:#fff;color:var(--ink);border:1px solid var(--rule)}.btn.line:hover{border-color:var(--steel);color:var(--steel)}
+.btn.ghost{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.4)}.btn.ghost:hover{border-color:#fff;background:rgba(255,255,255,.08)}
+.btn svg{flex:0 0 auto}
+.btn[disabled]{opacity:.5;cursor:default}
+.linkbtn{background:none;border:0;padding:0;color:var(--steel);border-bottom:1px solid currentColor;cursor:pointer;font:inherit;font-weight:600}
+.msg{border-radius:8px;padding:14px 16px;font-size:15px;line-height:1.55}
+.msg.err{background:#fbe9e7;color:var(--bad)}.msg.info{background:var(--cloud);color:var(--deep)}
+.chip{font-size:13px;font-weight:600;background:#fff;border:1px solid var(--rule);color:var(--slate);padding:9px 14px;border-radius:999px;cursor:pointer;
+  display:inline-flex;align-items:center;gap:8px;min-height:40px;line-height:1.2;text-align:left}
+.chip:hover{border-color:var(--steel);color:var(--steel)}
+.chip small{font-weight:500;color:var(--mid);font-size:12px}
+.chip[aria-pressed="true"]{background:var(--steel);border-color:var(--steel);color:#fff}
+.chip[aria-pressed="true"] small{color:rgba(255,255,255,.8)}
+
+/* ---------- header with the two photo buttons ---------- */
+.shead{background:var(--ink);color:#fff;position:relative;overflow:hidden}
+.shead::before{content:"";position:absolute;inset:0;
+  background:repeating-linear-gradient(135deg,rgba(255,255,255,.025) 0 2px,transparent 2px 16px),
+             radial-gradient(900px 360px at 88% 0%,rgba(78,141,181,.3),transparent 70%)}
+.shead .wrap{position:relative;padding-top:48px;padding-bottom:44px}
+.shead .crumb{color:rgba(255,255,255,.55)}.shead .crumb a:hover{color:#fff}
+.stitle{font-family:'Bebas Neue',sans-serif;font-weight:400;font-size:clamp(60px,10vw,108px);line-height:.88;letter-spacing:.02em}
+.stitle span{color:var(--sky)}
+.sblurb{font-size:17px;font-weight:300;color:rgba(255,255,255,.8);line-height:1.65;max-width:620px;margin-top:14px}
+.sactions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.sactions .btn{min-height:56px;font-size:14px;padding:16px 28px}
+.sside{margin-top:18px;display:flex;flex-wrap:wrap;gap:6px 18px;align-items:center;font-size:14px;color:rgba(255,255,255,.7)}
+.sside .linkbtn{color:#fff}
+.privacy{margin-top:18px;font-size:12.5px;line-height:1.55;color:rgba(255,255,255,.5);max-width:560px}
+.drop{position:absolute;inset:10px;border:2px dashed var(--sky);border-radius:14px;background:rgba(20,24,32,.88);display:flex;align-items:center;justify-content:center;
+  font-family:'Bebas Neue',sans-serif;font-size:40px;letter-spacing:.04em;color:#fff;z-index:5}
+
+/* ---------- recent spots ---------- */
+.recent{padding-top:26px}
+.recent .row{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:12px}
+.strip{display:flex;gap:12px;overflow-x:auto;padding-bottom:8px;scrollbar-width:thin}
+.spot{flex:0 0 150px;border:1px solid var(--rule);border-radius:10px;overflow:hidden;background:#fff;cursor:pointer;text-align:left;padding:0}
+.spot:hover{border-color:var(--steel)}
+.spot img{width:100%;height:96px;object-fit:cover;background:var(--cloud)}
+.spot span{display:block;padding:8px 10px 10px;font-size:13px;font-weight:600;line-height:1.3;color:var(--ink)}
+.spot small{display:block;font-weight:500;color:var(--mid);font-size:12px;margin-top:2px}
+
+/* ---------- working ---------- */
+.work{padding-top:34px;padding-bottom:10px}
+.work .in{display:grid;grid-template-columns:minmax(0,420px) 1fr;gap:28px;align-items:center}
+.scan{position:relative;border-radius:12px;overflow:hidden;background:var(--panel)}
+.scan img{width:100%;max-height:340px;object-fit:cover;opacity:.85}
+.scan::after{content:"";position:absolute;left:0;right:0;height:38%;top:-40%;
+  background:linear-gradient(180deg,transparent,rgba(78,141,181,.45) 70%,rgba(78,141,181,.9));animation:sweep 1.7s ease-in-out infinite}
+@keyframes sweep{to{top:102%}}
+@media (prefers-reduced-motion:reduce){.scan::after{animation:none;display:none}}
+.work h2{font-family:'DM Serif Display',serif;font-weight:400;font-size:30px;line-height:1.15}
+.work p{font-size:15px;color:var(--slate);margin-top:8px;line-height:1.6}
+
+/* ---------- result: the ID card ---------- */
+.result{padding-top:34px}
+.idgrid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:34px;align-items:start}
+.shot{border-radius:12px;overflow:hidden;background:var(--panel);position:relative}
+.shot img{width:100%;max-height:520px;object-fit:contain;background:#0f131a}
+.shot.none{display:flex;align-items:center;justify-content:center;aspect-ratio:4/3;font-family:'Bebas Neue',sans-serif;color:rgba(255,255,255,.4);font-size:28px;letter-spacing:.06em}
+.pill{display:inline-flex;align-items:center;gap:7px;font-size:11px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;padding:6px 11px;border-radius:999px}
+.pill::before{content:"";width:8px;height:8px;border-radius:50%;background:currentColor}
+.pill.high{background:#e5f4e4;color:var(--good)}.pill.medium{background:#fdf1dc;color:var(--warn)}.pill.low{background:#fbe9e7;color:var(--bad)}.pill.manual{background:var(--cloud);color:var(--deep)}
+.carname{font-family:'DM Serif Display',serif;font-weight:400;font-size:clamp(34px,4.6vw,52px);line-height:1.05;margin:14px 0 8px;outline:none}
+.carmeta{font-size:13px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--mid);line-height:1.6}
+.clues{margin-top:22px}
+.clues h3,.blockh{font-size:11px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--steel);margin-bottom:10px}
+.clues ul{list-style:none;display:flex;flex-direction:column;gap:7px}
+.clues li{position:relative;padding-left:20px;font-size:16px;line-height:1.45;color:var(--slate)}
+.clues li::before{content:"";position:absolute;left:2px;top:.55em;width:8px;height:8px;border-radius:2px;background:var(--sky);transform:rotate(45deg)}
+.note{margin-top:18px;border-left:3px solid var(--accent);background:#fdf3ee;padding:12px 14px;font-size:15px;line-height:1.55;color:var(--slate);border-radius:0 8px 8px 0}
+.unsure{margin-top:18px;background:var(--mist);border:1px solid var(--rule);border-radius:10px;padding:14px 16px}
+.unsure p{font-size:15px;line-height:1.55;color:var(--slate)}
+.unsure .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.idactions{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+.idactions .btn{min-height:46px;padding:12px 20px;font-size:12px}
+.fineprint{margin-top:14px;font-size:12.5px;color:var(--mid);line-height:1.5}
+
+/* fix-it / type-it form */
+.fix{margin-top:22px;border:1px solid var(--rule);border-radius:12px;padding:18px;background:#fff}
+.fix h3{font-family:'DM Serif Display',serif;font-weight:400;font-size:24px;margin-bottom:4px}
+.fix p{font-size:14.5px;color:var(--slate);margin-bottom:14px;line-height:1.55}
+.fixgrid{display:grid;grid-template-columns:1fr 1fr 120px;gap:12px}
+.field{display:flex;flex-direction:column;gap:6px}
+.field label{font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--mid)}
+.field input,.field select{width:100%;font-family:'DM Sans',sans-serif;font-size:16px;color:var(--ink);padding:11px 12px;border:1px solid var(--rule);border-radius:8px;background:#fff;min-height:46px}
+.field input:focus,.field select:focus{outline:2px solid var(--sky);outline-offset:0;border-color:var(--steel)}
+.fix .btns{display:flex;gap:10px;margin-top:14px;flex-wrap:wrap}
+
+/* ---------- sections under the ID ---------- */
+.block{padding-top:52px}
+.block > .blockh{margin-bottom:6px}
+.block h2{font-family:'DM Serif Display',serif;font-weight:400;font-size:30px;line-height:1.15;margin-bottom:6px}
+.block .sub{font-size:15px;color:var(--slate);line-height:1.6;max-width:680px;margin-bottom:18px}
+.years{display:flex;flex-wrap:wrap;gap:8px}
+.years .chip{min-width:66px;justify-content:center;font-family:'Bebas Neue',sans-serif;font-size:20px;letter-spacing:.04em;font-weight:400;padding:8px 12px}
+
+/* spec panel */
+.panel{background:var(--panel);color:#fff;border-radius:14px;padding:26px 26px 22px;margin-top:6px}
+.panel .top{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px 20px;align-items:flex-end;margin-bottom:6px}
+.panel .which{font-size:15px;line-height:1.5;color:rgba(255,255,255,.82);max-width:640px}
+.panel .which b{color:#fff}
+.panel select{font-family:'DM Sans',sans-serif;font-size:15px;color:var(--ink);padding:10px 12px;border-radius:8px;border:0;max-width:100%;min-height:44px}
+.nums{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;margin-top:14px}
+.num{padding:18px 18px 16px 0;border-top:1px solid rgba(255,255,255,.1)}
+.num .l{font-size:10.5px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.55)}
+.num .v{font-family:'Bebas Neue',sans-serif;font-size:44px;line-height:1;letter-spacing:.02em;margin-top:8px}
+.num .u{font-size:13px;color:rgba(255,255,255,.65);margin-top:4px;line-height:1.35}
+.num .t{font-size:16px;font-weight:500;line-height:1.35;margin-top:8px}
+.price{margin-top:16px;padding-top:16px;border-top:1px solid rgba(255,255,255,.1);font-size:15px;line-height:1.6;color:rgba(255,255,255,.82)}
+.price b{font-family:'Bebas Neue',sans-serif;font-weight:400;font-size:30px;letter-spacing:.03em;color:#fff;margin-right:6px;vertical-align:-3px}
+.panel details{margin-top:16px;border-top:1px solid rgba(255,255,255,.1);padding-top:12px}
+.panel summary{cursor:pointer;font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--sky);min-height:36px;display:flex;align-items:center}
+.sheet{columns:2;column-gap:32px;margin-top:10px}
+.sheet h4{font-size:10.5px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.5);margin:14px 0 6px;break-after:avoid}
+.sheet div{display:flex;justify-content:space-between;gap:14px;font-size:13.5px;line-height:1.4;padding:5px 0;border-bottom:1px solid rgba(255,255,255,.06);break-inside:avoid}
+.sheet div span:first-child{color:rgba(255,255,255,.62)}
+.sheet div span:last-child{text-align:right}
+.src{font-size:12px;color:rgba(255,255,255,.45);margin-top:14px}
+.panel .msg.info{background:rgba(255,255,255,.08);color:rgba(255,255,255,.85)}
+
+/* stories */
+.cicard{display:grid;grid-template-columns:240px 1fr;gap:0;border:1px solid var(--rule);border-radius:12px;overflow:hidden;background:#fff;margin-bottom:18px}
+.cicard:hover{border-color:var(--steel)}
+.cicard .im{background:linear-gradient(160deg,var(--ink),#2a3646);min-height:150px}
+.cicard .im img{width:100%;height:100%;object-fit:cover}
+.cicard .tx{padding:18px 20px}
+.cicard h3{font-family:'DM Serif Display',serif;font-weight:400;font-size:24px;line-height:1.15;margin:6px 0}
+.cicard p{font-size:14.5px;line-height:1.6;color:var(--slate)}
+.cicard .go{display:inline-block;margin-top:10px;font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--steel)}
+.arts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+.art{display:flex;flex-direction:column;border:1px solid var(--rule);border-radius:10px;overflow:hidden;background:#fff;transition:box-shadow .2s,transform .2s}
+.art:hover{box-shadow:0 10px 26px rgba(20,24,32,.12);transform:translateY(-2px)}
+.art img{width:100%;aspect-ratio:16/9;object-fit:cover;background:var(--cloud)}
+.art .tx{padding:12px 14px 14px}
+.art .k{font-size:10px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--steel)}
+.art h3{font-family:'DM Serif Display',serif;font-weight:400;font-size:19px;line-height:1.2;margin-top:6px}
+.art p{font-size:12.5px;color:var(--mid);margin-top:6px}
+.none{font-size:15px;color:var(--slate);line-height:1.6}
+.none a{color:var(--steel);border-bottom:1px solid currentColor}
+
+/* for sale */
+.zipform{display:flex;flex-wrap:wrap;gap:10px;align-items:flex-end;margin-bottom:18px}
+.zipform .field{width:150px}
+.zipform .field.wide{width:180px}
+.cars{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.lcar{display:flex;flex-direction:column;border:1px solid var(--rule);border-radius:10px;overflow:hidden;background:#fff}
+.lcar:hover{border-color:var(--steel)}
+.lcar img,.lcar .noimg{width:100%;aspect-ratio:4/3;object-fit:cover;background:var(--cloud)}
+.lcar .tx{padding:12px 14px 14px}
+.lcar h3{font-size:15px;font-weight:600;line-height:1.35}
+.lcar .pr{font-family:'Bebas Neue',sans-serif;font-size:28px;letter-spacing:.03em;margin-top:6px;line-height:1}
+.lcar p{font-size:13px;color:var(--mid);margin-top:4px;line-height:1.45}
+.forsale .mkts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px 28px;align-items:start;margin-top:26px}
+.forsale .mkg h4{font-size:11px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--mid);margin-bottom:10px}
+.forsale .grid{display:grid;grid-template-columns:1fr;gap:8px}
+.forsale .mkts a{display:flex;justify-content:space-between;align-items:center;gap:12px;min-height:48px;padding:10px 14px;border:1px solid var(--rule);border-radius:10px;background:#fff;font-size:15px;font-weight:600;color:var(--ink);line-height:1.25;transition:border-color .2s,color .2s}
+.forsale .mkts a span{font-size:13px;font-weight:400;color:var(--mid);text-align:right}
+.forsale .mkts a:hover{border-color:var(--steel);color:var(--steel)}
+.forsale .mknote{grid-column:1/-1;font-size:13px;color:var(--mid);line-height:1.55;max-width:760px}
+.lotlink{margin-top:16px;font-size:14.5px;color:var(--slate)}
+.lotlink a{color:var(--steel);font-weight:600;border-bottom:1px solid currentColor}
+.smallsrc{font-size:12px;color:var(--mid);margin-top:10px}
+
+/* events */
+.evs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.ev{display:flex;gap:14px;border:1px solid var(--rule);border-radius:10px;padding:14px 16px;background:#fff}
+.ev:hover{border-color:var(--steel)}
+.ev .d{flex:0 0 58px;text-align:center;font-family:'Bebas Neue',sans-serif;line-height:1;color:var(--accent)}
+.ev .d b{display:block;font-size:30px;font-weight:400;color:var(--ink)}
+.ev .d small{font-size:15px;letter-spacing:.06em}
+.ev h3{font-size:15.5px;font-weight:600;line-height:1.35}
+.ev p{font-size:13px;color:var(--mid);margin-top:4px;line-height:1.45}
+.others .chips{display:flex;flex-wrap:wrap;gap:8px}
+.again{padding-top:52px;padding-bottom:64px;text-align:center}
+.again .btn{min-height:54px}
+
+@media(max-width:980px){
+  .arts{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .cars{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .nums{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:860px){
+  .wrap{padding-left:16px;padding-right:16px}
+  nav{padding:0 16px}
+  .block{padding-top:44px}
+  .idgrid,.work .in{grid-template-columns:1fr;gap:20px}
+  .forsale .mkts{grid-template-columns:1fr;gap:22px}
+  .forsale .grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .forsale .mkts a{flex-direction:column;align-items:flex-start;justify-content:center;gap:3px;padding:9px 12px;min-height:56px}
+  .forsale .mkts a span{text-align:left}
+  .evs{grid-template-columns:1fr}
+  .sheet{columns:1}
+  .cicard{grid-template-columns:1fr}
+  .cicard .im{aspect-ratio:16/9;min-height:0}
+  .fixgrid{grid-template-columns:1fr 1fr}
+  .fixgrid .field:last-child{grid-column:1/-1}
+}
+@media(max-width:560px){
+  .shead .wrap{padding-top:34px;padding-bottom:32px}
+  .sactions .btn{flex:1 1 100%}
+  .arts,.cars{grid-template-columns:1fr;gap:12px}
+  .art,.lcar{flex-direction:row}
+  .art img,.lcar img,.lcar .noimg{width:38%;flex:0 0 38%;aspect-ratio:auto;height:auto;min-height:96px;align-self:stretch;object-fit:cover}
+  .art .tx,.lcar .tx{padding:10px 12px 12px;min-width:0}
+  .art h3{font-size:17px}
+  .lcar .pr{font-size:24px}
+  .panel{padding:20px 18px 18px;margin-left:-4px;margin-right:-4px}
+  .num .v{font-size:38px}
+  .block h2{font-size:26px}
+  .idactions .btn{flex:1 1 auto}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="/">Car<span>veyance</span></a>
+  <div class="nav-center">
+    <a href="/">Home</a>
+    <a href="/articles/">All Stories</a>
+    <a href="/categories/how-it-works/">How It Works</a>
+    <a href="/categories/reviews/">Reviews</a>
+    <a href="/categories/comparisons/">Comparisons</a>
+    <a href="/categories/opinions/">Opinions</a>
+    <a href="/categories/fun-facts/">Fun Facts</a>
+    <a href="/categories/car-culture/">Car Culture</a>
+    <a href="/categories/owners-manual/">Owner's Manual</a>
+    <a href="/categories/news/">News</a>
+    <a href="/events/">Events</a>
+    <a href="/paddock/">The Paddock</a>
+    <a href="/cars/">Car Index</a>
+    <a href="/about/">About</a>
+  </div>
+  <a class="nav-sub" href="/subscribe/">Subscribe</a>
+</nav>
+
+<header class="shead" id="top">
+  <div class="wrap">
+    <div class="crumb"><a href="/">Carveyance</a> &nbsp;/&nbsp; Snap a Car</div>
+    <h1 class="stitle">Snap a <span>Car</span></h1>
+    <p class="sblurb">See a car you like? Take a photo. We'll tell you exactly what it is, the numbers behind it, what we've written about it, where to see one and where to buy one.</p>
+    <div class="sactions">
+      <button class="btn hot" id="b-camera" type="button">
+        <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M3 8.5A1.5 1.5 0 0 1 4.5 7h3l1.6-2.2h5.8L16.5 7h3A1.5 1.5 0 0 1 21 8.5v9A1.5 1.5 0 0 1 19.5 19h-15A1.5 1.5 0 0 1 3 17.5z"/><circle cx="12" cy="12.8" r="3.6" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        <span id="b-camera-t">Take a photo</span>
+      </button>
+      <button class="btn ghost" id="b-library" type="button">
+        <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 16l5-5 4 4 3-3 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="16" cy="9" r="1.7" fill="currentColor"/></svg>
+        <span id="b-library-t">Choose a photo</span>
+      </button>
+    </div>
+    <div class="sside">
+      <span id="droptip" hidden>Or drop a photo anywhere on this box.</span>
+      <span>No photo? <button class="linkbtn" id="b-type" type="button">Type in the car</button></span>
+    </div>
+    <p class="privacy">Your photo is sent to Anthropic's Claude to identify the car and isn't saved by Carveyance. Works best with the whole car in the frame, or a clear shot of its front or back.</p>
+    <input id="f-camera" type="file" accept="image/*" capture="environment" class="sr" tabindex="-1" aria-hidden="true">
+    <input id="f-library" type="file" accept="image/*" class="sr" tabindex="-1" aria-hidden="true">
+  </div>
+  <div class="drop" id="drop" hidden>Drop the photo</div>
+</header>
+
+<main>
+  <div class="sr" id="live" aria-live="polite"></div>
+
+  <section class="recent wrap" id="recent" hidden aria-label="Your recent spots">
+    <div class="row"><span class="kick">Your recent spots</span><button class="linkbtn" id="b-clear" type="button">Clear</button></div>
+    <div class="strip" id="strip"></div>
+  </section>
+
+  <section class="wrap fixwrap" id="typeit" hidden aria-label="Type in a car"></section>
+
+  <section class="work wrap" id="work" hidden aria-label="Identifying">
+    <div class="in">
+      <div class="scan"><img id="work-img" alt=""></div>
+      <div><h2>Taking a look&hellip;</h2><p>This usually takes 5 to 15 seconds.</p></div>
+    </div>
+  </section>
+
+  <section class="wrap" id="oops" hidden aria-label="Something went wrong" style="padding-top:30px;padding-bottom:10px">
+    <div class="msg err" id="oops-msg"></div>
+    <div class="idactions"><button class="btn hot" type="button" data-act="camera">Try another photo</button><button class="btn line" type="button" data-act="type">Type in the car</button></div>
+  </section>
+
+  <section class="result" id="result" hidden aria-label="Your car">
+    <div class="wrap">
+      <div class="idgrid">
+        <div class="shot" id="shot"></div>
+        <div>
+          <span class="pill" id="pill"></span>
+          <h2 class="carname" id="carname" tabindex="-1"></h2>
+          <div class="carmeta" id="carmeta"></div>
+          <div class="clues" id="clues" hidden><h3>What gave it away</h3><ul></ul></div>
+          <div class="note" id="note" hidden></div>
+          <div class="unsure" id="unsure" hidden><p id="unsure-t"></p><div class="chips" id="alts"></div></div>
+          <div class="idactions">
+            <button class="btn hot" type="button" data-act="camera">Snap another</button>
+            <button class="btn line" type="button" id="b-fix">Not right?</button>
+            <button class="btn line" type="button" id="b-share" hidden>Share</button>
+          </div>
+          <div id="fixwrap"></div>
+          <p class="fineprint" id="fine"></p>
+        </div>
+      </div>
+    </div>
+
+    <section class="block wrap" id="yearsec" aria-labelledby="yh">
+      <div class="blockh">The numbers</div>
+      <h2 id="yh">Which year is it?</h2>
+      <p class="sub" id="ysub"></p>
+      <div class="years" id="years" role="group" aria-label="Model year"></div>
+      <div class="panel" id="specs" aria-live="polite"></div>
+    </section>
+
+    <section class="block wrap" id="storysec" aria-labelledby="sh">
+      <div class="blockh">From Carveyance</div>
+      <h2 id="sh">What we've written about it</h2>
+      <div id="stories"></div>
+    </section>
+
+    <section class="block wrap forsale" id="salesec" aria-labelledby="fh">
+      <div class="blockh">Find one</div>
+      <h2 id="fh">For sale</h2>
+      <p class="sub" id="fsub"></p>
+      <form class="zipform" id="zipform" novalidate>
+        <div class="field"><label for="zip">Your ZIP code</label><input id="zip" inputmode="numeric" autocomplete="postal-code" maxlength="5" pattern="\d{5}" placeholder="90026"></div>
+        <div class="field wide"><label for="dist">How far</label>
+          <select id="dist"><option value="50">Within 50 miles</option><option value="100" selected>Within 100 miles</option><option value="250">Within 250 miles</option><option value="all">Anywhere in the US</option></select></div>
+        <button class="btn" type="submit">Find cars</button>
+      </form>
+      <div id="listings" aria-live="polite"></div>
+      <div class="mkts" id="mkts"></div>
+      <p class="lotlink">Cars for sale by Carveyance readers are in <a href="/lot/">The Lot</a>.</p>
+    </section>
+
+    <section class="block wrap" id="eventsec" aria-labelledby="eh">
+      <div class="blockh">See one in person</div>
+      <h2 id="eh">Shows and meets</h2>
+      <div id="events"></div>
+    </section>
+
+    <section class="block wrap others" id="othersec" hidden aria-labelledby="oh">
+      <div class="blockh">Also in your photo</div>
+      <h2 id="oh">Spotted in the background</h2>
+      <div class="chips" id="others"></div>
+    </section>
+
+    <div class="again wrap"><button class="btn hot" type="button" data-act="camera">Snap another car</button></div>
+  </section>
+</main>
+
+<footer>
+  <a class="fw" href="/">Car<span>veyance</span></a>
+  &copy; 2026 Carveyance — For the love of the drive.
+  <div class="fl"><a href="/cars/">The Car Index</a> &middot; <a href="/events/">Events</a> &middot; <a href="/paddock/">The Paddock</a> &middot; <a href="/lot/">The Lot</a> &middot; <a href="/categories/owners-manual/">Owner's Manual</a> &middot; <a href="/advertise/">Advertise &amp; Partner</a></div>
+</footer>
+
+<script src="/assets/js/cv-markets.js"></script>
+<script>
+(function () {
+  "use strict";
+  var FN = "/.netlify/functions/snap";
+  var NOW = new Date(), THIS_YEAR = NOW.getFullYear();
+  var TODAY = NOW.getFullYear() + "-" + String(NOW.getMonth() + 1).padStart(2, "0") + "-" + String(NOW.getDate()).padStart(2, "0");
+  var MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  // US CPI-U annual averages (BLS, 1982–84 = 100) and the latest month, for "in 2026 dollars".
+  var CPI_NOW = 336.94; // September 2026
+  var CPI = {1970:38.8,1971:40.5,1972:41.8,1973:44.4,1974:49.3,1975:53.8,1976:56.9,1977:60.6,1978:65.2,1979:72.6,1980:82.4,1981:90.9,1982:96.5,1983:99.6,1984:103.9,1985:107.6,1986:109.6,1987:113.6,1988:118.3,1989:124.0,1990:130.7,1991:136.2,1992:140.3,1993:144.5,1994:148.2,1995:152.4,1996:156.9,1997:160.5,1998:163.0,1999:166.6,2000:172.2,2001:177.1,2002:179.9,2003:184.0,2004:188.9,2005:195.3,2006:201.6,2007:207.342,2008:215.303,2009:214.537,2010:218.056,2011:224.939,2012:229.594,2013:232.957,2014:236.736,2015:237.017,2016:240.007,2017:245.12,2018:251.107,2019:255.657,2020:258.811,2021:270.97,2022:292.655,2023:304.702,2024:313.689};
+
+  var $ = function (s, r) { return (r || document).querySelector(s); };
+  var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
+  function commas(n) { return Number(n).toLocaleString("en-US"); }
+  function norm(s) { return String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/&/g, " and ").replace(/[^a-z0-9]+/g, " ").trim(); }
+  function store(k, v) { try { if (v == null) localStorage.removeItem(k); else localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
+  function load(k) { try { var v = localStorage.getItem(k); return v ? JSON.parse(v) : null; } catch (e) { return null; } }
+  function say(t) { var l = $("#live"); l.textContent = ""; setTimeout(function () { l.textContent = t; }, 30); }
+  function show(id, on) { var el = document.getElementById(id); if (el) el.hidden = !on; }
+
+  // ---------------------------------------------------------------- site data (articles, Car Index, events)
+  var loaded = {};
+  function script(src) {
+    if (!loaded[src]) loaded[src] = new Promise(function (res) {
+      var s = document.createElement("script"); s.src = src; s.async = true;
+      s.onload = function () { res(true); }; s.onerror = function () { res(false); };
+      document.body.appendChild(s);
+    });
+    return loaded[src];
+  }
+  // articles.js, cars-data.js and events.js declare top-level consts, so read them by bare name, never window.X.
+  function ARTS() { return typeof ARTICLES !== "undefined" && Array.isArray(ARTICLES) ? ARTICLES : []; }
+  function CARS() { return typeof CARS_INDEX !== "undefined" && Array.isArray(CARS_INDEX) ? CARS_INDEX : []; }
+  function EVS() { return typeof EVENTS !== "undefined" && Array.isArray(EVENTS) ? EVENTS : []; }
+  function MTS() { return typeof MEETS !== "undefined" && Array.isArray(MEETS) ? MEETS : []; }
+  function siteData() { return Promise.all([script("/articles.js"), script("/cars/cars-data.js")]); }
+
+  // ---------------------------------------------------------------- state
+  var S = { car: null, photo: "", thumb: "", year: 0, specsFor: "", trim: "", busy: false };
+  var coarse = window.matchMedia && window.matchMedia("(pointer: coarse)").matches;
+  if (!coarse) {
+    $("#b-camera-t").textContent = "Choose a photo";
+    $("#b-library").hidden = true;
+    $("#droptip").hidden = false;
+  } else {
+    $("#b-library-t").textContent = "Choose from library";
+  }
+
+  // ---------------------------------------------------------------- photo in
+  function pick(which) { if (S.busy) return; var inp = document.getElementById(which === "library" ? "f-library" : (coarse ? "f-camera" : "f-library")); inp.value = ""; inp.click(); }
+  $("#b-camera").addEventListener("click", function () { pick("camera"); });
+  $("#b-library").addEventListener("click", function () { pick("library"); });
+  ["f-camera", "f-library"].forEach(function (id) {
+    document.getElementById(id).addEventListener("change", function (e) { var f = e.target.files && e.target.files[0]; if (f) start(f); });
+  });
+  document.addEventListener("click", function (e) {
+    var b = e.target.closest("[data-act]"); if (!b) return;
+    if (b.getAttribute("data-act") === "camera") { pick("camera"); }
+    if (b.getAttribute("data-act") === "type") { openType(); }
+  });
+  // Drag and drop onto the header, on computers
+  var head = $("#top"), dropEl = $("#drop"), depth = 0;
+  head.addEventListener("dragenter", function (e) { if (hasFile(e)) { e.preventDefault(); depth++; dropEl.hidden = false; } });
+  head.addEventListener("dragover", function (e) { if (hasFile(e)) e.preventDefault(); });
+  head.addEventListener("dragleave", function () { depth = Math.max(0, depth - 1); if (!depth) dropEl.hidden = true; });
+  head.addEventListener("drop", function (e) {
+    e.preventDefault(); depth = 0; dropEl.hidden = true;
+    var f = e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files[0]; if (f) start(f);
+  });
+  function hasFile(e) { return e.dataTransfer && Array.prototype.indexOf.call(e.dataTransfer.types || [], "Files") >= 0; }
+
+  function decode(file) {
+    return new Promise(function (res, rej) {
+      var url = URL.createObjectURL(file), img = new Image();
+      img.onload = function () { res(img); };
+      img.onerror = function () { rej(new Error("decode")); };
+      img.src = url;
+    });
+  }
+  // Shrink to at most `max` pixels on the long side. Plenty for reading badges, and it keeps each lookup cheap.
+  function shrink(img, max, q) {
+    var w = img.naturalWidth, h = img.naturalHeight, s = Math.min(1, max / Math.max(w, h));
+    var c = document.createElement("canvas"); c.width = Math.max(1, Math.round(w * s)); c.height = Math.max(1, Math.round(h * s));
+    var x = c.getContext("2d"); x.fillStyle = "#fff"; x.fillRect(0, 0, c.width, c.height); x.drawImage(img, 0, 0, c.width, c.height);
+    return c.toDataURL("image/jpeg", q);
+  }
+
+  function start(file) {
+    if (S.busy) return;
+    if (file.type && !/^image\//.test(file.type)) { fail("That file isn't a photo. Try a JPEG or PNG."); return; }
+    S.busy = true;
+    decode(file).then(function (img) {
+      var big = shrink(img, 1568, 0.86);
+      S.photo = big; S.thumb = shrink(img, 320, 0.72);
+      $("#work-img").src = big;
+      show("result", false); show("oops", false); show("typeit", false); show("recent", false); show("work", true);
+      $("#work").scrollIntoView({ behavior: "smooth", block: "start" });
+      say("Identifying your car.");
+      return identify(big.split(",")[1]);
+    }, function () {
+      throw { friendly: "That photo didn't open here. If it's an iPhone HEIC file, try taking the photo from this page, or send a JPEG or a screenshot." };
+    }).then(function (car) {
+      S.busy = false; show("work", false);
+      if (!car.found) { fail(car.retake_tip ? "We couldn't find a car in that photo. " + car.retake_tip : "We couldn't find a car in that photo. Try again with the whole car in the frame."); return; }
+      remember(car);
+      render(car, { photo: S.photo });
+    }).catch(function (e) {
+      S.busy = false; show("work", false);
+      fail(e && e.friendly ? e.friendly : "Something went wrong. Please try again.");
+    });
+  }
+
+  function identify(b64) {
+    var ctl = window.AbortController ? new AbortController() : null;
+    var timer = ctl ? setTimeout(function () { ctl.abort(); }, 55000) : 0;
+    return fetch(FN + "?identify=1", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ image: b64, type: "image/jpeg" }), signal: ctl ? ctl.signal : undefined,
+    }).then(function (r) {
+      return r.json().catch(function () { return { ok: false, error: "bad_reply" }; });
+    }, function () {
+      throw { friendly: "We couldn't reach Carveyance. Check your connection and try again." };
+    }).then(function (j) {
+      clearTimeout(timer);
+      if (j && j.ok && j.car) return j.car;
+      var e = j && j.error;
+      var m = {
+        forbidden_origin: "Photo ID only works on carveyance.com.",
+        missing_key: "Photo ID isn't switched on yet. Check back soon, or type in the car instead.",
+        key_rejected: "Photo ID isn't working right now. Please try again later, or type in the car instead.",
+        out_of_credit: "Photo ID is taking a break. Please try again later, or type in the car instead.",
+        rate_limited: "Lots of people are snapping cars right now. Wait a minute and try again.",
+        busy: "Lots of people are snapping cars right now. Wait a minute and try again.",
+        bad_image: "That photo didn't come through. Try another one.",
+      }[e];
+      throw { friendly: m || "We couldn't identify that one. Please try again." };
+    });
+  }
+
+  function fail(text) {
+    $("#oops-msg").textContent = text;
+    show("oops", true); show("work", false); show("result", false);
+    $("#oops").scrollIntoView({ behavior: "smooth", block: "start" });
+    say(text);
+    showRecent();
+  }
+
+  // ---------------------------------------------------------------- recent spots (this browser only)
+  function remember(car) {
+    var list = (load("cv-snap-recent") || []).filter(function (x) { return x && x.car; });
+    list.unshift({ t: Date.now(), car: car, thumb: S.thumb });
+    store("cv-snap-recent", list.slice(0, 12));
+  }
+  function showRecent() {
+    var list = load("cv-snap-recent") || [];
+    if (!list.length) { show("recent", false); return; }
+    $("#strip").innerHTML = list.map(function (x, i) {
+      return '<button class="spot" type="button" data-i="' + i + '">' + (x.thumb ? '<img src="' + esc(x.thumb) + '" alt="">' : "") +
+        "<span>" + esc(title(x.car)) + "<small>" + esc(new Date(x.t).toLocaleDateString("en-US", { month: "short", day: "numeric" })) + "</small></span></button>";
+    }).join("");
+    show("recent", true);
+  }
+  $("#strip").addEventListener("click", function (e) {
+    var b = e.target.closest(".spot"); if (!b) return;
+    var x = (load("cv-snap-recent") || [])[+b.getAttribute("data-i")]; if (!x) return;
+    S.photo = x.thumb || ""; render(x.car, { photo: x.thumb || "" });
+  });
+  $("#b-clear").addEventListener("click", function () { store("cv-snap-recent", null); show("recent", false); });
+
+  // ---------------------------------------------------------------- the result
+  function title(c) {
+    var t = (c.make + " " + c.model).trim();
+    if (c.variant && norm(t).indexOf(norm(c.variant)) < 0) t += " " + c.variant;
+    return t;
+  }
+  function span(c) {
+    var a = c.year_start, b = c.year_end;
+    if (!a) return "";
+    if (a === b) return String(a);
+    if (b >= THIS_YEAR) return a + " on";
+    return a + "–" + b;
+  }
+  var PILL = { high: "Sure", medium: "Fairly sure", low: "Best guess", manual: "Your pick" };
+
+  function render(car, opts) {
+    opts = opts || {};
+    S.car = car; S.specsFor = ""; S.trim = car.variant || "";
+    show("work", false); show("oops", false); show("typeit", false); show("recent", false);
+    $("#fixwrap").innerHTML = "";
+
+    var shot = $("#shot");
+    if (opts.photo) { shot.className = "shot"; shot.innerHTML = '<img src="' + esc(opts.photo) + '" alt="Your photo">'; }
+    else { shot.className = "shot none"; shot.textContent = "No photo"; }
+
+    var conf = car.confidence || "low";
+    var pill = $("#pill"); pill.className = "pill " + conf; pill.textContent = PILL[conf] || "Best guess";
+    $("#carname").textContent = title(car);
+    $("#carmeta").textContent = [car.generation, span(car), car.body_style].filter(Boolean).join("  ·  ");
+
+    var clues = (car.clues || []).filter(Boolean);
+    $("#clues ul").innerHTML = clues.map(function (c) { return "<li>" + esc(c) + "</li>"; }).join("");
+    show("clues", clues.length > 0);
+    $("#note").textContent = car.note || ""; show("note", !!car.note);
+
+    var alts = car.alternatives || [];
+    if (conf !== "high" && conf !== "manual" && (alts.length || car.retake_tip)) {
+      $("#unsure-t").textContent = (alts.length ? "Not certain. It could also be one of these." : "Not certain.") + (car.retake_tip ? " To settle it: " + car.retake_tip : "");
+      $("#alts").innerHTML = alts.map(function (a, i) {
+        return '<button class="chip" type="button" data-alt="' + i + '">' + esc(a.make + " " + a.model) + (a.year_start ? " <small>" + esc(span(a)) + "</small>" : "") + "</button>";
+      }).join("");
+      show("unsure", true);
+    } else show("unsure", false);
+
+    $("#fine").textContent = conf === "manual" ? "" : "Identified automatically from your photo, so it can be wrong. If it is, tap Not right? and set it straight.";
+    $("#b-share").hidden = !(navigator.share || (navigator.clipboard && window.isSecureContext));
+
+    var others = car.others || [];
+    $("#others").innerHTML = others.map(function (a, i) {
+      return '<button class="chip" type="button" data-other="' + i + '">' + esc(a.make + " " + a.model) + (a.year_start ? " <small>" + esc(span(a)) + "</small>" : "") + "</button>";
+    }).join("");
+    show("othersec", others.length > 0);
+
+    show("result", true);
+    var h = $("#carname"); window.scrollTo({ top: $("#result").getBoundingClientRect().top + window.pageYOffset - 70, behavior: "smooth" });
+    try { h.focus({ preventScroll: true }); } catch (e) {}
+    say("It looks like a " + title(car) + (span(car) ? ", " + span(car) : "") + ".");
+
+    renderYears(car);
+    renderSale(car);
+    siteData().then(function () { renderStories(car); });
+    script("/events.js").then(function () { renderEvents(car); });
+  }
+
+  $("#alts").addEventListener("click", function (e) {
+    var b = e.target.closest("[data-alt]"); if (!b || !S.car) return;
+    var a = S.car.alternatives[+b.getAttribute("data-alt")]; if (!a) return;
+    var keep = S.car;
+    var c = asCar(a, "medium");
+    c.alternatives = [{ make: keep.make, model: keep.model, year_start: keep.year_start, year_end: keep.year_end }].concat(keep.alternatives.filter(function (x) { return x !== a; }));
+    c.retake_tip = keep.retake_tip; c.others = keep.others;
+    render(c, { photo: S.photo });
+  });
+  $("#others").addEventListener("click", function (e) {
+    var b = e.target.closest("[data-other]"); if (!b || !S.car) return;
+    var a = S.car.others[+b.getAttribute("data-other")]; if (!a) return;
+    var c = asCar(a, "medium"); c.clues = []; c.note = "This one was in the background of your photo, so check the details.";
+    render(c, { photo: S.photo });
+  });
+  function asCar(a, conf) {
+    return { found: true, make: a.make, model: a.model, variant: "", generation: "", year_start: a.year_start || 0, year_end: a.year_end || a.year_start || 0,
+      body_style: "", confidence: conf, clues: [], listing_make: a.make, listing_model: a.model, search_phrase: a.make + " " + a.model,
+      alternatives: [], others: [], note: "", retake_tip: "" };
+  }
+
+  // Share
+  $("#b-share").addEventListener("click", function () {
+    if (!S.car) return;
+    var t = "Spotted: " + title(S.car) + (span(S.car) ? " (" + span(S.car) + ")" : "");
+    var data = { title: t, text: t + ". Found it with Snap a Car on Carveyance.", url: "https://carveyance.com/snap/" };
+    if (navigator.share) { navigator.share(data).catch(function () {}); return; }
+    navigator.clipboard.writeText(data.text + " " + data.url).then(function () { $("#b-share").textContent = "Copied"; setTimeout(function () { $("#b-share").textContent = "Share"; }, 1800); });
+  });
+
+  // ---------------------------------------------------------------- type it in / fix it
+  function formHTML(prefill, fixing) {
+    var p = prefill || {};
+    return '<form class="fix" id="fixform" novalidate><h3>' + (fixing ? "Set it straight" : "Type in the car") + "</h3>" +
+      "<p>" + (fixing ? "Tell us what it really is and we'll pull up the right numbers, stories and listings." : "Know what it is already? Skip the photo.") + "</p>" +
+      '<div class="fixgrid">' +
+      '<div class="field"><label for="fx-make">Make</label><input id="fx-make" list="fx-makes" autocomplete="off" required value="' + esc(p.make || "") + '" placeholder="Porsche"></div>' +
+      '<div class="field"><label for="fx-model">Model</label><input id="fx-model" autocomplete="off" required value="' + esc(p.model || "") + '" placeholder="911 Carrera"></div>' +
+      '<div class="field"><label for="fx-year">Year</label><input id="fx-year" inputmode="numeric" maxlength="4" value="' + esc(p.year || "") + '" placeholder="Optional"></div>' +
+      '</div><datalist id="fx-makes">' + makesList().map(function (m) { return '<option value="' + esc(m) + '">'; }).join("") + "</datalist>" +
+      '<div class="msg err" id="fx-err" hidden style="margin-top:12px"></div>' +
+      '<div class="btns"><button class="btn" type="submit">Show me</button><button class="btn line" type="button" id="fx-cancel">Cancel</button></div></form>';
+  }
+  var COMMON = ["Acura","Alfa Romeo","Aston Martin","Audi","Bentley","BMW","Buick","Cadillac","Chevrolet","Chrysler","Dodge","Ferrari","Fiat","Ford","Genesis","GMC","Honda","Hyundai","Infiniti","Jaguar","Jeep","Kia","Lamborghini","Land Rover","Lexus","Lincoln","Lotus","Lucid","Maserati","Mazda","McLaren","Mercedes-Benz","MINI","Mitsubishi","Nissan","Polestar","Pontiac","Porsche","Ram","Rivian","Rolls-Royce","Subaru","Tesla","Toyota","Volkswagen","Volvo"];
+  function makesList() {
+    var set = {}; COMMON.concat(CARS().map(function (c) { return c.make; })).forEach(function (m) { if (m) set[m] = 1; });
+    return Object.keys(set).sort(function (a, b) { return a.localeCompare(b); });
+  }
+  function wireForm(where, fixing) {
+    var f = $("#fixform", where);
+    $("#fx-cancel", where).addEventListener("click", function () { where.innerHTML = ""; if (!fixing) { show("typeit", false); showRecent(); } });
+    f.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var make = $("#fx-make", f).value.trim(), model = $("#fx-model", f).value.trim(), y = parseInt($("#fx-year", f).value, 10);
+      var err = $("#fx-err", f);
+      if (!make || !model) { err.textContent = "Add both the make and the model."; err.hidden = false; return; }
+      if ($("#fx-year", f).value.trim() && !(y >= 1900 && y <= THIS_YEAR + 1)) { err.textContent = "That year doesn't look right."; err.hidden = false; return; }
+      var c = asCar({ make: make, model: model, year_start: y || 0, year_end: y || 0 }, "manual");
+      if (!y) { c.year_start = 0; c.year_end = 0; }
+      if (fixing && S.car) c.fixedFrom = title(S.car);
+      if (S.photo && fixing) { remember(c); }
+      render(c, { photo: fixing ? S.photo : "" });
+    });
+    setTimeout(function () { var i = $("#fx-make", f); if (i && !i.value) i.focus(); else if (i) $("#fx-model", f).focus(); }, 60);
+  }
+  function openType() {
+    siteData();
+    var w = $("#typeit"); show("oops", false); show("result", false); show("work", false);
+    w.innerHTML = formHTML(null, false); show("typeit", true); wireForm(w, false);
+    w.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+  $("#b-type").addEventListener("click", openType);
+  $("#b-fix").addEventListener("click", function () {
+    var w = $("#fixwrap");
+    if (w.innerHTML) { w.innerHTML = ""; return; }
+    w.innerHTML = formHTML(S.car ? { make: S.car.make, model: S.car.model, year: S.year || "" } : null, true);
+    wireForm(w, true);
+  });
+
+  // ---------------------------------------------------------------- year picker + spec sheet
+  function renderYears(car) {
+    var a = car.year_start, b = Math.min(car.year_end || a, THIS_YEAR + 1);
+    var box = $("#years");
+    if (!a) {
+      $("#yh").textContent = "Which year is it?";
+      $("#ysub").textContent = "Pick a year to see the spec sheet.";
+      var opts = []; for (var y = THIS_YEAR + 1; y >= 1950; y--) opts.push('<option value="' + y + '">' + y + "</option>");
+      box.innerHTML = '<div class="field" style="width:160px"><label for="ypick" class="sr">Year</label><select id="ypick"><option value="">Choose a year</option>' + opts.join("") + "</select></div>";
+      $("#ypick").addEventListener("change", function (e) { var v = parseInt(e.target.value, 10); if (v) { S.year = v; loadSpecs(v, ""); } });
+      $("#specs").innerHTML = '<div class="msg info">Choose a year above for engine, power, fuel economy and the price when new.</div>';
+      return;
+    }
+    var latest = Math.min(b, THIS_YEAR);
+    S.year = latest;
+    if (a === b) {
+      $("#yh").textContent = "The " + a;
+      $("#ysub").textContent = "";
+      box.innerHTML = "";
+    } else {
+      $("#yh").textContent = "Which year is it?";
+      $("#ysub").textContent = "Cars from " + a + " to " + b + " look like this one. We've started with the " + latest + "; tap your year if you know it.";
+      var html = "";
+      for (var yy = a; yy <= b; yy++) html += '<button class="chip" type="button" data-y="' + yy + '" aria-pressed="' + (yy === latest) + '">' + yy + "</button>";
+      box.innerHTML = html;
+    }
+    loadSpecs(latest, car.variant || "");
+  }
+  $("#years").addEventListener("click", function (e) {
+    var b = e.target.closest("[data-y]"); if (!b) return;
+    var y = +b.getAttribute("data-y"); S.year = y;
+    $$("#years [data-y]").forEach(function (x) { x.setAttribute("aria-pressed", String(+x.getAttribute("data-y") === y)); });
+    loadSpecs(y, S.trim);
+  });
+
+  function loadSpecs(year, trim) {
+    var car = S.car; if (!car) return;
+    var key = [year, car.listing_make, car.listing_model, trim].join("|");
+    if (S.specsFor === key) return; S.specsFor = key;
+    var box = $("#specs");
+    box.innerHTML = '<div class="msg info">Pulling up the ' + esc(year) + " spec sheet&hellip;</div>";
+    var q = "&year=" + year + "&make=" + encodeURIComponent(car.listing_make || car.make) + "&model=" + encodeURIComponent(car.listing_model || car.model) + (trim ? "&trim=" + encodeURIComponent(trim) : "");
+    fetch(FN + "?specs=1" + q).then(function (r) { return r.json(); }).then(function (j) {
+      if (S.specsFor !== key) return;
+      if (!j.ok) {
+        box.innerHTML = '<div class="msg info">' + (j.error === "quota" || j.error === "missing_key" || j.error === "key_rejected"
+          ? "Spec sheets are switched off for now. The stories and listings below still work."
+          : "The spec sheet didn't load. Try another year, or come back in a minute.") + "</div>";
+        return;
+      }
+      if (!j.found) {
+        box.innerHTML = '<div class="msg info">There\'s no spec sheet on file for the ' + esc(year + " " + (car.listing_make || car.make) + " " + (car.listing_model || car.model)) +
+          ". Spec data is thinnest for cars from before the 1990s. " + (S.ci ? 'Our <a href="/cars/' + esc(S.ci.id) + '/" style="color:#fff;border-bottom:1px solid">Car Index page</a> has the key numbers.' : "") + "</div>";
+        return;
+      }
+      box.innerHTML = specHTML(j);
+      var sel = $("#trimsel");
+      if (sel) sel.addEventListener("change", function (e) { S.trim = e.target.value; loadSpecs(year, S.trim); });
+    }).catch(function () {
+      if (S.specsFor === key) box.innerHTML = '<div class="msg info">The spec sheet didn\'t load. Check your connection and try again.</div>';
+    });
+  }
+
+  function fmtSpec(s) {
+    var v = String(s.value || ""), m, flat = v.replace(/,/g, "");
+    if (s.label === "Horsepower" && (m = flat.match(/^(\d{2,4})(?:\s*@\s*(\d{3,5}))?/))) return { big: m[1], unit: "hp" + (m[2] ? " at " + commas(m[2]) + " rpm" : "") };
+    if (s.label === "Torque" && (m = flat.match(/^(\d{2,4})(?:\s*@\s*(\d{3,5}))?/))) return { big: m[1], unit: "lb-ft" + (m[2] ? " at " + commas(m[2]) + " rpm" : "") };
+    if (/MPG/.test(s.label) && (m = flat.match(/^(\d{1,3})\b/))) return { big: m[1], unit: "mpg" };
+    if (s.label === "Range" && (m = flat.match(/^(\d{2,3})\b/))) return { big: m[1], unit: "miles" };
+    if (s.label === "Curb weight" && (m = flat.match(/^(\d{3,5})/))) { var lb = +m[1]; return { big: commas(Math.round(lb * 0.45359237)), unit: "kg (" + commas(lb) + " lb)" }; }
+    if ((s.label === "Length" || s.label === "Wheelbase") && (m = flat.match(/^(\d{2,3}(?:\.\d)?)$/))) return { big: m[1], unit: "inches" };
+    if (s.label === "Fuel tank" && (m = flat.match(/^(\d{1,3}(?:\.\d)?)$/))) return { big: m[1], unit: "gallons" };
+    return { text: v };
+  }
+  function specHTML(j) {
+    var car = S.car;
+    var trims = j.trims || [];
+    var top = '<div class="top"><p class="which">Spec sheet for the <b>' + esc(j.year + " " + j.make + " " + j.model) + "</b>" + (j.name ? ", " + esc(j.name) : "") + ".</p>";
+    if (trims.length > 1) {
+      top += '<label class="sr" for="trimsel">Trim</label><select id="trimsel"><option value="">Change trim</option>' + trims.map(function (t) {
+        return '<option value="' + esc(t.name) + '"' + (t.name === j.name ? " selected" : "") + ">" + esc(t.name) + "</option>";
+      }).join("") + "</select>";
+    }
+    top += "</div>";
+    var cells = (j.key || []).slice(0, 12).map(function (s) {
+      var f = fmtSpec(s);
+      return '<div class="num"><div class="l">' + esc(s.label) + "</div>" + (f.big ? '<div class="v">' + esc(f.big) + '</div><div class="u">' + esc(f.unit) + "</div>" : '<div class="t">' + esc(f.text) + "</div>") + "</div>";
+    });
+    if (j.seats) cells.push('<div class="num"><div class="l">Seats</div><div class="v">' + esc(j.seats) + "</div></div>");
+    var html = top + (cells.length ? '<div class="nums">' + cells.join("") + "</div>" : '<div class="msg info" style="margin-top:12px">This listing has no performance figures, only the equipment below.</div>');
+    if (j.msrp) {
+      var then = CPI[j.year], today = then ? Math.round(j.msrp * CPI_NOW / then / 100) * 100 : 0;
+      html += '<div class="price"><b>$' + commas(j.msrp) + "</b> base price when new" + (today && j.year <= 2024 ? ", about $" + commas(today) + " in 2026 dollars" : "") + ".</div>";
+    }
+    var all = j.all || [];
+    if (all.length) {
+      var groups = {}, order = [];
+      all.forEach(function (x) { var c = x.cat || "Other"; if (!groups[c]) { groups[c] = []; order.push(c); } groups[c].push(x); });
+      html += "<details><summary>Full spec sheet (" + all.length + " items)</summary><div class=\"sheet\">" + order.map(function (c) {
+        return "<h4>" + esc(c) + "</h4>" + groups[c].map(function (x) { return "<div><span>" + esc(x.name) + "</span><span>" + esc(x.value) + "</span></div>"; }).join("");
+      }).join("") + "</div></details>";
+    }
+    html += '<p class="src">Spec data from CarsXE. Figures are for the trim named above; yours may differ.</p>';
+    return html;
+  }
+
+  // ---------------------------------------------------------------- From Carveyance: Car Index + articles
+  function yearsOf(s, start) {
+    s = String(s || ""); var m;
+    if ((m = s.match(/(\d{4})\s*[–-]\s*(\d{4})/))) return [+m[1], +m[2]];
+    if ((m = s.match(/(\d{4})\s*[–-]\s*present/i)) || (m = s.match(/from\s+(\d{4})/i))) return [+m[1], THIS_YEAR];
+    if ((m = s.match(/(\d{4})/))) return [+m[1], +m[1]];
+    return start ? [start, start] : null;
+  }
+  function phraseIn(hay, needle) { return needle && (" " + hay + " ").indexOf(" " + needle + " ") >= 0; }
+  function sameMake(a, b) { a = norm(a); b = norm(b); return a && b && (a === b || a.indexOf(b + " ") === 0 || b.indexOf(a + " ") === 0); }
+  function modelKeys(car) {
+    var keys = [norm(car.model), norm(car.listing_model)];
+    return keys.filter(function (k, i) { return k && keys.indexOf(k) === i; });
+  }
+
+  function matchCarIndex(car) {
+    var mk = modelKeys(car), best = [];
+    CARS().forEach(function (c) {
+      if (!sameMake(c.make, car.make) && !sameMake(c.maker, car.make) && !sameMake(c.make, car.listing_make)) return;
+      var names = [c.name].concat(c.aka || []).map(norm);
+      var hit = mk.some(function (k) { return names.some(function (n) { return phraseIn(n, norm(c.make) + " " + k) || phraseIn(n, k); }); });
+      if (!hit) return;
+      var score = 10, ys = yearsOf(c.years, c.start);
+      if (ys && car.year_start) {
+        var overlap = Math.min(ys[1], car.year_end || car.year_start) - Math.max(ys[0], car.year_start);
+        if (overlap < -1) return;           // a different generation of the same nameplate
+        score += 4;
+      }
+      if (names.some(function (n) { return mk.some(function (k) { return n === norm(c.make) + " " + k; }); })) score += 3;
+      if (car.variant && names.some(function (n) { return phraseIn(n, norm(car.variant)); })) score += 2;
+      best.push({ c: c, score: score });
+    });
+    best.sort(function (a, b) { return b.score - a.score; });
+    return best.slice(0, 2).map(function (x) { return x.c; });
+  }
+
+  function matchArticles(car, ciCars) {
+    var make = norm(car.make), lmake = norm(car.listing_make), mk = modelKeys(car);
+    var fromCI = {};
+    ciCars.forEach(function (c) { (c.articles || []).forEach(function (s) { fromCI[s] = 1; }); });
+    var out = [];
+    ARTS().forEach(function (a) {
+      if (!a || !a.slug || !a.date || a.date > TODAY) return; // scheduled stories stay hidden until their date
+      var tags = (a.vehicles || []).map(norm), score = 0, makeOnly = false;
+      tags.forEach(function (t, i) {
+        var strong = mk.some(function (k) { return phraseIn(t, make + " " + k) || phraseIn(t, lmake + " " + k) || (t.indexOf(make + " ") !== 0 && phraseIn(t, k) && k.length > 3); });
+        if (strong) score = Math.max(score, 6 + (i === 0 ? 3 : 0) - Math.min(3, tags.length / 6));
+        else if ((make && t.indexOf(make + " ") === 0) || (lmake && t.indexOf(lmake + " ") === 0)) makeOnly = true;
+      });
+      if (fromCI[a.slug]) score = Math.max(score, 8) + 3;
+      if (score > 0) out.push({ a: a, score: score, strong: true });
+      else if (makeOnly) out.push({ a: a, score: 1, strong: false });
+    });
+    out.sort(function (x, y) { return y.score - x.score || (x.a.date < y.a.date ? 1 : -1); });
+    return out;
+  }
+
+  function renderStories(car) {
+    var ci = matchCarIndex(car); S.ci = ci[0] || null;
+    var arts = matchArticles(car, ci), strong = arts.filter(function (x) { return x.strong; }), weak = arts.filter(function (x) { return !x.strong; });
+    var html = "";
+    ci.slice(0, 1).forEach(function (c) {
+      var img = c.photo && c.photo.card ? '<img src="' + esc(c.photo.card) + '" alt="" loading="lazy">' : "";
+      var q = String(c.quick || ""); if (q.length > 240) q = q.slice(0, 236).replace(/\s+\S*$/, "") + "…";
+      html += '<a class="cicard" href="/cars/' + esc(c.id) + '/"><div class="im">' + img + '</div><div class="tx"><span class="kick">The Car Index &middot; ' + esc(c.years || "") + "</span>" +
+        "<h3>" + esc(c.name) + "</h3><p>" + esc(q) + '</p><span class="go">Numbers, story and reader score &rarr;</span></div></a>';
+    });
+    var list = strong.slice(0, 4), label = "";
+    if (!list.length && weak.length) {
+      // Features about the make before the weekly news roundups that only mention it
+      weak.sort(function (x, y) { return (x.a.category === "News" ? 1 : 0) - (y.a.category === "News" ? 1 : 0) || (x.a.date < y.a.date ? 1 : -1); });
+      list = weak.slice(0, 4); label = '<p class="sub">Nothing on this exact car yet. Here\'s what we\'ve written about ' + esc(car.make) + ".</p>";
+    }
+    if (!ci.length) {
+      var sib = CARS().filter(function (c) { return sameMake(c.make, car.make) || sameMake(c.maker, car.make); });
+      if (sib.length) label += '<p class="sub">The Car Index has ' + sib.length + " " + esc(car.make) + (sib.length === 1 ? " model" : " models") +
+        ': <a class="linkbtn" href="/cars/?make=' + encodeURIComponent(sib[0].make) + '">see ' + (sib.length === 1 ? "it" : "them") + "</a>.</p>";
+    }
+    if (list.length) {
+      html += label + '<div class="arts">' + list.map(function (x) {
+        var a = x.a;
+        return '<a class="art" href="/articles/' + esc(a.slug) + '/"><img src="' + esc(a.image || "/assets/images/" + a.slug + ".jpg") + '" alt="" loading="lazy"><div class="tx"><span class="k">' + esc(a.category || "") + "</span><h3>" + esc(a.title) + "</h3><p>" + esc(a.readTime ? a.readTime + " read" : "") + "</p></div></a>";
+      }).join("") + "</div>";
+    }
+    if (!html) html = '<p class="none">We haven\'t written about the ' + esc(title(car)) + ' yet. Browse <a href="/articles/">every story</a> or <a href="/cars/">the Car Index</a> in the meantime.</p>';
+    $("#stories").innerHTML = html;
+    // A Car Index page can stand in when there's no spec sheet
+    if (S.ci && /no spec sheet/.test($("#specs").textContent) && !/Car Index page/.test($("#specs").textContent)) { S.specsFor = ""; loadSpecs(S.year, S.trim); }
+  }
+
+  // ---------------------------------------------------------------- for sale
+  function renderSale(car) {
+    var phrase = car.search_phrase || title(car);
+    $("#fh").textContent = "For sale";
+    var classic = car.year_end && car.year_end < 1981;
+    $("#fsub").textContent = classic
+      ? "Cars this old rarely sit on dealer lots. The auctions and classic classifieds below are where they turn up."
+      : "Cars like this one listed by dealers near you, then a search on every major site.";
+    $("#zipform").hidden = !!classic || !car.year_start;
+    $("#listings").innerHTML = "";
+    $("#mkts").innerHTML = window.CVMarkets ? window.CVMarkets.html(phrase, car.make) : "";
+    var z = load("cv-snap-zip");
+    if (z && z.zip) { $("#zip").value = z.zip; $("#dist").value = z.dist || "100"; }
+    if (!classic && car.year_start && z && z.zip) findCars();
+  }
+  $("#zipform").addEventListener("submit", function (e) { e.preventDefault(); findCars(true); });
+  function findCars(fromForm) {
+    var car = S.car; if (!car) return;
+    var zip = $("#zip").value.trim(), dist = $("#dist").value, box = $("#listings");
+    if (dist !== "all" && !/^\d{5}$/.test(zip)) { if (fromForm) box.innerHTML = '<div class="msg err">Add a 5-digit ZIP code, or choose Anywhere in the US.</div>'; return; }
+    store("cv-snap-zip", { zip: zip, dist: dist });
+    var a = car.year_start, b = Math.min(car.year_end || a, THIS_YEAR + 1);
+    if (S.year && car.confidence === "manual" && a === b) { a = S.year - 1; b = S.year + 1; }
+    var q = "&make=" + encodeURIComponent(car.listing_make || car.make) + "&model=" + encodeURIComponent(car.listing_model || car.model) + "&from=" + a + "&to=" + b +
+      (dist === "all" ? "&nationwide=1" : "&zip=" + zip + "&distance=" + dist);
+    box.innerHTML = '<div class="msg info">Looking for cars for sale&hellip;</div>';
+    fetch(FN + "?listings=1" + q).then(function (r) { return r.json(); }).then(function (j) {
+      if (!j.ok) {
+        box.innerHTML = '<div class="msg info">' + (j.error === "rate_limited" || j.error === "key_rejected_or_quota" ? "Dealer listings are taking a break. The searches below still work." : "Dealer listings didn't load. The searches below still work.") + "</div>";
+        return;
+      }
+      if (!j.listings.length) {
+        box.innerHTML = '<div class="msg info">No dealer has one listed ' + (dist === "all" ? "right now" : "within " + dist + " miles of " + esc(zip)) + ". Try a wider search, or the sites below.</div>";
+        return;
+      }
+      box.innerHTML = '<div class="cars">' + j.listings.slice(0, 6).map(function (x) {
+        var name = [x.year, x.make, x.model, x.trim].filter(Boolean).join(" ");
+        return '<a class="lcar" href="' + esc(x.url) + '" target="_blank" rel="noopener nofollow">' + (x.photo ? '<img src="' + esc(x.photo) + '" alt="" loading="lazy">' : '<div class="noimg"></div>') +
+          '<div class="tx"><h3>' + esc(name) + '</h3><div class="pr">$' + commas(x.price) + "</div><p>" + esc([x.miles != null ? commas(x.miles) + " miles" : "", x.color].filter(Boolean).join(" · ")) +
+          "</p><p>" + esc([x.dealer, [x.city, x.state].filter(Boolean).join(", ")].filter(Boolean).join(" · ")) + "</p></div></a>";
+      }).join("") + '</div><p class="smallsrc">Dealer listings from auto.dev. Each one opens the seller\'s page in a new tab. Carveyance doesn\'t sell cars or earn anything from these links.</p>';
+    }).catch(function () { box.innerHTML = '<div class="msg info">Dealer listings didn\'t load. The searches below still work.</div>'; });
+  }
+  $("#zip").addEventListener("input", function (e) { e.target.value = e.target.value.replace(/\D/g, "").slice(0, 5); });
+
+  // ---------------------------------------------------------------- shows and meets
+  var MAKE_ALIASES = { "mercedes benz": ["mercedes", "benz", "amg"], "volkswagen": ["vw"], "chevrolet": ["chevy"], "alfa romeo": ["alfa"], "land rover": ["range rover"], "mercedes amg": ["amg", "mercedes"] };
+  function renderEvents(car) {
+    var make = norm(car.make), mk = modelKeys(car);
+    var words = [make].concat(MAKE_ALIASES[make] || []);
+    var hits = [];
+    var all = EVS().map(function (e) { return { e: e, meet: false }; }).concat(MTS().map(function (e) { return { e: e, meet: true }; }));
+    all.forEach(function (x) {
+      var e = x.e;
+      if (!e || !e.id) return;
+      if (!x.meet && (e.end || e.start || "") < TODAY) return;
+      var t = norm([e.name, e.blurb, e.type].join(" ")), score = 0;
+      if (mk.some(function (k) { return k.length > 1 && (phraseIn(t, make + " " + k) || (k.length > 3 && phraseIn(t, k))); })) score = 3;
+      else if (words.some(function (w) { return w && phraseIn(t, w); })) score = 2;
+      if (score) hits.push({ e: e, meet: x.meet, score: score });
+    });
+    hits.sort(function (a, b) {
+      return b.score - a.score || ((a.meet ? 1 : 0) - (b.meet ? 1 : 0)) || String(a.e.start || "").localeCompare(String(b.e.start || ""));
+    });
+    var html;
+    if (hits.length) {
+      html = '<div class="evs">' + hits.slice(0, 6).map(function (h) {
+        var e = h.e, d;
+        if (h.meet) d = '<div class="d"><small>' + esc(String(e.day || "Meet").slice(0, 3).toUpperCase()) + "</small><b>&#8635;</b></div>";
+        else { var p = String(e.start || "").split("-"); d = '<div class="d"><small>' + esc(MONTHS[(+p[1] || 1) - 1].toUpperCase()) + "</small><b>" + esc(+p[2] || "") + "</b></div>"; }
+        var when = h.meet ? [e.schedule, e.time].filter(Boolean).join(", ") : (e.end && e.end !== e.start ? "Through " + fmtDate(e.end) : fmtDate(e.start));
+        return '<a class="ev" href="/events/' + esc(e.id) + '/">' + d + "<div><h3>" + esc(e.name) + "</h3><p>" + esc([e.type, when].filter(Boolean).join(" · ")) + "</p><p>" + esc([e.city, e.state].filter(Boolean).join(", ")) + "</p></div></a>";
+      }).join("") + '</div><p class="smallsrc" style="margin-top:14px"><a class="linkbtn" href="/events/">Every show and meet on our calendar</a></p>';
+    } else {
+      html = '<p class="none">Nothing on our calendar is just for the ' + esc(car.make) + " crowd right now, but every Cars &amp; Coffee is fair game. " +
+        '<a href="/near/">Find a meet near you this weekend</a> or browse <a href="/events/">every show and meet</a>.</p>';
+    }
+    $("#events").innerHTML = html;
+  }
+  function fmtDate(iso) { var p = String(iso || "").split("-"); if (p.length < 3) return ""; return MONTHS[+p[1] - 1] + " " + (+p[2]) + ", " + p[0]; }
+
+  // ---------------------------------------------------------------- go
+  showRecent();
+  if ("requestIdleCallback" in window) requestIdleCallback(function () { siteData(); }); else setTimeout(siteData, 1500);
+})();
+</script>
+<script src="/assets/js/cv-menu.js" defer></script>
+</body>
+</html>

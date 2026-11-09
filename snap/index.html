@@ -552,7 +552,7 @@ footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
       method: "POST", headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ image: b64, type: "image/jpeg" }), signal: ctl ? ctl.signal : undefined,
     }).then(function (r) {
-      return r.json().catch(function () { return { ok: false, error: "bad_reply" }; });
+      return r.json().catch(function () { return { ok: false, error: "bad_reply", status: r.status }; });
     }, function () {
       throw { friendly: "We couldn't reach Carveyance. Check your connection and try again." };
     }).then(function (j) {
@@ -568,7 +568,8 @@ footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
         busy: "Lots of people are snapping cars right now. Wait a minute and try again.",
         bad_image: "That photo didn't come through. Try another one.",
       }[e];
-      throw { friendly: m || "We couldn't identify that one. Please try again." };
+      // Unexpected problems carry a short code, so a screenshot says what went wrong.
+      throw { friendly: m || "We couldn't identify that one. Please try again. (Code: " + (e || "unknown") + (j && j.status ? " " + j.status : "") + ")" };
     });
   }
 

@@ -11,6 +11,8 @@
 //        Real cars for sale near a ZIP code from auto.dev. Uses AUTODEV_API_KEY, the same key FitDrive uses.
 //        Leave out zip and add &nationwide=1 for the whole country. Cached for 12 hours.
 //
+// Claude answers in a fixed JSON shape (structured outputs). Opus 5.5 doesn't allow forced tool calls, so none are used.
+//
 // Netlify environment variables (Site configuration > Environment variables):
 //   ANTHROPIC_API_KEY  required for photo ID
 //   CARSXE_API_KEY     required for the spec sheet
@@ -66,6 +68,7 @@ How to answer:
 - Never mention license plate numbers and never describe people.
 - If no vehicle is visible, set found to false, use empty strings and 0 for the other fields, and use retake_tip to say what to photograph.`;
 
+// The exact shape Claude must answer in (structured outputs). Every field is required, so the answer is always complete.
 const CAR = {
   type: "object",
   properties: {
@@ -73,34 +76,28 @@ const CAR = {
     year_start: { type: "integer" }, year_end: { type: "integer" },
   },
   required: ["make", "model", "year_start", "year_end"],
+  additionalProperties: false,
 };
-const TOOL = {
-  name: "report_car",
-  description: "Report the identification of the main vehicle in the photo.",
-  input_schema: {
-    type: "object",
-    properties: {
-      found: { type: "boolean", description: "true when a car, truck, van or SUV is clearly visible" },
-      make: { type: "string" },
-      model: { type: "string" },
-      variant: { type: "string", description: "Trim or version with visible evidence, such as 'S E-Hybrid', 'Mach 1' or '1800E'. Empty when unsure." },
-      generation: { type: "string", description: "Generation name or code, such as '958.2', 'F30' or 'third generation (XU50)'. Empty when unknown." },
-      year_start: { type: "integer" },
-      year_end: { type: "integer" },
-      body_style: { type: "string", description: "Such as 'SUV', 'four-door sedan', 'two-door coupe', 'crew cab pickup'" },
-      confidence: { type: "string", enum: ["high", "medium", "low"] },
-      clues: { type: "array", items: { type: "string" } },
-      listing_make: { type: "string" },
-      listing_model: { type: "string" },
-      search_phrase: { type: "string" },
-      alternatives: { type: "array", items: CAR, description: "Up to 2 other cars it could be, most likely first" },
-      others: { type: "array", items: CAR, description: "Up to 3 other identifiable vehicles in the photo" },
-      note: { type: "string" },
-      retake_tip: { type: "string", description: "The one shot that would settle it, such as 'Get the front end or the tailgate badge'" },
-    },
-    required: ["found", "make", "model", "year_start", "year_end", "confidence", "clues", "listing_make", "listing_model", "search_phrase"],
-  },
+const FIELDS = {
+  found: { type: "boolean", description: "true when a car, truck, van or SUV is clearly visible" },
+  make: { type: "string" },
+  model: { type: "string" },
+  variant: { type: "string", description: "Trim or version with visible evidence, such as 'S E-Hybrid', 'Mach 1' or '1800E'. Empty when unsure." },
+  generation: { type: "string", description: "Generation name or code, such as '958.2', 'F30' or 'third generation (XU50)'. Empty when unknown." },
+  year_start: { type: "integer" },
+  year_end: { type: "integer" },
+  body_style: { type: "string", description: "Such as 'SUV', 'four-door sedan', 'two-door coupe', 'crew cab pickup'" },
+  confidence: { type: "string", enum: ["high", "medium", "low"] },
+  clues: { type: "array", items: { type: "string" }, description: "2 to 4 short clues" },
+  listing_make: { type: "string" },
+  listing_model: { type: "string" },
+  search_phrase: { type: "string" },
+  alternatives: { type: "array", items: CAR, description: "Up to 2 other cars it could be, most likely first. Empty when sure." },
+  others: { type: "array", items: CAR, description: "Up to 3 other identifiable vehicles in the photo. Empty when none." },
+  note: { type: "string", description: "Empty unless it's likely a replica, tribute, restomod, kit car or heavily modified" },
+  retake_tip: { type: "string", description: "The one shot that would settle it, such as 'Get the front end or the tailgate badge'. Empty when sure." },
 };
+const SCHEMA = { type: "object", properties: FIELDS, required: Object.keys(FIELDS), additionalProperties: false };
 
 const str = (v, max = 120) => String(v == null ? "" : v).replace(/\s+/g, " ").trim().slice(0, max);
 const yr = (v) => { const n = parseInt(v, 10); return n >= 1885 && n <= THIS_YEAR + 2 ? n : 0; };
@@ -143,39 +140,58 @@ async function identify(req, context) {
   if (!data || data.length > MAX_IMAGE_CHARS || !/^[A-Za-z0-9+/=]+$/.test(data.slice(0, 4096))) return json(400, { ok: false, error: "bad_image" });
 
   const model = env("SNAP_MODEL") || DEFAULT_MODEL;
+  const content = [
+    { type: "image", source: { type: "base64", media_type: type, data } },
+    { type: "text", text: "What car is this?" },
+  ];
+  // First try: structured outputs, which guarantee the JSON shape. If the API turns that request down (400),
+  // ask again for plain JSON in the reply, so a change on Anthropic's side can't take photo ID offline.
+  let r = await askClaude(key, { model, max_tokens: 4000, system: SYSTEM, messages: [{ role: "user", content }],
+    output_config: { format: { type: "json_schema", schema: SCHEMA } } });
+  if (r.status === 400 && !r.credit) {
+    const keys = Object.keys(FIELDS).join(", ");
+    r = await askClaude(key, { model, max_tokens: 4000, messages: [{ role: "user", content }],
+      system: SYSTEM + "\n\nReply with only one JSON object and no other text. Its keys: " + keys +
+        ". alternatives and others are arrays of objects with make, model, year_start and year_end. confidence is high, medium or low." });
+  }
+  if (r.error) return r.error;
+  const car = parseCar(r.body);
+  if (!car) return json(502, { ok: false, error: "no_answer", stop: r.body && r.body.stop_reason ? String(r.body.stop_reason) : "" });
+  return json(200, { ok: true, car: clean(car), model: r.body.model || model, usage: r.body.usage || null });
+}
+
+async function askClaude(key, payload) {
   let res;
   try {
     res = await fetch("https://api.anthropic.com/v1/messages", {
       method: "POST",
       headers: { "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json" },
-      body: JSON.stringify({
-        model,
-        max_tokens: 1000,
-        system: SYSTEM,
-        tools: [TOOL],
-        tool_choice: { type: "tool", name: "report_car" },
-        messages: [{ role: "user", content: [
-          { type: "image", source: { type: "base64", media_type: type, data } },
-          { type: "text", text: "What car is this?" },
-        ] }],
-      }),
+      body: JSON.stringify(payload),
     });
   } catch (e) {
-    return json(502, { ok: false, error: "upstream_unreachable" });
+    return { error: json(502, { ok: false, error: "upstream_unreachable" }) };
   }
-  if (res.status === 401 || res.status === 403) return json(502, { ok: false, error: "key_rejected" });
-  if (res.status === 429) return json(429, { ok: false, error: "rate_limited" });
-  if (res.status === 529 || res.status === 503) return json(503, { ok: false, error: "busy" });
-  let body;
-  try { body = await res.json(); } catch (e) { return json(502, { ok: false, error: "upstream_bad_json" }); }
-  if (!res.ok) {
-    const msg = body && body.error && body.error.message ? String(body.error.message) : "";
-    if (/credit balance|billing|spend limit|usage limit/i.test(msg)) return json(402, { ok: false, error: "out_of_credit" });
-    return json(502, { ok: false, error: "upstream_error", status: res.status, detail: msg.slice(0, 200) });
+  let body = null;
+  try { body = await res.json(); } catch (e) { /* handled below */ }
+  const msg = body && body.error && body.error.message ? String(body.error.message) : "";
+  if (res.ok && body) return { status: 200, body };
+  if (/credit balance|billing|spend limit|usage limit/i.test(msg)) return { status: res.status, credit: true, error: json(402, { ok: false, error: "out_of_credit" }) };
+  if (res.status === 401 || res.status === 403) return { status: res.status, error: json(502, { ok: false, error: "key_rejected" }) };
+  if (res.status === 429) return { status: 429, error: json(429, { ok: false, error: "rate_limited" }) };
+  if (res.status === 529 || res.status === 503) return { status: res.status, error: json(503, { ok: false, error: "busy" }) };
+  return { status: res.status, error: json(502, { ok: false, error: "upstream_error", status: res.status, detail: msg.slice(0, 200) }) };
+}
+
+// The answer is the JSON in the reply's text block (not always the first block).
+function parseCar(body) {
+  const blocks = body && Array.isArray(body.content) ? body.content : [];
+  for (const b of blocks) {
+    if (!b || b.type !== "text" || typeof b.text !== "string") continue;
+    const t = b.text.trim(), i = t.indexOf("{"), j = t.lastIndexOf("}");
+    if (i < 0 || j <= i) continue;
+    try { const o = JSON.parse(t.slice(i, j + 1)); if (o && typeof o === "object") return o; } catch (e) { /* try the next block */ }
   }
-  const block = (Array.isArray(body.content) ? body.content : []).find((b) => b && b.type === "tool_use" && b.name === "report_car");
-  if (!block || !block.input) return json(502, { ok: false, error: "no_answer" });
-  return json(200, { ok: true, car: clean(block.input), model: body.model || model, usage: body.usage || null });
+  return null;
 }
 
 // ---------------------------------------------------------------- 2. spec sheet from CarsXE

@@ -808,16 +808,49 @@ footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
     });
   }
 
-  function fmtSpec(s) {
-    var v = String(s.value || ""), m, flat = v.replace(/,/g, "");
-    if (s.label === "Horsepower" && (m = flat.match(/^(\d{2,4})(?:\s*@\s*(\d{3,5}))?/))) return { big: m[1], unit: "hp" + (m[2] ? " at " + commas(m[2]) + " rpm" : "") };
-    if (s.label === "Torque" && (m = flat.match(/^(\d{2,4})(?:\s*@\s*(\d{3,5}))?/))) return { big: m[1], unit: "lb-ft" + (m[2] ? " at " + commas(m[2]) + " rpm" : "") };
-    if (/MPG/.test(s.label) && (m = flat.match(/^(\d{1,3})\b/))) return { big: m[1], unit: "mpg" };
-    if (s.label === "Range" && (m = flat.match(/^(\d{2,3})\b/))) return { big: m[1], unit: "miles" };
-    if (s.label === "Curb weight" && (m = flat.match(/^(\d{3,5})/))) { var lb = +m[1]; return { big: commas(Math.round(lb * 0.45359237)), unit: "kg (" + commas(lb) + " lb)" }; }
-    if ((s.label === "Length" || s.label === "Wheelbase") && (m = flat.match(/^(\d{2,3}(?:\.\d)?)$/))) return { big: m[1], unit: "inches" };
-    if (s.label === "Fuel tank" && (m = flat.match(/^(\d{1,3}(?:\.\d)?)$/))) return { big: m[1], unit: "gallons" };
-    return { text: v };
+  function cap(t) { t = String(t || ""); return t.charAt(0).toUpperCase() + t.slice(1); }
+  // "2.0-liter turbocharged inline-4" from the Engine lines, or from the "(2.0L 4cyl Turbo 6AM)" in the trim name.
+  function engineText(find, name) {
+    var size = find(/^(base )?engine size$|^displacement/i), cyl = find(/^cylinders$/i), type = find(/^(base )?engine type$/i);
+    var paren = (String(name).match(/\(([^)]*)\)/) || [])[1] || "", out = [], m;
+    if (size && (m = size.match(/(\d{1,2}(?:\.\d)?)\s*L\b/i))) out.push(m[1] + "-liter");
+    if (/turbo/i.test(paren)) out.push("turbocharged"); else if (/supercharg/i.test(paren)) out.push("supercharged");
+    if (cyl) {
+      if (/^\d+$/.test(cyl.trim())) out.push(cyl.trim() + "-cylinder");
+      else out.push(cyl.trim().replace(/^(inline|flat|straight)\s*(\d+)/i, function (a, b, c) { return b.toLowerCase() + "-" + c; }).replace(/^v\s*(\d+)/i, "V$1"));
+    }
+    var t = out.join(" ");
+    if (type && !/^gas/i.test(type)) t = t ? t + " (" + type + ")" : type;
+    if (!t && paren) t = paren.replace(/\s+\d{0,2}(?:AM|A|M|CVT|DCT)$/i, "");
+    return cap(t);
+  }
+  // The headline numbers, picked out of the full CarsXE sheet. Warranty lines reuse names like "Drivetrain", so they're skipped.
+  function keyCells(j) {
+    var all = (j.all || []).filter(function (x) { return x.value && x.value !== "Yes" && !/warranty/i.test(x.cat || ""); });
+    function find(re) { for (var i = 0; i < all.length; i++) if (re.test(all[i].name)) return String(all[i].value); return ""; }
+    var cells = [], m, v;
+    if ((v = engineText(find, j.name || ""))) cells.push({ l: "Engine", t: v });
+    if ((v = find(/^(sae )?(net )?horsepower/i)) && (m = v.replace(/,/g, "").match(/(\d{2,4})\s*(?:hp)?\s*(?:@\s*(\d{3,5}))?/i)))
+      cells.push({ l: "Horsepower", v: m[1], u: "hp" + (m[2] ? " at " + commas(m[2]) + " rpm" : "") });
+    if ((v = find(/^(sae )?(net )?torque/i)) && (m = v.replace(/,/g, "").match(/(\d{2,4})\s*(?:lb-?ft)?\s*(?:@\s*(\d{3,5}))?/i)))
+      cells.push({ l: "Torque", v: m[1], u: "lb-ft" + (m[2] ? " at " + commas(m[2]) + " rpm" : "") });
+    if ((v = find(/^transmission/i))) cells.push({ l: "Transmission", t: cap(v) });
+    if ((v = find(/^drive ?type$|^drivetrain$|driven wheels/i))) cells.push({ l: "Drivetrain", t: cap(v.replace(/^(front|rear|all|four) wheel/i, "$1-wheel")) });
+    var ch = find(/city\s*\/\s*(hwy|highway).*mpg|mpg.*city\s*\/\s*(hwy|highway)/i), cb = find(/combined.*mpg|mpg.*combined/i);
+    if (ch && (m = ch.match(/(\d{1,3})\s*\/\s*(\d{1,3})/))) cells.push({ l: "City / highway", v: m[1] + "/" + m[2], u: "mpg" });
+    else {
+      if ((v = find(/city.*mpg|mpg.*city/i)) && (m = v.match(/(\d{1,3})/))) cells.push({ l: "City", v: m[1], u: "mpg" });
+      if ((v = find(/(hwy|highway).*mpg|mpg.*(hwy|highway)/i)) && (m = v.match(/(\d{1,3})/))) cells.push({ l: "Highway", v: m[1], u: "mpg" });
+    }
+    if (cb && (m = cb.match(/(\d{1,3})/))) cells.push({ l: "Combined", v: m[1], u: "mpg" });
+    if (!ch && !cb && (v = find(/\brange\b/i)) && (m = v.replace(/,/g, "").match(/(\d{2,4})/))) cells.push({ l: "Range", v: m[1], u: "miles" }); // electric cars
+    if ((v = find(/curb weight/i)) && (m = v.replace(/,/g, "").match(/(\d{3,5})/))) { var lb = +m[1]; cells.push({ l: "Curb weight", v: commas(Math.round(lb * 0.45359237)), u: "kg (" + commas(lb) + " lb)" }); }
+    [["Length", /^length$|^overall length|length, overall/i], ["Wheelbase", /wheelbase/i]].forEach(function (d) {
+      var x = find(d[1]), n; if (x && (n = x.match(/(\d{2,3}(?:\.\d+)?)/))) cells.push({ l: d[0], v: String(Math.round(+n[1])), u: "inches (" + (+n[1] * 0.0254).toFixed(2) + " m)" });
+    });
+    if ((v = find(/country of (final )?assembly/i))) cells.push({ l: "Built in", t: v });
+    if (j.seats) cells.push({ l: "Seats", v: String(j.seats) });
+    return cells.slice(0, 12);
   }
   function specHTML(j) {
     var car = S.car;
@@ -829,11 +862,9 @@ footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
       }).join("") + "</select>";
     }
     top += "</div>";
-    var cells = (j.key || []).slice(0, 12).map(function (s) {
-      var f = fmtSpec(s);
-      return '<div class="num"><div class="l">' + esc(s.label) + "</div>" + (f.big ? '<div class="v">' + esc(f.big) + '</div><div class="u">' + esc(f.unit) + "</div>" : '<div class="t">' + esc(f.text) + "</div>") + "</div>";
+    var cells = keyCells(j).map(function (c) {
+      return '<div class="num"><div class="l">' + esc(c.l) + "</div>" + (c.v ? '<div class="v">' + esc(c.v) + "</div>" + (c.u ? '<div class="u">' + esc(c.u) + "</div>" : "") : '<div class="t">' + esc(c.t) + "</div>") + "</div>";
     });
-    if (j.seats) cells.push('<div class="num"><div class="l">Seats</div><div class="v">' + esc(j.seats) + "</div></div>");
     var html = top + (cells.length ? '<div class="nums">' + cells.join("") + "</div>" : '<div class="msg info" style="margin-top:12px">This listing has no performance figures, only the equipment below.</div>');
     if (j.msrp) {
       var then = CPI[j.year], today = then ? Math.round(j.msrp * CPI_NOW / then / 100) * 100 : 0;
@@ -844,7 +875,7 @@ footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
       var groups = {}, order = [];
       all.forEach(function (x) { var c = x.cat || "Other"; if (!groups[c]) { groups[c] = []; order.push(c); } groups[c].push(x); });
       html += "<details><summary>Full spec sheet (" + all.length + " items)</summary><div class=\"sheet\">" + order.map(function (c) {
-        return "<h4>" + esc(c) + "</h4>" + groups[c].map(function (x) { return "<div><span>" + esc(x.name) + "</span><span>" + esc(x.value) + "</span></div>"; }).join("");
+        return "<h4>" + esc(c) + "</h4>" + groups[c].map(function (x) { return "<div><span>" + esc(cap(x.name)) + "</span><span>" + esc(x.value === "Yes" ? "Standard" : x.value) + "</span></div>"; }).join("");
       }).join("") + "</div></details>";
     }
     html += '<p class="src">Spec data from CarsXE. Figures are for the trim named above; yours may differ.</p>';

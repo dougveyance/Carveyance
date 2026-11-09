@@ -447,7 +447,7 @@ footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
   var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
   function commas(n) { return Number(n).toLocaleString("en-US"); }
-  function norm(s) { return String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/&/g, " and ").replace(/[^a-z0-9]+/g, " ").trim(); }
+  function norm(s) { return String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/&/g, " and ").replace(/[^a-z0-9]+/g, " ").replace(/([a-z])(\d)/g, "$1 $2").replace(/(\d)([a-z])/g, "$1 $2").trim(); }
   function store(k, v) { try { if (v == null) localStorage.removeItem(k); else localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
   function load(k) { try { var v = localStorage.getItem(k); return v ? JSON.parse(v) : null; } catch (e) { return null; } }
   function say(t) { var l = $("#live"); l.textContent = ""; setTimeout(function () { l.textContent = t; }, 30); }
@@ -798,7 +798,7 @@ footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
       }
       if (!j.found) {
         box.innerHTML = '<div class="msg info">There\'s no spec sheet on file for the ' + esc(year + " " + (car.listing_make || car.make) + " " + (car.listing_model || car.model)) +
-          ". Spec data is thinnest for cars from before the 1990s. " + (S.ci ? 'Our <a href="/cars/' + esc(S.ci.id) + '/" style="color:#fff;border-bottom:1px solid">Car Index page</a> has the key numbers.' : "") + "</div>";
+          ". " + (year < 1990 ? "Spec data is thinnest for cars from before the 1990s. " : "Our spec source doesn't have this one yet. ") + (S.ci ? 'The Car Index has the key numbers for the <a href="/cars/' + esc(S.ci.id) + '/" style="color:#fff;border-bottom:1px solid">' + esc(S.ci.name) + "</a>." : "") + "</div>";
         return;
       }
       box.innerHTML = specHTML(j);
@@ -898,15 +898,26 @@ footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
     return keys.filter(function (k, i) { return k && keys.indexOf(k) === i; });
   }
 
+  // Chassis codes from the generation Claude reported, such as R107, W123, E38 or 993 (not plain years).
+  function codesOf(car) {
+    var out = [];
+    (String(car.generation || "").match(/\b[A-Za-z]{0,3}\d{2,4}\b/g) || []).forEach(function (raw) {
+      var digitsOnly = /^\d+$/.test(raw);
+      if (digitsOnly && (raw.length !== 3)) return;          // skip "2" in 958.2 and years like 1986
+      var n = norm(raw); if (n && out.indexOf(n) < 0) out.push(n);
+    });
+    return out;
+  }
   function matchCarIndex(car) {
-    var mk = modelKeys(car), best = [];
+    var mk = modelKeys(car), codes = codesOf(car), best = [];
     CARS().forEach(function (c) {
       if (!sameMake(c.make, car.make) && !sameMake(c.maker, car.make) && !sameMake(c.make, car.listing_make)) return;
       var names = [c.name].concat(c.aka || []).map(norm);
       var hit = mk.some(function (k) { return names.some(function (n) { return phraseIn(n, norm(c.make) + " " + k) || phraseIn(n, k); }); });
-      if (!hit) return;
-      var score = 10, ys = yearsOf(c.years, c.start);
-      if (ys && car.year_start) {
+      var sameCode = codes.some(function (k) { return names.some(function (n) { return phraseIn(n, k); }); });
+      if (!hit && !sameCode) return;
+      var score = sameCode ? 15 : 10, ys = yearsOf(c.years, c.start);
+      if (ys && car.year_start && !sameCode) {
         var overlap = Math.min(ys[1], car.year_end || car.year_start) - Math.max(ys[0], car.year_start);
         if (overlap < -1) return;           // a different generation of the same nameplate
         score += 4;
@@ -920,7 +931,7 @@ footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
   }
 
   function matchArticles(car, ciCars) {
-    var make = norm(car.make), lmake = norm(car.listing_make), mk = modelKeys(car);
+    var make = norm(car.make), lmake = norm(car.listing_make), mk = modelKeys(car), codes = codesOf(car);
     var fromCI = {};
     ciCars.forEach(function (c) { (c.articles || []).forEach(function (s) { fromCI[s] = 1; }); });
     var out = [];
@@ -928,7 +939,9 @@ footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
       if (!a || !a.slug || !a.date || a.date > TODAY) return; // scheduled stories stay hidden until their date
       var tags = (a.vehicles || []).map(norm), score = 0, makeOnly = false;
       tags.forEach(function (t, i) {
-        var strong = mk.some(function (k) { return phraseIn(t, make + " " + k) || phraseIn(t, lmake + " " + k) || (t.indexOf(make + " ") !== 0 && phraseIn(t, k) && k.length > 3); });
+        var ofMake = (make && t.indexOf(make + " ") === 0) || (lmake && t.indexOf(lmake + " ") === 0);
+        var strong = mk.some(function (k) { return phraseIn(t, make + " " + k) || phraseIn(t, lmake + " " + k) || (t.indexOf(make + " ") !== 0 && phraseIn(t, k) && k.length > 3); }) ||
+          (ofMake && codes.some(function (k) { return phraseIn(t, k); }));
         if (strong) score = Math.max(score, 6 + (i === 0 ? 3 : 0) - Math.min(3, tags.length / 6));
         else if ((make && t.indexOf(make + " ") === 0) || (lmake && t.indexOf(lmake + " ") === 0)) makeOnly = true;
       });
@@ -970,7 +983,7 @@ footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
     if (!html) html = '<p class="none">We haven\'t written about the ' + esc(title(car)) + ' yet. Browse <a href="/articles/">every story</a> or <a href="/cars/">the Car Index</a> in the meantime.</p>';
     $("#stories").innerHTML = html;
     // A Car Index page can stand in when there's no spec sheet
-    if (S.ci && /no spec sheet/.test($("#specs").textContent) && !/Car Index page/.test($("#specs").textContent)) { S.specsFor = ""; loadSpecs(S.year, S.trim); }
+    if (S.ci && /no spec sheet/.test($("#specs").textContent) && !/The Car Index has/.test($("#specs").textContent)) { S.specsFor = ""; loadSpecs(S.year, S.trim); }
   }
 
   // ---------------------------------------------------------------- for sale

@@ -179,6 +179,181 @@
   /* ============================================================
      A CAR PAGE
      ============================================================ */
+  /* ============================================================
+     COMPARE: up to 3 cars side by side (/cars/compare/?ids=a,b,c)
+     ============================================================ */
+  I.comparePage = function () {
+    var ALL = (typeof CARS_INDEX !== "undefined" ? CARS_INDEX : []);
+    var by = {}; ALL.forEach(function (c) { by[c.id] = c; });
+    var MAX = 3, scores = null;
+    var $ = function (id) { return document.getElementById(id); };
+    var ids = [];
+    try { ids = (new URLSearchParams(location.search).get("ids") || "").split(",").filter(function (x) { return by[x]; }); } catch (e) {}
+    ids = ids.filter(function (x, i) { return ids.indexOf(x) === i; }).slice(0, MAX);
+
+    function save() {
+      try { history.replaceState(null, "", location.pathname + (ids.length ? "?ids=" + ids.join(",") : "")); } catch (e) {}
+    }
+    function lb(kg) { return Math.round(kg * 2.20462); }
+    function ptw(c) { return c.hp && c.kg ? Math.round(c.hp / c.kg * 1000) : null; }   // hp per metric ton
+    function base(n) { return String(n).replace(/\s*\([^)]*\)\s*$/, ""); }
+    function gen(n) { var m = String(n).match(/\(([^)]+)\)\s*$/); return m ? m[1] : ""; }
+
+    // each row: label, value(c) for display, number(c) for "best", which way is better, small line under it
+    var ROWS = [
+      { k: "score", l: "Community score", v: function (c) {
+          var x = scores && scores[c.id];
+          if (!scores) return null;
+          return x && x.n ? I.WHEEL + "<b>" + I.one(x.avg) + "</b> / 10" : '<span class="dim">Not rated yet</span>'; },
+        n: function (c) { var x = scores && scores[c.id]; return x && x.n ? x.avg : null; }, better: "high",
+        s: function (c) { var x = scores && scores[c.id]; return x && x.n ? I.num(x.n) + (x.n === 1 ? " rating" : " ratings") : ""; } },
+      { k: "hp", l: "Power", v: function (c) { return c.hp ? "<b>" + I.num(Math.round(c.hp)) + "</b> hp" : null; }, n: function (c) { return c.hp; }, better: "high" },
+      { k: "kg", l: "Weight", v: function (c) { return c.kg ? "<b>" + I.num(Math.round(c.kg)) + "</b> kg" : null; }, n: function (c) { return c.kg; }, better: "low",
+        s: function (c) { return c.kg ? I.num(lb(c.kg)) + " lb" + (c.kgNote ? " · " + c.kgNote : "") : ""; } },
+      { k: "ptw", l: "Power to weight", v: function (c) { var x = ptw(c); return x ? "<b>" + I.num(x) + "</b> hp per ton" : null; }, n: ptw, better: "high" },
+      { k: "z60", l: "0&ndash;60 mph", v: function (c) { return c.z60 ? "<b>" + Number(c.z60.sec).toFixed(1) + "</b> sec" : null; },
+        n: function (c) { return c.z60 ? c.z60.sec : null; }, better: "low",
+        s: function (c) { return c.z60 ? (c.z60.note || (c.z60.kind === "claimed" ? "Maker's claim" : "Road test")) : ""; } },
+      { k: "top", l: "Top speed", v: function (c) { return c.top ? "<b>" + I.num(Math.round(c.top.mph)) + "</b> mph" : null; },
+        n: function (c) { return c.top ? c.top.mph : null; }, better: "high",
+        s: function (c) { return c.top ? (c.top.note || (c.top.kind === "claimed" ? "Maker's claim" : "Tested")) : ""; } },
+      { k: "built", l: "Built", v: function (c) { return c.built ? "<b>" + (c.built.approx ? "about " : "") + I.num(c.built.count) + "</b>" : null; },
+        s: function (c) { return c.built ? (c.built.note || "") : ""; } },
+      { k: "years", l: "Years", v: function (c) { return c.years ? esc(c.years) : null; } },
+      { k: "country", l: "Built in", v: function (c) { return c.country ? esc(c.country) : null; } },
+      { k: "body", l: "Body", v: function (c) { return c.body ? esc(c.body) : null; } },
+      { k: "engine", l: "Engine", v: function (c) { return c.engine ? esc(c.engine) : null; } },
+      { k: "drive", l: "Drive", v: function (c) { return c.drive ? esc(c.drive) : null; } },
+      { k: "gearbox", l: "Gearbox", v: function (c) { return c.gearbox ? esc(c.gearbox) : null; } }
+    ];
+
+    function head(c) {
+      var st = c.photo ? (c.photo.pos ? "object-position:" + c.photo.pos + ";" : "") + (c.photo.fit === "contain" ? "object-fit:contain;" : "") : "";
+      var img = c.photo && c.photo.card
+        ? '<img src="' + esc(c.photo.card) + '" alt="" loading="lazy"' + (st ? ' style="' + esc(st) + '"' : "") + ' onerror="this.style.visibility=\'hidden\'">'
+        : '<span class="ph">' + esc(c.name) + "</span>";
+      var g = gen(c.name);
+      return '<div class="cmp-car"><a class="cmp-ph" href="/cars/' + esc(c.id) + '/" tabindex="-1" aria-hidden="true">' + img + "</a>" +
+        '<div class="cmp-mk">' + esc(c.make) + " &middot; " + esc(c.years || "") + "</div>" +
+        '<a class="cmp-nm" href="/cars/' + esc(c.id) + '/">' + esc(base(c.name)) + (g ? " <em>" + esc(g) + "</em>" : "") + "</a>" +
+        '<button type="button" class="cmp-x" data-rm="' + esc(c.id) + '" aria-label="Remove ' + esc(c.name) + '">Remove</button></div>';
+    }
+
+    function render() {
+      var cars = ids.map(function (x) { return by[x]; });
+      var box = $("cmp");
+      document.title = (cars.length > 1 ? cars.map(function (c) { return c.name; }).join(" vs ") + " — " : "") + "Compare Cars Side by Side — The Car Index";
+      if (!cars.length) {
+        box.innerHTML = '<div class="cmp-empty"><h2 class="h2">Pick 2 or 3 cars</h2><p>Search for a car above, or start with one of these families from the Index.</p>' + starters() + "</div>";
+      } else {
+        var n = cars.length;
+        var h = '<div class="cmp-tbl" style="--n:' + n + '">';
+        h += '<div class="cmp-row cmp-top"><div class="cmp-l"></div>' + cars.map(head).join("") + "</div>";
+        ROWS.forEach(function (r) {
+          var vals = cars.map(function (c) { return r.v(c); });
+          if (vals.every(function (v) { return v == null; })) return;
+          var best = null;
+          if (r.n && n > 1) {
+            var nums = cars.map(function (c) { var x = r.n(c); return x == null ? null : Number(x); });
+            var have = nums.filter(function (x) { return x != null; });
+            if (have.length > 1) {
+              var b = r.better === "low" ? Math.min.apply(null, have) : Math.max.apply(null, have);
+              if (have.filter(function (x) { return x === b; }).length < have.length) best = b;
+              r._nums = nums;
+            }
+          }
+          h += '<div class="cmp-row' + (r.k === "engine" || r.k === "gearbox" || r.k === "body" || r.k === "drive" || r.k === "country" || r.k === "years" ? " txt" : "") + '"><div class="cmp-l">' + r.l + "</div>" +
+            cars.map(function (c, i) {
+              var v = vals[i], isBest = best != null && r._nums && r._nums[i] === best;
+              var sub = r.s ? r.s(c) : "";
+              return '<div class="cmp-v' + (isBest ? " best" : "") + '">' + (v == null ? '<span class="dim">&mdash;</span>' : v) +
+                (isBest ? '<span class="tag">' + ({ score: "Top rated", hp: "Most power", kg: "Lightest", ptw: "Best ratio", z60: "Quickest", top: "Fastest" }[r.k] || "Best") + "</span>" : "") +
+                (sub ? "<small>" + esc(sub) + "</small>" : "") + "</div>";
+            }).join("") + "</div>";
+        });
+        h += "</div>";
+        box.innerHTML = h;
+      }
+      // the whole line each chosen car belongs to, oldest first, minus the ones already shown
+      var fam = [];
+      cars.forEach(function (c) {
+        var line = [c.id], x = c;
+        while (x.prev && x.prev.id && by[x.prev.id] && line.indexOf(x.prev.id) < 0) { x = by[x.prev.id]; line.unshift(x.id); }
+        x = c;
+        while (x.next && x.next.id && by[x.next.id] && line.indexOf(x.next.id) < 0) { x = by[x.next.id]; line.push(x.id); }
+        line.forEach(function (i) { if (ids.indexOf(i) < 0 && fam.indexOf(i) < 0) fam.push(i); });
+      });
+      $("cmp-fam").innerHTML = (fam.length && ids.length < MAX)
+        ? '<span class="cmp-fl">In the family:</span>' + fam.map(function (x) { return '<button type="button" class="cmp-chip" data-add="' + esc(x) + '">+ ' + esc(by[x].name) + "</button>"; }).join("")
+        : "";
+      $("cmp-q").disabled = ids.length >= MAX;
+      $("cmp-q").placeholder = ids.length >= MAX ? "Remove a car to add another" : "Search the Index…";
+      $("cmp-note").innerHTML = cars.length
+        ? "Figures are the ones on each car's page, for the version named there. Power to weight is horsepower per metric ton (1,000 kg). Maker's claims and road tests are marked under each 0&ndash;60 time, so read close calls with that in mind."
+        : "";
+      save();
+    }
+
+    // families in the Index, for the empty page
+    function starters() {
+      var seen = {}, out = [];
+      ALL.forEach(function (c) {
+        if (seen[c.id] || !(c.next && c.next.id && by[c.next.id])) return;
+        if (c.prev && c.prev.id && by[c.prev.id]) return;   // start at the oldest car with a page
+        var line = [c.id], x = c;
+        while (x.next && x.next.id && by[x.next.id] && line.indexOf(x.next.id) < 0 && line.length < MAX) { x = by[x.next.id]; line.push(x.id); }
+        line.forEach(function (i) { seen[i] = 1; });
+        out.push(line);
+      });
+      return '<div class="cmp-starts">' + out.map(function (line) {
+        return '<a href="?ids=' + line.join(",") + '">' + line.map(function (i) { return esc(by[i].name); }).join(" <span>vs</span> ") + "</a>";
+      }).join("") + "</div>";
+    }
+
+    function add(id) { if (by[id] && ids.indexOf(id) < 0 && ids.length < MAX) { ids.push(id); render(); } }
+    document.addEventListener("click", function (e) {
+      var b = e.target.closest("[data-rm],[data-add]");
+      if (b) { if (b.dataset.rm) ids = ids.filter(function (x) { return x !== b.dataset.rm; }); else add(b.dataset.add); render(); return; }
+      var a = e.target.closest(".cmp-starts a");
+      if (a) { e.preventDefault(); ids = a.getAttribute("href").replace("?ids=", "").split(",").filter(function (x) { return by[x]; }); render(); window.scrollTo(0, 0); }
+      if (!e.target.closest(".cmp-field")) $("cmp-sug").hidden = true;
+    });
+
+    // search to add a car
+    var q = $("cmp-q"), sug = $("cmp-sug");
+    function norm(s) { return String(s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, " ").trim(); }
+    function suggest() {
+      var w = norm(q.value).split(" ").filter(Boolean);
+      if (!w.length) { sug.hidden = true; q.setAttribute("aria-expanded", "false"); return; }
+      var hits = ALL.filter(function (c) {
+        if (ids.indexOf(c.id) >= 0) return false;
+        var hay = norm([c.name, c.make, (c.aka || []).join(" "), c.years, c.body, c.engine].join(" "));
+        return w.every(function (x) { return hay.indexOf(x) >= 0; });
+      }).slice(0, 8);
+      sug.innerHTML = hits.length ? hits.map(function (c) {
+        return '<button type="button" role="option" data-add="' + esc(c.id) + '">' + esc(c.name) + "<small>" + esc(c.years || "") + "</small></button>";
+      }).join("") : '<div class="none">No car in the Index matches that yet.</div>';
+      sug.hidden = false; q.setAttribute("aria-expanded", "true");
+    }
+    q.addEventListener("input", suggest);
+    q.addEventListener("focus", suggest);
+    q.addEventListener("keydown", function (e) {
+      if (e.key === "Enter") { e.preventDefault(); var f = sug.querySelector("[data-add]"); if (f) { add(f.dataset.add); q.value = ""; sug.hidden = true; } }
+      if (e.key === "ArrowDown") { var g = sug.querySelector("button"); if (g) { e.preventDefault(); g.focus(); } }
+      if (e.key === "Escape") sug.hidden = true;
+    });
+    sug.addEventListener("click", function () { q.value = ""; sug.hidden = true; });
+    sug.addEventListener("keydown", function (e) {
+      var items = [].slice.call(sug.querySelectorAll("button")), i = items.indexOf(document.activeElement);
+      if (e.key === "ArrowDown") { e.preventDefault(); (items[i + 1] || items[0]).focus(); }
+      if (e.key === "ArrowUp") { e.preventDefault(); if (i <= 0) q.focus(); else items[i - 1].focus(); }
+      if (e.key === "Escape") { sug.hidden = true; q.focus(); }
+    });
+
+    render();
+    I.loadScores().then(function (s) { if (s) { scores = s; render(); } });
+  };
+
   /* ---------- "Find one for sale": plain links to the marketplaces ----------
      Built here so all the car pages get it without a rebuild. The links
      themselves live in /assets/js/cv-markets.js, shared with the homepage. */

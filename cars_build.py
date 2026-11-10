@@ -339,6 +339,30 @@ def lineage_row(label, x, by_id):
     return f'<div class="lin"><span class="dir">{label}</span><span class="nm">{esc(x["name"])}</span></div>'
 
 
+def family(c, by_id, size=3):
+    """up to `size` cars in this car's line that have pages, centered on it where possible"""
+    back, fwd, seen = [], [], {c["id"]}
+    x = c
+    while (x.get("predecessor") or {}).get("id") in by_id and x["predecessor"]["id"] not in seen:
+        x = by_id[x["predecessor"]["id"]]; seen.add(x["id"]); back.insert(0, x["id"])
+    x = c
+    while (x.get("successor") or {}).get("id") in by_id and x["successor"]["id"] not in seen:
+        x = by_id[x["successor"]["id"]]; seen.add(x["id"]); fwd.append(x["id"])
+    line = back + [c["id"]] + fwd
+    i = line.index(c["id"])
+    start = max(0, min(i - (size - 1) // 2, len(line) - size))
+    return line[start:start + size]
+
+
+def compare_row(c, by_id):
+    ids = family(c, by_id)
+    if len(ids) > 1:
+        return (f'<a class="lin cmpl" href="/cars/compare/?ids={",".join(ids)}"><span class="dir">Compare</span>'
+                f'<span class="cn">See the family side by side</span><span class="go">&rarr;</span></a>')
+    return (f'<a class="lin cmpl" href="/cars/compare/?ids={esc(c["id"])}"><span class="dir">Compare</span>'
+            f'<span class="cn">Put it beside another car</span><span class="go">&rarr;</span></a>')
+
+
 # ---------- one car's page ----------
 def car_page(c, cars, by_id, arts, photos):
     url = f"{SITE}/cars/{c['id']}/"
@@ -454,6 +478,7 @@ def car_page(c, cars, by_id, arts, photos):
         {lineage_row("Before it", c.get("predecessor"), by_id)}
         <div class="lin this"><span class="dir">This car</span><span class="nm">{esc(c["name"])}</span></div>
         {lineage_row("After it", c.get("successor"), by_id)}
+        {compare_row(c, by_id)}
       </div>
       <dl class="facts">{facts_html}</dl>
     </aside>
@@ -509,6 +534,48 @@ def car_page(c, cars, by_id, arts, photos):
 </html>
 """
     return page
+
+
+def compare_page():
+    title = "Compare Cars Side by Side — The Car Index"
+    desc = "Put up to 3 cars from the Carveyance Car Index side by side: power, weight, 0-60 mph, top speed, how many were built, and what readers rate them."
+    return f"""{head(title, desc, SITE + "/cars/compare/")}
+</head>
+<body>
+
+{nav()}
+
+<header class="ihead chead">
+  <div class="wrap">
+    <div class="crumb"><a href="/">Carveyance</a> &nbsp;/&nbsp; <a href="/cars/">The Car Index</a> &nbsp;/&nbsp; Compare</div>
+    <h1 class="ititle">Side by <span>side</span></h1>
+    <p class="iblurb">Up to 3 cars from the Index, number for number. Start from a car's family tree, or add any car below.</p>
+  </div>
+</header>
+
+<section class="cmp">
+  <div class="wrap">
+    <div class="cmp-add">
+      <label for="cmp-q">Add a car</label>
+      <div class="cmp-field">
+        <input id="cmp-q" type="search" placeholder="Search the Index&hellip;" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="cmp-sug">
+        <div class="cmp-sug" id="cmp-sug" role="listbox" hidden></div>
+      </div>
+      <div class="cmp-fam" id="cmp-fam"></div>
+    </div>
+    <div id="cmp" aria-live="polite"></div>
+    <p class="cmp-note" id="cmp-note"></p>
+  </div>
+</section>
+
+{FOOT}
+{SCRIPTS}
+<script src="/cars/cars-data.js"></script>
+<script>CVI.comparePage();</script>
+<script src="/assets/js/cv-menu.js" defer></script>
+</body>
+</html>
+"""
 
 
 # ---------- the list on /cars/ ----------
@@ -590,6 +657,13 @@ def main():
                      "years": c.get("years", ""), "start": c.get("start"), "body": c.get("body", ""), "engine": c.get("engine", ""),
                      "country": c.get("country", ""), "quick": c.get("quick", ""), "articles": c.get("articles", []) + c["_also"],
                      "latest": max(dates) if dates else "",
+                     "drive": c.get("drive", ""), "gearbox": c.get("gearbox", ""), "specsFor": c.get("specsFor", ""),
+                     "hp": (c.get("power") or {}).get("hp"), "kg": (c.get("weight") or {}).get("kg"), "kgNote": (c.get("weight") or {}).get("note", ""),
+                     "z60": ({k: (c.get("zero60") or {}).get(k) for k in ("sec", "kind", "note")} if (c.get("zero60") or {}).get("sec") else None),
+                     "top": ({k: (c.get("top") or {}).get(k) for k in ("mph", "kind", "note")} if (c.get("top") or {}).get("mph") else None),
+                     "built": ({k: (c.get("built") or {}).get(k) for k in ("count", "approx", "note")} if (c.get("built") or {}).get("count") else None),
+                     "prev": ({"id": c["predecessor"].get("id") if c["predecessor"].get("id") in by_id else None, "name": c["predecessor"].get("name", "")} if (c.get("predecessor") or {}).get("name") else None),
+                     "next": ({"id": c["successor"].get("id") if c["successor"].get("id") in by_id else None, "name": c["successor"].get("name", "")} if (c.get("successor") or {}).get("name") else None),
                      "photo": ({"card": ph["card"], "pos": (c.get("photo") or {}).get("pos", ""),
                                 "fit": (c.get("photo") or {}).get("fit", "")} if ph else None)})
     os.makedirs("cars", exist_ok=True)
@@ -608,6 +682,9 @@ def main():
         os.makedirs(folder, exist_ok=True)
         open(path, "w", encoding="utf-8").write(car_page(c, cars, by_id, arts, photos))
         keep.add(c["id"])
+    os.makedirs(os.path.join("cars", "compare"), exist_ok=True)
+    open(os.path.join("cars", "compare", "index.html"), "w", encoding="utf-8").write(compare_page())
+    keep.add("compare")
     removed = 0
     for name in os.listdir("cars"):
         p = os.path.join("cars", name, "index.html")

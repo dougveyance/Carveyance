@@ -17,6 +17,31 @@ const CARS_INDEX = [
    "simplify-then-add-soul"
   ],
   "latest": "2026-10-27",
+  "drive": "Rear-wheel drive",
+  "gearbox": "6-speed manual (6-speed automatic optional)",
+  "specsFor": "2020 Lotus Evora GT, US market, 6-speed manual (Car and Driver test car)",
+  "hp": 416,
+  "kg": 1412,
+  "kgNote": "",
+  "z60": {
+   "sec": 4.0,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": {
+   "mph": 188,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": null,
+  "prev": {
+   "id": "lotus-evora-gt430-sport",
+   "name": "Lotus Evora GT430 Sport"
+  },
+  "next": {
+   "id": null,
+   "name": "Lotus Emira"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/2021_Lotus_Evora_GT_British_Racing_Green_Metallic_front_three_quarter.jpg/960px-2021_Lotus_Evora_GT_British_Racing_Green_Metallic_front_three_quarter.jpg",
    "pos": "",
@@ -39,6 +64,31 @@ const CARS_INDEX = [
    "ill-take-supercars-for-100ish"
   ],
   "latest": "2026-10-27",
+  "drive": "Rear-wheel drive",
+  "gearbox": "6-speed manual",
+  "specsFor": "2004 Porsche 911 GT3 (996.2), US market (Car and Driver test)",
+  "hp": 380,
+  "kg": 1460,
+  "kgNote": "",
+  "z60": {
+   "sec": 4.0,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": {
+   "mph": 190,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": null,
+  "prev": {
+   "id": null,
+   "name": "Porsche 911 Carrera RS (993)"
+  },
+  "next": {
+   "id": null,
+   "name": "Porsche 911 GT3 (997)"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/2004_Porsche_911_GT3,_front_left,_08-29-2026.jpg/960px-2004_Porsche_911_GT3,_front_left,_08-29-2026.jpg",
    "pos": "",
@@ -65,8 +115,264 @@ const CARS_INDEX = [
    "the-other-german"
   ],
   "latest": "2026-10-27",
+  "drive": "All-wheel drive",
+  "gearbox": "6-speed manual with open metal gate (R tronic automated manual optional)",
+  "specsFor": "2008 Audi R8 4.2 FSI quattro, 6-speed gated manual, US market (Road & Track test)",
+  "hp": 420,
+  "kg": 1624,
+  "kgNote": "",
+  "z60": {
+   "sec": 4.0,
+   "kind": "tested",
+   "note": "Road & Track test"
+  },
+  "top": {
+   "mph": 187,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": null,
+  "prev": null,
+  "next": {
+   "id": null,
+   "name": "Audi R8 (second generation)"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Audi_R8_Audi_le_mans.jpg/960px-Audi_R8_Audi_le_mans.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "lotus-evora-s",
+  "name": "Lotus Evora S",
+  "aka": [],
+  "make": "Lotus",
+  "maker": "Lotus",
+  "years": "2010–2014",
+  "start": 2010,
+  "body": "2+2 coupe",
+  "engine": "3.5-liter supercharged V6",
+  "country": "United Kingdom",
+  "quick": "The Evora with a supercharger. For 2010 Lotus took the Toyota V6 from 276 hp to 345 hp and gave the S revised suspension, larger brakes and a rear spoiler of its own, and it was the quick Evora until the 400 replaced it in 2015.",
+  "articles": [
+   "simplify-then-add-soul"
+  ],
+  "latest": "2026-05-09",
+  "drive": "Rear-wheel drive",
+  "gearbox": "6-speed manual (IPS automatic optional)",
+  "specsFor": "2010 Lotus Evora S, 6-speed manual, Lotus's launch figures",
+  "hp": 345,
+  "kg": 1437,
+  "kgNote": "Lotus's figure",
+  "z60": {
+   "sec": 4.6,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "top": {
+   "mph": 172,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": null,
+  "prev": {
+   "id": "lotus-evora",
+   "name": "Lotus Evora"
+  },
+  "next": {
+   "id": "lotus-evora-400",
+   "name": "Lotus Evora 400"
+  },
+  "photo": {
+   "card": "/assets/images/cars/lotus-evora-s.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "lotus-evora-400",
+  "name": "Lotus Evora 400",
+  "aka": [],
+  "make": "Lotus",
+  "maker": "Lotus",
+  "years": "2015–2021",
+  "start": 2015,
+  "body": "2+2 coupe",
+  "engine": "3.5-liter supercharged V6",
+  "country": "United Kingdom",
+  "quick": "The Evora reworked into something harder and faster. Lotus said more than two-thirds of it was new, the supercharged V6 rose to 400 hp, a limited-slip differential came standard with the manual, and it was the most powerful production Lotus yet when it arrived in 2015.",
+  "articles": [
+   "simplify-then-add-soul"
+  ],
+  "latest": "2026-05-09",
+  "drive": "Rear-wheel drive",
+  "gearbox": "6-speed manual (6-speed automatic optional)",
+  "specsFor": "2015 Lotus Evora 400, 6-speed manual, Lotus's launch figures",
+  "hp": 400,
+  "kg": 1415,
+  "kgNote": "unladen, Lotus's figure",
+  "z60": {
+   "sec": 4.1,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "top": {
+   "mph": 186,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": null,
+  "prev": {
+   "id": "lotus-evora-s",
+   "name": "Lotus Evora S"
+  },
+  "next": {
+   "id": "lotus-evora-sport-410",
+   "name": "Lotus Evora Sport 410"
+  },
+  "photo": {
+   "card": "/assets/images/cars/lotus-evora-400.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "lotus-evora-sport-410",
+  "name": "Lotus Evora Sport 410",
+  "aka": [
+   "Lotus Evora GT410 Sport",
+   "Lotus Evora GT410"
+  ],
+  "make": "Lotus",
+  "maker": "Lotus",
+  "years": "2016–2021",
+  "start": 2016,
+  "body": "2-seat or 2+2 coupe",
+  "engine": "3.5-liter supercharged V6",
+  "country": "United Kingdom",
+  "quick": "The lighter, sharper Evora. Unveiled at Geneva in 2016 with carbon-fiber body parts and 410 hp, it became the GT410 Sport for Lotus's 70th anniversary and later the softer GT410, the forms in which the 410 hp Evora ran to the end.",
+  "articles": [
+   "simplify-then-add-soul"
+  ],
+  "latest": "2026-05-09",
+  "drive": "Rear-wheel drive",
+  "gearbox": "6-speed manual (6-speed automatic optional)",
+  "specsFor": "2016 Lotus Evora Sport 410, 6-speed manual, Lotus's figures",
+  "hp": 410,
+  "kg": 1325,
+  "kgNote": "Lotus's figure",
+  "z60": {
+   "sec": 3.9,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "top": {
+   "mph": 190,
+   "kind": "claimed",
+   "note": "Maker's claim, manual"
+  },
+  "built": null,
+  "prev": {
+   "id": "lotus-evora-400",
+   "name": "Lotus Evora 400"
+  },
+  "next": {
+   "id": "lotus-evora-gt430",
+   "name": "Lotus Evora GT430"
+  },
+  "photo": {
+   "card": "/assets/images/cars/lotus-evora-sport-410.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "lotus-evora-gt430",
+  "name": "Lotus Evora GT430",
+  "aka": [],
+  "make": "Lotus",
+  "maker": "Lotus",
+  "years": "2017–2018",
+  "start": 2017,
+  "body": "Coupe",
+  "engine": "3.5-liter supercharged V6",
+  "country": "United Kingdom",
+  "quick": "The most extreme Evora. Lotus planned just 60, gave them 430 hp, a dry weight of 1,258 kg and bodywork that could make up to 250 kg of downforce, and called it the most powerful road car it had built to that point.",
+  "articles": [
+   "simplify-then-add-soul"
+  ],
+  "latest": "2026-05-09",
+  "drive": "Rear-wheel drive",
+  "gearbox": "6-speed manual (6-speed automatic optional)",
+  "specsFor": "2017 Lotus Evora GT430, 6-speed manual, Lotus's figures",
+  "hp": 430,
+  "kg": 1258,
+  "kgNote": "dry, Lotus's figure",
+  "z60": {
+   "sec": 3.7,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "top": {
+   "mph": 190,
+   "kind": "claimed",
+   "note": "Maker's claim, manual"
+  },
+  "built": null,
+  "prev": {
+   "id": "lotus-evora-sport-410",
+   "name": "Lotus Evora Sport 410"
+  },
+  "next": {
+   "id": "lotus-evora-gt430-sport",
+   "name": "Lotus Evora GT430 Sport"
+  },
+  "photo": {
+   "card": "/assets/images/cars/lotus-evora-gt430.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "lotus-evora-gt430-sport",
+  "name": "Lotus Evora GT430 Sport",
+  "aka": [],
+  "make": "Lotus",
+  "maker": "Lotus",
+  "years": "2017–2018",
+  "start": 2017,
+  "body": "Coupe",
+  "engine": "3.5-liter supercharged V6",
+  "country": "United Kingdom",
+  "quick": "The GT430 without the wing. Lotus took off the big rear wing to cut drag, kept the 430 hp V6, quoted a dry weight of 1,248 kg and 196 mph, and called it the fastest production Lotus yet.",
+  "articles": [
+   "simplify-then-add-soul"
+  ],
+  "latest": "2026-05-09",
+  "drive": "Rear-wheel drive",
+  "gearbox": "6-speed manual (6-speed automatic optional)",
+  "specsFor": "2017 Lotus Evora GT430 Sport, 6-speed manual, Lotus's figures",
+  "hp": 430,
+  "kg": 1248,
+  "kgNote": "dry, Lotus's figure",
+  "z60": null,
+  "top": {
+   "mph": 196,
+   "kind": "claimed",
+   "note": "Maker's claim, manual"
+  },
+  "built": null,
+  "prev": {
+   "id": "lotus-evora-gt430",
+   "name": "Lotus Evora GT430"
+  },
+  "next": {
+   "id": "lotus-evora-gt",
+   "name": "Lotus Evora GT"
+  },
+  "photo": {
+   "card": "/assets/images/cars/lotus-evora-gt430-sport.jpg",
    "pos": "",
    "fit": ""
   }
@@ -77,17 +383,43 @@ const CARS_INDEX = [
   "aka": [],
   "make": "Lotus",
   "maker": "Lotus",
-  "years": "2009–2021",
+  "years": "2009–2014",
   "start": 2009,
   "body": "2+2 coupe",
-  "engine": "3.5-liter V6 (naturally aspirated; supercharged from the Evora S)",
+  "engine": "3.5-liter V6 (naturally aspirated)",
   "country": "United Kingdom",
-  "quick": "Lotus's bid to build a grown-up car that still felt like a Lotus: a mid-engined 2+2 grand tourer with room for luggage, real comfort and a Toyota V6, built at Hethel from 2009 to 2021. It survived its maker's near-collapse, improved almost every year, and earned a reputation for some of the finest steering and ride quality of its era.",
+  "quick": "Lotus's bid to build a grown-up car that still felt like a Lotus: a mid-engined 2+2 grand tourer with room for luggage, real comfort and a Toyota V6, and the first of a line Lotus built at Hethel until 2021. The line survived its maker's near-collapse, improved almost every year, and earned a reputation for some of the finest steering and ride quality of its era.",
   "articles": [
    "simplify-then-add-soul",
    "ill-take-supercars-for-100ish"
   ],
   "latest": "2026-10-27",
+  "drive": "Rear-wheel drive",
+  "gearbox": "6-speed manual (IPS automatic optional later)",
+  "specsFor": "2009 Lotus Evora, naturally aspirated, 6-speed manual",
+  "hp": 276,
+  "kg": 1350,
+  "kgNote": "",
+  "z60": {
+   "sec": 4.9,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "top": {
+   "mph": 162,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": {
+   "count": 6117,
+   "approx": false,
+   "note": "all Evora variants, 2009-2021"
+  },
+  "prev": null,
+  "next": {
+   "id": "lotus-evora-s",
+   "name": "Lotus Evora S"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/2011_Lotus_Evora_4_V6_3.5_Front.jpg/960px-2011_Lotus_Evora_4_V6_3.5_Front.jpg",
    "pos": "",
@@ -113,6 +445,35 @@ const CARS_INDEX = [
    "the-shape-children-draw"
   ],
   "latest": "2026-09-02",
+  "drive": "Rear-wheel drive",
+  "gearbox": "5-speed manual",
+  "specsFor": "1993 Lotus Esprit Sport 300, UK market (Autocar road test, August 1993)",
+  "hp": 302,
+  "kg": 1243,
+  "kgNote": "",
+  "z60": {
+   "sec": 4.7,
+   "kind": "tested",
+   "note": "Autocar test"
+  },
+  "top": {
+   "mph": 161,
+   "kind": "tested",
+   "note": "Autocar test"
+  },
+  "built": {
+   "count": 64,
+   "approx": true,
+   "note": ""
+  },
+  "prev": {
+   "id": null,
+   "name": "Lotus Esprit X180R"
+  },
+  "next": {
+   "id": null,
+   "name": "Lotus Esprit Sport 350"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/1993_Lotus_Esprit_2.2_Sport_300.jpg/960px-1993_Lotus_Esprit_2.2_Sport_300.jpg",
    "pos": "",
@@ -135,6 +496,35 @@ const CARS_INDEX = [
    "the-shape-children-draw"
   ],
   "latest": "2026-09-02",
+  "drive": "Rear-wheel drive",
+  "gearbox": "5-speed manual",
+  "specsFor": "1995 Lotus Esprit S4S, UK market (Motor Sport road test)",
+  "hp": 300,
+  "kg": 1460,
+  "kgNote": "",
+  "z60": {
+   "sec": 4.6,
+   "kind": "tested",
+   "note": "Motor test"
+  },
+  "top": {
+   "mph": 168,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": {
+   "count": 367,
+   "approx": false,
+   "note": ""
+  },
+  "prev": {
+   "id": null,
+   "name": "Lotus Esprit S4"
+  },
+  "next": {
+   "id": "lotus-esprit-v8",
+   "name": "Lotus Esprit V8"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Lotus_Esprit_S4S_(M75_TVU)_-_25_April_2026.jpg/960px-Lotus_Esprit_S4S_(M75_TVU)_-_25_April_2026.jpg",
    "pos": "",
@@ -157,6 +547,32 @@ const CARS_INDEX = [
    "the-shape-children-draw"
   ],
   "latest": "2026-09-02",
+  "drive": "Rear-wheel drive",
+  "gearbox": "5-speed manual",
+  "specsFor": "1997 Lotus Esprit V8, US market (Car and Driver test, November 1997)",
+  "hp": 350,
+  "kg": 1391,
+  "kgNote": "",
+  "z60": {
+   "sec": 4.1,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": {
+   "mph": 175,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "built": {
+   "count": 1237,
+   "approx": false,
+   "note": ""
+  },
+  "prev": {
+   "id": "lotus-esprit-s4s",
+   "name": "Lotus Esprit S4S"
+  },
+  "next": null,
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/1999_Lotus_Esprit_V8_type_918.jpg/960px-1999_Lotus_Esprit_V8_type_918.jpg",
    "pos": "",
@@ -182,6 +598,29 @@ const CARS_INDEX = [
    "ghost-run"
   ],
   "latest": "2026-09-01",
+  "drive": "Rear-wheel drive",
+  "gearbox": "6-speed manual",
+  "specsFor": "1990-1992 Lotus Carlton / Lotus Omega (one specification for both badges)",
+  "hp": 377,
+  "kg": 1655,
+  "kgNote": "",
+  "z60": {
+   "sec": 5.1,
+   "kind": "tested",
+   "note": "Autocar test"
+  },
+  "top": {
+   "mph": 176,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": {
+   "count": 950,
+   "approx": false,
+   "note": ""
+  },
+  "prev": null,
+  "next": null,
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/1993_Vauxhall_Lotus_Carlton_(31750565976).jpg/960px-1993_Vauxhall_Lotus_Carlton_(31750565976).jpg",
    "pos": "",
@@ -207,6 +646,31 @@ const CARS_INDEX = [
    "the-middle-child"
   ],
   "latest": "2026-10-07",
+  "drive": "Rear-wheel drive",
+  "gearbox": "5-speed manual (4-speed automatic optional)",
+  "specsFor": "1993 Mazda RX-7, US market (base car and R1 share the 255 hp drivetrain)",
+  "hp": 255,
+  "kg": 1265,
+  "kgNote": "",
+  "z60": {
+   "sec": 5.2,
+   "kind": "tested",
+   "note": "Motor Trend test"
+  },
+  "top": null,
+  "built": {
+   "count": 68589,
+   "approx": false,
+   "note": "all markets, 1991-2002"
+  },
+  "prev": {
+   "id": "mazda-rx-7-fc",
+   "name": "Mazda RX-7 (FC)"
+  },
+  "next": {
+   "id": null,
+   "name": "Mazda RX-8"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/1994_Mazda_RX-7_R2_in_Vintage_Red,_front_left_(Lime_Rock).jpg/960px-1994_Mazda_RX-7_R2_in_Vintage_Red,_front_left_(Lime_Rock).jpg",
    "pos": "",
@@ -231,6 +695,31 @@ const CARS_INDEX = [
    "the-middle-child"
   ],
   "latest": "2026-08-17",
+  "drive": "Rear-wheel drive",
+  "gearbox": "5-speed manual (4-speed automatic optional)",
+  "specsFor": "1989 Mazda Savanna RX-7 GT-X (S5 Turbo), Japanese market",
+  "hp": 202,
+  "kg": 1250,
+  "kgNote": "",
+  "z60": {
+   "sec": 6.5,
+   "kind": "estimated",
+   "note": "Estimate"
+  },
+  "top": null,
+  "built": {
+   "count": 272027,
+   "approx": false,
+   "note": "all FC RX-7s, coupe and convertible, 1985-1992"
+  },
+  "prev": {
+   "id": null,
+   "name": "Mazda RX-7 (first generation, SA/FB)"
+  },
+  "next": {
+   "id": "mazda-rx-7-fd",
+   "name": "Mazda RX-7 (FD)"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/1989_Mazda_RX-7_GTU_in_Noble_White,_front_right.jpg/960px-1989_Mazda_RX-7_GTU_in_Noble_White,_front_right.jpg",
    "pos": "",
@@ -258,6 +747,32 @@ const CARS_INDEX = [
    "the-middle-child"
   ],
   "latest": "2026-09-02",
+  "drive": "Rear-wheel drive",
+  "gearbox": "4-speed automatic",
+  "specsFor": "1990 Eunos Cosmo 20B (three-rotor), Japanese market",
+  "hp": 276,
+  "kg": 1610,
+  "kgNote": "",
+  "z60": {
+   "sec": 6.5,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "top": {
+   "mph": 158,
+   "kind": "estimated",
+   "note": "Estimate"
+  },
+  "built": {
+   "count": 8875,
+   "approx": false,
+   "note": ""
+  },
+  "prev": {
+   "id": null,
+   "name": "Mazda Cosmo (third generation, HB)"
+  },
+  "next": null,
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/1991_Mazda_Eunos_Cosmo_Supercarfest23.jpg/960px-1991_Mazda_Eunos_Cosmo_Supercarfest23.jpg",
    "pos": "",
@@ -284,6 +799,28 @@ const CARS_INDEX = [
    "you-spin-me-round"
   ],
   "latest": "2026-09-02",
+  "drive": "Rear-wheel drive",
+  "gearbox": "4-speed manual",
+  "specsFor": "1967 Mazda Cosmo Sport Series I (L10A), Japanese market",
+  "hp": 108,
+  "kg": 940,
+  "kgNote": "",
+  "z60": null,
+  "top": {
+   "mph": 115,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": {
+   "count": 343,
+   "approx": false,
+   "note": ""
+  },
+  "prev": null,
+  "next": {
+   "id": null,
+   "name": "Mazda Cosmo Sport Series II (L10B)"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Mazda_Cosmo_Sport_(L10A)_front.jpg/960px-Mazda_Cosmo_Sport_(L10A)_front.jpg",
    "pos": "",
@@ -306,6 +843,25 @@ const CARS_INDEX = [
    "now-boarding"
   ],
   "latest": "2026-07-27",
+  "drive": "",
+  "gearbox": "",
+  "specsFor": "1991 Mazda Suitcase Car, Fantasyard prototype (Mazda spec sheet)",
+  "hp": 1.7,
+  "kg": 32,
+  "kgNote": "",
+  "z60": null,
+  "top": {
+   "mph": 22,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": {
+   "count": 3,
+   "approx": false,
+   "note": ""
+  },
+  "prev": null,
+  "next": null,
   "photo": {
    "card": "/assets/images/cars/mazda-suitcase-car.jpg",
    "pos": "center 40%",
@@ -331,6 +887,28 @@ const CARS_INDEX = [
    "open-air-mazda-121"
   ],
   "latest": "2026-05-16",
+  "drive": "Front-wheel drive",
+  "gearbox": "5-speed manual (automatic available)",
+  "specsFor": "Mazda 121 Canvas Top (DA), 1.3, export market (Europe, Australia, Hong Kong)",
+  "hp": 67,
+  "kg": 775,
+  "kgNote": "",
+  "z60": {
+   "sec": 11.6,
+   "kind": "claimed",
+   "note": "Maker's claim, 0-62 mph"
+  },
+  "top": {
+   "mph": 99,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": null,
+  "prev": null,
+  "next": {
+   "id": null,
+   "name": "Mazda 121 (DB) / Autozam Revue"
+  },
   "photo": {
    "card": "/assets/images/cars/mazda-121-canvas-top.jpg",
    "pos": "center 62%",
@@ -357,6 +935,31 @@ const CARS_INDEX = [
    "929-the-number-nobody-remembered"
   ],
   "latest": "2026-07-23",
+  "drive": "Rear-wheel drive",
+  "gearbox": "4-speed automatic",
+  "specsFor": "1993 Mazda 929, US market",
+  "hp": 195,
+  "kg": 1630,
+  "kgNote": "",
+  "z60": {
+   "sec": 8.5,
+   "kind": "estimated",
+   "note": "Estimate"
+  },
+  "top": {
+   "mph": 130,
+   "kind": "claimed",
+   "note": "Maker's claim, limited"
+  },
+  "built": null,
+  "prev": {
+   "id": null,
+   "name": "Mazda 929 (HC)"
+  },
+  "next": {
+   "id": null,
+   "name": "Mazda Millenia"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Mazda_929.JPG/960px-Mazda_929.JPG",
    "pos": "",
@@ -383,6 +986,24 @@ const CARS_INDEX = [
    "the-happy-medium"
   ],
   "latest": "2026-08-19",
+  "drive": "Front-wheel drive",
+  "gearbox": "6-speed manual or 5-speed automatic",
+  "specsFor": "2012 Mazda5 Sport, six-speed manual, US market",
+  "hp": 157,
+  "kg": 1570,
+  "kgNote": "",
+  "z60": {
+   "sec": 8.3,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": null,
+  "built": null,
+  "prev": {
+   "id": null,
+   "name": "Mazda5 (first generation)"
+  },
+  "next": null,
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/2009_Mazda5,_front_right,_07-25-2026.jpg/960px-2009_Mazda5,_front_right,_07-25-2026.jpg",
    "pos": "",
@@ -408,6 +1029,28 @@ const CARS_INDEX = [
    "cheapest-car-in-the-fight"
   ],
   "latest": "2026-08-19",
+  "drive": "Front-wheel drive",
+  "gearbox": "5-speed manual (4-speed automatic optional)",
+  "specsFor": "2002 Mazda Protegé5, five-speed manual, US market (Car and Driver test car)",
+  "hp": 130,
+  "kg": 1275,
+  "kgNote": "",
+  "z60": {
+   "sec": 9.5,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": {
+   "mph": 118,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "built": null,
+  "prev": null,
+  "next": {
+   "id": null,
+   "name": "Mazda3 five-door"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/2003_Mazda_Proteg%C3%A95_in_Midnight_Blue_Mica,_front_left,_07-06-2026.jpg/960px-2003_Mazda_Proteg%C3%A95_in_Midnight_Blue_Mica,_front_left,_07-06-2026.jpg",
    "pos": "",
@@ -431,6 +1074,28 @@ const CARS_INDEX = [
    "the-happy-medium"
   ],
   "latest": "2026-08-19",
+  "drive": "Front-wheel drive",
+  "gearbox": "5-speed manual",
+  "specsFor": "2001 Mazda Protegé MP3, US market",
+  "hp": 140,
+  "kg": 1235,
+  "kgNote": "",
+  "z60": {
+   "sec": 8.2,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": null,
+  "built": {
+   "count": 1500,
+   "approx": false,
+   "note": ""
+  },
+  "prev": null,
+  "next": {
+   "id": "mazdaspeed-protege",
+   "name": "Mazdaspeed Protegé"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Mazda_Protege_MP3_(4738701236).jpg/960px-Mazda_Protege_MP3_(4738701236).jpg",
    "pos": "",
@@ -454,6 +1119,27 @@ const CARS_INDEX = [
    "the-happy-medium"
   ],
   "latest": "2026-08-19",
+  "drive": "Front-wheel drive, limited-slip differential",
+  "gearbox": "5-speed manual",
+  "specsFor": "2003 Mazdaspeed Protegé, US market",
+  "hp": 170,
+  "kg": 1290,
+  "kgNote": "",
+  "z60": null,
+  "top": null,
+  "built": {
+   "count": 4500,
+   "approx": true,
+   "note": ""
+  },
+  "prev": {
+   "id": "mazda-protege-mp3",
+   "name": "Mazda Protegé MP3"
+  },
+  "next": {
+   "id": null,
+   "name": "Mazdaspeed3"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/%2703_Mazdaspeed_Proteg%C3%A9_Sedan_(Les_chauds_vendredis_%2710).jpg/960px-%2703_Mazdaspeed_Proteg%C3%A9_Sedan_(Les_chauds_vendredis_%2710).jpg",
    "pos": "",
@@ -480,6 +1166,32 @@ const CARS_INDEX = [
    "the-brightest-star"
   ],
   "latest": "2026-10-07",
+  "drive": "All-wheel drive (VR-4)",
+  "gearbox": "6-speed manual",
+  "specsFor": "1995 Mitsubishi 3000GT VR-4 coupe, US market (performance from Motor Trend's May 1997 comparison test)",
+  "hp": 320,
+  "kg": 1695,
+  "kgNote": "",
+  "z60": {
+   "sec": 4.8,
+   "kind": "tested",
+   "note": "Motor Trend test"
+  },
+  "top": {
+   "mph": 155.7,
+   "kind": "tested",
+   "note": "Motor Trend test"
+  },
+  "built": {
+   "count": 86151,
+   "approx": false,
+   "note": "Built for the US and Canada"
+  },
+  "prev": {
+   "id": null,
+   "name": "Mitsubishi Starion"
+  },
+  "next": null,
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Mitsubishi_3000GT_front.jpg/960px-Mitsubishi_3000GT_front.jpg",
    "pos": "",
@@ -502,6 +1214,21 @@ const CARS_INDEX = [
    "the-overachiever"
   ],
   "latest": "2026-09-25",
+  "drive": "All-wheel drive (R/T Turbo)",
+  "gearbox": "5-speed manual (6-speed from 1994)",
+  "specsFor": "1991 Dodge Stealth R/T Turbo, US market",
+  "hp": 300,
+  "kg": null,
+  "kgNote": "",
+  "z60": null,
+  "top": null,
+  "built": {
+   "count": 65303,
+   "approx": false,
+   "note": "Built for the US and Canada"
+  },
+  "prev": null,
+  "next": null,
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Dodge_Stealth_Z11A_RT_Bright_Blue_Metallic_01.jpg/960px-Dodge_Stealth_Z11A_RT_Bright_Blue_Metallic_01.jpg",
    "pos": "",
@@ -526,6 +1253,32 @@ const CARS_INDEX = [
    "the-brightest-star"
   ],
   "latest": "2026-09-29",
+  "drive": "All-wheel drive",
+  "gearbox": "4-speed automatic",
+  "specsFor": "1992 Subaru SVX, US market (Car and Driver road test, September 1991)",
+  "hp": 230,
+  "kg": 1639,
+  "kgNote": "",
+  "z60": {
+   "sec": 7.6,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": {
+   "mph": 144,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "built": {
+   "count": 24379,
+   "approx": false,
+   "note": ""
+  },
+  "prev": {
+   "id": null,
+   "name": "Subaru XT"
+  },
+  "next": null,
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Subaru_Alcyone_in_Black_Mica,_front_right.jpg/960px-Subaru_Alcyone_in_Black_Mica,_front_right.jpg",
    "pos": "",
@@ -549,6 +1302,31 @@ const CARS_INDEX = [
    "the-brightest-star"
   ],
   "latest": "2026-09-29",
+  "drive": "Front-wheel drive",
+  "gearbox": "5-speed manual (4-speed automatic optional)",
+  "specsFor": "1994 Ford Probe GT, US market (0-60 from Car and Driver's test of a mechanically identical 1993 GT)",
+  "hp": 164,
+  "kg": 1315,
+  "kgNote": "",
+  "z60": {
+   "sec": 7.5,
+   "kind": "claimed",
+   "note": "Ford brochure"
+  },
+  "top": null,
+  "built": {
+   "count": 310446,
+   "approx": false,
+   "note": ""
+  },
+  "prev": {
+   "id": null,
+   "name": "Ford Probe (first generation)"
+  },
+  "next": {
+   "id": null,
+   "name": "Mercury Cougar (1999)"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/1993_Ford_Probe_GT_in_Black,_Front_Right,_05-21-2023.jpg/960px-1993_Ford_Probe_GT_in_Black,_Front_Right,_05-21-2023.jpg",
    "pos": "",
@@ -571,6 +1349,32 @@ const CARS_INDEX = [
    "last-place-every-time"
   ],
   "latest": "2026-08-31",
+  "drive": "Rear-wheel drive",
+  "gearbox": "8-speed automatic",
+  "specsFor": "2008 Lexus IS F, US market (performance from Motor Trend's 2008 first test)",
+  "hp": 416,
+  "kg": 1715,
+  "kgNote": "",
+  "z60": {
+   "sec": 4.3,
+   "kind": "tested",
+   "note": "Motor Trend test"
+  },
+  "top": {
+   "mph": 170,
+   "kind": "claimed",
+   "note": "Maker's claim, limited"
+  },
+  "built": {
+   "count": 11000,
+   "approx": true,
+   "note": ""
+  },
+  "prev": null,
+  "next": {
+   "id": null,
+   "name": "Lexus IS 500 F Sport Performance"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Lexus_IS_F_USE20_Obsidian_-_front.jpg/960px-Lexus_IS_F_USE20_Obsidian_-_front.jpg",
    "pos": "",
@@ -593,6 +1397,24 @@ const CARS_INDEX = [
    "ahead-of-the-applause"
   ],
   "latest": "2026-08-14",
+  "drive": "All-wheel drive (rear-biased)",
+  "gearbox": "5-speed automatic",
+  "specsFor": "2003 Infiniti FX45, US market (Car and Driver instrumented test)",
+  "hp": 315,
+  "kg": 1950,
+  "kgNote": "",
+  "z60": {
+   "sec": 6.3,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": null,
+  "built": null,
+  "prev": null,
+  "next": {
+   "id": null,
+   "name": "Infiniti FX50"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Infiniti_FX45_(48981085643).jpg/960px-Infiniti_FX45_(48981085643).jpg",
    "pos": "",
@@ -615,6 +1437,25 @@ const CARS_INDEX = [
    "vehicross"
   ],
   "latest": "2026-05-02",
+  "drive": "Four-wheel drive (BorgWarner Torque on Demand, with low range)",
+  "gearbox": "4-speed automatic",
+  "specsFor": "1999-2001 Isuzu VehiCROSS, US market",
+  "hp": 215,
+  "kg": 1780,
+  "kgNote": "",
+  "z60": {
+   "sec": 8.2,
+   "kind": null,
+   "note": ""
+  },
+  "top": null,
+  "built": {
+   "count": 5958,
+   "approx": false,
+   "note": ""
+  },
+  "prev": null,
+  "next": null,
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/1999_Isuzu_VehiCROSS_Ironman_Edition_in_Victory_White,_front_right,_08-17-2026.jpg/960px-1999_Isuzu_VehiCROSS_Ironman_Edition_in_Victory_White,_front_right,_08-17-2026.jpg",
    "pos": "",
@@ -640,6 +1481,27 @@ const CARS_INDEX = [
    "three-dials-and-a-swing-gate"
   ],
   "latest": "2026-08-14",
+  "drive": "Super Select four-wheel drive (2H, full-time 4H, locked high and low range)",
+  "gearbox": "5-speed manual or 4-speed automatic",
+  "specsFor": "1992 Mitsubishi Montero SR, US market (Car and Driver 1992 comparison test)",
+  "hp": 151,
+  "kg": 1995,
+  "kgNote": "",
+  "z60": {
+   "sec": 12.2,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": null,
+  "built": null,
+  "prev": {
+   "id": null,
+   "name": "Mitsubishi Pajero (first generation)"
+  },
+  "next": {
+   "id": null,
+   "name": "Mitsubishi Pajero (third generation)"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/1991_Mitsubishi_Pajero_2.5TD_Wagon_LWB,_front_right_(Bridgehampton).jpg/960px-1991_Mitsubishi_Pajero_2.5TD_Wagon_LWB,_front_right_(Bridgehampton).jpg",
    "pos": "",
@@ -671,6 +1533,27 @@ const CARS_INDEX = [
    "three-dials-and-a-swing-gate"
   ],
   "latest": "2026-08-14",
+  "drive": "Part-time four-wheel drive with low range (Torque On Demand from 1998)",
+  "gearbox": "5-speed manual or 4-speed automatic",
+  "specsFor": "1992 Isuzu Trooper LS, US market (Car and Driver 1992 comparison test)",
+  "hp": 190,
+  "kg": 1940,
+  "kgNote": "",
+  "z60": {
+   "sec": 10.5,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": null,
+  "built": null,
+  "prev": {
+   "id": null,
+   "name": "Isuzu Trooper (first generation)"
+  },
+  "next": {
+   "id": null,
+   "name": "Isuzu Axiom and Isuzu Ascender (US market)"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/1998_Isuzu_Trooper_DT_LWB_3.0_Front.jpg/960px-1998_Isuzu_Trooper_DT_LWB_3.0_Front.jpg",
    "pos": "",
@@ -698,6 +1581,24 @@ const CARS_INDEX = [
    "girls-know-best"
   ],
   "latest": "2026-06-17",
+  "drive": "Selectable four-wheel drive",
+  "gearbox": "4-speed manual or 3-speed automatic",
+  "specsFor": "1981-1987 Subaru BRAT, 1.8-liter EA-81, North American market",
+  "hp": 73,
+  "kg": 1000,
+  "kgNote": "",
+  "z60": null,
+  "top": null,
+  "built": {
+   "count": 100000,
+   "approx": true,
+   "note": "North American sales"
+  },
+  "prev": null,
+  "next": {
+   "id": null,
+   "name": "Subaru Baja (spiritual successor)"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Subaru_Brat_-_41322809685.jpg/960px-Subaru_Brat_-_41322809685.jpg",
    "pos": "",
@@ -721,6 +1622,35 @@ const CARS_INDEX = [
    "homage-by-accident"
   ],
   "latest": "2026-08-26",
+  "drive": "Rear-wheel drive",
+  "gearbox": "6-speed manual or 7-speed dual-clutch",
+  "specsFor": "2013 BMW 135is coupe, US market",
+  "hp": 320,
+  "kg": 1530,
+  "kgNote": "",
+  "z60": {
+   "sec": 4.9,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "top": {
+   "mph": 150,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": {
+   "count": 816,
+   "approx": true,
+   "note": ""
+  },
+  "prev": {
+   "id": "bmw-1m-coupe",
+   "name": "BMW 1 Series M Coupe"
+  },
+  "next": {
+   "id": null,
+   "name": "BMW M235i"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/2013_BMW_135is.jpg/960px-2013_BMW_135is.jpg",
    "pos": "",
@@ -747,6 +1677,32 @@ const CARS_INDEX = [
    "seventy-dollars-apart"
   ],
   "latest": "2026-08-26",
+  "drive": "Rear-wheel drive",
+  "gearbox": "6-speed manual",
+  "specsFor": "2011 BMW 1 Series M Coupe, US market",
+  "hp": 335,
+  "kg": 1495,
+  "kgNote": "",
+  "z60": {
+   "sec": 4.7,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "top": {
+   "mph": 155,
+   "kind": "claimed",
+   "note": "Maker's claim, limited"
+  },
+  "built": {
+   "count": 6309,
+   "approx": false,
+   "note": "worldwide, against an original plan for 2,700"
+  },
+  "prev": null,
+  "next": {
+   "id": null,
+   "name": "BMW M2 (F87)"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/BMW_1_Series_M_Coupe_(front_quarter).jpg/960px-BMW_1_Series_M_Coupe_(front_quarter).jpg",
    "pos": "",
@@ -773,6 +1729,32 @@ const CARS_INDEX = [
    "homage-by-accident"
   ],
   "latest": "2026-08-25",
+  "drive": "Rear-wheel drive",
+  "gearbox": "5-speed manual",
+  "specsFor": "2002 BMW Z3 M Coupe with the S54 engine, US market, Car and Driver test",
+  "hp": 315,
+  "kg": 1415,
+  "kgNote": "",
+  "z60": {
+   "sec": 4.8,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": {
+   "mph": 162,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "built": {
+   "count": 6291,
+   "approx": false,
+   "note": ""
+  },
+  "prev": null,
+  "next": {
+   "id": "bmw-z4-m-coupe",
+   "name": "BMW Z4 M Coupe"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/BMW_Z3_M_Coupe_Estoril_Blue.jpg/960px-BMW_Z3_M_Coupe_Estoril_Blue.jpg",
    "pos": "",
@@ -797,6 +1779,32 @@ const CARS_INDEX = [
    "when-the-engineers-won"
   ],
   "latest": "2026-08-14",
+  "drive": "Rear-wheel drive",
+  "gearbox": "6-speed manual",
+  "specsFor": "2007 BMW Z4 M Coupe, US market, Car and Driver test",
+  "hp": 330,
+  "kg": 1500,
+  "kgNote": "",
+  "z60": {
+   "sec": 4.8,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": {
+   "mph": 160,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "built": {
+   "count": 4581,
+   "approx": false,
+   "note": "worldwide"
+  },
+  "prev": {
+   "id": "bmw-z3-m-coupe",
+   "name": "BMW Z3 M Coupe"
+  },
+  "next": null,
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/2007_BMW_Z4_M_Coup%C3%A9_in_Monaco_Blue_Metallic,_front_left.jpg/960px-2007_BMW_Z4_M_Coup%C3%A9_in_Monaco_Blue_Metallic,_front_left.jpg",
    "pos": "",
@@ -821,6 +1829,31 @@ const CARS_INDEX = [
    "zenith-bmw-z4-35is"
   ],
   "latest": "2026-07-23",
+  "drive": "Rear-wheel drive",
+  "gearbox": "7-speed dual-clutch",
+  "specsFor": "2011 BMW Z4 sDrive35is (E89), US market",
+  "hp": 335,
+  "kg": 1515,
+  "kgNote": "",
+  "z60": {
+   "sec": 4.5,
+   "kind": "",
+   "note": "From our story"
+  },
+  "top": {
+   "mph": 155,
+   "kind": "claimed",
+   "note": "Maker's claim, limited"
+  },
+  "built": null,
+  "prev": {
+   "id": null,
+   "name": "BMW Z4 M Roadster (E85)"
+  },
+  "next": {
+   "id": null,
+   "name": "BMW Z4 M40i (G29)"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/BMW_Z4_sDrive35is.JPG/960px-BMW_Z4_sDrive35is.JPG",
    "pos": "",
@@ -843,6 +1876,32 @@ const CARS_INDEX = [
    "bmw-507"
   ],
   "latest": "2026-07-03",
+  "drive": "Rear-wheel drive",
+  "gearbox": "4-speed manual (ZF)",
+  "specsFor": "BMW 507, period specification",
+  "hp": 150,
+  "kg": 1330,
+  "kgNote": "",
+  "z60": {
+   "sec": 11,
+   "kind": "tested",
+   "note": "Road test"
+  },
+  "top": {
+   "mph": 124,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": {
+   "count": 252,
+   "approx": false,
+   "note": ""
+  },
+  "prev": null,
+  "next": {
+   "id": null,
+   "name": "BMW Z8 (spiritual successor)"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/BMW_507_Classic-Gala_2022_1X7A0187.jpg/960px-BMW_507_Classic-Gala_2022_1X7A0187.jpg",
    "pos": "",
@@ -869,6 +1928,29 @@ const CARS_INDEX = [
    "bright-idea"
   ],
   "latest": "2026-10-26",
+  "drive": "All-wheel drive (engine drives the rear, motor drives the front)",
+  "gearbox": "6-speed automatic (engine), 2-speed (electric motor)",
+  "specsFor": "2019-2020 BMW i8 Roadster, US market",
+  "hp": 369,
+  "kg": 1590,
+  "kgNote": "",
+  "z60": {
+   "sec": 4.4,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "top": {
+   "mph": 155,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": {
+   "count": 20465,
+   "approx": false,
+   "note": "16,581 coupes and 3,884 Roadsters"
+  },
+  "prev": null,
+  "next": null,
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/BMW_i8_Roadster,_GIMS_2018,_Le_Grand-Saconnex_(1X7A1877).jpg/960px-BMW_i8_Roadster,_GIMS_2018,_Le_Grand-Saconnex_(1X7A1877).jpg",
    "pos": "",
@@ -895,6 +1977,35 @@ const CARS_INDEX = [
    "how-porsche-became-volkswagens-problem-child"
   ],
   "latest": "2026-10-27",
+  "drive": "Rear-wheel drive (all-wheel drive on Carrera 4)",
+  "gearbox": "6-speed manual or 5-speed Tiptronic automatic",
+  "specsFor": "1998-2001 Porsche 911 Carrera (996.1) coupe, 3.4-liter, manual",
+  "hp": 296,
+  "kg": 1320,
+  "kgNote": "",
+  "z60": {
+   "sec": 5.2,
+   "kind": "claimed",
+   "note": "Maker's claim, 0-62 mph"
+  },
+  "top": {
+   "mph": 174,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": {
+   "count": 175262,
+   "approx": false,
+   "note": "all 996 variants, 1997-2005"
+  },
+  "prev": {
+   "id": null,
+   "name": "Porsche 911 (993)"
+  },
+  "next": {
+   "id": null,
+   "name": "Porsche 911 (997)"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Porsche_GH-99603_911_Carrera_(23052111445).jpg/960px-Porsche_GH-99603_911_Carrera_(23052111445).jpg",
    "pos": "",
@@ -918,6 +2029,31 @@ const CARS_INDEX = [
    "the-borrowed-crown"
   ],
   "latest": "2026-07-07",
+  "drive": "Rear-wheel drive",
+  "gearbox": "5-speed manual (915)",
+  "specsFor": "1979 Porsche 911 SC Targa, European specification (930/03 engine)",
+  "hp": 178,
+  "kg": 1210,
+  "kgNote": "",
+  "z60": {
+   "sec": 6.3,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "top": {
+   "mph": 141,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": null,
+  "prev": {
+   "id": null,
+   "name": "Porsche 911 Carrera 3.0"
+  },
+  "next": {
+   "id": null,
+   "name": "Porsche 911 Carrera 3.2"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/1982_Porsche_911_SC_Targa_in_Weinrot_Metallic,_Front_Right,_05-27-2023.jpg/960px-1982_Porsche_911_SC_Targa_in_Weinrot_Metallic,_Front_Right,_05-27-2023.jpg",
    "pos": "",
@@ -942,6 +2078,35 @@ const CARS_INDEX = [
    "spite-is-the-wrong-word"
   ],
   "latest": "2026-08-14",
+  "drive": "Rear-wheel drive (front engine, rear transaxle)",
+  "gearbox": "6-speed manual",
+  "specsFor": "1993 Porsche 968 Club Sport, European market",
+  "hp": 236,
+  "kg": 1320,
+  "kgNote": "",
+  "z60": {
+   "sec": 6.1,
+   "kind": "claimed",
+   "note": "Maker's claim, 0-62 mph"
+  },
+  "top": {
+   "mph": 158,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": {
+   "count": 1538,
+   "approx": true,
+   "note": ""
+  },
+  "prev": {
+   "id": null,
+   "name": "Porsche 944 S2"
+  },
+  "next": {
+   "id": null,
+   "name": "Porsche Boxster (986)"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/1993_Porsche_968_CS_in_Speedgelb,_front_right.jpg/960px-1993_Porsche_968_CS_in_Speedgelb,_front_right.jpg",
    "pos": "",
@@ -964,6 +2129,32 @@ const CARS_INDEX = [
    "auf-wiedersehen-928"
   ],
   "latest": "2026-08-14",
+  "drive": "Rear-wheel drive (front engine, rear transaxle)",
+  "gearbox": "5-speed manual or 4-speed automatic",
+  "specsFor": "1995 Porsche 928 GTS, US market (0-60 from Car and Driver's 1992 test of an automatic)",
+  "hp": 345,
+  "kg": 1620,
+  "kgNote": "",
+  "z60": {
+   "sec": 5.3,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": {
+   "mph": 171,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": {
+   "count": 2831,
+   "approx": false,
+   "note": "worldwide; some sources say 2,904; 406 sold in the US"
+  },
+  "prev": {
+   "id": null,
+   "name": "Porsche 928 S4 and 928 GT"
+  },
+  "next": null,
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Porsche_928_GTS_1X7A6513.jpg/960px-Porsche_928_GTS_1X7A6513.jpg",
    "pos": "",
@@ -989,6 +2180,31 @@ const CARS_INDEX = [
    "jaguar-mk2"
   ],
   "latest": "2026-04-20",
+  "drive": "Rear-wheel drive",
+  "gearbox": "4-speed manual with optional overdrive, or automatic",
+  "specsFor": "Jaguar Mark 2 3.8, 1959-1967",
+  "hp": 220,
+  "kg": 1525,
+  "kgNote": "",
+  "z60": null,
+  "top": {
+   "mph": 125,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": {
+   "count": 83701,
+   "approx": false,
+   "note": ""
+  },
+  "prev": {
+   "id": null,
+   "name": "Jaguar Mark 1 (2.4 and 3.4)"
+  },
+  "next": {
+   "id": null,
+   "name": "Jaguar 240 and 340"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Jaguar_Mark_2_3.8_Litre,_front_view.jpg/960px-Jaguar_Mark_2_3.8_Litre,_front_view.jpg",
    "pos": "",
@@ -1014,6 +2230,35 @@ const CARS_INDEX = [
    "nine-lives"
   ],
   "latest": "2026-05-20",
+  "drive": "Rear-wheel drive",
+  "gearbox": "4-speed manual (automatic offered on some later cars)",
+  "specsFor": "Jaguar E-Type Series 1 3.8, 1961 launch specification",
+  "hp": 265,
+  "kg": null,
+  "kgNote": "",
+  "z60": {
+   "sec": 7.1,
+   "kind": "tested",
+   "note": "Motor test"
+  },
+  "top": {
+   "mph": 150,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": {
+   "count": 70000,
+   "approx": true,
+   "note": ""
+  },
+  "prev": {
+   "id": null,
+   "name": "Jaguar XK150"
+  },
+  "next": {
+   "id": null,
+   "name": "Jaguar XJ-S"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Jaguar_E-Type_Flat_Floor_Roadster_850049_1961.jpg/960px-Jaguar_E-Type_Flat_Floor_Roadster_850049_1961.jpg",
    "pos": "",
@@ -1037,6 +2282,32 @@ const CARS_INDEX = [
    "it-replaced-jaguar"
   ],
   "latest": "2026-10-12",
+  "drive": "Rear-wheel drive (all-wheel drive on some later versions)",
+  "gearbox": "8-speed automatic (6-speed manual on some V6 cars)",
+  "specsFor": "2013 Jaguar F-Type V8 S convertible, launch specification",
+  "hp": 488,
+  "kg": 1665,
+  "kgNote": "",
+  "z60": {
+   "sec": 4.2,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "top": {
+   "mph": 186,
+   "kind": "claimed",
+   "note": "Maker's claim, limited"
+  },
+  "built": {
+   "count": 87731,
+   "approx": false,
+   "note": "all versions, coupe and convertible, 2013-2024"
+  },
+  "prev": {
+   "id": null,
+   "name": "Jaguar XK (X150)"
+  },
+  "next": null,
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/2020_Jaguar_F-Type_coupe.jpg/960px-2020_Jaguar_F-Type_coupe.jpg",
    "pos": "",
@@ -1060,6 +2331,35 @@ const CARS_INDEX = [
    "ghost-run"
   ],
   "latest": "2026-09-09",
+  "drive": "Rear-wheel drive",
+  "gearbox": "5-speed automatic (Mercedes-Benz W5A580)",
+  "specsFor": "2000 Jaguar XJR (X308), US market, as tested by Car and Driver, March 2000",
+  "hp": 370,
+  "kg": 1848,
+  "kgNote": "",
+  "z60": {
+   "sec": 5.3,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": {
+   "mph": 155,
+   "kind": "claimed",
+   "note": "Maker's claim, limited"
+  },
+  "built": {
+   "count": 15703,
+   "approx": false,
+   "note": "15,203 standard XJRs plus 500 XJR 100 limited editions"
+  },
+  "prev": {
+   "id": null,
+   "name": "Jaguar XJR (X300)"
+  },
+  "next": {
+   "id": "jaguar-xjr-x350",
+   "name": "Jaguar XJR (X350)"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Jaguar_XJR_X308_Racing_Green_Metallic.jpg/960px-Jaguar_XJR_X308_Racing_Green_Metallic.jpg",
    "pos": "",
@@ -1082,6 +2382,31 @@ const CARS_INDEX = [
    "mud-on-the-collar"
   ],
   "latest": "2026-09-09",
+  "drive": "Rear-wheel drive",
+  "gearbox": "6-speed automatic (ZF 6HP26)",
+  "specsFor": "2004 Jaguar XJR (X350), US market",
+  "hp": 390,
+  "kg": 1791,
+  "kgNote": "",
+  "z60": {
+   "sec": 4.8,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": {
+   "mph": 155,
+   "kind": "claimed",
+   "note": "Maker's claim, limited"
+  },
+  "built": null,
+  "prev": {
+   "id": "jaguar-xjr-x308",
+   "name": "Jaguar XJR (X308)"
+  },
+  "next": {
+   "id": null,
+   "name": "Jaguar XJ (X351)"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/2004_Jaguar_XJR_V8_S_C_Auto_(53586867472).jpg/960px-2004_Jaguar_XJR_V8_S_C_Auto_(53586867472).jpg",
    "pos": "",
@@ -1104,6 +2429,31 @@ const CARS_INDEX = [
    "tuxedo-and-smoking-jacket"
   ],
   "latest": "2026-07-23",
+  "drive": "Rear-wheel drive",
+  "gearbox": "5-speed automatic (6-speed from 2003)",
+  "specsFor": "1998-2002 Jaguar XKR coupe, 4.0-liter",
+  "hp": 370,
+  "kg": 1640,
+  "kgNote": "",
+  "z60": {
+   "sec": 5.2,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": {
+   "mph": 155,
+   "kind": "claimed",
+   "note": "Maker's claim, limited"
+  },
+  "built": null,
+  "prev": {
+   "id": null,
+   "name": "Jaguar XJ-S"
+  },
+  "next": {
+   "id": null,
+   "name": "Jaguar XKR (X150)"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/2002_Jaguar_XKR_Coupe_(8113541450).jpg/960px-2002_Jaguar_XKR_Coupe_(8113541450).jpg",
    "pos": "",
@@ -1129,6 +2479,31 @@ const CARS_INDEX = [
    "dealt-in"
   ],
   "latest": "2026-08-19",
+  "drive": "Rear-wheel drive",
+  "gearbox": "5-speed automatic (4-speed on early cars)",
+  "specsFor": "1996-1998 Mercedes-Benz SL500 (R129) with the M119 V8",
+  "hp": 315,
+  "kg": 1890,
+  "kgNote": "",
+  "z60": {
+   "sec": 6.3,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "top": {
+   "mph": 155,
+   "kind": "claimed",
+   "note": "Maker's claim, limited"
+  },
+  "built": null,
+  "prev": {
+   "id": null,
+   "name": "Mercedes-Benz 500 SL / 560 SL (R107)"
+  },
+  "next": {
+   "id": null,
+   "name": "Mercedes-Benz SL500 (R230)"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Mercedes-Benz_R129_500_SL_1X7A0335.jpg/960px-Mercedes-Benz_R129_500_SL_1X7A0335.jpg",
    "pos": "",
@@ -1151,6 +2526,31 @@ const CARS_INDEX = [
    "the-six-that-got-away"
   ],
   "latest": "2026-07-23",
+  "drive": "Rear-wheel drive",
+  "gearbox": "4- or 5-speed manual, or 4-speed automatic",
+  "specsFor": "Mercedes-Benz 280 SL (R107), European market, 185 PS version",
+  "hp": 182,
+  "kg": 1500,
+  "kgNote": "",
+  "z60": null,
+  "top": {
+   "mph": 127,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": {
+   "count": 25436,
+   "approx": false,
+   "note": "mb107.com's comparison table rounds this to 25,500"
+  },
+  "prev": {
+   "id": null,
+   "name": "Mercedes-Benz 280 SL (W113 'Pagoda')"
+  },
+  "next": {
+   "id": null,
+   "name": "Mercedes-Benz 300 SL (R107)"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Mercedes-Benz_280_SL_(R_107)_P6280184.jpg/960px-Mercedes-Benz_280_SL_(R_107)_P6280184.jpg",
    "pos": "",
@@ -1175,6 +2575,31 @@ const CARS_INDEX = [
    "grey-poupon"
   ],
   "latest": "2026-06-03",
+  "drive": "Rear-wheel drive",
+  "gearbox": "3-speed automatic (GM Turbo-Hydramatic)",
+  "specsFor": "Rolls-Royce Corniche Convertible, Series I (1971-1987)",
+  "hp": 218,
+  "kg": 2250,
+  "kgNote": "",
+  "z60": null,
+  "top": {
+   "mph": 120,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": {
+   "count": 5160,
+   "approx": true,
+   "note": ""
+  },
+  "prev": {
+   "id": null,
+   "name": "Rolls-Royce Silver Shadow Drophead Coupe (Mulliner Park Ward)"
+  },
+  "next": {
+   "id": null,
+   "name": "Rolls-Royce Corniche (2000-2002)"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Rolls-Royce_Corniche_Petersen_Automotive_Museum.jpg/960px-Rolls-Royce_Corniche_Petersen_Automotive_Museum.jpg",
    "pos": "",
@@ -1197,6 +2622,31 @@ const CARS_INDEX = [
    "the-other-german"
   ],
   "latest": "2026-08-18",
+  "drive": "Rear-wheel drive",
+  "gearbox": "7-speed dual-clutch automatic (rear-mounted transaxle)",
+  "specsFor": "2016 Mercedes-AMG GT S coupe, US market",
+  "hp": 503,
+  "kg": 1675,
+  "kgNote": "",
+  "z60": {
+   "sec": 3.7,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "top": {
+   "mph": 193,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": null,
+  "prev": {
+   "id": null,
+   "name": "Mercedes-Benz SLS AMG"
+  },
+  "next": {
+   "id": null,
+   "name": "Mercedes-AMG GT (second generation, C192)"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Blue_Mercedes-AMG_GT_S_(C190)_front.JPG/960px-Blue_Mercedes-AMG_GT_S_(C190)_front.JPG",
    "pos": "",
@@ -1216,9 +2666,40 @@ const CARS_INDEX = [
   "country": "United Kingdom",
   "quick": "A small fiberglass British roadster with a big Rover-based V8 and no driver aids at all, the Griffith remade TVR's reputation in the 1990s. Roughly the length of a Mazda MX-5, the 500 version offered a claimed 340 hp and asked for a careful right foot in return.",
   "articles": [
-   "the-long-way-for-crackers"
+   "the-long-way-for-crackers",
+   "the-assassin",
+   "the-one-nobody-saw-coming",
+   "the-art-of-making-an-entrance",
+   "the-family-man-with-a-criminal-record",
+   "shaken-not-rushed"
   ],
-  "latest": "2026-10-15",
+  "latest": "2026-11-18",
+  "drive": "Rear-wheel drive",
+  "gearbox": "5-speed manual",
+  "specsFor": "TVR Griffith 500, 1993-2002, TVR heritage figures",
+  "hp": 340,
+  "kg": 1060,
+  "kgNote": "",
+  "z60": {
+   "sec": 4.1,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "top": {
+   "mph": 169,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": {
+   "count": 2600,
+   "approx": true,
+   "note": "all versions, 1991-2002, by TVR's count"
+  },
+  "prev": null,
+  "next": {
+   "id": null,
+   "name": "TVR Tamora"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/W1400-TVR_Griffith500_V8-5L-340hp_1995_82306.JPG/960px-W1400-TVR_Griffith500_V8-5L-340hp_1995_82306.JPG",
    "pos": "",
@@ -1241,6 +2722,24 @@ const CARS_INDEX = [
    "daily-double"
   ],
   "latest": "2026-10-27",
+  "drive": "Rear-wheel drive",
+  "gearbox": "8-speed dual-clutch",
+  "specsFor": "2027 Corvette Grand Sport coupe, rear-wheel drive; weight and 0-60 from Edmunds' Z52 Sport Performance test car on Pilot Sport 4S tires",
+  "hp": 535,
+  "kg": 1714,
+  "kgNote": "",
+  "z60": {
+   "sec": 3.3,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": null,
+  "built": null,
+  "prev": {
+   "id": null,
+   "name": "Chevrolet Corvette Grand Sport (C7)"
+  },
+  "next": null,
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Chevrolet_Corvette_Grand_Sport_Coup%C3%A9_(C8,_2026)_(55208173086).jpg/960px-Chevrolet_Corvette_Grand_Sport_Coup%C3%A9_(C8,_2026)_(55208173086).jpg",
    "pos": "",
@@ -1265,6 +2764,32 @@ const CARS_INDEX = [
    "daily-double"
   ],
   "latest": "2026-10-27",
+  "drive": "Rear-wheel drive",
+  "gearbox": "7-speed dual-clutch",
+  "specsFor": "McLaren 12C coupe in 616-hp (625 PS) form: 2013 and 2014 model years, or an earlier car with the factory upgrade",
+  "hp": 616,
+  "kg": 1434,
+  "kgNote": "",
+  "z60": {
+   "sec": 3.0,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "top": {
+   "mph": 207,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": {
+   "count": 3400,
+   "approx": true,
+   "note": ""
+  },
+  "prev": null,
+  "next": {
+   "id": null,
+   "name": "McLaren 650S"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/2011_McLaren_MP4-12C_3.8_Front.jpg/960px-2011_McLaren_MP4-12C_3.8_Front.jpg",
    "pos": "",
@@ -1287,6 +2812,24 @@ const CARS_INDEX = [
    "all-for-one"
   ],
   "latest": "2026-07-23",
+  "drive": "Rear-wheel drive",
+  "gearbox": "6-speed manual",
+  "specsFor": "Second-generation Viper GTS with the American Club Racer (ACR) package, as set up for the article's 2002 comparison",
+  "hp": 460,
+  "kg": 1540,
+  "kgNote": "",
+  "z60": {
+   "sec": 4.0,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": null,
+  "built": null,
+  "prev": null,
+  "next": {
+   "id": null,
+   "name": "Dodge Viper SRT10 ACR"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Dodge_Viper_GTS_ACR_(2000)_(53799898010).jpg/960px-Dodge_Viper_GTS_ACR_(2000)_(53799898010).jpg",
    "pos": "",
@@ -1309,6 +2852,24 @@ const CARS_INDEX = [
    "all-for-one"
   ],
   "latest": "2026-07-23",
+  "drive": "Rear-wheel drive",
+  "gearbox": "6-speed manual",
+  "specsFor": "2000 Ford SVT Mustang Cobra R, US market",
+  "hp": 385,
+  "kg": 1630,
+  "kgNote": "",
+  "z60": null,
+  "top": null,
+  "built": {
+   "count": 300,
+   "approx": false,
+   "note": ""
+  },
+  "prev": {
+   "id": null,
+   "name": "Ford SVT Mustang Cobra R (1995)"
+  },
+  "next": null,
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/2000_Ford_Mustang_SVT_Cobra_R_in_Performance_Red,_Front_Left_(Hilton_Beach_2023).jpg/960px-2000_Ford_Mustang_SVT_Cobra_R_in_Performance_Red,_Front_Left_(Hilton_Beach_2023).jpg",
    "pos": "",
@@ -1331,6 +2892,24 @@ const CARS_INDEX = [
    "all-for-one"
   ],
   "latest": "2026-07-23",
+  "drive": "Rear-wheel drive",
+  "gearbox": "6-speed manual",
+  "specsFor": "2002 Chevrolet Corvette Z06, 405-hp LS6",
+  "hp": 405,
+  "kg": 1415,
+  "kgNote": "",
+  "z60": {
+   "sec": 4.2,
+   "kind": "tested",
+   "note": "MotorWeek test"
+  },
+  "top": null,
+  "built": null,
+  "prev": null,
+  "next": {
+   "id": null,
+   "name": "Chevrolet Corvette Z06 (C6)"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2003_Chevrolet_Corvette_Z06,_front_left,_09-09-2023.jpg/960px-2003_Chevrolet_Corvette_Z06,_front_left,_09-09-2023.jpg",
    "pos": "",
@@ -1353,6 +2932,23 @@ const CARS_INDEX = [
    "all-for-one"
   ],
   "latest": "2026-07-23",
+  "drive": "All-wheel drive",
+  "gearbox": "5-speed manual",
+  "specsFor": "Lancer Evolution VII GSR, Japanese market",
+  "hp": 276,
+  "kg": 1475,
+  "kgNote": "",
+  "z60": null,
+  "top": null,
+  "built": null,
+  "prev": {
+   "id": null,
+   "name": "Mitsubishi Lancer Evolution VI"
+  },
+  "next": {
+   "id": null,
+   "name": "Mitsubishi Lancer Evolution VIII"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/2002_Mitsubishi_Lancer_Evolution_VII_in_Palmer_Red,_Front_Left,_07-25-2023.jpg/960px-2002_Mitsubishi_Lancer_Evolution_VII_in_Palmer_Red,_Front_Left,_07-25-2023.jpg",
    "pos": "",
@@ -1376,6 +2972,21 @@ const CARS_INDEX = [
    "suspension-of-disbelief"
   ],
   "latest": "2026-09-02",
+  "drive": "Rear-wheel drive",
+  "gearbox": "4-speed manual",
+  "specsFor": "1965-69 Corvair Monza coupe, 110-hp engine, 4-speed manual (the article's recommended version)",
+  "hp": 110,
+  "kg": 1090,
+  "kgNote": "",
+  "z60": null,
+  "top": null,
+  "built": {
+   "count": 1659022,
+   "approx": false,
+   "note": ""
+  },
+  "prev": null,
+  "next": null,
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Chevrolet_Corvair,_Blenheim_Classics_Auto_Show,_Blenheim,_Ontario,_2025-06-21_01.jpg/960px-Chevrolet_Corvair,_Blenheim_Classics_Auto_Show,_Blenheim,_Ontario,_2025-06-21_01.jpg",
    "pos": "",
@@ -1398,6 +3009,31 @@ const CARS_INDEX = [
    "what-is-thy-bidding"
   ],
   "latest": "2026-09-11",
+  "drive": "Rear-wheel drive",
+  "gearbox": "8-speed automatic",
+  "specsFor": "2016 Cadillac CTS-V, Car and Driver instrumented test (July 2015)",
+  "hp": 640,
+  "kg": 1873,
+  "kgNote": "",
+  "z60": {
+   "sec": 3.6,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": {
+   "mph": 200,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": null,
+  "prev": {
+   "id": null,
+   "name": "Cadillac CTS-V (second generation)"
+  },
+  "next": {
+   "id": null,
+   "name": "Cadillac CT5-V Blackwing"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/2019_Cadillac_CTS-V_Base,_front_left.jpg/960px-2019_Cadillac_CTS-V_Base,_front_left.jpg",
    "pos": "",
@@ -1420,6 +3056,28 @@ const CARS_INDEX = [
    "last-light"
   ],
   "latest": "2026-10-01",
+  "drive": "Rear-wheel drive",
+  "gearbox": "5-speed manual",
+  "specsFor": "2007 Pontiac Solstice GXP roadster, 5-speed manual",
+  "hp": 260,
+  "kg": 1350,
+  "kgNote": "",
+  "z60": {
+   "sec": 5.8,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": null,
+  "built": {
+   "count": 65724,
+   "approx": false,
+   "note": "All Solstices, including 1,266 coupes"
+  },
+  "prev": {
+   "id": null,
+   "name": "Pontiac Fiero"
+  },
+  "next": null,
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/2007_Pontiac_Solstice_GXP,_front_left,_08-27-2023.jpg/960px-2007_Pontiac_Solstice_GXP,_front_left,_08-27-2023.jpg",
    "pos": "",
@@ -1445,6 +3103,25 @@ const CARS_INDEX = [
    "last-light"
   ],
   "latest": "2026-10-01",
+  "drive": "Rear-wheel drive",
+  "gearbox": "5-speed manual",
+  "specsFor": "2007 Saturn Sky Red Line, 5-speed manual",
+  "hp": 260,
+  "kg": 1395,
+  "kgNote": "",
+  "z60": {
+   "sec": 6.1,
+   "kind": "tested",
+   "note": "MotorWeek test"
+  },
+  "top": null,
+  "built": {
+   "count": 34415,
+   "approx": false,
+   "note": ""
+  },
+  "prev": null,
+  "next": null,
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/2008_Saturn_Sky_Redline_in_Bluestone,_front_left.jpg/960px-2008_Saturn_Sky_Redline_in_Bluestone,_front_left.jpg",
    "pos": "",
@@ -1467,6 +3144,28 @@ const CARS_INDEX = [
    "the-three-row-hot-rod"
   ],
   "latest": "2026-08-17",
+  "drive": "All-wheel drive",
+  "gearbox": "8-speed automatic",
+  "specsFor": "2021 Dodge Durango SRT Hellcat",
+  "hp": 710,
+  "kg": 2510,
+  "kgNote": "",
+  "z60": {
+   "sec": 3.5,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "top": {
+   "mph": 180,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": null,
+  "prev": {
+   "id": null,
+   "name": "Dodge Durango (second generation)"
+  },
+  "next": null,
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Dodge_Durango_SRT_Hellcat_MYLE_Festival_2025_DSC_9644.jpg/960px-Dodge_Durango_SRT_Hellcat_MYLE_Festival_2025_DSC_9644.jpg",
    "pos": "",
@@ -1499,6 +3198,35 @@ const CARS_INDEX = [
    "queen-of-the-road"
   ],
   "latest": "2026-10-26",
+  "drive": "Front-wheel drive",
+  "gearbox": "4-speed hydraulic semi-automatic, no clutch pedal",
+  "specsFor": "1955 Citroën DS 19 sedan, French market",
+  "hp": 74,
+  "kg": 1170,
+  "kgNote": "",
+  "z60": {
+   "sec": 23.2,
+   "kind": "tested",
+   "note": "Motor test"
+  },
+  "top": {
+   "mph": 87,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": {
+   "count": 1455746,
+   "approx": false,
+   "note": ""
+  },
+  "prev": {
+   "id": "citroen-traction-avant",
+   "name": "Citroën Traction Avant"
+  },
+  "next": {
+   "id": null,
+   "name": "Citroën CX"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Citroen_DS_Classic-Days_2022_IMG_7189.jpg/960px-Citroen_DS_Classic-Days_2022_IMG_7189.jpg",
    "pos": "",
@@ -1523,6 +3251,29 @@ const CARS_INDEX = [
    "bright-idea"
   ],
   "latest": "2026-10-26",
+  "drive": "Front-wheel drive",
+  "gearbox": "5-speed manual",
+  "specsFor": "1970 Citroën SM 2.7, carbureted, 5-speed manual, European market",
+  "hp": 168,
+  "kg": 1450,
+  "kgNote": "",
+  "z60": {
+   "sec": 8.5,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "top": {
+   "mph": 137,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": {
+   "count": 12920,
+   "approx": false,
+   "note": "All variants, 1970-1975; 12,924 is also seen"
+  },
+  "prev": null,
+  "next": null,
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/2013-05-04_(9591b)_Citro%C3%ABn_SM,_Bj._1973.JPG/960px-2013-05-04_(9591b)_Citro%C3%ABn_SM,_Bj._1973.JPG",
    "pos": "",
@@ -1554,6 +3305,35 @@ const CARS_INDEX = [
    "suspension-of-disbelief"
   ],
   "latest": "2026-09-02",
+  "drive": "Front-wheel drive",
+  "gearbox": "3-speed manual, lever through the dashboard",
+  "specsFor": "1951 Citroën Light Fifteen (Slough-built 11 Légère), UK market",
+  "hp": 56,
+  "kg": 1065,
+  "kgNote": "",
+  "z60": {
+   "sec": 29.7,
+   "kind": "tested",
+   "note": "Motor test"
+  },
+  "top": {
+   "mph": 72.6,
+   "kind": "tested",
+   "note": "Motor test"
+  },
+  "built": {
+   "count": 759111,
+   "approx": false,
+   "note": ""
+  },
+  "prev": {
+   "id": null,
+   "name": "Citroën Rosalie"
+  },
+  "next": {
+   "id": "citroen-ds",
+   "name": "Citroën DS (ID 19)"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Citroen_Traction_Avant_Classic-Gala_2021_1X7A0158.jpg/960px-Citroen_Traction_Avant_Classic-Gala_2021_1X7A0158.jpg",
    "pos": "",
@@ -1581,6 +3361,25 @@ const CARS_INDEX = [
    "industry-brief-2026-10-12"
   ],
   "latest": "2026-10-19",
+  "drive": "Front-wheel drive",
+  "gearbox": "4-speed manual",
+  "specsFor": "1949 Citroën 2CV (original Type A)",
+  "hp": 9,
+  "kg": 495,
+  "kgNote": "",
+  "z60": null,
+  "top": {
+   "mph": 40,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": {
+   "count": 5100000,
+   "approx": true,
+   "note": "About 5.1 million cars and vans, 1949-1990"
+  },
+  "prev": null,
+  "next": null,
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/2025-05-01_Muensingen_Citroen_2CV6_front-side.jpg/960px-2025-05-01_Muensingen_Citroen_2CV6_front-side.jpg",
    "pos": "",
@@ -1608,6 +3407,32 @@ const CARS_INDEX = [
    "the-little-red-elephant"
   ],
   "latest": "2026-07-26",
+  "drive": "Permanent all-wheel drive",
+  "gearbox": "5-speed manual",
+  "specsFor": "1993 Lancia Delta HF Integrale Evoluzione II",
+  "hp": 215,
+  "kg": 1340,
+  "kgNote": "",
+  "z60": {
+   "sec": 5.7,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "top": {
+   "mph": 137,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": {
+   "count": 44296,
+   "approx": false,
+   "note": ""
+  },
+  "prev": {
+   "id": null,
+   "name": "Lancia Delta HF 4WD"
+  },
+  "next": null,
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/1992_Lancia_Delta_Integrale_Evoluzione_in_Black_Mica,_front_right.jpg/960px-1992_Lancia_Delta_Integrale_Evoluzione_in_Black_Mica,_front_right.jpg",
    "pos": "",
@@ -1632,6 +3457,32 @@ const CARS_INDEX = [
    "the-one-and-only"
   ],
   "latest": "2026-09-08",
+  "drive": "Front-wheel drive",
+  "gearbox": "4-speed manual (5-speed from 1977)",
+  "specsFor": "1976 Volkswagen Golf GTI 1.6, European market",
+  "hp": 108,
+  "kg": 840,
+  "kgNote": "",
+  "z60": {
+   "sec": 9.0,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "top": {
+   "mph": 113,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": {
+   "count": 461690,
+   "approx": false,
+   "note": "All Mk1 GTIs, 1976-1983; Volkswagen had authorized 5,000"
+  },
+  "prev": null,
+  "next": {
+   "id": null,
+   "name": "Volkswagen Golf GTI (Mk2)"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/1979_Volkswagen_Golf_GTi_1.6_Front.jpg/960px-1979_Volkswagen_Golf_GTi_1.6_Front.jpg",
    "pos": "",
@@ -1656,6 +3507,35 @@ const CARS_INDEX = [
    "the-one-and-only"
   ],
   "latest": "2026-09-08",
+  "drive": "Front-wheel drive",
+  "gearbox": "6-speed manual or 6-speed DSG dual-clutch",
+  "specsFor": "2005 Volkswagen Golf GTI (Mk5) 2.0 TFSI, 6-speed manual, European market",
+  "hp": 197,
+  "kg": 1335,
+  "kgNote": "",
+  "z60": {
+   "sec": 7.2,
+   "kind": "claimed",
+   "note": "Maker's claim, 0-62 mph"
+  },
+  "top": {
+   "mph": 146,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": {
+   "count": 181000,
+   "approx": true,
+   "note": ""
+  },
+  "prev": {
+   "id": null,
+   "name": "Volkswagen Golf GTI (Mk4)"
+  },
+  "next": {
+   "id": null,
+   "name": "Volkswagen Golf GTI (Mk6)"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/2005_Volkswagen_Golf_GTi_2.0_Front.jpg/960px-2005_Volkswagen_Golf_GTi_2.0_Front.jpg",
    "pos": "",
@@ -1682,6 +3562,27 @@ const CARS_INDEX = [
    "one-wheel-drive"
   ],
   "latest": "2026-07-23",
+  "drive": "Rear-wheel drive",
+  "gearbox": "Manual with overdrive, or automatic, by year and market",
+  "specsFor": "1993 Volvo 240, US market, 2.3-liter B230F, automatic",
+  "hp": 114,
+  "kg": 1325,
+  "kgNote": "",
+  "z60": null,
+  "top": null,
+  "built": {
+   "count": 2685171,
+   "approx": false,
+   "note": ""
+  },
+  "prev": {
+   "id": null,
+   "name": "Volvo 140 series"
+  },
+  "next": {
+   "id": null,
+   "name": "Volvo 940"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Volvo_244_1982.jpg/960px-Volvo_244_1982.jpg",
    "pos": "",
@@ -1706,6 +3607,28 @@ const CARS_INDEX = [
    "black-swan-allroad"
   ],
   "latest": "2026-06-30",
+  "drive": "Permanent all-wheel drive (quattro)",
+  "gearbox": "6-speed manual or 5-speed Tiptronic automatic",
+  "specsFor": "2002 Audi allroad quattro 2.7T, US market",
+  "hp": 250,
+  "kg": 1890,
+  "kgNote": "",
+  "z60": {
+   "sec": 6.8,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "top": {
+   "mph": 145,
+   "kind": "claimed",
+   "note": "Maker's claim, limited"
+  },
+  "built": null,
+  "prev": null,
+  "next": {
+   "id": null,
+   "name": "Audi A6 allroad quattro (C6)"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Audi_allroad_quattro_I_20090321_front.jpg/960px-Audi_allroad_quattro_I_20090321_front.jpg",
    "pos": "",
@@ -1728,6 +3651,29 @@ const CARS_INDEX = [
    "dying-star"
   ],
   "latest": "2026-08-21",
+  "drive": "All-wheel drive (engine drives the front wheels, electric motors the rear)",
+  "gearbox": "8-speed automatic (front axle)",
+  "specsFor": "2020 Polestar 1, US market",
+  "hp": 619,
+  "kg": 2345,
+  "kgNote": "",
+  "z60": {
+   "sec": 3.7,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": {
+   "mph": 155,
+   "kind": "claimed",
+   "note": "Maker's claim, limited"
+  },
+  "built": {
+   "count": 1500,
+   "approx": false,
+   "note": ""
+  },
+  "prev": null,
+  "next": null,
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/2021_Polestar_1_in_Magnesium,_front_left.jpg/960px-2021_Polestar_1_in_Magnesium,_front_left.jpg",
    "pos": "",
@@ -1751,6 +3697,20 @@ const CARS_INDEX = [
    "the-segment-america-never-got"
   ],
   "latest": "2026-08-18",
+  "drive": "Full-time four-wheel drive with automatic 4A mode, lockable high and low range",
+  "gearbox": "10-speed automatic",
+  "specsFor": "Ford Everest Tremor 3.0 V6 turbodiesel, Australian and South African market",
+  "hp": 247,
+  "kg": 2550,
+  "kgNote": "",
+  "z60": null,
+  "top": null,
+  "built": null,
+  "prev": {
+   "id": null,
+   "name": "Ford Everest (second generation, 2015-2022)"
+  },
+  "next": null,
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/2022_Ford_Everest_2.0_Bi-Turbo_Titanium%2B_4x4_in_Arctic_White,_front_right.jpg/960px-2022_Ford_Everest_2.0_Bi-Turbo_Titanium%2B_4x4_in_Arctic_White,_front_right.jpg",
    "pos": "",
@@ -1773,6 +3733,35 @@ const CARS_INDEX = [
    "it-was-always-trying-to-kill-you"
   ],
   "latest": "2026-09-14",
+  "drive": "Rear-wheel drive",
+  "gearbox": "5-speed manual with dog-leg first",
+  "specsFor": "1996 Lamborghini Diablo SV, factory figures",
+  "hp": 503,
+  "kg": 1576,
+  "kgNote": "",
+  "z60": {
+   "sec": 3.7,
+   "kind": "tested",
+   "note": "Motor Trend test"
+  },
+  "top": {
+   "mph": 204,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": {
+   "count": 346,
+   "approx": true,
+   "note": ""
+  },
+  "prev": {
+   "id": null,
+   "name": "Lamborghini Countach"
+  },
+  "next": {
+   "id": null,
+   "name": "Lamborghini Murciélago"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/1998_Lamborghini_Diablo_SV_Yellow_Supercarfest.jpg/960px-1998_Lamborghini_Diablo_SV_Yellow_Supercarfest.jpg",
    "pos": "",
@@ -1795,6 +3784,32 @@ const CARS_INDEX = [
    "twelve-angry-cylinders"
   ],
   "latest": "2026-07-23",
+  "drive": "Rear-wheel drive, 1 engine per rear wheel, no differential",
+  "gearbox": "2 5-speed motorcycle gearboxes, 1 lever",
+  "specsFor": "1982 Sbarro Super Twelve, the one-off shown at Geneva in March 1982",
+  "hp": 240,
+  "kg": 800,
+  "kgNote": "",
+  "z60": {
+   "sec": 5.0,
+   "kind": "claimed",
+   "note": "Maker's claim, 0-62 mph"
+  },
+  "top": {
+   "mph": 125,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": {
+   "count": 1,
+   "approx": false,
+   "note": "one-off"
+  },
+  "prev": null,
+  "next": {
+   "id": "sbarro-super-eight",
+   "name": "Sbarro Super Eight"
+  },
   "photo": {
    "card": "/assets/images/cars/sbarro-super-twelve.jpg",
    "pos": "",
@@ -1817,6 +3832,24 @@ const CARS_INDEX = [
    "twelve-angry-cylinders"
   ],
   "latest": "2026-07-23",
+  "drive": "Rear-wheel drive, mid-engined",
+  "gearbox": "Ferrari 5-speed manual transaxle, dogleg gate",
+  "specsFor": "1984 Sbarro Super Eight, the one-off shown at Geneva in March 1984",
+  "hp": 240,
+  "kg": 800,
+  "kgNote": "",
+  "z60": null,
+  "top": null,
+  "built": {
+   "count": 1,
+   "approx": false,
+   "note": "one-off"
+  },
+  "prev": {
+   "id": "sbarro-super-twelve",
+   "name": "Sbarro Super Twelve"
+  },
+  "next": null,
   "photo": {
    "card": "/assets/images/cars/sbarro-super-eight.jpg",
    "pos": "center bottom",
@@ -1839,6 +3872,25 @@ const CARS_INDEX = [
    "release-the-hounds"
   ],
   "latest": "2026-09-08",
+  "drive": "Part-time four-wheel drive",
+  "gearbox": "4- or 5-speed manual, or automatic",
+  "specsFor": "Sbarro Windhound brochure car (Mercedes 280 GE-based, 2.8-liter inline-6); weight and top speed are the range figures for the whole run",
+  "hp": 156,
+  "kg": 1850,
+  "kgNote": "",
+  "z60": null,
+  "top": {
+   "mph": 112,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": {
+   "count": 14,
+   "approx": false,
+   "note": ""
+  },
+  "prev": null,
+  "next": null,
   "photo": {
    "card": "/assets/images/cars/sbarro-windhound.jpg",
    "pos": "center 72%",
@@ -1861,6 +3913,25 @@ const CARS_INDEX = [
    "frankenstein-monster-g"
   ],
   "latest": "2026-06-13",
+  "drive": "Four-wheel drive",
+  "gearbox": "",
+  "specsFor": "1987 Sbarro Monster G, the one-off built for Thomas Gehrig",
+  "hp": 350,
+  "kg": null,
+  "kgNote": "",
+  "z60": null,
+  "top": {
+   "mph": 130,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": {
+   "count": 1,
+   "approx": false,
+   "note": "'Modèle unique' per the Calvet archive"
+  },
+  "prev": null,
+  "next": null,
   "photo": {
    "card": "/assets/images/cars/sbarro-monster-g.jpg",
    "pos": "center 55%",
@@ -1887,6 +3958,21 @@ const CARS_INDEX = [
    "topless-beach"
   ],
   "latest": "2026-04-28",
+  "drive": "Rear-wheel drive",
+  "gearbox": "5-speed manual",
+  "specsFor": "1976 Felber Beach Car, chassis 16017, on its 1972 European-spec 365 GTC/4 drivetrain",
+  "hp": 340,
+  "kg": null,
+  "kgNote": "",
+  "z60": null,
+  "top": null,
+  "built": {
+   "count": 1,
+   "approx": false,
+   "note": "one-off, chassis 16017"
+  },
+  "prev": null,
+  "next": null,
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/1976_Ferrari_365_GTC-4_Beach_Car_by_Michelotti.jpg/960px-1976_Ferrari_365_GTC-4_Beach_Car_by_Michelotti.jpg",
    "pos": "",

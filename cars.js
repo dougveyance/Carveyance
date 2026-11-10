@@ -73,8 +73,8 @@ const CARS = [
     },
     "built": null,
     "predecessor": {
-      "name": "Lotus Evora 400",
-      "id": "lotus-evora"
+      "name": "Lotus Evora GT430 Sport",
+      "id": "lotus-evora-gt430-sport"
     },
     "successor": {
       "name": "Lotus Emira",
@@ -228,17 +228,312 @@ const CARS = [
     ]
   },
   {
+    "aka": [],
+    "make": "Lotus",
+    "maker": "Lotus",
+    "country": "United Kingdom",
+    "drive": "Rear-wheel drive",
+    "built": null,
+    "articles": [
+      "simplify-then-add-soul"
+    ],
+    "photo": {},
+    "id": "lotus-evora-s",
+    "name": "Lotus Evora S",
+    "years": "2010–2014",
+    "start": 2010,
+    "end": 2014,
+    "body": "2+2 coupe",
+    "engine": "3.5-liter supercharged V6",
+    "gearbox": "6-speed manual (IPS automatic optional)",
+    "specsFor": "2010 Lotus Evora S, 6-speed manual, Lotus's launch figures",
+    "power": {
+      "hp": 345,
+      "note": "350 PS",
+      "src": "https://en.wikipedia.org/wiki/Lotus_Evora"
+    },
+    "weight": {
+      "kg": 1437,
+      "note": "Lotus's figure",
+      "src": "https://www.lotuscars.com/en/lotus-story/road-cars/evora"
+    },
+    "zero60": {
+      "sec": 4.6,
+      "kind": "claimed",
+      "note": "Maker's claim",
+      "src": "https://en.wikipedia.org/wiki/Lotus_Evora"
+    },
+    "top": {
+      "mph": 172,
+      "kind": "claimed",
+      "note": "Maker's claim",
+      "src": "https://en.wikipedia.org/wiki/Lotus_Evora"
+    },
+    "predecessor": {
+      "name": "Lotus Evora",
+      "id": "lotus-evora"
+    },
+    "successor": {
+      "name": "Lotus Evora 400",
+      "id": "lotus-evora-400"
+    },
+    "quick": "The Evora with a supercharger. For 2010 Lotus took the Toyota V6 from 276 hp to 345 hp and gave the S revised suspension, larger brakes and a rear spoiler of its own, and it was the quick Evora until the 400 replaced it in 2015.",
+    "story": [
+      "The original Evora was praised for its steering and its ride. The S was about speed. Lotus kept the same 3.5-liter Toyota V6, added a supercharger and got 345 hp (350 PS) and 400 Nm (295 lb-ft), and it quoted 4.6 seconds to 60 mph and 172 mph. The S came in both road and track editions.",
+      "The changes went beyond the engine. The S got revised suspension, larger brakes and its own rear spoiler, and Lotus put its weight at 1,437 kg (3,168 lb). In 2015 the Evora 400 replaced both the S and the naturally aspirated car."
+    ],
+    "match": [
+      "Lotus Evora S"
+    ]
+  },
+  {
+    "id": "lotus-evora-400",
+    "name": "Lotus Evora 400",
+    "aka": [],
+    "make": "Lotus",
+    "maker": "Lotus",
+    "country": "United Kingdom",
+    "years": "2015–2021",
+    "start": 2015,
+    "end": 2021,
+    "body": "2+2 coupe",
+    "engine": "3.5-liter supercharged V6",
+    "drive": "Rear-wheel drive",
+    "gearbox": "6-speed manual (6-speed automatic optional)",
+    "specsFor": "2015 Lotus Evora 400, 6-speed manual, Lotus's launch figures",
+    "power": {
+      "hp": 400,
+      "note": "406 PS",
+      "src": "https://www.autoblog.com/news/lotus-evora-400-official"
+    },
+    "weight": {
+      "kg": 1415,
+      "note": "unladen, Lotus's figure",
+      "src": "https://www.autoblog.com/news/lotus-evora-400-official"
+    },
+    "zero60": {
+      "sec": 4.1,
+      "kind": "claimed",
+      "note": "Maker's claim",
+      "src": "https://www.autoblog.com/news/lotus-evora-400-official"
+    },
+    "top": {
+      "mph": 186,
+      "kind": "claimed",
+      "note": "Maker's claim",
+      "src": "https://www.autoblog.com/news/lotus-evora-400-official"
+    },
+    "built": null,
+    "predecessor": {
+      "name": "Lotus Evora S",
+      "id": "lotus-evora-s"
+    },
+    "successor": {
+      "name": "Lotus Evora Sport 410",
+      "id": "lotus-evora-sport-410"
+    },
+    "quick": "The Evora reworked into something harder and faster. Lotus said more than two-thirds of it was new, the supercharged V6 rose to 400 hp, a limited-slip differential came standard with the manual, and it was the most powerful production Lotus yet when it arrived in 2015.",
+    "story": [
+      "Lotus revealed the Evora 400 at the 2015 Geneva show, and the name was the headline. The supercharged 3.5-liter Toyota V6 went from the Evora S's 345 hp to 400 hp (406 PS), with torque up to 410 Nm (302 lb-ft), making it the most powerful production Lotus to that point. Lotus said more than two-thirds of the car was new, and the weight fell by 22 kg to 1,415 kg (3,120 lb) unladen. The claims were 4.1 seconds to 60 mph and 186 mph flat out.",
+      "The changes that mattered most were harder to fit in a brochure. A limited-slip differential came standard with the manual gearbox, and Lotus said the 400 lapped its Hethel test track 6 seconds faster than the car it replaced. It was also the Evora that reopened the American market, and it set the pattern that the Sport 410, the GT430 and finally the US-market Evora GT would keep sharpening until the Emira took over."
+    ],
+    "articles": [
+      "simplify-then-add-soul"
+    ],
+    "photo": {},
+    "match": [
+      "Lotus Evora 400"
+    ]
+  },
+  {
+    "aka": [
+      "Lotus Evora GT410 Sport",
+      "Lotus Evora GT410"
+    ],
+    "make": "Lotus",
+    "maker": "Lotus",
+    "country": "United Kingdom",
+    "drive": "Rear-wheel drive",
+    "built": null,
+    "articles": [
+      "simplify-then-add-soul"
+    ],
+    "photo": {},
+    "id": "lotus-evora-sport-410",
+    "name": "Lotus Evora Sport 410",
+    "years": "2016–2021",
+    "start": 2016,
+    "end": 2021,
+    "body": "2-seat or 2+2 coupe",
+    "engine": "3.5-liter supercharged V6",
+    "gearbox": "6-speed manual (6-speed automatic optional)",
+    "specsFor": "2016 Lotus Evora Sport 410, 6-speed manual, Lotus's figures",
+    "power": {
+      "hp": 410,
+      "note": "416 PS",
+      "src": "https://en.wikipedia.org/wiki/Lotus_Evora"
+    },
+    "weight": {
+      "kg": 1325,
+      "note": "Lotus's figure",
+      "src": "https://en.wikipedia.org/wiki/Lotus_Evora"
+    },
+    "zero60": {
+      "sec": 3.9,
+      "kind": "claimed",
+      "note": "Maker's claim",
+      "src": "https://en.wikipedia.org/wiki/Lotus_Evora"
+    },
+    "top": {
+      "mph": 190,
+      "kind": "claimed",
+      "note": "Maker's claim, manual",
+      "src": "https://en.wikipedia.org/wiki/Lotus_Evora"
+    },
+    "predecessor": {
+      "name": "Lotus Evora 400",
+      "id": "lotus-evora-400"
+    },
+    "successor": {
+      "name": "Lotus Evora GT430",
+      "id": "lotus-evora-gt430"
+    },
+    "quick": "The lighter, sharper Evora. Unveiled at Geneva in 2016 with carbon-fiber body parts and 410 hp, it became the GT410 Sport for Lotus's 70th anniversary and later the softer GT410, the forms in which the 410 hp Evora ran to the end.",
+    "story": [
+      "Lotus unveiled the Sport 410 at the 2016 Geneva show as the 400 with the fat trimmed off. Carbon-fiber body parts helped bring the weight to 1,325 kg (2,921 lb) by Lotus's figure, and the supercharged V6 rose to 410 hp (416 PS) with 420 Nm (310 lb-ft). The claims were 3.9 seconds to 60 mph and 190 mph with the manual gearbox, or 174 mph with the automatic.",
+      "For Lotus's 70th anniversary it became the GT410 Sport, lighter again at 1,297 kg (2,859 lb), and the GT410 followed as the softer, more road-focused version, offered with 2 seats or 4. Both kept the 410 hp V6 until the Evora's run ended in 2021."
+    ],
+    "match": [
+      "Lotus Evora Sport 410",
+      "Lotus Evora GT410",
+      "Lotus Evora GT410 Sport"
+    ]
+  },
+  {
+    "aka": [],
+    "make": "Lotus",
+    "maker": "Lotus",
+    "country": "United Kingdom",
+    "drive": "Rear-wheel drive",
+    "built": null,
+    "articles": [
+      "simplify-then-add-soul"
+    ],
+    "photo": {},
+    "id": "lotus-evora-gt430",
+    "name": "Lotus Evora GT430",
+    "years": "2017–2018",
+    "start": 2017,
+    "end": 2018,
+    "body": "Coupe",
+    "engine": "3.5-liter supercharged V6",
+    "gearbox": "6-speed manual (6-speed automatic optional)",
+    "specsFor": "2017 Lotus Evora GT430, 6-speed manual, Lotus's figures",
+    "power": {
+      "hp": 430,
+      "note": "436 PS",
+      "src": "https://en.wikipedia.org/wiki/Lotus_Evora"
+    },
+    "weight": {
+      "kg": 1258,
+      "note": "dry, Lotus's figure",
+      "src": "https://www.lotuscars.com/en/lotus-story/road-cars/evora"
+    },
+    "zero60": {
+      "sec": 3.7,
+      "kind": "claimed",
+      "note": "Maker's claim",
+      "src": "https://en.wikipedia.org/wiki/Lotus_Evora"
+    },
+    "top": {
+      "mph": 190,
+      "kind": "claimed",
+      "note": "Maker's claim, manual",
+      "src": "https://en.wikipedia.org/wiki/Lotus_Evora"
+    },
+    "predecessor": {
+      "name": "Lotus Evora Sport 410",
+      "id": "lotus-evora-sport-410"
+    },
+    "successor": {
+      "name": "Lotus Evora GT430 Sport",
+      "id": "lotus-evora-gt430-sport"
+    },
+    "quick": "The most extreme Evora. Lotus planned just 60, gave them 430 hp, a dry weight of 1,258 kg and bodywork that could make up to 250 kg of downforce, and called it the most powerful road car it had built to that point.",
+    "story": [
+      "Revealed in 2017, the GT430 took what Lotus had learned with the Sport 410 and pushed further. The supercharged V6 made 430 hp (436 PS) and 441 Nm (325 lb-ft) with the manual, the dry weight fell to 1,258 kg (2,773 lb), and the bodywork, wing included, could make up to 250 kg of downforce at top speed. Lotus quoted 3.7 seconds to 60 mph and 190 mph.",
+      "Only 60 were planned. Later in 2017 Lotus added the GT430 Sport, which dropped the big rear wing for less drag and a claimed 196 mph, and Lotus called it the fastest production Lotus yet. In America, the Evora story ended with the GT."
+    ],
+    "match": [
+      "Lotus Evora GT430"
+    ]
+  },
+  {
+    "id": "lotus-evora-gt430-sport",
+    "name": "Lotus Evora GT430 Sport",
+    "aka": [],
+    "make": "Lotus",
+    "maker": "Lotus",
+    "country": "United Kingdom",
+    "years": "2017–2018",
+    "start": 2017,
+    "end": 2018,
+    "body": "Coupe",
+    "engine": "3.5-liter supercharged V6",
+    "drive": "Rear-wheel drive",
+    "gearbox": "6-speed manual (6-speed automatic optional)",
+    "specsFor": "2017 Lotus Evora GT430 Sport, 6-speed manual, Lotus's figures",
+    "power": {
+      "hp": 430,
+      "note": "436 PS",
+      "src": "https://en.wikipedia.org/wiki/Lotus_Evora"
+    },
+    "weight": {
+      "kg": 1248,
+      "note": "dry, Lotus's figure",
+      "src": "https://www.lotuscars.com/en/lotus-story/road-cars/evora"
+    },
+    "zero60": null,
+    "top": {
+      "mph": 196,
+      "kind": "claimed",
+      "note": "Maker's claim, manual",
+      "src": "https://www.lotuscars.com/en/lotus-story/road-cars/evora"
+    },
+    "built": null,
+    "predecessor": {
+      "name": "Lotus Evora GT430",
+      "id": "lotus-evora-gt430"
+    },
+    "successor": {
+      "name": "Lotus Evora GT",
+      "id": "lotus-evora-gt"
+    },
+    "quick": "The GT430 without the wing. Lotus took off the big rear wing to cut drag, kept the 430 hp V6, quoted a dry weight of 1,248 kg and 196 mph, and called it the fastest production Lotus yet.",
+    "story": [
+      "Later in 2017 Lotus added a second GT430. The Sport kept the same 430 hp (436 PS) supercharged V6 but dropped the tall rear wing, giving up some downforce for less drag. Lotus put its dry weight at 1,248 kg (2,751 lb), about 345 hp per metric ton by its own count, and quoted 196 mph with the manual gearbox, or 174 mph with the automatic.",
+      "That made it, by Lotus's own reckoning, the fastest production Lotus built to that point. Where the wing on the standard GT430 was about lap times, the Sport was about long, fast roads."
+    ],
+    "articles": [
+      "simplify-then-add-soul"
+    ],
+    "photo": {},
+    "match": [
+      "Lotus Evora GT430 Sport"
+    ]
+  },
+  {
     "id": "lotus-evora",
     "name": "Lotus Evora",
     "aka": [],
     "make": "Lotus",
     "maker": "Lotus",
     "country": "United Kingdom",
-    "years": "2009–2021",
+    "years": "2009–2014",
     "start": 2009,
-    "end": 2021,
+    "end": 2014,
     "body": "2+2 coupe",
-    "engine": "3.5-liter V6 (naturally aspirated; supercharged from the Evora S)",
+    "engine": "3.5-liter V6 (naturally aspirated)",
     "drive": "Rear-wheel drive",
     "gearbox": "6-speed manual (IPS automatic optional later)",
     "specsFor": "2009 Lotus Evora, naturally aspirated, 6-speed manual",
@@ -272,10 +567,10 @@ const CARS = [
     },
     "predecessor": null,
     "successor": {
-      "name": "Lotus Emira",
-      "id": null
+      "name": "Lotus Evora S",
+      "id": "lotus-evora-s"
     },
-    "quick": "Lotus's bid to build a grown-up car that still felt like a Lotus: a mid-engined 2+2 grand tourer with room for luggage, real comfort and a Toyota V6, built at Hethel from 2009 to 2021. It survived its maker's near-collapse, improved almost every year, and earned a reputation for some of the finest steering and ride quality of its era.",
+    "quick": "Lotus's bid to build a grown-up car that still felt like a Lotus: a mid-engined 2+2 grand tourer with room for luggage, real comfort and a Toyota V6, and the first of a line Lotus built at Hethel until 2021. The line survived its maker's near-collapse, improved almost every year, and earned a reputation for some of the finest steering and ride quality of its era.",
     "story": [
       "Lotus had always excelled at leaving things out, so a refined, practical 2+2 was an awkward assignment. Project Eagle went from clean sheet to show stand in about 27 months and kept the company's essentials intact: a bonded-aluminum tub, double wishbones at every corner and hydraulic power steering at a time when the industry was abandoning it. The engine came from Toyota, a 3.5-liter V6 better known for moving Camrys, which Lotus retuned thoroughly. The original naturally aspirated car made 276 hp and weighed about 1,350 kg (2,976 lb).",
       "When Lotus nearly collapsed around it after its lavish expansion plans of 2010 fell apart, the Evora carried the brand through while being sharpened: a supercharged S, the 400 that reopened the American market, the lighter Sport 410, the brutal GT430 and finally the US-market GT. Only 6,117 were built, and buyers mostly walked past it toward Porsche showrooms. Those who drove one came away talking about steering that seems to transmit the texture of every surface, a ride that smothers bad pavement and a chassis that signals its limits well before reaching them. The Emira that replaced it is more polished. Plenty of enthusiasts still prefer the Evora."

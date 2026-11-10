@@ -19,10 +19,14 @@
    top        mph, kind, note.   built: count, approx (true = "about")
    src        "article:<slug>" or the full web address of the source
    predecessor / successor   name, and id if that car is in the Index
+   alongside  optional list of same-generation cars (name, and id if in
+              the Index), shown as "Alongside" in the family tree
    quick      2-3 sentences under the name.  story: the paragraphs.
    articles   the Carveyance stories ABOUT this car (slugs). Other
               stories that mention it are found automatically through
               "match": the vehicle names used in articles.js.
+   seeAlso    optional: other stories (slugs) to show on its page when
+              their vehicle tags are too general to match safely.
    photo      file is the Wikimedia Commons file name; credit, license
               and licenseUrl are shown under the photo; pos moves the
               crop (e.g. "center 60%"); fit "contain" shows the whole
@@ -161,7 +165,17 @@ const CARS = [
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "pos": ""
     },
-    "match": []
+    "match": [],
+    "seeAlso": [
+      "the-art-of-making-an-entrance",
+      "the-assassin"
+    ],
+    "alongside": [
+      {
+        "name": "Porsche 911 (996)",
+        "id": "porsche-911-996"
+      }
+    ]
   },
   {
     "id": "audi-r8-v8",
@@ -660,7 +674,14 @@ const CARS = [
       "pos": ""
     },
     "match": [
-      "Lotus Esprit Sport 300"
+      "Lotus Esprit Sport 300",
+      "Lotus Esprit"
+    ],
+    "alongside": [
+      {
+        "name": "Lotus Esprit S4S",
+        "id": "lotus-esprit-s4s"
+      }
     ]
   },
   {
@@ -730,7 +751,14 @@ const CARS = [
       "pos": ""
     },
     "match": [
-      "Lotus Esprit S4S"
+      "Lotus Esprit S4S",
+      "Lotus Esprit"
+    ],
+    "alongside": [
+      {
+        "name": "Lotus Esprit Sport 300",
+        "id": "lotus-esprit-sport-300"
+      }
     ]
   },
   {
@@ -797,7 +825,8 @@ const CARS = [
       "pos": ""
     },
     "match": [
-      "Lotus Esprit V8"
+      "Lotus Esprit V8",
+      "Lotus Esprit"
     ]
   },
   {
@@ -870,6 +899,64 @@ const CARS = [
     ]
   },
   {
+    "aka": [
+      "Mazda Savanna RX-7 (SA22C)"
+    ],
+    "country": "Japan",
+    "drive": "Rear-wheel drive",
+    "built": {
+      "count": 471018,
+      "approx": false,
+      "note": "all first-generation RX-7s, 1978-1985",
+      "src": "https://en.wikipedia.org/wiki/Mazda_RX-7"
+    },
+    "weight": {
+      "kg": 1098,
+      "note": "about",
+      "src": "article:the-middle-child"
+    },
+    "top": null,
+    "zero60": {
+      "sec": 9.2,
+      "kind": "tested",
+      "note": "Period figure",
+      "src": "https://en.wikipedia.org/wiki/Mazda_RX-7"
+    },
+    "photo": {},
+    "id": "mazda-rx-7-fb",
+    "name": "Mazda RX-7 (FB)",
+    "make": "Mazda",
+    "maker": "Mazda",
+    "years": "1978–1985",
+    "start": 1978,
+    "end": 1985,
+    "body": "Two-seat hatchback coupe",
+    "engine": "1.1-liter two-rotor rotary (12A); fuel-injected 1.3-liter 13B in the 1984-85 GSL-SE",
+    "gearbox": "Manual or automatic",
+    "specsFor": "Mazda RX-7 with the 12A rotary, North American market",
+    "power": {
+      "hp": 100,
+      "note": "12A rotary",
+      "src": "https://en.wikipedia.org/wiki/Mazda_RX-7"
+    },
+    "predecessor": null,
+    "successor": {
+      "name": "Mazda RX-7 (FC)",
+      "id": "mazda-rx-7-fc"
+    },
+    "quick": "The wedge that started it all. Light, simple and powered by a tiny rotary, the first RX-7 went racing straight away and won, taking the top 2 places in its class at Daytona in 1979 and the Spa 24 Hours outright in 1981.",
+    "story": [
+      "Mazda launched the RX-7 in 1978 as a light, simple sports car built around a 1.1-liter two-rotor 12A rotary. North American cars were rated at 100 hp, the car weighed about 1,098 kg (2,420 lb), and period figures put 0-60 mph at about 9.2 seconds. Mazda designer Yasuji Oda later described its body as rough-hewn, like a child that had not grown up yet, and yet completely distinctive.",
+      "It went racing at once. In its first IMSA GTU season in 1979, RX-7s finished first and second in class at the 24 Hours of Daytona and took the championship, and in 1981 a Tom Walkinshaw Racing car won the Spa 24 Hours outright. Mazda built 471,018 of them, and the last, the 1984-85 GSL-SE, used a fuel-injected 1.3-liter 13B with 135 hp."
+    ],
+    "articles": [],
+    "match": [
+      "Mazda RX-7 SA22C",
+      "Mazda RX-7 FB",
+      "Mazda Savanna RX-7 SA22C"
+    ]
+  },
+  {
     "id": "mazda-rx-7-fd",
     "name": "Mazda RX-7 (FD)",
     "aka": [
@@ -933,7 +1020,8 @@ const CARS = [
       "pos": ""
     },
     "match": [
-      "Mazda RX-7 FD"
+      "Mazda RX-7 FD",
+      "Mazda RX-7"
     ]
   },
   {
@@ -977,8 +1065,8 @@ const CARS = [
       "src": "https://en.wikipedia.org/wiki/Mazda_RX-7"
     },
     "predecessor": {
-      "name": "Mazda RX-7 (first generation, SA/FB)",
-      "id": null
+      "name": "Mazda RX-7 (FB)",
+      "id": "mazda-rx-7-fb"
     },
     "successor": {
       "name": "Mazda RX-7 (FD)",
@@ -1000,7 +1088,8 @@ const CARS = [
       "pos": ""
     },
     "match": [
-      "Mazda Savanna RX-7"
+      "Mazda Savanna RX-7",
+      "Mazda RX-7"
     ]
   },
   {
@@ -1644,6 +1733,12 @@ const CARS = [
       "Mitsubishi 3000GT Spyder",
       "Mitsubishi 3000GT VR-4",
       "Mitsubishi GTO"
+    ],
+    "alongside": [
+      {
+        "name": "Dodge Stealth",
+        "id": "dodge-stealth"
+      }
     ]
   },
   {
@@ -1694,6 +1789,12 @@ const CARS = [
     },
     "match": [
       "Dodge Stealth"
+    ],
+    "alongside": [
+      {
+        "name": "Mitsubishi 3000GT",
+        "id": "mitsubishi-3000gt"
+      }
     ]
   },
   {
@@ -1829,7 +1930,8 @@ const CARS = [
       "pos": ""
     },
     "match": [
-      "Ford Probe GT"
+      "Ford Probe GT",
+      "Ford Probe"
     ]
   },
   {
@@ -2472,7 +2574,10 @@ const CARS = [
       "name": "BMW Z3 M Coupe",
       "id": "bmw-z3-m-coupe"
     },
-    "successor": null,
+    "successor": {
+      "name": "BMW Z4 sDrive35is",
+      "id": "bmw-z4-sdrive35is"
+    },
     "quick": "The second, more serious attempt at a small M coupe, with a fastback roof, the 330-hp S54 straight-six, a 6-speed manual and hydraulic steering. It is quicker, stiffer and more composed than the Z3 version, and rarer too.",
     "story": [
       "Where the Z3 M Coupe was a happy accident, the Z4 version arrived looking like it meant every crease. Its roof runs into a fastback tail that finally makes sense of the long hood, giving it a tauter, more resolved profile than the Z4 roadster it shares a nose with. Underneath sat the high-revving S54 from the E46 M3, now with a sixth gear, a multi-link rear axle, a variable locking differential and brakes drawn from the most focused E46 M3s. Crucially, it kept hydraulic power steering while ordinary Z4s switched to electric.",
@@ -2533,8 +2638,8 @@ const CARS = [
     },
     "built": null,
     "predecessor": {
-      "name": "BMW Z4 M Roadster (E85)",
-      "id": null
+      "name": "BMW Z4 M Coupe",
+      "id": "bmw-z4-m-coupe"
     },
     "successor": {
       "name": "BMW Z4 M40i (G29)",
@@ -2765,6 +2870,12 @@ const CARS = [
     "match": [
       "Porsche 996",
       "Porsche 996 GT3"
+    ],
+    "alongside": [
+      {
+        "name": "Porsche 911 GT3 (996)",
+        "id": "porsche-911-gt3-996"
+      }
     ]
   },
   {
@@ -2967,7 +3078,8 @@ const CARS = [
       "pos": ""
     },
     "match": [
-      "Porsche 928 GTS"
+      "Porsche 928 GTS",
+      "Porsche 928"
     ]
   },
   {
@@ -3410,8 +3522,8 @@ const CARS = [
     },
     "built": null,
     "predecessor": {
-      "name": "Mercedes-Benz 500 SL / 560 SL (R107)",
-      "id": null
+      "name": "Mercedes-Benz 280 SL (R107)",
+      "id": "mercedes-benz-280-sl-r107"
     },
     "successor": {
       "name": "Mercedes-Benz SL500 (R230)",
@@ -3479,8 +3591,8 @@ const CARS = [
       "id": null
     },
     "successor": {
-      "name": "Mercedes-Benz 300 SL (R107)",
-      "id": null
+      "name": "Mercedes-Benz SL500 (R129)",
+      "id": "mercedes-benz-sl500-r129"
     },
     "quick": "The 6-cylinder European version of Mercedes-Benz's long-lived R107 roadster, never sold new in America. Free of federal bumpers and lighter on its feet than the big V8 SLs, it trades straight-line shove for a sweeter, more alert drive.",
     "story": [
@@ -3672,8 +3784,8 @@ const CARS = [
     },
     "predecessor": null,
     "successor": {
-      "name": "TVR Tamora",
-      "id": null
+      "name": "TVR Chimaera",
+      "id": "tvr-chimaera"
     },
     "quick": "A small fiberglass British roadster with a big Rover-based V8 and no driver aids at all, the Griffith remade TVR's reputation in the 1990s. Roughly the length of a Mazda MX-5, the 500 version offered a claimed 340 hp and asked for a careful right foot in return.",
     "story": [
@@ -3692,6 +3804,328 @@ const CARS = [
     },
     "match": [
       "TVR Griffith"
+    ]
+  },
+  {
+    "aka": [],
+    "country": "United Kingdom",
+    "drive": "Rear-wheel drive",
+    "built": {
+      "count": 6000,
+      "approx": true,
+      "note": "more than 6,000 of all versions, TVR's best seller",
+      "src": "article:shaken-not-rushed"
+    },
+    "weight": {
+      "kg": 1060,
+      "note": "TVR's claim",
+      "src": "article:shaken-not-rushed"
+    },
+    "top": {
+      "mph": 160,
+      "kind": "claimed",
+      "note": "TVR's claim",
+      "src": "article:shaken-not-rushed"
+    },
+    "zero60": {
+      "sec": 4.7,
+      "kind": "claimed",
+      "note": "TVR's claim",
+      "src": "article:shaken-not-rushed"
+    },
+    "photo": {},
+    "make": "TVR",
+    "maker": "TVR",
+    "gearbox": "5-speed manual",
+    "id": "tvr-chimaera",
+    "name": "TVR Chimaera",
+    "years": "1992–2003",
+    "start": 1992,
+    "end": 2003,
+    "body": "Two-seat convertible",
+    "engine": "Rover-based V8, 4.0 to 5.0 liters",
+    "specsFor": "TVR Chimaera 450, TVR owner's handbook figures",
+    "power": {
+      "hp": 285,
+      "note": "4.5-liter V8",
+      "src": "article:shaken-not-rushed"
+    },
+    "predecessor": {
+      "name": "TVR Griffith",
+      "id": "tvr-griffith"
+    },
+    "successor": {
+      "name": "TVR Cerbera",
+      "id": "tvr-cerbera"
+    },
+    "quick": "The spy on holiday: dressed for dinner, packed for the Riviera and carrying a V8 it would rather not have to use. Softer and more practical than the Griffith, with a trunk for 2 golf bags, it became the TVR people kept and the company's best seller.",
+    "story": [
+      "The Chimaera arrived in 1992 as the grand tourer of the family. TVR changed the tailoring rather than the recipe: the tail grew, almost all of the extra length went into a trunk that Autocar reckoned would take 2 golf bags, and the ride softened, with Bilstein dampers and a rear anti-roll bar. Part of its face is credited to Peter Wheeler's German pointer, Ned, who took a bite out of the polystyrene styling model.",
+      "The 450 made 285 hp from a 4.5-liter Rover-based V8 and, by TVR's claim, reached 60 mph in 4.7 seconds and 160 mph, with no ABS and no traction control. More than 6,000 were built, making it TVR's best-selling car."
+    ],
+    "articles": [
+      "shaken-not-rushed"
+    ],
+    "match": [
+      "TVR Chimaera",
+      "TVR Chimaera 400",
+      "TVR Chimaera 450",
+      "TVR Chimaera 500"
+    ]
+  },
+  {
+    "aka": [],
+    "country": "United Kingdom",
+    "drive": "Rear-wheel drive",
+    "built": {
+      "count": 1490,
+      "approx": false,
+      "note": "all versions",
+      "src": "article:the-family-man-with-a-criminal-record"
+    },
+    "weight": {
+      "kg": 1100,
+      "note": "TVR's figure",
+      "src": "article:the-family-man-with-a-criminal-record"
+    },
+    "top": {
+      "mph": 195,
+      "kind": "claimed",
+      "note": "TVR's claim",
+      "src": "article:the-family-man-with-a-criminal-record"
+    },
+    "zero60": {
+      "sec": 3.9,
+      "kind": "claimed",
+      "note": "TVR's claim",
+      "src": "article:the-family-man-with-a-criminal-record"
+    },
+    "photo": {},
+    "make": "TVR",
+    "maker": "TVR",
+    "gearbox": "5-speed manual",
+    "id": "tvr-cerbera",
+    "name": "TVR Cerbera",
+    "years": "1996–2004",
+    "start": 1996,
+    "end": 2004,
+    "body": "2+2 coupe",
+    "engine": "4.2- or 4.5-liter AJP V8 with a flat-plane crank (4.0-liter Speed Six also offered)",
+    "specsFor": "TVR Cerbera 4.5, from 1997, TVR figures",
+    "power": {
+      "hp": 420,
+      "note": "4.5-liter AJP V8",
+      "src": "article:the-family-man-with-a-criminal-record"
+    },
+    "predecessor": {
+      "name": "TVR Chimaera",
+      "id": "tvr-chimaera"
+    },
+    "successor": {
+      "name": "TVR Tuscan",
+      "id": "tvr-tuscan"
+    },
+    "quick": "The sleeper. A 2+2 with rear seats for 2 children and the first engine TVR designed and built itself, a flat-plane V8 that could out-accelerate cars costing far more. Family, opera, then it ruins your evening at a stoplight.",
+    "story": [
+      "TVR stretched the wheelbase of the Griffith and Chimaera by 280 mm to make room for rear seats meant mainly for children, and even offered child seats trimmed to match the cabin. With BMW's purchase of Rover threatening its engine supply, TVR built its own: the AJP8, a lightweight, all-aluminum 75-degree V8 with a flat-plane crank, which it raced in its own Tuscan Challenge before customers got one.",
+      "The 4.2 arrived with about 360 bhp, the 4.5 made 420 hp, and by TVR's claim it reached 60 mph in 3.9 seconds. A 4.0-liter Speed Six joined in 1999, and the 4.5 Red Rose claimed up to 440 bhp. TVR let the Cerbera go at the end of 2004 after a little short of 1,500 cars."
+    ],
+    "articles": [
+      "the-family-man-with-a-criminal-record"
+    ],
+    "match": [
+      "TVR Cerbera"
+    ]
+  },
+  {
+    "aka": [
+      "TVR Tuscan Speed Six"
+    ],
+    "country": "United Kingdom",
+    "drive": "Rear-wheel drive",
+    "built": null,
+    "weight": {
+      "kg": 1100,
+      "note": "about, TVR's figure",
+      "src": "article:the-art-of-making-an-entrance"
+    },
+    "top": {
+      "mph": 195,
+      "kind": "claimed",
+      "note": "TVR's claim",
+      "src": "article:the-art-of-making-an-entrance"
+    },
+    "zero60": {
+      "sec": 3.9,
+      "kind": "claimed",
+      "note": "TVR's claim",
+      "src": "article:the-art-of-making-an-entrance"
+    },
+    "photo": {},
+    "make": "TVR",
+    "maker": "TVR",
+    "gearbox": "5-speed manual",
+    "id": "tvr-tuscan",
+    "name": "TVR Tuscan",
+    "years": "1999–2006",
+    "start": 1999,
+    "end": 2006,
+    "body": "Two-seat targa coupe (convertible from 2004)",
+    "engine": "3.6- or 4.0-liter Speed Six straight-six",
+    "specsFor": "TVR Tuscan Mk1 4.0, 1999, TVR's claims",
+    "power": {
+      "hp": 360,
+      "note": "4.0-liter Speed Six",
+      "src": "article:the-art-of-making-an-entrance"
+    },
+    "predecessor": {
+      "name": "TVR Cerbera",
+      "id": "tvr-cerbera"
+    },
+    "successor": {
+      "name": "TVR Tamora",
+      "id": "tvr-tamora"
+    },
+    "quick": "The showman. Chameleon paint, a face of stacked lights and a removable roof, with the performance to back up the show. More than 850 people ordered one at its 1998 debut, and the Tuscan S went after the Porsche 911 GT3 and Ferrari 360.",
+    "story": [
+      "The Tuscan made its debut at the Birmingham Motor Show in 1998 wearing TVR's color-shifting chameleon paint, and more than 850 customers ordered one. Underneath sat TVR's own Speed Six straight-six, an engine so close to a racing unit that it nearly broke the company. The 4.0-liter made 360 bhp and, by TVR's claim, 0-60 mph in 3.9 seconds and 195 mph.",
+      "It was meant to be usable, too: a removable roof panel and a lift-out rear window gave you a snug coupe, open air or something close to a roadster. The Tuscan S of 2001 made 390 bhp, and the better-behaved Mk2 of 2004 added a convertible, but only about 160 Mk2s were built against roughly 1,600 of the first."
+    ],
+    "articles": [
+      "the-art-of-making-an-entrance"
+    ],
+    "match": [
+      "TVR Tuscan",
+      "TVR Tuscan Speed Six",
+      "TVR Tuscan S",
+      "TVR Tuscan Red Rose",
+      "TVR Tuscan Mk2"
+    ]
+  },
+  {
+    "aka": [],
+    "country": "United Kingdom",
+    "drive": "Rear-wheel drive",
+    "built": {
+      "count": 356,
+      "approx": true,
+      "note": "2002 to 2006",
+      "src": "article:the-one-nobody-saw-coming"
+    },
+    "weight": {
+      "kg": 1050,
+      "note": "by evo",
+      "src": "article:the-one-nobody-saw-coming"
+    },
+    "top": {
+      "mph": 160,
+      "kind": "claimed",
+      "note": "About, claimed",
+      "src": "article:the-one-nobody-saw-coming"
+    },
+    "zero60": {
+      "sec": 4.4,
+      "kind": "claimed",
+      "note": "TVR's claim",
+      "src": "article:the-one-nobody-saw-coming"
+    },
+    "photo": {},
+    "make": "TVR",
+    "maker": "TVR",
+    "gearbox": "5-speed manual",
+    "id": "tvr-tamora",
+    "name": "TVR Tamora",
+    "years": "2002–2006",
+    "start": 2002,
+    "end": 2006,
+    "body": "Two-seat roadster with removable roof panel",
+    "engine": "3.6-liter Speed Six straight-six",
+    "specsFor": "TVR Tamora 3.6, period figures",
+    "power": {
+      "hp": 350,
+      "note": "",
+      "src": "article:the-one-nobody-saw-coming"
+    },
+    "predecessor": {
+      "name": "TVR Tuscan",
+      "id": "tvr-tuscan"
+    },
+    "successor": {
+      "name": "TVR Sagaris",
+      "id": "tvr-sagaris"
+    },
+    "quick": "The weekend escape artist. A 350 bhp straight-six roadster with no ABS and no traction control, barely longer than a Griffith, that made TVR performance feel natural, and was overlooked so completely that only about 356 were built.",
+    "story": [
+      "The Tamora was built to take on the Porsche Boxster and Mercedes SLK, and judged against the Lotus Elise. It shared the Tuscan's wheelbase but cut the overhangs back hard at both ends, so at 3,925 mm (154.5 in) it was barely longer than a Griffith. TVR's 3.6-liter Speed Six made 350 bhp at 7,200 rpm, and by TVR's claim it reached 60 mph in 4.4 seconds.",
+      "It was the TVR you could live with, almost, and the T350 coupe was built on it. Buyers expected spectacle and the Tamora's best qualities only showed once you drove it, so it sold barely 1 for every 15 Chimaeras. It stayed in production until the Blackpool factory closed in December 2006."
+    ],
+    "articles": [
+      "the-one-nobody-saw-coming"
+    ],
+    "match": [
+      "TVR Tamora",
+      "TVR T350"
+    ]
+  },
+  {
+    "aka": [],
+    "country": "United Kingdom",
+    "drive": "Rear-wheel drive",
+    "built": {
+      "count": 211,
+      "approx": false,
+      "note": "2004 to 2006",
+      "src": "article:the-assassin"
+    },
+    "weight": {
+      "kg": 1078,
+      "note": "TVR's claim",
+      "src": "article:the-assassin"
+    },
+    "top": {
+      "mph": 185,
+      "kind": "claimed",
+      "note": "More than 185 mph, TVR's claim",
+      "src": "article:the-assassin"
+    },
+    "zero60": {
+      "sec": 3.7,
+      "kind": "claimed",
+      "note": "TVR's claim",
+      "src": "article:the-assassin"
+    },
+    "photo": {},
+    "make": "TVR",
+    "maker": "TVR",
+    "gearbox": "5-speed manual with limited-slip differential",
+    "id": "tvr-sagaris",
+    "name": "TVR Sagaris",
+    "years": "2004–2006",
+    "start": 2004,
+    "end": 2006,
+    "body": "Two-seat coupe",
+    "engine": "4.0-liter Speed Six straight-six",
+    "specsFor": "TVR Sagaris, TVR's 2005 press release",
+    "power": {
+      "hp": 406,
+      "note": "",
+      "src": "article:the-assassin"
+    },
+    "predecessor": {
+      "name": "TVR Tamora",
+      "id": "tvr-tamora"
+    },
+    "successor": null,
+    "quick": "The assassin, here for one thing and you're it. Slashes and vents that did real work, a 406 bhp Speed Six, a built-in roll cage and only 211 made before the Blackpool factory closed. The best way a company could have gone out.",
+    "story": [
+      "The Sagaris took the T350 coupe and went to war with it. Its slashed fenders and hood vents were not theater, and its integral FIA roll cage came standard. TVR's 4.0-liter Speed Six made 406 bhp, and the company claimed 0-60 mph in 3.7 seconds and more than 185 mph from a car weighing 1,078 kg (2,377 lb).",
+      "In July 2004 TVR was sold to Nikolai Smolenski, and the Blackpool factory closed in 2006. Only 211 Sagaris were built. It was the ultimate expression of Blackpool's rebellion, and it arrived just in time to say goodbye."
+    ],
+    "articles": [
+      "the-assassin"
+    ],
+    "match": [
+      "TVR Sagaris"
     ]
   },
   {
@@ -3875,7 +4309,8 @@ const CARS = [
       "pos": ""
     },
     "match": [
-      "Dodge Viper GTS ACR"
+      "Dodge Viper GTS ACR",
+      "Dodge Viper GTS"
     ]
   },
   {
@@ -4220,6 +4655,12 @@ const CARS = [
     },
     "match": [
       "Pontiac Solstice"
+    ],
+    "alongside": [
+      {
+        "name": "Saturn Sky",
+        "id": "saturn-sky"
+      }
     ]
   },
   {
@@ -4284,6 +4725,12 @@ const CARS = [
       "Daewoo G2X",
       "Opel GT",
       "Saturn Sky"
+    ],
+    "alongside": [
+      {
+        "name": "Pontiac Solstice",
+        "id": "pontiac-solstice"
+      }
     ]
   },
   {
@@ -4420,6 +4867,12 @@ const CARS = [
     },
     "match": [
       "Citroën DS"
+    ],
+    "alongside": [
+      {
+        "name": "Citroën SM",
+        "id": "citroen-sm"
+      }
     ]
   },
   {
@@ -4485,6 +4938,12 @@ const CARS = [
     },
     "match": [
       "Citroën SM"
+    ],
+    "alongside": [
+      {
+        "name": "Citroën DS",
+        "id": "citroen-ds"
+      }
     ]
   },
   {
@@ -4698,6 +5157,62 @@ const CARS = [
     "match": [
       "Lancia Delta HF Integrale",
       "Lancia Delta Integrale"
+    ],
+    "seeAlso": [
+      "the-little-red-elephant"
+    ]
+  },
+  {
+    "aka": [
+      "Lancia Fulvia HF",
+      "Fulvia 1.6 HF Fanalone"
+    ],
+    "country": "Italy",
+    "drive": "Front-wheel drive",
+    "built": null,
+    "weight": {
+      "kg": 850,
+      "note": "around",
+      "src": "article:the-little-red-elephant"
+    },
+    "top": null,
+    "zero60": null,
+    "photo": {},
+    "id": "lancia-fulvia-hf",
+    "name": "Lancia Fulvia Coupé HF",
+    "make": "Lancia",
+    "maker": "Lancia",
+    "years": "1966–1970",
+    "start": 1966,
+    "end": 1970,
+    "body": "Two-door coupe",
+    "engine": "Narrow-angle V4, 1.2 to 1.6 liters",
+    "gearbox": "Manual",
+    "specsFor": "1969 Lancia Fulvia 1.6 HF 'Fanalone', road car",
+    "power": {
+      "hp": 113,
+      "note": "1.6-liter V4",
+      "src": "article:the-little-red-elephant"
+    },
+    "predecessor": null,
+    "successor": {
+      "name": "Lancia Stratos HF",
+      "id": null
+    },
+    "quick": "The car that turned two letters and a red elephant into a threat. A light, front-wheel-drive coupe with a narrow-angle V4, it carried the HF badge into production in 1966 and won the Monte Carlo Rally in 1972.",
+    "story": [
+      "Piero Castagnero designed the Fulvia Coupé in 1965, and the HF version stripped it for competition: bumpers deleted, aluminum hood, doors and trunk lid, bare steel wheels and a tuned 1,216 cc V4 making 88 hp. Only 435 were built in 1966 and 1967. The 1.3 HF followed with flared arches and 101 hp, and then the 1.6 HF of 1969, the Fanalone, named for its oversized inner headlamps, with 113 hp on the road at around 850 kg.",
+      "In January 1972 Sandro Munari and Mario Mannucci won the Monte Carlo Rally by more than 10 minutes over a much more powerful Porsche 911, and Lancia took the International Championship for Manufacturers with 2 rounds to spare. It was the start of the HF line that ran through the Stratos and the 037 to the Delta HF Integrale."
+    ],
+    "articles": [
+      "the-little-red-elephant"
+    ],
+    "match": [
+      "Lancia Fulvia HF",
+      "Lancia Fulvia Coupé HF"
+    ],
+    "seeAlso": [
+      "the-king-was-italian"
     ]
   },
   {
@@ -4748,7 +5263,7 @@ const CARS = [
     "predecessor": null,
     "successor": {
       "name": "Volkswagen Golf GTI (Mk2)",
-      "id": null
+      "id": "volkswagen-golf-gti-mk2"
     },
     "quick": "The car that made the fast family hatchback a category of its own, plotted as an unofficial side project by a handful of Volkswagen staff. With 108 hp and only about 840 kg (1,850 lb) to carry, it could embarrass costlier sports cars and still handle the weekly shopping, and a planned run of 5,000 grew to 461,690.",
     "story": [
@@ -4767,6 +5282,159 @@ const CARS = [
     },
     "match": [
       "Volkswagen Golf GTI Mk1"
+    ]
+  },
+  {
+    "aka": [],
+    "country": "Germany",
+    "drive": "Front-wheel drive",
+    "built": null,
+    "weight": null,
+    "top": {
+      "mph": 130,
+      "kind": "claimed",
+      "note": "Maker's claim",
+      "src": "article:the-one-and-only"
+    },
+    "zero60": {
+      "sec": 8.9,
+      "kind": "claimed",
+      "note": "Maker's claim, 0-62 mph",
+      "src": "article:the-one-and-only"
+    },
+    "photo": {},
+    "id": "volkswagen-golf-gti-mk2",
+    "name": "Volkswagen Golf GTI (Mk2)",
+    "make": "Volkswagen",
+    "maker": "Volkswagen",
+    "years": "1984–1992",
+    "start": 1984,
+    "end": 1992,
+    "body": "Three- or five-door hatchback",
+    "engine": "1.8-liter inline-4 (8-valve; 16-valve from 1986)",
+    "gearbox": "5-speed manual",
+    "specsFor": "1986 Volkswagen Golf GTI 16V, uncatalyzed, European market",
+    "power": {
+      "hp": 137,
+      "note": "16-valve, without a catalytic converter",
+      "src": "article:the-one-and-only"
+    },
+    "predecessor": {
+      "name": "Volkswagen Golf GTI (Mk1)",
+      "id": "volkswagen-golf-gti-mk1"
+    },
+    "successor": {
+      "name": "Volkswagen Golf GTI (Mk3)",
+      "id": "volkswagen-golf-gti-mk3"
+    },
+    "quick": "The GTI that went to the gym. Bigger, more solid and better built than the Mk1, it kept Giugiaro's lines under broader shoulders, gained a 16-valve engine in 1986, and is the shape many people picture when they hear the name.",
+    "story": [
+      "The Mk2 arrived in 1984 with the same 110 PS and the same idea in a bigger, tougher body: 7 inches longer, 3 more inches of wheelbase and about 265 pounds heavier. Flush glass and integrated gutters cut drag from 0.42 to 0.34, which is why it is quiet at 70 mph where the Mk1 shouts. The 16-valve of 1986 brought 137 hp, 0-62 mph in 8.9 seconds and 130 mph, and the supercharged G60 that came late in its life made 158 hp.",
+      "It was built in a new, robot-heavy plant, and the solidity shows in how the doors shut. The cabin is the ergonomic high point of the whole run, and the plain, upright shape wears aftermarket wheels better than almost any car ever made. Hagerty put the Mk2 on its 2026 Bull Market list, and a clean 16-valve is the smart buy among the old GTIs."
+    ],
+    "articles": [
+      "the-one-and-only"
+    ],
+    "match": [
+      "Volkswagen Golf GTI Mk2"
+    ]
+  },
+  {
+    "aka": [],
+    "country": "Germany",
+    "drive": "Front-wheel drive",
+    "built": null,
+    "weight": null,
+    "top": null,
+    "zero60": {
+      "sec": 8.8,
+      "kind": "claimed",
+      "note": "Factory figure",
+      "src": "article:the-one-and-only"
+    },
+    "photo": {},
+    "id": "volkswagen-golf-gti-mk3",
+    "name": "Volkswagen Golf GTI (Mk3)",
+    "make": "Volkswagen",
+    "maker": "Volkswagen",
+    "years": "1991–1997",
+    "start": 1991,
+    "end": 1997,
+    "body": "Three- or five-door hatchback",
+    "engine": "2.0-liter inline-4 (8-valve or 16-valve)",
+    "gearbox": "5-speed manual",
+    "specsFor": "Volkswagen Golf GTI 16V (2.0-liter), European market",
+    "power": {
+      "hp": 148,
+      "note": "16-valve",
+      "src": "article:the-one-and-only"
+    },
+    "predecessor": {
+      "name": "Volkswagen Golf GTI (Mk2)",
+      "id": "volkswagen-golf-gti-mk2"
+    },
+    "successor": {
+      "name": "Volkswagen Golf GTI (Mk4)",
+      "id": "volkswagen-golf-gti-mk4"
+    },
+    "quick": "The heavy years. A 2.0-liter engine and a far better cabin, but more weight and softer manners left the Mk3 GTI behind the French hot hatches, and the VR6 Golf of the same era stole its thunder.",
+    "story": [
+      "The Mk3 GTI arrived in 1991 with a 2.0-liter eight-valve making 113 hp, in a car that weighed considerably more than the one it replaced, and a 16-valve followed with 148 hp. Neither was bad. By the badge's own standard both were disappointing: slower to respond, softer in their damping and less interested in a back road than a Peugeot 205 GTI or a Renault Clio Williams.",
+      "It was better in other ways, with better seats, better ergonomics and much better safety. The Golf of the era that people remember turned out not to be a GTI at all but the VR6, with a narrow-angle 15-degree six making 172 hp and later 187 hp and a sound no four-cylinder could match."
+    ],
+    "articles": [
+      "the-one-and-only"
+    ],
+    "match": [
+      "Volkswagen Golf GTI Mk3"
+    ]
+  },
+  {
+    "aka": [
+      "Volkswagen Golf R32"
+    ],
+    "country": "Germany",
+    "drive": "Front-wheel drive",
+    "built": null,
+    "weight": null,
+    "top": null,
+    "zero60": null,
+    "photo": {},
+    "id": "volkswagen-golf-gti-mk4",
+    "name": "Volkswagen Golf GTI (Mk4)",
+    "make": "Volkswagen",
+    "maker": "Volkswagen",
+    "years": "1998–2004",
+    "start": 1998,
+    "end": 2004,
+    "body": "Three- or five-door hatchback",
+    "engine": "1.8-liter turbocharged inline-4 or 2.8-liter VR6",
+    "gearbox": "Manual or automatic",
+    "specsFor": "Volkswagen Golf GTI 1.8T",
+    "power": {
+      "hp": 148,
+      "note": "1.8-liter turbo",
+      "src": "article:the-one-and-only"
+    },
+    "predecessor": {
+      "name": "Volkswagen Golf GTI (Mk3)",
+      "id": "volkswagen-golf-gti-mk3"
+    },
+    "successor": {
+      "name": "Volkswagen Golf GTI (Mk5)",
+      "id": "volkswagen-golf-gti-mk5"
+    },
+    "quick": "A beautifully made Golf wrapped around a GTI that couldn't justify its badge. The cabin set a standard the industry copied, the 1.8-liter turbo was quick but characterless, and the R32, the first production car offered with a dual-clutch gearbox, rescued the generation.",
+    "story": [
+      "The Mk4 of 1998 was a beautiful piece of industrial design, with tight shutlines, dense materials and an interior that shamed cars costing twice as much. As a GTI it was a problem of positioning. The badge went on almost everything, including a 1.8-liter turbo with 148 hp that was quick enough but characterless and a 2.8 VR6 that was heavy in the nose.",
+      "The car that saved it was the R32: a 3.2-liter VR6 with both banks under one head, Haldex all-wheel drive, 237 to 240 hp, 0-60 mph in about 6.3 seconds and 153 mph. It was the first production car in the world offered with a dual-clutch gearbox, and the 5,000 sent to the United States were all manuals."
+    ],
+    "articles": [
+      "the-one-and-only"
+    ],
+    "match": [
+      "Volkswagen Golf GTI Mk4",
+      "Volkswagen Golf R32"
     ]
   },
   {
@@ -4816,11 +5484,11 @@ const CARS = [
     },
     "predecessor": {
       "name": "Volkswagen Golf GTI (Mk4)",
-      "id": null
+      "id": "volkswagen-golf-gti-mk4"
     },
     "successor": {
       "name": "Volkswagen Golf GTI (Mk6)",
-      "id": null
+      "id": "volkswagen-golf-gti-mk6"
     },
     "quick": "The GTI that won back the badge's good name after 2 forgettable generations. A turbocharged, direct-injected 2.0-liter 4-cylinder and, for the first time, a fully independent multi-link rear suspension made it comfortable, composed and properly quick again.",
     "story": [
@@ -4839,6 +5507,153 @@ const CARS = [
     },
     "match": [
       "Volkswagen Golf GTI Mk5"
+    ]
+  },
+  {
+    "aka": [],
+    "country": "Germany",
+    "drive": "Front-wheel drive",
+    "built": null,
+    "weight": null,
+    "top": null,
+    "zero60": null,
+    "photo": {},
+    "id": "volkswagen-golf-gti-mk6",
+    "name": "Volkswagen Golf GTI (Mk6)",
+    "make": "Volkswagen",
+    "maker": "Volkswagen",
+    "years": "2009–2013",
+    "start": 2009,
+    "end": 2013,
+    "body": "Three- or five-door hatchback",
+    "engine": "2.0-liter turbocharged inline-4",
+    "gearbox": "6-speed manual or 6-speed DSG dual-clutch",
+    "specsFor": "2009 Volkswagen Golf GTI (Mk6) 2.0 TSI",
+    "power": {
+      "hp": 207,
+      "note": "",
+      "src": "article:the-one-and-only"
+    },
+    "predecessor": {
+      "name": "Volkswagen Golf GTI (Mk5)",
+      "id": "volkswagen-golf-gti-mk5"
+    },
+    "successor": {
+      "name": "Volkswagen Golf GTI (Mk7)",
+      "id": "volkswagen-golf-gti-mk7"
+    },
+    "quick": "Less a new car than a hard polish of the Mk5. More power, better damping, a quieter cabin and XDS, which brakes the inside front wheel to imitate a limited-slip differential, made it the GTI people buy when they want a Mk7 and can't afford one.",
+    "story": [
+      "The Mk6 of 2009 kept the Mk5's platform and took the last of the slack out of it. It made 207 hp, the damping was better and the interior a clear step up, and XDS braked the unloaded inside front wheel to fake a differential well enough that you could get on the power earlier out of a corner. The Mk6 Golf was World Car of the Year in 2009.",
+      "The Edition 35 of 2011 marked the badge's 35th birthday with 232 hp, and it is now the quiet collector's pick of the era. For everyday ownership, the Mk5 and Mk6 remain the cheapest way into a properly good GTI."
+    ],
+    "articles": [
+      "the-one-and-only"
+    ],
+    "match": [
+      "Volkswagen Golf GTI Mk6",
+      "Volkswagen Golf GTI Edition 35"
+    ]
+  },
+  {
+    "aka": [],
+    "country": "Germany",
+    "drive": "Front-wheel drive",
+    "built": null,
+    "weight": null,
+    "top": null,
+    "zero60": {
+      "sec": 6.4,
+      "kind": "claimed",
+      "note": "Factory figure",
+      "src": "article:the-one-and-only"
+    },
+    "photo": {},
+    "id": "volkswagen-golf-gti-mk7",
+    "name": "Volkswagen Golf GTI (Mk7)",
+    "make": "Volkswagen",
+    "maker": "Volkswagen",
+    "years": "2013–2020",
+    "start": 2013,
+    "end": 2020,
+    "body": "Three- or five-door hatchback",
+    "engine": "2.0-liter turbocharged inline-4",
+    "gearbox": "6-speed manual or DSG dual-clutch",
+    "specsFor": "Volkswagen Golf GTI Performance (Mk7)",
+    "power": {
+      "hp": 227,
+      "note": "Performance version",
+      "src": "article:the-one-and-only"
+    },
+    "predecessor": {
+      "name": "Volkswagen Golf GTI (Mk6)",
+      "id": "volkswagen-golf-gti-mk6"
+    },
+    "successor": {
+      "name": "Volkswagen Golf GTI (Mk8)",
+      "id": "volkswagen-golf-gti-mk8"
+    },
+    "quick": "The peak, and everyone knows it. The MQB platform made it lighter than the car it replaced for the first time in 40 years, and the Performance version's electronically controlled limited-slip differential changed what a front-wheel-drive car could do.",
+    "story": [
+      "The Mk7 arrived in 2013 on Volkswagen's MQB platform, and it was the only GTI in 50 years to weigh less than the one before it. The base car made 217 hp. The Performance made 227 hp and added the VAQ differential, an active clutch-pack limited-slip unit that transformed corner exits.",
+      "In 2016 Volkswagen built 400 Clubsport S cars with 306 hp and no back seats, and set a record with it. With the VAQ differential and a 6-speed manual, the Performance remains the consensus pick for the best GTI to own, and the last you can buy with 3 pedals without hunting down a special edition."
+    ],
+    "articles": [
+      "the-one-and-only"
+    ],
+    "match": [
+      "Volkswagen Golf GTI Mk7",
+      "Volkswagen Golf GTI Clubsport S"
+    ]
+  },
+  {
+    "aka": [
+      "Golf GTI Mk8.5"
+    ],
+    "country": "Germany",
+    "drive": "Front-wheel drive",
+    "built": null,
+    "weight": null,
+    "top": null,
+    "zero60": {
+      "sec": 5.1,
+      "kind": "tested",
+      "note": "Car and Driver test",
+      "src": "article:the-one-and-only"
+    },
+    "photo": {},
+    "id": "volkswagen-golf-gti-mk8",
+    "name": "Volkswagen Golf GTI (Mk8)",
+    "make": "Volkswagen",
+    "maker": "Volkswagen",
+    "years": "2020–present",
+    "start": 2020,
+    "end": null,
+    "body": "Five-door hatchback",
+    "engine": "2.0-liter turbocharged inline-4",
+    "gearbox": "7-speed DSG dual-clutch (6-speed manual on early Mk8s)",
+    "specsFor": "Volkswagen Golf GTI (Mk8), US market (Car and Driver test)",
+    "power": {
+      "hp": 241,
+      "note": "245 PS in Europe",
+      "src": "article:the-one-and-only"
+    },
+    "predecessor": {
+      "name": "Volkswagen Golf GTI (Mk7)",
+      "id": "volkswagen-golf-gti-mk7"
+    },
+    "successor": null,
+    "quick": "The fast, frustrating present. Objectively the best-driving GTI yet, but the launch cabin's touch sliders angered owners. The Mk8.5 fixed most of it with 261 hp and a real volume knob, and the manual gearbox is gone.",
+    "story": [
+      "The Mk8 arrived in 2020 with 241 hp in America and 273 lb-ft, and Car and Driver recorded 0-60 mph in 5.1 seconds. The mechanicals were fine to good. The interior was the problem: capacitive sliders for volume and temperature, unlit at launch and maddening on the move.",
+      "The Mk8.5 of 2024 brought back a physical volume knob, lit the sliders and raised the standard car to 261 hp, and the Edition 50 of 2026 is the most powerful GTI yet at 321 hp. The manual is gone; America's farewell was the 2023 380 Edition. From 2027 the car is built in Puebla, Mexico, and an electric GTI is on the way."
+    ],
+    "articles": [
+      "the-one-and-only"
+    ],
+    "match": [
+      "Volkswagen Golf GTI Mk8",
+      "Volkswagen Golf GTI Edition 50"
     ]
   },
   {

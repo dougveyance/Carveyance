@@ -34,6 +34,7 @@ const CARS_INDEX = [
    "note": "Maker's claim"
   },
   "built": null,
+  "alongside": [],
   "prev": {
    "id": "lotus-evora-gt430-sport",
    "name": "Lotus Evora GT430 Sport"
@@ -61,9 +62,12 @@ const CARS_INDEX = [
   "country": "Germany",
   "quick": "The first GT3 Porsche sold in America and the blueprint for every GT3 since: a naturally aspirated flat-6 that revs to 8,200 rpm, a 6-speed manual and an engine hung out behind the rear axle. More than 20 years later, it still runs with sports cars a generation younger.",
   "articles": [
-   "ill-take-supercars-for-100ish"
+   "ill-take-supercars-for-100ish",
+   "the-art-of-making-an-entrance",
+   "the-assassin",
+   "the-unsung-hero-996"
   ],
-  "latest": "2026-10-27",
+  "latest": "2026-11-18",
   "drive": "Rear-wheel drive",
   "gearbox": "6-speed manual",
   "specsFor": "2004 Porsche 911 GT3 (996.2), US market (Car and Driver test)",
@@ -81,6 +85,12 @@ const CARS_INDEX = [
    "note": "Maker's claim"
   },
   "built": null,
+  "alongside": [
+   {
+    "id": "porsche-911-996",
+    "name": "Porsche 911 (996)"
+   }
+  ],
   "prev": {
    "id": null,
    "name": "Porsche 911 Carrera RS (993)"
@@ -132,6 +142,7 @@ const CARS_INDEX = [
    "note": "Maker's claim"
   },
   "built": null,
+  "alongside": [],
   "prev": null,
   "next": {
    "id": null,
@@ -177,6 +188,7 @@ const CARS_INDEX = [
    "note": "Maker's claim"
   },
   "built": null,
+  "alongside": [],
   "prev": {
    "id": "lotus-evora",
    "name": "Lotus Evora"
@@ -225,6 +237,7 @@ const CARS_INDEX = [
    "note": "Maker's claim"
   },
   "built": null,
+  "alongside": [],
   "prev": {
    "id": "lotus-evora-s",
    "name": "Lotus Evora S"
@@ -276,6 +289,7 @@ const CARS_INDEX = [
    "note": "Maker's claim, manual"
   },
   "built": null,
+  "alongside": [],
   "prev": {
    "id": "lotus-evora-400",
    "name": "Lotus Evora 400"
@@ -324,6 +338,7 @@ const CARS_INDEX = [
    "note": "Maker's claim, manual"
   },
   "built": null,
+  "alongside": [],
   "prev": {
    "id": "lotus-evora-sport-410",
    "name": "Lotus Evora Sport 410"
@@ -368,6 +383,7 @@ const CARS_INDEX = [
    "note": "Maker's claim, manual"
   },
   "built": null,
+  "alongside": [],
   "prev": {
    "id": "lotus-evora-gt430",
    "name": "Lotus Evora GT430"
@@ -420,6 +436,7 @@ const CARS_INDEX = [
    "approx": false,
    "note": "all Evora variants, 2009-2021"
   },
+  "alongside": [],
   "prev": null,
   "next": {
    "id": "lotus-evora-s",
@@ -447,9 +464,10 @@ const CARS_INDEX = [
   "country": "United Kingdom",
   "quick": "A road-registered descendant of Lotus's American race cars, with 302 hp from a turbocharged 2.2-liter 4-cylinder, bolted-on arches over a wider rear track and huge 315-section rear tires. Only about 64 were built, and it is the late Esprit collectors want most.",
   "articles": [
-   "the-shape-children-draw"
+   "the-shape-children-draw",
+   "bright-idea"
   ],
-  "latest": "2026-09-02",
+  "latest": "2026-10-26",
   "drive": "Rear-wheel drive",
   "gearbox": "5-speed manual",
   "specsFor": "1993 Lotus Esprit Sport 300, UK market (Autocar road test, August 1993)",
@@ -471,6 +489,12 @@ const CARS_INDEX = [
    "approx": true,
    "note": ""
   },
+  "alongside": [
+   {
+    "id": "lotus-esprit-s4s",
+    "name": "Lotus Esprit S4S"
+   }
+  ],
   "prev": {
    "id": null,
    "name": "Lotus Esprit X180R"
@@ -498,9 +522,10 @@ const CARS_INDEX = [
   "country": "United Kingdom",
   "quick": "The Sport 300's engine and bodywork over the regular S4's suspension and cabin, for considerably less money. It was heavier and lacked the limited-slip differential, yet its broader torque made it quicker to 60 mph in period magazine tests and far easier to live with on real roads.",
   "articles": [
-   "the-shape-children-draw"
+   "the-shape-children-draw",
+   "bright-idea"
   ],
-  "latest": "2026-09-02",
+  "latest": "2026-10-26",
   "drive": "Rear-wheel drive",
   "gearbox": "5-speed manual",
   "specsFor": "1995 Lotus Esprit S4S, UK market (Motor Sport road test)",
@@ -522,6 +547,12 @@ const CARS_INDEX = [
    "approx": false,
    "note": ""
   },
+  "alongside": [
+   {
+    "id": "lotus-esprit-sport-300",
+    "name": "Lotus Esprit Sport 300"
+   }
+  ],
   "prev": {
    "id": null,
    "name": "Lotus Esprit S4"
@@ -549,9 +580,10 @@ const CARS_INDEX = [
   "country": "United Kingdom",
   "quick": "After 16 years of waiting, the Esprit finally got the engine its chassis had been designed around: Lotus's own 3.5-liter twin-turbo V8. The fastest Esprit of all, it out-accelerated far pricier Porsches and Ferraris and carried the name to the end of production in 2004.",
   "articles": [
-   "the-shape-children-draw"
+   "the-shape-children-draw",
+   "bright-idea"
   ],
-  "latest": "2026-09-02",
+  "latest": "2026-10-26",
   "drive": "Rear-wheel drive",
   "gearbox": "5-speed manual",
   "specsFor": "1997 Lotus Esprit V8, US market (Car and Driver test, November 1997)",
@@ -573,6 +605,7 @@ const CARS_INDEX = [
    "approx": false,
    "note": ""
   },
+  "alongside": [],
   "prev": {
    "id": "lotus-esprit-s4s",
    "name": "Lotus Esprit S4S"
@@ -624,6 +657,7 @@ const CARS_INDEX = [
    "approx": false,
    "note": ""
   },
+  "alongside": [],
   "prev": null,
   "next": null,
   "photo": {
@@ -631,6 +665,50 @@ const CARS_INDEX = [
    "pos": "",
    "fit": ""
   }
+ },
+ {
+  "id": "mazda-rx-7-fb",
+  "name": "Mazda RX-7 (FB)",
+  "aka": [
+   "Mazda Savanna RX-7 (SA22C)"
+  ],
+  "make": "Mazda",
+  "maker": "Mazda",
+  "years": "1978–1985",
+  "start": 1978,
+  "body": "Two-seat hatchback coupe",
+  "engine": "1.1-liter two-rotor rotary (12A); fuel-injected 1.3-liter 13B in the 1984-85 GSL-SE",
+  "country": "Japan",
+  "quick": "The wedge that started it all. Light, simple and powered by a tiny rotary, the first RX-7 went racing straight away and won, taking the top 2 places in its class at Daytona in 1979 and the Spa 24 Hours outright in 1981.",
+  "articles": [
+   "the-middle-child",
+   "the-one-on-the-wall"
+  ],
+  "latest": "2026-10-07",
+  "drive": "Rear-wheel drive",
+  "gearbox": "Manual or automatic",
+  "specsFor": "Mazda RX-7 with the 12A rotary, North American market",
+  "hp": 100,
+  "kg": 1098,
+  "kgNote": "about",
+  "z60": {
+   "sec": 9.2,
+   "kind": "tested",
+   "note": "Period figure"
+  },
+  "top": null,
+  "built": {
+   "count": 471018,
+   "approx": false,
+   "note": "all first-generation RX-7s, 1978-1985"
+  },
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": "mazda-rx-7-fc",
+   "name": "Mazda RX-7 (FC)"
+  },
+  "photo": null
  },
  {
   "id": "mazda-rx-7-fd",
@@ -648,6 +726,10 @@ const CARS_INDEX = [
   "quick": "Mazda's third RX-7 traded comfort for focus: a twin-turbo rotary, a body stripped of every spare kilogram, and a shape that still looks freshly drawn more than 30 years on. It is the purest expression of Mazda's horse-and-rider ideal, and the one hero of Japan's 1990s sports-car boom that never seems to age.",
   "articles": [
    "the-one-on-the-wall",
+   "the-brightest-star",
+   "the-overachiever",
+   "the-cars-california-just-made-collectible-again",
+   "you-spin-me-round",
    "the-middle-child"
   ],
   "latest": "2026-10-07",
@@ -668,6 +750,7 @@ const CARS_INDEX = [
    "approx": false,
    "note": "all markets, 1991-2002"
   },
+  "alongside": [],
   "prev": {
    "id": "mazda-rx-7-fc",
    "name": "Mazda RX-7 (FC)"
@@ -698,7 +781,11 @@ const CARS_INDEX = [
   "quick": "The second RX-7 grew up: independent rear suspension, a turbocharged 13B, and a silhouette that critics never stopped comparing to a Porsche. Beneath it sits one of the cleverest passive chassis of the 1980s and a rotary that loves to rev, which makes it the RX-7 that rewards a patient, attentive driver and the most affordable way into the family today.",
   "articles": [
    "the-middle-child",
-   "the-one-on-the-wall"
+   "the-one-on-the-wall",
+   "the-brightest-star",
+   "the-overachiever",
+   "the-cars-california-just-made-collectible-again",
+   "you-spin-me-round"
   ],
   "latest": "2026-10-07",
   "drive": "Rear-wheel drive",
@@ -718,9 +805,10 @@ const CARS_INDEX = [
    "approx": false,
    "note": "all FC RX-7s, coupe and convertible, 1985-1992"
   },
+  "alongside": [],
   "prev": {
-   "id": null,
-   "name": "Mazda RX-7 (first generation, SA/FB)"
+   "id": "mazda-rx-7-fb",
+   "name": "Mazda RX-7 (FB)"
   },
   "next": {
    "id": "mazda-rx-7-fd",
@@ -774,6 +862,7 @@ const CARS_INDEX = [
    "approx": false,
    "note": ""
   },
+  "alongside": [],
   "prev": {
    "id": null,
    "name": "Mazda Cosmo (third generation, HB)"
@@ -822,6 +911,7 @@ const CARS_INDEX = [
    "approx": false,
    "note": ""
   },
+  "alongside": [],
   "prev": null,
   "next": {
    "id": null,
@@ -866,6 +956,7 @@ const CARS_INDEX = [
    "approx": false,
    "note": ""
   },
+  "alongside": [],
   "prev": null,
   "next": null,
   "photo": {
@@ -910,6 +1001,7 @@ const CARS_INDEX = [
    "note": "Maker's claim"
   },
   "built": null,
+  "alongside": [],
   "prev": null,
   "next": {
    "id": null,
@@ -958,6 +1050,7 @@ const CARS_INDEX = [
    "note": "Maker's claim, limited"
   },
   "built": null,
+  "alongside": [],
   "prev": {
    "id": null,
    "name": "Mazda 929 (HC)"
@@ -1005,6 +1098,7 @@ const CARS_INDEX = [
   },
   "top": null,
   "built": null,
+  "alongside": [],
   "prev": {
    "id": null,
    "name": "Mazda5 (first generation)"
@@ -1052,6 +1146,7 @@ const CARS_INDEX = [
    "note": "Car and Driver test"
   },
   "built": null,
+  "alongside": [],
   "prev": null,
   "next": {
    "id": null,
@@ -1097,6 +1192,7 @@ const CARS_INDEX = [
    "approx": false,
    "note": ""
   },
+  "alongside": [],
   "prev": null,
   "next": {
    "id": "mazdaspeed-protege",
@@ -1138,6 +1234,7 @@ const CARS_INDEX = [
    "approx": true,
    "note": ""
   },
+  "alongside": [],
   "prev": {
    "id": "mazda-protege-mp3",
    "name": "Mazda Protegé MP3"
@@ -1193,6 +1290,12 @@ const CARS_INDEX = [
    "approx": false,
    "note": "Built for the US and Canada"
   },
+  "alongside": [
+   {
+    "id": "dodge-stealth",
+    "name": "Dodge Stealth"
+   }
+  ],
   "prev": {
    "id": null,
    "name": "Mitsubishi Starion"
@@ -1233,6 +1336,12 @@ const CARS_INDEX = [
    "approx": false,
    "note": "Built for the US and Canada"
   },
+  "alongside": [
+   {
+    "id": "mitsubishi-3000gt",
+    "name": "Mitsubishi 3000GT"
+   }
+  ],
   "prev": null,
   "next": null,
   "photo": {
@@ -1280,6 +1389,7 @@ const CARS_INDEX = [
    "approx": false,
    "note": ""
   },
+  "alongside": [],
   "prev": {
    "id": null,
    "name": "Subaru XT"
@@ -1305,7 +1415,8 @@ const CARS_INDEX = [
   "quick": "A Ford-styled, Mazda-engineered front-drive coupe with a 2.5-liter V6 and a chassis good enough to beat the Prelude, Eclipse, Corrado and its own Mazda MX-6 cousin in a 1993 Car and Driver comparison. Born from a plan to replace the Mustang, it became a quiet cult favorite for drivers who prize balance over brute force.",
   "articles": [
    "a-golden-relic",
-   "the-brightest-star"
+   "the-brightest-star",
+   "forgotten-pioneers"
   ],
   "latest": "2026-09-29",
   "drive": "Front-wheel drive",
@@ -1325,6 +1436,7 @@ const CARS_INDEX = [
    "approx": false,
    "note": ""
   },
+  "alongside": [],
   "prev": {
    "id": null,
    "name": "Ford Probe (first generation)"
@@ -1376,6 +1488,7 @@ const CARS_INDEX = [
    "approx": true,
    "note": ""
   },
+  "alongside": [],
   "prev": null,
   "next": {
    "id": null,
@@ -1416,6 +1529,7 @@ const CARS_INDEX = [
   },
   "top": null,
   "built": null,
+  "alongside": [],
   "prev": null,
   "next": {
    "id": null,
@@ -1460,6 +1574,7 @@ const CARS_INDEX = [
    "approx": false,
    "note": ""
   },
+  "alongside": [],
   "prev": null,
   "next": null,
   "photo": {
@@ -1500,6 +1615,7 @@ const CARS_INDEX = [
   },
   "top": null,
   "built": null,
+  "alongside": [],
   "prev": {
    "id": null,
    "name": "Mitsubishi Pajero (first generation)"
@@ -1552,6 +1668,7 @@ const CARS_INDEX = [
   },
   "top": null,
   "built": null,
+  "alongside": [],
   "prev": {
    "id": null,
    "name": "Isuzu Trooper (first generation)"
@@ -1600,6 +1717,7 @@ const CARS_INDEX = [
    "approx": true,
    "note": "North American sales"
   },
+  "alongside": [],
   "prev": null,
   "next": {
    "id": null,
@@ -1649,6 +1767,7 @@ const CARS_INDEX = [
    "approx": true,
    "note": ""
   },
+  "alongside": [],
   "prev": {
    "id": "bmw-1m-coupe",
    "name": "BMW 1 Series M Coupe"
@@ -1704,6 +1823,7 @@ const CARS_INDEX = [
    "approx": false,
    "note": "worldwide, against an original plan for 2,700"
   },
+  "alongside": [],
   "prev": null,
   "next": {
    "id": null,
@@ -1732,7 +1852,8 @@ const CARS_INDEX = [
   "quick": "A Z3 roadster given a fixed roof, a glass hatchback tail and an M3 engine, it looked so strange that critics called it the Clown Shoe. Beneath the joke was a body far stiffer than the roadster's and one of the most vivid small cars BMW has ever made.",
   "articles": [
    "when-the-engineers-won",
-   "homage-by-accident"
+   "homage-by-accident",
+   "zenith-bmw-z4-35is"
   ],
   "latest": "2026-08-25",
   "drive": "Rear-wheel drive",
@@ -1756,6 +1877,7 @@ const CARS_INDEX = [
    "approx": false,
    "note": ""
   },
+  "alongside": [],
   "prev": null,
   "next": {
    "id": "bmw-z4-m-coupe",
@@ -1782,7 +1904,8 @@ const CARS_INDEX = [
   "country": "Germany",
   "quick": "The second, more serious attempt at a small M coupe, with a fastback roof, the 330-hp S54 straight-six, a 6-speed manual and hydraulic steering. It is quicker, stiffer and more composed than the Z3 version, and rarer too.",
   "articles": [
-   "when-the-engineers-won"
+   "when-the-engineers-won",
+   "zenith-bmw-z4-35is"
   ],
   "latest": "2026-08-14",
   "drive": "Rear-wheel drive",
@@ -1806,11 +1929,15 @@ const CARS_INDEX = [
    "approx": false,
    "note": "worldwide"
   },
+  "alongside": [],
   "prev": {
    "id": "bmw-z3-m-coupe",
    "name": "BMW Z3 M Coupe"
   },
-  "next": null,
+  "next": {
+   "id": "bmw-z4-sdrive35is",
+   "name": "BMW Z4 sDrive35is"
+  },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/2007_BMW_Z4_M_Coup%C3%A9_in_Monaco_Blue_Metallic,_front_left.jpg/960px-2007_BMW_Z4_M_Coup%C3%A9_in_Monaco_Blue_Metallic,_front_left.jpg",
    "pos": "",
@@ -1832,9 +1959,10 @@ const CARS_INDEX = [
   "country": "Germany",
   "quick": "The most powerful E89 Z4, pairing a 335-hp twin-turbo six with a 7-speed dual-clutch gearbox, adaptive suspension and a folding metal roof. It was tuned for scenic detours rather than lap records, and it has aged into one of the most quietly appealing BMW roadsters.",
   "articles": [
-   "zenith-bmw-z4-35is"
+   "zenith-bmw-z4-35is",
+   "when-the-engineers-won"
   ],
-  "latest": "2026-07-23",
+  "latest": "2026-08-14",
   "drive": "Rear-wheel drive",
   "gearbox": "7-speed dual-clutch",
   "specsFor": "2011 BMW Z4 sDrive35is (E89), US market",
@@ -1852,9 +1980,10 @@ const CARS_INDEX = [
    "note": "Maker's claim, limited"
   },
   "built": null,
+  "alongside": [],
   "prev": {
-   "id": null,
-   "name": "BMW Z4 M Roadster (E85)"
+   "id": "bmw-z4-m-coupe",
+   "name": "BMW Z4 M Coupe"
   },
   "next": {
    "id": null,
@@ -1903,6 +2032,7 @@ const CARS_INDEX = [
    "approx": false,
    "note": ""
   },
+  "alongside": [],
   "prev": null,
   "next": {
    "id": null,
@@ -1955,6 +2085,7 @@ const CARS_INDEX = [
    "approx": false,
    "note": "16,581 coupes and 3,884 Roadsters"
   },
+  "alongside": [],
   "prev": null,
   "next": null,
   "photo": {
@@ -2004,6 +2135,12 @@ const CARS_INDEX = [
    "approx": false,
    "note": "all 996 variants, 1997-2005"
   },
+  "alongside": [
+   {
+    "id": "porsche-911-gt3-996",
+    "name": "Porsche 911 GT3 (996)"
+   }
+  ],
   "prev": {
    "id": null,
    "name": "Porsche 911 (993)"
@@ -2052,6 +2189,7 @@ const CARS_INDEX = [
    "note": "Maker's claim"
   },
   "built": null,
+  "alongside": [],
   "prev": {
    "id": null,
    "name": "Porsche 911 Carrera 3.0"
@@ -2105,6 +2243,7 @@ const CARS_INDEX = [
    "approx": true,
    "note": ""
   },
+  "alongside": [],
   "prev": {
    "id": null,
    "name": "Porsche 944 S2"
@@ -2132,9 +2271,11 @@ const CARS_INDEX = [
   "country": "Germany",
   "quick": "The last and finest version of the front-engined V8 Porsche that was meant to replace the 911, with 345 hp, a wider rear track and 911 Turbo front brakes. Porsche could barely sell it, yet it ranks among the great long-distance coupes ever built.",
   "articles": [
-   "auf-wiedersehen-928"
+   "auf-wiedersehen-928",
+   "the-cars-california-just-made-collectible-again",
+   "dealt-in"
   ],
-  "latest": "2026-08-14",
+  "latest": "2026-09-23",
   "drive": "Rear-wheel drive (front engine, rear transaxle)",
   "gearbox": "5-speed manual or 4-speed automatic",
   "specsFor": "1995 Porsche 928 GTS, US market (0-60 from Car and Driver's 1992 test of an automatic)",
@@ -2156,6 +2297,7 @@ const CARS_INDEX = [
    "approx": false,
    "note": "worldwide; some sources say 2,904; 406 sold in the US"
   },
+  "alongside": [],
   "prev": {
    "id": null,
    "name": "Porsche 928 S4 and 928 GT"
@@ -2203,6 +2345,7 @@ const CARS_INDEX = [
    "approx": false,
    "note": ""
   },
+  "alongside": [],
   "prev": {
    "id": null,
    "name": "Jaguar Mark 1 (2.4 and 3.4)"
@@ -2257,6 +2400,7 @@ const CARS_INDEX = [
    "approx": true,
    "note": ""
   },
+  "alongside": [],
   "prev": {
    "id": null,
    "name": "Jaguar XK150"
@@ -2309,6 +2453,7 @@ const CARS_INDEX = [
    "approx": false,
    "note": "all versions, coupe and convertible, 2013-2024"
   },
+  "alongside": [],
   "prev": {
    "id": null,
    "name": "Jaguar XK (X150)"
@@ -2358,6 +2503,7 @@ const CARS_INDEX = [
    "approx": false,
    "note": "15,203 standard XJRs plus 500 XJR 100 limited editions"
   },
+  "alongside": [],
   "prev": {
    "id": null,
    "name": "Jaguar XJR (X300)"
@@ -2406,6 +2552,7 @@ const CARS_INDEX = [
    "note": "Maker's claim, limited"
   },
   "built": null,
+  "alongside": [],
   "prev": {
    "id": "jaguar-xjr-x308",
    "name": "Jaguar XJR (X308)"
@@ -2453,6 +2600,7 @@ const CARS_INDEX = [
    "note": "Maker's claim, limited"
   },
   "built": null,
+  "alongside": [],
   "prev": {
    "id": null,
    "name": "Jaguar XJ-S"
@@ -2483,7 +2631,8 @@ const CARS_INDEX = [
   "quick": "Mercedes-Benz's 1989 SL turned a luxury roadster into an engineering showcase, with a pop-up roll bar, seat-mounted belts, a power top and, in the SL500, a quad-cam 5.0-liter V8. Heavy, quiet and almost impossible to ruffle at speed, it has aged into one of the most admired open cars of its decade.",
   "articles": [
    "tuxedo-and-smoking-jacket",
-   "dealt-in"
+   "dealt-in",
+   "the-six-that-got-away"
   ],
   "latest": "2026-08-19",
   "drive": "Rear-wheel drive",
@@ -2503,9 +2652,10 @@ const CARS_INDEX = [
    "note": "Maker's claim, limited"
   },
   "built": null,
+  "alongside": [],
   "prev": {
-   "id": null,
-   "name": "Mercedes-Benz 500 SL / 560 SL (R107)"
+   "id": "mercedes-benz-280-sl-r107",
+   "name": "Mercedes-Benz 280 SL (R107)"
   },
   "next": {
    "id": null,
@@ -2530,7 +2680,8 @@ const CARS_INDEX = [
   "country": "Germany",
   "quick": "The 6-cylinder European version of Mercedes-Benz's long-lived R107 roadster, never sold new in America. Free of federal bumpers and lighter on its feet than the big V8 SLs, it trades straight-line shove for a sweeter, more alert drive.",
   "articles": [
-   "the-six-that-got-away"
+   "the-six-that-got-away",
+   "tuxedo-and-smoking-jacket"
   ],
   "latest": "2026-07-23",
   "drive": "Rear-wheel drive",
@@ -2550,13 +2701,14 @@ const CARS_INDEX = [
    "approx": false,
    "note": "mb107.com's comparison table rounds this to 25,500"
   },
+  "alongside": [],
   "prev": {
    "id": null,
    "name": "Mercedes-Benz 280 SL (W113 'Pagoda')"
   },
   "next": {
-   "id": null,
-   "name": "Mercedes-Benz 300 SL (R107)"
+   "id": "mercedes-benz-sl500-r129",
+   "name": "Mercedes-Benz SL500 (R129)"
   },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Mercedes-Benz_280_SL_(R_107)_P6280184.jpg/960px-Mercedes-Benz_280_SL_(R_107)_P6280184.jpg",
@@ -2599,6 +2751,7 @@ const CARS_INDEX = [
    "approx": true,
    "note": ""
   },
+  "alongside": [],
   "prev": {
    "id": null,
    "name": "Rolls-Royce Silver Shadow Drophead Coupe (Mulliner Park Ward)"
@@ -2646,6 +2799,7 @@ const CARS_INDEX = [
    "note": "Maker's claim"
   },
   "built": null,
+  "alongside": [],
   "prev": {
    "id": null,
    "name": "Mercedes-Benz SLS AMG"
@@ -2702,16 +2856,277 @@ const CARS_INDEX = [
    "approx": true,
    "note": "all versions, 1991-2002, by TVR's count"
   },
+  "alongside": [],
   "prev": null,
   "next": {
-   "id": null,
-   "name": "TVR Tamora"
+   "id": "tvr-chimaera",
+   "name": "TVR Chimaera"
   },
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/W1400-TVR_Griffith500_V8-5L-340hp_1995_82306.JPG/960px-W1400-TVR_Griffith500_V8-5L-340hp_1995_82306.JPG",
    "pos": "",
    "fit": ""
   }
+ },
+ {
+  "id": "tvr-chimaera",
+  "name": "TVR Chimaera",
+  "aka": [],
+  "make": "TVR",
+  "maker": "TVR",
+  "years": "1992–2003",
+  "start": 1992,
+  "body": "Two-seat convertible",
+  "engine": "Rover-based V8, 4.0 to 5.0 liters",
+  "country": "United Kingdom",
+  "quick": "The spy on holiday: dressed for dinner, packed for the Riviera and carrying a V8 it would rather not have to use. Softer and more practical than the Griffith, with a trunk for 2 golf bags, it became the TVR people kept and the company's best seller.",
+  "articles": [
+   "shaken-not-rushed",
+   "the-one-nobody-saw-coming",
+   "the-art-of-making-an-entrance",
+   "the-family-man-with-a-criminal-record",
+   "the-long-way-for-crackers",
+   "the-assassin"
+  ],
+  "latest": "2026-11-18",
+  "drive": "Rear-wheel drive",
+  "gearbox": "5-speed manual",
+  "specsFor": "TVR Chimaera 450, TVR owner's handbook figures",
+  "hp": 285,
+  "kg": 1060,
+  "kgNote": "TVR's claim",
+  "z60": {
+   "sec": 4.7,
+   "kind": "claimed",
+   "note": "TVR's claim"
+  },
+  "top": {
+   "mph": 160,
+   "kind": "claimed",
+   "note": "TVR's claim"
+  },
+  "built": {
+   "count": 6000,
+   "approx": true,
+   "note": "more than 6,000 of all versions, TVR's best seller"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "tvr-griffith",
+   "name": "TVR Griffith"
+  },
+  "next": {
+   "id": "tvr-cerbera",
+   "name": "TVR Cerbera"
+  },
+  "photo": null
+ },
+ {
+  "id": "tvr-cerbera",
+  "name": "TVR Cerbera",
+  "aka": [],
+  "make": "TVR",
+  "maker": "TVR",
+  "years": "1996–2004",
+  "start": 1996,
+  "body": "2+2 coupe",
+  "engine": "4.2- or 4.5-liter AJP V8 with a flat-plane crank (4.0-liter Speed Six also offered)",
+  "country": "United Kingdom",
+  "quick": "The sleeper. A 2+2 with rear seats for 2 children and the first engine TVR designed and built itself, a flat-plane V8 that could out-accelerate cars costing far more. Family, opera, then it ruins your evening at a stoplight.",
+  "articles": [
+   "the-family-man-with-a-criminal-record",
+   "the-assassin",
+   "the-art-of-making-an-entrance",
+   "shaken-not-rushed",
+   "the-long-way-for-crackers",
+   "the-one-nobody-saw-coming"
+  ],
+  "latest": "2026-11-18",
+  "drive": "Rear-wheel drive",
+  "gearbox": "5-speed manual",
+  "specsFor": "TVR Cerbera 4.5, from 1997, TVR figures",
+  "hp": 420,
+  "kg": 1100,
+  "kgNote": "TVR's figure",
+  "z60": {
+   "sec": 3.9,
+   "kind": "claimed",
+   "note": "TVR's claim"
+  },
+  "top": {
+   "mph": 195,
+   "kind": "claimed",
+   "note": "TVR's claim"
+  },
+  "built": {
+   "count": 1490,
+   "approx": false,
+   "note": "all versions"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "tvr-chimaera",
+   "name": "TVR Chimaera"
+  },
+  "next": {
+   "id": "tvr-tuscan",
+   "name": "TVR Tuscan"
+  },
+  "photo": null
+ },
+ {
+  "id": "tvr-tuscan",
+  "name": "TVR Tuscan",
+  "aka": [
+   "TVR Tuscan Speed Six"
+  ],
+  "make": "TVR",
+  "maker": "TVR",
+  "years": "1999–2006",
+  "start": 1999,
+  "body": "Two-seat targa coupe (convertible from 2004)",
+  "engine": "3.6- or 4.0-liter Speed Six straight-six",
+  "country": "United Kingdom",
+  "quick": "The showman. Chameleon paint, a face of stacked lights and a removable roof, with the performance to back up the show. More than 850 people ordered one at its 1998 debut, and the Tuscan S went after the Porsche 911 GT3 and Ferrari 360.",
+  "articles": [
+   "the-art-of-making-an-entrance",
+   "the-assassin",
+   "the-one-nobody-saw-coming",
+   "the-long-way-for-crackers",
+   "shaken-not-rushed",
+   "the-family-man-with-a-criminal-record"
+  ],
+  "latest": "2026-11-18",
+  "drive": "Rear-wheel drive",
+  "gearbox": "5-speed manual",
+  "specsFor": "TVR Tuscan Mk1 4.0, 1999, TVR's claims",
+  "hp": 360,
+  "kg": 1100,
+  "kgNote": "about, TVR's figure",
+  "z60": {
+   "sec": 3.9,
+   "kind": "claimed",
+   "note": "TVR's claim"
+  },
+  "top": {
+   "mph": 195,
+   "kind": "claimed",
+   "note": "TVR's claim"
+  },
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "tvr-cerbera",
+   "name": "TVR Cerbera"
+  },
+  "next": {
+   "id": "tvr-tamora",
+   "name": "TVR Tamora"
+  },
+  "photo": null
+ },
+ {
+  "id": "tvr-tamora",
+  "name": "TVR Tamora",
+  "aka": [],
+  "make": "TVR",
+  "maker": "TVR",
+  "years": "2002–2006",
+  "start": 2002,
+  "body": "Two-seat roadster with removable roof panel",
+  "engine": "3.6-liter Speed Six straight-six",
+  "country": "United Kingdom",
+  "quick": "The weekend escape artist. A 350 bhp straight-six roadster with no ABS and no traction control, barely longer than a Griffith, that made TVR performance feel natural, and was overlooked so completely that only about 356 were built.",
+  "articles": [
+   "the-one-nobody-saw-coming",
+   "the-assassin",
+   "the-long-way-for-crackers",
+   "shaken-not-rushed",
+   "the-family-man-with-a-criminal-record",
+   "the-art-of-making-an-entrance"
+  ],
+  "latest": "2026-11-18",
+  "drive": "Rear-wheel drive",
+  "gearbox": "5-speed manual",
+  "specsFor": "TVR Tamora 3.6, period figures",
+  "hp": 350,
+  "kg": 1050,
+  "kgNote": "by evo",
+  "z60": {
+   "sec": 4.4,
+   "kind": "claimed",
+   "note": "TVR's claim"
+  },
+  "top": {
+   "mph": 160,
+   "kind": "claimed",
+   "note": "About, claimed"
+  },
+  "built": {
+   "count": 356,
+   "approx": true,
+   "note": "2002 to 2006"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "tvr-tuscan",
+   "name": "TVR Tuscan"
+  },
+  "next": {
+   "id": "tvr-sagaris",
+   "name": "TVR Sagaris"
+  },
+  "photo": null
+ },
+ {
+  "id": "tvr-sagaris",
+  "name": "TVR Sagaris",
+  "aka": [],
+  "make": "TVR",
+  "maker": "TVR",
+  "years": "2004–2006",
+  "start": 2004,
+  "body": "Two-seat coupe",
+  "engine": "4.0-liter Speed Six straight-six",
+  "country": "United Kingdom",
+  "quick": "The assassin, here for one thing and you're it. Slashes and vents that did real work, a 406 bhp Speed Six, a built-in roll cage and only 211 made before the Blackpool factory closed. The best way a company could have gone out.",
+  "articles": [
+   "the-assassin",
+   "the-long-way-for-crackers",
+   "shaken-not-rushed",
+   "the-family-man-with-a-criminal-record",
+   "the-art-of-making-an-entrance",
+   "the-one-nobody-saw-coming"
+  ],
+  "latest": "2026-11-18",
+  "drive": "Rear-wheel drive",
+  "gearbox": "5-speed manual with limited-slip differential",
+  "specsFor": "TVR Sagaris, TVR's 2005 press release",
+  "hp": 406,
+  "kg": 1078,
+  "kgNote": "TVR's claim",
+  "z60": {
+   "sec": 3.7,
+   "kind": "claimed",
+   "note": "TVR's claim"
+  },
+  "top": {
+   "mph": 185,
+   "kind": "claimed",
+   "note": "More than 185 mph, TVR's claim"
+  },
+  "built": {
+   "count": 211,
+   "approx": false,
+   "note": "2004 to 2006"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "tvr-tamora",
+   "name": "TVR Tamora"
+  },
+  "next": null,
+  "photo": null
  },
  {
   "id": "chevrolet-corvette-grand-sport",
@@ -2742,6 +3157,7 @@ const CARS_INDEX = [
   },
   "top": null,
   "built": null,
+  "alongside": [],
   "prev": {
    "id": null,
    "name": "Chevrolet Corvette Grand Sport (C7)"
@@ -2792,6 +3208,7 @@ const CARS_INDEX = [
    "approx": true,
    "note": ""
   },
+  "alongside": [],
   "prev": null,
   "next": {
    "id": null,
@@ -2816,9 +3233,10 @@ const CARS_INDEX = [
   "country": "United States",
   "quick": "The American Club Racer package took Dodge's 8.0-liter V10 coupe and gave it race-car springs, forged wheels, 5-point harnesses and a little extra power. It is the Viper at its most uncompromising: savage out of corners, demanding under braking and entirely uninterested in making friends.",
   "articles": [
-   "all-for-one"
+   "all-for-one",
+   "the-overachiever"
   ],
-  "latest": "2026-07-23",
+  "latest": "2026-09-25",
   "drive": "Rear-wheel drive",
   "gearbox": "6-speed manual",
   "specsFor": "Second-generation Viper GTS with the American Club Racer (ACR) package, as set up for the article's 2002 comparison",
@@ -2832,6 +3250,7 @@ const CARS_INDEX = [
   },
   "top": null,
   "built": null,
+  "alongside": [],
   "prev": null,
   "next": {
    "id": null,
@@ -2872,6 +3291,7 @@ const CARS_INDEX = [
    "approx": false,
    "note": ""
   },
+  "alongside": [],
   "prev": {
    "id": null,
    "name": "Ford SVT Mustang Cobra R (1995)"
@@ -2912,6 +3332,7 @@ const CARS_INDEX = [
   },
   "top": null,
   "built": null,
+  "alongside": [],
   "prev": null,
   "next": {
    "id": null,
@@ -2948,6 +3369,7 @@ const CARS_INDEX = [
   "z60": null,
   "top": null,
   "built": null,
+  "alongside": [],
   "prev": {
    "id": null,
    "name": "Mitsubishi Lancer Evolution VI"
@@ -2992,6 +3414,7 @@ const CARS_INDEX = [
    "approx": false,
    "note": ""
   },
+  "alongside": [],
   "prev": null,
   "next": null,
   "photo": {
@@ -3033,6 +3456,7 @@ const CARS_INDEX = [
    "note": "Maker's claim"
   },
   "built": null,
+  "alongside": [],
   "prev": {
    "id": null,
    "name": "Cadillac CTS-V (second generation)"
@@ -3080,6 +3504,12 @@ const CARS_INDEX = [
    "approx": false,
    "note": "All Solstices, including 1,266 coupes"
   },
+  "alongside": [
+   {
+    "id": "saturn-sky",
+    "name": "Saturn Sky"
+   }
+  ],
   "prev": {
    "id": null,
    "name": "Pontiac Fiero"
@@ -3127,6 +3557,12 @@ const CARS_INDEX = [
    "approx": false,
    "note": ""
   },
+  "alongside": [
+   {
+    "id": "pontiac-solstice",
+    "name": "Pontiac Solstice"
+   }
+  ],
   "prev": null,
   "next": null,
   "photo": {
@@ -3168,6 +3604,7 @@ const CARS_INDEX = [
    "note": "Maker's claim"
   },
   "built": null,
+  "alongside": [],
   "prev": {
    "id": null,
    "name": "Dodge Durango (second generation)"
@@ -3202,7 +3639,8 @@ const CARS_INDEX = [
    "bright-idea",
    "the-other-guys-brake-pads",
    "suspension-of-disbelief",
-   "queen-of-the-road"
+   "queen-of-the-road",
+   "her-majesty-drives-herself"
   ],
   "latest": "2026-10-26",
   "drive": "Front-wheel drive",
@@ -3226,6 +3664,12 @@ const CARS_INDEX = [
    "approx": false,
    "note": ""
   },
+  "alongside": [
+   {
+    "id": "citroen-sm",
+    "name": "Citroën SM"
+   }
+  ],
   "prev": {
    "id": "citroen-traction-avant",
    "name": "Citroën Traction Avant"
@@ -3255,7 +3699,10 @@ const CARS_INDEX = [
   "articles": [
    "her-majesty-drives-herself",
    "herringbone",
-   "bright-idea"
+   "bright-idea",
+   "queen-of-the-road",
+   "goddess-of-serenity",
+   "ds-assassination"
   ],
   "latest": "2026-10-26",
   "drive": "Front-wheel drive",
@@ -3279,6 +3726,12 @@ const CARS_INDEX = [
    "approx": false,
    "note": "All variants, 1970-1975; 12,924 is also seen"
   },
+  "alongside": [
+   {
+    "id": "citroen-ds",
+    "name": "Citroën DS"
+   }
+  ],
   "prev": null,
   "next": null,
   "photo": {
@@ -3335,6 +3788,7 @@ const CARS_INDEX = [
    "approx": false,
    "note": ""
   },
+  "alongside": [],
   "prev": {
    "id": null,
    "name": "Citroën Rosalie"
@@ -3387,6 +3841,7 @@ const CARS_INDEX = [
    "approx": true,
    "note": "About 5.1 million cars and vans, 1949-1990"
   },
+  "alongside": [],
   "prev": null,
   "next": null,
   "photo": {
@@ -3437,6 +3892,7 @@ const CARS_INDEX = [
    "approx": false,
    "note": ""
   },
+  "alongside": [],
   "prev": {
    "id": null,
    "name": "Lancia Delta HF 4WD"
@@ -3447,6 +3903,43 @@ const CARS_INDEX = [
    "pos": "",
    "fit": ""
   }
+ },
+ {
+  "id": "lancia-fulvia-hf",
+  "name": "Lancia Fulvia Coupé HF",
+  "aka": [
+   "Lancia Fulvia HF",
+   "Fulvia 1.6 HF Fanalone"
+  ],
+  "make": "Lancia",
+  "maker": "Lancia",
+  "years": "1966–1970",
+  "start": 1966,
+  "body": "Two-door coupe",
+  "engine": "Narrow-angle V4, 1.2 to 1.6 liters",
+  "country": "Italy",
+  "quick": "The car that turned two letters and a red elephant into a threat. A light, front-wheel-drive coupe with a narrow-angle V4, it carried the HF badge into production in 1966 and won the Monte Carlo Rally in 1972.",
+  "articles": [
+   "the-little-red-elephant",
+   "the-king-was-italian"
+  ],
+  "latest": "2026-07-26",
+  "drive": "Front-wheel drive",
+  "gearbox": "Manual",
+  "specsFor": "1969 Lancia Fulvia 1.6 HF 'Fanalone', road car",
+  "hp": 113,
+  "kg": 850,
+  "kgNote": "around",
+  "z60": null,
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": null,
+   "name": "Lancia Stratos HF"
+  },
+  "photo": null
  },
  {
   "id": "volkswagen-golf-gti-mk1",
@@ -3487,9 +3980,10 @@ const CARS_INDEX = [
    "approx": false,
    "note": "All Mk1 GTIs, 1976-1983; Volkswagen had authorized 5,000"
   },
+  "alongside": [],
   "prev": null,
   "next": {
-   "id": null,
+   "id": "volkswagen-golf-gti-mk2",
    "name": "Volkswagen Golf GTI (Mk2)"
   },
   "photo": {
@@ -3497,6 +3991,128 @@ const CARS_INDEX = [
    "pos": "",
    "fit": ""
   }
+ },
+ {
+  "id": "volkswagen-golf-gti-mk2",
+  "name": "Volkswagen Golf GTI (Mk2)",
+  "aka": [],
+  "make": "Volkswagen",
+  "maker": "Volkswagen",
+  "years": "1984–1992",
+  "start": 1984,
+  "body": "Three- or five-door hatchback",
+  "engine": "1.8-liter inline-4 (8-valve; 16-valve from 1986)",
+  "country": "Germany",
+  "quick": "The GTI that went to the gym. Bigger, more solid and better built than the Mk1, it kept Giugiaro's lines under broader shoulders, gained a 16-valve engine in 1986, and is the shape many people picture when they hear the name.",
+  "articles": [
+   "the-one-and-only"
+  ],
+  "latest": "2026-09-08",
+  "drive": "Front-wheel drive",
+  "gearbox": "5-speed manual",
+  "specsFor": "1986 Volkswagen Golf GTI 16V, uncatalyzed, European market",
+  "hp": 137,
+  "kg": null,
+  "kgNote": "",
+  "z60": {
+   "sec": 8.9,
+   "kind": "claimed",
+   "note": "Maker's claim, 0-62 mph"
+  },
+  "top": {
+   "mph": 130,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "volkswagen-golf-gti-mk1",
+   "name": "Volkswagen Golf GTI (Mk1)"
+  },
+  "next": {
+   "id": "volkswagen-golf-gti-mk3",
+   "name": "Volkswagen Golf GTI (Mk3)"
+  },
+  "photo": null
+ },
+ {
+  "id": "volkswagen-golf-gti-mk3",
+  "name": "Volkswagen Golf GTI (Mk3)",
+  "aka": [],
+  "make": "Volkswagen",
+  "maker": "Volkswagen",
+  "years": "1991–1997",
+  "start": 1991,
+  "body": "Three- or five-door hatchback",
+  "engine": "2.0-liter inline-4 (8-valve or 16-valve)",
+  "country": "Germany",
+  "quick": "The heavy years. A 2.0-liter engine and a far better cabin, but more weight and softer manners left the Mk3 GTI behind the French hot hatches, and the VR6 Golf of the same era stole its thunder.",
+  "articles": [
+   "the-one-and-only"
+  ],
+  "latest": "2026-09-08",
+  "drive": "Front-wheel drive",
+  "gearbox": "5-speed manual",
+  "specsFor": "Volkswagen Golf GTI 16V (2.0-liter), European market",
+  "hp": 148,
+  "kg": null,
+  "kgNote": "",
+  "z60": {
+   "sec": 8.8,
+   "kind": "claimed",
+   "note": "Factory figure"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "volkswagen-golf-gti-mk2",
+   "name": "Volkswagen Golf GTI (Mk2)"
+  },
+  "next": {
+   "id": "volkswagen-golf-gti-mk4",
+   "name": "Volkswagen Golf GTI (Mk4)"
+  },
+  "photo": null
+ },
+ {
+  "id": "volkswagen-golf-gti-mk4",
+  "name": "Volkswagen Golf GTI (Mk4)",
+  "aka": [
+   "Volkswagen Golf R32"
+  ],
+  "make": "Volkswagen",
+  "maker": "Volkswagen",
+  "years": "1998–2004",
+  "start": 1998,
+  "body": "Three- or five-door hatchback",
+  "engine": "1.8-liter turbocharged inline-4 or 2.8-liter VR6",
+  "country": "Germany",
+  "quick": "A beautifully made Golf wrapped around a GTI that couldn't justify its badge. The cabin set a standard the industry copied, the 1.8-liter turbo was quick but characterless, and the R32, the first production car offered with a dual-clutch gearbox, rescued the generation.",
+  "articles": [
+   "the-one-and-only"
+  ],
+  "latest": "2026-09-08",
+  "drive": "Front-wheel drive",
+  "gearbox": "Manual or automatic",
+  "specsFor": "Volkswagen Golf GTI 1.8T",
+  "hp": 148,
+  "kg": null,
+  "kgNote": "",
+  "z60": null,
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "volkswagen-golf-gti-mk3",
+   "name": "Volkswagen Golf GTI (Mk3)"
+  },
+  "next": {
+   "id": "volkswagen-golf-gti-mk5",
+   "name": "Volkswagen Golf GTI (Mk5)"
+  },
+  "photo": null
  },
  {
   "id": "volkswagen-golf-gti-mk5",
@@ -3537,12 +4153,13 @@ const CARS_INDEX = [
    "approx": true,
    "note": ""
   },
+  "alongside": [],
   "prev": {
-   "id": null,
+   "id": "volkswagen-golf-gti-mk4",
    "name": "Volkswagen Golf GTI (Mk4)"
   },
   "next": {
-   "id": null,
+   "id": "volkswagen-golf-gti-mk6",
    "name": "Volkswagen Golf GTI (Mk6)"
   },
   "photo": {
@@ -3550,6 +4167,121 @@ const CARS_INDEX = [
    "pos": "",
    "fit": ""
   }
+ },
+ {
+  "id": "volkswagen-golf-gti-mk6",
+  "name": "Volkswagen Golf GTI (Mk6)",
+  "aka": [],
+  "make": "Volkswagen",
+  "maker": "Volkswagen",
+  "years": "2009–2013",
+  "start": 2009,
+  "body": "Three- or five-door hatchback",
+  "engine": "2.0-liter turbocharged inline-4",
+  "country": "Germany",
+  "quick": "Less a new car than a hard polish of the Mk5. More power, better damping, a quieter cabin and XDS, which brakes the inside front wheel to imitate a limited-slip differential, made it the GTI people buy when they want a Mk7 and can't afford one.",
+  "articles": [
+   "the-one-and-only"
+  ],
+  "latest": "2026-09-08",
+  "drive": "Front-wheel drive",
+  "gearbox": "6-speed manual or 6-speed DSG dual-clutch",
+  "specsFor": "2009 Volkswagen Golf GTI (Mk6) 2.0 TSI",
+  "hp": 207,
+  "kg": null,
+  "kgNote": "",
+  "z60": null,
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "volkswagen-golf-gti-mk5",
+   "name": "Volkswagen Golf GTI (Mk5)"
+  },
+  "next": {
+   "id": "volkswagen-golf-gti-mk7",
+   "name": "Volkswagen Golf GTI (Mk7)"
+  },
+  "photo": null
+ },
+ {
+  "id": "volkswagen-golf-gti-mk7",
+  "name": "Volkswagen Golf GTI (Mk7)",
+  "aka": [],
+  "make": "Volkswagen",
+  "maker": "Volkswagen",
+  "years": "2013–2020",
+  "start": 2013,
+  "body": "Three- or five-door hatchback",
+  "engine": "2.0-liter turbocharged inline-4",
+  "country": "Germany",
+  "quick": "The peak, and everyone knows it. The MQB platform made it lighter than the car it replaced for the first time in 40 years, and the Performance version's electronically controlled limited-slip differential changed what a front-wheel-drive car could do.",
+  "articles": [
+   "the-one-and-only"
+  ],
+  "latest": "2026-09-08",
+  "drive": "Front-wheel drive",
+  "gearbox": "6-speed manual or DSG dual-clutch",
+  "specsFor": "Volkswagen Golf GTI Performance (Mk7)",
+  "hp": 227,
+  "kg": null,
+  "kgNote": "",
+  "z60": {
+   "sec": 6.4,
+   "kind": "claimed",
+   "note": "Factory figure"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "volkswagen-golf-gti-mk6",
+   "name": "Volkswagen Golf GTI (Mk6)"
+  },
+  "next": {
+   "id": "volkswagen-golf-gti-mk8",
+   "name": "Volkswagen Golf GTI (Mk8)"
+  },
+  "photo": null
+ },
+ {
+  "id": "volkswagen-golf-gti-mk8",
+  "name": "Volkswagen Golf GTI (Mk8)",
+  "aka": [
+   "Golf GTI Mk8.5"
+  ],
+  "make": "Volkswagen",
+  "maker": "Volkswagen",
+  "years": "2020–present",
+  "start": 2020,
+  "body": "Five-door hatchback",
+  "engine": "2.0-liter turbocharged inline-4",
+  "country": "Germany",
+  "quick": "The fast, frustrating present. Objectively the best-driving GTI yet, but the launch cabin's touch sliders angered owners. The Mk8.5 fixed most of it with 261 hp and a real volume knob, and the manual gearbox is gone.",
+  "articles": [
+   "the-one-and-only"
+  ],
+  "latest": "2026-09-08",
+  "drive": "Front-wheel drive",
+  "gearbox": "7-speed DSG dual-clutch (6-speed manual on early Mk8s)",
+  "specsFor": "Volkswagen Golf GTI (Mk8), US market (Car and Driver test)",
+  "hp": 241,
+  "kg": null,
+  "kgNote": "",
+  "z60": {
+   "sec": 5.1,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "volkswagen-golf-gti-mk7",
+   "name": "Volkswagen Golf GTI (Mk7)"
+  },
+  "next": null,
+  "photo": null
  },
  {
   "id": "volvo-240",
@@ -3584,6 +4316,7 @@ const CARS_INDEX = [
    "approx": false,
    "note": ""
   },
+  "alongside": [],
   "prev": {
    "id": null,
    "name": "Volvo 140 series"
@@ -3633,6 +4366,7 @@ const CARS_INDEX = [
    "note": "Maker's claim, limited"
   },
   "built": null,
+  "alongside": [],
   "prev": null,
   "next": {
    "id": null,
@@ -3681,6 +4415,7 @@ const CARS_INDEX = [
    "approx": false,
    "note": ""
   },
+  "alongside": [],
   "prev": null,
   "next": null,
   "photo": {
@@ -3715,6 +4450,7 @@ const CARS_INDEX = [
   "z60": null,
   "top": null,
   "built": null,
+  "alongside": [],
   "prev": {
    "id": null,
    "name": "Ford Everest (second generation, 2015-2022)"
@@ -3763,6 +4499,7 @@ const CARS_INDEX = [
    "approx": true,
    "note": ""
   },
+  "alongside": [],
   "prev": {
    "id": null,
    "name": "Lamborghini Countach"
@@ -3814,6 +4551,7 @@ const CARS_INDEX = [
    "approx": false,
    "note": "one-off"
   },
+  "alongside": [],
   "prev": null,
   "next": {
    "id": "sbarro-super-eight",
@@ -3854,6 +4592,7 @@ const CARS_INDEX = [
    "approx": false,
    "note": "one-off"
   },
+  "alongside": [],
   "prev": {
    "id": "sbarro-super-twelve",
    "name": "Sbarro Super Twelve"
@@ -3898,6 +4637,7 @@ const CARS_INDEX = [
    "approx": false,
    "note": ""
   },
+  "alongside": [],
   "prev": null,
   "next": null,
   "photo": {
@@ -3939,6 +4679,7 @@ const CARS_INDEX = [
    "approx": false,
    "note": "'Modèle unique' per the Calvet archive"
   },
+  "alongside": [],
   "prev": null,
   "next": null,
   "photo": {
@@ -3980,6 +4721,7 @@ const CARS_INDEX = [
    "approx": false,
    "note": "one-off, chassis 16017"
   },
+  "alongside": [],
   "prev": null,
   "next": null,
   "photo": {

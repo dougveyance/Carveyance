@@ -6,3 +6,13 @@
 /c/* /c/index.html 200
 /preview  /  301!
 /preview/  /  301!
+/articles/category/Car%20Culture /categories/car-culture/ 301
+/articles/category/Comparisons /categories/comparisons/ 301
+/articles/category/Fun%20Facts /categories/fun-facts/ 301
+/articles/category/How%20It%20Works /categories/how-it-works/ 301
+/articles/category/Opinions /categories/opinions/ 301
+/articles/category/Reviews /categories/reviews/ 301
+/articles/category/Short%20Stories /categories/short-stories/ 301
+/articles/category/* /articles/ 301
+/articles/the-corner-office-has-a-sliding-door /articles/corner-office-has-a-sliding-door/ 301
+/articles/the-corner-office-has-a-sliding-door/ /articles/corner-office-has-a-sliding-door/ 301

@@ -358,8 +358,16 @@ def family(c, by_id, size=3):
     return line[start:start + size]
 
 
+def kin(c, by_id):
+    """same-generation cars ("alongside") that have pages"""
+    return [x["id"] for x in c.get("alongside") or [] if x.get("id") in by_id]
+
+
 def compare_row(c, by_id):
     ids = family(c, by_id)
+    for k in kin(c, by_id):
+        if len(ids) < 3 and k not in ids:
+            ids.append(k)
     if len(ids) > 1:
         return (f'<a class="lin cmpl" href="/cars/compare/?ids={",".join(ids)}"><span class="dir">Compare</span>'
                 f'<span class="cn">See the family side by side</span><span class="go">&rarr;</span></a>')
@@ -484,6 +492,7 @@ def car_page(c, cars, by_id, arts, photos):
         <div class="lh">The family tree</div>
         {lineage_row("Before it", c.get("predecessor"), by_id)}
         <div class="lin this"><span class="dir">This car</span><span class="nm">{esc(c["name"])}</span></div>
+        {"".join(lineage_row("Alongside", x, by_id) for x in c.get("alongside") or [])}
         {lineage_row("After it", c.get("successor"), by_id)}
         {compare_row(c, by_id)}
       </div>
@@ -653,9 +662,17 @@ def main():
         missing = [s for s in c.get("articles", []) if s not in arts]
         if missing:
             print(f"  note: {c['id']} lists articles not in articles.js: {', '.join(missing)}")
+    # stories picked by hand in cars.js ("seeAlso"), for tags too general to match safely
+    for c in cars:
+        for s in c.get("seeAlso", []):
+            if s in arts and s not in c.get("articles", []) and s not in c["_also"]:
+                c["_also"].append(s)
     # stories about the rest of its family (the cars linked by Before it / After it) belong on its page too
     for c in cars:
-        for m in family(c, by_id, size=99):
+        members = list(family(c, by_id, size=99))
+        for k in kin(c, by_id):
+            members += [m for m in family(by_id[k], by_id, size=99) if m not in members]
+        for m in members:
             if m == c["id"]:
                 continue
             for s in by_id[m].get("articles", []):
@@ -677,6 +694,7 @@ def main():
                      "z60": ({k: (c.get("zero60") or {}).get(k) for k in ("sec", "kind", "note")} if (c.get("zero60") or {}).get("sec") else None),
                      "top": ({k: (c.get("top") or {}).get(k) for k in ("mph", "kind", "note")} if (c.get("top") or {}).get("mph") else None),
                      "built": ({k: (c.get("built") or {}).get(k) for k in ("count", "approx", "note")} if (c.get("built") or {}).get("count") else None),
+                     "alongside": [{"id": x.get("id") if x.get("id") in by_id else None, "name": x.get("name", "")} for x in c.get("alongside") or []],
                      "prev": ({"id": c["predecessor"].get("id") if c["predecessor"].get("id") in by_id else None, "name": c["predecessor"].get("name", "")} if (c.get("predecessor") or {}).get("name") else None),
                      "next": ({"id": c["successor"].get("id") if c["successor"].get("id") in by_id else None, "name": c["successor"].get("name", "")} if (c.get("successor") or {}).get("name") else None),
                      "photo": ({"card": ph["card"], "pos": (c.get("photo") or {}).get("pos", ""),

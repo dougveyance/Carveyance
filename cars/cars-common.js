@@ -281,6 +281,7 @@
         while (x.prev && x.prev.id && by[x.prev.id] && line.indexOf(x.prev.id) < 0) { x = by[x.prev.id]; line.unshift(x.id); }
         x = c;
         while (x.next && x.next.id && by[x.next.id] && line.indexOf(x.next.id) < 0) { x = by[x.next.id]; line.push(x.id); }
+        (c.alongside || []).forEach(function (a) { if (a.id && by[a.id] && line.indexOf(a.id) < 0) line.push(a.id); });
         line.forEach(function (i) { if (ids.indexOf(i) < 0 && fam.indexOf(i) < 0) fam.push(i); });
       });
       $("cmp-fam").innerHTML = (fam.length && ids.length < MAX)
@@ -304,6 +305,11 @@
         while (x.next && x.next.id && by[x.next.id] && line.indexOf(x.next.id) < 0 && line.length < MAX) { x = by[x.next.id]; line.push(x.id); }
         line.forEach(function (i) { seen[i] = 1; });
         out.push(line);
+      });
+      ALL.forEach(function (c) {
+        (c.alongside || []).forEach(function (a) {
+          if (a.id && by[a.id] && !out.some(function (l) { return l.indexOf(c.id) >= 0 && l.indexOf(a.id) >= 0; })) out.push([c.id, a.id]);
+        });
       });
       return '<div class="cmp-starts">' + out.map(function (line) {
         return '<a href="?ids=' + line.join(",") + '">' + line.map(function (i) { return esc(by[i].name); }).join(" <span>vs</span> ") + "</a>";

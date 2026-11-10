@@ -156,9 +156,10 @@ const CARS_INDEX = [
   "country": "United Kingdom",
   "quick": "The Evora with a supercharger. For 2010 Lotus took the Toyota V6 from 276 hp to 345 hp and gave the S revised suspension, larger brakes and a rear spoiler of its own, and it was the quick Evora until the 400 replaced it in 2015.",
   "articles": [
-   "simplify-then-add-soul"
+   "simplify-then-add-soul",
+   "ill-take-supercars-for-100ish"
   ],
-  "latest": "2026-05-09",
+  "latest": "2026-10-27",
   "drive": "Rear-wheel drive",
   "gearbox": "6-speed manual (IPS automatic optional)",
   "specsFor": "2010 Lotus Evora S, 6-speed manual, Lotus's launch figures",
@@ -203,9 +204,10 @@ const CARS_INDEX = [
   "country": "United Kingdom",
   "quick": "The Evora reworked into something harder and faster. Lotus said more than two-thirds of it was new, the supercharged V6 rose to 400 hp, a limited-slip differential came standard with the manual, and it was the most powerful production Lotus yet when it arrived in 2015.",
   "articles": [
-   "simplify-then-add-soul"
+   "simplify-then-add-soul",
+   "ill-take-supercars-for-100ish"
   ],
-  "latest": "2026-05-09",
+  "latest": "2026-10-27",
   "drive": "Rear-wheel drive",
   "gearbox": "6-speed manual (6-speed automatic optional)",
   "specsFor": "2015 Lotus Evora 400, 6-speed manual, Lotus's launch figures",
@@ -253,9 +255,10 @@ const CARS_INDEX = [
   "country": "United Kingdom",
   "quick": "The lighter, sharper Evora. Unveiled at Geneva in 2016 with carbon-fiber body parts and 410 hp, it became the GT410 Sport for Lotus's 70th anniversary and later the softer GT410, the forms in which the 410 hp Evora ran to the end.",
   "articles": [
-   "simplify-then-add-soul"
+   "simplify-then-add-soul",
+   "ill-take-supercars-for-100ish"
   ],
-  "latest": "2026-05-09",
+  "latest": "2026-10-27",
   "drive": "Rear-wheel drive",
   "gearbox": "6-speed manual (6-speed automatic optional)",
   "specsFor": "2016 Lotus Evora Sport 410, 6-speed manual, Lotus's figures",
@@ -300,9 +303,10 @@ const CARS_INDEX = [
   "country": "United Kingdom",
   "quick": "The most extreme Evora. Lotus planned just 60, gave them 430 hp, a dry weight of 1,258 kg and bodywork that could make up to 250 kg of downforce, and called it the most powerful road car it had built to that point.",
   "articles": [
-   "simplify-then-add-soul"
+   "simplify-then-add-soul",
+   "ill-take-supercars-for-100ish"
   ],
-  "latest": "2026-05-09",
+  "latest": "2026-10-27",
   "drive": "Rear-wheel drive",
   "gearbox": "6-speed manual (6-speed automatic optional)",
   "specsFor": "2017 Lotus Evora GT430, 6-speed manual, Lotus's figures",
@@ -347,9 +351,10 @@ const CARS_INDEX = [
   "country": "United Kingdom",
   "quick": "The GT430 without the wing. Lotus took off the big rear wing to cut drag, kept the 430 hp V6, quoted a dry weight of 1,248 kg and 196 mph, and called it the fastest production Lotus yet.",
   "articles": [
-   "simplify-then-add-soul"
+   "simplify-then-add-soul",
+   "ill-take-supercars-for-100ish"
   ],
-  "latest": "2026-05-09",
+  "latest": "2026-10-27",
   "drive": "Rear-wheel drive",
   "gearbox": "6-speed manual (6-speed automatic optional)",
   "specsFor": "2017 Lotus Evora GT430 Sport, 6-speed manual, Lotus's figures",
@@ -692,9 +697,10 @@ const CARS_INDEX = [
   "country": "Japan",
   "quick": "The second RX-7 grew up: independent rear suspension, a turbocharged 13B, and a silhouette that critics never stopped comparing to a Porsche. Beneath it sits one of the cleverest passive chassis of the 1980s and a rotary that loves to rev, which makes it the RX-7 that rewards a patient, attentive driver and the most affordable way into the family today.",
   "articles": [
-   "the-middle-child"
+   "the-middle-child",
+   "the-one-on-the-wall"
   ],
-  "latest": "2026-08-17",
+  "latest": "2026-10-07",
   "drive": "Rear-wheel drive",
   "gearbox": "5-speed manual (4-speed automatic optional)",
   "specsFor": "1989 Mazda Savanna RX-7 GT-X (S5 Turbo), Japanese market",
@@ -2379,7 +2385,8 @@ const CARS_INDEX = [
   "country": "United Kingdom",
   "quick": "The X350 XJR looked like a gentle update of the car it replaced, but under the familiar shape sat an all-aluminum body, a 390-hp supercharged V8 and adaptive air suspension. Bigger than the old XJR yet lighter, it is one of the great sleepers of the 2000s.",
   "articles": [
-   "mud-on-the-collar"
+   "mud-on-the-collar",
+   "ghost-run"
   ],
   "latest": "2026-09-09",
   "drive": "Rear-wheel drive",
@@ -3302,7 +3309,9 @@ const CARS_INDEX = [
   "articles": [
    "queen-of-the-road",
    "herringbone",
-   "suspension-of-disbelief"
+   "suspension-of-disbelief",
+   "goddess-of-serenity",
+   "ds-assassination"
   ],
   "latest": "2026-09-02",
   "drive": "Front-wheel drive",

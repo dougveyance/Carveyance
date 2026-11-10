@@ -319,7 +319,7 @@ def json_ld(c, url, photo):
 
 def article_card(a):
     img = a.get("image") or f"/assets/images/{a['slug']}.jpg"
-    return (f'<a class="acard" href="/articles/{esc(a["slug"])}/"><div class="ai"><img src="{esc(img)}" alt="" loading="lazy"></div>'
+    return (f'<a class="acard" href="/articles/{esc(a["slug"])}/" data-date="{esc(a.get("date", ""))}"><div class="ai"><img src="{esc(img)}" alt="" loading="lazy"></div>'
             f'<div class="ab"><div class="ak">{esc(a.get("category", ""))}</div><div class="at">{esc(a["title"])}</div>'
             f'<div class="as">{esc(a.get("subtitle", ""))}</div>'
             f'<div class="ar">{esc(a.get("readTime", ""))} read</div></div></a>')
@@ -405,11 +405,14 @@ def car_page(c, cars, by_id, arts, photos):
     also = [arts[s] for s in c.get("_also", []) if s in arts]
     also.sort(key=lambda a: a.get("date", ""), reverse=True)
     from_html = ""
-    if primary:
-        from_html = f'<section class="from"><div class="wrap"><h2 class="h2">From Carveyance</h2><div class="agrid">{"".join(article_card(a) for a in primary)}</div>'
-        if also:
+    if primary or also:
+        # the stories about it first, then the ones it appears in or that cover its family, as cards up to 6
+        room = max(0, 6 - len(primary))
+        cards, rest = primary + also[:room], also[room:]
+        from_html = f'<section class="from"><div class="wrap"><h2 class="h2">From Carveyance</h2><div class="agrid">{"".join(article_card(a) for a in cards)}</div>'
+        if rest:
             from_html += ('<p class="also"><b>Also appears in:</b> ' +
-                          " &middot; ".join(f'<a href="/articles/{esc(a["slug"])}/">{esc(a["title"])}</a>' for a in also) + "</p>")
+                          " &middot; ".join(f'<a href="/articles/{esc(a["slug"])}/" data-date="{esc(a.get("date", ""))}">{esc(a["title"])}</a>' for a in rest) + "</p>")
         from_html += "</div></section>"
 
     same = [x for x in cars if x["make"] == c["make"] and x["id"] != c["id"]]
@@ -646,6 +649,14 @@ def main():
         missing = [s for s in c.get("articles", []) if s not in arts]
         if missing:
             print(f"  note: {c['id']} lists articles not in articles.js: {', '.join(missing)}")
+    # stories about the rest of its family (the cars linked by Before it / After it) belong on its page too
+    for c in cars:
+        for m in family(c, by_id, size=99):
+            if m == c["id"]:
+                continue
+            for s in by_id[m].get("articles", []):
+                if s in arts and s not in c.get("articles", []) and s not in c["_also"]:
+                    c["_also"].append(s)
     photos = {c["id"]: photo_urls(c) for c in cars}
 
     # the data the /cars/ page reads

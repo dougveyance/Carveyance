@@ -388,7 +388,22 @@
     document.head.appendChild(sc);
   };
 
+  /* A story scheduled for a later date stays off the car pages until that day,
+     the same rule as the rest of the site. */
+  I.hideScheduled = function () {
+    var d = new Date(), p = function (n) { return (n < 10 ? "0" : "") + n; };
+    var today = d.getFullYear() + "-" + p(d.getMonth() + 1) + "-" + p(d.getDate());
+    [].forEach.call(document.querySelectorAll(".from [data-date]"), function (el) {
+      if (el.getAttribute("data-date") > today) el.hidden = true;
+    });
+    var also = document.querySelector(".from .also");
+    if (also && !also.querySelector("a:not([hidden])")) also.hidden = true;
+    var sec = document.querySelector("section.from");
+    if (sec && !sec.querySelector(".acard:not([hidden])")) sec.hidden = true;
+  };
+
   I.carPage = function (carId) {
+    I.hideScheduled();
     I.forSale();
     var hs = document.getElementById("hscore");
     var vsum = document.getElementById("vsum");

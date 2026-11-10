@@ -336,7 +336,11 @@ def lineage_row(label, x, by_id):
         return f'<div class="lin"><span class="dir">{label}</span><span class="none">None</span></div>'
     if x.get("id") and x["id"] in by_id:
         return f'<a class="lin" href="/cars/{esc(x["id"])}/"><span class="dir">{label}</span><span class="nm">{esc(x["name"])}</span><span class="go">&rarr;</span></a>'
-    return f'<div class="lin"><span class="dir">{label}</span><span class="nm">{esc(x["name"])}</span></div>'
+    # not in the Index yet: still clickable, to a site search for it (stories, other cars, where to find one)
+    q = re.sub(r"\s*\([^)]*\)\s*$", "", x["name"]).strip() or x["name"]
+    return (f'<a class="lin out" href="/?q={urllib.parse.quote(q)}"><span class="dir">{label}</span>'
+            f'<span class="nmw"><span class="nm">{esc(x["name"])}</span><small>Not in the Index yet &middot; search the site</small></span>'
+            f'<span class="go">&rarr;</span></a>')
 
 
 def family(c, by_id, size=3):

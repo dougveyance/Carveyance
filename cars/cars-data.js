@@ -17,6 +17,13 @@ const CARS_INDEX = [
    "simplify-then-add-soul"
   ],
   "latest": "2026-10-27",
+  "ownDates": [
+   "2026-10-27"
+  ],
+  "dates": [
+   "2026-10-27",
+   "2026-05-09"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "6-speed manual (6-speed automatic optional)",
   "specsFor": "2020 Lotus Evora GT, US market, 6-speed manual (Car and Driver test car)",
@@ -68,6 +75,15 @@ const CARS_INDEX = [
    "the-unsung-hero-996"
   ],
   "latest": "2026-11-18",
+  "ownDates": [
+   "2026-10-27"
+  ],
+  "dates": [
+   "2026-11-18",
+   "2026-11-11",
+   "2026-10-27",
+   "2026-05-06"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "6-speed manual",
   "specsFor": "2004 Porsche 911 GT3 (996.2), US market (Car and Driver test)",
@@ -125,6 +141,14 @@ const CARS_INDEX = [
    "the-other-german"
   ],
   "latest": "2026-10-27",
+  "ownDates": [
+   "2026-10-27"
+  ],
+  "dates": [
+   "2026-10-27",
+   "2026-10-26",
+   "2026-08-18"
+  ],
   "drive": "All-wheel drive",
   "gearbox": "6-speed manual with open metal gate (R tronic automated manual optional)",
   "specsFor": "2008 Audi R8 4.2 FSI quattro, 6-speed gated manual, US market (Road & Track test)",
@@ -171,6 +195,13 @@ const CARS_INDEX = [
    "ill-take-supercars-for-100ish"
   ],
   "latest": "2026-10-27",
+  "ownDates": [
+   "2026-05-09"
+  ],
+  "dates": [
+   "2026-10-27",
+   "2026-05-09"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "6-speed manual (IPS automatic optional)",
   "specsFor": "2010 Lotus Evora S, 6-speed manual, Lotus's launch figures",
@@ -220,6 +251,13 @@ const CARS_INDEX = [
    "ill-take-supercars-for-100ish"
   ],
   "latest": "2026-10-27",
+  "ownDates": [
+   "2026-05-09"
+  ],
+  "dates": [
+   "2026-10-27",
+   "2026-05-09"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "6-speed manual (6-speed automatic optional)",
   "specsFor": "2015 Lotus Evora 400, 6-speed manual, Lotus's launch figures",
@@ -272,6 +310,13 @@ const CARS_INDEX = [
    "ill-take-supercars-for-100ish"
   ],
   "latest": "2026-10-27",
+  "ownDates": [
+   "2026-05-09"
+  ],
+  "dates": [
+   "2026-10-27",
+   "2026-05-09"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "6-speed manual (6-speed automatic optional)",
   "specsFor": "2016 Lotus Evora Sport 410, 6-speed manual, Lotus's figures",
@@ -321,6 +366,13 @@ const CARS_INDEX = [
    "ill-take-supercars-for-100ish"
   ],
   "latest": "2026-10-27",
+  "ownDates": [
+   "2026-05-09"
+  ],
+  "dates": [
+   "2026-10-27",
+   "2026-05-09"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "6-speed manual (6-speed automatic optional)",
   "specsFor": "2017 Lotus Evora GT430, 6-speed manual, Lotus's figures",
@@ -370,6 +422,13 @@ const CARS_INDEX = [
    "ill-take-supercars-for-100ish"
   ],
   "latest": "2026-10-27",
+  "ownDates": [
+   "2026-05-09"
+  ],
+  "dates": [
+   "2026-10-27",
+   "2026-05-09"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "6-speed manual (6-speed automatic optional)",
   "specsFor": "2017 Lotus Evora GT430 Sport, 6-speed manual, Lotus's figures",
@@ -415,6 +474,13 @@ const CARS_INDEX = [
    "ill-take-supercars-for-100ish"
   ],
   "latest": "2026-10-27",
+  "ownDates": [
+   "2026-05-09"
+  ],
+  "dates": [
+   "2026-10-27",
+   "2026-05-09"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "6-speed manual (IPS automatic optional later)",
   "specsFor": "2009 Lotus Evora, naturally aspirated, 6-speed manual",
@@ -468,6 +534,13 @@ const CARS_INDEX = [
    "bright-idea"
   ],
   "latest": "2026-10-26",
+  "ownDates": [
+   "2026-09-02"
+  ],
+  "dates": [
+   "2026-10-26",
+   "2026-09-02"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "5-speed manual",
   "specsFor": "1993 Lotus Esprit Sport 300, UK market (Autocar road test, August 1993)",
@@ -526,6 +599,13 @@ const CARS_INDEX = [
    "bright-idea"
   ],
   "latest": "2026-10-26",
+  "ownDates": [
+   "2026-09-02"
+  ],
+  "dates": [
+   "2026-10-26",
+   "2026-09-02"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "5-speed manual",
   "specsFor": "1995 Lotus Esprit S4S, UK market (Motor Sport road test)",
@@ -584,6 +664,13 @@ const CARS_INDEX = [
    "bright-idea"
   ],
   "latest": "2026-10-26",
+  "ownDates": [
+   "2026-09-02"
+  ],
+  "dates": [
+   "2026-10-26",
+   "2026-09-02"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "5-speed manual",
   "specsFor": "1997 Lotus Esprit V8, US market (Car and Driver test, November 1997)",
@@ -636,6 +723,14 @@ const CARS_INDEX = [
    "ghost-run"
   ],
   "latest": "2026-09-01",
+  "ownDates": [
+   "2026-09-01",
+   "2026-07-23"
+  ],
+  "dates": [
+   "2026-09-01",
+   "2026-07-23"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "6-speed manual",
   "specsFor": "1990-1992 Lotus Carlton / Lotus Omega (one specification for both badges)",
@@ -685,6 +780,11 @@ const CARS_INDEX = [
    "the-one-on-the-wall"
   ],
   "latest": "2026-10-07",
+  "ownDates": [],
+  "dates": [
+   "2026-10-07",
+   "2026-08-17"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "Manual or automatic",
   "specsFor": "Mazda RX-7 with the 12A rotary, North American market",
@@ -708,7 +808,11 @@ const CARS_INDEX = [
    "id": "mazda-rx-7-fc",
    "name": "Mazda RX-7 (FC)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/mazda-rx-7-fb.jpg",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "mazda-rx-7-fd",
@@ -733,6 +837,17 @@ const CARS_INDEX = [
    "the-middle-child"
   ],
   "latest": "2026-10-07",
+  "ownDates": [
+   "2026-10-07"
+  ],
+  "dates": [
+   "2026-10-07",
+   "2026-09-29",
+   "2026-09-25",
+   "2026-09-23",
+   "2026-09-02",
+   "2026-08-17"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "5-speed manual (4-speed automatic optional)",
   "specsFor": "1993 Mazda RX-7, US market (base car and R1 share the 255 hp drivetrain)",
@@ -788,6 +903,17 @@ const CARS_INDEX = [
    "you-spin-me-round"
   ],
   "latest": "2026-10-07",
+  "ownDates": [
+   "2026-08-17"
+  ],
+  "dates": [
+   "2026-10-07",
+   "2026-09-29",
+   "2026-09-25",
+   "2026-09-23",
+   "2026-09-02",
+   "2026-08-17"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "5-speed manual (4-speed automatic optional)",
   "specsFor": "1989 Mazda Savanna RX-7 GT-X (S5 Turbo), Japanese market",
@@ -841,6 +967,14 @@ const CARS_INDEX = [
    "the-middle-child"
   ],
   "latest": "2026-09-02",
+  "ownDates": [
+   "2026-07-23"
+  ],
+  "dates": [
+   "2026-09-02",
+   "2026-08-17",
+   "2026-07-23"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "4-speed automatic",
   "specsFor": "1990 Eunos Cosmo 20B (three-rotor), Japanese market",
@@ -894,6 +1028,13 @@ const CARS_INDEX = [
    "you-spin-me-round"
   ],
   "latest": "2026-09-02",
+  "ownDates": [
+   "2026-07-23"
+  ],
+  "dates": [
+   "2026-09-02",
+   "2026-07-23"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "4-speed manual",
   "specsFor": "1967 Mazda Cosmo Sport Series I (L10A), Japanese market",
@@ -939,6 +1080,12 @@ const CARS_INDEX = [
    "now-boarding"
   ],
   "latest": "2026-07-27",
+  "ownDates": [
+   "2026-07-27"
+  ],
+  "dates": [
+   "2026-07-27"
+  ],
   "drive": "",
   "gearbox": "",
   "specsFor": "1991 Mazda Suitcase Car, Fantasyard prototype (Mazda spec sheet)",
@@ -984,6 +1131,12 @@ const CARS_INDEX = [
    "open-air-mazda-121"
   ],
   "latest": "2026-05-16",
+  "ownDates": [
+   "2026-05-16"
+  ],
+  "dates": [
+   "2026-05-16"
+  ],
   "drive": "Front-wheel drive",
   "gearbox": "5-speed manual (automatic available)",
   "specsFor": "Mazda 121 Canvas Top (DA), 1.3, export market (Europe, Australia, Hong Kong)",
@@ -1033,6 +1186,12 @@ const CARS_INDEX = [
    "929-the-number-nobody-remembered"
   ],
   "latest": "2026-07-23",
+  "ownDates": [
+   "2026-07-23"
+  ],
+  "dates": [
+   "2026-07-23"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "4-speed automatic",
   "specsFor": "1993 Mazda 929, US market",
@@ -1085,6 +1244,12 @@ const CARS_INDEX = [
    "the-happy-medium"
   ],
   "latest": "2026-08-19",
+  "ownDates": [
+   "2026-08-19"
+  ],
+  "dates": [
+   "2026-08-19"
+  ],
   "drive": "Front-wheel drive",
   "gearbox": "6-speed manual or 5-speed automatic",
   "specsFor": "2012 Mazda5 Sport, six-speed manual, US market",
@@ -1129,6 +1294,14 @@ const CARS_INDEX = [
    "cheapest-car-in-the-fight"
   ],
   "latest": "2026-08-19",
+  "ownDates": [
+   "2026-08-19",
+   "2026-08-18"
+  ],
+  "dates": [
+   "2026-08-19",
+   "2026-08-18"
+  ],
   "drive": "Front-wheel drive",
   "gearbox": "5-speed manual (4-speed automatic optional)",
   "specsFor": "2002 Mazda Protegé5, five-speed manual, US market (Car and Driver test car)",
@@ -1175,6 +1348,13 @@ const CARS_INDEX = [
    "the-happy-medium"
   ],
   "latest": "2026-08-19",
+  "ownDates": [
+   "2026-08-18"
+  ],
+  "dates": [
+   "2026-08-19",
+   "2026-08-18"
+  ],
   "drive": "Front-wheel drive",
   "gearbox": "5-speed manual",
   "specsFor": "2001 Mazda Protegé MP3, US market",
@@ -1221,6 +1401,13 @@ const CARS_INDEX = [
    "the-happy-medium"
   ],
   "latest": "2026-08-19",
+  "ownDates": [
+   "2026-08-18"
+  ],
+  "dates": [
+   "2026-08-19",
+   "2026-08-18"
+  ],
   "drive": "Front-wheel drive, limited-slip differential",
   "gearbox": "5-speed manual",
   "specsFor": "2003 Mazdaspeed Protegé, US market",
@@ -1269,6 +1456,14 @@ const CARS_INDEX = [
    "the-brightest-star"
   ],
   "latest": "2026-10-07",
+  "ownDates": [
+   "2026-09-25"
+  ],
+  "dates": [
+   "2026-10-07",
+   "2026-09-29",
+   "2026-09-25"
+  ],
   "drive": "All-wheel drive (VR-4)",
   "gearbox": "6-speed manual",
   "specsFor": "1995 Mitsubishi 3000GT VR-4 coupe, US market (performance from Motor Trend's May 1997 comparison test)",
@@ -1323,6 +1518,12 @@ const CARS_INDEX = [
    "the-overachiever"
   ],
   "latest": "2026-09-25",
+  "ownDates": [
+   "2026-09-25"
+  ],
+  "dates": [
+   "2026-09-25"
+  ],
   "drive": "All-wheel drive (R/T Turbo)",
   "gearbox": "5-speed manual (6-speed from 1994)",
   "specsFor": "1991 Dodge Stealth R/T Turbo, US market",
@@ -1368,6 +1569,12 @@ const CARS_INDEX = [
    "the-brightest-star"
   ],
   "latest": "2026-09-29",
+  "ownDates": [
+   "2026-09-29"
+  ],
+  "dates": [
+   "2026-09-29"
+  ],
   "drive": "All-wheel drive",
   "gearbox": "4-speed automatic",
   "specsFor": "1992 Subaru SVX, US market (Car and Driver road test, September 1991)",
@@ -1419,6 +1626,14 @@ const CARS_INDEX = [
    "forgotten-pioneers"
   ],
   "latest": "2026-09-29",
+  "ownDates": [
+   "2026-07-20"
+  ],
+  "dates": [
+   "2026-09-29",
+   "2026-08-22",
+   "2026-07-20"
+  ],
   "drive": "Front-wheel drive",
   "gearbox": "5-speed manual (4-speed automatic optional)",
   "specsFor": "1994 Ford Probe GT, US market (0-60 from Car and Driver's test of a mechanically identical 1993 GT)",
@@ -1467,6 +1682,12 @@ const CARS_INDEX = [
    "last-place-every-time"
   ],
   "latest": "2026-08-31",
+  "ownDates": [
+   "2026-08-31"
+  ],
+  "dates": [
+   "2026-08-31"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "8-speed automatic",
   "specsFor": "2008 Lexus IS F, US market (performance from Motor Trend's 2008 first test)",
@@ -1516,6 +1737,12 @@ const CARS_INDEX = [
    "ahead-of-the-applause"
   ],
   "latest": "2026-08-14",
+  "ownDates": [
+   "2026-08-14"
+  ],
+  "dates": [
+   "2026-08-14"
+  ],
   "drive": "All-wheel drive (rear-biased)",
   "gearbox": "5-speed automatic",
   "specsFor": "2003 Infiniti FX45, US market (Car and Driver instrumented test)",
@@ -1557,6 +1784,12 @@ const CARS_INDEX = [
    "vehicross"
   ],
   "latest": "2026-05-02",
+  "ownDates": [
+   "2026-05-02"
+  ],
+  "dates": [
+   "2026-05-02"
+  ],
   "drive": "Four-wheel drive (BorgWarner Torque on Demand, with low range)",
   "gearbox": "4-speed automatic",
   "specsFor": "1999-2001 Isuzu VehiCROSS, US market",
@@ -1602,6 +1835,12 @@ const CARS_INDEX = [
    "three-dials-and-a-swing-gate"
   ],
   "latest": "2026-08-14",
+  "ownDates": [
+   "2026-08-14"
+  ],
+  "dates": [
+   "2026-08-14"
+  ],
   "drive": "Super Select four-wheel drive (2H, full-time 4H, locked high and low range)",
   "gearbox": "5-speed manual or 4-speed automatic",
   "specsFor": "1992 Mitsubishi Montero SR, US market (Car and Driver 1992 comparison test)",
@@ -1655,6 +1894,12 @@ const CARS_INDEX = [
    "three-dials-and-a-swing-gate"
   ],
   "latest": "2026-08-14",
+  "ownDates": [
+   "2026-08-14"
+  ],
+  "dates": [
+   "2026-08-14"
+  ],
   "drive": "Part-time four-wheel drive with low range (Torque On Demand from 1998)",
   "gearbox": "5-speed manual or 4-speed automatic",
   "specsFor": "1992 Isuzu Trooper LS, US market (Car and Driver 1992 comparison test)",
@@ -1704,6 +1949,12 @@ const CARS_INDEX = [
    "girls-know-best"
   ],
   "latest": "2026-06-17",
+  "ownDates": [
+   "2026-06-17"
+  ],
+  "dates": [
+   "2026-06-17"
+  ],
   "drive": "Selectable four-wheel drive",
   "gearbox": "4-speed manual or 3-speed automatic",
   "specsFor": "1981-1987 Subaru BRAT, 1.8-liter EA-81, North American market",
@@ -1746,6 +1997,13 @@ const CARS_INDEX = [
    "homage-by-accident"
   ],
   "latest": "2026-08-26",
+  "ownDates": [
+   "2026-08-26"
+  ],
+  "dates": [
+   "2026-08-26",
+   "2026-08-25"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "6-speed manual or 7-speed dual-clutch",
   "specsFor": "2013 BMW 135is coupe, US market",
@@ -1802,6 +2060,13 @@ const CARS_INDEX = [
    "seventy-dollars-apart"
   ],
   "latest": "2026-08-26",
+  "ownDates": [
+   "2026-08-25"
+  ],
+  "dates": [
+   "2026-08-26",
+   "2026-08-25"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "6-speed manual",
   "specsFor": "2011 BMW 1 Series M Coupe, US market",
@@ -1856,6 +2121,14 @@ const CARS_INDEX = [
    "zenith-bmw-z4-35is"
   ],
   "latest": "2026-08-25",
+  "ownDates": [
+   "2026-08-14"
+  ],
+  "dates": [
+   "2026-08-25",
+   "2026-08-14",
+   "2026-07-23"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "5-speed manual",
   "specsFor": "2002 BMW Z3 M Coupe with the S54 engine, US market, Car and Driver test",
@@ -1908,6 +2181,13 @@ const CARS_INDEX = [
    "zenith-bmw-z4-35is"
   ],
   "latest": "2026-08-14",
+  "ownDates": [
+   "2026-08-14"
+  ],
+  "dates": [
+   "2026-08-14",
+   "2026-07-23"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "6-speed manual",
   "specsFor": "2007 BMW Z4 M Coupe, US market, Car and Driver test",
@@ -1963,6 +2243,13 @@ const CARS_INDEX = [
    "when-the-engineers-won"
   ],
   "latest": "2026-08-14",
+  "ownDates": [
+   "2026-07-23"
+  ],
+  "dates": [
+   "2026-08-14",
+   "2026-07-23"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "7-speed dual-clutch",
   "specsFor": "2011 BMW Z4 sDrive35is (E89), US market",
@@ -2011,6 +2298,12 @@ const CARS_INDEX = [
    "bmw-507"
   ],
   "latest": "2026-07-03",
+  "ownDates": [
+   "2026-07-03"
+  ],
+  "dates": [
+   "2026-07-03"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "4-speed manual (ZF)",
   "specsFor": "BMW 507, period specification",
@@ -2064,6 +2357,15 @@ const CARS_INDEX = [
    "bright-idea"
   ],
   "latest": "2026-10-26",
+  "ownDates": [
+   "2026-08-21",
+   "2026-08-18"
+  ],
+  "dates": [
+   "2026-10-26",
+   "2026-08-21",
+   "2026-08-18"
+  ],
   "drive": "All-wheel drive (engine drives the rear, motor drives the front)",
   "gearbox": "6-speed automatic (engine), 2-speed (electric motor)",
   "specsFor": "2019-2020 BMW i8 Roadster, US market",
@@ -2114,6 +2416,14 @@ const CARS_INDEX = [
    "how-porsche-became-volkswagens-problem-child"
   ],
   "latest": "2026-10-27",
+  "ownDates": [
+   "2026-05-06"
+  ],
+  "dates": [
+   "2026-10-27",
+   "2026-09-26",
+   "2026-05-06"
+  ],
   "drive": "Rear-wheel drive (all-wheel drive on Carrera 4)",
   "gearbox": "6-speed manual or 5-speed Tiptronic automatic",
   "specsFor": "1998-2001 Porsche 911 Carrera (996.1) coupe, 3.4-liter, manual",
@@ -2172,6 +2482,14 @@ const CARS_INDEX = [
    "the-borrowed-crown"
   ],
   "latest": "2026-07-07",
+  "ownDates": [
+   "2026-07-07",
+   "2026-06-06"
+  ],
+  "dates": [
+   "2026-07-07",
+   "2026-06-06"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "5-speed manual (915)",
   "specsFor": "1979 Porsche 911 SC Targa, European specification (930/03 engine)",
@@ -2222,6 +2540,12 @@ const CARS_INDEX = [
    "spite-is-the-wrong-word"
   ],
   "latest": "2026-08-14",
+  "ownDates": [
+   "2026-08-14"
+  ],
+  "dates": [
+   "2026-08-14"
+  ],
   "drive": "Rear-wheel drive (front engine, rear transaxle)",
   "gearbox": "6-speed manual",
   "specsFor": "1993 Porsche 968 Club Sport, European market",
@@ -2276,6 +2600,14 @@ const CARS_INDEX = [
    "dealt-in"
   ],
   "latest": "2026-09-23",
+  "ownDates": [
+   "2026-08-14"
+  ],
+  "dates": [
+   "2026-09-23",
+   "2026-08-19",
+   "2026-08-14"
+  ],
   "drive": "Rear-wheel drive (front engine, rear transaxle)",
   "gearbox": "5-speed manual or 4-speed automatic",
   "specsFor": "1995 Porsche 928 GTS, US market (0-60 from Car and Driver's 1992 test of an automatic)",
@@ -2328,6 +2660,12 @@ const CARS_INDEX = [
    "jaguar-mk2"
   ],
   "latest": "2026-04-20",
+  "ownDates": [
+   "2026-04-20"
+  ],
+  "dates": [
+   "2026-04-20"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "4-speed manual with optional overdrive, or automatic",
   "specsFor": "Jaguar Mark 2 3.8, 1959-1967",
@@ -2379,6 +2717,12 @@ const CARS_INDEX = [
    "nine-lives"
   ],
   "latest": "2026-05-20",
+  "ownDates": [
+   "2026-05-20"
+  ],
+  "dates": [
+   "2026-05-20"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "4-speed manual (automatic offered on some later cars)",
   "specsFor": "Jaguar E-Type Series 1 3.8, 1961 launch specification",
@@ -2432,6 +2776,13 @@ const CARS_INDEX = [
    "it-replaced-jaguar"
   ],
   "latest": "2026-10-12",
+  "ownDates": [
+   "2026-05-20"
+  ],
+  "dates": [
+   "2026-10-12",
+   "2026-05-20"
+  ],
   "drive": "Rear-wheel drive (all-wheel drive on some later versions)",
   "gearbox": "8-speed automatic (6-speed manual on some V6 cars)",
   "specsFor": "2013 Jaguar F-Type V8 S convertible, launch specification",
@@ -2482,6 +2833,14 @@ const CARS_INDEX = [
    "ghost-run"
   ],
   "latest": "2026-09-09",
+  "ownDates": [
+   "2026-09-09",
+   "2026-07-23"
+  ],
+  "dates": [
+   "2026-09-09",
+   "2026-07-23"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "5-speed automatic (Mercedes-Benz W5A580)",
   "specsFor": "2000 Jaguar XJR (X308), US market, as tested by Car and Driver, March 2000",
@@ -2535,6 +2894,13 @@ const CARS_INDEX = [
    "ghost-run"
   ],
   "latest": "2026-09-09",
+  "ownDates": [
+   "2026-09-09"
+  ],
+  "dates": [
+   "2026-09-09",
+   "2026-07-23"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "6-speed automatic (ZF 6HP26)",
   "specsFor": "2004 Jaguar XJR (X350), US market",
@@ -2583,6 +2949,12 @@ const CARS_INDEX = [
    "tuxedo-and-smoking-jacket"
   ],
   "latest": "2026-07-23",
+  "ownDates": [
+   "2026-07-23"
+  ],
+  "dates": [
+   "2026-07-23"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "5-speed automatic (6-speed from 2003)",
   "specsFor": "1998-2002 Jaguar XKR coupe, 4.0-liter",
@@ -2635,6 +3007,13 @@ const CARS_INDEX = [
    "the-six-that-got-away"
   ],
   "latest": "2026-08-19",
+  "ownDates": [
+   "2026-07-23"
+  ],
+  "dates": [
+   "2026-08-19",
+   "2026-07-23"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "5-speed automatic (4-speed on early cars)",
   "specsFor": "1996-1998 Mercedes-Benz SL500 (R129) with the M119 V8",
@@ -2684,6 +3063,12 @@ const CARS_INDEX = [
    "tuxedo-and-smoking-jacket"
   ],
   "latest": "2026-07-23",
+  "ownDates": [
+   "2026-07-23"
+  ],
+  "dates": [
+   "2026-07-23"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "4- or 5-speed manual, or 4-speed automatic",
   "specsFor": "Mercedes-Benz 280 SL (R107), European market, 185 PS version",
@@ -2734,6 +3119,12 @@ const CARS_INDEX = [
    "grey-poupon"
   ],
   "latest": "2026-06-03",
+  "ownDates": [
+   "2026-06-03"
+  ],
+  "dates": [
+   "2026-06-03"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "3-speed automatic (GM Turbo-Hydramatic)",
   "specsFor": "Rolls-Royce Corniche Convertible, Series I (1971-1987)",
@@ -2782,6 +3173,12 @@ const CARS_INDEX = [
    "the-other-german"
   ],
   "latest": "2026-08-18",
+  "ownDates": [
+   "2026-08-18"
+  ],
+  "dates": [
+   "2026-08-18"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "7-speed dual-clutch automatic (rear-mounted transaxle)",
   "specsFor": "2016 Mercedes-AMG GT S coupe, US market",
@@ -2835,6 +3232,17 @@ const CARS_INDEX = [
    "shaken-not-rushed"
   ],
   "latest": "2026-11-18",
+  "ownDates": [
+   "2026-10-15"
+  ],
+  "dates": [
+   "2026-11-18",
+   "2026-11-15",
+   "2026-11-11",
+   "2026-11-08",
+   "2026-11-04",
+   "2026-10-15"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "5-speed manual",
   "specsFor": "TVR Griffith 500, 1993-2002, TVR heritage figures",
@@ -2889,6 +3297,17 @@ const CARS_INDEX = [
    "the-assassin"
   ],
   "latest": "2026-11-18",
+  "ownDates": [
+   "2026-11-04"
+  ],
+  "dates": [
+   "2026-11-18",
+   "2026-11-15",
+   "2026-11-11",
+   "2026-11-08",
+   "2026-11-04",
+   "2026-10-15"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "5-speed manual",
   "specsFor": "TVR Chimaera 450, TVR owner's handbook figures",
@@ -2919,7 +3338,11 @@ const CARS_INDEX = [
    "id": "tvr-cerbera",
    "name": "TVR Cerbera"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/tvr-chimaera.jpg",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "tvr-cerbera",
@@ -2942,6 +3365,17 @@ const CARS_INDEX = [
    "the-one-nobody-saw-coming"
   ],
   "latest": "2026-11-18",
+  "ownDates": [
+   "2026-11-08"
+  ],
+  "dates": [
+   "2026-11-18",
+   "2026-11-15",
+   "2026-11-11",
+   "2026-11-08",
+   "2026-11-04",
+   "2026-10-15"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "5-speed manual",
   "specsFor": "TVR Cerbera 4.5, from 1997, TVR figures",
@@ -2972,7 +3406,11 @@ const CARS_INDEX = [
    "id": "tvr-tuscan",
    "name": "TVR Tuscan"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/tvr-cerbera.jpg",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "tvr-tuscan",
@@ -2997,6 +3435,17 @@ const CARS_INDEX = [
    "the-family-man-with-a-criminal-record"
   ],
   "latest": "2026-11-18",
+  "ownDates": [
+   "2026-11-11"
+  ],
+  "dates": [
+   "2026-11-18",
+   "2026-11-15",
+   "2026-11-11",
+   "2026-11-08",
+   "2026-11-04",
+   "2026-10-15"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "5-speed manual",
   "specsFor": "TVR Tuscan Mk1 4.0, 1999, TVR's claims",
@@ -3023,7 +3472,11 @@ const CARS_INDEX = [
    "id": "tvr-tamora",
    "name": "TVR Tamora"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/tvr-tuscan.jpg",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "tvr-tamora",
@@ -3046,6 +3499,17 @@ const CARS_INDEX = [
    "the-art-of-making-an-entrance"
   ],
   "latest": "2026-11-18",
+  "ownDates": [
+   "2026-11-15"
+  ],
+  "dates": [
+   "2026-11-18",
+   "2026-11-15",
+   "2026-11-11",
+   "2026-11-08",
+   "2026-11-04",
+   "2026-10-15"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "5-speed manual",
   "specsFor": "TVR Tamora 3.6, period figures",
@@ -3076,7 +3540,11 @@ const CARS_INDEX = [
    "id": "tvr-sagaris",
    "name": "TVR Sagaris"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/tvr-tamora.jpg",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "tvr-sagaris",
@@ -3099,6 +3567,17 @@ const CARS_INDEX = [
    "the-one-nobody-saw-coming"
   ],
   "latest": "2026-11-18",
+  "ownDates": [
+   "2026-11-18"
+  ],
+  "dates": [
+   "2026-11-18",
+   "2026-11-15",
+   "2026-11-11",
+   "2026-11-08",
+   "2026-11-04",
+   "2026-10-15"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "5-speed manual with limited-slip differential",
   "specsFor": "TVR Sagaris, TVR's 2005 press release",
@@ -3126,7 +3605,11 @@ const CARS_INDEX = [
    "name": "TVR Tamora"
   },
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/tvr-sagaris.jpg",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "chevrolet-corvette-grand-sport",
@@ -3144,6 +3627,12 @@ const CARS_INDEX = [
    "daily-double"
   ],
   "latest": "2026-10-27",
+  "ownDates": [
+   "2026-10-27"
+  ],
+  "dates": [
+   "2026-10-27"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "8-speed dual-clutch",
   "specsFor": "2027 Corvette Grand Sport coupe, rear-wheel drive; weight and 0-60 from Edmunds' Z52 Sport Performance test car on Pilot Sport 4S tires",
@@ -3187,6 +3676,12 @@ const CARS_INDEX = [
    "daily-double"
   ],
   "latest": "2026-10-27",
+  "ownDates": [
+   "2026-10-27"
+  ],
+  "dates": [
+   "2026-10-27"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "7-speed dual-clutch",
   "specsFor": "McLaren 12C coupe in 616-hp (625 PS) form: 2013 and 2014 model years, or an earlier car with the factory upgrade",
@@ -3237,6 +3732,13 @@ const CARS_INDEX = [
    "the-overachiever"
   ],
   "latest": "2026-09-25",
+  "ownDates": [
+   "2026-07-23"
+  ],
+  "dates": [
+   "2026-09-25",
+   "2026-07-23"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "6-speed manual",
   "specsFor": "Second-generation Viper GTS with the American Club Racer (ACR) package, as set up for the article's 2002 comparison",
@@ -3278,6 +3780,12 @@ const CARS_INDEX = [
    "all-for-one"
   ],
   "latest": "2026-07-23",
+  "ownDates": [
+   "2026-07-23"
+  ],
+  "dates": [
+   "2026-07-23"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "6-speed manual",
   "specsFor": "2000 Ford SVT Mustang Cobra R, US market",
@@ -3319,6 +3827,12 @@ const CARS_INDEX = [
    "all-for-one"
   ],
   "latest": "2026-07-23",
+  "ownDates": [
+   "2026-07-23"
+  ],
+  "dates": [
+   "2026-07-23"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "6-speed manual",
   "specsFor": "2002 Chevrolet Corvette Z06, 405-hp LS6",
@@ -3360,6 +3874,12 @@ const CARS_INDEX = [
    "all-for-one"
   ],
   "latest": "2026-07-23",
+  "ownDates": [
+   "2026-07-23"
+  ],
+  "dates": [
+   "2026-07-23"
+  ],
   "drive": "All-wheel drive",
   "gearbox": "5-speed manual",
   "specsFor": "Lancer Evolution VII GSR, Japanese market",
@@ -3401,6 +3921,13 @@ const CARS_INDEX = [
    "suspension-of-disbelief"
   ],
   "latest": "2026-09-02",
+  "ownDates": [
+   "2026-09-01"
+  ],
+  "dates": [
+   "2026-09-02",
+   "2026-09-01"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "4-speed manual",
   "specsFor": "1965-69 Corvair Monza coupe, 110-hp engine, 4-speed manual (the article's recommended version)",
@@ -3439,6 +3966,12 @@ const CARS_INDEX = [
    "what-is-thy-bidding"
   ],
   "latest": "2026-09-11",
+  "ownDates": [
+   "2026-09-11"
+  ],
+  "dates": [
+   "2026-09-11"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "8-speed automatic",
   "specsFor": "2016 Cadillac CTS-V, Car and Driver instrumented test (July 2015)",
@@ -3487,6 +4020,12 @@ const CARS_INDEX = [
    "last-light"
   ],
   "latest": "2026-10-01",
+  "ownDates": [
+   "2026-10-01"
+  ],
+  "dates": [
+   "2026-10-01"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "5-speed manual",
   "specsFor": "2007 Pontiac Solstice GXP roadster, 5-speed manual",
@@ -3540,6 +4079,12 @@ const CARS_INDEX = [
    "last-light"
   ],
   "latest": "2026-10-01",
+  "ownDates": [
+   "2026-10-01"
+  ],
+  "dates": [
+   "2026-10-01"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "5-speed manual",
   "specsFor": "2007 Saturn Sky Red Line, 5-speed manual",
@@ -3587,6 +4132,12 @@ const CARS_INDEX = [
    "the-three-row-hot-rod"
   ],
   "latest": "2026-08-17",
+  "ownDates": [
+   "2026-08-17"
+  ],
+  "dates": [
+   "2026-08-17"
+  ],
   "drive": "All-wheel drive",
   "gearbox": "8-speed automatic",
   "specsFor": "2021 Dodge Durango SRT Hellcat",
@@ -3643,6 +4194,21 @@ const CARS_INDEX = [
    "her-majesty-drives-herself"
   ],
   "latest": "2026-10-26",
+  "ownDates": [
+   "2026-07-28",
+   "2026-06-10",
+   "2026-04-24"
+  ],
+  "dates": [
+   "2026-10-26",
+   "2026-10-07",
+   "2026-09-02",
+   "2026-08-17",
+   "2026-07-28",
+   "2026-07-24",
+   "2026-06-10",
+   "2026-04-24"
+  ],
   "drive": "Front-wheel drive",
   "gearbox": "4-speed hydraulic semi-automatic, no clutch pedal",
   "specsFor": "1955 Citroën DS 19 sedan, French market",
@@ -3705,6 +4271,18 @@ const CARS_INDEX = [
    "ds-assassination"
   ],
   "latest": "2026-10-26",
+  "ownDates": [
+   "2026-07-28",
+   "2026-07-24"
+  ],
+  "dates": [
+   "2026-10-26",
+   "2026-08-17",
+   "2026-07-28",
+   "2026-07-24",
+   "2026-06-10",
+   "2026-04-24"
+  ],
   "drive": "Front-wheel drive",
   "gearbox": "5-speed manual",
   "specsFor": "1970 Citroën SM 2.7, carbureted, 5-speed manual, European market",
@@ -3767,6 +4345,17 @@ const CARS_INDEX = [
    "ds-assassination"
   ],
   "latest": "2026-09-02",
+  "ownDates": [
+   "2026-08-17",
+   "2026-07-28"
+  ],
+  "dates": [
+   "2026-09-02",
+   "2026-08-17",
+   "2026-07-28",
+   "2026-06-10",
+   "2026-04-24"
+  ],
   "drive": "Front-wheel drive",
   "gearbox": "3-speed manual, lever through the dashboard",
   "specsFor": "1951 Citroën Light Fifteen (Slough-built 11 Légère), UK market",
@@ -3824,6 +4413,17 @@ const CARS_INDEX = [
    "industry-brief-2026-10-12"
   ],
   "latest": "2026-10-19",
+  "ownDates": [
+   "2026-10-19",
+   "2026-08-17",
+   "2026-07-28"
+  ],
+  "dates": [
+   "2026-10-19",
+   "2026-10-12",
+   "2026-08-17",
+   "2026-07-28"
+  ],
   "drive": "Front-wheel drive",
   "gearbox": "4-speed manual",
   "specsFor": "1949 Citroën 2CV (original Type A)",
@@ -3871,6 +4471,15 @@ const CARS_INDEX = [
    "the-little-red-elephant"
   ],
   "latest": "2026-07-26",
+  "ownDates": [
+   "2026-07-26",
+   "2026-07-23"
+  ],
+  "dates": [
+   "2026-07-26",
+   "2026-07-25",
+   "2026-07-23"
+  ],
   "drive": "Permanent all-wheel drive",
   "gearbox": "5-speed manual",
   "specsFor": "1993 Lancia Delta HF Integrale Evoluzione II",
@@ -3924,6 +4533,13 @@ const CARS_INDEX = [
    "the-king-was-italian"
   ],
   "latest": "2026-07-26",
+  "ownDates": [
+   "2026-07-25"
+  ],
+  "dates": [
+   "2026-07-26",
+   "2026-07-25"
+  ],
   "drive": "Front-wheel drive",
   "gearbox": "Manual",
   "specsFor": "1969 Lancia Fulvia 1.6 HF 'Fanalone', road car",
@@ -3939,7 +4555,11 @@ const CARS_INDEX = [
    "id": null,
    "name": "Lancia Stratos HF"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/lancia-fulvia-hf.jpg",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "volkswagen-golf-gti-mk1",
@@ -3959,6 +4579,12 @@ const CARS_INDEX = [
    "the-one-and-only"
   ],
   "latest": "2026-09-08",
+  "ownDates": [
+   "2026-09-08"
+  ],
+  "dates": [
+   "2026-09-08"
+  ],
   "drive": "Front-wheel drive",
   "gearbox": "4-speed manual (5-speed from 1977)",
   "specsFor": "1976 Volkswagen Golf GTI 1.6, European market",
@@ -4008,6 +4634,12 @@ const CARS_INDEX = [
    "the-one-and-only"
   ],
   "latest": "2026-09-08",
+  "ownDates": [
+   "2026-09-08"
+  ],
+  "dates": [
+   "2026-09-08"
+  ],
   "drive": "Front-wheel drive",
   "gearbox": "5-speed manual",
   "specsFor": "1986 Volkswagen Golf GTI 16V, uncatalyzed, European market",
@@ -4034,7 +4666,11 @@ const CARS_INDEX = [
    "id": "volkswagen-golf-gti-mk3",
    "name": "Volkswagen Golf GTI (Mk3)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/volkswagen-golf-gti-mk2.jpg",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "volkswagen-golf-gti-mk3",
@@ -4052,6 +4688,12 @@ const CARS_INDEX = [
    "the-one-and-only"
   ],
   "latest": "2026-09-08",
+  "ownDates": [
+   "2026-09-08"
+  ],
+  "dates": [
+   "2026-09-08"
+  ],
   "drive": "Front-wheel drive",
   "gearbox": "5-speed manual",
   "specsFor": "Volkswagen Golf GTI 16V (2.0-liter), European market",
@@ -4074,7 +4716,11 @@ const CARS_INDEX = [
    "id": "volkswagen-golf-gti-mk4",
    "name": "Volkswagen Golf GTI (Mk4)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/volkswagen-golf-gti-mk3.jpg",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "volkswagen-golf-gti-mk4",
@@ -4094,6 +4740,12 @@ const CARS_INDEX = [
    "the-one-and-only"
   ],
   "latest": "2026-09-08",
+  "ownDates": [
+   "2026-09-08"
+  ],
+  "dates": [
+   "2026-09-08"
+  ],
   "drive": "Front-wheel drive",
   "gearbox": "Manual or automatic",
   "specsFor": "Volkswagen Golf GTI 1.8T",
@@ -4112,7 +4764,11 @@ const CARS_INDEX = [
    "id": "volkswagen-golf-gti-mk5",
    "name": "Volkswagen Golf GTI (Mk5)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/volkswagen-golf-gti-mk4.jpg",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "volkswagen-golf-gti-mk5",
@@ -4132,6 +4788,12 @@ const CARS_INDEX = [
    "the-one-and-only"
   ],
   "latest": "2026-09-08",
+  "ownDates": [
+   "2026-09-08"
+  ],
+  "dates": [
+   "2026-09-08"
+  ],
   "drive": "Front-wheel drive",
   "gearbox": "6-speed manual or 6-speed DSG dual-clutch",
   "specsFor": "2005 Volkswagen Golf GTI (Mk5) 2.0 TFSI, 6-speed manual, European market",
@@ -4184,6 +4846,12 @@ const CARS_INDEX = [
    "the-one-and-only"
   ],
   "latest": "2026-09-08",
+  "ownDates": [
+   "2026-09-08"
+  ],
+  "dates": [
+   "2026-09-08"
+  ],
   "drive": "Front-wheel drive",
   "gearbox": "6-speed manual or 6-speed DSG dual-clutch",
   "specsFor": "2009 Volkswagen Golf GTI (Mk6) 2.0 TSI",
@@ -4202,7 +4870,11 @@ const CARS_INDEX = [
    "id": "volkswagen-golf-gti-mk7",
    "name": "Volkswagen Golf GTI (Mk7)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/volkswagen-golf-gti-mk6.jpg",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "volkswagen-golf-gti-mk7",
@@ -4220,6 +4892,12 @@ const CARS_INDEX = [
    "the-one-and-only"
   ],
   "latest": "2026-09-08",
+  "ownDates": [
+   "2026-09-08"
+  ],
+  "dates": [
+   "2026-09-08"
+  ],
   "drive": "Front-wheel drive",
   "gearbox": "6-speed manual or DSG dual-clutch",
   "specsFor": "Volkswagen Golf GTI Performance (Mk7)",
@@ -4242,7 +4920,11 @@ const CARS_INDEX = [
    "id": "volkswagen-golf-gti-mk8",
    "name": "Volkswagen Golf GTI (Mk8)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/volkswagen-golf-gti-mk7.jpg",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "volkswagen-golf-gti-mk8",
@@ -4262,6 +4944,12 @@ const CARS_INDEX = [
    "the-one-and-only"
   ],
   "latest": "2026-09-08",
+  "ownDates": [
+   "2026-09-08"
+  ],
+  "dates": [
+   "2026-09-08"
+  ],
   "drive": "Front-wheel drive",
   "gearbox": "7-speed DSG dual-clutch (6-speed manual on early Mk8s)",
   "specsFor": "Volkswagen Golf GTI (Mk8), US market (Car and Driver test)",
@@ -4281,7 +4969,11 @@ const CARS_INDEX = [
    "name": "Volkswagen Golf GTI (Mk7)"
   },
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/volkswagen-golf-gti-mk8.jpg",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "volvo-240",
@@ -4303,6 +4995,12 @@ const CARS_INDEX = [
    "one-wheel-drive"
   ],
   "latest": "2026-07-23",
+  "ownDates": [
+   "2026-07-23"
+  ],
+  "dates": [
+   "2026-07-23"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "Manual with overdrive, or automatic, by year and market",
   "specsFor": "1993 Volvo 240, US market, 2.3-liter B230F, automatic",
@@ -4349,6 +5047,12 @@ const CARS_INDEX = [
    "black-swan-allroad"
   ],
   "latest": "2026-06-30",
+  "ownDates": [
+   "2026-06-30"
+  ],
+  "dates": [
+   "2026-06-30"
+  ],
   "drive": "Permanent all-wheel drive (quattro)",
   "gearbox": "6-speed manual or 5-speed Tiptronic automatic",
   "specsFor": "2002 Audi allroad quattro 2.7T, US market",
@@ -4394,6 +5098,12 @@ const CARS_INDEX = [
    "dying-star"
   ],
   "latest": "2026-08-21",
+  "ownDates": [
+   "2026-08-21"
+  ],
+  "dates": [
+   "2026-08-21"
+  ],
   "drive": "All-wheel drive (engine drives the front wheels, electric motors the rear)",
   "gearbox": "8-speed automatic (front axle)",
   "specsFor": "2020 Polestar 1, US market",
@@ -4441,6 +5151,12 @@ const CARS_INDEX = [
    "the-segment-america-never-got"
   ],
   "latest": "2026-08-18",
+  "ownDates": [
+   "2026-08-18"
+  ],
+  "dates": [
+   "2026-08-18"
+  ],
   "drive": "Full-time four-wheel drive with automatic 4A mode, lockable high and low range",
   "gearbox": "10-speed automatic",
   "specsFor": "Ford Everest Tremor 3.0 V6 turbodiesel, Australian and South African market",
@@ -4478,6 +5194,12 @@ const CARS_INDEX = [
    "it-was-always-trying-to-kill-you"
   ],
   "latest": "2026-09-14",
+  "ownDates": [
+   "2026-09-14"
+  ],
+  "dates": [
+   "2026-09-14"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "5-speed manual with dog-leg first",
   "specsFor": "1996 Lamborghini Diablo SV, factory figures",
@@ -4530,6 +5252,12 @@ const CARS_INDEX = [
    "twelve-angry-cylinders"
   ],
   "latest": "2026-07-23",
+  "ownDates": [
+   "2026-07-23"
+  ],
+  "dates": [
+   "2026-07-23"
+  ],
   "drive": "Rear-wheel drive, 1 engine per rear wheel, no differential",
   "gearbox": "2 5-speed motorcycle gearboxes, 1 lever",
   "specsFor": "1982 Sbarro Super Twelve, the one-off shown at Geneva in March 1982",
@@ -4579,6 +5307,12 @@ const CARS_INDEX = [
    "twelve-angry-cylinders"
   ],
   "latest": "2026-07-23",
+  "ownDates": [
+   "2026-07-23"
+  ],
+  "dates": [
+   "2026-07-23"
+  ],
   "drive": "Rear-wheel drive, mid-engined",
   "gearbox": "Ferrari 5-speed manual transaxle, dogleg gate",
   "specsFor": "1984 Sbarro Super Eight, the one-off shown at Geneva in March 1984",
@@ -4620,6 +5354,12 @@ const CARS_INDEX = [
    "release-the-hounds"
   ],
   "latest": "2026-09-08",
+  "ownDates": [
+   "2026-09-08"
+  ],
+  "dates": [
+   "2026-09-08"
+  ],
   "drive": "Part-time four-wheel drive",
   "gearbox": "4- or 5-speed manual, or automatic",
   "specsFor": "Sbarro Windhound brochure car (Mercedes 280 GE-based, 2.8-liter inline-6); weight and top speed are the range figures for the whole run",
@@ -4662,6 +5402,12 @@ const CARS_INDEX = [
    "frankenstein-monster-g"
   ],
   "latest": "2026-06-13",
+  "ownDates": [
+   "2026-06-13"
+  ],
+  "dates": [
+   "2026-06-13"
+  ],
   "drive": "Four-wheel drive",
   "gearbox": "",
   "specsFor": "1987 Sbarro Monster G, the one-off built for Thomas Gehrig",
@@ -4708,6 +5454,12 @@ const CARS_INDEX = [
    "topless-beach"
   ],
   "latest": "2026-04-28",
+  "ownDates": [
+   "2026-04-28"
+  ],
+  "dates": [
+   "2026-04-28"
+  ],
   "drive": "Rear-wheel drive",
   "gearbox": "5-speed manual",
   "specsFor": "1976 Felber Beach Car, chassis 16017, on its 1972 European-spec 365 GTC/4 drivetrain",

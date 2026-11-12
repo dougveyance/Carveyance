@@ -689,6 +689,10 @@ def main():
                      "years": c.get("years", ""), "start": c.get("start"), "body": c.get("body", ""), "engine": c.get("engine", ""),
                      "country": c.get("country", ""), "quick": c.get("quick", ""), "articles": c.get("articles", []) + c["_also"],
                      "latest": max(dates) if dates else "",
+                     # story dates, newest first. The pages pick the newest one that's already out, so a
+                     # scheduled story doesn't count early. "ownDates" are the car's own stories, which rank first.
+                     "ownDates": sorted({arts[s]["date"] for s in c.get("articles", []) if s in arts and arts[s].get("date")}, reverse=True),
+                     "dates": sorted(set(dates), reverse=True),
                      "drive": c.get("drive", ""), "gearbox": c.get("gearbox", ""), "specsFor": c.get("specsFor", ""),
                      "hp": (c.get("power") or {}).get("hp"), "kg": (c.get("weight") or {}).get("kg"), "kgNote": (c.get("weight") or {}).get("note", ""),
                      "z60": ({k: (c.get("zero60") or {}).get(k) for k in ("sec", "kind", "note")} if (c.get("zero60") or {}).get("sec") else None),

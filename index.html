@@ -559,6 +559,12 @@ footer .in{display:flex;flex-direction:column;gap:32px}
     .sort(function (a, b) { return String(b.date || "").localeCompare(String(a.date || "")); });
   var CARS = C0.slice();
   var artBy = {}; ARTS.forEach(function (a) { artBy[a.slug] = a; });
+  /* "Newest stories" order for the Car Index row: the newest story about each car that's already out,
+     its own stories ranked ahead of stories about the rest of its family. */
+  CARS.forEach(function (c) {
+    var pick = function (l) { for (var i = 0; i < (l || []).length; i++) if (l[i] <= TODAY) return l[i]; return ""; };
+    c.latest = pick(c.ownDates) + "|" + pick(c.dates);
+  });
   var $ = function (id) { return document.getElementById(id); };
   var esc = function (s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); };
   var store = { get: function (k, d) { try { var v = localStorage.getItem(k); return v == null ? d : v; } catch (e) { return d; } },

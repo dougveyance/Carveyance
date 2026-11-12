@@ -5621,7 +5621,9 @@ const CARS = [
       "note": "Car and Driver test",
       "src": "article:the-one-and-only"
     },
-    "photo": {},
+    "photo": {
+      "credit": "Volkswagen AG"
+    },
     "id": "volkswagen-golf-gti-mk8",
     "name": "Volkswagen Golf GTI (Mk8)",
     "make": "Volkswagen",

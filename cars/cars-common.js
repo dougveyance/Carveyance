@@ -60,7 +60,8 @@
      ============================================================ */
   I.indexPage = function () {
     var CARS = typeof CARS_INDEX !== "undefined" ? CARS_INDEX : [];
-    CARS.forEach(function (c) { c._latest = c.latest || ""; c._n = 0; c._avg = 0; });
+    var today = I.todayISO();
+    CARS.forEach(function (c) { c._latest = I.newestOut(c, today); c._n = 0; c._avg = 0; });
     var PAGE = 24;
     var params = new URLSearchParams(location.search);
     var st = { q: params.get("q") || "", make: params.get("make") || "", sort: params.get("sort") || "", limit: PAGE };
@@ -396,9 +397,18 @@
 
   /* A story scheduled for a later date stays off the car pages until that day,
      the same rule as the rest of the site. */
-  I.hideScheduled = function () {
+  I.todayISO = function () {
     var d = new Date(), p = function (n) { return (n < 10 ? "0" : "") + n; };
-    var today = d.getFullYear() + "-" + p(d.getMonth() + 1) + "-" + p(d.getDate());
+    return d.getFullYear() + "-" + p(d.getMonth() + 1) + "-" + p(d.getDate());
+  };
+  /* For "newest stories" order: the date of the car's newest story that's already out, with its
+     own stories ranked ahead of stories about the rest of its family. Compare as plain text. */
+  I.newestOut = function (c, today) {
+    var pick = function (l) { for (var i = 0; i < (l || []).length; i++) if (l[i] <= today) return l[i]; return ""; };
+    return pick(c.ownDates) + "|" + pick(c.dates);
+  };
+  I.hideScheduled = function () {
+    var today = I.todayISO();
     [].forEach.call(document.querySelectorAll(".from [data-date]"), function (el) {
       if (el.getAttribute("data-date") > today) el.hidden = true;
     });

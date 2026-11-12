@@ -8,8 +8,12 @@
 //        The spec sheet for one model year from CarsXE's Year Make Model API. Uses CARSXE_API_KEY.
 //        Cached for 30 days, so the same car looked up twice only costs one CarsXE credit.
 //   GET  /.netlify/functions/snap?about=1&make=Saab&model=900&gen=classic&from=1979&to=1993
-//        For cars without a Car Index page: a short write-up and key numbers from Claude, plus the Wikipedia page
+//        For cars without a Car Index page: a short write-up from Claude, plus the Wikipedia page
 //        and its Commons photo with credit. Cached for 30 days per car.
+//   GET  /.netlify/functions/snap?stats=1&make=Saab&model=9-3&year=2006&trim=Aero
+//        The key numbers for that exact year and trim, from Claude. Cached for 30 days per version.
+//   GET  /.netlify/functions/snap?models=1&make=Saab
+//        Model names for the step-by-step picker, from NHTSA's free vehicle database. Cached for 30 days.
 //   GET  /.netlify/functions/snap?listings=1&make=Porsche&model=Cayenne&from=2015&to=2018&zip=90026[&distance=100]
 //        Real cars for sale near a ZIP code from auto.dev. Uses AUTODEV_API_KEY, the same key FitDrive uses.
 //        Leave out zip and add &nationwide=1 for the whole country. Cached for 12 hours.
@@ -334,29 +338,16 @@ async function listings(p) {
 
 // ---------------------------------------------------------------- 4. "About the car", for cars without a Car Index page
 //   GET /.netlify/functions/snap?about=1&make=Saab&model=900&gen=classic&from=1979&to=1993
-//   A short write-up and the key numbers from Claude (a number is 0 when Claude isn't sure, and the page shows a dash),
-//   plus the car's Wikipedia page and its lead photo from Wikimedia Commons with the photographer and license.
-//   Cached for 30 days, so each car is written up once and every later reader gets the same copy.
+//   A short write-up from Claude, plus the car's Wikipedia page and its lead photo from Wikimedia Commons with the
+//   photographer and license. Cached for 30 days, so each car is written up once and later readers get the same copy.
+//   The numbers come separately from ?stats=1 (section 5), because they depend on the exact year and trim.
 const ABOUT_SYSTEM = `You write short notes about cars for Carveyance, an American enthusiast car magazine. A reader just photographed a car the magazine hasn't written about yet, and wants to know what it is.
 
 paragraphs: 1 or 2 short paragraphs, 80 to 150 words in all. Say what the car is and where it sat in its maker's lineup, what it's known for, and one memorable, true detail. Plain, confident and warm, written for enthusiasts. American English spelling, numbers as numerals, speeds in mph. No politics, no first person, no hype words, no lists. Don't mention Carveyance, Wikipedia or AI. If you know little about the car, write 1 short paragraph and keep to what you're sure of.
 
-Numbers: give each one only when you're confident it is right, within about 5 percent, for the version named in specs_for. Otherwise use 0 (or an empty string). A dash is better than a wrong number. Never estimate production totals; give number_made only when it's a known published figure, and set number_made_approx to true when that figure is itself approximate. power_hp is US (SAE net) horsepower. weight_kg is curb weight in kilograms.
-
-specs_for: the version the numbers describe, such as "1989 Saab 900 Turbo, US market".
 wikipedia_title: the exact title of the English Wikipedia article that best covers this model or generation, such as "Saab 900" or "Mercedes-Benz R107 and C107". Empty if unsure.`;
 const ABOUT_FIELDS = {
   paragraphs: { type: "array", items: { type: "string" } },
-  specs_for: { type: "string" },
-  engine: { type: "string", description: "Such as '2.0-liter turbocharged inline-4'. Empty if unsure." },
-  power_hp: { type: "integer" },
-  zero_to_60: { type: "number", description: "Seconds, from a published road test or the maker's claim. 0 if unsure." },
-  top_speed_mph: { type: "integer" },
-  weight_kg: { type: "integer" },
-  number_made: { type: "integer" },
-  number_made_approx: { type: "boolean" },
-  body: { type: "string", description: "Such as 'three-door hatchback' or 'two-door convertible'" },
-  country: { type: "string", description: "Where the maker is based" },
   wikipedia_title: { type: "string" },
 };
 const ABOUT_SCHEMA = { type: "object", properties: ABOUT_FIELDS, required: Object.keys(ABOUT_FIELDS), additionalProperties: false };
@@ -384,14 +375,28 @@ async function findWiki(make, model, title) {
   }
   if (!page) return null;
   const out = { title: page.title, url: (page.content_urls && page.content_urls.desktop && page.content_urls.desktop.page) || "https://en.wikipedia.org/wiki/" + encodeURIComponent(page.title.replace(/ /g, "_")) };
-  // Only free photos from Wikimedia Commons (not the non-free images some articles carry), with credit and license.
-  const orig = page.originalimage && page.originalimage.source ? String(page.originalimage.source) : "";
-  const m = orig.match(/^https:\/\/upload\.wikimedia\.org\/wikipedia\/commons\/([0-9a-f])\/([0-9a-f]{2})\/([^/]+)$/);
-  if (m && !/\.svg$/i.test(m[3])) {
-    const file = m[3], w = (page.originalimage && page.originalimage.width) || 0;
-    out.image = w > 1000 ? "https://upload.wikimedia.org/wikipedia/commons/thumb/" + m[1] + "/" + m[2] + "/" + file + "/960px-" + file : orig;
-    out.filePage = "https://commons.wikimedia.org/wiki/File:" + file;
-    const info = await wikiJson("https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=extmetadata&titles=File:" + file);
+  // The photo: the article's own lead image, at a width Wikimedia already makes (960 px), and only when it's a free file
+  // on Wikimedia Commons (not the non-free images some articles carry). Credited with the photographer and license.
+  const isCommons = (u) => /^https:\/\/upload\.wikimedia\.org\/wikipedia\/commons\//.test(String(u || ""));
+  const pi = await wikiJson("https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1" +
+    "&prop=pageimages&piprop=thumbnail%7Cname%7Coriginal&pithumbsize=960&pilicense=free&titles=" + encodeURIComponent(page.title));
+  const pg = pi && pi.query && Array.isArray(pi.query.pages) && pi.query.pages[0] ? pi.query.pages[0] : {};
+  let file = pg.pageimage ? String(pg.pageimage) : "";
+  let thumb = pg.thumbnail && isCommons(pg.thumbnail.source) ? String(pg.thumbnail.source) : "";
+  const webImage = (u) => /\.(jpe?g|png|gif|webp)$/i.test(String(u || "")); // browsers can't show .tif, .pdf and the like
+  let full = pg.original && isCommons(pg.original.source) && webImage(pg.original.source) ? String(pg.original.source) : "";
+  if (!thumb && !full) {
+    // Fall back to the image in the article summary, full size.
+    const orig = page.originalimage && page.originalimage.source ? String(page.originalimage.source) : "";
+    const m = orig.match(/^https:\/\/upload\.wikimedia\.org\/wikipedia\/commons\/[0-9a-f]\/[0-9a-f]{2}\/([^/]+)$/);
+    if (m && webImage(orig)) { full = orig; try { file = decodeURIComponent(m[1]); } catch (e) { file = m[1]; } }
+  }
+  if ((thumb || full) && file && !/\.svg$/i.test(file)) {
+    out.image = thumb || full;
+    if (full && full !== out.image) out.original = full; // the page tries this one if the smaller copy won't load
+    const name = file.replace(/ /g, "_");
+    out.filePage = "https://commons.wikimedia.org/wiki/File:" + encodeURIComponent(name);
+    const info = await wikiJson("https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=extmetadata&titles=" + encodeURIComponent("File:" + name));
     const pages = info && info.query && info.query.pages ? Object.values(info.query.pages) : [];
     const meta = pages[0] && pages[0].imageinfo && pages[0].imageinfo[0] ? pages[0].imageinfo[0].extmetadata || {} : {};
     const val = (k) => meta[k] && meta[k].value ? String(meta[k].value).replace(/<[^>]*>/g, "").replace(/&amp;/g, "&").replace(/\s+/g, " ").trim() : "";
@@ -413,20 +418,15 @@ async function about(req, p) {
   const which = [make, model, gen ? "(" + gen + ")" : "", from ? (to && to !== from ? from + "–" + to : String(from)) : ""].filter(Boolean).join(" ");
   const model_ = env("SNAP_MODEL") || DEFAULT_MODEL;
   const messages = [{ role: "user", content: "Write the note for this car: " + which }];
-  let r = await askClaude(key, { model: model_, max_tokens: 3000, system: ABOUT_SYSTEM, messages,
+  let r = await askClaude(key, { model: model_, max_tokens: 2000, system: ABOUT_SYSTEM, messages,
     output_config: { format: { type: "json_schema", schema: ABOUT_SCHEMA } } });
   if (r.status === 400 && !r.credit) {
-    r = await askClaude(key, { model: model_, max_tokens: 3000, messages,
+    r = await askClaude(key, { model: model_, max_tokens: 2000, messages,
       system: ABOUT_SYSTEM + "\n\nReply with only one JSON object and no other text. Its keys: " + Object.keys(ABOUT_FIELDS).join(", ") + "." });
   }
   const raw = r.error ? null : parseCar(r.body);
-  const num = (v, max) => { const n = Number(v); return Number.isFinite(n) && n > 0 && n < max ? n : 0; };
   const info = raw ? {
     paragraphs: (Array.isArray(raw.paragraphs) ? raw.paragraphs : []).slice(0, 2).map((x) => String(x || "").trim().slice(0, 900)).filter(Boolean),
-    specs_for: str(raw.specs_for, 120), engine: str(raw.engine, 80), body: str(raw.body, 50), country: str(raw.country, 40),
-    power_hp: Math.round(num(raw.power_hp, 2500)), zero_to_60: Math.round(num(raw.zero_to_60, 40) * 10) / 10,
-    top_speed_mph: Math.round(num(raw.top_speed_mph, 320)), weight_kg: Math.round(num(raw.weight_kg, 12000)),
-    number_made: Math.round(num(raw.number_made, 100000000)), number_made_approx: raw.number_made_approx === true,
   } : null;
   const wiki = await findWiki(make, model, raw ? str(raw.wikipedia_title, 120) : "");
   if (!info && !wiki) return r.error || json(502, { ok: false, error: "no_answer" });
@@ -436,6 +436,101 @@ async function about(req, p) {
     cached("about|make|model|gen|from|to", 3600, full ? 2592000 : 86400));
 }
 
+// ---------------------------------------------------------------- 5. the numbers for one exact version
+//   GET /.netlify/functions/snap?stats=1&make=Saab&model=9-3&year=2006&trim=Aero
+//   Engine, power, torque, 0-60, top speed, weight, drive wheels, transmission, EPA mpg, number made, body, country,
+//   for that year and trim (an Aero and a Linear get their own numbers). A number Claude doesn't know comes back 0
+//   and the page shows a dash. Cached for 30 days per version.
+const STATS_SYSTEM = `You give the key specifications of one exact car for Carveyance, an American enthusiast car magazine.
+
+Describe exactly the version asked for: that model year and that trim. A higher-output trim has its own power, 0-60 and top speed; never reuse another trim's figures. If no trim is given, use the most common US version for that year and name it in specs_for. If no year is given, use the most common US version of that generation.
+
+Use the maker's published figures for engine, power, torque, transmission, drive wheels, curb weight and top speed, and a maker claim or a well-known road test for 0-60 mph. When you know a figure for the same engine and transmission in that body, use it. Use 0 (or an empty string) only when you really don't know a figure; don't invent one.
+number_made: only a known published production total for this model or generation; never estimate it. Set number_made_approx to true when the published figure is itself approximate.
+mpg_city, mpg_highway, mpg_combined: the EPA estimates as listed on fueleconomy.gov for that version (whole numbers). 0 for cars not sold in the US, cars from before EPA ratings, and electric cars.
+power_hp is US (SAE net) horsepower. torque_lbft is pound-feet. weight_kg is curb weight in kilograms. top_speed_mph as published (governed speed if the car is limited).
+engine: such as "2.8-liter turbocharged V6".
+transmission: first the transmission these figures are for, then in parentheses any other transmission offered on this version, such as "6-speed manual (5-speed automatic optional)". Just "6-speed manual" if there was only one.
+drive: first "Front-wheel drive", "Rear-wheel drive", "All-wheel drive" or "Four-wheel drive" for these figures, then in parentheses any other drive offered on this version, such as "Front-wheel drive (all-wheel drive optional)".
+If the trim name says which transmission or drive (such as 6M, 6A, CVT, AWD, 4WD, quattro, xDrive, xi, 4MATIC, 4x4), the figures are for that one. Otherwise use the most common US combination. Every figure (0-60, top speed, weight, mpg) must be for the transmission and drive named first.
+specs_for: the exact version the numbers describe, including its transmission and, when there was a choice, its drive, such as "2006 Saab 9-3 Aero sedan, 6-speed manual, US market" or "2018 Honda CR-V EX, CVT, all-wheel drive, US market".
+American English spelling.`;
+const STATS_FIELDS = {
+  specs_for: { type: "string" },
+  engine: { type: "string" },
+  power_hp: { type: "integer" },
+  torque_lbft: { type: "integer" },
+  zero_to_60: { type: "number" },
+  top_speed_mph: { type: "integer" },
+  weight_kg: { type: "integer" },
+  drive: { type: "string" },
+  transmission: { type: "string" },
+  mpg_city: { type: "integer" },
+  mpg_highway: { type: "integer" },
+  mpg_combined: { type: "integer" },
+  number_made: { type: "integer" },
+  number_made_approx: { type: "boolean" },
+  body: { type: "string" },
+  country: { type: "string", description: "Where the maker is based" },
+};
+const STATS_SCHEMA = { type: "object", properties: STATS_FIELDS, required: Object.keys(STATS_FIELDS), additionalProperties: false };
+
+async function stats(req, p) {
+  if (req.headers.get("sec-fetch-site") === "cross-site") return json(403, { ok: false, error: "forbidden_origin" });
+  const make = str(p.get("make"), 40), model = str(p.get("model"), 60), trim = str(p.get("trim"), 100), gen = str(p.get("gen"), 60);
+  const year = parseInt(p.get("year") || "", 10) || 0;
+  if (!make || !model || (year && !(year >= 1885 && year <= THIS_YEAR + 1))) return json(400, { ok: false, error: "bad_request" });
+  const key = env("ANTHROPIC_API_KEY");
+  if (!key) return json(500, { ok: false, error: "missing_key" });
+  const which = [year || "", make, model, trim ? "trim: " + trim : "", !year && gen ? "(" + gen + ")" : ""].filter(Boolean).join(" ");
+  const model_ = env("SNAP_MODEL") || DEFAULT_MODEL;
+  const messages = [{ role: "user", content: "Specifications for: " + which }];
+  let r = await askClaude(key, { model: model_, max_tokens: 2000, system: STATS_SYSTEM, messages,
+    output_config: { format: { type: "json_schema", schema: STATS_SCHEMA } } });
+  if (r.status === 400 && !r.credit) {
+    r = await askClaude(key, { model: model_, max_tokens: 2000, messages,
+      system: STATS_SYSTEM + "\n\nReply with only one JSON object and no other text. Its keys: " + Object.keys(STATS_FIELDS).join(", ") + "." });
+  }
+  if (r.error) return r.error;
+  const raw = parseCar(r.body);
+  if (!raw) return json(502, { ok: false, error: "no_answer" });
+  const num = (v, max) => { const n = Number(v); return Number.isFinite(n) && n > 0 && n < max ? n : 0; };
+  const out = {
+    specs_for: str(raw.specs_for, 140), engine: str(raw.engine, 80), drive: str(raw.drive, 80), transmission: str(raw.transmission, 90),
+    body: str(raw.body, 50), country: str(raw.country, 40),
+    power_hp: Math.round(num(raw.power_hp, 2500)), torque_lbft: Math.round(num(raw.torque_lbft, 3000)),
+    zero_to_60: Math.round(num(raw.zero_to_60, 40) * 10) / 10, top_speed_mph: Math.round(num(raw.top_speed_mph, 320)),
+    weight_kg: Math.round(num(raw.weight_kg, 12000)),
+    mpg_city: Math.round(num(raw.mpg_city, 200)), mpg_highway: Math.round(num(raw.mpg_highway, 200)), mpg_combined: Math.round(num(raw.mpg_combined, 200)),
+    number_made: Math.round(num(raw.number_made, 100000000)), number_made_approx: raw.number_made_approx === true,
+  };
+  return json(200, { ok: true, make, model, year, trim, stats: out }, cached("stats|make|model|year|trim|gen", 3600, 2592000));
+}
+
+// ---------------------------------------------------------------- 6. model list for the step-by-step picker
+//   GET /.netlify/functions/snap?models=1&make=Saab
+//   Every model name the US government's vehicle database (NHTSA vPIC, free, no key) has for that make.
+//   Cached for 30 days. Older and foreign-only models may be missing; the page then lets the reader type the model.
+async function models(p) {
+  const make = str(p.get("make"), 40);
+  if (!make || !/^[\p{L}0-9 .&'\-]+$/u.test(make)) return json(400, { ok: false, error: "bad_request" });
+  let list = [];
+  try {
+    const plainMake = make.normalize("NFD").replace(/[\u0300-\u036f]/g, ""); // "Citroën" -> "Citroen", as NHTSA spells it
+    const r = await fetch("https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMake/" + encodeURIComponent(plainMake) + "?format=json");
+    if (r.ok) {
+      const j = await r.json();
+      const seen = {};
+      for (const x of Array.isArray(j.Results) ? j.Results : []) {
+        const n = str(x && x.Model_Name, 60);
+        if (n && !seen[n.toLowerCase()]) { seen[n.toLowerCase()] = 1; list.push(n); }
+      }
+    }
+  } catch (e) { /* the page falls back to typing */ }
+  list.sort((a, b) => a.localeCompare(b, "en", { numeric: true, sensitivity: "base" }));
+  return json(200, { ok: true, make, models: list.slice(0, 400) }, cached("models|make", 86400, list.length ? 2592000 : 3600));
+}
+
 export default async (req, context) => {
   const p = new URL(req.url).searchParams;
   try {
@@ -443,6 +538,8 @@ export default async (req, context) => {
     if (p.get("specs") === "1") return await specs(p);
     if (p.get("listings") === "1") return await listings(p);
     if (p.get("about") === "1") return await about(req, p);
+    if (p.get("stats") === "1") return await stats(req, p);
+    if (p.get("models") === "1") return await models(p);
   } catch (e) {
     return json(500, { ok: false, error: "server_error" });
   }

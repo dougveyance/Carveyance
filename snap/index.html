@@ -155,7 +155,9 @@ footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
 .fix{margin-top:22px;border:1px solid var(--rule);border-radius:12px;padding:18px;background:#fff}
 .fix h3{font-family:'DM Serif Display',serif;font-weight:400;font-size:24px;margin-bottom:4px}
 .fix p{font-size:14.5px;color:var(--slate);margin-bottom:14px;line-height:1.55}
-.fixgrid{display:grid;grid-template-columns:1fr 1fr 120px;gap:12px}
+.fixgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.fix .hint{font-size:12.5px;color:var(--mid);margin:10px 0 0;line-height:1.5}
+.field select:disabled{background:var(--mist);color:var(--mid)}
 .field{display:flex;flex-direction:column;gap:6px}
 .field label{font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--mid)}
 .field input,.field select{width:100%;font-family:'DM Sans',sans-serif;font-size:16px;color:var(--ink);padding:11px 12px;border:1px solid var(--rule);border-radius:8px;background:#fff;min-height:46px}
@@ -252,6 +254,8 @@ footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
 .fact .v.dash{color:var(--rule)}
 .fact .u{font-size:12.5px;color:var(--mid);margin-top:3px}
 .fact .t{font-size:15px;font-weight:500;line-height:1.35;margin-top:7px;color:var(--ink)}
+.fact .t + .u{margin-top:4px;line-height:1.4}
+.nw{white-space:nowrap}
 .factsfor{font-size:12.5px;color:var(--mid);margin-top:10px}
 .wlink{display:inline-block;margin-top:16px;font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--steel);line-height:1.5}
 .wlink:hover{color:var(--deep)}
@@ -292,7 +296,6 @@ footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
   .sheet{columns:1}
   .cicard{grid-template-columns:1fr}
   .cicard .im{aspect-ratio:16/9;min-height:0}
-  .fixgrid{grid-template-columns:1fr 1fr}
   .fixgrid .field:last-child{grid-column:1/-1}
   .aboutgrid{grid-template-columns:1fr;gap:18px}
   .facts{grid-template-columns:repeat(2,minmax(0,1fr))}
@@ -410,6 +413,7 @@ footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
       <div class="blockh">About the car</div>
       <h2 id="abh"></h2>
       <div id="about" aria-live="polite"></div>
+      <div id="abfacts" aria-live="polite"></div>
       <div class="askbox" id="askbox"></div>
     </section>
 
@@ -653,8 +657,8 @@ footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
 
   function render(car, opts) {
     opts = opts || {};
-    S.car = car; S.specsFor = ""; S.trim = car.variant || ""; S.fresh = !!opts.fresh;
-    show("aboutsec", false); $("#about").innerHTML = ""; $("#askbox").innerHTML = "";
+    S.car = car; S.specsFor = ""; S.statsFor = ""; S.year = 0; S.trim = car.trimFull || car.variant || ""; S.fresh = !!opts.fresh;
+    show("aboutsec", false); $("#about").innerHTML = ""; $("#abfacts").innerHTML = ""; $("#askbox").innerHTML = "";
     show("work", false); show("oops", false); show("typeit", false); show("recent", false);
     $("#fixwrap").innerHTML = "";
 
@@ -732,52 +736,140 @@ footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
   });
 
   // ---------------------------------------------------------------- type it in / fix it
+  // ---------------------------------------------------------------- type it in / fix it: Make, then Model, then Year, then Trim
+  var OTHER = "__other";
+  function stepHTML(id, label, first) {
+    return '<div class="field"><label for="' + id + '-s">' + label + "</label>" +
+      '<select id="' + id + '-s" disabled><option value="">' + esc(first) + "</option></select>" +
+      '<input id="' + id + '-t" autocomplete="off" hidden placeholder="Type it in"></div>';
+  }
   function formHTML(prefill, fixing) {
-    var p = prefill || {};
     return '<form class="fix" id="fixform" novalidate><h3>' + (fixing ? "Set it straight" : "Type in the car") + "</h3>" +
-      "<p>" + (fixing ? "Tell us what it really is and we'll pull up the right numbers, stories and listings." : "Know what it is already? Skip the photo.") + "</p>" +
-      '<div class="fixgrid">' +
-      '<div class="field"><label for="fx-make">Make</label><input id="fx-make" list="fx-makes" autocomplete="off" required value="' + esc(p.make || "") + '" placeholder="Porsche"></div>' +
-      '<div class="field"><label for="fx-model">Model</label><input id="fx-model" autocomplete="off" required value="' + esc(p.model || "") + '" placeholder="911 Carrera"></div>' +
-      '<div class="field"><label for="fx-year">Year</label><input id="fx-year" inputmode="numeric" maxlength="4" value="' + esc(p.year || "") + '" placeholder="Optional"></div>' +
-      '</div><datalist id="fx-makes">' + makesList().map(function (m) { return '<option value="' + esc(m) + '">'; }).join("") + "</datalist>" +
+      "<p>" + (fixing ? "Tell us what it really is and we'll pull up the right numbers, stories and listings." : "Know what it is already? Skip the photo. Pick the make, then the model, year and trim.") + "</p>" +
+      '<div class="fixgrid">' + stepHTML("fx-make", "Make", "Choose a make") + stepHTML("fx-model", "Model", "Choose a make first") +
+      stepHTML("fx-year", "Year", "Choose a model first") + stepHTML("fx-trim", "Trim (if you know it)", "Choose a year first") + "</div>" +
+      '<p class="hint">Not in a list? Choose &ldquo;Not listed? Type it&rdquo; at the bottom of that list. Older and foreign-market cars often need typing.</p>' +
       '<div class="msg err" id="fx-err" hidden style="margin-top:12px"></div>' +
       '<div class="btns"><button class="btn" type="submit">Show me</button><button class="btn line" type="button" id="fx-cancel">Cancel</button></div></form>';
   }
-  var COMMON = ["Acura","Alfa Romeo","Aston Martin","Audi","Bentley","BMW","Buick","Cadillac","Chevrolet","Chrysler","Dodge","Ferrari","Fiat","Ford","Genesis","GMC","Honda","Hyundai","Infiniti","Jaguar","Jeep","Kia","Lamborghini","Land Rover","Lexus","Lincoln","Lotus","Lucid","Maserati","Mazda","McLaren","Mercedes-Benz","MINI","Mitsubishi","Nissan","Polestar","Pontiac","Porsche","Ram","Rivian","Rolls-Royce","Subaru","Tesla","Toyota","Volkswagen","Volvo"];
+  var COMMON = ["Acura","Alfa Romeo","Alpine","AMC","Aston Martin","Audi","Austin-Healey","Bentley","BMW","Bugatti","Buick","BYD","Cadillac","Chevrolet","Chrysler","Citroën","Cupra","Daewoo","Datsun","De Tomaso","DeLorean","Dodge","Eagle","Ferrari","Fiat","Fisker","Ford","Genesis","Geo","GMC","Holden","Honda","Hummer","Hyundai","Infiniti","International","Isuzu","Jaguar","Jeep","Kia","Koenigsegg","Lamborghini","Lancia","Land Rover","Lexus","Lincoln","Lotus","Lucid","Maserati","Maybach","Mazda","McLaren","Mercedes-Benz","Mercury","MG","MINI","Mitsubishi","Morgan","Nissan","Oldsmobile","Opel","Packard","Pagani","Peugeot","Plymouth","Polestar","Pontiac","Porsche","Ram","Renault","Rivian","Rolls-Royce","Saab","Saturn","Scion","Shelby","Škoda","Smart","Studebaker","Subaru","Suzuki","Tesla","Toyota","Triumph","TVR","VinFast","Volkswagen","Volvo","Willys"];
   function makesList() {
     var set = {}; COMMON.concat(CARS().map(function (c) { return c.make; })).forEach(function (m) { if (m) set[m] = 1; });
     return Object.keys(set).sort(function (a, b) { return a.localeCompare(b); });
   }
-  function wireForm(where, fixing) {
-    var f = $("#fixform", where);
+  function wireForm(where, fixing, prefill) {
+    var f = $("#fixform", where), p = prefill || {};
+    function el(id, k) { return $("#" + id + "-" + k, f); }
+    function fill(id, items, first, typeable) {
+      var s = el(id, "s");
+      s.innerHTML = '<option value="">' + esc(first) + "</option>" + items.map(function (x) {
+        var v = typeof x === "object" ? x.v : x, t = typeof x === "object" ? x.t : x;
+        return '<option value="' + esc(v) + '">' + esc(t) + "</option>";
+      }).join("") + (typeable ? '<option value="' + OTHER + '">Not listed? Type it</option>' : "");
+      s.disabled = false; s.hidden = false; el(id, "t").hidden = true;
+      f.querySelector('label[for^="' + id + '"]').setAttribute("for", id + "-s");
+    }
+    function wait(id, text) { var s = el(id, "s"); s.innerHTML = '<option value="">' + esc(text) + "</option>"; s.disabled = true; s.hidden = false; el(id, "t").hidden = true; }
+    function typing(id, value, focus) {
+      var s = el(id, "s"), t = el(id, "t"); s.hidden = true; t.hidden = false; t.value = value || "";
+      f.querySelector('label[for^="' + id + '"]').setAttribute("for", id + "-t");
+      if (focus) t.focus();
+    }
+    function val(id) { var s = el(id, "s"), t = el(id, "t"); return (t.hidden ? (s.value === OTHER ? "" : s.value) : t.value).trim(); }
+    function pickOrType(id, want) {
+      // Choose an entry that matches (ignoring spaces, dashes and case), or switch to typing it.
+      if (!want) return false;
+      var w = norm(want).replace(/ /g, ""), s = el(id, "s"), hit = "";
+      Array.prototype.forEach.call(s.options, function (o) { if (!hit && o.value !== OTHER && o.value && norm(o.value).replace(/ /g, "") === w) hit = o.value; });
+      // A short trim like "Aero" picks the first full trim that starts with it, such as "Aero 4dr Sedan (2.8L 6cyl Turbo 6M)".
+      if (!hit) Array.prototype.forEach.call(s.options, function (o) { if (!hit && o.value !== OTHER && o.value && (norm(o.value) + " ").indexOf(norm(want) + " ") === 0) hit = o.value; });
+      if (hit) { s.value = hit; return true; }
+      typing(id, want); return true;
+    }
+    var seq = 0;
+    function loadModels(make, then) {
+      var mine = ++seq;
+      wait("fx-model", "Loading models…"); wait("fx-year", "Choose a model first"); wait("fx-trim", "Choose a year first");
+      fetch(FN + "?models=1&make=" + encodeURIComponent(make)).then(function (r) { return r.json(); }).then(function (j) {
+        if (mine !== seq) return;
+        var list = j && j.ok && Array.isArray(j.models) ? j.models : [];
+        if (list.length) fill("fx-model", list, "Choose a model", true); else typing("fx-model", "", !then);
+        if (then) then(); else if (list.length) el("fx-model", "s").focus();
+      }).catch(function () { if (mine === seq) { typing("fx-model", "", !then); if (then) then(); } });
+    }
+    function loadYears() {
+      var ys = [{ v: "", t: "Not sure" }]; for (var y = THIS_YEAR + 1; y >= 1946; y--) ys.push(String(y));
+      fill("fx-year", ys, "Choose a year", false); el("fx-year", "s").value = "";
+      wait("fx-trim", "Choose a year first");
+    }
+    function loadTrims(make, model, year, then) {
+      var mine = ++seq;
+      if (!year) { typing("fx-trim", ""); if (then) then(); return; }
+      wait("fx-trim", "Loading trims…");
+      fetch(FN + "?specs=1&year=" + year + "&make=" + encodeURIComponent(make) + "&model=" + encodeURIComponent(model)).then(function (r) { return r.json(); }).then(function (j) {
+        if (mine !== seq) return;
+        var list = j && j.ok && j.found && Array.isArray(j.trims) ? j.trims.map(function (t) { return { v: t.name, t: t.name }; }) : [];
+        if (list.length) fill("fx-trim", list, "Not sure", true); else typing("fx-trim", "");
+        if (then) then();
+      }).catch(function () { if (mine === seq) { typing("fx-trim", ""); if (then) then(); } });
+    }
+    // Step 1: make
+    fill("fx-make", makesList(), "Choose a make", true);
+    el("fx-make", "s").addEventListener("change", function (e) {
+      if (e.target.value === OTHER) { typing("fx-make", "", true); wait("fx-model", "Type the make first"); return; }
+      if (e.target.value) loadModels(e.target.value);
+    });
+    el("fx-make", "t").addEventListener("change", function (e) { if (e.target.value.trim()) loadModels(e.target.value.trim()); });
+    // Step 2: model
+    el("fx-model", "s").addEventListener("change", function (e) {
+      if (e.target.value === OTHER) { typing("fx-model", "", true); loadYears(); return; }
+      if (e.target.value) { loadYears(); el("fx-year", "s").focus(); }
+    });
+    el("fx-model", "t").addEventListener("input", function (e) { if (e.target.value.trim() && el("fx-year", "s").disabled) loadYears(); });
+    // Step 3: year
+    el("fx-year", "s").addEventListener("change", function (e) { loadTrims(val("fx-make"), val("fx-model"), parseInt(e.target.value, 10) || 0); });
+    // Step 4: trim
+    el("fx-trim", "s").addEventListener("change", function (e) { if (e.target.value === OTHER) typing("fx-trim", "", true); });
+
+    // "Not right?" starts from what we have.
+    if (p.make) {
+      pickOrType("fx-make", p.make);
+      loadModels(val("fx-make"), function () {
+        if (p.model) { pickOrType("fx-model", p.model); loadYears(); }
+        if (p.year) {
+          el("fx-year", "s").value = String(p.year);
+          loadTrims(val("fx-make"), val("fx-model"), +p.year, function () { if (p.trim) pickOrType("fx-trim", p.trim); });
+        }
+      });
+    }
+
     $("#fx-cancel", where).addEventListener("click", function () { where.innerHTML = ""; if (!fixing) { show("typeit", false); showRecent(); } });
     f.addEventListener("submit", function (e) {
       e.preventDefault();
-      var make = $("#fx-make", f).value.trim(), model = $("#fx-model", f).value.trim(), y = parseInt($("#fx-year", f).value, 10);
+      var make = val("fx-make"), model = val("fx-model"), y = parseInt(el("fx-year", "s").value, 10) || 0, trim = val("fx-trim");
       var err = $("#fx-err", f);
       if (!make || !model) { err.textContent = "Add both the make and the model."; err.hidden = false; return; }
-      if ($("#fx-year", f).value.trim() && !(y >= 1900 && y <= THIS_YEAR + 1)) { err.textContent = "That year doesn't look right."; err.hidden = false; return; }
-      var c = asCar({ make: make, model: model, year_start: y || 0, year_end: y || 0 }, "manual");
-      if (!y) { c.year_start = 0; c.year_end = 0; }
+      var c = asCar({ make: make, model: model, year_start: y, year_end: y }, "manual");
+      if (trim) { c.trimFull = trim; c.variant = shortTrim(trim); }
       if (fixing && S.car) c.fixedFrom = title(S.car);
       if (S.photo && fixing) { remember(c); }
       render(c, { photo: fixing ? S.photo : "", fresh: true });
     });
-    setTimeout(function () { var i = $("#fx-make", f); if (i && !i.value) i.focus(); else if (i) $("#fx-model", f).focus(); }, 60);
+    if (!p.make) setTimeout(function () { el("fx-make", "s").focus(); }, 60);
   }
   function openType() {
     siteData();
     var w = $("#typeit"); show("oops", false); show("result", false); show("work", false);
-    w.innerHTML = formHTML(null, false); show("typeit", true); wireForm(w, false);
+    w.innerHTML = formHTML(null, false); show("typeit", true); wireForm(w, false, null);
     w.scrollIntoView({ behavior: "smooth", block: "start" });
   }
   $("#b-type").addEventListener("click", openType);
   $("#b-fix").addEventListener("click", function () {
     var w = $("#fixwrap");
     if (w.innerHTML) { w.innerHTML = ""; return; }
-    w.innerHTML = formHTML(S.car ? { make: S.car.make, model: S.car.model, year: S.year || "" } : null, true);
-    wireForm(w, true);
+    var pre = S.car ? { make: S.car.make, model: S.car.listing_model || S.car.model, year: S.year || "", trim: S.trim || "" } : null;
+    w.innerHTML = formHTML(pre, true);
+    wireForm(w, true, pre);
   });
 
   // ---------------------------------------------------------------- year picker + spec sheet
@@ -789,7 +881,7 @@ footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
       $("#ysub").textContent = "Pick a year to see the spec sheet.";
       var opts = []; for (var y = THIS_YEAR + 1; y >= 1950; y--) opts.push('<option value="' + y + '">' + y + "</option>");
       box.innerHTML = '<div class="field" style="width:160px"><label for="ypick" class="sr">Year</label><select id="ypick"><option value="">Choose a year</option>' + opts.join("") + "</select></div>";
-      $("#ypick").addEventListener("change", function (e) { var v = parseInt(e.target.value, 10); if (v) { S.year = v; loadSpecs(v, ""); } });
+      $("#ypick").addEventListener("change", function (e) { var v = parseInt(e.target.value, 10); if (v) { S.year = v; loadSpecs(v, S.trim); loadStats(); } });
       $("#specs").innerHTML = '<div class="msg info">Choose a year above for engine, power, fuel economy and the price when new.</div>';
       return;
     }
@@ -806,13 +898,13 @@ footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
       for (var yy = a; yy <= b; yy++) html += '<button class="chip" type="button" data-y="' + yy + '" aria-pressed="' + (yy === latest) + '">' + yy + "</button>";
       box.innerHTML = html;
     }
-    loadSpecs(latest, car.variant || "");
+    loadSpecs(latest, S.trim);
   }
   $("#years").addEventListener("click", function (e) {
     var b = e.target.closest("[data-y]"); if (!b) return;
     var y = +b.getAttribute("data-y"); S.year = y;
     $$("#years [data-y]").forEach(function (x) { x.setAttribute("aria-pressed", String(+x.getAttribute("data-y") === y)); });
-    loadSpecs(y, S.trim);
+    loadSpecs(y, S.trim); loadStats();
   });
 
   function loadSpecs(year, trim) {
@@ -837,7 +929,7 @@ footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
       }
       box.innerHTML = specHTML(j);
       var sel = $("#trimsel");
-      if (sel) sel.addEventListener("change", function (e) { S.trim = e.target.value; loadSpecs(year, S.trim); });
+      if (sel) sel.addEventListener("change", function (e) { S.trim = e.target.value; loadSpecs(year, S.trim); loadStats(); });
     }).catch(function () {
       if (S.specsFor === key) box.innerHTML = '<div class="msg info">The spec sheet didn\'t load. Check your connection and try again.</div>';
     });
@@ -1117,6 +1209,7 @@ footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
     $("#about").innerHTML = '<div class="msg info">Looking up the ' + esc(name) + "&hellip;</div>";
     renderAsk(car);
     show("aboutsec", true);
+    loadStats();
     if (S.fresh) { S.fresh = false; logCar("seen", car); }
     var q = "&make=" + encodeURIComponent(car.make) + "&model=" + encodeURIComponent(car.model) +
       (car.generation ? "&gen=" + encodeURIComponent(car.generation) : "") +
@@ -1130,32 +1223,69 @@ footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
     var a = j.about, w = j.wiki, fig = "";
     if (w && w.image) {
       var who = w.credit ? esc(w.credit) : "Wikimedia Commons";
-      fig = '<figure class="wfig"><img src="' + esc(w.image) + '" alt="' + esc(w.title) + '" loading="lazy"><figcaption>Photo: ' +
+      fig = '<figure class="wfig"><img src="' + esc(w.image) + '"' + (w.original ? ' data-orig="' + esc(w.original) + '"' : "") + ' alt="' + esc(w.title) + '" loading="lazy"><figcaption>Photo: ' +
         '<a href="' + esc(w.filePage) + '" target="_blank" rel="noopener">' + who + "</a>" +
         (w.license ? ", " + (w.licenseUrl ? '<a href="' + esc(w.licenseUrl) + '" target="_blank" rel="noopener">' + esc(w.license) + "</a>" : esc(w.license)) : "") +
         (w.credit ? ", via Wikimedia Commons" : "") + "</figcaption></figure>";
     }
     var text = "";
     ((a && a.paragraphs) || []).forEach(function (p) { text += "<p>" + esc(p) + "</p>"; });
-    if (a) text += factsHTML(a);
     if (w) text += '<a class="wlink" href="' + esc(w.url) + '" target="_blank" rel="noopener">More on the ' + esc(w.title) + " at Wikipedia &rarr;</a>";
     return '<div class="aboutgrid' + (fig ? "" : " solo") + '">' + fig + '<div class="abtext">' + text + "</div></div>";
+  }
+  // If a Wikipedia photo won't load, try the full-size file once, then drop the photo rather than show a broken image.
+  document.addEventListener("error", function (e) {
+    var img = e.target;
+    if (!img || img.tagName !== "IMG" || !img.closest || !img.closest(".wfig")) return;
+    var alt = img.getAttribute("data-orig");
+    if (alt) { img.removeAttribute("data-orig"); img.src = alt; return; }
+    var fig = img.closest(".wfig"), grid = fig.parentNode;
+    fig.parentNode.removeChild(fig);
+    if (grid && grid.classList) grid.classList.add("solo");
+  }, true);
+  // The numbers for the exact version on screen (year and trim), so an Aero and a Linear each get their own.
+  function shortTrim(t) { return String(t || "").replace(/\s*\([^)]*\)\s*$/, "").replace(/\s+\d+dr\b.*$/i, "").trim(); }
+  function loadStats() {
+    var car = S.car; if (!car || $("#aboutsec").hidden) return;
+    var key = [car.make, car.model, S.year || 0, S.trim || ""].join("|");
+    if (S.statsFor === key) return; S.statsFor = key;
+    var box = $("#abfacts"), name = [S.year || "", car.make, car.model, shortTrim(S.trim)].filter(Boolean).join(" ");
+    box.innerHTML = '<div class="msg info">Looking up the numbers for the ' + esc(name) + "&hellip;</div>";
+    var q = "&make=" + encodeURIComponent(car.make) + "&model=" + encodeURIComponent(car.model) +
+      (S.year ? "&year=" + S.year : "") + (S.trim ? "&trim=" + encodeURIComponent(S.trim) : "") +
+      (!S.year && car.generation ? "&gen=" + encodeURIComponent(car.generation) : "");
+    fetch(FN + "?stats=1" + q).then(function (r) { return r.json(); }).then(function (j) {
+      if (S.statsFor === key) box.innerHTML = j && j.ok && j.stats ? factsHTML(j.stats) : "";
+    }).catch(function () { if (S.statsFor === key) box.innerHTML = ""; });
   }
   function factsHTML(a) {
     var dash = '<div class="v dash">&mdash;</div>';
     function cell(l, v, u) { return '<div class="fact"><div class="l">' + l + "</div>" + (v ? '<div class="v">' + esc(v) + "</div>" + (u ? '<div class="u">' + esc(u) + "</div>" : "") : dash) + "</div>"; }
-    function tcell(l, t) { return '<div class="fact"><div class="l">' + l + "</div>" + (t ? '<div class="t">' + esc(t) + "</div>" : dash) + "</div>"; }
-    var kg = a.weight_kg;
+    // Keep hyphenated words whole ("6-speed", "all-wheel"), and put any option in parentheses on its own smaller line.
+    function nb(s) { return esc(s).replace(/\S*-\S*/g, function (w) { return '<span class="nw">' + w + "</span>"; }); }
+    function tcell(l, t) {
+      if (!t) return '<div class="fact"><div class="l">' + l + "</div>" + dash + "</div>";
+      var m = String(t).match(/^(.*?\S)\s*\(([^()]+)\)\s*$/);
+      return '<div class="fact"><div class="l">' + l + '</div><div class="t">' + nb(m ? m[1] : t) + "</div>" +
+        (m ? '<div class="u">(' + nb(m[2]) + ")</div>" : "") + "</div>";
+    }
+    var kg = a.weight_kg, mpg;
+    if (a.mpg_city && a.mpg_highway) mpg = cell("MPG", a.mpg_city + "/" + a.mpg_highway, "city / highway" + (a.mpg_combined ? ", " + a.mpg_combined + " combined" : ""));
+    else mpg = cell("MPG", a.mpg_combined ? String(a.mpg_combined) : "", "combined");
     return '<div class="facts">' + [
       tcell("Engine", cap(a.engine)),
       cell("Power", a.power_hp ? commas(a.power_hp) : "", "hp"),
+      cell("Torque", a.torque_lbft ? commas(a.torque_lbft) : "", "lb-ft"),
       cell("0&ndash;60 mph", a.zero_to_60 ? Number(a.zero_to_60).toFixed(1) : "", "seconds"),
       cell("Top speed", a.top_speed_mph ? String(a.top_speed_mph) : "", "mph"),
       cell("Weight", kg ? commas(kg) : "", kg ? "kg (" + commas(Math.round(kg / 0.45359237)) + " lb)" : ""),
+      tcell("Drive wheels", cap(a.drive)),
+      tcell("Transmission", cap(a.transmission)),
+      mpg,
       cell("Number made", a.number_made ? commas(a.number_made) : "", a.number_made_approx ? "approximately" : "built"),
       tcell("Body", cap(a.body)),
       tcell("From", a.country)
-    ].join("") + "</div>" + (a.specs_for ? '<p class="factsfor">Figures for the ' + esc(a.specs_for) + ".</p>" : "");
+    ].join("") + "</div>" + (a.specs_for ? '<p class="factsfor">Figures for the ' + esc(a.specs_for) + ". Pick a different year or trim above to change them.</p>" : "");
   }
   function renderAsk(car) {
     var name = (car.make + " " + car.model).trim(), key = carKey(car), box = $("#askbox");

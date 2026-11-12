@@ -237,6 +237,30 @@ footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
 .lotlink a{color:var(--steel);font-weight:600;border-bottom:1px solid currentColor}
 .smallsrc{font-size:12px;color:var(--mid);margin-top:10px}
 
+/* about the car: cars without a Car Index page */
+.aboutgrid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:30px;align-items:start}
+.aboutgrid.solo{grid-template-columns:1fr;max-width:820px}
+.wfig{margin:0}
+.wfig img{width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:12px;background:var(--cloud)}
+.wfig figcaption{font-size:12px;color:var(--mid);margin-top:8px;line-height:1.45}
+.wfig figcaption a{color:var(--mid);border-bottom:1px solid var(--rule)}
+.abtext p{font-size:17px;line-height:1.7;color:var(--slate);margin-bottom:14px}
+.facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--rule);margin-top:8px}
+.fact{padding:14px 14px 12px 0;border-bottom:1px solid var(--rule);min-width:0}
+.fact .l{font-size:10.5px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--mid)}
+.fact .v{font-family:'Bebas Neue',sans-serif;font-size:34px;line-height:1;margin-top:6px;color:var(--ink)}
+.fact .v.dash{color:var(--rule)}
+.fact .u{font-size:12.5px;color:var(--mid);margin-top:3px}
+.fact .t{font-size:15px;font-weight:500;line-height:1.35;margin-top:7px;color:var(--ink)}
+.factsfor{font-size:12.5px;color:var(--mid);margin-top:10px}
+.wlink{display:inline-block;margin-top:16px;font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--steel);line-height:1.5}
+.wlink:hover{color:var(--deep)}
+.askbox{margin-top:26px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 20px;background:var(--mist);border:1px solid var(--rule);border-radius:12px;padding:16px 18px}
+.askbox p{font-size:15.5px;line-height:1.5;color:var(--slate);max-width:560px}
+.askbox p b{color:var(--ink)}
+.askbox .btn{min-height:46px;padding:12px 20px;font-size:12px}
+.askbox .done{font-size:14.5px;font-weight:600;color:var(--good)}
+
 /* events */
 .evs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
 .ev{display:flex;gap:14px;border:1px solid var(--rule);border-radius:10px;padding:14px 16px;background:#fff}
@@ -270,6 +294,8 @@ footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
   .cicard .im{aspect-ratio:16/9;min-height:0}
   .fixgrid{grid-template-columns:1fr 1fr}
   .fixgrid .field:last-child{grid-column:1/-1}
+  .aboutgrid{grid-template-columns:1fr;gap:18px}
+  .facts{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
 @media(max-width:560px){
   .shead .wrap{padding-top:34px;padding-bottom:32px}
@@ -379,6 +405,13 @@ footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
         </div>
       </div>
     </div>
+
+    <section class="block wrap" id="aboutsec" hidden aria-labelledby="abh">
+      <div class="blockh">About the car</div>
+      <h2 id="abh"></h2>
+      <div id="about" aria-live="polite"></div>
+      <div class="askbox" id="askbox"></div>
+    </section>
 
     <section class="block wrap" id="yearsec" aria-labelledby="yh">
       <div class="blockh">The numbers</div>
@@ -538,7 +571,7 @@ footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
       S.busy = false; show("work", false);
       if (!car.found) { fail(car.retake_tip ? "We couldn't find a car in that photo. " + car.retake_tip : "We couldn't find a car in that photo. Try again with the whole car in the frame."); return; }
       remember(car);
-      render(car, { photo: S.photo });
+      render(car, { photo: S.photo, fresh: true });
     }).catch(function (e) {
       S.busy = false; show("work", false);
       fail(e && e.friendly ? e.friendly : "Something went wrong. Please try again.");
@@ -620,7 +653,8 @@ footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
 
   function render(car, opts) {
     opts = opts || {};
-    S.car = car; S.specsFor = ""; S.trim = car.variant || "";
+    S.car = car; S.specsFor = ""; S.trim = car.variant || ""; S.fresh = !!opts.fresh;
+    show("aboutsec", false); $("#about").innerHTML = ""; $("#askbox").innerHTML = "";
     show("work", false); show("oops", false); show("typeit", false); show("recent", false);
     $("#fixwrap").innerHTML = "";
 
@@ -728,7 +762,7 @@ footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
       if (!y) { c.year_start = 0; c.year_end = 0; }
       if (fixing && S.car) c.fixedFrom = title(S.car);
       if (S.photo && fixing) { remember(c); }
-      render(c, { photo: fixing ? S.photo : "" });
+      render(c, { photo: fixing ? S.photo : "", fresh: true });
     });
     setTimeout(function () { var i = $("#fx-make", f); if (i && !i.value) i.focus(); else if (i) $("#fx-model", f).focus(); }, 60);
   }
@@ -955,6 +989,7 @@ footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
 
   function renderStories(car) {
     var ci = matchCarIndex(car); S.ci = ci[0] || null;
+    if (S.ci) show("aboutsec", false); else renderAbout(car);
     var arts = matchArticles(car, ci), strong = arts.filter(function (x) { return x.strong; }), weak = arts.filter(function (x) { return !x.strong; });
     var html = "";
     ci.slice(0, 1).forEach(function (c) {
@@ -1065,6 +1100,77 @@ footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
     }
     $("#events").innerHTML = html;
   }
+  // ---------------------------------------------------------------- about the car (no Car Index page yet)
+  var LOG = "/.netlify/functions/snap-log";
+  function carKey(c) { return norm(c.make + " " + c.model).replace(/ /g, "-"); }
+  // Tells the weekly digest which uncovered cars readers snap, and which ones they ask us to write about. Car names only.
+  function logCar(type, car) {
+    try {
+      fetch(LOG, { method: "POST", headers: { "Content-Type": "application/json" }, keepalive: true,
+        body: JSON.stringify({ type: type, make: car.make, model: car.model, gen: car.generation || "", from: car.year_start || 0, to: car.year_end || 0 }) })
+        .catch(function () {});
+    } catch (e) {}
+  }
+  function renderAbout(car) {
+    var name = (car.make + " " + car.model).trim(), want = car;
+    $("#abh").textContent = name;
+    $("#about").innerHTML = '<div class="msg info">Looking up the ' + esc(name) + "&hellip;</div>";
+    renderAsk(car);
+    show("aboutsec", true);
+    if (S.fresh) { S.fresh = false; logCar("seen", car); }
+    var q = "&make=" + encodeURIComponent(car.make) + "&model=" + encodeURIComponent(car.model) +
+      (car.generation ? "&gen=" + encodeURIComponent(car.generation) : "") +
+      (car.year_start ? "&from=" + car.year_start + "&to=" + (car.year_end || car.year_start) : "");
+    fetch(FN + "?about=1" + q).then(function (r) { return r.json(); }).then(function (j) {
+      if (S.car !== want) return;
+      $("#about").innerHTML = j && j.ok && (j.about || j.wiki) ? aboutHTML(j) : "";
+    }).catch(function () { if (S.car === want) $("#about").innerHTML = ""; });
+  }
+  function aboutHTML(j) {
+    var a = j.about, w = j.wiki, fig = "";
+    if (w && w.image) {
+      var who = w.credit ? esc(w.credit) : "Wikimedia Commons";
+      fig = '<figure class="wfig"><img src="' + esc(w.image) + '" alt="' + esc(w.title) + '" loading="lazy"><figcaption>Photo: ' +
+        '<a href="' + esc(w.filePage) + '" target="_blank" rel="noopener">' + who + "</a>" +
+        (w.license ? ", " + (w.licenseUrl ? '<a href="' + esc(w.licenseUrl) + '" target="_blank" rel="noopener">' + esc(w.license) + "</a>" : esc(w.license)) : "") +
+        (w.credit ? ", via Wikimedia Commons" : "") + "</figcaption></figure>";
+    }
+    var text = "";
+    ((a && a.paragraphs) || []).forEach(function (p) { text += "<p>" + esc(p) + "</p>"; });
+    if (a) text += factsHTML(a);
+    if (w) text += '<a class="wlink" href="' + esc(w.url) + '" target="_blank" rel="noopener">More on the ' + esc(w.title) + " at Wikipedia &rarr;</a>";
+    return '<div class="aboutgrid' + (fig ? "" : " solo") + '">' + fig + '<div class="abtext">' + text + "</div></div>";
+  }
+  function factsHTML(a) {
+    var dash = '<div class="v dash">&mdash;</div>';
+    function cell(l, v, u) { return '<div class="fact"><div class="l">' + l + "</div>" + (v ? '<div class="v">' + esc(v) + "</div>" + (u ? '<div class="u">' + esc(u) + "</div>" : "") : dash) + "</div>"; }
+    function tcell(l, t) { return '<div class="fact"><div class="l">' + l + "</div>" + (t ? '<div class="t">' + esc(t) + "</div>" : dash) + "</div>"; }
+    var kg = a.weight_kg;
+    return '<div class="facts">' + [
+      tcell("Engine", cap(a.engine)),
+      cell("Power", a.power_hp ? commas(a.power_hp) : "", "hp"),
+      cell("0&ndash;60 mph", a.zero_to_60 ? Number(a.zero_to_60).toFixed(1) : "", "seconds"),
+      cell("Top speed", a.top_speed_mph ? String(a.top_speed_mph) : "", "mph"),
+      cell("Weight", kg ? commas(kg) : "", kg ? "kg (" + commas(Math.round(kg / 0.45359237)) + " lb)" : ""),
+      cell("Number made", a.number_made ? commas(a.number_made) : "", a.number_made_approx ? "approximately" : "built"),
+      tcell("Body", cap(a.body)),
+      tcell("From", a.country)
+    ].join("") + "</div>" + (a.specs_for ? '<p class="factsfor">Figures for the ' + esc(a.specs_for) + ".</p>" : "");
+  }
+  function renderAsk(car) {
+    var name = (car.make + " " + car.model).trim(), key = carKey(car), box = $("#askbox");
+    if ((load("cv-snap-asked") || []).indexOf(key) >= 0) {
+      box.innerHTML = "<p>We haven't written about the <b>" + esc(name) + '</b> yet.</p><span class="done">You asked for this story. Thanks.</span>';
+      return;
+    }
+    box.innerHTML = "<p>We haven't written about the <b>" + esc(name) + '</b> yet. Want us to?</p><button class="btn" type="button" id="b-ask">Ask for a Carveyance story</button>';
+    $("#b-ask").addEventListener("click", function () {
+      logCar("ask", car);
+      store("cv-snap-asked", (load("cv-snap-asked") || []).concat([key]).slice(-200));
+      renderAsk(car); say("Thanks. Your request is in.");
+    });
+  }
+
   function fmtDate(iso) { var p = String(iso || "").split("-"); if (p.length < 3) return ""; return MONTHS[+p[1] - 1] + " " + (+p[2]) + ", " + p[0]; }
 
   // ---------------------------------------------------------------- go

@@ -1,0 +1,8 @@
+{
+  "name": "carveyance",
+  "private": true,
+  "description": "carveyance.com is plain HTML and needs no build. This file only exists so Netlify installs the one library the Snap a Car log uses (Netlify Blobs).",
+  "dependencies": {
+    "@netlify/blobs": "11.1.6"
+  }
+}

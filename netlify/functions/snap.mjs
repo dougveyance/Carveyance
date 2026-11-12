@@ -7,6 +7,9 @@
 //   GET  /.netlify/functions/snap?specs=1&year=2016&make=Porsche&model=Cayenne[&trim=S E-Hybrid]
 //        The spec sheet for one model year from CarsXE's Year Make Model API. Uses CARSXE_API_KEY.
 //        Cached for 30 days, so the same car looked up twice only costs one CarsXE credit.
+//   GET  /.netlify/functions/snap?about=1&make=Saab&model=900&gen=classic&from=1979&to=1993
+//        For cars without a Car Index page: a short write-up and key numbers from Claude, plus the Wikipedia page
+//        and its Commons photo with credit. Cached for 30 days per car.
 //   GET  /.netlify/functions/snap?listings=1&make=Porsche&model=Cayenne&from=2015&to=2018&zip=90026[&distance=100]
 //        Real cars for sale near a ZIP code from auto.dev. Uses AUTODEV_API_KEY, the same key FitDrive uses.
 //        Leave out zip and add &nationwide=1 for the whole country. Cached for 12 hours.
@@ -329,12 +332,117 @@ async function listings(p) {
     cached("listings|make|model|from|to|zip|distance|nationwide", 600, 43200));
 }
 
+// ---------------------------------------------------------------- 4. "About the car", for cars without a Car Index page
+//   GET /.netlify/functions/snap?about=1&make=Saab&model=900&gen=classic&from=1979&to=1993
+//   A short write-up and the key numbers from Claude (a number is 0 when Claude isn't sure, and the page shows a dash),
+//   plus the car's Wikipedia page and its lead photo from Wikimedia Commons with the photographer and license.
+//   Cached for 30 days, so each car is written up once and every later reader gets the same copy.
+const ABOUT_SYSTEM = `You write short notes about cars for Carveyance, an American enthusiast car magazine. A reader just photographed a car the magazine hasn't written about yet, and wants to know what it is.
+
+paragraphs: 1 or 2 short paragraphs, 80 to 150 words in all. Say what the car is and where it sat in its maker's lineup, what it's known for, and one memorable, true detail. Plain, confident and warm, written for enthusiasts. American English spelling, numbers as numerals, speeds in mph. No politics, no first person, no hype words, no lists. Don't mention Carveyance, Wikipedia or AI. If you know little about the car, write 1 short paragraph and keep to what you're sure of.
+
+Numbers: give each one only when you're confident it is right, within about 5 percent, for the version named in specs_for. Otherwise use 0 (or an empty string). A dash is better than a wrong number. Never estimate production totals; give number_made only when it's a known published figure, and set number_made_approx to true when that figure is itself approximate. power_hp is US (SAE net) horsepower. weight_kg is curb weight in kilograms.
+
+specs_for: the version the numbers describe, such as "1989 Saab 900 Turbo, US market".
+wikipedia_title: the exact title of the English Wikipedia article that best covers this model or generation, such as "Saab 900" or "Mercedes-Benz R107 and C107". Empty if unsure.`;
+const ABOUT_FIELDS = {
+  paragraphs: { type: "array", items: { type: "string" } },
+  specs_for: { type: "string" },
+  engine: { type: "string", description: "Such as '2.0-liter turbocharged inline-4'. Empty if unsure." },
+  power_hp: { type: "integer" },
+  zero_to_60: { type: "number", description: "Seconds, from a published road test or the maker's claim. 0 if unsure." },
+  top_speed_mph: { type: "integer" },
+  weight_kg: { type: "integer" },
+  number_made: { type: "integer" },
+  number_made_approx: { type: "boolean" },
+  body: { type: "string", description: "Such as 'three-door hatchback' or 'two-door convertible'" },
+  country: { type: "string", description: "Where the maker is based" },
+  wikipedia_title: { type: "string" },
+};
+const ABOUT_SCHEMA = { type: "object", properties: ABOUT_FIELDS, required: Object.keys(ABOUT_FIELDS), additionalProperties: false };
+const WIKI_HEADERS = { "User-Agent": "CarveyanceSnap/1.0 (https://carveyance.com/snap/)", "Api-User-Agent": "CarveyanceSnap/1.0 (https://carveyance.com/snap/)" };
+const plain = (s) => String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+
+async function wikiJson(url) {
+  try { const r = await fetch(url, { headers: WIKI_HEADERS }); return r.ok ? await r.json() : null; } catch (e) { return null; }
+}
+async function wikiPage(title, make) {
+  if (!title) return null;
+  const j = await wikiJson("https://en.wikipedia.org/api/rest_v1/page/summary/" + encodeURIComponent(title.replace(/ /g, "_")) + "?redirect=true");
+  if (!j || j.type !== "standard") return null;
+  // It has to be about this make, or it isn't the right page.
+  const firstWord = plain(make).split(/[^a-z0-9]+/)[0];
+  if (firstWord && !plain([j.title, j.description, j.extract].join(" ")).includes(firstWord)) return null;
+  return j;
+}
+async function findWiki(make, model, title) {
+  let page = await wikiPage(title, make);
+  if (!page) {
+    const s = await wikiJson("https://en.wikipedia.org/w/api.php?action=query&list=search&format=json&srlimit=3&srsearch=" + encodeURIComponent(make + " " + model + " car"));
+    const hits = s && s.query && Array.isArray(s.query.search) ? s.query.search : [];
+    for (const h of hits) { page = await wikiPage(h.title, make); if (page) break; }
+  }
+  if (!page) return null;
+  const out = { title: page.title, url: (page.content_urls && page.content_urls.desktop && page.content_urls.desktop.page) || "https://en.wikipedia.org/wiki/" + encodeURIComponent(page.title.replace(/ /g, "_")) };
+  // Only free photos from Wikimedia Commons (not the non-free images some articles carry), with credit and license.
+  const orig = page.originalimage && page.originalimage.source ? String(page.originalimage.source) : "";
+  const m = orig.match(/^https:\/\/upload\.wikimedia\.org\/wikipedia\/commons\/([0-9a-f])\/([0-9a-f]{2})\/([^/]+)$/);
+  if (m && !/\.svg$/i.test(m[3])) {
+    const file = m[3], w = (page.originalimage && page.originalimage.width) || 0;
+    out.image = w > 1000 ? "https://upload.wikimedia.org/wikipedia/commons/thumb/" + m[1] + "/" + m[2] + "/" + file + "/960px-" + file : orig;
+    out.filePage = "https://commons.wikimedia.org/wiki/File:" + file;
+    const info = await wikiJson("https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=extmetadata&titles=File:" + file);
+    const pages = info && info.query && info.query.pages ? Object.values(info.query.pages) : [];
+    const meta = pages[0] && pages[0].imageinfo && pages[0].imageinfo[0] ? pages[0].imageinfo[0].extmetadata || {} : {};
+    const val = (k) => meta[k] && meta[k].value ? String(meta[k].value).replace(/<[^>]*>/g, "").replace(/&amp;/g, "&").replace(/\s+/g, " ").trim() : "";
+    out.credit = val("Artist").slice(0, 80);
+    out.license = val("LicenseShortName").slice(0, 40);
+    out.licenseUrl = /^https?:\/\//.test(val("LicenseUrl")) ? val("LicenseUrl") : "";
+  }
+  return out;
+}
+
+async function about(req, p) {
+  // Other websites can't spend your Claude credit through this (browsers mark their requests "cross-site").
+  if (req.headers.get("sec-fetch-site") === "cross-site") return json(403, { ok: false, error: "forbidden_origin" });
+  const make = str(p.get("make"), 40), model = str(p.get("model"), 60), gen = str(p.get("gen"), 60);
+  let from = parseInt(p.get("from") || "", 10) || 0, to = parseInt(p.get("to") || "", 10) || from;
+  if (!make || !model) return json(400, { ok: false, error: "bad_request" });
+  const key = env("ANTHROPIC_API_KEY");
+  if (!key) return json(500, { ok: false, error: "missing_key" });
+  const which = [make, model, gen ? "(" + gen + ")" : "", from ? (to && to !== from ? from + "–" + to : String(from)) : ""].filter(Boolean).join(" ");
+  const model_ = env("SNAP_MODEL") || DEFAULT_MODEL;
+  const messages = [{ role: "user", content: "Write the note for this car: " + which }];
+  let r = await askClaude(key, { model: model_, max_tokens: 3000, system: ABOUT_SYSTEM, messages,
+    output_config: { format: { type: "json_schema", schema: ABOUT_SCHEMA } } });
+  if (r.status === 400 && !r.credit) {
+    r = await askClaude(key, { model: model_, max_tokens: 3000, messages,
+      system: ABOUT_SYSTEM + "\n\nReply with only one JSON object and no other text. Its keys: " + Object.keys(ABOUT_FIELDS).join(", ") + "." });
+  }
+  const raw = r.error ? null : parseCar(r.body);
+  const num = (v, max) => { const n = Number(v); return Number.isFinite(n) && n > 0 && n < max ? n : 0; };
+  const info = raw ? {
+    paragraphs: (Array.isArray(raw.paragraphs) ? raw.paragraphs : []).slice(0, 2).map((x) => String(x || "").trim().slice(0, 900)).filter(Boolean),
+    specs_for: str(raw.specs_for, 120), engine: str(raw.engine, 80), body: str(raw.body, 50), country: str(raw.country, 40),
+    power_hp: Math.round(num(raw.power_hp, 2500)), zero_to_60: Math.round(num(raw.zero_to_60, 40) * 10) / 10,
+    top_speed_mph: Math.round(num(raw.top_speed_mph, 320)), weight_kg: Math.round(num(raw.weight_kg, 12000)),
+    number_made: Math.round(num(raw.number_made, 100000000)), number_made_approx: raw.number_made_approx === true,
+  } : null;
+  const wiki = await findWiki(make, model, raw ? str(raw.wikipedia_title, 120) : "");
+  if (!info && !wiki) return r.error || json(502, { ok: false, error: "no_answer" });
+  // A half answer (Claude busy, or no Wikipedia page) is only kept for a day, so it fills in properly later.
+  const full = !!(info && info.paragraphs.length && wiki);
+  return json(200, { ok: true, make, model, about: info, wiki },
+    cached("about|make|model|gen|from|to", 3600, full ? 2592000 : 86400));
+}
+
 export default async (req, context) => {
   const p = new URL(req.url).searchParams;
   try {
     if (p.get("identify") === "1") return await identify(req, context);
     if (p.get("specs") === "1") return await specs(p);
     if (p.get("listings") === "1") return await listings(p);
+    if (p.get("about") === "1") return await about(req, p);
   } catch (e) {
     return json(500, { ok: false, error: "server_error" });
   }

@@ -3068,8 +3068,9 @@ function garageHTML(){
 
 /* ---------- guide + how ---------- */
 function guideHTML(){
-  return `<div class="stack">${modelGuidesHTML()}<header class="plan-head"><span class="eyebrow blue">Buying guide</span><h1 id="pagetitle" tabindex="-1">Before you sign</h1><p>Ask the right questions, drive it properly, get it checked, read the paperwork, and know which numbers to hold on to.</p>
-      <nav class="toc" aria-label="On this page">${[["g0","Questions to ask first"],["gd","On the test drive"],["g1","Get it inspected"],["gp","Paying for it"],["g2","Read the paperwork"],["g3","Tactics that work"],["g4","Where to stand firm"],["g5","Private sellers"]].map(x=>`<button type="button" class="tbtn" data-scroll="${x[0]}-s">${x[1]}</button>`).join("")}</nav></header>
+  return `<div class="stack"><header class="plan-head"><span class="eyebrow blue">Buying guide</span><h1 id="pagetitle" tabindex="-1">Before you sign</h1><p>Ask the right questions, drive it properly, get it checked, read the paperwork, and know which numbers to hold on to.</p>
+      <nav class="toc" aria-label="On this page">${[...(Object.keys(MODEL_GUIDES).length?[["gm","Model guides"]]:[]),["g0","Questions to ask first"],["gd","On the test drive"],["g1","Get it inspected"],["gp","Paying for it"],["g2","Read the paperwork"],["g3","Tactics that work"],["g4","Where to stand firm"],["g5","Private sellers"]].map(x=>`<button type="button" class="tbtn" data-scroll="${x[0]}-s">${x[1]}</button>`).join("")}</nav></header>
+    ${modelGuidesHTML()}
     <section class="section" id="g0-s" aria-labelledby="g0"><h2 id="g0">Questions to ask before you go</h2><p class="muted">Call or email first. The answers decide whether the trip is worth it.</p>
       <ul class="plain"><li>Is it still for sale, and is the listed price before tax and fees?</li><li>Are there dealer add-ons already on it, and can they come off?</li><li>Are all recalls done? Can I see the service records?</li><li>Has it been in an accident, and is the title clean?</li><li>For a used car: can I take it for an independent inspection?</li><li>How many keys come with it?</li></ul></section>
     <section class="section" id="gd-s" aria-labelledby="gd"><h2 id="gd">On the test drive</h2><p class="muted">Give it 30 minutes, not 10. Drive it the way you'll really use it.</p>

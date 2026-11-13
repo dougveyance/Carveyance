@@ -104,7 +104,7 @@ a.wm-by:hover .wm-cv,a.wm-by:focus-visible .wm-cv{text-decoration:underline;text
 .langmenu button[aria-pressed="true"]{background:var(--tint);font-weight:700}
 .langmenu .soon{font-size:12px;color:var(--muted);font-weight:500}
 .langmenu .lm-foot{border-top:1px solid var(--line);margin-top:4px;padding:8px 12px 4px;font-size:12px;color:var(--muted)}
-@media (min-width:980px){.mainnav{order:0;width:auto}}
+@media (min-width:980px){.mainnav{order:0;width:auto;gap:2px}.mainnav button,.mainnav a.navlink{padding-left:8px;padding-right:8px}}
 
 /* generic */
 main{max-width:1200px;margin:0 auto;padding-block:26px 40px;display:block}
@@ -666,9 +666,30 @@ a.tbtn{text-decoration:none;display:inline-flex;align-items:center}
 
 .fdguide{display:flex;flex-direction:column;gap:4px;margin:14px 0 4px;padding:14px 16px;border:1px solid var(--line);border-left:4px solid var(--blue);border-radius:12px;background:var(--card);color:var(--ink);text-decoration:none}
 .fdguide:hover{border-color:var(--blue)}
-.gmodels{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px;margin-top:12px}
-.gmodels .fdguide{margin:0}
-.gall{margin-top:12px}.gall a{color:var(--blue);font-weight:600}
+.fdguide{border-color:var(--blue)}
+.fdguide .eyebrow,.fdguide b{color:var(--blue-ink)}
+/* the model guides band on the Buying guide page */
+.gmband{background:var(--tint);border:2px solid var(--blue);border-radius:18px;padding:24px 26px}
+.gmband .eyebrow{color:var(--blue-ink)}
+.gmband h2{font-size:28px;line-height:1.15;margin:6px 0 6px;color:var(--ink)}
+.gmband>p{color:var(--body);font-size:16px}
+.gmodels{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,460px),1fr));gap:14px;margin-top:16px}
+.gmcard{display:grid;grid-template-columns:200px 1fr;gap:16px;align-items:center;background:var(--card);border:2px solid var(--blue);border-radius:14px;padding:12px;color:var(--ink);text-decoration:none;transition:box-shadow .2s,transform .2s}
+.gmcard:hover{box-shadow:0 10px 26px rgba(31,95,209,.22);transform:translateY(-2px)}
+.gmcard img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:10px;display:block}
+.gmcard .tx{display:flex;flex-direction:column;gap:3px;align-items:flex-start}
+.gmcard .k{font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--blue-ink)}
+.gmcard b{font-size:20px;line-height:1.25;color:var(--blue-ink)}
+.gmcard .l{font-size:15px;color:var(--body)}
+.gmcard .go{margin-top:8px;background:var(--blue);color:var(--on-blue);border-radius:999px;padding:7px 15px;font-size:14px;font-weight:700}
+.gall{margin-top:14px}.gall a{color:var(--blue-ink);font-weight:700}
+@media(max-width:560px){.gmband{padding:20px 16px}.gmband h2{font-size:24px}.gmcard{grid-template-columns:1fr}}
+/* the contents buttons on the Buying guide page */
+.toc .tbtn{border-color:var(--blue);color:var(--blue-ink)}
+.toc .tbtn:hover{background:var(--tint)}
+.mainnav a.navlink{flex:0 0 auto;border-radius:8px;padding-top:9px;padding-bottom:9px;font-weight:600;font-size:15px;color:var(--body);white-space:nowrap;text-decoration:none}
+.mainnav a.navlink:hover{background:var(--tint);color:var(--ink)}
+@media (max-width:979px){.mainnav a.navlink{padding-left:11px;padding-right:11px}}
 .fdguide b{font-size:17px}
 .fdguide span:last-child{font-size:14px;color:var(--body)}
 </style>
@@ -2346,6 +2367,7 @@ function navHTML(){
     b("browse","Browse cars","",cur==="browse"),
     b("compare","Compare",cnt(S.compare.length),cur==="compare"),
     b("guide","Buying guide","",cur==="guide"),
+    `<a class="navlink" href="/fitdrive/guides/">Model guides</a>`,
     S.bought?b("garage","My Garage","",cur==="garage"):"",
     b("how","How it works","",cur==="how")].join("");
 }
@@ -3046,9 +3068,8 @@ function garageHTML(){
 
 /* ---------- guide + how ---------- */
 function guideHTML(){
-  return `<div class="stack"><header class="plan-head"><span class="eyebrow blue">Buying guide</span><h1 id="pagetitle" tabindex="-1">Before you sign</h1><p>Ask the right questions, drive it properly, get it checked, read the paperwork, and know which numbers to hold on to.</p>
-      <nav class="toc" aria-label="On this page">${[...(Object.keys(MODEL_GUIDES).length?[["gm","Model guides"]]:[]),["g0","Questions to ask first"],["gd","On the test drive"],["g1","Get it inspected"],["gp","Paying for it"],["g2","Read the paperwork"],["g3","Tactics that work"],["g4","Where to stand firm"],["g5","Private sellers"]].map(x=>`<button type="button" class="tbtn" data-scroll="${x[0]}-s">${x[1]}</button>`).join("")}</nav></header>
-    ${modelGuidesHTML()}
+  return `<div class="stack">${modelGuidesHTML()}<header class="plan-head"><span class="eyebrow blue">Buying guide</span><h1 id="pagetitle" tabindex="-1">Before you sign</h1><p>Ask the right questions, drive it properly, get it checked, read the paperwork, and know which numbers to hold on to.</p>
+      <nav class="toc" aria-label="On this page">${[["g0","Questions to ask first"],["gd","On the test drive"],["g1","Get it inspected"],["gp","Paying for it"],["g2","Read the paperwork"],["g3","Tactics that work"],["g4","Where to stand firm"],["g5","Private sellers"]].map(x=>`<button type="button" class="tbtn" data-scroll="${x[0]}-s">${x[1]}</button>`).join("")}</nav></header>
     <section class="section" id="g0-s" aria-labelledby="g0"><h2 id="g0">Questions to ask before you go</h2><p class="muted">Call or email first. The answers decide whether the trip is worth it.</p>
       <ul class="plain"><li>Is it still for sale, and is the listed price before tax and fees?</li><li>Are there dealer add-ons already on it, and can they come off?</li><li>Are all recalls done? Can I see the service records?</li><li>Has it been in an accident, and is the title clean?</li><li>For a used car: can I take it for an independent inspection?</li><li>How many keys come with it?</li></ul></section>
     <section class="section" id="gd-s" aria-labelledby="gd"><h2 id="gd">On the test drive</h2><p class="muted">Give it 30 minutes, not 10. Drive it the way you'll really use it.</p>
@@ -3824,11 +3845,11 @@ const GROUP_LABEL={compact:"Compact cars",sports:"Sports cars"};
 const PT_TILES=[["bev","Electric"],["hybrid","Hybrid"],["phev","Plug-in hybrid"],["ice","Gas"]];
 const PRICE_BANDS=[15000,20000,30000,40000];
 // Carveyance model buyer's guides (fitdrive/guides/) by FitDrive model id: a link on that model's car pages.
-const MODEL_GUIDES={"4runner":{url:"/fitdrive/guides/toyota-4runner/",title:"The Toyota 4Runner Buyer's Guide",line:"Which year, engine and trim to buy, and the used-truck checklist, in 6 chapters."}};
-// the model buyer's guides, at the top of the Buying guide page
+const MODEL_GUIDES={"4runner":{url:"/fitdrive/guides/toyota-4runner/",img:"/fitdrive/guides/toyota-4runner/img/hub-hero.jpg",title:"The Toyota 4Runner Buyer's Guide",line:"Which year, engine and trim to buy, and the used-truck checklist, in 6 chapters."}};
+// the model buyer's guides, in a blue band at the top of the Buying guide page
 function modelGuidesHTML(){const gs=Object.values(MODEL_GUIDES);if(!gs.length)return "";
-  return `<section class="section" id="gm-s" aria-labelledby="gm"><h2 id="gm">Model buyer's guides</h2><p class="muted">One model at a time: which year, engine and trim to buy, and what to check on a used one.</p>
-    <div class="gmodels">${gs.map(g=>`<a class="fdguide" href="${g.url}"><span class="eyebrow">Carveyance buyer's guide</span><b>${esc(g.title)}</b><span>${esc(g.line)}</span></a>`).join("")}</div>
+  return `<section class="gmband" id="gm-s" aria-labelledby="gm"><span class="eyebrow">Model buyer's guides</span><h2 id="gm">Shopping for a specific model?</h2><p>Which year, engine and trim to buy, and what to check on a used one, one model at a time.</p>
+    <div class="gmodels">${gs.map(g=>`<a class="gmcard" href="${g.url}">${g.img?`<img src="${g.img}" alt="" loading="lazy">`:""}<span class="tx"><span class="k">Carveyance buyer's guide</span><b>${esc(g.title)}</b><span class="l">${esc(g.line)}</span><span class="go">Read the guide &rarr;</span></span></a>`).join("")}</div>
     <p class="gall"><a href="/fitdrive/guides/">See every model guide &rarr;</a></p></section>`;}
 function fdGuideHTML(m){const g=m&&MODEL_GUIDES[m.id];return g?`<a class="fdguide" href="${g.url}"><span class="eyebrow">Carveyance buyer's guide</span><b>${esc(g.title)}</b><span>${esc(g.line)}</span></a>`:"";}
 // Carveyance articles that help a buyer. Titles are the articles' own; the line under each is a plain description.

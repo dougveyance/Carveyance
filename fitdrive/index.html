@@ -77,7 +77,11 @@ p{margin:0}
 .top{margin-left:calc(-1*max(16px,env(safe-area-inset-left,0px)));margin-right:calc(-1*max(16px,env(safe-area-inset-right,0px)));
   background:var(--card);border-bottom:1px solid var(--line)}
 .top>.in{display:flex;flex-wrap:wrap;align-items:center;gap:10px 22px;padding:12px max(16px,env(safe-area-inset-right,0px)) 12px max(16px,env(safe-area-inset-left,0px))}
-.brand{display:flex;align-items:center;gap:10px;background:none;border:0;padding:4px 0;text-align:left;color:var(--ink)}
+.brand{display:grid;grid-template-columns:auto auto;column-gap:10px;row-gap:2px;align-items:center;padding:4px 0;color:var(--ink)}
+.brand-g{grid-row:1 / span 2;display:flex;background:none;border:0;padding:0;cursor:pointer}
+.brand .wm-fd{background:none;border:0;padding:0;text-align:left;color:var(--ink);cursor:pointer}
+a.wm-by{text-decoration:none;align-self:start}
+a.wm-by:hover .wm-cv,a.wm-by:focus-visible .wm-cv{text-decoration:underline;text-underline-offset:3px}
 .g-track{stroke:var(--gauge-track)} .g-arc{stroke:var(--blue)} .g-needle{stroke:var(--ink)} .g-hub{fill:var(--ink)}
 .wm{display:flex;flex-direction:column;gap:2px}
 .wm-fd{font:800 25px/1 var(--display);font-stretch:112%;letter-spacing:-.02em}
@@ -674,10 +678,11 @@ a.tbtn{text-decoration:none;display:inline-flex;align-items:center}
 <div class="demo-strip" role="note"><div class="in" id="strip">Test version · Real dealer listings plus estimates. Nothing you enter is sent to a dealer yet.</div></div>
 <header class="top">
   <div class="in">
-    <button type="button" class="brand" data-go="home" aria-label="FitDrive home">
-      <svg viewBox="0 0 120 76" width="46" height="29" aria-hidden="true"><path d="M12 62 A48 48 0 0 1 108 62" fill="none" class="g-track" stroke-width="10" stroke-linecap="round"></path><path d="M76.4 16.9 A48 48 0 0 1 101.6 38" fill="none" class="g-arc" stroke-width="10" stroke-linecap="round"></path><line x1="60" y1="62" x2="85.7" y2="31.4" class="g-needle" stroke-width="7" stroke-linecap="round"></line><circle cx="60" cy="62" r="9" class="g-hub"></circle></svg>
-      <span class="wm"><span class="wm-fd"><span class="wm-fit">Fit</span>Drive</span><span class="wm-by"><span>BY</span><span class="wm-cv"><span class="cv-car">CAR</span><span class="cv-vey">VEYANCE</span></span></span></span>
-    </button>
+    <div class="brand">
+      <button type="button" class="brand-g" data-go="home" tabindex="-1" aria-hidden="true"><svg viewBox="0 0 120 76" width="46" height="29" aria-hidden="true"><path d="M12 62 A48 48 0 0 1 108 62" fill="none" class="g-track" stroke-width="10" stroke-linecap="round"></path><path d="M76.4 16.9 A48 48 0 0 1 101.6 38" fill="none" class="g-arc" stroke-width="10" stroke-linecap="round"></path><line x1="60" y1="62" x2="85.7" y2="31.4" class="g-needle" stroke-width="7" stroke-linecap="round"></line><circle cx="60" cy="62" r="9" class="g-hub"></circle></svg></button>
+      <button type="button" class="wm-fd" data-go="home" aria-label="FitDrive home"><span class="wm-fit">Fit</span>Drive</button>
+      <a class="wm-by" href="/" title="Back to Carveyance"><span>BY</span><span class="wm-cv"><span class="cv-car">CAR</span><span class="cv-vey">VEYANCE</span></span></a>
+    </div>
     <nav class="mainnav" id="mainnav" aria-label="FitDrive"></nav>
     <div class="top-tools">
       <button type="button" class="favtop" id="favtop" data-act="saved" aria-expanded="false" aria-label="Favorites"></button>

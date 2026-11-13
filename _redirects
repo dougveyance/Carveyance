@@ -16,3 +16,5 @@
 /articles/category/* /articles/ 301
 /articles/the-corner-office-has-a-sliding-door /articles/corner-office-has-a-sliding-door/ 301
 /articles/the-corner-office-has-a-sliding-door/ /articles/corner-office-has-a-sliding-door/ 301
+# The buyer's guide source files stay private; the built pages live under /fitdrive/guides/
+/guides_src/*  /404.html  404!

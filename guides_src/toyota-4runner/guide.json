@@ -1,0 +1,52 @@
+{
+  "id": "toyota-4runner",
+  "make": "Toyota",
+  "model": "4Runner",
+  "years": "2017–2026",
+  "byline": "Elliot Vance",
+  "published": "2026-11-12",
+  "updated": "2026-11-12",
+  "cars": ["toyota-4runner-n280", "toyota-4runner-n500"],
+  "fitdrive": "4runner",
+  "chapters": ["2017-2024-v6", "2025-2026-turbo", "2025-2026-hybrid", "trims", "used-inspection", "v6-or-turbo"],
+  "series": {
+    "v6": {"name": "2017–2024 4.0-liter V6", "color": "#9aa5b1"},
+    "turbo": {"name": "2025–2026 2.4-liter turbo", "color": "#2E6E96"},
+    "hybrid": {"name": "2025–2026 i-FORCE MAX hybrid", "color": "#e05c2a"}
+  },
+  "charts": {
+    "torque": {
+      "n": 1,
+      "title": "Peak torque",
+      "sub": "Pound-feet, as advertised. The turbo also makes its peak far lower in the rev range, from 1,700 rpm against the V6's 4,400.",
+      "bars": [["v6", 278, "278 lb-ft"], ["turbo", 317, "317 lb-ft"], ["hybrid", 465, "465 lb-ft"]],
+      "source": "Toyota"
+    },
+    "mpg": {
+      "n": 2,
+      "title": "Fuel economy, 4WD",
+      "sub": "EPA combined miles per gallon for four-wheel-drive versions.",
+      "bars": [["v6", 17, "17 mpg"], ["turbo", 21, "21 mpg"], ["hybrid", 23, "23 mpg"]],
+      "source": "EPA ratings"
+    },
+    "fuelcost": {
+      "n": 3,
+      "title": "A year of fuel",
+      "sub": "15,000 miles at $4 a gallon, using the EPA combined figures above. An example, not a forecast.",
+      "bars": [["v6", 3529, "$3,529 · 882 gal"], ["turbo", 2857, "$2,857 · 714 gal"], ["hybrid", 2609, "$2,609 · 652 gal"]],
+      "source": "Carveyance arithmetic from EPA ratings"
+    }
+  },
+  "photos": {
+    "hub-hero": {"want": "A 2025–2026 4Runner and a 2017–2024 4Runner together, or a 2025–2026 4Runner outside", "alt": "Toyota 4Runner"},
+    "ch1-hero": {"want": "2017–2024 4Runner, outside, front three-quarter", "alt": "A fifth-generation Toyota 4Runner"},
+    "ch1-cabin": {"want": "2020–2024 4Runner dashboard with the 8-inch screen", "alt": "The dashboard of a 2020–2024 Toyota 4Runner"},
+    "ch2-hero": {"want": "2025–2026 4Runner, outside, front three-quarter", "alt": "A sixth-generation Toyota 4Runner"},
+    "ch2-cabin": {"want": "2025–2026 4Runner dashboard with the 14-inch screen", "alt": "The dashboard of a 2025–2026 Toyota 4Runner"},
+    "ch3-hero": {"want": "2025–2026 4Runner Trailhunter or TRD Pro (hybrid-only grades), outside", "alt": "A Toyota 4Runner with the i-FORCE MAX hybrid"},
+    "ch4-hero": {"want": "Any 4Runner TRD Pro, outside", "alt": "A Toyota 4Runner TRD Pro"},
+    "ch4-trailhunter": {"want": "2025–2026 4Runner Trailhunter, roof rack and high air intake visible", "alt": "A Toyota 4Runner Trailhunter"},
+    "ch5-hero": {"want": "Underneath a 4Runner on a lift: frame, differential, transfer case", "alt": "The underside of a Toyota 4Runner on a lift"},
+    "ch6-hero": {"want": "An old and a new 4Runner side by side", "alt": "A fifth-generation and a sixth-generation Toyota 4Runner"}
+  }
+}

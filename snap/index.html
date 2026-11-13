@@ -205,6 +205,11 @@ footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
 .cicard h3{font-family:'DM Serif Display',serif;font-weight:400;font-size:24px;line-height:1.15;margin:6px 0}
 .cicard p{font-size:14.5px;line-height:1.6;color:var(--slate)}
 .cicard .go{display:inline-block;margin-top:10px;font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--steel)}
+.gdcard{display:flex;align-items:center;justify-content:space-between;gap:16px;border:1px solid var(--rule);border-left:4px solid var(--accent);border-radius:10px;background:var(--mist,#f0f3f7);padding:14px 18px;margin:-6px 0 18px}
+.gdcard:hover{border-color:var(--steel);border-left-color:var(--accent)}
+.gdcard .k{display:block;font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--mid)}
+.gdcard b{display:block;font-family:'DM Serif Display',serif;font-weight:400;font-size:20px;line-height:1.2;color:var(--ink);margin-top:3px}
+.gdcard .go{flex-shrink:0;font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--steel)}
 .arts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
 .art{display:flex;flex-direction:column;border:1px solid var(--rule);border-radius:10px;overflow:hidden;background:#fff;transition:box-shadow .2s,transform .2s}
 .art:hover{box-shadow:0 10px 26px rgba(20,24,32,.12);transform:translateY(-2px)}
@@ -1046,7 +1051,7 @@ footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
       if (ys && car.year_start && !sameCode) {
         var overlap = Math.min(ys[1], car.year_end || car.year_start) - Math.max(ys[0], car.year_start);
         if (overlap < -1) return;           // a different generation of the same nameplate
-        score += 4;
+        score += overlap >= 0 ? 4 : 1;      // a car right at a changeover goes to the generation its years fall in
       }
       if (names.some(function (n) { return mk.some(function (k) { return n === norm(c.make) + " " + k; }); })) score += 3;
       if (car.variant && names.some(function (n) { return phraseIn(n, norm(car.variant)); })) score += 2;
@@ -1089,6 +1094,9 @@ footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
       var q = String(c.quick || ""); if (q.length > 240) q = q.slice(0, 236).replace(/\s+\S*$/, "") + "…";
       html += '<a class="cicard" href="/cars/' + esc(c.id) + '/"><div class="im">' + img + '</div><div class="tx"><span class="kick">The Car Index &middot; ' + esc(c.years || "") + "</span>" +
         "<h3>" + esc(c.name) + "</h3><p>" + esc(q) + '</p><span class="go">Numbers, story and reader score &rarr;</span></div></a>';
+      // the FitDrive buyer's guide, when the Car Index has one for this car
+      if (c.guide && c.guide.url) html += '<a class="gdcard" href="' + esc(c.guide.url) + '"><span><span class="k">Buying one?</span><b>' +
+        esc(c.guide.title || "Read the buyer\u2019s guide") + '</b></span><span class="go">Read it &rarr;</span></a>';
     });
     var list = strong.slice(0, 4), label = "";
     if (!list.length && weak.length) {

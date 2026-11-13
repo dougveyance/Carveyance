@@ -644,6 +644,10 @@ a.tbtn{text-decoration:none;display:inline-flex;align-items:center}
 .ptrow{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin-top:14px}
 .ptrow>span{font-weight:700}
 
+.fdguide{display:flex;flex-direction:column;gap:4px;margin:14px 0 4px;padding:14px 16px;border:1px solid var(--line);border-left:4px solid var(--blue);border-radius:12px;background:var(--card);color:var(--ink);text-decoration:none}
+.fdguide:hover{border-color:var(--blue)}
+.fdguide b{font-size:17px}
+.fdguide span:last-child{font-size:14px;color:var(--body)}
 </style>
 </head>
 <body>
@@ -2915,6 +2919,7 @@ function listingHTML(){
       ${ratingLineHTML(L)}
       <div class="l-quick"><span class="big num">${money(L.price)}</span><span>≈ ${money(c.total)}/mo all-in</span>${f&&f.overall!=null?`<span class="pill blue">${Math.round(f.overall)} fit</span>`:""}<button type="button" class="linkbtn" data-scroll="price-box">Price details</button></div>
       ${L.fullVin?`<p class="vinrow">VIN <span class="vin num">${esc(L.fullVin)}</span><button type="button" class="tbtn" data-act="copy-vin" data-vin="${esc(L.fullVin)}">Copy VIN</button></p>`:`<p class="vinrow">VIN ••••${esc(L.vin)} <span class="hint">(example car)</span></p>`}</div>
+    ${fdGuideHTML(m)}
     ${why?`<section class="section" aria-labelledby="why-h"><div class="sec-head"><h2 id="why-h">Why it fits you</h2><span class="pill blue">${Math.round(f.overall)} overall fit</span></div><ul class="why">${why.why.map(x=>`<li>${esc(x)}</li>`).join("")}</ul><p class="watch"><b>Watch</b>${esc(why.watch)}</p></section>`:f&&f.ruled?`<div class="note bad"><b>This car doesn't fit your needs.</b> ${esc(f.ruled)}</div>`:""}
     <section class="section" aria-labelledby="deal-h"><div class="sec-head"><h2 id="deal-h">Deal check</h2><span class="hint">${d.live?"Compared with listings near you":"Demo market data"}</span></div>
       <div class="grid3"><div class="box"><span class="eyebrow">Vs similar listings</span>${d.typ==null?`<span class="big" style="font-size:22px">Not enough to compare</span><p>Fewer than 2 similar ${esc(m.model)} listings nearby.</p>`:`<span class="big" style="color:${d.diff<=0?"var(--good)":"var(--bad)"}">${d.diff===0?"Right at typical":money(Math.abs(d.diff))+(d.diff<0?" below":" above")}</span><p>${d.live?`Middle price of ${d.peers} similar listings nearby: ${money(d.typ)}.`:`Typical price ${money(d.typ)} for this year and mileage.`}</p>`}</div>
@@ -3729,6 +3734,9 @@ const GROUPS={compact:m=>m.size==="S"&&m.body!=="sport",sports:m=>m.body!=="suv"
 const GROUP_LABEL={compact:"Compact cars",sports:"Sports cars"};
 const PT_TILES=[["bev","Electric"],["hybrid","Hybrid"],["phev","Plug-in hybrid"],["ice","Gas"]];
 const PRICE_BANDS=[15000,20000,30000,40000];
+// Carveyance model buyer's guides (fitdrive/guides/) by FitDrive model id: a link on that model's car pages.
+const MODEL_GUIDES={"4runner":{url:"/fitdrive/guides/toyota-4runner/",title:"The Toyota 4Runner Buyer's Guide",line:"Which year, engine and trim to buy, and the used-truck checklist, in 6 chapters."}};
+function fdGuideHTML(m){const g=m&&MODEL_GUIDES[m.id];return g?`<a class="fdguide" href="${g.url}"><span class="eyebrow">Carveyance buyer's guide</span><b>${esc(g.title)}</b><span>${esc(g.line)}</span></a>`:"";}
 // Carveyance articles that help a buyer. Titles are the articles' own; the line under each is a plain description.
 const CV_GUIDES=[["front-rear-or-all-four","Front, Rear, or All Four?","Front-, rear- and all-wheel drive, explained"],
   ["the-cost-of-owning-one","The Price of a New Car Has Stopped Rising. The Cost of Owning One Hasn't.","Why owning a car keeps costing more"],

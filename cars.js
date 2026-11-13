@@ -27,6 +27,8 @@
               "match": the vehicle names used in articles.js.
    seeAlso    optional: other stories (slugs) to show on its page when
               their vehicle tags are too general to match safely.
+   guide      optional: the FitDrive buyer's guide for this car (url, title
+              and a one-line blurb), shown on its page and in Snap a Car.
    photo      file is the Wikimedia Commons file name; credit, license
               and licenseUrl are shown under the photo; pos moves the
               crop (e.g. "center 60%"); fit "contain" shows the whole
@@ -6246,5 +6248,115 @@ const CARS = [
     "match": [
       "Ferrari 365 GTC/4 (Felber Beach Car)"
     ]
+  },
+  {
+    "id": "toyota-4runner-n280",
+    "name": "Toyota 4Runner (N280)",
+    "aka": [],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "2010–2024",
+    "start": 2010,
+    "end": 2024,
+    "body": "Four-door SUV",
+    "engine": "4.0-liter V6",
+    "drive": "Four-wheel drive (rear-wheel drive optional)",
+    "gearbox": "5-speed automatic",
+    "specsFor": "2019 Toyota 4Runner TRD Off-Road Premium 4x4, US market (Car and Driver test car; the weight is Toyota's figure for the same version)",
+    "power": {
+      "hp": 270,
+      "note": "278 lb-ft",
+      "src": "https://www.cars.com/research/toyota-4runner-2024/specs/445560/"
+    },
+    "weight": {
+      "kg": 2154.6,
+      "note": "Curb weight",
+      "src": "https://www.cars.com/research/toyota-4runner-2024/specs/445560/"
+    },
+    "zero60": {
+      "sec": 7.7,
+      "kind": "tested",
+      "note": "Car and Driver test",
+      "src": "https://www.0-60specs.com/toyota/4runner-0-60-times"
+    },
+    "top": null,
+    "built": null,
+    "predecessor": {
+      "name": "Toyota 4Runner (N210)"
+    },
+    "successor": {
+      "name": "Toyota 4Runner (N500)",
+      "id": "toyota-4runner-n500"
+    },
+    "quick": "Toyota's old-school 4Runner: a 4.0-liter V6, a 5-speed automatic and a ladder frame, sold for 15 model years with barely a change. Slow and thirsty by modern standards, and hugely popular anyway, because it goes almost anywhere and keeps going.",
+    "story": [
+      "The fifth-generation 4Runner arrived for 2010 and stayed on sale through 2024, 15 model years with remarkably little change. Underneath sat a separate ladder frame, a 4.0-liter V6 with 270 hp and 278 lb-ft and a 5-speed automatic, with part-time four-wheel drive on most 4x4 grades and full-time four-wheel drive on the Limited. Every one was built at Toyota's Tahara plant in Japan, and it towed 2,268 kg (5,000 lb).",
+      "A 2014 facelift sharpened the nose, the TRD Pro arrived for 2015 with Fox shocks and a paint color of its own each year, and 2020 finally brought an 8-inch touchscreen with Apple CarPlay and Android Auto, plus Toyota Safety Sense P on every grade. By the end it was one of the last body-on-frame family SUVs on the market, slow and thirsty by modern standards and loved for exactly the qualities that made it old."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota 4Runner"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/toyota-4runner/",
+      "title": "The Toyota 4Runner Buyer's Guide",
+      "blurb": "Which year, which engine and which trim to buy, plus the used-truck checklist and the recalls to check, in 6 chapters."
+    }
+  },
+  {
+    "id": "toyota-4runner-n500",
+    "name": "Toyota 4Runner (N500)",
+    "aka": [],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "2025–present",
+    "start": 2025,
+    "end": null,
+    "body": "Four-door SUV",
+    "engine": "2.4-liter turbocharged 4-cylinder (hybrid optional)",
+    "drive": "Four-wheel drive (rear-wheel drive optional)",
+    "gearbox": "8-speed automatic",
+    "specsFor": "2025 Toyota 4Runner Limited, 2.4-liter turbo, US market (Car and Driver test car; the weight is Toyota's figure for the Limited 4x4)",
+    "power": {
+      "hp": 278,
+      "note": "326 hp as the i-FORCE MAX hybrid",
+      "src": "https://www.slashgear.com/1781383/toyota-4runner-cool-unique-features/"
+    },
+    "weight": {
+      "kg": 2254.4,
+      "note": "Curb weight, Limited 4x4",
+      "src": "https://www.4runner6g.com/specs-comparison-2025-4runner-vs-land-cruiser/"
+    },
+    "zero60": {
+      "sec": 7.5,
+      "kind": "tested",
+      "note": "Car and Driver test",
+      "src": "https://www.0-60specs.com/toyota/4runner-0-60-times"
+    },
+    "top": null,
+    "built": null,
+    "predecessor": {
+      "name": "Toyota 4Runner (N280)",
+      "id": "toyota-4runner-n280"
+    },
+    "successor": null,
+    "quick": "The 4Runner reinvented for 2025: the same body-on-frame toughness and roll-down rear window, but a turbocharged 4-cylinder or a 465 lb-ft hybrid in place of the old V6, 8 gears and a cabin from this decade.",
+    "story": [
+      "The sixth-generation 4Runner arrived for 2025 on TNGA-F, the body-on-frame platform it shares with the Land Cruiser and the Lexus GX, and it's still built at Tahara in Japan. The V6 is gone. In its place is a turbocharged 2.4-liter 4-cylinder with 278 hp and 317 lb-ft through an 8-speed automatic, or the i-FORCE MAX hybrid, which adds an electric motor inside the transmission for 326 hp and 465 lb-ft. Towing rose to as much as 2,722 kg (6,000 lb).",
+      "Toyota offers 9 grades, from the SR5 to the luxury Platinum and the overlanding Trailhunter, with the hybrid standard on the Platinum, TRD Pro and Trailhunter. The cabin finally caught up, with up to a 14-inch touchscreen and Toyota Safety Sense 3.0 as standard. And after a debate inside Toyota about its weight, the power rear window survived. A 4Runner's back glass has rolled down since the first one in 1984."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota 4Runner"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/toyota-4runner/",
+      "title": "The Toyota 4Runner Buyer's Guide",
+      "blurb": "Which year, which engine and which trim to buy, plus the used-truck checklist and the recalls to check, in 6 chapters."
+    }
   }
 ];

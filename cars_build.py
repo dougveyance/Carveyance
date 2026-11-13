@@ -443,6 +443,15 @@ def car_page(c, cars, by_id, arts, photos):
     src_html = "".join(f'<li><a href="{esc(u)}"{" rel=\"noopener\" target=\"_blank\"" if u.startswith("http") else ""}>{esc(t)}</a></li>' for u, t in srcs)
     specs_for = esc(c.get("specsFor", ""))
 
+    # the FitDrive buyer's guide for this car, if there is one ("guide" in cars.js)
+    gd = c.get("guide") or {}
+    guide_html = ""
+    if gd.get("url"):
+        label = "Read the buyer\u2019s guide"
+        guide_html = (f'<section class="guideband"><div class="wrap"><div><div class="kick">Buying one?</div>'
+                      f'<h2>{esc(gd.get("title") or label)}</h2><p>{esc(gd.get("blurb", ""))}</p></div>'
+                      f'<a class="btn hot" href="{esc(gd["url"])}">{label}</a></div></section>')
+
     page = f"""{head(title, desc, url, og)}
 <script type="application/ld+json">{json_ld(c, url, photo)}</script>
 </head>
@@ -480,7 +489,7 @@ def car_page(c, cars, by_id, arts, photos):
     <p class="specs-for">{"Figures for the " + specs_for + "." if specs_for else ""} Sources are listed at the foot of the page.</p>
   </div>
 </section>
-
+{guide_html}
 <section class="body">
   <div class="wrap">
     <div class="story">
@@ -694,6 +703,7 @@ def main():
                      "ownDates": sorted({arts[s]["date"] for s in c.get("articles", []) if s in arts and arts[s].get("date")}, reverse=True),
                      "dates": sorted(set(dates), reverse=True),
                      "drive": c.get("drive", ""), "gearbox": c.get("gearbox", ""), "specsFor": c.get("specsFor", ""),
+                     "guide": ({k: (c.get("guide") or {}).get(k, "") for k in ("url", "title")} if (c.get("guide") or {}).get("url") else None),
                      "hp": (c.get("power") or {}).get("hp"), "kg": (c.get("weight") or {}).get("kg"), "kgNote": (c.get("weight") or {}).get("note", ""),
                      "z60": ({k: (c.get("zero60") or {}).get(k) for k in ("sec", "kind", "note")} if (c.get("zero60") or {}).get("sec") else None),
                      "top": ({k: (c.get("top") or {}).get(k) for k in ("mph", "kind", "note")} if (c.get("top") or {}).get("mph") else None),

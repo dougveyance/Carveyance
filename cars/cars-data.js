@@ -1559,7 +1559,7 @@ const CARS_INDEX = [
   },
   "alongside": [
    {
-    "id": "dodge-stealth",
+    "id": null,
     "name": "Dodge Stealth"
    }
   ],
@@ -1570,57 +1570,6 @@ const CARS_INDEX = [
   "next": null,
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Mitsubishi_3000GT_front.jpg/960px-Mitsubishi_3000GT_front.jpg",
-   "pos": "",
-   "fit": ""
-  }
- },
- {
-  "id": "dodge-stealth",
-  "name": "Dodge Stealth",
-  "aka": [],
-  "make": "Dodge",
-  "maker": "Dodge (Chrysler), built by Mitsubishi in Nagoya",
-  "years": "1991–1996",
-  "start": 1991,
-  "body": "2+2 hatchback coupe",
-  "engine": "3.0-liter twin-turbo V6 (R/T Turbo)",
-  "country": "Japan",
-  "quick": "Chrysler's take on the Mitsubishi 3000GT, built on the same Nagoya line with the same drivetrains but its own nose, pillars and spoiler. In R/T Turbo form it carried the full twin-turbo, all-wheel-drive, four-wheel-steering package, and it is remembered as the car dropped as the 1991 Indianapolis 500 pace car after objections to a Japanese-built car leading the race.",
-  "articles": [
-   "the-overachiever"
-  ],
-  "latest": "2026-09-25",
-  "ownDates": [
-   "2026-09-25"
-  ],
-  "dates": [
-   "2026-09-25"
-  ],
-  "drive": "All-wheel drive (R/T Turbo)",
-  "gearbox": "5-speed manual (6-speed from 1994)",
-  "specsFor": "1991 Dodge Stealth R/T Turbo, US market",
-  "guide": null,
-  "shop": null,
-  "hp": 300,
-  "kg": null,
-  "kgNote": "",
-  "z60": null,
-  "top": null,
-  "built": {
-   "count": 65303,
-   "approx": false,
-   "note": "Built for the US and Canada"
-  },
-  "alongside": [
-   {
-    "id": "mitsubishi-3000gt",
-    "name": "Mitsubishi 3000GT"
-   }
-  ],
-  "prev": null,
-  "next": null,
-  "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Dodge_Stealth_Z11A_RT_Bright_Blue_Metallic_01.jpg/960px-Dodge_Stealth_Z11A_RT_Bright_Blue_Metallic_01.jpg",
    "pos": "",
    "fit": ""
   }

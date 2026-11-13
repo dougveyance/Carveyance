@@ -1756,64 +1756,7 @@ const CARS = [
     ],
     "alongside": [
       {
-        "name": "Dodge Stealth",
-        "id": "dodge-stealth"
-      }
-    ]
-  },
-  {
-    "id": "dodge-stealth",
-    "name": "Dodge Stealth",
-    "aka": [],
-    "make": "Dodge",
-    "maker": "Dodge (Chrysler), built by Mitsubishi in Nagoya",
-    "country": "Japan",
-    "years": "1991–1996",
-    "start": 1991,
-    "end": 1996,
-    "body": "2+2 hatchback coupe",
-    "engine": "3.0-liter twin-turbo V6 (R/T Turbo)",
-    "drive": "All-wheel drive (R/T Turbo)",
-    "gearbox": "5-speed manual (6-speed from 1994)",
-    "specsFor": "1991 Dodge Stealth R/T Turbo, US market",
-    "power": {
-      "hp": 300,
-      "note": "",
-      "src": "article:the-overachiever"
-    },
-    "weight": null,
-    "zero60": null,
-    "top": null,
-    "built": {
-      "count": 65303,
-      "approx": false,
-      "note": "Built for the US and Canada",
-      "src": "article:the-overachiever"
-    },
-    "predecessor": null,
-    "successor": null,
-    "quick": "Chrysler's take on the Mitsubishi 3000GT, built on the same Nagoya line with the same drivetrains but its own nose, pillars and spoiler. In R/T Turbo form it carried the full twin-turbo, all-wheel-drive, four-wheel-steering package, and it is remembered as the car dropped as the 1991 Indianapolis 500 pace car after objections to a Japanese-built car leading the race.",
-    "story": [
-      "The Stealth was what happened when Chrysler and Mitsubishi shared a single, very ambitious car. Mitsubishi supplied the chassis, the 3.0-liter V6 and, in the top R/T Turbo, the twin turbochargers, all-wheel drive and four-wheel steering. Chrysler drew its own face with a cross-hair grille and fixed headlamps, reshaped the pillars and quarter windows, added a crescent-shaped spoiler and left the Mitsubishi's moving aerodynamics out entirely. The result looked like an American muscle coupe that had spent a semester abroad, and Car and Driver, flinging an R/T Turbo around Chrysler's own track, found it leaping between bends with startling force.",
-      "Its brush with fame came in 1991. A Stealth was lined up to pace the Indianapolis 500 until the United Auto Workers objected to a Japanese-built car leading the field, and a Viper prototype took the job; Dodge sold pace-car replica Stealths anyway. The Stealth ran 6 model years and 65,303 cars for the US and Canada before bowing out after 1996, 3 seasons ahead of its Mitsubishi twin. Today it is the sibling fewer people recognize, carrying the same remarkable hardware underneath."
-    ],
-    "articles": [
-      "the-overachiever"
-    ],
-    "photo": {
-      "file": "Dodge Stealth Z11A RT Bright Blue Metallic 01.jpg",
-      "credit": "Ethan Llamas",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "pos": ""
-    },
-    "match": [
-      "Dodge Stealth"
-    ],
-    "alongside": [
-      {
-        "name": "Mitsubishi 3000GT",
-        "id": "mitsubishi-3000gt"
+        "name": "Dodge Stealth"
       }
     ]
   },

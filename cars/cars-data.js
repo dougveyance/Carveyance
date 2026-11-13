@@ -243,7 +243,7 @@ const CARS_INDEX = [
    "name": "Lotus Evora 400"
   },
   "photo": {
-   "card": "/assets/images/cars/lotus-evora-s.jpg",
+   "card": "/assets/images/cars/lotus-evora-s.jpg?v=1b2deea7",
    "pos": "",
    "fit": ""
   }
@@ -303,7 +303,7 @@ const CARS_INDEX = [
    "name": "Lotus Evora Sport 410"
   },
   "photo": {
-   "card": "/assets/images/cars/lotus-evora-400.jpg",
+   "card": "/assets/images/cars/lotus-evora-400.jpg?v=1d46dab8",
    "pos": "",
    "fit": ""
   }
@@ -366,7 +366,7 @@ const CARS_INDEX = [
    "name": "Lotus Evora GT430"
   },
   "photo": {
-   "card": "/assets/images/cars/lotus-evora-sport-410.jpg",
+   "card": "/assets/images/cars/lotus-evora-sport-410.jpg?v=6daa1f28",
    "pos": "",
    "fit": ""
   }
@@ -426,7 +426,7 @@ const CARS_INDEX = [
    "name": "Lotus Evora GT430 Sport"
   },
   "photo": {
-   "card": "/assets/images/cars/lotus-evora-gt430.jpg",
+   "card": "/assets/images/cars/lotus-evora-gt430.jpg?v=371cbd06",
    "pos": "",
    "fit": ""
   }
@@ -482,7 +482,7 @@ const CARS_INDEX = [
    "name": "Lotus Evora GT"
   },
   "photo": {
-   "card": "/assets/images/cars/lotus-evora-gt430-sport.jpg",
+   "card": "/assets/images/cars/lotus-evora-gt430-sport.jpg?v=b848af30",
    "pos": "",
    "fit": ""
   }
@@ -853,7 +853,7 @@ const CARS_INDEX = [
    "name": "Mazda RX-7 (FC)"
   },
   "photo": {
-   "card": "/assets/images/cars/mazda-rx-7-fb.jpg",
+   "card": "/assets/images/cars/mazda-rx-7-fb.jpg?v=6b4170cc",
    "pos": "",
    "fit": ""
   }
@@ -1161,7 +1161,7 @@ const CARS_INDEX = [
   "prev": null,
   "next": null,
   "photo": {
-   "card": "/assets/images/cars/mazda-suitcase-car.jpg",
+   "card": "/assets/images/cars/mazda-suitcase-car.jpg?v=eceed0c5",
    "pos": "center 40%",
    "fit": ""
   }
@@ -1217,7 +1217,7 @@ const CARS_INDEX = [
    "name": "Mazda 121 (DB) / Autozam Revue"
   },
   "photo": {
-   "card": "/assets/images/cars/mazda-121-canvas-top.jpg",
+   "card": "/assets/images/cars/mazda-121-canvas-top.jpg?v=b5c009fa",
    "pos": "center 62%",
    "fit": ""
   }
@@ -3493,7 +3493,7 @@ const CARS_INDEX = [
    "name": "TVR Cerbera"
   },
   "photo": {
-   "card": "/assets/images/cars/tvr-chimaera.jpg",
+   "card": "/assets/images/cars/tvr-chimaera.jpg?v=79bf4be1",
    "pos": "",
    "fit": ""
   }
@@ -3563,7 +3563,7 @@ const CARS_INDEX = [
    "name": "TVR Tuscan"
   },
   "photo": {
-   "card": "/assets/images/cars/tvr-cerbera.jpg",
+   "card": "/assets/images/cars/tvr-cerbera.jpg?v=5d73f871",
    "pos": "",
    "fit": ""
   }
@@ -3631,7 +3631,7 @@ const CARS_INDEX = [
    "name": "TVR Tamora"
   },
   "photo": {
-   "card": "/assets/images/cars/tvr-tuscan.jpg",
+   "card": "/assets/images/cars/tvr-tuscan.jpg?v=e47c9460",
    "pos": "",
    "fit": ""
   }
@@ -3703,7 +3703,7 @@ const CARS_INDEX = [
    "name": "TVR Sagaris"
   },
   "photo": {
-   "card": "/assets/images/cars/tvr-tamora.jpg",
+   "card": "/assets/images/cars/tvr-tamora.jpg?v=bbd65bf3",
    "pos": "",
    "fit": ""
   }
@@ -3772,7 +3772,7 @@ const CARS_INDEX = [
   },
   "next": null,
   "photo": {
-   "card": "/assets/images/cars/tvr-sagaris.jpg",
+   "card": "/assets/images/cars/tvr-sagaris.jpg?v=2d4d61b2",
    "pos": "",
    "fit": ""
   }
@@ -4760,7 +4760,7 @@ const CARS_INDEX = [
    "name": "Lancia Stratos HF"
   },
   "photo": {
-   "card": "/assets/images/cars/lancia-fulvia-hf.jpg",
+   "card": "/assets/images/cars/lancia-fulvia-hf.jpg?v=00af7286",
    "pos": "",
    "fit": ""
   }
@@ -4875,7 +4875,7 @@ const CARS_INDEX = [
    "name": "Volkswagen Golf GTI (Mk3)"
   },
   "photo": {
-   "card": "/assets/images/cars/volkswagen-golf-gti-mk2.jpg",
+   "card": "/assets/images/cars/volkswagen-golf-gti-mk2.jpg?v=967629cf",
    "pos": "",
    "fit": ""
   }
@@ -4927,7 +4927,7 @@ const CARS_INDEX = [
    "name": "Volkswagen Golf GTI (Mk4)"
   },
   "photo": {
-   "card": "/assets/images/cars/volkswagen-golf-gti-mk3.jpg",
+   "card": "/assets/images/cars/volkswagen-golf-gti-mk3.jpg?v=829d9d48",
    "pos": "",
    "fit": ""
   }
@@ -4977,7 +4977,7 @@ const CARS_INDEX = [
    "name": "Volkswagen Golf GTI (Mk5)"
   },
   "photo": {
-   "card": "/assets/images/cars/volkswagen-golf-gti-mk4.jpg",
+   "card": "/assets/images/cars/volkswagen-golf-gti-mk4.jpg?v=6aebd7ea",
    "pos": "",
    "fit": ""
   }
@@ -5091,7 +5091,7 @@ const CARS_INDEX = [
    "name": "Volkswagen Golf GTI (Mk7)"
   },
   "photo": {
-   "card": "/assets/images/cars/volkswagen-golf-gti-mk6.jpg",
+   "card": "/assets/images/cars/volkswagen-golf-gti-mk6.jpg?v=cd5f1554",
    "pos": "",
    "fit": ""
   }
@@ -5145,7 +5145,7 @@ const CARS_INDEX = [
    "name": "Volkswagen Golf GTI (Mk8)"
   },
   "photo": {
-   "card": "/assets/images/cars/volkswagen-golf-gti-mk7.jpg",
+   "card": "/assets/images/cars/volkswagen-golf-gti-mk7.jpg?v=8fd2af3b",
    "pos": "",
    "fit": ""
   }
@@ -5198,7 +5198,7 @@ const CARS_INDEX = [
   },
   "next": null,
   "photo": {
-   "card": "/assets/images/cars/volkswagen-golf-gti-mk8.jpg",
+   "card": "/assets/images/cars/volkswagen-golf-gti-mk8.jpg?v=04f800c6",
    "pos": "",
    "fit": ""
   }
@@ -5530,7 +5530,7 @@ const CARS_INDEX = [
    "name": "Sbarro Super Eight"
   },
   "photo": {
-   "card": "/assets/images/cars/sbarro-super-twelve.jpg",
+   "card": "/assets/images/cars/sbarro-super-twelve.jpg?v=3e0979b6",
    "pos": "",
    "fit": "contain"
   }
@@ -5579,7 +5579,7 @@ const CARS_INDEX = [
   },
   "next": null,
   "photo": {
-   "card": "/assets/images/cars/sbarro-super-eight.jpg",
+   "card": "/assets/images/cars/sbarro-super-eight.jpg?v=9f4d9815",
    "pos": "center bottom",
    "fit": ""
   }
@@ -5629,7 +5629,7 @@ const CARS_INDEX = [
   "prev": null,
   "next": null,
   "photo": {
-   "card": "/assets/images/cars/sbarro-windhound.jpg",
+   "card": "/assets/images/cars/sbarro-windhound.jpg?v=6680f305",
    "pos": "center 72%",
    "fit": ""
   }
@@ -5679,7 +5679,7 @@ const CARS_INDEX = [
   "prev": null,
   "next": null,
   "photo": {
-   "card": "/assets/images/cars/sbarro-monster-g.jpg",
+   "card": "/assets/images/cars/sbarro-monster-g.jpg?v=4fac82c5",
    "pos": "center 55%",
    "fit": ""
   }
@@ -5785,7 +5785,7 @@ const CARS_INDEX = [
    "name": "Toyota 4Runner (N500)"
   },
   "photo": {
-   "card": "/assets/images/cars/toyota-4runner-n280.jpg",
+   "card": "/assets/images/cars/toyota-4runner-n280.jpg?v=5fe1ab90",
    "pos": "",
    "fit": ""
   }
@@ -5838,7 +5838,7 @@ const CARS_INDEX = [
   },
   "next": null,
   "photo": {
-   "card": "/assets/images/cars/toyota-4runner-n500.jpg",
+   "card": "/assets/images/cars/toyota-4runner-n500.jpg?v=09a5aed0",
    "pos": "",
    "fit": ""
   }

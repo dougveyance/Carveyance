@@ -123,7 +123,11 @@ def photo_urls(c):
     p = c.get("photo") or {}
     local = os.path.join(PHOTO_DIR, c["id"] + ".jpg")
     if os.path.exists(local):
-        u = "/" + local.replace(os.sep, "/")
+        # ?v= changes whenever the photo does: assets/images/ is cached for a year, so a
+        # replaced photo needs a new address or browsers keep showing the old one
+        with open(local, "rb") as f:
+            v = hashlib.md5(f.read()).hexdigest()[:8]
+        u = "/" + local.replace(os.sep, "/") + "?v=" + v
         return {"hero": u, "safe": u, "card": u, "small": u}
     if p.get("file"):
         safe = commons_thumb(p["file"], SAFE_W)

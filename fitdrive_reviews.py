@@ -24,8 +24,9 @@ OUT = Path(__file__).resolve().parent / "fitdrive-reviews.json"   # kept outside
 
 
 # Category ratings from the form (Poor 2, Fair 4, Good 6, Great 8, Excellent 10). All optional.
+# "Holding a charge" is asked only for electric and plug-in cars, "Towing" only for models rated to tow.
 CATS = [("rel", "Reliability"), ("comfort", "Comfort"), ("perf", "Performance"), ("econ", "Fuel economy"),
-        ("value", "Value for money"), ("space", "Space and practicality")]
+        ("charge", "Holding a charge"), ("tow", "Towing"), ("value", "Value for money"), ("space", "Space and practicality")]
 
 
 def norm(k):

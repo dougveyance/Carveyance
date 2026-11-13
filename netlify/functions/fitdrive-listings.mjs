@@ -119,6 +119,70 @@ async function recalls(id, year) {
     return json(502, { ok: false, error: "nhtsa_unavailable" });
   }
 }
+// Real-world fuel economy for one model year: ?mpg=4runner&year=2022&pt=ice
+// From the EPA's fueleconomy.gov: the official combined rating, plus "My MPG", the mileage real owners
+// share with the EPA. Every version of the model that matches its powertrain (gas, hybrid, plug-in) is
+// counted, weighted by how many owners shared figures. Electric cars aren't covered (My MPG is for fuel).
+const FE = "https://www.fueleconomy.gov/ws/rest";
+const ATV = {
+  ice: (a) => !/hybrid|^ev$|electric/i.test(String(a || "").trim()),
+  hybrid: (a) => /^hybrid$/i.test(String(a || "").trim()),
+  phev: (a) => /plug-in/i.test(String(a || "")),
+};
+async function feJson(path) {
+  const r = await fetch(FE + path, { headers: { Accept: "application/json" } });
+  if (!r.ok) throw new Error("fueleconomy " + r.status);
+  const t = (await r.text()).trim();
+  if (!t) return {};
+  if (t[0] !== "<") return JSON.parse(t);
+  // XML fallback: menus become {menuItem:[{text,value}]}, records become flat {field: value}
+  if (t.includes("<menuItem>")) {
+    const items = [...t.matchAll(/<menuItem>\s*<text>([^<]*)<\/text>\s*<value>([^<]*)<\/value>\s*<\/menuItem>/g)].map((m) => ({ text: m[1], value: m[2] }));
+    return { menuItem: items };
+  }
+  const o = {}; for (const m of t.matchAll(/<(\w+)>([^<]*)<\/\1>/g)) if (!(m[1] in o)) o[m[1]] = m[2];
+  return o;
+}
+const feItems = (j) => (j && j.menuItem ? (Array.isArray(j.menuItem) ? j.menuItem : [j.menuItem]) : []);
+// "GLC 300" matches the EPA's "GLC300 4matic"; "CX-5" matches "CX-5 2WD" but not "CX-50 AWD"
+function feNameMatch(name, cands) {
+  const toks = String(name).toLowerCase().split(/\s+/).map((t) => t.replace(/[^a-z0-9]/g, "")).filter(Boolean);
+  return cands.some((c) => {
+    const cn = String(c).toLowerCase().replace(/[^a-z0-9]/g, ""); let acc = "";
+    for (const t of toks) { acc += t; if (acc === cn) return true; if (acc.length >= cn.length) return false; }
+    return false;
+  });
+}
+async function mpgFor(id, year, pt) {
+  const spec = MODELS[id];
+  if (!spec || !/^\d{4}$/.test(year) || !ATV[pt]) return json(400, { ok: false, error: "bad_request" });
+  const headers = { "Cache-Control": "public, max-age=86400", "Netlify-CDN-Cache-Control": "public, durable, max-age=2592000",
+    "Netlify-Vary": "query=mpg|year|pt", "Content-Type": "application/json; charset=utf-8" };
+  try {
+    const cands = [...new Set(spec.models.flatMap((n) => [n, n.replace(/\s+(plug-in hybrid|hybrid|ev)$/i, "")]))];
+    const trimNeed = spec.need && !/hybrid|plug|electric/i.test(spec.need.source) ? spec.need : null;
+    const ok = (txt) => !(spec.avoid && spec.avoid.test(txt)) && (!trimNeed || trimNeed.test(txt));
+    const mk = encodeURIComponent(spec.make);
+    const names = feItems(await feJson(`/vehicle/menu/model?year=${year}&make=${mk}`)).map((x) => String(x.value || x.text || ""))
+      .filter((n) => feNameMatch(n, cands) && ok(n)).slice(0, 6);
+    const opts = (await Promise.all(names.map((n) => feJson(`/vehicle/menu/options?year=${year}&make=${mk}&model=${encodeURIComponent(n)}`)
+      .then((j) => feItems(j).map((o) => ({ model: n, text: String(o.text || ""), id: String(o.value || "") }))).catch(() => [])))).flat()
+      .filter((o) => /^\d+$/.test(o.id) && !(spec.avoid && spec.avoid.test(o.text))).slice(0, 16);
+    const recs = (await Promise.all(opts.map((o) => feJson(`/vehicle/${o.id}`).then((v) => ({ ...o, v })).catch(() => null))))
+      .filter((x) => x && x.v && ATV[pt](x.v.atvType));
+    const comb = recs.map((x) => +x.v.comb08).filter((n) => n > 0), city = recs.map((x) => +x.v.city08).filter((n) => n > 0), hwy = recs.map((x) => +x.v.highway08).filter((n) => n > 0);
+    const mean = (a) => (a.length ? Math.round(a.reduce((p, q) => p + q, 0) / a.length) : null);
+    const shared = await Promise.all(recs.filter((x) => String(x.v.mpgData || "").toUpperCase() === "Y").slice(0, 12)
+      .map((x) => feJson(`/ympg/shared/ympgVehicle/${x.id}`).then((y) => ({ n: +y.recordCount || 0, mpg: +y.avgMpg || 0 })).catch(() => null)));
+    const good = shared.filter((x) => x && x.n > 0 && x.mpg > 0), n = good.reduce((p, x) => p + x.n, 0);
+    const owners = n ? { mpg: Math.round((n / good.reduce((p, x) => p + x.n / x.mpg, 0)) * 10) / 10, n } : null;
+    return new Response(JSON.stringify({ ok: true, id, year: +year, pt, versions: recs.length,
+      epa: comb.length ? { comb: mean(comb), city: mean(city), hwy: mean(hwy) } : null, owners }), { status: 200, headers });
+  } catch (e) {
+    return json(502, { ok: false, error: "fueleconomy_unavailable" });
+  }
+}
+
 // Model names for a make and year (NHTSA vPIC), for the car value tool: ?models=toyota&year=2020
 async function modelsFor(make, year) {
   if (!/^[a-z0-9 .\-]{2,30}$/i.test(make) || !/^\d{4}$/.test(year)) return json(400, { ok: false, error: "bad_request" });
@@ -289,6 +353,8 @@ export default async (req) => {
   }
   const ratingId = url.searchParams.get("ratings");
   if (ratingId) return ratings(ratingId, url.searchParams.get("year") || "");
+  const mpgId = url.searchParams.get("mpg");
+  if (mpgId) return mpgFor(mpgId, url.searchParams.get("year") || "", url.searchParams.get("pt") || "ice");
   const photoVin = url.searchParams.get("photos");
   if (photoVin) {
     const k = (globalThis.Netlify && Netlify.env && Netlify.env.get("AUTODEV_API_KEY")) || process.env.AUTODEV_API_KEY;

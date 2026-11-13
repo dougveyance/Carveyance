@@ -593,6 +593,22 @@ a.tbtn{text-decoration:none;display:inline-flex;align-items:center}
 .ocard-top{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
 .ocard-top .of{color:var(--muted);font-weight:600}
 .ocard .wheels{margin-left:4px}
+.rchart{display:flex;flex-direction:column;gap:9px;border-top:1px solid var(--line);padding-top:12px}
+.rchart .rleg{font-size:12.5px;line-height:1.45;margin-top:-4px}
+.rrow{display:grid;grid-template-columns:minmax(90px,36%) 1fr auto;gap:3px 10px;align-items:center;font-size:14px}
+.rrow .rl{font-weight:600;color:var(--ink);line-height:1.3}
+.rrow .b{height:8px;border-radius:0 4px 4px 0;background:var(--line);overflow:hidden}
+.rrow .b i{display:block;height:100%;background:var(--blue);border-radius:0 4px 4px 0}
+.rrow>b{font-variant-numeric:tabular-nums;text-align:right}
+.rrow .rs{grid-column:2/-1;font-size:12.5px;color:var(--muted);line-height:1.4}
+.rrow.rfact{align-items:start}
+.rrow .rf{grid-column:2/-1;font-size:13.5px;color:var(--body);line-height:1.45}
+.rrow em{font-style:normal;font-size:11.5px;font-weight:700;letter-spacing:.04em;color:var(--muted);white-space:nowrap}
+.rrow .none,.rrow .rc,.rrow .dot{color:var(--muted)}
+.rrow .rc{display:block;font-size:12.5px}
+.rrow .stars{font-size:1em}
+.morerv{font-size:13px;line-height:1.5}
+.morerv a{color:var(--blue-ink);font-weight:600}
 .rvcats{font-size:13px;color:var(--muted)}
 .rline{display:inline-flex;align-items:center;gap:6px;background:none;border:0;padding:0;margin-top:6px;font-size:14px;color:var(--body);cursor:pointer;text-align:left}
 .rline u{color:var(--blue-ink)}
@@ -664,7 +680,7 @@ a.tbtn{text-decoration:none;display:inline-flex;align-items:center}
   <input name="model"><input name="car"><input name="year"><input name="own"><input name="owned"><input name="miles"><input name="rating"><input name="again">
   <textarea name="love"></textarea><textarea name="bugs"></textarea><textarea name="broke"></textarea>
   <input name="name"><input name="email"><input name="vin"><input name="agree">
-  <input name="c_rel"><input name="c_comfort"><input name="c_perf"><input name="c_econ"><input name="c_value"><input name="c_space"><input name="bot-field">
+  <input name="c_rel"><input name="c_comfort"><input name="c_perf"><input name="c_econ"><input name="c_charge"><input name="c_tow"><input name="c_value"><input name="c_space"><input name="bot-field">
 </form>
 <form name="fitdrive-accounts" data-netlify="true" netlify-honeypot="bot-field" hidden>
   <input type="hidden" name="form-name" value="fitdrive-accounts">
@@ -3443,7 +3459,10 @@ function loadReviews(){
   }).catch(()=>{REVIEWS={};}).finally(()=>{REVIEWS_LOADING=false;if(["car","compare"].includes(S.view))keepScroll(render);});
 }
 // Category ratings: entered as Poor / Fair / Good / Great / Excellent and stored as 2, 4, 6, 8, 10.
-const RV_CATS=[["rel","Reliability"],["comfort","Comfort"],["perf","Performance"],["econ","Fuel economy"],["value","Value for money"],["space","Space and practicality"]];
+const RV_CATS=[["rel","Reliability"],["comfort","Comfort"],["perf","Performance"],["econ","Fuel economy"],["charge","Holding a charge"],["tow","Towing"],["value","Value for money"],["space","Space and practicality"]];
+// The categories owners rate for a model: "Holding a charge" (how well the battery keeps its range as it ages)
+// only for electric and plug-in cars, "Towing" only for models rated to tow 1,500 lb or more.
+const catsFor=m=>RV_CATS.filter(([k])=>k==="charge"?!!m&&(m.pt==="bev"||m.pt==="phev"):k==="tow"?!!m&&+m.tow>=1500:true);
 const RV_LEVELS=[[2,"Poor"],[4,"Fair"],[6,"Good"],[8,"Great"],[10,"Excellent"]];
 const catLabel=(m,k)=>k==="econ"&&m&&m.pt==="bev"?"Range and charging":(RV_CATS.find(c=>c[0]===k)||[k,k])[1];
 function reviewStats(id){
@@ -3457,7 +3476,7 @@ function reviewStats(id){
     list:list.slice().sort((a,b)=>String(b.date||"").localeCompare(String(a.date||"")))};
 }
 function catBarsHTML(m,st){
-  const ks=RV_CATS.map(c=>c[0]).filter(k=>st.cats[k]); if(!ks.length) return "";
+  const ks=catsFor(m).map(c=>c[0]).filter(k=>st.cats[k]); if(!ks.length) return "";
   return `<div class="catbars">${ks.map(k=>{const c=st.cats[k];return `<div class="catbar${st.best&&st.best.includes(k)?" hi":st.worst&&st.worst.includes(k)?" lo":""}"><span>${esc(catLabel(m,k))}</span><div class="b"><i style="width:${c.avg*10}%"></i></div><b>${c.avg}</b></div>`;}).join("")}</div>`;
 }
 function strengthsHTML(m,st){
@@ -3475,18 +3494,79 @@ function ratingLineHTML(L,short){
   const sub=st.best&&(st.best.length||st.worst.length)?`<span class="rline-sub">${st.best.length?`Best for ${esc(nm(st.best))}`:""}${st.best.length&&st.worst.length?" · ":""}${st.worst.length?`lowest for ${esc(nm(st.worst))}`:""}</span>`:"";
   return `<button type="button" class="rline" data-act="rv-jump" data-id="${esc(L.model.id)}">${wheelsHTML(st.avg)} <b>${st.avg}/10</b> <span>· ${st.n} owner review${st.n>1?"s":""}</span></button>${sub}`;
 }
-// The owner-ratings card beside the price.
+// The owner-ratings card beside the price: the owner score, then "How it rates", one row per category.
+// A row shows owners' average out of 10 once RV_MIN owners have rated it. Until then it shows the official
+// figure where there is one (NHTSA for safety and complaints, the EPA for fuel economy and range, the maker
+// for towing), with the source named. Official figures are never averaged into owner ratings.
+const RV_MIN=3;
 function ownerCardHTML(L){
   loadReviews();
   const m=L.model, st=reviewStats(m.id);
   if(REVIEWS===null) return `<div class="pricebox"><b>Owner ratings</b><p class="hint" role="status">Loading…</p></div>`;
-  if(!st.n) return `<div class="pricebox ocard"><b>Owner ratings</b><p class="hint">No owner reviews of the ${esc(m.make+" "+m.model)} yet. Ratings for reliability, comfort, performance, fuel economy, value and space show here once owners write in.</p>
-    <button type="button" class="btn ghost small" data-act="rv-jump" data-id="${esc(m.id)}" data-write="1">Own one? Write the first review</button></div>`;
-  return `<div class="pricebox ocard"><div class="row" style="justify-content:space-between;align-items:baseline"><b>Owner ratings</b><span class="hint">${st.n} review${st.n>1?"s":""}</span></div>
+  const top=st.n?`<div class="row" style="justify-content:space-between;align-items:baseline"><b>Owner ratings</b><span class="hint">${st.n} review${st.n>1?"s":""}</span></div>
     <div class="ocard-top"><span class="big num">${st.avg}</span><span class="of">/ 10</span>${wheelsHTML(st.avg)}</div>
-    <p class="hint">${st.again}% would buy it again</p>
-    ${catBarsHTML(m,st)}${strengthsHTML(m,st)}
-    <div class="row"><button type="button" class="tbtn" data-act="rv-jump" data-id="${esc(m.id)}">Read the reviews</button><button type="button" class="tbtn" data-act="rv-jump" data-id="${esc(m.id)}" data-write="1">Write a review</button></div></div>`;
+    <p class="hint">${st.again}% would buy it again</p>`
+    :`<b>Owner ratings</b><p class="hint">No owner reviews of the ${esc(m.make+" "+m.model)} yet, so here are the official figures for now.</p>`;
+  const btns=st.n?`<div class="row"><button type="button" class="tbtn" data-act="rv-jump" data-id="${esc(m.id)}">Read the reviews</button><button type="button" class="tbtn" data-act="rv-jump" data-id="${esc(m.id)}" data-write="1">Write a review</button></div>`
+    :`<button type="button" class="btn ghost small" data-act="rv-jump" data-id="${esc(m.id)}" data-write="1">Own one? Write the first review</button>`;
+  return `<div class="pricebox ocard">${top}${ratingChartHTML(L,st)}${st.n?strengthsHTML(m,st):""}${btns}${moreReviewsHTML(L)}</div>`;
+}
+/* ---------- real-world fuel economy (EPA My MPG, through fitdrive-listings) ---------- */
+function loadMpg(L){
+  if(!LIVE||!L||!L.model||L.model.pt==="bev") return; S.mpg=S.mpg||{}; const k=L.model.id+"-"+L.year;
+  if(S.mpg[k]!==undefined) return;
+  const c=ssGet("fd-mpg-"+k); if(c){S.mpg[k]=c;return;}
+  S.mpg[k]=null;
+  fetch(`/.netlify/functions/fitdrive-listings?mpg=${encodeURIComponent(L.model.id)}&year=${L.year}&pt=${encodeURIComponent(L.model.pt)}`).then(r=>r.json()).then(j=>{S.mpg[k]=j&&j.ok?j:{ok:false};if(j&&j.ok)ssSet("fd-mpg-"+k,j);})
+    .catch(()=>{S.mpg[k]={ok:false};}).finally(()=>{if(S.view==="car")keepScroll(render);});
+}
+// The official figure for a row, or null when there isn't one. t = the text, h = HTML shown before it, src = where it's from.
+function dataFact(L,k){
+  const m=L.model, y=L.year, pl=(n,w)=>`${num(n)} ${w}${n===1?"":"s"}`;
+  if(k==="safety"){
+    const r=ratingFor(L);
+    if(r===undefined||r===null) return {t:"Checking NHTSA…"};
+    if(r.error) return {t:"Couldn't reach NHTSA just now."};
+    if(r.none) return {t:`Not crash-tested by NHTSA for ${y}.`,src:"NHTSA"};
+    return {h:`${starsHTML(r.overall)} <b>${r.overall} of 5</b> `,t:r.example?"Example rating":"Overall crash rating",src:r.example?"":"NHTSA"};
+  }
+  if(k==="rel"){
+    const r=ratingFor(L); if(!r||r.error||r.example) return null;
+    const v=r.none?(r.variants||[])[0]:r; if(!v||v.complaints==null) return null;
+    return {t:`${pl(v.complaints,"complaint")} and ${pl(v.recalls,"recall")} on file for ${y} models`,src:"NHTSA"};
+  }
+  if(k==="econ"){
+    if(m.pt==="bev") return m.range?{t:`About ${num(m.range)} miles of range for a typical version`,src:"EPA"}:null;
+    const j=S.mpg&&S.mpg[m.id+"-"+y]; if(j===undefined) return null; if(j===null) return {t:"Checking the EPA…"}; if(!j.ok) return null;
+    if(j.owners&&j.owners.n) return {t:`Owners average ${j.owners.mpg} mpg across ${pl(j.owners.n,"driver")}${j.epa?`, against an EPA rating of ${j.epa.comb}`:""}`,src:"EPA My MPG"};
+    if(j.epa) return {t:`${j.epa.comb} mpg combined${j.epa.city&&j.epa.hwy?` (${j.epa.city} city, ${j.epa.hwy} highway)`:""}`,src:"EPA rating"};
+    return null;
+  }
+  if(k==="tow") return m.tow?{t:`Rated to tow up to ${lbkg(m.tow)}`,src:"Maker's rating"}:null;
+  return null;
+}
+function ratingChartHTML(L,st){
+  loadRatings(L); loadMpg(L);
+  const m=L.model, keys=[];
+  catsFor(m).forEach(([k])=>{keys.push(k); if(k==="rel") keys.push("safety");});
+  const rows=keys.map(k=>{
+    const label=k==="safety"?"Safety":catLabel(m,k), c=st.cats&&st.cats[k], f=dataFact(L,k);
+    const src=f&&f.src?` <span class="dot">·</span> <em>${esc(f.src)}</em>`:"";
+    if(c&&c.n>=RV_MIN) return `<div class="rrow"><span class="rl">${esc(label)}</span><div class="b" role="img" aria-label="${esc(label)}: ${c.avg} out of 10 from ${c.n} owners"><i style="width:${c.avg*10}%"></i></div><b>${c.avg}</b>
+      <span class="rs">${c.n} owner ratings${f&&f.t&&f.src?` · ${esc(f.t)}${src}`:""}</span></div>`;
+    const sofar=c&&c.n?`${c.n} owner rating${c.n>1?"s":""} so far, ${RV_MIN} needed for a score`:"";
+    const body=f?`${f.h||""}${esc(f.t)}${src}${sofar?`<span class="rc">${sofar}</span>`:""}`:`<span class="none">${sofar||"No owner ratings yet"}</span>`;
+    return `<div class="rrow rfact"><span class="rl">${esc(label)}</span><span class="rf">${body}</span></div>`;
+  }).join("");
+  return `<div class="rchart"><span class="eyebrow">How it rates</span><p class="hint rleg">Bars show owners' average out of 10 once ${RV_MIN} owners have rated it. Until then you see the official figure, with its source.</p>${rows}</div>`;
+}
+// Plain links to owner reviews elsewhere. FitDrive doesn't copy or average them.
+function moreReviewsHTML(L){
+  const m=L.model, y=L.year, h=t=>String(t).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,""), u=t=>String(t).toLowerCase().replace(/[^a-z0-9]+/g,"_").replace(/^_+|_+$/g,"");
+  const links=[["Edmunds",`https://www.edmunds.com/${h(m.make)}/${h(m.model)}/${y}/consumer-reviews/`],
+    ["Kelley Blue Book",`https://www.kbb.com/${h(m.make)}/${h(m.model)}/${y}/consumer-reviews/`],
+    ["Cars.com",`https://www.cars.com/research/${h(m.make)}-${u(m.model)}-${y}/consumer-reviews/`]];
+  return `<p class="hint morerv">More owner reviews of the ${esc(y+" "+m.model)}: ${links.map(([n,href])=>`<a href="${href}" target="_blank" rel="noopener">${n}</a>`).join(" · ")}</p>`;
 }
 const WHEEL=`<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="12" cy="12" r="2.2" fill="currentColor"/><path d="M3.6 10.5h6.2M14.2 10.5h6.2M12 14.2v6.4" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>`;
 function wheelsHTML(score){
@@ -3530,7 +3610,7 @@ function reviewFormHTML(L){
       ${inp("miles","Miles on it now (or when you sold it)","e.g. 42000","number")}</div>
     <div class="rvrow"><span class="lbl">Your rating, in steering wheels: <b>${r.rating||"–"}</b> / 10</span><div class="wheelpick">${wheels}</div></div>
     <div class="rvrow"><span class="lbl">Would you buy it again?</span><div class="chips">${ch("again","yes","Yes")}${ch("again","no","No")}</div></div>
-    <div class="rvrow"><span class="lbl">Rate what you can <span class="hint">(optional)</span></span><div class="catpick">${RV_CATS.map(([k])=>`<div class="cp-row"><span>${esc(catLabel(m,k))}</span><div class="cp-opts" role="group" aria-label="${esc(catLabel(m,k))}">${RV_LEVELS.map(([v,lb])=>`<button type="button" class="cp${r.cats[k]===v?" on":""}" data-act="rv-cat" data-k="${k}" data-v="${v}" data-id="${esc(m.id)}" aria-pressed="${r.cats[k]===v}">${lb}</button>`).join("")}</div></div>`).join("")}</div></div>
+    <div class="rvrow"><span class="lbl">Rate what you can <span class="hint">(optional)</span></span><div class="catpick">${catsFor(m).map(([k])=>`<div class="cp-row"><span>${esc(catLabel(m,k))}</span><div class="cp-opts" role="group" aria-label="${esc(catLabel(m,k))}">${RV_LEVELS.map(([v,lb])=>`<button type="button" class="cp${r.cats[k]===v?" on":""}" data-act="rv-cat" data-k="${k}" data-v="${v}" data-id="${esc(m.id)}" aria-pressed="${r.cats[k]===v}">${lb}</button>`).join("")}</div></div>`).join("")}</div></div>
     ${area("love","What you love about it","The thing you'd tell a friend first")}${area("bugs","What bugs you","Every car has something")}${area("broke","What broke, and what it cost","Or \"Nothing so far\"")}
     <div class="rvgrid">${inp("name","Name to show","First name and last initial, like Ana R.")}${inp("email","Email (never shown)","So we can check with you","email")}${inp("vin","VIN (optional, never shown)","For a VIN checked badge")}</div>
     <label class="chk"><input type="checkbox" data-rv="agree" data-id="${esc(m.id)}"${r.agree?" checked":""}><span>I own or owned this car, and this is my honest experience. I agree to the <a href="#privacy">privacy policy and terms</a>.</span></label>

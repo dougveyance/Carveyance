@@ -417,8 +417,9 @@
     [].forEach.call(document.querySelectorAll(".from [data-date]"), function (el) {
       if (el.getAttribute("data-date") > today) el.hidden = true;
     });
-    var also = document.querySelector(".from .also");
-    if (also && !also.querySelector("a:not([hidden])")) also.hidden = true;
+    [].forEach.call(document.querySelectorAll(".from .also"), function (also) {
+      if (!also.querySelector("a:not([hidden])")) also.hidden = true;
+    });
     var sec = document.querySelector("section.from");
     if (sec && !sec.querySelector(".acard:not([hidden])")) sec.hidden = true;
   };

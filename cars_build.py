@@ -119,6 +119,19 @@ def commons_thumb(file, width):
 SAFE_W, BIG_W = 960, 1280
 
 
+KIND_WORDS = ("coupe", "convertible", "roadster", "spyder", "spider", "targa", "sedan", "saloon", "wagon", "estate",
+              "hatchback", "suv", "pickup", "truck", "minivan", "van", "rotary", "v12", "v10", "v8", "v6", "flat-six",
+              "flat-four", "inline-six", "straight-six", "turbo", "twin-turbo", "supercharged", "electric", "hybrid")
+
+
+def likeness(a, b):
+    """How alike 2 cars are, by the kind of body and engine: the number of shared words like coupe, SUV, rotary or V8."""
+    def words(c):
+        t = " " + " ".join(str(c.get(k, "")) for k in ("body", "engine")).lower().replace("4-door", "").replace("2-door", "") + " "
+        return {w for w in KIND_WORDS if re.search(r"(?<![a-z0-9-])" + re.escape(w) + r"(?![a-z0-9])", t)}
+    return len(words(a) & words(b))
+
+
 def photo_urls(c):
     p = c.get("photo") or {}
     local = os.path.join(PHOTO_DIR, c["id"] + ".jpg")
@@ -415,20 +428,27 @@ def car_page(c, cars, by_id, arts, photos):
              ("Drive", c.get("drive")), ("Gearbox", c.get("gearbox"))]
     facts_html = "".join(f"<div><dt>{k}</dt><dd>{esc(v)}</dd></div>" for k, v in facts if v)
 
-    # articles: the ones written about it first, then any other story it appears in
-    primary = [arts[s] for s in c.get("articles", []) if s in arts]
-    primary.sort(key=lambda a: a.get("date", ""), reverse=True)
-    also = [arts[s] for s in c.get("_also", []) if s in arts]
-    also.sort(key=lambda a: a.get("date", ""), reverse=True)
+    # stories, most relevant first: the ones about it, then its family's, then other stories about
+    # the same make, then the ones it only appears in. Newest first within each. Up to 6 cards;
+    # the rest are listed as links underneath.
+    def newest(slugs):
+        return sorted([arts[s] for s in slugs if s in arts], key=lambda a: a.get("date", ""), reverse=True)
+    primary = newest(c.get("articles", []))
+    tiers = [("family", newest(c.get("_family", []))),
+             ("make", [arts[s] for s in c.get("_make", []) if s in arts]),        # closest relatives first
+             ("mention", [arts[s] for s in c.get("_mention", []) if s in arts])]  # most focused first
     from_html = ""
-    if primary or also:
-        # the stories about it first, then the ones it appears in or that cover its family, as cards up to 6
-        room = max(0, 6 - len(primary))
-        cards, rest = primary + also[:room], also[room:]
+    if primary or any(t for _, t in tiers):
+        cards, rest = list(primary), {"family": [], "make": [], "mention": []}
+        for kind, t in tiers:
+            for a in t:
+                (cards if len(cards) < 6 else rest[kind]).append(a)
         from_html = f'<section class="from"><div class="wrap"><h2 class="h2">From Carveyance</h2><div class="agrid">{"".join(article_card(a) for a in cards)}</div>'
-        if rest:
-            from_html += ('<p class="also"><b>Also appears in:</b> ' +
-                          " &middot; ".join(f'<a href="/articles/{esc(a["slug"])}/" data-date="{esc(a.get("date", ""))}">{esc(a["title"])}</a>' for a in rest) + "</p>")
+        def links(label, lst):
+            return (f'<p class="also"><b>{label}</b> ' +
+                    " &middot; ".join(f'<a href="/articles/{esc(a["slug"])}/" data-date="{esc(a.get("date", ""))}">{esc(a["title"])}</a>' for a in lst) + "</p>") if lst else ""
+        from_html += links(f"More {esc(c['make'])} stories:", rest["make"])
+        from_html += links("Also appears in:", rest["family"] + rest["mention"])
         from_html += "</div></section>"
 
     same = [x for x in cars if x["make"] == c["make"] and x["id"] != c["id"]]
@@ -681,6 +701,7 @@ def main():
         names = {n.lower() for n in (c.get("match") or [])}
         c["_also"] = [s for s, a in arts.items()
                       if s not in c.get("articles", []) and names & {v.lower() for v in a["vehicles"]}]
+        c["_mention"] = list(c["_also"])   # stories it only appears in
         missing = [s for s in c.get("articles", []) if s not in arts]
         if missing:
             print(f"  note: {c['id']} lists articles not in articles.js: {', '.join(missing)}")
@@ -689,8 +710,10 @@ def main():
         for s in c.get("seeAlso", []):
             if s in arts and s not in c.get("articles", []) and s not in c["_also"]:
                 c["_also"].append(s)
+                c["_mention"].append(s)
     # stories about the rest of its family (the cars linked by Before it / After it) belong on its page too
     for c in cars:
+        c["_family"] = []
         members = list(family(c, by_id, size=99))
         for k in kin(c, by_id):
             members += [m for m in family(by_id[k], by_id, size=99) if m not in members]
@@ -698,8 +721,28 @@ def main():
             if m == c["id"]:
                 continue
             for s in by_id[m].get("articles", []):
-                if s in arts and s not in c.get("articles", []) and s not in c["_also"]:
-                    c["_also"].append(s)
+                if s in arts and s not in c.get("articles", []) and s not in c["_family"]:
+                    c["_family"].append(s)
+                    if s in c["_mention"]:
+                        c["_mention"].remove(s)
+                    if s not in c["_also"]:
+                        c["_also"].append(s)
+    # stories about other cars of the same make, for its page (not counted as stories it appears in).
+    # The closest relatives come first: same kind of body and engine (an RX-7 page shows the
+    # rotary Cosmos before the Mazda5 minivan), then the newest.
+    for c in cars:
+        taken = set(c.get("articles", [])) | set(c["_family"])
+        score = {}
+        for x in cars:
+            if x["make"] == c["make"] and x["id"] != c["id"]:
+                for s in x.get("articles", []):
+                    if s in arts and s not in taken:
+                        score[s] = max(score.get(s, -1), likeness(c, x))
+        c["_make"] = sorted(score, key=lambda s: (score[s], arts[s].get("date", "")), reverse=True)
+        c["_mention"] = [s for s in c["_mention"] if s not in score]
+        # of the stories it only appears in, the more focused ones (fewer cars tagged) come first
+        c["_mention"].sort(key=lambda s: arts[s].get("date", ""), reverse=True)
+        c["_mention"].sort(key=lambda s: len(arts[s]["vehicles"]))
     photos = {c["id"]: photo_urls(c) for c in cars}
 
     # the data the /cars/ page reads

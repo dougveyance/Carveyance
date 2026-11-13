@@ -383,7 +383,12 @@
       '<div class="mkts" id="fs-links"></div></div>';
     function fill() {
       if (!window.CVMarkets) { sec.remove(); return; }
-      sec.querySelector("#fs-links").innerHTML = window.CVMarkets.html(q, make);
+      // the first model year and the "shop" settings from cars.js pick the everyday or the collector list
+      var hd = (document.querySelector("header.hero") || {}).dataset || {};
+      var o = { year: +hd.start || 0, list: hd.list || "", model: hd.model || "", cargurus: hd.cargurus || "" };
+      sec.querySelector("#fs-links").innerHTML = window.CVMarkets.html(q, make, o);
+      if (window.CVMarkets.list && window.CVMarkets.list(q, o) === "everyday")
+        sec.querySelector(".fs-sub").textContent = "Where to look right now, from dealers and private sellers to the enthusiast auctions, and what one is worth.";
       after.parentNode.insertBefore(sec, after.nextSibling);
       var mp = document.querySelector(".hinfo .maker");
       if (mp && !mp.querySelector('a[href="#for-sale"]')) mp.insertAdjacentHTML("beforeend", ' &middot; <a href="#for-sale">Find one for sale</a>');

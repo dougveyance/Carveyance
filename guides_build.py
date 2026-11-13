@@ -27,6 +27,12 @@ tags back on the Car Index pages):
     python3 seo_inject.py
     python3 pwa_inject.py
 
+FOR SALE: every guide page gets a "Find a <model> for sale" box after the chapter's
+verdict (above The Carveyance Curiosity) and on the guide's front page, using the
+everyday list in assets/js/cv-markets.js. In guide.json, "shop" can add the CarGurus
+model code ("cargurus": "d290"), the model as the price sites spell it ("model"), or
+"list": "collector" for a guide about collectible cars.
+
 PHOTOS: save each photo as fitdrive/guides/<guide>/img/<slot>.jpg, where <slot> is
 a name from the "photos" list in guide.json (for example ch1-hero.jpg), about 1600 px
 wide. Add "credit" (and "caption" if you like) to that photo's entry in guide.json.
@@ -429,7 +435,41 @@ def more_html(g, cars):
     return f'<section class="gmore"><h2 class="h2">Keep going</h2><div class="mgrid2">{cards}</div></section>'
 
 
-def page(title_tag, desc, url, image, ld, header, main):
+def an(word):
+    """'a' or 'an' before a model name: an Avalon, an RX-7, a 4Runner, an 86"""
+    w = str(word).strip()
+    return "an" if re.match(r"(?i)([aeio]|8|11\b|18\b|rx|sl|sx|f-|x[0-9 ]|hr|mr|s[0-9]|e-|l[0-9]|m[0-9])", w) else "a"
+
+
+def sale_html(g):
+    """The "Find a 4Runner for sale" box. The buttons come from assets/js/cv-markets.js."""
+    shop = g.get("shop") or {}
+    m = re.search(r"(19|20)\d{2}", str(g.get("years", "")))
+    attrs = {"q": f'{g["make"]} {g["model"]}', "make": g["make"], "year": m.group(0) if m else "",
+             "list": shop.get("list", ""), "model": shop.get("model", ""), "cargurus": shop.get("cargurus", "")}
+    data = "".join(f' data-{k}="{esc(v)}"' for k, v in attrs.items() if v)
+    return (f'<section class="forsale gsale" id="for-sale" aria-labelledby="fs-title"{data} hidden>'
+            f'<div class="kick">Find one for sale</div>'
+            f'<h2 class="h2" id="fs-title">Find {an(g["model"])} {esc(g["model"])} for sale</h2>'
+            f'<p class="fs-sub">Where to look right now, from dealers and private sellers to the enthusiast auctions, '
+            f'and what one is worth.</p>'
+            f'<div class="mkts"></div></section>')
+
+
+SALE_JS = """<script src="/assets/js/cv-markets.js" defer></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var s = document.getElementById("for-sale"), M = window.CVMarkets;
+  if (!s || !M) return;
+  var d = s.dataset;
+  s.querySelector(".mkts").innerHTML = M.html(d.q, d.make, { year: +d.year || 0, list: d.list || "", model: d.model || "", cargurus: d.cargurus || "" });
+  s.hidden = false;
+  [].forEach.call(document.querySelectorAll(".gsalelink"), function (a) { a.hidden = false; });
+});
+</script>"""
+
+
+def page(title_tag, desc, url, image, ld, header, main, js=""):
     return f"""{head(title_tag, desc, url, image, ld)}
 <body>
 
@@ -440,7 +480,7 @@ def page(title_tag, desc, url, image, ld, header, main):
 {main}
 
 {FOOT}
-<script src="/assets/js/cv-menu.js" defer></script>
+<script src="/assets/js/cv-menu.js" defer></script>{js}
 </body>
 </html>
 """
@@ -480,7 +520,7 @@ def chapter_page(g, c, cars):
     <div class="kick">{esc(c.get("kicker", ""))}</div>
     <h1 class="gtitle">{inline(c["title"])}</h1>
     <p class="gdek">{inline(c.get("dek", ""))}</p>
-    <p class="gmeta">By {esc(g["byline"])} &middot; {mins} min read &middot; Updated {nice_date(g["updated"])} &middot; Chapter {c["n"]} of {len(g["chs"])}</p>
+    <p class="gmeta">By {esc(g["byline"])} &middot; {mins} min read &middot; Updated {nice_date(g["updated"])} &middot; Chapter {c["n"]} of {len(g["chs"])}<span class="gsalelink" hidden> &middot; <a href="#for-sale">Find one for sale</a></span></p>
   </div>
 </header>"""
     main = f"""<main class="wrap gw gmain">
@@ -491,6 +531,7 @@ def chapter_page(g, c, cars):
   <article class="gbody">
 {body}
   </article>
+  {sale_html(g)}
   {cur}
   {pn}
   {more_html(g, cars)}
@@ -499,7 +540,7 @@ def chapter_page(g, c, cars):
     title_tag = (c.get("seo") or c["title"]) + " | Carveyance"
     ld = [article_ld(g, c.get("seo") or c["title"], c.get("dek", ""), url, img_url),
           crumbs_ld(trail[1:] + [(c["title"], gurl + c["slug"] + "/")])]
-    return page(title_tag, c.get("dek", ""), url, img_url, ld, header, main)
+    return page(title_tag, c.get("dek", ""), url, img_url, ld, header, main, SALE_JS)
 
 
 def guide_page(g, cars):
@@ -532,7 +573,7 @@ def guide_page(g, cars):
     <div class="kick">{esc(f.get("kicker", ""))}</div>
     <h1 class="gtitle">{inline(f.get("title", ""))}</h1>
     <p class="gdek">{inline(f.get("dek", ""))}</p>
-    <p class="gmeta">By {esc(g["byline"])} &middot; {len(g["chs"])} chapters, about {total} min in all &middot; Updated {nice_date(g["updated"])}</p>
+    <p class="gmeta">By {esc(g["byline"])} &middot; {len(g["chs"])} chapters, about {total} min in all &middot; Updated {nice_date(g["updated"])}<span class="gsalelink" hidden> &middot; <a href="#for-sale">Find one for sale</a></span></p>
   </div>
 </header>"""
     main = f"""<main class="wrap gw gmain">
@@ -542,13 +583,14 @@ def guide_page(g, cars):
 {body}
   </article>
   <section class="gchapters"><h2 class="h2">The chapters</h2><div class="chgrid">{cards}</div></section>
+  {sale_html(g)}
   {chart_list}
   {more_html(g, cars)}
   {srcs}
 </main>"""
     title_tag = (f.get("seo") or f.get("title", "")) + " | Carveyance"
     ld = [article_ld(g, f.get("seo") or f.get("title", ""), f.get("dek", ""), url, img_url), crumbs_ld(trail[1:] + [(f.get("title", ""), gurl)])]
-    return page(title_tag, f.get("dek", ""), url, img_url, ld, header, main)
+    return page(title_tag, f.get("dek", ""), url, img_url, ld, header, main, SALE_JS)
 
 
 def index_page(guides):

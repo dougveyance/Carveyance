@@ -53,7 +53,7 @@
     <div class="kick">2017–2026 · The used 4Runner checklist</div>
     <h1 class="gtitle">Look Under the Legend</h1>
     <p class="gdek">A 4Runner's reputation is already in the asking price. Here's how to make sure the truck in front of you deserves it.</p>
-    <p class="gmeta">By Elliot Vance &middot; 4 min read &middot; Updated November 12, 2026 &middot; Chapter 5 of 6</p>
+    <p class="gmeta">By Elliot Vance &middot; 4 min read &middot; Updated November 12, 2026 &middot; Chapter 5 of 6<span class="gsalelink" hidden> &middot; <a href="#for-sale">Find one for sale</a></span></p>
   </div>
 </header>
 
@@ -86,6 +86,7 @@
 <h2 id="our-shortlist">Our shortlist</h2>
 <ul><li><strong>Older truck, best value:</strong> a stock, documented V6 SR5 or SR5 Premium, ideally 2020 or newer.</li><li><strong>Trail bargain:</strong> a TRD Off-Road with working hardware and proof of careful maintenance.</li><li><strong>Newer all-rounder:</strong> a turbo SR5 or TRD Off-Road with clean update and recall records.</li><li><strong>Specialist:</strong> a hybrid TRD Pro, Trailhunter or Platinum, bought for what it can do rather than how the badge looks in a parking lot.</li></ul>
   </article>
+  <section class="forsale gsale" id="for-sale" aria-labelledby="fs-title" data-q="Toyota 4Runner" data-make="Toyota" data-year="2017" data-cargurus="d290" hidden><div class="kick">Find one for sale</div><h2 class="h2" id="fs-title">Find a 4Runner for sale</h2><p class="fs-sub">Where to look right now, from dealers and private sellers to the enthusiast auctions, and what one is worth.</p><div class="mkts"></div></section>
   
   <div class="gpn"><a class="p" href="/fitdrive/guides/toyota-4runner/trims/"><span>Previous chapter</span><b>How Much Trail Do You Actually Need?</b></a><a class="nx" href="/fitdrive/guides/toyota-4runner/v6-or-turbo/"><span>Next chapter</span><b>V6 or Turbo? The 4Runner Fork in the Road</b></a></div>
   <section class="gmore"><h2 class="h2">Keep going</h2><div class="mgrid2"><a class="mlink" href="/cars/toyota-4runner-n280/"><span class="k">The Car Index &middot; 2010–2024</span><b>Toyota 4Runner (N280)</b><span>Numbers, history and the reader score. Rate it out of 10.</span></a><a class="mlink" href="/cars/toyota-4runner-n500/"><span class="k">The Car Index &middot; 2025–present</span><b>Toyota 4Runner (N500)</b><span>Numbers, history and the reader score. Rate it out of 10.</span></a><a class="mlink" href="/fitdrive/"><span class="k">FitDrive</span><b>Shopping for a 4Runner?</b><span>See which cars fit your needs and budget, with listings near you.</span></a></div></section>
@@ -97,6 +98,16 @@
   &copy; 2026 Carveyance — For the love of the drive.
   <div class="fl"><a href="/fitdrive/">FitDrive</a> &middot; <a href="/fitdrive/guides/">Buyer's Guides</a> &middot; <a href="/cars/">The Car Index</a> &middot; <a href="/events/">Events</a> &middot; <a href="/paddock/">The Paddock</a> &middot; <a href="/lot/">The Lot</a> &middot; <a href="/advertise/">Advertise &amp; Partner</a></div>
 </footer>
-<script src="/assets/js/cv-menu.js" defer></script>
+<script src="/assets/js/cv-menu.js" defer></script><script src="/assets/js/cv-markets.js" defer></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var s = document.getElementById("for-sale"), M = window.CVMarkets;
+  if (!s || !M) return;
+  var d = s.dataset;
+  s.querySelector(".mkts").innerHTML = M.html(d.q, d.make, { year: +d.year || 0, list: d.list || "", model: d.model || "", cargurus: d.cargurus || "" });
+  s.hidden = false;
+  [].forEach.call(document.querySelectorAll(".gsalelink"), function (a) { a.hidden = false; });
+});
+</script>
 </body>
 </html>

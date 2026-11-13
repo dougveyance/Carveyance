@@ -53,7 +53,7 @@
     <div class="kick">2017–2026 · Every grade, decoded</div>
     <h1 class="gtitle">How Much Trail Do You Actually Need?</h1>
     <p class="gdek">From SR5 to Trailhunter, what each 4Runner grade actually adds, and which ones are worth paying for.</p>
-    <p class="gmeta">By Elliot Vance &middot; 4 min read &middot; Updated November 12, 2026 &middot; Chapter 4 of 6</p>
+    <p class="gmeta">By Elliot Vance &middot; 4 min read &middot; Updated November 12, 2026 &middot; Chapter 4 of 6<span class="gsalelink" hidden> &middot; <a href="#for-sale">Find one for sale</a></span></p>
   </div>
 </header>
 
@@ -84,6 +84,7 @@
 <h2 id="what-to-check-on-a-modified-4runner">What to check on a modified 4Runner</h2>
 <p>Look for frame and body damage hiding behind aftermarket armor, lift kits installed with the wrong geometry, tires that rub at full lock, leaking shocks, amateur wiring and missing emissions parts. Ask whether the axle gear ratios were changed to suit bigger tires. And check the spare: an oversized trail tire on all 4 corners with a stock-size spare underneath is a surprise best discovered in the seller's driveway, not on the trail.</p>
   </article>
+  <section class="forsale gsale" id="for-sale" aria-labelledby="fs-title" data-q="Toyota 4Runner" data-make="Toyota" data-year="2017" data-cargurus="d290" hidden><div class="kick">Find one for sale</div><h2 class="h2" id="fs-title">Find a 4Runner for sale</h2><p class="fs-sub">Where to look right now, from dealers and private sellers to the enthusiast auctions, and what one is worth.</p><div class="mkts"></div></section>
   <aside class="curio" aria-label="The Carveyance Curiosity"><div class="cmark"><span>The Carveyance</span>Curiosity</div><h2 class="ctitle">A Color for Every Year</h2><p>Every model year, the TRD Pro launches in a paint color of its own, and Toyota picks a new one each time. Several later spread to other grades, but a TRD Pro in its launch color dates itself at a glance.</p><ul class="swatches"><li><i style="background:#8d9090"></i><b>2017</b><span>Cement</span></li><li><i style="background:#3a5a78"></i><b>2018</b><span>Cavalry Blue</span></li><li><i style="background:#2563a6"></i><b>2019</b><span>Voodoo Blue</span></li><li><i style="background:#5b6447"></i><b>2020</b><span>Army Green</span></li><li><i style="background:#b8b7aa"></i><b>2021</b><span>Lunar Rock</span></li><li><i style="background:#9cc83a"></i><b>2022</b><span>Lime Rush</span></li><li><i style="background:#e8742a"></i><b>2023</b><span>Solar Octane</span></li><li><i style="background:#b06a45"></i><b>2024</b><span>Terra</span></li><li><i style="background:#86775f"></i><b>2025</b><span>Mudbath</span></li><li><i style="background:#2f86c4"></i><b>2026</b><span>Wave Maker</span></li></ul><p>Shades are approximate.</p></aside>
   <div class="gpn"><a class="p" href="/fitdrive/guides/toyota-4runner/2025-2026-hybrid/"><span>Previous chapter</span><b>The Hybrid That Came to Pull</b></a><a class="nx" href="/fitdrive/guides/toyota-4runner/used-inspection/"><span>Next chapter</span><b>Look Under the Legend</b></a></div>
   <section class="gmore"><h2 class="h2">Keep going</h2><div class="mgrid2"><a class="mlink" href="/cars/toyota-4runner-n280/"><span class="k">The Car Index &middot; 2010–2024</span><b>Toyota 4Runner (N280)</b><span>Numbers, history and the reader score. Rate it out of 10.</span></a><a class="mlink" href="/cars/toyota-4runner-n500/"><span class="k">The Car Index &middot; 2025–present</span><b>Toyota 4Runner (N500)</b><span>Numbers, history and the reader score. Rate it out of 10.</span></a><a class="mlink" href="/fitdrive/"><span class="k">FitDrive</span><b>Shopping for a 4Runner?</b><span>See which cars fit your needs and budget, with listings near you.</span></a></div></section>
@@ -95,6 +96,16 @@
   &copy; 2026 Carveyance — For the love of the drive.
   <div class="fl"><a href="/fitdrive/">FitDrive</a> &middot; <a href="/fitdrive/guides/">Buyer's Guides</a> &middot; <a href="/cars/">The Car Index</a> &middot; <a href="/events/">Events</a> &middot; <a href="/paddock/">The Paddock</a> &middot; <a href="/lot/">The Lot</a> &middot; <a href="/advertise/">Advertise &amp; Partner</a></div>
 </footer>
-<script src="/assets/js/cv-menu.js" defer></script>
+<script src="/assets/js/cv-menu.js" defer></script><script src="/assets/js/cv-markets.js" defer></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var s = document.getElementById("for-sale"), M = window.CVMarkets;
+  if (!s || !M) return;
+  var d = s.dataset;
+  s.querySelector(".mkts").innerHTML = M.html(d.q, d.make, { year: +d.year || 0, list: d.list || "", model: d.model || "", cargurus: d.cargurus || "" });
+  s.hidden = false;
+  [].forEach.call(document.querySelectorAll(".gsalelink"), function (a) { a.hidden = false; });
+});
+</script>
 </body>
 </html>

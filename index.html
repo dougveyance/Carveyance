@@ -644,10 +644,14 @@ footer .in{display:flex;flex-direction:column;gap:32px}
   /* Marketplace links come from /assets/js/cv-markets.js, shared with every Car Index page.
      They open each site's own search or listings page. Carveyance doesn't sell cars or earn from these. */
   var MAKES = []; (function () { var seen = {}; CARS.forEach(function (c) { if (c.make && !seen[c.make]) { seen[c.make] = 1; MAKES.push(c.make); } }); })();
-  function marketsHTML(q, label, make) {
+  // c: the top Car Index match, when there is one. Its first model year and "shop" settings
+  // pick the everyday or the collector list; without one, a year typed in the search decides.
+  function marketsHTML(q, label, make, c) {
     var M = window.CVMarkets;
     if (!M) return "";
-    return '<div class="mkts"><h3>See ' + esc(label) + " for sale</h3>" + M.html(q, make || M.makeFrom(q, MAKES)) + "</div>";
+    var sh = (c && c.shop) || {};
+    var o = c ? { year: c.start || 0, list: sh.list || "", model: sh.model || "", cargurus: sh.cargurus || "" } : {};
+    return '<div class="mkts"><h3>See ' + esc(label) + " for sale</h3>" + M.html(q, make || M.makeFrom(q, MAKES), o) + "</div>";
   }
 
   /* ---------- ratings from the Car Index (when they've loaded) ---------- */
@@ -725,7 +729,7 @@ footer .in{display:flex;flex-direction:column;gap:32px}
       (cs.length > 6 ? '<a class="more" href="/cars/?q=' + encodeURIComponent(q) + '">All ' + cs.length + " matching cars &rarr;</a>" : "");
     else h += '<div class="empty">No car in the Car Index matches &ldquo;' + esc(q) + '&rdquo; yet. The marketplace buttons still search for it, and the <a href="/cars/">Car Index</a> grows with every story.</div>';
     if (ss.length) h += '<span class="res-sub">Stories</span><div class="slist">' + ss.slice(0, 6).map(storyItem).join("") + "</div>";
-    h += '</div><div class="res-side">' + marketsHTML(mq, label, top && top.make) +
+    h += '</div><div class="res-side">' + marketsHTML(mq, label, top && top.make, top) +
       '<div class="fdcall"><b>Shopping for an everyday car?</b><p>FitDrive builds a shortlist from real dealer listings near you, with the full monthly cost, and tells you when keeping your car is the smarter move.</p><a href="/fitdrive/">Try FitDrive &rarr;</a></div></div></div>';
     $("resin").innerHTML = h; box.hidden = false;
     loadScoresOnce();

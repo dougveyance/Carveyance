@@ -53,7 +53,7 @@
     <div class="kick">2017–2024 · Fifth generation · 4.0-liter V6</div>
     <h1 class="gtitle">The 4Runner That Refused to Retire</h1>
     <p class="gdek">Toyota built the old 4Runner for 15 years and barely changed it. For a used buyer, that's mostly good news.</p>
-    <p class="gmeta">By Elliot Vance &middot; 4 min read &middot; Updated November 12, 2026 &middot; Chapter 1 of 6</p>
+    <p class="gmeta">By Elliot Vance &middot; 4 min read &middot; Updated November 12, 2026 &middot; Chapter 1 of 6<span class="gsalelink" hidden> &middot; <a href="#for-sale">Find one for sale</a></span></p>
   </div>
 </header>
 
@@ -82,6 +82,7 @@
 <p>The sweet spot is a well-kept 2020–2024 SR5 Premium or TRD Off-Road: the newer screen and safety equipment on the same proven mechanicals. A 2017–2019 makes sense when the price reflects the older cabin and the inspection comes back clean. Pay TRD Pro money only if you'll use the Fox shocks, the skid plate and the extra clearance.</p>
 <p>Buy this 4Runner if your life includes roads that aren't particularly interested in being roads. Look elsewhere if you want quiet, sharp handling and modest fuel bills. It's admirable. It isn't magic.</p>
   </article>
+  <section class="forsale gsale" id="for-sale" aria-labelledby="fs-title" data-q="Toyota 4Runner" data-make="Toyota" data-year="2017" data-cargurus="d290" hidden><div class="kick">Find one for sale</div><h2 class="h2" id="fs-title">Find a 4Runner for sale</h2><p class="fs-sub">Where to look right now, from dealers and private sellers to the enthusiast auctions, and what one is worth.</p><div class="mkts"></div></section>
   <aside class="curio" aria-label="The Carveyance Curiosity"><div class="cmark"><span>The Carveyance</span>Curiosity</div><h2 class="ctitle">The Drawer in the Floor</h2><p>Order a 2017–2024 4Runner with the sliding rear cargo deck and the whole floor of the cargo hold pulls out past the bumper like a drawer. It's rated for 200 kg (440 lb), so it doubles as a workbench, a camp kitchen or a bench for 2 at the trailhead. It's the kind of option nobody notices on a window sticker and everybody uses at a campsite.</p></aside>
   <div class="gpn"><a class="p" href="/fitdrive/guides/toyota-4runner/"><span>Back to</span><b>The 4Runner guide</b></a><a class="nx" href="/fitdrive/guides/toyota-4runner/2025-2026-turbo/"><span>Next chapter</span><b>Old Boots, New Brain</b></a></div>
   <section class="gmore"><h2 class="h2">Keep going</h2><div class="mgrid2"><a class="mlink" href="/cars/toyota-4runner-n280/"><span class="k">The Car Index &middot; 2010–2024</span><b>Toyota 4Runner (N280)</b><span>Numbers, history and the reader score. Rate it out of 10.</span></a><a class="mlink" href="/cars/toyota-4runner-n500/"><span class="k">The Car Index &middot; 2025–present</span><b>Toyota 4Runner (N500)</b><span>Numbers, history and the reader score. Rate it out of 10.</span></a><a class="mlink" href="/fitdrive/"><span class="k">FitDrive</span><b>Shopping for a 4Runner?</b><span>See which cars fit your needs and budget, with listings near you.</span></a></div></section>
@@ -93,6 +94,16 @@
   &copy; 2026 Carveyance — For the love of the drive.
   <div class="fl"><a href="/fitdrive/">FitDrive</a> &middot; <a href="/fitdrive/guides/">Buyer's Guides</a> &middot; <a href="/cars/">The Car Index</a> &middot; <a href="/events/">Events</a> &middot; <a href="/paddock/">The Paddock</a> &middot; <a href="/lot/">The Lot</a> &middot; <a href="/advertise/">Advertise &amp; Partner</a></div>
 </footer>
-<script src="/assets/js/cv-menu.js" defer></script>
+<script src="/assets/js/cv-menu.js" defer></script><script src="/assets/js/cv-markets.js" defer></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var s = document.getElementById("for-sale"), M = window.CVMarkets;
+  if (!s || !M) return;
+  var d = s.dataset;
+  s.querySelector(".mkts").innerHTML = M.html(d.q, d.make, { year: +d.year || 0, list: d.list || "", model: d.model || "", cargurus: d.cargurus || "" });
+  s.hidden = false;
+  [].forEach.call(document.querySelectorAll(".gsalelink"), function (a) { a.hidden = false; });
+});
+</script>
 </body>
 </html>

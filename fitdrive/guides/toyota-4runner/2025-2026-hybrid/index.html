@@ -53,7 +53,7 @@
     <div class="kick">2025–2026 · i-FORCE MAX hybrid</div>
     <h1 class="gtitle">The Hybrid That Came to Pull</h1>
     <p class="gdek">465 lb-ft, a small battery and no plug. The hybrid 4Runner is built to haul and climb, and it saves only a little fuel along the way.</p>
-    <p class="gmeta">By Elliot Vance &middot; 3 min read &middot; Updated November 12, 2026 &middot; Chapter 3 of 6</p>
+    <p class="gmeta">By Elliot Vance &middot; 3 min read &middot; Updated November 12, 2026 &middot; Chapter 3 of 6<span class="gsalelink" hidden> &middot; <a href="#for-sale">Find one for sale</a></span></p>
   </div>
 </header>
 
@@ -79,6 +79,7 @@
 <h2 id="the-verdict">The verdict</h2>
 <p>The hybrid is for buyers who want the strongest 4Runner, need a hybrid-only grade, or tow and climb often. It isn't automatically the value pick or the economy pick. The regular turbo is the sensible alternative, and the old V6 is a different purchase entirely.</p>
   </article>
+  <section class="forsale gsale" id="for-sale" aria-labelledby="fs-title" data-q="Toyota 4Runner" data-make="Toyota" data-year="2017" data-cargurus="d290" hidden><div class="kick">Find one for sale</div><h2 class="h2" id="fs-title">Find a 4Runner for sale</h2><p class="fs-sub">Where to look right now, from dealers and private sellers to the enthusiast auctions, and what one is worth.</p><div class="mkts"></div></section>
   <aside class="curio" aria-label="The Carveyance Curiosity"><div class="cmark"><span>The Carveyance</span>Curiosity</div><h2 class="ctitle">The Speaker That Leaves With You</h2><p>Tucked behind the touchscreen on many 2025–2026 4Runners is a JBL Flex, a real portable Bluetooth speaker docked in the dash. Press a button and it pops out, ready for the campsite, the tailgate or the beach, with up to 6 hours of battery, and you can charge it away from the truck. It comes on the Limited, Platinum, TRD Pro and Trailhunter, and with the Premium package on the TRD Sport and TRD Off-Road, so every hybrid-only grade has one. Just remember to put it back before you drive off.</p></aside>
   <div class="gpn"><a class="p" href="/fitdrive/guides/toyota-4runner/2025-2026-turbo/"><span>Previous chapter</span><b>Old Boots, New Brain</b></a><a class="nx" href="/fitdrive/guides/toyota-4runner/trims/"><span>Next chapter</span><b>How Much Trail Do You Actually Need?</b></a></div>
   <section class="gmore"><h2 class="h2">Keep going</h2><div class="mgrid2"><a class="mlink" href="/cars/toyota-4runner-n280/"><span class="k">The Car Index &middot; 2010–2024</span><b>Toyota 4Runner (N280)</b><span>Numbers, history and the reader score. Rate it out of 10.</span></a><a class="mlink" href="/cars/toyota-4runner-n500/"><span class="k">The Car Index &middot; 2025–present</span><b>Toyota 4Runner (N500)</b><span>Numbers, history and the reader score. Rate it out of 10.</span></a><a class="mlink" href="/fitdrive/"><span class="k">FitDrive</span><b>Shopping for a 4Runner?</b><span>See which cars fit your needs and budget, with listings near you.</span></a></div></section>
@@ -90,6 +91,16 @@
   &copy; 2026 Carveyance — For the love of the drive.
   <div class="fl"><a href="/fitdrive/">FitDrive</a> &middot; <a href="/fitdrive/guides/">Buyer's Guides</a> &middot; <a href="/cars/">The Car Index</a> &middot; <a href="/events/">Events</a> &middot; <a href="/paddock/">The Paddock</a> &middot; <a href="/lot/">The Lot</a> &middot; <a href="/advertise/">Advertise &amp; Partner</a></div>
 </footer>
-<script src="/assets/js/cv-menu.js" defer></script>
+<script src="/assets/js/cv-menu.js" defer></script><script src="/assets/js/cv-markets.js" defer></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var s = document.getElementById("for-sale"), M = window.CVMarkets;
+  if (!s || !M) return;
+  var d = s.dataset;
+  s.querySelector(".mkts").innerHTML = M.html(d.q, d.make, { year: +d.year || 0, list: d.list || "", model: d.model || "", cargurus: d.cargurus || "" });
+  s.hidden = false;
+  [].forEach.call(document.querySelectorAll(".gsalelink"), function (a) { a.hidden = false; });
+});
+</script>
 </body>
 </html>

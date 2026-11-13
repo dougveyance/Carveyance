@@ -1086,6 +1086,7 @@ footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
 
   function renderStories(car) {
     var ci = matchCarIndex(car); S.ci = ci[0] || null;
+    if (S.ci && S.ci.shop) saleButtons(car);
     if (S.ci) show("aboutsec", false); else renderAbout(car);
     var arts = matchArticles(car, ci), strong = arts.filter(function (x) { return x.strong; }), weak = arts.filter(function (x) { return !x.strong; });
     var html = "";
@@ -1131,10 +1132,18 @@ footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
       : "Cars like this one listed by dealers near you, then a search on every major site.";
     $("#zipform").hidden = !!classic || !car.year_start;
     $("#listings").innerHTML = "";
-    $("#mkts").innerHTML = window.CVMarkets ? window.CVMarkets.html(phrase, car.make) : "";
+    saleButtons(car);
     var z = load("cv-snap-zip");
     if (z && z.zip) { $("#zip").value = z.zip; $("#dist").value = z.dist || "100"; }
     if (!classic && car.year_start && z && z.zip) findCars();
+  }
+  // The "for sale" buttons: the everyday list for cars under 25 years old, the collector list for
+  // older ones. A matching Car Index page can override that and add a CarGurus link ("shop" in cars.js).
+  function saleButtons(car) {
+    if (!window.CVMarkets) { $("#mkts").innerHTML = ""; return; }
+    var sh = (S.ci && S.ci.shop) || {};
+    $("#mkts").innerHTML = window.CVMarkets.html(car.search_phrase || title(car), car.listing_make || car.make,
+      { year: car.year_start || 0, list: sh.list || "", model: sh.model || car.listing_model || car.model || "", cargurus: sh.cargurus || "" });
   }
   $("#zipform").addEventListener("submit", function (e) { e.preventDefault(); findCars(true); });
   function findCars(fromForm) {

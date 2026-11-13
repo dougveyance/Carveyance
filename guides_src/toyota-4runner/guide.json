@@ -8,6 +8,7 @@
   "updated": "2026-11-12",
   "cars": ["toyota-4runner-n280", "toyota-4runner-n500"],
   "fitdrive": "4runner",
+  "shop": {"cargurus": "d290"},
   "chapters": ["2017-2024-v6", "2025-2026-turbo", "2025-2026-hybrid", "trims", "used-inspection", "v6-or-turbo"],
   "series": {
     "v6": {"name": "2017–2024 4.0-liter V6", "color": "#9aa5b1"},

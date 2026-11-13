@@ -53,7 +53,7 @@
     <div class="kick">2017–2026 · Old versus new</div>
     <h1 class="gtitle">V6 or Turbo? The 4Runner Fork in the Road</h1>
     <p class="gdek">Same name, same square shoulders, very different trucks. How the old V6 compares with the new turbo and hybrid on power, fuel and what you'll pay to run one.</p>
-    <p class="gmeta">By Elliot Vance &middot; 4 min read &middot; Updated November 12, 2026 &middot; Chapter 6 of 6</p>
+    <p class="gmeta">By Elliot Vance &middot; 4 min read &middot; Updated November 12, 2026 &middot; Chapter 6 of 6<span class="gsalelink" hidden> &middot; <a href="#for-sale">Find one for sale</a></span></p>
   </div>
 </header>
 
@@ -83,6 +83,7 @@
 <ul><li><strong>Choose the V6</strong> for the lowest price, simple and proven mechanicals, and rugged familiarity.</li><li><strong>Choose the turbo</strong> for everyday drivability and a modern cabin, provided the price works.</li><li><strong>Choose the hybrid</strong> for the torque, or for the grades that only come with it, not for Prius-style fuel bills.</li></ul>
 <p>Each choice can be the right one. None of them is right for everyone.</p>
   </article>
+  <section class="forsale gsale" id="for-sale" aria-labelledby="fs-title" data-q="Toyota 4Runner" data-make="Toyota" data-year="2017" data-cargurus="d290" hidden><div class="kick">Find one for sale</div><h2 class="h2" id="fs-title">Find a 4Runner for sale</h2><p class="fs-sub">Where to look right now, from dealers and private sellers to the enthusiast auctions, and what one is worth.</p><div class="mkts"></div></section>
   <aside class="curio" aria-label="The Carveyance Curiosity"><div class="cmark"><span>The Carveyance</span>Curiosity</div><h2 class="ctitle">22 Years of the Same V6</h2><p>The 4.0-liter V6 under every 2017–2024 4Runner wasn't new even then. Toyota's 1GR-FE first went into an American-market vehicle in the 2003 4Runner and stayed through the 2024 model year: 22 model years in the same nameplate, the last 15 of them in this generation without any major changes. Along the way it also powered the Tacoma, the Tundra and the FJ Cruiser.</p></aside>
   <div class="gpn"><a class="p" href="/fitdrive/guides/toyota-4runner/used-inspection/"><span>Previous chapter</span><b>Look Under the Legend</b></a><a class="nx" href="/fitdrive/guides/toyota-4runner/"><span>Back to</span><b>The 4Runner guide</b></a></div>
   <section class="gmore"><h2 class="h2">Keep going</h2><div class="mgrid2"><a class="mlink" href="/cars/toyota-4runner-n280/"><span class="k">The Car Index &middot; 2010–2024</span><b>Toyota 4Runner (N280)</b><span>Numbers, history and the reader score. Rate it out of 10.</span></a><a class="mlink" href="/cars/toyota-4runner-n500/"><span class="k">The Car Index &middot; 2025–present</span><b>Toyota 4Runner (N500)</b><span>Numbers, history and the reader score. Rate it out of 10.</span></a><a class="mlink" href="/fitdrive/"><span class="k">FitDrive</span><b>Shopping for a 4Runner?</b><span>See which cars fit your needs and budget, with listings near you.</span></a></div></section>
@@ -94,6 +95,16 @@
   &copy; 2026 Carveyance — For the love of the drive.
   <div class="fl"><a href="/fitdrive/">FitDrive</a> &middot; <a href="/fitdrive/guides/">Buyer's Guides</a> &middot; <a href="/cars/">The Car Index</a> &middot; <a href="/events/">Events</a> &middot; <a href="/paddock/">The Paddock</a> &middot; <a href="/lot/">The Lot</a> &middot; <a href="/advertise/">Advertise &amp; Partner</a></div>
 </footer>
-<script src="/assets/js/cv-menu.js" defer></script>
+<script src="/assets/js/cv-menu.js" defer></script><script src="/assets/js/cv-markets.js" defer></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var s = document.getElementById("for-sale"), M = window.CVMarkets;
+  if (!s || !M) return;
+  var d = s.dataset;
+  s.querySelector(".mkts").innerHTML = M.html(d.q, d.make, { year: +d.year || 0, list: d.list || "", model: d.model || "", cargurus: d.cargurus || "" });
+  s.hidden = false;
+  [].forEach.call(document.querySelectorAll(".gsalelink"), function (a) { a.hidden = false; });
+});
+</script>
 </body>
 </html>

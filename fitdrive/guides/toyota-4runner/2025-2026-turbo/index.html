@@ -53,7 +53,7 @@
     <div class="kick">2025–2026 · Sixth generation · 2.4-liter turbo</div>
     <h1 class="gtitle">Old Boots, New Brain</h1>
     <p class="gdek">The redesigned 4Runner is stronger, thriftier and finally modern inside. It's still a truck, and Toyota made sure of it.</p>
-    <p class="gmeta">By Elliot Vance &middot; 4 min read &middot; Updated November 12, 2026 &middot; Chapter 2 of 6</p>
+    <p class="gmeta">By Elliot Vance &middot; 4 min read &middot; Updated November 12, 2026 &middot; Chapter 2 of 6<span class="gsalelink" hidden> &middot; <a href="#for-sale">Find one for sale</a></span></p>
   </div>
 </header>
 
@@ -83,6 +83,7 @@
 <h2 id="the-verdict">The verdict</h2>
 <p>The sixth-generation 4Runner is the better all-round tool: stronger where it counts, more efficient, safer and finally modern inside. It will make a rough trail feel ordinary. It will never make an expressway feel like a luxury sedan. If that's the deal you wanted, Toyota updated its most stubborn SUV without sanding off the stubbornness.</p>
   </article>
+  <section class="forsale gsale" id="for-sale" aria-labelledby="fs-title" data-q="Toyota 4Runner" data-make="Toyota" data-year="2017" data-cargurus="d290" hidden><div class="kick">Find one for sale</div><h2 class="h2" id="fs-title">Find a 4Runner for sale</h2><p class="fs-sub">Where to look right now, from dealers and private sellers to the enthusiast auctions, and what one is worth.</p><div class="mkts"></div></section>
   <aside class="curio" aria-label="The Carveyance Curiosity"><div class="cmark"><span>The Carveyance</span>Curiosity</div><h2 class="ctitle">The Window That Almost Didn't Make It</h2><p>Every 4Runner since the first one in 1984 has had a rear window that rolls down into the tailgate. (The original also had a fiberglass top over the cargo area that came off.) For 2025, Toyota seriously considered dropping the window because it adds weight and complexity. The American side of the team pushed back, telling the engineers in Japan that "the roll down window is the soul of the 4Runner." So they went through the truck part by part, trimming weight elsewhere to keep it. Dog owners, surfers and anyone who has slid lumber through the back can relax.</p></aside>
   <div class="gpn"><a class="p" href="/fitdrive/guides/toyota-4runner/2017-2024-v6/"><span>Previous chapter</span><b>The 4Runner That Refused to Retire</b></a><a class="nx" href="/fitdrive/guides/toyota-4runner/2025-2026-hybrid/"><span>Next chapter</span><b>The Hybrid That Came to Pull</b></a></div>
   <section class="gmore"><h2 class="h2">Keep going</h2><div class="mgrid2"><a class="mlink" href="/cars/toyota-4runner-n280/"><span class="k">The Car Index &middot; 2010–2024</span><b>Toyota 4Runner (N280)</b><span>Numbers, history and the reader score. Rate it out of 10.</span></a><a class="mlink" href="/cars/toyota-4runner-n500/"><span class="k">The Car Index &middot; 2025–present</span><b>Toyota 4Runner (N500)</b><span>Numbers, history and the reader score. Rate it out of 10.</span></a><a class="mlink" href="/fitdrive/"><span class="k">FitDrive</span><b>Shopping for a 4Runner?</b><span>See which cars fit your needs and budget, with listings near you.</span></a></div></section>
@@ -94,6 +95,16 @@
   &copy; 2026 Carveyance — For the love of the drive.
   <div class="fl"><a href="/fitdrive/">FitDrive</a> &middot; <a href="/fitdrive/guides/">Buyer's Guides</a> &middot; <a href="/cars/">The Car Index</a> &middot; <a href="/events/">Events</a> &middot; <a href="/paddock/">The Paddock</a> &middot; <a href="/lot/">The Lot</a> &middot; <a href="/advertise/">Advertise &amp; Partner</a></div>
 </footer>
-<script src="/assets/js/cv-menu.js" defer></script>
+<script src="/assets/js/cv-menu.js" defer></script><script src="/assets/js/cv-markets.js" defer></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var s = document.getElementById("for-sale"), M = window.CVMarkets;
+  if (!s || !M) return;
+  var d = s.dataset;
+  s.querySelector(".mkts").innerHTML = M.html(d.q, d.make, { year: +d.year || 0, list: d.list || "", model: d.model || "", cargurus: d.cargurus || "" });
+  s.hidden = false;
+  [].forEach.call(document.querySelectorAll(".gsalelink"), function (a) { a.hidden = false; });
+});
+</script>
 </body>
 </html>

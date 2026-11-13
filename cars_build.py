@@ -452,6 +452,11 @@ def car_page(c, cars, by_id, arts, photos):
                       f'<h2>{esc(gd.get("title") or label)}</h2><p>{esc(gd.get("blurb", ""))}</p></div>'
                       f'<a class="btn hot" href="{esc(gd["url"])}">{label}</a></div></section>')
 
+    # what the "for sale" buttons need: the first model year, and the "shop" settings in cars.js
+    shop = c.get("shop") or {}
+    sale_attrs = (f' data-start="{esc(str(c["start"]))}"' if c.get("start") else "") + "".join(
+        f' data-{k}="{esc(str(shop[k]))}"' for k in ("list", "model", "cargurus") if shop.get(k))
+
     page = f"""{head(title, desc, url, og)}
 <script type="application/ld+json">{json_ld(c, url, photo)}</script>
 </head>
@@ -459,7 +464,7 @@ def car_page(c, cars, by_id, arts, photos):
 
 {nav()}
 
-<header class="hero">
+<header class="hero"{sale_attrs}>
   <div class="wrap">
     <div>
       <figure class="hphoto">{himg}</figure>
@@ -704,6 +709,7 @@ def main():
                      "dates": sorted(set(dates), reverse=True),
                      "drive": c.get("drive", ""), "gearbox": c.get("gearbox", ""), "specsFor": c.get("specsFor", ""),
                      "guide": ({k: (c.get("guide") or {}).get(k, "") for k in ("url", "title")} if (c.get("guide") or {}).get("url") else None),
+                     "shop": ({k: v for k, v in (c.get("shop") or {}).items() if k in ("list", "model", "cargurus") and v} or None),
                      "hp": (c.get("power") or {}).get("hp"), "kg": (c.get("weight") or {}).get("kg"), "kgNote": (c.get("weight") or {}).get("note", ""),
                      "z60": ({k: (c.get("zero60") or {}).get(k) for k in ("sec", "kind", "note")} if (c.get("zero60") or {}).get("sec") else None),
                      "top": ({k: (c.get("top") or {}).get(k) for k in ("mph", "kind", "note")} if (c.get("top") or {}).get("mph") else None),

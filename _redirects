@@ -13,6 +13,9 @@
 /articles/category/Opinions /categories/opinions/ 301
 /articles/category/Reviews /categories/reviews/ 301
 /articles/category/Short%20Stories /categories/short-stories/ 301
+# The Dodge Stealth no longer has its own Car Index page; its twin, the 3000GT, does
+/cars/dodge-stealth /cars/mitsubishi-3000gt/ 301
+/cars/dodge-stealth/ /cars/mitsubishi-3000gt/ 301
 /articles/category/* /articles/ 301
 /articles/the-corner-office-has-a-sliding-door /articles/corner-office-has-a-sliding-door/ 301
 /articles/the-corner-office-has-a-sliding-door/ /articles/corner-office-has-a-sliding-door/ 301

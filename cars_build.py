@@ -449,8 +449,12 @@ def car_page(c, cars, by_id, arts, photos):
 
     # the FitDrive buyer's guide for this car, if there is one ("guide" in cars.js)
     gd = c.get("guide") or {}
-    guide_html = ""
+    guide_html = hero_guide = ""
     if gd.get("url"):
+        # also a link at the top of the page, so the guide is seen without scrolling
+        hero_guide = (f'<a class="hguide" href="{esc(gd["url"])}"><span class="k">Buyer\u2019s guide</span>'
+                      f'<b>{esc(gd.get("title") or "Read the buyer’s guide")}</b>'
+                      f'<span class="d">Which one to buy, the charts and the used checklist &rarr;</span></a>')
         label = "Read the buyer\u2019s guide"
         guide_html = (f'<section class="guideband"><div class="wrap"><div><div class="kick">Buying one?</div>'
                       f'<h2>{esc(gd.get("title") or label)}</h2><p>{esc(gd.get("blurb", ""))}</p></div>'
@@ -484,7 +488,7 @@ def car_page(c, cars, by_id, arts, photos):
         <div class="meta"><b>Community score</b>Loading&hellip;</div>
         <a class="btn hot" href="#verdict">Rate it</a>
       </div>
-      <p class="quick">{esc(c.get("quick", ""))}</p>
+      <p class="quick">{esc(c.get("quick", ""))}</p>{hero_guide}
       <div class="tags">{chips}</div>
       <p class="maker">Made by {maker_html}</p>
     </div>

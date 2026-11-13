@@ -39,15 +39,15 @@
     }
   },
   "photos": {
-    "hub-hero": {"want": "A 2025–2026 4Runner and a 2017–2024 4Runner together, or a 2025–2026 4Runner outside", "alt": "Toyota 4Runner"},
-    "ch1-hero": {"want": "2017–2024 4Runner, outside, front three-quarter", "alt": "A fifth-generation Toyota 4Runner"},
-    "ch1-cabin": {"want": "2020–2024 4Runner dashboard with the 8-inch screen", "alt": "The dashboard of a 2020–2024 Toyota 4Runner"},
-    "ch2-hero": {"want": "2025–2026 4Runner, outside, front three-quarter", "alt": "A sixth-generation Toyota 4Runner"},
-    "ch2-cabin": {"want": "2025–2026 4Runner dashboard with the 14-inch screen", "alt": "The dashboard of a 2025–2026 Toyota 4Runner"},
-    "ch3-hero": {"want": "2025–2026 4Runner Trailhunter or TRD Pro (hybrid-only grades), outside", "alt": "A Toyota 4Runner with the i-FORCE MAX hybrid"},
-    "ch4-hero": {"want": "Any 4Runner TRD Pro, outside", "alt": "A Toyota 4Runner TRD Pro"},
-    "ch4-trailhunter": {"want": "2025–2026 4Runner Trailhunter, roof rack and high air intake visible", "alt": "A Toyota 4Runner Trailhunter"},
-    "ch5-hero": {"want": "Underneath a 4Runner on a lift: frame, differential, transfer case", "alt": "The underside of a Toyota 4Runner on a lift"},
-    "ch6-hero": {"want": "An old and a new 4Runner side by side", "alt": "A fifth-generation and a sixth-generation Toyota 4Runner"}
+    "hub-hero": {"want": "A 2025–2026 4Runner and a 2017–2024 4Runner together, or a 2025–2026 4Runner outside", "alt": "A fifth-generation and a sixth-generation Toyota 4Runner TRD Pro, facing each other", "caption": "Two generations of TRD Pro: a 2023 on the left, a 2025 on the right", "credit": "Toyota (right)"},
+    "ch1-hero": {"want": "2017–2024 4Runner, outside, front three-quarter", "alt": "An orange fifth-generation Toyota 4Runner TRD Pro", "credit": "MotorWeek"},
+    "ch1-cabin": {"want": "2020–2024 4Runner dashboard with the 8-inch screen", "alt": "The dashboard of a 2024 Toyota 4Runner, with the 8-inch touchscreen", "credit": "U.S. News & World Report"},
+    "ch2-hero": {"want": "2025–2026 4Runner, outside, front three-quarter", "alt": "A blue 2025 Toyota 4Runner Limited", "credit": "Toyota"},
+    "ch2-cabin": {"want": "2025–2026 4Runner dashboard with the 14-inch screen", "alt": "The dashboard of a 2025 Toyota 4Runner, with the 14-inch touchscreen"},
+    "ch3-hero": {"want": "2025–2026 4Runner Trailhunter or TRD Pro (hybrid-only grades), outside", "alt": "A 2025 Toyota 4Runner TRD Pro, which comes only as a hybrid", "credit": "Toyota"},
+    "ch4-hero": {"want": "Any 4Runner TRD Pro, outside", "alt": "A white fifth-generation Toyota 4Runner TRD Pro"},
+    "ch4-trailhunter": {"want": "2025–2026 4Runner Trailhunter, roof rack and high air intake visible", "alt": "A 2025 Toyota 4Runner Trailhunter, with its roof rack and the high air intake beside the windshield", "credit": "Toyota"},
+    "ch5-hero": {"want": "Underneath a 4Runner on a lift: frame, differential, transfer case", "alt": "The underside of a Toyota 4Runner on a lift", "credit": "4Runner6G.com"},
+    "ch6-hero": {"want": "An old and a new 4Runner side by side", "alt": "A fifth-generation Toyota 4Runner beside a sixth-generation 4Runner", "caption": "Old and new: a fifth-generation 4Runner with a lift kit, and a 2025 Limited", "credit": "Toyota (right)"}
   }
 }

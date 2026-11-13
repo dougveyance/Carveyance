@@ -5784,7 +5784,11 @@ const CARS_INDEX = [
    "id": "toyota-4runner-n500",
    "name": "Toyota 4Runner (N500)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-4runner-n280.jpg",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-4runner-n500",
@@ -5833,6 +5837,10 @@ const CARS_INDEX = [
    "name": "Toyota 4Runner (N280)"
   },
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-4runner-n500.jpg",
+   "pos": "",
+   "fit": ""
+  }
  }
 ];

@@ -1303,12 +1303,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://carveyance.com/events/bug-in-49-2026-11/</loc>
-    <lastmod>2026-11-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://carveyance.com/events/caffeine-and-classics-at-streetside-classics-fort/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -1376,6 +1370,12 @@
   </url>
   <url>
     <loc>https://carveyance.com/events/cannonball-run-reunion-2026-11/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/events/carcadia-route-66-arcadia/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1663,6 +1663,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://carveyance.com/events/cars-coffee-middlebury-middlebury/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://carveyance.com/events/cars-coffee-newburyport-newburyport/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -1706,6 +1712,12 @@
   </url>
   <url>
     <loc>https://carveyance.com/events/cars-coffee-vermont-south-burlington/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/events/cars-coffee-waitsfield-waitsfield/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1898,12 +1910,6 @@
   </url>
   <url>
     <loc>https://carveyance.com/events/columbus-cars-coffee-columbus/</loc>
-    <lastmod>2026-11-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://carveyance.com/events/concours-at-wynn-las-vegas-2026-10/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2197,6 +2203,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://carveyance.com/events/fnr-cars-and-coffee-gallup/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://carveyance.com/events/foothill-fridays-sylmar/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -2383,6 +2395,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://carveyance.com/events/granada-hills-cruz-in-granada-hills/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://carveyance.com/events/grand-national-roadster-show-2027-02/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -2426,12 +2444,6 @@
   </url>
   <url>
     <loc>https://carveyance.com/events/hilltop-cars-coffee-davenport/</loc>
-    <lastmod>2026-11-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://carveyance.com/events/hilton-head-island-concours-d-elegance-motoring-festival-2026-10/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2611,6 +2623,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://carveyance.com/events/killer-rides-christmas-show-toy-drive-2026-12/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://carveyance.com/events/king-of-the-hammers-2027-01/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -2642,12 +2660,6 @@
   </url>
   <url>
     <loc>https://carveyance.com/events/la-jolla-concours-d-elegance-2027-04/</loc>
-    <lastmod>2026-11-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://carveyance.com/events/lake-erie-covered-bridge-roadrally-2026-11/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2714,6 +2726,24 @@
   </url>
   <url>
     <loc>https://carveyance.com/events/lonestar-round-up-2027-04/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/events/long-beach-hi-performance-swap-meet-2026-12/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/events/long-beach-hi-performance-swap-meet-2027-01/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/events/long-beach-hi-performance-swap-meet-2027-02/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2815,7 +2845,25 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://carveyance.com/events/mecum-glendale-2027-03/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/events/mecum-houston-2027-04/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://carveyance.com/events/mecum-kissimmee-2027-01/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/events/mecum-las-vegas-2026-11/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2849,12 +2897,6 @@
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://carveyance.com/events/middle-georgia-road-rally-number-2-2026-11/</loc>
-    <lastmod>2026-11-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carveyance.com/events/midweek-machines-eagle-rock/</loc>
@@ -2918,12 +2960,6 @@
   </url>
   <url>
     <loc>https://carveyance.com/events/mooneyes-christmas-party-show-drag-2026-12/</loc>
-    <lastmod>2026-11-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://carveyance.com/events/mopar-nhra-las-vegas-nationals-2026-10/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3061,7 +3097,37 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://carveyance.com/events/nhra-4-wide-nationals-2027-04/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/events/nhra-arizona-nationals-2027-02/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/events/nhra-gatornationals-2027-03/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/events/nhra-new-england-nationals-2027-06/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://carveyance.com/events/nhra-potomac-nationals-2027-05/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/events/nhra-southern-nationals-2027-04/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3074,12 +3140,6 @@
   </url>
   <url>
     <loc>https://carveyance.com/events/nhra-winternationals-season-opener-2027-02/</loc>
-    <lastmod>2026-11-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://carveyance.com/events/night-at-the-museum-cars-after-dark-2026-11/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3158,12 +3218,6 @@
   </url>
   <url>
     <loc>https://carveyance.com/events/omaha-world-of-wheels-2027-03/</loc>
-    <lastmod>2026-11-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://carveyance.com/events/onlybulls-open-wheel-showdown-2026-11/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3266,6 +3320,18 @@
   </url>
   <url>
     <loc>https://carveyance.com/events/pittsburgh-vintage-grand-prix-schenley-park-race-weekend-2027-07/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/events/pittsburgh-world-of-wheels-2027-01/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/events/plastic-fantastic-car-show-2027-05/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3523,18 +3589,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://carveyance.com/events/sema-fest-sema-show-public-day-concert-2026-11/</loc>
-    <lastmod>2026-11-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://carveyance.com/events/sema-show-2026-11/</loc>
-    <lastmod>2026-11-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://carveyance.com/events/shinefest-at-griot-s-garage-2027-05/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -3625,6 +3679,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://carveyance.com/events/speed-ventures-buttonwillow-raceway-classic-2026-12/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://carveyance.com/events/spring-carlisle-collector-car-flea-market-corral-auction-2027-04/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -3644,6 +3704,12 @@
   </url>
   <url>
     <loc>https://carveyance.com/events/state-of-speed-cars-and-coffee-gardena/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/events/summit-racing-equipment-nhra-nationals-2027-06/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3727,12 +3793,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://carveyance.com/events/the-crowe-circus-road-rally-2026-11/</loc>
-    <lastmod>2026-11-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://carveyance.com/events/the-long-way-home-roadrally-2027-01/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -3775,12 +3835,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://carveyance.com/events/toys-for-tots-cars-coffee-lafayette-2026-11/</loc>
-    <lastmod>2026-11-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://carveyance.com/events/transatlantic-lines-american-cars-by-italian-masters-2026-04/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -3793,22 +3847,16 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://carveyance.com/events/tustin-veterans-day-celebration-car-show-2026-11/</loc>
-    <lastmod>2026-11-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://carveyance.com/events/unstock-2026-11/</loc>
-    <lastmod>2026-11-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://carveyance.com/events/utah/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/events/vae-car-meet-island-ice-cream-williston/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carveyance.com/events/valley-cruise-night-burbank/</loc>
@@ -3889,6 +3937,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://carveyance.com/events/werks-reunion-amelia-island-2027-03/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://carveyance.com/events/west-coast-kustoms-cruisin-nationals-2027-05/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -3925,12 +3979,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://carveyance.com/events/where-s-your-spirit-road-rally-2026-10/</loc>
-    <lastmod>2026-11-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://carveyance.com/events/wimberley-coffee-cars-wimberley/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -3941,12 +3989,6 @@
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://carveyance.com/events/witches-rallye-2026-11/</loc>
-    <lastmod>2026-11-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carveyance.com/events/woodside-soapbox-derby-2027-05/</loc>
@@ -5095,18 +5137,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://carveyance.com/cars/toyota-4runner-n280/</loc>
-    <lastmod>2026-11-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://carveyance.com/cars/toyota-4runner-n500/</loc>
-    <lastmod>2026-11-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://carveyance.com/cars/tvr-cerbera/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -5195,53 +5225,5 @@
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://carveyance.com/fitdrive/guides/</loc>
-    <lastmod>2026-11-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://carveyance.com/fitdrive/guides/toyota-4runner/2017-2024-v6/</loc>
-    <lastmod>2026-11-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://carveyance.com/fitdrive/guides/toyota-4runner/2025-2026-hybrid/</loc>
-    <lastmod>2026-11-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://carveyance.com/fitdrive/guides/toyota-4runner/2025-2026-turbo/</loc>
-    <lastmod>2026-11-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://carveyance.com/fitdrive/guides/toyota-4runner/</loc>
-    <lastmod>2026-11-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://carveyance.com/fitdrive/guides/toyota-4runner/trims/</loc>
-    <lastmod>2026-11-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://carveyance.com/fitdrive/guides/toyota-4runner/used-inspection/</loc>
-    <lastmod>2026-11-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://carveyance.com/fitdrive/guides/toyota-4runner/v6-or-turbo/</loc>
-    <lastmod>2026-11-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
 </urlset>

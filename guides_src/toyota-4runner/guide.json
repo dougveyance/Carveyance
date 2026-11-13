@@ -48,6 +48,8 @@
     "ch4-hero": {"want": "Any 4Runner TRD Pro, outside", "alt": "A white fifth-generation Toyota 4Runner TRD Pro", "credit": "Wheelz.com"},
     "ch4-trailhunter": {"want": "2025–2026 4Runner Trailhunter, roof rack and high air intake visible", "alt": "A 2025 Toyota 4Runner Trailhunter, with its roof rack and the high air intake beside the windshield", "credit": "Toyota"},
     "ch5-hero": {"want": "Underneath a 4Runner on a lift: frame, differential, transfer case", "alt": "The underside of a Toyota 4Runner on a lift"},
-    "ch6-hero": {"want": "An old and a new 4Runner side by side", "alt": "A 2017 Toyota 4Runner beside a 2025 4Runner, pointing in opposite directions", "caption": "The fork in the road: a 2017 TRD Off-Road and a 2025 Limited", "credit": "Toyota"}
+    "ch6-hero": {"want": "An old and a new 4Runner side by side", "alt": "A 2017 Toyota 4Runner beside a 2025 4Runner, pointing in opposite directions", "caption": "The fork in the road: a 2017 TRD Off-Road and a 2025 Limited", "credit": "Toyota"},
+    "ch1-curio": {"want": "The 2017–2024 sliding rear cargo deck, pulled out", "alt": "The sliding rear cargo deck of a fifth-generation Toyota 4Runner, rolled out over the bumper", "caption": "The sliding deck, rolled out over the bumper", "credit": "4runners.com"},
+    "ch2-curio": {"want": "A 4Runner with its rear window rolled down", "alt": "A golden retriever puppy looking out of the open rear window of a fifth-generation Toyota 4Runner TRD Pro", "caption": "Some passengers appreciate the window more than others", "credit": "Angelo Mauricio Guzman Bressan"}
   }
 }

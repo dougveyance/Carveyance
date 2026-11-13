@@ -98,6 +98,9 @@
 .curio .ctitle{position:relative;font-family:'DM Serif Display',serif;font-weight:400;font-size:28px;line-height:1.15;margin:16px 0 12px}
 .curio p{position:relative;font-size:16.5px;line-height:1.7;color:rgba(255,255,255,.82);margin-bottom:12px}
 .curio p:last-child{margin-bottom:0}
+.curio .gfig{position:relative;margin:4px 0 18px}
+.curio .gfig img{border-radius:8px}
+.curio .gfig figcaption{color:rgba(255,255,255,.6)}
 .swatches{position:relative;list-style:none;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px 10px;margin:16px 0 14px}
 .swatches li{display:flex;flex-direction:column;gap:4px}
 .swatches i{display:block;height:34px;border-radius:6px;border:1px solid rgba(255,255,255,.18)}

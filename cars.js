@@ -6333,7 +6333,7 @@ const CARS = [
       "A 2014 facelift sharpened the nose, the TRD Pro arrived for 2015 with Fox shocks and a paint color of its own each year, and 2020 finally brought an 8-inch touchscreen with Apple CarPlay and Android Auto, plus Toyota Safety Sense P on every grade. By the end it was one of the last body-on-frame family SUVs on the market, slow and thirsty by modern standards and loved for exactly the qualities that made it old."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota 4Runner"
     ],
@@ -6388,7 +6388,7 @@ const CARS = [
       "Toyota offers 9 grades, from the SR5 to the luxury Platinum and the overlanding Trailhunter, with the hybrid standard on the Platinum, TRD Pro and Trailhunter. The cabin finally caught up, with up to a 14-inch touchscreen and Toyota Safety Sense 3.0 as standard. And after a debate inside Toyota about its weight, the power rear window survived. A 4Runner's back glass has rolled down since the first one in 1984."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota 4Runner"
     ],

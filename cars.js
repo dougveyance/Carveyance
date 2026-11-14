@@ -6340,5 +6340,305 @@ const CARS = [
       "title": "The Toyota 4Runner Buyer's Guide",
       "blurb": "Which year, which engine and which trim to buy, plus the used-truck checklist and the recalls to check, in 6 chapters."
     }
+  },
+  {
+    "id": "toyota-gr-supra-a90",
+    "name": "Toyota GR Supra (A90)",
+    "aka": [
+      "Toyota Supra"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota, built by Magna Steyr in Graz, Austria",
+    "country": "Japan",
+    "years": "2020–2026",
+    "start": 2020,
+    "end": 2026,
+    "body": "Two-door coupe",
+    "engine": "3.0-liter turbocharged inline-six (2.0-liter turbo four, 2021–2024)",
+    "drive": "Rear-wheel drive",
+    "gearbox": "8-speed automatic; 6-speed manual from 2023 (3.0 only)",
+    "specsFor": "2021–2026 Toyota GR Supra 3.0 automatic, US market (Toyota figures)",
+    "power": {
+      "hp": 382,
+      "note": "368 lb-ft",
+      "src": "https://pressroom.toyota.com/take-one-last-lap-in-the-toyota-gr-supra-mkv-final-edition/"
+    },
+    "weight": {
+      "kg": 1542,
+      "note": "Curb weight",
+      "src": "https://media.toyota.ca/releases/toyota-gr-supra-races-into-2021-with-more-power-and-first-ever-four-cylinder-turbo-model"
+    },
+    "zero60": {
+      "sec": 3.9,
+      "kind": "claimed",
+      "note": "Maker's claim",
+      "src": "https://pressroom.toyota.com/take-one-last-lap-in-the-toyota-gr-supra-mkv-final-edition/"
+    },
+    "top": {
+      "mph": 155,
+      "kind": "claimed",
+      "note": "Electronically limited",
+      "src": "https://www.kbb.com/car-news/2021-toyota-gr-supra-first-look"
+    },
+    "built": null,
+    "predecessor": {
+      "name": "Toyota Supra (A80)"
+    },
+    "successor": null,
+    "alongside": [
+      {
+        "name": "BMW Z4 (G29)"
+      }
+    ],
+    "quick": "The Supra name's return, built in Austria alongside the BMW Z4 with a BMW turbocharged straight-six. Small, quick and serious, with a 382-hp 3.0 from 2021, a lighter 2.0 for 4 years and, from 2023, a manual.",
+    "story": [
+      "Toyota brought the Supra name back for the 2020 model year after more than 20 years away from American showrooms. The fifth-generation car was developed alongside the BMW Z4 and built by Magna Steyr in Graz, Austria, with a BMW turbocharged 3.0-liter inline-six making 335 hp at launch. For 2021, Toyota raised that to 382 hp and 368 lb-ft, retuned the chassis, and added the 2.0, a lighter 255-hp 4-cylinder version sold through 2024.",
+      "Every early car was an automatic. The 6-speed manual arrived for 2023, on the 3.0 only, and it quickly became the enthusiast's choice. Toyota ended the run with the 2026 MkV Final Edition, limited to 1,300 cars in the US, with larger Brembo brakes, revised suspension and a stiffer body but the same 382 hp. Production ended in spring 2026. Because BMW builds the car, BMW files the Supra's safety recalls in the US."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota GR Supra"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/toyota-gr-supra/",
+      "title": "The Toyota GR Supra Buyer's Guide",
+      "blurb": "Which year, which engine and which gearbox to buy, the 2.0 vs the 3.0, and the used-car checklist with the recalls to check, in 3 chapters."
+    }
+  },
+  {
+    "id": "toyota-mirai-jpd10",
+    "name": "Toyota Mirai (JPD10)",
+    "aka": [],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "2016–2020",
+    "start": 2016,
+    "end": 2020,
+    "body": "Four-door sedan",
+    "engine": "Hydrogen fuel cell with an electric motor",
+    "drive": "Front-wheel drive",
+    "gearbox": "Single-speed",
+    "specsFor": "2017 Toyota Mirai, US market (Toyota figures; the weight is Toyota's figure for the same car)",
+    "power": {
+      "hp": 151,
+      "note": "247 lb-ft",
+      "src": "https://www.kbb.com/toyota/mirai/2017/specs"
+    },
+    "weight": {
+      "kg": 1850,
+      "note": "Curb weight",
+      "src": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/210223M-Mirai-Tech-Spec.pdf"
+    },
+    "zero60": {
+      "sec": 9.0,
+      "kind": "claimed",
+      "note": "Maker's claim",
+      "src": "https://www.kbb.com/toyota/mirai/2017/specs"
+    },
+    "top": {
+      "mph": 111,
+      "kind": "claimed",
+      "note": "Maker's claim",
+      "src": "https://www.kbb.com/toyota/mirai/2017/specs"
+    },
+    "built": null,
+    "predecessor": null,
+    "successor": {
+      "name": "Toyota Mirai (JPD20)",
+      "id": "toyota-mirai-jpd20"
+    },
+    "quick": "Toyota's first hydrogen fuel cell car for sale to the public: a front-drive, 4-seat sedan rated at 312 miles, with styling that advertised the technology loudly. Smooth and quiet, and only as useful as the nearest hydrogen station.",
+    "story": [
+      "The first Mirai went on sale in Japan late in 2014 and in California for the 2016 model year. Compressed hydrogen in 2 carbon-fiber tanks fed a fuel cell stack, which made electricity for a 151-hp electric motor driving the front wheels. The EPA rated it at 312 miles and 67 MPGe, and water was the main thing out of the tailpipe. New buyers got a fuel card worth 3 years or $15,000 of hydrogen.",
+      "It seated 4, and its styling was polarizing on purpose. Early cars needed a fuel cell software update in 2017, which Toyota ran in the US as a customer satisfaction campaign. The car itself proved smooth and quiet, but its usefulness always depended on California's small and fragile network of hydrogen stations, which is why used examples lose value so quickly. It was replaced for 2021 by a larger, rear-drive Mirai."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Mirai"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/toyota-mirai/",
+      "title": "The Toyota Mirai Buyer's Guide",
+      "blurb": "What owning a hydrogen car is really like in 2026, the fuel card question, and the used-car checklist with the recalls to check, in 2 chapters."
+    }
+  },
+  {
+    "id": "toyota-mirai-jpd20",
+    "name": "Toyota Mirai (JPD20)",
+    "aka": [],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "2021–present",
+    "start": 2021,
+    "end": null,
+    "body": "Four-door sedan",
+    "engine": "Hydrogen fuel cell with an electric motor",
+    "drive": "Rear-wheel drive",
+    "gearbox": "Single-speed",
+    "specsFor": "2021 Toyota Mirai XLE, US market (Toyota figures; the 0–60 time is a Motor Trend test)",
+    "power": {
+      "hp": 182,
+      "note": "221 lb-ft",
+      "src": "https://evpulse.com/reviews/2021-toyota-mirai-first-drive-review"
+    },
+    "weight": {
+      "kg": 1930,
+      "note": "Curb weight, XLE",
+      "src": "https://wardsauto.com/test-drives/toyota-doubles-down-fuel-cells-redesigned-21-mirai"
+    },
+    "zero60": {
+      "sec": 7.4,
+      "kind": "tested",
+      "note": "Motor Trend test",
+      "src": "https://www.0-60specs.com/toyota/mirai-0-60-times"
+    },
+    "top": null,
+    "built": null,
+    "predecessor": {
+      "name": "Toyota Mirai (JPD10)",
+      "id": "toyota-mirai-jpd10"
+    },
+    "successor": null,
+    "quick": "The second Mirai: a long, low, rear-drive hydrogen sedan with 5 seats, 182 hp and up to 402 miles of EPA range. A quiet, comfortable car to drive, held back by how hard it can be to fill.",
+    "story": [
+      "The second-generation Mirai arrived for 2021 on a rear-drive platform, longer, lower and far more conventional-looking than the first. 3 carbon-fiber tanks hold about 5.6 kg of hydrogen, the rear-mounted motor makes 182 hp and 221 lb-ft, and the EPA rates the XLE at 402 miles and 74 MPGe. A Limited, rated at 357 miles, was sold through 2024, and from 2025 the XLE was the only version.",
+      "It drives like a quiet, comfortable premium sedan, but the hydrogen tanks cost it rear-seat and trunk space, and its usefulness depends on California's few dozen hydrogen stations. Hydrogen prices rose sharply after 2021, Shell closed its California car stations in 2024, and in early 2026 a supply breakdown left only 9 stations open statewide at its worst. Owners have also filed class actions over fueling. New cars still come with a fuel card, worth $15,000 for 2026."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Mirai"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/toyota-mirai/",
+      "title": "The Toyota Mirai Buyer's Guide",
+      "blurb": "What owning a hydrogen car is really like in 2026, the fuel card question, and the used-car checklist with the recalls to check, in 2 chapters."
+    }
+  },
+  {
+    "id": "toyota-86-zn6",
+    "name": "Toyota 86 (ZN6)",
+    "aka": [
+      "Scion FR-S",
+      "Toyota GT86"
+    ],
+    "make": "Toyota",
+    "maker": "Subaru, for Toyota",
+    "country": "Japan",
+    "years": "2013–2020",
+    "start": 2013,
+    "end": 2020,
+    "body": "Two-door coupe",
+    "engine": "2.0-liter flat-four",
+    "drive": "Rear-wheel drive",
+    "gearbox": "6-speed manual or 6-speed automatic",
+    "specsFor": "2017–2020 Toyota 86 manual, US market (Toyota figures)",
+    "power": {
+      "hp": 205,
+      "note": "156 lb-ft",
+      "src": "https://pressroom.toyota.com/2017-toyota-86-is-affordable-fundamental-sports-car/"
+    },
+    "weight": {
+      "kg": 1251,
+      "note": "Curb weight, manual",
+      "src": "https://pressroom.toyota.com/releases/2017-toyota-86-is-affordable-fundamental-sports-car.htm"
+    },
+    "zero60": {
+      "sec": 7.0,
+      "kind": "claimed",
+      "note": "Maker's claim",
+      "src": "https://pressroom.toyota.com/toyota-announces-pricing-on-all-new-2022-gr86/"
+    },
+    "top": null,
+    "built": null,
+    "predecessor": null,
+    "successor": {
+      "name": "Toyota GR86 (ZN8)",
+      "id": "toyota-gr86-zn8"
+    },
+    "alongside": [
+      {
+        "name": "Subaru BRZ (first generation)"
+      }
+    ],
+    "quick": "The light, affordable rear-drive coupe Toyota and Subaru built together, sold in America as the Scion FR-S and then the Toyota 86. Not fast, but rich in feedback, with a boxer engine that really comes alive near the top of the rev range.",
+    "story": [
+      "Toyota and Subaru developed the car together, and Subaru built it, alongside its own BRZ. In the US it went on sale for 2013 as the Scion FR-S, then became the Toyota 86 for 2017 when Scion closed. The 2.0-liter Subaru flat-four, with Toyota's direct and port injection, made 205 hp and 156 lb-ft in manual cars from 2017, and 200 hp in automatics. Its bore and stroke both measured 86 mm.",
+      "Light, low and balanced, it was praised for steering and chassis feel and criticized for a soft midrange, with peak torque at 6,400 rpm. Some 2018–2019 cars were recalled for a low-pressure fuel pump that could fail. There was no 2021 US model. The 2.4-liter GR86 replaced it for 2022."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota 86",
+      "Scion FR-S"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/toyota-gr86/",
+      "title": "The Toyota 86 and GR86 Buyer's Guide",
+      "blurb": "Which generation and which gearbox to buy, the engine question in proportion, and the used-car checklist with the recalls to check, in 2 chapters."
+    }
+  },
+  {
+    "id": "toyota-gr86-zn8",
+    "name": "Toyota GR86 (ZN8)",
+    "aka": [],
+    "make": "Toyota",
+    "maker": "Subaru, for Toyota",
+    "country": "Japan",
+    "years": "2022–present",
+    "start": 2022,
+    "end": null,
+    "body": "Two-door coupe",
+    "engine": "2.4-liter flat-four",
+    "drive": "Rear-wheel drive",
+    "gearbox": "6-speed manual or 6-speed automatic",
+    "specsFor": "2022 Toyota GR86 manual, US market (Toyota figures)",
+    "power": {
+      "hp": 228,
+      "note": "184 lb-ft",
+      "src": "https://pressroom.toyota.com/toyota-announces-pricing-on-all-new-2022-gr86/"
+    },
+    "weight": {
+      "kg": 1275,
+      "note": "Curb weight, manual",
+      "src": "https://pressroom.toyota.com/toyota-announces-pricing-on-all-new-2022-gr86/"
+    },
+    "zero60": {
+      "sec": 6.1,
+      "kind": "claimed",
+      "note": "Maker's claim",
+      "src": "https://pressroom.toyota.com/toyota-announces-pricing-on-all-new-2022-gr86/"
+    },
+    "top": null,
+    "built": null,
+    "predecessor": {
+      "name": "Toyota 86 (ZN6)",
+      "id": "toyota-86-zn6"
+    },
+    "successor": null,
+    "alongside": [
+      {
+        "name": "Subaru BRZ (second generation)"
+      }
+    ],
+    "quick": "The second-generation 86, with a 2.4-liter boxer that finally gives it midrange pull. Still light, still rear-drive, still available with a manual, and still one of the purest new sports cars you can buy for the money.",
+    "story": [
+      "The GR86 replaced the Toyota 86 for 2022, again developed with Subaru and built by Subaru alongside the second-generation BRZ. A larger 2.4-liter flat-four raised output to 228 hp and 184 lb-ft, with peak torque at 3,700 rpm instead of near the redline, and Toyota quoted 0 to 60 mph in 6.1 seconds with the manual. The body is stronger and the cabin more modern, but the formula is the same: front engine, rear drive, 4 small seats and a choice of manual or automatic.",
+      "Some early 2022 cars lost engines to oil starvation after excess factory sealant clogged the oil pickup, and owners' testing has shown oil pressure dropping in long, hard corners on track. Subaru says it stands behind the engine's design, and a class action has been filed. The 2022 car was also recalled for rear turn signals that could stop working."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota GR86"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/toyota-gr86/",
+      "title": "The Toyota 86 and GR86 Buyer's Guide",
+      "blurb": "Which generation and which gearbox to buy, the engine question in proportion, and the used-car checklist with the recalls to check, in 2 chapters."
+    }
   }
 ];

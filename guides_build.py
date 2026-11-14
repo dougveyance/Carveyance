@@ -602,12 +602,31 @@ def guide_page(g, cars):
 
 
 def index_page(guides):
+    # Built to stay usable at hundreds of guides: a search box, then every guide grouped by make, A to Z.
     trail = [("Carveyance", "/"), ("FitDrive", "/fitdrive/")]
-    cards = ""
-    for g in sorted(guides, key=lambda x: (x["make"], x["model"])):
+    by_make = {}
+    for g in sorted(guides, key=lambda x: (x["make"].lower(), x["model"].lower())):
+        by_make.setdefault(g["make"], []).append(g)
+
+    def card(g):
         f = g["front"]
-        cards += (f'<a class="chcard" href="/fitdrive/guides/{g["id"]}/"><span class="n">{esc(g["make"])} &middot; {esc(g.get("years", ""))}</span>'
-                  f'<b>{esc(f.get("title", ""))}</b><p>{inline(f.get("dek", ""))}</p><span class="rt">{len(g["chs"])} chapters</span></a>')
+        q = re.sub(r"[^a-z0-9]+", " ", " ".join([g["make"], g["model"], f.get("title", ""), g.get("years", "")]).lower()).strip()
+        return (f'<a class="chcard" href="/fitdrive/guides/{g["id"]}/" data-q="{esc(q)}"><span class="n">{esc(g["make"])} &middot; {esc(g.get("years", ""))}</span>'
+                f'<b>{esc(f.get("title", ""))}</b><p>{inline(f.get("dek", ""))}</p><span class="rt">{len(g["chs"])} chapters</span></a>')
+
+    def slug(make):
+        return re.sub(r"[^a-z0-9]+", "-", make.lower()).strip("-")
+
+    total = len(guides)
+    sections = ""
+    for make, gs in by_make.items():
+        n = len(gs)
+        sections += (f'<section class="gmake" id="make-{slug(make)}"><h2 class="gmk">{esc(make)} <span>{n} guide{"" if n == 1 else "s"}</span></h2>'
+                     f'<div class="chgrid">{"".join(card(g) for g in gs)}</div></section>')
+    makes_nav = ""
+    if len(by_make) > 1:
+        makes_nav = ('<nav class="gmakes" aria-label="Jump to a make">'
+                     + "".join(f'<a href="#make-{slug(m)}">{esc(m)}</a>' for m in by_make) + "</nav>")
     header = f"""<header class="ghead">
   <div class="wrap gw">
     {crumb_html(trail)}
@@ -617,14 +636,28 @@ def index_page(guides):
   </div>
 </header>"""
     main = f"""<main class="wrap gw gmain">
-  <section class="gchapters"><div class="chgrid">{cards}</div></section>
+  <div class="gfind" role="search"><label for="gq">Find a model</label><input id="gq" type="search" placeholder="Try Camry, 4Runner or Supra" autocomplete="off"><p class="gcount" id="gcount" aria-live="polite">{total} guide{"" if total == 1 else "s"}</p></div>
+  {makes_nav}
+  {sections}
+  <p class="gempty" id="gempty" hidden>No guide for that model yet. Looking for the numbers and the history on it instead? Try <a href="/cars/">the Car Index</a>.</p>
   <p class="gnote">More makes and models are on the way. Looking for the numbers, the history and the reader score on a particular car? Try <a href="/cars/">the Car Index</a>.</p>
 </main>"""
+    js = """
+<script>
+(function(){var q=document.getElementById("gq");if(!q)return;
+var cards=[].slice.call(document.querySelectorAll(".chcard[data-q]")),secs=[].slice.call(document.querySelectorAll(".gmake")),
+cnt=document.getElementById("gcount"),empty=document.getElementById("gempty"),nav=document.querySelector(".gmakes"),total=cards.length;
+function run(){var t=q.value.toLowerCase().replace(/[^a-z0-9]+/g," ").trim().split(" ").filter(Boolean),shown=0;
+cards.forEach(function(c){var ok=t.every(function(w){return (" "+c.getAttribute("data-q")).indexOf(" "+w)>-1;});c.hidden=!ok;if(ok)shown++;});
+secs.forEach(function(s){s.hidden=!s.querySelector(".chcard:not([hidden])");});
+cnt.textContent=t.length?shown+" of "+total+" guides":total+(total==1?" guide":" guides");empty.hidden=shown>0;if(nav)nav.hidden=t.length>0;}
+q.addEventListener("input",run);if(q.value)run();})();
+</script>"""
     url = f"{SITE}/fitdrive/guides/"
     ld = [crumbs_ld(trail[1:] + [("Buyer's Guides", "/fitdrive/guides/")])]
     return page("Buyer's Guides: Which Year, Engine and Trim to Buy | Carveyance FitDrive",
                 "Carveyance FitDrive buyer's guides: which years to target, which engine and trim to pick, and what to check before buying.",
-                url, "", ld, header, main)
+                url, "", ld, header, main, js)
 
 
 def write(path, text):

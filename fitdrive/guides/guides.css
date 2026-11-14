@@ -156,6 +156,20 @@
 .gsources li{font-size:13.5px;line-height:1.6;color:var(--slate);margin-bottom:5px}
 .gsources a{color:var(--slate);border-bottom:1px solid var(--rule)}
 .gsources a:hover{color:var(--steel);border-color:var(--steel)}
+.gfind{margin:30px 0 4px;display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px}
+.gfind label{font-family:'Bebas Neue',sans-serif;font-size:18px;letter-spacing:.12em;color:var(--accent)}
+.gfind input{flex:1 1 260px;max-width:460px;font:inherit;font-size:16px;padding:11px 14px;border:1px solid var(--rule);border-radius:10px;background:#fff;color:var(--ink)}
+.gfind input:focus{outline:2px solid var(--steel);outline-offset:1px}
+.gcount{font-size:13px;color:var(--mid);margin:0}
+.gmakes{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 0}
+.gmakes a{font-size:13px;font-weight:600;padding:6px 12px;border:1px solid var(--rule);border-radius:999px;color:var(--ink);background:#fff}
+.gmakes a:hover{border-color:var(--steel);color:var(--steel)}
+.gmake{margin:28px 0 0;scroll-margin-top:84px}
+.gmk{font-family:'DM Serif Display',serif;font-weight:400;font-size:30px;line-height:1.1;color:var(--ink);margin:0 0 14px;display:flex;align-items:baseline;gap:12px}
+.gmk span{font-family:system-ui,-apple-system,'Segoe UI',sans-serif;font-size:13px;color:var(--mid)}
+.gempty{font-size:15px;color:var(--slate);margin:24px 0 0}
+.gempty a{color:var(--steel);border-bottom:1px solid currentColor}
+.chcard[hidden],.gmake[hidden],.gmakes[hidden],.gempty[hidden]{display:none}
 .gnote{font-size:14.5px;color:var(--slate);margin:26px 0 10px}
 .gnote a{color:var(--steel);border-bottom:1px solid currentColor}
 

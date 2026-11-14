@@ -1,0 +1,168 @@
+{
+  "id": "toyota-gr-supra",
+  "make": "Toyota",
+  "model": "GR Supra",
+  "years": "2020–2026",
+  "byline": "Priya Raghavan",
+  "published": "2026-11-13",
+  "updated": "2026-11-13",
+  "cars": [
+    "toyota-gr-supra-a90"
+  ],
+  "chapters": [
+    "review",
+    "2-0-or-3-0",
+    "used-checklist"
+  ],
+  "series": {
+    "s20": {
+      "name": "2021–2024 2.0",
+      "color": "#9aa5b1"
+    },
+    "s30-2020": {
+      "name": "2020 3.0",
+      "color": "#2E6E96"
+    },
+    "s30": {
+      "name": "2021–2026 3.0",
+      "color": "#e05c2a"
+    },
+    "s30-auto": {
+      "name": "2021–2026 3.0 automatic",
+      "color": "#e05c2a"
+    },
+    "s30-manual": {
+      "name": "2023–2026 3.0 manual",
+      "color": "#1d4b61"
+    },
+    "s20-24": {
+      "name": "2024 2.0 automatic",
+      "color": "#9aa5b1"
+    },
+    "s30a-24": {
+      "name": "2024 3.0 automatic",
+      "color": "#e05c2a"
+    },
+    "s30m-24": {
+      "name": "2024 3.0 manual",
+      "color": "#1d4b61"
+    }
+  },
+  "charts": {
+    "power": {
+      "n": 1,
+      "title": "Power by version",
+      "sub": "Horsepower, as advertised. The 2.0 and the 2021-on 3.0 arrived together for 2021.",
+      "source": "Toyota",
+      "bars": [
+        [
+          "s20",
+          255,
+          "255 hp"
+        ],
+        [
+          "s30-2020",
+          335,
+          "335 hp"
+        ],
+        [
+          "s30",
+          382,
+          "382 hp"
+        ]
+      ]
+    },
+    "zero60": {
+      "n": 2,
+      "title": "0 to 60 mph",
+      "sub": "Toyota's own figures, in seconds. A shorter bar is quicker.",
+      "source": "Toyota",
+      "bars": [
+        [
+          "s20",
+          5.0,
+          "5.0 sec"
+        ],
+        [
+          "s30-2020",
+          4.1,
+          "4.1 sec"
+        ],
+        [
+          "s30-manual",
+          4.2,
+          "4.2 sec"
+        ],
+        [
+          "s30-auto",
+          3.9,
+          "3.9 sec"
+        ]
+      ]
+    },
+    "weight": {
+      "n": 3,
+      "title": "Curb weight",
+      "sub": "Toyota's figures for the 2021 cars. The 2.0 is about 100 kg (219 lb) lighter, spread through the car.",
+      "source": "Toyota",
+      "bars": [
+        [
+          "s20",
+          1443,
+          "1,443 kg (3,181 lb)"
+        ],
+        [
+          "s30",
+          1542,
+          "1,542 kg (3,400 lb)"
+        ]
+      ]
+    },
+    "mpg": {
+      "n": 4,
+      "title": "Fuel economy",
+      "sub": "EPA combined miles per gallon for the 2024 model year, the last year all 3 were sold.",
+      "source": "EPA ratings",
+      "bars": [
+        [
+          "s20-24",
+          27,
+          "27 mpg"
+        ],
+        [
+          "s30a-24",
+          26,
+          "26 mpg"
+        ],
+        [
+          "s30m-24",
+          21,
+          "21 mpg"
+        ]
+      ]
+    }
+  },
+  "photos": {
+    "hub-hero": {
+      "want": "A GR Supra 3.0, outside, front three-quarter",
+      "credit": "Toyota",
+      "alt": "A blue 2026 Toyota GR Supra 3.0 Premium on a racetrack, mountains behind"
+    },
+    "ch1-hero": {
+      "want": "A GR Supra 3.0 driving, ideally on a winding road",
+      "credit": "Toyota",
+      "alt": "A white 2022 Toyota GR Supra 3.0 Premium on a racetrack"
+    },
+    "ch2-hero": {
+      "want": "A 2021–2024 GR Supra 2.0 (18-inch wheels). Must be the 2.0",
+      "credit": "Toyota",
+      "alt": "A yellow 2022 Toyota GR Supra 2.0 cornering on a racetrack",
+      "caption": "A 2022 GR Supra 2.0"
+    },
+    "ch3-hero": {
+      "want": "A GR Supra parked, rear three-quarter",
+      "credit": "Toyota",
+      "alt": "A blue 2026 Toyota GR Supra 3.0 Premium parked on a rooftop, seen from the rear three-quarter"
+    }
+  }
+}

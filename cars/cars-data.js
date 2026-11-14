@@ -5791,5 +5791,275 @@ const CARS_INDEX = [
    "pos": "",
    "fit": ""
   }
+ },
+ {
+  "id": "toyota-gr-supra-a90",
+  "name": "Toyota GR Supra (A90)",
+  "aka": [
+   "Toyota Supra"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota, built by Magna Steyr in Graz, Austria",
+  "years": "2020–2026",
+  "start": 2020,
+  "body": "Two-door coupe",
+  "engine": "3.0-liter turbocharged inline-six (2.0-liter turbo four, 2021–2024)",
+  "country": "Japan",
+  "quick": "The Supra name's return, built in Austria alongside the BMW Z4 with a BMW turbocharged straight-six. Small, quick and serious, with a 382-hp 3.0 from 2021, a lighter 2.0 for 4 years and, from 2023, a manual.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive",
+  "gearbox": "8-speed automatic; 6-speed manual from 2023 (3.0 only)",
+  "specsFor": "2021–2026 Toyota GR Supra 3.0 automatic, US market (Toyota figures)",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-gr-supra/",
+   "title": "The Toyota GR Supra Buyer's Guide"
+  },
+  "shop": null,
+  "hp": 382,
+  "kg": 1542,
+  "kgNote": "Curb weight",
+  "z60": {
+   "sec": 3.9,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "top": {
+   "mph": 155,
+   "kind": "claimed",
+   "note": "Electronically limited"
+  },
+  "built": null,
+  "alongside": [
+   {
+    "id": null,
+    "name": "BMW Z4 (G29)"
+   }
+  ],
+  "prev": {
+   "id": null,
+   "name": "Toyota Supra (A80)"
+  },
+  "next": null,
+  "photo": {
+   "card": "/assets/images/cars/toyota-gr-supra-a90.jpg?v=345a55a1",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "toyota-mirai-jpd10",
+  "name": "Toyota Mirai (JPD10)",
+  "aka": [],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2016–2020",
+  "start": 2016,
+  "body": "Four-door sedan",
+  "engine": "Hydrogen fuel cell with an electric motor",
+  "country": "Japan",
+  "quick": "Toyota's first hydrogen fuel cell car for sale to the public: a front-drive, 4-seat sedan rated at 312 miles, with styling that advertised the technology loudly. Smooth and quiet, and only as useful as the nearest hydrogen station.",
+  "articles": [
+   "the-gateway-theory",
+   "natural-selection"
+  ],
+  "latest": "2026-09-29",
+  "ownDates": [],
+  "dates": [
+   "2026-09-29",
+   "2026-09-28"
+  ],
+  "drive": "Front-wheel drive",
+  "gearbox": "Single-speed",
+  "specsFor": "2017 Toyota Mirai, US market (Toyota figures; the weight is Toyota's figure for the same car)",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-mirai/",
+   "title": "The Toyota Mirai Buyer's Guide"
+  },
+  "shop": null,
+  "hp": 151,
+  "kg": 1850,
+  "kgNote": "Curb weight",
+  "z60": {
+   "sec": 9.0,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "top": {
+   "mph": 111,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "built": null,
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": "toyota-mirai-jpd20",
+   "name": "Toyota Mirai (JPD20)"
+  },
+  "photo": {
+   "card": "/assets/images/cars/toyota-mirai-jpd10.jpg?v=d5b2a57b",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "toyota-mirai-jpd20",
+  "name": "Toyota Mirai (JPD20)",
+  "aka": [],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2021–present",
+  "start": 2021,
+  "body": "Four-door sedan",
+  "engine": "Hydrogen fuel cell with an electric motor",
+  "country": "Japan",
+  "quick": "The second Mirai: a long, low, rear-drive hydrogen sedan with 5 seats, 182 hp and up to 402 miles of EPA range. A quiet, comfortable car to drive, held back by how hard it can be to fill.",
+  "articles": [
+   "the-gateway-theory",
+   "natural-selection"
+  ],
+  "latest": "2026-09-29",
+  "ownDates": [],
+  "dates": [
+   "2026-09-29",
+   "2026-09-28"
+  ],
+  "drive": "Rear-wheel drive",
+  "gearbox": "Single-speed",
+  "specsFor": "2021 Toyota Mirai XLE, US market (Toyota figures; the 0–60 time is a Motor Trend test)",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-mirai/",
+   "title": "The Toyota Mirai Buyer's Guide"
+  },
+  "shop": null,
+  "hp": 182,
+  "kg": 1930,
+  "kgNote": "Curb weight, XLE",
+  "z60": {
+   "sec": 7.4,
+   "kind": "tested",
+   "note": "Motor Trend test"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "toyota-mirai-jpd10",
+   "name": "Toyota Mirai (JPD10)"
+  },
+  "next": null,
+  "photo": {
+   "card": "/assets/images/cars/toyota-mirai-jpd20.jpg?v=9dc62ae9",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "toyota-86-zn6",
+  "name": "Toyota 86 (ZN6)",
+  "aka": [
+   "Scion FR-S",
+   "Toyota GT86"
+  ],
+  "make": "Toyota",
+  "maker": "Subaru, for Toyota",
+  "years": "2013–2020",
+  "start": 2013,
+  "body": "Two-door coupe",
+  "engine": "2.0-liter flat-four",
+  "country": "Japan",
+  "quick": "The light, affordable rear-drive coupe Toyota and Subaru built together, sold in America as the Scion FR-S and then the Toyota 86. Not fast, but rich in feedback, with a boxer engine that really comes alive near the top of the rev range.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive",
+  "gearbox": "6-speed manual or 6-speed automatic",
+  "specsFor": "2017–2020 Toyota 86 manual, US market (Toyota figures)",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-gr86/",
+   "title": "The Toyota 86 and GR86 Buyer's Guide"
+  },
+  "shop": null,
+  "hp": 205,
+  "kg": 1251,
+  "kgNote": "Curb weight, manual",
+  "z60": {
+   "sec": 7.0,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [
+   {
+    "id": null,
+    "name": "Subaru BRZ (first generation)"
+   }
+  ],
+  "prev": null,
+  "next": {
+   "id": "toyota-gr86-zn8",
+   "name": "Toyota GR86 (ZN8)"
+  },
+  "photo": {
+   "card": "/assets/images/cars/toyota-86-zn6.jpg?v=0329a493",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "toyota-gr86-zn8",
+  "name": "Toyota GR86 (ZN8)",
+  "aka": [],
+  "make": "Toyota",
+  "maker": "Subaru, for Toyota",
+  "years": "2022–present",
+  "start": 2022,
+  "body": "Two-door coupe",
+  "engine": "2.4-liter flat-four",
+  "country": "Japan",
+  "quick": "The second-generation 86, with a 2.4-liter boxer that finally gives it midrange pull. Still light, still rear-drive, still available with a manual, and still one of the purest new sports cars you can buy for the money.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive",
+  "gearbox": "6-speed manual or 6-speed automatic",
+  "specsFor": "2022 Toyota GR86 manual, US market (Toyota figures)",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-gr86/",
+   "title": "The Toyota 86 and GR86 Buyer's Guide"
+  },
+  "shop": null,
+  "hp": 228,
+  "kg": 1275,
+  "kgNote": "Curb weight, manual",
+  "z60": {
+   "sec": 6.1,
+   "kind": "claimed",
+   "note": "Maker's claim"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [
+   {
+    "id": null,
+    "name": "Subaru BRZ (second generation)"
+   }
+  ],
+  "prev": {
+   "id": "toyota-86-zn6",
+   "name": "Toyota 86 (ZN6)"
+  },
+  "next": null,
+  "photo": {
+   "card": "/assets/images/cars/toyota-gr86-zn8.jpg?v=da773ffb",
+   "pos": "",
+   "fit": ""
+  }
  }
 ];

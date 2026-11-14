@@ -1,0 +1,108 @@
+{
+  "id": "toyota-mirai",
+  "make": "Toyota",
+  "model": "Mirai",
+  "years": "2017–2026",
+  "byline": "Theo Wren",
+  "published": "2026-11-13",
+  "updated": "2026-11-13",
+  "cars": [
+    "toyota-mirai-jpd10",
+    "toyota-mirai-jpd20"
+  ],
+  "chapters": [
+    "review",
+    "used-checklist"
+  ],
+  "series": {
+    "g1": {
+      "name": "2016–2020 Mirai",
+      "color": "#9aa5b1"
+    },
+    "lim": {
+      "name": "2021–2024 Mirai Limited",
+      "color": "#2E6E96"
+    },
+    "xle": {
+      "name": "2021–2026 Mirai XLE",
+      "color": "#e05c2a"
+    },
+    "p2021": {
+      "name": "2021: $13.14 a kg (True Zero)",
+      "color": "#9aa5b1"
+    },
+    "p2026avg": {
+      "name": "April 2026: $28.46 a kg (US average)",
+      "color": "#2E6E96"
+    },
+    "p36": {
+      "name": "$36 a kg (True Zero's posted price)",
+      "color": "#e05c2a"
+    }
+  },
+  "charts": {
+    "range": {
+      "n": 1,
+      "title": "EPA driving range",
+      "sub": "Miles on a full tank, as rated by the EPA.",
+      "source": "EPA ratings, via Toyota",
+      "bars": [
+        [
+          "g1",
+          312,
+          "312 miles"
+        ],
+        [
+          "lim",
+          357,
+          "357 miles"
+        ],
+        [
+          "xle",
+          402,
+          "402 miles"
+        ]
+      ]
+    },
+    "fill": {
+      "n": 2,
+      "title": "What a full tank costs",
+      "sub": "Filling a second-generation Mirai's 5.65 kg of hydrogen at 3 prices. The 2021 fill is about $92 in 2026 money. An example, not a forecast.",
+      "source": "Carveyance arithmetic from InsideEVs and US Department of Energy prices",
+      "bars": [
+        [
+          "p2021",
+          74,
+          "$74"
+        ],
+        [
+          "p2026avg",
+          161,
+          "$161"
+        ],
+        [
+          "p36",
+          203,
+          "$203"
+        ]
+      ]
+    }
+  },
+  "photos": {
+    "hub-hero": {
+      "want": "A second-generation Mirai (2021 on), outside",
+      "credit": "Toyota",
+      "alt": "A blue 2021 Toyota Mirai Limited on a coastal road at sunset"
+    },
+    "ch1-hero": {
+      "want": "A Mirai driving; a first- and second-generation pair would be ideal",
+      "credit": "Toyota",
+      "alt": "A black 2021 Toyota Mirai Limited on the road"
+    },
+    "ch2-hero": {
+      "want": "A Mirai at a hydrogen pump",
+      "credit": "Toyota",
+      "alt": "A blue 2021 Toyota Mirai Limited at a hydrogen fueling station"
+    }
+  }
+}

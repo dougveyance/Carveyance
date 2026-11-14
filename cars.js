@@ -6640,5 +6640,481 @@ const CARS = [
       "title": "The Toyota 86 and GR86 Buyer's Guide",
       "blurb": "Which generation and which gearbox to buy, the engine question in proportion, and the used-car checklist with the recalls to check, in 2 chapters."
     }
+  },
+  {
+    "id": "toyota-camry-xv50",
+    "name": "Toyota Camry (XV50)",
+    "aka": [],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "United States",
+    "years": "2012–2017",
+    "start": 2012,
+    "end": 2017,
+    "shop": {
+      "cargurus": "d292"
+    },
+    "body": "Four-door sedan",
+    "engine": "2.5-liter 4-cylinder, 3.5-liter V6 or 2.5-liter hybrid",
+    "drive": "Front-wheel drive",
+    "gearbox": "6-speed automatic (hybrid: CVT)",
+    "specsFor": "2016 Toyota Camry SE, 2.5-liter, US market (Car and Driver test car)",
+    "power": {
+      "hp": 178,
+      "note": "",
+      "src": "https://autos.yahoo.com/2016-toyota-camry-220300663.html"
+    },
+    "weight": {
+      "kg": 1496,
+      "note": "Curb weight, as tested",
+      "src": "https://autos.yahoo.com/2016-toyota-camry-220300663.html"
+    },
+    "zero60": {
+      "sec": 8.0,
+      "kind": "tested",
+      "note": "Car and Driver test",
+      "src": "https://autos.yahoo.com/2016-toyota-camry-220300663.html"
+    },
+    "top": null,
+    "built": null,
+    "predecessor": {
+      "name": "Toyota Camry (XV40)"
+    },
+    "successor": {
+      "name": "Toyota Camry (XV70)",
+      "id": "toyota-camry-xv70"
+    },
+    "quick": "The last of the older Camrys: a roomy, quiet front-drive sedan with a choice of 4-cylinder, V6 or hybrid power. Comfortable and sensible rather than exciting, and a generation behind the 2018 car in cabin and safety tech.",
+    "story": [
+      "The seventh-generation Camry was sold in the US from the 2012 to the 2017 model year, years in which it remained America's best-selling passenger car. The 2017 version offered a 178-hp 2.5-liter 4-cylinder and a 268-hp 3.5-liter V6, both with a 6-speed automatic, and a 200-hp hybrid rated at up to 40 mpg combined.",
+      "The 2017 LE started at $23,070, about $31,700 in 2026 money, and was rated at 27 mpg combined. The redesigned 2018 Camry replaced it, with new engines, an 8-speed automatic and a lower, wider body."
+    ],
+    "articles": [],
+    "photo": {"credit": "Toyota"},
+    "match": [
+      "Toyota Camry"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/toyota-camry/",
+      "title": "The Toyota Camry Buyer's Guide",
+      "blurb": "Which generation and engine to buy, gas, hybrid or V6, and the used-car checklist with the recalls to check, in 6 chapters."
+    }
+  },
+  {
+    "id": "toyota-camry-xv70",
+    "name": "Toyota Camry (XV70)",
+    "aka": [],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "United States",
+    "years": "2018–2024",
+    "start": 2018,
+    "end": 2024,
+    "shop": {
+      "cargurus": "d292"
+    },
+    "body": "Four-door sedan",
+    "engine": "2.5-liter 4-cylinder, 3.5-liter V6 or 2.5-liter hybrid",
+    "drive": "Front-wheel drive (all-wheel drive on 4-cylinder models, 2020–2024)",
+    "gearbox": "8-speed automatic (hybrid: CVT)",
+    "specsFor": "2018 Toyota Camry SE, 2.5-liter, US market (Car and Driver test car)",
+    "power": {
+      "hp": 203,
+      "note": "206 hp in the XSE",
+      "src": "https://autos.yahoo.com/2018-toyota-camry-se-2-221500687.html"
+    },
+    "weight": {
+      "kg": 1546,
+      "note": "Curb weight, as tested",
+      "src": "https://autos.yahoo.com/2018-toyota-camry-se-2-221500687.html"
+    },
+    "zero60": {
+      "sec": 7.9,
+      "kind": "tested",
+      "note": "Car and Driver test",
+      "src": "https://autos.yahoo.com/2018-toyota-camry-se-2-221500687.html"
+    },
+    "top": null,
+    "built": null,
+    "predecessor": {
+      "name": "Toyota Camry (XV50)",
+      "id": "toyota-camry-xv50"
+    },
+    "successor": {
+      "name": "Toyota Camry (XV80)",
+      "id": "toyota-camry-xv80"
+    },
+    "quick": "The Camry that shook off its dull image: lower, sharper and better to drive, with a 203-hp 4-cylinder, a 301-hp V6 and a 52-mpg hybrid. All-wheel drive arrived for 2020, and so did a TRD version with a rear wing.",
+    "story": [
+      "Redesigned for 2018, the eighth-generation Camry brought new engines: a 203-hp 2.5-liter 4-cylinder (206 hp in the XSE), a 301-hp 3.5-liter V6 and a 208-hp hybrid whose LE version was rated at 52 mpg combined. The gas engines used an 8-speed automatic. Apple CarPlay arrived for 2019, and Android Auto and a 4-cylinder all-wheel-drive option for 2020. The 2021 refresh brought Toyota Safety Sense 2.5+ and a new touchscreen.",
+      "The 2020–2024 TRD, built on the SE, added a lowered, stiffer suspension, bigger brakes and a wing. Certain 2018–2019 cars were recalled for a brake vacuum pump part, and certain 2018–2020 cars for a low-pressure fuel pump. 2024 was the last year for the gas-only Camry and the V6."
+    ],
+    "articles": [],
+    "photo": {"credit": "Toyota"},
+    "match": [
+      "Toyota Camry"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/toyota-camry/",
+      "title": "The Toyota Camry Buyer's Guide",
+      "blurb": "Which generation and engine to buy, gas, hybrid or V6, and the used-car checklist with the recalls to check, in 6 chapters."
+    }
+  },
+  {
+    "id": "toyota-camry-xv80",
+    "name": "Toyota Camry (XV80)",
+    "aka": [],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "United States",
+    "years": "2025–present",
+    "start": 2025,
+    "end": null,
+    "shop": {
+      "cargurus": "d292"
+    },
+    "body": "Four-door sedan",
+    "engine": "2.5-liter 4-cylinder hybrid",
+    "drive": "Front-wheel drive or all-wheel drive",
+    "gearbox": "Electronically controlled CVT",
+    "specsFor": "2025 Toyota Camry XSE AWD, US market (Road & Track test car, with Car and Driver's 0–60 time)",
+    "power": {
+      "hp": 232,
+      "note": "Combined system output (225 hp with FWD)",
+      "src": "https://www.aol.com/tested-2025-toyota-camry-still-155900498.html"
+    },
+    "weight": {
+      "kg": 1712,
+      "note": "Curb weight, as tested",
+      "src": "https://www.aol.com/tested-2025-toyota-camry-still-155900498.html"
+    },
+    "zero60": {
+      "sec": 6.8,
+      "kind": "tested",
+      "note": "Car and Driver test",
+      "src": "https://www.aol.com/tested-2025-toyota-camry-still-155900498.html"
+    },
+    "top": null,
+    "built": null,
+    "predecessor": {
+      "name": "Toyota Camry (XV70)",
+      "id": "toyota-camry-xv70"
+    },
+    "successor": null,
+    "quick": "The first Camry sold only as a hybrid: 225 hp with front-wheel drive or 232 hp with all-wheel drive, which is available on every grade, and up to 51 mpg. Built in Kentucky, it's also the most powerful base Camry yet.",
+    "story": [
+      "The ninth-generation Camry arrived for 2025 with Toyota's fifth-generation hybrid system as its only powertrain. A 2.5-liter engine works with electric motors for 225 hp, and the optional all-wheel drive adds a rear electric motor for 232 hp. The EPA rates the LE at 51 mpg combined. Inside are digital instruments, an 8-inch or 12.3-inch touchscreen and an available head-up display.",
+      "A Nightshade Edition joined for 2026, and the 2027 carries over. In August 2026, Toyota recalled about 508,000 2025–2026 Camrys because the 7-inch instrument cluster could start up blank and disable the turn signals. Certain hybrids built in late 2025 were recalled for a loose bolt inside the inverter."
+    ],
+    "articles": [],
+    "photo": {"credit": "Toyota"},
+    "match": [
+      "Toyota Camry"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/toyota-camry/",
+      "title": "The Toyota Camry Buyer's Guide",
+      "blurb": "Which generation and engine to buy, gas, hybrid or V6, and the used-car checklist with the recalls to check, in 6 chapters."
+    }
+  },
+  {
+    "id": "toyota-corolla-e170",
+    "name": "Toyota Corolla (E170)",
+    "aka": [],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "United States",
+    "years": "2014–2019",
+    "start": 2014,
+    "end": 2019,
+    "shop": {
+      "cargurus": "d295"
+    },
+    "body": "Four-door sedan",
+    "engine": "1.8-liter 4-cylinder",
+    "drive": "Front-wheel drive",
+    "gearbox": "CVT or 6-speed manual (4-speed automatic on early base cars)",
+    "specsFor": "2017 Toyota Corolla XSE, CVT, US market (Car and Driver test car)",
+    "power": {
+      "hp": 132,
+      "note": "128 lb-ft (LE Eco: 140 hp)",
+      "src": "https://autos.yahoo.com/2017-toyota-corolla-141900060.html"
+    },
+    "weight": {
+      "kg": 1341,
+      "note": "Curb weight, as tested",
+      "src": "https://autos.yahoo.com/2017-toyota-corolla-automatic-221300998.html"
+    },
+    "zero60": {
+      "sec": 9.5,
+      "kind": "tested",
+      "note": "Car and Driver test",
+      "src": "https://autos.yahoo.com/2017-toyota-corolla-automatic-221300998.html"
+    },
+    "top": null,
+    "built": null,
+    "predecessor": {
+      "name": "Toyota Corolla (E140)"
+    },
+    "successor": {
+      "name": "Toyota Corolla (E210)",
+      "id": "toyota-corolla-e210"
+    },
+    "quick": "The 11th-generation Corolla sedan: roomy, frugal and famously slow, with a 132-hp 1.8-liter. From 2017, every one came with automatic emergency braking and radar cruise control as standard.",
+    "story": [
+      "Sold in the US from the 2014 to the 2019 model year, the 11th-generation Corolla sedan used a 1.8-liter 4-cylinder making 132 hp, or 140 hp in the efficiency-tuned LE Eco. Most had a CVT, and the sporty versions offered a 6-speed manual.",
+      "The 2017 refresh, for the Corolla's 50th anniversary, made Toyota Safety Sense P standard, with automatic emergency braking with pedestrian detection, lane departure alert and radar cruise control. Car and Driver measured 9.5 seconds to 60 mph in a 2017 XSE. Certain 2018–2019 cars were part of Toyota's low-pressure fuel pump recall. The 12th-generation sedan replaced it for 2020."
+    ],
+    "articles": [],
+    "photo": {"credit": "Toyota"},
+    "match": [
+      "Toyota Corolla"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/toyota-corolla/",
+      "title": "The Toyota Corolla Buyer's Guide",
+      "blurb": "Sedan, hybrid, hatchback or GR Corolla, which year to buy, and the used-car checklist with the recalls to check, in 6 chapters."
+    }
+  },
+  {
+    "id": "toyota-corolla-im",
+    "name": "Toyota Corolla iM",
+    "aka": [
+      "Scion iM",
+      "Toyota Auris"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "2016–2018",
+    "start": 2016,
+    "end": 2018,
+    "shop": {
+      "cargurus": "d295"
+    },
+    "body": "Five-door hatchback",
+    "engine": "1.8-liter 4-cylinder",
+    "drive": "Front-wheel drive",
+    "gearbox": "6-speed manual or CVT",
+    "specsFor": "2017 Toyota Corolla iM, CVT, US market (Car and Driver test car)",
+    "power": {
+      "hp": 137,
+      "note": "126 lb-ft",
+      "src": "https://autos.yahoo.com/2017-toyota-corolla-im-automatic-203500349.html"
+    },
+    "weight": {
+      "kg": 1374,
+      "note": "Curb weight, as tested",
+      "src": "https://autos.yahoo.com/2017-toyota-corolla-im-automatic-203500349.html"
+    },
+    "zero60": {
+      "sec": 9.1,
+      "kind": "tested",
+      "note": "Car and Driver test",
+      "src": "https://autos.yahoo.com/2017-toyota-corolla-im-automatic-203500349.html"
+    },
+    "top": null,
+    "built": null,
+    "predecessor": null,
+    "successor": {
+      "name": "Toyota Corolla (E210)",
+      "id": "toyota-corolla-e210"
+    },
+    "quick": "A well-equipped, well-made hatchback that started life as the Scion iM. It had a more sophisticated independent rear suspension than the Corolla sedan, but its 137-hp engine kept it slow.",
+    "story": [
+      "Built in Japan and based on the Auris sold in other markets, the iM went on sale in the US for 2016 as the Scion iM and became the Corolla iM for 2017, when Toyota closed the Scion brand. It came in one well-equipped grade, with a 137-hp 1.8-liter and a choice of a 6-speed manual or a CVT, and Toyota Safety Sense C was standard from 2017.",
+      "Car and Driver measured 9.1 seconds to 60 mph with the CVT. The 2019 Corolla Hatchback, with a 168-hp 2.0-liter, replaced it."
+    ],
+    "articles": [],
+    "photo": {"credit": "Toyota"},
+    "match": [
+      "Toyota Corolla iM",
+      "Scion iM"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/toyota-corolla/",
+      "title": "The Toyota Corolla Buyer's Guide",
+      "blurb": "Sedan, hybrid, hatchback or GR Corolla, which year to buy, and the used-car checklist with the recalls to check, in 6 chapters."
+    }
+  },
+  {
+    "id": "toyota-corolla-e210",
+    "name": "Toyota Corolla (E210)",
+    "aka": [],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "United States",
+    "years": "2019–present",
+    "start": 2019,
+    "end": null,
+    "shop": {
+      "cargurus": "d295"
+    },
+    "body": "Four-door sedan or five-door hatchback",
+    "engine": "1.8- or 2.0-liter 4-cylinder, or 1.8-liter hybrid",
+    "drive": "Front-wheel drive (hybrid all-wheel drive available from 2023)",
+    "gearbox": "CVT or 6-speed manual (manual to 2022)",
+    "specsFor": "2019 Toyota Corolla Hatchback, CVT, US market (Car and Driver 0–60 test; the weight is Toyota's figure)",
+    "power": {
+      "hp": 168,
+      "note": "151 lb-ft (sedan 2.0: 169 hp)",
+      "src": "https://www.slashgear.com/2019-toyota-corolla-hatchback-pricing-and-fuel-economy-confirmed-25531908"
+    },
+    "weight": {
+      "kg": 1388,
+      "note": "Curb weight",
+      "src": "https://95octane.com/?p=77249"
+    },
+    "zero60": {
+      "sec": 8.3,
+      "kind": "tested",
+      "note": "Car and Driver test",
+      "src": "https://autos.yahoo.com/2019-toyota-corolla-hatchback-belies-161400933.html"
+    },
+    "top": null,
+    "built": null,
+    "predecessor": {
+      "name": "Toyota Corolla (E170)",
+      "id": "toyota-corolla-e170"
+    },
+    "successor": null,
+    "alongside": [
+      {
+        "name": "Toyota GR Corolla",
+        "id": "toyota-gr-corolla"
+      }
+    ],
+    "quick": "The 12th-generation Corolla: a sharper, better-made car in sedan, hatchback and hybrid form. The 2.0-liter is the engine to have, standard on every gas sedan from 2023, the year the hybrid added all-wheel drive.",
+    "story": [
+      "The 12th generation arrived as a hatchback for 2019 and a sedan for 2020. The hatchback and sporty sedans used a new 2.0-liter with 168 or 169 hp, while other sedans kept a 139-hp 1.8-liter. A 6-speed manual with automatic rev-matching was offered until 2022. The 2020 Corolla Hybrid, the first sold in the US, made 121 hp and was rated at 52 mpg combined.",
+      "For 2023, every gas sedan got the 2.0-liter, the hybrid gained 138 hp and available all-wheel drive, and Toyota Safety Sense 3.0 became standard. Recalls to check include fuel pumps on some 2019–2020 cars, a driver airbag cable on some 2023 cars and a steering shaft on some cars built in mid-2023. The GR Corolla is its high-performance relative."
+    ],
+    "articles": [],
+    "photo": {"credit": "Toyota"},
+    "match": [
+      "Toyota Corolla",
+      "Toyota Corolla Hybrid",
+      "Toyota Corolla Hatchback"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/toyota-corolla/",
+      "title": "The Toyota Corolla Buyer's Guide",
+      "blurb": "Sedan, hybrid, hatchback or GR Corolla, which year to buy, and the used-car checklist with the recalls to check, in 6 chapters."
+    }
+  },
+  {
+    "id": "toyota-gr-corolla",
+    "name": "Toyota GR Corolla",
+    "aka": [],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "2023–present",
+    "start": 2023,
+    "end": null,
+    "body": "Five-door hatchback",
+    "engine": "1.6-liter turbocharged 3-cylinder",
+    "drive": "All-wheel drive",
+    "gearbox": "6-speed manual (8-speed automatic optional from 2025)",
+    "specsFor": "2023 Toyota GR Corolla Core, US market (Toyota figures)",
+    "power": {
+      "hp": 300,
+      "note": "273 lb-ft (295 lb-ft from 2025)",
+      "src": "https://pressroom.toyota.com/the-gr-lineup-heats-up-with-new-direct-automatic-transmission-option-on-toyotas-gr-corolla/"
+    },
+    "weight": {
+      "kg": 1475,
+      "note": "Curb weight",
+      "src": "https://aol.com/2023-toyota-gr-corolla-specs-113000201.html"
+    },
+    "zero60": {
+      "sec": 5.0,
+      "kind": "claimed",
+      "note": "Maker's claim, 4.99 sec",
+      "src": "https://www.cars.com/research/toyota-gr_corolla-2023"
+    },
+    "top": null,
+    "built": null,
+    "predecessor": null,
+    "successor": null,
+    "alongside": [
+      {
+        "name": "Toyota Corolla (E210)",
+        "id": "toyota-corolla-e210"
+      },
+      {
+        "name": "Toyota GR Yaris"
+      }
+    ],
+    "quick": "A 300-hp, all-wheel-drive, turbocharged 3-cylinder hot hatch, built in a dedicated GR Factory and launched with a manual only. The Corolla for people who'd rather be on a rally stage.",
+    "story": [
+      "The GR Corolla went on sale for 2023, built at the GR Factory inside Toyota's Motomachi plant in Japan. Its 1.6-liter turbo 3-cylinder makes 300 hp, and the GR-FOUR all-wheel-drive system lets the driver bias the torque toward the front or rear. It launched as the Core, the Circuit Edition and the 2-seat Morizo Edition, with a 6-speed manual only. Car and Driver measured 4.4 seconds to 60 mph in a Morizo Edition.",
+      "For 2025, torque rose from 273 to 295 lb-ft, front and rear Torsen limited-slip differentials became standard and an 8-speed automatic arrived as an option. The 2026 lineup is the GR Corolla and the Premium Plus. Some 2023 cars received an engine computer update under a service bulletin for wastegate and misfire codes, and 2023–2025 cars were part of a cluster software recall."
+    ],
+    "articles": [],
+    "photo": {"credit": "Toyota"},
+    "match": [
+      "Toyota GR Corolla"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/toyota-corolla/",
+      "title": "The Toyota Corolla Buyer's Guide",
+      "blurb": "Sedan, hybrid, hatchback or GR Corolla, which year to buy, and the used-car checklist with the recalls to check, in 6 chapters."
+    }
+  },
+  {
+    "id": "toyota-corolla-cross-xg10",
+    "name": "Toyota Corolla Cross (XG10)",
+    "aka": [],
+    "make": "Toyota",
+    "maker": "Mazda Toyota Manufacturing, for Toyota",
+    "country": "United States",
+    "years": "2022–present",
+    "start": 2022,
+    "end": null,
+    "shop": {
+      "cargurus": "d3154"
+    },
+    "body": "Small SUV",
+    "engine": "2.0-liter 4-cylinder, or 2.0-liter hybrid",
+    "drive": "Front-wheel drive or all-wheel drive (hybrid: all-wheel drive)",
+    "gearbox": "CVT (hybrid: electronically controlled CVT)",
+    "specsFor": "Toyota Corolla Cross Hybrid XSE, US market (Car and Driver's 0–60 test of a 2023; the weight is Edmunds' figure for a 2024)",
+    "power": {
+      "hp": 196,
+      "note": "Combined system output (gas: 169 hp)",
+      "src": "https://pressroom.toyota.com/?p=83073"
+    },
+    "weight": {
+      "kg": 1556,
+      "note": "Curb weight",
+      "src": "https://www.edmunds.com/toyota/corolla-cross-hybrid/2024/features-specs"
+    },
+    "zero60": {
+      "sec": 7.3,
+      "kind": "tested",
+      "note": "Car and Driver test",
+      "src": "https://www.0-60specs.com/toyota/corolla-cross-0-60-times"
+    },
+    "top": null,
+    "built": null,
+    "predecessor": null,
+    "successor": null,
+    "quick": "The Corolla as a small SUV: practical, efficient and built in Alabama. The gas model is slow; the hybrid, added for 2023, has 196 hp, standard all-wheel drive and 42 mpg.",
+    "story": [
+      "The Corolla Cross went on sale for 2022, built on the Corolla's platform at the Mazda Toyota Manufacturing plant in Huntsville, Alabama. The gas model uses a 169-hp 2.0-liter and a CVT, with front- or all-wheel drive. The hybrid, added for 2023, makes 196 hp, uses a rear electric motor for standard all-wheel drive and is rated at 42 mpg combined.",
+      "A refresh for 2026 brought new front ends and an available 10.5-inch touchscreen, and the 2027 hybrid drops its S grade. Recalls include a front passenger airbag panel on about 96,000 2022–2023 gas models, brake software on some 2023–2024 hybrids and a reversing warning sound on some 2023–2025 hybrids."
+    ],
+    "articles": [],
+    "photo": {"credit": "Toyota"},
+    "match": [
+      "Toyota Corolla Cross",
+      "Toyota Corolla Cross Hybrid"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/toyota-corolla-cross/",
+      "title": "The Toyota Corolla Cross Buyer's Guide",
+      "blurb": "Gas or hybrid, which year and grade to buy, and the used-car checklist with the recalls to check, in 4 chapters."
+    }
   }
 ];

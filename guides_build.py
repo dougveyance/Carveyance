@@ -12,7 +12,8 @@ Builds the buyer's guides from the files in guides_src/:
 
 and writes:
 
-  fitdrive/guides/index.html                 the list of every guide
+  fitdrive/guides/index.html                 the list of every guide, with search and a picker
+  fitdrive/guides/guides-search.js           what the search and the picker look through
   fitdrive/guides/<guide>/index.html         each guide's front page
   fitdrive/guides/<guide>/<slug>/index.html  each chapter
 
@@ -32,6 +33,20 @@ verdict (above The Carveyance Curiosity) and on the guide's front page, using th
 everyday list in assets/js/cv-markets.js. In guide.json, "shop" can add the CarGurus
 model code ("cargurus": "d290"), the model as the price sites spell it ("model"), or
 "list": "collector" for a guide about collectible cars.
+
+SEARCH AND PICKER: the guides page (carveyance.com/fitdrive/guides/) has a search
+box and a Make, Model and Year picker. Both come from "find" in each guide.json, and
+this script rewrites fitdrive/guides/guides-search.js every time it runs:
+  "find": {
+    "picker": [{"model": "4Runner", "years": "2017–2024", "ch": "2017-2024-v6"}, ...],
+        one line per generation (or sub-model, like "GR Corolla"); picking that model
+        and a year in that range opens chapter "ch" ("" = the guide's front page;
+        "slug#heading-id" opens a section of a chapter)
+    "terms": {"trims": ["SR5", "TRD Pro", "Trailhunter"], "": ["XSE"], ...}
+        the words buyers type, by chapter slug ("" = the front page). Searching
+        "Trailhunter" opens the trims chapter.
+  }
+Model names, chapter names and titles are searchable without listing them here.
 
 PHOTOS: save each photo as fitdrive/guides/<guide>/img/<slot>.jpg, where <slot> is
 a name from the "photos" list in guide.json (for example ch1-hero.jpg), about 1600 px
@@ -601,13 +616,124 @@ def guide_page(g, cars):
     return page(title_tag, f.get("dek", ""), url, img_url, ld, header, main, SALE_JS)
 
 
+def norm_words(text):
+    """lowercase search words; keeps 2.0 and 4.0 together, splits gr86 into gr + 86 as well"""
+    t = re.sub(r"(?<!\d)\.|\.(?!\d)", " ", str(text).lower())
+    t = re.sub(r"[^a-z0-9.]+", " ", t)
+    out = []
+    for w in t.split():
+        out.append(w)
+        parts = re.findall(r"[a-z]+|[0-9.]+", w)
+        if len(parts) > 1:
+            out += parts
+    return out
+
+
+def term_words(term):
+    ws = norm_words(term)
+    joined = re.sub(r"[^a-z0-9.]+", "", term.lower())
+    if joined and joined not in ws:
+        ws.append(joined)
+    return ws
+
+
+def year_list(span):
+    m = re.match(r"^(\d{4})(?:\s*[–-]\s*(\d{4}))?$", span.strip())
+    if not m:
+        sys.exit(f"find.picker years must look like 2017 or 2017–2024, not {span!r}")
+    a, b = int(m.group(1)), int(m.group(2) or m.group(1))
+    return list(range(a, b + 1))
+
+
+def find_data(guides):
+    """everything the guides page search and picker need, rebuilt on every run"""
+    out_guides, search, picker = [], [], {}
+    for g in sorted(guides, key=lambda x: (x["make"].lower(), x["model"].lower())):
+        f = g.get("find") or {}
+        gurl = f"/fitdrive/guides/{g['id']}/"
+        slugs = {c["slug"]: c for c in g["chs"]}
+
+        def ch_url(ch, where):
+            slug, _, anchor = (ch or "").partition("#")
+            if slug and slug not in slugs:
+                sys.exit(f"{g['id']}/guide.json find.{where} points at chapter '{slug}', which isn't in this guide")
+            return gurl + (slug + "/" if slug else "") + ("#" + anchor if anchor else "")
+
+        img = f"/fitdrive/guides/{g['id']}/img/hub-hero.jpg" if os.path.exists(photo_path(g, "hub-hero")) else ""
+        out_guides.append({"id": g["id"], "make": g["make"], "model": g["model"], "years": g.get("years", ""),
+                           "title": g["front"].get("title", ""), "url": gurl, "img": img, "n": len(g["chs"])})
+        terms = f.get("terms") or {}
+        for k in terms:
+            ch_url(k, "terms")
+        # which models and years land on each chapter
+        land = {}
+        for row in f.get("picker") or []:
+            url = ch_url(row.get("ch", ""), "picker")
+            slug = (row.get("ch", "") or "").split("#")[0]
+            yrs = year_list(row["years"])
+            land.setdefault(slug, set()).update(term_words(row["model"]) + [str(y) for y in yrs])
+            byyear = picker.setdefault(g["make"], {}).setdefault(row["model"], {})
+            label = g["model"] + " guide" if not slug else f"{g['model']} guide: {slugs[slug].get('nav', '')}"
+            anchor = (row.get("ch", "") or "").partition("#")[2]
+            if anchor:
+                heads = {slugify(h): h for h in re.findall(r"^## (.+)$", slugs[slug]["body"], re.M)}
+                if anchor not in heads:
+                    sys.exit(f"{g['id']}/guide.json find.picker: chapter '{slug}' has no heading with the id '{anchor}'")
+                label += f", section “{heads[anchor].strip()}”"
+            for y in yrs:
+                byyear[str(y)] = [url, label]
+        base = sorted(set(norm_words(g["make"]) + term_words(g["model"])))
+        key = set(term_words(g["model"]))
+        for t in terms.get("", []):
+            key.update(term_words(t))
+        key.update(land.get("", set()))
+        search.append({"t": "g", "l": f"{g['make']} {g['model']}", "s": f"Buyer's guide · {g.get('years', '')} · {len(g['chs'])} chapters",
+                       "u": gurl, "k": sorted(key), "b": sorted(set(norm_words(g["make"]))),
+                       "w": sorted(set(norm_words(g["front"].get("title", ""))))})
+        for c in g["chs"]:
+            key = set(land.get(c["slug"], set()))
+            for t in terms.get(c["slug"], []):
+                key.update(term_words(t))
+            loose = set(norm_words(" ".join([c.get("nav", ""), c.get("title", ""), c.get("kicker", "")])))
+            search.append({"t": "c", "l": f"{g['make']} {g['model']} · {c.get('nav', '')}", "s": c.get("title", ""),
+                           "u": f"{gurl}{c['slug']}/", "k": sorted(key), "b": base, "w": sorted(loose - key)})
+    # picker: models A to Z, years newest first
+    # lists, not objects, so the order holds ("86" would otherwise jump ahead of "4Runner")
+    pk = [[make, [[model, [[y] + picker[make][model][y] for y in sorted(picker[make][model], reverse=True)]]
+                  for model in sorted(picker[make], key=str.lower)]]
+          for make in sorted(picker, key=str.lower)]
+    return {"guides": out_guides, "picker": pk, "search": search}
+
+
 def index_page(guides):
+    # Built to stay usable at hundreds of guides: a search box, a Make, Model and Year
+    # picker, then one row of cards per make, A to Z.
     trail = [("Carveyance", "/"), ("FitDrive", "/fitdrive/")]
-    cards = ""
-    for g in sorted(guides, key=lambda x: (x["make"], x["model"])):
+    by_make = {}
+    for g in sorted(guides, key=lambda x: (x["make"].lower(), x["model"].lower())):
+        by_make.setdefault(g["make"], []).append(g)
+
+    def card(g):
         f = g["front"]
-        cards += (f'<a class="chcard" href="/fitdrive/guides/{g["id"]}/"><span class="n">{esc(g["make"])} &middot; {esc(g.get("years", ""))}</span>'
-                  f'<b>{esc(f.get("title", ""))}</b><p>{inline(f.get("dek", ""))}</p><span class="rt">{len(g["chs"])} chapters</span></a>')
+        img = f"/fitdrive/guides/{g['id']}/img/hub-hero.jpg" if os.path.exists(photo_path(g, "hub-hero")) else ""
+        alt = esc(((g.get("photos") or {}).get("hub-hero") or {}).get("alt", ""))
+        return (f'<a class="gcard" href="/fitdrive/guides/{g["id"]}/">'
+                + (f'<img src="{img}" alt="{alt}" loading="lazy" width="1600" height="900">' if img else "")
+                + f'<span class="tx"><span class="n">{esc(g["make"])} &middot; {esc(g.get("years", ""))}</span>'
+                f'<b>{esc(f.get("title", ""))}</b><span class="rt">{len(g["chs"])} chapters</span></span></a>')
+
+    def slug(make):
+        return re.sub(r"[^a-z0-9]+", "-", make.lower()).strip("-")
+
+    total = len(guides)
+    rows = ""
+    for make, gs in by_make.items():
+        n = len(gs)
+        rows += (f'<section class="gmake" id="make-{slug(make)}" aria-labelledby="mk-{slug(make)}">'
+                 f'<div class="gmkhead"><h2 class="gmk" id="mk-{slug(make)}">{esc(make)} <span>{n} guide{"" if n == 1 else "s"}</span></h2>'
+                 f'<span class="gscroll" hidden><button type="button" class="gprev" aria-label="Scroll {esc(make)} guides left">&larr;</button>'
+                 f'<button type="button" class="gnext" aria-label="Scroll {esc(make)} guides right">&rarr;</button></span></div>'
+                 f'<div class="grow">{"".join(card(g) for g in gs)}</div></section>')
     header = f"""<header class="ghead">
   <div class="wrap gw">
     {crumb_html(trail)}
@@ -617,14 +743,68 @@ def index_page(guides):
   </div>
 </header>"""
     main = f"""<main class="wrap gw gmain">
-  <section class="gchapters"><div class="chgrid">{cards}</div></section>
+  <div class="gfinder" id="gfinder" hidden>
+    <div class="gsearch" role="search">
+      <label for="gq">Search the guides</label>
+      <input id="gq" type="search" placeholder="A model, trim or engine: 4Runner, Trailhunter, V6" autocomplete="off" aria-describedby="gstat" aria-controls="gres">
+      <p class="gstat" id="gstat" aria-live="polite"></p>
+      <ul class="gres" id="gres"></ul>
+    </div>
+    <form class="gpick" id="gpick">
+      <p class="gpl">Or pick your car</p>
+      <div class="gpf"><label for="pk-make">Make</label><select id="pk-make"><option value="">Choose a make</option></select></div>
+      <div class="gpf"><label for="pk-model">Model</label><select id="pk-model" disabled><option value="">Choose a make first</option></select></div>
+      <div class="gpf"><label for="pk-year">Year</label><select id="pk-year" disabled><option value="">Choose a model first</option></select></div>
+      <button type="submit" class="gpgo" id="pk-go" disabled>Open the guide &rarr;</button>
+      <p class="gpto" id="pk-to" aria-live="polite"></p>
+    </form>
+  </div>
+  <h2 class="gbrowse">Browse by make <span>{total} guide{"" if total == 1 else "s"}</span></h2>
+  {rows}
   <p class="gnote">More makes and models are on the way. Looking for the numbers, the history and the reader score on a particular car? Try <a href="/cars/">the Car Index</a>.</p>
 </main>"""
+    js = """
+<script src="/fitdrive/guides/guides-search.js"></script>
+<script>
+(function(){var D=window.CV_GUIDES;if(!D)return;
+var $=function(id){return document.getElementById(id);};$("gfinder").hidden=false;
+function norm(t){return String(t).toLowerCase().replace(/(\\d)\\.(\\d)/g,"$1~$2").replace(/[^a-z0-9~]+/g," ").replace(/~/g,".").trim().split(" ").filter(Boolean);}
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
+function best(tok,list,ex,pre){var b=0;for(var i=0;i<list.length;i++){var w=list[i];if(w===tok)return ex;if(tok.length>2&&w.indexOf(tok)===0)b=pre;}return b;}
+var q=$("gq"),res=$("gres"),stat=$("gstat"),hits=[];
+function run(){var t=norm(q.value);hits=[];
+  if(t.length){D.search.forEach(function(e){var sc=0;for(var i=0;i<t.length;i++){var s=Math.max(best(t[i],e.k,4,2),best(t[i],e.b,1.5,1),best(t[i],e.w,1,.5));if(!s)return;sc+=s;}hits.push([sc+(e.t==="g"?.5:0),e]);});
+    hits.sort(function(a,b){return b[0]-a[0];});hits=hits.slice(0,8);}
+  res.innerHTML=hits.map(function(h){var e=h[1];return '<li><a href="'+e.u+'"><b>'+esc(e.l)+'</b><span>'+esc(e.s)+'</span></a></li>';}).join("");
+  stat.textContent=!t.length?"":hits.length?(hits.length===1?"1 match. Press Enter to open it.":hits.length+" matches. Press Enter to open the first."):"No guide covers that yet. Try the model name, or the Car Index.";}
+q.addEventListener("input",run);
+q.addEventListener("keydown",function(ev){if(ev.key==="Enter"&&hits.length){ev.preventDefault();location.href=hits[0][1].u;}});
+var mk=$("pk-make"),md=$("pk-model"),yr=$("pk-year"),go=$("pk-go"),to=$("pk-to"),P=D.picker;
+function opts(sel,first,list){sel.innerHTML='<option value="">'+first+'</option>'+list.map(function(v){return '<option value="'+esc(v)+'">'+esc(v)+'</option>';}).join("");}
+function find(list,name){for(var i=0;i<list.length;i++)if(list[i][0]===name)return list[i][1];return null;}
+function names(list){return list.map(function(x){return x[0];});}
+opts(mk,"Choose a make",names(P));
+function models(){return find(P,mk.value);}
+function years(){var m=models();return m?find(m,md.value):null;}
+function pickRow(){var rows=years()||[];for(var i=0;i<rows.length;i++)if(rows[i][0]===yr.value)return rows[i];return null;}
+function upd(){var r=pickRow();go.disabled=!r;to.textContent=r?"Opens the "+r[2]+".":"";}
+mk.addEventListener("change",function(){var m=models();md.disabled=!m;opts(md,m?"Choose a model":"Choose a make first",m?names(m):[]);yr.disabled=true;opts(yr,"Choose a model first",[]);upd();});
+md.addEventListener("change",function(){var rows=years();yr.disabled=!rows;opts(yr,rows?"Choose a year":"Choose a model first",rows?names(rows):[]);upd();});
+yr.addEventListener("change",upd);
+$("gpick").addEventListener("submit",function(ev){ev.preventDefault();var r=pickRow();if(r)location.href=r[1];});
+if(P.length===1){mk.value=P[0][0];mk.dispatchEvent(new Event("change"));}
+[].forEach.call(document.querySelectorAll(".gmake"),function(sec){var row=sec.querySelector(".grow"),nav=sec.querySelector(".gscroll");
+  function chk(){var over=row.scrollWidth>row.clientWidth+4;nav.hidden=!over;if(over){nav.querySelector(".gprev").disabled=row.scrollLeft<4;nav.querySelector(".gnext").disabled=row.scrollLeft+row.clientWidth>=row.scrollWidth-4;}}
+  nav.querySelector(".gprev").addEventListener("click",function(){row.scrollBy({left:-row.clientWidth*.9,behavior:"smooth"});});
+  nav.querySelector(".gnext").addEventListener("click",function(){row.scrollBy({left:row.clientWidth*.9,behavior:"smooth"});});
+  row.addEventListener("scroll",chk,{passive:true});window.addEventListener("resize",chk);chk();});
+})();
+</script>"""
     url = f"{SITE}/fitdrive/guides/"
     ld = [crumbs_ld(trail[1:] + [("Buyer's Guides", "/fitdrive/guides/")])]
     return page("Buyer's Guides: Which Year, Engine and Trim to Buy | Carveyance FitDrive",
                 "Carveyance FitDrive buyer's guides: which years to target, which engine and trim to pick, and what to check before buying.",
-                url, "", ld, header, main)
+                url, "", ld, header, main, js)
 
 
 def write(path, text):
@@ -678,6 +858,10 @@ def main():
             os.remove(os.path.join(d, "index.html"))
             print("  removed old guide", d, "(its photos, if any, were kept)")
     write(os.path.join(OUT, "index.html"), index_page(guides))
+    data = json.dumps(find_data(guides), ensure_ascii=False, separators=(",", ":"))
+    write(os.path.join(OUT, "guides-search.js"),
+          f"/* {MARK} What the guides page search and picker look through. Rebuilt every run from \"find\" in each guide.json. */\n"
+          f"window.CV_GUIDES={data};\n")
     print("Done. Next: python3 cars_build.py, python3 seo_inject.py, then python3 pwa_inject.py")
 
 

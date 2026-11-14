@@ -332,5 +332,78 @@
       "credit": "Toyota",
       "alt": "A white 2023 Toyota Corolla sedan, a red Corolla Hybrid and a blue Corolla Hatchback parked together"
     }
+  },
+  "find": {
+    "picker": [
+      {
+        "model": "Corolla",
+        "years": "2017–2026",
+        "ch": "sedan"
+      },
+      {
+        "model": "Corolla Hybrid",
+        "years": "2020–2026",
+        "ch": "hybrid"
+      },
+      {
+        "model": "Corolla iM",
+        "years": "2017–2018",
+        "ch": "hatchback"
+      },
+      {
+        "model": "Corolla Hatchback",
+        "years": "2019–2026",
+        "ch": "hatchback"
+      },
+      {
+        "model": "GR Corolla",
+        "years": "2023–2026",
+        "ch": "gr-corolla"
+      }
+    ],
+    "terms": {
+      "sedan": [
+        "sedan",
+        "L",
+        "LE",
+        "LE Eco",
+        "SE",
+        "XLE",
+        "XSE",
+        "50th Anniversary",
+        "1.8-liter",
+        "2.0-liter"
+      ],
+      "hybrid": [
+        "hybrid",
+        "Corolla Hybrid",
+        "AWD",
+        "all-wheel drive"
+      ],
+      "hatchback": [
+        "hatchback",
+        "hatch",
+        "iM",
+        "Corolla iM",
+        "Nightshade",
+        "FX Edition"
+      ],
+      "gr-corolla": [
+        "GR Corolla",
+        "Core",
+        "Circuit Edition",
+        "Morizo Edition",
+        "Premium",
+        "Premium Plus",
+        "GR-Four",
+        "1.6-liter",
+        "3-cylinder"
+      ],
+      "used-checklist": [
+        "used",
+        "checklist",
+        "recalls"
+      ]
+    }
   }
 }

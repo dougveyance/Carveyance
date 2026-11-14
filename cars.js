@@ -6690,7 +6690,7 @@ const CARS = [
       "The 2017 LE started at $23,070, about $31,700 in 2026 money, and was rated at 27 mpg combined. The redesigned 2018 Camry replaced it, with new engines, an 8-speed automatic and a lower, wider body."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota Camry"
     ],
@@ -6750,7 +6750,7 @@ const CARS = [
       "The 2020–2024 TRD, built on the SE, added a lowered, stiffer suspension, bigger brakes and a wing. Certain 2018–2019 cars were recalled for a brake vacuum pump part, and certain 2018–2020 cars for a low-pressure fuel pump. 2024 was the last year for the gas-only Camry and the V6."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota Camry"
     ],
@@ -6807,7 +6807,7 @@ const CARS = [
       "A Nightshade Edition joined for 2026, and the 2027 carries over. In August 2026, Toyota recalled about 508,000 2025–2026 Camrys because the 7-inch instrument cluster could start up blank and disable the turn signals. Certain hybrids built in late 2025 were recalled for a loose bolt inside the inverter."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota Camry"
     ],
@@ -6866,7 +6866,7 @@ const CARS = [
       "The 2017 refresh, for the Corolla's 50th anniversary, made Toyota Safety Sense P standard, with automatic emergency braking with pedestrian detection, lane departure alert and radar cruise control. Car and Driver measured 9.5 seconds to 60 mph in a 2017 XSE. Certain 2018–2019 cars were part of Toyota's low-pressure fuel pump recall. The 12th-generation sedan replaced it for 2020."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota Corolla"
     ],
@@ -6926,7 +6926,7 @@ const CARS = [
       "Car and Driver measured 9.1 seconds to 60 mph with the CVT. The 2019 Corolla Hatchback, with a 168-hp 2.0-liter, replaced it."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota Corolla iM",
       "Scion iM"
@@ -6990,7 +6990,7 @@ const CARS = [
       "For 2023, every gas sedan got the 2.0-liter, the hybrid gained 138 hp and available all-wheel drive, and Toyota Safety Sense 3.0 became standard. Recalls to check include fuel pumps on some 2019–2020 cars, a driver airbag cable on some 2023 cars and a steering shaft on some cars built in mid-2023. The GR Corolla is its high-performance relative."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota Corolla",
       "Toyota Corolla Hybrid",
@@ -7052,7 +7052,7 @@ const CARS = [
       "For 2025, torque rose from 273 to 295 lb-ft, front and rear Torsen limited-slip differentials became standard and an 8-speed automatic arrived as an option. The 2026 lineup is the GR Corolla and the Premium Plus. Some 2023 cars received an engine computer update under a service bulletin for wastegate and misfire codes, and 2023–2025 cars were part of a cluster software recall."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota GR Corolla"
     ],
@@ -7106,7 +7106,7 @@ const CARS = [
       "A refresh for 2026 brought new front ends and an available 10.5-inch touchscreen, and the 2027 hybrid drops its S grade. Recalls include a front passenger airbag panel on about 96,000 2022–2023 gas models, brake software on some 2023–2024 hybrids and a reversing warning sound on some 2023–2025 hybrids."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota Corolla Cross",
       "Toyota Corolla Cross Hybrid"

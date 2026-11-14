@@ -6113,7 +6113,11 @@ const CARS_INDEX = [
    "id": "toyota-camry-xv70",
    "name": "Toyota Camry (XV70)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-camry-xv50.jpg?v=52b4a23f",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-camry-xv70",
@@ -6166,7 +6170,11 @@ const CARS_INDEX = [
    "id": "toyota-camry-xv80",
    "name": "Toyota Camry (XV80)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-camry-xv70.jpg?v=b03ed118",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-camry-xv80",
@@ -6216,7 +6224,11 @@ const CARS_INDEX = [
    "name": "Toyota Camry (XV70)"
   },
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-camry-xv80.jpg?v=0c627a31",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-corolla-e170",
@@ -6270,7 +6282,11 @@ const CARS_INDEX = [
    "id": "toyota-corolla-e210",
    "name": "Toyota Corolla (E210)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-corolla-e170.jpg?v=ce483a1c",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-corolla-im",
@@ -6317,7 +6333,11 @@ const CARS_INDEX = [
    "id": "toyota-corolla-e210",
    "name": "Toyota Corolla (E210)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-corolla-im.jpg?v=746aaaa9",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-corolla-e210",
@@ -6373,7 +6393,11 @@ const CARS_INDEX = [
    "name": "Toyota Corolla (E170)"
   },
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-corolla-e210.jpg?v=336c5f54",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-gr-corolla",
@@ -6425,7 +6449,11 @@ const CARS_INDEX = [
   ],
   "prev": null,
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-gr-corolla.jpg?v=4cdaeff5",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-corolla-cross-xg10",
@@ -6470,6 +6498,10 @@ const CARS_INDEX = [
   "alongside": [],
   "prev": null,
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-corolla-cross-xg10.jpg?v=c6ade77d",
+   "pos": "",
+   "fit": ""
+  }
  }
 ];

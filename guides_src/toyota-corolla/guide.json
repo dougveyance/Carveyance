@@ -300,37 +300,37 @@
     "hub-hero": {
       "want": "A 2023–2026 Corolla sedan, outside, front three-quarter",
       "credit": "Toyota",
-      "alt": "A Toyota Corolla sedan"
+      "alt": "A white 2026 Toyota Corolla XSE driving down a tree-lined street at sunset"
     },
     "ch1-hero": {
       "want": "A 2020–2026 Corolla sedan (LE, SE or XSE), outside",
       "credit": "Toyota",
-      "alt": "A 12th-generation Toyota Corolla sedan"
+      "alt": "A blue-gray 2020 Toyota Corolla sedan in a studio"
     },
     "ch2-hero": {
       "want": "A Corolla Hybrid, ideally a 2023–2026 SE or XLE",
       "credit": "Toyota",
-      "alt": "A Toyota Corolla Hybrid"
+      "alt": "A red 2026 Toyota Corolla Hybrid driving on a wet mountain road"
     },
     "ch3-hero": {
       "want": "A 2019–2026 Corolla Hatchback, outside",
       "credit": "Toyota",
-      "alt": "A Toyota Corolla Hatchback"
+      "alt": "A blue 2023 Toyota Corolla Hatchback SE on a brick-paved street"
     },
     "ch4-hero": {
       "want": "A GR Corolla, driving or on track",
       "credit": "Toyota",
-      "alt": "A Toyota GR Corolla"
+      "alt": "A red 2025 Toyota GR Corolla driving through a tunnel"
     },
     "ch5-hero": {
       "want": "A 2017–2019 Corolla sedan, outside",
       "credit": "Toyota",
-      "alt": "An 11th-generation Toyota Corolla sedan"
+      "alt": "A blue 2018 Toyota Corolla SE on a curving driveway"
     },
     "ch6-hero": {
       "want": "Two or more Corollas together (sedan, hatchback, GR)",
       "credit": "Toyota",
-      "alt": "Toyota Corolla models together"
+      "alt": "A blue and a white 2019 Toyota Corolla Hatchback in an empty rooftop parking lot"
     }
   }
 }

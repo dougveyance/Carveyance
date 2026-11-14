@@ -6396,7 +6396,7 @@ const CARS = [
       "Every early car was an automatic. The 6-speed manual arrived for 2023, on the 3.0 only, and it quickly became the enthusiast's choice. Toyota ended the run with the 2026 MkV Final Edition, limited to 1,300 cars in the US, with larger Brembo brakes, revised suspension and a stiffer body but the same 382 hp. Production ended in spring 2026. Because BMW builds the car, BMW files the Supra's safety recalls in the US."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota GR Supra"
     ],
@@ -6455,7 +6455,7 @@ const CARS = [
       "It seated 4, and its styling was polarizing on purpose. Early cars needed a fuel cell software update in 2017, which Toyota ran in the US as a customer satisfaction campaign. The car itself proved smooth and quiet, but its usefulness always depended on California's small and fragile network of hydrogen stations, which is why used examples lose value so quickly. It was replaced for 2021 by a larger, rear-drive Mirai."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota Mirai"
     ],
@@ -6509,7 +6509,7 @@ const CARS = [
       "It drives like a quiet, comfortable premium sedan, but the hydrogen tanks cost it rear-seat and trunk space, and its usefulness depends on California's few dozen hydrogen stations. Hydrogen prices rose sharply after 2021, Shell closed its California car stations in 2024, and in early 2026 a supply breakdown left only 9 stations open statewide at its worst. Owners have also filed class actions over fueling. New cars still come with a fuel card, worth $15,000 for 2026."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota Mirai"
     ],
@@ -6571,7 +6571,7 @@ const CARS = [
       "Light, low and balanced, it was praised for steering and chassis feel and criticized for a soft midrange, with peak torque at 6,400 rpm. Some 2018–2019 cars were recalled for a low-pressure fuel pump that could fail. There was no 2021 US model. The 2.4-liter GR86 replaced it for 2022."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota 86",
       "Scion FR-S"
@@ -6631,7 +6631,7 @@ const CARS = [
       "Some early 2022 cars lost engines to oil starvation after excess factory sealant clogged the oil pickup, and owners' testing has shown oil pressure dropping in long, hard corners on track. Subaru says it stands behind the engine's design, and a class action has been filed. The 2022 car was also recalled for rear turn signals that could stop working."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota GR86"
     ],

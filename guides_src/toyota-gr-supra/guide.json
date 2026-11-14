@@ -146,22 +146,23 @@
     "hub-hero": {
       "want": "A GR Supra 3.0, outside, front three-quarter",
       "credit": "Toyota",
-      "alt": "A Toyota GR Supra on a mountain road"
+      "alt": "A blue 2026 Toyota GR Supra 3.0 Premium on a racetrack, mountains behind"
     },
     "ch1-hero": {
       "want": "A GR Supra 3.0 driving, ideally on a winding road",
       "credit": "Toyota",
-      "alt": "A Toyota GR Supra 3.0 driving on a winding road"
+      "alt": "A white 2022 Toyota GR Supra 3.0 Premium on a racetrack"
     },
     "ch2-hero": {
       "want": "A 2021–2024 GR Supra 2.0 (18-inch wheels). Must be the 2.0",
       "credit": "Toyota",
-      "alt": "A Toyota GR Supra 2.0"
+      "alt": "A yellow 2022 Toyota GR Supra 2.0 cornering on a racetrack",
+      "caption": "A 2022 GR Supra 2.0"
     },
     "ch3-hero": {
       "want": "A GR Supra parked, rear three-quarter",
       "credit": "Toyota",
-      "alt": "A Toyota GR Supra parked, seen from the rear three-quarter"
+      "alt": "A blue 2026 Toyota GR Supra 3.0 Premium parked on a rooftop, seen from the rear three-quarter"
     }
   }
 }

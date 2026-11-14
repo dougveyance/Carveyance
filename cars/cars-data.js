@@ -5843,7 +5843,11 @@ const CARS_INDEX = [
    "name": "Toyota Supra (A80)"
   },
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-gr-supra-a90.jpg?v=345a55a1",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-mirai-jpd10",
@@ -5895,7 +5899,11 @@ const CARS_INDEX = [
    "id": "toyota-mirai-jpd20",
    "name": "Toyota Mirai (JPD20)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-mirai-jpd10.jpg?v=d5b2a57b",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-mirai-jpd20",
@@ -5943,7 +5951,11 @@ const CARS_INDEX = [
    "name": "Toyota Mirai (JPD10)"
   },
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-mirai-jpd20.jpg?v=9dc62ae9",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-86-zn6",
@@ -5993,7 +6005,11 @@ const CARS_INDEX = [
    "id": "toyota-gr86-zn8",
    "name": "Toyota GR86 (ZN8)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-86-zn6.jpg?v=0329a493",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-gr86-zn8",
@@ -6040,6 +6056,10 @@ const CARS_INDEX = [
    "name": "Toyota 86 (ZN6)"
   },
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-gr86-zn8.jpg?v=da773ffb",
+   "pos": "",
+   "fit": ""
+  }
  }
 ];

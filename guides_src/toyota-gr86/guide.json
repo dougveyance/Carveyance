@@ -123,5 +123,33 @@
       "credit": "Toyota",
       "alt": "A red 2017 Toyota 86 parked below a mountain"
     }
+  },
+  "find": {
+    "picker": [
+      {
+        "model": "86",
+        "years": "2017–2020",
+        "ch": "review"
+      },
+      {
+        "model": "GR86",
+        "years": "2022–2026",
+        "ch": "review"
+      }
+    ],
+    "terms": {
+      "review": [
+        "86",
+        "GR86",
+        "Toyota 86",
+        "Scion FR-S",
+        "FR-S",
+        "manual"
+      ],
+      "used-checklist": [
+        "used",
+        "checklist"
+      ]
+    }
   }
 }

@@ -262,5 +262,70 @@
       "credit": "Toyota",
       "alt": "Two current Toyota Camrys, one blue and one gray with a black roof, on a cobblestone plaza"
     }
+  },
+  "find": {
+    "picker": [
+      {
+        "model": "Camry",
+        "years": "2017",
+        "ch": "2018-2024#and-the-2017"
+      },
+      {
+        "model": "Camry",
+        "years": "2018–2024",
+        "ch": "2018-2024"
+      },
+      {
+        "model": "Camry",
+        "years": "2025–2026",
+        "ch": "2025-2026"
+      },
+      {
+        "model": "Camry Hybrid",
+        "years": "2017–2024",
+        "ch": "hybrid-2017-2024"
+      },
+      {
+        "model": "Camry Hybrid",
+        "years": "2025–2026",
+        "ch": "2025-2026"
+      }
+    ],
+    "terms": {
+      "": [
+        "L",
+        "LE",
+        "SE",
+        "XLE",
+        "XSE"
+      ],
+      "2018-2024": [
+        "4-cylinder",
+        "2.5-liter",
+        "eighth generation",
+        "XV70"
+      ],
+      "v6-and-trd": [
+        "V6",
+        "3.5-liter",
+        "TRD"
+      ],
+      "hybrid-2017-2024": [
+        "hybrid",
+        "Camry Hybrid"
+      ],
+      "2025-2026": [
+        "Nightshade",
+        "AWD",
+        "all-wheel drive",
+        "ninth generation",
+        "XV80"
+      ],
+      "used-checklist": [
+        "used",
+        "checklist",
+        "recalls"
+      ]
+    }
   }
 }

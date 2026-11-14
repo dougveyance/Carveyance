@@ -169,5 +169,43 @@
       "credit": "Toyota",
       "alt": "The cargo area of a 2022 Toyota Corolla Cross with the rear seats up"
     }
+  },
+  "find": {
+    "picker": [
+      {
+        "model": "Corolla Cross",
+        "years": "2022–2026",
+        "ch": "years-and-trims"
+      },
+      {
+        "model": "Corolla Cross Hybrid",
+        "years": "2023–2026",
+        "ch": "gas-or-hybrid"
+      }
+    ],
+    "terms": {
+      "years-and-trims": [
+        "trim",
+        "trims",
+        "grade",
+        "grades",
+        "L",
+        "LE",
+        "XLE",
+        "S",
+        "SE",
+        "XSE",
+        "Nightshade"
+      ],
+      "gas-or-hybrid": [
+        "hybrid",
+        "Corolla Cross Hybrid"
+      ],
+      "used-checklist": [
+        "used",
+        "checklist",
+        "recalls"
+      ]
+    }
   }
 }

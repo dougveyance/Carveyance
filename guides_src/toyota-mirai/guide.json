@@ -104,5 +104,27 @@
       "credit": "Toyota",
       "alt": "A blue 2021 Toyota Mirai Limited at a hydrogen fueling station"
     }
+  },
+  "find": {
+    "picker": [
+      {
+        "model": "Mirai",
+        "years": "2017–2026",
+        "ch": "review"
+      }
+    ],
+    "terms": {
+      "review": [
+        "hydrogen",
+        "fuel cell",
+        "XLE",
+        "Limited"
+      ],
+      "used-checklist": [
+        "used",
+        "checklist",
+        "fueling"
+      ]
+    }
   }
 }

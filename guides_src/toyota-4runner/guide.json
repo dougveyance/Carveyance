@@ -52,5 +52,16 @@
     "ch6-hero": {"want": "An old and a new 4Runner side by side", "alt": "A 2017 Toyota 4Runner beside a 2025 4Runner, pointing in opposite directions", "caption": "The fork in the road: a 2017 TRD Off-Road Premium and a 2025 Limited", "credit": "Toyota"},
     "ch1-curio": {"want": "The 2017–2024 sliding rear cargo deck, pulled out", "alt": "The sliding rear cargo deck of a fifth-generation Toyota 4Runner, rolled out over the bumper", "caption": "The sliding deck, rolled out over the bumper", "credit": "4runners.com"},
     "ch2-curio": {"want": "A 4Runner with its rear window rolled down", "alt": "A golden retriever puppy looking out of the open rear window of a fifth-generation Toyota 4Runner TRD Pro", "caption": "Some passengers appreciate the window more than others", "credit": "Angelo Mauricio Guzman Bressan"}
+  },
+  "find": {
+    "picker": [{"model": "4Runner", "years": "2017–2024", "ch": "2017-2024-v6"},
+               {"model": "4Runner", "years": "2025–2026", "ch": "2025-2026-turbo"}],
+    "terms": {
+      "trims": ["trim", "trims", "grade", "grades", "SR5", "SR5 Premium", "TRD Sport", "TRD Off-Road", "TRD Off-Road Premium", "Limited", "Platinum", "TRD Pro", "Trailhunter", "Venture Edition", "40th Anniversary"],
+      "2017-2024-v6": ["V6", "4.0-liter", "fifth generation"],
+      "2025-2026-turbo": ["turbo", "2.4-liter", "sixth generation", "i-FORCE"],
+      "2025-2026-hybrid": ["hybrid", "i-FORCE MAX"],
+      "used-inspection": ["used", "checklist", "inspection"]
+    }
   }
 }

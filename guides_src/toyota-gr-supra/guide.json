@@ -164,5 +164,31 @@
       "credit": "Toyota",
       "alt": "A blue 2026 Toyota GR Supra 3.0 Premium parked on a rooftop, seen from the rear three-quarter"
     }
+  },
+  "find": {
+    "picker": [
+      {
+        "model": "GR Supra",
+        "years": "2020–2026",
+        "ch": "review"
+      }
+    ],
+    "terms": {
+      "review": [
+        "Supra",
+        "3.0",
+        "MkV Final Edition",
+        "Final Edition",
+        "manual"
+      ],
+      "2-0-or-3-0": [
+        "2.0",
+        "4-cylinder"
+      ],
+      "used-checklist": [
+        "used",
+        "checklist"
+      ]
+    }
   }
 }

@@ -674,6 +674,12 @@ def find_data(guides):
             land.setdefault(slug, set()).update(term_words(row["model"]) + [str(y) for y in yrs])
             byyear = picker.setdefault(g["make"], {}).setdefault(row["model"], {})
             label = g["model"] + " guide" if not slug else f"{g['model']} guide: {slugs[slug].get('nav', '')}"
+            anchor = (row.get("ch", "") or "").partition("#")[2]
+            if anchor:
+                heads = {slugify(h): h for h in re.findall(r"^## (.+)$", slugs[slug]["body"], re.M)}
+                if anchor not in heads:
+                    sys.exit(f"{g['id']}/guide.json find.picker: chapter '{slug}' has no heading with the id '{anchor}'")
+                label += f", section “{heads[anchor].strip()}”"
             for y in yrs:
                 byyear[str(y)] = [url, label]
         base = sorted(set(norm_words(g["make"]) + term_words(g["model"])))

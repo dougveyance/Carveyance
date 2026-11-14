@@ -649,7 +649,7 @@ var cards=[].slice.call(document.querySelectorAll(".chcard[data-q]")),secs=[].sl
 cnt=document.getElementById("gcount"),empty=document.getElementById("gempty"),nav=document.querySelector(".gmakes"),total=cards.length;
 function run(){var t=q.value.toLowerCase().replace(/[^a-z0-9]+/g," ").trim().split(" ").filter(Boolean),shown=0;
 cards.forEach(function(c){var ok=t.every(function(w){return (" "+c.getAttribute("data-q")).indexOf(" "+w)>-1;});c.hidden=!ok;if(ok)shown++;});
-secs.forEach(function(s){s.hidden=!s.querySelector(".chcard:not([hidden])");});
+secs.forEach(function(s){var k=s.querySelectorAll(".chcard:not([hidden])").length,sp=s.querySelector(".gmk span");s.hidden=!k;if(sp)sp.textContent=k+(k==1?" guide":" guides");});
 cnt.textContent=t.length?shown+" of "+total+" guides":total+(total==1?" guide":" guides");empty.hidden=shown>0;if(nav)nav.hidden=t.length>0;}
 q.addEventListener("input",run);if(q.value)run();})();
 </script>"""

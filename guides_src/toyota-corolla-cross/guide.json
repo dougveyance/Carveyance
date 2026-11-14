@@ -1,0 +1,173 @@
+{
+  "id": "toyota-corolla-cross",
+  "make": "Toyota",
+  "model": "Corolla Cross",
+  "years": "2022–2026",
+  "byline": "Douglas James",
+  "published": "2026-11-13",
+  "updated": "2026-11-13",
+  "cars": [
+    "toyota-corolla-cross-xg10"
+  ],
+  "shop": {
+    "cargurus": "d3154"
+  },
+  "chapters": [
+    "review",
+    "gas-or-hybrid",
+    "years-and-trims",
+    "used-checklist"
+  ],
+  "series": {
+    "gas": {
+      "name": "Gas",
+      "color": "#9aa5b1"
+    },
+    "gfwd": {
+      "name": "Gas, FWD",
+      "color": "#9aa5b1"
+    },
+    "gawd": {
+      "name": "Gas, AWD",
+      "color": "#c3cad1"
+    },
+    "hyb": {
+      "name": "Hybrid (AWD standard)",
+      "color": "#1d4b61"
+    }
+  },
+  "charts": {
+    "power": {
+      "n": 2,
+      "title": "Horsepower",
+      "sub": "Peak or combined system horsepower, as Toyota rates it.",
+      "source": "Toyota",
+      "bars": [
+        [
+          "gas",
+          169,
+          "169 hp"
+        ],
+        [
+          "hyb",
+          196,
+          "196 hp"
+        ]
+      ]
+    },
+    "mpg": {
+      "n": 1,
+      "title": "Fuel economy",
+      "sub": "EPA combined miles per gallon for the 2022–2026 Corolla Cross. Toyota's 2027 estimates are 1 mpg lower for the gas models and unchanged for the hybrid.",
+      "source": "EPA ratings and Toyota",
+      "bars": [
+        [
+          "gfwd",
+          32,
+          "32 mpg"
+        ],
+        [
+          "gawd",
+          30,
+          "30 mpg"
+        ],
+        [
+          "hyb",
+          42,
+          "42 mpg"
+        ]
+      ]
+    },
+    "fuelcost": {
+      "n": 4,
+      "title": "A year of fuel",
+      "sub": "12,000 miles at $4 a gallon, using the EPA combined figures in chart 2. An example, not a forecast.",
+      "source": "Carveyance arithmetic from EPA ratings",
+      "bars": [
+        [
+          "gfwd",
+          1500,
+          "$1,500 · 375 gal"
+        ],
+        [
+          "gawd",
+          1600,
+          "$1,600 · 400 gal"
+        ],
+        [
+          "hyb",
+          1143,
+          "$1,143 · 286 gal"
+        ]
+      ]
+    },
+    "zero60": {
+      "n": 3,
+      "title": "0 to 60 mph, tested",
+      "sub": "Car and Driver's results, in seconds: a 2022 gas Corolla Cross and a 2023 Hybrid XSE. A shorter bar is quicker.",
+      "source": "Car and Driver",
+      "bars": [
+        [
+          "gas",
+          9.2,
+          "9.2 sec"
+        ],
+        [
+          "hyb",
+          7.3,
+          "7.3 sec (XSE)"
+        ]
+      ]
+    },
+    "cargo": {
+      "n": 5,
+      "title": "Cargo space behind the rear seat",
+      "sub": "Cubic feet. All-wheel-drive gas models and every hybrid lose some floor space to the rear drive hardware.",
+      "source": "Toyota",
+      "bars": [
+        [
+          "gfwd",
+          24.0,
+          "24.0 cu ft"
+        ],
+        [
+          "gawd",
+          21.5,
+          "21.5 cu ft"
+        ],
+        [
+          "hyb",
+          21.5,
+          "21.5 cu ft"
+        ]
+      ]
+    }
+  },
+  "photos": {
+    "hub-hero": {
+      "want": "A 2026 Corolla Cross (gas or hybrid), outside, front three-quarter",
+      "credit": "Toyota",
+      "alt": "A 2026 Toyota Corolla Cross"
+    },
+    "ch1-hero": {
+      "want": "A 2022–2025 Corolla Cross (gas), outside",
+      "credit": "Toyota",
+      "alt": "A Toyota Corolla Cross"
+    },
+    "ch2-hero": {
+      "want": "A Corolla Cross Hybrid, ideally an SE or XSE",
+      "credit": "Toyota",
+      "alt": "A Toyota Corolla Cross Hybrid"
+    },
+    "ch3-hero": {
+      "want": "A 2026 Corolla Cross showing the new front end, or the 2026 interior",
+      "credit": "Toyota",
+      "alt": "The 2026 Toyota Corolla Cross"
+    },
+    "ch4-hero": {
+      "want": "A 2022–2023 Corolla Cross, outside, or its cargo area",
+      "credit": "Toyota",
+      "alt": "A first-year Toyota Corolla Cross"
+    }
+  }
+}

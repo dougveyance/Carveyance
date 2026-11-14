@@ -1,0 +1,336 @@
+{
+  "id": "toyota-corolla",
+  "make": "Toyota",
+  "model": "Corolla",
+  "years": "2017–2026",
+  "byline": "Sloane Whitaker",
+  "published": "2026-11-13",
+  "updated": "2026-11-13",
+  "cars": [
+    "toyota-corolla-e170",
+    "toyota-corolla-im",
+    "toyota-corolla-e210",
+    "toyota-gr-corolla"
+  ],
+  "shop": {
+    "cargurus": "d295"
+  },
+  "chapters": [
+    "sedan",
+    "hybrid",
+    "hatchback",
+    "gr-corolla",
+    "used-checklist",
+    "which-corolla"
+  ],
+  "series": {
+    "e170": {
+      "name": "2017–2019 sedan",
+      "color": "#c3cad1"
+    },
+    "im": {
+      "name": "2017–2018 Corolla iM",
+      "color": "#c3cad1"
+    },
+    "s18": {
+      "name": "2020–2022 sedan, 1.8-liter",
+      "color": "#9aa5b1"
+    },
+    "s20": {
+      "name": "2020–2026 sedan, 2.0-liter",
+      "color": "#9aa5b1"
+    },
+    "hatch": {
+      "name": "2019–2026 hatchback",
+      "color": "#2E6E96"
+    },
+    "hyb1": {
+      "name": "2020–2022 hybrid",
+      "color": "#1d4b61"
+    },
+    "hyb2": {
+      "name": "2023–2026 hybrid",
+      "color": "#1d4b61"
+    },
+    "gr": {
+      "name": "2023–2026 GR Corolla",
+      "color": "#e05c2a"
+    },
+    "s20a": {
+      "name": "2020–2022 sedan, 2.0-liter",
+      "color": "#9aa5b1"
+    },
+    "s23": {
+      "name": "2023–2026 sedan, 2.0-liter",
+      "color": "#2E6E96"
+    },
+    "gr-m": {
+      "name": "GR Corolla, manual",
+      "color": "#e05c2a"
+    },
+    "gr-a": {
+      "name": "GR Corolla, automatic",
+      "color": "#e05c2a"
+    },
+    "grp-m": {
+      "name": "Premium Plus, manual",
+      "color": "#e05c2a"
+    },
+    "grp-a": {
+      "name": "Premium Plus, automatic",
+      "color": "#e05c2a"
+    }
+  },
+  "charts": {
+    "power": {
+      "n": 5,
+      "title": "Horsepower by Corolla",
+      "sub": "Peak or combined system horsepower, as Toyota rates it.",
+      "source": "Toyota",
+      "bars": [
+        [
+          "e170",
+          132,
+          "132 hp (LE Eco 140)"
+        ],
+        [
+          "im",
+          137,
+          "137 hp"
+        ],
+        [
+          "s18",
+          139,
+          "139 hp"
+        ],
+        [
+          "s20",
+          169,
+          "169 hp (hatchback 168)"
+        ],
+        [
+          "hatch",
+          168,
+          "168 hp"
+        ],
+        [
+          "hyb1",
+          121,
+          "121 hp"
+        ],
+        [
+          "hyb2",
+          138,
+          "138 hp"
+        ],
+        [
+          "gr",
+          300,
+          "300 hp"
+        ]
+      ]
+    },
+    "mpg": {
+      "n": 6,
+      "title": "Fuel economy, best version of each",
+      "sub": "EPA combined miles per gallon for the most efficient version of each Corolla. Other grades are rated a little lower.",
+      "source": "EPA ratings",
+      "bars": [
+        [
+          "e170",
+          32,
+          "32 mpg (L, LE, XLE)"
+        ],
+        [
+          "im",
+          31,
+          "31 mpg (CVT)"
+        ],
+        [
+          "s18",
+          33,
+          "33 mpg (L, LE)"
+        ],
+        [
+          "s20",
+          35,
+          "35 mpg (2023–2026 LE)"
+        ],
+        [
+          "hatch",
+          36,
+          "36 mpg (2019 SE CVT)"
+        ],
+        [
+          "hyb1",
+          52,
+          "52 mpg"
+        ],
+        [
+          "hyb2",
+          50,
+          "50 mpg (LE, XLE FWD)"
+        ],
+        [
+          "gr",
+          24,
+          "24 mpg (manual)"
+        ]
+      ]
+    },
+    "fuelcost": {
+      "n": 2,
+      "title": "A year of fuel",
+      "sub": "12,000 miles at $4 a gallon, using the EPA combined figures in chart 2. An example, not a forecast.",
+      "source": "Carveyance arithmetic from EPA ratings",
+      "bars": [
+        [
+          "e170",
+          1500,
+          "$1,500 · 375 gal"
+        ],
+        [
+          "s20",
+          1371,
+          "$1,371 · 343 gal"
+        ],
+        [
+          "hatch",
+          1333,
+          "$1,333 · 333 gal"
+        ],
+        [
+          "hyb1",
+          923,
+          "$923 · 231 gal"
+        ],
+        [
+          "hyb2",
+          960,
+          "$960 · 240 gal"
+        ],
+        [
+          "gr",
+          2000,
+          "$2,000 · 500 gal"
+        ]
+      ]
+    },
+    "sedanmpg": {
+      "n": 1,
+      "title": "Gas sedan fuel economy by era",
+      "sub": "EPA combined miles per gallon for the most efficient gas sedan of each era. The 2.0-liter beat the 1.8-liter it replaced.",
+      "source": "EPA ratings",
+      "bars": [
+        [
+          "e170",
+          32,
+          "32 mpg (LE Eco 34)"
+        ],
+        [
+          "s18",
+          33,
+          "33 mpg (L, LE)"
+        ],
+        [
+          "s20a",
+          34,
+          "34 mpg (SE CVT)"
+        ],
+        [
+          "s23",
+          35,
+          "35 mpg (LE)"
+        ]
+      ]
+    },
+    "zero60": {
+      "n": 3,
+      "title": "0 to 60 mph, tested",
+      "sub": "Car and Driver's results, in seconds: a 2017 Corolla XSE sedan, a 2017 Corolla iM and a 2019 Corolla Hatchback, all with the CVT. A shorter bar is quicker.",
+      "source": "Car and Driver",
+      "bars": [
+        [
+          "e170",
+          9.5,
+          "9.5 sec"
+        ],
+        [
+          "im",
+          9.1,
+          "9.1 sec"
+        ],
+        [
+          "hatch",
+          8.3,
+          "8.3 sec"
+        ]
+      ]
+    },
+    "grprice": {
+      "n": 4,
+      "title": "2026 GR Corolla prices",
+      "sub": "Manufacturer's suggested retail price, before the $1,195 destination charge.",
+      "source": "Toyota GR",
+      "bars": [
+        [
+          "gr-m",
+          39920,
+          "$39,920"
+        ],
+        [
+          "gr-a",
+          41920,
+          "$41,920"
+        ],
+        [
+          "grp-m",
+          45965,
+          "$45,965"
+        ],
+        [
+          "grp-a",
+          47965,
+          "$47,965"
+        ]
+      ]
+    }
+  },
+  "photos": {
+    "hub-hero": {
+      "want": "A 2023–2026 Corolla sedan, outside, front three-quarter",
+      "credit": "Toyota",
+      "alt": "A Toyota Corolla sedan"
+    },
+    "ch1-hero": {
+      "want": "A 2020–2026 Corolla sedan (LE, SE or XSE), outside",
+      "credit": "Toyota",
+      "alt": "A 12th-generation Toyota Corolla sedan"
+    },
+    "ch2-hero": {
+      "want": "A Corolla Hybrid, ideally a 2023–2026 SE or XLE",
+      "credit": "Toyota",
+      "alt": "A Toyota Corolla Hybrid"
+    },
+    "ch3-hero": {
+      "want": "A 2019–2026 Corolla Hatchback, outside",
+      "credit": "Toyota",
+      "alt": "A Toyota Corolla Hatchback"
+    },
+    "ch4-hero": {
+      "want": "A GR Corolla, driving or on track",
+      "credit": "Toyota",
+      "alt": "A Toyota GR Corolla"
+    },
+    "ch5-hero": {
+      "want": "A 2017–2019 Corolla sedan, outside",
+      "credit": "Toyota",
+      "alt": "An 11th-generation Toyota Corolla sedan"
+    },
+    "ch6-hero": {
+      "want": "Two or more Corollas together (sedan, hatchback, GR)",
+      "credit": "Toyota",
+      "alt": "Toyota Corolla models together"
+    }
+  }
+}

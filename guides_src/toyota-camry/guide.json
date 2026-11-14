@@ -1,0 +1,266 @@
+{
+  "id": "toyota-camry",
+  "make": "Toyota",
+  "model": "Camry",
+  "years": "2017–2026",
+  "byline": "Nathaniel Ruiz",
+  "published": "2026-11-13",
+  "updated": "2026-11-13",
+  "cars": [
+    "toyota-camry-xv50",
+    "toyota-camry-xv70",
+    "toyota-camry-xv80"
+  ],
+  "shop": {
+    "cargurus": "d292"
+  },
+  "chapters": [
+    "2018-2024",
+    "v6-and-trd",
+    "hybrid-2017-2024",
+    "2025-2026",
+    "used-checklist",
+    "gas-hybrid-or-v6"
+  ],
+  "series": {
+    "c17": {
+      "name": "2017 2.5-liter",
+      "color": "#c3cad1"
+    },
+    "four": {
+      "name": "2018–2024 2.5-liter",
+      "color": "#9aa5b1"
+    },
+    "v6": {
+      "name": "2018–2024 3.5-liter V6",
+      "color": "#e05c2a"
+    },
+    "hyb": {
+      "name": "2018–2024 hybrid",
+      "color": "#1d4b61"
+    },
+    "h25": {
+      "name": "2025–2026 hybrid",
+      "color": "#2E6E96"
+    },
+    "g-le": {
+      "name": "LE FWD",
+      "color": "#2E6E96"
+    },
+    "g-leawd": {
+      "name": "LE AWD",
+      "color": "#2E6E96"
+    },
+    "g-fwd": {
+      "name": "SE, Nightshade, XLE, XSE FWD",
+      "color": "#2E6E96"
+    },
+    "g-awd": {
+      "name": "SE, Nightshade, XLE AWD",
+      "color": "#2E6E96"
+    },
+    "g-xseawd": {
+      "name": "XSE AWD",
+      "color": "#2E6E96"
+    }
+  },
+  "charts": {
+    "mpg": {
+      "n": 1,
+      "title": "Fuel economy, best version of each",
+      "sub": "EPA combined miles per gallon for the most efficient front-drive version of each powertrain. Upper grades, bigger wheels and AWD rate lower.",
+      "source": "EPA ratings",
+      "bars": [
+        [
+          "c17",
+          27,
+          "27 mpg"
+        ],
+        [
+          "four",
+          32,
+          "32 mpg (LE, SE)"
+        ],
+        [
+          "v6",
+          26,
+          "26 mpg"
+        ],
+        [
+          "hyb",
+          52,
+          "52 mpg (Hybrid LE)"
+        ],
+        [
+          "h25",
+          51,
+          "51 mpg (LE)"
+        ]
+      ]
+    },
+    "zero60": {
+      "n": 2,
+      "title": "0 to 60 mph, tested",
+      "sub": "Car and Driver's results, in seconds: a 2018 SE four-cylinder, a 2018 XLE Hybrid, a 2018 XSE V6 and a 2025 XSE AWD hybrid. A shorter bar is quicker.",
+      "source": "Car and Driver",
+      "bars": [
+        [
+          "four",
+          7.9,
+          "7.9 sec (SE)"
+        ],
+        [
+          "hyb",
+          7.9,
+          "7.9 sec (XLE)"
+        ],
+        [
+          "v6",
+          5.8,
+          "5.8 sec (XSE)"
+        ],
+        [
+          "h25",
+          6.8,
+          "6.8 sec (XSE AWD)"
+        ]
+      ]
+    },
+    "fuelcost": {
+      "n": 3,
+      "title": "A year of fuel",
+      "sub": "12,000 miles at $4 a gallon, using the EPA combined figures in chart 1. An example, not a forecast.",
+      "source": "Carveyance arithmetic from EPA ratings",
+      "bars": [
+        [
+          "c17",
+          1778,
+          "$1,778 · 444 gal"
+        ],
+        [
+          "four",
+          1500,
+          "$1,500 · 375 gal"
+        ],
+        [
+          "v6",
+          1846,
+          "$1,846 · 462 gal"
+        ],
+        [
+          "hyb",
+          923,
+          "$923 · 231 gal"
+        ],
+        [
+          "h25",
+          941,
+          "$941 · 235 gal"
+        ]
+      ]
+    },
+    "mpg25": {
+      "n": 4,
+      "title": "2025–2026 Camry, by grade",
+      "sub": "EPA combined miles per gallon. Every version is a hybrid; the LE is tuned for economy, and AWD and bigger wheels cost a little. The Nightshade Edition arrived for 2026.",
+      "source": "EPA ratings",
+      "bars": [
+        [
+          "g-le",
+          51,
+          "51 mpg"
+        ],
+        [
+          "g-leawd",
+          50,
+          "50 mpg"
+        ],
+        [
+          "g-fwd",
+          47,
+          "47 mpg"
+        ],
+        [
+          "g-awd",
+          46,
+          "46 mpg"
+        ],
+        [
+          "g-xseawd",
+          44,
+          "44 mpg"
+        ]
+      ]
+    },
+    "power": {
+      "n": 5,
+      "title": "Power, by engine",
+      "sub": "Horsepower as Toyota quotes it. The hybrid figures are combined gas and electric output.",
+      "source": "Toyota",
+      "bars": [
+        [
+          "c17",
+          178,
+          "178 hp"
+        ],
+        [
+          "four",
+          203,
+          "203 hp (206 XSE)"
+        ],
+        [
+          "hyb",
+          208,
+          "208 hp"
+        ],
+        [
+          "h25",
+          225,
+          "225 hp (232 AWD)"
+        ],
+        [
+          "v6",
+          301,
+          "301 hp"
+        ]
+      ]
+    }
+  },
+  "photos": {
+    "hub-hero": {
+      "want": "A 2025–2026 Camry, outside, front three-quarter",
+      "credit": "Toyota",
+      "alt": "A 2025–2026 Toyota Camry"
+    },
+    "ch1-hero": {
+      "want": "A 2021–2024 Camry four-cylinder (SE or XLE), outside",
+      "credit": "Toyota",
+      "alt": "An eighth-generation Toyota Camry"
+    },
+    "ch2-hero": {
+      "want": "A Camry TRD, or a Camry XSE V6",
+      "credit": "Toyota",
+      "alt": "A Toyota Camry TRD"
+    },
+    "ch3-hero": {
+      "want": "A 2018–2024 Camry Hybrid, outside",
+      "credit": "Toyota",
+      "alt": "An eighth-generation Toyota Camry Hybrid"
+    },
+    "ch4-hero": {
+      "want": "A 2025–2026 Camry driving, ideally AWD",
+      "credit": "Toyota",
+      "alt": "A 2025–2026 Toyota Camry driving"
+    },
+    "ch5-hero": {
+      "want": "A 2017 Camry (seventh generation), outside",
+      "credit": "Toyota",
+      "alt": "A 2017 Toyota Camry"
+    },
+    "ch6-hero": {
+      "want": "Two or three Camrys together, or a Camry XSE",
+      "credit": "Toyota",
+      "alt": "Toyota Camry models together"
+    }
+  }
+}

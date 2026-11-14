@@ -6061,5 +6061,415 @@ const CARS_INDEX = [
    "pos": "",
    "fit": ""
   }
+ },
+ {
+  "id": "toyota-camry-xv50",
+  "name": "Toyota Camry (XV50)",
+  "aka": [],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2012–2017",
+  "start": 2012,
+  "body": "Four-door sedan",
+  "engine": "2.5-liter 4-cylinder, 3.5-liter V6 or 2.5-liter hybrid",
+  "country": "United States",
+  "quick": "The last of the older Camrys: a roomy, quiet front-drive sedan with a choice of 4-cylinder, V6 or hybrid power. Comfortable and sensible rather than exciting, and a generation behind the 2018 car in cabin and safety tech.",
+  "articles": [
+   "industry-brief-2026-10-05",
+   "losing-at-home",
+   "the-prius-paradox"
+  ],
+  "latest": "2026-10-05",
+  "ownDates": [],
+  "dates": [
+   "2026-10-05"
+  ],
+  "drive": "Front-wheel drive",
+  "gearbox": "6-speed automatic (hybrid: CVT)",
+  "specsFor": "2016 Toyota Camry SE, 2.5-liter, US market (Car and Driver test car)",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-camry/",
+   "title": "The Toyota Camry Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d292"
+  },
+  "hp": 178,
+  "kg": 1496,
+  "kgNote": "Curb weight, as tested",
+  "z60": {
+   "sec": 8.0,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": null,
+   "name": "Toyota Camry (XV40)"
+  },
+  "next": {
+   "id": "toyota-camry-xv70",
+   "name": "Toyota Camry (XV70)"
+  },
+  "photo": null
+ },
+ {
+  "id": "toyota-camry-xv70",
+  "name": "Toyota Camry (XV70)",
+  "aka": [],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2018–2024",
+  "start": 2018,
+  "body": "Four-door sedan",
+  "engine": "2.5-liter 4-cylinder, 3.5-liter V6 or 2.5-liter hybrid",
+  "country": "United States",
+  "quick": "The Camry that shook off its dull image: lower, sharper and better to drive, with a 203-hp 4-cylinder, a 301-hp V6 and a 52-mpg hybrid. All-wheel drive arrived for 2020, and so did a TRD version with a rear wing.",
+  "articles": [
+   "industry-brief-2026-10-05",
+   "losing-at-home",
+   "the-prius-paradox"
+  ],
+  "latest": "2026-10-05",
+  "ownDates": [],
+  "dates": [
+   "2026-10-05"
+  ],
+  "drive": "Front-wheel drive (all-wheel drive on 4-cylinder models, 2020–2024)",
+  "gearbox": "8-speed automatic (hybrid: CVT)",
+  "specsFor": "2018 Toyota Camry SE, 2.5-liter, US market (Car and Driver test car)",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-camry/",
+   "title": "The Toyota Camry Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d292"
+  },
+  "hp": 203,
+  "kg": 1546,
+  "kgNote": "Curb weight, as tested",
+  "z60": {
+   "sec": 7.9,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "toyota-camry-xv50",
+   "name": "Toyota Camry (XV50)"
+  },
+  "next": {
+   "id": "toyota-camry-xv80",
+   "name": "Toyota Camry (XV80)"
+  },
+  "photo": null
+ },
+ {
+  "id": "toyota-camry-xv80",
+  "name": "Toyota Camry (XV80)",
+  "aka": [],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2025–present",
+  "start": 2025,
+  "body": "Four-door sedan",
+  "engine": "2.5-liter 4-cylinder hybrid",
+  "country": "United States",
+  "quick": "The first Camry sold only as a hybrid: 225 hp with front-wheel drive or 232 hp with all-wheel drive, which is available on every grade, and up to 51 mpg. Built in Kentucky, it's also the most powerful base Camry yet.",
+  "articles": [
+   "industry-brief-2026-10-05",
+   "losing-at-home",
+   "the-prius-paradox"
+  ],
+  "latest": "2026-10-05",
+  "ownDates": [],
+  "dates": [
+   "2026-10-05"
+  ],
+  "drive": "Front-wheel drive or all-wheel drive",
+  "gearbox": "Electronically controlled CVT",
+  "specsFor": "2025 Toyota Camry XSE AWD, US market (Road & Track test car, with Car and Driver's 0–60 time)",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-camry/",
+   "title": "The Toyota Camry Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d292"
+  },
+  "hp": 232,
+  "kg": 1712,
+  "kgNote": "Curb weight, as tested",
+  "z60": {
+   "sec": 6.8,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "toyota-camry-xv70",
+   "name": "Toyota Camry (XV70)"
+  },
+  "next": null,
+  "photo": null
+ },
+ {
+  "id": "toyota-corolla-e170",
+  "name": "Toyota Corolla (E170)",
+  "aka": [],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2014–2019",
+  "start": 2014,
+  "body": "Four-door sedan",
+  "engine": "1.8-liter 4-cylinder",
+  "country": "United States",
+  "quick": "The 11th-generation Corolla sedan: roomy, frugal and famously slow, with a 132-hp 1.8-liter. From 2017, every one came with automatic emergency braking and radar cruise control as standard.",
+  "articles": [
+   "industry-brief-2026-11-02",
+   "the-car-that-carried-the-world",
+   "the-prius-paradox"
+  ],
+  "latest": "2026-11-02",
+  "ownDates": [],
+  "dates": [
+   "2026-11-02",
+   "2026-10-05"
+  ],
+  "drive": "Front-wheel drive",
+  "gearbox": "CVT or 6-speed manual (4-speed automatic on early base cars)",
+  "specsFor": "2017 Toyota Corolla XSE, CVT, US market (Car and Driver test car)",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-corolla/",
+   "title": "The Toyota Corolla Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d295"
+  },
+  "hp": 132,
+  "kg": 1341,
+  "kgNote": "Curb weight, as tested",
+  "z60": {
+   "sec": 9.5,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": null,
+   "name": "Toyota Corolla (E140)"
+  },
+  "next": {
+   "id": "toyota-corolla-e210",
+   "name": "Toyota Corolla (E210)"
+  },
+  "photo": null
+ },
+ {
+  "id": "toyota-corolla-im",
+  "name": "Toyota Corolla iM",
+  "aka": [
+   "Scion iM",
+   "Toyota Auris"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2016–2018",
+  "start": 2016,
+  "body": "Five-door hatchback",
+  "engine": "1.8-liter 4-cylinder",
+  "country": "Japan",
+  "quick": "A well-equipped, well-made hatchback that started life as the Scion iM. It had a more sophisticated independent rear suspension than the Corolla sedan, but its 137-hp engine kept it slow.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Front-wheel drive",
+  "gearbox": "6-speed manual or CVT",
+  "specsFor": "2017 Toyota Corolla iM, CVT, US market (Car and Driver test car)",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-corolla/",
+   "title": "The Toyota Corolla Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d295"
+  },
+  "hp": 137,
+  "kg": 1374,
+  "kgNote": "Curb weight, as tested",
+  "z60": {
+   "sec": 9.1,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": "toyota-corolla-e210",
+   "name": "Toyota Corolla (E210)"
+  },
+  "photo": null
+ },
+ {
+  "id": "toyota-corolla-e210",
+  "name": "Toyota Corolla (E210)",
+  "aka": [],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2019–present",
+  "start": 2019,
+  "body": "Four-door sedan or five-door hatchback",
+  "engine": "1.8- or 2.0-liter 4-cylinder, or 1.8-liter hybrid",
+  "country": "United States",
+  "quick": "The 12th-generation Corolla: a sharper, better-made car in sedan, hatchback and hybrid form. The 2.0-liter is the engine to have, standard on every gas sedan from 2023, the year the hybrid added all-wheel drive.",
+  "articles": [
+   "industry-brief-2026-11-02",
+   "the-car-that-carried-the-world",
+   "the-prius-paradox"
+  ],
+  "latest": "2026-11-02",
+  "ownDates": [],
+  "dates": [
+   "2026-11-02",
+   "2026-10-05"
+  ],
+  "drive": "Front-wheel drive (hybrid all-wheel drive available from 2023)",
+  "gearbox": "CVT or 6-speed manual (manual to 2022)",
+  "specsFor": "2019 Toyota Corolla Hatchback, CVT, US market (Car and Driver 0–60 test; the weight is Toyota's figure)",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-corolla/",
+   "title": "The Toyota Corolla Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d295"
+  },
+  "hp": 168,
+  "kg": 1388,
+  "kgNote": "Curb weight",
+  "z60": {
+   "sec": 8.3,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [
+   {
+    "id": "toyota-gr-corolla",
+    "name": "Toyota GR Corolla"
+   }
+  ],
+  "prev": {
+   "id": "toyota-corolla-e170",
+   "name": "Toyota Corolla (E170)"
+  },
+  "next": null,
+  "photo": null
+ },
+ {
+  "id": "toyota-gr-corolla",
+  "name": "Toyota GR Corolla",
+  "aka": [],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2023–present",
+  "start": 2023,
+  "body": "Five-door hatchback",
+  "engine": "1.6-liter turbocharged 3-cylinder",
+  "country": "Japan",
+  "quick": "A 300-hp, all-wheel-drive, turbocharged 3-cylinder hot hatch, built in a dedicated GR Factory and launched with a manual only. The Corolla for people who'd rather be on a rally stage.",
+  "articles": [
+   "the-car-that-carried-the-world"
+  ],
+  "latest": "2026-11-02",
+  "ownDates": [],
+  "dates": [
+   "2026-11-02"
+  ],
+  "drive": "All-wheel drive",
+  "gearbox": "6-speed manual (8-speed automatic optional from 2025)",
+  "specsFor": "2023 Toyota GR Corolla Core, US market (Toyota figures)",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-corolla/",
+   "title": "The Toyota Corolla Buyer's Guide"
+  },
+  "shop": null,
+  "hp": 300,
+  "kg": 1475,
+  "kgNote": "Curb weight",
+  "z60": {
+   "sec": 5.0,
+   "kind": "claimed",
+   "note": "Maker's claim, 4.99 sec"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [
+   {
+    "id": "toyota-corolla-e210",
+    "name": "Toyota Corolla (E210)"
+   },
+   {
+    "id": null,
+    "name": "Toyota GR Yaris"
+   }
+  ],
+  "prev": null,
+  "next": null,
+  "photo": null
+ },
+ {
+  "id": "toyota-corolla-cross-xg10",
+  "name": "Toyota Corolla Cross (XG10)",
+  "aka": [],
+  "make": "Toyota",
+  "maker": "Mazda Toyota Manufacturing, for Toyota",
+  "years": "2022–present",
+  "start": 2022,
+  "body": "Small SUV",
+  "engine": "2.0-liter 4-cylinder, or 2.0-liter hybrid",
+  "country": "United States",
+  "quick": "The Corolla as a small SUV: practical, efficient and built in Alabama. The gas model is slow; the hybrid, added for 2023, has 196 hp, standard all-wheel drive and 42 mpg.",
+  "articles": [
+   "the-car-that-carried-the-world"
+  ],
+  "latest": "2026-11-02",
+  "ownDates": [],
+  "dates": [
+   "2026-11-02"
+  ],
+  "drive": "Front-wheel drive or all-wheel drive (hybrid: all-wheel drive)",
+  "gearbox": "CVT (hybrid: electronically controlled CVT)",
+  "specsFor": "Toyota Corolla Cross Hybrid XSE, US market (Car and Driver's 0–60 test of a 2023; the weight is Edmunds' figure for a 2024)",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-corolla-cross/",
+   "title": "The Toyota Corolla Cross Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d3154"
+  },
+  "hp": 196,
+  "kg": 1556,
+  "kgNote": "Curb weight",
+  "z60": {
+   "sec": 7.3,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": null,
+  "next": null,
+  "photo": null
  }
 ];

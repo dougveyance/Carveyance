@@ -7475,5 +7475,504 @@ const CARS = [
       "title": "The Toyota Grand Highlander Buyer's Guide",
       "blurb": "Gas, Hybrid or Hybrid MAX, which year and grade to buy, and the used-car checklist with the recalls to check, in 6 chapters."
     }
+  },
+  {
+    "id": "toyota-tacoma-n300",
+    "name": "Toyota Tacoma (N300)",
+    "aka": [
+      "Third-generation Tacoma",
+      "Tacoma TRD Pro",
+      "Tacoma TRD Off-Road"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Mexico and United States",
+    "years": "2016–2023",
+    "start": 2016,
+    "end": 2023,
+    "shop": {
+      "cargurus": "d311"
+    },
+    "body": "Midsize pickup truck (Access Cab or Double Cab)",
+    "engine": "3.5-liter V6 or 2.7-liter 4-cylinder",
+    "drive": "Rear-wheel drive or part-time 4-wheel drive with low range",
+    "gearbox": "6-speed automatic or 6-speed manual (4-cylinder: 6-speed automatic, 5-speed manual for 2017)",
+    "specsFor": "2017 Toyota Tacoma TRD Pro V6, US market (Car and Driver test truck)",
+    "power": {
+      "hp": 278,
+      "note": "3.5-liter V6 (2.7-liter 4-cylinder: 159 hp)",
+      "src": "https://pressroom.toyota.com/2017-tacoma-welcomes-new-trd-pro-lineup/"
+    },
+    "weight": {
+      "kg": 2114,
+      "note": "Curb weight, as tested",
+      "src": "https://autos.yahoo.com/2017-toyota-tacoma-trd-pro-221800920.html"
+    },
+    "zero60": {
+      "sec": 7.7,
+      "kind": "tested",
+      "note": "Car and Driver test",
+      "src": "https://autos.yahoo.com/2017-toyota-tacoma-trd-pro-221800920.html"
+    },
+    "top": null,
+    "built": null,
+    "predecessor": null,
+    "successor": {
+      "name": "Toyota Tacoma (N400)",
+      "id": "toyota-tacoma-n400"
+    },
+    "quick": "The third-generation Tacoma, with a 278-hp 3.5-liter V6 or a 159-hp 4-cylinder, leaf springs at the back and a reputation that keeps used prices high. With the V6 and the Tow Package, it's rated to tow 3,084 kg (6,800 lb).",
+    "story": [
+      "Launched for 2016, the third-generation Tacoma kept a separate ladder frame and leaf-spring rear axle. The 3.5-liter V6 makes 278 hp and 265 lb-ft with a 6-speed automatic or a 6-speed manual, and the 2.7-liter 4-cylinder makes 159 hp. Car and Driver ran a 2017 TRD Pro from 0 to 60 mph in 7.7 seconds. The TRD Off-Road and TRD Pro add a locking rear differential, and the automatic versions get Crawl Control.",
+      "Toyota Safety Sense P became standard for 2018, and Apple CarPlay and Android Auto arrived for 2020. US-market trucks were built in Mexico and, until 2021, in San Antonio, Texas. Certain 2017–2020 trucks are part of the fuel pump recall 20V-012/20V-682, and certain 2022–2023 trucks were recalled because rear axle nuts can loosen (24V-152)."
+    ],
+    "articles": [],
+    "photo": {"credit": "Toyota"},
+    "match": [
+      "Toyota Tacoma"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/toyota-tacoma/",
+      "title": "The Toyota Tacoma Buyer's Guide",
+      "blurb": "4-cylinder, V6, turbo or hybrid, which year and grade to buy, and the used-truck checklist with the recalls to check, in 6 chapters."
+    }
+  },
+  {
+    "id": "toyota-tacoma-n400",
+    "name": "Toyota Tacoma (N400)",
+    "aka": [
+      "Fourth-generation Tacoma",
+      "Tacoma i-FORCE MAX",
+      "Tacoma Hybrid",
+      "Tacoma Trailhunter",
+      "Tacoma TRD Pro"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Mexico",
+    "years": "2024–present",
+    "start": 2024,
+    "end": null,
+    "shop": {
+      "cargurus": "d311"
+    },
+    "body": "Midsize pickup truck (XtraCab or Double Cab)",
+    "engine": "2.4-liter turbo 4-cylinder, or the same engine with an electric motor (i-FORCE MAX hybrid)",
+    "drive": "Rear-wheel drive or part-time 4-wheel drive with low range",
+    "gearbox": "8-speed automatic or 6-speed manual",
+    "specsFor": "2024 Toyota Tacoma TRD Off-Road, US market (Car and Driver test truck)",
+    "power": {
+      "hp": 278,
+      "note": "2.4-liter turbo with the automatic (SR: 228 hp; manual: 270 hp; i-FORCE MAX hybrid: 326 hp)",
+      "src": "https://pressroom.toyota.com/2024-toyota-tacoma-is-the-ultimate-adventure-machine/"
+    },
+    "weight": {
+      "kg": 2175,
+      "note": "Curb weight, as tested",
+      "src": "https://autos.yahoo.com/2024-toyota-tacoma-better-tests-140000353.html"
+    },
+    "zero60": {
+      "sec": 7.0,
+      "kind": "tested",
+      "note": "Car and Driver test",
+      "src": "https://autos.yahoo.com/2024-toyota-tacoma-better-tests-140000353.html"
+    },
+    "top": null,
+    "built": null,
+    "predecessor": {
+      "name": "Toyota Tacoma (N300)",
+      "id": "toyota-tacoma-n300"
+    },
+    "successor": null,
+    "quick": "The all-new Tacoma on Toyota's TNGA-F frame, with a 2.4-liter turbo of up to 278 hp, coil springs at the back on most versions and a 326-hp i-FORCE MAX hybrid for the TRD Pro and Trailhunter.",
+    "story": [
+      "The fourth-generation Tacoma arrived for 2024 on the boxed TNGA-F ladder frame it shares with the Tundra, Sequoia and Land Cruiser. Every version uses a 2.4-liter turbo 4-cylinder: 228 hp in the SR, 278 hp and 317 lb-ft with the 8-speed automatic, 270 hp with the 6-speed manual, and 326 hp and 465 lb-ft as the i-FORCE MAX hybrid. Car and Driver ran a 2024 TRD Off-Road from 0 to 60 mph in 7.0 seconds, about 0.6 second quicker than the V6 truck it replaced.",
+      "Most grades swapped the old leaf springs for multi-link coils, and the TRD Pro can have the IsoDynamic seat, which Toyota describes as patent-pending. Early trucks have several recalls, including rear brake hoses on about 222,000 2024–2025 trucks (25V-058) and instrument panel software (25V-595)."
+    ],
+    "articles": [],
+    "photo": {"credit": "Toyota"},
+    "match": [
+      "Toyota Tacoma"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/toyota-tacoma/",
+      "title": "The Toyota Tacoma Buyer's Guide",
+      "blurb": "4-cylinder, V6, turbo or hybrid, which year and grade to buy, and the used-truck checklist with the recalls to check, in 6 chapters."
+    }
+  },
+  {
+    "id": "toyota-tundra-xk50",
+    "name": "Toyota Tundra (XK50)",
+    "aka": [
+      "Second-generation Tundra",
+      "Tundra 5.7",
+      "Tundra TRD Pro",
+      "Tundra 1794 Edition"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "United States",
+    "years": "2007–2021",
+    "start": 2007,
+    "end": 2021,
+    "shop": {
+      "cargurus": "d313"
+    },
+    "body": "Full-size pickup truck (Regular Cab, Double Cab or CrewMax)",
+    "engine": "5.7-liter V8 or 4.6-liter V8",
+    "drive": "Rear-wheel drive or part-time 4-wheel drive with low range",
+    "gearbox": "6-speed automatic",
+    "specsFor": "2020 Toyota Tundra TRD Pro, US market (Car and Driver test)",
+    "power": {
+      "hp": 381,
+      "note": "5.7-liter V8 (4.6-liter V8: 310 hp)",
+      "src": "https://pressroom.toyota.com/2017-toyota-tundra-brawny-brainy-comfortable/"
+    },
+    "weight": {
+      "kg": 2721,
+      "note": "Curb weight",
+      "src": "https://www.theday.com/automotive/20210403/toyota-tundra-trd-pro-likes-to-get-dirty/"
+    },
+    "zero60": {
+      "sec": 6.4,
+      "kind": "tested",
+      "note": "Car and Driver test",
+      "src": "https://www.theday.com/automotive/20210403/toyota-tundra-trd-pro-likes-to-get-dirty/"
+    },
+    "top": null,
+    "built": null,
+    "predecessor": null,
+    "successor": {
+      "name": "Toyota Tundra (XK70)",
+      "id": "toyota-tundra-xk70"
+    },
+    "quick": "The long-running V8 Tundra, built in San Antonio, Texas, with a 381-hp 5.7-liter V8, a 6-speed automatic and leaf springs at the back. Properly equipped, a 2017 was rated to tow 4,763 kg (10,500 lb).",
+    "story": [
+      "The second-generation Tundra went on sale for 2007 and lasted through 2021. By 2017, it offered a 310-hp 4.6-liter V8 and a 381-hp 5.7-liter V8 with 401 lb-ft, and from 2020 the 5.7 was the only engine. Car and Driver ran a 2017 CrewMax 4x4 and a 2020 TRD Pro from 0 to 60 mph in 6.4 seconds. The EPA rated a 5.7 4x4 at 14 mpg combined.",
+      "Toyota Safety Sense P was standard on every grade by 2019, and Apple CarPlay and Android Auto arrived for 2020. Certain 2018–2020 trucks are part of the fuel pump recall 20V-012/20V-682, and certain 2007–2021 trucks were recalled because the power steering gear can leak."
+    ],
+    "articles": [],
+    "photo": {"credit": "Toyota"},
+    "match": [
+      "Toyota Tundra"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/toyota-tundra/",
+      "title": "The Toyota Tundra Buyer's Guide",
+      "blurb": "V8, twin-turbo V6 or hybrid, the engine recalls, trims and towing, and the used-truck checklist, in 6 chapters."
+    }
+  },
+  {
+    "id": "toyota-tundra-xk70",
+    "name": "Toyota Tundra (XK70)",
+    "aka": [
+      "Third-generation Tundra",
+      "Tundra i-FORCE MAX",
+      "Tundra Hybrid",
+      "Tundra Capstone",
+      "Tundra TRD Pro"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "United States",
+    "years": "2022–present",
+    "start": 2022,
+    "end": null,
+    "shop": {
+      "cargurus": "d313"
+    },
+    "body": "Full-size pickup truck (Double Cab or CrewMax)",
+    "engine": "3.4-liter twin-turbo V6, or the same engine with an electric motor (i-FORCE MAX hybrid)",
+    "drive": "Rear-wheel drive or part-time 4-wheel drive with low range",
+    "gearbox": "10-speed automatic",
+    "specsFor": "2022 Toyota Tundra TRD Pro i-FORCE MAX, US market (Car and Driver test truck)",
+    "power": {
+      "hp": 437,
+      "note": "i-FORCE MAX hybrid combined output (gas V6: 389 hp; SR at launch: 348 hp)",
+      "src": "https://pressroom.toyota.com/absolute-powerhouse-next-generation-2022-toyota-tundra/"
+    },
+    "weight": {
+      "kg": 2800,
+      "note": "Curb weight, as tested",
+      "src": "https://autos.yahoo.com/2022-toyota-tundra-hybrid-cant-200000374.html"
+    },
+    "zero60": {
+      "sec": 5.7,
+      "kind": "tested",
+      "note": "Car and Driver test",
+      "src": "https://autos.yahoo.com/2022-toyota-tundra-hybrid-cant-200000374.html"
+    },
+    "top": null,
+    "built": null,
+    "predecessor": {
+      "name": "Toyota Tundra (XK50)",
+      "id": "toyota-tundra-xk50"
+    },
+    "successor": null,
+    "quick": "The all-new Tundra on the TNGA-F frame, with a twin-turbo V6 in place of the V8, a 10-speed automatic, coil springs at the back and a 437-hp, 583-lb-ft i-FORCE MAX hybrid. It tows up to 5,443 kg (12,000 lb).",
+    "story": [
+      "The third-generation Tundra arrived for 2022 with a twin-turbo V6 that Toyota calls a 3.5-liter but that displaces 3,445 cc. It makes 389 hp and 479 lb-ft in most grades, and 437 hp and 583 lb-ft as the i-FORCE MAX hybrid. Car and Driver ran a gas Limited from 0 to 60 mph in 6.1 seconds and a hybrid TRD Pro in 5.7. The bed is a composite with aluminum reinforcement, and the flagship Capstone is hybrid only.",
+      "Toyota has recalled certain 2022–2024 gas Tundras 3 times because machining debris can damage the engine's main bearings (24V-381, 25V-767 and 26V-320). A power tailgate became standard for 2025, and for 2026 the TRD Pro can have the Tacoma's IsoDynamic seats."
+    ],
+    "articles": [],
+    "photo": {"credit": "Toyota"},
+    "match": [
+      "Toyota Tundra"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/toyota-tundra/",
+      "title": "The Toyota Tundra Buyer's Guide",
+      "blurb": "V8, twin-turbo V6 or hybrid, the engine recalls, trims and towing, and the used-truck checklist, in 6 chapters."
+    }
+  },
+  {
+    "id": "toyota-sequoia-xk60",
+    "name": "Toyota Sequoia (XK60)",
+    "aka": [
+      "Second-generation Sequoia",
+      "Sequoia TRD Pro",
+      "Sequoia Nightshade"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "United States",
+    "years": "2008–2022",
+    "start": 2008,
+    "end": 2022,
+    "shop": {
+      "cargurus": "d307"
+    },
+    "body": "3-row full-size SUV",
+    "engine": "5.7-liter V8",
+    "drive": "Rear-wheel drive or 4-wheel drive with low range",
+    "gearbox": "6-speed automatic",
+    "specsFor": "2020 Toyota Sequoia TRD Pro, US market",
+    "power": {
+      "hp": 381,
+      "note": "5.7-liter V8, 401 lb-ft",
+      "src": "https://pressroom.toyota.com/?p=68835"
+    },
+    "weight": {
+      "kg": 2715,
+      "note": "Curb weight, 2020 TRD Pro, as listed by Autoblog",
+      "src": "https://www.autoblog.com/buy/2020-Toyota-Sequoia/review/"
+    },
+    "zero60": {
+      "sec": 7.0,
+      "kind": "tested",
+      "note": "MotorWeek test, 2020 TRD Pro",
+      "src": "https://motorweek.org/road_tests/2020-toyota-sequoia-trd-pro-2"
+    },
+    "top": null,
+    "built": null,
+    "predecessor": null,
+    "successor": {
+      "name": "Toyota Sequoia (XK80)",
+      "id": "toyota-sequoia-xk80"
+    },
+    "quick": "Toyota's V8 family hauler, built in Princeton, Indiana, with 4-wheel independent suspension and 120.1 cu ft of cargo space behind the front seats, about 38% more than the hybrid that replaced it.",
+    "story": [
+      "The second-generation Sequoia was sold from 2008 to 2022, built on Tundra mechanicals but with independent suspension at all 4 corners, which leaves room for a low, flat cargo floor. In its later years, every one had a 381-hp 5.7-liter V8 and a 6-speed automatic, and it was rated to tow up to 3,357 kg (7,400 lb). MotorWeek ran a 2020 TRD Pro from 0 to 60 mph in 7.0 seconds.",
+      "A 2018 update brought new styling and standard Toyota Safety Sense P, and a TRD Sport grade. Apple CarPlay, Android Auto and the off-road TRD Pro arrived for 2020, and a Nightshade Edition for 2021. Certain 2008–2022 Sequoias were recalled because the power steering gear can leak (21V-920)."
+    ],
+    "articles": [],
+    "photo": {"credit": "Toyota"},
+    "match": [
+      "Toyota Sequoia"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/toyota-sequoia/",
+      "title": "The Toyota Sequoia Buyer's Guide",
+      "blurb": "V8 or hybrid, cargo space old and new, trims and towing, and the used-SUV checklist with the recalls to check, in 6 chapters."
+    }
+  },
+  {
+    "id": "toyota-sequoia-xk80",
+    "name": "Toyota Sequoia (XK80)",
+    "aka": [
+      "Third-generation Sequoia",
+      "Sequoia Hybrid",
+      "Sequoia i-FORCE MAX",
+      "Sequoia Capstone",
+      "Sequoia 1794 Edition"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "United States",
+    "years": "2023–present",
+    "start": 2023,
+    "end": null,
+    "shop": {
+      "cargurus": "d307"
+    },
+    "body": "3-row full-size SUV",
+    "engine": "3.4-liter twin-turbo V6 with an electric motor (i-FORCE MAX hybrid)",
+    "drive": "Rear-wheel drive or part-time 4-wheel drive with low range",
+    "gearbox": "10-speed automatic",
+    "specsFor": "2023 Toyota Sequoia Capstone, US market",
+    "power": {
+      "hp": 437,
+      "note": "i-FORCE MAX hybrid combined output, 583 lb-ft",
+      "src": "https://pressroom.toyota.com/live-legendary-with-the-all-new-2023-sequoia-full-size-suv/"
+    },
+    "weight": {
+      "kg": 2805,
+      "note": "Curb weight, 2023 Capstone, as listed by Hagerty",
+      "src": "https://hagerty.com/media/?p=379783"
+    },
+    "zero60": {
+      "sec": 5.6,
+      "kind": "tested",
+      "note": "Car and Driver test, 2023 Capstone",
+      "src": "https://cars.ksl.com/resources/car-review/2023-toyota-sequoia-trd-pro-test-drive-review"
+    },
+    "top": null,
+    "built": null,
+    "predecessor": {
+      "name": "Toyota Sequoia (XK60)",
+      "id": "toyota-sequoia-xk60"
+    },
+    "successor": null,
+    "quick": "The all-new hybrid Sequoia, built in San Antonio on the Tundra's TNGA-F frame, with 437 hp, 583 lb-ft and a 4,318-kg (9,520-lb) tow rating. It's far quicker and thriftier than the V8, but its cargo space is much smaller.",
+    "story": [
+      "The third-generation Sequoia arrived for 2023 with one powertrain: the i-FORCE MAX twin-turbo V6 hybrid and a 10-speed automatic. It rides on a solid rear axle with coil springs, with air springs available, and its third row slides 6 inches. Car and Driver ran a 2023 Capstone from 0 to 60 mph in 5.6 seconds, and the EPA rates it at 20 to 22 mpg combined.",
+      "Production moved from Princeton, Indiana, to Toyota's truck plant in San Antonio, Texas. A 1794 Edition and standard massaging seats on the top grades arrived for 2025, and power-folding third-row seats became standard for 2026. About 43,000 2023–2024 models were recalled because the rear tow hitch cover can come loose (24V-640)."
+    ],
+    "articles": [],
+    "photo": {"credit": "Toyota"},
+    "match": [
+      "Toyota Sequoia"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/toyota-sequoia/",
+      "title": "The Toyota Sequoia Buyer's Guide",
+      "blurb": "V8 or hybrid, cargo space old and new, trims and towing, and the used-SUV checklist with the recalls to check, in 6 chapters."
+    }
+  },
+  {
+    "id": "toyota-land-cruiser-j200",
+    "name": "Toyota Land Cruiser (200 Series)",
+    "aka": [
+      "Land Cruiser J200",
+      "Land Cruiser 200",
+      "LC200",
+      "Land Cruiser Heritage Edition"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "2008–2021",
+    "start": 2008,
+    "end": 2021,
+    "shop": {
+      "cargurus": "d299"
+    },
+    "body": "Full-size SUV, up to 8 seats",
+    "engine": "5.7-liter V8",
+    "drive": "Full-time 4-wheel drive with low range and a locking center differential",
+    "gearbox": "8-speed automatic (6-speed before 2016)",
+    "specsFor": "2018 Toyota Land Cruiser, US market (Car and Driver test)",
+    "power": {
+      "hp": 381,
+      "note": "5.7-liter V8, 401 lb-ft",
+      "src": "https://pressroom.toyota.com/toyota-land-cruiser-defines-and-refines-65-years-of-brand-heritage/"
+    },
+    "weight": {
+      "kg": 2692,
+      "note": "Curb weight, as tested",
+      "src": "https://autos.yahoo.com/2018-toyota-land-cruiser-205000074.html"
+    },
+    "zero60": {
+      "sec": 6.7,
+      "kind": "tested",
+      "note": "Car and Driver test",
+      "src": "https://autos.yahoo.com/2018-toyota-land-cruiser-205000074.html"
+    },
+    "top": null,
+    "built": null,
+    "predecessor": null,
+    "successor": {
+      "name": "Toyota Land Cruiser (250 Series)",
+      "id": "toyota-land-cruiser-j250"
+    },
+    "quick": "The last V8 Land Cruiser sold in America: a 381-hp, 8-seat luxury 4x4 with full-time 4WD, KDSS suspension and an 8,100-lb (3,674-kg) tow rating. A 2017 started at $84,775, about $116,300 in 2026 dollars.",
+    "story": [
+      "The 200 Series Land Cruiser was sold in the US from 2008 to 2021, gaining an 8-speed automatic for 2016. Its 5.7-liter V8 makes 381 hp and 401 lb-ft, driving all 4 wheels through a 2-speed transfer case and a locking Torsen center differential. The Kinetic Dynamic Suspension System hydraulically adjusts the anti-roll bars, and CRAWL Control manages speed on rough ground. Car and Driver ran a 2018 model from 0 to 60 mph in 6.7 seconds.",
+      "A Heritage Edition with bronze BBS wheels and 2 rows of seats arrived for 2020, with a third row optional for 2021. The US never got the 300 Series that replaced it elsewhere, which Lexus sells here as the LX 600. In the US, the Land Cruiser name returned for 2024 on the smaller 250 Series."
+    ],
+    "articles": [],
+    "photo": {"credit": "Toyota"},
+    "match": [
+      "Toyota Land Cruiser"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/toyota-land-cruiser/",
+      "title": "The Toyota Land Cruiser Buyer's Guide",
+      "blurb": "The 200 Series V8 or the 250 Series hybrid, grades and prices, and the used checklist with the recalls to check, in 5 chapters."
+    }
+  },
+  {
+    "id": "toyota-land-cruiser-j250",
+    "name": "Toyota Land Cruiser (250 Series)",
+    "aka": [
+      "Land Cruiser J250",
+      "Land Cruiser 250",
+      "LC250",
+      "Land Cruiser Prado",
+      "Land Cruiser 1958",
+      "Land Cruiser First Edition"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "2024–present",
+    "start": 2024,
+    "end": null,
+    "shop": {
+      "cargurus": "d299"
+    },
+    "body": "Midsize SUV, 5 seats",
+    "engine": "2.4-liter turbo 4-cylinder with an electric motor (i-FORCE MAX hybrid)",
+    "drive": "Full-time 4-wheel drive with low range and locking center and rear differentials",
+    "gearbox": "8-speed automatic",
+    "specsFor": "2024 Toyota Land Cruiser First Edition, US market (Car and Driver test)",
+    "power": {
+      "hp": 326,
+      "note": "i-FORCE MAX hybrid combined output, 465 lb-ft",
+      "src": "https://pressroom.toyota.com/the-evolution-of-a-legend-the-all-new-2024-land-cruiser/"
+    },
+    "weight": {
+      "kg": 2386,
+      "note": "Curb weight, 2024 First Edition, as listed with Car and Driver's test",
+      "src": "https://www.0-60specs.com/toyota/land-cruiser-0-60-times"
+    },
+    "zero60": {
+      "sec": 7.7,
+      "kind": "tested",
+      "note": "Car and Driver test",
+      "src": "https://autos.yahoo.com/2024-toyota-land-cruiser-tested-140000657.html"
+    },
+    "top": null,
+    "built": null,
+    "predecessor": {
+      "name": "Toyota Land Cruiser (200 Series)",
+      "id": "toyota-land-cruiser-j200"
+    },
+    "successor": null,
+    "quick": "The Land Cruiser's US comeback: a boxy 5-seat hybrid 4x4 with full-time 4WD, center and rear lockers and 23 mpg combined, starting at $55,950 for 2024, about $60,000 in 2026 dollars, against about $106,300 for the last V8.",
+    "story": [
+      "Sold elsewhere as the Land Cruiser Prado, the 250 Series brought the name back to the US for 2024 after a 2-year gap. Every one has a 2.4-liter turbo 4-cylinder hybrid with 326 hp and 465 lb-ft, an 8-speed automatic and full-time 4WD with locking center and rear differentials, and the Land Cruiser grade adds a front anti-roll bar that disconnects. It's rated to tow 2,722 kg (6,000 lb). Car and Driver ran a 2024 First Edition from 0 to 60 mph in 7.7 seconds.",
+      "The 1958 grade has round headlights and the Land Cruiser grade rectangular ones, and the First Edition was sold for 2024 only. In October 2026, Toyota recalled about 106,000 2024–2027 models because a fuel tube connection near the tank can come apart and leak (26V-673)."
+    ],
+    "articles": [],
+    "photo": {"credit": "Toyota"},
+    "match": [
+      "Toyota Land Cruiser"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/toyota-land-cruiser/",
+      "title": "The Toyota Land Cruiser Buyer's Guide",
+      "blurb": "The 200 Series V8 or the 250 Series hybrid, grades and prices, and the used checklist with the recalls to check, in 5 chapters."
+    }
   }
 ];

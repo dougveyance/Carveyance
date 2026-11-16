@@ -1,0 +1,94 @@
+{
+  "id": "toyota-tacoma",
+  "make": "Toyota",
+  "model": "Tacoma",
+  "years": "2017–2026",
+  "byline": "Diana Chambers",
+  "published": "2026-11-16",
+  "updated": "2026-11-16",
+  "cars": [
+    "toyota-tacoma-n300",
+    "toyota-tacoma-n400"
+  ],
+  "shop": {
+    "cargurus": "d311"
+  },
+  "chapters": [
+    "2017-2023",
+    "2024-2026-turbo",
+    "hybrid",
+    "trims",
+    "used-checklist",
+    "which-engine"
+  ],
+  "series": {
+    "i4": {"name": "2017–2023 2.7-liter 4-cylinder", "color": "#c3cad1"},
+    "v6": {"name": "2017–2023 3.5-liter V6", "color": "#9aa5b1"},
+    "sr": {"name": "2024–2026 turbo, SR", "color": "#6b7785"},
+    "mt": {"name": "2024–2026 turbo, manual", "color": "#5f8aa6"},
+    "t24": {"name": "2024–2026 2.4-liter turbo", "color": "#2E6E96"},
+    "hyb": {"name": "2024–2026 i-FORCE MAX hybrid", "color": "#e05c2a"}
+  },
+  "charts": {
+    "power": {
+      "n": 1,
+      "title": "Horsepower, by engine",
+      "sub": "Toyota's figures. The hybrid number is combined system output.",
+      "source": "Toyota",
+      "bars": [["i4", 159, "159 hp"], ["v6", 278, "278 hp"], ["sr", 228, "228 hp"], ["mt", 270, "270 hp"], ["t24", 278, "278 hp"], ["hyb", 326, "326 hp"]]
+    },
+    "torque": {
+      "n": 2,
+      "title": "Peak torque, by engine",
+      "sub": "Pound-feet, as advertised. The turbo makes its peak far lower in the rev range than the old V6, which peaked at 4,600 rpm.",
+      "source": "Toyota",
+      "bars": [["i4", 180, "180 lb-ft"], ["v6", 265, "265 lb-ft"], ["sr", 243, "243 lb-ft"], ["mt", 310, "310 lb-ft"], ["t24", 317, "317 lb-ft"], ["hyb", 465, "465 lb-ft"]]
+    },
+    "mpg": {
+      "n": 3,
+      "title": "Fuel economy, 4x4 with an automatic",
+      "sub": "EPA combined miles per gallon for the most efficient 4x4 automatic version of each engine. The 2024–2026 TRD Sport and TRD Off-Road turbos are rated at 20 mpg.",
+      "source": "EPA ratings",
+      "bars": [["i4", 20, "20 mpg"], ["v6", 20, "20 mpg"], ["t24", 21, "21 mpg"], ["hyb", 23, "23 mpg"]]
+    },
+    "fuelcost": {
+      "n": 4,
+      "title": "A year of fuel",
+      "sub": "15,000 miles at $4 a gallon, using the EPA combined figures above: 20, 21 and 23 mpg. An example, not a forecast.",
+      "source": "Carveyance arithmetic from EPA ratings",
+      "bars": [["v6", 3000, "$3,000 · 750 gal"], ["t24", 2857, "$2,857 · 714 gal"], ["hyb", 2609, "$2,609 · 652 gal"]]
+    },
+    "tow": {
+      "n": 5,
+      "title": "How much it can tow",
+      "sub": "Toyota's maximum towing ratings for each engine, in kilograms, with pounds in parentheses. Each applies only to specific cab, bed and drive combinations.",
+      "source": "Toyota",
+      "bars": [["i4", 1588, "1,588 kg (3,500 lb)"], ["v6", 3084, "3,084 kg (6,800 lb)"], ["t24", 2948, "2,948 kg (6,500 lb)"], ["hyb", 2722, "2,722 kg (6,000 lb)"]]
+    }
+  },
+  "photos": {
+    "hub-hero": {"want": "A 2024–2026 Tacoma outside, front three-quarter, or a new Tacoma beside a 2017–2023 one", "credit": "Toyota", "alt": "A white 2024 Toyota Tacoma TRD Pro on a dirt road, with a Trailhunter parked behind it"},
+    "ch1-hero": {"want": "A 2017–2023 Tacoma outside, ideally a TRD Off-Road or TRD Pro", "credit": "Toyota", "alt": "A gray 2020 Toyota Tacoma TRD Off-Road Double Cab climbing a rocky trail above a valley"},
+    "ch2-hero": {"want": "A 2024–2026 gas Tacoma, ideally an SR5, TRD Sport or TRD PreRunner", "credit": "Toyota", "alt": "A 2025 Toyota Tacoma TRD Off-Road in Bronze Oxide on a gravel hilltop"},
+    "ch3-hero": {"want": "A 2024–2026 Tacoma i-FORCE MAX, ideally a Trailhunter or TRD Pro off-road", "credit": "Toyota", "alt": "A 2024 Toyota Tacoma Trailhunter on a muddy track"},
+    "ch4-hero": {"want": "Several Tacoma grades together, or a TRD Off-Road on a trail", "credit": "Toyota", "alt": "A 2024 Toyota Tacoma TRD Off-Road i-FORCE MAX in Solar Octane, in a cloud of dust"},
+    "ch5-hero": {"want": "A Tacoma on a trail or a forest road, or its underside", "credit": "Toyota", "alt": "A close-up of a Toyota Tacoma TRD Pro's front suspension, with a red TRD upper control arm and coil spring"},
+    "ch6-hero": {"want": "A 2017–2023 Tacoma and a 2024–2026 Tacoma together", "credit": "Toyota", "alt": "A mud-spattered white 2020 Toyota Tacoma TRD Pro with a snorkel, splashing through a puddle on a forest trail"}
+  },
+  "find": {
+    "picker": [
+      {"model": "Tacoma", "years": "2017–2023", "ch": "2017-2023"},
+      {"model": "Tacoma", "years": "2024–2026", "ch": "2024-2026-turbo"},
+      {"model": "Tacoma Hybrid", "years": "2024–2026", "ch": "hybrid"}
+    ],
+    "terms": {
+      "": ["pickup", "midsize truck", "truck", "Access Cab", "Double Cab", "XtraCab"],
+      "2017-2023": ["third generation", "V6", "3.5-liter", "2.7-liter", "4-cylinder", "6-speed", "manual"],
+      "2024-2026-turbo": ["fourth generation", "turbo", "2.4-liter", "i-FORCE", "TNGA-F", "manual"],
+      "hybrid": ["hybrid", "i-FORCE MAX", "Tacoma Hybrid"],
+      "trims": ["trim", "trims", "grade", "grades", "SR", "SR5", "TRD Sport", "TRD Off-Road", "TRD PreRunner", "Limited", "TRD Pro", "Trailhunter", "IsoDynamic"],
+      "used-checklist": ["used", "checklist", "inspection", "recalls", "brake hose recall", "axle recall"],
+      "which-engine": ["V6 vs turbo", "which engine", "towing", "tow", "fuel cost"]
+    }
+  }
+}

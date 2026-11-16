@@ -1,0 +1,281 @@
+{
+  "id": "toyota-land-cruiser",
+  "make": "Toyota",
+  "model": "Land Cruiser",
+  "years": "2017–2026",
+  "byline": "Priya Raghavan",
+  "published": "2026-11-16",
+  "updated": "2026-11-16",
+  "cars": [
+    "toyota-land-cruiser-j200",
+    "toyota-land-cruiser-j250"
+  ],
+  "shop": {
+    "cargurus": "d299"
+  },
+  "chapters": [
+    "2017-2021-200-series",
+    "2024-2026-250-series",
+    "grades",
+    "used-checklist",
+    "v8-or-hybrid"
+  ],
+  "series": {
+    "v8": {
+      "name": "2017–2021 200 Series, 5.7-liter V8",
+      "color": "#9aa5b1"
+    },
+    "hyb": {
+      "name": "2024–2026 250 Series, i-FORCE MAX hybrid",
+      "color": "#e05c2a"
+    },
+    "p17": {
+      "name": "2017 Land Cruiser (200 Series)",
+      "color": "#9aa5b1"
+    },
+    "p21": {
+      "name": "2021 Land Cruiser (200 Series)",
+      "color": "#9aa5b1"
+    },
+    "pfe": {
+      "name": "2024 First Edition (250 Series)",
+      "color": "#e05c2a"
+    },
+    "p58": {
+      "name": "2024 Land Cruiser 1958 (250 Series)",
+      "color": "#e05c2a"
+    },
+    "p26": {
+      "name": "2026 Land Cruiser 1958 (250 Series)",
+      "color": "#e05c2a"
+    }
+  },
+  "charts": {
+    "power": {
+      "n": 1,
+      "title": "Horsepower, old and new",
+      "sub": "Toyota's figures. The hybrid number is combined system output.",
+      "source": "Toyota",
+      "bars": [
+        [
+          "v8",
+          381,
+          "381 hp"
+        ],
+        [
+          "hyb",
+          326,
+          "326 hp"
+        ]
+      ]
+    },
+    "torque": {
+      "n": 2,
+      "title": "Peak torque, old and new",
+      "sub": "Pound-feet, as advertised. The smaller hybrid makes 16% more.",
+      "source": "Toyota",
+      "bars": [
+        [
+          "v8",
+          401,
+          "401 lb-ft"
+        ],
+        [
+          "hyb",
+          465,
+          "465 lb-ft"
+        ]
+      ]
+    },
+    "price": {
+      "n": 3,
+      "title": "What a new one cost, in 2026 dollars",
+      "sub": "Starting prices before delivery, adjusted with the US consumer price index. The original price is in each label.",
+      "source": "Toyota and Cars.com prices; Carveyance CPI arithmetic",
+      "bars": [
+        [
+          "p17",
+          116300,
+          "$116,300 · $84,775 then"
+        ],
+        [
+          "p21",
+          106300,
+          "$106,300 · $85,665 then"
+        ],
+        [
+          "pfe",
+          80300,
+          "$80,300 · $74,950 then"
+        ],
+        [
+          "p58",
+          60000,
+          "$60,000 · $55,950 then"
+        ],
+        [
+          "p26",
+          57200,
+          "$57,200"
+        ]
+      ]
+    },
+    "mpg": {
+      "n": 4,
+      "title": "Fuel economy",
+      "sub": "EPA combined miles per gallon. The V8 figure is for 2021. Earlier years were rated at 15.",
+      "source": "EPA ratings",
+      "bars": [
+        [
+          "v8",
+          14,
+          "14 mpg"
+        ],
+        [
+          "hyb",
+          23,
+          "23 mpg"
+        ]
+      ]
+    },
+    "fuelcost": {
+      "n": 5,
+      "title": "A year of fuel",
+      "sub": "15,000 miles at $4 a gallon, using the EPA combined figures above: 14 and 23 mpg. An example, not a forecast.",
+      "source": "Carveyance arithmetic from EPA ratings",
+      "bars": [
+        [
+          "v8",
+          4286,
+          "$4,286 · 1,071 gal"
+        ],
+        [
+          "hyb",
+          2609,
+          "$2,609 · 652 gal"
+        ]
+      ]
+    },
+    "tow": {
+      "n": 6,
+      "title": "How much it can tow",
+      "sub": "Toyota's maximum towing ratings, in kilograms, with pounds in parentheses.",
+      "source": "Toyota",
+      "bars": [
+        [
+          "v8",
+          3674,
+          "3,674 kg (8,100 lb)"
+        ],
+        [
+          "hyb",
+          2722,
+          "2,722 kg (6,000 lb)"
+        ]
+      ]
+    }
+  },
+  "photos": {
+    "hub-hero": {
+      "want": "A 2024–2026 Land Cruiser outside, ideally a 1958 or First Edition with round headlights",
+      "credit": "Toyota",
+      "alt": "A gray 2024 Toyota Land Cruiser 1958, with its round headlights, on a dirt clearing"
+    },
+    "ch1-hero": {
+      "want": "A 2017–2021 Land Cruiser 200 Series, ideally a Heritage Edition",
+      "credit": "Toyota",
+      "alt": "A black 2020 Toyota Land Cruiser Heritage Edition, on bronze wheels, climbing a dirt trail"
+    },
+    "ch2-hero": {
+      "want": "A 2024–2026 Land Cruiser off-road",
+      "credit": "Toyota",
+      "alt": "A blue 2024 Toyota Land Cruiser with a white roof crossing a rocky creek"
+    },
+    "ch3-hero": {
+      "want": "A Land Cruiser 1958 and a Land Cruiser grade together, or a First Edition",
+      "credit": "Toyota",
+      "alt": "2 Toyota Land Cruisers, one blue with a white roof and one gray, climbing a slope of black cinders"
+    },
+    "ch4-hero": {
+      "want": "A Land Cruiser on a trail or its underside",
+      "credit": "Toyota",
+      "alt": "A 2025 Toyota Land Cruiser 1958 in Meteor Shower on a rock ledge at sunset"
+    },
+    "ch5-hero": {
+      "want": "A 200 Series and a 250 Series together, or a 2024–2026 Land Cruiser towing",
+      "credit": "Toyota",
+      "alt": "The digital instrument display of a 2027 Toyota Land Cruiser, showing the hybrid power meter and the 4-wheel-drive status"
+    }
+  },
+  "find": {
+    "picker": [
+      {
+        "model": "Land Cruiser",
+        "years": "2017–2021",
+        "ch": "2017-2021-200-series"
+      },
+      {
+        "model": "Land Cruiser",
+        "years": "2024–2026",
+        "ch": "2024-2026-250-series"
+      }
+    ],
+    "terms": {
+      "": [
+        "Land Cruiser",
+        "LC",
+        "off-road SUV",
+        "4x4",
+        "SUV"
+      ],
+      "2017-2021-200-series": [
+        "200 Series",
+        "J200",
+        "LC200",
+        "V8",
+        "5.7-liter",
+        "Heritage Edition",
+        "8 seats",
+        "KDSS"
+      ],
+      "2024-2026-250-series": [
+        "250 Series",
+        "J250",
+        "LC250",
+        "Prado",
+        "hybrid",
+        "i-FORCE MAX",
+        "2.4-liter",
+        "turbo"
+      ],
+      "grades": [
+        "1958",
+        "First Edition",
+        "Premium Package",
+        "trim",
+        "trims",
+        "grade",
+        "grades",
+        "round headlights",
+        "2027"
+      ],
+      "used-checklist": [
+        "used",
+        "checklist",
+        "inspection",
+        "recalls",
+        "fuel tube recall"
+      ],
+      "v8-or-hybrid": [
+        "V8 vs hybrid",
+        "which engine",
+        "towing",
+        "tow",
+        "fuel cost",
+        "old vs new",
+        "Lexus LX",
+        "Lexus GX"
+      ]
+    }
+  }
+}

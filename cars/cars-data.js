@@ -565,13 +565,15 @@ const CARS_INDEX = [
   "quick": "A road-registered descendant of Lotus's American race cars, with 302 hp from a turbocharged 2.2-liter 4-cylinder, bolted-on arches over a wider rear track and huge 315-section rear tires. Only about 64 were built, and it is the late Esprit collectors want most.",
   "articles": [
    "the-shape-children-draw",
+   "won-on-paper",
    "bright-idea"
   ],
-  "latest": "2026-10-26",
+  "latest": "2026-11-16",
   "ownDates": [
    "2026-09-02"
   ],
   "dates": [
+   "2026-11-16",
    "2026-10-26",
    "2026-09-02"
   ],
@@ -632,13 +634,15 @@ const CARS_INDEX = [
   "quick": "The Sport 300's engine and bodywork over the regular S4's suspension and cabin, for considerably less money. It was heavier and lacked the limited-slip differential, yet its broader torque made it quicker to 60 mph in period magazine tests and far easier to live with on real roads.",
   "articles": [
    "the-shape-children-draw",
+   "won-on-paper",
    "bright-idea"
   ],
-  "latest": "2026-10-26",
+  "latest": "2026-11-16",
   "ownDates": [
    "2026-09-02"
   ],
   "dates": [
+   "2026-11-16",
    "2026-10-26",
    "2026-09-02"
   ],
@@ -699,13 +703,15 @@ const CARS_INDEX = [
   "quick": "After 16 years of waiting, the Esprit finally got the engine its chassis had been designed around: Lotus's own 3.5-liter twin-turbo V8. The fastest Esprit of all, it out-accelerated far pricier Porsches and Ferraris and carried the name to the end of production in 2004.",
   "articles": [
    "the-shape-children-draw",
+   "won-on-paper",
    "bright-idea"
   ],
-  "latest": "2026-10-26",
+  "latest": "2026-11-16",
   "ownDates": [
    "2026-09-02"
   ],
   "dates": [
+   "2026-11-16",
    "2026-10-26",
    "2026-09-02"
   ],
@@ -6857,6 +6863,465 @@ const CARS_INDEX = [
   "next": null,
   "photo": {
    "card": "/assets/images/cars/toyota-grand-highlander.jpg?v=16b697fd",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "toyota-tacoma-n300",
+  "name": "Toyota Tacoma (N300)",
+  "aka": [
+   "Third-generation Tacoma",
+   "Tacoma TRD Pro",
+   "Tacoma TRD Off-Road"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2016–2023",
+  "start": 2016,
+  "body": "Midsize pickup truck (Access Cab or Double Cab)",
+  "engine": "3.5-liter V6 or 2.7-liter 4-cylinder",
+  "country": "Mexico and United States",
+  "quick": "The third-generation Tacoma, with a 278-hp 3.5-liter V6 or a 159-hp 4-cylinder, leaf springs at the back and a reputation that keeps used prices high. With the V6 and the Tow Package, it's rated to tow 3,084 kg (6,800 lb).",
+  "articles": [
+   "everything-is-two-cars"
+  ],
+  "latest": "2026-08-18",
+  "ownDates": [],
+  "dates": [
+   "2026-08-18"
+  ],
+  "drive": "Rear-wheel drive or part-time 4-wheel drive with low range",
+  "gearbox": "6-speed automatic or 6-speed manual (4-cylinder: 6-speed automatic, 5-speed manual for 2017)",
+  "specsFor": "2017 Toyota Tacoma TRD Pro V6, US market (Car and Driver test truck)",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-tacoma/",
+   "title": "The Toyota Tacoma Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d311"
+  },
+  "hp": 278,
+  "kg": 2114,
+  "kgNote": "Curb weight, as tested",
+  "z60": {
+   "sec": 7.7,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": "toyota-tacoma-n400",
+   "name": "Toyota Tacoma (N400)"
+  },
+  "photo": {
+   "card": "/assets/images/cars/toyota-tacoma-n300.jpg?v=29ede719",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "toyota-tacoma-n400",
+  "name": "Toyota Tacoma (N400)",
+  "aka": [
+   "Fourth-generation Tacoma",
+   "Tacoma i-FORCE MAX",
+   "Tacoma Hybrid",
+   "Tacoma Trailhunter",
+   "Tacoma TRD Pro"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2024–present",
+  "start": 2024,
+  "body": "Midsize pickup truck (XtraCab or Double Cab)",
+  "engine": "2.4-liter turbo 4-cylinder, or the same engine with an electric motor (i-FORCE MAX hybrid)",
+  "country": "Mexico",
+  "quick": "The all-new Tacoma on Toyota's TNGA-F frame, with a 2.4-liter turbo of up to 278 hp, coil springs at the back on most versions and a 326-hp i-FORCE MAX hybrid for the TRD Pro and Trailhunter.",
+  "articles": [
+   "everything-is-two-cars"
+  ],
+  "latest": "2026-08-18",
+  "ownDates": [],
+  "dates": [
+   "2026-08-18"
+  ],
+  "drive": "Rear-wheel drive or part-time 4-wheel drive with low range",
+  "gearbox": "8-speed automatic or 6-speed manual",
+  "specsFor": "2024 Toyota Tacoma TRD Off-Road, US market (Car and Driver test truck)",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-tacoma/",
+   "title": "The Toyota Tacoma Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d311"
+  },
+  "hp": 278,
+  "kg": 2175,
+  "kgNote": "Curb weight, as tested",
+  "z60": {
+   "sec": 7.0,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "toyota-tacoma-n300",
+   "name": "Toyota Tacoma (N300)"
+  },
+  "next": null,
+  "photo": {
+   "card": "/assets/images/cars/toyota-tacoma-n400.jpg?v=727feafa",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "toyota-tundra-xk50",
+  "name": "Toyota Tundra (XK50)",
+  "aka": [
+   "Second-generation Tundra",
+   "Tundra 5.7",
+   "Tundra TRD Pro",
+   "Tundra 1794 Edition"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2007–2021",
+  "start": 2007,
+  "body": "Full-size pickup truck (Regular Cab, Double Cab or CrewMax)",
+  "engine": "5.7-liter V8 or 4.6-liter V8",
+  "country": "United States",
+  "quick": "The long-running V8 Tundra, built in San Antonio, Texas, with a 381-hp 5.7-liter V8, a 6-speed automatic and leaf springs at the back. Properly equipped, a 2017 was rated to tow 4,763 kg (10,500 lb).",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive or part-time 4-wheel drive with low range",
+  "gearbox": "6-speed automatic",
+  "specsFor": "2020 Toyota Tundra TRD Pro, US market (Car and Driver test)",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-tundra/",
+   "title": "The Toyota Tundra Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d313"
+  },
+  "hp": 381,
+  "kg": 2721,
+  "kgNote": "Curb weight",
+  "z60": {
+   "sec": 6.4,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": "toyota-tundra-xk70",
+   "name": "Toyota Tundra (XK70)"
+  },
+  "photo": {
+   "card": "/assets/images/cars/toyota-tundra-xk50.jpg?v=7e33840b",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "toyota-tundra-xk70",
+  "name": "Toyota Tundra (XK70)",
+  "aka": [
+   "Third-generation Tundra",
+   "Tundra i-FORCE MAX",
+   "Tundra Hybrid",
+   "Tundra Capstone",
+   "Tundra TRD Pro"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2022–present",
+  "start": 2022,
+  "body": "Full-size pickup truck (Double Cab or CrewMax)",
+  "engine": "3.4-liter twin-turbo V6, or the same engine with an electric motor (i-FORCE MAX hybrid)",
+  "country": "United States",
+  "quick": "The all-new Tundra on the TNGA-F frame, with a twin-turbo V6 in place of the V8, a 10-speed automatic, coil springs at the back and a 437-hp, 583-lb-ft i-FORCE MAX hybrid. It tows up to 5,443 kg (12,000 lb).",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive or part-time 4-wheel drive with low range",
+  "gearbox": "10-speed automatic",
+  "specsFor": "2022 Toyota Tundra TRD Pro i-FORCE MAX, US market (Car and Driver test truck)",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-tundra/",
+   "title": "The Toyota Tundra Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d313"
+  },
+  "hp": 437,
+  "kg": 2800,
+  "kgNote": "Curb weight, as tested",
+  "z60": {
+   "sec": 5.7,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "toyota-tundra-xk50",
+   "name": "Toyota Tundra (XK50)"
+  },
+  "next": null,
+  "photo": {
+   "card": "/assets/images/cars/toyota-tundra-xk70.jpg?v=43482749",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "toyota-sequoia-xk60",
+  "name": "Toyota Sequoia (XK60)",
+  "aka": [
+   "Second-generation Sequoia",
+   "Sequoia TRD Pro",
+   "Sequoia Nightshade"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2008–2022",
+  "start": 2008,
+  "body": "3-row full-size SUV",
+  "engine": "5.7-liter V8",
+  "country": "United States",
+  "quick": "Toyota's V8 family hauler, built in Princeton, Indiana, with 4-wheel independent suspension and 120.1 cu ft of cargo space behind the front seats, about 38% more than the hybrid that replaced it.",
+  "articles": [
+   "the-prius-paradox"
+  ],
+  "latest": "2026-10-05",
+  "ownDates": [],
+  "dates": [
+   "2026-10-05"
+  ],
+  "drive": "Rear-wheel drive or 4-wheel drive with low range",
+  "gearbox": "6-speed automatic",
+  "specsFor": "2020 Toyota Sequoia TRD Pro, US market",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-sequoia/",
+   "title": "The Toyota Sequoia Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d307"
+  },
+  "hp": 381,
+  "kg": 2715,
+  "kgNote": "Curb weight, 2020 TRD Pro, as listed by Autoblog",
+  "z60": {
+   "sec": 7.0,
+   "kind": "tested",
+   "note": "MotorWeek test, 2020 TRD Pro"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": "toyota-sequoia-xk80",
+   "name": "Toyota Sequoia (XK80)"
+  },
+  "photo": {
+   "card": "/assets/images/cars/toyota-sequoia-xk60.jpg?v=1fe4ca62",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "toyota-sequoia-xk80",
+  "name": "Toyota Sequoia (XK80)",
+  "aka": [
+   "Third-generation Sequoia",
+   "Sequoia Hybrid",
+   "Sequoia i-FORCE MAX",
+   "Sequoia Capstone",
+   "Sequoia 1794 Edition"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2023–present",
+  "start": 2023,
+  "body": "3-row full-size SUV",
+  "engine": "3.4-liter twin-turbo V6 with an electric motor (i-FORCE MAX hybrid)",
+  "country": "United States",
+  "quick": "The all-new hybrid Sequoia, built in San Antonio on the Tundra's TNGA-F frame, with 437 hp, 583 lb-ft and a 4,318-kg (9,520-lb) tow rating. It's far quicker and thriftier than the V8, but its cargo space is much smaller.",
+  "articles": [
+   "the-prius-paradox"
+  ],
+  "latest": "2026-10-05",
+  "ownDates": [],
+  "dates": [
+   "2026-10-05"
+  ],
+  "drive": "Rear-wheel drive or part-time 4-wheel drive with low range",
+  "gearbox": "10-speed automatic",
+  "specsFor": "2023 Toyota Sequoia Capstone, US market",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-sequoia/",
+   "title": "The Toyota Sequoia Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d307"
+  },
+  "hp": 437,
+  "kg": 2805,
+  "kgNote": "Curb weight, 2023 Capstone, as listed by Hagerty",
+  "z60": {
+   "sec": 5.6,
+   "kind": "tested",
+   "note": "Car and Driver test, 2023 Capstone"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "toyota-sequoia-xk60",
+   "name": "Toyota Sequoia (XK60)"
+  },
+  "next": null,
+  "photo": {
+   "card": "/assets/images/cars/toyota-sequoia-xk80.jpg?v=343611e7",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "toyota-land-cruiser-j200",
+  "name": "Toyota Land Cruiser (200 Series)",
+  "aka": [
+   "Land Cruiser J200",
+   "Land Cruiser 200",
+   "LC200",
+   "Land Cruiser Heritage Edition"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2008–2021",
+  "start": 2008,
+  "body": "Full-size SUV, up to 8 seats",
+  "engine": "5.7-liter V8",
+  "country": "Japan",
+  "quick": "The last V8 Land Cruiser sold in America: a 381-hp, 8-seat luxury 4x4 with full-time 4WD, KDSS suspension and an 8,100-lb (3,674-kg) tow rating. A 2017 started at $84,775, about $116,300 in 2026 dollars.",
+  "articles": [
+   "industry-brief-2026-10-26",
+   "send-in-the-clones",
+   "the-ford-america-will-not-sell-you"
+  ],
+  "latest": "2026-10-26",
+  "ownDates": [],
+  "dates": [
+   "2026-10-26",
+   "2026-10-01",
+   "2026-08-18"
+  ],
+  "drive": "Full-time 4-wheel drive with low range and a locking center differential",
+  "gearbox": "8-speed automatic (6-speed before 2016)",
+  "specsFor": "2018 Toyota Land Cruiser, US market (Car and Driver test)",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-land-cruiser/",
+   "title": "The Toyota Land Cruiser Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d299"
+  },
+  "hp": 381,
+  "kg": 2692,
+  "kgNote": "Curb weight, as tested",
+  "z60": {
+   "sec": 6.7,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": "toyota-land-cruiser-j250",
+   "name": "Toyota Land Cruiser (250 Series)"
+  },
+  "photo": {
+   "card": "/assets/images/cars/toyota-land-cruiser-j200.jpg?v=68f6cb45",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "toyota-land-cruiser-j250",
+  "name": "Toyota Land Cruiser (250 Series)",
+  "aka": [
+   "Land Cruiser J250",
+   "Land Cruiser 250",
+   "LC250",
+   "Land Cruiser Prado",
+   "Land Cruiser 1958",
+   "Land Cruiser First Edition"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2024–present",
+  "start": 2024,
+  "body": "Midsize SUV, 5 seats",
+  "engine": "2.4-liter turbo 4-cylinder with an electric motor (i-FORCE MAX hybrid)",
+  "country": "Japan",
+  "quick": "The Land Cruiser's US comeback: a boxy 5-seat hybrid 4x4 with full-time 4WD, center and rear lockers and 23 mpg combined, starting at $55,950 for 2024, about $60,000 in 2026 dollars, against about $106,300 for the last V8.",
+  "articles": [
+   "industry-brief-2026-10-26",
+   "send-in-the-clones",
+   "the-ford-america-will-not-sell-you"
+  ],
+  "latest": "2026-10-26",
+  "ownDates": [],
+  "dates": [
+   "2026-10-26",
+   "2026-10-01",
+   "2026-08-18"
+  ],
+  "drive": "Full-time 4-wheel drive with low range and locking center and rear differentials",
+  "gearbox": "8-speed automatic",
+  "specsFor": "2024 Toyota Land Cruiser First Edition, US market (Car and Driver test)",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-land-cruiser/",
+   "title": "The Toyota Land Cruiser Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d299"
+  },
+  "hp": 326,
+  "kg": 2386,
+  "kgNote": "Curb weight, 2024 First Edition, as listed with Car and Driver's test",
+  "z60": {
+   "sec": 7.7,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "toyota-land-cruiser-j200",
+   "name": "Toyota Land Cruiser (200 Series)"
+  },
+  "next": null,
+  "photo": {
+   "card": "/assets/images/cars/toyota-land-cruiser-j250.jpg?v=b548b315",
    "pos": "",
    "fit": ""
   }

@@ -1,0 +1,102 @@
+{
+  "id": "toyota-sequoia",
+  "make": "Toyota",
+  "model": "Sequoia",
+  "years": "2017–2026",
+  "byline": "Elliot Vance",
+  "published": "2026-11-16",
+  "updated": "2026-11-16",
+  "cars": [
+    "toyota-sequoia-xk60",
+    "toyota-sequoia-xk80"
+  ],
+  "shop": {
+    "cargurus": "d307"
+  },
+  "chapters": [
+    "2017-2022-v8",
+    "2023-2026-hybrid",
+    "space",
+    "trims-and-towing",
+    "used-checklist",
+    "v8-or-hybrid"
+  ],
+  "series": {
+    "v8": {"name": "2017–2022 5.7-liter V8", "color": "#9aa5b1"},
+    "hyb": {"name": "2023–2026 i-FORCE MAX hybrid", "color": "#e05c2a"},
+    "o3": {"name": "2017–2022, behind the third row", "color": "#9aa5b1"},
+    "n3": {"name": "2023–2026, behind the third row", "color": "#2E6E96"},
+    "o2": {"name": "2017–2022, behind the second row", "color": "#9aa5b1"},
+    "n2": {"name": "2023–2026, behind the second row", "color": "#2E6E96"},
+    "o1": {"name": "2017–2022, behind the front seats", "color": "#9aa5b1"},
+    "n1": {"name": "2023–2026, behind the front seats", "color": "#2E6E96"}
+  },
+  "charts": {
+    "power": {
+      "n": 1,
+      "title": "Horsepower, old and new",
+      "sub": "Toyota's figures. The hybrid number is combined system output.",
+      "source": "Toyota",
+      "bars": [["v8", 381, "381 hp"], ["hyb", 437, "437 hp"]]
+    },
+    "torque": {
+      "n": 2,
+      "title": "Peak torque, old and new",
+      "sub": "Pound-feet, as advertised. The hybrid makes its peak at 2,400 rpm, against 3,600 rpm for the V8.",
+      "source": "Toyota",
+      "bars": [["v8", 401, "401 lb-ft"], ["hyb", 583, "583 lb-ft"]]
+    },
+    "cargo": {
+      "n": 3,
+      "title": "Cargo space, old and new",
+      "sub": "Cubic feet, as published. The new Sequoia's third row slides, so its space behind the third row runs from 11.5 cu ft (slid back) to 22.3 (slid forward).",
+      "source": "Toyota, via Hooniverse and The Drive",
+      "bars": [["o3", 18.9, "18.9 cu ft"], ["n3", 22.3, "11.5–22.3 cu ft"], ["o2", 66.6, "66.6 cu ft"], ["n2", 49.0, "49.0 cu ft"], ["o1", 120.1, "120.1 cu ft"], ["n1", 86.9, "86.9 cu ft"]]
+    },
+    "tow": {
+      "n": 4,
+      "title": "How much it can tow",
+      "sub": "Toyota's maximum towing ratings, in kilograms, with pounds in parentheses. Both peaks are for 2-wheel-drive versions.",
+      "source": "Toyota",
+      "bars": [["v8", 3357, "3,357 kg (7,400 lb)"], ["hyb", 4318, "4,318 kg (9,520 lb)"]]
+    },
+    "mpg": {
+      "n": 5,
+      "title": "Fuel economy, 4x4",
+      "sub": "EPA combined miles per gallon for 4x4 versions. 2-wheel-drive versions are rated at 15 mpg (V8) and 22 mpg (hybrid).",
+      "source": "EPA ratings",
+      "bars": [["v8", 14, "14 mpg"], ["hyb", 20, "20 mpg"]]
+    },
+    "fuelcost": {
+      "n": 6,
+      "title": "A year of fuel",
+      "sub": "15,000 miles at $4 a gallon, using the 4x4 EPA combined figures above: 14 and 20 mpg. An example, not a forecast.",
+      "source": "Carveyance arithmetic from EPA ratings",
+      "bars": [["v8", 4286, "$4,286 · 1,071 gal"], ["hyb", 3000, "$3,000 · 750 gal"]]
+    }
+  },
+  "photos": {
+    "hub-hero": {"want": "A 2023–2026 Sequoia outside, front three-quarter", "credit": "Toyota", "alt": "A Toyota Sequoia"},
+    "ch1-hero": {"want": "A 2017–2022 Sequoia, ideally a TRD Pro or Limited", "credit": "Toyota", "alt": "A 2017–2022 Toyota Sequoia"},
+    "ch2-hero": {"want": "A 2023–2026 Sequoia driving, ideally a Platinum, 1794 Edition or Capstone", "credit": "Toyota", "alt": "A 2023–2026 Toyota Sequoia"},
+    "ch3-hero": {"want": "The Sequoia's third row or cargo area, ideally showing the sliding third row or cargo shelf", "credit": "Toyota", "alt": "The cargo area of a Toyota Sequoia"},
+    "ch4-hero": {"want": "A Sequoia TRD Pro off-road, or a Sequoia towing", "credit": "Toyota", "alt": "A Toyota Sequoia"},
+    "ch5-hero": {"want": "A Sequoia on a family trip, or its underside", "credit": "Toyota", "alt": "A Toyota Sequoia"},
+    "ch6-hero": {"want": "An old and a new Sequoia together, or a 2023–2026 Sequoia outside", "credit": "Toyota", "alt": "Toyota Sequoias"}
+  },
+  "find": {
+    "picker": [
+      {"model": "Sequoia", "years": "2017–2022", "ch": "2017-2022-v8"},
+      {"model": "Sequoia", "years": "2023–2026", "ch": "2023-2026-hybrid"}
+    ],
+    "terms": {
+      "": ["full-size SUV", "3-row SUV", "three-row SUV", "third row", "SUV"],
+      "2017-2022-v8": ["second generation", "V8", "5.7-liter", "6-speed", "Nightshade", "TRD Sport"],
+      "2023-2026-hybrid": ["third generation", "hybrid", "i-FORCE MAX", "Sequoia Hybrid", "twin-turbo", "10-speed"],
+      "space": ["cargo", "cargo space", "third row", "sliding third row", "cargo shelf", "legroom"],
+      "trims-and-towing": ["trim", "trims", "grade", "grades", "SR5", "Limited", "Platinum", "TRD Pro", "Capstone", "1794 Edition", "towing", "tow"],
+      "used-checklist": ["used", "checklist", "inspection", "recalls", "hitch cover recall"],
+      "v8-or-hybrid": ["V8 vs hybrid", "which engine", "fuel cost", "old vs new"]
+    }
+  }
+}

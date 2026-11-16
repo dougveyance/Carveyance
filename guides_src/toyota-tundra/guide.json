@@ -1,0 +1,105 @@
+{
+  "id": "toyota-tundra",
+  "make": "Toyota",
+  "model": "Tundra",
+  "years": "2017–2026",
+  "byline": "Margot Devries",
+  "published": "2026-11-16",
+  "updated": "2026-11-16",
+  "cars": [
+    "toyota-tundra-xk50",
+    "toyota-tundra-xk70"
+  ],
+  "shop": {
+    "cargurus": "d313"
+  },
+  "chapters": [
+    "2017-2021-v8",
+    "2022-2026",
+    "hybrid",
+    "engine-recall",
+    "trims-and-towing",
+    "used-checklist"
+  ],
+  "series": {
+    "v46": {"name": "2017–2019 4.6-liter V8", "color": "#c3cad1"},
+    "v57": {"name": "2017–2021 5.7-liter V8", "color": "#9aa5b1"},
+    "sr": {"name": "2022–2026 twin-turbo V6, SR", "color": "#6b7785"},
+    "tt": {"name": "2022–2026 twin-turbo V6", "color": "#2E6E96"},
+    "hyb": {"name": "2022–2026 i-FORCE MAX hybrid", "color": "#e05c2a"},
+    "t17": {"name": "2017–2019 5.7-liter V8", "color": "#c3cad1"},
+    "t20": {"name": "2020–2021 5.7-liter V8", "color": "#9aa5b1"},
+    "r1": {"name": "24V-381: 2022–2023 Tundra and Lexus LX", "color": "#f08a5d"},
+    "r2": {"name": "25V-767: 2022–2024 Tundra, Lexus LX and GX", "color": "#e05c2a"},
+    "r3": {"name": "26V-320: 2024 Tundra", "color": "#b8461f"}
+  },
+  "charts": {
+    "power": {
+      "n": 1,
+      "title": "Horsepower, by engine",
+      "sub": "Toyota's figures. The SR figure is for 2022. The hybrid number is combined system output.",
+      "source": "Toyota",
+      "bars": [["v46", 310, "310 hp"], ["v57", 381, "381 hp"], ["sr", 348, "348 hp"], ["tt", 389, "389 hp"], ["hyb", 437, "437 hp"]]
+    },
+    "torque": {
+      "n": 2,
+      "title": "Peak torque, by engine",
+      "sub": "Pound-feet, as advertised. The hybrid makes its 583 lb-ft at 2,400 rpm, against 3,600 rpm for the 5.7-liter V8's 401.",
+      "source": "Toyota",
+      "bars": [["v46", 327, "327 lb-ft"], ["v57", 401, "401 lb-ft"], ["sr", 405, "405 lb-ft"], ["tt", 479, "479 lb-ft"], ["hyb", 583, "583 lb-ft"]]
+    },
+    "mpg": {
+      "n": 3,
+      "title": "Fuel economy, 4x4",
+      "sub": "EPA combined miles per gallon for 4x4 versions. Rear-drive trucks are rated 1 or 2 mpg higher.",
+      "source": "EPA ratings",
+      "bars": [["v57", 14, "14 mpg"], ["tt", 19, "19 mpg"], ["hyb", 20, "20 mpg"]]
+    },
+    "fuelcost": {
+      "n": 4,
+      "title": "A year of fuel",
+      "sub": "15,000 miles at $4 a gallon, using the EPA combined figures above: 14, 19 and 20 mpg. An example, not a forecast.",
+      "source": "Carveyance arithmetic from EPA ratings",
+      "bars": [["v57", 4286, "$4,286 · 1,071 gal"], ["tt", 3158, "$3,158 · 789 gal"], ["hyb", 3000, "$3,000 · 750 gal"]]
+    },
+    "recall": {
+      "n": 5,
+      "title": "The engine recalls, by size",
+      "sub": "Vehicles in each US recall for machining debris in the twin-turbo V6. Each one extends the last to trucks built later.",
+      "source": "NHTSA",
+      "bars": [["r1", 102092, "102,092 vehicles"], ["r2", 126691, "126,691 vehicles"], ["r3", 43566, "43,566 vehicles"]]
+    },
+    "tow": {
+      "n": 6,
+      "title": "How much it can tow",
+      "sub": "Toyota's maximum towing ratings, in kilograms, with pounds in parentheses. Each applies only to specific cab, bed and drive combinations.",
+      "source": "Toyota",
+      "bars": [["t17", 4763, "4,763 kg (10,500 lb)"], ["t20", 4627, "4,627 kg (10,200 lb)"], ["tt", 5443, "5,443 kg (12,000 lb)"]]
+    }
+  },
+  "photos": {
+    "hub-hero": {"want": "A 2022–2026 Tundra outside, front three-quarter, or a new Tundra beside a 2017–2021 one", "credit": "Toyota", "alt": "A Toyota Tundra"},
+    "ch1-hero": {"want": "A 2017–2021 Tundra, ideally a TRD Pro or 1794 Edition", "credit": "Toyota", "alt": "A 2017–2021 Toyota Tundra"},
+    "ch2-hero": {"want": "A 2022–2026 Tundra driving, ideally an SR5 or Limited", "credit": "Toyota", "alt": "A 2022–2026 Toyota Tundra"},
+    "ch3-hero": {"want": "A Tundra i-FORCE MAX, ideally a TRD Pro or Capstone", "credit": "Toyota", "alt": "A Toyota Tundra i-FORCE MAX"},
+    "ch4-hero": {"want": "The 3.4-liter twin-turbo V6 in a Tundra's engine bay", "credit": "Toyota", "alt": "The Toyota Tundra's twin-turbo V6"},
+    "ch5-hero": {"want": "A Tundra towing a trailer, or a 1794 Edition", "credit": "Toyota", "alt": "A Toyota Tundra"},
+    "ch6-hero": {"want": "A Tundra at work, or a Tundra on a trail", "credit": "Toyota", "alt": "A Toyota Tundra"}
+  },
+  "find": {
+    "picker": [
+      {"model": "Tundra", "years": "2017–2021", "ch": "2017-2021-v8"},
+      {"model": "Tundra", "years": "2022–2026", "ch": "2022-2026"},
+      {"model": "Tundra Hybrid", "years": "2022–2026", "ch": "hybrid"}
+    ],
+    "terms": {
+      "": ["pickup", "full-size truck", "truck", "Double Cab", "CrewMax"],
+      "2017-2021-v8": ["second generation", "V8", "5.7-liter", "4.6-liter", "6-speed"],
+      "2022-2026": ["third generation", "twin-turbo", "V6", "3.4-liter", "3.5-liter", "i-FORCE", "10-speed", "TRD Rally"],
+      "hybrid": ["hybrid", "i-FORCE MAX", "Tundra Hybrid", "Capstone"],
+      "engine-recall": ["engine recall", "debris", "main bearing", "24V-381", "25V-767", "26V-320", "V35A", "engine replacement"],
+      "trims-and-towing": ["trim", "trims", "grade", "grades", "SR", "SR5", "Limited", "Platinum", "1794 Edition", "TRD Pro", "TRD Sport", "towing", "tow", "payload"],
+      "used-checklist": ["used", "checklist", "inspection", "recalls", "camera recall", "reverse light recall"]
+    }
+  }
+}

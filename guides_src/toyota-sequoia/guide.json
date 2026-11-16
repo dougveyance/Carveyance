@@ -76,13 +76,13 @@
     }
   },
   "photos": {
-    "hub-hero": {"want": "A 2023–2026 Sequoia outside, front three-quarter", "credit": "Toyota", "alt": "A Toyota Sequoia"},
-    "ch1-hero": {"want": "A 2017–2022 Sequoia, ideally a TRD Pro or Limited", "credit": "Toyota", "alt": "A 2017–2022 Toyota Sequoia"},
-    "ch2-hero": {"want": "A 2023–2026 Sequoia driving, ideally a Platinum, 1794 Edition or Capstone", "credit": "Toyota", "alt": "A 2023–2026 Toyota Sequoia"},
-    "ch3-hero": {"want": "The Sequoia's third row or cargo area, ideally showing the sliding third row or cargo shelf", "credit": "Toyota", "alt": "The cargo area of a Toyota Sequoia"},
-    "ch4-hero": {"want": "A Sequoia TRD Pro off-road, or a Sequoia towing", "credit": "Toyota", "alt": "A Toyota Sequoia"},
-    "ch5-hero": {"want": "A Sequoia on a family trip, or its underside", "credit": "Toyota", "alt": "A Toyota Sequoia"},
-    "ch6-hero": {"want": "An old and a new Sequoia together, or a 2023–2026 Sequoia outside", "credit": "Toyota", "alt": "Toyota Sequoias"}
+    "hub-hero": {"want": "A 2023–2026 Sequoia outside, front three-quarter", "credit": "Toyota", "alt": "A silver 2026 Toyota Sequoia 1794 Edition in a field at sunset"},
+    "ch1-hero": {"want": "A 2017–2022 Sequoia, ideally a TRD Pro or Limited", "credit": "Toyota", "alt": "A green 2020 Toyota Sequoia TRD Pro with a roof rack on a dirt road"},
+    "ch2-hero": {"want": "A 2023–2026 Sequoia driving, ideally a Platinum, 1794 Edition or Capstone", "credit": "Toyota", "alt": "A white 2024 Toyota Sequoia Capstone driving on a tree-lined road"},
+    "ch3-hero": {"want": "The Sequoia's third row or cargo area, ideally showing the sliding third row or cargo shelf", "credit": "Toyota", "alt": "The third-row bench of a 2023 Toyota Sequoia Capstone, seen from beside the second row"},
+    "ch4-hero": {"want": "A Sequoia TRD Pro off-road, or a Sequoia towing", "credit": "Toyota", "alt": "A black 2023 Toyota Sequoia Limited towing an Airstream trailer"},
+    "ch5-hero": {"want": "A Sequoia on a family trip, or its underside", "credit": "Toyota", "alt": "The dashboard of a 2024 Toyota Sequoia Limited, with its large touchscreen and a panoramic roof overhead"},
+    "ch6-hero": {"want": "An old and a new Sequoia together, or a 2023–2026 Sequoia outside", "credit": "Toyota", "alt": "A red 2023 Toyota Sequoia Capstone, seen from the side, in front of a stone wall"}
   },
   "find": {
     "picker": [

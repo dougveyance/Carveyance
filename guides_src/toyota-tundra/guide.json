@@ -78,13 +78,13 @@
     }
   },
   "photos": {
-    "hub-hero": {"want": "A 2022–2026 Tundra outside, front three-quarter, or a new Tundra beside a 2017–2021 one", "credit": "Toyota", "alt": "A Toyota Tundra"},
-    "ch1-hero": {"want": "A 2017–2021 Tundra, ideally a TRD Pro or 1794 Edition", "credit": "Toyota", "alt": "A 2017–2021 Toyota Tundra"},
-    "ch2-hero": {"want": "A 2022–2026 Tundra driving, ideally an SR5 or Limited", "credit": "Toyota", "alt": "A 2022–2026 Toyota Tundra"},
-    "ch3-hero": {"want": "A Tundra i-FORCE MAX, ideally a TRD Pro or Capstone", "credit": "Toyota", "alt": "A Toyota Tundra i-FORCE MAX"},
-    "ch4-hero": {"want": "The 3.4-liter twin-turbo V6 in a Tundra's engine bay", "credit": "Toyota", "alt": "The Toyota Tundra's twin-turbo V6"},
-    "ch5-hero": {"want": "A Tundra towing a trailer, or a 1794 Edition", "credit": "Toyota", "alt": "A Toyota Tundra"},
-    "ch6-hero": {"want": "A Tundra at work, or a Tundra on a trail", "credit": "Toyota", "alt": "A Toyota Tundra"}
+    "hub-hero": {"want": "A 2022–2026 Tundra outside, front three-quarter, or a new Tundra beside a 2017–2021 one", "credit": "Toyota", "alt": "A dark blue 2022 Toyota Tundra Platinum driving on a country road"},
+    "ch1-hero": {"want": "A 2017–2021 Tundra, ideally a TRD Pro or 1794 Edition", "credit": "Toyota", "alt": "A white 2020 Toyota Tundra TRD Pro CrewMax on a forest trail"},
+    "ch2-hero": {"want": "A 2022–2026 Tundra driving, ideally an SR5 or Limited", "credit": "Toyota", "alt": "A 2022 Toyota Tundra SR5 TRD Sport in Lunar Rock on a winding road"},
+    "ch3-hero": {"want": "A Tundra i-FORCE MAX, ideally a TRD Pro or Capstone", "credit": "Toyota", "alt": "A 2026 Toyota Tundra TRD Pro in Wave Maker blue kicking up dirt"},
+    "ch4-hero": {"want": "The 3.4-liter twin-turbo V6 in a Tundra's engine bay", "credit": "Toyota", "alt": "The engine bay of a 2022 Toyota Tundra i-FORCE MAX, with the twin-turbo V6 under its cover and the hybrid system's orange cables", "caption": "Shown: the i-FORCE MAX hybrid, which isn't named in these recalls"},
+    "ch5-hero": {"want": "A Tundra towing a trailer, or a 1794 Edition", "credit": "Toyota", "alt": "A red 2022 Toyota Tundra Limited towing an Airstream trailer"},
+    "ch6-hero": {"want": "A Tundra at work, or a Tundra on a trail", "credit": "Toyota", "alt": "A white 2025 Toyota Tundra with the TRD Rally package, seen from behind, in a forest clearing"}
   },
   "find": {
     "picker": [

@@ -7590,7 +7590,7 @@ const CARS = [
       "Most grades swapped the old leaf springs for multi-link coils, and the TRD Pro can have the IsoDynamic seat, which Toyota describes as patent-pending. Early trucks have several recalls, including rear brake hoses on about 222,000 2024–2025 trucks (25V-058) and instrument panel software (25V-595)."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota Tacoma"
     ],
@@ -7652,7 +7652,7 @@ const CARS = [
       "Toyota Safety Sense P was standard on every grade by 2019, and Apple CarPlay and Android Auto arrived for 2020. Certain 2018–2020 trucks are part of the fuel pump recall 20V-012/20V-682, and certain 2007–2021 trucks were recalled because the power steering gear can leak."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota Tundra"
     ],
@@ -7715,7 +7715,7 @@ const CARS = [
       "Toyota has recalled certain 2022–2024 gas Tundras 3 times because machining debris can damage the engine's main bearings (24V-381, 25V-767 and 26V-320). A power tailgate became standard for 2025, and for 2026 the TRD Pro can have the Tacoma's IsoDynamic seats."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota Tundra"
     ],
@@ -7776,7 +7776,7 @@ const CARS = [
       "A 2018 update brought new styling and standard Toyota Safety Sense P, and a TRD Sport grade. Apple CarPlay, Android Auto and the off-road TRD Pro arrived for 2020, and a Nightshade Edition for 2021. Certain 2008–2022 Sequoias were recalled because the power steering gear can leak (21V-920)."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota Sequoia"
     ],
@@ -7839,7 +7839,7 @@ const CARS = [
       "Production moved from Princeton, Indiana, to Toyota's truck plant in San Antonio, Texas. A 1794 Edition and standard massaging seats on the top grades arrived for 2025, and power-folding third-row seats became standard for 2026. About 43,000 2023–2024 models were recalled because the rear tow hitch cover can come loose (24V-640)."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota Sequoia"
     ],
@@ -7901,7 +7901,7 @@ const CARS = [
       "A Heritage Edition with bronze BBS wheels and 2 rows of seats arrived for 2020, with a third row optional for 2021. The US never got the 300 Series that replaced it elsewhere, which Lexus sells here as the LX 600. In the US, the Land Cruiser name returned for 2024 on the smaller 250 Series."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota Land Cruiser"
     ],
@@ -7965,7 +7965,7 @@ const CARS = [
       "The 1958 grade has round headlights and the Land Cruiser grade rectangular ones, and the First Edition was sold for 2024 only. In October 2026, Toyota recalled about 106,000 2024–2027 models because a fuel tube connection near the tank can come apart and leak (26V-673)."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota Land Cruiser"
     ],

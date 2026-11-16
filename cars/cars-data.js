@@ -6971,7 +6971,11 @@ const CARS_INDEX = [
    "name": "Toyota Tacoma (N300)"
   },
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-tacoma-n400.jpg?v=727feafa",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-tundra-xk50",
@@ -7020,7 +7024,11 @@ const CARS_INDEX = [
    "id": "toyota-tundra-xk70",
    "name": "Toyota Tundra (XK70)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-tundra-xk50.jpg?v=7e33840b",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-tundra-xk70",
@@ -7070,7 +7078,11 @@ const CARS_INDEX = [
    "name": "Toyota Tundra (XK50)"
   },
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-tundra-xk70.jpg?v=43482749",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-sequoia-xk60",
@@ -7122,7 +7134,11 @@ const CARS_INDEX = [
    "id": "toyota-sequoia-xk80",
    "name": "Toyota Sequoia (XK80)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-sequoia-xk60.jpg?v=1fe4ca62",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-sequoia-xk80",
@@ -7176,7 +7192,11 @@ const CARS_INDEX = [
    "name": "Toyota Sequoia (XK60)"
   },
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-sequoia-xk80.jpg?v=343611e7",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-land-cruiser-j200",
@@ -7233,7 +7253,11 @@ const CARS_INDEX = [
    "id": "toyota-land-cruiser-j250",
    "name": "Toyota Land Cruiser (250 Series)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-land-cruiser-j200.jpg?v=68f6cb45",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-land-cruiser-j250",
@@ -7292,6 +7316,10 @@ const CARS_INDEX = [
    "name": "Toyota Land Cruiser (200 Series)"
   },
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-land-cruiser-j250.jpg?v=b548b315",
+   "pos": "",
+   "fit": ""
+  }
  }
 ];

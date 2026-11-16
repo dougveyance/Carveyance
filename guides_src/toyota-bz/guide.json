@@ -1,0 +1,287 @@
+{
+  "id": "toyota-bz",
+  "make": "Toyota",
+  "model": "bZ4X and bZ",
+  "years": "2023–2026",
+  "byline": "Theo Wren",
+  "published": "2026-11-16",
+  "updated": "2026-11-16",
+  "cars": [
+    "toyota-bz4x",
+    "toyota-bz-woodland"
+  ],
+  "shop": {
+    "cargurus": "d3220"
+  },
+  "chapters": [
+    "2023-2025-bz4x",
+    "2026-bz-and-woodland",
+    "used-checklist"
+  ],
+  "series": {
+    "hf": {
+      "name": "2023–2025 bZ4X, FWD",
+      "color": "#9aa5b1"
+    },
+    "ha": {
+      "name": "2023–2025 bZ4X, AWD",
+      "color": "#9aa5b1"
+    },
+    "nf": {
+      "name": "2026 bZ, FWD",
+      "color": "#2E6E96"
+    },
+    "na": {
+      "name": "2026 bZ, AWD",
+      "color": "#2E6E96"
+    },
+    "w": {
+      "name": "2026 bZ Woodland",
+      "color": "#e05c2a"
+    },
+    "r1": {
+      "name": "2023–2025 bZ4X XLE FWD",
+      "color": "#9aa5b1"
+    },
+    "r2": {
+      "name": "2023–2025 bZ4X Limited AWD",
+      "color": "#9aa5b1"
+    },
+    "r3": {
+      "name": "2026 bZ XLE FWD Plus",
+      "color": "#2E6E96"
+    },
+    "r4": {
+      "name": "2026 bZ Limited AWD",
+      "color": "#2E6E96"
+    },
+    "r5": {
+      "name": "2026 bZ Woodland",
+      "color": "#e05c2a"
+    },
+    "r6": {
+      "name": "2026 bZ Woodland, all-terrain tires",
+      "color": "#e05c2a"
+    },
+    "p23": {
+      "name": "2023 bZ4X XLE FWD",
+      "color": "#9aa5b1"
+    },
+    "p24": {
+      "name": "2024 bZ4X XLE FWD",
+      "color": "#9aa5b1"
+    },
+    "p25": {
+      "name": "2025 bZ4X XLE FWD",
+      "color": "#9aa5b1"
+    },
+    "p26": {
+      "name": "2026 bZ XLE FWD",
+      "color": "#2E6E96"
+    },
+    "p26p": {
+      "name": "2026 bZ XLE FWD Plus",
+      "color": "#2E6E96"
+    },
+    "p26w": {
+      "name": "2026 bZ Woodland",
+      "color": "#e05c2a"
+    }
+  },
+  "charts": {
+    "power": {
+      "n": 1,
+      "title": "Horsepower, old and new",
+      "sub": "Toyota's figures. The 2026 front-drive number is the most powerful version; AWD figures are combined output.",
+      "source": "Toyota",
+      "bars": [
+        [
+          "hf",
+          201,
+          "201 hp"
+        ],
+        [
+          "ha",
+          214,
+          "214 hp"
+        ],
+        [
+          "nf",
+          221,
+          "221 hp"
+        ],
+        [
+          "na",
+          338,
+          "338 hp"
+        ],
+        [
+          "w",
+          375,
+          "375 hp"
+        ]
+      ]
+    },
+    "range": {
+      "n": 2,
+      "title": "EPA driving range",
+      "sub": "Miles on a full charge, as rated by the EPA, for the longest and shortest versions of each.",
+      "source": "EPA ratings, via InsideEVs, Electrek and Toyota",
+      "bars": [
+        [
+          "r1",
+          252,
+          "252 miles"
+        ],
+        [
+          "r2",
+          222,
+          "222 miles"
+        ],
+        [
+          "r3",
+          314,
+          "314 miles"
+        ],
+        [
+          "r4",
+          278,
+          "278 miles"
+        ],
+        [
+          "r5",
+          281,
+          "281 miles"
+        ],
+        [
+          "r6",
+          260,
+          "260 miles"
+        ]
+      ]
+    },
+    "price": {
+      "n": 3,
+      "title": "What a new one cost, in 2026 dollars",
+      "sub": "Starting prices before delivery, adjusted with the US consumer price index. The original price is in each label.",
+      "source": "Toyota, InsideEVs, Edmunds and Electrek prices; Carveyance CPI arithmetic",
+      "bars": [
+        [
+          "p23",
+          46400,
+          "$46,400 · $42,000 then"
+        ],
+        [
+          "p24",
+          46200,
+          "$46,200 · $43,070 then"
+        ],
+        [
+          "p25",
+          38700,
+          "$38,700 · $37,070 then"
+        ],
+        [
+          "p26",
+          34900,
+          "$34,900"
+        ],
+        [
+          "p26p",
+          37900,
+          "$37,900"
+        ],
+        [
+          "p26w",
+          45300,
+          "$45,300"
+        ]
+      ]
+    }
+  },
+  "photos": {
+    "hub-hero": {
+      "want": "A 2026 bZ outside, front three-quarter, or a bZ and a bZ Woodland together",
+      "credit": "Toyota",
+      "alt": "A Toyota bZ"
+    },
+    "ch1-hero": {
+      "want": "A 2023–2025 bZ4X outside, ideally an XLE or Limited",
+      "credit": "Toyota",
+      "alt": "A Toyota bZ4X"
+    },
+    "ch2-hero": {
+      "want": "A 2026 bZ Woodland on a dirt road or trail",
+      "credit": "Toyota",
+      "alt": "A Toyota bZ Woodland"
+    },
+    "ch3-hero": {
+      "want": "A bZ4X or bZ plugged in at a charger, or its charge port",
+      "credit": "Toyota",
+      "alt": "A Toyota bZ charging"
+    }
+  },
+  "find": {
+    "picker": [
+      {
+        "model": "bZ4X",
+        "years": "2023–2025",
+        "ch": "2023-2025-bz4x"
+      },
+      {
+        "model": "bZ",
+        "years": "2026",
+        "ch": "2026-bz-and-woodland"
+      },
+      {
+        "model": "bZ Woodland",
+        "years": "2026",
+        "ch": "2026-bz-and-woodland"
+      }
+    ],
+    "terms": {
+      "": [
+        "bZ4X",
+        "bZ",
+        "bZ Woodland",
+        "electric SUV",
+        "EV",
+        "electric",
+        "Subaru Solterra",
+        "SUV"
+      ],
+      "2023-2025-bz4x": [
+        "bZ4X",
+        "range",
+        "charging",
+        "hub bolt recall",
+        "wheel recall",
+        "Nightshade",
+        "2025 price cut",
+        "X-MODE"
+      ],
+      "2026-bz-and-woodland": [
+        "bZ",
+        "Woodland",
+        "bZ Woodland",
+        "NACS",
+        "Tesla Supercharger",
+        "preconditioning",
+        "XLE Plus",
+        "338 hp",
+        "all-terrain tires",
+        "towing"
+      ],
+      "used-checklist": [
+        "used",
+        "checklist",
+        "inspection",
+        "recalls",
+        "battery health",
+        "battery warranty",
+        "defroster recall",
+        "charging test"
+      ]
+    }
+  }
+}

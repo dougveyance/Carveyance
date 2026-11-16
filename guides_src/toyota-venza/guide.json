@@ -1,0 +1,174 @@
+{
+  "id": "toyota-venza",
+  "make": "Toyota",
+  "model": "Venza",
+  "years": "2021–2024",
+  "byline": "Camille Bouchard",
+  "published": "2026-11-16",
+  "updated": "2026-11-16",
+  "cars": [
+    "toyota-venza-xu80"
+  ],
+  "shop": {
+    "cargurus": "d1516"
+  },
+  "chapters": [
+    "review",
+    "trims-and-years",
+    "used-checklist"
+  ],
+  "series": {
+    "v": {
+      "name": "Venza, behind the rear seat",
+      "color": "#e05c2a"
+    },
+    "r": {
+      "name": "RAV4 Hybrid, behind the rear seat",
+      "color": "#9aa5b1"
+    },
+    "vf": {
+      "name": "Venza, rear seat folded",
+      "color": "#2E6E96"
+    },
+    "p21le": {
+      "name": "2021 Venza LE",
+      "color": "#9aa5b1"
+    },
+    "p21lim": {
+      "name": "2021 Venza Limited",
+      "color": "#9aa5b1"
+    },
+    "p24le": {
+      "name": "2024 Venza LE",
+      "color": "#e05c2a"
+    },
+    "p24lim": {
+      "name": "2024 Venza Limited",
+      "color": "#e05c2a"
+    }
+  },
+  "charts": {
+    "cargo": {
+      "n": 1,
+      "title": "Cargo space",
+      "sub": "Cubic feet behind the rear seat, and in the Venza with the seat folded. The RAV4 Hybrid is the 2019–2025 generation.",
+      "source": "Motor1 and Autoblog",
+      "bars": [
+        [
+          "v",
+          28.8,
+          "28.8 cu ft"
+        ],
+        [
+          "r",
+          37.6,
+          "37.6 cu ft"
+        ],
+        [
+          "vf",
+          55.1,
+          "55.1 cu ft"
+        ]
+      ]
+    },
+    "price": {
+      "n": 2,
+      "title": "What a new one cost, in 2026 dollars",
+      "sub": "Starting prices before delivery, adjusted with the US consumer price index. The original price is in each label.",
+      "source": "Toyota and CarGurus prices; Carveyance CPI arithmetic",
+      "bars": [
+        [
+          "p21le",
+          40300,
+          "$40,300 · $32,470 then"
+        ],
+        [
+          "p21lim",
+          49400,
+          "$49,400 · $39,800 then"
+        ],
+        [
+          "p24le",
+          37600,
+          "$37,600 · $35,070 then"
+        ],
+        [
+          "p24lim",
+          46300,
+          "$46,300 · $43,215 then"
+        ]
+      ]
+    }
+  },
+  "photos": {
+    "hub-hero": {
+      "want": "A 2021–2024 Venza outside, front three-quarter",
+      "credit": "Toyota",
+      "alt": "A 2021–2024 Toyota Venza"
+    },
+    "ch1-hero": {
+      "want": "A Venza driving on the road",
+      "credit": "Toyota",
+      "alt": "A Toyota Venza on the road"
+    },
+    "ch2-hero": {
+      "want": "A Venza Nightshade or Limited, or the cabin with the 12.3-inch screen",
+      "credit": "Toyota",
+      "alt": "A Toyota Venza"
+    },
+    "ch3-hero": {
+      "want": "The Venza's cargo area, or the Star Gaze roof",
+      "credit": "Toyota",
+      "alt": "A Toyota Venza"
+    }
+  },
+  "find": {
+    "picker": [
+      {
+        "model": "Venza",
+        "years": "2021–2024",
+        "ch": "review"
+      }
+    ],
+    "terms": {
+      "": [
+        "Venza",
+        "hybrid SUV",
+        "hybrid crossover",
+        "midsize SUV",
+        "AWD hybrid",
+        "SUV"
+      ],
+      "review": [
+        "review",
+        "fuel economy",
+        "mpg",
+        "cargo",
+        "cargo space",
+        "RAV4 Hybrid",
+        "Star Gaze"
+      ],
+      "trims-and-years": [
+        "trim",
+        "trims",
+        "grade",
+        "grades",
+        "LE",
+        "XLE",
+        "Nightshade",
+        "Limited",
+        "which year",
+        "2023 update"
+      ],
+      "used-checklist": [
+        "used",
+        "checklist",
+        "inspection",
+        "recalls",
+        "turn signal recall",
+        "instrument display recall",
+        "hybrid battery warranty"
+      ]
+    }
+  }
+}

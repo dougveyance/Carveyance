@@ -7974,5 +7974,414 @@ const CARS = [
       "title": "The Toyota Land Cruiser Buyer's Guide",
       "blurb": "The 200 Series V8 or the 250 Series hybrid, grades and prices, and the used checklist with the recalls to check, in 5 chapters."
     }
+  },
+  {
+    "id": "toyota-venza-xu80",
+    "name": "Toyota Venza (XU80)",
+    "aka": [
+      "Second-generation Venza",
+      "Venza Hybrid",
+      "Venza Nightshade",
+      "Venza Limited"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "2021–2024",
+    "start": 2021,
+    "end": 2024,
+    "shop": {
+      "cargurus": "d1516"
+    },
+    "body": "2-row midsize crossover SUV",
+    "engine": "2.5-liter 4-cylinder hybrid with 3 electric motors",
+    "drive": "All-wheel drive (electric motor at the rear)",
+    "gearbox": "Electronically controlled CVT",
+    "specsFor": "2021 Toyota Venza, US market",
+    "power": {
+      "hp": 219,
+      "note": "Combined system output",
+      "src": "https://pressroom.toyota.com/?p=60549"
+    },
+    "weight": {
+      "kg": 1745,
+      "note": "Curb weight, 2021 LE (Limited: 1,775 kg / 3,913 lb)",
+      "src": "https://www.kbb.com/toyota/venza/2021/specs/"
+    },
+    "zero60": {
+      "sec": 7.6,
+      "kind": "tested",
+      "note": "Edmunds test, 2021",
+      "src": "https://www.edmunds.com:443/toyota/venza/2021/review/"
+    },
+    "top": null,
+    "built": null,
+    "predecessor": null,
+    "successor": null,
+    "quick": "Toyota's hybrid-only, all-wheel-drive crossover for 2021–2024: the RAV4 Hybrid's 219-hp system and wheelbase under a sleeker body and a plusher cabin, rated at 39 mpg combined, with less cargo room than a RAV4.",
+    "story": [
+      "The second-generation Venza came to the US for 2021, 6 years after the first was dropped, as a 5-seat crossover sold only as a hybrid. A 2.5-liter 4-cylinder and 3 electric motors, one of them driving the rear wheels, make 219 hp combined, and the EPA rates it at 39 mpg combined. It shares its 105.9-inch wheelbase with the RAV4 Hybrid, but its sloping roof leaves 28.8 cubic feet behind the rear seat, against the RAV4's 37.6. Its available Star Gaze roof, which switches from clear to frosted, was a first for Toyota.",
+      "For 2023 it gained Toyota's newer multimedia system, Toyota Safety Sense 2.5 and a Nightshade Edition. Toyota dropped it after 2024 and replaced it with the Crown Signia. Recalls include the rear turn signals on 2021 cars (22V-033) and the 12.3-inch instrument display on 2023–2024 cars (25V-595)."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Venza"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/toyota-venza/",
+      "title": "The Toyota Venza Buyer's Guide",
+      "blurb": "The hybrid crossover reviewed, the trims and years, and the used checklist with the recalls to check, in 3 chapters."
+    }
+  },
+  {
+    "id": "toyota-bz4x",
+    "name": "Toyota bZ4X / bZ",
+    "aka": [
+      "Toyota bZ",
+      "bZ4X",
+      "bZ4X Nightshade",
+      "bZ XLE FWD Plus"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "2023–present",
+    "start": 2023,
+    "end": null,
+    "shop": {
+      "cargurus": "d3220"
+    },
+    "body": "2-row compact electric SUV",
+    "engine": "Battery-electric: 1 motor (FWD) or 2 motors (AWD)",
+    "drive": "Front-wheel drive or all-wheel drive",
+    "gearbox": "Single-speed reduction gear",
+    "specsFor": "2023 Toyota bZ4X, US market",
+    "power": {
+      "hp": 214,
+      "note": "2023–2025 AWD (FWD: 201 hp). 2026 bZ: up to 221 hp FWD, 338 hp AWD",
+      "src": "https://pressroom.toyota.com/toyota-bz-all-electric-suv-adds-range-charging-and-exterior-updates-for-2026/"
+    },
+    "weight": {
+      "kg": 1935,
+      "note": "Curb weight, 2023 XLE FWD, Toyota figure",
+      "src": "https://henrypayne.com/?p=29104"
+    },
+    "zero60": {
+      "sec": 6.3,
+      "kind": "tested",
+      "note": "Car and Driver test, 2023 Limited AWD",
+      "src": "https://autos.yahoo.com/2023-toyota-bz4x-gets-toyota-110000045.html"
+    },
+    "top": null,
+    "built": null,
+    "predecessor": null,
+    "successor": null,
+    "quick": "Toyota's first mass-market electric SUV in the US, about the size of a RAV4. The 2023–2025 bZ4X has up to 252 miles of EPA range; the 2026 bZ brought bigger batteries, a NACS port, 338 hp with AWD and up to 314 miles.",
+    "story": [
+      "The bZ4X arrived for 2023 on a platform Toyota developed with Subaru, which sells a twin called the Solterra. Front-drive versions had a 201-hp motor and a 71.4 kWh battery; all-wheel-drive versions had 214 hp, a 72.8 kWh battery and X-MODE. EPA ranges ran from 222 to 252 miles, and Car and Driver ran an AWD Limited from 0 to 60 mph in 6.3 seconds. Weeks after launch, recall 22V-444 told owners to stop driving because the hub bolts could loosen until a wheel came off. The fix replaced the bolts and the wheels.",
+      "Toyota cut the price by up to $6,000 for 2025, then renamed the car bZ for 2026, with 57.7 or 74.7 kWh batteries, up to 221 hp with front drive and 338 hp with all-wheel drive, a NACS charging port and standard battery preconditioning. The EPA rates the XLE FWD Plus at 314 miles. The bZ4X has been built at Toyota's Motomachi plant in Japan."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota bZ4X",
+      "Toyota bZ"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/toyota-bz/",
+      "title": "The Toyota bZ4X and bZ Buyer's Guide",
+      "blurb": "The 2023–2025 bZ4X, the 2026 bZ and bZ Woodland, and the used checklist with the charging test and recalls, in 3 chapters."
+    }
+  },
+  {
+    "id": "toyota-bz-woodland",
+    "name": "Toyota bZ Woodland",
+    "aka": [
+      "bZ Woodland",
+      "bZ Woodland Premium",
+      "bZ4X Touring"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "2026–present",
+    "start": 2026,
+    "end": null,
+    "body": "2-row midsize electric SUV",
+    "engine": "Battery-electric, 2 motors",
+    "drive": "All-wheel drive",
+    "gearbox": "Single-speed reduction gear",
+    "specsFor": "2026 Toyota bZ Woodland, US market (Toyota figures)",
+    "power": {
+      "hp": 375,
+      "note": "Combined system output",
+      "src": "https://pressroom.toyota.com/toyotas-all-electric-lineup-gains-rugged-powerful-new-bz-woodland-suv/"
+    },
+    "weight": null,
+    "zero60": {
+      "sec": 4.4,
+      "kind": "claimed",
+      "note": "Toyota estimate",
+      "src": "https://pressroom.toyota.com/toyotas-all-electric-lineup-gains-rugged-powerful-new-bz-woodland-suv/"
+    },
+    "top": null,
+    "built": null,
+    "predecessor": null,
+    "successor": null,
+    "quick": "A longer, more rugged sibling of the 2026 bZ, with 375 hp, all-wheel drive, 8.4 inches of ground clearance and up to 74.3 cubic feet of cargo space. The EPA range is up to 281 miles, or 260 with the optional all-terrain tires.",
+    "story": [
+      "Introduced for 2026, the bZ Woodland is nearly 6 inches longer than the bZ and comes only with dual-motor all-wheel drive. It has a 74.7 kWh battery, a NACS port, X-MODE with Grip Control and a tow rating of 1,588 kg (3,500 lb). Toyota estimates 0 to 60 mph in 4.4 seconds.",
+      "There are 2 grades, the Woodland and the Woodland Premium, which adds JBL audio, ventilated front seats and a panoramic moonroof. Toyota priced it from $45,300 and expected it at US dealers in March 2026. In Japan, Toyota sells it as the bZ4X Touring."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota bZ Woodland"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/toyota-bz/",
+      "title": "The Toyota bZ4X and bZ Buyer's Guide",
+      "blurb": "The 2023–2025 bZ4X, the 2026 bZ and bZ Woodland, and the used checklist with the charging test and recalls, in 3 chapters."
+    }
+  },
+  {
+    "id": "toyota-avalon-xx40",
+    "name": "Toyota Avalon (XX40)",
+    "aka": [
+      "Fourth-generation Avalon",
+      "Avalon Hybrid",
+      "Avalon XLE",
+      "Avalon Limited"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "United States",
+    "years": "2013–2018",
+    "start": 2013,
+    "end": 2018,
+    "shop": {
+      "cargurus": "d291"
+    },
+    "body": "Full-size sedan",
+    "engine": "3.5-liter V6, or 2.5-liter 4-cylinder hybrid",
+    "drive": "Front-wheel drive",
+    "gearbox": "6-speed automatic (hybrid: CVT)",
+    "specsFor": "2017 Toyota Avalon, US market",
+    "power": {
+      "hp": 268,
+      "note": "3.5-liter V6, 248 lb-ft (hybrid: 200 hp combined)",
+      "src": "https://www.autoblog.com/buy/2018-Toyota-Avalon/expert-review/"
+    },
+    "weight": {
+      "kg": 1630,
+      "note": "Curb weight, 2017 Avalon Hybrid (3,594–3,638 lb)",
+      "src": "https://www.kbb.com/toyota/avalonhybrid/2017/"
+    },
+    "zero60": null,
+    "top": null,
+    "built": null,
+    "predecessor": null,
+    "successor": {
+      "name": "Toyota Avalon (XX50)",
+      "id": "toyota-avalon-xx50"
+    },
+    "quick": "The fourth-generation Avalon in its final years: a big, quiet front-drive sedan with a 268-hp V6 or a 40-mpg hybrid, built in Kentucky, with Toyota Safety Sense P standard from 2017.",
+    "story": [
+      "The fourth-generation Avalon arrived for 2013. The V6 makes 268 hp and 248 lb-ft with a 6-speed automatic and is rated at 24 mpg combined. The hybrid pairs a 2.5-liter 4-cylinder with an electric motor and a nickel-metal hydride battery for 200 hp and 40 mpg combined. For 2017, Toyota made its Toyota Safety Sense P suite, including automatic emergency braking and adaptive cruise control, standard on every grade.",
+      "Like every US Avalon, it was built in Georgetown, Kentucky. It has neither Apple CarPlay nor Android Auto. Recalls in its last years include the airbag control unit (20V-024) and, on some 2018 cars, the low-pressure fuel pump (20V-012)."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Avalon"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/toyota-avalon/",
+      "title": "The Toyota Avalon Buyer's Guide",
+      "blurb": "Both generations, V6 or hybrid with the fuel numbers, and the used checklist with the recalls to check, in 4 chapters."
+    }
+  },
+  {
+    "id": "toyota-avalon-xx50",
+    "name": "Toyota Avalon (XX50)",
+    "aka": [
+      "Fifth-generation Avalon",
+      "Avalon Hybrid",
+      "Avalon TRD",
+      "Avalon Touring",
+      "Avalon XSE",
+      "Avalon AWD"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "United States",
+    "years": "2019–2022",
+    "start": 2019,
+    "end": 2022,
+    "shop": {
+      "cargurus": "d291"
+    },
+    "body": "Full-size sedan",
+    "engine": "3.5-liter V6; 2.5-liter 4-cylinder hybrid; or, for 2021 AWD, 2.5-liter 4-cylinder",
+    "drive": "Front-wheel drive; all-wheel drive for 2021 only",
+    "gearbox": "8-speed automatic (hybrid: CVT)",
+    "specsFor": "2019 Toyota Avalon Touring, US market (Car and Driver test car)",
+    "power": {
+      "hp": 301,
+      "note": "3.5-liter V6, 267 lb-ft (hybrid: 215 hp; 2021 AWD 4-cylinder: 205 hp)",
+      "src": "https://www.motor1.com/reviews/239922/2019-toyota-avalon-first-drive/"
+    },
+    "weight": {
+      "kg": 1680,
+      "note": "Curb weight, 2019 Touring (XLE: 1,615 kg / 3,560 lb)",
+      "src": "https://www.velocityjournal.com/models/34854/story/5449"
+    },
+    "zero60": {
+      "sec": 6.1,
+      "kind": "tested",
+      "note": "Car and Driver test, via 0-60 Specs",
+      "src": "https://www.0-60specs.com/index.php/toyota/avalon-0-60-times"
+    },
+    "top": null,
+    "built": null,
+    "predecessor": {
+      "name": "Toyota Avalon (XX40)",
+      "id": "toyota-avalon-xx40"
+    },
+    "successor": null,
+    "quick": "The last Avalon: rebuilt on Toyota's TNGA platform for 2019, with a 301-hp V6 and an 8-speed automatic, a 44-mpg hybrid, a short-lived TRD and, for 2021 only, all-wheel drive. Production ended in Kentucky in August 2022.",
+    "story": [
+      "The fifth-generation Avalon arrived for 2019 on the TNGA platform it shares with the Camry and the Lexus ES. The V6 grew to 301 hp and 267 lb-ft with an 8-speed automatic, and Car and Driver ran a Touring from 0 to 60 mph in 6.1 seconds. The hybrid makes 215 hp and is rated at up to 44 mpg combined. It was the first Toyota with Apple CarPlay; Android Auto followed for 2021.",
+      "The Avalon TRD arrived for 2020 and lasted 2 years. For 2021 only, Toyota added all-wheel drive, with a 205-hp 4-cylinder. Toyota dropped the Avalon after 2022 and replaced it with the Crown. Recalls include the fuel pump (20V-682) on 2019–2020 cars and the front passenger's airbag sensor (23V-865) on 2020–2021 cars."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Avalon"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/toyota-avalon/",
+      "title": "The Toyota Avalon Buyer's Guide",
+      "blurb": "Both generations, V6 or hybrid with the fuel numbers, and the used checklist with the recalls to check, in 4 chapters."
+    }
+  },
+  {
+    "id": "toyota-yaris-xp130",
+    "name": "Toyota Yaris (XP130)",
+    "aka": [
+      "Yaris Liftback",
+      "Yaris hatchback",
+      "Toyota-built Yaris",
+      "Yaris 3-door",
+      "Yaris 5-door"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "France (Japan until 2013)",
+    "years": "2012–2018",
+    "start": 2012,
+    "end": 2018,
+    "shop": {
+      "cargurus": "d827"
+    },
+    "body": "Subcompact 3-door or 5-door hatchback",
+    "engine": "1.5-liter 4-cylinder",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual or 4-speed automatic",
+    "specsFor": "2018 Toyota Yaris Liftback, US market",
+    "power": {
+      "hp": 106,
+      "note": "103 lb-ft",
+      "src": "https://pressroom.toyota.com/?generate_pdf=17048"
+    },
+    "weight": null,
+    "zero60": {
+      "sec": 10.2,
+      "kind": "tested",
+      "note": "Car and Driver test, 2016 Yaris LE 5-door automatic, via 0-60 Specs",
+      "src": "https://www.0-60specs.com/toyota/yaris-0-60-times"
+    },
+    "top": null,
+    "built": null,
+    "predecessor": null,
+    "successor": null,
+    "quick": "The last Toyota-designed Yaris sold in the US: a small 3-door or 5-door hatchback with a 106-hp 1.5-liter, a 5-speed manual or a 4-speed automatic and, from 2017, standard Toyota Safety Sense C.",
+    "story": [
+      "The third-generation Yaris hatchback went on sale in the US for 2012, and production for the US moved from Japan to France in 2013. Its 1.5-liter makes 106 hp and 103 lb-ft, and the EPA rates it at 32 to 33 mpg combined. For 2017, Toyota made Toyota Safety Sense C, with automatic emergency braking, standard on every grade, and for 2018 it renamed the car the Yaris Liftback and gave it new styling and 9 airbags.",
+      "Toyota didn't sell a 2019 Liftback in the US, and replaced it for 2020 with a Mazda-built Yaris Hatchback. Certain 2015–2017 cars were recalled because the wiring for the side-airbag sensors in the front doors can crack and corrode (19V-319)."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Yaris"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/toyota-yaris/",
+      "title": "The Toyota Yaris Buyer's Guide",
+      "blurb": "The Toyota-built hatchback, the Mazda-built iA, Sedan and Hatchback, and the used checklist, in 3 chapters."
+    }
+  },
+  {
+    "id": "toyota-yaris-ia",
+    "name": "Toyota Yaris iA / Yaris (Mazda-built)",
+    "aka": [
+      "Scion iA",
+      "Yaris iA",
+      "Yaris Sedan",
+      "Yaris Hatchback (2020)",
+      "Mazda2-based Yaris"
+    ],
+    "make": "Toyota",
+    "maker": "Mazda",
+    "country": "Mexico",
+    "years": "2016–2020",
+    "start": 2016,
+    "end": 2020,
+    "shop": {
+      "cargurus": "d827"
+    },
+    "body": "Subcompact sedan; 5-door hatchback for 2020",
+    "engine": "1.5-liter 4-cylinder",
+    "drive": "Front-wheel drive",
+    "gearbox": "6-speed manual or 6-speed automatic (2020 hatchback: automatic only)",
+    "specsFor": "2017 Toyota Yaris iA, US market, 6-speed manual",
+    "power": {
+      "hp": 106,
+      "note": "103 lb-ft",
+      "src": "https://pressroom.toyota.com/2017-toyota-yaris-ia-sporty-style-strong-safety-super-sedan/"
+    },
+    "weight": {
+      "kg": 1082,
+      "note": "Curb weight, manual (automatic: 1,096 kg / 2,416 lb)",
+      "src": "https://downloads.regulations.gov/NHTSA-2018-0067-12584/attachment_1.pdf"
+    },
+    "zero60": {
+      "sec": 8.7,
+      "kind": "tested",
+      "note": "Car and Driver test, manual",
+      "src": "https://jalopnik.com/1821884886"
+    },
+    "top": null,
+    "built": null,
+    "predecessor": null,
+    "successor": null,
+    "quick": "A Mazda2 with Toyota badges: sold as the Scion iA for 2016, the Yaris iA for 2017–2018 and the Yaris Sedan for 2019–2020, joined by a 5-door Yaris Hatchback for 2020. Built by Mazda in Mexico, with a 106-hp 1.5-liter and up to 40 mpg on the highway.",
+    "story": [
+      "Mazda designed and built this car in Salamanca, Mexico, as a version of the Mazda2. It launched as the Scion iA for 2016, became the Toyota Yaris iA when Scion closed, and was renamed the Yaris for 2019, when L, LE and XLE grades replaced the single version. The 1.5-liter makes 106 hp and 103 lb-ft, the EPA rates the automatic at 32 mpg city, 40 highway and 35 combined, and Car and Driver ran a manual iA from 0 to 60 mph in 8.7 seconds.",
+      "For 2020, the sedan gained Apple CarPlay and Android Auto and was joined by a 5-door Yaris Hatchback, automatic only. Toyota ended US sales after 2020. Certain 2019–2020 cars were recalled because the low-pressure fuel pump can fail and stall the engine (21V-617)."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Yaris",
+      "Toyota Yaris iA",
+      "Scion iA"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/toyota-yaris/",
+      "title": "The Toyota Yaris Buyer's Guide",
+      "blurb": "The Toyota-built hatchback, the Mazda-built iA, Sedan and Hatchback, and the used checklist, in 3 chapters."
+    }
   }
 ];

@@ -6564,7 +6564,11 @@ const CARS_INDEX = [
    "id": "toyota-rav4-xa50",
    "name": "Toyota RAV4 (XA50)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-rav4-xa40.jpg?v=79020a5d",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-rav4-xa50",
@@ -6631,7 +6635,11 @@ const CARS_INDEX = [
    "id": "toyota-rav4-xa60",
    "name": "Toyota RAV4 (XA60)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-rav4-xa50.jpg?v=6346c020",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-rav4-xa60",
@@ -6695,7 +6703,11 @@ const CARS_INDEX = [
    "name": "Toyota RAV4 (XA50)"
   },
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-rav4-xa60.jpg?v=69e78181",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-highlander-xu50",
@@ -6741,7 +6753,11 @@ const CARS_INDEX = [
    "id": "toyota-highlander-xu70",
    "name": "Toyota Highlander (XU70)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-highlander-xu50.jpg?v=39f276d1",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-highlander-xu70",
@@ -6787,7 +6803,11 @@ const CARS_INDEX = [
    "name": "Toyota Highlander (XU50)"
   },
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-highlander-xu70.jpg?v=5199292e",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-grand-highlander",
@@ -6835,6 +6855,10 @@ const CARS_INDEX = [
   "alongside": [],
   "prev": null,
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-grand-highlander.jpg?v=16b697fd",
+   "pos": "",
+   "fit": ""
+  }
  }
 ];

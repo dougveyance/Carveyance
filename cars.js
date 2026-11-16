@@ -7166,7 +7166,7 @@ const CARS = [
       "The EPA rated the front-drive LE and XLE at 26 mpg combined and the hybrid at 32. In November 2023, Toyota recalled 1,853,568 2013–2018 RAV4s because a smaller replacement 12-volt battery could move and short-circuit against its hold-down clamp, creating a fire risk."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota RAV4"
     ],
@@ -7230,7 +7230,7 @@ const CARS = [
       "Toyota set up programs to cover roof rail leaks on 2019–2021 models and corrosion of the rear motor cable on all-wheel-drive hybrids and Primes. 2025 was the last year for a gas-only RAV4."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota RAV4"
     ],
@@ -7291,7 +7291,7 @@ const CARS = [
       "Hybrids are built in Kentucky and Ontario, and plug-ins in Japan. In October 2026, Toyota recalled 30,978 2026 Plug-in Hybrids for motor generator control software that could cut power at higher speeds."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota RAV4"
     ],
@@ -7350,7 +7350,7 @@ const CARS = [
       "Car and Driver ran a 2017 V6 XLE with all-wheel drive from 0 to 60 mph in 7.0 seconds. Toyota's special service campaign 19TC04 replaced the engine oil cooler pipe on about 30,000 2017–2019 Highlander Hybrids that could develop a small oil leak."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota Highlander"
     ],
@@ -7409,7 +7409,7 @@ const CARS = [
       "Toyota recalled about 751,000 2020–2023 Highlanders for front bumper cover tabs and, in 2026, about 690,000 2021–2025 Highlanders for second-row seat recliners that may not lock. It unveiled an all-electric 2027 Highlander in February 2026, which makes the 2026 the last Highlander with an engine."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota Highlander"
     ],
@@ -7466,7 +7466,7 @@ const CARS = [
       "An LE grade and a Hybrid Nightshade Edition arrived for 2025, and a Woodland Edition for 2027. In June 2024, Toyota recalled about 111,700 2024 models and stopped sales because the curtain airbags may not deploy as intended with a window down. Small batches of 2026 models were later recalled for rear axle carriers and front steering knuckles."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota Grand Highlander"
     ],

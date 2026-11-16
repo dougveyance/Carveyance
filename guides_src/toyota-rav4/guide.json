@@ -247,37 +247,45 @@
     "hub-hero": {
       "want": "A 2026 RAV4, outside, front three-quarter",
       "credit": "Toyota",
-      "alt": "A 2026 Toyota RAV4"
+      "alt": "3 views of the 2026 Toyota RAV4: a blue one in a suburban street, a red GR Sport on a curving road and a Woodland on a forest road",
+      "caption": "The 2026 RAV4, with the GR Sport in the center and the Woodland on the right"
     },
     "ch1-hero": {
       "want": "A 2017–2018 RAV4 or RAV4 Hybrid, outside",
       "credit": "Toyota",
-      "alt": "A 2017–2018 Toyota RAV4"
+      "alt": "A white 2016 Toyota RAV4 Limited at sunset, headlights on",
+      "caption": "A 2016 RAV4 Limited. The 2017 and 2018 models kept the look of this 2016 refresh"
     },
     "ch2-hero": {
       "want": "A 2019–2025 gas RAV4, ideally an Adventure or TRD Off-Road",
       "credit": "Toyota",
-      "alt": "A 2019–2025 Toyota RAV4"
+      "alt": "A white 2020 Toyota RAV4 TRD Off-Road with a mountain bike on its roof, parked among red rocks"
     },
     "ch3-hero": {
       "want": "A 2019–2025 RAV4 Hybrid, ideally an XSE or Woodland Edition",
       "credit": "Toyota",
-      "alt": "A 2019–2025 Toyota RAV4 Hybrid"
+      "alt": "A black 2023 Toyota RAV4 Woodland Edition with bronze wheels, in a studio"
     },
     "ch4-hero": {
       "want": "A RAV4 Prime, ideally charging",
       "credit": "Toyota",
-      "alt": "A Toyota RAV4 Prime"
+      "alt": "A red 2024 Toyota RAV4 Prime XSE driving, with the Chicago skyline behind"
+    },
+    "ch4-plug": {
+      "want": "A RAV4 Prime plugged in to charge",
+      "alt": "A charging cable plugged into the open charge port of a blue 2024 Toyota RAV4 Prime XSE",
+      "caption": "A 2024 RAV4 Prime XSE plugged in to charge",
+      "credit": "Toyota"
     },
     "ch5-hero": {
       "want": "A 2026 RAV4 driving, or a GR Sport",
       "credit": "Toyota",
-      "alt": "A 2026 Toyota RAV4"
+      "alt": "A red 2026 Toyota RAV4 GR Sport driving toward the camera on a city road"
     },
     "ch6-hero": {
       "want": "Two or three RAV4s together, or a RAV4 Limited",
       "credit": "Toyota",
-      "alt": "Toyota RAV4s"
+      "alt": "A blue, a red and a gray 2026 Toyota RAV4 parked on desert sand below mountains"
     }
   },
   "find": {

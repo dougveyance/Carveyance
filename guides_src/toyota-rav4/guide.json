@@ -1,0 +1,399 @@
+{
+  "id": "toyota-rav4",
+  "make": "Toyota",
+  "model": "RAV4",
+  "years": "2017–2026",
+  "byline": "Jolice Franklyn",
+  "published": "2026-11-16",
+  "updated": "2026-11-16",
+  "cars": [
+    "toyota-rav4-xa40",
+    "toyota-rav4-xa50",
+    "toyota-rav4-xa60"
+  ],
+  "shop": {
+    "cargurus": "d306"
+  },
+  "chapters": [
+    "2017-2018",
+    "2019-2025",
+    "hybrid-2019-2025",
+    "prime-2021-2025",
+    "2026",
+    "used-checklist"
+  ],
+  "series": {
+    "g17": {
+      "name": "2017–2018 gas",
+      "color": "#9aa5b1"
+    },
+    "h17": {
+      "name": "2017–2018 hybrid",
+      "color": "#5f8aa6"
+    },
+    "g19": {
+      "name": "2019–2025 gas",
+      "color": "#6b7785"
+    },
+    "h19": {
+      "name": "2019–2025 hybrid",
+      "color": "#1d4b61"
+    },
+    "prime": {
+      "name": "2021–2025 Prime / Plug-in",
+      "color": "#e05c2a"
+    },
+    "h26": {
+      "name": "2026 hybrid",
+      "color": "#2E6E96"
+    },
+    "p26": {
+      "name": "2026 Plug-in Hybrid",
+      "color": "#b8461f"
+    },
+    "p26se": {
+      "name": "2026 Plug-in Hybrid SE",
+      "color": "#b8461f"
+    },
+    "p26gr": {
+      "name": "2026 Plug-in Hybrid GR Sport",
+      "color": "#b8461f"
+    },
+    "m-fwd": {
+      "name": "LE, SE, XLE Premium FWD",
+      "color": "#2E6E96"
+    },
+    "m-awd": {
+      "name": "LE, SE AWD",
+      "color": "#2E6E96"
+    },
+    "m-up": {
+      "name": "XLE Premium AWD, XSE, Limited",
+      "color": "#2E6E96"
+    },
+    "m-wood": {
+      "name": "Woodland",
+      "color": "#2E6E96"
+    }
+  },
+  "charts": {
+    "power": {
+      "n": 1,
+      "title": "Horsepower, every RAV4 since 2017",
+      "sub": "Toyota's figures. Hybrid and plug-in numbers are combined system output. The 2026 hybrid makes 226 hp with front-wheel drive.",
+      "source": "Toyota",
+      "bars": [
+        [
+          "g17",
+          176,
+          "176 hp"
+        ],
+        [
+          "h17",
+          194,
+          "194 hp"
+        ],
+        [
+          "g19",
+          203,
+          "203 hp"
+        ],
+        [
+          "h19",
+          219,
+          "219 hp"
+        ],
+        [
+          "prime",
+          302,
+          "302 hp"
+        ],
+        [
+          "h26",
+          236,
+          "236 hp (AWD)"
+        ],
+        [
+          "p26",
+          324,
+          "324 hp"
+        ]
+      ]
+    },
+    "mpg": {
+      "n": 2,
+      "title": "Fuel economy, best version of each",
+      "sub": "EPA combined miles per gallon for the most efficient version of each powertrain. The Prime's figure is on gas alone, once the battery is depleted.",
+      "source": "EPA ratings",
+      "bars": [
+        [
+          "g17",
+          26,
+          "26 mpg (LE, XLE FWD)"
+        ],
+        [
+          "h17",
+          32,
+          "32 mpg"
+        ],
+        [
+          "g19",
+          30,
+          "30 mpg (LE FWD)"
+        ],
+        [
+          "h19",
+          40,
+          "39–40 mpg"
+        ],
+        [
+          "prime",
+          38,
+          "38 mpg on gas"
+        ],
+        [
+          "h26",
+          43,
+          "43 mpg (FWD)"
+        ]
+      ]
+    },
+    "fuelcost": {
+      "n": 3,
+      "title": "A year of fuel",
+      "sub": "12,000 miles at $4 a gallon, using EPA combined figures of 26, 32, 30, 39 and 43 mpg. An example, not a forecast.",
+      "source": "Carveyance arithmetic from EPA ratings",
+      "bars": [
+        [
+          "g17",
+          1846,
+          "$1,846 · 462 gal"
+        ],
+        [
+          "h17",
+          1500,
+          "$1,500 · 375 gal"
+        ],
+        [
+          "g19",
+          1600,
+          "$1,600 · 400 gal"
+        ],
+        [
+          "h19",
+          1231,
+          "$1,231 · 308 gal"
+        ],
+        [
+          "h26",
+          1116,
+          "$1,116 · 279 gal"
+        ]
+      ]
+    },
+    "evrange": {
+      "n": 4,
+      "title": "Miles on electricity",
+      "sub": "EPA-estimated all-electric range on a full charge. Real range drops in cold weather and at highway speeds.",
+      "source": "EPA ratings, as listed by Toyota",
+      "bars": [
+        [
+          "prime",
+          42,
+          "42 miles"
+        ],
+        [
+          "p26se",
+          54,
+          "54 miles"
+        ],
+        [
+          "p26gr",
+          49,
+          "49 miles"
+        ]
+      ]
+    },
+    "mpg26": {
+      "n": 5,
+      "title": "2026 RAV4 Hybrid, by grade",
+      "sub": "EPA combined miles per gallon. Every 2026 RAV4 is a hybrid or a plug-in; front-wheel drive is new to the hybrid and is the efficiency pick.",
+      "source": "EPA ratings",
+      "bars": [
+        [
+          "m-fwd",
+          43,
+          "43 mpg"
+        ],
+        [
+          "m-awd",
+          42,
+          "42 mpg"
+        ],
+        [
+          "m-up",
+          41,
+          "41 mpg"
+        ],
+        [
+          "m-wood",
+          38,
+          "38 mpg"
+        ]
+      ]
+    }
+  },
+  "photos": {
+    "hub-hero": {
+      "want": "A 2026 RAV4, outside, front three-quarter",
+      "credit": "Toyota",
+      "alt": "3 views of the 2026 Toyota RAV4: a blue one in a suburban street, a red GR Sport on a curving road and a Woodland on a forest road",
+      "caption": "The 2026 RAV4, with the GR Sport in the center and the Woodland on the right"
+    },
+    "ch1-hero": {
+      "want": "A 2017–2018 RAV4 or RAV4 Hybrid, outside",
+      "credit": "Toyota",
+      "alt": "A white 2016 Toyota RAV4 Limited at sunset, headlights on",
+      "caption": "A 2016 RAV4 Limited. The 2017 and 2018 models kept the look of this 2016 refresh"
+    },
+    "ch2-hero": {
+      "want": "A 2019–2025 gas RAV4, ideally an Adventure or TRD Off-Road",
+      "credit": "Toyota",
+      "alt": "A white 2020 Toyota RAV4 TRD Off-Road with a mountain bike on its roof, parked among red rocks"
+    },
+    "ch3-hero": {
+      "want": "A 2019–2025 RAV4 Hybrid, ideally an XSE or Woodland Edition",
+      "credit": "Toyota",
+      "alt": "A black 2023 Toyota RAV4 Woodland Edition with bronze wheels, in a studio"
+    },
+    "ch4-hero": {
+      "want": "A RAV4 Prime, ideally charging",
+      "credit": "Toyota",
+      "alt": "A red 2024 Toyota RAV4 Prime XSE driving, with the Chicago skyline behind"
+    },
+    "ch4-plug": {
+      "want": "A RAV4 Prime plugged in to charge",
+      "alt": "A charging cable plugged into the open charge port of a blue 2024 Toyota RAV4 Prime XSE",
+      "caption": "A 2024 RAV4 Prime XSE plugged in to charge",
+      "credit": "Toyota"
+    },
+    "ch5-hero": {
+      "want": "A 2026 RAV4 driving, or a GR Sport",
+      "credit": "Toyota",
+      "alt": "A red 2026 Toyota RAV4 GR Sport driving toward the camera on a city road"
+    },
+    "ch6-hero": {
+      "want": "Two or three RAV4s together, or a RAV4 Limited",
+      "credit": "Toyota",
+      "alt": "A blue, a red and a gray 2026 Toyota RAV4 parked on desert sand below mountains"
+    }
+  },
+  "find": {
+    "picker": [
+      {
+        "model": "RAV4",
+        "years": "2017–2018",
+        "ch": "2017-2018"
+      },
+      {
+        "model": "RAV4",
+        "years": "2019–2025",
+        "ch": "2019-2025"
+      },
+      {
+        "model": "RAV4",
+        "years": "2026",
+        "ch": "2026"
+      },
+      {
+        "model": "RAV4 Hybrid",
+        "years": "2017–2018",
+        "ch": "2017-2018"
+      },
+      {
+        "model": "RAV4 Hybrid",
+        "years": "2019–2025",
+        "ch": "hybrid-2019-2025"
+      },
+      {
+        "model": "RAV4 Hybrid",
+        "years": "2026",
+        "ch": "2026"
+      },
+      {
+        "model": "RAV4 Prime",
+        "years": "2021–2024",
+        "ch": "prime-2021-2025"
+      },
+      {
+        "model": "RAV4 Plug-in Hybrid",
+        "years": "2025",
+        "ch": "prime-2021-2025"
+      },
+      {
+        "model": "RAV4 Plug-in Hybrid",
+        "years": "2026",
+        "ch": "2026"
+      }
+    ],
+    "terms": {
+      "": [
+        "LE",
+        "XLE",
+        "XLE Premium",
+        "Limited",
+        "SE",
+        "XSE",
+        "compact SUV",
+        "crossover"
+      ],
+      "2017-2018": [
+        "fourth generation",
+        "XA40",
+        "Platinum",
+        "6-speed",
+        "Toyota Safety Sense P"
+      ],
+      "2019-2025": [
+        "fifth generation",
+        "XA50",
+        "Adventure",
+        "TRD Off-Road",
+        "TRD",
+        "8-speed",
+        "gas",
+        "roof rail"
+      ],
+      "hybrid-2019-2025": [
+        "hybrid",
+        "RAV4 Hybrid",
+        "Woodland Edition",
+        "rear motor cable",
+        "22TE09",
+        "25TD01"
+      ],
+      "prime-2021-2025": [
+        "Prime",
+        "RAV4 Prime",
+        "plug-in",
+        "PHEV",
+        "electric range"
+      ],
+      "2026": [
+        "sixth generation",
+        "XA60",
+        "GR Sport",
+        "Plug-in Hybrid",
+        "Woodland",
+        "FWD hybrid"
+      ],
+      "used-checklist": [
+        "used",
+        "checklist",
+        "recalls",
+        "23V-734",
+        "battery hold-down"
+      ]
+    }
+  }
+}

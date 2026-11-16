@@ -7527,7 +7527,7 @@ const CARS = [
       "Toyota Safety Sense P became standard for 2018, and Apple CarPlay and Android Auto arrived for 2020. US-market trucks were built in Mexico and, until 2021, in San Antonio, Texas. Certain 2017–2020 trucks are part of the fuel pump recall 20V-012/20V-682, and certain 2022–2023 trucks were recalled because rear axle nuts can loosen (24V-152)."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota Tacoma"
     ],

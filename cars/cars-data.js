@@ -6917,7 +6917,11 @@ const CARS_INDEX = [
    "id": "toyota-tacoma-n400",
    "name": "Toyota Tacoma (N400)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-tacoma-n300.jpg?v=29ede719",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-tacoma-n400",

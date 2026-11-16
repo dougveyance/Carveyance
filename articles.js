@@ -82,6 +82,28 @@ const ARTICLES = [
     "featured": false
   },
   {
+    "slug": "beauty-born-of-speed",
+    "seoTitle": "Jaguar XKSS: The Le Mans Racer Steve McQueen Drove Daily",
+    "title": "Jaguar XKSS: Beauty Born of Speed",
+    "subtitle": "Born from a Le Mans champion, nearly erased by fire and immortalized by Steve McQueen, the XKSS may simply be the most beautiful Jaguar ever made",
+    "category": "Car Culture",
+    "date": "2026-11-16",
+    "readTime": "28 min",
+    "blurb": "Only 16 were finished before the Browns Lane fire. The XKSS was a Le Mans-winning D-Type with a passenger door and a windshield, listed at $6,900 in 1957 (about $83,000 today), carried Steve McQueen to the studio and his son to school, and in 2023 one sold for $13,205,000 (about $14.5 million today).",
+    "image": "/assets/images/beauty-born-of-speed.jpg",
+    "vehicles": [
+      "Jaguar XKSS",
+      "Jaguar D-Type",
+      "Jaguar E-Type",
+      "Jaguar C-Type",
+      "Mercedes-Benz 300 SL",
+      "Ferrari 250 GT",
+      "Aston Martin DB Mark III",
+      "Chevrolet Corvette"
+    ],
+    "featured": false
+  },
+  {
     "slug": "industry-brief-2026-11-16",
     "seoTitle": "Car News: Toyota Revives Scion, Honda's $3 Billion Hybrid Plant, BMW Says Park Outside",
     "title": "The Industry Brief: Toyota Revives Scion With a 25 MPH Kei Truck, Honda Bets on Hybrids and BMW Recalls Its Own Fix",

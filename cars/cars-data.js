@@ -6503,5 +6503,338 @@ const CARS_INDEX = [
    "pos": "",
    "fit": ""
   }
+ },
+ {
+  "id": "toyota-rav4-xa40",
+  "name": "Toyota RAV4 (XA40)",
+  "aka": [
+   "RAV4 Hybrid"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2013–2018",
+  "start": 2013,
+  "body": "Compact crossover SUV",
+  "engine": "2.5-liter 4-cylinder, or 2.5-liter hybrid (2016–2018)",
+  "country": "Canada",
+  "quick": "The fourth-generation RAV4, sold from 2013 to 2018. The 2017–2018 cars made automatic emergency braking standard on every grade, and the 194-hp hybrid, added for 2016, was the quickest and thriftiest version.",
+  "articles": [
+   "industry-brief-2026-11-09",
+   "industry-brief-2026-11-02",
+   "industry-brief-2026-10-19",
+   "industry-brief-2026-10-05",
+   "losing-at-home",
+   "the-prius-paradox",
+   "gas-in-electric-out",
+   "the-1300-question"
+  ],
+  "latest": "2026-11-09",
+  "ownDates": [],
+  "dates": [
+   "2026-11-09",
+   "2026-11-02",
+   "2026-10-19",
+   "2026-10-05",
+   "2026-10-02",
+   "2026-09-29"
+  ],
+  "drive": "Front-wheel drive or all-wheel drive (hybrid: all-wheel drive)",
+  "gearbox": "6-speed automatic (hybrid: CVT)",
+  "specsFor": "2017 Toyota RAV4 Hybrid, US market (Consumer Guide test car; manufacturer weight)",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-rav4/",
+   "title": "The Toyota RAV4 Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d306"
+  },
+  "hp": 194,
+  "kg": 1780,
+  "kgNote": "Curb weight, manufacturer figure (Hybrid XLE)",
+  "z60": {
+   "sec": 8.2,
+   "kind": "tested",
+   "note": "Consumer Guide test, Hybrid Limited"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": "toyota-rav4-xa50",
+   "name": "Toyota RAV4 (XA50)"
+  },
+  "photo": null
+ },
+ {
+  "id": "toyota-rav4-xa50",
+  "name": "Toyota RAV4 (XA50)",
+  "aka": [
+   "RAV4 Hybrid",
+   "RAV4 Prime",
+   "RAV4 Plug-in Hybrid"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2019–2025",
+  "start": 2019,
+  "body": "Compact crossover SUV",
+  "engine": "2.5-liter 4-cylinder, 2.5-liter hybrid or 2.5-liter plug-in hybrid (Prime)",
+  "country": "Canada",
+  "quick": "The boxy fifth-generation RAV4: a 203-hp gas model, a 219-hp hybrid with standard all-wheel drive and, from 2021, the 302-hp RAV4 Prime plug-in hybrid, renamed the Plug-in Hybrid for 2025.",
+  "articles": [
+   "industry-brief-2026-11-09",
+   "industry-brief-2026-11-02",
+   "industry-brief-2026-10-19",
+   "industry-brief-2026-10-05",
+   "losing-at-home",
+   "the-prius-paradox",
+   "gas-in-electric-out",
+   "the-1300-question"
+  ],
+  "latest": "2026-11-09",
+  "ownDates": [],
+  "dates": [
+   "2026-11-09",
+   "2026-11-02",
+   "2026-10-19",
+   "2026-10-05",
+   "2026-10-02",
+   "2026-09-29"
+  ],
+  "drive": "Front-wheel drive or all-wheel drive (hybrid and Prime: all-wheel drive)",
+  "gearbox": "8-speed automatic (hybrid and Prime: CVT)",
+  "specsFor": "2019 Toyota RAV4 Hybrid, US market (Consumer Guide test car; weight quoted by Toyota)",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-rav4/",
+   "title": "The Toyota RAV4 Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d306"
+  },
+  "hp": 219,
+  "kg": 1635,
+  "kgNote": "Curb weight, quoted by Toyota",
+  "z60": {
+   "sec": 7.5,
+   "kind": "tested",
+   "note": "Consumer Guide test, Hybrid Limited"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "toyota-rav4-xa40",
+   "name": "Toyota RAV4 (XA40)"
+  },
+  "next": {
+   "id": "toyota-rav4-xa60",
+   "name": "Toyota RAV4 (XA60)"
+  },
+  "photo": null
+ },
+ {
+  "id": "toyota-rav4-xa60",
+  "name": "Toyota RAV4 (XA60)",
+  "aka": [
+   "RAV4 Hybrid",
+   "RAV4 Plug-in Hybrid",
+   "RAV4 GR Sport"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2026–present",
+  "start": 2026,
+  "body": "Compact crossover SUV",
+  "engine": "2.5-liter hybrid or 2.5-liter plug-in hybrid",
+  "country": "United States",
+  "quick": "The first RAV4 sold only as a hybrid or plug-in hybrid: 226 hp with front-wheel drive, 236 hp with all-wheel drive, up to 43 mpg, and a 324-hp plug-in that includes the first RAV4 GR Sport.",
+  "articles": [
+   "industry-brief-2026-11-09",
+   "industry-brief-2026-11-02",
+   "industry-brief-2026-10-19",
+   "industry-brief-2026-10-05",
+   "losing-at-home",
+   "the-prius-paradox",
+   "gas-in-electric-out",
+   "the-1300-question"
+  ],
+  "latest": "2026-11-09",
+  "ownDates": [],
+  "dates": [
+   "2026-11-09",
+   "2026-11-02",
+   "2026-10-19",
+   "2026-10-05",
+   "2026-10-02",
+   "2026-09-29"
+  ],
+  "drive": "Front-wheel drive or all-wheel drive (plug-in: all-wheel drive)",
+  "gearbox": "Electronically controlled CVT",
+  "specsFor": "2026 Toyota RAV4 Hybrid XLE Premium FWD, US market (Edmunds test car)",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-rav4/",
+   "title": "The Toyota RAV4 Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d306"
+  },
+  "hp": 226,
+  "kg": 1638,
+  "kgNote": "Curb weight, as tested",
+  "z60": {
+   "sec": 7.8,
+   "kind": "tested",
+   "note": "Edmunds test"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "toyota-rav4-xa50",
+   "name": "Toyota RAV4 (XA50)"
+  },
+  "next": null,
+  "photo": null
+ },
+ {
+  "id": "toyota-highlander-xu50",
+  "name": "Toyota Highlander (XU50)",
+  "aka": [
+   "Highlander Hybrid"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2014–2019",
+  "start": 2014,
+  "body": "3-row midsize crossover SUV",
+  "engine": "2.7-liter 4-cylinder, 3.5-liter V6 or 3.5-liter V6 hybrid",
+  "country": "United States",
+  "quick": "The third-generation Highlander, refreshed for 2017 with a 295-hp V6, an 8-speed automatic and standard automatic emergency braking. The 306-hp V6 hybrid gained cheaper LE and XLE grades.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Front-wheel drive or all-wheel drive (hybrid: all-wheel drive)",
+  "gearbox": "8-speed automatic with the V6 from 2017 (4-cylinder: 6-speed automatic; hybrid: CVT)",
+  "specsFor": "2017 Toyota Highlander XLE V6 AWD, US market (Car and Driver test car)",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-highlander/",
+   "title": "The Toyota Highlander Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d298"
+  },
+  "hp": 295,
+  "kg": 2068,
+  "kgNote": "Curb weight, as tested",
+  "z60": {
+   "sec": 7.0,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": "toyota-highlander-xu70",
+   "name": "Toyota Highlander (XU70)"
+  },
+  "photo": null
+ },
+ {
+  "id": "toyota-highlander-xu70",
+  "name": "Toyota Highlander (XU70)",
+  "aka": [
+   "Highlander Hybrid"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2020–2026",
+  "start": 2020,
+  "body": "3-row midsize crossover SUV",
+  "engine": "3.5-liter V6 (2020–2022), 2.4-liter turbo 4-cylinder (2023–2026) or 2.5-liter hybrid",
+  "country": "United States",
+  "quick": "The fourth-generation Highlander: a 295-hp V6 until 2022, a 265-hp turbo 4-cylinder from 2023 and a 243-hp hybrid rated at up to 36 mpg. The 2026 is the last gas and hybrid Highlander.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Front-wheel drive or all-wheel drive (standard on hybrids from 2025 and on every model for 2026)",
+  "gearbox": "8-speed automatic (hybrid: CVT)",
+  "specsFor": "2020 Toyota Highlander Platinum V6 AWD, US market (CarPro test car, with Car and Driver's 0–60 time)",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-highlander/",
+   "title": "The Toyota Highlander Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d298"
+  },
+  "hp": 295,
+  "kg": 1982,
+  "kgNote": "Curb weight, as listed by CarPro",
+  "z60": {
+   "sec": 6.8,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "toyota-highlander-xu50",
+   "name": "Toyota Highlander (XU50)"
+  },
+  "next": null,
+  "photo": null
+ },
+ {
+  "id": "toyota-grand-highlander",
+  "name": "Toyota Grand Highlander",
+  "aka": [
+   "Grand Highlander Hybrid",
+   "Grand Highlander Hybrid MAX"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2024–present",
+  "start": 2024,
+  "body": "3-row midsize crossover SUV",
+  "engine": "2.4-liter turbo 4-cylinder, 2.5-liter hybrid or 2.4-liter turbo hybrid (Hybrid MAX)",
+  "country": "United States",
+  "quick": "The bigger Highlander, with an adult-size third row and 20.6 cu ft of cargo space behind it. It offers a 265-hp turbo, a hybrid rated at up to 36 mpg and the 362-hp Hybrid MAX.",
+  "articles": [
+   "gm-hybrid-u-turn"
+  ],
+  "latest": "2026-11-02",
+  "ownDates": [],
+  "dates": [
+   "2026-11-02"
+  ],
+  "drive": "Front-wheel drive or all-wheel drive (Hybrid MAX: all-wheel drive)",
+  "gearbox": "8-speed automatic (Hybrid: CVT; Hybrid MAX: 6-speed automatic)",
+  "specsFor": "2024 Toyota Grand Highlander Hybrid MAX Platinum, US market (Car and Driver test car)",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-grand-highlander/",
+   "title": "The Toyota Grand Highlander Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d3314"
+  },
+  "hp": 362,
+  "kg": 2239,
+  "kgNote": "Curb weight, as tested",
+  "z60": {
+   "sec": 5.6,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": null,
+  "next": null,
+  "photo": null
  }
 ];

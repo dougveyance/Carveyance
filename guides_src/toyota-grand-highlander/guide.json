@@ -1,0 +1,362 @@
+{
+  "id": "toyota-grand-highlander",
+  "make": "Toyota",
+  "model": "Grand Highlander",
+  "years": "2024–2026",
+  "byline": "Grayson Kollen",
+  "published": "2026-11-16",
+  "updated": "2026-11-16",
+  "cars": [
+    "toyota-grand-highlander"
+  ],
+  "shop": {
+    "cargurus": "d3314"
+  },
+  "chapters": [
+    "overview",
+    "gas-turbo",
+    "hybrid",
+    "hybrid-max",
+    "years-and-trims",
+    "used-checklist"
+  ],
+  "series": {
+    "hl3": {
+      "name": "Highlander, behind the third row",
+      "color": "#9aa5b1"
+    },
+    "gh3": {
+      "name": "Grand Highlander, behind the third row",
+      "color": "#2E6E96"
+    },
+    "hl2": {
+      "name": "Highlander, behind the second row",
+      "color": "#9aa5b1"
+    },
+    "gh2": {
+      "name": "Grand Highlander, behind the second row",
+      "color": "#2E6E96"
+    },
+    "hl1": {
+      "name": "Highlander, behind the front seats",
+      "color": "#9aa5b1"
+    },
+    "gh1": {
+      "name": "Grand Highlander, behind the front seats",
+      "color": "#2E6E96"
+    },
+    "gasf": {
+      "name": "Gas turbo, FWD",
+      "color": "#6b7785"
+    },
+    "gasa": {
+      "name": "Gas turbo, AWD",
+      "color": "#9aa5b1"
+    },
+    "gas": {
+      "name": "Gas turbo",
+      "color": "#6b7785"
+    },
+    "hybf": {
+      "name": "Hybrid, FWD",
+      "color": "#1d4b61"
+    },
+    "hyba": {
+      "name": "Hybrid, AWD",
+      "color": "#2E6E96"
+    },
+    "hyb": {
+      "name": "Hybrid",
+      "color": "#1d4b61"
+    },
+    "max": {
+      "name": "Hybrid MAX",
+      "color": "#e05c2a"
+    },
+    "z-gas": {
+      "name": "Gas FWD, Toyota's figure",
+      "color": "#9aa5b1"
+    },
+    "z-gasx": {
+      "name": "Gas XLE AWD, Car and Driver test",
+      "color": "#6b7785"
+    },
+    "z-hyb": {
+      "name": "Hybrid AWD, Toyota's figure",
+      "color": "#2E6E96"
+    },
+    "z-max": {
+      "name": "Hybrid MAX, Toyota's figure",
+      "color": "#f08a5d"
+    },
+    "z-maxx": {
+      "name": "Hybrid MAX Platinum, Car and Driver test",
+      "color": "#e05c2a"
+    }
+  },
+  "charts": {
+    "cargo": {
+      "n": 1,
+      "title": "Cargo space against the Highlander",
+      "sub": "Cubic feet, with seats up and folded. The Grand Highlander's extra length goes mostly to the third row and the space behind it.",
+      "source": "Toyota, via CarGurus and The Drive",
+      "bars": [
+        [
+          "hl3",
+          16,
+          "16.0 cu ft"
+        ],
+        [
+          "gh3",
+          20.6,
+          "20.6 cu ft"
+        ],
+        [
+          "hl2",
+          48.4,
+          "48.4 cu ft"
+        ],
+        [
+          "gh2",
+          57.9,
+          "57.9 cu ft"
+        ],
+        [
+          "hl1",
+          84.3,
+          "84.3 cu ft"
+        ],
+        [
+          "gh1",
+          97.5,
+          "97.5 cu ft"
+        ]
+      ]
+    },
+    "mpg": {
+      "n": 2,
+      "title": "Fuel economy, by powertrain",
+      "sub": "EPA combined miles per gallon, for the XLE where offered. Upper grades with all-wheel drive rate about 1 mpg lower.",
+      "source": "EPA ratings",
+      "bars": [
+        [
+          "gasf",
+          24,
+          "24 mpg"
+        ],
+        [
+          "gasa",
+          23,
+          "23 mpg"
+        ],
+        [
+          "hybf",
+          36,
+          "36 mpg"
+        ],
+        [
+          "hyba",
+          34,
+          "34 mpg"
+        ],
+        [
+          "max",
+          27,
+          "27 mpg"
+        ]
+      ]
+    },
+    "tow": {
+      "n": 3,
+      "title": "How much it can tow",
+      "sub": "Toyota's maximum towing ratings, in kilograms, with pounds in parentheses.",
+      "source": "Toyota",
+      "bars": [
+        [
+          "gas",
+          2268,
+          "2,268 kg (5,000 lb)"
+        ],
+        [
+          "hyb",
+          1588,
+          "1,588 kg (3,500 lb)"
+        ],
+        [
+          "max",
+          2268,
+          "2,268 kg (5,000 lb)"
+        ]
+      ]
+    },
+    "fuelcost": {
+      "n": 4,
+      "title": "A year of fuel",
+      "sub": "12,000 miles at $4 a gallon, using the EPA combined figures in chart 2. An example, not a forecast.",
+      "source": "Carveyance arithmetic from EPA ratings",
+      "bars": [
+        [
+          "gasf",
+          2000,
+          "$2,000 · 500 gal"
+        ],
+        [
+          "gasa",
+          2087,
+          "$2,087 · 522 gal"
+        ],
+        [
+          "hybf",
+          1333,
+          "$1,333 · 333 gal"
+        ],
+        [
+          "hyba",
+          1412,
+          "$1,412 · 353 gal"
+        ],
+        [
+          "max",
+          1778,
+          "$1,778 · 444 gal"
+        ]
+      ]
+    },
+    "zero60": {
+      "n": 5,
+      "title": "0 to 60 mph",
+      "sub": "Seconds. Toyota's own figures, and Car and Driver's tests of a gas XLE AWD and a Hybrid MAX Platinum. A shorter bar is quicker.",
+      "source": "Toyota; Car and Driver",
+      "bars": [
+        [
+          "z-gas",
+          7.5,
+          "7.5 sec"
+        ],
+        [
+          "z-gasx",
+          7.0,
+          "7.0 sec"
+        ],
+        [
+          "z-hyb",
+          7.8,
+          "7.8 sec"
+        ],
+        [
+          "z-max",
+          6.3,
+          "6.3 sec"
+        ],
+        [
+          "z-maxx",
+          5.6,
+          "5.6 sec"
+        ]
+      ]
+    }
+  },
+  "photos": {
+    "hub-hero": {
+      "want": "A Grand Highlander, outside, front three-quarter",
+      "credit": "Toyota",
+      "alt": "A Toyota Grand Highlander"
+    },
+    "ch1-hero": {
+      "want": "A Grand Highlander with the third row or cargo area in view",
+      "credit": "Toyota",
+      "alt": "A Toyota Grand Highlander"
+    },
+    "ch2-hero": {
+      "want": "A gas Grand Highlander XLE or Limited, driving",
+      "credit": "Toyota",
+      "alt": "A Toyota Grand Highlander"
+    },
+    "ch3-hero": {
+      "want": "A Grand Highlander Hybrid, ideally a Nightshade",
+      "credit": "Toyota",
+      "alt": "A Toyota Grand Highlander Hybrid"
+    },
+    "ch4-hero": {
+      "want": "A Grand Highlander Hybrid MAX Platinum, driving",
+      "credit": "Toyota",
+      "alt": "A Toyota Grand Highlander Hybrid MAX"
+    },
+    "ch5-hero": {
+      "want": "The 2027 Grand Highlander Woodland Edition, or a lineup of grades",
+      "credit": "Toyota",
+      "alt": "A Toyota Grand Highlander"
+    },
+    "ch6-hero": {
+      "want": "A Grand Highlander, rear three-quarter or interior",
+      "credit": "Toyota",
+      "alt": "A Toyota Grand Highlander"
+    }
+  },
+  "find": {
+    "picker": [
+      {
+        "model": "Grand Highlander",
+        "years": "2024–2026",
+        "ch": "gas-turbo"
+      },
+      {
+        "model": "Grand Highlander Hybrid",
+        "years": "2024–2026",
+        "ch": "hybrid"
+      },
+      {
+        "model": "Grand Highlander Hybrid MAX",
+        "years": "2024–2026",
+        "ch": "hybrid-max"
+      }
+    ],
+    "terms": {
+      "": [
+        "three-row SUV",
+        "third row",
+        "Lexus TX"
+      ],
+      "overview": [
+        "cargo",
+        "cargo space",
+        "cupholders",
+        "size",
+        "dimensions"
+      ],
+      "gas-turbo": [
+        "turbo",
+        "2.4-liter",
+        "gas"
+      ],
+      "hybrid": [
+        "hybrid",
+        "2.5-liter",
+        "Nightshade"
+      ],
+      "hybrid-max": [
+        "Hybrid MAX",
+        "MAX",
+        "362 hp",
+        "Platinum"
+      ],
+      "years-and-trims": [
+        "LE",
+        "XLE",
+        "Limited",
+        "Woodland",
+        "Woodland Edition",
+        "2027",
+        "trims"
+      ],
+      "used-checklist": [
+        "used",
+        "checklist",
+        "recalls",
+        "airbag recall",
+        "axle recall",
+        "steering knuckle"
+      ]
+    }
+  }
+}

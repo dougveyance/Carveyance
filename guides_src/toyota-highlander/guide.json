@@ -1,0 +1,336 @@
+{
+  "id": "toyota-highlander",
+  "make": "Toyota",
+  "model": "Highlander",
+  "years": "2017–2026",
+  "byline": "Oliver Bacon",
+  "published": "2026-11-16",
+  "updated": "2026-11-16",
+  "cars": [
+    "toyota-highlander-xu50",
+    "toyota-highlander-xu70"
+  ],
+  "shop": {
+    "cargurus": "d298"
+  },
+  "chapters": [
+    "2017-2019",
+    "2020-2022",
+    "2023-2026-turbo",
+    "hybrid",
+    "used-checklist",
+    "v6-turbo-or-hybrid"
+  ],
+  "series": {
+    "i4": {
+      "name": "2017–2019 2.7-liter 4-cylinder",
+      "color": "#c3cad1"
+    },
+    "v6": {
+      "name": "3.5-liter V6, 2017–2022",
+      "color": "#e05c2a"
+    },
+    "v6a": {
+      "name": "2017–2019 V6",
+      "color": "#f08a5d"
+    },
+    "v6b": {
+      "name": "2020–2022 V6",
+      "color": "#e05c2a"
+    },
+    "hv6": {
+      "name": "2017–2019 V6 hybrid",
+      "color": "#5f8aa6"
+    },
+    "t24": {
+      "name": "2023–2026 2.4-liter turbo",
+      "color": "#6b7785"
+    },
+    "hyb": {
+      "name": "2020–2026 hybrid",
+      "color": "#1d4b61"
+    },
+    "hybf": {
+      "name": "2020–2024 hybrid FWD",
+      "color": "#1d4b61"
+    },
+    "hyba": {
+      "name": "2020–2026 hybrid AWD",
+      "color": "#2E6E96"
+    },
+    "hall": {
+      "name": "Every hybrid, 2017–2026",
+      "color": "#1d4b61"
+    }
+  },
+  "charts": {
+    "power": {
+      "n": 1,
+      "title": "Horsepower, by engine",
+      "sub": "Toyota's figures. Hybrid numbers are combined system output.",
+      "source": "Toyota",
+      "bars": [
+        [
+          "i4",
+          185,
+          "185 hp"
+        ],
+        [
+          "v6",
+          295,
+          "295 hp"
+        ],
+        [
+          "hv6",
+          306,
+          "306 hp"
+        ],
+        [
+          "t24",
+          265,
+          "265 hp"
+        ],
+        [
+          "hyb",
+          243,
+          "243 hp"
+        ]
+      ]
+    },
+    "mpg": {
+      "n": 2,
+      "title": "Fuel economy, best version of each",
+      "sub": "EPA combined miles per gallon for the most efficient version of each engine, usually front-wheel drive. All-wheel drive costs about 1 mpg.",
+      "source": "EPA ratings",
+      "bars": [
+        [
+          "i4",
+          22,
+          "22 mpg"
+        ],
+        [
+          "v6a",
+          23,
+          "23 mpg"
+        ],
+        [
+          "hv6",
+          29,
+          "29 mpg (LE)"
+        ],
+        [
+          "v6b",
+          24,
+          "24 mpg"
+        ],
+        [
+          "t24",
+          25,
+          "25 mpg"
+        ],
+        [
+          "hyb",
+          36,
+          "36 mpg"
+        ]
+      ]
+    },
+    "torque": {
+      "n": 3,
+      "title": "Torque: V6 against turbo",
+      "sub": "Peak torque in lb-ft. The turbo makes 30 fewer horsepower than the V6 but 17% more torque, and makes it at lower revs.",
+      "source": "Toyota",
+      "bars": [
+        [
+          "v6",
+          263,
+          "263 lb-ft"
+        ],
+        [
+          "t24",
+          310,
+          "310 lb-ft"
+        ]
+      ]
+    },
+    "fuelcost": {
+      "n": 4,
+      "title": "A year of fuel",
+      "sub": "12,000 miles at $4 a gallon, using the EPA combined figures for each engine: 23, 24, 25, 29, 36 and 35 mpg. An example, not a forecast.",
+      "source": "Carveyance arithmetic from EPA ratings",
+      "bars": [
+        [
+          "v6a",
+          2087,
+          "$2,087 · 522 gal"
+        ],
+        [
+          "v6b",
+          2000,
+          "$2,000 · 500 gal"
+        ],
+        [
+          "t24",
+          1920,
+          "$1,920 · 480 gal"
+        ],
+        [
+          "hv6",
+          1655,
+          "$1,655 · 414 gal"
+        ],
+        [
+          "hybf",
+          1333,
+          "$1,333 · 333 gal"
+        ],
+        [
+          "hyba",
+          1371,
+          "$1,371 · 343 gal"
+        ]
+      ]
+    },
+    "tow": {
+      "n": 5,
+      "title": "How much it can tow",
+      "sub": "Toyota's maximum towing ratings, in kilograms, with pounds in parentheses.",
+      "source": "Toyota",
+      "bars": [
+        [
+          "v6",
+          2268,
+          "2,268 kg (5,000 lb)"
+        ],
+        [
+          "t24",
+          2268,
+          "2,268 kg (5,000 lb)"
+        ],
+        [
+          "hall",
+          1588,
+          "1,588 kg (3,500 lb)"
+        ]
+      ]
+    }
+  },
+  "photos": {
+    "hub-hero": {
+      "want": "A 2023–2026 Highlander, outside, front three-quarter",
+      "credit": "Toyota",
+      "alt": "A Toyota Highlander"
+    },
+    "ch1-hero": {
+      "want": "A 2017–2019 Highlander, ideally an SE or Limited",
+      "credit": "Toyota",
+      "alt": "A 2017–2019 Toyota Highlander"
+    },
+    "ch2-hero": {
+      "want": "A 2020–2022 Highlander, ideally an XSE or Platinum",
+      "credit": "Toyota",
+      "alt": "A 2020–2022 Toyota Highlander"
+    },
+    "ch3-hero": {
+      "want": "A 2023–2026 Highlander turbo, driving",
+      "credit": "Toyota",
+      "alt": "A 2023–2026 Toyota Highlander"
+    },
+    "ch4-hero": {
+      "want": "A Highlander Hybrid, ideally a Bronze Edition or 25th Edition",
+      "credit": "Toyota",
+      "alt": "A Toyota Highlander Hybrid"
+    },
+    "ch5-hero": {
+      "want": "A Highlander with the third row in use, or loaded for a family trip",
+      "credit": "Toyota",
+      "alt": "A Toyota Highlander"
+    },
+    "ch6-hero": {
+      "want": "A Highlander towing, or two Highlanders together",
+      "credit": "Toyota",
+      "alt": "A Toyota Highlander"
+    }
+  },
+  "find": {
+    "picker": [
+      {
+        "model": "Highlander",
+        "years": "2017–2019",
+        "ch": "2017-2019"
+      },
+      {
+        "model": "Highlander",
+        "years": "2020–2022",
+        "ch": "2020-2022"
+      },
+      {
+        "model": "Highlander",
+        "years": "2023–2026",
+        "ch": "2023-2026-turbo"
+      },
+      {
+        "model": "Highlander Hybrid",
+        "years": "2017–2026",
+        "ch": "hybrid"
+      }
+    ],
+    "terms": {
+      "": [
+        "L",
+        "LE",
+        "XLE",
+        "XSE",
+        "Limited",
+        "Platinum",
+        "three-row SUV",
+        "third row"
+      ],
+      "2017-2019": [
+        "third generation",
+        "XU50",
+        "LE Plus",
+        "SE",
+        "Limited Platinum",
+        "2.7-liter",
+        "4-cylinder"
+      ],
+      "2020-2022": [
+        "fourth generation",
+        "XU70",
+        "V6",
+        "3.5-liter",
+        "XSE"
+      ],
+      "2023-2026-turbo": [
+        "turbo",
+        "2.4-liter",
+        "2.4T",
+        "25th Edition",
+        "2027",
+        "electric Highlander"
+      ],
+      "hybrid": [
+        "hybrid",
+        "Highlander Hybrid",
+        "Bronze Edition",
+        "Nightshade",
+        "rear motor cable",
+        "19TC04"
+      ],
+      "used-checklist": [
+        "used",
+        "checklist",
+        "recalls",
+        "bumper recall",
+        "seat recall"
+      ],
+      "v6-turbo-or-hybrid": [
+        "towing",
+        "tow",
+        "V6 vs turbo",
+        "which engine"
+      ]
+    }
+  }
+}

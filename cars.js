@@ -10391,7 +10391,10 @@ const CARS = [
   },
   {
     "top": {
-      "na": "No US figure from Honda"
+      "mph": 127,
+      "kind": "tested",
+      "note": "Governor limited (Car and Driver)",
+      "src": "https://autos.yahoo.com/2017-honda-accord-172200926.html"
     },
     "mpg": {
       "combined": 30,
@@ -10401,6 +10404,84 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/37625.shtml"
     },
+    "versions": [
+      {
+        "name": "2.4-liter",
+        "detail": "4-cylinder, CVT",
+        "specsFor": "2017 Honda Accord LX sedan, CVT, US market (0–60 and top speed from Car and Driver's test of a 2016 2.4-liter CVT)"
+      },
+      {
+        "name": "3.5-liter V6",
+        "detail": "6-speed automatic (coupe: 6-speed manual)",
+        "specsFor": "2017 Honda Accord EX-L V6 sedan, 6-speed automatic, US market (0–60 and top speed from Car and Driver's test of a 2016 V6 sedan)",
+        "power": {
+          "hp": 278,
+          "note": "3.5-liter V6",
+          "src": "https://www.hondacertified.com/-/media/HondaCertified/PDF/factsheets/2017-Accord-Sedan-factsheet.pdf"
+        },
+        "weight": {
+          "kg": 1607,
+          "note": "Curb weight, 2017 EX-L V6 sedan",
+          "src": "https://www.hondacertified.com/-/media/HondaCertified/PDF/factsheets/2017-Accord-Sedan-factsheet.pdf"
+        },
+        "zero60": {
+          "sec": 5.8,
+          "kind": "tested",
+          "note": "Car and Driver test, 2016 Accord V6 sedan",
+          "src": "https://autos.yahoo.com/2016-honda-accord-v-6-144500321.html"
+        },
+        "top": {
+          "mph": 128,
+          "kind": "tested",
+          "note": "Governor limited (Car and Driver)",
+          "src": "https://autos.yahoo.com/2016-honda-accord-v-6-144500321.html"
+        },
+        "mpg": {
+          "combined": 25,
+          "city": 21,
+          "hwy": 33,
+          "unit": "mpg",
+          "kind": "epa",
+          "note": "EPA combined, sedan, automatic (coupe manual: 21 mpg)",
+          "src": "https://www.fueleconomy.gov/feg/noframes/37622.shtml"
+        }
+      },
+      {
+        "name": "Hybrid",
+        "detail": "2.0-liter, 2-motor hybrid",
+        "specsFor": "2017 Honda Accord Hybrid, US market (0–60 and top speed from Car and Driver's test of a Hybrid Touring)",
+        "power": {
+          "hp": 212,
+          "note": "Combined system output",
+          "src": "https://www.kbb.com/honda/accord-hybrid/2017/specs"
+        },
+        "weight": {
+          "kg": 1580,
+          "note": "Curb weight, 2017 Accord Hybrid (Touring: 3,536 lb)",
+          "src": "https://www.kbb.com/honda/accord-hybrid/2017/specs"
+        },
+        "zero60": {
+          "sec": 7.2,
+          "kind": "tested",
+          "note": "Car and Driver test, 2017 Hybrid Touring",
+          "src": "https://autos.yahoo.com/2017-honda-accord-hybrid-155300406.html"
+        },
+        "top": {
+          "mph": 114,
+          "kind": "tested",
+          "note": "Governor limited (Car and Driver)",
+          "src": "https://autos.yahoo.com/2017-honda-accord-hybrid-155300406.html"
+        },
+        "mpg": {
+          "combined": 48,
+          "city": 49,
+          "hwy": 47,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/37825.shtml"
+        }
+      }
+    ],
     "built": {
       "count": 1778460,
       "approx": true,
@@ -10438,22 +10519,22 @@ const CARS = [
     "engine": "2.4-liter 4-cylinder; 3.5-liter V6; 2.0-liter 2-motor hybrid",
     "drive": "Front-wheel drive",
     "gearbox": "CVT or 6-speed manual (4-cylinder); 6-speed automatic, or a 6-speed manual in the coupe (V6)",
-    "specsFor": "2017 Honda Accord LX, US market",
+    "specsFor": "2017 Honda Accord LX sedan, CVT, US market",
     "power": {
       "hp": 185,
-      "note": "2.4-liter 4-cylinder (Sport: 189 hp; V6: 278 hp; Hybrid: 212 hp)",
-      "src": "https://www.motormatchup.com/catalog/Honda/Accord/2017/LX-4DR-Sedan"
+      "note": "2.4-liter 4-cylinder (Sport: 189 hp)",
+      "src": "https://www.hondacertified.com/-/media/HondaCertified/PDF/factsheets/2017-Accord-Sedan-factsheet.pdf"
     },
     "weight": {
-      "kg": 1438,
-      "note": "Curb weight, 2017 LX sedan",
-      "src": "https://www.motormatchup.com/catalog/Honda/Accord/2017/LX-4DR-Sedan"
+      "kg": 1469,
+      "note": "Curb weight, 2017 LX sedan, CVT",
+      "src": "https://www.hondacertified.com/-/media/HondaCertified/PDF/factsheets/2017-Accord-Sedan-factsheet.pdf"
     },
     "zero60": {
       "sec": 7.6,
       "kind": "tested",
-      "note": "Car and Driver test, 2.4-liter with CVT",
-      "src": "https://autos.yahoo.com/2018-honda-accord-1-5t-233000760.html"
+      "note": "Car and Driver test, 2016 Accord 2.4-liter CVT",
+      "src": "https://autos.yahoo.com/2017-honda-accord-172200926.html"
     },
     "quick": "The ninth-generation Accord, sold for 2013–2017: the last Accord with a V6, the last with a coupe body, and the one that brought the Accord Hybrid back for 2017, rated at 48 mpg combined.",
     "story": [

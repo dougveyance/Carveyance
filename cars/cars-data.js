@@ -9513,7 +9513,7 @@ const CARS_INDEX = [
   ],
   "drive": "Front-wheel drive",
   "gearbox": "CVT or 6-speed manual (4-cylinder); 6-speed automatic, or a 6-speed manual in the coupe (V6)",
-  "specsFor": "2017 Honda Accord LX, US market",
+  "specsFor": "2017 Honda Accord LX sedan, CVT, US market",
   "guide": {
    "url": "/fitdrive/guides/honda-accord/",
    "title": "The Honda Accord Buyer's Guide"
@@ -9522,14 +9522,18 @@ const CARS_INDEX = [
    "cargurus": "d585"
   },
   "hp": 185,
-  "kg": 1438,
-  "kgNote": "Curb weight, 2017 LX sedan",
+  "kg": 1469,
+  "kgNote": "Curb weight, 2017 LX sedan, CVT",
   "z60": {
    "sec": 7.6,
    "kind": "tested",
-   "note": "Car and Driver test, 2.4-liter with CVT"
+   "note": "Car and Driver test, 2016 Accord 2.4-liter CVT"
   },
-  "top": null,
+  "top": {
+   "mph": 127,
+   "kind": "tested",
+   "note": "Governor limited (Car and Driver)"
+  },
   "mpg": {
    "combined": 30,
    "city": 27,

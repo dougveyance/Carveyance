@@ -8083,7 +8083,7 @@ const CARS = [
       "Toyota cut the price by up to $6,000 for 2025, then renamed the car bZ for 2026, with 57.7 or 74.7 kWh batteries, up to 221 hp with front drive and 338 hp with all-wheel drive, a NACS charging port and standard battery preconditioning. The EPA rates the XLE FWD Plus at 314 miles. The bZ4X has been built at Toyota's Motomachi plant in Japan."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota bZ4X",
       "Toyota bZ"
@@ -8135,7 +8135,7 @@ const CARS = [
       "There are 2 grades, the Woodland and the Woodland Premium, which adds JBL audio, ventilated front seats and a panoramic moonroof. Toyota priced it from $45,300 and expected it at US dealers in March 2026. In Japan, Toyota sells it as the bZ4X Touring."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota bZ Woodland"
     ],

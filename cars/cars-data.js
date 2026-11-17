@@ -7427,7 +7427,11 @@ const CARS_INDEX = [
   "alongside": [],
   "prev": null,
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-bz4x.jpg?v=ede3f7ef",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-bz-woodland",
@@ -7470,7 +7474,11 @@ const CARS_INDEX = [
   "alongside": [],
   "prev": null,
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-bz-woodland.jpg?v=de133a60",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-avalon-xx40",

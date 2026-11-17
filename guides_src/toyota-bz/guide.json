@@ -203,22 +203,24 @@
     "hub-hero": {
       "want": "A 2026 bZ outside, front three-quarter, or a bZ and a bZ Woodland together",
       "credit": "Toyota",
-      "alt": "A Toyota bZ"
+      "alt": "A white 2026 Toyota bZ, seen side-on, at a downtown intersection lined with office towers"
     },
     "ch1-hero": {
       "want": "A 2023–2025 bZ4X outside, ideally an XLE or Limited",
       "credit": "Toyota",
-      "alt": "A Toyota bZ4X"
+      "alt": "A red 2023 Toyota bZ4X XLE with black wheel-arch trim, in a gray studio",
+      "caption": "Shown: a 2023 bZ4X XLE"
     },
     "ch2-hero": {
       "want": "A 2026 bZ Woodland on a dirt road or trail",
       "credit": "Toyota",
-      "alt": "A Toyota bZ Woodland"
+      "alt": "A bronze 2026 Toyota bZ Woodland Premium driving up a dusty dirt trail between bushes"
     },
     "ch3-hero": {
       "want": "A bZ4X or bZ plugged in at a charger, or its charge port",
       "credit": "Toyota",
-      "alt": "A Toyota bZ charging"
+      "alt": "The Toyota portable charging cable for the bZ4X, coiled, with its 2 plug adapters beside it",
+      "caption": "Shown: the charging cable for the 2024 bZ4X"
     }
   },
   "find": {

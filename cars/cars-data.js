@@ -6812,6 +6812,460 @@ const CARS_INDEX = [
   }
  },
  {
+  "id": "toyota-celica-camry",
+  "name": "Toyota Celica Camry",
+  "aka": [
+   "Celica Camry",
+   "A40",
+   "A50"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "1980–1982",
+  "start": 1980,
+  "body": "4-door sedan",
+  "engine": "1.6-liter, 1.8-liter and 2.0-liter 4-cylinder",
+  "country": "Japan",
+  "quick": "The Celica Camry, 1980–1982: a rear-wheel-drive Japanese sedan dressed to look like a Celica, and the car that gave the Camry its name.",
+  "articles": [
+   "industry-brief-2026-10-05",
+   "losing-at-home",
+   "the-prius-paradox"
+  ],
+  "latest": "2026-10-05",
+  "ownDates": [],
+  "dates": [
+   "2026-10-05"
+  ],
+  "drive": "Rear-wheel drive",
+  "gearbox": "Manual or automatic",
+  "specsFor": "Toyota Celica Camry, Japanese market",
+  "guide": null,
+  "shop": null,
+  "hp": null,
+  "kg": null,
+  "kgNote": "",
+  "lbs": null,
+  "z60": null,
+  "top": null,
+  "mpg": null,
+  "built": null,
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": "toyota-camry-v10",
+   "name": "Toyota Camry (V10)"
+  },
+  "photo": null
+ },
+ {
+  "id": "toyota-camry-v10",
+  "name": "Toyota Camry (V10)",
+  "aka": [
+   "1983–1986 Camry",
+   "Camry LE",
+   "Camry DX",
+   "Camry liftback",
+   "V10"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "1983–1986",
+  "start": 1983,
+  "body": "Compact 4-door sedan and 5-door liftback",
+  "engine": "2.0-liter 4-cylinder; 1.8-liter and 2.0-liter turbodiesel",
+  "country": "Japan",
+  "quick": "The first Camry, 1983–1986: Toyota's first front-wheel-drive car with a sideways-mounted engine, built to take on the Honda Accord.",
+  "articles": [
+   "industry-brief-2026-10-05",
+   "losing-at-home",
+   "the-prius-paradox"
+  ],
+  "latest": "2026-10-05",
+  "ownDates": [],
+  "dates": [
+   "2026-10-05"
+  ],
+  "drive": "Front-wheel drive",
+  "gearbox": "5-speed manual or 4-speed automatic",
+  "specsFor": "1983 Toyota Camry LE sedan, 2.0-liter, automatic, US market (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d292"
+  },
+  "hp": 92,
+  "kg": 1157,
+  "kgNote": "Curb weight, 1983 LE",
+  "lbs": 2550,
+  "z60": {
+   "sec": 11.8,
+   "kind": "tested",
+   "note": "Car and Driver test, 1983 LE, automatic"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 26,
+   "city": 23,
+   "hwy": 29,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1984 2.0-liter, automatic"
+  },
+  "built": {
+   "count": 426286,
+   "approx": true,
+   "note": "Sold in the US, 1983–1986"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "toyota-celica-camry",
+   "name": "Toyota Celica Camry"
+  },
+  "next": {
+   "id": "toyota-camry-v20",
+   "name": "Toyota Camry (V20)"
+  },
+  "photo": null
+ },
+ {
+  "id": "toyota-camry-v20",
+  "name": "Toyota Camry (V20)",
+  "aka": [
+   "1987–1991 Camry",
+   "Camry All-Trac",
+   "Camry V6",
+   "Camry wagon",
+   "V20"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "1987–1991",
+  "start": 1987,
+  "body": "Compact 4-door sedan and 5-door wagon",
+  "engine": "2.0-liter 4-cylinder; 2.5-liter V6 from 1988",
+  "country": "Japan and United States",
+  "quick": "The second Camry, 1987–1991: softer, sleeker and better built, the first Camry made in Kentucky, with a V6 and All-Trac all-wheel drive from 1988.",
+  "articles": [
+   "industry-brief-2026-10-05",
+   "losing-at-home",
+   "the-prius-paradox"
+  ],
+  "latest": "2026-10-05",
+  "ownDates": [],
+  "dates": [
+   "2026-10-05"
+  ],
+  "drive": "Front-wheel drive; All-Trac all-wheel drive from 1988",
+  "gearbox": "5-speed manual or 4-speed automatic",
+  "specsFor": "1987 Toyota Camry, 2.0-liter, 5-speed manual, US market",
+  "guide": null,
+  "shop": {
+   "cargurus": "d292"
+  },
+  "hp": 115,
+  "kg": null,
+  "kgNote": "",
+  "lbs": null,
+  "z60": null,
+  "top": null,
+  "mpg": {
+   "combined": 26,
+   "city": 23,
+   "hwy": 31,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1987 2.0-liter, 5-speed manual"
+  },
+  "built": {
+   "count": 1212770,
+   "approx": true,
+   "note": "Sold in the US, 1987–1991"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "toyota-camry-v10",
+   "name": "Toyota Camry (V10)"
+  },
+  "next": {
+   "id": "toyota-camry-xv10",
+   "name": "Toyota Camry (XV10)"
+  },
+  "photo": null
+ },
+ {
+  "id": "toyota-camry-xv10",
+  "name": "Toyota Camry (XV10)",
+  "aka": [
+   "1992–1996 Camry",
+   "Camry Coupe",
+   "Camry wagon",
+   "XV10",
+   "Toyota Scepter"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "1992–1996",
+  "start": 1992,
+  "body": "Mid-size 4-door sedan and 5-door wagon; 2-door coupe from 1994",
+  "engine": "2.2-liter 4-cylinder; 3.0-liter V6",
+  "country": "Japan and United States",
+  "quick": "The third Camry, 1992–1996: the first wide-body, American-sized Camry, reshaped at the urging of Toyota's US executives and twice on Car and Driver's 10Best list.",
+  "articles": [
+   "industry-brief-2026-10-05",
+   "losing-at-home",
+   "the-prius-paradox"
+  ],
+  "latest": "2026-10-05",
+  "ownDates": [],
+  "dates": [
+   "2026-10-05"
+  ],
+  "drive": "Front-wheel drive",
+  "gearbox": "5-speed manual or 4-speed automatic",
+  "specsFor": "1995 Toyota Camry LE, 2.2-liter, automatic, US market (Motor Trend test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d292"
+  },
+  "hp": 130,
+  "kg": 1393,
+  "kgNote": "Curb weight, 1995 LE",
+  "lbs": 3070,
+  "z60": {
+   "sec": 12.0,
+   "kind": "tested",
+   "note": "Motor Trend test, 1995 LE, automatic"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 21,
+   "city": 19,
+   "hwy": 26,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1995 2.2-liter, automatic"
+  },
+  "built": {
+   "count": 1586296,
+   "approx": true,
+   "note": "Sold in the US, 1992–1996"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "toyota-camry-v20",
+   "name": "Toyota Camry (V20)"
+  },
+  "next": {
+   "id": "toyota-camry-xv20",
+   "name": "Toyota Camry (XV20)"
+  },
+  "photo": null
+ },
+ {
+  "id": "toyota-camry-xv20",
+  "name": "Toyota Camry (XV20)",
+  "aka": [
+   "1997–2001 Camry",
+   "Camry LE V6",
+   "Camry XLE",
+   "XV20"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "1997–2001",
+  "start": 1997,
+  "body": "Mid-size 4-door sedan",
+  "engine": "2.2-liter 4-cylinder; 3.0-liter V6",
+  "country": "Japan and United States",
+  "quick": "The fourth Camry, 1997–2001: a sedan-only Camry in America, with a 133-hp 4-cylinder or a 194-hp V6, and the country's best-selling car from 1997 to 2000.",
+  "articles": [
+   "industry-brief-2026-10-05",
+   "losing-at-home",
+   "the-prius-paradox"
+  ],
+  "latest": "2026-10-05",
+  "ownDates": [],
+  "dates": [
+   "2026-10-05"
+  ],
+  "drive": "Front-wheel drive",
+  "gearbox": "5-speed manual or 4-speed automatic",
+  "specsFor": "1997 Toyota Camry LE V6, automatic, US market (Motor Trend test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d292"
+  },
+  "hp": 194,
+  "kg": 1486,
+  "kgNote": "Curb weight, 1997 LE V6",
+  "lbs": 3275,
+  "z60": {
+   "sec": 7.7,
+   "kind": "tested",
+   "note": "Motor Trend test, 1997 LE V6, automatic"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 19,
+   "city": 17,
+   "hwy": 24,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1997 V6, automatic"
+  },
+  "built": {
+   "count": 2078874,
+   "approx": true,
+   "note": "Sold in the US, 1997–2001"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "toyota-camry-xv10",
+   "name": "Toyota Camry (XV10)"
+  },
+  "next": {
+   "id": "toyota-camry-xv30",
+   "name": "Toyota Camry (XV30)"
+  },
+  "photo": null
+ },
+ {
+  "id": "toyota-camry-xv30",
+  "name": "Toyota Camry (XV30)",
+  "aka": [
+   "2002–2006 Camry",
+   "Camry SE",
+   "Camry XLE",
+   "XV30"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2002–2006",
+  "start": 2002,
+  "body": "Mid-size 4-door sedan",
+  "engine": "2.4-liter 4-cylinder; 3.0-liter V6",
+  "country": "Japan and United States",
+  "quick": "The fifth Camry, 2002–2006: bigger and taller, sedan only, with a sporty SE back in the lineup, and the start of the Camry's long run as America's best-selling car.",
+  "articles": [
+   "industry-brief-2026-10-05",
+   "losing-at-home",
+   "the-prius-paradox"
+  ],
+  "latest": "2026-10-05",
+  "ownDates": [],
+  "dates": [
+   "2026-10-05"
+  ],
+  "drive": "Front-wheel drive",
+  "gearbox": "5-speed manual, 4-speed or 5-speed automatic",
+  "specsFor": "2003 Toyota Camry SE, 2.4-liter, 5-speed manual, US market (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d292"
+  },
+  "hp": 157,
+  "kg": 1470,
+  "kgNote": "Curb weight, 2003 SE",
+  "lbs": 3241,
+  "z60": {
+   "sec": 8.3,
+   "kind": "tested",
+   "note": "Car and Driver test, 2003 SE"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 24,
+   "city": 21,
+   "hwy": 30,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2003 2.4-liter, 5-speed manual"
+  },
+  "built": {
+   "count": 2154579,
+   "approx": true,
+   "note": "Sold in the US, 2002–2006"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "toyota-camry-xv20",
+   "name": "Toyota Camry (XV20)"
+  },
+  "next": {
+   "id": "toyota-camry-xv40",
+   "name": "Toyota Camry (XV40)"
+  },
+  "photo": null
+ },
+ {
+  "id": "toyota-camry-xv40",
+  "name": "Toyota Camry (XV40)",
+  "aka": [
+   "2007–2011 Camry",
+   "Camry Hybrid",
+   "Camry SE V6",
+   "XV40"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2007–2011",
+  "start": 2007,
+  "body": "Mid-size 4-door sedan",
+  "engine": "2.4-liter or 2.5-liter 4-cylinder; 3.5-liter V6; 2.4-liter hybrid",
+  "country": "Japan and United States",
+  "quick": "The sixth Camry, 2007–2011: the first Camry Hybrid, a 268-hp V6 that ran to 60 in under 6 seconds, and the Camry's best US sales year, 2007.",
+  "articles": [
+   "industry-brief-2026-10-05",
+   "losing-at-home",
+   "the-prius-paradox"
+  ],
+  "latest": "2026-10-05",
+  "ownDates": [],
+  "dates": [
+   "2026-10-05"
+  ],
+  "drive": "Front-wheel drive",
+  "gearbox": "5-speed manual, 5-speed or 6-speed automatic, or CVT (Hybrid)",
+  "specsFor": "2007 Toyota Camry LE, 2.4-liter, automatic, US market (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d292"
+  },
+  "hp": 158,
+  "kg": 1495,
+  "kgNote": "Curb weight, 2007 LE",
+  "lbs": 3296,
+  "z60": {
+   "sec": 8.7,
+   "kind": "tested",
+   "note": "Car and Driver test, 2007 LE, automatic"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 24,
+   "city": 21,
+   "hwy": 30,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2007 2.4-liter, automatic"
+  },
+  "built": {
+   "count": 1900312,
+   "approx": true,
+   "note": "Sold in the US, 2007–2011"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "toyota-camry-xv30",
+   "name": "Toyota Camry (XV30)"
+  },
+  "next": {
+   "id": "toyota-camry-xv50",
+   "name": "Toyota Camry (XV50)"
+  },
+  "photo": null
+ },
+ {
   "id": "toyota-camry-xv50",
   "name": "Toyota Camry (XV50)",
   "aka": [],
@@ -6872,7 +7326,7 @@ const CARS_INDEX = [
   },
   "alongside": [],
   "prev": {
-   "id": null,
+   "id": "toyota-camry-xv40",
    "name": "Toyota Camry (XV40)"
   },
   "next": {

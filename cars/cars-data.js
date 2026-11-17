@@ -34,6 +34,7 @@ const CARS_INDEX = [
   "hp": 416,
   "kg": 1412,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 4.0,
    "kind": "tested",
@@ -104,6 +105,7 @@ const CARS_INDEX = [
   "hp": 380,
   "kg": 1460,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 4.0,
    "kind": "tested",
@@ -181,6 +183,7 @@ const CARS_INDEX = [
   "hp": 420,
   "kg": 1624,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 4.0,
    "kind": "tested",
@@ -250,6 +253,7 @@ const CARS_INDEX = [
   "hp": 345,
   "kg": 1437,
   "kgNote": "Lotus's figure",
+  "lbs": null,
   "z60": {
    "sec": 4.6,
    "kind": "claimed",
@@ -318,6 +322,7 @@ const CARS_INDEX = [
   "hp": 400,
   "kg": 1415,
   "kgNote": "unladen, Lotus's figure",
+  "lbs": null,
   "z60": {
    "sec": 4.1,
    "kind": "claimed",
@@ -389,6 +394,7 @@ const CARS_INDEX = [
   "hp": 410,
   "kg": 1325,
   "kgNote": "Lotus's figure",
+  "lbs": null,
   "z60": {
    "sec": 3.9,
    "kind": "claimed",
@@ -450,6 +456,7 @@ const CARS_INDEX = [
   "hp": 430,
   "kg": 1258,
   "kgNote": "dry, Lotus's figure",
+  "lbs": null,
   "z60": {
    "sec": 3.7,
    "kind": "claimed",
@@ -511,6 +518,7 @@ const CARS_INDEX = [
   "hp": 430,
   "kg": 1248,
   "kgNote": "dry, Lotus's figure",
+  "lbs": null,
   "z60": null,
   "top": {
    "mph": 196,
@@ -568,6 +576,7 @@ const CARS_INDEX = [
   "hp": 276,
   "kg": 1350,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 4.9,
    "kind": "claimed",
@@ -640,6 +649,7 @@ const CARS_INDEX = [
   "hp": 302,
   "kg": 1243,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 4.7,
    "kind": "tested",
@@ -710,6 +720,7 @@ const CARS_INDEX = [
   "hp": 300,
   "kg": 1460,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 4.6,
    "kind": "tested",
@@ -787,6 +798,7 @@ const CARS_INDEX = [
   "hp": 350,
   "kg": 1391,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 4.1,
    "kind": "tested",
@@ -857,6 +869,7 @@ const CARS_INDEX = [
   "hp": 377,
   "kg": 1655,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 5.1,
    "kind": "tested",
@@ -914,6 +927,7 @@ const CARS_INDEX = [
   "hp": 100,
   "kg": 1098,
   "kgNote": "about",
+  "lbs": null,
   "z60": {
    "sec": 9.2,
    "kind": "tested",
@@ -987,6 +1001,7 @@ const CARS_INDEX = [
   "hp": 255,
   "kg": 1265,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 5.2,
    "kind": "tested",
@@ -1063,6 +1078,7 @@ const CARS_INDEX = [
   "hp": 202,
   "kg": 1250,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 6.5,
    "kind": "estimated",
@@ -1134,6 +1150,7 @@ const CARS_INDEX = [
   "hp": 276,
   "kg": 1610,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 6.5,
    "kind": "claimed",
@@ -1197,6 +1214,7 @@ const CARS_INDEX = [
   "hp": 108,
   "kg": 940,
   "kgNote": "",
+  "lbs": null,
   "z60": null,
   "top": {
    "mph": 115,
@@ -1251,6 +1269,7 @@ const CARS_INDEX = [
   "hp": 1.7,
   "kg": 32,
   "kgNote": "",
+  "lbs": null,
   "z60": null,
   "top": {
    "mph": 22,
@@ -1305,6 +1324,7 @@ const CARS_INDEX = [
   "hp": 67,
   "kg": 775,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 11.6,
    "kind": "claimed",
@@ -1363,6 +1383,7 @@ const CARS_INDEX = [
   "hp": 195,
   "kg": 1630,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 8.5,
    "kind": "estimated",
@@ -1433,6 +1454,7 @@ const CARS_INDEX = [
   "hp": 157,
   "kg": 1570,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 8.3,
    "kind": "tested",
@@ -1495,6 +1517,7 @@ const CARS_INDEX = [
   "hp": 130,
   "kg": 1275,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 9.5,
    "kind": "tested",
@@ -1558,6 +1581,7 @@ const CARS_INDEX = [
   "hp": 140,
   "kg": 1235,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 8.2,
    "kind": "tested",
@@ -1623,6 +1647,7 @@ const CARS_INDEX = [
   "hp": 170,
   "kg": 1290,
   "kgNote": "",
+  "lbs": null,
   "z60": null,
   "top": null,
   "mpg": {
@@ -1689,6 +1714,7 @@ const CARS_INDEX = [
   "hp": 320,
   "kg": 1695,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 4.8,
    "kind": "tested",
@@ -1761,6 +1787,7 @@ const CARS_INDEX = [
   "hp": 230,
   "kg": 1639,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 7.6,
    "kind": "tested",
@@ -1830,6 +1857,7 @@ const CARS_INDEX = [
   "hp": 164,
   "kg": 1315,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 7.5,
    "kind": "claimed",
@@ -1896,6 +1924,7 @@ const CARS_INDEX = [
   "hp": 416,
   "kg": 1715,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 4.3,
    "kind": "tested",
@@ -1963,6 +1992,7 @@ const CARS_INDEX = [
   "hp": 315,
   "kg": 1950,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 6.3,
    "kind": "tested",
@@ -2020,6 +2050,7 @@ const CARS_INDEX = [
   "hp": 215,
   "kg": 1780,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 8.2,
    "kind": null,
@@ -2081,6 +2112,7 @@ const CARS_INDEX = [
   "hp": 151,
   "kg": 1995,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 12.2,
    "kind": "tested",
@@ -2150,6 +2182,7 @@ const CARS_INDEX = [
   "hp": 190,
   "kg": 1940,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 10.5,
    "kind": "tested",
@@ -2215,6 +2248,7 @@ const CARS_INDEX = [
   "hp": 73,
   "kg": 1000,
   "kgNote": "",
+  "lbs": null,
   "z60": null,
   "top": null,
   "mpg": {
@@ -2276,6 +2310,7 @@ const CARS_INDEX = [
   "hp": 320,
   "kg": 1530,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 4.9,
    "kind": "claimed",
@@ -2351,6 +2386,7 @@ const CARS_INDEX = [
   "hp": 335,
   "kg": 1495,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 4.7,
    "kind": "claimed",
@@ -2423,6 +2459,7 @@ const CARS_INDEX = [
   "hp": 315,
   "kg": 1415,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 4.8,
    "kind": "tested",
@@ -2494,6 +2531,7 @@ const CARS_INDEX = [
   "hp": 330,
   "kg": 1500,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 4.8,
    "kind": "tested",
@@ -2568,6 +2606,7 @@ const CARS_INDEX = [
   "hp": 335,
   "kg": 1515,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 4.5,
    "kind": "",
@@ -2632,6 +2671,7 @@ const CARS_INDEX = [
   "hp": 150,
   "kg": 1330,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 11,
    "kind": "tested",
@@ -2699,6 +2739,7 @@ const CARS_INDEX = [
   "hp": 369,
   "kg": 1590,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 4.4,
    "kind": "claimed",
@@ -2767,6 +2808,7 @@ const CARS_INDEX = [
   "hp": 296,
   "kg": 1320,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 5.2,
    "kind": "claimed",
@@ -2843,6 +2885,7 @@ const CARS_INDEX = [
   "hp": 178,
   "kg": 1210,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 6.3,
    "kind": "claimed",
@@ -2902,6 +2945,7 @@ const CARS_INDEX = [
   "hp": 236,
   "kg": 1320,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 6.1,
    "kind": "claimed",
@@ -2974,6 +3018,7 @@ const CARS_INDEX = [
   "hp": 345,
   "kg": 1620,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 5.3,
    "kind": "tested",
@@ -3042,6 +3087,7 @@ const CARS_INDEX = [
   "hp": 220,
   "kg": 1525,
   "kgNote": "",
+  "lbs": null,
   "z60": null,
   "top": {
    "mph": 125,
@@ -3104,6 +3150,7 @@ const CARS_INDEX = [
   "hp": 265,
   "kg": null,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 7.1,
    "kind": "tested",
@@ -3174,6 +3221,7 @@ const CARS_INDEX = [
   "hp": 488,
   "kg": 1665,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 4.2,
    "kind": "claimed",
@@ -3242,6 +3290,7 @@ const CARS_INDEX = [
   "hp": 370,
   "kg": 1848,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 5.3,
    "kind": "tested",
@@ -3314,6 +3363,7 @@ const CARS_INDEX = [
   "hp": 390,
   "kg": 1791,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 4.8,
    "kind": "tested",
@@ -3378,6 +3428,7 @@ const CARS_INDEX = [
   "hp": 370,
   "kg": 1640,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 5.2,
    "kind": "tested",
@@ -3451,6 +3502,7 @@ const CARS_INDEX = [
   "hp": 315,
   "kg": 1890,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 6.3,
    "kind": "claimed",
@@ -3520,6 +3572,7 @@ const CARS_INDEX = [
   "hp": 182,
   "kg": 1500,
   "kgNote": "",
+  "lbs": null,
   "z60": null,
   "top": {
    "mph": 127,
@@ -3579,6 +3632,7 @@ const CARS_INDEX = [
   "hp": 218,
   "kg": 2250,
   "kgNote": "",
+  "lbs": null,
   "z60": null,
   "top": {
    "mph": 120,
@@ -3645,6 +3699,7 @@ const CARS_INDEX = [
   "hp": 503,
   "kg": 1675,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 3.7,
    "kind": "claimed",
@@ -3719,6 +3774,7 @@ const CARS_INDEX = [
   "hp": 340,
   "kg": 1060,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 4.1,
    "kind": "claimed",
@@ -3787,6 +3843,7 @@ const CARS_INDEX = [
   "hp": 285,
   "kg": 1060,
   "kgNote": "TVR's claim",
+  "lbs": null,
   "z60": {
    "sec": 4.7,
    "kind": "claimed",
@@ -3858,6 +3915,7 @@ const CARS_INDEX = [
   "hp": 420,
   "kg": 1100,
   "kgNote": "TVR's figure",
+  "lbs": null,
   "z60": {
    "sec": 3.9,
    "kind": "claimed",
@@ -3931,6 +3989,7 @@ const CARS_INDEX = [
   "hp": 360,
   "kg": 1100,
   "kgNote": "about, TVR's figure",
+  "lbs": null,
   "z60": {
    "sec": 3.9,
    "kind": "claimed",
@@ -4000,6 +4059,7 @@ const CARS_INDEX = [
   "hp": 350,
   "kg": 1050,
   "kgNote": "by evo",
+  "lbs": null,
   "z60": {
    "sec": 4.4,
    "kind": "claimed",
@@ -4073,6 +4133,7 @@ const CARS_INDEX = [
   "hp": 406,
   "kg": 1078,
   "kgNote": "TVR's claim",
+  "lbs": null,
   "z60": {
    "sec": 3.7,
    "kind": "claimed",
@@ -4133,6 +4194,7 @@ const CARS_INDEX = [
   "hp": 535,
   "kg": 1714,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 3.3,
    "kind": "tested",
@@ -4194,6 +4256,7 @@ const CARS_INDEX = [
   "hp": 616,
   "kg": 1434,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 3.0,
    "kind": "claimed",
@@ -4261,6 +4324,7 @@ const CARS_INDEX = [
   "hp": 460,
   "kg": 1540,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 4.0,
    "kind": "tested",
@@ -4322,6 +4386,7 @@ const CARS_INDEX = [
   "hp": 385,
   "kg": 1630,
   "kgNote": "",
+  "lbs": null,
   "z60": null,
   "top": null,
   "mpg": {
@@ -4379,6 +4444,7 @@ const CARS_INDEX = [
   "hp": 405,
   "kg": 1415,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 4.2,
    "kind": "tested",
@@ -4436,6 +4502,7 @@ const CARS_INDEX = [
   "hp": 276,
   "kg": 1475,
   "kgNote": "",
+  "lbs": null,
   "z60": null,
   "top": null,
   "mpg": null,
@@ -4487,6 +4554,7 @@ const CARS_INDEX = [
   "hp": 110,
   "kg": 1090,
   "kgNote": "",
+  "lbs": null,
   "z60": null,
   "top": null,
   "mpg": null,
@@ -4534,6 +4602,7 @@ const CARS_INDEX = [
   "hp": 640,
   "kg": 1873,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 3.6,
    "kind": "tested",
@@ -4598,6 +4667,7 @@ const CARS_INDEX = [
   "hp": 260,
   "kg": 1350,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 5.8,
    "kind": "tested",
@@ -4667,6 +4737,7 @@ const CARS_INDEX = [
   "hp": 260,
   "kg": 1395,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 6.1,
    "kind": "tested",
@@ -4730,6 +4801,7 @@ const CARS_INDEX = [
   "hp": 710,
   "kg": 2510,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 3.5,
    "kind": "claimed",
@@ -4815,6 +4887,7 @@ const CARS_INDEX = [
   "hp": 74,
   "kg": 1170,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 23.2,
    "kind": "tested",
@@ -4892,6 +4965,7 @@ const CARS_INDEX = [
   "hp": 168,
   "kg": 1450,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 8.5,
    "kind": "claimed",
@@ -4968,6 +5042,7 @@ const CARS_INDEX = [
   "hp": 56,
   "kg": 1065,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 29.7,
    "kind": "tested",
@@ -5046,6 +5121,7 @@ const CARS_INDEX = [
   "hp": 9,
   "kg": 495,
   "kgNote": "",
+  "lbs": null,
   "z60": null,
   "top": {
    "mph": 40,
@@ -5105,6 +5181,7 @@ const CARS_INDEX = [
   "hp": 215,
   "kg": 1340,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 5.7,
    "kind": "claimed",
@@ -5168,6 +5245,7 @@ const CARS_INDEX = [
   "hp": 113,
   "kg": 850,
   "kgNote": "around",
+  "lbs": null,
   "z60": null,
   "top": null,
   "mpg": null,
@@ -5216,6 +5294,7 @@ const CARS_INDEX = [
   "hp": 108,
   "kg": 840,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 9.0,
    "kind": "claimed",
@@ -5274,6 +5353,7 @@ const CARS_INDEX = [
   "hp": 137,
   "kg": null,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 8.9,
    "kind": "claimed",
@@ -5338,6 +5418,7 @@ const CARS_INDEX = [
   "hp": 148,
   "kg": null,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 8.8,
    "kind": "claimed",
@@ -5393,6 +5474,7 @@ const CARS_INDEX = [
   "hp": 148,
   "kg": 1315,
   "kgNote": "Curb weight, 2000 GTI GLS 1.8T",
+  "lbs": 2900,
   "z60": {
    "sec": 7.3,
    "kind": "tested",
@@ -5457,6 +5539,7 @@ const CARS_INDEX = [
   "hp": 197,
   "kg": 1335,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 7.2,
    "kind": "claimed",
@@ -5527,6 +5610,7 @@ const CARS_INDEX = [
   "hp": 207,
   "kg": null,
   "kgNote": "",
+  "lbs": null,
   "z60": null,
   "top": null,
   "mpg": {
@@ -5585,6 +5669,7 @@ const CARS_INDEX = [
   "hp": 227,
   "kg": null,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 6.4,
    "kind": "claimed",
@@ -5649,6 +5734,7 @@ const CARS_INDEX = [
   "hp": 241,
   "kg": null,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 5.1,
    "kind": "tested",
@@ -5710,6 +5796,7 @@ const CARS_INDEX = [
   "hp": 114,
   "kg": 1325,
   "kgNote": "",
+  "lbs": null,
   "z60": null,
   "top": null,
   "mpg": {
@@ -5772,6 +5859,7 @@ const CARS_INDEX = [
   "hp": 250,
   "kg": 1890,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 6.8,
    "kind": "claimed",
@@ -5835,6 +5923,7 @@ const CARS_INDEX = [
   "hp": 619,
   "kg": 2345,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 3.7,
    "kind": "tested",
@@ -5900,6 +5989,7 @@ const CARS_INDEX = [
   "hp": 247,
   "kg": 2550,
   "kgNote": "",
+  "lbs": null,
   "z60": null,
   "top": null,
   "mpg": null,
@@ -5946,6 +6036,7 @@ const CARS_INDEX = [
   "hp": 503,
   "kg": 1576,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 3.7,
    "kind": "tested",
@@ -6014,6 +6105,7 @@ const CARS_INDEX = [
   "hp": 240,
   "kg": 800,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 5.0,
    "kind": "claimed",
@@ -6072,6 +6164,7 @@ const CARS_INDEX = [
   "hp": 240,
   "kg": 800,
   "kgNote": "",
+  "lbs": null,
   "z60": null,
   "top": null,
   "mpg": null,
@@ -6122,6 +6215,7 @@ const CARS_INDEX = [
   "hp": 156,
   "kg": 1850,
   "kgNote": "",
+  "lbs": null,
   "z60": null,
   "top": {
    "mph": 112,
@@ -6173,6 +6267,7 @@ const CARS_INDEX = [
   "hp": 350,
   "kg": null,
   "kgNote": "",
+  "lbs": null,
   "z60": null,
   "top": {
    "mph": 130,
@@ -6228,6 +6323,7 @@ const CARS_INDEX = [
   "hp": 340,
   "kg": null,
   "kgNote": "",
+  "lbs": null,
   "z60": null,
   "top": null,
   "mpg": null,
@@ -6279,6 +6375,7 @@ const CARS_INDEX = [
   "hp": 270,
   "kg": 2154.6,
   "kgNote": "Curb weight",
+  "lbs": null,
   "z60": {
    "sec": 7.7,
    "kind": "tested",
@@ -6351,6 +6448,7 @@ const CARS_INDEX = [
   "hp": 278,
   "kg": 2254.4,
   "kgNote": "Curb weight, Limited 4x4",
+  "lbs": null,
   "z60": {
    "sec": 7.5,
    "kind": "tested",
@@ -6411,6 +6509,7 @@ const CARS_INDEX = [
   "hp": 382,
   "kg": 1542,
   "kgNote": "Curb weight",
+  "lbs": null,
   "z60": {
    "sec": 3.9,
    "kind": "claimed",
@@ -6484,6 +6583,7 @@ const CARS_INDEX = [
   "hp": 151,
   "kg": 1850,
   "kgNote": "Curb weight",
+  "lbs": null,
   "z60": {
    "sec": 9.0,
    "kind": "claimed",
@@ -6548,6 +6648,7 @@ const CARS_INDEX = [
   "hp": 182,
   "kg": 1930,
   "kgNote": "Curb weight, XLE",
+  "lbs": null,
   "z60": {
    "sec": 7.4,
    "kind": "tested",
@@ -6605,6 +6706,7 @@ const CARS_INDEX = [
   "hp": 205,
   "kg": 1251,
   "kgNote": "Curb weight, manual",
+  "lbs": null,
   "z60": {
    "sec": 7.0,
    "kind": "claimed",
@@ -6668,6 +6770,7 @@ const CARS_INDEX = [
   "hp": 228,
   "kg": 1275,
   "kgNote": "Curb weight, manual",
+  "lbs": null,
   "z60": {
    "sec": 6.1,
    "kind": "claimed",
@@ -6743,6 +6846,7 @@ const CARS_INDEX = [
   "hp": 178,
   "kg": 1496,
   "kgNote": "Curb weight, as tested",
+  "lbs": null,
   "z60": {
    "sec": 8.0,
    "kind": "tested",
@@ -6816,6 +6920,7 @@ const CARS_INDEX = [
   "hp": 203,
   "kg": 1546,
   "kgNote": "Curb weight, as tested",
+  "lbs": null,
   "z60": {
    "sec": 7.9,
    "kind": "tested",
@@ -6889,6 +6994,7 @@ const CARS_INDEX = [
   "hp": 232,
   "kg": 1712,
   "kgNote": "Curb weight, as tested",
+  "lbs": null,
   "z60": {
    "sec": 6.8,
    "kind": "tested",
@@ -6956,6 +7062,7 @@ const CARS_INDEX = [
   "hp": 132,
   "kg": 1341,
   "kgNote": "Curb weight, as tested",
+  "lbs": null,
   "z60": {
    "sec": 9.5,
    "kind": "tested",
@@ -7026,6 +7133,7 @@ const CARS_INDEX = [
   "hp": 137,
   "kg": 1374,
   "kgNote": "Curb weight, as tested",
+  "lbs": null,
   "z60": {
    "sec": 9.1,
    "kind": "tested",
@@ -7093,6 +7201,7 @@ const CARS_INDEX = [
   "hp": 168,
   "kg": 1388,
   "kgNote": "Curb weight",
+  "lbs": null,
   "z60": {
    "sec": 8.3,
    "kind": "tested",
@@ -7160,6 +7269,7 @@ const CARS_INDEX = [
   "hp": 300,
   "kg": 1475,
   "kgNote": "Curb weight",
+  "lbs": null,
   "z60": {
    "sec": 5.0,
    "kind": "claimed",
@@ -7230,6 +7340,7 @@ const CARS_INDEX = [
   "hp": 196,
   "kg": 1556,
   "kgNote": "Curb weight",
+  "lbs": null,
   "z60": {
    "sec": 7.3,
    "kind": "tested",
@@ -7305,6 +7416,7 @@ const CARS_INDEX = [
   "hp": 194,
   "kg": 1780,
   "kgNote": "Curb weight, manufacturer figure (Hybrid XLE)",
+  "lbs": null,
   "z60": {
    "sec": 8.3,
    "kind": "tested",
@@ -7385,6 +7497,7 @@ const CARS_INDEX = [
   "hp": 219,
   "kg": 1635,
   "kgNote": "Curb weight, quoted by Toyota",
+  "lbs": null,
   "z60": {
    "sec": 7.4,
    "kind": "tested",
@@ -7468,6 +7581,7 @@ const CARS_INDEX = [
   "hp": 226,
   "kg": 1638,
   "kgNote": "Curb weight, as tested",
+  "lbs": null,
   "z60": {
    "sec": 7.8,
    "kind": "tested",
@@ -7530,6 +7644,7 @@ const CARS_INDEX = [
   "hp": 295,
   "kg": 2068,
   "kgNote": "Curb weight, as tested",
+  "lbs": null,
   "z60": {
    "sec": 7.0,
    "kind": "tested",
@@ -7596,6 +7711,7 @@ const CARS_INDEX = [
   "hp": 295,
   "kg": 1982,
   "kgNote": "Curb weight, as listed by CarPro",
+  "lbs": null,
   "z60": {
    "sec": 6.8,
    "kind": "tested",
@@ -7663,6 +7779,7 @@ const CARS_INDEX = [
   "hp": 362,
   "kg": 2239,
   "kgNote": "Curb weight, as tested",
+  "lbs": null,
   "z60": {
    "sec": 5.6,
    "kind": "tested",
@@ -7728,6 +7845,7 @@ const CARS_INDEX = [
   "hp": 278,
   "kg": 2114,
   "kgNote": "Curb weight, as tested",
+  "lbs": null,
   "z60": {
    "sec": 7.7,
    "kind": "tested",
@@ -7802,6 +7920,7 @@ const CARS_INDEX = [
   "hp": 278,
   "kg": 2175,
   "kgNote": "Curb weight, as tested",
+  "lbs": null,
   "z60": {
    "sec": 7.0,
    "kind": "tested",
@@ -7867,6 +7986,7 @@ const CARS_INDEX = [
   "hp": 381,
   "kg": 2721,
   "kgNote": "Curb weight",
+  "lbs": null,
   "z60": {
    "sec": 6.4,
    "kind": "tested",
@@ -7937,6 +8057,7 @@ const CARS_INDEX = [
   "hp": 437,
   "kg": 2800,
   "kgNote": "Curb weight, as tested",
+  "lbs": null,
   "z60": {
    "sec": 5.7,
    "kind": "tested",
@@ -8005,6 +8126,7 @@ const CARS_INDEX = [
   "hp": 381,
   "kg": 2715,
   "kgNote": "Curb weight, 2020 TRD Pro, as listed by Autoblog",
+  "lbs": null,
   "z60": {
    "sec": 7.0,
    "kind": "tested",
@@ -8075,6 +8197,7 @@ const CARS_INDEX = [
   "hp": 437,
   "kg": 2805,
   "kgNote": "Curb weight, 2023 Capstone, as listed by Hagerty",
+  "lbs": null,
   "z60": {
    "sec": 5.6,
    "kind": "tested",
@@ -8148,6 +8271,7 @@ const CARS_INDEX = [
   "hp": 381,
   "kg": 2692,
   "kgNote": "Curb weight, as tested",
+  "lbs": null,
   "z60": {
    "sec": 6.7,
    "kind": "tested",
@@ -8227,6 +8351,7 @@ const CARS_INDEX = [
   "hp": 326,
   "kg": 2386,
   "kgNote": "Curb weight, 2024 First Edition, as listed with Car and Driver's test",
+  "lbs": null,
   "z60": {
    "sec": 7.7,
    "kind": "tested",
@@ -8292,6 +8417,7 @@ const CARS_INDEX = [
   "hp": 219,
   "kg": 1745,
   "kgNote": "Curb weight, 2021 LE (Limited: 1,775 kg / 3,913 lb)",
+  "lbs": null,
   "z60": {
    "sec": 7.6,
    "kind": "tested",
@@ -8359,6 +8485,7 @@ const CARS_INDEX = [
   "hp": 214,
   "kg": 1935,
   "kgNote": "Curb weight, 2023 XLE FWD, Toyota figure",
+  "lbs": null,
   "z60": {
    "sec": 6.3,
    "kind": "tested",
@@ -8418,6 +8545,7 @@ const CARS_INDEX = [
   "hp": 375,
   "kg": null,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 4.4,
    "kind": "claimed",
@@ -8476,6 +8604,7 @@ const CARS_INDEX = [
   "hp": 268,
   "kg": 1590,
   "kgNote": "Curb weight, 2013 Limited",
+  "lbs": 3505,
   "z60": {
    "sec": 6.1,
    "kind": "tested",
@@ -8543,6 +8672,7 @@ const CARS_INDEX = [
   "hp": 301,
   "kg": 1680,
   "kgNote": "Curb weight, 2019 Touring (XLE: 1,615 kg / 3,560 lb)",
+  "lbs": null,
   "z60": {
    "sec": 6.1,
    "kind": "tested",
@@ -8609,6 +8739,7 @@ const CARS_INDEX = [
   "hp": 106,
   "kg": null,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 10.2,
    "kind": "tested",
@@ -8668,6 +8799,7 @@ const CARS_INDEX = [
   "hp": 106,
   "kg": 1082,
   "kgNote": "Curb weight, manual (automatic: 1,096 kg / 2,416 lb)",
+  "lbs": null,
   "z60": {
    "sec": 8.7,
    "kind": "tested",
@@ -8739,6 +8871,7 @@ const CARS_INDEX = [
   "hp": 121,
   "kg": 1365,
   "kgNote": "Curb weight, 2017 Two Eco (other grades up to 1,397 kg / 3,080 lb)",
+  "lbs": null,
   "z60": {
    "sec": 10.5,
    "kind": "tested",
@@ -8817,6 +8950,7 @@ const CARS_INDEX = [
   "hp": 194,
   "kg": 1405,
   "kgNote": "Curb weight, 2023 LE (Limited: 1,460 kg / 3,219 lb)",
+  "lbs": null,
   "z60": {
    "sec": 7.1,
    "kind": "tested",
@@ -8883,6 +9017,7 @@ const CARS_INDEX = [
   "hp": 121,
   "kg": null,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 10.3,
    "kind": "tested",
@@ -8953,6 +9088,7 @@ const CARS_INDEX = [
   "hp": 220,
   "kg": 1570,
   "kgNote": "Curb weight, lightest 2023 version (up to 1,620 kg / 3,571 lb)",
+  "lbs": null,
   "z60": {
    "sec": 6.6,
    "kind": "claimed",
@@ -9013,6 +9149,7 @@ const CARS_INDEX = [
   "hp": 99,
   "kg": 1148,
   "kgNote": "Curb weight, 2019 L",
+  "lbs": null,
   "z60": {
    "sec": 11.2,
    "kind": "tested",
@@ -9073,6 +9210,7 @@ const CARS_INDEX = [
   "hp": 134,
   "kg": 1515,
   "kgNote": "Curb weight, 2017 Prius v Two",
+  "lbs": null,
   "z60": {
    "sec": 10.9,
    "kind": "claimed",
@@ -9139,6 +9277,7 @@ const CARS_INDEX = [
   "hp": 296,
   "kg": 2009,
   "kgNote": "Curb weight, 2019 L (up to 2,093 kg / 4,615 lb)",
+  "lbs": null,
   "z60": {
    "sec": 6.8,
    "kind": "tested",
@@ -9215,6 +9354,7 @@ const CARS_INDEX = [
   "hp": 245,
   "kg": null,
   "kgNote": "",
+  "lbs": null,
   "z60": {
    "sec": 7.7,
    "kind": "tested",
@@ -9281,6 +9421,7 @@ const CARS_INDEX = [
   "hp": 236,
   "kg": 1928,
   "kgNote": "Curb weight, XLE and Limited (Platinum: 1,953 kg / 4,306 lb)",
+  "lbs": null,
   "z60": {
    "sec": 7.2,
    "kind": "tested",
@@ -9342,6 +9483,7 @@ const CARS_INDEX = [
   "hp": 240,
   "kg": 1869,
   "kgNote": "Curb weight, Kelley Blue Book figure",
+  "lbs": null,
   "z60": null,
   "top": null,
   "mpg": {
@@ -9397,6 +9539,7 @@ const CARS_INDEX = [
   "hp": 144,
   "kg": 1491,
   "kgNote": "Curb weight, as tested by Car and Driver",
+  "lbs": null,
   "z60": {
    "sec": 11.0,
    "kind": "tested",
@@ -9464,6 +9607,7 @@ const CARS_INDEX = [
   "hp": 338,
   "kg": 2071,
   "kgNote": "Edmunds test car",
+  "lbs": null,
   "z60": {
    "sec": 4.9,
    "kind": "tested",
@@ -9532,6 +9676,7 @@ const CARS_INDEX = [
   "hp": 185,
   "kg": 1469,
   "kgNote": "Curb weight, 2017 LX sedan, CVT",
+  "lbs": 3239,
   "z60": {
    "sec": 7.6,
    "kind": "tested",
@@ -9608,6 +9753,7 @@ const CARS_INDEX = [
   "hp": 192,
   "kg": 1420,
   "kgNote": "Curb weight, 2018 LX",
+  "lbs": null,
   "z60": {
    "sec": 7.3,
    "kind": "tested",
@@ -9686,6 +9832,7 @@ const CARS_INDEX = [
   "hp": 204,
   "kg": 1584,
   "kgNote": "Curb weight, 2023 Hybrid Touring",
+  "lbs": 3492,
   "z60": {
    "sec": 6.5,
    "kind": "tested",
@@ -9760,6 +9907,7 @@ const CARS_INDEX = [
   "hp": 174,
   "kg": 1324,
   "kgNote": "Curb weight, 2016 Touring sedan, as tested",
+  "lbs": 2920,
   "z60": {
    "sec": 6.9,
    "kind": "tested",
@@ -9838,6 +9986,7 @@ const CARS_INDEX = [
   "hp": 180,
   "kg": 1396,
   "kgNote": "Curb weight, 2022 Touring sedan",
+  "lbs": 3077,
   "z60": {
    "sec": 7.2,
    "kind": "tested",
@@ -9902,6 +10051,7 @@ const CARS_INDEX = [
   "hp": 205,
   "kg": 1329,
   "kgNote": "Test weight, 2017 Si sedan (Edmunds)",
+  "lbs": null,
   "z60": {
    "sec": 6.8,
    "kind": "tested",
@@ -9962,6 +10112,7 @@ const CARS_INDEX = [
   "hp": 200,
   "kg": 1339,
   "kgNote": "Curb weight",
+  "lbs": null,
   "z60": {
    "sec": 6.8,
    "kind": "tested",
@@ -10028,6 +10179,7 @@ const CARS_INDEX = [
   "hp": 306,
   "kg": 1411,
   "kgNote": "Car and Driver test car",
+  "lbs": null,
   "z60": {
    "sec": 4.9,
    "kind": "tested",
@@ -10096,6 +10248,7 @@ const CARS_INDEX = [
   "hp": 315,
   "kg": 1446,
   "kgNote": "Curb weight",
+  "lbs": null,
   "z60": {
    "sec": 4.9,
    "kind": "tested",
@@ -10175,6 +10328,7 @@ const CARS_INDEX = [
   "hp": 190,
   "kg": 1593,
   "kgNote": "Curb weight, 2017 Touring AWD",
+  "lbs": 3512,
   "z60": {
    "sec": 7.6,
    "kind": "tested",
@@ -10255,6 +10409,7 @@ const CARS_INDEX = [
   "hp": 204,
   "kg": 1781,
   "kgNote": "Curb weight, 2023 Sport Touring Hybrid AWD",
+  "lbs": null,
   "z60": {
    "sec": 7.9,
    "kind": "tested",
@@ -10324,6 +10479,7 @@ const CARS_INDEX = [
   "hp": 174,
   "kg": 2023,
   "kgNote": "Curb weight",
+  "lbs": null,
   "z60": null,
   "top": null,
   "mpg": {
@@ -10383,6 +10539,7 @@ const CARS_INDEX = [
   "hp": 200,
   "kg": 1479,
   "kgNote": "Curb weight",
+  "lbs": null,
   "z60": {
    "sec": 6.5,
    "kind": "tested",

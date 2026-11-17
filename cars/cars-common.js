@@ -210,7 +210,7 @@
         s: function (c) { var x = scores && scores[c.id]; return x && x.n ? I.num(x.n) + (x.n === 1 ? " rating" : " ratings") : ""; } },
       { k: "hp", l: "Power", v: function (c) { return c.hp ? "<b>" + I.num(Math.round(c.hp)) + "</b> hp" : null; }, n: function (c) { return c.hp; }, better: "high" },
       { k: "kg", l: "Weight", v: function (c) { return c.kg ? "<b>" + I.num(Math.round(c.kg)) + "</b> kg" : null; }, n: function (c) { return c.kg; }, better: "low",
-        s: function (c) { return c.kg ? I.num(lb(c.kg)) + " lb" + (c.kgNote ? " · " + c.kgNote : "") : ""; } },
+        s: function (c) { return c.kg ? I.num(c.lbs || lb(c.kg)) + " lb" + (c.kgNote ? " · " + c.kgNote : "") : ""; } },
       { k: "ptw", l: "Power to weight", v: function (c) { var x = ptw(c); return x ? "<b>" + I.num(x) + "</b> hp per ton" : null; }, n: ptw, better: "high" },
       { k: "z60", l: "0&ndash;60 mph", v: function (c) { return c.z60 ? "<b>" + Number(c.z60.sec).toFixed(1) + "</b> sec" : null; },
         n: function (c) { return c.z60 ? c.z60.sec : null; }, better: "low",

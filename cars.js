@@ -1039,7 +1039,8 @@ const CARS = [
         "weight": {
           "kg": 1179,
           "note": "Curb weight, 1984 GSL-SE",
-          "src": "https://www.0-60specs.com/mazda/rx-7-0-60-times"
+          "src": "https://www.0-60specs.com/mazda/rx-7-0-60-times",
+          "lb": 2600
         },
         "zero60": {
           "sec": 7.8,
@@ -1250,7 +1251,8 @@ const CARS = [
         "weight": {
           "kg": 1260,
           "note": "Curb weight, 1986 GXL",
-          "src": "https://www.0-60specs.com/mazda/rx-7-0-60-times"
+          "src": "https://www.0-60specs.com/mazda/rx-7-0-60-times",
+          "lb": 2778
         },
         "zero60": {
           "sec": 8.1,
@@ -2819,7 +2821,8 @@ const CARS = [
         "weight": {
           "kg": 1415,
           "note": "Curb weight, 1999 M Coupe",
-          "src": "https://www.0-60specs.com/bmw/z3-0-60-times"
+          "src": "https://www.0-60specs.com/bmw/z3-0-60-times",
+          "lb": 3120
         },
         "zero60": {
           "sec": 5.4,
@@ -3238,7 +3241,8 @@ const CARS = [
         "weight": {
           "kg": 1338,
           "note": "Curb weight, 2002 Carrera coupe",
-          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times",
+          "lb": 2950
         },
         "zero60": {
           "sec": 4.9,
@@ -5930,7 +5934,8 @@ const CARS = [
         "weight": {
           "kg": 1021,
           "note": "Curb weight, 1987 GTI 16V",
-          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times",
+          "lb": 2250
         },
         "zero60": {
           "sec": 8.5,
@@ -5963,7 +5968,8 @@ const CARS = [
         "weight": {
           "kg": 1070,
           "note": "Curb weight, 1990 GTI",
-          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times",
+          "lb": 2360
         },
         "zero60": {
           "sec": 10.2,
@@ -6057,7 +6063,8 @@ const CARS = [
         "weight": {
           "kg": 1247,
           "note": "Curb weight, 1996 GTI",
-          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times",
+          "lb": 2750
         },
         "zero60": {
           "sec": 9.8,
@@ -6090,7 +6097,8 @@ const CARS = [
         "weight": {
           "kg": 1315,
           "note": "Curb weight, 1995 GTI VR6",
-          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times",
+          "lb": 2900
         },
         "zero60": {
           "sec": 6.7,
@@ -6190,7 +6198,8 @@ const CARS = [
         "weight": {
           "kg": 1397,
           "note": "Curb weight, 2000 GTI GLX VR6",
-          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times",
+          "lb": 3080
         },
         "zero60": {
           "sec": 7.6,
@@ -6216,7 +6225,8 @@ const CARS = [
     "weight": {
       "kg": 1315,
       "note": "Curb weight, 2000 GTI GLS 1.8T",
-      "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+      "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times",
+      "lb": 2900
     },
     "top": null,
     "zero60": {
@@ -7285,7 +7295,8 @@ const CARS = [
         "weight": {
           "kg": 2449,
           "note": "Curb weight, 2025 Trailhunter",
-          "src": "https://www.0-60specs.com/toyota/4runner-0-60-times"
+          "src": "https://www.0-60specs.com/toyota/4runner-0-60-times",
+          "lb": 5400
         },
         "zero60": {
           "sec": 6.7,
@@ -7764,7 +7775,8 @@ const CARS = [
         "weight": {
           "kg": 1578,
           "note": "Curb weight, as tested",
-          "src": "https://autos.yahoo.com/2017-toyota-camry-xse-v-193000489.html"
+          "src": "https://autos.yahoo.com/2017-toyota-camry-xse-v-193000489.html",
+          "lb": 3478
         },
         "zero60": {
           "sec": 6.1,
@@ -7799,7 +7811,8 @@ const CARS = [
         "weight": {
           "kg": 1631,
           "note": "Curb weight, 2017 Hybrid SE",
-          "src": "https://www.0-60specs.com/toyota/camry-0-60-times"
+          "src": "https://www.0-60specs.com/toyota/camry-0-60-times",
+          "lb": 3595
         },
         "zero60": {
           "sec": 7.2,
@@ -7915,7 +7928,8 @@ const CARS = [
         "weight": {
           "kg": 1662,
           "note": "Curb weight, as tested",
-          "src": "https://autos.yahoo.com/2018-toyota-camry-xse-v-183300942.html"
+          "src": "https://autos.yahoo.com/2018-toyota-camry-xse-v-183300942.html",
+          "lb": 3665
         },
         "zero60": {
           "sec": 5.8,
@@ -7950,7 +7964,8 @@ const CARS = [
         "weight": {
           "kg": 1624,
           "note": "Curb weight, 2018 Hybrid XLE",
-          "src": "https://www.0-60specs.com/toyota/camry-0-60-times"
+          "src": "https://www.0-60specs.com/toyota/camry-0-60-times",
+          "lb": 3580
         },
         "zero60": {
           "sec": 7.9,
@@ -8287,7 +8302,8 @@ const CARS = [
         "weight": {
           "kg": 1340,
           "note": "Curb weight, 2020 XLE sedan",
-          "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
+          "src": "https://www.0-60specs.com/toyota/corolla-0-60-times",
+          "lb": 2955
         },
         "zero60": {
           "sec": 10.2,
@@ -8320,7 +8336,8 @@ const CARS = [
         "weight": {
           "kg": 1293,
           "note": "Curb weight, 2020 Hybrid LE",
-          "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
+          "src": "https://www.0-60specs.com/toyota/corolla-0-60-times",
+          "lb": 2850
         },
         "zero60": {
           "sec": 10.7,
@@ -8511,7 +8528,8 @@ const CARS = [
         "weight": {
           "kg": 1535,
           "note": "Curb weight, 2022 XLE AWD",
-          "src": "https://www.0-60specs.com/toyota/corolla-cross-0-60-times"
+          "src": "https://www.0-60specs.com/toyota/corolla-cross-0-60-times",
+          "lb": 3385
         },
         "zero60": {
           "sec": 9.2,
@@ -8622,7 +8640,8 @@ const CARS = [
         "weight": {
           "kg": 1637,
           "note": "Curb weight, 2016 SE AWD",
-          "src": "https://www.0-60specs.com/toyota/rav4-0-60-times"
+          "src": "https://www.0-60specs.com/toyota/rav4-0-60-times",
+          "lb": 3610
         },
         "zero60": {
           "sec": 8.4,
@@ -8737,7 +8756,8 @@ const CARS = [
         "weight": {
           "kg": 1674,
           "note": "Curb weight, 2019 Adventure AWD",
-          "src": "https://www.0-60specs.com/toyota/rav4-0-60-times"
+          "src": "https://www.0-60specs.com/toyota/rav4-0-60-times",
+          "lb": 3690
         },
         "zero60": {
           "sec": 8.0,
@@ -8770,7 +8790,8 @@ const CARS = [
         "weight": {
           "kg": 1950,
           "note": "Curb weight, 2021 Prime XSE",
-          "src": "https://www.0-60specs.com/toyota/rav4-0-60-times"
+          "src": "https://www.0-60specs.com/toyota/rav4-0-60-times",
+          "lb": 4300
         },
         "zero60": {
           "sec": 5.4,
@@ -8888,7 +8909,8 @@ const CARS = [
         "weight": {
           "kg": 1992,
           "note": "Curb weight, 2026 GR Sport",
-          "src": "https://www.0-60specs.com/toyota/rav4-0-60-times"
+          "src": "https://www.0-60specs.com/toyota/rav4-0-60-times",
+          "lb": 4392
         },
         "zero60": {
           "sec": 5.1,
@@ -8998,7 +9020,8 @@ const CARS = [
         "weight": {
           "kg": 2205,
           "note": "Curb weight, 2017 Hybrid Limited",
-          "src": "https://www.0-60specs.com/toyota/highlander-0-60-times"
+          "src": "https://www.0-60specs.com/toyota/highlander-0-60-times",
+          "lb": 4861
         },
         "zero60": {
           "sec": 7.0,
@@ -9134,7 +9157,8 @@ const CARS = [
         "weight": {
           "kg": 1953,
           "note": "Curb weight, 2023 Platinum AWD",
-          "src": "https://www.0-60specs.com/toyota/highlander-0-60-times"
+          "src": "https://www.0-60specs.com/toyota/highlander-0-60-times",
+          "lb": 4305
         },
         "zero60": {
           "sec": 7.2,
@@ -9167,7 +9191,8 @@ const CARS = [
         "weight": {
           "kg": 2084,
           "note": "Curb weight, 2020 Hybrid Platinum",
-          "src": "https://www.0-60specs.com/toyota/highlander-0-60-times"
+          "src": "https://www.0-60specs.com/toyota/highlander-0-60-times",
+          "lb": 4595
         },
         "zero60": {
           "sec": 7.3,
@@ -9281,7 +9306,8 @@ const CARS = [
         "weight": {
           "kg": 1962,
           "note": "Curb weight, 2024 XLE AWD",
-          "src": "https://www.0-60specs.com/toyota/grand-highlander-0-60-times"
+          "src": "https://www.0-60specs.com/toyota/grand-highlander-0-60-times",
+          "lb": 4325
         },
         "zero60": {
           "sec": 7.0,
@@ -9314,7 +9340,8 @@ const CARS = [
         "weight": {
           "kg": 2018,
           "note": "Curb weight, 2024 Hybrid XLE",
-          "src": "https://www.0-60specs.com/toyota/grand-highlander-0-60-times"
+          "src": "https://www.0-60specs.com/toyota/grand-highlander-0-60-times",
+          "lb": 4450
         },
         "zero60": {
           "sec": 7.8,
@@ -9539,7 +9566,8 @@ const CARS = [
         "weight": {
           "kg": 2291,
           "note": "Curb weight, 2024 TRD Off-Road i-FORCE MAX",
-          "src": "https://www.0-60specs.com/toyota/tacoma-0-60-times"
+          "src": "https://www.0-60specs.com/toyota/tacoma-0-60-times",
+          "lb": 5050
         },
         "zero60": {
           "sec": 7.6,
@@ -9658,7 +9686,8 @@ const CARS = [
         "weight": {
           "kg": 2372,
           "note": "Curb weight, 2010 SR5 4.6 Double Cab 4x4",
-          "src": "https://www.0-60specs.com/toyota/tundra-0-60-times"
+          "src": "https://www.0-60specs.com/toyota/tundra-0-60-times",
+          "lb": 5230
         },
         "zero60": {
           "sec": 7.4,
@@ -9775,7 +9804,8 @@ const CARS = [
         "weight": {
           "kg": 2558,
           "note": "Curb weight, 2022 Limited TRD Off-Road",
-          "src": "https://www.0-60specs.com/toyota/tundra-0-60-times"
+          "src": "https://www.0-60specs.com/toyota/tundra-0-60-times",
+          "lb": 5640
         },
         "zero60": {
           "sec": 6.1,
@@ -10380,7 +10410,8 @@ const CARS = [
     "weight": {
       "kg": 1590,
       "note": "Curb weight, 2013 Limited",
-      "src": "https://www.0-60specs.com/toyota/avalon-0-60-times"
+      "src": "https://www.0-60specs.com/toyota/avalon-0-60-times",
+      "lb": 3505
     },
     "zero60": {
       "sec": 6.1,
@@ -10417,7 +10448,8 @@ const CARS = [
         "weight": {
           "kg": 1635,
           "note": "Curb weight, 2016 Hybrid XLE Plus",
-          "src": "https://www.0-60specs.com/toyota/avalon-0-60-times"
+          "src": "https://www.0-60specs.com/toyota/avalon-0-60-times",
+          "lb": 3605
         },
         "zero60": {
           "sec": 7.4,
@@ -10534,7 +10566,8 @@ const CARS = [
         "weight": {
           "kg": 1651,
           "note": "Curb weight, 2019 Hybrid XSE",
-          "src": "https://www.0-60specs.com/toyota/avalon-0-60-times"
+          "src": "https://www.0-60specs.com/toyota/avalon-0-60-times",
+          "lb": 3640
         },
         "zero60": {
           "sec": 7.8,
@@ -10566,7 +10599,8 @@ const CARS = [
         "weight": {
           "kg": 1655,
           "note": "Curb weight, 2021 Limited AWD",
-          "src": "https://www.0-60specs.com/toyota/avalon-0-60-times"
+          "src": "https://www.0-60specs.com/toyota/avalon-0-60-times",
+          "lb": 3649
         },
         "zero60": {
           "sec": 7.7,
@@ -11426,7 +11460,8 @@ const CARS = [
         "weight": {
           "kg": 1955,
           "note": "Curb weight, 2023 Platinum",
-          "src": "https://www.0-60specs.com/toyota/crown-0-60-times"
+          "src": "https://www.0-60specs.com/toyota/crown-0-60-times",
+          "lb": 4310
         },
         "zero60": {
           "sec": 5.1,
@@ -11718,7 +11753,8 @@ const CARS = [
         "weight": {
           "kg": 1607,
           "note": "Curb weight, 2017 EX-L V6 sedan",
-          "src": "https://www.hondacertified.com/-/media/HondaCertified/PDF/factsheets/2017-Accord-Sedan-factsheet.pdf"
+          "src": "https://www.hondacertified.com/-/media/HondaCertified/PDF/factsheets/2017-Accord-Sedan-factsheet.pdf",
+          "lb": 3543
         },
         "zero60": {
           "sec": 5.8,
@@ -11754,7 +11790,8 @@ const CARS = [
         "weight": {
           "kg": 1580,
           "note": "Curb weight, 2017 Accord Hybrid (Touring: 3,536 lb)",
-          "src": "https://www.kbb.com/honda/accord-hybrid/2017/specs"
+          "src": "https://www.kbb.com/honda/accord-hybrid/2017/specs",
+          "lb": 3483
         },
         "zero60": {
           "sec": 7.2,
@@ -11824,7 +11861,8 @@ const CARS = [
     "weight": {
       "kg": 1469,
       "note": "Curb weight, 2017 LX sedan, CVT",
-      "src": "https://www.hondacertified.com/-/media/HondaCertified/PDF/factsheets/2017-Accord-Sedan-factsheet.pdf"
+      "src": "https://www.hondacertified.com/-/media/HondaCertified/PDF/factsheets/2017-Accord-Sedan-factsheet.pdf",
+      "lb": 3239
     },
     "zero60": {
       "sec": 7.6,
@@ -11878,7 +11916,8 @@ const CARS = [
         "weight": {
           "kg": 1551,
           "note": "Curb weight, as tested",
-          "src": "https://autos.yahoo.com/2018-honda-accord-2-0t-215500833.html"
+          "src": "https://autos.yahoo.com/2018-honda-accord-2-0t-215500833.html",
+          "lb": 3419
         },
         "zero60": {
           "sec": 5.5,
@@ -11914,7 +11953,8 @@ const CARS = [
         "weight": {
           "kg": 1556,
           "note": "Curb weight, 2018 Hybrid Touring",
-          "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+          "src": "https://www.0-60specs.com/honda/accord-0-60-times",
+          "lb": 3430
         },
         "zero60": {
           "sec": 7.1,
@@ -12036,7 +12076,8 @@ const CARS = [
         "weight": {
           "kg": 1469,
           "note": "Curb weight, 2023 LX and EX",
-          "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+          "src": "https://www.0-60specs.com/honda/accord-0-60-times",
+          "lb": 3239
         },
         "zero60": {
           "sec": 7.3,
@@ -12102,7 +12143,8 @@ const CARS = [
     "weight": {
       "kg": 1584,
       "note": "Curb weight, 2023 Hybrid Touring",
-      "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+      "src": "https://www.0-60specs.com/honda/accord-0-60-times",
+      "lb": 3492
     },
     "zero60": {
       "sec": 6.5,
@@ -12157,7 +12199,8 @@ const CARS = [
         "weight": {
           "kg": 1285,
           "note": "Curb weight, 2016 EX sedan",
-          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times",
+          "lb": 2832
         },
         "zero60": {
           "sec": 8.2,
@@ -12225,7 +12268,8 @@ const CARS = [
     "weight": {
       "kg": 1324,
       "note": "Curb weight, 2016 Touring sedan, as tested",
-      "src": "https://autos.yahoo.com/2016-honda-civic-sedan-224500583.html"
+      "src": "https://autos.yahoo.com/2016-honda-civic-sedan-224500583.html",
+      "lb": 2920
     },
     "zero60": {
       "sec": 6.9,
@@ -12277,7 +12321,8 @@ const CARS = [
         "weight": {
           "kg": 1331,
           "note": "Curb weight, 2022 Sport sedan",
-          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times",
+          "lb": 2935
         },
         "zero60": {
           "sec": 8.8,
@@ -12310,7 +12355,8 @@ const CARS = [
         "weight": {
           "kg": 1460,
           "note": "Curb weight, 2025 Hybrid Sport Touring sedan",
-          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times",
+          "lb": 3219
         },
         "zero60": {
           "sec": 6.2,
@@ -12378,7 +12424,8 @@ const CARS = [
     "weight": {
       "kg": 1396,
       "note": "Curb weight, 2022 Touring sedan",
-      "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+      "src": "https://www.0-60specs.com/honda/civic-0-60-times",
+      "lb": 3077
     },
     "zero60": {
       "sec": 7.2,
@@ -12722,7 +12769,8 @@ const CARS = [
         "weight": {
           "kg": 1500,
           "note": "Curb weight, 2017 LX, front-wheel drive",
-          "src": "https://www.hondanews.com/en-US/honda-automobiles/releases/release-40fde7e3aa47477f86c3d735579e6a5a-2017-honda-cr-v-overview"
+          "src": "https://www.hondanews.com/en-US/honda-automobiles/releases/release-40fde7e3aa47477f86c3d735579e6a5a-2017-honda-cr-v-overview",
+          "lb": 3307
         },
         "zero60": {
           "sec": 7.7,
@@ -12755,7 +12803,8 @@ const CARS = [
         "weight": {
           "kg": 1707,
           "note": "Curb weight, 2020 Hybrid Touring",
-          "src": "https://www.0-60specs.com/honda/cr-v-0-60-times"
+          "src": "https://www.0-60specs.com/honda/cr-v-0-60-times",
+          "lb": 3763
         },
         "zero60": {
           "sec": 7.6,
@@ -12820,7 +12869,8 @@ const CARS = [
     "weight": {
       "kg": 1593,
       "note": "Curb weight, 2017 Touring AWD",
-      "src": "https://www.0-60specs.com/honda/cr-v-0-60-times"
+      "src": "https://www.0-60specs.com/honda/cr-v-0-60-times",
+      "lb": 3512
     },
     "zero60": {
       "sec": 7.6,
@@ -12871,7 +12921,8 @@ const CARS = [
         "weight": {
           "kg": 1697,
           "note": "Curb weight, 2023 EX-L AWD",
-          "src": "https://www.0-60specs.com/honda/cr-v-0-60-times"
+          "src": "https://www.0-60specs.com/honda/cr-v-0-60-times",
+          "lb": 3742
         },
         "zero60": {
           "sec": 8.1,

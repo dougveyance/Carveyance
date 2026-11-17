@@ -199,7 +199,7 @@ def _stat_blocks(c):
     out.append(("Power", (num(int(round(p["hp"]))), "hp") if p.get("hp") else None, p.get("note", "")))
     w = c.get("weight") or {}
     out.append(("Weight", (num(int(round(w["kg"]))), "kg") if w.get("kg") else None,
-                (f"{num(lb(w['kg']))} lb" + (" &middot; " + esc(w["note"]) if w.get("note") else "")) if w.get("kg") else ""))
+                (f"{num(w.get('lb') or lb(w['kg']))} lb" + (" &middot; " + esc(w["note"]) if w.get("note") else "")) if w.get("kg") else ""))
     z = c.get("zero60") or {}
     zs = ""
     if z.get("sec"):
@@ -259,7 +259,7 @@ def version_row(v, vc):
     dash = '<span class="dim">&mdash;</span>'
     cells = [f'<b>{esc(v["name"])}</b>' + (f'<span>{esc(v["detail"])}</span>' if v.get("detail") else ""),
              f'{num(int(round(p["hp"])))} hp' if p.get("hp") else dash,
-             f'{num(int(round(w["kg"])))} kg ({num(lb(w["kg"]))} lb)' if w.get("kg") else dash,
+             f'{num(int(round(w["kg"])))} kg ({num(w.get("lb") or lb(w["kg"]))} lb)' if w.get("kg") else dash,
              f'{float(z["sec"]):.1f} sec' if z.get("sec") else dash,
              f'{num(int(round(t["mph"])))} mph' if t.get("mph") else dash,
              f'{m["combined"]:g} {esc(m.get("unit") or "mpg")}' if m.get("combined") else dash]
@@ -839,7 +839,7 @@ def main():
                      "drive": c.get("drive", ""), "gearbox": c.get("gearbox", ""), "specsFor": c.get("specsFor", ""),
                      "guide": ({k: (c.get("guide") or {}).get(k, "") for k in ("url", "title")} if (c.get("guide") or {}).get("url") else None),
                      "shop": ({k: v for k, v in (c.get("shop") or {}).items() if k in ("list", "model", "cargurus") and v} or None),
-                     "hp": (c.get("power") or {}).get("hp"), "kg": (c.get("weight") or {}).get("kg"), "kgNote": (c.get("weight") or {}).get("note", ""),
+                     "hp": (c.get("power") or {}).get("hp"), "kg": (c.get("weight") or {}).get("kg"), "kgNote": (c.get("weight") or {}).get("note", ""), "lbs": (c.get("weight") or {}).get("lb"),
                      "z60": ({k: (c.get("zero60") or {}).get(k) for k in ("sec", "kind", "note")} if (c.get("zero60") or {}).get("sec") else None),
                      "top": ({k: (c.get("top") or {}).get(k) for k in ("mph", "kind", "note")} if (c.get("top") or {}).get("mph") else None),
                      "mpg": ({k: (c.get("mpg") or {}).get(k) for k in ("combined", "city", "hwy", "unit", "kind", "note")} if (c.get("mpg") or {}).get("combined") else None),

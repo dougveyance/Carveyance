@@ -30,7 +30,7 @@ The hybrid is too new for a long reliability record, so judge each car by its pa
 
 For most people, this is the Civic to buy. It's the quickest everyday Civic, the most efficient and, as a Sport Hybrid, not much more expensive than a well-equipped gas car. Choose the hatchback if you carry bulky things, and the sedan for the extra mpg. If you want a manual and a sharper chassis instead, read [the Si chapter](../si/).
 
-::: curiosity "Quicker Than the Prelude"
+::: curiosity Quicker Than the Prelude
 The 2026 Prelude uses the same hybrid powertrain as the Civic Hybrid, in a coupe that costs about $8,500 more than a Civic Sport Touring Hybrid hatchback. In Car and Driver's tests, the Civic Sport Touring Hybrid reached 60 mph in 6.2 seconds, and the Prelude in 6.5.
 :::
 

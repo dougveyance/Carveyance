@@ -35,7 +35,7 @@ In a straight line, the Prelude isn't the quickest of its family. Car and Driver
 
 A Toyota GR86 or Subaru BRZ offers rear-wheel drive and a manual for much less, with a smaller trunk. A Mazda MX-5 Miata is cheaper still, with 2 seats and an open roof. The Nissan Z has far more power and costs more.
 
-::: curiosity "Same Price, Different Ideas"
+::: curiosity Same Price, Different Ideas
 In Japan, Honda priced the Prelude the same as the Civic Type R Racing Black Package, at ¥6,179,800 (about $41,700 at the time, or $43,500 in 2026 dollars), and nearly a quarter above the regular Type R.
 :::
 

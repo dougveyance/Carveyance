@@ -30,7 +30,7 @@ Ask the dealer to confirm that every recall is done. The most serious is 25V858:
 
 If you live and work near reliable hydrogen stations in California, and most of your driving is short enough to do on the battery, the e:FCEV is a genuinely clever, comfortable CR-V that can cost very little to fuel during its lease. Everyone else should choose [the CR-V Hybrid](../hybrid/).
 
-::: curiosity "Made in Ohio, Driven in California"
+::: curiosity Made in Ohio, Driven in California
 The e:FCEV is the only fuel cell passenger car built in America. It's assembled in Marysville, Ohio, and its fuel cell comes from Michigan, but you can only lease it in California.
 :::
 

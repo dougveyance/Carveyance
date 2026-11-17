@@ -28,7 +28,7 @@ Many Type Rs are cherished by careful owners. Some have been tuned, tracked and 
 
 A stock 2020–2021 FK8 is the value pick: the updates, the brakes and Honda Sensing, for less than an FL5. The FL5 is the better car to live with every day and the one to buy if you'll use the cabin as much as the chassis. The Limited Edition is a collector's car, priced like one. Whatever you choose, buy the most original, best-documented car you can find, and walk away from any seller who can't tell you exactly what has been changed.
 
-::: curiosity "Swindon, Then Yorii"
+::: curiosity Swindon, Then Yorii
 The FK8 Type R was one of the last cars built at Honda's factory in Swindon, England. When the FL5 replaced it, production moved to Honda's plant in Yorii, Japan, while the engine is still built in Anna, Ohio.
 :::
 

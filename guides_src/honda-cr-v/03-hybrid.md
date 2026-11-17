@@ -28,7 +28,7 @@ Have a Honda dealer scan the hybrid system for stored codes, and confirm how muc
 
 A 2023 or later Sport Hybrid with front-wheel drive is the best CR-V for most people: 40 mpg, the newer cabin and stronger acceleration than the turbo. A 2020–2022 Hybrid is the bargain if you want standard all-wheel drive and can live with the smaller cargo area. If you need the spare tire, the lower floor or more towing, buy [a gas CR-V](../2023-2026/) instead.
 
-::: curiosity "A Clutch, Not a Gearbox"
+::: curiosity A Clutch, Not a Gearbox
 The CR-V Hybrid has no conventional transmission. Below highway speeds, an electric motor drives the wheels. At a steady cruise, a single clutch locks the engine directly to the wheels, because at that speed it's more efficient than turning a generator.
 :::
 

@@ -7742,7 +7742,11 @@ const CARS_INDEX = [
    "id": "toyota-prius-xw60",
    "name": "Toyota Prius (XW60)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-prius-xw50.jpg?v=930d80dd",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-prius-xw60",
@@ -7800,7 +7804,11 @@ const CARS_INDEX = [
    "name": "Toyota Prius (XW50)"
   },
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-prius-xw60.jpg?v=009230e9",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-prius-prime-xw52",
@@ -7900,7 +7908,11 @@ const CARS_INDEX = [
    "name": "Toyota Prius Prime (XW52)"
   },
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-prius-plug-in-xw60.jpg?v=75cb6774",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-prius-c",
@@ -7941,7 +7953,11 @@ const CARS_INDEX = [
   "alongside": [],
   "prev": null,
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-prius-c.jpg?v=39ee479e",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-prius-v",
@@ -7985,7 +8001,11 @@ const CARS_INDEX = [
   "alongside": [],
   "prev": null,
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-prius-v.jpg?v=14ba49a0",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-sienna-xl30",
@@ -8042,7 +8062,11 @@ const CARS_INDEX = [
    "id": "toyota-sienna-xl40",
    "name": "Toyota Sienna (XL40)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-sienna-xl30.jpg?v=0554df82",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-sienna-xl40",
@@ -8098,7 +8122,11 @@ const CARS_INDEX = [
    "name": "Toyota Sienna (XL30)"
   },
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-sienna-xl40.jpg?v=712cd2e5",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-crown-crossover",
@@ -8145,7 +8173,11 @@ const CARS_INDEX = [
   "alongside": [],
   "prev": null,
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-crown-crossover.jpg?v=5408a7df",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-crown-signia",
@@ -8236,7 +8268,11 @@ const CARS_INDEX = [
    "id": "toyota-c-hr-ev",
    "name": "Toyota C-HR (electric)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-c-hr-ax10.jpg?v=18bbcc3a",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-c-hr-ev",
@@ -8287,6 +8323,10 @@ const CARS_INDEX = [
    "name": "Toyota C-HR (AX10)"
   },
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-c-hr-ev.jpg?v=c6d77215",
+   "pos": "",
+   "fit": ""
+  }
  }
 ];

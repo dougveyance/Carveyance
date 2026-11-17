@@ -8438,7 +8438,7 @@ const CARS = [
       "The 2019 refresh renamed the grades L Eco, LE, XLE and Limited and added AWD-e, with an electric motor driving the rear wheels at up to 43 mph, rated at 50 mpg. Apple CarPlay became standard for 2020; Android Auto and Toyota Safety Sense 2.0 followed for 2021, and a Nightshade Edition for 2022. Recalls include the engine wire harness on 2016–2018 cars (18V-579), the brake booster pump on 2019 cars (19V-544) and hybrid system software on 2022 cars (21V-734)."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota Prius"
     ],
@@ -8502,7 +8502,7 @@ const CARS = [
       "Every one has Toyota Safety Sense 3.0, and the Limited has a 12.3-inch touchscreen. A Nightshade grade, with an exclusive color called Karashi, arrived for 2025. The 2023–2026 cars are in recall 26V-049, which expands and replaces 24V-274, because water can short a rear door switch and let an unlocked rear door open; 2023–2025 cars are also in a rear camera software recall (25V-744)."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota Prius"
     ],
@@ -8619,7 +8619,7 @@ const CARS = [
       "It charges through a J1772 plug at up to 3.5 kW, which takes about 4 hours on a 240-volt charger. For 2025, Toyota renamed it the Prius Plug-in Hybrid, with a PHEV badge but no mechanical changes, and added a Nightshade Edition for 2026. Recall 26V-049 covers the rear door switches of 2023–2024 Primes and 2025–2026 Plug-in Hybrids."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota Prius Prime",
       "Toyota Prius Plug-in Hybrid"
@@ -8672,7 +8672,7 @@ const CARS = [
       "For 2019, its last US year, Toyota cut the range to L and LE, priced from $21,530, and then replaced it in the US with the Corolla Hybrid. In Japan, the same car was sold as the Toyota Aqua. Some 2017 cars sold through Gulf States Toyota were recalled for a spare tire inflated to the wrong pressure (17V-295)."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota Prius c"
     ],
@@ -8728,7 +8728,7 @@ const CARS = [
       "The 2017 was its last US year, sold in Two to Five grades from $26,675. Elsewhere it was sold as the Prius+. Recall 20V-369 covers 2014–2017 cars, because excessive voltage in the inverter can shut down the hybrid system and stall the car; the fix is a software update."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota Prius v"
     ],
@@ -8792,7 +8792,7 @@ const CARS = [
       "Toyota Safety Sense P became standard for 2018, and Apple CarPlay for 2019. The 2017–2020 vans are in recalls for the low-pressure fuel pump (20V-012 and 20V-682), and a class-action settlement extended Toyota's coverage of the sliding door locks, cables and hinges on 2011–2018 vans to 10 years from first use."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota Sienna"
     ],
@@ -8851,7 +8851,7 @@ const CARS = [
       "For 2025, it gained a new multimedia system, a radar-based rear seat reminder, and a built-in vacuum and refrigerator on the Platinum. It has had several seat recalls: the third-row seatback bolts on 2021–2025 vans (25V-086), the second-row seat rails on 2025 vans (25V-668), and the second-row seatbacks of 7-seat 2022–2026 vans (26V-690)."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota Sienna"
     ],
@@ -8911,7 +8911,7 @@ const CARS = [
       "For 2025, Toyota added a Nightshade grade and made heated and ventilated front seats standard. Recalls include a blank 12.3-inch instrument display on 2023–2025 cars (25V-595), which 2023–2024 cars can fix over the air, and the rear camera software on 2024–2026 cars (25V-744)."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota Crown"
     ],
@@ -9027,7 +9027,7 @@ const CARS = [
       "For 2019, Toyota added an LE grade from $20,995 and made Apple CarPlay standard; the 2020 refresh brought LED headlights and Android Auto. Toyota ended US sales after 2022. Recalls include the electronic parking brake on 2018 cars (17V-717), rear hub bolts on some 2019 cars (18V-710) and the rear center seat belt on some 2019–2020 cars (19V-877)."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota C-HR"
     ],
@@ -9091,7 +9091,7 @@ const CARS = [
       "Both grades have a 14-inch touchscreen and Toyota Safety Sense 3.0; the SE started at $37,000 and the XSE at $39,000. Recall 26V-570 covers 8,521 cars built from February to July 2026, because a software error can let regenerative braking overcharge a full battery and shut down the electric drive; the fix is a software update."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota C-HR"
     ],

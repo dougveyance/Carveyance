@@ -8024,7 +8024,7 @@ const CARS = [
       "For 2023 it gained Toyota's newer multimedia system, Toyota Safety Sense 2.5 and a Nightshade Edition. Toyota dropped it after 2024 and replaced it with the Crown Signia. Recalls include the rear turn signals on 2021 cars (22V-033) and the 12.3-inch instrument display on 2023–2024 cars (25V-595)."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota Venza"
     ],
@@ -8256,7 +8256,7 @@ const CARS = [
       "The Avalon TRD arrived for 2020 and lasted 2 years. For 2021 only, Toyota added all-wheel drive, with a 205-hp 4-cylinder. Toyota dropped the Avalon after 2022 and replaced it with the Crown. Recalls include the fuel pump (20V-682) on 2019–2020 cars and the front passenger's airbag sensor (23V-865) on 2020–2021 cars."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota Avalon"
     ],
@@ -8312,7 +8312,7 @@ const CARS = [
       "Toyota didn't sell a 2019 Liftback in the US, and replaced it for 2020 with a Mazda-built Yaris Hatchback. Certain 2015–2017 cars were recalled because the wiring for the side-airbag sensors in the front doors can crack and corrode (19V-319)."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota Yaris"
     ],
@@ -8372,7 +8372,7 @@ const CARS = [
       "For 2020, the sedan gained Apple CarPlay and Android Auto and was joined by a 5-door Yaris Hatchback, automatic only. Toyota ended US sales after 2020. Certain 2019–2020 cars were recalled because the low-pressure fuel pump can fail and stall the engine (21V-617)."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota Yaris",
       "Toyota Yaris iA",

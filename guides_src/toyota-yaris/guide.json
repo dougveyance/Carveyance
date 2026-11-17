@@ -114,22 +114,24 @@
     "hub-hero": {
       "want": "A 2019–2020 Yaris Sedan or a 2020 Yaris Hatchback outside",
       "credit": "Toyota",
-      "alt": "A Toyota Yaris"
+      "alt": "A blue 2020 Toyota Yaris Hatchback in a bright garage with glass walls"
     },
     "ch1-hero": {
       "want": "A 2017 or 2018 Toyota-built Yaris hatchback (Liftback)",
       "credit": "Toyota",
-      "alt": "A 2017–2018 Toyota Yaris hatchback"
+      "alt": "A blue 2018 Toyota Yaris SE five-door hatchback with a dark gray roof, seen from the rear three-quarter",
+      "caption": "Shown: a 2018 Yaris SE five-door"
     },
     "ch2-hero": {
       "want": "A Yaris iA, a 2019–2020 Yaris Sedan or a 2020 Yaris Hatchback on the road",
       "credit": "Toyota",
-      "alt": "A Mazda-built Toyota Yaris"
+      "alt": "A gray 2017 Toyota Yaris iA sedan driving down a city street at night",
+      "caption": "Shown: a 2017 Yaris iA"
     },
     "ch3-hero": {
       "want": "A Yaris in a city setting, or its cabin",
       "credit": "Toyota",
-      "alt": "A Toyota Yaris"
+      "alt": "The dashboard and front seats of a 2020 Toyota Yaris Hatchback"
     }
   },
   "find": {

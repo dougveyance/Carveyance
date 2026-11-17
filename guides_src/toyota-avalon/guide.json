@@ -151,22 +151,23 @@
     "ch1-hero": {
       "want": "A 2017 or 2018 Avalon outside",
       "credit": "Toyota",
-      "alt": "A 2017–2018 Toyota Avalon"
+      "alt": "The dashboard of a 2018 Toyota Avalon, with black leather and a touchscreen in the center stack",
+      "caption": "Shown: the cabin of a 2018 Avalon"
     },
     "ch2-hero": {
       "want": "A 2019–2022 Avalon Touring or TRD on the road",
       "credit": "Toyota",
-      "alt": "A 2019–2022 Toyota Avalon"
+      "alt": "A red 2020 Toyota Avalon TRD driving on a curving road through golden hills"
     },
     "ch3-hero": {
       "want": "A 2019–2022 Avalon Hybrid",
       "credit": "Toyota",
-      "alt": "A Toyota Avalon Hybrid"
+      "alt": "The Limited and Hybrid badges on the trunk lid of a gray 2019 Toyota Avalon Hybrid Limited"
     },
     "ch4-hero": {
       "want": "The Avalon's cabin or back seat",
       "credit": "Toyota",
-      "alt": "The cabin of a Toyota Avalon"
+      "alt": "The dashboard of a 2019 Toyota Avalon Hybrid Limited, with tan leather and Apple CarPlay on the touchscreen"
     }
   },
   "find": {

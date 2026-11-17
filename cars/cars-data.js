@@ -7372,7 +7372,11 @@ const CARS_INDEX = [
   "alongside": [],
   "prev": null,
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-venza-xu80.jpg?v=5209ae98",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-bz4x",
@@ -7562,7 +7566,11 @@ const CARS_INDEX = [
    "name": "Toyota Avalon (XX40)"
   },
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-avalon-xx50.jpg?v=dcd3161c",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-yaris-xp130",
@@ -7609,7 +7617,11 @@ const CARS_INDEX = [
   "alongside": [],
   "prev": null,
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-yaris-xp130.jpg?v=0d95ba93",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-yaris-ia",
@@ -7656,6 +7668,10 @@ const CARS_INDEX = [
   "alongside": [],
   "prev": null,
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-yaris-ia.jpg?v=20bf1108",
+   "pos": "",
+   "fit": ""
+  }
  }
 ];

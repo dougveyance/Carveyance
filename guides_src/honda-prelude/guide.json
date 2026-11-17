@@ -1,0 +1,255 @@
+{
+ "id": "honda-prelude",
+ "make": "Honda",
+ "model": "Prelude",
+ "years": "2026",
+ "byline": "Isla Moreno",
+ "published": "2026-11-17",
+ "updated": "2026-11-17",
+ "cars": [
+  "honda-prelude-6th-gen"
+ ],
+ "shop": {
+  "cargurus": "d595"
+ },
+ "chapters": [
+  "2026",
+  "prelude-or-civic",
+  "buying-checklist"
+ ],
+ "series": {
+  "pre": {
+   "name": "2026 Prelude",
+   "color": "#e05c2a"
+  },
+  "pres": {
+   "name": "2026 Prelude, S+ Shift mode",
+   "color": "#e05c2a"
+  },
+  "p97": {
+   "name": "1997 Prelude SH, 5-speed manual",
+   "color": "#9aa5b1"
+  },
+  "civh": {
+   "name": "Civic Sport Touring Hybrid",
+   "color": "#2E6E96"
+  },
+  "civhh": {
+   "name": "Civic Hybrid hatchback",
+   "color": "#2E6E96"
+  },
+  "si": {
+   "name": "Civic Si",
+   "color": "#2E6E96"
+  },
+  "tr": {
+   "name": "Civic Type R",
+   "color": "#2E6E96"
+  },
+  "miata": {
+   "name": "Mazda MX-5 Miata",
+   "color": "#9aa5b1"
+  },
+  "gr86": {
+   "name": "Toyota GR86",
+   "color": "#9aa5b1"
+  },
+  "integra": {
+   "name": "Acura Integra",
+   "color": "#9aa5b1"
+  },
+  "brz": {
+   "name": "Subaru BRZ",
+   "color": "#9aa5b1"
+  },
+  "z": {
+   "name": "Nissan Z",
+   "color": "#9aa5b1"
+  }
+ },
+ "charts": {
+  "zero60": {
+   "n": 1,
+   "title": "0–60 mph, tested",
+   "sub": "Seconds; shorter is quicker. All Car and Driver instrumented tests.",
+   "source": "Car and Driver, via Jalopnik and AOL",
+   "bars": [
+    [
+     "pre",
+     6.5,
+     "6.5 sec"
+    ],
+    [
+     "pres",
+     7.3,
+     "7.3 sec"
+    ],
+    [
+     "p97",
+     6.9,
+     "6.9 sec"
+    ],
+    [
+     "civh",
+     6.2,
+     "6.2 sec"
+    ]
+   ]
+  },
+  "price": {
+   "n": 2,
+   "title": "What a new one cost in 2026",
+   "sub": "Starting prices with delivery, as Motor1 listed them when the Prelude went on sale.",
+   "source": "Motor1",
+   "bars": [
+    [
+     "miata",
+     31065,
+     "$31,065"
+    ],
+    [
+     "gr86",
+     31535,
+     "$31,535"
+    ],
+    [
+     "si",
+     32190,
+     "$32,190"
+    ],
+    [
+     "integra",
+     34195,
+     "$34,195"
+    ],
+    [
+     "brz",
+     37055,
+     "$37,055"
+    ],
+    [
+     "pre",
+     43195,
+     "$43,195"
+    ],
+    [
+     "z",
+     44215,
+     "$44,215"
+    ],
+    [
+     "tr",
+     47090,
+     "$47,090"
+    ]
+   ]
+  },
+  "mpg": {
+   "n": 3,
+   "title": "EPA combined fuel economy",
+   "sub": "Miles per gallon, 2026 models.",
+   "source": "US EPA, fueleconomy.gov",
+   "bars": [
+    [
+     "pre",
+     44,
+     "44 mpg"
+    ],
+    [
+     "civhh",
+     48,
+     "48 mpg"
+    ],
+    [
+     "si",
+     31,
+     "31 mpg"
+    ],
+    [
+     "tr",
+     24,
+     "24 mpg"
+    ]
+   ]
+  }
+ },
+ "photos": {
+  "hub-hero": {
+   "want": "The 2026 Prelude outside, front three-quarter",
+   "credit": "Honda",
+   "alt": "A blue 2026 Honda Prelude driving on a mountain highway beside a concrete barrier"
+  },
+  "ch1-hero": {
+   "want": "The 2026 Prelude driving on a winding road",
+   "credit": "Honda",
+   "alt": "A blue 2026 Honda Prelude driving along a curving road through dry hills"
+  },
+  "ch2-hero": {
+   "want": "The Prelude's rear three-quarter, or the Prelude with a Civic",
+   "credit": "Honda",
+   "alt": "A white 2026 Honda Prelude, seen from behind, parked at a mountain overlook"
+  },
+  "ch3-hero": {
+   "want": "The Prelude cabin, ideally the seats and S+ Shift button, or the cargo area",
+   "credit": "Honda",
+   "alt": "The cabin of a 2026 Honda Prelude, with dark blue and white seats, a digital instrument display and a touchscreen"
+  }
+ },
+ "find": {
+  "picker": [
+   {
+    "model": "Prelude",
+    "years": "2026",
+    "ch": "2026"
+   }
+  ],
+  "terms": {
+   "": [
+    "Prelude",
+    "Honda Prelude",
+    "coupe",
+    "hybrid coupe",
+    "sports coupe",
+    "2026 Prelude"
+   ],
+   "2026": [
+    "sixth generation",
+    "6th gen",
+    "S+ Shift",
+    "Type R chassis",
+    "dual-axis",
+    "Brembo",
+    "adaptive dampers",
+    "200 hp",
+    "44 mpg",
+    "Google built-in",
+    "2-Tone",
+    "hybrid"
+   ],
+   "prelude-or-civic": [
+    "Civic Hybrid",
+    "Civic Si",
+    "Civic Type R",
+    "GR86",
+    "BRZ",
+    "Miata",
+    "Nissan Z",
+    "Integra",
+    "price",
+    "comparison",
+    "which to buy"
+   ],
+   "buying-checklist": [
+    "buying",
+    "checklist",
+    "inspection",
+    "test drive",
+    "recalls",
+    "warranty",
+    "dealer markup",
+    "tires",
+    "brakes"
+   ]
+  }
+ }
+}

@@ -1,0 +1,392 @@
+{
+ "id": "honda-cr-v",
+ "make": "Honda",
+ "model": "CR-V",
+ "years": "2017–2026",
+ "byline": "Bennett Hale",
+ "published": "2026-11-17",
+ "updated": "2026-11-17",
+ "cars": [
+  "honda-cr-v-5th-gen",
+  "honda-cr-v-6th-gen",
+  "honda-cr-v-e-fcev"
+ ],
+ "shop": {
+  "cargurus": "d589"
+ },
+ "chapters": [
+  "2017-2022",
+  "2023-2026",
+  "hybrid",
+  "e-fcev",
+  "used-checklist"
+ ],
+ "series": {
+  "v17": {
+   "name": "2017–2019 LX, 2.4-liter",
+   "color": "#9aa5b1"
+  },
+  "v17t": {
+   "name": "2017–2022, 1.5-liter turbo",
+   "color": "#9aa5b1"
+  },
+  "v17ta": {
+   "name": "2017–2022, 1.5-liter turbo, AWD",
+   "color": "#9aa5b1"
+  },
+  "v20h": {
+   "name": "2020–2022 Hybrid (AWD)",
+   "color": "#9aa5b1"
+  },
+  "v23t": {
+   "name": "2023–2026, 1.5-liter turbo",
+   "color": "#2E6E96"
+  },
+  "v23ta": {
+   "name": "2023–2026, 1.5-liter turbo, AWD",
+   "color": "#2E6E96"
+  },
+  "v23h": {
+   "name": "2023–2026 Hybrid",
+   "color": "#e05c2a"
+  },
+  "v23ha": {
+   "name": "2023–2026 Hybrid, AWD",
+   "color": "#e05c2a"
+  },
+  "vts": {
+   "name": "2026 TrailSport Hybrid (AWD)",
+   "color": "#e05c2a"
+  },
+  "vfc": {
+   "name": "2025–2026 e:FCEV",
+   "color": "#2E6E96"
+  },
+  "p17lx": {
+   "name": "2017 LX",
+   "color": "#9aa5b1"
+  },
+  "p17ex": {
+   "name": "2017 EX",
+   "color": "#9aa5b1"
+  },
+  "p18lx": {
+   "name": "2018 LX",
+   "color": "#9aa5b1"
+  },
+  "p20h": {
+   "name": "2020 Hybrid LX",
+   "color": "#9aa5b1"
+  },
+  "p23ex": {
+   "name": "2023 EX",
+   "color": "#2E6E96"
+  },
+  "p23h": {
+   "name": "2023 Sport Hybrid",
+   "color": "#e05c2a"
+  },
+  "p23st": {
+   "name": "2023 Sport Touring Hybrid",
+   "color": "#e05c2a"
+  },
+  "rev": {
+   "name": "On the battery alone",
+   "color": "#2E6E96"
+  },
+  "rall": {
+   "name": "Battery and hydrogen together",
+   "color": "#e05c2a"
+  }
+ },
+ "charts": {
+  "power": {
+   "n": 1,
+   "title": "Horsepower by powertrain",
+   "sub": "Honda's figures. The hybrids are combined system output; the e:FCEV is its electric motor.",
+   "source": "Honda press releases and specifications",
+   "bars": [
+    [
+     "v17",
+     184,
+     "184 hp"
+    ],
+    [
+     "v17t",
+     190,
+     "190 hp"
+    ],
+    [
+     "v20h",
+     212,
+     "212 hp"
+    ],
+    [
+     "v23t",
+     190,
+     "190 hp"
+    ],
+    [
+     "v23h",
+     204,
+     "204 hp"
+    ],
+    [
+     "vfc",
+     174,
+     "174 hp"
+    ]
+   ]
+  },
+  "mpg": {
+   "n": 2,
+   "title": "EPA combined fuel economy",
+   "sub": "Miles per gallon, front-wheel drive unless noted.",
+   "source": "US EPA, fueleconomy.gov",
+   "bars": [
+    [
+     "v17",
+     28,
+     "28 mpg"
+    ],
+    [
+     "v17t",
+     30,
+     "30 mpg"
+    ],
+    [
+     "v17ta",
+     29,
+     "29 mpg"
+    ],
+    [
+     "v20h",
+     38,
+     "38 mpg"
+    ],
+    [
+     "v23t",
+     30,
+     "30 mpg"
+    ],
+    [
+     "v23ta",
+     29,
+     "28–29 mpg"
+    ],
+    [
+     "v23h",
+     40,
+     "40 mpg"
+    ],
+    [
+     "v23ha",
+     37,
+     "37 mpg"
+    ],
+    [
+     "vts",
+     35,
+     "35 mpg"
+    ]
+   ]
+  },
+  "price": {
+   "n": 3,
+   "title": "What a new one cost, in 2026 dollars",
+   "sub": "Starting prices before delivery, adjusted with the US consumer price index. The original price is in each label.",
+   "source": "Honda and KBB prices; Carveyance CPI arithmetic",
+   "bars": [
+    [
+     "p17lx",
+     33000,
+     "$33,000 · $24,045 then"
+    ],
+    [
+     "p17ex",
+     36600,
+     "$36,600 · $26,695 then"
+    ],
+    [
+     "p18lx",
+     32300,
+     "$32,300 · $24,150 then"
+    ],
+    [
+     "p20h",
+     36000,
+     "$36,000 · $27,750 then"
+    ],
+    [
+     "p23ex",
+     34300,
+     "$34,300 · $31,110 then"
+    ],
+    [
+     "p23h",
+     35800,
+     "$35,800 · $32,450 then"
+    ],
+    [
+     "p23st",
+     42600,
+     "$42,600 · $38,600 then"
+    ]
+   ]
+  },
+  "range": {
+   "n": 4,
+   "title": "CR-V e:FCEV range",
+   "sub": "Miles, by the EPA rating.",
+   "source": "Honda and the US EPA",
+   "bars": [
+    [
+     "rev",
+     29,
+     "29 miles"
+    ],
+    [
+     "rall",
+     270,
+     "270 miles"
+    ]
+   ]
+  }
+ },
+ "photos": {
+  "hub-hero": {
+   "want": "A 2023–2026 CR-V outside, front three-quarter, ideally a Sport Touring Hybrid",
+   "credit": "Honda",
+   "alt": "A blue 2023 Honda CR-V Sport Touring parked beside a lakeside house, with snow-capped mountains behind"
+  },
+  "ch1-hero": {
+   "want": "A 2017–2022 CR-V, ideally a 2020–2022",
+   "credit": "Honda",
+   "alt": "A red 2017 Honda CR-V driving on a road past a blurred line of trees"
+  },
+  "ch2-hero": {
+   "want": "A 2023–2026 CR-V driving, or its cargo area",
+   "credit": "Honda",
+   "alt": "A blue 2023 Honda CR-V Sport Touring, seen from behind, parked at a canyon overlook"
+  },
+  "ch3-hero": {
+   "want": "A CR-V Hybrid, ideally a 2020–2022 Hybrid or a 2023–2026 Sport",
+   "credit": "Honda",
+   "alt": "A red 2020 Honda CR-V Hybrid driving on a road through eucalyptus trees"
+  },
+  "ch4-hero": {
+   "want": "A CR-V e:FCEV, ideally at a hydrogen pump or plugged in",
+   "credit": "Honda",
+   "alt": "A white 2025 Honda CR-V e:FCEV parked beside a Honda fuel cell power station"
+  },
+  "ch5-hero": {
+   "want": "The CR-V cabin or its cargo area with the rear seat folded",
+   "credit": "Honda",
+   "alt": "The cabin of a 2023 Honda CR-V Sport Touring, with a desert landscape through the windshield"
+  }
+ },
+ "find": {
+  "picker": [
+   {
+    "model": "CR-V",
+    "years": "2017–2022",
+    "ch": "2017-2022"
+   },
+   {
+    "model": "CR-V Hybrid",
+    "years": "2020–2022",
+    "ch": "hybrid"
+   },
+   {
+    "model": "CR-V",
+    "years": "2023–2026",
+    "ch": "2023-2026"
+   },
+   {
+    "model": "CR-V Hybrid",
+    "years": "2023–2026",
+    "ch": "hybrid"
+   },
+   {
+    "model": "CR-V e:FCEV",
+    "years": "2025–2026",
+    "ch": "e-fcev"
+   }
+  ],
+  "terms": {
+   "": [
+    "CR-V",
+    "Honda CR-V",
+    "CRV",
+    "compact SUV",
+    "crossover",
+    "SUV",
+    "family SUV"
+   ],
+   "2017-2022": [
+    "fifth generation",
+    "5th gen",
+    "RW",
+    "2.4-liter",
+    "1.5T",
+    "1.5-liter turbo",
+    "LX",
+    "EX",
+    "EX-L",
+    "Touring",
+    "AWD",
+    "oil dilution",
+    "cargo space",
+    "Honda Sensing"
+   ],
+   "2023-2026": [
+    "sixth generation",
+    "6th gen",
+    "RS",
+    "2023 CR-V",
+    "EX-L",
+    "Sport",
+    "Sport-L",
+    "Sport Touring",
+    "TrailSport",
+    "cargo floor",
+    "steering recall"
+   ],
+   "hybrid": [
+    "CR-V Hybrid",
+    "hybrid",
+    "212 hp",
+    "204 hp",
+    "40 mpg",
+    "two-motor hybrid",
+    "AWD hybrid",
+    "FWD hybrid",
+    "no spare tire",
+    "tire repair kit"
+   ],
+   "e-fcev": [
+    "e:FCEV",
+    "CR-V e:FCEV",
+    "CR-V Fuel Cell",
+    "hydrogen",
+    "fuel cell",
+    "FCEV",
+    "plug-in",
+    "lease",
+    "California",
+    "Marysville"
+   ],
+   "used-checklist": [
+    "used",
+    "checklist",
+    "inspection",
+    "recalls",
+    "steering recall",
+    "fuel pump recall",
+    "oil dilution",
+    "subframe recall",
+    "tire repair kit recall"
+   ]
+  }
+ }
+}

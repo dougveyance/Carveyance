@@ -1,0 +1,489 @@
+{
+ "id": "honda-civic",
+ "make": "Honda",
+ "model": "Civic",
+ "years": "2017–2026",
+ "byline": "Celia Marchetti",
+ "published": "2026-11-17",
+ "updated": "2026-11-17",
+ "cars": [
+  "honda-civic-10th-gen",
+  "honda-civic-11th-gen",
+  "honda-civic-si-10th-gen",
+  "honda-civic-si-11th-gen",
+  "honda-civic-type-r-fk8",
+  "honda-civic-type-r-fl5"
+ ],
+ "shop": {
+  "cargurus": "d586"
+ },
+ "chapters": [
+  "2017-2021",
+  "2022-2026",
+  "hybrid",
+  "si",
+  "type-r",
+  "used-checklist"
+ ],
+ "series": {
+  "c10": {
+   "name": "2017–2021, 2.0-liter",
+   "color": "#9aa5b1"
+  },
+  "c10t": {
+   "name": "2017–2021, 1.5-liter turbo",
+   "color": "#9aa5b1"
+  },
+  "c11": {
+   "name": "2022–2024, 2.0-liter",
+   "color": "#2E6E96"
+  },
+  "c11t": {
+   "name": "2022–2024, 1.5-liter turbo",
+   "color": "#2E6E96"
+  },
+  "c25": {
+   "name": "2025–2026, 2.0-liter",
+   "color": "#2E6E96"
+  },
+  "ch": {
+   "name": "2025–2026 Hybrid",
+   "color": "#e05c2a"
+  },
+  "chs": {
+   "name": "2025–2026 Hybrid sedan",
+   "color": "#e05c2a"
+  },
+  "chh": {
+   "name": "2025–2026 Hybrid hatchback",
+   "color": "#e05c2a"
+  },
+  "si10": {
+   "name": "2017–2020 Si",
+   "color": "#9aa5b1"
+  },
+  "si11": {
+   "name": "2022–2026 Si",
+   "color": "#2E6E96"
+  },
+  "tr10": {
+   "name": "2017–2021 Type R (FK8)",
+   "color": "#9aa5b1"
+  },
+  "tr11": {
+   "name": "2023–2026 Type R (FL5)",
+   "color": "#2E6E96"
+  },
+  "p17lx": {
+   "name": "2017 LX sedan",
+   "color": "#9aa5b1"
+  },
+  "p22lx": {
+   "name": "2022 LX sedan",
+   "color": "#2E6E96"
+  },
+  "p25lx": {
+   "name": "2025 LX sedan",
+   "color": "#2E6E96"
+  },
+  "p25h": {
+   "name": "2025 Sport Hybrid sedan",
+   "color": "#e05c2a"
+  },
+  "p17si": {
+   "name": "2017 Si",
+   "color": "#9aa5b1"
+  },
+  "p22si": {
+   "name": "2022 Si",
+   "color": "#2E6E96"
+  },
+  "p17tr": {
+   "name": "2017 Type R",
+   "color": "#9aa5b1"
+  },
+  "p23tr": {
+   "name": "2023 Type R",
+   "color": "#2E6E96"
+  }
+ },
+ "charts": {
+  "power": {
+   "n": 1,
+   "title": "Horsepower by engine",
+   "sub": "Honda's figures. The hybrid is combined system output; the 2017–2021 turbo made 180 hp in the Sport hatchbacks.",
+   "source": "Honda, Edmunds and Autotrader Canada",
+   "bars": [
+    [
+     "c10",
+     158,
+     "158 hp"
+    ],
+    [
+     "c10t",
+     174,
+     "174–180 hp"
+    ],
+    [
+     "c11",
+     158,
+     "158 hp"
+    ],
+    [
+     "c11t",
+     180,
+     "180 hp"
+    ],
+    [
+     "c25",
+     150,
+     "150 hp"
+    ],
+    [
+     "ch",
+     200,
+     "200 hp"
+    ],
+    [
+     "si10",
+     205,
+     "205 hp"
+    ],
+    [
+     "si11",
+     200,
+     "200 hp"
+    ],
+    [
+     "tr10",
+     306,
+     "306 hp"
+    ],
+    [
+     "tr11",
+     315,
+     "315 hp"
+    ]
+   ]
+  },
+  "mpg": {
+   "n": 2,
+   "title": "EPA combined fuel economy",
+   "sub": "Miles per gallon. Sedans with the CVT unless noted; the Si and Type R are manual-only.",
+   "source": "US EPA, fueleconomy.gov",
+   "bars": [
+    [
+     "c10",
+     34,
+     "33–34 mpg"
+    ],
+    [
+     "c10t",
+     36,
+     "36 mpg"
+    ],
+    [
+     "c11",
+     35,
+     "35 mpg"
+    ],
+    [
+     "c11t",
+     36,
+     "36 mpg"
+    ],
+    [
+     "c25",
+     36,
+     "36 mpg"
+    ],
+    [
+     "chs",
+     49,
+     "49 mpg"
+    ],
+    [
+     "chh",
+     48,
+     "48 mpg"
+    ],
+    [
+     "si10",
+     32,
+     "32 mpg"
+    ],
+    [
+     "si11",
+     31,
+     "31 mpg"
+    ],
+    [
+     "tr10",
+     25,
+     "25 mpg"
+    ],
+    [
+     "tr11",
+     24,
+     "24 mpg"
+    ]
+   ]
+  },
+  "price": {
+   "n": 3,
+   "title": "What a new one cost, in 2026 dollars",
+   "sub": "Starting prices before delivery, adjusted with the US consumer price index. The original price is in each label.",
+   "source": "Honda, The Auto Channel and KBB prices; Carveyance CPI arithmetic",
+   "bars": [
+    [
+     "p17lx",
+     25700,
+     "$25,700 · $18,740 then"
+    ],
+    [
+     "p22lx",
+     24900,
+     "$24,900 · $21,700 then"
+    ],
+    [
+     "p25lx",
+     25300,
+     "$25,300 · $24,250 then"
+    ],
+    [
+     "p25h",
+     30000,
+     "$30,000 · $28,750 then"
+    ],
+    [
+     "p17si",
+     32800,
+     "$32,800 · $23,900 then"
+    ],
+    [
+     "p22si",
+     31400,
+     "$31,400 · $27,300 then"
+    ],
+    [
+     "p17tr",
+     46500,
+     "$46,500 · $33,900 then"
+    ],
+    [
+     "p23tr",
+     47400,
+     "$47,400 · $42,895 then"
+    ]
+   ]
+  },
+  "zero60": {
+   "n": 4,
+   "title": "0–60 mph, tested",
+   "sub": "Seconds; shorter is quicker. All Car and Driver instrumented tests.",
+   "source": "Car and Driver, via AOL, Yahoo and KSL Cars",
+   "bars": [
+    [
+     "ch",
+     6.2,
+     "6.2 sec"
+    ],
+    [
+     "si11",
+     6.8,
+     "6.8 sec"
+    ],
+    [
+     "tr10",
+     4.9,
+     "4.9 sec"
+    ],
+    [
+     "tr11",
+     4.9,
+     "4.9 sec"
+    ]
+   ]
+  }
+ },
+ "photos": {
+  "hub-hero": {
+   "want": "A 2025–2026 Civic outside, front three-quarter, ideally a Hybrid sedan or hatchback",
+   "credit": "Honda",
+   "alt": "A red 2025 Honda Civic Sport Touring Hybrid sedan parked on a rooftop among city towers"
+  },
+  "ch1-hero": {
+   "want": "A 2017–2021 Civic, ideally the hatchback or a 2019–2021 sedan",
+   "credit": "Honda",
+   "alt": "A red 2017 Honda Civic Hatchback parked by the bay, with the Golden Gate Bridge behind it"
+  },
+  "ch2-hero": {
+   "want": "A 2022–2024 Civic sedan or hatchback",
+   "credit": "Honda",
+   "alt": "A dark gray 2022 Honda Civic Hatchback driving past a glass office building"
+  },
+  "ch3-hero": {
+   "want": "A 2025–2026 Civic Hybrid, sedan or hatchback, driving",
+   "credit": "Honda",
+   "alt": "A bright blue 2025 Honda Civic Hatchback Sport Touring Hybrid driving on a palm-lined road"
+  },
+  "ch4-hero": {
+   "want": "A Civic Si, either generation, ideally driving",
+   "credit": "Honda",
+   "alt": "An orange 2022 Honda Civic Si, seen from behind, driving down a tree-lined street in low evening sun"
+  },
+  "ch5-hero": {
+   "want": "A Civic Type R, FK8 or FL5, ideally on a track",
+   "credit": "Honda",
+   "alt": "A yellow 2021 Honda Civic Type R Limited Edition cornering on a racetrack"
+  },
+  "ch6-hero": {
+   "want": "The Civic cabin or the hatchback's cargo area",
+   "credit": "Honda",
+   "alt": "The cargo area of a red 2025 Honda Civic Hatchback, with the cargo cover in place and the rear seats up"
+  }
+ },
+ "find": {
+  "picker": [
+   {
+    "model": "Civic sedan",
+    "years": "2017–2021",
+    "ch": "2017-2021"
+   },
+   {
+    "model": "Civic Coupe",
+    "years": "2017–2020",
+    "ch": "2017-2021"
+   },
+   {
+    "model": "Civic Hatchback",
+    "years": "2017–2021",
+    "ch": "2017-2021"
+   },
+   {
+    "model": "Civic sedan or Hatchback",
+    "years": "2022–2026",
+    "ch": "2022-2026"
+   },
+   {
+    "model": "Civic Hybrid",
+    "years": "2025–2026",
+    "ch": "hybrid"
+   },
+   {
+    "model": "Civic Si",
+    "years": "2017–2020",
+    "ch": "si"
+   },
+   {
+    "model": "Civic Si",
+    "years": "2022–2026",
+    "ch": "si"
+   },
+   {
+    "model": "Civic Type R",
+    "years": "2017–2021",
+    "ch": "type-r"
+   },
+   {
+    "model": "Civic Type R",
+    "years": "2023–2026",
+    "ch": "type-r"
+   }
+  ],
+  "terms": {
+   "": [
+    "Civic",
+    "Honda Civic",
+    "compact car",
+    "sedan",
+    "hatchback",
+    "coupe"
+   ],
+   "2017-2021": [
+    "tenth generation",
+    "10th gen",
+    "FC",
+    "FK7",
+    "Civic Coupe",
+    "coupe",
+    "Civic Hatchback",
+    "2.0-liter",
+    "1.5T",
+    "1.5-liter turbo",
+    "EX-T",
+    "Sport Touring",
+    "Swindon",
+    "oil dilution",
+    "Honda Sensing",
+    "volume knob"
+   ],
+   "2022-2026": [
+    "eleventh generation",
+    "11th gen",
+    "FE",
+    "FL",
+    "2022 Civic",
+    "Civic Hatchback",
+    "manual hatchback",
+    "EX-L",
+    "Sport Touring",
+    "Touring",
+    "158 hp",
+    "150 hp",
+    "Greensburg",
+    "steering recall",
+    "honeycomb vents"
+   ],
+   "hybrid": [
+    "Civic Hybrid",
+    "Sport Hybrid",
+    "Sport Touring Hybrid",
+    "Hybrid hatchback",
+    "e:HEV",
+    "200 hp",
+    "49 mpg",
+    "two-motor hybrid"
+   ],
+   "si": [
+    "Civic Si",
+    "Si",
+    "Si coupe",
+    "Si sedan",
+    "205 hp",
+    "200 hp",
+    "6-speed manual",
+    "manual",
+    "limited-slip differential",
+    "rev-matching",
+    "adaptive dampers"
+   ],
+   "type-r": [
+    "Civic Type R",
+    "Type R",
+    "FK8",
+    "FL5",
+    "Limited Edition",
+    "Phoenix Yellow",
+    "306 hp",
+    "315 hp",
+    "CTR",
+    "Yorii",
+    "dual-axis suspension"
+   ],
+   "used-checklist": [
+    "used",
+    "checklist",
+    "inspection",
+    "recalls",
+    "steering recall",
+    "fuel pump recall",
+    "oil dilution",
+    "A/C condenser",
+    "A/C compressor seal",
+    "warranty extension",
+    "modified"
+   ]
+  }
+ }
+}

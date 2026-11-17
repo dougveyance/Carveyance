@@ -44,6 +44,14 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
+  "mpg": {
+   "combined": 20,
+   "city": 17,
+   "hwy": 26,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
   "built": null,
   "alongside": [],
   "prev": {
@@ -105,6 +113,14 @@ const CARS_INDEX = [
    "mph": 190,
    "kind": "claimed",
    "note": "Maker's claim"
+  },
+  "mpg": {
+   "combined": 16,
+   "city": 14,
+   "hwy": 21,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
   },
   "built": null,
   "alongside": [
@@ -175,7 +191,19 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
-  "built": null,
+  "mpg": {
+   "combined": 15,
+   "city": 13,
+   "hwy": 20,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
+  "built": {
+   "count": 13570,
+   "approx": true,
+   "note": "Sold in the US, 2007–2015 (all first-generation R8s, V8 and V10)"
+  },
   "alongside": [],
   "prev": null,
   "next": {
@@ -231,6 +259,14 @@ const CARS_INDEX = [
    "mph": 172,
    "kind": "claimed",
    "note": "Maker's claim"
+  },
+  "mpg": {
+   "combined": 20,
+   "city": 17,
+   "hwy": 26,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2011 US Evora S, manual"
   },
   "built": null,
   "alongside": [],
@@ -291,6 +327,14 @@ const CARS_INDEX = [
    "mph": 186,
    "kind": "claimed",
    "note": "Maker's claim"
+  },
+  "mpg": {
+   "combined": 19,
+   "city": 16,
+   "hwy": 24,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2017 US Evora 400, manual"
   },
   "built": null,
   "alongside": [],
@@ -355,6 +399,7 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim, manual"
   },
+  "mpg": null,
   "built": null,
   "alongside": [],
   "prev": {
@@ -415,6 +460,7 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim, manual"
   },
+  "mpg": null,
   "built": null,
   "alongside": [],
   "prev": {
@@ -471,6 +517,7 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim, manual"
   },
+  "mpg": null,
   "built": null,
   "alongside": [],
   "prev": {
@@ -530,6 +577,14 @@ const CARS_INDEX = [
    "mph": 162,
    "kind": "claimed",
    "note": "Maker's claim"
+  },
+  "mpg": {
+   "combined": 21,
+   "city": 18,
+   "hwy": 27,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2010 US Evora"
   },
   "built": {
    "count": 6117,
@@ -595,6 +650,7 @@ const CARS_INDEX = [
    "kind": "tested",
    "note": "Autocar test"
   },
+  "mpg": null,
   "built": {
    "count": 64,
    "approx": true,
@@ -663,6 +719,14 @@ const CARS_INDEX = [
    "mph": 168,
    "kind": "claimed",
    "note": "Maker's claim"
+  },
+  "mpg": {
+   "combined": 19,
+   "city": 15,
+   "hwy": 25,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1995 US Esprit"
   },
   "built": {
    "count": 367,
@@ -733,6 +797,14 @@ const CARS_INDEX = [
    "kind": "tested",
    "note": "Car and Driver test"
   },
+  "mpg": {
+   "combined": 16,
+   "city": 14,
+   "hwy": 21,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
   "built": {
    "count": 1237,
    "approx": false,
@@ -795,6 +867,7 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
+  "mpg": null,
   "built": {
    "count": 950,
    "approx": false,
@@ -847,6 +920,14 @@ const CARS_INDEX = [
    "note": "Period figure"
   },
   "top": null,
+  "mpg": {
+   "combined": 17,
+   "city": 15,
+   "hwy": 21,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1985 US RX-7 12A, 5-speed manual"
+  },
   "built": {
    "count": 471018,
    "approx": false,
@@ -912,6 +993,14 @@ const CARS_INDEX = [
    "note": "Motor Trend test"
   },
   "top": null,
+  "mpg": {
+   "combined": 18,
+   "city": 15,
+   "hwy": 23,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 5-speed manual"
+  },
   "built": {
    "count": 68589,
    "approx": false,
@@ -980,6 +1069,14 @@ const CARS_INDEX = [
    "note": "Estimate"
   },
   "top": null,
+  "mpg": {
+   "combined": 17,
+   "city": 15,
+   "hwy": 22,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1989 US RX-7 Turbo II, manual"
+  },
   "built": {
    "count": 272027,
    "approx": false,
@@ -1047,6 +1144,7 @@ const CARS_INDEX = [
    "kind": "estimated",
    "note": "Estimate"
   },
+  "mpg": null,
   "built": {
    "count": 8875,
    "approx": false,
@@ -1105,6 +1203,7 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
+  "mpg": null,
   "built": {
    "count": 343,
    "approx": false,
@@ -1158,6 +1257,7 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
+  "mpg": null,
   "built": {
    "count": 3,
    "approx": false,
@@ -1215,6 +1315,7 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
+  "mpg": null,
   "built": null,
   "alongside": [],
   "prev": null,
@@ -1271,6 +1372,14 @@ const CARS_INDEX = [
    "mph": 130,
    "kind": "claimed",
    "note": "Maker's claim, limited"
+  },
+  "mpg": {
+   "combined": 19,
+   "city": 17,
+   "hwy": 22,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
   },
   "built": null,
   "alongside": [],
@@ -1330,6 +1439,14 @@ const CARS_INDEX = [
    "note": "Car and Driver test"
   },
   "top": null,
+  "mpg": {
+   "combined": 24,
+   "city": 21,
+   "hwy": 28,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
   "built": null,
   "alongside": [],
   "prev": {
@@ -1388,6 +1505,14 @@ const CARS_INDEX = [
    "kind": "tested",
    "note": "Car and Driver test"
   },
+  "mpg": {
+   "combined": 24,
+   "city": 22,
+   "hwy": 28,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
   "built": null,
   "alongside": [],
   "prev": null,
@@ -1439,6 +1564,14 @@ const CARS_INDEX = [
    "note": "Car and Driver test"
   },
   "top": null,
+  "mpg": {
+   "combined": 24,
+   "city": 22,
+   "hwy": 28,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2001 Protegé 2.0, manual"
+  },
   "built": {
    "count": 1500,
    "approx": false,
@@ -1492,6 +1625,14 @@ const CARS_INDEX = [
   "kgNote": "",
   "z60": null,
   "top": null,
+  "mpg": {
+   "combined": 23,
+   "city": 21,
+   "hwy": 27,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2003 Protegé on premium fuel (the Mazdaspeed)"
+  },
   "built": {
    "count": 4500,
    "approx": true,
@@ -1558,6 +1699,14 @@ const CARS_INDEX = [
    "kind": "tested",
    "note": "Motor Trend test"
   },
+  "mpg": {
+   "combined": 18,
+   "city": 16,
+   "hwy": 22,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
   "built": {
    "count": 86151,
    "approx": false,
@@ -1622,6 +1771,14 @@ const CARS_INDEX = [
    "kind": "tested",
    "note": "Car and Driver test"
   },
+  "mpg": {
+   "combined": 18,
+   "city": 15,
+   "hwy": 23,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
   "built": {
    "count": 24379,
    "approx": false,
@@ -1679,6 +1836,14 @@ const CARS_INDEX = [
    "note": "Ford brochure"
   },
   "top": null,
+  "mpg": {
+   "combined": 20,
+   "city": 18,
+   "hwy": 24,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, manual or automatic"
+  },
   "built": {
    "count": 310446,
    "approx": false,
@@ -1741,6 +1906,14 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim, limited"
   },
+  "mpg": {
+   "combined": 18,
+   "city": 16,
+   "hwy": 23,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
   "built": {
    "count": 11000,
    "approx": true,
@@ -1796,6 +1969,14 @@ const CARS_INDEX = [
    "note": "Car and Driver test"
   },
   "top": null,
+  "mpg": {
+   "combined": 15,
+   "city": 13,
+   "hwy": 18,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
   "built": null,
   "alongside": [],
   "prev": null,
@@ -1845,6 +2026,14 @@ const CARS_INDEX = [
    "note": ""
   },
   "top": null,
+  "mpg": {
+   "combined": 15,
+   "city": 13,
+   "hwy": 17,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
   "built": {
    "count": 5958,
    "approx": false,
@@ -1898,6 +2087,14 @@ const CARS_INDEX = [
    "note": "Car and Driver test"
   },
   "top": null,
+  "mpg": {
+   "combined": 15,
+   "city": 14,
+   "hwy": 17,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1992 Montero, manual or automatic"
+  },
   "built": null,
   "alongside": [],
   "prev": {
@@ -1959,6 +2156,14 @@ const CARS_INDEX = [
    "note": "Car and Driver test"
   },
   "top": null,
+  "mpg": {
+   "combined": 15,
+   "city": 14,
+   "hwy": 17,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1992 Trooper DOHC, automatic (manual: 14 city / 16 highway)"
+  },
   "built": null,
   "alongside": [],
   "prev": {
@@ -2012,6 +2217,14 @@ const CARS_INDEX = [
   "kgNote": "",
   "z60": null,
   "top": null,
+  "mpg": {
+   "combined": 23,
+   "city": 21,
+   "hwy": 26,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1986 US BRAT 4WD, 4-speed manual"
+  },
   "built": {
    "count": 100000,
    "approx": true,
@@ -2072,6 +2285,14 @@ const CARS_INDEX = [
    "mph": 150,
    "kind": "claimed",
    "note": "Maker's claim"
+  },
+  "mpg": {
+   "combined": 23,
+   "city": 20,
+   "hwy": 28,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2013 135i manual, which shares the 135is engine"
   },
   "built": {
    "count": 816,
@@ -2140,6 +2361,14 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim, limited"
   },
+  "mpg": {
+   "combined": 21,
+   "city": 19,
+   "hwy": 26,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
   "built": {
    "count": 6309,
    "approx": false,
@@ -2204,6 +2433,14 @@ const CARS_INDEX = [
    "kind": "tested",
    "note": "Car and Driver test"
   },
+  "mpg": {
+   "combined": 18,
+   "city": 15,
+   "hwy": 23,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2001 M Coupe; EPA lists no 2002"
+  },
   "built": {
    "count": 6291,
    "approx": false,
@@ -2266,6 +2503,14 @@ const CARS_INDEX = [
    "mph": 160,
    "kind": "tested",
    "note": "Car and Driver test"
+  },
+  "mpg": {
+   "combined": 17,
+   "city": 15,
+   "hwy": 22,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
   },
   "built": {
    "count": 4581,
@@ -2333,6 +2578,14 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim, limited"
   },
+  "mpg": {
+   "combined": 19,
+   "city": 17,
+   "hwy": 23,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
   "built": null,
   "alongside": [],
   "prev": {
@@ -2389,6 +2642,7 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
+  "mpg": null,
   "built": {
    "count": 252,
    "approx": false,
@@ -2455,6 +2709,14 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
+  "mpg": {
+   "combined": 27,
+   "city": 26,
+   "hwy": 29,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined on gas; 69 MPGe on electricity"
+  },
   "built": {
    "count": 20465,
    "approx": false,
@@ -2514,6 +2776,14 @@ const CARS_INDEX = [
    "mph": 174,
    "kind": "claimed",
    "note": "Maker's claim"
+  },
+  "mpg": {
+   "combined": 18,
+   "city": 15,
+   "hwy": 23,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1999 Carrera, manual"
   },
   "built": {
    "count": 175262,
@@ -2583,6 +2853,7 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
+  "mpg": null,
   "built": null,
   "alongside": [],
   "prev": {
@@ -2640,6 +2911,14 @@ const CARS_INDEX = [
    "mph": 158,
    "kind": "claimed",
    "note": "Maker's claim"
+  },
+  "mpg": {
+   "combined": 18,
+   "city": 15,
+   "hwy": 24,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, US 968, manual; the Club Sport was not sold in the US"
   },
   "built": {
    "count": 1538,
@@ -2705,6 +2984,14 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
+  "mpg": {
+   "combined": 13,
+   "city": 11,
+   "hwy": 17,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, manual (automatic: 15 mpg)"
+  },
   "built": {
    "count": 2831,
    "approx": false,
@@ -2761,6 +3048,7 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
+  "mpg": null,
   "built": {
    "count": 83701,
    "approx": false,
@@ -2826,6 +3114,7 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
+  "mpg": null,
   "built": {
    "count": 70000,
    "approx": true,
@@ -2888,6 +3177,14 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim, limited"
   },
+  "mpg": {
+   "combined": 18,
+   "city": 16,
+   "hwy": 23,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
   "built": {
    "count": 87731,
    "approx": false,
@@ -2947,6 +3244,14 @@ const CARS_INDEX = [
    "mph": 155,
    "kind": "claimed",
    "note": "Maker's claim, limited"
+  },
+  "mpg": {
+   "combined": 16,
+   "city": 14,
+   "hwy": 20,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
   },
   "built": {
    "count": 15703,
@@ -3012,6 +3317,14 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim, limited"
   },
+  "mpg": {
+   "combined": 18,
+   "city": 15,
+   "hwy": 22,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
   "built": null,
   "alongside": [],
   "prev": {
@@ -3067,6 +3380,14 @@ const CARS_INDEX = [
    "mph": 155,
    "kind": "claimed",
    "note": "Maker's claim, limited"
+  },
+  "mpg": {
+   "combined": 17,
+   "city": 15,
+   "hwy": 21,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2000 XKR coupe"
   },
   "built": null,
   "alongside": [],
@@ -3129,6 +3450,14 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim, limited"
   },
+  "mpg": {
+   "combined": 17,
+   "city": 15,
+   "hwy": 22,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
   "built": null,
   "alongside": [],
   "prev": {
@@ -3182,6 +3511,7 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
+  "mpg": null,
   "built": {
    "count": 25436,
    "approx": false,
@@ -3239,6 +3569,14 @@ const CARS_INDEX = [
    "mph": 120,
    "kind": "claimed",
    "note": "Maker's claim"
+  },
+  "mpg": {
+   "combined": 8,
+   "city": 7,
+   "hwy": 10,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1986 Corniche II"
   },
   "built": {
    "count": 5160,
@@ -3301,6 +3639,14 @@ const CARS_INDEX = [
    "mph": 193,
    "kind": "claimed",
    "note": "Maker's claim"
+  },
+  "mpg": {
+   "combined": 18,
+   "city": 16,
+   "hwy": 22,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
   },
   "built": null,
   "alongside": [],
@@ -3368,6 +3714,7 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
+  "mpg": null,
   "built": {
    "count": 2600,
    "approx": true,
@@ -3435,6 +3782,7 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "TVR's claim"
   },
+  "mpg": null,
   "built": {
    "count": 6000,
    "approx": true,
@@ -3505,6 +3853,7 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "TVR's claim"
   },
+  "mpg": null,
   "built": {
    "count": 1490,
    "approx": false,
@@ -3577,6 +3926,7 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "TVR's claim"
   },
+  "mpg": null,
   "built": null,
   "alongside": [],
   "prev": {
@@ -3645,6 +3995,7 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "About, claimed"
   },
+  "mpg": null,
   "built": {
    "count": 356,
    "approx": true,
@@ -3717,6 +4068,7 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "More than 185 mph, TVR's claim"
   },
+  "mpg": null,
   "built": {
    "count": 211,
    "approx": false,
@@ -3772,6 +4124,14 @@ const CARS_INDEX = [
    "note": "Car and Driver test"
   },
   "top": null,
+  "mpg": {
+   "combined": 17,
+   "city": 15,
+   "hwy": 23,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
   "built": null,
   "alongside": [],
   "prev": {
@@ -3829,6 +4189,14 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
+  "mpg": {
+   "combined": 18,
+   "city": 15,
+   "hwy": 22,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2014 MP4-12C coupe"
+  },
   "built": {
    "count": 3400,
    "approx": true,
@@ -3884,6 +4252,14 @@ const CARS_INDEX = [
    "note": "Car and Driver test"
   },
   "top": null,
+  "mpg": {
+   "combined": 14,
+   "city": 11,
+   "hwy": 19,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2000 Viper GTS coupe"
+  },
   "built": null,
   "alongside": [],
   "prev": null,
@@ -3929,6 +4305,14 @@ const CARS_INDEX = [
   "kgNote": "",
   "z60": null,
   "top": null,
+  "mpg": {
+   "combined": 14,
+   "city": 12,
+   "hwy": 17,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
   "built": {
    "count": 300,
    "approx": false,
@@ -3982,6 +4366,14 @@ const CARS_INDEX = [
    "note": "MotorWeek test"
   },
   "top": null,
+  "mpg": {
+   "combined": 20,
+   "city": 17,
+   "hwy": 26,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2002 Corvette manual; EPA does not list the Z06 on its own"
+  },
   "built": null,
   "alongside": [],
   "prev": null,
@@ -4027,6 +4419,7 @@ const CARS_INDEX = [
   "kgNote": "",
   "z60": null,
   "top": null,
+  "mpg": null,
   "built": null,
   "alongside": [],
   "prev": {
@@ -4077,6 +4470,7 @@ const CARS_INDEX = [
   "kgNote": "",
   "z60": null,
   "top": null,
+  "mpg": null,
   "built": {
    "count": 1659022,
    "approx": false,
@@ -4131,6 +4525,14 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
+  "mpg": {
+   "combined": 17,
+   "city": 14,
+   "hwy": 21,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
   "built": null,
   "alongside": [],
   "prev": {
@@ -4183,6 +4585,14 @@ const CARS_INDEX = [
    "note": "Car and Driver test"
   },
   "top": null,
+  "mpg": {
+   "combined": 22,
+   "city": 19,
+   "hwy": 28,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
   "built": {
    "count": 65724,
    "approx": false,
@@ -4244,6 +4654,14 @@ const CARS_INDEX = [
    "note": "MotorWeek test"
   },
   "top": null,
+  "mpg": {
+   "combined": 22,
+   "city": 19,
+   "hwy": 28,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
   "built": {
    "count": 34415,
    "approx": false,
@@ -4303,7 +4721,19 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
-  "built": null,
+  "mpg": {
+   "combined": 13,
+   "city": 12,
+   "hwy": 17,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
+  "built": {
+   "count": 1004919,
+   "approx": true,
+   "note": "Sold in the US so far, 2011 to September 2026 (all third-generation Durangos)"
+  },
   "alongside": [],
   "prev": {
    "id": null,
@@ -4376,6 +4806,7 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
+  "mpg": null,
   "built": {
    "count": 1455746,
    "approx": false,
@@ -4452,6 +4883,7 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
+  "mpg": null,
   "built": {
    "count": 12920,
    "approx": false,
@@ -4527,6 +4959,7 @@ const CARS_INDEX = [
    "kind": "tested",
    "note": "Motor test"
   },
+  "mpg": null,
   "built": {
    "count": 759111,
    "approx": false,
@@ -4593,6 +5026,7 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
+  "mpg": null,
   "built": {
    "count": 5100000,
    "approx": true,
@@ -4655,6 +5089,7 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
+  "mpg": null,
   "built": {
    "count": 44296,
    "approx": false,
@@ -4709,6 +5144,7 @@ const CARS_INDEX = [
   "kgNote": "around",
   "z60": null,
   "top": null,
+  "mpg": null,
   "built": null,
   "alongside": [],
   "prev": null,
@@ -4764,6 +5200,7 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
+  "mpg": null,
   "built": {
    "count": 461690,
    "approx": false,
@@ -4821,6 +5258,14 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
+  "mpg": {
+   "combined": 23,
+   "city": 21,
+   "hwy": 26,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1987 US GTI 16V"
+  },
   "built": null,
   "alongside": [],
   "prev": {
@@ -4873,6 +5318,7 @@ const CARS_INDEX = [
    "note": "Factory figure"
   },
   "top": null,
+  "mpg": null,
   "built": null,
   "alongside": [],
   "prev": {
@@ -4923,6 +5369,14 @@ const CARS_INDEX = [
   "kgNote": "",
   "z60": null,
   "top": null,
+  "mpg": {
+   "combined": 24,
+   "city": 21,
+   "hwy": 28,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2002 US GTI 1.8T, 5-speed manual"
+  },
   "built": null,
   "alongside": [],
   "prev": {
@@ -4983,6 +5437,14 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
+  "mpg": {
+   "combined": 24,
+   "city": 21,
+   "hwy": 29,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2006 US GTI, 6-speed manual"
+  },
   "built": {
    "count": 181000,
    "approx": true,
@@ -5037,6 +5499,14 @@ const CARS_INDEX = [
   "kgNote": "",
   "z60": null,
   "top": null,
+  "mpg": {
+   "combined": 25,
+   "city": 21,
+   "hwy": 31,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2010 US GTI, 6-speed manual"
+  },
   "built": null,
   "alongside": [],
   "prev": {
@@ -5091,6 +5561,14 @@ const CARS_INDEX = [
    "note": "Factory figure"
   },
   "top": null,
+  "mpg": {
+   "combined": 28,
+   "city": 24,
+   "hwy": 34,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2017 US GTI, 6-speed manual"
+  },
   "built": null,
   "alongside": [],
   "prev": {
@@ -5147,6 +5625,14 @@ const CARS_INDEX = [
    "note": "Car and Driver test"
   },
   "top": null,
+  "mpg": {
+   "combined": 28,
+   "city": 25,
+   "hwy": 34,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2022 GTI, DSG or manual"
+  },
   "built": null,
   "alongside": [],
   "prev": {
@@ -5196,6 +5682,14 @@ const CARS_INDEX = [
   "kgNote": "",
   "z60": null,
   "top": null,
+  "mpg": {
+   "combined": 20,
+   "city": 18,
+   "hwy": 23,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
   "built": {
    "count": 2685171,
    "approx": false,
@@ -5258,6 +5752,14 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim, limited"
   },
+  "mpg": {
+   "combined": 16,
+   "city": 14,
+   "hwy": 19,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, manual or automatic"
+  },
   "built": null,
   "alongside": [],
   "prev": null,
@@ -5313,6 +5815,14 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim, limited"
   },
+  "mpg": {
+   "combined": 26,
+   "city": 22,
+   "hwy": 31,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined on gas; 58 MPGe on electricity"
+  },
   "built": {
    "count": 1500,
    "approx": false,
@@ -5362,6 +5872,7 @@ const CARS_INDEX = [
   "kgNote": "",
   "z60": null,
   "top": null,
+  "mpg": null,
   "built": null,
   "alongside": [],
   "prev": {
@@ -5414,6 +5925,14 @@ const CARS_INDEX = [
    "mph": 204,
    "kind": "claimed",
    "note": "Maker's claim"
+  },
+  "mpg": {
+   "combined": 10,
+   "city": 8,
+   "hwy": 13,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1996 Diablo"
   },
   "built": {
    "count": 346,
@@ -5475,6 +5994,7 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
+  "mpg": null,
   "built": {
    "count": 1,
    "approx": false,
@@ -5524,6 +6044,7 @@ const CARS_INDEX = [
   "kgNote": "",
   "z60": null,
   "top": null,
+  "mpg": null,
   "built": {
    "count": 1,
    "approx": false,
@@ -5577,6 +6098,7 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
+  "mpg": null,
   "built": {
    "count": 14,
    "approx": false,
@@ -5627,6 +6149,7 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
+  "mpg": null,
   "built": {
    "count": 1,
    "approx": false,
@@ -5677,6 +6200,7 @@ const CARS_INDEX = [
   "kgNote": "",
   "z60": null,
   "top": null,
+  "mpg": null,
   "built": {
    "count": 1,
    "approx": false,
@@ -5730,8 +6254,24 @@ const CARS_INDEX = [
    "kind": "tested",
    "note": "Car and Driver test"
   },
-  "top": null,
-  "built": null,
+  "top": {
+   "mph": 114,
+   "kind": "tested",
+   "note": "Governor limited; Car and Driver test of a 2017 4Runner TRD Off-Road"
+  },
+  "mpg": {
+   "combined": 18,
+   "city": 17,
+   "hwy": 20,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
+  "built": {
+   "count": 1480346,
+   "approx": true,
+   "note": "Sold in the US, 2010–2024"
+  },
   "alongside": [],
   "prev": {
    "id": null,
@@ -5787,7 +6327,19 @@ const CARS_INDEX = [
    "note": "Car and Driver test"
   },
   "top": null,
-  "built": null,
+  "mpg": {
+   "combined": 21,
+   "city": 19,
+   "hwy": 25,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
+  "built": {
+   "count": 217414,
+   "approx": true,
+   "note": "Sold in the US so far, 2025 to October 2026"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-4runner-n280",
@@ -5839,7 +6391,19 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Electronically limited"
   },
-  "built": null,
+  "mpg": {
+   "combined": 25,
+   "city": 22,
+   "hwy": 30,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
+  "built": {
+   "count": 31228,
+   "approx": true,
+   "note": "Sold in the US so far, 2019 to October 2026"
+  },
   "alongside": [
    {
     "id": null,
@@ -5900,6 +6464,14 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
+  "mpg": {
+   "combined": 67,
+   "city": 67,
+   "hwy": 67,
+   "unit": "MPGe",
+   "kind": "epa",
+   "note": "EPA combined on hydrogen, 67 city / 67 highway"
+  },
   "built": null,
   "alongside": [],
   "prev": null,
@@ -5952,6 +6524,14 @@ const CARS_INDEX = [
    "note": "Motor Trend test"
   },
   "top": null,
+  "mpg": {
+   "combined": 74,
+   "city": 76,
+   "hwy": 71,
+   "unit": "MPGe",
+   "kind": "epa",
+   "note": "EPA combined on hydrogen, 76 city / 71 highway"
+  },
   "built": null,
   "alongside": [],
   "prev": {
@@ -6001,7 +6581,19 @@ const CARS_INDEX = [
    "note": "Maker's claim"
   },
   "top": null,
-  "built": null,
+  "mpg": {
+   "combined": 24,
+   "city": 21,
+   "hwy": 28,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
+  "built": {
+   "count": 79776,
+   "approx": true,
+   "note": "Sold in the US, 2012–2021 (Scion FR-S and Toyota 86)"
+  },
   "alongside": [
    {
     "id": null,
@@ -6052,7 +6644,19 @@ const CARS_INDEX = [
    "note": "Maker's claim"
   },
   "top": null,
-  "built": null,
+  "mpg": {
+   "combined": 22,
+   "city": 20,
+   "hwy": 27,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
+  "built": {
+   "count": 50751,
+   "approx": true,
+   "note": "Sold in the US so far, 2022 to October 2026"
+  },
   "alongside": [
    {
     "id": null,
@@ -6110,8 +6714,24 @@ const CARS_INDEX = [
    "kind": "tested",
    "note": "Car and Driver test"
   },
-  "top": null,
-  "built": null,
+  "top": {
+   "mph": 112,
+   "kind": "tested",
+   "note": "Governor limited (Car and Driver)"
+  },
+  "mpg": {
+   "combined": 28,
+   "city": 25,
+   "hwy": 34,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
+  "built": {
+   "count": 2447027,
+   "approx": true,
+   "note": "Sold in the US, 2012–2017"
+  },
   "alongside": [],
   "prev": {
    "id": null,
@@ -6167,8 +6787,24 @@ const CARS_INDEX = [
    "kind": "tested",
    "note": "Car and Driver test"
   },
-  "top": null,
-  "built": null,
+  "top": {
+   "mph": 133,
+   "kind": "tested",
+   "note": "Governor limited (Car and Driver)"
+  },
+  "mpg": {
+   "combined": 32,
+   "city": 28,
+   "hwy": 39,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
+  "built": {
+   "count": 2184285,
+   "approx": true,
+   "note": "Sold in the US, 2018–2024"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-camry-xv50",
@@ -6225,7 +6861,19 @@ const CARS_INDEX = [
    "note": "Car and Driver test"
   },
   "top": null,
-  "built": null,
+  "mpg": {
+   "combined": 44,
+   "city": 44,
+   "hwy": 43,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
+  "built": {
+   "count": 603627,
+   "approx": true,
+   "note": "Sold in the US so far, 2025 to October 2026"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-camry-xv70",
@@ -6279,8 +6927,24 @@ const CARS_INDEX = [
    "kind": "tested",
    "note": "Car and Driver test"
   },
-  "top": null,
-  "built": null,
+  "top": {
+   "mph": 111,
+   "kind": "tested",
+   "note": "Governor limited (Car and Driver)"
+  },
+  "mpg": {
+   "combined": 31,
+   "city": 28,
+   "hwy": 35,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
+  "built": {
+   "count": 1701887,
+   "approx": true,
+   "note": "Sold in the US, 2014–2018 (all Corolla models)"
+  },
   "alongside": [],
   "prev": {
    "id": null,
@@ -6333,7 +6997,19 @@ const CARS_INDEX = [
    "kind": "tested",
    "note": "Car and Driver test"
   },
-  "top": null,
+  "top": {
+   "mph": 112,
+   "kind": "tested",
+   "note": "Governor limited (Car and Driver)"
+  },
+  "mpg": {
+   "combined": 31,
+   "city": 28,
+   "hwy": 36,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
   "built": null,
   "alongside": [],
   "prev": null,
@@ -6389,7 +7065,19 @@ const CARS_INDEX = [
    "note": "Car and Driver test"
   },
   "top": null,
-  "built": null,
+  "mpg": {
+   "combined": 36,
+   "city": 32,
+   "hwy": 42,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
+  "built": {
+   "count": 1944508,
+   "approx": true,
+   "note": "Sold in the US so far, 2019 to October 2026 (all Corolla models)"
+  },
   "alongside": [
    {
     "id": "toyota-gr-corolla",
@@ -6444,6 +7132,14 @@ const CARS_INDEX = [
    "note": "Maker's claim, 4.99 sec"
   },
   "top": null,
+  "mpg": {
+   "combined": 24,
+   "city": 21,
+   "hwy": 28,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
   "built": null,
   "alongside": [
    {
@@ -6502,7 +7198,19 @@ const CARS_INDEX = [
    "note": "Car and Driver test"
   },
   "top": null,
-  "built": null,
+  "mpg": {
+   "combined": 42,
+   "city": 45,
+   "hwy": 38,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
+  "built": {
+   "count": 428738,
+   "approx": true,
+   "note": "Sold in the US so far, 2021 to October 2026"
+  },
   "alongside": [],
   "prev": null,
   "next": null,
@@ -6565,7 +7273,19 @@ const CARS_INDEX = [
    "note": "Consumer Guide test, Hybrid Limited"
   },
   "top": null,
-  "built": null,
+  "mpg": {
+   "combined": 32,
+   "city": 34,
+   "hwy": 30,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
+  "built": {
+   "count": 1988260,
+   "approx": true,
+   "note": "Sold in the US, 2013–2018"
+  },
   "alongside": [],
   "prev": null,
   "next": {
@@ -6633,7 +7353,19 @@ const CARS_INDEX = [
    "note": "Consumer Guide test, Hybrid Limited"
   },
   "top": null,
-  "built": null,
+  "mpg": {
+   "combined": 40,
+   "city": 41,
+   "hwy": 38,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
+  "built": {
+   "count": 3075559,
+   "approx": true,
+   "note": "Sold in the US, 2019–2025"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-rav4-xa40",
@@ -6704,7 +7436,19 @@ const CARS_INDEX = [
    "note": "Edmunds test"
   },
   "top": null,
-  "built": null,
+  "mpg": {
+   "combined": 43,
+   "city": 47,
+   "hwy": 40,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
+  "built": {
+   "count": 293552,
+   "approx": true,
+   "note": "Sold in the US so far, January to October 2026"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-rav4-xa50",
@@ -6753,8 +7497,24 @@ const CARS_INDEX = [
    "kind": "tested",
    "note": "Car and Driver test"
   },
-  "top": null,
-  "built": null,
+  "top": {
+   "mph": 115,
+   "kind": "tested",
+   "note": "Governor limited (Car and Driver)"
+  },
+  "mpg": {
+   "combined": 22,
+   "city": 19,
+   "hwy": 26,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
+  "built": {
+   "count": 1196144,
+   "approx": true,
+   "note": "Sold in the US, 2014–2019"
+  },
   "alongside": [],
   "prev": null,
   "next": {
@@ -6804,7 +7564,19 @@ const CARS_INDEX = [
    "note": "Car and Driver test"
   },
   "top": null,
-  "built": null,
+  "mpg": {
+   "combined": 23,
+   "city": 20,
+   "hwy": 27,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
+  "built": {
+   "count": 1061295,
+   "approx": true,
+   "note": "Sold in the US so far, 2020 to October 2026"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-highlander-xu50",
@@ -6859,7 +7631,19 @@ const CARS_INDEX = [
    "note": "Car and Driver test"
   },
   "top": null,
-  "built": null,
+  "mpg": {
+   "combined": 27,
+   "city": 26,
+   "hwy": 27,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
+  "built": {
+   "count": 379506,
+   "approx": true,
+   "note": "Sold in the US so far, 2023 to October 2026"
+  },
   "alongside": [],
   "prev": null,
   "next": null,
@@ -6911,8 +7695,24 @@ const CARS_INDEX = [
    "kind": "tested",
    "note": "Car and Driver test"
   },
-  "top": null,
-  "built": null,
+  "top": {
+   "mph": 113,
+   "kind": "tested",
+   "note": "Governor limited (Car and Driver)"
+  },
+  "mpg": {
+   "combined": 20,
+   "city": 18,
+   "hwy": 23,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, V6 4x4 automatic (manual: 18 mpg)"
+  },
+  "built": {
+   "count": 1847631,
+   "approx": true,
+   "note": "Sold in the US, 2016–2023"
+  },
   "alongside": [],
   "prev": null,
   "next": {
@@ -6970,7 +7770,19 @@ const CARS_INDEX = [
    "note": "Car and Driver test"
   },
   "top": null,
-  "built": null,
+  "mpg": {
+   "combined": 21,
+   "city": 19,
+   "hwy": 24,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
+  "built": {
+   "count": 704579,
+   "approx": true,
+   "note": "Sold in the US so far, 2024 to October 2026"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-tacoma-n300",
@@ -7022,8 +7834,24 @@ const CARS_INDEX = [
    "kind": "tested",
    "note": "Car and Driver test"
   },
-  "top": null,
-  "built": null,
+  "top": {
+   "mph": 108,
+   "kind": "tested",
+   "note": "Governor limited; Car and Driver test of a 2017 Tundra 5.7 CrewMax 4x4"
+  },
+  "mpg": {
+   "combined": 14,
+   "city": 13,
+   "hwy": 17,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
+  "built": {
+   "count": 1689999,
+   "approx": true,
+   "note": "Sold in the US, 2007–2021"
+  },
   "alongside": [],
   "prev": null,
   "next": {
@@ -7077,7 +7905,19 @@ const CARS_INDEX = [
    "note": "Car and Driver test"
   },
   "top": null,
-  "built": null,
+  "mpg": {
+   "combined": 19,
+   "city": 18,
+   "hwy": 20,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
+  "built": {
+   "count": 658953,
+   "approx": true,
+   "note": "Sold in the US so far, 2022 to October 2026"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-tundra-xk50",
@@ -7133,7 +7973,19 @@ const CARS_INDEX = [
    "note": "MotorWeek test, 2020 TRD Pro"
   },
   "top": null,
-  "built": null,
+  "mpg": {
+   "combined": 14,
+   "city": 13,
+   "hwy": 17,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
+  "built": {
+   "count": 192365,
+   "approx": true,
+   "note": "Sold in the US, 2008–2022"
+  },
   "alongside": [],
   "prev": null,
   "next": {
@@ -7191,7 +8043,19 @@ const CARS_INDEX = [
    "note": "Car and Driver test, 2023 Capstone"
   },
   "top": null,
-  "built": null,
+  "mpg": {
+   "combined": 20,
+   "city": 19,
+   "hwy": 22,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
+  "built": {
+   "count": 98198,
+   "approx": true,
+   "note": "Sold in the US so far, 2023 to October 2026"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-sequoia-xk60",
@@ -7251,8 +8115,24 @@ const CARS_INDEX = [
    "kind": "tested",
    "note": "Car and Driver test"
   },
-  "top": null,
-  "built": null,
+  "top": {
+   "mph": 114,
+   "kind": "tested",
+   "note": "Governor limited (Car and Driver)"
+  },
+  "mpg": {
+   "combined": 15,
+   "city": 13,
+   "hwy": 18,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
+  "built": {
+   "count": 41834,
+   "approx": true,
+   "note": "Sold in the US, 2008–2022"
+  },
   "alongside": [],
   "prev": null,
   "next": {
@@ -7315,7 +8195,19 @@ const CARS_INDEX = [
    "note": "Car and Driver test"
   },
   "top": null,
-  "built": null,
+  "mpg": {
+   "combined": 23,
+   "city": 22,
+   "hwy": 25,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
+  "built": {
+   "count": 100880,
+   "approx": true,
+   "note": "Sold in the US so far, 2024 to October 2026"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-land-cruiser-j200",
@@ -7368,7 +8260,19 @@ const CARS_INDEX = [
    "note": "Edmunds test, 2021"
   },
   "top": null,
-  "built": null,
+  "mpg": {
+   "combined": 39,
+   "city": 40,
+   "hwy": 37,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
+  "built": {
+   "count": 171174,
+   "approx": true,
+   "note": "Sold in the US, 2020–2025"
+  },
   "alongside": [],
   "prev": null,
   "next": null,
@@ -7423,7 +8327,19 @@ const CARS_INDEX = [
    "note": "Car and Driver test, 2023 Limited AWD"
   },
   "top": null,
-  "built": null,
+  "mpg": {
+   "combined": 119,
+   "city": 131,
+   "hwy": 107,
+   "unit": "MPGe",
+   "kind": "epa",
+   "note": "EPA combined, front-wheel drive XLE"
+  },
+  "built": {
+   "count": 74857,
+   "approx": true,
+   "note": "Sold in the US so far, 2022 to October 2026 (bZ4X and bZ)"
+  },
   "alongside": [],
   "prev": null,
   "next": null,
@@ -7470,6 +8386,14 @@ const CARS_INDEX = [
    "note": "Toyota estimate"
   },
   "top": null,
+  "mpg": {
+   "combined": 117,
+   "city": 127,
+   "hwy": 107,
+   "unit": "MPGe",
+   "kind": "epa",
+   "note": "EPA combined, on 235/60R18 tires (235/65R18: 109 MPGe)"
+  },
   "built": null,
   "alongside": [],
   "prev": null,
@@ -7516,7 +8440,19 @@ const CARS_INDEX = [
   "kgNote": "Curb weight, 2017 Avalon Hybrid (3,594–3,638 lb)",
   "z60": null,
   "top": null,
-  "built": null,
+  "mpg": {
+   "combined": 24,
+   "city": 21,
+   "hwy": 30,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, V6 (Hybrid: 40 mpg)"
+  },
+  "built": {
+   "count": 312478,
+   "approx": true,
+   "note": "Sold in the US, 2013–2018"
+  },
   "alongside": [],
   "prev": null,
   "next": {
@@ -7571,7 +8507,19 @@ const CARS_INDEX = [
    "note": "Car and Driver test, via 0-60 Specs"
   },
   "top": null,
-  "built": null,
+  "mpg": {
+   "combined": 25,
+   "city": 22,
+   "hwy": 31,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
+  "built": {
+   "count": 77918,
+   "approx": true,
+   "note": "Sold in the US, 2019–2023"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-avalon-xx40",
@@ -7625,6 +8573,14 @@ const CARS_INDEX = [
    "note": "Car and Driver test, 2016 Yaris LE 5-door automatic, via 0-60 Specs"
   },
   "top": null,
+  "mpg": {
+   "combined": 32,
+   "city": 30,
+   "hwy": 35,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, automatic (manual: 33 mpg)"
+  },
   "built": null,
   "alongside": [],
   "prev": null,
@@ -7675,7 +8631,19 @@ const CARS_INDEX = [
    "kind": "tested",
    "note": "Car and Driver test, manual"
   },
-  "top": null,
+  "top": {
+   "mph": 120,
+   "kind": "tested",
+   "note": "Governor limited (Car and Driver)"
+  },
+  "mpg": {
+   "combined": 34,
+   "city": 30,
+   "hwy": 39,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
   "built": null,
   "alongside": [],
   "prev": null,
@@ -7734,8 +8702,24 @@ const CARS_INDEX = [
    "kind": "tested",
    "note": "Car and Driver test, 2017 Prius Three Touring"
   },
-  "top": null,
-  "built": null,
+  "top": {
+   "mph": 114,
+   "kind": "tested",
+   "note": "Drag limited (Car and Driver)"
+  },
+  "mpg": {
+   "combined": 52,
+   "city": 54,
+   "hwy": 50,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 54 city / 50 highway (Prius Two Eco: 56 mpg)"
+  },
+  "built": {
+   "count": 542052,
+   "approx": true,
+   "note": "Sold in the US, 2016–2022 (all Prius models, including the Prius c, v and Prime)"
+  },
   "alongside": [],
   "prev": null,
   "next": {
@@ -7797,7 +8781,19 @@ const CARS_INDEX = [
    "note": "Car and Driver test, 2023 Prius Limited FWD"
   },
   "top": null,
-  "built": null,
+  "mpg": {
+   "combined": 57,
+   "city": 57,
+   "hwy": 56,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
+  "built": {
+   "count": 171981,
+   "approx": true,
+   "note": "Sold in the US so far, 2023 to October 2026 (all Prius models, including the Prius Prime)"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-prius-xw50",
@@ -7845,8 +8841,24 @@ const CARS_INDEX = [
   "hp": 121,
   "kg": null,
   "kgNote": "",
-  "z60": null,
-  "top": null,
+  "z60": {
+   "sec": 10.3,
+   "kind": "tested",
+   "note": "Car and Driver test, Prius Prime Plus"
+  },
+  "top": {
+   "mph": 101,
+   "kind": "tested",
+   "note": "Governor limited (Car and Driver)"
+  },
+  "mpg": {
+   "combined": 54,
+   "city": 55,
+   "hwy": 53,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined on gas; 133 MPGe on electricity"
+  },
   "built": null,
   "alongside": [],
   "prev": null,
@@ -7905,6 +8917,14 @@ const CARS_INDEX = [
    "note": "Toyota figure"
   },
   "top": null,
+  "mpg": {
+   "combined": 52,
+   "city": 53,
+   "hwy": 51,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined on gas; 127 MPGe on electricity"
+  },
   "built": null,
   "alongside": [],
   "prev": {
@@ -7951,8 +8971,24 @@ const CARS_INDEX = [
   "hp": 99,
   "kg": 1148,
   "kgNote": "Curb weight, 2019 L",
-  "z60": null,
-  "top": null,
+  "z60": {
+   "sec": 11.2,
+   "kind": "tested",
+   "note": "Car and Driver test of a 2018 Prius c"
+  },
+  "top": {
+   "mph": 105,
+   "kind": "tested",
+   "note": "Drag limited, Car and Driver estimate (2018 Prius c)"
+  },
+  "mpg": {
+   "combined": 46,
+   "city": 48,
+   "hwy": 43,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
   "built": null,
   "alongside": [],
   "prev": null,
@@ -8001,6 +9037,14 @@ const CARS_INDEX = [
    "note": "Kelley Blue Book figure"
   },
   "top": null,
+  "mpg": {
+   "combined": 41,
+   "city": 43,
+   "hwy": 39,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
   "built": null,
   "alongside": [],
   "prev": null,
@@ -8058,8 +9102,24 @@ const CARS_INDEX = [
    "kind": "tested",
    "note": "Car and Driver test, 2017 Sienna SE Premium"
   },
-  "top": null,
-  "built": null,
+  "top": {
+   "mph": 117,
+   "kind": "tested",
+   "note": "Governor limited (Car and Driver)"
+  },
+  "mpg": {
+   "combined": 22,
+   "city": 19,
+   "hwy": 27,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
+  "built": {
+   "count": 1052689,
+   "approx": true,
+   "note": "Sold in the US, 2011–2020"
+  },
   "alongside": [],
   "prev": null,
   "next": {
@@ -8119,7 +9179,19 @@ const CARS_INDEX = [
    "note": "Car and Driver test, 2021 Sienna"
   },
   "top": null,
-  "built": null,
+  "mpg": {
+   "combined": 36,
+   "city": 36,
+   "hwy": 36,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
+  "built": {
+   "count": 516515,
+   "approx": true,
+   "note": "Sold in the US so far, 2021 to October 2026"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-sienna-xl30",
@@ -8173,7 +9245,19 @@ const CARS_INDEX = [
    "note": "Edmunds test, Crown Platinum Hybrid MAX"
   },
   "top": null,
-  "built": null,
+  "mpg": {
+   "combined": 41,
+   "city": 42,
+   "hwy": 41,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
+  "built": {
+   "count": 58356,
+   "approx": true,
+   "note": "Sold in the US so far, 2023 to October 2026"
+  },
   "alongside": [],
   "prev": null,
   "next": null,
@@ -8218,6 +9302,14 @@ const CARS_INDEX = [
   "kgNote": "Curb weight, Kelley Blue Book figure",
   "z60": null,
   "top": null,
+  "mpg": {
+   "combined": 38,
+   "city": 39,
+   "hwy": 37,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
   "built": null,
   "alongside": [],
   "prev": null,
@@ -8268,7 +9360,19 @@ const CARS_INDEX = [
    "kind": "tested",
    "note": "Car and Driver test, 2018 XLE Premium"
   },
-  "top": null,
+  "top": {
+   "mph": 115,
+   "kind": "tested",
+   "note": "Drag limited (Car and Driver)"
+  },
+  "mpg": {
+   "combined": 29,
+   "city": 27,
+   "hwy": 31,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
   "built": null,
   "alongside": [],
   "prev": null,
@@ -8317,13 +9421,21 @@ const CARS_INDEX = [
   },
   "hp": 338,
   "kg": 2071,
-  "kgNote": "Edmunds test car (4,565 lb)",
+  "kgNote": "Edmunds test car",
   "z60": {
    "sec": 4.9,
    "kind": "tested",
    "note": "Edmunds test, matching Toyota's claim"
   },
   "top": null,
+  "mpg": {
+   "combined": 117,
+   "city": 127,
+   "hwy": 107,
+   "unit": "MPGe",
+   "kind": "epa",
+   "note": "EPA combined, on 18-inch wheels (20-inch: 112 MPGe)"
+  },
   "built": null,
   "alongside": [],
   "prev": {
@@ -8377,10 +9489,26 @@ const CARS_INDEX = [
   },
   "hp": 185,
   "kg": 1438,
-  "kgNote": "Curb weight, 2017 LX sedan (3,170 lb)",
-  "z60": null,
+  "kgNote": "Curb weight, 2017 LX sedan",
+  "z60": {
+   "sec": 7.6,
+   "kind": "tested",
+   "note": "Car and Driver test, 2.4-liter with CVT"
+  },
   "top": null,
-  "built": null,
+  "mpg": {
+   "combined": 30,
+   "city": 27,
+   "hwy": 36,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
+  "built": {
+   "count": 1778460,
+   "approx": true,
+   "note": "Sold in the US, 2013–2017"
+  },
   "alongside": [],
   "prev": null,
   "next": {
@@ -8433,14 +9561,30 @@ const CARS_INDEX = [
   },
   "hp": 192,
   "kg": 1420,
-  "kgNote": "Curb weight, 2018 LX (3,131 lb)",
+  "kgNote": "Curb weight, 2018 LX",
   "z60": {
-   "sec": 5.5,
+   "sec": 7.3,
    "kind": "tested",
-   "note": "Car and Driver test, 2018 Accord 2.0T Touring, 10-speed automatic"
+   "note": "Car and Driver test, 1.5T automatic (2.0T: 5.5 sec)"
   },
-  "top": null,
-  "built": null,
+  "top": {
+   "mph": 121,
+   "kind": "tested",
+   "note": "Governor limited; Car and Driver test, 1.5T automatic"
+  },
+  "mpg": {
+   "combined": 33,
+   "city": 30,
+   "hwy": 38,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
+  "built": {
+   "count": 1115384,
+   "approx": true,
+   "note": "Sold in the US, 2018–2022"
+  },
   "alongside": [],
   "prev": {
    "id": "honda-accord-9th-gen",
@@ -8495,14 +9639,26 @@ const CARS_INDEX = [
   },
   "hp": 204,
   "kg": 1469,
-  "kgNote": "Curb weight, 2023 LX (3,239 lb)",
+  "kgNote": "Curb weight, 2023 LX",
   "z60": {
    "sec": 6.5,
    "kind": "tested",
    "note": "Car and Driver test, 2023 Accord Hybrid Touring"
   },
   "top": null,
-  "built": null,
+  "mpg": {
+   "combined": 44,
+   "city": 46,
+   "hwy": 41,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, Hybrid Sport and Touring (EX-L Hybrid: 48 mpg; 1.5-liter turbo: 32 mpg)"
+  },
+  "built": {
+   "count": 672302,
+   "approx": true,
+   "note": "Sold in the US so far, 2023 to October 2026"
+  },
   "alongside": [],
   "prev": {
    "id": "honda-accord-10th-gen",
@@ -8557,14 +9713,26 @@ const CARS_INDEX = [
   },
   "hp": 174,
   "kg": 1378,
-  "kgNote": "Test weight, 2017 Hatchback Sport Touring (Edmunds, 3,038 lb)",
+  "kgNote": "Test weight, 2017 Hatchback Sport Touring (Edmunds)",
   "z60": {
    "sec": 7.3,
    "kind": "tested",
    "note": "Edmunds test, 2017 Civic Hatchback Sport Touring"
   },
   "top": null,
-  "built": null,
+  "mpg": {
+   "combined": 36,
+   "city": 32,
+   "hwy": 42,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1.5-liter turbo sedan, CVT"
+  },
+  "built": {
+   "count": 1920635,
+   "approx": true,
+   "note": "Sold in the US, 2016–2021 (all Civic models)"
+  },
   "alongside": [],
   "prev": null,
   "next": {
@@ -8619,14 +9787,26 @@ const CARS_INDEX = [
   },
   "hp": 180,
   "kg": 1398,
-  "kgNote": "Test weight, 2022 Hatchback Sport Touring (Edmunds, 3,083 lb)",
+  "kgNote": "Test weight, 2022 Hatchback Sport Touring (Edmunds)",
   "z60": {
    "sec": 6.2,
    "kind": "tested",
    "note": "Car and Driver test, Civic Sport Touring Hybrid (2022 Hatchback Sport Touring turbo: 7.9 sec, Edmunds)"
   },
   "top": null,
-  "built": null,
+  "mpg": {
+   "combined": 36,
+   "city": 33,
+   "hwy": 42,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1.5-liter turbo sedan, CVT"
+  },
+  "built": {
+   "count": 1028074,
+   "approx": true,
+   "note": "Sold in the US so far, 2022 to October 2026 (all Civic models)"
+  },
   "alongside": [],
   "prev": {
    "id": "honda-civic-10th-gen",
@@ -8671,13 +9851,21 @@ const CARS_INDEX = [
   },
   "hp": 205,
   "kg": 1329,
-  "kgNote": "Test weight, 2017 Si sedan (Edmunds, 2,929 lb)",
+  "kgNote": "Test weight, 2017 Si sedan (Edmunds)",
   "z60": {
    "sec": 6.8,
    "kind": "tested",
    "note": "Edmunds test, 2017 Civic Si sedan"
   },
   "top": null,
+  "mpg": {
+   "combined": 32,
+   "city": 28,
+   "hwy": 38,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
   "built": null,
   "alongside": [],
   "prev": null,
@@ -8723,13 +9911,21 @@ const CARS_INDEX = [
   },
   "hp": 200,
   "kg": 1339,
-  "kgNote": "Curb weight (2,952 lb)",
+  "kgNote": "Curb weight",
   "z60": {
    "sec": 6.8,
    "kind": "tested",
    "note": "Car and Driver test, 2022 Civic Si"
   },
   "top": null,
+  "mpg": {
+   "combined": 31,
+   "city": 27,
+   "hwy": 37,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
   "built": null,
   "alongside": [],
   "prev": {
@@ -8781,13 +9977,25 @@ const CARS_INDEX = [
   },
   "hp": 306,
   "kg": 1411,
-  "kgNote": "Car and Driver test car (3,111 lb)",
+  "kgNote": "Car and Driver test car",
   "z60": {
    "sec": 4.9,
    "kind": "tested",
    "note": "Car and Driver test, 2017 Civic Type R"
   },
-  "top": null,
+  "top": {
+   "mph": 170,
+   "kind": "tested",
+   "note": "Drag limited, Car and Driver estimate"
+  },
+  "mpg": {
+   "combined": 25,
+   "city": 22,
+   "hwy": 28,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
   "built": null,
   "alongside": [],
   "prev": null,
@@ -8837,13 +10045,21 @@ const CARS_INDEX = [
   },
   "hp": 315,
   "kg": 1446,
-  "kgNote": "Curb weight (3,188 lb)",
+  "kgNote": "Curb weight",
   "z60": {
    "sec": 4.9,
    "kind": "tested",
    "note": "Car and Driver test, 2023 Civic Type R"
   },
   "top": null,
+  "mpg": {
+   "combined": 24,
+   "city": 22,
+   "hwy": 28,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
   "built": null,
   "alongside": [],
   "prev": {
@@ -8904,14 +10120,26 @@ const CARS_INDEX = [
   },
   "hp": 190,
   "kg": 1500,
-  "kgNote": "Curb weight, 2017 LX, front-wheel drive (3,307 lb)",
+  "kgNote": "Curb weight, 2017 LX, front-wheel drive",
   "z60": {
    "sec": 7.6,
    "kind": "tested",
    "note": "Car and Driver test, 2017 CR-V turbo, all-wheel drive"
   },
   "top": null,
-  "built": null,
+  "mpg": {
+   "combined": 30,
+   "city": 28,
+   "hwy": 34,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1.5-liter turbo, front-wheel drive (2.4-liter: 28 mpg)"
+  },
+  "built": {
+   "count": 2064004,
+   "approx": true,
+   "note": "Sold in the US, 2017–2022"
+  },
   "alongside": [],
   "prev": null,
   "next": {
@@ -8972,14 +10200,26 @@ const CARS_INDEX = [
   },
   "hp": 204,
   "kg": 1781,
-  "kgNote": "Curb weight, 2023 Sport Touring Hybrid AWD (3,926 lb)",
+  "kgNote": "Curb weight, 2023 Sport Touring Hybrid AWD",
   "z60": {
    "sec": 7.9,
    "kind": "tested",
    "note": "Car and Driver test, 2023 CR-V Sport Touring Hybrid"
   },
   "top": null,
-  "built": null,
+  "mpg": {
+   "combined": 37,
+   "city": 40,
+   "hwy": 34,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
+  "built": {
+   "count": 1539675,
+   "approx": true,
+   "note": "Sold in the US so far, 2023 to October 2026 (all CR-V models)"
+  },
   "alongside": [],
   "prev": {
    "id": "honda-cr-v-5th-gen",
@@ -9029,9 +10269,17 @@ const CARS_INDEX = [
   },
   "hp": 174,
   "kg": 2023,
-  "kgNote": "Curb weight (4,460 lb)",
+  "kgNote": "Curb weight",
   "z60": null,
   "top": null,
+  "mpg": {
+   "combined": 57,
+   "city": null,
+   "hwy": null,
+   "unit": "MPGe",
+   "kind": "epa",
+   "note": "EPA combined on hydrogen (87 MPGe on battery power for the first 29 miles)"
+  },
   "built": null,
   "alongside": [],
   "prev": null,
@@ -9080,13 +10328,21 @@ const CARS_INDEX = [
   },
   "hp": 200,
   "kg": 1479,
-  "kgNote": "Curb weight (3,261 lb)",
+  "kgNote": "Curb weight",
   "z60": {
    "sec": 6.5,
    "kind": "tested",
    "note": "Car and Driver test"
   },
   "top": null,
+  "mpg": {
+   "combined": 44,
+   "city": 46,
+   "hwy": 41,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": null
+  },
   "built": null,
   "alongside": [],
   "prev": null,

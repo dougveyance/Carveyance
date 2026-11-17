@@ -10613,6 +10613,65 @@ const CARS_INDEX = [
   }
  },
  {
+  "id": "toyota-venza-av10",
+  "name": "Toyota Venza (AV10)",
+  "aka": [
+   "2009–2015 Venza",
+   "Venza V6",
+   "Venza Limited",
+   "AV10"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2009–2015",
+  "start": 2009,
+  "body": "Mid-size crossover wagon, 5 seats",
+  "engine": "2.7-liter 4-cylinder; 3.5-liter V6",
+  "country": "United States",
+  "quick": "The first Venza, 2009–2015: a Camry-based crossover wagon designed in California and built in Kentucky, sized between the Camry and the Highlander.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Front-wheel drive or all-wheel drive",
+  "gearbox": "6-speed automatic",
+  "specsFor": "2009 Toyota Venza, 2.7-liter, front-wheel drive, US market (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d1516"
+  },
+  "hp": 182,
+  "kg": 1721,
+  "kgNote": "Curb weight, 2009 4-cylinder",
+  "lbs": 3795,
+  "z60": {
+   "sec": 8.4,
+   "kind": "tested",
+   "note": "Car and Driver test, 2009 4-cylinder"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 24,
+   "city": 21,
+   "hwy": 29,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2009 4-cylinder, front-wheel drive"
+  },
+  "built": {
+   "count": 272981,
+   "approx": true,
+   "note": "Sold in the US, 2008–2016 (calendar years)"
+  },
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": "toyota-venza-xu80",
+   "name": "Toyota Venza (XU80)"
+  },
+  "photo": null
+ },
+ {
   "id": "toyota-venza-xu80",
   "name": "Toyota Venza (XU80)",
   "aka": [
@@ -10667,7 +10726,10 @@ const CARS_INDEX = [
    "note": "Sold in the US, 2020–2025"
   },
   "alongside": [],
-  "prev": null,
+  "prev": {
+   "id": "toyota-venza-av10",
+   "name": "Toyota Venza (AV10)"
+  },
   "next": null,
   "photo": {
    "card": "/assets/images/cars/toyota-venza-xu80.jpg?v=5209ae98",
@@ -11120,6 +11182,119 @@ const CARS_INDEX = [
   }
  },
  {
+  "id": "toyota-echo-xp10",
+  "name": "Toyota Echo (XP10)",
+  "aka": [
+   "2000–2005 Echo",
+   "Echo coupe",
+   "Yaris (XP10)",
+   "Toyota Platz"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2000–2005",
+  "start": 2000,
+  "body": "Subcompact 4-door sedan and 2-door coupe",
+  "engine": "1.5-liter 4-cylinder",
+  "country": "Japan",
+  "quick": "The Echo, 2000–2005: a tall little Toyota sedan and coupe with its gauges in the middle of the dash, the North American forerunner of the Yaris.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Front-wheel drive",
+  "gearbox": "5-speed manual or 4-speed automatic",
+  "specsFor": "2000 Toyota Echo sedan, 5-speed manual, US market (Car and Driver test)",
+  "guide": null,
+  "shop": null,
+  "hp": 108,
+  "kg": 928,
+  "kgNote": "Curb weight, 2000 sedan",
+  "lbs": 2045,
+  "z60": {
+   "sec": 8.5,
+   "kind": "tested",
+   "note": "Car and Driver test, 2000 sedan"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 32,
+   "city": 29,
+   "hwy": 37,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2000, 5-speed manual"
+  },
+  "built": null,
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": "toyota-yaris-xp90",
+   "name": "Toyota Yaris (XP90)"
+  },
+  "photo": null
+ },
+ {
+  "id": "toyota-yaris-xp90",
+  "name": "Toyota Yaris (XP90)",
+  "aka": [
+   "2007–2011 Yaris",
+   "Yaris Liftback",
+   "Yaris sedan",
+   "Toyota Vitz",
+   "Toyota Belta",
+   "XP90"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2007–2011",
+  "start": 2007,
+  "body": "Subcompact 3-door and 5-door liftback; 4-door sedan",
+  "engine": "1.5-liter 4-cylinder",
+  "country": "Japan",
+  "quick": "The first car sold in America as a Yaris, 2007–2011: a small liftback and sedan with a 106-hp 1.5-liter that replaced the Echo.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Front-wheel drive",
+  "gearbox": "5-speed manual or 4-speed automatic",
+  "specsFor": "2007 Toyota Yaris S sedan, 5-speed manual, US market (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d827"
+  },
+  "hp": 106,
+  "kg": 1080,
+  "kgNote": "Curb weight, 2007 S sedan",
+  "lbs": 2380,
+  "z60": {
+   "sec": 8.9,
+   "kind": "tested",
+   "note": "Car and Driver test, 2007 S sedan"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 32,
+   "city": 29,
+   "hwy": 36,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2007, 5-speed manual"
+  },
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "toyota-echo-xp10",
+   "name": "Toyota Echo (XP10)"
+  },
+  "next": {
+   "id": "toyota-yaris-xp130",
+   "name": "Toyota Yaris (XP130)"
+  },
+  "photo": null
+ },
+ {
   "id": "toyota-yaris-xp130",
   "name": "Toyota Yaris (XP130)",
   "aka": [
@@ -11171,7 +11346,10 @@ const CARS_INDEX = [
   },
   "built": null,
   "alongside": [],
-  "prev": null,
+  "prev": {
+   "id": "toyota-yaris-xp90",
+   "name": "Toyota Yaris (XP90)"
+  },
   "next": null,
   "photo": {
    "card": "/assets/images/cars/toyota-yaris-xp130.jpg?v=0d95ba93",

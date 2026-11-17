@@ -1,0 +1,159 @@
+{
+  "id": "toyota-prius",
+  "make": "Toyota",
+  "model": "Prius",
+  "years": "2017–2026",
+  "byline": "Diana Chambers",
+  "published": "2026-11-16",
+  "updated": "2026-11-16",
+  "cars": [
+    "toyota-prius-xw50",
+    "toyota-prius-xw60",
+    "toyota-prius-prime-xw52",
+    "toyota-prius-plug-in-xw60",
+    "toyota-prius-c",
+    "toyota-prius-v"
+  ],
+  "shop": {
+    "cargurus": "d15"
+  },
+  "chapters": [
+    "2017-2022",
+    "2023-2026",
+    "prime-and-plug-in",
+    "prius-c-and-v",
+    "used-checklist"
+  ],
+  "series": {
+    "g4": {"name": "2017–2022 Prius", "color": "#9aa5b1"},
+    "g4e": {"name": "2017–2022 Prius Two Eco and L Eco", "color": "#9aa5b1"},
+    "g4a": {"name": "2019–2022 Prius AWD-e", "color": "#9aa5b1"},
+    "g5": {"name": "2023–2026 Prius, front-wheel drive", "color": "#2E6E96"},
+    "g5a": {"name": "2023–2026 Prius, all-wheel drive", "color": "#2E6E96"},
+    "g5le": {"name": "2023–2026 Prius LE", "color": "#e05c2a"},
+    "g5x": {"name": "2023–2026 Prius XLE and Limited", "color": "#2E6E96"},
+    "g5la": {"name": "2023–2026 Prius LE AWD", "color": "#2E6E96"},
+    "pr4": {"name": "2017–2022 Prius Prime", "color": "#9aa5b1"},
+    "pr5": {"name": "2023–2026 Prius Prime and Plug-in Hybrid", "color": "#e05c2a"},
+    "pr5se": {"name": "2023–2026 Prime and Plug-in Hybrid SE", "color": "#e05c2a"},
+    "pr5x": {"name": "2023–2026 Prime and Plug-in Hybrid XSE", "color": "#2E6E96"},
+    "pc": {"name": "Prius c", "color": "#9aa5b1"},
+    "pv": {"name": "Prius v", "color": "#9aa5b1"},
+    "p17two": {"name": "2017 Prius Two", "color": "#9aa5b1"},
+    "p19awd": {"name": "2019 Prius LE AWD-e", "color": "#9aa5b1"},
+    "p23le": {"name": "2023 Prius LE", "color": "#e05c2a"},
+    "p17pr": {"name": "2017 Prius Prime Plus", "color": "#9aa5b1"},
+    "p23pr": {"name": "2023 Prius Prime SE", "color": "#2E6E96"},
+    "p19c": {"name": "2019 Prius c L", "color": "#9aa5b1"},
+    "p17v": {"name": "2017 Prius v Two", "color": "#9aa5b1"}
+  },
+  "charts": {
+    "mpg": {
+      "n": 1,
+      "title": "EPA combined fuel economy",
+      "sub": "Miles per gallon, front-wheel drive unless noted. The plug-ins are in their own chapter.",
+      "source": "EPA ratings, via Toyota, Edmunds, Cars.com and CarGurus",
+      "bars": [
+        ["g4e", 56, "56 mpg"],
+        ["g4", 52, "52 mpg"],
+        ["g4a", 50, "50 mpg"],
+        ["g5le", 57, "57 mpg"],
+        ["g5la", 54, "54 mpg"],
+        ["g5x", 52, "52 mpg"],
+        ["pc", 46, "46 mpg"],
+        ["pv", 41, "41 mpg"]
+      ]
+    },
+    "power": {
+      "n": 2,
+      "title": "Horsepower by model",
+      "sub": "Toyota's figures. All are combined hybrid system output.",
+      "source": "Toyota, Consumer Guide, Kelley Blue Book and CarGurus",
+      "bars": [
+        ["g4", 121, "121 hp"],
+        ["g5", 194, "194 hp"],
+        ["g5a", 196, "196 hp"],
+        ["pr4", 121, "121 hp"],
+        ["pr5", 220, "220 hp"],
+        ["pc", 99, "99 hp"],
+        ["pv", 134, "134 hp"]
+      ]
+    },
+    "price": {
+      "n": 3,
+      "title": "What a new one cost, in 2026 dollars",
+      "sub": "Starting prices before delivery, adjusted with the US consumer price index. The original price is in each label.",
+      "source": "Consumer Guide, Cars.com, Toyota, J.D. Power and CarGurus prices; Carveyance CPI arithmetic",
+      "bars": [
+        ["p17two", 33900, "$33,900 · $24,685 then"],
+        ["p19awd", 34700, "$34,700 · $26,380 then"],
+        ["p23le", 30300, "$30,300 · $27,450 then"],
+        ["p17pr", 37200, "$37,200 · $27,100 then"],
+        ["p23pr", 35700, "$35,700 · $32,350 then"],
+        ["p19c", 28300, "$28,300 · $21,530 then"],
+        ["p17v", 36600, "$36,600 · $26,675 then"]
+      ]
+    },
+    "evrange": {
+      "n": 4,
+      "title": "Electric range on a full charge",
+      "sub": "Miles before the engine is needed, by the EPA and Toyota's ratings. Expect less in cold weather.",
+      "source": "Toyota and Cars.com",
+      "bars": [
+        ["pr4", 25, "25 miles"],
+        ["pr5se", 44, "44 miles"],
+        ["pr5x", 39, "39 miles"]
+      ]
+    }
+  },
+  "photos": {
+    "hub-hero": {
+      "want": "A 2023–2026 Prius outside, front three-quarter",
+      "credit": "Toyota",
+      "alt": "A blue 2025 Toyota Prius Limited parked on a waterfront, with a sailboat and a city skyline across the bay"
+    },
+    "ch1-hero": {
+      "want": "A 2017–2022 Prius outside, ideally a 2019–2022",
+      "credit": "Toyota",
+      "alt": "A black 2022 Toyota Prius Nightshade Edition with its headlights on, in a dark, foggy studio"
+    },
+    "ch2-hero": {
+      "want": "A 2023–2026 Prius driving on the road",
+      "credit": "Toyota",
+      "alt": "A yellow 2025 Toyota Prius Nightshade Edition parked on a wet rooftop at night, with a city skyline behind it"
+    },
+    "ch3-hero": {
+      "want": "A Prius Prime or Prius Plug-in Hybrid, ideally plugged in and charging",
+      "credit": "Toyota",
+      "alt": "A gray 2023 Toyota Prius Prime parked beside a charging station outside a glass-walled building"
+    },
+    "ch4-hero": {
+      "want": "A Prius c or a Prius v, ideally the Prius v with its cargo area open",
+      "credit": "Toyota",
+      "alt": "A 2015 Toyota Prius v with its hatch open in a beach parking lot under an arch bridge, as a family unloads a kayak"
+    },
+    "ch5-hero": {
+      "want": "The Prius cabin or its cargo area",
+      "credit": "Toyota",
+      "alt": "The cabin of a 2023 Toyota Prius: the driver's display sits beyond the steering wheel, beside a wide center touchscreen"
+    }
+  },
+  "find": {
+    "picker": [
+      {"model": "Prius", "years": "2017–2022", "ch": "2017-2022"},
+      {"model": "Prius", "years": "2023–2026", "ch": "2023-2026"},
+      {"model": "Prius Prime", "years": "2017–2022", "ch": "prime-and-plug-in"},
+      {"model": "Prius Prime / Plug-in Hybrid", "years": "2023–2026", "ch": "prime-and-plug-in"},
+      {"model": "Prius c", "years": "2017–2019", "ch": "prius-c-and-v"},
+      {"model": "Prius v", "years": "2017", "ch": "prius-c-and-v"}
+    ],
+    "terms": {
+      "": ["Prius", "Toyota Prius", "hybrid", "hatchback", "Prius family", "fuel economy"],
+      "2017-2022": ["fourth generation", "XW50", "Gen 4", "Two Eco", "L Eco", "AWD-e", "all-wheel drive", "TSS-P", "TSS 2.0", "2020 Edition", "Nightshade", "Apple CarPlay", "121 hp"],
+      "2023-2026": ["fifth generation", "XW60", "Gen 5", "2023 Prius", "194 hp", "196 hp", "AWD", "LE", "XLE", "Limited", "Nightshade", "Karashi", "TSS 3.0", "rear headroom"],
+      "prime-and-plug-in": ["Prius Prime", "Prime", "plug-in", "plug-in hybrid", "PHEV", "Prius Plug-in Hybrid", "electric range", "EV range", "charging", "220 hp", "SE", "XSE"],
+      "prius-c-and-v": ["Prius c", "Prius C", "Aqua", "Prius v", "Prius V", "wagon", "subcompact", "cargo space", "sliding rear seat"],
+      "used-checklist": ["used", "checklist", "inspection", "recalls", "hybrid battery", "battery warranty", "rear door recall", "brake booster recall", "inverter recall", "12-volt battery"]
+    }
+  }
+}

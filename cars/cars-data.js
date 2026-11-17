@@ -7685,5 +7685,656 @@ const CARS_INDEX = [
    "pos": "",
    "fit": ""
   }
+ },
+ {
+  "id": "toyota-prius-xw50",
+  "name": "Toyota Prius (XW50)",
+  "aka": [
+   "Fourth-generation Prius",
+   "Prius Two Eco",
+   "Prius L Eco",
+   "Prius AWD-e",
+   "Prius 2020 Edition",
+   "Prius Nightshade"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2016–2022",
+  "start": 2016,
+  "body": "Compact 5-door hatchback",
+  "engine": "1.8-liter 4-cylinder hybrid with 2 motor-generators",
+  "country": "Japan",
+  "quick": "The fourth-generation Prius, sold in the US for 2016–2022: a 121-hp hybrid hatchback rated at 52 mpg combined, or 56 in the Eco grades, with Toyota Safety Sense P standard from 2017 and electric all-wheel drive from 2019.",
+  "articles": [
+   "industry-brief-2026-10-05",
+   "the-prius-paradox",
+   "natural-selection"
+  ],
+  "latest": "2026-10-05",
+  "ownDates": [],
+  "dates": [
+   "2026-10-05",
+   "2026-09-28"
+  ],
+  "drive": "Front-wheel drive; AWD-e, with an electric rear motor, from 2019",
+  "gearbox": "Electronically controlled CVT",
+  "specsFor": "2017 Toyota Prius, US market",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-prius/",
+   "title": "The Toyota Prius Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d15"
+  },
+  "hp": 121,
+  "kg": 1365,
+  "kgNote": "Curb weight, 2017 Two Eco (other grades up to 1,397 kg / 3,080 lb)",
+  "z60": {
+   "sec": 10.5,
+   "kind": "tested",
+   "note": "Car and Driver test, 2017 Prius Three Touring"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": "toyota-prius-xw60",
+   "name": "Toyota Prius (XW60)"
+  },
+  "photo": {
+   "card": "/assets/images/cars/toyota-prius-xw50.jpg?v=930d80dd",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "toyota-prius-xw60",
+  "name": "Toyota Prius (XW60)",
+  "aka": [
+   "Fifth-generation Prius",
+   "2023 Prius",
+   "Prius LE",
+   "Prius Limited",
+   "Prius Nightshade",
+   "Prius AWD"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2023–present",
+  "start": 2023,
+  "body": "Compact 5-door hatchback",
+  "engine": "2.0-liter 4-cylinder hybrid",
+  "country": "Japan",
+  "quick": "The fifth-generation Prius, from 2023: low, sleek and much quicker than before, with a 194-hp 2.0-liter hybrid, available all-wheel drive and an EPA rating of up to 57 mpg combined.",
+  "articles": [
+   "industry-brief-2026-10-05",
+   "the-prius-paradox",
+   "natural-selection"
+  ],
+  "latest": "2026-10-05",
+  "ownDates": [],
+  "dates": [
+   "2026-10-05",
+   "2026-09-28"
+  ],
+  "drive": "Front-wheel drive, or all-wheel drive with an electric rear motor",
+  "gearbox": "Electronically controlled CVT",
+  "specsFor": "2023 Toyota Prius, US market",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-prius/",
+   "title": "The Toyota Prius Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d15"
+  },
+  "hp": 194,
+  "kg": 1405,
+  "kgNote": "Curb weight, 2023 LE (Limited: 1,460 kg / 3,219 lb)",
+  "z60": {
+   "sec": 7.1,
+   "kind": "tested",
+   "note": "Car and Driver test, 2023 Prius Limited FWD"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "toyota-prius-xw50",
+   "name": "Toyota Prius (XW50)"
+  },
+  "next": null,
+  "photo": {
+   "card": "/assets/images/cars/toyota-prius-xw60.jpg?v=009230e9",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "toyota-prius-prime-xw52",
+  "name": "Toyota Prius Prime (XW52)",
+  "aka": [
+   "First-generation Prius Prime",
+   "Prius Prime Plus",
+   "Prius Prime Premium",
+   "Prius Prime Advanced",
+   "Prius PHV"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2017–2022",
+  "start": 2017,
+  "body": "Compact 5-door hatchback, plug-in hybrid",
+  "engine": "1.8-liter 4-cylinder plug-in hybrid, 8.8 kWh battery",
+  "country": "Japan",
+  "quick": "The first Prius Prime: a plug-in Prius with its own nose and tail, 25 miles of EPA electric range, 133 MPGe and 54 mpg as a hybrid. It seated only 4 until a fifth seat arrived for 2020.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Front-wheel drive",
+  "gearbox": "Electronically controlled CVT",
+  "specsFor": "2017 Toyota Prius Prime, US market",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-prius/",
+   "title": "The Toyota Prius Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d2418"
+  },
+  "hp": 121,
+  "kg": null,
+  "kgNote": "",
+  "z60": null,
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": "toyota-prius-plug-in-xw60",
+   "name": "Toyota Prius Prime / Plug-in Hybrid (XW60)"
+  },
+  "photo": {
+   "card": "/assets/images/cars/toyota-prius-prime-xw52.jpg?v=b8f74b8d",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "toyota-prius-plug-in-xw60",
+  "name": "Toyota Prius Prime / Plug-in Hybrid (XW60)",
+  "aka": [
+   "Second-generation Prius Prime",
+   "Prius Plug-in Hybrid",
+   "Prius PHEV",
+   "Prius Prime SE",
+   "Prius Prime XSE Premium"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2023–present",
+  "start": 2023,
+  "body": "Compact 5-door hatchback, plug-in hybrid",
+  "engine": "2.0-liter 4-cylinder plug-in hybrid, 13.6 kWh battery",
+  "country": "Japan",
+  "quick": "The second plug-in Prius, from 2023: 220 hp, up to 44 miles of electric range and 52 mpg in hybrid mode. Sold as the Prius Prime until 2024 and as the Prius Plug-in Hybrid from 2025.",
+  "articles": [
+   "the-prius-paradox"
+  ],
+  "latest": "2026-10-05",
+  "ownDates": [],
+  "dates": [
+   "2026-10-05"
+  ],
+  "drive": "Front-wheel drive",
+  "gearbox": "Electronically controlled CVT",
+  "specsFor": "2023 Toyota Prius Prime, US market",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-prius/",
+   "title": "The Toyota Prius Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d2418"
+  },
+  "hp": 220,
+  "kg": 1570,
+  "kgNote": "Curb weight, lightest 2023 version (up to 1,620 kg / 3,571 lb)",
+  "z60": {
+   "sec": 6.6,
+   "kind": "claimed",
+   "note": "Toyota figure"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "toyota-prius-prime-xw52",
+   "name": "Toyota Prius Prime (XW52)"
+  },
+  "next": null,
+  "photo": {
+   "card": "/assets/images/cars/toyota-prius-plug-in-xw60.jpg?v=75cb6774",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "toyota-prius-c",
+  "name": "Toyota Prius c",
+  "aka": [
+   "Prius C",
+   "Toyota Aqua",
+   "Prius c One",
+   "Prius c Four",
+   "Prius c LE"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2012–2019",
+  "start": 2012,
+  "body": "Subcompact 5-door hatchback",
+  "engine": "1.5-liter 4-cylinder hybrid",
+  "country": "Japan",
+  "quick": "The smallest Prius: a subcompact hybrid hatchback with 99 hp and an EPA rating of 46 mpg combined, sold in the US for 2012–2019 and in Japan as the Toyota Aqua.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Front-wheel drive",
+  "gearbox": "Electronically controlled CVT",
+  "specsFor": "2019 Toyota Prius c, US market",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-prius/",
+   "title": "The Toyota Prius Buyer's Guide"
+  },
+  "shop": null,
+  "hp": 99,
+  "kg": 1148,
+  "kgNote": "Curb weight, 2019 L",
+  "z60": null,
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": null,
+  "next": null,
+  "photo": {
+   "card": "/assets/images/cars/toyota-prius-c.jpg?v=39ee479e",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "toyota-prius-v",
+  "name": "Toyota Prius v",
+  "aka": [
+   "Prius V",
+   "Prius wagon",
+   "Prius+",
+   "Prius v Five"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2012–2017",
+  "start": 2012,
+  "body": "Compact 5-door wagon",
+  "engine": "1.8-liter 4-cylinder hybrid",
+  "country": "Japan",
+  "quick": "The roomiest Prius: a tall hybrid wagon with a sliding, reclining rear seat and up to 67.3 cubic feet of cargo space, rated at 41 mpg combined. Sold in the US for 2012–2017.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Front-wheel drive",
+  "gearbox": "Electronically controlled CVT",
+  "specsFor": "2017 Toyota Prius v, US market",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-prius/",
+   "title": "The Toyota Prius Buyer's Guide"
+  },
+  "shop": null,
+  "hp": 134,
+  "kg": 1515,
+  "kgNote": "Curb weight, 2017 Prius v Two",
+  "z60": {
+   "sec": 10.9,
+   "kind": "claimed",
+   "note": "Kelley Blue Book figure"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": null,
+  "next": null,
+  "photo": {
+   "card": "/assets/images/cars/toyota-prius-v.jpg?v=14ba49a0",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "toyota-sienna-xl30",
+  "name": "Toyota Sienna (XL30)",
+  "aka": [
+   "Third-generation Sienna",
+   "Sienna SE",
+   "Sienna XLE",
+   "Sienna Limited",
+   "Sienna AWD",
+   "Sienna Nightshade"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2011–2020",
+  "start": 2011,
+  "body": "Minivan, 7 or 8 seats",
+  "engine": "3.5-liter V6 (296 hp for 2017–2020)",
+  "country": "United States",
+  "quick": "The last V6 Sienna, built in Indiana for 2011–2020. From 2017 it had a 296-hp V6 and an 8-speed automatic, and for those years it was the only minivan you could buy with all-wheel drive.",
+  "articles": [
+   "industry-brief-2026-11-02",
+   "the-prius-paradox"
+  ],
+  "latest": "2026-11-02",
+  "ownDates": [],
+  "dates": [
+   "2026-11-02",
+   "2026-10-05"
+  ],
+  "drive": "Front-wheel drive or all-wheel drive",
+  "gearbox": "8-speed automatic (2017–2020)",
+  "specsFor": "2017 Toyota Sienna, US market",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-sienna/",
+   "title": "The Toyota Sienna Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d308"
+  },
+  "hp": 296,
+  "kg": 2009,
+  "kgNote": "Curb weight, 2019 L (up to 2,093 kg / 4,615 lb)",
+  "z60": {
+   "sec": 6.8,
+   "kind": "tested",
+   "note": "Car and Driver test, 2017 Sienna SE Premium"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": "toyota-sienna-xl40",
+   "name": "Toyota Sienna (XL40)"
+  },
+  "photo": {
+   "card": "/assets/images/cars/toyota-sienna-xl30.jpg?v=0554df82",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "toyota-sienna-xl40",
+  "name": "Toyota Sienna (XL40)",
+  "aka": [
+   "Fourth-generation Sienna",
+   "Sienna Hybrid",
+   "Sienna XSE",
+   "Sienna Platinum",
+   "Sienna Woodland Edition"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2021–present",
+  "start": 2021,
+  "body": "Minivan, 7 or 8 seats",
+  "engine": "2.5-liter 4-cylinder hybrid",
+  "country": "United States",
+  "quick": "The all-hybrid Sienna, from 2021: 245 hp, all-wheel drive available on every grade and an EPA rating of 36 mpg combined, with long-sliding second-row seats that no longer come out.",
+  "articles": [
+   "industry-brief-2026-11-02",
+   "the-prius-paradox"
+  ],
+  "latest": "2026-11-02",
+  "ownDates": [],
+  "dates": [
+   "2026-11-02",
+   "2026-10-05"
+  ],
+  "drive": "Front-wheel drive, or all-wheel drive with an electric rear motor",
+  "gearbox": "Electronically controlled CVT",
+  "specsFor": "2021 Toyota Sienna, US market",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-sienna/",
+   "title": "The Toyota Sienna Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d308"
+  },
+  "hp": 245,
+  "kg": null,
+  "kgNote": "",
+  "z60": {
+   "sec": 7.7,
+   "kind": "tested",
+   "note": "Car and Driver test, 2021 Sienna"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "toyota-sienna-xl30",
+   "name": "Toyota Sienna (XL30)"
+  },
+  "next": null,
+  "photo": {
+   "card": "/assets/images/cars/toyota-sienna-xl40.jpg?v=712cd2e5",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "toyota-crown-crossover",
+  "name": "Toyota Crown (2023–)",
+  "aka": [
+   "Crown Crossover",
+   "16th-generation Crown",
+   "Crown Platinum",
+   "Crown Hybrid MAX",
+   "Crown Nightshade"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2023–present",
+  "start": 2023,
+  "body": "Full-size 4-door sedan with a raised ride height",
+  "engine": "2.5-liter 4-cylinder hybrid; or 2.4-liter turbocharged 4-cylinder Hybrid MAX",
+  "country": "Japan",
+  "quick": "The Crown name's return to the US after 1972: a tall, all-wheel-drive hybrid sedan that replaced the Avalon for 2023, rated at 41 mpg, with a 340-hp Hybrid MAX on the Platinum.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "All-wheel drive",
+  "gearbox": "CVT (Hybrid MAX: 6-speed automatic)",
+  "specsFor": "2023 Toyota Crown, US market",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-crown/",
+   "title": "The Toyota Crown and Crown Signia Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d1156"
+  },
+  "hp": 236,
+  "kg": 1928,
+  "kgNote": "Curb weight, XLE and Limited (Platinum: 1,953 kg / 4,306 lb)",
+  "z60": {
+   "sec": 6.0,
+   "kind": "tested",
+   "note": "Edmunds test, Crown Platinum Hybrid MAX"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": null,
+  "next": null,
+  "photo": {
+   "card": "/assets/images/cars/toyota-crown-crossover.jpg?v=5408a7df",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "toyota-crown-signia",
+  "name": "Toyota Crown Signia",
+  "aka": [
+   "Crown Estate",
+   "Crown Signia XLE",
+   "Crown Signia Limited"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2025–present",
+  "start": 2025,
+  "body": "Midsize 5-seat SUV with a wagon-like shape",
+  "engine": "2.5-liter 4-cylinder hybrid",
+  "country": "Japan",
+  "quick": "The Crown as a long, low hybrid SUV: 240 hp, all-wheel drive, 38 mpg combined and up to 68.8 cubic feet of cargo space. It replaced the Venza for 2025 and is sold in Japan as the Crown Estate.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "All-wheel drive",
+  "gearbox": "Electronically controlled CVT",
+  "specsFor": "2025 Toyota Crown Signia, US market",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-crown/",
+   "title": "The Toyota Crown and Crown Signia Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d3371"
+  },
+  "hp": 240,
+  "kg": 1869,
+  "kgNote": "Curb weight, Kelley Blue Book figure",
+  "z60": null,
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": null,
+  "next": null,
+  "photo": {
+   "card": "/assets/images/cars/toyota-crown-signia.jpg?v=5ab59762",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "toyota-c-hr-ax10",
+  "name": "Toyota C-HR (AX10)",
+  "aka": [
+   "First-generation C-HR",
+   "C-HR XLE Premium",
+   "C-HR Limited",
+   "C-HR Nightshade",
+   "Scion C-HR"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2018–2022",
+  "start": 2018,
+  "body": "Subcompact crossover",
+  "engine": "2.0-liter 4-cylinder",
+  "country": "Turkey (2018–2020 US cars)",
+  "quick": "The gas C-HR, sold in the US for 2018–2022: a sharply styled, front-drive small crossover with a 144-hp 2.0-liter and a CVT, rated at 29 mpg. It was meant to be a Scion.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Front-wheel drive",
+  "gearbox": "CVT",
+  "specsFor": "2018 Toyota C-HR XLE Premium, US market (Car and Driver test car)",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-c-hr/",
+   "title": "The Toyota C-HR Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d2474"
+  },
+  "hp": 144,
+  "kg": 1491,
+  "kgNote": "Curb weight, as tested by Car and Driver",
+  "z60": {
+   "sec": 11.0,
+   "kind": "tested",
+   "note": "Car and Driver test, 2018 XLE Premium"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": "toyota-c-hr-ev",
+   "name": "Toyota C-HR (electric)"
+  },
+  "photo": {
+   "card": "/assets/images/cars/toyota-c-hr-ax10.jpg?v=18bbcc3a",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "toyota-c-hr-ev",
+  "name": "Toyota C-HR (electric)",
+  "aka": [
+   "C-HR EV",
+   "C-HR BEV",
+   "C-HR+",
+   "2026 C-HR",
+   "C-HR SE",
+   "C-HR XSE"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2026–present",
+  "start": 2026,
+  "body": "Compact electric crossover",
+  "engine": "Battery-electric, 2 motors, 74.7 kWh battery",
+  "country": "Japan",
+  "quick": "The C-HR name's return as an electric crossover: 338 hp from 2 motors, standard all-wheel drive, a NACS port and up to 287 miles of EPA range, from $37,000 for 2026.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "All-wheel drive",
+  "gearbox": "Single-speed reduction gear",
+  "specsFor": "2026 Toyota C-HR, US market",
+  "guide": {
+   "url": "/fitdrive/guides/toyota-c-hr/",
+   "title": "The Toyota C-HR Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d2474"
+  },
+  "hp": 338,
+  "kg": 2071,
+  "kgNote": "Edmunds test car (4,565 lb)",
+  "z60": {
+   "sec": 4.9,
+   "kind": "tested",
+   "note": "Edmunds test, matching Toyota's claim"
+  },
+  "top": null,
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "toyota-c-hr-ax10",
+   "name": "Toyota C-HR (AX10)"
+  },
+  "next": null,
+  "photo": {
+   "card": "/assets/images/cars/toyota-c-hr-ev.jpg?v=c6d77215",
+   "pos": "",
+   "fit": ""
+  }
  }
 ];

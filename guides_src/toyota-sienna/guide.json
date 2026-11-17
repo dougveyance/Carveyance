@@ -1,0 +1,126 @@
+{
+  "id": "toyota-sienna",
+  "make": "Toyota",
+  "model": "Sienna",
+  "years": "2017–2026",
+  "byline": "Margot Devries",
+  "published": "2026-11-16",
+  "updated": "2026-11-16",
+  "cars": [
+    "toyota-sienna-xl30",
+    "toyota-sienna-xl40"
+  ],
+  "shop": {
+    "cargurus": "d308"
+  },
+  "chapters": [
+    "2017-2020",
+    "2021-2026",
+    "v6-or-hybrid",
+    "used-checklist"
+  ],
+  "series": {
+    "v3": {"name": "2017–2020 V6", "color": "#9aa5b1"},
+    "h4": {"name": "2021–2026 hybrid", "color": "#2E6E96"},
+    "v17": {"name": "2017 V6, front-wheel drive", "color": "#9aa5b1"},
+    "v18": {"name": "2018–2020 V6, front-wheel drive", "color": "#9aa5b1"},
+    "va": {"name": "2017–2020 V6, all-wheel drive", "color": "#9aa5b1"},
+    "hf": {"name": "2021–2026 hybrid, front-wheel drive", "color": "#e05c2a"},
+    "ha": {"name": "2021–2026 hybrid, all-wheel drive", "color": "#2E6E96"},
+    "p17l": {"name": "2017 Sienna L", "color": "#9aa5b1"},
+    "p17le": {"name": "2017 Sienna LE", "color": "#9aa5b1"},
+    "p21le": {"name": "2021 Sienna LE", "color": "#2E6E96"},
+    "p21xle": {"name": "2021 Sienna XLE", "color": "#2E6E96"},
+    "p25le": {"name": "2025 Sienna LE", "color": "#e05c2a"}
+  },
+  "charts": {
+    "power": {
+      "n": 1,
+      "title": "Horsepower by powertrain",
+      "sub": "Toyota's figures. The hybrid number is combined system output.",
+      "source": "Toyota, Car and Driver and WardsAuto",
+      "bars": [
+        ["v3", 296, "296 hp"],
+        ["h4", 245, "245 hp"]
+      ]
+    },
+    "price": {
+      "n": 2,
+      "title": "What a new one cost, in 2026 dollars",
+      "sub": "Starting prices before delivery, adjusted with the US consumer price index. The original price is in each label.",
+      "source": "Cars.com, Carscoops and Toyota prices; Carveyance CPI arithmetic",
+      "bars": [
+        ["p17l", 40800, "$40,800 · $29,750 then"],
+        ["p17le", 44600, "$44,600 · $32,540 then"],
+        ["p21le", 42800, "$42,800 · $34,460 then"],
+        ["p21xle", 49300, "$49,300 · $39,750 then"],
+        ["p25le", 40900, "$40,900 · $39,185 then"]
+      ]
+    },
+    "mpg": {
+      "n": 3,
+      "title": "EPA combined fuel economy",
+      "sub": "Miles per gallon.",
+      "source": "EPA ratings, via Car and Driver and Velocity Journal",
+      "bars": [
+        ["v17", 22, "22 mpg"],
+        ["v18", 21, "21 mpg"],
+        ["va", 20, "20 mpg"],
+        ["hf", 36, "36 mpg"],
+        ["ha", 35, "35 mpg"]
+      ]
+    },
+    "fuelcost": {
+      "n": 4,
+      "title": "Fuel for a year",
+      "sub": "12,000 miles at $4 a gallon, using the EPA combined ratings above. An example, not a forecast.",
+      "source": "Carveyance arithmetic",
+      "bars": [
+        ["v18", 2286, "$2,286"],
+        ["va", 2400, "$2,400"],
+        ["hf", 1333, "$1,333"],
+        ["ha", 1371, "$1,371"]
+      ]
+    }
+  },
+  "photos": {
+    "hub-hero": {
+      "want": "A 2021–2026 Sienna outside, front three-quarter",
+      "credit": "Toyota",
+      "alt": "A gray 2025 Toyota Sienna Platinum parked on a waterfront, with a city skyline across the water"
+    },
+    "ch1-hero": {
+      "want": "A 2017–2020 Sienna outside, ideally a 2018–2020",
+      "credit": "Toyota",
+      "alt": "A blue 2018 Toyota Sienna SE turning through a suburban intersection"
+    },
+    "ch2-hero": {
+      "want": "A 2021–2026 Sienna on the road, or its second row with the captain's chairs",
+      "credit": "Toyota",
+      "alt": "A man carrying a wooden crate kicks under the bumper to open the liftgate of a gray 2021 Toyota Sienna Platinum in a driveway"
+    },
+    "ch3-hero": {
+      "want": "A Sienna Hybrid badge, or a 2021–2026 Sienna AWD",
+      "credit": "Toyota",
+      "alt": "A bronze 2022 Toyota Sienna XLE AWD on a parking-garage rooftop, with a downtown skyline behind it"
+    },
+    "ch4-hero": {
+      "want": "A Sienna with its sliding doors open, or the cabin",
+      "credit": "Toyota",
+      "alt": "The second row of a 2021 Toyota Sienna Platinum: 2 brown leather captain's chairs, one with its leg rest raised, and the third row behind"
+    }
+  },
+  "find": {
+    "picker": [
+      {"model": "Sienna", "years": "2017–2020", "ch": "2017-2020"},
+      {"model": "Sienna", "years": "2021–2026", "ch": "2021-2026"}
+    ],
+    "terms": {
+      "": ["Sienna", "Toyota Sienna", "minivan", "van", "family van", "8 seats", "7 seats"],
+      "2017-2020": ["third generation", "XL30", "V6", "296 hp", "8-speed", "AWD", "all-wheel drive", "SE", "TSS-P", "Apple CarPlay", "Nightshade"],
+      "2021-2026": ["fourth generation", "XL40", "hybrid", "Sienna Hybrid", "245 hp", "XSE", "Platinum", "Woodland", "FridgeBox", "vacuum", "Super Long Slide", "rear seat reminder"],
+      "v6-or-hybrid": ["V6 vs hybrid", "which engine", "fuel cost", "mpg", "fuel economy", "towing", "removable seats"],
+      "used-checklist": ["used", "checklist", "inspection", "recalls", "sliding door", "seat recall", "fuel pump recall", "third-row recall", "second-row recall"]
+    }
+  }
+}

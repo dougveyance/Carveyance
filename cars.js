@@ -16417,6 +16417,859 @@ const CARS = [
     }
   },
   {
+    "id": "toyota-crown-1st-gen",
+    "name": "Toyota Crown (first generation)",
+    "aka": [
+      "Toyopet Crown",
+      "RS",
+      "S30",
+      "Toyota Patrol"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "1955–1962",
+    "start": 1955,
+    "end": 1962,
+    "body": "4-door sedan",
+    "engine": "1.5-liter 4-cylinder; larger 4-cylinders later",
+    "drive": "Rear-wheel drive",
+    "gearbox": "Manual or automatic",
+    "specsFor": "Toyota Crown, first generation",
+    "power": {
+      "na": "Several engines; no single figure"
+    },
+    "weight": {
+      "na": "No figure on record"
+    },
+    "zero60": {
+      "na": "No test on record"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "na": "No production total on record"
+    },
+    "predecessor": null,
+    "successor": {
+      "name": "Toyota Crown (second generation)",
+      "id": "toyota-crown-2nd-gen"
+    },
+    "quick": "The first Crown, 1955–1962: the Toyopet Crown, Toyota's first big postwar sedan and the first Toyota exported to the United States.",
+    "story": [
+      "Toyota introduced the Toyopet Crown in Japan in January 1955, largely to serve public transportation such as taxis. It used a 1.5-liter Type R 4-cylinder carried over from the Toyopet Super, independent front coil-spring suspension and rear-hinged rear doors. A police version, the Toyota Patrol, was built too, and taxi operators preferred the Crown's softer suspension to the tougher Master sold alongside it.",
+      "In 1958 the Crown became the first Toyota exported to the United States, but it struggled at American freeway speeds, and in 1960 Toyota paused exports until it had an improved car. It was also sold in Mexico from 1959."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Crown"
+    ]
+  },
+  {
+    "id": "toyota-crown-2nd-gen",
+    "name": "Toyota Crown (second generation)",
+    "aka": [
+      "Toyopet Crown",
+      "S40",
+      "Crown Custom",
+      "Masterline"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "1962–1967",
+    "start": 1962,
+    "end": 1967,
+    "body": "4-door sedan and wagon; Masterline commercial versions",
+    "engine": "R-series 4-cylinder; 2.0-liter M 6-cylinder from 1965",
+    "drive": "Rear-wheel drive",
+    "gearbox": "Manual or automatic",
+    "specsFor": "Toyota Crown, second generation",
+    "power": {
+      "na": "Several engines; no single figure"
+    },
+    "weight": {
+      "na": "No figure on record"
+    },
+    "zero60": {
+      "na": "No test on record"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "na": "No production total on record"
+    },
+    "predecessor": {
+      "name": "Toyota Crown (first generation)",
+      "id": "toyota-crown-1st-gen"
+    },
+    "successor": {
+      "name": "Toyota Crown (third generation)",
+      "id": "toyota-crown-3rd-gen"
+    },
+    "quick": "The second Crown, 1962–1967: bigger, with an American-style grille, the first crown badge, a 6-cylinder from 1965, and the first Toyota sold in Europe.",
+    "story": [
+      "Launched in 1962, after the smaller Corona took over the lower end of the range, the S40 Crown was larger and restyled, with a grille that echoed Chrysler's 1960 Imperial Crown. It introduced the stylized crown badge on the grille and hubcaps, and it started with R-series 4-cylinder engines before a 2.0-liter M 6-cylinder arrived in 1965; a sporty version added a livelier camshaft, a 4-speed floor shift, bucket seats and front disc brakes.",
+      "After the head of Denmark's Erla Auto Import saw it at the Tokyo Motor Show, it became the first Toyota exported to Europe, and it reached Canada in November 1964. A widened V8 version, the 1964 Crown Eight, was the first mass-produced Japanese car with an 8-cylinder engine, built to replace the big American cars that Japanese companies used."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Crown"
+    ]
+  },
+  {
+    "id": "toyota-crown-3rd-gen",
+    "name": "Toyota Crown (third generation)",
+    "aka": [
+      "Toyopet Crown",
+      "S50",
+      "Crown Super Saloon",
+      "Crown S"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "1967–1971",
+    "start": 1967,
+    "end": 1971,
+    "body": "4-door sedan, wagon and commercial versions",
+    "engine": "4-cylinder and 6-cylinder engines",
+    "drive": "Rear-wheel drive",
+    "gearbox": "Manual or automatic",
+    "specsFor": "Toyota Crown, third generation",
+    "power": {
+      "na": "Several engines; no single figure"
+    },
+    "weight": {
+      "na": "No figure on record"
+    },
+    "zero60": {
+      "na": "No test on record"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "na": "No production total on record"
+    },
+    "predecessor": {
+      "name": "Toyota Crown (second generation)",
+      "id": "toyota-crown-2nd-gen"
+    },
+    "successor": {
+      "name": "Toyota Crown (fourth generation)",
+      "id": "toyota-crown-4th-gen"
+    },
+    "quick": "The third Crown, 1967–1971: a safer perimeter frame, a luxurious Super Saloon, and the last Crown offered as a full line of commercial vehicles.",
+    "story": [
+      "Launched in 1967, the S50 Crown kept its predecessor's mechanicals but added equipment, and it swapped the old X-frame for a perimeter frame that better protected passengers in a crash, a design Crowns would use until 1999. A new Super Saloon topped the range with twin carburetors, power windows, rear-seat radio controls and air conditioning.",
+      "The sporty Crown S's 2.0-liter 6-cylinder made 125 PS, more than a larger 6-cylinder's 115 PS thanks to its tuning, while lower models used 4-cylinder engines. It was the last Crown sold as a whole family of commercial vehicles; after it, only the Crown Van remained."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Crown"
+    ]
+  },
+  {
+    "id": "toyota-crown-4th-gen",
+    "name": "Toyota Crown (fourth generation)",
+    "aka": [
+      "Toyota Crown",
+      "S60",
+      "S70",
+      "Crown Royal Saloon"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "1971–1974",
+    "start": 1971,
+    "end": 1974,
+    "body": "4-door sedan, 2-door hardtop, wagon and van",
+    "engine": "M-series 6-cylinder and R-series 4-cylinder engines",
+    "drive": "Rear-wheel drive",
+    "gearbox": "Manual or automatic",
+    "specsFor": "Toyota Crown, fourth generation",
+    "power": {
+      "na": "Several engines; no single figure"
+    },
+    "weight": {
+      "na": "No figure on record"
+    },
+    "zero60": {
+      "na": "No test on record"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "na": "No production total on record"
+    },
+    "predecessor": {
+      "name": "Toyota Crown (third generation)",
+      "id": "toyota-crown-3rd-gen"
+    },
+    "successor": {
+      "name": "Toyota Crown (fifth generation)",
+      "id": "toyota-crown-5th-gen"
+    },
+    "quick": "The fourth Crown, 1971–1974: the first marketed worldwide as a Toyota rather than a Toyopet, and the last Crown sold in America until 2023.",
+    "story": [
+      "Launched in February 1971, the fourth Crown came in Deluxe, Super Deluxe and higher trims, and the 1973 facelift added a Royal Saloon with luxury features borrowed from the Century limousine. Earlier Crowns had been sold under the Toyopet name; this was the first marketed worldwide as the Toyota Crown.",
+      "Its first 2 model years were sold in North America, after which the Corona Mark II replaced it there and the Crown's US run, begun in 1958, came to an end. The name would not return to American showrooms for 50 years."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Crown"
+    ]
+  },
+  {
+    "id": "toyota-crown-5th-gen",
+    "name": "Toyota Crown (fifth generation)",
+    "aka": [
+      "Toyota Crown",
+      "S80",
+      "S90",
+      "S100",
+      "Crown Royal Saloon"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "1974–1979",
+    "start": 1974,
+    "end": 1979,
+    "body": "4-door sedan, 2-door and 4-door hardtop, wagon and van",
+    "engine": "4-cylinder and 6-cylinder engines up to a 2.6-liter inline-6",
+    "drive": "Rear-wheel drive",
+    "gearbox": "Manual or automatic",
+    "specsFor": "Toyota Crown, fifth generation",
+    "power": {
+      "na": "Several engines; no single figure"
+    },
+    "weight": {
+      "na": "No figure on record"
+    },
+    "zero60": {
+      "na": "No test on record"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "na": "Not sold in the US, so no EPA rating"
+    },
+    "built": {
+      "na": "No production total on record"
+    },
+    "predecessor": {
+      "name": "Toyota Crown (fourth generation)",
+      "id": "toyota-crown-4th-gen"
+    },
+    "successor": {
+      "name": "Toyota Crown (sixth generation)",
+      "id": "toyota-crown-6th-gen"
+    },
+    "quick": "The fifth Crown, 1974–1979: sedans, 2-door and 4-door hardtops, wagons and vans, with a pillared-hardtop Royal Saloon at the top.",
+    "story": [
+      "Launched in Japan in 1974 and exported from 1975, the fifth Crown came as a 4-door sedan, a 2-door hardtop coupe, a 4-door hardtop, a wagon and a van. The pillared-hardtop Royal Saloon was the most exclusive Crown, aimed squarely at Nissan's Cedric and Gloria.",
+      "Engines ran up to a 2.6-liter 4M inline-6. Stricter emissions rules in 1976 brought new S100-series chassis codes for Japanese-market cars, while export models kept the older codes."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Crown"
+    ]
+  },
+  {
+    "id": "toyota-crown-6th-gen",
+    "name": "Toyota Crown (sixth generation)",
+    "aka": [
+      "Toyota Crown",
+      "S110",
+      "Crown Turbo",
+      "Crown Royal Saloon"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "1979–1983",
+    "start": 1979,
+    "end": 1983,
+    "body": "4-door sedan, hardtops and wagon",
+    "engine": "2.0-liter 6-cylinder (turbo available) to 2.8-liter 6-cylinder; diesel",
+    "drive": "Rear-wheel drive",
+    "gearbox": "Manual or automatic",
+    "specsFor": "Toyota Crown, sixth generation",
+    "power": {
+      "na": "Several engines; no single figure"
+    },
+    "weight": {
+      "na": "No figure on record"
+    },
+    "zero60": {
+      "na": "No test on record"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "na": "Not sold in the US, so no EPA rating"
+    },
+    "built": {
+      "na": "No production total on record"
+    },
+    "predecessor": {
+      "name": "Toyota Crown (fifth generation)",
+      "id": "toyota-crown-5th-gen"
+    },
+    "successor": {
+      "name": "Toyota Crown (seventh generation)",
+      "id": "toyota-crown-7th-gen"
+    },
+    "quick": "The sixth Crown, 1979–1983: the first Crown sold in Germany, and in October 1980 the first Crown Turbo.",
+    "story": [
+      "The sixth Crown kept the range of sedans, hardtops and wagons, with Royal Saloons wearing big rectangular headlights and longer bumpers that put them in a higher Japanese tax class. Engines ran from a 2.0-liter M 6-cylinder, also offered with a turbocharger, to a 2.8-liter, plus a diesel with a 5-speed manual or an automatic.",
+      "It was the first Crown sold in Germany, from 1980, and the first Crown Turbo went on sale in Japan in October 1980."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Crown"
+    ]
+  },
+  {
+    "id": "toyota-crown-7th-gen",
+    "name": "Toyota Crown (seventh generation)",
+    "aka": [
+      "Toyota Crown",
+      "S120",
+      "Crown Royal Saloon",
+      "Crown Supercharger"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "1983–1987",
+    "start": 1983,
+    "end": 1987,
+    "body": "4-door sedan, hardtop and wagon, in 2 sizes",
+    "engine": "2.0-liter and 2.8-liter 6-cylinder engines (turbo, then supercharged 2.0-liter); diesels",
+    "drive": "Rear-wheel drive",
+    "gearbox": "Manual or automatic",
+    "specsFor": "Toyota Crown, seventh generation",
+    "power": {
+      "na": "Several engines; no single figure"
+    },
+    "weight": {
+      "na": "No figure on record"
+    },
+    "zero60": {
+      "na": "No test on record"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "na": "Not sold in the US, so no EPA rating"
+    },
+    "built": {
+      "na": "No production total on record"
+    },
+    "predecessor": {
+      "name": "Toyota Crown (sixth generation)",
+      "id": "toyota-crown-6th-gen"
+    },
+    "successor": {
+      "name": "Toyota Crown (eighth generation)",
+      "id": "toyota-crown-8th-gen"
+    },
+    "quick": "The seventh Crown, 1983–1987: a twin-cam inline-6, a supercharged 2.0-liter from 1985 and independent rear suspension on most models.",
+    "story": [
+      "The seventh Crown offered a 2.8-liter inline-6 in carbureted, fuel-injected and twin-cam forms, plus diesels, and in September 1985 a supercharged 2.0-liter 6-cylinder replaced the turbocharged one. Lower models kept a live rear axle, but the rest got 4-wheel independent suspension branded PEGASUS.",
+      "It came as a frameless-window hardtop, a sedan and a wagon, in 2 sizes, with the wider Royal Saloon at the top of a long ladder of trims."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Crown"
+    ]
+  },
+  {
+    "id": "toyota-crown-8th-gen",
+    "name": "Toyota Crown (eighth generation)",
+    "aka": [
+      "Toyota Crown",
+      "S130",
+      "Crown Royal Saloon G",
+      "Crown wagon"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "1987–1991",
+    "start": 1987,
+    "end": 1991,
+    "body": "4-door sedan, hardtop, wagon and van",
+    "engine": "2.0-liter to 3.0-liter 6-cylinder engines; 4.0-liter V8; turbo-diesels",
+    "drive": "Rear-wheel drive",
+    "gearbox": "Manual or automatic",
+    "specsFor": "Toyota Crown, eighth generation",
+    "power": {
+      "na": "Several engines; no single figure"
+    },
+    "weight": {
+      "na": "No figure on record"
+    },
+    "zero60": {
+      "na": "No test on record"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "na": "Not sold in the US, so no EPA rating"
+    },
+    "built": {
+      "na": "No production total on record"
+    },
+    "predecessor": {
+      "name": "Toyota Crown (seventh generation)",
+      "id": "toyota-crown-7th-gen"
+    },
+    "successor": {
+      "name": "Toyota Crown (ninth generation)",
+      "id": "toyota-crown-9th-gen"
+    },
+    "quick": "The eighth Crown, 1987–1991: Toyota's first car with an airbag, the world's first CD-ROM navigation system, and a 4.0-liter V8 from the Lexus LS 400.",
+    "story": [
+      "Launched in 1987 as a sedan, hardtop, wagon and van, the eighth Crown offered engines from a supercharged 2.0-liter twin-cam 6-cylinder to a 3.0-liter twin-cam inline-6, plus turbo-diesels. The Royal Saloon G later got the 4.0-liter V8 from the Lexus LS 400, and some versions had air suspension with double wishbones.",
+      "In 1988 it became the first Toyota with an airbag, and in 1989 the Royal Saloon G introduced the world's first CD-ROM-based car navigation system, with a color CRT screen. After 1991 the sedan and wagon carried on in facelifted form, the wagon until 1999."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Crown"
+    ]
+  },
+  {
+    "id": "toyota-crown-9th-gen",
+    "name": "Toyota Crown (ninth generation)",
+    "aka": [
+      "Toyota Crown",
+      "S140",
+      "Crown Royal Touring"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "1991–1995",
+    "start": 1991,
+    "end": 1995,
+    "body": "4-door hardtop",
+    "engine": "2.5-liter and 3.0-liter inline-6; 2.4-liter turbo-diesel",
+    "drive": "Rear-wheel drive",
+    "gearbox": "Manual or automatic",
+    "specsFor": "Toyota Crown, ninth generation",
+    "power": {
+      "na": "Several engines; no single figure"
+    },
+    "weight": {
+      "na": "No figure on record"
+    },
+    "zero60": {
+      "na": "No test on record"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "na": "Not sold in the US, so no EPA rating"
+    },
+    "built": {
+      "na": "No production total on record"
+    },
+    "predecessor": {
+      "name": "Toyota Crown (eighth generation)",
+      "id": "toyota-crown-8th-gen"
+    },
+    "successor": {
+      "name": "Toyota Crown (tenth generation)",
+      "id": "toyota-crown-10th-gen"
+    },
+    "quick": "The ninth Crown, 1991–1995: a hardtop with new styling and a new Royal Touring trim, built only in right-hand drive.",
+    "story": [
+      "Launched in 1991, the ninth Crown broke with traditional Crown styling and added a Royal Touring trim. The new car was a hardtop with the S140 code, while the sedan and wagon carried on as updated S130s, and the larger Crown Majesta became a model of its own.",
+      "Engines were 3.0-liter and 2.5-liter inline-6s and a 2.4-liter turbo-diesel, with a 5-speed automatic available on the 3.0. Built only in right-hand drive, it wasn't exported to countries that drive on the right."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Crown"
+    ]
+  },
+  {
+    "id": "toyota-crown-10th-gen",
+    "name": "Toyota Crown (tenth generation)",
+    "aka": [
+      "Toyota Crown",
+      "S150",
+      "Crown Royal Touring"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "1995–1999",
+    "start": 1995,
+    "end": 1999,
+    "body": "4-door sedan and hardtop",
+    "engine": "Inline-6 engines; 2.4-liter turbo-diesel",
+    "drive": "Rear-wheel drive; all-wheel drive on some models",
+    "gearbox": "Manual or automatic",
+    "specsFor": "Toyota Crown, tenth generation",
+    "power": {
+      "na": "Several engines; no single figure"
+    },
+    "weight": {
+      "na": "No figure on record"
+    },
+    "zero60": {
+      "na": "No test on record"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "na": "Not sold in the US, so no EPA rating"
+    },
+    "built": {
+      "na": "No production total on record"
+    },
+    "predecessor": {
+      "name": "Toyota Crown (ninth generation)",
+      "id": "toyota-crown-9th-gen"
+    },
+    "successor": {
+      "name": "Toyota Crown (eleventh generation)",
+      "id": "toyota-crown-11th-gen"
+    },
+    "quick": "The tenth Crown, 1995–1999: boxier, and the first Crown built as a unibody instead of body-on-frame.",
+    "story": [
+      "Launched in 1995 as a sedan and a frameless-window hardtop only, the S150 was the first Crown built with unibody construction, following the Majesta, instead of on a separate frame. Hardtops ranged from Royal Extra to the sporty Royal Touring, and all-wheel drive was offered on some models.",
+      "It shared Japan's Automotive Researchers' and Journalists' Conference Car of the Year award for 1996 with the Crown Majesta. Unlike most earlier Crowns, it was not exported in large numbers."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Crown"
+    ]
+  },
+  {
+    "id": "toyota-crown-11th-gen",
+    "name": "Toyota Crown (eleventh generation)",
+    "aka": [
+      "Toyota Crown",
+      "S170",
+      "Crown Athlete",
+      "Crown Royal",
+      "Crown Estate"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "1999–2003",
+    "start": 1999,
+    "end": 2003,
+    "body": "4-door sedan; Crown Estate wagon",
+    "engine": "Inline-6 engines, including a 2.5-liter turbo; 3.0-liter mild hybrid (2001–2003)",
+    "drive": "Rear-wheel drive",
+    "gearbox": "Manual or automatic",
+    "specsFor": "Toyota Crown, eleventh generation",
+    "power": {
+      "na": "Several engines; no single figure"
+    },
+    "weight": {
+      "na": "No figure on record"
+    },
+    "zero60": {
+      "na": "No test on record"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "na": "Not sold in the US, so no EPA rating"
+    },
+    "built": {
+      "na": "No production total on record"
+    },
+    "predecessor": {
+      "name": "Toyota Crown (tenth generation)",
+      "id": "toyota-crown-10th-gen"
+    },
+    "successor": {
+      "name": "Toyota Crown (twelfth generation)",
+      "id": "toyota-crown-12th-gen"
+    },
+    "quick": "The eleventh Crown, 1999–2003: Royal and sporty Athlete sedans, a turbocharged Athlete V, and a mild-hybrid 3.0-liter from 2001.",
+    "story": [
+      "Launched in September 1999 with shorter front overhangs for more cabin and trunk space, the S170 split into the Royal and the sportier Athlete, while the 4-door hardtop was dropped. A new Crown Estate wagon arrived in December 1999, the first new Crown wagon since the S130, and stayed in production until June 2007.",
+      "The Athlete V used a 2.5-liter turbocharged inline-6, and from August 2001 to 2003 a 3.0-liter mild hybrid with a belt-driven starter-alternator was offered. Only right-hand-drive cars were built, so exports went to markets such as Singapore."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Crown"
+    ]
+  },
+  {
+    "id": "toyota-crown-12th-gen",
+    "name": "Toyota Crown (twelfth generation)",
+    "aka": [
+      "Zero Crown",
+      "S180",
+      "Crown Athlete",
+      "Crown Royal"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "2003–2008",
+    "start": 2003,
+    "end": 2008,
+    "body": "4-door sedan",
+    "engine": "Gasoline engines",
+    "drive": "Rear-wheel drive; 4-wheel drive available",
+    "gearbox": "Manual or automatic",
+    "specsFor": "Toyota Crown, twelfth generation",
+    "power": {
+      "na": "Several engines; no single figure"
+    },
+    "weight": {
+      "na": "No figure on record"
+    },
+    "zero60": {
+      "na": "No test on record"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "na": "Not sold in the US, so no EPA rating"
+    },
+    "built": {
+      "na": "No production total on record"
+    },
+    "predecessor": {
+      "name": "Toyota Crown (eleventh generation)",
+      "id": "toyota-crown-11th-gen"
+    },
+    "successor": {
+      "name": "Toyota Crown (thirteenth generation)",
+      "id": "toyota-crown-13th-gen"
+    },
+    "quick": "The twelfth Crown, 2003–2008: based on the Zero Crown concept, and offered in left-hand drive again through Chinese production.",
+    "story": [
+      "Released in late 2003, the S180 Crown was based on the Zero Crown concept car, a fresh start for the nameplate. A 4-wheel-drive version was available, and an October 2005 facelift brought new taillights, smoked lights for the Athlete and a more sculpted grille for the Royal.",
+      "Left-hand-drive Crowns returned for the first time since 2001, built only in China by Tianjin FAW Toyota for the Chinese market."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Crown"
+    ]
+  },
+  {
+    "id": "toyota-crown-13th-gen",
+    "name": "Toyota Crown (thirteenth generation)",
+    "aka": [
+      "Toyota Crown",
+      "S200",
+      "Crown Hybrid",
+      "Crown Athlete",
+      "Crown Royal"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "2008–2012",
+    "start": 2008,
+    "end": 2012,
+    "body": "4-door sedan",
+    "engine": "Gasoline engines; V6 hybrid",
+    "drive": "Rear-wheel drive; 4-wheel drive available",
+    "gearbox": "Manual or automatic",
+    "specsFor": "Toyota Crown, thirteenth generation",
+    "power": {
+      "na": "Several engines; no single figure"
+    },
+    "weight": {
+      "na": "No figure on record"
+    },
+    "zero60": {
+      "na": "No test on record"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "na": "Not sold in the US, so no EPA rating"
+    },
+    "built": {
+      "na": "No production total on record"
+    },
+    "predecessor": {
+      "name": "Toyota Crown (twelfth generation)",
+      "id": "toyota-crown-12th-gen"
+    },
+    "successor": {
+      "name": "Toyota Crown (fourteenth generation)",
+      "id": "toyota-crown-14th-gen"
+    },
+    "quick": "The thirteenth Crown, 2008–2012: Royal, Athlete and Hybrid models, with a V6 hybrid system shared with the Lexus GS 450h.",
+    "story": [
+      "The S200 Crown came in Royal and Athlete series and as a Crown Hybrid, first shown as a concept at the 2007 Tokyo Motor Show. The Hybrid's system was mechanically similar to the Lexus GS 450h's, and a navigation-linked adaptive suspension adjusted itself using map data for the road ahead.",
+      "A February 2010 facelift softened the grille and updated the headlights, taillights, bumpers and some technical details."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Crown"
+    ]
+  },
+  {
+    "id": "toyota-crown-14th-gen",
+    "name": "Toyota Crown (fourteenth generation)",
+    "aka": [
+      "Toyota Crown",
+      "S210",
+      "Crown Hybrid",
+      "Crown Athlete",
+      "Crown Royal"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "2012–2018",
+    "start": 2012,
+    "end": 2018,
+    "body": "4-door sedan",
+    "engine": "Gasoline and hybrid engines",
+    "drive": "Rear-wheel drive; 4-wheel drive available",
+    "gearbox": "Manual or automatic",
+    "specsFor": "Toyota Crown, fourteenth generation",
+    "power": {
+      "na": "Several engines; no single figure"
+    },
+    "weight": {
+      "na": "No figure on record"
+    },
+    "zero60": {
+      "na": "No test on record"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "na": "Not sold in the US, so no EPA rating"
+    },
+    "built": {
+      "na": "No production total on record"
+    },
+    "predecessor": {
+      "name": "Toyota Crown (thirteenth generation)",
+      "id": "toyota-crown-13th-gen"
+    },
+    "successor": {
+      "name": "Toyota Crown (fifteenth generation)",
+      "id": "toyota-crown-15th-gen"
+    },
+    "quick": "The fourteenth Crown, 2012–2018: a bold new grille, touch-panel controls, and a Crown Hybrid from January 2013.",
+    "story": [
+      "Launched on December 25, 2012, with new styling, the fourteenth Crown put most of its controls on a Toyota Multi-Operation Touch panel. The Crown Hybrid went on sale soon after, in January 2013.",
+      "A facelift gave the Athlete a 3-dimensional mesh grille stretching down to the bottom of the bumper and ring-shaped taillights, and the Royal a thicker bumper and deeper grille. It was also built in China."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Crown"
+    ]
+  },
+  {
+    "id": "toyota-crown-15th-gen",
+    "name": "Toyota Crown (fifteenth generation)",
+    "aka": [
+      "Toyota Crown",
+      "S220",
+      "Crown RS"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "2018–2022",
+    "start": 2018,
+    "end": 2022,
+    "body": "4-door sedan",
+    "engine": "2.0-liter turbo; 2.5-liter hybrid; 3.5-liter V6 hybrid",
+    "drive": "Rear-wheel drive; all-wheel drive available",
+    "gearbox": "Manual or automatic",
+    "specsFor": "Toyota Crown, fifteenth generation",
+    "power": {
+      "na": "Several engines; no single figure"
+    },
+    "weight": {
+      "na": "No figure on record"
+    },
+    "zero60": {
+      "na": "No test on record"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "na": "Not sold in the US, so no EPA rating"
+    },
+    "built": {
+      "na": "No production total on record"
+    },
+    "predecessor": {
+      "name": "Toyota Crown (fourteenth generation)",
+      "id": "toyota-crown-14th-gen"
+    },
+    "successor": {
+      "name": "Toyota Crown (2023–)",
+      "id": "toyota-crown-crossover"
+    },
+    "quick": "The fifteenth Crown, 2018–2022: built on Toyota's TNGA-L luxury platform, with a 2.0-liter turbo and 2.5-liter and 3.5-liter hybrids.",
+    "story": [
+      "Shown as a concept at the Tokyo Motor Show in October 2017 and on sale from June 26, 2018, the fifteenth Crown was built on a narrower version of the TNGA-L platform used by Lexus and Toyota's luxury sedans. Engines included a 2.0-liter turbo in the rear-drive RS models, a 2.5-liter hybrid and a 3.5-liter V6 Multi Stage Hybrid from the Lexus LC 500h and LS 500h.",
+      "It added Toyota's T-Connect connected services and the Toyota Safety Sense 2.0 suite of driver aids. Its successor, launched in 2022, split the Crown into a family of models that includes the Crown Crossover, which brought the name back to America for 2023."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Crown"
+    ]
+  },
+  {
     "id": "toyota-crown-crossover",
     "name": "Toyota Crown (2023–)",
     "aka": [
@@ -16512,7 +17365,10 @@ const CARS = [
       "note": "Sold in the US so far, 2023 to October 2026",
       "src": "https://www.goodcarbadcar.net/toyota-crown-sales-figures/"
     },
-    "predecessor": null,
+    "predecessor": {
+      "name": "Toyota Crown (fifteenth generation)",
+      "id": "toyota-crown-15th-gen"
+    },
     "successor": null,
     "quick": "The Crown name's return to the US after 1972: a tall, all-wheel-drive hybrid sedan that replaced the Avalon for 2023, rated at 41 mpg, with a 340-hp Hybrid MAX on the Platinum.",
     "story": [

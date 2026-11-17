@@ -94,7 +94,10 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/41905.shtml"
     },
-    "built": null,
+    "built": {
+      "na": "Counted in the Evora's 6,117 total (2009–2021)",
+      "src": "https://en.wikipedia.org/wiki/Lotus_Evora"
+    },
     "predecessor": {
       "name": "Lotus Evora GT430 Sport",
       "id": "lotus-evora-gt430-sport"
@@ -297,7 +300,10 @@ const CARS = [
       "note": "EPA combined, 2011 US Evora S, manual",
       "src": "https://www.fueleconomy.gov/feg/noframes/34741.shtml"
     },
-    "built": null,
+    "built": {
+      "na": "Counted in the Evora's 6,117 total (2009–2021)",
+      "src": "https://en.wikipedia.org/wiki/Lotus_Evora"
+    },
     "articles": [
       "simplify-then-add-soul"
     ],
@@ -398,7 +404,10 @@ const CARS = [
       "note": "EPA combined, 2017 US Evora 400, manual",
       "src": "https://www.fueleconomy.gov/feg/noframes/38082.shtml"
     },
-    "built": null,
+    "built": {
+      "na": "Counted in the Evora's 6,117 total (2009–2021)",
+      "src": "https://en.wikipedia.org/wiki/Lotus_Evora"
+    },
     "predecessor": {
       "name": "Lotus Evora S",
       "id": "lotus-evora-s"
@@ -429,7 +438,10 @@ const CARS = [
     "maker": "Lotus",
     "country": "United Kingdom",
     "drive": "Rear-wheel drive",
-    "built": null,
+    "built": {
+      "na": "Counted in the Evora's 6,117 total (2009–2021)",
+      "src": "https://en.wikipedia.org/wiki/Lotus_Evora"
+    },
     "articles": [
       "simplify-then-add-soul"
     ],
@@ -491,7 +503,10 @@ const CARS = [
     "maker": "Lotus",
     "country": "United Kingdom",
     "drive": "Rear-wheel drive",
-    "built": null,
+    "built": {
+      "na": "Counted in the Evora's 6,117 total (2009–2021)",
+      "src": "https://en.wikipedia.org/wiki/Lotus_Evora"
+    },
     "articles": [
       "simplify-then-add-soul"
     ],
@@ -578,7 +593,10 @@ const CARS = [
       "note": "Maker's claim, manual",
       "src": "https://www.lotuscars.com/en/lotus-story/road-cars/evora"
     },
-    "built": null,
+    "built": {
+      "na": "Counted in the Evora's 6,117 total (2009–2021)",
+      "src": "https://en.wikipedia.org/wiki/Lotus_Evora"
+    },
     "predecessor": {
       "name": "Lotus Evora GT430",
       "id": "lotus-evora-gt430"
@@ -3452,6 +3470,13 @@ const CARS = [
       "note": "Maker's claim",
       "src": "article:nine-lives"
     },
+    "mpg": {
+      "combined": 17.7,
+      "unit": "mpg",
+      "kind": "tested",
+      "note": "Motor road test, 1961, open 3.8 (21.3 mpg in imperial gallons)",
+      "src": "https://en.wikipedia.org/wiki/Jaguar_E-Type"
+    },
     "built": {
       "count": 70000,
       "approx": true,
@@ -3755,7 +3780,12 @@ const CARS = [
       "note": "EPA combined, 2000 XKR coupe",
       "src": "https://www.fueleconomy.gov/feg/noframes/15684.shtml"
     },
-    "built": null,
+    "built": {
+      "count": 23556,
+      "approx": false,
+      "note": "XKR coupes (9,661) and convertibles (13,895), 1998–2005",
+      "src": "https://en.wikipedia.org/wiki/Jaguar_XK_(X100)"
+    },
     "predecessor": {
       "name": "Jaguar XJ-S",
       "id": null
@@ -3828,7 +3858,12 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/12528.shtml"
     },
-    "built": null,
+    "built": {
+      "count": 213089,
+      "approx": false,
+      "note": "all R129 SL models, 1989–2001",
+      "src": "https://en.wikipedia.org/wiki/Mercedes-Benz_SL-Class_(R129)"
+    },
     "predecessor": {
       "name": "Mercedes-Benz 280 SL (R107)",
       "id": "mercedes-benz-280-sl-r107"
@@ -4643,7 +4678,12 @@ const CARS = [
       "note": "EPA combined, 2000 Viper GTS coupe",
       "src": "https://www.fueleconomy.gov/feg/noframes/15602.shtml"
     },
-    "built": null,
+    "built": {
+      "count": 10422,
+      "approx": false,
+      "note": "all second-generation Vipers, RT/10 and GTS, 1996–2002",
+      "src": "https://en.wikipedia.org/wiki/Dodge_Viper_(SR_II)"
+    },
     "predecessor": null,
     "successor": {
       "name": "Dodge Viper SRT10 ACR",
@@ -5399,6 +5439,13 @@ const CARS = [
       "kind": "tested",
       "note": "Motor test",
       "src": "article:queen-of-the-road"
+    },
+    "mpg": {
+      "combined": 21.0,
+      "unit": "mpg",
+      "kind": "tested",
+      "note": "The Motor road test, 1951 (25.2 mpg in imperial gallons)",
+      "src": "https://en.wikipedia.org/wiki/Citro%C3%ABn_Traction_Avant"
     },
     "built": {
       "count": 759111,
@@ -6859,7 +6906,9 @@ const CARS = [
       "note": "Car and Driver test",
       "src": "https://www.0-60specs.com/toyota/4runner-0-60-times"
     },
-    "top": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
     "mpg": {
       "combined": 21,
       "city": 19,
@@ -7072,7 +7121,9 @@ const CARS = [
       "note": "Motor Trend test",
       "src": "https://www.0-60specs.com/toyota/mirai-0-60-times"
     },
-    "top": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
     "mpg": {
       "combined": 74,
       "city": 76,
@@ -7138,7 +7189,9 @@ const CARS = [
       "note": "Maker's claim",
       "src": "https://pressroom.toyota.com/toyota-announces-pricing-on-all-new-2022-gr86/"
     },
-    "top": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
     "mpg": {
       "combined": 24,
       "city": 21,
@@ -7211,7 +7264,12 @@ const CARS = [
       "note": "Maker's claim",
       "src": "https://pressroom.toyota.com/toyota-announces-pricing-on-all-new-2022-gr86/"
     },
-    "top": null,
+    "top": {
+      "mph": 140,
+      "kind": "claimed",
+      "note": "Toyota's figure, manual (226 km/h)",
+      "src": "https://www.carscoops.com/?p=2352713"
+    },
     "mpg": {
       "combined": 22,
       "city": 20,
@@ -7441,7 +7499,9 @@ const CARS = [
       "note": "Car and Driver test",
       "src": "https://www.aol.com/tested-2025-toyota-camry-still-155900498.html"
     },
-    "top": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
     "mpg": {
       "combined": 44,
       "city": 44,
@@ -7662,7 +7722,9 @@ const CARS = [
       "note": "Car and Driver test",
       "src": "https://autos.yahoo.com/2019-toyota-corolla-hatchback-belies-161400933.html"
     },
-    "top": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
     "mpg": {
       "combined": 36,
       "city": 32,
@@ -7737,7 +7799,12 @@ const CARS = [
       "note": "Maker's claim, 4.99 sec",
       "src": "https://www.cars.com/research/toyota-gr_corolla-2023"
     },
-    "top": null,
+    "top": {
+      "mph": 142.9,
+      "kind": "claimed",
+      "note": "Electronically limited (Toyota)",
+      "src": "https://aol.com/2023-toyota-gr-corolla-specs-113000201.html"
+    },
     "mpg": {
       "combined": 24,
       "city": 21,
@@ -7808,7 +7875,9 @@ const CARS = [
       "note": "Car and Driver test",
       "src": "https://www.0-60specs.com/toyota/corolla-cross-0-60-times"
     },
-    "top": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
     "mpg": {
       "combined": 42,
       "city": 45,
@@ -7878,7 +7947,9 @@ const CARS = [
       "note": "Consumer Guide test, Hybrid Limited",
       "src": "https://blog.consumerguide.com/test-drive-2017-toyota-rav4-hybrid-limited/"
     },
-    "top": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
     "mpg": {
       "combined": 32,
       "city": 34,
@@ -7952,7 +8023,9 @@ const CARS = [
       "note": "Consumer Guide test, Hybrid Limited",
       "src": "https://blog.consumerguide.com/?p=74227"
     },
-    "top": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
     "mpg": {
       "combined": 40,
       "city": 41,
@@ -8029,7 +8102,9 @@ const CARS = [
       "note": "Edmunds test",
       "src": "https://www.edmunds.com/car-news/long-term/2026-toyota-rav4-hybrid.html"
     },
-    "top": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
     "mpg": {
       "combined": 43,
       "city": 47,
@@ -8178,7 +8253,9 @@ const CARS = [
       "note": "Car and Driver test",
       "src": "https://www.carpro.com/vehicle-reviews/2020-toyota-highlander-platinum-review"
     },
-    "top": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
     "mpg": {
       "combined": 23,
       "city": 20,
@@ -8251,7 +8328,9 @@ const CARS = [
       "note": "Car and Driver test",
       "src": "https://autos.yahoo.com/2024-toyota-grand-highlander-hybrid-130100428.html"
     },
-    "top": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
     "mpg": {
       "combined": 27,
       "city": 26,
@@ -8404,7 +8483,9 @@ const CARS = [
       "note": "Car and Driver test",
       "src": "https://autos.yahoo.com/2024-toyota-tacoma-better-tests-140000353.html"
     },
-    "top": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
     "mpg": {
       "combined": 21,
       "city": 19,
@@ -8560,7 +8641,9 @@ const CARS = [
       "note": "Car and Driver test",
       "src": "https://autos.yahoo.com/2022-toyota-tundra-hybrid-cant-200000374.html"
     },
-    "top": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
     "mpg": {
       "combined": 19,
       "city": 18,
@@ -8634,7 +8717,9 @@ const CARS = [
       "note": "MotorWeek test, 2020 TRD Pro",
       "src": "https://motorweek.org/road_tests/2020-toyota-sequoia-trd-pro-2"
     },
-    "top": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
     "mpg": {
       "combined": 14,
       "city": 13,
@@ -8710,7 +8795,9 @@ const CARS = [
       "note": "Car and Driver test, 2023 Capstone",
       "src": "https://cars.ksl.com/resources/car-review/2023-toyota-sequoia-trd-pro-test-drive-review"
     },
-    "top": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
     "mpg": {
       "combined": 20,
       "city": 19,
@@ -8867,7 +8954,9 @@ const CARS = [
       "note": "Car and Driver test",
       "src": "https://autos.yahoo.com/2024-toyota-land-cruiser-tested-140000657.html"
     },
-    "top": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
     "mpg": {
       "combined": 23,
       "city": 22,
@@ -8942,7 +9031,9 @@ const CARS = [
       "note": "Edmunds test, 2021",
       "src": "https://www.edmunds.com:443/toyota/venza/2021/review/"
     },
-    "top": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
     "mpg": {
       "combined": 39,
       "city": 40,
@@ -9014,7 +9105,9 @@ const CARS = [
       "note": "Car and Driver test, 2023 Limited AWD",
       "src": "https://autos.yahoo.com/2023-toyota-bz4x-gets-toyota-110000045.html"
     },
-    "top": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
     "mpg": {
       "combined": 119,
       "city": 131,
@@ -9080,7 +9173,9 @@ const CARS = [
       "note": "Toyota estimate",
       "src": "https://pressroom.toyota.com/toyotas-all-electric-lineup-gains-rugged-powerful-new-bz-woodland-suv/"
     },
-    "top": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
     "mpg": {
       "combined": 117,
       "city": 127,
@@ -9143,7 +9238,9 @@ const CARS = [
       "src": "https://www.kbb.com/toyota/avalonhybrid/2017/"
     },
     "zero60": null,
-    "top": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
     "mpg": {
       "combined": 24,
       "city": 21,
@@ -9221,7 +9318,9 @@ const CARS = [
       "note": "Car and Driver test, via 0-60 Specs",
       "src": "https://www.0-60specs.com/index.php/toyota/avalon-0-60-times"
     },
-    "top": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
     "mpg": {
       "combined": 25,
       "city": 22,
@@ -9293,7 +9392,9 @@ const CARS = [
       "note": "Car and Driver test, 2016 Yaris LE 5-door automatic, via 0-60 Specs",
       "src": "https://www.0-60specs.com/toyota/yaris-0-60-times"
     },
-    "top": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
     "mpg": {
       "combined": 32,
       "city": 30,
@@ -9521,7 +9622,9 @@ const CARS = [
       "note": "Car and Driver test, 2023 Prius Limited FWD",
       "src": "https://autos.yahoo.com/tested-2023-toyota-prius-drives-120000770.html"
     },
-    "top": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
     "mpg": {
       "combined": 57,
       "city": 57,
@@ -9670,7 +9773,9 @@ const CARS = [
       "note": "Toyota figure",
       "src": "https://www.kbb.com/toyota/prius-prime/2023/specs"
     },
-    "top": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
     "mpg": {
       "combined": 52,
       "city": 53,
@@ -9809,7 +9914,9 @@ const CARS = [
       "note": "Kelley Blue Book figure",
       "src": "https://www.kbb.com/toyota/prius-v/2017/"
     },
-    "top": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
     "mpg": {
       "combined": 41,
       "city": 43,
@@ -9955,7 +10062,9 @@ const CARS = [
       "note": "Car and Driver test, 2021 Sienna",
       "src": "https://uk.news.yahoo.com/tested-2021-toyota-sienna-sheds-110000646.html"
     },
-    "top": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
     "mpg": {
       "combined": 36,
       "city": 36,
@@ -10031,7 +10140,9 @@ const CARS = [
       "note": "Edmunds test, Crown Platinum Hybrid MAX",
       "src": "https://www.edmunds.com/toyota/crown/2023/"
     },
-    "top": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
     "mpg": {
       "combined": 41,
       "city": 42,
@@ -10097,7 +10208,9 @@ const CARS = [
       "src": "https://www.kbb.com/toyota/crown-signia/2025/"
     },
     "zero60": null,
-    "top": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
     "mpg": {
       "combined": 38,
       "city": 39,
@@ -10242,7 +10355,9 @@ const CARS = [
       "note": "Edmunds test, matching Toyota's claim",
       "src": "https://www.edmunds.com/car-news/tested-2026-toyota-c-hr-too-quick.html"
     },
-    "top": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
     "mpg": {
       "combined": 117,
       "city": 127,
@@ -10275,7 +10390,9 @@ const CARS = [
     }
   },
   {
-    "top": null,
+    "top": {
+      "na": "No US figure from Honda"
+    },
     "mpg": {
       "combined": 30,
       "city": 27,
@@ -10439,7 +10556,9 @@ const CARS = [
     }
   },
   {
-    "top": null,
+    "top": {
+      "na": "No US figure from Honda"
+    },
     "mpg": {
       "combined": 44,
       "city": 46,
@@ -10517,7 +10636,9 @@ const CARS = [
     }
   },
   {
-    "top": null,
+    "top": {
+      "na": "No US figure from Honda"
+    },
     "mpg": {
       "combined": 36,
       "city": 32,
@@ -10596,7 +10717,9 @@ const CARS = [
     }
   },
   {
-    "top": null,
+    "top": {
+      "na": "No US figure from Honda"
+    },
     "mpg": {
       "combined": 36,
       "city": 33,
@@ -10675,7 +10798,9 @@ const CARS = [
     }
   },
   {
-    "top": null,
+    "top": {
+      "na": "No US figure from Honda"
+    },
     "mpg": {
       "combined": 32,
       "city": 28,
@@ -10744,7 +10869,9 @@ const CARS = [
     }
   },
   {
-    "top": null,
+    "top": {
+      "na": "No US figure from Honda"
+    },
     "mpg": {
       "combined": 31,
       "city": 27,
@@ -10889,7 +11016,12 @@ const CARS = [
     }
   },
   {
-    "top": null,
+    "top": {
+      "mph": 171,
+      "kind": "claimed",
+      "note": "Honda's figure (275 km/h)",
+      "src": "https://www.mobilityengineeringtech.com/component/content/article/48871-sae-ma-07224"
+    },
     "mpg": {
       "combined": 24,
       "city": 22,
@@ -10958,7 +11090,9 @@ const CARS = [
     }
   },
   {
-    "top": null,
+    "top": {
+      "na": "No US figure from Honda"
+    },
     "mpg": {
       "combined": 30,
       "city": 28,
@@ -11035,7 +11169,9 @@ const CARS = [
     }
   },
   {
-    "top": null,
+    "top": {
+      "na": "No US figure from Honda"
+    },
     "mpg": {
       "combined": 37,
       "city": 40,
@@ -11112,7 +11248,9 @@ const CARS = [
     }
   },
   {
-    "top": null,
+    "top": {
+      "na": "No US figure from Honda"
+    },
     "mpg": {
       "combined": 57,
       "unit": "MPGe",
@@ -11173,7 +11311,9 @@ const CARS = [
     }
   },
   {
-    "top": null,
+    "top": {
+      "na": "No US figure from Honda"
+    },
     "mpg": {
       "combined": 44,
       "city": 46,

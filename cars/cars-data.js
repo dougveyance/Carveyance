@@ -3114,7 +3114,14 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
-  "mpg": null,
+  "mpg": {
+   "combined": 17.7,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "tested",
+   "note": "Motor road test, 1961, open 3.8 (21.3 mpg in imperial gallons)"
+  },
   "built": {
    "count": 70000,
    "approx": true,
@@ -3389,7 +3396,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": "EPA combined, 2000 XKR coupe"
   },
-  "built": null,
+  "built": {
+   "count": 23556,
+   "approx": false,
+   "note": "XKR coupes (9,661) and convertibles (13,895), 1998–2005"
+  },
   "alongside": [],
   "prev": {
    "id": null,
@@ -3458,7 +3469,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": null
   },
-  "built": null,
+  "built": {
+   "count": 213089,
+   "approx": false,
+   "note": "all R129 SL models, 1989–2001"
+  },
   "alongside": [],
   "prev": {
    "id": "mercedes-benz-280-sl-r107",
@@ -4260,7 +4275,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": "EPA combined, 2000 Viper GTS coupe"
   },
-  "built": null,
+  "built": {
+   "count": 10422,
+   "approx": false,
+   "note": "all second-generation Vipers, RT/10 and GTS, 1996–2002"
+  },
   "alongside": [],
   "prev": null,
   "next": {
@@ -4959,7 +4978,14 @@ const CARS_INDEX = [
    "kind": "tested",
    "note": "Motor test"
   },
-  "mpg": null,
+  "mpg": {
+   "combined": 21.0,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "tested",
+   "note": "The Motor road test, 1951 (25.2 mpg in imperial gallons)"
+  },
   "built": {
    "count": 759111,
    "approx": false,
@@ -6643,7 +6669,11 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
-  "top": null,
+  "top": {
+   "mph": 140,
+   "kind": "claimed",
+   "note": "Toyota's figure, manual (226 km/h)"
+  },
   "mpg": {
    "combined": 22,
    "city": 20,
@@ -7131,7 +7161,11 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim, 4.99 sec"
   },
-  "top": null,
+  "top": {
+   "mph": 142.9,
+   "kind": "claimed",
+   "note": "Electronically limited (Toyota)"
+  },
   "mpg": {
    "combined": 24,
    "city": 21,
@@ -10051,7 +10085,11 @@ const CARS_INDEX = [
    "kind": "tested",
    "note": "Car and Driver test, 2023 Civic Type R"
   },
-  "top": null,
+  "top": {
+   "mph": 171,
+   "kind": "claimed",
+   "note": "Honda's figure (275 km/h)"
+  },
   "mpg": {
    "combined": 24,
    "city": 22,

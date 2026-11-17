@@ -53,7 +53,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": null
   },
-  "built": null,
+  "built": {
+   "count": 6117,
+   "approx": false,
+   "note": "All Evora versions combined, 2009–2021; Lotus never published a split by version"
+  },
   "alongside": [],
   "prev": {
    "id": "lotus-evora-gt430-sport",
@@ -124,7 +128,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": null
   },
-  "built": null,
+  "built": {
+   "count": 4863,
+   "approx": true,
+   "note": "All 996 GT3s and GT3 RSs, 1999–2005"
+  },
   "alongside": [
    {
     "id": "porsche-911-996",
@@ -272,7 +280,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": "EPA combined, 2011 US Evora S, manual"
   },
-  "built": null,
+  "built": {
+   "count": 6117,
+   "approx": false,
+   "note": "All Evora versions combined, 2009–2021; Lotus never published a split by version"
+  },
   "alongside": [],
   "prev": {
    "id": "lotus-evora",
@@ -341,7 +353,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": "EPA combined, 2017 US Evora 400, manual"
   },
-  "built": null,
+  "built": {
+   "count": 6117,
+   "approx": false,
+   "note": "All Evora versions combined, 2009–2021; Lotus never published a split by version"
+  },
   "alongside": [],
   "prev": {
    "id": "lotus-evora-s",
@@ -405,8 +421,19 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim, manual"
   },
-  "mpg": null,
-  "built": null,
+  "mpg": {
+   "combined": 24.2,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "official",
+   "note": "Official Australian ADR 81/02 combined figure, Sport 410 manual, 9.7 L/100 km"
+  },
+  "built": {
+   "count": 6117,
+   "approx": false,
+   "note": "All Evora versions combined, 2009–2021; Lotus never published a split by version"
+  },
   "alongside": [],
   "prev": {
    "id": "lotus-evora-400",
@@ -467,8 +494,19 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim, manual"
   },
-  "mpg": null,
-  "built": null,
+  "mpg": {
+   "combined": 23.2,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "official",
+   "note": "Lotus UK brochure combined figure, GT430 manual, 27.9 mpg in imperial gallons"
+  },
+  "built": {
+   "count": 60,
+   "approx": false,
+   "note": "Limited run announced by Lotus"
+  },
   "alongside": [],
   "prev": {
    "id": "lotus-evora-sport-410",
@@ -519,14 +557,29 @@ const CARS_INDEX = [
   "kg": 1248,
   "kgNote": "dry, Lotus's figure",
   "lbs": null,
-  "z60": null,
+  "z60": {
+   "sec": 3.7,
+   "kind": "claimed",
+   "note": "Lotus figure, manual (3.6 sec automatic)"
+  },
   "top": {
    "mph": 196,
    "kind": "claimed",
    "note": "Maker's claim, manual"
   },
-  "mpg": null,
-  "built": null,
+  "mpg": {
+   "combined": 22.2,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "official",
+   "note": "Official WLTP combined figure, GT430 Sport manual, 26.7 mpg in imperial gallons"
+  },
+  "built": {
+   "count": 6117,
+   "approx": false,
+   "note": "All Evora versions combined, 2009–2021; Lotus never published a split by version"
+  },
   "alongside": [],
   "prev": {
    "id": "lotus-evora-gt430",
@@ -660,7 +713,14 @@ const CARS_INDEX = [
    "kind": "tested",
    "note": "Autocar test"
   },
-  "mpg": null,
+  "mpg": {
+   "combined": 17,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "tested",
+   "note": "Car and Driver observed, 1995 Esprit S4S (the same 300 bhp 2.2-liter turbo); Autocar's Sport 300 test gave no fuel figure"
+  },
   "built": {
    "count": 64,
    "approx": true,
@@ -880,7 +940,14 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
-  "mpg": null,
+  "mpg": {
+   "combined": 14.7,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "tested",
+   "note": "Period road-test consumption quoted by Auto Express (17.6 mpg in imperial gallons)"
+  },
   "built": {
    "count": 950,
    "approx": false,
@@ -1215,7 +1282,11 @@ const CARS_INDEX = [
   "kg": 940,
   "kgNote": "",
   "lbs": null,
-  "z60": null,
+  "z60": {
+   "sec": 8.8,
+   "kind": "tested",
+   "note": "Car and Driver test, 1967 Cosmo 110S Series I"
+  },
   "top": {
    "mph": 115,
    "kind": "claimed",
@@ -1469,7 +1540,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": null
   },
-  "built": null,
+  "built": {
+   "count": 160065,
+   "approx": true,
+   "note": "Sold in the US, 2005–2017"
+  },
   "alongside": [],
   "prev": {
    "id": null,
@@ -1648,7 +1723,11 @@ const CARS_INDEX = [
   "kg": 1290,
   "kgNote": "",
   "lbs": null,
-  "z60": null,
+  "z60": {
+   "sec": 6.9,
+   "kind": "tested",
+   "note": "Car and Driver test"
+  },
   "top": null,
   "mpg": {
    "combined": 23,
@@ -2007,7 +2086,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": null
   },
-  "built": null,
+  "built": {
+   "count": 143433,
+   "approx": true,
+   "note": "US sales of all first-generation FX (FX35 and FX45), 2003–2008; Infiniti split out the FX45 only for 2007 (1,598)"
+  },
   "alongside": [],
   "prev": null,
   "next": {
@@ -2249,7 +2332,11 @@ const CARS_INDEX = [
   "kg": 1000,
   "kgNote": "",
   "lbs": null,
-  "z60": null,
+  "z60": {
+   "sec": 14.3,
+   "kind": "tested",
+   "note": "Car and Driver test, 1982 BRAT GL"
+  },
   "top": null,
   "mpg": {
    "combined": 23,
@@ -2625,7 +2712,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": null
   },
-  "built": null,
+  "built": {
+   "count": 118444,
+   "approx": false,
+   "note": "All E89 Z4s, 2009–2016; BMW did not publish a 35is-only total"
+  },
   "alongside": [],
   "prev": {
    "id": "bmw-z4-m-coupe",
@@ -2682,7 +2773,14 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
-  "mpg": null,
+  "mpg": {
+   "combined": 13.8,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "official",
+   "note": "BMW's period consumption figure, 17 L/100 km"
+  },
   "built": {
    "count": 252,
    "approx": false,
@@ -2896,8 +2994,19 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
-  "mpg": null,
-  "built": null,
+  "mpg": {
+   "combined": 22,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "tested",
+   "note": "Car and Driver observed, 1983 911 SC Cabriolet"
+  },
+  "built": {
+   "count": 58914,
+   "approx": false,
+   "note": "All 911 SCs, 1978–1983 (Stuttcars' year-by-year tables add up to 60,625)"
+  },
   "alongside": [],
   "prev": {
    "id": null,
@@ -3088,13 +3197,24 @@ const CARS_INDEX = [
   "kg": 1525,
   "kgNote": "",
   "lbs": null,
-  "z60": null,
+  "z60": {
+   "sec": 8.5,
+   "kind": "tested",
+   "note": "The Motor test, 3.8-liter"
+  },
   "top": {
    "mph": 125,
    "kind": "claimed",
    "note": "Maker's claim"
   },
-  "mpg": null,
+  "mpg": {
+   "combined": 13.9,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "tested",
+   "note": "Motor Sport long road test, 1960 3.8 (16¾ mpg in imperial gallons)"
+  },
   "built": {
    "count": 83701,
    "approx": false,
@@ -3148,9 +3268,9 @@ const CARS_INDEX = [
   "guide": null,
   "shop": null,
   "hp": 265,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
+  "kg": 1315,
+  "kgNote": "Curb weight, Series 1 fixed-head coupé (roadster 1,256 kg)",
+  "lbs": 2899,
   "z60": {
    "sec": 7.1,
    "kind": "tested",
@@ -3382,7 +3502,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": null
   },
-  "built": null,
+  "built": {
+   "count": 83566,
+   "approx": false,
+   "note": "All X350 XJs, 2003–2009; Jaguar did not publish an XJR-only total"
+  },
   "alongside": [],
   "prev": {
    "id": "jaguar-xjr-x308",
@@ -3573,13 +3697,24 @@ const CARS_INDEX = [
   "kg": 1500,
   "kgNote": "",
   "lbs": null,
-  "z60": null,
+  "z60": {
+   "sec": 10.1,
+   "kind": "claimed",
+   "note": "Maker's claim, 0-100 km/h (62 mph)"
+  },
   "top": {
    "mph": 127,
    "kind": "claimed",
    "note": "Maker's claim"
   },
-  "mpg": null,
+  "mpg": {
+   "combined": 18.8,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "official",
+   "note": "Mercedes-Benz DIN 70030 figure, 12.5 L/100 km (measured at three-quarters of top speed, plus 10%)"
+  },
   "built": {
    "count": 25436,
    "approx": false,
@@ -3633,7 +3768,11 @@ const CARS_INDEX = [
   "kg": 2250,
   "kgNote": "",
   "lbs": null,
-  "z60": null,
+  "z60": {
+   "sec": 9.7,
+   "kind": "tested",
+   "note": "Autocar test, 1974 Corniche"
+  },
   "top": {
    "mph": 120,
    "kind": "claimed",
@@ -3718,7 +3857,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": null
   },
-  "built": null,
+  "built": {
+   "count": 17000,
+   "approx": true,
+   "note": "First-generation AMG GT coupé and roadster, October 2014 to September 2022 (plus about 1,700 Black Series)"
+  },
   "alongside": [],
   "prev": {
    "id": null,
@@ -4001,7 +4144,11 @@ const CARS_INDEX = [
    "note": "TVR's claim"
   },
   "mpg": null,
-  "built": null,
+  "built": {
+   "count": 1677,
+   "approx": false,
+   "note": "Tuscan Speed Six, 1999–2006"
+  },
   "alongside": [],
   "prev": {
    "id": "tvr-cerbera",
@@ -4387,7 +4534,11 @@ const CARS_INDEX = [
   "kg": 1630,
   "kgNote": "",
   "lbs": null,
-  "z60": null,
+  "z60": {
+   "sec": 4.4,
+   "kind": "tested",
+   "note": "Motor Trend test"
+  },
   "top": null,
   "mpg": {
    "combined": 14,
@@ -4459,7 +4610,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": "EPA combined, 2002 Corvette manual; EPA does not list the Z06 on its own"
   },
-  "built": null,
+  "built": {
+   "count": 28388,
+   "approx": false,
+   "note": "All C5 Z06s: 5,773 (2001), 8,297 (2002), 8,635 (2003), 5,683 (2004)"
+  },
   "alongside": [],
   "prev": null,
   "next": {
@@ -4503,10 +4658,18 @@ const CARS_INDEX = [
   "kg": 1475,
   "kgNote": "",
   "lbs": null,
-  "z60": null,
+  "z60": {
+   "sec": 5.9,
+   "kind": "tested",
+   "note": "Motor Trend test, 2002 Evolution VII"
+  },
   "top": null,
   "mpg": null,
-  "built": null,
+  "built": {
+   "count": 10850,
+   "approx": true,
+   "note": "Evolution VII GSR, RS and GT-A, 2001–2003"
+  },
   "alongside": [],
   "prev": {
    "id": null,
@@ -4555,7 +4718,11 @@ const CARS_INDEX = [
   "kg": 1090,
   "kgNote": "",
   "lbs": null,
-  "z60": null,
+  "z60": {
+   "sec": 14.0,
+   "kind": "tested",
+   "note": "Car Life test, 1964 Monza convertible with the same 110 hp 164 cu in engine and 4-speed"
+  },
   "top": null,
   "mpg": null,
   "built": {
@@ -4621,7 +4788,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": null
   },
-  "built": null,
+  "built": {
+   "count": 6327,
+   "approx": true,
+   "note": "Built, 2016–2019 (Cadillac V-Net registry figures)"
+  },
   "alongside": [],
   "prev": {
    "id": null,
@@ -4898,7 +5069,14 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
-  "mpg": null,
+  "mpg": {
+   "combined": 24.3,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "tested",
+   "note": "Road & Track road test, 1956 DS 19, overall"
+  },
   "built": {
    "count": 1455746,
    "approx": false,
@@ -4976,7 +5154,14 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
-  "mpg": null,
+  "mpg": {
+   "combined": 15.1,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "tested",
+   "note": "Autocar 10,000-mile long-term test, 1974 SM Injection (18.1 mpg in imperial gallons)"
+  },
   "built": {
    "count": 12920,
    "approx": false,
@@ -5128,7 +5313,14 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
-  "mpg": null,
+  "mpg": {
+   "combined": 46.9,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "tested",
+   "note": "Motor Sport road test, 1954 375 cc 2CV (56.3 mpg in imperial gallons)"
+  },
   "built": {
    "count": 5100000,
    "approx": true,
@@ -5192,7 +5384,14 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
-  "mpg": null,
+  "mpg": {
+   "combined": 17.5,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "tested",
+   "note": "Motor Sport road test, 1988 Integrale 8V, about 21 mpg in imperial gallons at high touring speeds (no Evoluzione II figure published)"
+  },
   "built": {
    "count": 44296,
    "approx": false,
@@ -5246,10 +5445,25 @@ const CARS_INDEX = [
   "kg": 850,
   "kgNote": "around",
   "lbs": null,
-  "z60": null,
+  "z60": {
+   "sec": 9.4,
+   "kind": "tested",
+   "note": "Autocar test, Fulvia Coupé 1.6 HF"
+  },
   "top": null,
-  "mpg": null,
-  "built": null,
+  "mpg": {
+   "combined": 18.3,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "estimated",
+   "note": "Spec-database combined figure (encyCARpedia), Fulvia Rallye 1.6 HF; no period road test figure found"
+  },
+  "built": {
+   "count": 1258,
+   "approx": false,
+   "note": "Rallye 1.6 HF (Fanalone) only, 1969–1970; 3,690 later 1600 HF Lusso road cars were built after it"
+  },
   "alongside": [],
   "prev": null,
   "next": {
@@ -5305,7 +5519,14 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
-  "mpg": null,
+  "mpg": {
+   "combined": 23.8,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "tested",
+   "note": "auto motor und sport road test, 1976 Golf GTI, overall test consumption 9.9 L/100 km"
+  },
   "built": {
    "count": 461690,
    "approx": false,
@@ -5351,9 +5572,9 @@ const CARS_INDEX = [
   "guide": null,
   "shop": null,
   "hp": 137,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
+  "kg": 1021,
+  "kgNote": "Curb weight, 1987 US GTI 16V, Car and Driver test car",
+  "lbs": 2250,
   "z60": {
    "sec": 8.9,
    "kind": "claimed",
@@ -5372,7 +5593,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": "EPA combined, 1987 US GTI 16V"
   },
-  "built": null,
+  "built": {
+   "count": 66223,
+   "approx": false,
+   "note": "US sales, 1985–1992 (worldwide total not published)"
+  },
   "alongside": [],
   "prev": {
    "id": "volkswagen-golf-gti-mk1",
@@ -5416,17 +5641,28 @@ const CARS_INDEX = [
   "guide": null,
   "shop": null,
   "hp": 148,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
+  "kg": 1247,
+  "kgNote": "Curb weight, 1996 US GTI 2.0, Motor Trend test car",
+  "lbs": 2750,
   "z60": {
    "sec": 8.8,
    "kind": "claimed",
    "note": "Factory figure"
   },
   "top": null,
-  "mpg": null,
-  "built": null,
+  "mpg": {
+   "combined": 23,
+   "city": 20,
+   "hwy": 28,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA rating, 1996 US GTI 2.0, 20 city / 28 highway (combined worked out with EPA's 55/45 weighting)"
+  },
+  "built": {
+   "count": 28115,
+   "approx": false,
+   "note": "US sales, 1994–1999 (worldwide total not published)"
+  },
   "alongside": [],
   "prev": {
    "id": "volkswagen-golf-gti-mk2",
@@ -5489,7 +5725,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": "EPA combined, 2002 US GTI 1.8T, 5-speed manual"
   },
-  "built": null,
+  "built": {
+   "count": 60995,
+   "approx": false,
+   "note": "US sales, 1998–2004 (worldwide total not published)"
+  },
   "alongside": [],
   "prev": {
    "id": "volkswagen-golf-gti-mk3",
@@ -5608,10 +5848,14 @@ const CARS_INDEX = [
    "model": "gti"
   },
   "hp": 207,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
-  "z60": null,
+  "kg": 1427,
+  "kgNote": "Curb weight, 2010 US GTI 3-door, Car and Driver test car",
+  "lbs": 3146,
+  "z60": {
+   "sec": 6.1,
+   "kind": "tested",
+   "note": "Car and Driver test, 2010 GTI 3-door"
+  },
   "top": null,
   "mpg": {
    "combined": 25,
@@ -5621,7 +5865,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": "EPA combined, 2010 US GTI, 6-speed manual"
   },
-  "built": null,
+  "built": {
+   "count": 63016,
+   "approx": false,
+   "note": "US sales, 2010–2014 (worldwide total not published)"
+  },
   "alongside": [],
   "prev": {
    "id": "volkswagen-golf-gti-mk5",
@@ -5667,9 +5915,9 @@ const CARS_INDEX = [
    "model": "gti"
   },
   "hp": 227,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
+  "kg": 1388,
+  "kgNote": "Curb weight, 2015 US GTI S 5-door with Performance Pack, Car and Driver test car",
+  "lbs": 3060,
   "z60": {
    "sec": 6.4,
    "kind": "claimed",
@@ -5732,9 +5980,9 @@ const CARS_INDEX = [
    "model": "gti"
   },
   "hp": 241,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
+  "kg": 1447,
+  "kgNote": "Curb weight, 2022 European-spec GTI, Car and Driver test car",
+  "lbs": 3190,
   "z60": {
    "sec": 5.1,
    "kind": "tested",
@@ -5797,7 +6045,11 @@ const CARS_INDEX = [
   "kg": 1325,
   "kgNote": "",
   "lbs": null,
-  "z60": null,
+  "z60": {
+   "sec": 11.6,
+   "kind": "claimed",
+   "note": "Maker's figure, 0-100 km/h (62 mph), 240 GL with the same B230F engine, manual"
+  },
   "top": null,
   "mpg": {
    "combined": 20,
@@ -5990,9 +6242,20 @@ const CARS_INDEX = [
   "kg": 2550,
   "kgNote": "",
   "lbs": null,
-  "z60": null,
+  "z60": {
+   "sec": 9.5,
+   "kind": "estimated",
+   "note": "CarsGuide figure for the 3.0 V6, 0-100 km/h (62 mph); Ford publishes no claim"
+  },
   "top": null,
-  "mpg": null,
+  "mpg": {
+   "combined": 27.7,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "official",
+   "note": "Official Australian ADR 81/02 combined figure, 3.0 V6, 8.5 L/100 km"
+  },
   "built": null,
   "alongside": [],
   "prev": {
@@ -6784,7 +7047,11 @@ const CARS_INDEX = [
   },
   "top": null,
   "mpg": null,
-  "built": null,
+  "built": {
+   "count": 63895,
+   "approx": true,
+   "note": "Sold in North America, 1979–1981 (estimated figures)"
+  },
   "alongside": [],
   "prev": null,
   "next": {
@@ -6846,7 +7113,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": "EPA combined, 1984, 5-speed manual"
   },
-  "built": null,
+  "built": {
+   "count": 114459,
+   "approx": true,
+   "note": "Sold in North America, 1982–1985 (estimated figures)"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-celica-supra-a40",
@@ -6910,7 +7181,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": "EPA combined, 1987, 5-speed manual"
   },
-  "built": null,
+  "built": {
+   "count": 108565,
+   "approx": true,
+   "note": "Sold in North America, 1986–1992 (estimated figures)"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-celica-supra-a60",
@@ -6976,7 +7251,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": "EPA combined, 1994, 5-speed manual"
   },
-  "built": null,
+  "built": {
+   "count": 12059,
+   "approx": true,
+   "note": "Sold in North America, 1993–1999 (estimated figures)"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-supra-a70",
@@ -7110,7 +7389,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": "EPA combined on hydrogen, 67 city / 67 highway"
   },
-  "built": null,
+  "built": {
+   "count": 6645,
+   "approx": true,
+   "note": "Sold in the US, 2015–2020"
+  },
   "alongside": [],
   "prev": null,
   "next": {
@@ -7171,7 +7454,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": "EPA combined on hydrogen, 76 city / 71 highway"
   },
-  "built": null,
+  "built": {
+   "count": 7705,
+   "approx": true,
+   "note": "Sold in the US, 2021 to November 2024"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-mirai-jpd10",
@@ -7350,14 +7637,18 @@ const CARS_INDEX = [
   "specsFor": "Toyota Celica Camry, Japanese market",
   "guide": null,
   "shop": null,
-  "hp": null,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
+  "hp": 94,
+  "kg": 1010,
+  "kgNote": "Curb weight, 1800 XT, Toyota's launch figure (1,010–1,025 kg)",
+  "lbs": 2227,
   "z60": null,
   "top": null,
   "mpg": null,
-  "built": null,
+  "built": {
+   "count": 100000,
+   "approx": true,
+   "note": "More than 100,000 sold in Japan"
+  },
   "alongside": [],
   "prev": null,
   "next": {
@@ -7471,10 +7762,14 @@ const CARS_INDEX = [
    "cargurus": "d292"
   },
   "hp": 115,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
-  "z60": null,
+  "kg": 1247,
+  "kgNote": "Curb weight, 1987 Camry Deluxe, Car and Driver test car",
+  "lbs": 2750,
+  "z60": {
+   "sec": 9.2,
+   "kind": "tested",
+   "note": "Car and Driver test, 1987 Camry Deluxe"
+  },
   "top": null,
   "mpg": {
    "combined": 26,
@@ -8033,8 +8328,19 @@ const CARS_INDEX = [
    "note": "Car and Driver test, 1968 Sprinter coupe"
   },
   "top": null,
-  "mpg": null,
-  "built": null,
+  "mpg": {
+   "combined": 31.5,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "tested",
+   "note": "Motor Trend road test, 1968 Corolla 1100 2-door sedan"
+  },
+  "built": {
+   "count": 1000000,
+   "approx": true,
+   "note": "Toyota says the first-generation Corolla passed 1 million built"
+  },
   "alongside": [],
   "prev": null,
   "next": {
@@ -8089,7 +8395,11 @@ const CARS_INDEX = [
   },
   "top": null,
   "mpg": null,
-  "built": null,
+  "built": {
+   "count": 2410000,
+   "approx": true,
+   "note": "Worked out from Toyota's year-end cumulative Corolla sales, interpolated to the May 1970 and April 1974 changeovers; counts every Corolla-badged car sold in that span"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-corolla-e10",
@@ -8147,7 +8457,14 @@ const CARS_INDEX = [
    "note": "Car and Driver test, 1975 SR-5 coupe"
   },
   "top": null,
-  "mpg": null,
+  "mpg": {
+   "combined": 24,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "tested",
+   "note": "Car and Driver road test, 1975 SR-5 coupe"
+  },
   "built": {
    "count": 1067695,
    "approx": true,
@@ -8209,8 +8526,19 @@ const CARS_INDEX = [
    "note": "Motor Trend test, 1982 SR-5 liftback"
   },
   "top": null,
-  "mpg": null,
-  "built": null,
+  "mpg": {
+   "combined": 25,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "tested",
+   "note": "Road & Track road test, 1980 Corolla Deluxe Sport Coupe"
+  },
+  "built": {
+   "count": 3330000,
+   "approx": true,
+   "note": "Worked out from Toyota's year-end cumulative Corolla sales, interpolated to the March 1979 and May 1983 changeovers; counts every Corolla-badged car sold in that span"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-corolla-e30",
@@ -8277,7 +8605,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": "EPA combined, 1987 FX16, 5-speed manual"
   },
-  "built": null,
+  "built": {
+   "count": 2810000,
+   "approx": true,
+   "note": "Worked out from Toyota's year-end cumulative Corolla sales, interpolated to the May 1983 and May 1987 changeovers; counts every Corolla-badged car sold in that span"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-corolla-e70",
@@ -8763,7 +9095,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": null
   },
-  "built": null,
+  "built": {
+   "count": 62796,
+   "approx": true,
+   "note": "Sold in the US as the Scion iM and Corolla iM, 2015 to October 2018"
+  },
   "alongside": [],
   "prev": null,
   "next": {
@@ -8899,7 +9235,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": null
   },
-  "built": null,
+  "built": {
+   "count": 5567,
+   "approx": true,
+   "note": "US sales in 2023, its first full year; Toyota folds later GR Corolla sales into the Corolla total"
+  },
   "alongside": [
    {
     "id": "toyota-corolla-e210",
@@ -9828,7 +10168,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": "EPA combined, 1995 V6, 4-wheel drive, automatic"
   },
-  "built": null,
+  "built": {
+   "count": 1445189,
+   "approx": false,
+   "note": "US sales by model year, 1995–2004"
+  },
   "alongside": [],
   "prev": null,
   "next": {
@@ -10493,13 +10837,17 @@ const CARS_INDEX = [
   "guide": null,
   "shop": null,
   "hp": 84,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
+  "kg": 1425,
+  "kgNote": "Curb mass, Toyota's figure",
+  "lbs": 3142,
   "z60": null,
   "top": null,
   "mpg": null,
-  "built": null,
+  "built": {
+   "count": 874,
+   "approx": false,
+   "note": "BJR 203, BJT 232, BJJ 253 and FJJ 186, from Toyota's 1958 company history (translated by an IH8MUD member)"
+  },
   "alongside": [],
   "prev": null,
   "next": {
@@ -10543,9 +10891,9 @@ const CARS_INDEX = [
   "guide": null,
   "shop": null,
   "hp": 133,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
+  "kg": 1425,
+  "kgNote": "Curb mass, FJ25, Toyota's figure",
+  "lbs": 3142,
   "z60": null,
   "top": null,
   "mpg": null,
@@ -10597,13 +10945,28 @@ const CARS_INDEX = [
    "cargurus": "d299"
   },
   "hp": 135,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
-  "z60": null,
+  "kg": 1480,
+  "kgNote": "Curb mass, FJ40, Toyota's figure",
+  "lbs": 3263,
+  "z60": {
+   "sec": 14.0,
+   "kind": "tested",
+   "note": "Motor Trend test, 1975 FJ40"
+  },
   "top": null,
-  "mpg": null,
-  "built": null,
+  "mpg": {
+   "combined": 12,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "tested",
+   "note": "Motor Trend road test, 1975 FJ40"
+  },
+  "built": {
+   "count": 1100000,
+   "approx": true,
+   "note": "More than 1.1 million built worldwide by 1984"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-land-cruiser-j20",
@@ -10650,13 +11013,24 @@ const CARS_INDEX = [
   "specsFor": "Toyota Land Cruiser 70 Series",
   "guide": null,
   "shop": null,
-  "hp": null,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
-  "z60": null,
+  "hp": 202,
+  "kg": 2355,
+  "kgNote": "Curb weight, LandCruiser 76 wagon V8",
+  "lbs": 5192,
+  "z60": {
+   "sec": 14.6,
+   "kind": "tested",
+   "note": "CarExpert test, 0-100 km/h (62 mph), LandCruiser 76 wagon V8, 2024"
+  },
   "top": null,
-  "mpg": null,
+  "mpg": {
+   "combined": 22.0,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "official",
+   "note": "Official Australian combined, 10.7 L/100 km, LandCruiser 79 GXL V8"
+  },
   "built": null,
   "alongside": [],
   "prev": {
@@ -10702,13 +11076,17 @@ const CARS_INDEX = [
    "cargurus": "d299"
   },
   "hp": 135,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
+  "kg": 1810,
+  "kgNote": "Vehicle weight, FJ55V, Toyota's figure",
+  "lbs": 3990,
   "z60": null,
   "top": null,
   "mpg": null,
-  "built": null,
+  "built": {
+   "count": 113000,
+   "approx": true,
+   "note": "Almost 113,000 built, 1967–1980"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-land-cruiser-j40",
@@ -10773,7 +11151,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": "EPA combined, 1988 FJ62, automatic"
   },
-  "built": null,
+  "built": {
+   "count": 45489,
+   "approx": true,
+   "note": "All Land Cruisers sold in the US, 1981–1990 (includes the last FJ40s, through 1983)"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-land-cruiser-j55",
@@ -10838,7 +11220,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": "EPA combined, 1991"
   },
-  "built": null,
+  "built": {
+   "count": 74796,
+   "approx": true,
+   "note": "Sold in the US, 1991–1997"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-land-cruiser-j60",
@@ -10903,7 +11289,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": "EPA combined, 1998"
   },
-  "built": null,
+  "built": {
+   "count": 87727,
+   "approx": true,
+   "note": "Sold in the US, 1998–2007"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-land-cruiser-j80",
@@ -11030,13 +11420,28 @@ const CARS_INDEX = [
   "guide": null,
   "shop": null,
   "hp": 409,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
-  "z60": null,
+  "kg": 2500,
+  "kgNote": "Curb weight, ZX 3.5 gasoline, Toyota Japan",
+  "lbs": 5512,
+  "z60": {
+   "sec": 6.3,
+   "kind": "tested",
+   "note": "Car magazine test (South Africa), 0-100 km/h (62 mph), 3.5T ZX"
+  },
   "top": null,
-  "mpg": null,
-  "built": null,
+  "mpg": {
+   "combined": 18.6,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "official",
+   "note": "Japanese WLTC rating, 7.9 km/L, 3.5 gasoline"
+  },
+  "built": {
+   "count": 105700,
+   "approx": true,
+   "note": "Worldwide sales in 2024 alone (Car Industry Analysis data); Toyota does not publish a running total for the 300 Series"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-land-cruiser-j200",
@@ -11343,13 +11748,13 @@ const CARS_INDEX = [
   },
   "shop": null,
   "hp": 375,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
+  "kg": 2073,
+  "kgNote": "Curb weight, 2026 bZ Woodland Premium, Car and Driver test car",
+  "lbs": 4570,
   "z60": {
-   "sec": 4.4,
-   "kind": "claimed",
-   "note": "Toyota estimate"
+   "sec": 3.9,
+   "kind": "tested",
+   "note": "Car and Driver test, 2026 bZ Woodland Premium"
   },
   "top": null,
   "mpg": {
@@ -11734,7 +12139,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": "EPA combined, 2000, 5-speed manual"
   },
-  "built": null,
+  "built": {
+   "count": 164299,
+   "approx": true,
+   "note": "Sold in the US, 1999–2005"
+  },
   "alongside": [],
   "prev": null,
   "next": {
@@ -11791,7 +12200,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": "EPA combined, 2007, 5-speed manual"
   },
-  "built": null,
+  "built": {
+   "count": 393958,
+   "approx": true,
+   "note": "Sold in the US, 2006–2011 (all Yaris sedans and hatchbacks)"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-echo-xp10",
@@ -11836,9 +12249,9 @@ const CARS_INDEX = [
    "cargurus": "d827"
   },
   "hp": 106,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
+  "kg": 1064,
+  "kgNote": "Curb weight, 2016 Yaris LE 5-door, Car and Driver test car",
+  "lbs": 2345,
   "z60": {
    "sec": 10.2,
    "kind": "tested",
@@ -11853,7 +12266,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": "EPA combined, automatic (manual: 33 mpg)"
   },
-  "built": null,
+  "built": {
+   "count": 103450,
+   "approx": true,
+   "note": "Yaris hatchbacks sold in the US, 2012–2018"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-yaris-xp90",
@@ -11920,7 +12337,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": null
   },
-  "built": null,
+  "built": {
+   "count": 96584,
+   "approx": true,
+   "note": "Sold in the US as the Scion iA and Yaris iA, 2015–2018"
+  },
   "alongside": [],
   "prev": null,
   "next": null,
@@ -12338,7 +12759,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": "EPA combined on gasoline; 95 MPGe and 11 miles of range on electricity, 2012"
   },
-  "built": null,
+  "built": {
+   "count": 42293,
+   "approx": true,
+   "note": "Sold in the US, 2012–2015"
+  },
   "alongside": [],
   "prev": null,
   "next": {
@@ -12380,9 +12805,9 @@ const CARS_INDEX = [
    "cargurus": "d2418"
   },
   "hp": 121,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
+  "kg": 1526,
+  "kgNote": "Curb weight, 2017 Prius Prime Advanced, Car and Driver test car",
+  "lbs": 3365,
   "z60": {
    "sec": 10.3,
    "kind": "tested",
@@ -12401,7 +12826,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": "EPA combined on gas; 133 MPGe on electricity"
   },
-  "built": null,
+  "built": {
+   "count": 100000,
+   "approx": true,
+   "note": "More than 100,000 sold in the US by mid-2021, by InsideEVs' count"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-prius-plug-in-xw35",
@@ -12471,7 +12900,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": "EPA combined on gas; 127 MPGe on electricity"
   },
-  "built": null,
+  "built": {
+   "count": 35732,
+   "approx": true,
+   "note": "Sold in the US, 2023–2025 (7,557, 12,672 and 15,503)"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-prius-prime-xw52",
@@ -12536,7 +12969,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": null
   },
-  "built": null,
+  "built": {
+   "count": 189633,
+   "approx": true,
+   "note": "Sold in the US, 2012–2017 (177,218 through 2016, then 12,415 in 2017)"
+  },
   "alongside": [],
   "prev": null,
   "next": null,
@@ -12593,7 +13030,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": null
   },
-  "built": null,
+  "built": {
+   "count": 148079,
+   "approx": true,
+   "note": "Sold in the US, October 2011 to April 2016"
+  },
   "alongside": [],
   "prev": null,
   "next": null,
@@ -12856,9 +13297,9 @@ const CARS_INDEX = [
    "cargurus": "d308"
   },
   "hp": 245,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
+  "kg": 2145,
+  "kgNote": "Curb weight, 2021 Sienna Platinum Hybrid, Car and Driver test car",
+  "lbs": 4730,
   "z60": {
    "sec": 7.7,
    "kind": "tested",
@@ -12916,13 +13357,24 @@ const CARS_INDEX = [
   "specsFor": "Toyota Crown, first generation",
   "guide": null,
   "shop": null,
-  "hp": null,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
-  "z60": null,
+  "hp": 48,
+  "kg": 1210,
+  "kgNote": "Curb mass, RS, Toyota's figure",
+  "lbs": 2668,
+  "z60": {
+   "sec": 25.9,
+   "kind": "tested",
+   "note": "Motor Trend test, 1958 Toyopet Crown Custom"
+  },
   "top": null,
-  "mpg": null,
+  "mpg": {
+   "combined": 23.5,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "tested",
+   "note": "Motor Trend road test, 1958, over 407 miles"
+  },
   "built": null,
   "alongside": [],
   "prev": null,
@@ -12958,14 +13410,25 @@ const CARS_INDEX = [
   "specsFor": "Toyota Crown, second generation",
   "guide": null,
   "shop": null,
-  "hp": null,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
+  "hp": 89,
+  "kg": 1265,
+  "kgNote": "Curb mass, Deluxe RS41, Toyota's figure",
+  "lbs": 2789,
   "z60": null,
   "top": null,
-  "mpg": null,
-  "built": null,
+  "mpg": {
+   "combined": 23,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "tested",
+   "note": "Road Test magazine, June 1967, US Crown Deluxe 2300"
+  },
+  "built": {
+   "count": 250000,
+   "approx": true,
+   "note": "About 250,000 registered new in Japan over the generation's run, from Japanese registration data"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-crown-1st-gen",
@@ -13003,14 +13466,25 @@ const CARS_INDEX = [
   "specsFor": "Toyota Crown, third generation",
   "guide": null,
   "shop": null,
-  "hp": null,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
+  "hp": 108,
+  "kg": 1310,
+  "kgNote": "Curb mass, Super Deluxe MS50, Toyota's figure",
+  "lbs": 2888,
   "z60": null,
   "top": null,
-  "mpg": null,
-  "built": null,
+  "mpg": {
+   "combined": 22,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "tested",
+   "note": "Road Test magazine, 1971, US Crown 2.3 sedan, 4-speed manual (about 22 mpg)"
+  },
+  "built": {
+   "count": 277641,
+   "approx": true,
+   "note": "Registered new in Japan over the generation's run, from Japanese registration data"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-crown-2nd-gen",
@@ -13048,14 +13522,29 @@ const CARS_INDEX = [
   "specsFor": "Toyota Crown, fourth generation",
   "guide": null,
   "shop": null,
-  "hp": null,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
-  "z60": null,
+  "hp": 122,
+  "kg": 1429,
+  "kgNote": "Curb weight, 1972 US Crown 2600, Road & Track",
+  "lbs": 3150,
+  "z60": {
+   "sec": 14.1,
+   "kind": "tested",
+   "note": "Road & Track test, 1972 Crown 2600, automatic"
+  },
   "top": null,
-  "mpg": null,
-  "built": null,
+  "mpg": {
+   "combined": 16.0,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "tested",
+   "note": "Road & Track road test, 1972 Crown 2600, normal driving"
+  },
+  "built": {
+   "count": 287970,
+   "approx": true,
+   "note": "Registered new in Japan over the generation's run, from Japanese registration data"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-crown-3rd-gen",
@@ -13094,14 +13583,18 @@ const CARS_INDEX = [
   "specsFor": "Toyota Crown, fifth generation",
   "guide": null,
   "shop": null,
-  "hp": null,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
+  "hp": 138,
+  "kg": 1470,
+  "kgNote": "Curb mass, Royal Saloon, Toyota's figure",
+  "lbs": 3241,
   "z60": null,
   "top": null,
   "mpg": null,
-  "built": null,
+  "built": {
+   "count": 404699,
+   "approx": true,
+   "note": "Registered new in Japan over the generation's run, from Japanese registration data"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-crown-4th-gen",
@@ -13139,14 +13632,29 @@ const CARS_INDEX = [
   "specsFor": "Toyota Crown, sixth generation",
   "guide": null,
   "shop": null,
-  "hp": null,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
-  "z60": null,
+  "hp": 143,
+  "kg": 1490,
+  "kgNote": "Curb mass, 2800 Royal Saloon, Toyota's figure",
+  "lbs": 3285,
+  "z60": {
+   "sec": 10.5,
+   "kind": "tested",
+   "note": "Motor Sport road impressions, 1980 UK Crown 2.8 Super Saloon"
+  },
   "top": null,
-  "mpg": null,
-  "built": null,
+  "mpg": {
+   "combined": 20.4,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "tested",
+   "note": "Motor Sport, 1980 UK Crown 2.8 Super Saloon, 24–25 mpg in imperial gallons"
+  },
+  "built": {
+   "count": 326891,
+   "approx": true,
+   "note": "Registered new in Japan over the generation's run, from Japanese registration data"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-crown-5th-gen",
@@ -13184,14 +13692,18 @@ const CARS_INDEX = [
   "specsFor": "Toyota Crown, seventh generation",
   "guide": null,
   "shop": null,
-  "hp": null,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
+  "hp": 173,
+  "kg": 1480,
+  "kgNote": "Curb mass, 2800 DOHC Royal Saloon, Toyota's figure",
+  "lbs": 3263,
   "z60": null,
   "top": null,
   "mpg": null,
-  "built": null,
+  "built": {
+   "count": 539485,
+   "approx": true,
+   "note": "Registered new in Japan over the generation's run, from Japanese registration data"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-crown-6th-gen",
@@ -13229,14 +13741,25 @@ const CARS_INDEX = [
   "specsFor": "Toyota Crown, eighth generation",
   "guide": null,
   "shop": null,
-  "hp": null,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
+  "hp": 187,
+  "kg": 1590,
+  "kgNote": "Curb mass, 3000 Royal Saloon, Toyota's figure",
+  "lbs": 3505,
   "z60": null,
   "top": null,
-  "mpg": null,
-  "built": null,
+  "mpg": {
+   "combined": 22.1,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "official",
+   "note": "Japanese 10-15 mode, 9.4 km/L, 1995 Crown sedan 3.0 (the long-running 8th-generation sedan, by then with the 2JZ-GE)"
+  },
+  "built": {
+   "count": 873760,
+   "approx": true,
+   "note": "Japanese sales over the generation's run, the best of any Crown"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-crown-7th-gen",
@@ -13273,14 +13796,18 @@ const CARS_INDEX = [
   "specsFor": "Toyota Crown, ninth generation",
   "guide": null,
   "shop": null,
-  "hp": null,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
+  "hp": 227,
+  "kg": 1630,
+  "kgNote": "Curb mass, 3000 Royal Saloon, Toyota's figure",
+  "lbs": 3594,
   "z60": null,
   "top": null,
   "mpg": null,
-  "built": null,
+  "built": {
+   "count": 370921,
+   "approx": true,
+   "note": "Registered new in Japan over the generation's run (including the Crown Majesta), from Japanese registration data"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-crown-8th-gen",
@@ -13317,14 +13844,25 @@ const CARS_INDEX = [
   "specsFor": "Toyota Crown, tenth generation",
   "guide": null,
   "shop": null,
-  "hp": null,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
+  "hp": 217,
+  "kg": 1490,
+  "kgNote": "Curb mass, Royal Saloon G, Toyota's figure",
+  "lbs": 3285,
   "z60": null,
   "top": null,
-  "mpg": null,
-  "built": null,
+  "mpg": {
+   "combined": 22.1,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "official",
+   "note": "Japanese 10-15 mode, 9.4 km/L, 3.0 Royal Saloon G"
+  },
+  "built": {
+   "count": 503430,
+   "approx": true,
+   "note": "Registered new in Japan over the generation's run, from Japanese registration data"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-crown-9th-gen",
@@ -13363,14 +13901,25 @@ const CARS_INDEX = [
   "specsFor": "Toyota Crown, eleventh generation",
   "guide": null,
   "shop": null,
-  "hp": null,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
+  "hp": 217,
+  "kg": 1570,
+  "kgNote": "Curb mass, 3000 D-4 Royal Saloon, Toyota's figure",
+  "lbs": 3461,
   "z60": null,
   "top": null,
-  "mpg": null,
-  "built": null,
+  "mpg": {
+   "combined": 26.8,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "official",
+   "note": "Japanese 10-15 mode, 11.4 km/L, 3.0 Royal Saloon Premium, 2003"
+  },
+  "built": {
+   "count": 351888,
+   "approx": true,
+   "note": "Registered new in Japan over the generation's run, from Japanese registration data"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-crown-10th-gen",
@@ -13408,13 +13957,24 @@ const CARS_INDEX = [
   "specsFor": "Toyota Crown, twelfth generation",
   "guide": null,
   "shop": null,
-  "hp": null,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
-  "z60": null,
+  "hp": 252,
+  "kg": 1610,
+  "kgNote": "Curb mass, 3.0 Royal Saloon G, Toyota's figure",
+  "lbs": 3549,
+  "z60": {
+   "sec": 7.4,
+   "kind": "claimed",
+   "note": "0-100 km/h (62 mph), figure quoted by webCG at the 2003 press launch, 3.0 V6"
+  },
   "top": null,
-  "mpg": null,
+  "mpg": {
+   "combined": 27.8,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "official",
+   "note": "Japanese 10-15 mode, 11.8 km/L, 3.0 Royal Saloon"
+  },
   "built": null,
   "alongside": [],
   "prev": {
@@ -13454,14 +14014,25 @@ const CARS_INDEX = [
   "specsFor": "Toyota Crown, thirteenth generation",
   "guide": null,
   "shop": null,
-  "hp": null,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
+  "hp": 252,
+  "kg": 1600,
+  "kgNote": "Curb mass, 3.0 Royal Saloon G, Toyota's figure",
+  "lbs": 3527,
   "z60": null,
   "top": null,
-  "mpg": null,
-  "built": null,
+  "mpg": {
+   "combined": 27.8,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "official",
+   "note": "Japanese 10-15 mode, 11.8 km/L, 3.0 Royal Saloon G"
+  },
+  "built": {
+   "count": 210567,
+   "approx": true,
+   "note": "Registered new in Japan over the generation's run, from Japanese registration data"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-crown-12th-gen",
@@ -13500,14 +14071,25 @@ const CARS_INDEX = [
   "specsFor": "Toyota Crown, fourteenth generation",
   "guide": null,
   "shop": null,
-  "hp": null,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
+  "hp": 200,
+  "kg": 1590,
+  "kgNote": "Curb mass, Royal Saloon G 2.5, Toyota's figure",
+  "lbs": 3505,
   "z60": null,
   "top": null,
-  "mpg": null,
-  "built": null,
+  "mpg": {
+   "combined": 26.8,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "official",
+   "note": "Japanese JC08 mode, 11.4 km/L, 2.5 Royal Saloon G (hybrid: 23.2 km/L)"
+  },
+  "built": {
+   "count": 149638,
+   "approx": true,
+   "note": "Registered new in Japan, December 2012 to August 2015 (later sales not counted)"
+  },
   "alongside": [],
   "prev": {
    "id": "toyota-crown-13th-gen",
@@ -13544,13 +14126,20 @@ const CARS_INDEX = [
   "specsFor": "Toyota Crown, fifteenth generation",
   "guide": null,
   "shop": null,
-  "hp": null,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
+  "hp": 242,
+  "kg": 1730,
+  "kgNote": "Curb weight, 2.0 RS Advance",
+  "lbs": 3814,
   "z60": null,
   "top": null,
-  "mpg": null,
+  "mpg": {
+   "combined": 30.1,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "official",
+   "note": "Japanese JC08 mode, 12.8 km/L, 2.0 RS Advance"
+  },
   "built": null,
   "alongside": [],
   "prev": {
@@ -13664,7 +14253,11 @@ const CARS_INDEX = [
   "kg": 1869,
   "kgNote": "Curb weight, Kelley Blue Book figure",
   "lbs": null,
-  "z60": null,
+  "z60": {
+   "sec": 7.0,
+   "kind": "tested",
+   "note": "Car and Driver test, 2025 Limited"
+  },
   "top": null,
   "mpg": {
    "combined": 38,
@@ -13674,7 +14267,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": null
   },
-  "built": null,
+  "built": {
+   "count": 50923,
+   "approx": true,
+   "note": "Sold in the US so far, 2024 to October 2026"
+  },
   "alongside": [],
   "prev": null,
   "next": null,
@@ -13738,7 +14335,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": null
   },
-  "built": null,
+  "built": {
+   "count": 215888,
+   "approx": true,
+   "note": "Sold in the US, 2017–2023"
+  },
   "alongside": [],
   "prev": null,
   "next": {
@@ -13857,7 +14458,14 @@ const CARS_INDEX = [
    "note": "Motor Trend test, 1976 CVCC hatchback"
   },
   "top": null,
-  "mpg": null,
+  "mpg": {
+   "combined": 36.2,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "tested",
+   "note": "Motor Trend road test, 1976 CVCC hatchback"
+  },
   "built": {
    "count": 731927,
    "approx": true,
@@ -14663,7 +15271,14 @@ const CARS_INDEX = [
    "note": "Car and Driver test, 1980 1500GL hatchback"
   },
   "top": null,
-  "mpg": null,
+  "mpg": {
+   "combined": 27.5,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "tested",
+   "note": "Road & Track road test, 1980 Civic 1500GL"
+  },
   "built": {
    "count": 563654,
    "approx": true,
@@ -15552,7 +16167,14 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Honda claim, European car"
   },
-  "mpg": null,
+  "mpg": {
+   "combined": 26.4,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "official",
+   "note": "Official EU combined figure, European EP3, 31.7 mpg in imperial gallons"
+  },
   "built": {
    "count": 25798,
    "approx": false,
@@ -15661,8 +16283,19 @@ const CARS_INDEX = [
    "note": "Honda claim, 0–100 km/h (62 mph)"
   },
   "top": null,
-  "mpg": null,
-  "built": null,
+  "mpg": {
+   "combined": 32.2,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "official",
+   "note": "Official EU combined figure, 38.7 mpg in imperial gallons"
+  },
+  "built": {
+   "count": 15978,
+   "approx": false,
+   "note": "Built at Swindon, 2015–2017"
+  },
   "alongside": [],
   "prev": {
    "id": "honda-civic-type-r-fd2-fn2",
@@ -16371,12 +17004,23 @@ const CARS_INDEX = [
    "cargurus": "d595"
   },
   "hp": 72,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
-  "z60": null,
+  "kg": 975,
+  "kgNote": "Curb weight, 1979 Prelude, Road & Track",
+  "lbs": 2150,
+  "z60": {
+   "sec": 11.5,
+   "kind": "tested",
+   "note": "Road & Track test, 1979 Prelude"
+  },
   "top": null,
-  "mpg": null,
+  "mpg": {
+   "combined": 23.5,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "tested",
+   "note": "Road & Track road test, 1979 Prelude, normal driving"
+  },
   "built": {
    "count": 171829,
    "approx": true,

@@ -8387,7 +8387,11 @@ const CARS_INDEX = [
    "id": "honda-accord-10th-gen",
    "name": "Honda Accord (tenth generation)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/honda-accord-9th-gen.jpg?v=cb7d24e9",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "honda-accord-10th-gen",
@@ -8446,7 +8450,11 @@ const CARS_INDEX = [
    "id": "honda-accord-11th-gen",
    "name": "Honda Accord (eleventh generation)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/honda-accord-10th-gen.jpg?v=5921cc8d",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "honda-accord-11th-gen",
@@ -8501,7 +8509,11 @@ const CARS_INDEX = [
    "name": "Honda Accord (tenth generation)"
   },
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/honda-accord-11th-gen.jpg?v=c24de404",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "honda-civic-10th-gen",
@@ -8559,7 +8571,11 @@ const CARS_INDEX = [
    "id": "honda-civic-11th-gen",
    "name": "Honda Civic (eleventh generation)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/honda-civic-10th-gen.jpg?v=b0e5d876",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "honda-civic-11th-gen",
@@ -8617,7 +8633,11 @@ const CARS_INDEX = [
    "name": "Honda Civic (tenth generation)"
   },
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/honda-civic-11th-gen.jpg?v=e1cef572",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "honda-civic-si-10th-gen",
@@ -8665,7 +8685,11 @@ const CARS_INDEX = [
    "id": "honda-civic-si-11th-gen",
    "name": "Honda Civic Si (eleventh generation)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/honda-civic-si-10th-gen.jpg?v=c0f7665d",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "honda-civic-si-11th-gen",
@@ -8713,7 +8737,11 @@ const CARS_INDEX = [
    "name": "Honda Civic Si (tenth generation)"
   },
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/honda-civic-si-11th-gen.jpg?v=4dcc6b16",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "honda-civic-type-r-fk8",
@@ -8767,7 +8795,11 @@ const CARS_INDEX = [
    "id": "honda-civic-type-r-fl5",
    "name": "Honda Civic Type R (FL5)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/honda-civic-type-r-fk8.jpg?v=3a333a2e",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "honda-civic-type-r-fl5",
@@ -8819,7 +8851,11 @@ const CARS_INDEX = [
    "name": "Honda Civic Type R (FK8)"
   },
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/honda-civic-type-r-fl5.jpg?v=c8162a06",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "honda-cr-v-5th-gen",
@@ -8882,7 +8918,11 @@ const CARS_INDEX = [
    "id": "honda-cr-v-6th-gen",
    "name": "Honda CR-V (sixth generation)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/honda-cr-v-5th-gen.jpg?v=9c6ece40",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "honda-cr-v-6th-gen",
@@ -8946,7 +8986,11 @@ const CARS_INDEX = [
    "name": "Honda CR-V (fifth generation)"
   },
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/honda-cr-v-6th-gen.jpg?v=9e2b45d7",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "honda-cr-v-e-fcev",
@@ -8992,7 +9036,11 @@ const CARS_INDEX = [
   "alongside": [],
   "prev": null,
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/honda-cr-v-e-fcev.jpg?v=4d6362e9",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "honda-prelude-6th-gen",
@@ -9043,6 +9091,10 @@ const CARS_INDEX = [
   "alongside": [],
   "prev": null,
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/honda-prelude-6th-gen.jpg?v=1047ed88",
+   "pos": "",
+   "fit": ""
+  }
  }
 ];

@@ -9110,7 +9110,7 @@ const CARS = [
       "id": "honda-accord-10th-gen"
     },
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Honda"},
     "id": "honda-accord-9th-gen",
     "name": "Honda Accord (ninth generation)",
     "aka": [
@@ -9173,7 +9173,7 @@ const CARS = [
       "id": "honda-accord-11th-gen"
     },
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Honda"},
     "id": "honda-accord-10th-gen",
     "name": "Honda Accord (tenth generation)",
     "aka": [
@@ -9238,7 +9238,7 @@ const CARS = [
     },
     "successor": null,
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Honda"},
     "id": "honda-accord-11th-gen",
     "name": "Honda Accord (eleventh generation)",
     "aka": [
@@ -9302,7 +9302,7 @@ const CARS = [
       "id": "honda-civic-11th-gen"
     },
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Honda"},
     "id": "honda-civic-10th-gen",
     "name": "Honda Civic (tenth generation)",
     "aka": [
@@ -9367,7 +9367,7 @@ const CARS = [
     },
     "successor": null,
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Honda"},
     "id": "honda-civic-11th-gen",
     "name": "Honda Civic (eleventh generation)",
     "aka": [
@@ -9432,7 +9432,7 @@ const CARS = [
       "id": "honda-civic-si-11th-gen"
     },
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Honda"},
     "id": "honda-civic-si-10th-gen",
     "name": "Honda Civic Si (tenth generation)",
     "aka": [
@@ -9493,7 +9493,7 @@ const CARS = [
     },
     "successor": null,
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Honda"},
     "id": "honda-civic-si-11th-gen",
     "name": "Honda Civic Si (eleventh generation)",
     "aka": [
@@ -9554,7 +9554,7 @@ const CARS = [
       "id": "honda-civic-type-r-fl5"
     },
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Honda"},
     "id": "honda-civic-type-r-fk8",
     "name": "Honda Civic Type R (FK8)",
     "aka": [
@@ -9617,7 +9617,7 @@ const CARS = [
     },
     "successor": null,
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Honda"},
     "id": "honda-civic-type-r-fl5",
     "name": "Honda Civic Type R (FL5)",
     "aka": [
@@ -9678,7 +9678,7 @@ const CARS = [
       "id": "honda-cr-v-6th-gen"
     },
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Honda"},
     "id": "honda-cr-v-5th-gen",
     "name": "Honda CR-V (fifth generation)",
     "aka": [
@@ -9741,7 +9741,7 @@ const CARS = [
     },
     "successor": null,
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Honda"},
     "id": "honda-cr-v-6th-gen",
     "name": "Honda CR-V (sixth generation)",
     "aka": [
@@ -9802,7 +9802,7 @@ const CARS = [
     "predecessor": null,
     "successor": null,
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Honda"},
     "id": "honda-cr-v-e-fcev",
     "name": "Honda CR-V e:FCEV",
     "aka": [
@@ -9856,7 +9856,7 @@ const CARS = [
     "predecessor": null,
     "successor": null,
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Honda"},
     "id": "honda-prelude-6th-gen",
     "name": "Honda Prelude (sixth generation)",
     "aka": [

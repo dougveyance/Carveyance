@@ -8951,6 +8951,127 @@ const CARS_INDEX = [
   }
  },
  {
+  "id": "toyota-highlander-xu20",
+  "name": "Toyota Highlander (XU20)",
+  "aka": [
+   "2001–2007 Highlander",
+   "Highlander Hybrid",
+   "Highlander Limited",
+   "XU20"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2001–2007",
+  "start": 2001,
+  "body": "Mid-size SUV, 5 seats (7 seats optional from 2004)",
+  "engine": "2.4-liter 4-cylinder; 3.0-liter V6 (3.3-liter from 2004); 3.3-liter V6 hybrid (2006–2007)",
+  "country": "Japan",
+  "quick": "The first Highlander, 2001–2007: a car-based family SUV that put on-road comfort ahead of off-roading, and from 2006 Toyota's first 7-seat hybrid.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Front-wheel drive or full-time 4-wheel drive",
+  "gearbox": "4-speed automatic; 5-speed automatic with the 3.3-liter V6; CVT (Hybrid)",
+  "specsFor": "2001 Toyota Highlander Limited V6, 4-wheel drive, US market (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d298"
+  },
+  "hp": 220,
+  "kg": 1769,
+  "kgNote": "Curb weight, 2001 Limited V6",
+  "lbs": 3900,
+  "z60": {
+   "sec": 8.8,
+   "kind": "tested",
+   "note": "Car and Driver test, 2001 Limited V6"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 18,
+   "city": 16,
+   "hwy": 21,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2001 V6, 4-wheel drive"
+  },
+  "built": {
+   "count": 848166,
+   "approx": true,
+   "note": "Sold in the US, 2001–2007"
+  },
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": "toyota-highlander-xu40",
+   "name": "Toyota Highlander (XU40)"
+  },
+  "photo": null
+ },
+ {
+  "id": "toyota-highlander-xu40",
+  "name": "Toyota Highlander (XU40)",
+  "aka": [
+   "2008–2013 Highlander",
+   "Highlander Hybrid",
+   "Highlander SE",
+   "XU40"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2008–2013",
+  "start": 2008,
+  "body": "Mid-size SUV, 7 seats",
+  "engine": "3.5-liter V6; 2.7-liter 4-cylinder from 2009; V6 hybrid",
+  "country": "Japan and United States",
+  "quick": "The second Highlander, 2008–2013: bigger and heavier, with a 270-hp V6 that ran to 60 in 7 seconds, and built in Indiana from late 2009.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Front-wheel drive or 4-wheel drive",
+  "gearbox": "5-speed automatic; 6-speed automatic (4-cylinder); CVT (Hybrid)",
+  "specsFor": "2008 Toyota Highlander Limited, 3.5-liter V6, front-wheel drive, US market (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d298"
+  },
+  "hp": 270,
+  "kg": 1860,
+  "kgNote": "Curb weight, 2008 Limited",
+  "lbs": 4100,
+  "z60": {
+   "sec": 7.0,
+   "kind": "tested",
+   "note": "Car and Driver test, 2008 Limited"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 20,
+   "city": 18,
+   "hwy": 24,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2008 V6, front-wheel drive"
+  },
+  "built": {
+   "count": 629779,
+   "approx": true,
+   "note": "Sold in the US, 2008–2013"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "toyota-highlander-xu20",
+   "name": "Toyota Highlander (XU20)"
+  },
+  "next": {
+   "id": "toyota-highlander-xu50",
+   "name": "Toyota Highlander (XU50)"
+  },
+  "photo": null
+ },
+ {
   "id": "toyota-highlander-xu50",
   "name": "Toyota Highlander (XU50)",
   "aka": [
@@ -9006,7 +9127,10 @@ const CARS_INDEX = [
    "note": "Sold in the US, 2014–2019"
   },
   "alongside": [],
-  "prev": null,
+  "prev": {
+   "id": "toyota-highlander-xu40",
+   "name": "Toyota Highlander (XU40)"
+  },
   "next": {
    "id": "toyota-highlander-xu70",
    "name": "Toyota Highlander (XU70)"
@@ -9146,6 +9270,133 @@ const CARS_INDEX = [
   }
  },
  {
+  "id": "toyota-tacoma-n140",
+  "name": "Toyota Tacoma (N140)",
+  "aka": [
+   "1995–2004 Tacoma",
+   "Tacoma PreRunner",
+   "Tacoma Xtracab",
+   "Tacoma Double Cab",
+   "N140"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "1995–2004",
+  "start": 1995,
+  "body": "Compact pickup: Regular Cab and Xtracab; Double Cab from 2001",
+  "engine": "2.4-liter or 2.7-liter 4-cylinder; 3.4-liter V6",
+  "country": "United States",
+  "quick": "The first Tacoma, 1995–2004: Toyota's American-market compact pickup, tuned more for ride and comfort than the Hilux it replaced, with a 190-hp V6.",
+  "articles": [
+   "everything-is-two-cars"
+  ],
+  "latest": "2026-08-18",
+  "ownDates": [],
+  "dates": [
+   "2026-08-18"
+  ],
+  "drive": "Rear-wheel drive or 4-wheel drive",
+  "gearbox": "5-speed manual or 4-speed automatic",
+  "specsFor": "1995 Toyota Tacoma SR5 V6 Xtracab, 4-wheel drive, automatic, US market (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d311"
+  },
+  "hp": 190,
+  "kg": 1724,
+  "kgNote": "Curb weight, 1995 SR5 V6 Xtracab, 4-wheel drive",
+  "lbs": 3800,
+  "z60": {
+   "sec": 9.4,
+   "kind": "tested",
+   "note": "Car and Driver test, 1995 SR5 V6 Xtracab"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 16,
+   "city": 15,
+   "hwy": 17,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1995 V6, 4-wheel drive, automatic"
+  },
+  "built": null,
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": "toyota-tacoma-n220",
+   "name": "Toyota Tacoma (N220)"
+  },
+  "photo": null
+ },
+ {
+  "id": "toyota-tacoma-n220",
+  "name": "Toyota Tacoma (N220)",
+  "aka": [
+   "2005–2015 Tacoma",
+   "Tacoma X-Runner",
+   "Tacoma TRD Pro",
+   "Tacoma PreRunner",
+   "N220"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2005–2015",
+  "start": 2005,
+  "body": "Mid-size pickup: Regular Cab, Access Cab and Double Cab",
+  "engine": "2.7-liter 4-cylinder; 4.0-liter V6",
+  "country": "United States",
+  "quick": "The second Tacoma, 2005–2015: bigger and stronger, with a 236-hp 4.0-liter V6 that ran to 60 in under 7 seconds, an X-Runner street truck and TRD Pro off-roaders.",
+  "articles": [
+   "everything-is-two-cars"
+  ],
+  "latest": "2026-08-18",
+  "ownDates": [],
+  "dates": [
+   "2026-08-18"
+  ],
+  "drive": "Rear-wheel drive or 4-wheel drive",
+  "gearbox": "5-speed or 6-speed manual, 4-speed or 5-speed automatic",
+  "specsFor": "2005 Toyota Tacoma SR5 V6 Double Cab, 4-wheel drive, automatic, US market (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d311"
+  },
+  "hp": 236,
+  "kg": 1882,
+  "kgNote": "Curb weight, 2005 SR5 V6 Double Cab, 4-wheel drive",
+  "lbs": 4150,
+  "z60": {
+   "sec": 6.9,
+   "kind": "tested",
+   "note": "Car and Driver test, 2005 SR5 V6 Double Cab"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 17,
+   "city": 16,
+   "hwy": 20,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2005 V6, 4-wheel drive, automatic"
+  },
+  "built": {
+   "count": 1629255,
+   "approx": true,
+   "note": "Sold in the US, 2005–2015"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "toyota-tacoma-n140",
+   "name": "Toyota Tacoma (N140)"
+  },
+  "next": {
+   "id": "toyota-tacoma-n300",
+   "name": "Toyota Tacoma (N300)"
+  },
+  "photo": null
+ },
+ {
   "id": "toyota-tacoma-n300",
   "name": "Toyota Tacoma (N300)",
   "aka": [
@@ -9207,7 +9458,10 @@ const CARS_INDEX = [
    "note": "Sold in the US, 2016–2023"
   },
   "alongside": [],
-  "prev": null,
+  "prev": {
+   "id": "toyota-tacoma-n220",
+   "name": "Toyota Tacoma (N220)"
+  },
   "next": {
    "id": "toyota-tacoma-n400",
    "name": "Toyota Tacoma (N400)"
@@ -9290,6 +9544,66 @@ const CARS_INDEX = [
   }
  },
  {
+  "id": "toyota-tundra-xk30",
+  "name": "Toyota Tundra (XK30/XK40)",
+  "aka": [
+   "2000–2006 Tundra",
+   "Tundra Double Cab",
+   "Tundra Access Cab",
+   "XK30",
+   "XK40"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2000–2006",
+  "start": 2000,
+  "body": "Full-size pickup: Regular Cab and Access Cab; Double Cab from 2004",
+  "engine": "3.4-liter V6 (4.0-liter from 2005); 4.7-liter V8",
+  "country": "United States",
+  "quick": "The first Tundra, 2000–2006: the first Toyota pickup with a V8, built in Indiana and Motor Trend's Truck of the Year for 2000.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive or 4-wheel drive",
+  "gearbox": "5-speed manual or 4-speed automatic; 5-speed automatic from 2005",
+  "specsFor": "2000 Toyota Tundra SR5 Access Cab, 4.7-liter V8, 4-wheel drive, US market (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d313"
+  },
+  "hp": 245,
+  "kg": 1891,
+  "kgNote": "Curb weight, 2000 SR5 Access Cab",
+  "lbs": 4170,
+  "z60": {
+   "sec": 8.5,
+   "kind": "tested",
+   "note": "Car and Driver test, 2000 SR5 Access Cab, 4-wheel drive"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 14,
+   "city": 13,
+   "hwy": 16,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2000 V8, 4-wheel drive"
+  },
+  "built": {
+   "count": 773478,
+   "approx": true,
+   "note": "Sold in the US, 2000–2006; some years not fully sourced"
+  },
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": "toyota-tundra-xk50",
+   "name": "Toyota Tundra (XK50)"
+  },
+  "photo": null
+ },
+ {
   "id": "toyota-tundra-xk50",
   "name": "Toyota Tundra (XK50)",
   "aka": [
@@ -9348,7 +9662,10 @@ const CARS_INDEX = [
    "note": "Sold in the US, 2007–2021"
   },
   "alongside": [],
-  "prev": null,
+  "prev": {
+   "id": "toyota-tundra-xk30",
+   "name": "Toyota Tundra (XK30/XK40)"
+  },
   "next": {
    "id": "toyota-tundra-xk70",
    "name": "Toyota Tundra (XK70)"
@@ -9427,6 +9744,70 @@ const CARS_INDEX = [
   }
  },
  {
+  "id": "toyota-sequoia-xk30",
+  "name": "Toyota Sequoia (XK30)",
+  "aka": [
+   "2001–2007 Sequoia",
+   "Sequoia SR5",
+   "Sequoia Limited",
+   "XK30",
+   "XK40"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2001–2007",
+  "start": 2001,
+  "body": "Full-size SUV",
+  "engine": "4.7-liter V8",
+  "country": "United States",
+  "quick": "The first Sequoia, 2001–2007: a Tundra-based full-size SUV, bigger than a Chevrolet Tahoe in most dimensions, with a 240-hp V8.",
+  "articles": [
+   "the-prius-paradox"
+  ],
+  "latest": "2026-10-05",
+  "ownDates": [],
+  "dates": [
+   "2026-10-05"
+  ],
+  "drive": "Rear-wheel drive or 4-wheel drive",
+  "gearbox": "4-speed automatic; 5-speed automatic from 2005",
+  "specsFor": "2001 Toyota Sequoia Limited, 4-wheel drive, US market (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d307"
+  },
+  "hp": 240,
+  "kg": 2268,
+  "kgNote": "Curb weight, 2001 Limited, 4-wheel drive",
+  "lbs": 5000,
+  "z60": {
+   "sec": 9.1,
+   "kind": "tested",
+   "note": "Car and Driver test, 2001 Limited"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 14,
+   "city": 12,
+   "hwy": 16,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2001, 4-wheel drive"
+  },
+  "built": {
+   "count": 377359,
+   "approx": true,
+   "note": "Sold in the US, 2000–2007 (calendar years; sales began in late 2000)"
+  },
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": "toyota-sequoia-xk60",
+   "name": "Toyota Sequoia (XK60)"
+  },
+  "photo": null
+ },
+ {
   "id": "toyota-sequoia-xk60",
   "name": "Toyota Sequoia (XK60)",
   "aka": [
@@ -9484,7 +9865,10 @@ const CARS_INDEX = [
    "note": "Sold in the US, 2008–2022"
   },
   "alongside": [],
-  "prev": null,
+  "prev": {
+   "id": "toyota-sequoia-xk30",
+   "name": "Toyota Sequoia (XK30)"
+  },
   "next": {
    "id": "toyota-sequoia-xk80",
    "name": "Toyota Sequoia (XK80)"

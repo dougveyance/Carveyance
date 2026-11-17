@@ -5437,6 +5437,24 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://carveyance.com/cars/toyota-4runner-n120/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/cars/toyota-4runner-n180/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/cars/toyota-4runner-n210/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://carveyance.com/cars/toyota-4runner-n280/</loc>
     <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
@@ -5444,6 +5462,12 @@
   </url>
   <url>
     <loc>https://carveyance.com/cars/toyota-4runner-n500/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/cars/toyota-4runner-n60/</loc>
     <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

@@ -13408,6 +13408,234 @@ const CARS = [
     }
   },
   {
+    "id": "toyota-avalon-xx10",
+    "name": "Toyota Avalon (XX10)",
+    "aka": [
+      "1995–1999 Avalon",
+      "Avalon XL",
+      "Avalon XLS",
+      "XX10"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "United States",
+    "years": "1995–1999",
+    "start": 1995,
+    "end": 1999,
+    "shop": {
+      "cargurus": "d291"
+    },
+    "body": "Full-size 4-door sedan, 5 or 6 seats",
+    "engine": "3.0-liter V6",
+    "drive": "Front-wheel drive",
+    "gearbox": "4-speed automatic",
+    "specsFor": "1995 Toyota Avalon XL, US market (Car and Driver test)",
+    "power": {
+      "hp": 192,
+      "note": "3.0-liter V6 (200 hp from 1997)",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Avalon"
+    },
+    "weight": {
+      "kg": 1549,
+      "lb": 3415,
+      "note": "Curb weight, 1995 XL",
+      "src": "https://www.0-60specs.com/toyota/avalon-0-60-times"
+    },
+    "zero60": {
+      "sec": 7.5,
+      "kind": "tested",
+      "note": "Car and Driver test, 1995 XL",
+      "src": "https://www.0-60specs.com/toyota/avalon-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 21,
+      "city": 18,
+      "hwy": 26,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/12073.shtml",
+      "note": "EPA combined, 1995"
+    },
+    "built": {
+      "count": 362260,
+      "approx": true,
+      "note": "Sold in the US, 1994–1999 (calendar years; sales began in late 1994)",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Avalon"
+    },
+    "predecessor": null,
+    "successor": {
+      "name": "Toyota Avalon (XX20)",
+      "id": "toyota-avalon-xx20"
+    },
+    "quick": "The first Avalon, 1995–1999: Toyota's big American-made sedan, with room for 6 on a front bench seat and a column shifter.",
+    "story": [
+      "Toyota showed the Avalon at the Chicago auto show in February 1994 and launched it late that year as a 1995 model, built in the US. With almost 121 cubic feet of interior space it was the roomiest 6-passenger car from a Japanese maker sold in America, thanks partly to an optional front bench seat and a column shifter, the first in an American-market Toyota since the Corona. The name had first appeared on a convertible concept at the 1991 Tokyo Motor Show.",
+      "Its 3.0-liter V6 made 192 hp, and Car and Driver timed a 1995 XL to 60 mph in 7.5 seconds. Anti-lock brakes became standard and power rose to 200 hp for 1997, and a 1998 refresh made front side airbags standard. Avalons were also shipped from America to Japan, and Americans bought about 362,000."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Avalon"
+    ]
+  },
+  {
+    "id": "toyota-avalon-xx20",
+    "name": "Toyota Avalon (XX20)",
+    "aka": [
+      "2000–2004 Avalon",
+      "Avalon XLS",
+      "Toyota Pronard",
+      "XX20"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "United States",
+    "years": "2000–2004",
+    "start": 2000,
+    "end": 2004,
+    "shop": {
+      "cargurus": "d291"
+    },
+    "body": "Full-size 4-door sedan, 5 or 6 seats",
+    "engine": "3.0-liter V6",
+    "drive": "Front-wheel drive",
+    "gearbox": "4-speed automatic",
+    "specsFor": "2004 Toyota Avalon XLS, US market (Motor Trend test)",
+    "power": {
+      "hp": 210,
+      "note": "3.0-liter V6 with variable valve timing",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Avalon"
+    },
+    "weight": {
+      "kg": 1594,
+      "lb": 3515,
+      "note": "Curb weight, 2004 XLS",
+      "src": "https://www.0-60specs.com/toyota/avalon-0-60-times"
+    },
+    "zero60": {
+      "sec": 8.7,
+      "kind": "tested",
+      "note": "Motor Trend test, 2004 XLS",
+      "src": "https://www.0-60specs.com/toyota/avalon-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 22,
+      "city": 19,
+      "hwy": 27,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/16009.shtml",
+      "note": "EPA combined, 2000"
+    },
+    "built": {
+      "count": 343483,
+      "approx": true,
+      "note": "Sold in the US, 2000–2004",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Avalon"
+    },
+    "predecessor": {
+      "name": "Toyota Avalon (XX10)",
+      "id": "toyota-avalon-xx10"
+    },
+    "successor": {
+      "name": "Toyota Avalon (XX30)",
+      "id": "toyota-avalon-xx30"
+    },
+    "quick": "The second Avalon, 2000–2004: a 210-hp V6 sedan with an optional 6-seat bench, also sent to Japan as the Toyota Pronard.",
+    "story": [
+      "The second Avalon kept the formula: a 3.0-liter V6, now with variable valve timing and 210 hp, front-wheel drive, a 4-speed automatic and an optional front bench for 6 passengers. Standard equipment included electroluminescent Optitron gauges, 4-wheel disc brakes with ABS and front side airbags. Motor Trend timed a 2004 XLS to 60 mph in 8.7 seconds.",
+      "It went to Japan as the Toyota Pronard, a name taken from a French word for praise, but sales there were poor, and the next Avalon wasn't exported. The IIHS rated it Good in all 6 frontal-crash measures. US sales peaked at about 104,000 in 2000, about 343,000 in all."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Avalon"
+    ]
+  },
+  {
+    "id": "toyota-avalon-xx30",
+    "name": "Toyota Avalon (XX30)",
+    "aka": [
+      "2005–2012 Avalon",
+      "Avalon Touring",
+      "Avalon Limited",
+      "XX30"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "United States",
+    "years": "2005–2012",
+    "start": 2005,
+    "end": 2012,
+    "shop": {
+      "cargurus": "d291"
+    },
+    "body": "Full-size 4-door sedan",
+    "engine": "3.5-liter V6",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed automatic (6-speed from 2011)",
+    "specsFor": "2005 Toyota Avalon Touring, US market (Car and Driver test)",
+    "power": {
+      "hp": 280,
+      "note": "3.5-liter V6 (268 hp under the 2006 SAE rating)",
+      "src": "https://www.0-60specs.com/toyota/avalon-0-60-times"
+    },
+    "weight": {
+      "kg": 1624,
+      "lb": 3580,
+      "note": "Curb weight, 2005 Touring",
+      "src": "https://www.0-60specs.com/toyota/avalon-0-60-times"
+    },
+    "zero60": {
+      "sec": 6.0,
+      "kind": "tested",
+      "note": "Car and Driver test, 2005 Touring",
+      "src": "https://www.0-60specs.com/toyota/avalon-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 22,
+      "city": 19,
+      "hwy": 28,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/21597.shtml",
+      "note": "EPA combined, 2005"
+    },
+    "built": {
+      "count": 413797,
+      "approx": true,
+      "note": "Sold in the US, 2005–2012 (2012 includes the first XX40 hybrids)",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Avalon"
+    },
+    "predecessor": {
+      "name": "Toyota Avalon (XX20)",
+      "id": "toyota-avalon-xx20"
+    },
+    "successor": {
+      "name": "Toyota Avalon (XX40)",
+      "id": "toyota-avalon-xx40"
+    },
+    "quick": "The third Avalon, 2005–2012: a 280-hp V6 that ran to 60 in 6 seconds, a flat rear floor and reclining rear seats.",
+    "story": [
+      "Unveiled at the Detroit auto show in January 2005 and on sale in February, the third Avalon had a 3.5-liter V6 rated at 280 hp, or 268 hp for 2006 after a change in SAE testing. Car and Driver timed a 2005 Touring to 60 mph in 6.0 seconds. Trims ran from the XL to the Touring, with a sport suspension and black leather, and the Limited, with ventilated seats and push-button start.",
+      "A flat rear floor and reclining rear seats made the back seat a selling point, and Limited buyers could add laser cruise control. It wasn't sold in Europe or Japan, though from late 2011 US-built Avalons were shipped to South Korea. US sales came to about 414,000."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Avalon"
+    ]
+  },
+  {
     "id": "toyota-avalon-xx40",
     "name": "Toyota Avalon (XX40)",
     "aka": [
@@ -13504,7 +13732,10 @@ const CARS = [
       "note": "Sold in the US, 2013–2018",
       "src": "https://www.goodcarbadcar.net/toyota-avalon-sales-figures/"
     },
-    "predecessor": null,
+    "predecessor": {
+      "name": "Toyota Avalon (XX30)",
+      "id": "toyota-avalon-xx30"
+    },
     "successor": {
       "name": "Toyota Avalon (XX50)",
       "id": "toyota-avalon-xx50"
@@ -13819,6 +14050,235 @@ const CARS = [
     }
   },
   {
+    "id": "toyota-prius-xw10",
+    "name": "Toyota Prius (XW10)",
+    "aka": [
+      "2001–2003 Prius",
+      "Prius NHW11",
+      "Prius NHW10",
+      "XW10"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "2001–2003",
+    "start": 2001,
+    "end": 2003,
+    "shop": {
+      "cargurus": "d15"
+    },
+    "body": "Compact 4-door sedan",
+    "engine": "1.5-liter 4-cylinder hybrid",
+    "drive": "Front-wheel drive",
+    "gearbox": "CVT",
+    "specsFor": "2001 Toyota Prius, US market (Car and Driver test)",
+    "power": {
+      "hp": 70,
+      "note": "1.5-liter gasoline engine; the electric motor adds up to 44 hp",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Prius_(XW10)"
+    },
+    "weight": {
+      "kg": 1252,
+      "lb": 2760,
+      "note": "Curb weight, 2001",
+      "src": "https://www.0-60specs.com/toyota/prius-0-60-times"
+    },
+    "zero60": {
+      "sec": 13.0,
+      "kind": "tested",
+      "note": "Car and Driver test, 2001",
+      "src": "https://www.0-60specs.com/toyota/prius-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 41,
+      "city": 42,
+      "hwy": 41,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/16705.shtml",
+      "note": "EPA combined, 2001"
+    },
+    "built": {
+      "count": 123000,
+      "approx": true,
+      "note": "Sold worldwide, 1997–2003",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Prius_(XW10)"
+    },
+    "predecessor": null,
+    "successor": {
+      "name": "Toyota Prius (XW20)",
+      "id": "toyota-prius-xw20"
+    },
+    "quick": "The first Prius, sold in America from 2001 to 2003: the world's first mass-produced hybrid car, launched in Japan in 1997.",
+    "story": [
+      "Toyota's G21 project team first met in February 1994, and the first Prius went on sale in Japan on December 10, 1997, the world's first mass-produced gasoline-electric hybrid and 2 years ahead of other makers. After 2 years of Japan-only sales, the updated NHW11 version reached world markets in September 2000 as a small 4-door sedan.",
+      "Its 1.5-liter engine made 70 hp and its electric motor up to 44 hp, working through a continuously variable transmission. Car and Driver timed a 2001 Prius to 60 mph in 13.0 seconds, and the EPA rates it at 41 mpg combined. Toyota sold about 123,000 first-generation Prius worldwide."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Prius"
+    ]
+  },
+  {
+    "id": "toyota-prius-xw20",
+    "name": "Toyota Prius (XW20)",
+    "aka": [
+      "2004–2009 Prius",
+      "Prius liftback",
+      "XW20",
+      "NHW20"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "2004–2009",
+    "start": 2004,
+    "end": 2009,
+    "shop": {
+      "cargurus": "d15"
+    },
+    "body": "Compact 5-door liftback",
+    "engine": "1.5-liter 4-cylinder hybrid",
+    "drive": "Front-wheel drive",
+    "gearbox": "CVT",
+    "specsFor": "2004 Toyota Prius, US market (Car and Driver test)",
+    "power": {
+      "hp": 110,
+      "note": "Combined system output",
+      "src": "https://www.0-60specs.com/toyota/prius-0-60-times"
+    },
+    "weight": {
+      "kg": 1311,
+      "lb": 2890,
+      "note": "Curb weight, 2004",
+      "src": "https://www.0-60specs.com/toyota/prius-0-60-times"
+    },
+    "zero60": {
+      "sec": 10.1,
+      "kind": "tested",
+      "note": "Car and Driver test, 2004",
+      "src": "https://www.0-60specs.com/toyota/prius-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 46,
+      "city": 48,
+      "hwy": 45,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/19813.shtml",
+      "note": "EPA combined, 2004"
+    },
+    "built": {
+      "count": 1192000,
+      "approx": true,
+      "note": "Sold worldwide",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Prius_(XW20)"
+    },
+    "predecessor": {
+      "name": "Toyota Prius (XW10)",
+      "id": "toyota-prius-xw10"
+    },
+    "successor": {
+      "name": "Toyota Prius (XW30)",
+      "id": "toyota-prius-xw30"
+    },
+    "quick": "The second Prius, 2004–2009: the liftback that made the hybrid mainstream, Motor Trend's 2004 Car of the Year and European Car of the Year for 2005.",
+    "story": [
+      "Developed from 1999 under chief engineer Shigeyuki Hori, whose team filed 530 patents on it, the second Prius arrived in 2003 as a compact liftback, about 150 mm (6 in) longer than before, with much more rear legroom and cargo space. An all-electric air-conditioning compressor, an industry first, and electric power steering cut the engine's belt-driven load. Combined output was 110 hp, and Car and Driver timed a 2004 Prius to 60 mph in 10.1 seconds.",
+      "It won Motor Trend's 2004 Car of the Year, the 2004 North American Car of the Year and the 2005 European Car of the Year, and it made Car and Driver's 10Best list. The EPA rates it at 46 mpg combined. Toyota sold about 1.19 million worldwide."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Prius"
+    ]
+  },
+  {
+    "id": "toyota-prius-xw30",
+    "name": "Toyota Prius (XW30)",
+    "aka": [
+      "2010–2015 Prius",
+      "Prius Two",
+      "Prius Four",
+      "XW30",
+      "ZVW30"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "2010–2015",
+    "start": 2010,
+    "end": 2015,
+    "shop": {
+      "cargurus": "d15"
+    },
+    "body": "Compact 5-door liftback",
+    "engine": "1.8-liter 4-cylinder hybrid",
+    "drive": "Front-wheel drive",
+    "gearbox": "CVT",
+    "specsFor": "2010 Toyota Prius IV, US market (Car and Driver test)",
+    "power": {
+      "hp": 134,
+      "note": "Combined system output",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Prius_(XW30)"
+    },
+    "weight": {
+      "kg": 1380,
+      "lb": 3042,
+      "note": "Curb weight, 2010 Prius IV",
+      "src": "https://www.0-60specs.com/toyota/prius-0-60-times"
+    },
+    "zero60": {
+      "sec": 10.0,
+      "kind": "tested",
+      "note": "Car and Driver test, 2010 Prius IV",
+      "src": "https://www.0-60specs.com/toyota/prius-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 50,
+      "city": 51,
+      "hwy": 48,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/26425.shtml",
+      "note": "EPA combined, 2010"
+    },
+    "built": {
+      "count": 1688000,
+      "approx": true,
+      "note": "Built worldwide",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Prius_(XW30)"
+    },
+    "predecessor": {
+      "name": "Toyota Prius (XW20)",
+      "id": "toyota-prius-xw20"
+    },
+    "successor": {
+      "name": "Toyota Prius (XW50)",
+      "id": "toyota-prius-xw50"
+    },
+    "quick": "The third Prius, 2010–2015: a bigger 1.8-liter engine that used less fuel, plant-based plastics inside, and 50 mpg on the EPA's combined scale.",
+    "story": [
+      "Launched at the Detroit auto show in January 2009 as a 2010 model, with Japanese sales from May 18, 2009, the third Prius moved to a 1.8-liter engine. The larger engine turned slower at highway speeds, which improved mileage, and with an electric water pump it was the first production engine to need no accessory belts. Combined output rose to 134 hp from 110.",
+      "Toyota used plant-derived bioplastics inside, and from August 2010 it offered a device that made a sound at low speeds to warn pedestrians when the car was running silently on electric power. Car and Driver timed a 2010 Prius IV to 60 mph in 10.0 seconds, and the EPA rates it at 50 mpg combined. Global production reached about 1.69 million."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Prius"
+    ]
+  },
+  {
     "id": "toyota-prius-xw50",
     "name": "Toyota Prius (XW50)",
     "aka": [
@@ -13880,7 +14340,10 @@ const CARS = [
       "note": "Sold in the US, 2016–2022 (all Prius models, including the Prius c, v and Prime)",
       "src": "https://www.goodcarbadcar.net/toyota-prius-sales-figures/"
     },
-    "predecessor": null,
+    "predecessor": {
+      "name": "Toyota Prius (XW30)",
+      "id": "toyota-prius-xw30"
+    },
     "successor": {
       "name": "Toyota Prius (XW60)",
       "id": "toyota-prius-xw60"
@@ -13981,6 +14444,77 @@ const CARS = [
     }
   },
   {
+    "id": "toyota-prius-plug-in-xw35",
+    "name": "Toyota Prius Plug-in Hybrid (XW35)",
+    "aka": [
+      "2012–2015 Prius Plug-in",
+      "Prius PHV",
+      "Prius Plug-in Hybrid",
+      "XW35"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "2012–2015",
+    "start": 2012,
+    "end": 2015,
+    "shop": {
+      "cargurus": "d2418"
+    },
+    "body": "Compact 5-door liftback",
+    "engine": "1.8-liter 4-cylinder plug-in hybrid",
+    "drive": "Front-wheel drive",
+    "gearbox": "CVT",
+    "specsFor": "2013 Toyota Prius Plug-in Hybrid, US market (Motor Trend test)",
+    "power": {
+      "hp": 134,
+      "note": "Combined system output",
+      "src": "https://www.0-60specs.com/toyota/prius-0-60-times"
+    },
+    "weight": {
+      "kg": 1436,
+      "lb": 3165,
+      "note": "Curb weight, 2013",
+      "src": "https://www.0-60specs.com/toyota/prius-0-60-times"
+    },
+    "zero60": {
+      "sec": 9.8,
+      "kind": "tested",
+      "note": "Motor Trend test, 2013",
+      "src": "https://www.0-60specs.com/toyota/prius-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 50,
+      "city": 51,
+      "hwy": 49,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/32484.shtml",
+      "note": "EPA combined on gasoline; 95 MPGe and 11 miles of range on electricity, 2012"
+    },
+    "built": {
+      "na": "No US production or sales total on record"
+    },
+    "predecessor": null,
+    "successor": {
+      "name": "Toyota Prius Prime (XW52)",
+      "id": "toyota-prius-prime-xw52"
+    },
+    "quick": "The Prius Plug-in Hybrid, 2012–2015: a Prius with a larger battery you could charge from the wall, good for about 11 miles on electricity.",
+    "story": [
+      "After a global demonstration program with 600 pre-production cars that began in late 2009, Toyota put the Prius Plug-in Hybrid into production in 2012. It used the third-generation Prius's 1.8-liter hybrid system with a larger lithium-ion battery, and the EPA rates it at 11 miles of electric range and 95 MPGe on electricity, then 50 mpg once the battery runs down.",
+      "It was the second-best-selling plug-in car in the world in 2012 and ranked third of all time by December 2014. Motor Trend timed a 2013 model to 60 mph in 9.8 seconds. Production ran from 2012 to 2016, and the Prius Prime replaced it."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Prius Prime"
+    ]
+  },
+  {
     "id": "toyota-prius-prime-xw52",
     "name": "Toyota Prius Prime (XW52)",
     "aka": [
@@ -14032,7 +14566,10 @@ const CARS = [
       "src": "https://www.fueleconomy.gov/feg/noframes/38531.shtml"
     },
     "built": null,
-    "predecessor": null,
+    "predecessor": {
+      "name": "Toyota Prius Plug-in Hybrid (XW35)",
+      "id": "toyota-prius-plug-in-xw35"
+    },
     "successor": {
       "name": "Toyota Prius Prime / Plug-in Hybrid (XW60)",
       "id": "toyota-prius-plug-in-xw60"
@@ -14265,6 +14802,197 @@ const CARS = [
     }
   },
   {
+    "id": "toyota-sienna-xl10",
+    "name": "Toyota Sienna (XL10)",
+    "aka": [
+      "1998–2003 Sienna",
+      "Sienna LE",
+      "Sienna XLE",
+      "XL10"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "United States",
+    "years": "1998–2003",
+    "start": 1998,
+    "end": 2003,
+    "shop": {
+      "cargurus": "d308"
+    },
+    "body": "Minivan, 7 seats",
+    "engine": "3.0-liter V6",
+    "drive": "Front-wheel drive",
+    "gearbox": "4-speed automatic",
+    "specsFor": "2001 Toyota Sienna LE, US market (Car and Driver test)",
+    "power": {
+      "hp": 194,
+      "note": "3.0-liter V6 (210 hp from 2001)",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Sienna"
+    },
+    "weight": {
+      "kg": 1769,
+      "lb": 3900,
+      "note": "Curb weight, 2001 LE",
+      "src": "https://www.0-60specs.com/toyota/sienna-0-60-times"
+    },
+    "zero60": {
+      "sec": 9.9,
+      "kind": "tested",
+      "note": "Car and Driver test, 2001 LE",
+      "src": "https://www.0-60specs.com/toyota/sienna-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 19,
+      "city": 17,
+      "hwy": 23,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/17102.shtml",
+      "note": "EPA combined, 2001"
+    },
+    "built": {
+      "count": 573400,
+      "approx": true,
+      "note": "Sold in the US, 1997–2003 (calendar years; sales began in 1997)",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Sienna"
+    },
+    "predecessor": null,
+    "successor": {
+      "name": "Toyota Sienna (XL20)",
+      "id": "toyota-sienna-xl20"
+    },
+    "quick": "The first Sienna, 1998–2003: the \"Camry of minivans,\" a front-wheel-drive replacement for the mid-engined Previa, built in Kentucky.",
+    "story": [
+      "Toyota launched the Sienna in 1997 as a 1998 model to replace the unusual mid-engined, rear-wheel-drive Previa. Built on a stretched version of the Camry's platform and marketed as the \"Camry of minivans,\" it was made in Georgetown, Kentucky. LE and XLE models had second-row captain's chairs and the CE a bench, and the seats could be folded or taken out.",
+      "Its 3.0-liter V6 made 194 hp, 210 hp from 2001 with variable valve timing, and Car and Driver timed a 2001 LE to 60 mph in 9.9 seconds. It was one of the few minivans of its day to offer side airbags and stability control, and the IIHS rated it Good in all 6 frontal-crash measures, far better than the Previa. US sales came to about 573,000."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Sienna"
+    ]
+  },
+  {
+    "id": "toyota-sienna-xl20",
+    "name": "Toyota Sienna (XL20)",
+    "aka": [
+      "2004–2010 Sienna",
+      "Sienna XLE Limited",
+      "Sienna AWD",
+      "XL20"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "United States",
+    "years": "2004–2010",
+    "start": 2004,
+    "end": 2010,
+    "shop": {
+      "cargurus": "d308"
+    },
+    "body": "Minivan, 7 or 8 seats",
+    "engine": "3.3-liter V6 (3.5-liter from 2007)",
+    "drive": "Front-wheel drive or all-wheel drive",
+    "gearbox": "5-speed automatic",
+    "specsFor": "2004 Toyota Sienna XLE, 3.3-liter V6, US market (Car and Driver test)",
+    "power": {
+      "hp": 230,
+      "note": "3.3-liter V6, 2004–2006",
+      "src": "https://www.0-60specs.com/toyota/sienna-0-60-times"
+    },
+    "weight": {
+      "kg": 1950,
+      "lb": 4300,
+      "note": "Curb weight, 2004 XLE",
+      "src": "https://www.0-60specs.com/toyota/sienna-0-60-times"
+    },
+    "zero60": {
+      "sec": 7.4,
+      "kind": "tested",
+      "note": "Car and Driver test, 2004 XLE",
+      "src": "https://www.0-60specs.com/toyota/sienna-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 20,
+      "city": 17,
+      "hwy": 25,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/20139.shtml",
+      "note": "EPA combined, 2004, front-wheel drive"
+    },
+    "built": {
+      "count": 920275,
+      "approx": true,
+      "note": "Sold in the US, 2004–2010",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Sienna"
+    },
+    "versions": [
+      {
+        "name": "3.3-liter V6",
+        "detail": "2004–2006"
+      },
+      {
+        "name": "3.5-liter V6",
+        "detail": "2007–2010",
+        "specsFor": "2007 Toyota Sienna LE, 3.5-liter V6, US market (Car and Driver test)",
+        "power": {
+          "hp": 266,
+          "note": "3.5-liter V6",
+          "src": "https://www.0-60specs.com/toyota/sienna-0-60-times"
+        },
+        "weight": {
+          "kg": 1950,
+          "lb": 4300,
+          "note": "Curb weight, 2007 LE",
+          "src": "https://www.0-60specs.com/toyota/sienna-0-60-times"
+        },
+        "zero60": {
+          "sec": 7.2,
+          "kind": "tested",
+          "note": "Car and Driver test, 2007 LE",
+          "src": "https://www.0-60specs.com/toyota/sienna-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 19,
+          "city": 17,
+          "hwy": 24,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/23938.shtml",
+          "note": "EPA combined, 2007, front-wheel drive"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Toyota Sienna (XL10)",
+      "id": "toyota-sienna-xl10"
+    },
+    "successor": {
+      "name": "Toyota Sienna (XL30)",
+      "id": "toyota-sienna-xl30"
+    },
+    "quick": "The second Sienna, 2004–2010: bigger, built in Indiana, with all-wheel drive available and a 266-hp V6 from 2007.",
+    "story": [
+      "Unveiled at the Detroit auto show on January 6, 2003, the second Sienna moved production from Kentucky to Toyota's plant in Indiana. It added available all-wheel drive, which split power 50:50 front to rear and came with run-flat tires, and a 60/40 split third row that folded flat even on all-wheel-drive models. The 3.3-liter V6 made 230 hp, and Car and Driver timed a 2004 XLE to 60 mph in 7.4 seconds.",
+      "Top trims offered HID headlights, laser cruise control and navigation, and side and curtain airbags became standard for 2006. A 266-hp 3.5-liter V6 arrived for 2007, and Car and Driver ran a 2007 LE to 60 in 7.2 seconds. US sales passed 160,000 in 2005 and 2006, about 920,000 in all."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Sienna"
+    ]
+  },
+  {
     "id": "toyota-sienna-xl30",
     "name": "Toyota Sienna (XL30)",
     "aka": [
@@ -14325,7 +15053,10 @@ const CARS = [
       "note": "Sold in the US, 2011–2020",
       "src": "https://www.goodcarbadcar.net/toyota-sienna-sales-figures/"
     },
-    "predecessor": null,
+    "predecessor": {
+      "name": "Toyota Sienna (XL20)",
+      "id": "toyota-sienna-xl20"
+    },
     "successor": {
       "name": "Toyota Sienna (XL40)",
       "id": "toyota-sienna-xl40"

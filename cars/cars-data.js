@@ -5391,9 +5391,13 @@ const CARS_INDEX = [
   "guide": null,
   "shop": null,
   "hp": 148,
-  "kg": null,
-  "kgNote": "",
-  "z60": null,
+  "kg": 1315,
+  "kgNote": "Curb weight, 2000 GTI GLS 1.8T",
+  "z60": {
+   "sec": 7.3,
+   "kind": "tested",
+   "note": "Car and Driver test, 2000 GTI GLS 1.8T"
+  },
   "top": null,
   "mpg": {
    "combined": 24,

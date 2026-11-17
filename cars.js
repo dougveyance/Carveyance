@@ -1022,6 +1022,45 @@ const CARS = [
       "note": "EPA combined, 1985 US RX-7 12A, 5-speed manual",
       "src": "https://www.fueleconomy.gov/feg/noframes/22.shtml"
     },
+    "versions": [
+      {
+        "name": "12A",
+        "detail": "1.1-liter twin-rotor"
+      },
+      {
+        "name": "13B, GSL-SE",
+        "detail": "1.3-liter fuel-injected twin-rotor, 1984–1985",
+        "specsFor": "1984 Mazda RX-7 GSL-SE, US market (Car and Driver test)",
+        "power": {
+          "hp": 135,
+          "note": "13B rotary",
+          "src": "https://www.0-60specs.com/mazda/rx-7-0-60-times"
+        },
+        "weight": {
+          "kg": 1179,
+          "note": "Curb weight, 1984 GSL-SE",
+          "src": "https://www.0-60specs.com/mazda/rx-7-0-60-times"
+        },
+        "zero60": {
+          "sec": 7.8,
+          "kind": "tested",
+          "note": "Car and Driver test, 1984 GSL-SE",
+          "src": "https://www.0-60specs.com/mazda/rx-7-0-60-times"
+        },
+        "top": {
+          "na": "No figure on record"
+        },
+        "mpg": {
+          "combined": 17,
+          "city": 15,
+          "hwy": 22,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/23.shtml",
+          "note": "EPA combined, 1985 GSL-SE 13B, 5-speed manual"
+        }
+      }
+    ],
     "built": {
       "count": 471018,
       "approx": false,
@@ -1194,6 +1233,45 @@ const CARS = [
       "note": "EPA combined, 1989 US RX-7 Turbo II, manual",
       "src": "https://www.fueleconomy.gov/feg/noframes/5277.shtml"
     },
+    "versions": [
+      {
+        "name": "Turbo",
+        "detail": "1.3-liter turbocharged twin-rotor (13B-T)"
+      },
+      {
+        "name": "Non-turbo",
+        "detail": "1.3-liter twin-rotor (13B)",
+        "specsFor": "1986 Mazda RX-7 GXL, US market (Motor Trend test)",
+        "power": {
+          "hp": 146,
+          "note": "13B rotary",
+          "src": "https://www.0-60specs.com/mazda/rx-7-0-60-times"
+        },
+        "weight": {
+          "kg": 1260,
+          "note": "Curb weight, 1986 GXL",
+          "src": "https://www.0-60specs.com/mazda/rx-7-0-60-times"
+        },
+        "zero60": {
+          "sec": 8.1,
+          "kind": "tested",
+          "note": "Motor Trend test, 1986 GXL",
+          "src": "https://www.0-60specs.com/mazda/rx-7-0-60-times"
+        },
+        "top": {
+          "na": "No figure on record"
+        },
+        "mpg": {
+          "combined": 18,
+          "city": 15,
+          "hwy": 23,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/5276.shtml",
+          "note": "EPA combined, 1989 non-turbo, 5-speed manual"
+        }
+      }
+    ],
     "built": {
       "count": 272027,
       "approx": false,
@@ -2724,6 +2802,45 @@ const CARS = [
       "note": "EPA combined, 2001 M Coupe; EPA lists no 2002",
       "src": "https://www.fueleconomy.gov/feg/noframes/16429.shtml"
     },
+    "versions": [
+      {
+        "name": "S54",
+        "detail": "3.2-liter inline-6, 2001–2002"
+      },
+      {
+        "name": "S52",
+        "detail": "3.2-liter inline-6, 1998–2000",
+        "specsFor": "1999 BMW Z3 M Coupe, US market (Motor Trend test)",
+        "power": {
+          "hp": 240,
+          "note": "S52 3.2-liter inline-6",
+          "src": "https://www.0-60specs.com/bmw/z3-0-60-times"
+        },
+        "weight": {
+          "kg": 1415,
+          "note": "Curb weight, 1999 M Coupe",
+          "src": "https://www.0-60specs.com/bmw/z3-0-60-times"
+        },
+        "zero60": {
+          "sec": 5.4,
+          "kind": "tested",
+          "note": "Motor Trend test, 1999 M Coupe",
+          "src": "https://www.0-60specs.com/bmw/z3-0-60-times"
+        },
+        "top": {
+          "na": "No figure on record"
+        },
+        "mpg": {
+          "combined": 20,
+          "city": 17,
+          "hwy": 24,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/14792.shtml",
+          "note": "EPA combined, 1999 M Coupe"
+        }
+      }
+    ],
     "built": {
       "count": 6291,
       "approx": false,
@@ -3104,6 +3221,45 @@ const CARS = [
       "note": "EPA combined, 1999 Carrera, manual",
       "src": "https://www.fueleconomy.gov/feg/noframes/14827.shtml"
     },
+    "versions": [
+      {
+        "name": "3.4-liter",
+        "detail": "1999–2001"
+      },
+      {
+        "name": "3.6-liter",
+        "detail": "2002–2005",
+        "specsFor": "2002 Porsche 911 Carrera coupe, 6-speed manual, US market (Road & Track test)",
+        "power": {
+          "hp": 320,
+          "note": "3.6-liter flat-6",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "weight": {
+          "kg": 1338,
+          "note": "Curb weight, 2002 Carrera coupe",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "zero60": {
+          "sec": 4.9,
+          "kind": "tested",
+          "note": "Road & Track test, 2002 Carrera coupe",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "top": {
+          "na": "No figure on record"
+        },
+        "mpg": {
+          "combined": 19,
+          "city": 16,
+          "hwy": 24,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/17394.shtml",
+          "note": "EPA combined, 2002 Carrera, manual"
+        }
+      }
+    ],
     "built": {
       "count": 175262,
       "approx": false,
@@ -5754,6 +5910,81 @@ const CARS = [
       "note": "EPA combined, 1987 US GTI 16V",
       "src": "https://www.fueleconomy.gov/feg/noframes/3332.shtml"
     },
+    "versions": [
+      {
+        "name": "16-valve, Europe",
+        "detail": "1.8-liter, no catalytic converter",
+        "mpg": {
+          "na": "European model, not rated by the EPA"
+        }
+      },
+      {
+        "name": "16-valve, US",
+        "detail": "1.8-liter",
+        "specsFor": "1987 Volkswagen GTI 16V, US market (Car and Driver test)",
+        "power": {
+          "hp": 123,
+          "note": "1.8-liter 16-valve, US version",
+          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+        },
+        "weight": {
+          "kg": 1021,
+          "note": "Curb weight, 1987 GTI 16V",
+          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+        },
+        "zero60": {
+          "sec": 8.5,
+          "kind": "tested",
+          "note": "Car and Driver test, 1987 GTI 16V",
+          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+        },
+        "top": {
+          "na": "No figure on record"
+        },
+        "mpg": {
+          "combined": 23,
+          "city": 21,
+          "hwy": 26,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/3332.shtml",
+          "note": "EPA combined, 1987 US GTI 16V"
+        }
+      },
+      {
+        "name": "8-valve, US",
+        "detail": "1.8-liter",
+        "specsFor": "1990 Volkswagen GTI, US market (Car and Driver test)",
+        "power": {
+          "hp": 100,
+          "note": "1.8-liter 8-valve, US version",
+          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+        },
+        "weight": {
+          "kg": 1070,
+          "note": "Curb weight, 1990 GTI",
+          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+        },
+        "zero60": {
+          "sec": 10.2,
+          "kind": "tested",
+          "note": "Car and Driver test, 1990 GTI",
+          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+        },
+        "top": {
+          "na": "No figure on record"
+        },
+        "mpg": {
+          "combined": 25,
+          "city": 22,
+          "hwy": 29,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/6770.shtml",
+          "note": "EPA combined, 1990 Golf and GTI 1.8, 5-speed manual"
+        }
+      }
+    ],
     "built": null,
     "weight": null,
     "top": {
@@ -5809,6 +6040,78 @@ const CARS = [
     "aka": [],
     "country": "Germany",
     "drive": "Front-wheel drive",
+    "versions": [
+      {
+        "name": "2.0 16-valve",
+        "detail": "Europe"
+      },
+      {
+        "name": "2.0 8-valve, US",
+        "detail": "4-cylinder",
+        "specsFor": "1996 Volkswagen GTI, US market (Motor Trend test)",
+        "power": {
+          "hp": 115,
+          "note": "2.0-liter 8-valve",
+          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+        },
+        "weight": {
+          "kg": 1247,
+          "note": "Curb weight, 1996 GTI",
+          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+        },
+        "zero60": {
+          "sec": 9.8,
+          "kind": "tested",
+          "note": "Motor Trend test, 1996 GTI",
+          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+        },
+        "top": {
+          "na": "No figure on record"
+        },
+        "mpg": {
+          "combined": 23,
+          "city": 20,
+          "hwy": 28,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/12793.shtml",
+          "note": "EPA combined, 1996 Golf and GTI 2.0, 5-speed manual"
+        }
+      },
+      {
+        "name": "VR6",
+        "detail": "2.8-liter V6",
+        "specsFor": "1995 Volkswagen GTI VR6, US market (Car and Driver test)",
+        "power": {
+          "hp": 172,
+          "note": "2.8-liter VR6",
+          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+        },
+        "weight": {
+          "kg": 1315,
+          "note": "Curb weight, 1995 GTI VR6",
+          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+        },
+        "zero60": {
+          "sec": 6.7,
+          "kind": "tested",
+          "note": "Car and Driver test, 1995 GTI VR6",
+          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+        },
+        "top": {
+          "na": "No figure on record"
+        },
+        "mpg": {
+          "combined": 19,
+          "city": 17,
+          "hwy": 23,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/11929.shtml",
+          "note": "EPA combined, 1995 GTI VR6, 5-speed manual"
+        }
+      }
+    ],
     "built": null,
     "weight": null,
     "top": null,
@@ -5870,10 +6173,58 @@ const CARS = [
       "note": "EPA combined, 2002 US GTI 1.8T, 5-speed manual",
       "src": "https://www.fueleconomy.gov/feg/noframes/17641.shtml"
     },
+    "versions": [
+      {
+        "name": "1.8-liter turbo",
+        "detail": "4-cylinder"
+      },
+      {
+        "name": "2.8-liter VR6",
+        "detail": "V6 (12-valve to 2001, 24-valve and 200 hp from 2002)",
+        "specsFor": "2000 Volkswagen GTI GLX VR6, US market (Car and Driver test)",
+        "power": {
+          "hp": 174,
+          "note": "2.8-liter VR6, 12-valve",
+          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+        },
+        "weight": {
+          "kg": 1397,
+          "note": "Curb weight, 2000 GTI GLX VR6",
+          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+        },
+        "zero60": {
+          "sec": 7.6,
+          "kind": "tested",
+          "note": "Car and Driver test, 2000 GTI GLX VR6",
+          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+        },
+        "top": {
+          "na": "No figure on record"
+        },
+        "mpg": {
+          "combined": 21,
+          "city": 18,
+          "hwy": 26,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/15858.shtml",
+          "note": "EPA combined, 2000 GTI VR6, 5-speed manual"
+        }
+      }
+    ],
     "built": null,
-    "weight": null,
+    "weight": {
+      "kg": 1315,
+      "note": "Curb weight, 2000 GTI GLS 1.8T",
+      "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+    },
     "top": null,
-    "zero60": null,
+    "zero60": {
+      "sec": 7.3,
+      "kind": "tested",
+      "note": "Car and Driver test, 2000 GTI GLS 1.8T",
+      "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+    },
     "photo": {},
     "id": "volkswagen-golf-gti-mk4",
     "name": "Volkswagen Golf GTI (Mk4)",

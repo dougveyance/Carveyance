@@ -1,0 +1,204 @@
+{
+  "id": "toyota-yaris",
+  "make": "Toyota",
+  "model": "Yaris",
+  "years": "2017–2020",
+  "byline": "Sloane Whitaker",
+  "published": "2026-11-16",
+  "updated": "2026-11-16",
+  "cars": [
+    "toyota-yaris-xp130",
+    "toyota-yaris-ia"
+  ],
+  "shop": {
+    "cargurus": "d827"
+  },
+  "chapters": [
+    "2017-2018-hatchback",
+    "mazda-built",
+    "used-checklist"
+  ],
+  "series": {
+    "xa": {
+      "name": "2017–2018 Toyota-built hatchback, 4-speed automatic",
+      "color": "#9aa5b1"
+    },
+    "xm": {
+      "name": "2017–2018 Toyota-built hatchback, 5-speed manual",
+      "color": "#9aa5b1"
+    },
+    "ia": {
+      "name": "Mazda-built Yaris iA, 6-speed automatic",
+      "color": "#e05c2a"
+    },
+    "im": {
+      "name": "Mazda-built Yaris iA, 6-speed manual",
+      "color": "#e05c2a"
+    },
+    "p18": {
+      "name": "2018 Yaris hatchback L 3-door, manual",
+      "color": "#9aa5b1"
+    },
+    "p17": {
+      "name": "2017 Yaris iA, manual",
+      "color": "#e05c2a"
+    },
+    "p19": {
+      "name": "2019 Yaris Sedan L, manual",
+      "color": "#e05c2a"
+    },
+    "p20": {
+      "name": "2020 Yaris Hatchback LE",
+      "color": "#2E6E96"
+    }
+  },
+  "charts": {
+    "mpg": {
+      "n": 1,
+      "title": "EPA combined fuel economy",
+      "sub": "Miles per gallon. The 2019–2020 Mazda-built Yaris Sedan and Hatchback use the same engine and gearboxes as the iA.",
+      "source": "EPA ratings, via Toyota",
+      "bars": [
+        [
+          "xa",
+          32,
+          "32 mpg"
+        ],
+        [
+          "xm",
+          33,
+          "33 mpg"
+        ],
+        [
+          "ia",
+          35,
+          "35 mpg"
+        ],
+        [
+          "im",
+          34,
+          "34 mpg"
+        ]
+      ]
+    },
+    "price": {
+      "n": 2,
+      "title": "What a new one cost, in 2026 dollars",
+      "sub": "Starting prices before delivery, adjusted with the US consumer price index. The original price is in each label.",
+      "source": "Toyota, Autoblog, Carscoops and Car and Driver prices; Carveyance CPI arithmetic",
+      "bars": [
+        [
+          "p18",
+          20900,
+          "$20,900 · $15,635 then"
+        ],
+        [
+          "p17",
+          21900,
+          "$21,900 · $15,950 then"
+        ],
+        [
+          "p19",
+          20300,
+          "$20,300 · $15,450 then"
+        ],
+        [
+          "p20",
+          24300,
+          "$24,300 · $18,705 then"
+        ]
+      ]
+    }
+  },
+  "photos": {
+    "hub-hero": {
+      "want": "A 2019–2020 Yaris Sedan or a 2020 Yaris Hatchback outside",
+      "credit": "Toyota",
+      "alt": "A blue 2020 Toyota Yaris Hatchback in a bright garage with glass walls"
+    },
+    "ch1-hero": {
+      "want": "A 2017 or 2018 Toyota-built Yaris hatchback (Liftback)",
+      "credit": "Toyota",
+      "alt": "A blue 2018 Toyota Yaris SE five-door hatchback with a dark gray roof, seen from the rear three-quarter",
+      "caption": "Shown: a 2018 Yaris SE five-door"
+    },
+    "ch2-hero": {
+      "want": "A Yaris iA, a 2019–2020 Yaris Sedan or a 2020 Yaris Hatchback on the road",
+      "credit": "Toyota",
+      "alt": "A gray 2017 Toyota Yaris iA sedan driving down a city street at night",
+      "caption": "Shown: a 2017 Yaris iA"
+    },
+    "ch3-hero": {
+      "want": "A Yaris in a city setting, or its cabin",
+      "credit": "Toyota",
+      "alt": "The dashboard and front seats of a 2020 Toyota Yaris Hatchback"
+    }
+  },
+  "find": {
+    "picker": [
+      {
+        "model": "Yaris hatchback",
+        "years": "2017–2018",
+        "ch": "2017-2018-hatchback"
+      },
+      {
+        "model": "Yaris iA",
+        "years": "2017–2018",
+        "ch": "mazda-built"
+      },
+      {
+        "model": "Yaris Sedan",
+        "years": "2019–2020",
+        "ch": "mazda-built"
+      },
+      {
+        "model": "Yaris Hatchback",
+        "years": "2020",
+        "ch": "mazda-built"
+      }
+    ],
+    "terms": {
+      "": [
+        "Yaris",
+        "subcompact",
+        "small car",
+        "economy car",
+        "cheap car",
+        "hatchback",
+        "sedan"
+      ],
+      "2017-2018-hatchback": [
+        "Yaris Liftback",
+        "Liftback",
+        "Toyota-built",
+        "France",
+        "3-door",
+        "5-door",
+        "XP130",
+        "TSS-C",
+        "4-speed automatic",
+        "5-speed manual"
+      ],
+      "mazda-built": [
+        "Yaris iA",
+        "iA",
+        "Scion iA",
+        "Yaris Sedan",
+        "Yaris Hatchback",
+        "Mazda2",
+        "Mazda",
+        "Mexico",
+        "6-speed manual",
+        "XLE"
+      ],
+      "used-checklist": [
+        "used",
+        "checklist",
+        "inspection",
+        "recalls",
+        "fuel pump recall",
+        "airbag recall"
+      ]
+    }
+  }
+}

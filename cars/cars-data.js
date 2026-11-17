@@ -7523,7 +7523,11 @@ const CARS_INDEX = [
    "id": "toyota-avalon-xx50",
    "name": "Toyota Avalon (XX50)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-avalon-xx40.jpg?v=30cb5a63",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-avalon-xx50",

@@ -8192,7 +8192,7 @@ const CARS = [
       "Like every US Avalon, it was built in Georgetown, Kentucky. It has neither Apple CarPlay nor Android Auto. Recalls in its last years include the airbag control unit (20V-024) and, on some 2018 cars, the low-pressure fuel pump (20V-012)."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota Avalon"
     ],

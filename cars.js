@@ -8556,7 +8556,7 @@ const CARS = [
       "From 2017 to 2019 it had only 4 seats. For 2020, Toyota added a fifth seat, Apple CarPlay and Amazon Alexa, and renamed the grades LE, XLE and Limited. Recalls include the brake booster pump on 2019–2020 cars (19V-544) and hybrid system software on 2022 cars (21V-734)."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota Prius Prime"
     ],
@@ -8964,7 +8964,7 @@ const CARS = [
       "It came in XLE and Limited grades, priced from $43,590 and $47,990. In Japan, it's the Crown Estate, one of 4 current Crown body styles, and it's also offered there as a plug-in hybrid. Recalls on 2025 models include the blank instrument display (25V-595) and the rear camera software (25V-744)."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Toyota"},
     "match": [
       "Toyota Crown Signia"
     ],

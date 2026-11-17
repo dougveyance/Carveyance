@@ -7854,7 +7854,11 @@ const CARS_INDEX = [
    "id": "toyota-prius-plug-in-xw60",
    "name": "Toyota Prius Prime / Plug-in Hybrid (XW60)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-prius-prime-xw52.jpg?v=b8f74b8d",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-prius-plug-in-xw60",
@@ -8218,7 +8222,11 @@ const CARS_INDEX = [
   "alongside": [],
   "prev": null,
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-crown-signia.jpg?v=5ab59762",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-c-hr-ax10",

@@ -8473,6 +8473,237 @@ const CARS_INDEX = [
   }
  },
  {
+  "id": "toyota-rav4-xa10",
+  "name": "Toyota RAV4 (XA10)",
+  "aka": [
+   "1996–2000 RAV4",
+   "RAV4 soft top",
+   "RAV4 EV",
+   "XA10"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "1996–2000",
+  "start": 1996,
+  "body": "Compact SUV, 3-door and 5-door; soft-top 3-door from 1998",
+  "engine": "2.0-liter 4-cylinder",
+  "country": "Japan",
+  "quick": "The first RAV4, 1996–2000: a small, car-based SUV with optional 4-wheel drive, built from Corolla and Carina parts, and Automobile Magazine's 1997 Automobile of the Year.",
+  "articles": [
+   "industry-brief-2026-11-09",
+   "industry-brief-2026-11-02",
+   "industry-brief-2026-10-19",
+   "industry-brief-2026-10-05",
+   "losing-at-home",
+   "the-prius-paradox",
+   "gas-in-electric-out",
+   "the-1300-question"
+  ],
+  "latest": "2026-11-09",
+  "ownDates": [],
+  "dates": [
+   "2026-11-09",
+   "2026-11-02",
+   "2026-10-19",
+   "2026-10-05",
+   "2026-10-02",
+   "2026-09-29"
+  ],
+  "drive": "Front-wheel drive or 4-wheel drive",
+  "gearbox": "5-speed manual or 4-speed automatic",
+  "specsFor": "1996 Toyota RAV4, 4-wheel drive, 5-speed manual, US market (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d306"
+  },
+  "hp": 120,
+  "kg": 1338,
+  "kgNote": "Curb weight, 1996, 4-wheel drive",
+  "lbs": 2950,
+  "z60": {
+   "sec": 10.0,
+   "kind": "tested",
+   "note": "Car and Driver test, 1996, 4-wheel drive, manual"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 21,
+   "city": 19,
+   "hwy": 24,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1996, 4-wheel drive, manual"
+  },
+  "built": {
+   "count": 300103,
+   "approx": true,
+   "note": "Sold in the US, 1996–2000"
+  },
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": "toyota-rav4-xa20",
+   "name": "Toyota RAV4 (XA20)"
+  },
+  "photo": null
+ },
+ {
+  "id": "toyota-rav4-xa20",
+  "name": "Toyota RAV4 (XA20)",
+  "aka": [
+   "2001–2005 RAV4",
+   "RAV4 L",
+   "XA20"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2001–2005",
+  "start": 2001,
+  "body": "Compact 5-door SUV (US)",
+  "engine": "2.0-liter 4-cylinder; 2.4-liter from 2004",
+  "country": "Japan",
+  "quick": "The second RAV4, 2001–2005: a 5-door-only RAV4 in America, styled at Toyota's Calty studio, with a 2.4-liter from 2004.",
+  "articles": [
+   "industry-brief-2026-11-09",
+   "industry-brief-2026-11-02",
+   "industry-brief-2026-10-19",
+   "industry-brief-2026-10-05",
+   "losing-at-home",
+   "the-prius-paradox",
+   "gas-in-electric-out",
+   "the-1300-question"
+  ],
+  "latest": "2026-11-09",
+  "ownDates": [],
+  "dates": [
+   "2026-11-09",
+   "2026-11-02",
+   "2026-10-19",
+   "2026-10-05",
+   "2026-10-02",
+   "2026-09-29"
+  ],
+  "drive": "Front-wheel drive or 4-wheel drive",
+  "gearbox": "5-speed manual or 4-speed automatic",
+  "specsFor": "2001 Toyota RAV4, 2.0-liter, 4-wheel drive, automatic, US market (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d306"
+  },
+  "hp": 148,
+  "kg": 1365,
+  "kgNote": "Curb weight, 2001, 4-wheel drive",
+  "lbs": 3010,
+  "z60": {
+   "sec": 10.2,
+   "kind": "tested",
+   "note": "Car and Driver test, 2001, 4-wheel drive, automatic"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 22,
+   "city": 20,
+   "hwy": 25,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2001, 4-wheel drive, automatic"
+  },
+  "built": {
+   "count": 387005,
+   "approx": true,
+   "note": "Sold in the US, 2001–2005"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "toyota-rav4-xa10",
+   "name": "Toyota RAV4 (XA10)"
+  },
+  "next": {
+   "id": "toyota-rav4-xa30",
+   "name": "Toyota RAV4 (XA30)"
+  },
+  "photo": null
+ },
+ {
+  "id": "toyota-rav4-xa30",
+  "name": "Toyota RAV4 (XA30)",
+  "aka": [
+   "2006–2012 RAV4",
+   "RAV4 V6",
+   "RAV4 Limited",
+   "RAV4 Sport",
+   "XA30"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2006–2012",
+  "start": 2006,
+  "body": "Compact SUV, optional third-row seat",
+  "engine": "2.4-liter or 2.5-liter 4-cylinder; 3.5-liter V6",
+  "country": "Japan and Canada",
+  "quick": "The third RAV4, 2006–2012: bigger, with an optional third row and a 269-hp V6 that ran to 60 in about 6 seconds, and Toyota's best-selling SUV in America.",
+  "articles": [
+   "industry-brief-2026-11-09",
+   "industry-brief-2026-11-02",
+   "industry-brief-2026-10-19",
+   "industry-brief-2026-10-05",
+   "losing-at-home",
+   "the-prius-paradox",
+   "gas-in-electric-out",
+   "the-1300-question"
+  ],
+  "latest": "2026-11-09",
+  "ownDates": [],
+  "dates": [
+   "2026-11-09",
+   "2026-11-02",
+   "2026-10-19",
+   "2026-10-05",
+   "2026-10-02",
+   "2026-09-29"
+  ],
+  "drive": "Front-wheel drive or 4-wheel drive",
+  "gearbox": "4-speed automatic; 5-speed automatic (V6)",
+  "specsFor": "2008 Toyota RAV4, 2.4-liter, 4-wheel drive, automatic, US market (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d306"
+  },
+  "hp": 166,
+  "kg": 1601,
+  "kgNote": "Curb weight, 2008, 4-wheel drive",
+  "lbs": 3530,
+  "z60": {
+   "sec": 8.8,
+   "kind": "tested",
+   "note": "Car and Driver test, 2008, 4-wheel drive"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 22,
+   "city": 20,
+   "hwy": 25,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2008 2.4-liter, 4-wheel drive"
+  },
+  "built": {
+   "count": 1085898,
+   "approx": true,
+   "note": "Sold in the US, 2006–2012"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "toyota-rav4-xa20",
+   "name": "Toyota RAV4 (XA20)"
+  },
+  "next": {
+   "id": "toyota-rav4-xa40",
+   "name": "Toyota RAV4 (XA40)"
+  },
+  "photo": null
+ },
+ {
   "id": "toyota-rav4-xa40",
   "name": "Toyota RAV4 (XA40)",
   "aka": [
@@ -8540,7 +8771,10 @@ const CARS_INDEX = [
    "note": "Sold in the US, 2013–2018"
   },
   "alongside": [],
-  "prev": null,
+  "prev": {
+   "id": "toyota-rav4-xa30",
+   "name": "Toyota RAV4 (XA30)"
+  },
   "next": {
    "id": "toyota-rav4-xa50",
    "name": "Toyota RAV4 (XA50)"

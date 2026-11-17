@@ -7302,9 +7302,9 @@ const CARS_INDEX = [
   "kg": 1780,
   "kgNote": "Curb weight, manufacturer figure (Hybrid XLE)",
   "z60": {
-   "sec": 8.2,
+   "sec": 8.3,
    "kind": "tested",
-   "note": "Consumer Guide test, Hybrid Limited"
+   "note": "Car and Driver test, 2016 Limited Hybrid"
   },
   "top": null,
   "mpg": {
@@ -7382,9 +7382,9 @@ const CARS_INDEX = [
   "kg": 1635,
   "kgNote": "Curb weight, quoted by Toyota",
   "z60": {
-   "sec": 7.5,
+   "sec": 7.4,
    "kind": "tested",
-   "note": "Consumer Guide test, Hybrid Limited"
+   "note": "Car and Driver test, 2019 Limited Hybrid"
   },
   "top": null,
   "mpg": {
@@ -8470,9 +8470,13 @@ const CARS_INDEX = [
    "cargurus": "d291"
   },
   "hp": 268,
-  "kg": 1630,
-  "kgNote": "Curb weight, 2017 Avalon Hybrid (3,594–3,638 lb)",
-  "z60": null,
+  "kg": 1590,
+  "kgNote": "Curb weight, 2013 Limited",
+  "z60": {
+   "sec": 6.1,
+   "kind": "tested",
+   "note": "Car and Driver test, 2013 Limited"
+  },
   "top": null,
   "mpg": {
    "combined": 24,
@@ -9274,9 +9278,9 @@ const CARS_INDEX = [
   "kg": 1928,
   "kgNote": "Curb weight, XLE and Limited (Platinum: 1,953 kg / 4,306 lb)",
   "z60": {
-   "sec": 6.0,
+   "sec": 7.2,
    "kind": "tested",
-   "note": "Edmunds test, Crown Platinum Hybrid MAX"
+   "note": "Car and Driver test, 2023 Limited"
   },
   "top": null,
   "mpg": {
@@ -9667,7 +9671,7 @@ const CARS_INDEX = [
   ],
   "drive": "Front-wheel drive",
   "gearbox": "CVT (1.5T); the hybrid has no conventional transmission",
-  "specsFor": "2023 Honda Accord, US market",
+  "specsFor": "2023 Honda Accord Hybrid Touring, US market",
   "guide": {
    "url": "/fitdrive/guides/honda-accord/",
    "title": "The Honda Accord Buyer's Guide"
@@ -9676,8 +9680,8 @@ const CARS_INDEX = [
    "cargurus": "d585"
   },
   "hp": 204,
-  "kg": 1469,
-  "kgNote": "Curb weight, 2023 LX",
+  "kg": 1584,
+  "kgNote": "Curb weight, 2023 Hybrid Touring",
   "z60": {
    "sec": 6.5,
    "kind": "tested",
@@ -9741,7 +9745,7 @@ const CARS_INDEX = [
   ],
   "drive": "Front-wheel drive",
   "gearbox": "CVT or 6-speed manual",
-  "specsFor": "2017 Honda Civic, US market",
+  "specsFor": "2016 Honda Civic Touring sedan, 1.5-liter turbo, CVT, US market (Car and Driver test)",
   "guide": {
    "url": "/fitdrive/guides/honda-civic/",
    "title": "The Honda Civic Buyer's Guide"
@@ -9750,14 +9754,18 @@ const CARS_INDEX = [
    "cargurus": "d586"
   },
   "hp": 174,
-  "kg": 1378,
-  "kgNote": "Test weight, 2017 Hatchback Sport Touring (Edmunds)",
+  "kg": 1324,
+  "kgNote": "Curb weight, 2016 Touring sedan, as tested",
   "z60": {
-   "sec": 7.3,
+   "sec": 6.9,
    "kind": "tested",
-   "note": "Edmunds test, 2017 Civic Hatchback Sport Touring"
+   "note": "Car and Driver test, 2016 Touring sedan"
   },
-  "top": null,
+  "top": {
+   "mph": 126,
+   "kind": "tested",
+   "note": "Governor limited (Car and Driver)"
+  },
   "mpg": {
    "combined": 36,
    "city": 32,
@@ -9815,7 +9823,7 @@ const CARS_INDEX = [
   ],
   "drive": "Front-wheel drive",
   "gearbox": "CVT; 6-speed manual on the 2022–2024 turbo hatchback; the hybrid has no conventional transmission",
-  "specsFor": "2022 Honda Civic, US market",
+  "specsFor": "2022 Honda Civic Touring sedan, 1.5-liter turbo, US market",
   "guide": {
    "url": "/fitdrive/guides/honda-civic/",
    "title": "The Honda Civic Buyer's Guide"
@@ -9824,12 +9832,12 @@ const CARS_INDEX = [
    "cargurus": "d586"
   },
   "hp": 180,
-  "kg": 1398,
-  "kgNote": "Test weight, 2022 Hatchback Sport Touring (Edmunds)",
+  "kg": 1396,
+  "kgNote": "Curb weight, 2022 Touring sedan",
   "z60": {
-   "sec": 6.2,
+   "sec": 7.2,
    "kind": "tested",
-   "note": "Car and Driver test, Civic Sport Touring Hybrid (2022 Hatchback Sport Touring turbo: 7.9 sec, Edmunds)"
+   "note": "Car and Driver test, 2022 Touring sedan"
   },
   "top": null,
   "mpg": {
@@ -10152,7 +10160,7 @@ const CARS_INDEX = [
   ],
   "drive": "Front- or all-wheel drive; the Hybrid has all-wheel drive",
   "gearbox": "CVT; the hybrid has no conventional transmission",
-  "specsFor": "2017 Honda CR-V, US market",
+  "specsFor": "2017 Honda CR-V Touring AWD, 1.5-liter turbo, US market",
   "guide": {
    "url": "/fitdrive/guides/honda-cr-v/",
    "title": "The Honda CR-V Buyer's Guide"
@@ -10161,21 +10169,21 @@ const CARS_INDEX = [
    "cargurus": "d589"
   },
   "hp": 190,
-  "kg": 1500,
-  "kgNote": "Curb weight, 2017 LX, front-wheel drive",
+  "kg": 1593,
+  "kgNote": "Curb weight, 2017 Touring AWD",
   "z60": {
    "sec": 7.6,
    "kind": "tested",
-   "note": "Car and Driver test, 2017 CR-V turbo, all-wheel drive"
+   "note": "Car and Driver test, 2017 Touring AWD"
   },
   "top": null,
   "mpg": {
-   "combined": 30,
-   "city": 28,
-   "hwy": 34,
+   "combined": 29,
+   "city": 27,
+   "hwy": 33,
    "unit": "mpg",
    "kind": "epa",
-   "note": "EPA combined, 1.5-liter turbo, front-wheel drive (2.4-liter: 28 mpg)"
+   "note": "EPA combined, AWD, 27 city / 33 highway (front-drive: 30 mpg)"
   },
   "built": {
    "count": 2064004,

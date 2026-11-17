@@ -1,0 +1,445 @@
+{
+ "id": "honda-accord",
+ "make": "Honda",
+ "model": "Accord",
+ "years": "2017–2026",
+ "byline": "Rowan Ashby",
+ "published": "2026-11-17",
+ "updated": "2026-11-17",
+ "cars": [
+  "honda-accord-9th-gen",
+  "honda-accord-10th-gen",
+  "honda-accord-11th-gen"
+ ],
+ "shop": {
+  "cargurus": "d585"
+ },
+ "chapters": [
+  "2017",
+  "2018-2022",
+  "2023-2026",
+  "used-checklist"
+ ],
+ "series": {
+  "a17": {
+   "name": "2017, 2.4-liter",
+   "color": "#9aa5b1"
+  },
+  "a17v6": {
+   "name": "2017, V6 (sedan, automatic)",
+   "color": "#9aa5b1"
+  },
+  "a17h": {
+   "name": "2017 Hybrid",
+   "color": "#9aa5b1"
+  },
+  "a18": {
+   "name": "2018–2022, 1.5-liter turbo",
+   "color": "#2E6E96"
+  },
+  "a18t": {
+   "name": "2018–2022, 2.0-liter turbo",
+   "color": "#2E6E96"
+  },
+  "a18h": {
+   "name": "2018–2022 Hybrid",
+   "color": "#2E6E96"
+  },
+  "a21hs": {
+   "name": "2021–2022 Hybrid Sport and Touring",
+   "color": "#2E6E96"
+  },
+  "a23": {
+   "name": "2023–2026, 1.5-liter turbo",
+   "color": "#e05c2a"
+  },
+  "a23h": {
+   "name": "2023–2026 Hybrid",
+   "color": "#e05c2a"
+  },
+  "a23hx": {
+   "name": "2023–2026 Hybrid EX-L",
+   "color": "#e05c2a"
+  },
+  "a23hs": {
+   "name": "2023–2026 Hybrid Sport, Sport-L and Touring",
+   "color": "#e05c2a"
+  },
+  "p17lx": {
+   "name": "2017 LX",
+   "color": "#9aa5b1"
+  },
+  "p17v6": {
+   "name": "2017 EX-L V6 sedan",
+   "color": "#9aa5b1"
+  },
+  "p17h": {
+   "name": "2017 Hybrid",
+   "color": "#9aa5b1"
+  },
+  "p18lx": {
+   "name": "2018 LX",
+   "color": "#2E6E96"
+  },
+  "p18t": {
+   "name": "2018 Sport 2.0T",
+   "color": "#2E6E96"
+  },
+  "p18h": {
+   "name": "2018 Hybrid",
+   "color": "#2E6E96"
+  },
+  "p23lx": {
+   "name": "2023 LX",
+   "color": "#e05c2a"
+  },
+  "p23t": {
+   "name": "2023 Touring Hybrid",
+   "color": "#e05c2a"
+  }
+ },
+ "charts": {
+  "power": {
+   "n": 1,
+   "title": "Horsepower by engine",
+   "sub": "Honda's figures. The hybrids are combined system output.",
+   "source": "Honda press kits and specifications",
+   "bars": [
+    [
+     "a17",
+     185,
+     "185 hp"
+    ],
+    [
+     "a17v6",
+     278,
+     "278 hp"
+    ],
+    [
+     "a17h",
+     212,
+     "212 hp"
+    ],
+    [
+     "a18",
+     192,
+     "192 hp"
+    ],
+    [
+     "a18t",
+     252,
+     "252 hp"
+    ],
+    [
+     "a18h",
+     212,
+     "212 hp"
+    ],
+    [
+     "a23",
+     192,
+     "192 hp"
+    ],
+    [
+     "a23h",
+     204,
+     "204 hp"
+    ]
+   ]
+  },
+  "mpg": {
+   "n": 2,
+   "title": "EPA combined fuel economy",
+   "sub": "Miles per gallon. Automatic or CVT unless noted; where ratings changed by year, the range is in the label.",
+   "source": "US EPA, fueleconomy.gov",
+   "bars": [
+    [
+     "a17",
+     30,
+     "30 mpg"
+    ],
+    [
+     "a17v6",
+     25,
+     "25 mpg"
+    ],
+    [
+     "a17h",
+     48,
+     "48 mpg"
+    ],
+    [
+     "a18",
+     33,
+     "33 mpg"
+    ],
+    [
+     "a18t",
+     27,
+     "26–27 mpg"
+    ],
+    [
+     "a18h",
+     48,
+     "47–48 mpg"
+    ],
+    [
+     "a21hs",
+     43,
+     "43 mpg"
+    ],
+    [
+     "a23",
+     32,
+     "32 mpg"
+    ],
+    [
+     "a23hx",
+     48,
+     "48 mpg"
+    ],
+    [
+     "a23hs",
+     44,
+     "44 mpg"
+    ]
+   ]
+  },
+  "price": {
+   "n": 3,
+   "title": "What a new one cost, in 2026 dollars",
+   "sub": "Starting prices before delivery, adjusted with the US consumer price index. The original price is in each label.",
+   "source": "Honda, Velocity Journal, Cars.com, CarWhere and The Auto Channel prices; Carveyance CPI arithmetic",
+   "bars": [
+    [
+     "p17lx",
+     30700,
+     "$30,700 · $22,355 then"
+    ],
+    [
+     "p17v6",
+     42500,
+     "$42,500 · $30,995 then"
+    ],
+    [
+     "p17h",
+     40600,
+     "$40,600 · $29,605 then"
+    ],
+    [
+     "p18lx",
+     31600,
+     "$31,600 · $23,570 then"
+    ],
+    [
+     "p18t",
+     40600,
+     "$40,600 · $30,310 then"
+    ],
+    [
+     "p18h",
+     33600,
+     "$33,600 · $25,100 then"
+    ],
+    [
+     "p23lx",
+     30100,
+     "$30,100 · $27,295 then"
+    ],
+    [
+     "p23t",
+     41800,
+     "$41,800 · $37,890 then"
+    ]
+   ]
+  },
+  "fuel": {
+   "n": 4,
+   "title": "Fuel used in a year at 15,000 miles",
+   "sub": "Gallons, worked out from each EPA combined rating. Fewer is better.",
+   "source": "Carveyance arithmetic from US EPA ratings",
+   "bars": [
+    [
+     "a17",
+     500,
+     "500 gallons"
+    ],
+    [
+     "a17v6",
+     600,
+     "600 gallons"
+    ],
+    [
+     "a17h",
+     313,
+     "313 gallons"
+    ],
+    [
+     "a18",
+     455,
+     "455 gallons"
+    ],
+    [
+     "a18t",
+     556,
+     "556 gallons"
+    ],
+    [
+     "a18h",
+     313,
+     "313 gallons"
+    ],
+    [
+     "a23",
+     469,
+     "469 gallons"
+    ],
+    [
+     "a23hx",
+     313,
+     "313 gallons"
+    ],
+    [
+     "a23hs",
+     341,
+     "341 gallons"
+    ]
+   ]
+  }
+ },
+ "photos": {
+  "hub-hero": {
+   "want": "A 2023–2026 Accord outside, front three-quarter, ideally a Hybrid Touring or Sport",
+   "credit": "Honda",
+   "alt": "A 2023–2026 Honda Accord"
+  },
+  "ch1-hero": {
+   "want": "A 2017 Accord, ideally a V6 sedan or the coupe",
+   "credit": "Honda",
+   "alt": "A 2017 Honda Accord"
+  },
+  "ch2-hero": {
+   "want": "A 2018–2022 Accord, ideally a Sport 2.0T",
+   "credit": "Honda",
+   "alt": "A 2018–2022 Honda Accord"
+  },
+  "ch3-hero": {
+   "want": "A 2023–2026 Accord Hybrid driving, or its 12.3-inch touchscreen",
+   "credit": "Honda",
+   "alt": "A 2023–2026 Honda Accord Hybrid"
+  },
+  "ch4-hero": {
+   "want": "The Accord cabin, trunk or hybrid engine bay",
+   "credit": "Honda",
+   "alt": "The cabin of a Honda Accord"
+  }
+ },
+ "find": {
+  "picker": [
+   {
+    "model": "Accord",
+    "years": "2017",
+    "ch": "2017"
+   },
+   {
+    "model": "Accord Coupe",
+    "years": "2017",
+    "ch": "2017"
+   },
+   {
+    "model": "Accord Hybrid",
+    "years": "2017",
+    "ch": "2017"
+   },
+   {
+    "model": "Accord",
+    "years": "2018–2022",
+    "ch": "2018-2022"
+   },
+   {
+    "model": "Accord Hybrid",
+    "years": "2018–2022",
+    "ch": "2018-2022"
+   },
+   {
+    "model": "Accord",
+    "years": "2023–2026",
+    "ch": "2023-2026"
+   },
+   {
+    "model": "Accord Hybrid",
+    "years": "2023–2026",
+    "ch": "2023-2026"
+   }
+  ],
+  "terms": {
+   "": [
+    "Accord",
+    "Honda Accord",
+    "midsize sedan",
+    "sedan",
+    "family car",
+    "Accord Hybrid"
+   ],
+   "2017": [
+    "ninth generation",
+    "9th gen",
+    "2017 Accord",
+    "V6",
+    "3.5-liter",
+    "J35",
+    "Accord Coupe",
+    "coupe",
+    "manual",
+    "2.4-liter",
+    "Sport",
+    "EX-L V6",
+    "Touring",
+    "Accord Hybrid 2017",
+    "timing belt",
+    "Honda Sensing"
+   ],
+   "2018-2022": [
+    "tenth generation",
+    "10th gen",
+    "1.5T",
+    "2.0T",
+    "2.0-liter turbo",
+    "Sport 2.0T",
+    "Touring 2.0T",
+    "10-speed",
+    "6-speed manual",
+    "manual",
+    "Sport SE",
+    "Accord Hybrid",
+    "252 hp",
+    "A/C condenser"
+   ],
+   "2023-2026": [
+    "eleventh generation",
+    "11th gen",
+    "2023 Accord",
+    "Hybrid EX-L",
+    "Sport-L",
+    "Touring",
+    "SE",
+    "Google built-in",
+    "204 hp",
+    "12.3-inch screen",
+    "48 mpg"
+   ],
+   "used-checklist": [
+    "used",
+    "checklist",
+    "inspection",
+    "recalls",
+    "fuel pump recall",
+    "timing belt",
+    "A/C warranty",
+    "hybrid control software",
+    "tire repair kit recall",
+    "fuel cost"
+   ]
+  }
+ }
+}

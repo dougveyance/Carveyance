@@ -9100,5 +9100,812 @@ const CARS = [
       "title": "The Toyota C-HR Buyer's Guide",
       "blurb": "The 2018–2022 gas C-HR, the 2026 electric C-HR, and the used checklist with the recalls to check, in 3 chapters."
     }
+  },
+  {
+    "top": null,
+    "built": null,
+    "predecessor": null,
+    "successor": {
+      "name": "Honda Accord (tenth generation)",
+      "id": "honda-accord-10th-gen"
+    },
+    "articles": [],
+    "photo": null,
+    "id": "honda-accord-9th-gen",
+    "name": "Honda Accord (ninth generation)",
+    "aka": [
+      "2013–2017 Accord",
+      "Accord V6",
+      "Accord Coupe",
+      "Accord Hybrid",
+      "Accord Sport",
+      "Accord EX-L V6",
+      "Accord Touring"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "2013–2017",
+    "start": 2013,
+    "end": 2017,
+    "shop": {
+      "cargurus": "d585"
+    },
+    "body": "Midsize 4-door sedan and 2-door coupe",
+    "engine": "2.4-liter 4-cylinder; 3.5-liter V6; 2.0-liter 2-motor hybrid",
+    "drive": "Front-wheel drive",
+    "gearbox": "CVT or 6-speed manual (4-cylinder); 6-speed automatic, or a 6-speed manual in the coupe (V6)",
+    "specsFor": "2017 Honda Accord LX, US market",
+    "power": {
+      "hp": 185,
+      "note": "2.4-liter 4-cylinder (Sport: 189 hp; V6: 278 hp; Hybrid: 212 hp)",
+      "src": "https://www.motormatchup.com/catalog/Honda/Accord/2017/LX-4DR-Sedan"
+    },
+    "weight": {
+      "kg": 1438,
+      "note": "Curb weight, 2017 LX sedan (3,170 lb)",
+      "src": "https://www.motormatchup.com/catalog/Honda/Accord/2017/LX-4DR-Sedan"
+    },
+    "zero60": null,
+    "quick": "The ninth-generation Accord, sold for 2013–2017: the last Accord with a V6, the last with a coupe body, and the one that brought the Accord Hybrid back for 2017, rated at 48 mpg combined.",
+    "story": [
+      "The ninth-generation Accord arrived for 2013 and was refreshed for 2016. Most have a 2.4-liter 4-cylinder with 185 hp, or 189 in the Sport, with a CVT or a 6-speed manual, rated at 30 mpg combined with the CVT. The 3.5-liter V6 makes 278 hp; the sedan has a 6-speed automatic, and the coupe could also be ordered with a 6-speed manual. The 2017 Accord Hybrid, with Honda's 2-motor system and 212 hp, is rated at 48 mpg combined, though its battery cuts the trunk to 13.7 cubic feet.",
+      "Honda Sensing was optional on most 2017 grades. The V6 uses a timing belt that needs replacing on schedule, and 2015–2017 V6 cars are in a fuel pump recall (19V060). For 2018, Honda dropped the V6, the coupe and the naturally aspirated 4-cylinder, which makes the 2017 car the last of its kind."
+    ],
+    "match": [
+      "Honda Accord"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/honda-accord/",
+      "title": "The Honda Accord Buyer's Guide",
+      "blurb": "The last V6 Accord, the 2.0T generation, the hybrid-led 2023 car, and the used checklist with the recalls to check, in 4 chapters."
+    }
+  },
+  {
+    "top": null,
+    "built": null,
+    "predecessor": {
+      "name": "Honda Accord (ninth generation)",
+      "id": "honda-accord-9th-gen"
+    },
+    "successor": {
+      "name": "Honda Accord (eleventh generation)",
+      "id": "honda-accord-11th-gen"
+    },
+    "articles": [],
+    "photo": null,
+    "id": "honda-accord-10th-gen",
+    "name": "Honda Accord (tenth generation)",
+    "aka": [
+      "2018–2022 Accord",
+      "Accord 2.0T",
+      "Accord Sport 2.0T",
+      "Accord Touring 2.0T",
+      "Accord Sport SE",
+      "Accord Hybrid",
+      "manual Accord"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "2018–2022",
+    "start": 2018,
+    "end": 2022,
+    "shop": {
+      "cargurus": "d585"
+    },
+    "body": "Midsize 4-door sedan",
+    "engine": "1.5-liter turbo 4-cylinder; 2.0-liter turbo 4-cylinder; 2.0-liter 2-motor hybrid",
+    "drive": "Front-wheel drive",
+    "gearbox": "CVT (1.5T); 10-speed automatic (2.0T); 6-speed manual on the 2018–2020 Sport",
+    "specsFor": "2018 Honda Accord, US market",
+    "power": {
+      "hp": 192,
+      "note": "1.5-liter turbo (2.0-liter turbo: 252 hp; Hybrid: 212 hp)",
+      "src": "https://hondanews.com/en-US/releases/2018-honda-accord-press-kit-overview"
+    },
+    "weight": {
+      "kg": 1420,
+      "note": "Curb weight, 2018 LX (3,131 lb)",
+      "src": "https://www.kbb.com/honda/accord/2018/specs/"
+    },
+    "zero60": {
+      "sec": 5.5,
+      "kind": "tested",
+      "note": "Car and Driver test, 2018 Accord 2.0T Touring, 10-speed automatic",
+      "src": "https://www.thetruthaboutcars.com/2017/10/2018-honda-accord-2-0t-fact-quicker-2017-honda-accord-v6/"
+    },
+    "quick": "The tenth-generation Accord, 2018–2022: lower, lighter and sharper, with a 192-hp 1.5-liter turbo, a 252-hp 2.0-liter turbo with a 10-speed automatic, a 212-hp hybrid and, through 2020, a 6-speed manual.",
+    "story": [
+      "Honda redesigned the Accord for 2018, replacing the V6 with a turbocharged 2.0-liter that makes 252 hp and 273 lb-ft and, Honda says, shares much of its design with the Civic Type R engine. Its 10-speed automatic was the first of its kind in a front-drive car, and Car and Driver ran a 2.0T Touring from 0 to 60 mph in 5.5 seconds. The 1.5-liter turbo makes 192 hp and is rated at 33 mpg combined; the Hybrid makes 212 hp and was rated at 47 mpg for 2018 and 48 from 2019. Every version has a 16.7-cubic-foot trunk.",
+      "The Sport could be ordered with a 6-speed manual and either turbo engine from 2018 to 2020. The 2021 refresh dropped the manual, made Apple CarPlay and Android Auto standard and added the Sport SE. Honda extended the A/C condenser warranty on 2018–2020 cars to 10 years with unlimited miles, and recalls include several fuel pump campaigns and body control module software on 2018–2020 cars (20V771)."
+    ],
+    "match": [
+      "Honda Accord"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/honda-accord/",
+      "title": "The Honda Accord Buyer's Guide",
+      "blurb": "The last V6 Accord, the 2.0T generation, the hybrid-led 2023 car, and the used checklist with the recalls to check, in 4 chapters."
+    }
+  },
+  {
+    "top": null,
+    "built": null,
+    "predecessor": {
+      "name": "Honda Accord (tenth generation)",
+      "id": "honda-accord-10th-gen"
+    },
+    "successor": null,
+    "articles": [],
+    "photo": null,
+    "id": "honda-accord-11th-gen",
+    "name": "Honda Accord (eleventh generation)",
+    "aka": [
+      "2023 Accord",
+      "Accord Hybrid",
+      "Accord Hybrid EX-L",
+      "Accord Sport-L",
+      "Accord Touring",
+      "Accord SE"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "2023–present",
+    "start": 2023,
+    "end": null,
+    "shop": {
+      "cargurus": "d585"
+    },
+    "body": "Midsize 4-door sedan",
+    "engine": "1.5-liter turbo 4-cylinder; 2.0-liter 2-motor hybrid",
+    "drive": "Front-wheel drive",
+    "gearbox": "CVT (1.5T); the hybrid has no conventional transmission",
+    "specsFor": "2023 Honda Accord, US market",
+    "power": {
+      "hp": 204,
+      "note": "Hybrid combined output (1.5-liter turbo: 192 hp)",
+      "src": "https://hondanews.ca/en-CA/releases/sleek-powerful-and-electrified-all-new-2023-honda-accord-set-to-re-energize-the-midsize-sedan-segment"
+    },
+    "weight": {
+      "kg": 1469,
+      "note": "Curb weight, 2023 LX (3,239 lb)",
+      "src": "https://www.kbb.com/honda/accord/2023/specs/"
+    },
+    "zero60": {
+      "sec": 6.5,
+      "kind": "tested",
+      "note": "Car and Driver test, 2023 Accord Hybrid Touring",
+      "src": "https://hagerty.com/media/?p=386267"
+    },
+    "quick": "The eleventh-generation Accord, from 2023: a 192-hp turbo or, in most trims, a 204-hp hybrid rated at up to 48 mpg, with no V6, no 2.0T and no manual, and the first Honda with Google built-in.",
+    "story": [
+      "The eleventh-generation Accord went on sale in January 2023, built in Marysville, Ohio. The LX and EX, and later the SE, have a 192-hp 1.5-liter turbo rated at 32 mpg combined; the Sport, EX-L, Sport-L and Touring are hybrids with 204 hp and 247 lb-ft. The EX-L Hybrid is rated at 48 mpg and the 19-inch-wheel hybrids at 44. Car and Driver ran a Hybrid Touring from 0 to 60 mph in 6.5 seconds. The hybrids have a 12.3-inch touchscreen, and the Touring was the first Honda with Google built-in.",
+      "For 2026, the LX and SE got a 9-inch screen with wireless Apple CarPlay and Android Auto. Recalls include control module software that can cut drive power on 2023–2025 Hybrids (25V785), a high-pressure fuel pump on 2023–2024 cars (24V763), and the tire repair kit on 2023–2026 Hybrids (26V366)."
+    ],
+    "match": [
+      "Honda Accord"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/honda-accord/",
+      "title": "The Honda Accord Buyer's Guide",
+      "blurb": "The last V6 Accord, the 2.0T generation, the hybrid-led 2023 car, and the used checklist with the recalls to check, in 4 chapters."
+    }
+  },
+  {
+    "top": null,
+    "built": null,
+    "predecessor": null,
+    "successor": {
+      "name": "Honda Civic (eleventh generation)",
+      "id": "honda-civic-11th-gen"
+    },
+    "articles": [],
+    "photo": null,
+    "id": "honda-civic-10th-gen",
+    "name": "Honda Civic (tenth generation)",
+    "aka": [
+      "2016–2021 Civic",
+      "Civic Coupe",
+      "Civic Hatchback",
+      "Civic EX-T",
+      "Civic Sport Touring",
+      "FC",
+      "FK7"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "2016–2021",
+    "start": 2016,
+    "end": 2021,
+    "shop": {
+      "cargurus": "d586"
+    },
+    "body": "Compact 4-door sedan, 2-door coupe and 5-door hatchback",
+    "engine": "2.0-liter 4-cylinder; 1.5-liter turbo 4-cylinder",
+    "drive": "Front-wheel drive",
+    "gearbox": "CVT or 6-speed manual",
+    "specsFor": "2017 Honda Civic, US market",
+    "power": {
+      "hp": 174,
+      "note": "1.5-liter turbo, sedan and coupe (2.0-liter: 158 hp; hatchback Sport: 180 hp)",
+      "src": "https://www.theautochannel.com/news/2016/10/03/290035-2017-civic-lineup-turbocharged-with-extended-availability-manual-transmission.html"
+    },
+    "weight": {
+      "kg": 1378,
+      "note": "Test weight, 2017 Hatchback Sport Touring (Edmunds, 3,038 lb)",
+      "src": "https://www.edmunds.com/car-news/tested-2022-honda-civic-hatchback-loses-speed-but-wins-our-hearts.html"
+    },
+    "zero60": {
+      "sec": 7.3,
+      "kind": "tested",
+      "note": "Edmunds test, 2017 Civic Hatchback Sport Touring",
+      "src": "https://www.edmunds.com/car-news/tested-2022-honda-civic-hatchback-loses-speed-but-wins-our-hearts.html"
+    },
+    "quick": "The tenth-generation Civic, 2016–2021: a sedan, a coupe through 2020 and, from 2017, an England-built hatchback, with a 158-hp 2.0-liter or a 174- to 180-hp 1.5-liter turbo.",
+    "story": [
+      "The tenth-generation Civic arrived as a 2016 sedan and coupe, and the hatchback, built in Swindon, England, followed for 2017. The 2.0-liter makes 158 hp; the 1.5-liter turbo makes 174 hp in the sedan and coupe and up to 180 hp in the hatchback Sport, and is rated at up to 36 mpg combined. Edmunds ran a 2017 Hatchback Sport Touring from 0 to 60 mph in 7.3 seconds. For 2019, the sedan and coupe got a refresh, a volume knob and standard Honda Sensing on every grade but the Si.",
+      "Early 1.5-liter turbos could suffer oil dilution in very cold weather, and Honda extended the warranty on related parts of 2016–2018 cars to 6 years with unlimited miles. It also extended the A/C condenser and compressor shaft seal warranties to 10 years. Recalls include several fuel pump campaigns and a power steering sensor on 2017–2018 cars (18V663)."
+    ],
+    "match": [
+      "Honda Civic"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/honda-civic/",
+      "title": "The Honda Civic Buyer's Guide",
+      "blurb": "Both generations of sedan, coupe and hatchback, the Hybrid, Si and Type R, and the used checklist with the recalls to check, in 6 chapters."
+    }
+  },
+  {
+    "top": null,
+    "built": null,
+    "predecessor": {
+      "name": "Honda Civic (tenth generation)",
+      "id": "honda-civic-10th-gen"
+    },
+    "successor": null,
+    "articles": [],
+    "photo": null,
+    "id": "honda-civic-11th-gen",
+    "name": "Honda Civic (eleventh generation)",
+    "aka": [
+      "2022 Civic",
+      "Civic Hatchback",
+      "Civic Hybrid",
+      "Civic Sport Hybrid",
+      "Civic Sport Touring Hybrid",
+      "FE",
+      "FL"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "2022–present",
+    "start": 2022,
+    "end": null,
+    "shop": {
+      "cargurus": "d586"
+    },
+    "body": "Compact 4-door sedan and 5-door hatchback",
+    "engine": "2.0-liter 4-cylinder; 1.5-liter turbo 4-cylinder (2022–2024); 2.0-liter 2-motor hybrid (from 2025)",
+    "drive": "Front-wheel drive",
+    "gearbox": "CVT; 6-speed manual on the 2022–2024 turbo hatchback; the hybrid has no conventional transmission",
+    "specsFor": "2022 Honda Civic, US market",
+    "power": {
+      "hp": 180,
+      "note": "1.5-liter turbo (2.0-liter: 158 hp, 150 hp from 2025; Hybrid: 200 hp)",
+      "src": "https://www2020.theautochannel.com/news/2021/06/16/1011766-2022-honda-civic-sedan-secrets.html"
+    },
+    "weight": {
+      "kg": 1398,
+      "note": "Test weight, 2022 Hatchback Sport Touring (Edmunds, 3,083 lb)",
+      "src": "https://www.edmunds.com/car-news/tested-2022-honda-civic-hatchback-loses-speed-but-wins-our-hearts.html"
+    },
+    "zero60": {
+      "sec": 6.2,
+      "kind": "tested",
+      "note": "Car and Driver test, Civic Sport Touring Hybrid (2022 Hatchback Sport Touring turbo: 7.9 sec, Edmunds)",
+      "src": "https://www.aol.com/articles/honda-civic-car-driver-2026-140000342.html"
+    },
+    "quick": "The eleventh-generation Civic, from 2022: a calmer sedan and a US-built hatchback, with a 2.0-liter or 1.5-liter turbo at first and, from 2025, a 200-hp hybrid rated at up to 49 mpg.",
+    "story": [
+      "The eleventh-generation Civic arrived for 2022 with a cleaner body and a cabin with a honeycomb mesh across the dashboard. The 2022–2024 cars have a 158-hp 2.0-liter or a 180-hp 1.5-liter turbo, and the turbo hatchback could be ordered with a 6-speed manual. The hatchback was the first Civic hatchback built in the US, in Greensburg, Indiana.",
+      "The 2025 refresh dropped the turbo and the manual hatchback, gave the LX and Sport a 150-hp 2.0-liter, and added the Civic Hybrid: 200 hp and 232 lb-ft, rated at 49 mpg combined as a sedan and 48 as a hatchback. Car and Driver ran a Sport Touring Hybrid from 0 to 60 mph in 6.2 seconds. Recall 24V744 covers the steering gearbox on 2022–2025 cars."
+    ],
+    "match": [
+      "Honda Civic"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/honda-civic/",
+      "title": "The Honda Civic Buyer's Guide",
+      "blurb": "Both generations of sedan, coupe and hatchback, the Hybrid, Si and Type R, and the used checklist with the recalls to check, in 6 chapters."
+    }
+  },
+  {
+    "top": null,
+    "built": null,
+    "predecessor": null,
+    "successor": {
+      "name": "Honda Civic Si (eleventh generation)",
+      "id": "honda-civic-si-11th-gen"
+    },
+    "articles": [],
+    "photo": null,
+    "id": "honda-civic-si-10th-gen",
+    "name": "Honda Civic Si (tenth generation)",
+    "aka": [
+      "2017–2020 Civic Si",
+      "Civic Si Coupe",
+      "Civic Si sedan"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "2017–2020",
+    "start": 2017,
+    "end": 2020,
+    "shop": {
+      "cargurus": "d586"
+    },
+    "body": "Compact 4-door sedan and 2-door coupe",
+    "engine": "1.5-liter turbo 4-cylinder",
+    "drive": "Front-wheel drive, limited-slip differential",
+    "gearbox": "6-speed manual",
+    "specsFor": "2017 Honda Civic Si, US market",
+    "power": {
+      "hp": 205,
+      "note": "192 lb-ft",
+      "src": "https://hondanews.com/en-US/releases/release-2a51bd5a5ef547e0a46d0e5d5fb022b9-2017-honda-civic-si-pricing-and-epa-data"
+    },
+    "weight": {
+      "kg": 1329,
+      "note": "Test weight, 2017 Si sedan (Edmunds, 2,929 lb)",
+      "src": "https://www.edmunds.com/car-news/2022-honda-civic-si-long-term-test-wrap-up.html"
+    },
+    "zero60": {
+      "sec": 6.8,
+      "kind": "tested",
+      "note": "Edmunds test, 2017 Civic Si sedan",
+      "src": "https://www.edmunds.com/car-news/2022-honda-civic-si-long-term-test-wrap-up.html"
+    },
+    "quick": "The 2017–2020 Civic Si: a 205-hp turbo sedan or coupe with a 6-speed manual, a limited-slip differential and adaptive dampers, priced from $23,900 ($32,800 in 2026 dollars).",
+    "story": [
+      "The tenth-generation Si arrived for 2017 as a sedan or a coupe, at $23,900 for either ($32,800 in 2026 dollars). Its 1.5-liter turbo makes 205 hp and 192 lb-ft, and it comes only with a 6-speed manual, a limited-slip differential and adaptive dampers. The EPA rated it at 32 mpg combined, and Edmunds ran a 2017 Si sedan from 0 to 60 mph in 6.8 seconds.",
+      "Honda Sensing became standard by 2020. The coupe ended with the 2020 model year, and there was no Si for 2021. Like other early 1.5-liter turbos, 2017–2018 cars may be covered by Honda's oil dilution warranty extension; ask a dealer to check the VIN."
+    ],
+    "match": [
+      "Honda Civic Si"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/honda-civic/",
+      "title": "The Honda Civic Buyer's Guide",
+      "blurb": "Both generations of sedan, coupe and hatchback, the Hybrid, Si and Type R, and the used checklist with the recalls to check, in 6 chapters."
+    }
+  },
+  {
+    "top": null,
+    "built": null,
+    "predecessor": {
+      "name": "Honda Civic Si (tenth generation)",
+      "id": "honda-civic-si-10th-gen"
+    },
+    "successor": null,
+    "articles": [],
+    "photo": null,
+    "id": "honda-civic-si-11th-gen",
+    "name": "Honda Civic Si (eleventh generation)",
+    "aka": [
+      "2022 Civic Si",
+      "Civic Si sedan",
+      "Civic Si HPT"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "2022–present",
+    "start": 2022,
+    "end": null,
+    "shop": {
+      "cargurus": "d586"
+    },
+    "body": "Compact 4-door sedan",
+    "engine": "1.5-liter turbo 4-cylinder",
+    "drive": "Front-wheel drive, limited-slip differential",
+    "gearbox": "6-speed manual with rev-matching",
+    "specsFor": "2022 Honda Civic Si, US market",
+    "power": {
+      "hp": 200,
+      "note": "192 lb-ft",
+      "src": "https://news.yahoo.com/2022-honda-civic-si-evolves-140000061.html"
+    },
+    "weight": {
+      "kg": 1339,
+      "note": "Curb weight (2,952 lb)",
+      "src": "https://www.motorbiscuit.com/2022-honda-civic-si-still-sporty-subtly-civilized/"
+    },
+    "zero60": {
+      "sec": 6.8,
+      "kind": "tested",
+      "note": "Car and Driver test, 2022 Civic Si",
+      "src": "https://news.yahoo.com/2022-honda-civic-si-evolves-140000061.html"
+    },
+    "quick": "The 2022 and later Civic Si: a 200-hp turbo sedan with a rev-matching 6-speed manual and a limited-slip differential, but no adaptive dampers.",
+    "story": [
+      "The Si returned for 2022 as a sedan only, with a 200-hp, 192-lb-ft version of the 1.5-liter turbo, a 6-speed manual with rev-matching and a limited-slip differential, but without the adaptive dampers of the car before it. It started at $27,300 ($31,400 in 2026 dollars). Car and Driver ran one from 0 to 60 mph in 6.8 seconds, 0.2 second slower than before, though its rolling-start time matched the 2020 Si.",
+      "The EPA rates it at 31 mpg combined. Honda asked $31,495 for a 2026 Si. Car and Driver found the 2025 Civic Hybrid 0.6 second quicker to 60 mph. The 2022 and later Si is in the steering gearbox recall (24V744)."
+    ],
+    "match": [
+      "Honda Civic Si"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/honda-civic/",
+      "title": "The Honda Civic Buyer's Guide",
+      "blurb": "Both generations of sedan, coupe and hatchback, the Hybrid, Si and Type R, and the used checklist with the recalls to check, in 6 chapters."
+    }
+  },
+  {
+    "top": null,
+    "built": null,
+    "predecessor": null,
+    "successor": {
+      "name": "Honda Civic Type R (FL5)",
+      "id": "honda-civic-type-r-fl5"
+    },
+    "articles": [],
+    "photo": null,
+    "id": "honda-civic-type-r-fk8",
+    "name": "Honda Civic Type R (FK8)",
+    "aka": [
+      "2017–2021 Civic Type R",
+      "FK8",
+      "Type R Limited Edition",
+      "Phoenix Yellow Type R",
+      "CTR"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "2017–2021",
+    "start": 2017,
+    "end": 2021,
+    "shop": {
+      "cargurus": "d586"
+    },
+    "body": "Compact 5-door hatchback",
+    "engine": "2.0-liter turbo 4-cylinder",
+    "drive": "Front-wheel drive, limited-slip differential",
+    "gearbox": "6-speed manual",
+    "specsFor": "2017 Honda Civic Type R, US market",
+    "power": {
+      "hp": 306,
+      "note": "295 lb-ft",
+      "src": "https://hondanews.com/releases/first-ever-civic-type-r-for-america-goes-on-sale-tomorrow"
+    },
+    "weight": {
+      "kg": 1411,
+      "note": "Car and Driver test car (3,111 lb)",
+      "src": "https://www.yahoo.com/news/2017-honda-civic-type-r-221500571.html"
+    },
+    "zero60": {
+      "sec": 4.9,
+      "kind": "tested",
+      "note": "Car and Driver test, 2017 Civic Type R",
+      "src": "https://www.yahoo.com/news/2017-honda-civic-type-r-221500571.html"
+    },
+    "quick": "The first Civic Type R sold new in the US: a 306-hp, manual-only hatchback built in Swindon, England, that Car and Driver ran from 0 to 60 mph in 4.9 seconds.",
+    "story": [
+      "The FK8 arrived for 2017 as the first Civic Type R sold new in America, priced at $33,900 ($46,500 in 2026 dollars). It has a 306-hp turbocharged 2.0-liter from Anna, Ohio, a 6-speed manual, a limited-slip differential and a dual-axis front suspension that tames torque steer. It was built in Swindon, England. Car and Driver ran one from 0 to 60 mph in 4.9 seconds and called it the quickest front-drive car it had tested.",
+      "For 2020, it got a larger grille, 2-piece front brake rotors and standard Honda Sensing. For 2021, Honda added the Type R Limited Edition, 600 Phoenix Yellow cars for the US with forged BBS wheels and Michelin Cup 2 tires, at $43,995 ($54,600 in 2026 dollars). There was no Type R for 2022."
+    ],
+    "match": [
+      "Honda Civic Type R"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/honda-civic/",
+      "title": "The Honda Civic Buyer's Guide",
+      "blurb": "Both generations of sedan, coupe and hatchback, the Hybrid, Si and Type R, and the used checklist with the recalls to check, in 6 chapters."
+    }
+  },
+  {
+    "top": null,
+    "built": null,
+    "predecessor": {
+      "name": "Honda Civic Type R (FK8)",
+      "id": "honda-civic-type-r-fk8"
+    },
+    "successor": null,
+    "articles": [],
+    "photo": null,
+    "id": "honda-civic-type-r-fl5",
+    "name": "Honda Civic Type R (FL5)",
+    "aka": [
+      "2023 Civic Type R",
+      "FL5",
+      "CTR"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "2023–present",
+    "start": 2023,
+    "end": null,
+    "shop": {
+      "cargurus": "d586"
+    },
+    "body": "Compact 5-door hatchback",
+    "engine": "2.0-liter turbo 4-cylinder",
+    "drive": "Front-wheel drive, limited-slip differential",
+    "gearbox": "6-speed manual",
+    "specsFor": "2023 Honda Civic Type R, US market",
+    "power": {
+      "hp": 315,
+      "note": "310 lb-ft",
+      "src": "https://us.motorsactu.com/?p=7258"
+    },
+    "weight": {
+      "kg": 1446,
+      "note": "Curb weight (3,188 lb)",
+      "src": "https://www.carwhere.com/0-60-times/compare/honda-civic-type-r-vs-volkswagen-golf-r"
+    },
+    "zero60": {
+      "sec": 4.9,
+      "kind": "tested",
+      "note": "Car and Driver test, 2023 Civic Type R",
+      "src": "https://cars.ksl.com/resources/car-review/2023-honda-civic-type-r-test-drive-review"
+    },
+    "quick": "The 2023 and later Civic Type R: 315 hp, a 6-speed manual and a calmer body on the eleventh-generation Civic hatchback, built in Yorii, Japan.",
+    "story": [
+      "The FL5 arrived for 2023 on the eleventh-generation Civic hatchback, built in Yorii, Japan, with an engine from Anna, Ohio. Its turbocharged 2.0-liter makes 315 hp and 310 lb-ft, and it keeps the 6-speed manual. Car and Driver ran it from 0 to 60 mph in 4.9 seconds, and the EPA rates it at 24 mpg combined.",
+      "It started at $42,895 for 2023 ($47,400 in 2026 dollars), and Honda asked $46,895 for 2026, before delivery. 2023–2025 cars are in the steering gearbox recall (24V744)."
+    ],
+    "match": [
+      "Honda Civic Type R"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/honda-civic/",
+      "title": "The Honda Civic Buyer's Guide",
+      "blurb": "Both generations of sedan, coupe and hatchback, the Hybrid, Si and Type R, and the used checklist with the recalls to check, in 6 chapters."
+    }
+  },
+  {
+    "top": null,
+    "built": null,
+    "predecessor": null,
+    "successor": {
+      "name": "Honda CR-V (sixth generation)",
+      "id": "honda-cr-v-6th-gen"
+    },
+    "articles": [],
+    "photo": null,
+    "id": "honda-cr-v-5th-gen",
+    "name": "Honda CR-V (fifth generation)",
+    "aka": [
+      "2017–2022 CR-V",
+      "CR-V Hybrid",
+      "CR-V EX",
+      "CR-V Touring",
+      "RW"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "2017–2022",
+    "start": 2017,
+    "end": 2022,
+    "shop": {
+      "cargurus": "d589"
+    },
+    "body": "Compact SUV",
+    "engine": "2.4-liter 4-cylinder (2017–2019 LX); 1.5-liter turbo 4-cylinder; 2.0-liter 2-motor hybrid (2020–2022)",
+    "drive": "Front- or all-wheel drive; the Hybrid has all-wheel drive",
+    "gearbox": "CVT; the hybrid has no conventional transmission",
+    "specsFor": "2017 Honda CR-V, US market",
+    "power": {
+      "hp": 190,
+      "note": "1.5-liter turbo (2.4-liter LX: 184 hp; 2020–2022 Hybrid: 212 hp)",
+      "src": "https://prnewswire.com/news-releases/bold-new-and-unexpectedly-upscale-2017-honda-cr-v-hits-showrooms-with-premium-design-big-versatility-and-fun-to-drive-persona-300382563.html"
+    },
+    "weight": {
+      "kg": 1500,
+      "note": "Curb weight, 2017 LX, front-wheel drive (3,307 lb)",
+      "src": "https://www.hondanews.com/en-US/honda-automobiles/releases/release-40fde7e3aa47477f86c3d735579e6a5a-2017-honda-cr-v-overview"
+    },
+    "zero60": {
+      "sec": 7.6,
+      "kind": "tested",
+      "note": "Car and Driver test, 2017 CR-V turbo, all-wheel drive",
+      "src": "https://motorwayamerica.com/review/honda-cr-v-%E2%80%94-making-excellent-crossover-better"
+    },
+    "quick": "The fifth-generation CR-V, 2017–2022: roomy and easy to live with, with a 1.5-liter turbo in most versions, 75.8 cubic feet of cargo space and, from 2020, the first US CR-V Hybrid.",
+    "story": [
+      "The fifth-generation CR-V arrived for 2017 with 2.1 inches more rear legroom and 39.2 cubic feet of cargo space behind the rear seat, or 75.8 with it folded flat. The 2017–2019 LX has a 184-hp 2.4-liter; every other gas version has a 190-hp 1.5-liter turbo, rated at 30 mpg combined with front-wheel drive. Car and Driver ran a turbo with all-wheel drive from 0 to 60 mph in 7.6 seconds.",
+      "The 2020 refresh made the turbo and Honda Sensing standard and added the CR-V Hybrid, with 212 hp, standard all-wheel drive and 38 mpg, though its battery cuts the cargo space to 33.2 cubic feet and it has no spare tire. Early turbos could suffer oil dilution in very cold weather, and recalls include several fuel system campaigns and loose rear subframe bolts on 2019–2020 cars (19V865)."
+    ],
+    "match": [
+      "Honda CR-V"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/honda-cr-v/",
+      "title": "The Honda CR-V Buyer's Guide",
+      "blurb": "Both generations, gas or hybrid, the hydrogen e:FCEV, and the used checklist with the recalls to check, in 5 chapters."
+    }
+  },
+  {
+    "top": null,
+    "built": null,
+    "predecessor": {
+      "name": "Honda CR-V (fifth generation)",
+      "id": "honda-cr-v-5th-gen"
+    },
+    "successor": null,
+    "articles": [],
+    "photo": null,
+    "id": "honda-cr-v-6th-gen",
+    "name": "Honda CR-V (sixth generation)",
+    "aka": [
+      "2023 CR-V",
+      "CR-V Hybrid",
+      "CR-V Sport",
+      "CR-V Sport Touring",
+      "CR-V TrailSport",
+      "RS"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "2023–present",
+    "start": 2023,
+    "end": null,
+    "shop": {
+      "cargurus": "d589"
+    },
+    "body": "Compact SUV",
+    "engine": "1.5-liter turbo 4-cylinder; 2.0-liter 2-motor hybrid",
+    "drive": "Front- or all-wheel drive",
+    "gearbox": "CVT; the hybrid has no conventional transmission",
+    "specsFor": "2023 Honda CR-V, US market",
+    "power": {
+      "hp": 204,
+      "note": "Hybrid combined output, 247 lb-ft (1.5-liter turbo: 190 hp)",
+      "src": "https://www.thedrive.com/new-cars/2023-honda-crv-hybrid-first-drive-review-price-specs-suvs-crossovers-impressions"
+    },
+    "weight": {
+      "kg": 1781,
+      "note": "Curb weight, 2023 Sport Touring Hybrid AWD (3,926 lb)",
+      "src": "https://henrypayne.com/?p=29934"
+    },
+    "zero60": {
+      "sec": 7.9,
+      "kind": "tested",
+      "note": "Car and Driver test, 2023 CR-V Sport Touring Hybrid",
+      "src": "https://henrypayne.com/?p=29934"
+    },
+    "quick": "The sixth-generation CR-V, from 2023: bigger and calmer, with a 190-hp turbo or a 204-hp hybrid now offered with front-wheel drive and rated at up to 40 mpg.",
+    "story": [
+      "The sixth-generation CR-V arrived for 2023, 2.7 inches longer with a wheelbase 1.6 inches longer, and 76.5 cubic feet of cargo space with the rear seat folded. The gas versions have a 190-hp 1.5-liter turbo; the Sport, Sport-L and Sport Touring are hybrids with 204 hp and 247 lb-ft. The front-drive hybrid is rated at 40 mpg combined and the all-wheel-drive version at 37. Car and Driver ran a Sport Touring from 0 to 60 mph in 7.9 seconds.",
+      "The hybrids have a fixed cargo floor and no spare tire, and are rated to tow 1,000 pounds, against 1,500 for the turbo. A TrailSport Hybrid joined for 2026. Recalls include the steering gearbox on 2023–2025 cars (24V744), a high-pressure fuel pump on 2023–2025 Hybrids (24V763) and the tire repair kit on 2023–2026 Hybrids (26V366)."
+    ],
+    "match": [
+      "Honda CR-V"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/honda-cr-v/",
+      "title": "The Honda CR-V Buyer's Guide",
+      "blurb": "Both generations, gas or hybrid, the hydrogen e:FCEV, and the used checklist with the recalls to check, in 5 chapters."
+    }
+  },
+  {
+    "top": null,
+    "built": null,
+    "predecessor": null,
+    "successor": null,
+    "articles": [],
+    "photo": null,
+    "id": "honda-cr-v-e-fcev",
+    "name": "Honda CR-V e:FCEV",
+    "aka": [
+      "CR-V Fuel Cell",
+      "CR-V Fuel Cell EV",
+      "CR-V hydrogen",
+      "Honda fuel cell SUV"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "2025–present",
+    "start": 2025,
+    "end": null,
+    "shop": {
+      "cargurus": "d589"
+    },
+    "body": "Compact SUV, plug-in hydrogen fuel cell",
+    "engine": "92.2 kW fuel cell, 17.7 kWh battery and an electric motor",
+    "drive": "Front-wheel drive",
+    "gearbox": "Single-speed",
+    "specsFor": "2025 Honda CR-V e:FCEV, US market",
+    "power": {
+      "hp": 174,
+      "note": "Electric motor, 229 lb-ft",
+      "src": "https://akamai-release.automobiles.honda.com/cr-v-fcev/specs-features-trim-comparison"
+    },
+    "weight": {
+      "kg": 2023,
+      "note": "Curb weight (4,460 lb)",
+      "src": "https://akamai-release.automobiles.honda.com/cr-v-fcev/specs-features-trim-comparison"
+    },
+    "zero60": null,
+    "quick": "America's first production plug-in hydrogen fuel cell vehicle: a CR-V with 29 miles of battery range and 270 miles in all, leased only in California.",
+    "story": [
+      "The CR-V e:FCEV pairs a 17.7 kWh battery, good for 29 miles of EPA-rated range, with a 92.2 kW fuel cell that turns hydrogen into electricity, for 270 miles in all. A 174-hp motor drives the front wheels. It was the first car with the fuel cell module Honda developed with GM, which is built in Brownstown, Michigan, and the CR-V itself is built in Marysville, Ohio.",
+      "Honda leases it only in California, through a small group of dealers near hydrogen stations, at $459 a month ($479 in 2026 dollars) for 3 years and 36,000 miles, with up to $15,000 of hydrogen included ($15,700). Recall 25V858 replaced the fuel cell stack on 388 2025 cars because coolant could leak into the stack case and cut drive power."
+    ],
+    "match": [
+      "Honda CR-V e:FCEV"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/honda-cr-v/",
+      "title": "The Honda CR-V Buyer's Guide",
+      "blurb": "Both generations, gas or hybrid, the hydrogen e:FCEV, and the used checklist with the recalls to check, in 5 chapters."
+    }
+  },
+  {
+    "top": null,
+    "built": null,
+    "predecessor": null,
+    "successor": null,
+    "articles": [],
+    "photo": null,
+    "id": "honda-prelude-6th-gen",
+    "name": "Honda Prelude (sixth generation)",
+    "aka": [
+      "2026 Prelude",
+      "Prelude hybrid",
+      "Prelude 2-Tone"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "2026–present",
+    "start": 2026,
+    "end": null,
+    "shop": {
+      "cargurus": "d595"
+    },
+    "body": "2+2 liftback coupe",
+    "engine": "2.0-liter 2-motor hybrid",
+    "drive": "Front-wheel drive",
+    "gearbox": "Direct drive, with S+ Shift simulated gears",
+    "specsFor": "2026 Honda Prelude, US market",
+    "power": {
+      "hp": 200,
+      "note": "Combined output, 232 lb-ft",
+      "src": "https://automobiles.honda.com/2026/prelude/specs-features-trim-comparison"
+    },
+    "weight": {
+      "kg": 1479,
+      "note": "Curb weight (3,261 lb)",
+      "src": "https://automobiles.honda.com/2026/prelude/specs-features-trim-comparison"
+    },
+    "zero60": {
+      "sec": 6.5,
+      "kind": "tested",
+      "note": "Car and Driver test",
+      "src": "https://www.aol.com/articles/2026-honda-prelude-accelerates-only-200500346.html"
+    },
+    "quick": "The Prelude's return after 25 years: a 200-hp hybrid coupe with the Civic Type R's dual-axis front suspension, adaptive dampers and Brembo brakes, rated at 44 mpg.",
+    "story": [
+      "Honda brought the Prelude back for 2026 as a 2+2 liftback coupe, on sale from November 18, 2025, at $42,000 before delivery. It uses the Civic Hybrid's 2.0-liter, 2-motor powertrain, with 200 hp and 232 lb-ft, and borrows the Civic Type R's dual-axis front struts, adaptive dampers and Brembo 4-piston front brakes. The EPA rates it at 44 mpg combined, and it has 15.1 cubic feet of cargo space.",
+      "Car and Driver ran one from 0 to 60 mph in 6.5 seconds, or 7.3 in S+ Shift mode, which simulates 8 gears with rev-matched downshifts. The earlier Prelude was sold in the US from 1979 to 2001 and introduced mechanical 4-wheel steering."
+    ],
+    "match": [
+      "Honda Prelude"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/honda-prelude/",
+      "title": "The Honda Prelude Buyer's Guide",
+      "blurb": "The 2026 hybrid coupe reviewed, Prelude or Civic, and the buying checklist, in 3 chapters."
+    }
   }
 ];

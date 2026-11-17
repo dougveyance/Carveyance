@@ -218,6 +218,9 @@
       { k: "top", l: "Top speed", v: function (c) { return c.top ? "<b>" + I.num(Math.round(c.top.mph)) + "</b> mph" : null; },
         n: function (c) { return c.top ? c.top.mph : null; }, better: "high",
         s: function (c) { return c.top ? (c.top.note || (c.top.kind === "claimed" ? "Maker's claim" : "Tested")) : ""; } },
+      { k: "mpg", l: "Fuel economy", v: function (c) { return c.mpg ? "<b>" + c.mpg.combined + "</b> " + (c.mpg.unit || "mpg") : null; },
+        n: function (c) { return c.mpg && (c.mpg.unit || "mpg") === "mpg" ? c.mpg.combined : null; }, better: "high",
+        s: function (c) { return c.mpg ? (c.mpg.note || (c.mpg.kind === "epa" ? "EPA combined" + (c.mpg.city && c.mpg.hwy ? ", " + c.mpg.city + " city / " + c.mpg.hwy + " highway" : "") : "Road test")) : ""; } },
       { k: "built", l: "Built", v: function (c) { return c.built ? "<b>" + (c.built.approx ? "about " : "") + I.num(c.built.count) + "</b>" : null; },
         s: function (c) { return c.built ? (c.built.note || "") : ""; } },
       { k: "years", l: "Years", v: function (c) { return c.years ? esc(c.years) : null; } },
@@ -268,7 +271,7 @@
               var v = vals[i], isBest = best != null && r._nums && r._nums[i] === best;
               var sub = r.s ? r.s(c) : "";
               return '<div class="cmp-v' + (isBest ? " best" : "") + '">' + (v == null ? '<span class="dim">&mdash;</span>' : v) +
-                (isBest ? '<span class="tag">' + ({ score: "Top rated", hp: "Most power", kg: "Lightest", ptw: "Best ratio", z60: "Quickest", top: "Fastest" }[r.k] || "Best") + "</span>" : "") +
+                (isBest ? '<span class="tag">' + ({ score: "Top rated", hp: "Most power", kg: "Lightest", ptw: "Best ratio", z60: "Quickest", top: "Fastest", mpg: "Most efficient" }[r.k] || "Best") + "</span>" : "") +
                 (sub ? "<small>" + esc(sub) + "</small>" : "") + "</div>";
             }).join("") + "</div>";
         });

@@ -86,7 +86,18 @@ const CARS = [
       "note": "Maker's claim",
       "src": "article:simplify-then-add-soul"
     },
-    "built": null,
+    "mpg": {
+      "combined": 20,
+      "city": 17,
+      "hwy": 26,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/41905.shtml"
+    },
+    "built": {
+      "na": "Counted in the Evora's 6,117 total (2009–2021)",
+      "src": "https://en.wikipedia.org/wiki/Lotus_Evora"
+    },
     "predecessor": {
       "name": "Lotus Evora GT430 Sport",
       "id": "lotus-evora-gt430-sport"
@@ -151,6 +162,14 @@ const CARS = [
       "kind": "claimed",
       "note": "Maker's claim",
       "src": "https://www.auto123.com/en/news/porscher-announces-new-911-gt3/20299/"
+    },
+    "mpg": {
+      "combined": 16,
+      "city": 14,
+      "hwy": 21,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/19386.shtml"
     },
     "built": null,
     "predecessor": {
@@ -228,7 +247,20 @@ const CARS = [
       "note": "Maker's claim",
       "src": "https://australiancar.reviews/_pdfs/Audi_R8Coupe_2007_Specifications_200704.pdf"
     },
-    "built": null,
+    "mpg": {
+      "combined": 15,
+      "city": 13,
+      "hwy": 20,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/24167.shtml"
+    },
+    "built": {
+      "count": 13570,
+      "approx": true,
+      "note": "Sold in the US, 2007–2015 (all first-generation R8s, V8 and V10)",
+      "src": "https://www.goodcarbadcar.net/audi-r8-sales-figures/"
+    },
     "predecessor": null,
     "successor": {
       "name": "Audi R8 (second generation)",
@@ -259,7 +291,19 @@ const CARS = [
     "maker": "Lotus",
     "country": "United Kingdom",
     "drive": "Rear-wheel drive",
-    "built": null,
+    "mpg": {
+      "combined": 20,
+      "city": 17,
+      "hwy": 26,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, 2011 US Evora S, manual",
+      "src": "https://www.fueleconomy.gov/feg/noframes/34741.shtml"
+    },
+    "built": {
+      "na": "Counted in the Evora's 6,117 total (2009–2021)",
+      "src": "https://en.wikipedia.org/wiki/Lotus_Evora"
+    },
     "articles": [
       "simplify-then-add-soul"
     ],
@@ -351,7 +395,19 @@ const CARS = [
       "note": "Maker's claim",
       "src": "https://www.autoblog.com/news/lotus-evora-400-official"
     },
-    "built": null,
+    "mpg": {
+      "combined": 19,
+      "city": 16,
+      "hwy": 24,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, 2017 US Evora 400, manual",
+      "src": "https://www.fueleconomy.gov/feg/noframes/38082.shtml"
+    },
+    "built": {
+      "na": "Counted in the Evora's 6,117 total (2009–2021)",
+      "src": "https://en.wikipedia.org/wiki/Lotus_Evora"
+    },
     "predecessor": {
       "name": "Lotus Evora S",
       "id": "lotus-evora-s"
@@ -382,7 +438,10 @@ const CARS = [
     "maker": "Lotus",
     "country": "United Kingdom",
     "drive": "Rear-wheel drive",
-    "built": null,
+    "built": {
+      "na": "Counted in the Evora's 6,117 total (2009–2021)",
+      "src": "https://en.wikipedia.org/wiki/Lotus_Evora"
+    },
     "articles": [
       "simplify-then-add-soul"
     ],
@@ -444,7 +503,10 @@ const CARS = [
     "maker": "Lotus",
     "country": "United Kingdom",
     "drive": "Rear-wheel drive",
-    "built": null,
+    "built": {
+      "na": "Counted in the Evora's 6,117 total (2009–2021)",
+      "src": "https://en.wikipedia.org/wiki/Lotus_Evora"
+    },
     "articles": [
       "simplify-then-add-soul"
     ],
@@ -531,7 +593,10 @@ const CARS = [
       "note": "Maker's claim, manual",
       "src": "https://www.lotuscars.com/en/lotus-story/road-cars/evora"
     },
-    "built": null,
+    "built": {
+      "na": "Counted in the Evora's 6,117 total (2009–2021)",
+      "src": "https://en.wikipedia.org/wiki/Lotus_Evora"
+    },
     "predecessor": {
       "name": "Lotus Evora GT430",
       "id": "lotus-evora-gt430"
@@ -590,6 +655,15 @@ const CARS = [
       "kind": "claimed",
       "note": "Maker's claim",
       "src": "article:simplify-then-add-soul"
+    },
+    "mpg": {
+      "combined": 21,
+      "city": 18,
+      "hwy": 27,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, 2010 US Evora",
+      "src": "https://www.fueleconomy.gov/feg/noframes/31318.shtml"
     },
     "built": {
       "count": 6117,
@@ -739,6 +813,15 @@ const CARS = [
       "note": "Maker's claim",
       "src": "article:the-shape-children-draw"
     },
+    "mpg": {
+      "combined": 19,
+      "city": 15,
+      "hwy": 25,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, 1995 US Esprit",
+      "src": "https://www.fueleconomy.gov/feg/noframes/11601.shtml"
+    },
     "built": {
       "count": 367,
       "approx": false,
@@ -815,6 +898,14 @@ const CARS = [
       "kind": "tested",
       "note": "Car and Driver test",
       "src": "article:the-shape-children-draw"
+    },
+    "mpg": {
+      "combined": 16,
+      "city": 14,
+      "hwy": 21,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/13266.shtml"
     },
     "built": {
       "count": 1237,
@@ -922,6 +1013,15 @@ const CARS = [
     ],
     "country": "Japan",
     "drive": "Rear-wheel drive",
+    "mpg": {
+      "combined": 17,
+      "city": 15,
+      "hwy": 21,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, 1985 US RX-7 12A, 5-speed manual",
+      "src": "https://www.fueleconomy.gov/feg/noframes/22.shtml"
+    },
     "built": {
       "count": 471018,
       "approx": false,
@@ -1008,6 +1108,15 @@ const CARS = [
       "src": "https://twinturbo.net/nissan/300zx/FAQ/stats/mtapr92.html"
     },
     "top": null,
+    "mpg": {
+      "combined": 18,
+      "city": 15,
+      "hwy": 23,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, 5-speed manual",
+      "src": "https://www.fueleconomy.gov/feg/noframes/9659.shtml"
+    },
     "built": {
       "count": 68589,
       "approx": false,
@@ -1076,6 +1185,15 @@ const CARS = [
       "src": "article:the-middle-child"
     },
     "top": null,
+    "mpg": {
+      "combined": 17,
+      "city": 15,
+      "hwy": 22,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, 1989 US RX-7 Turbo II, manual",
+      "src": "https://www.fueleconomy.gov/feg/noframes/5277.shtml"
+    },
     "built": {
       "count": 272027,
       "approx": false,
@@ -1403,6 +1521,14 @@ const CARS = [
       "note": "Maker's claim, limited",
       "src": "article:929-the-number-nobody-remembered"
     },
+    "mpg": {
+      "combined": 19,
+      "city": 17,
+      "hwy": 22,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/10069.shtml"
+    },
     "built": null,
     "predecessor": {
       "name": "Mazda 929 (HC)",
@@ -1465,6 +1591,14 @@ const CARS = [
       "src": "article:sliding-doors"
     },
     "top": null,
+    "mpg": {
+      "combined": 24,
+      "city": 21,
+      "hwy": 28,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/31285.shtml"
+    },
     "built": null,
     "predecessor": {
       "name": "Mazda5 (first generation)",
@@ -1531,6 +1665,14 @@ const CARS = [
       "note": "Car and Driver test",
       "src": "article:the-happy-medium"
     },
+    "mpg": {
+      "combined": 24,
+      "city": 22,
+      "hwy": 28,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/17584.shtml"
+    },
     "built": null,
     "predecessor": null,
     "successor": {
@@ -1590,6 +1732,15 @@ const CARS = [
       "src": "article:cheapest-car-in-the-fight"
     },
     "top": null,
+    "mpg": {
+      "combined": 24,
+      "city": 22,
+      "hwy": 28,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, 2001 Protegé 2.0, manual",
+      "src": "https://www.fueleconomy.gov/feg/noframes/16660.shtml"
+    },
     "built": {
       "count": 1500,
       "approx": false,
@@ -1649,6 +1800,15 @@ const CARS = [
     },
     "zero60": null,
     "top": null,
+    "mpg": {
+      "combined": 23,
+      "city": 21,
+      "hwy": 27,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, 2003 Protegé on premium fuel (the Mazdaspeed)",
+      "src": "https://www.fueleconomy.gov/feg/noframes/18552.shtml"
+    },
     "built": {
       "count": 4500,
       "approx": true,
@@ -1721,6 +1881,14 @@ const CARS = [
       "kind": "tested",
       "note": "Motor Trend test",
       "src": "article:the-overachiever"
+    },
+    "mpg": {
+      "combined": 18,
+      "city": 16,
+      "hwy": 22,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/11742.shtml"
     },
     "built": {
       "count": 86151,
@@ -1799,6 +1967,14 @@ const CARS = [
       "note": "Car and Driver test",
       "src": "article:the-brightest-star"
     },
+    "mpg": {
+      "combined": 18,
+      "city": 15,
+      "hwy": 23,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/8802.shtml"
+    },
     "built": {
       "count": 24379,
       "approx": false,
@@ -1863,6 +2039,15 @@ const CARS = [
       "src": "article:a-golden-relic"
     },
     "top": null,
+    "mpg": {
+      "combined": 20,
+      "city": 18,
+      "hwy": 24,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, manual or automatic",
+      "src": "https://www.fueleconomy.gov/feg/noframes/10737.shtml"
+    },
     "built": {
       "count": 310446,
       "approx": false,
@@ -1935,6 +2120,14 @@ const CARS = [
       "note": "Maker's claim, limited",
       "src": "article:last-place-every-time"
     },
+    "mpg": {
+      "combined": 18,
+      "city": 16,
+      "hwy": 23,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/25162.shtml"
+    },
     "built": {
       "count": 11000,
       "approx": true,
@@ -1998,6 +2191,14 @@ const CARS = [
       "src": "article:ahead-of-the-applause"
     },
     "top": null,
+    "mpg": {
+      "combined": 15,
+      "city": 13,
+      "hwy": 18,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/19178.shtml"
+    },
     "built": null,
     "predecessor": null,
     "successor": {
@@ -2055,6 +2256,14 @@ const CARS = [
       "src": "article:vehicross"
     },
     "top": null,
+    "mpg": {
+      "combined": 15,
+      "city": 13,
+      "hwy": 17,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/29194.shtml"
+    },
     "built": {
       "count": 5958,
       "approx": false,
@@ -2117,6 +2326,15 @@ const CARS = [
       "src": "article:three-dials-and-a-swing-gate"
     },
     "top": null,
+    "mpg": {
+      "combined": 15,
+      "city": 14,
+      "hwy": 17,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, 1992 Montero, manual or automatic",
+      "src": "https://www.fueleconomy.gov/feg/noframes/9592.shtml"
+    },
     "built": null,
     "predecessor": {
       "name": "Mitsubishi Pajero (first generation)",
@@ -2187,6 +2405,15 @@ const CARS = [
       "src": "article:three-dials-and-a-swing-gate"
     },
     "top": null,
+    "mpg": {
+      "combined": 15,
+      "city": 14,
+      "hwy": 17,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, 1992 Trooper DOHC, automatic (manual: 14 city / 16 highway)",
+      "src": "https://www.fueleconomy.gov/feg/noframes/9587.shtml"
+    },
     "built": null,
     "predecessor": {
       "name": "Isuzu Trooper (first generation)",
@@ -2250,6 +2477,15 @@ const CARS = [
     },
     "zero60": null,
     "top": null,
+    "mpg": {
+      "combined": 23,
+      "city": 21,
+      "hwy": 26,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, 1986 US BRAT 4WD, 4-speed manual",
+      "src": "https://www.fueleconomy.gov/feg/noframes/2415.shtml"
+    },
     "built": {
       "count": 100000,
       "approx": true,
@@ -2317,6 +2553,15 @@ const CARS = [
       "kind": "claimed",
       "note": "Maker's claim",
       "src": "article:seventy-dollars-apart"
+    },
+    "mpg": {
+      "combined": 23,
+      "city": 20,
+      "hwy": 28,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, 2013 135i manual, which shares the 135is engine",
+      "src": "https://www.fueleconomy.gov/feg/noframes/33035.shtml"
     },
     "built": {
       "count": 816,
@@ -2392,6 +2637,14 @@ const CARS = [
       "note": "Maker's claim, limited",
       "src": "https://www.bmwblog.com/2010/12/10/world-premiere-bmw-1-series-m-coupe"
     },
+    "mpg": {
+      "combined": 21,
+      "city": 19,
+      "hwy": 26,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/34745.shtml"
+    },
     "built": {
       "count": 6309,
       "approx": false,
@@ -2462,6 +2715,15 @@ const CARS = [
       "note": "Car and Driver test",
       "src": "article:when-the-engineers-won"
     },
+    "mpg": {
+      "combined": 18,
+      "city": 15,
+      "hwy": 23,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, 2001 M Coupe; EPA lists no 2002",
+      "src": "https://www.fueleconomy.gov/feg/noframes/16429.shtml"
+    },
     "built": {
       "count": 6291,
       "approx": false,
@@ -2531,6 +2793,14 @@ const CARS = [
       "kind": "tested",
       "note": "Car and Driver test",
       "src": "article:when-the-engineers-won"
+    },
+    "mpg": {
+      "combined": 17,
+      "city": 15,
+      "hwy": 22,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/23467.shtml"
     },
     "built": {
       "count": 4581,
@@ -2604,6 +2874,14 @@ const CARS = [
       "kind": "claimed",
       "note": "Maker's claim, limited",
       "src": "https://www.bmwblog.com/?p=25542"
+    },
+    "mpg": {
+      "combined": 19,
+      "city": 17,
+      "hwy": 23,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/29959.shtml"
     },
     "built": null,
     "predecessor": {
@@ -2740,6 +3018,15 @@ const CARS = [
       "note": "Maker's claim",
       "src": "article:three-cylinders-no-apologies"
     },
+    "mpg": {
+      "combined": 27,
+      "city": 26,
+      "hwy": 29,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined on gas; 69 MPGe on electricity",
+      "src": "https://www.fueleconomy.gov/feg/noframes/40080.shtml"
+    },
     "built": {
       "count": 20465,
       "approx": false,
@@ -2807,6 +3094,15 @@ const CARS = [
       "kind": "claimed",
       "note": "Maker's claim",
       "src": "https://www.evo.co.uk/porsche/911/6186/porsche-911-carrera-996-review-history-and-specs"
+    },
+    "mpg": {
+      "combined": 18,
+      "city": 15,
+      "hwy": 23,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, 1999 Carrera, manual",
+      "src": "https://www.fueleconomy.gov/feg/noframes/14827.shtml"
     },
     "built": {
       "count": 175262,
@@ -2951,6 +3247,15 @@ const CARS = [
       "note": "Maker's claim",
       "src": "article:spite-is-the-wrong-word"
     },
+    "mpg": {
+      "combined": 18,
+      "city": 15,
+      "hwy": 24,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, US 968, manual; the Club Sport was not sold in the US",
+      "src": "https://www.fueleconomy.gov/feg/noframes/9664.shtml"
+    },
     "built": {
       "count": 1538,
       "approx": true,
@@ -3020,6 +3325,15 @@ const CARS = [
       "kind": "claimed",
       "note": "Maker's claim",
       "src": "article:auf-wiedersehen-928"
+    },
+    "mpg": {
+      "combined": 13,
+      "city": 11,
+      "hwy": 17,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, manual (automatic: 15 mpg)",
+      "src": "https://www.fueleconomy.gov/feg/noframes/11628.shtml"
     },
     "built": {
       "count": 2831,
@@ -3156,6 +3470,13 @@ const CARS = [
       "note": "Maker's claim",
       "src": "article:nine-lives"
     },
+    "mpg": {
+      "combined": 17.7,
+      "unit": "mpg",
+      "kind": "tested",
+      "note": "Motor road test, 1961, open 3.8 (21.3 mpg in imperial gallons)",
+      "src": "https://en.wikipedia.org/wiki/Jaguar_E-Type"
+    },
     "built": {
       "count": 70000,
       "approx": true,
@@ -3226,6 +3547,14 @@ const CARS = [
       "note": "Maker's claim, limited",
       "src": "https://www.carmagazine.co.uk/car-reviews/jaguar/jaguar-f-type-v8-s-2013-review/"
     },
+    "mpg": {
+      "combined": 18,
+      "city": 16,
+      "hwy": 23,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/33559.shtml"
+    },
     "built": {
       "count": 87731,
       "approx": false,
@@ -3292,6 +3621,14 @@ const CARS = [
       "kind": "claimed",
       "note": "Maker's claim, limited",
       "src": "article:mud-on-the-collar"
+    },
+    "mpg": {
+      "combined": 16,
+      "city": 14,
+      "hwy": 20,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/15798.shtml"
     },
     "built": {
       "count": 15703,
@@ -3363,6 +3700,14 @@ const CARS = [
       "note": "Maker's claim, limited",
       "src": "article:mud-on-the-collar"
     },
+    "mpg": {
+      "combined": 18,
+      "city": 15,
+      "hwy": 22,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/19850.shtml"
+    },
     "built": null,
     "predecessor": {
       "name": "Jaguar XJR (X308)",
@@ -3426,7 +3771,21 @@ const CARS = [
       "note": "Maker's claim, limited",
       "src": "article:tuxedo-and-smoking-jacket"
     },
-    "built": null,
+    "mpg": {
+      "combined": 17,
+      "city": 15,
+      "hwy": 21,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, 2000 XKR coupe",
+      "src": "https://www.fueleconomy.gov/feg/noframes/15684.shtml"
+    },
+    "built": {
+      "count": 23556,
+      "approx": false,
+      "note": "XKR coupes (9,661) and convertibles (13,895), 1998–2005",
+      "src": "https://en.wikipedia.org/wiki/Jaguar_XK_(X100)"
+    },
     "predecessor": {
       "name": "Jaguar XJ-S",
       "id": null
@@ -3491,7 +3850,20 @@ const CARS = [
       "note": "Maker's claim, limited",
       "src": "article:tuxedo-and-smoking-jacket"
     },
-    "built": null,
+    "mpg": {
+      "combined": 17,
+      "city": 15,
+      "hwy": 22,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/12528.shtml"
+    },
+    "built": {
+      "count": 213089,
+      "approx": false,
+      "note": "all R129 SL models, 1989–2001",
+      "src": "https://en.wikipedia.org/wiki/Mercedes-Benz_SL-Class_(R129)"
+    },
     "predecessor": {
       "name": "Mercedes-Benz 280 SL (R107)",
       "id": "mercedes-benz-280-sl-r107"
@@ -3616,6 +3988,15 @@ const CARS = [
       "note": "Maker's claim",
       "src": "article:grey-poupon"
     },
+    "mpg": {
+      "combined": 8,
+      "city": 7,
+      "hwy": 10,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, 1986 Corniche II",
+      "src": "https://www.fueleconomy.gov/feg/noframes/1911.shtml"
+    },
     "built": {
       "count": 5160,
       "approx": true,
@@ -3684,6 +4065,14 @@ const CARS = [
       "kind": "claimed",
       "note": "Maker's claim",
       "src": "https://www.motorsportmagazine.com/archive/article/january-2015/66/mercedes-amg-gt-s/"
+    },
+    "mpg": {
+      "combined": 18,
+      "city": 16,
+      "hwy": 22,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/36193.shtml"
     },
     "built": null,
     "predecessor": {
@@ -4135,6 +4524,14 @@ const CARS = [
       "src": "article:daily-double"
     },
     "top": null,
+    "mpg": {
+      "combined": 17,
+      "city": 15,
+      "hwy": 23,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/50461.shtml"
+    },
     "built": null,
     "predecessor": {
       "name": "Chevrolet Corvette Grand Sport (C7)",
@@ -4200,6 +4597,15 @@ const CARS = [
       "note": "Maker's claim",
       "src": "https://www.topgear.com/car-news/supercar/mclaren-mp4-12c-gets-more-power"
     },
+    "mpg": {
+      "combined": 18,
+      "city": 15,
+      "hwy": 22,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, 2014 MP4-12C coupe",
+      "src": "https://www.fueleconomy.gov/feg/noframes/34919.shtml"
+    },
     "built": {
       "count": 3400,
       "approx": true,
@@ -4263,7 +4669,21 @@ const CARS = [
       "src": "https://motorweek.org/road_tests/2000_dodge_viper_acrprogram_1925/"
     },
     "top": null,
-    "built": null,
+    "mpg": {
+      "combined": 14,
+      "city": 11,
+      "hwy": 19,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, 2000 Viper GTS coupe",
+      "src": "https://www.fueleconomy.gov/feg/noframes/15602.shtml"
+    },
+    "built": {
+      "count": 10422,
+      "approx": false,
+      "note": "all second-generation Vipers, RT/10 and GTS, 1996–2002",
+      "src": "https://en.wikipedia.org/wiki/Dodge_Viper_(SR_II)"
+    },
     "predecessor": null,
     "successor": {
       "name": "Dodge Viper SRT10 ACR",
@@ -4316,6 +4736,14 @@ const CARS = [
     },
     "zero60": null,
     "top": null,
+    "mpg": {
+      "combined": 14,
+      "city": 12,
+      "hwy": 17,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/15671.shtml"
+    },
     "built": {
       "count": 300,
       "approx": false,
@@ -4376,6 +4804,15 @@ const CARS = [
       "src": "https://motorweek.org/road_tests/2002_chevrolet_corvette_z06_program_2115/"
     },
     "top": null,
+    "mpg": {
+      "combined": 20,
+      "city": 17,
+      "hwy": 26,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, 2002 Corvette manual; EPA does not list the Z06 on its own",
+      "src": "https://www.fueleconomy.gov/feg/noframes/17345.shtml"
+    },
     "built": null,
     "predecessor": null,
     "successor": {
@@ -4545,6 +4982,14 @@ const CARS = [
       "note": "Maker's claim",
       "src": "article:what-is-thy-bidding"
     },
+    "mpg": {
+      "combined": 17,
+      "city": 14,
+      "hwy": 21,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/36748.shtml"
+    },
     "built": null,
     "predecessor": {
       "name": "Cadillac CTS-V (second generation)",
@@ -4603,6 +5048,14 @@ const CARS = [
       "src": "article:last-light"
     },
     "top": null,
+    "mpg": {
+      "combined": 22,
+      "city": 19,
+      "hwy": 28,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/23079.shtml"
+    },
     "built": {
       "count": 65724,
       "approx": false,
@@ -4674,6 +5127,14 @@ const CARS = [
       "src": "article:last-light"
     },
     "top": null,
+    "mpg": {
+      "combined": 22,
+      "city": 19,
+      "hwy": 28,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/23093.shtml"
+    },
     "built": {
       "count": 34415,
       "approx": false,
@@ -4746,7 +5207,20 @@ const CARS = [
       "note": "Maker's claim",
       "src": "https://www.media.stellantisnorthamerica.com/newsrelease.do?id=22297"
     },
-    "built": null,
+    "mpg": {
+      "combined": 13,
+      "city": 12,
+      "hwy": 17,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/43660.shtml"
+    },
+    "built": {
+      "count": 1004919,
+      "approx": true,
+      "note": "Sold in the US so far, 2011 to September 2026 (all third-generation Durangos)",
+      "src": "https://www.goodcarbadcar.net/dodge-durango-sales-figures/"
+    },
     "predecessor": {
       "name": "Dodge Durango (second generation)",
       "id": null
@@ -4965,6 +5439,13 @@ const CARS = [
       "kind": "tested",
       "note": "Motor test",
       "src": "article:queen-of-the-road"
+    },
+    "mpg": {
+      "combined": 21.0,
+      "unit": "mpg",
+      "kind": "tested",
+      "note": "The Motor road test, 1951 (25.2 mpg in imperial gallons)",
+      "src": "https://en.wikipedia.org/wiki/Citro%C3%ABn_Traction_Avant"
     },
     "built": {
       "count": 759111,
@@ -5264,6 +5745,15 @@ const CARS = [
     "aka": [],
     "country": "Germany",
     "drive": "Front-wheel drive",
+    "mpg": {
+      "combined": 23,
+      "city": 21,
+      "hwy": 26,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, 1987 US GTI 16V",
+      "src": "https://www.fueleconomy.gov/feg/noframes/3332.shtml"
+    },
     "built": null,
     "weight": null,
     "top": {
@@ -5371,6 +5861,15 @@ const CARS = [
     ],
     "country": "Germany",
     "drive": "Front-wheel drive",
+    "mpg": {
+      "combined": 24,
+      "city": 21,
+      "hwy": 28,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, 2002 US GTI 1.8T, 5-speed manual",
+      "src": "https://www.fueleconomy.gov/feg/noframes/17641.shtml"
+    },
     "built": null,
     "weight": null,
     "top": null,
@@ -5453,6 +5952,15 @@ const CARS = [
       "note": "Maker's claim",
       "src": "https://volkswagen-newsroom.com/en/golf-5-gti-20042008-19511"
     },
+    "mpg": {
+      "combined": 24,
+      "city": 21,
+      "hwy": 29,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, 2006 US GTI, 6-speed manual",
+      "src": "https://www.fueleconomy.gov/feg/noframes/22647.shtml"
+    },
     "built": {
       "count": 181000,
       "approx": true,
@@ -5490,6 +5998,15 @@ const CARS = [
     "aka": [],
     "country": "Germany",
     "drive": "Front-wheel drive",
+    "mpg": {
+      "combined": 25,
+      "city": 21,
+      "hwy": 31,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, 2010 US GTI, 6-speed manual",
+      "src": "https://www.fueleconomy.gov/feg/noframes/28608.shtml"
+    },
     "built": null,
     "weight": null,
     "top": null,
@@ -5537,6 +6054,15 @@ const CARS = [
     "aka": [],
     "country": "Germany",
     "drive": "Front-wheel drive",
+    "mpg": {
+      "combined": 28,
+      "city": 24,
+      "hwy": 34,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, 2017 US GTI, 6-speed manual",
+      "src": "https://www.fueleconomy.gov/feg/noframes/37973.shtml"
+    },
     "built": null,
     "weight": null,
     "top": null,
@@ -5591,6 +6117,15 @@ const CARS = [
     ],
     "country": "Germany",
     "drive": "Front-wheel drive",
+    "mpg": {
+      "combined": 28,
+      "city": 25,
+      "hwy": 34,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, 2022 GTI, DSG or manual",
+      "src": "https://www.fueleconomy.gov/feg/noframes/44539.shtml"
+    },
     "built": null,
     "weight": null,
     "top": null,
@@ -5669,6 +6204,14 @@ const CARS = [
     },
     "zero60": null,
     "top": null,
+    "mpg": {
+      "combined": 20,
+      "city": 18,
+      "hwy": 23,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/10011.shtml"
+    },
     "built": {
       "count": 2685171,
       "approx": false,
@@ -5741,6 +6284,15 @@ const CARS = [
       "note": "Maker's claim, limited",
       "src": "article:black-swan-allroad"
     },
+    "mpg": {
+      "combined": 16,
+      "city": 14,
+      "hwy": 19,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, manual or automatic",
+      "src": "https://www.fueleconomy.gov/feg/noframes/18138.shtml"
+    },
     "built": null,
     "predecessor": null,
     "successor": {
@@ -5803,6 +6355,15 @@ const CARS = [
       "kind": "claimed",
       "note": "Maker's claim, limited",
       "src": "article:dying-star"
+    },
+    "mpg": {
+      "combined": 26,
+      "city": 22,
+      "hwy": 31,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined on gas; 58 MPGe on electricity",
+      "src": "https://www.fueleconomy.gov/feg/noframes/42744.shtml"
     },
     "built": {
       "count": 1500,
@@ -5921,6 +6482,15 @@ const CARS = [
       "kind": "claimed",
       "note": "Maker's claim",
       "src": "article:it-was-always-trying-to-kill-you"
+    },
+    "mpg": {
+      "combined": 10,
+      "city": 8,
+      "hwy": 13,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, 1996 Diablo",
+      "src": "https://www.fueleconomy.gov/feg/noframes/12524.shtml"
     },
     "built": {
       "count": 346,
@@ -6261,8 +6831,26 @@ const CARS = [
       "note": "Car and Driver test",
       "src": "https://www.0-60specs.com/toyota/4runner-0-60-times"
     },
-    "top": null,
-    "built": null,
+    "top": {
+      "mph": 114,
+      "kind": "tested",
+      "note": "Governor limited; Car and Driver test of a 2017 4Runner TRD Off-Road",
+      "src": "https://autos.yahoo.com/2017-toyota-4runner-4x4-223000553.html"
+    },
+    "mpg": {
+      "combined": 18,
+      "city": 17,
+      "hwy": 20,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/40628.shtml"
+    },
+    "built": {
+      "count": 1480346,
+      "approx": true,
+      "note": "Sold in the US, 2010–2024",
+      "src": "https://www.goodcarbadcar.net/toyota-4runner-sales-figures/"
+    },
     "predecessor": {
       "name": "Toyota 4Runner (N210)"
     },
@@ -6318,8 +6906,23 @@ const CARS = [
       "note": "Car and Driver test",
       "src": "https://www.0-60specs.com/toyota/4runner-0-60-times"
     },
-    "top": null,
-    "built": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 21,
+      "city": 19,
+      "hwy": 25,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/48976.shtml"
+    },
+    "built": {
+      "count": 217414,
+      "approx": true,
+      "note": "Sold in the US so far, 2025 to October 2026",
+      "src": "https://www.goodcarbadcar.net/toyota-4runner-sales-figures/"
+    },
     "predecessor": {
       "name": "Toyota 4Runner (N280)",
       "id": "toyota-4runner-n280"
@@ -6380,7 +6983,20 @@ const CARS = [
       "note": "Electronically limited",
       "src": "https://www.kbb.com/car-news/2021-toyota-gr-supra-first-look"
     },
-    "built": null,
+    "mpg": {
+      "combined": 25,
+      "city": 22,
+      "hwy": 30,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/42564.shtml"
+    },
+    "built": {
+      "count": 31228,
+      "approx": true,
+      "note": "Sold in the US so far, 2019 to October 2026",
+      "src": "https://www.goodcarbadcar.net/toyota-supra-sales-figures/"
+    },
     "predecessor": {
       "name": "Toyota Supra (A80)"
     },
@@ -6443,6 +7059,15 @@ const CARS = [
       "note": "Maker's claim",
       "src": "https://www.kbb.com/toyota/mirai/2017/specs"
     },
+    "mpg": {
+      "combined": 67,
+      "city": 67,
+      "hwy": 67,
+      "unit": "MPGe",
+      "kind": "epa",
+      "note": "EPA combined on hydrogen, 67 city / 67 highway",
+      "src": "https://www.fueleconomy.gov/feg/noframes/47528.shtml"
+    },
     "built": null,
     "predecessor": null,
     "successor": {
@@ -6496,7 +7121,18 @@ const CARS = [
       "note": "Motor Trend test",
       "src": "https://www.0-60specs.com/toyota/mirai-0-60-times"
     },
-    "top": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 74,
+      "city": 76,
+      "hwy": 71,
+      "unit": "MPGe",
+      "kind": "epa",
+      "note": "EPA combined on hydrogen, 76 city / 71 highway",
+      "src": "https://www.fueleconomy.gov/feg/noframes/47543.shtml"
+    },
     "built": null,
     "predecessor": {
       "name": "Toyota Mirai (JPD10)",
@@ -6553,8 +7189,23 @@ const CARS = [
       "note": "Maker's claim",
       "src": "https://pressroom.toyota.com/toyota-announces-pricing-on-all-new-2022-gr86/"
     },
-    "top": null,
-    "built": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 24,
+      "city": 21,
+      "hwy": 28,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/37478.shtml"
+    },
+    "built": {
+      "count": 79776,
+      "approx": true,
+      "note": "Sold in the US, 2012–2021 (Scion FR-S and Toyota 86)",
+      "src": "https://www.goodcarbadcar.net/toyota-86-sales-figures/"
+    },
     "predecessor": null,
     "successor": {
       "name": "Toyota GR86 (ZN8)",
@@ -6613,8 +7264,26 @@ const CARS = [
       "note": "Maker's claim",
       "src": "https://pressroom.toyota.com/toyota-announces-pricing-on-all-new-2022-gr86/"
     },
-    "top": null,
-    "built": null,
+    "top": {
+      "mph": 140,
+      "kind": "claimed",
+      "note": "Toyota's figure, manual (226 km/h)",
+      "src": "https://www.carscoops.com/?p=2352713"
+    },
+    "mpg": {
+      "combined": 22,
+      "city": 20,
+      "hwy": 27,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/44615.shtml"
+    },
+    "built": {
+      "count": 50751,
+      "approx": true,
+      "note": "Sold in the US so far, 2022 to October 2026",
+      "src": "https://www.goodcarbadcar.net/toyota-86-sales-figures/"
+    },
     "predecessor": {
       "name": "Toyota 86 (ZN6)",
       "id": "toyota-86-zn6"
@@ -6675,8 +7344,26 @@ const CARS = [
       "note": "Car and Driver test",
       "src": "https://autos.yahoo.com/2016-toyota-camry-220300663.html"
     },
-    "top": null,
-    "built": null,
+    "top": {
+      "mph": 112,
+      "kind": "tested",
+      "note": "Governor limited (Car and Driver)",
+      "src": "https://autos.yahoo.com/2016-toyota-camry-220300663.html"
+    },
+    "mpg": {
+      "combined": 28,
+      "city": 25,
+      "hwy": 34,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/36795.shtml"
+    },
+    "built": {
+      "count": 2447027,
+      "approx": true,
+      "note": "Sold in the US, 2012–2017",
+      "src": "https://www.goodcarbadcar.net/toyota-camry-sales-figures/"
+    },
     "predecessor": {
       "name": "Toyota Camry (XV40)"
     },
@@ -6734,8 +7421,26 @@ const CARS = [
       "note": "Car and Driver test",
       "src": "https://autos.yahoo.com/2018-toyota-camry-se-2-221500687.html"
     },
-    "top": null,
-    "built": null,
+    "top": {
+      "mph": 133,
+      "kind": "tested",
+      "note": "Governor limited (Car and Driver)",
+      "src": "https://autos.yahoo.com/2018-toyota-camry-se-2-221500687.html"
+    },
+    "mpg": {
+      "combined": 32,
+      "city": 28,
+      "hwy": 39,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/38883.shtml"
+    },
+    "built": {
+      "count": 2184285,
+      "approx": true,
+      "note": "Sold in the US, 2018–2024",
+      "src": "https://www.goodcarbadcar.net/toyota-camry-sales-figures/"
+    },
     "predecessor": {
       "name": "Toyota Camry (XV50)",
       "id": "toyota-camry-xv50"
@@ -6794,8 +7499,23 @@ const CARS = [
       "note": "Car and Driver test",
       "src": "https://www.aol.com/tested-2025-toyota-camry-still-155900498.html"
     },
-    "top": null,
-    "built": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 44,
+      "city": 44,
+      "hwy": 43,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/48031.shtml"
+    },
+    "built": {
+      "count": 603627,
+      "approx": true,
+      "note": "Sold in the US so far, 2025 to October 2026",
+      "src": "https://www.goodcarbadcar.net/toyota-camry-sales-figures/"
+    },
     "predecessor": {
       "name": "Toyota Camry (XV70)",
       "id": "toyota-camry-xv70"
@@ -6851,8 +7571,26 @@ const CARS = [
       "note": "Car and Driver test",
       "src": "https://autos.yahoo.com/2017-toyota-corolla-automatic-221300998.html"
     },
-    "top": null,
-    "built": null,
+    "top": {
+      "mph": 111,
+      "kind": "tested",
+      "note": "Governor limited (Car and Driver)",
+      "src": "https://autos.yahoo.com/2017-toyota-corolla-automatic-221300998.html"
+    },
+    "mpg": {
+      "combined": 31,
+      "city": 28,
+      "hwy": 35,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/38154.shtml"
+    },
+    "built": {
+      "count": 1701887,
+      "approx": true,
+      "note": "Sold in the US, 2014–2018 (all Corolla models)",
+      "src": "https://www.goodcarbadcar.net/toyota-corolla-sales-figures/"
+    },
     "predecessor": {
       "name": "Toyota Corolla (E140)"
     },
@@ -6913,7 +7651,20 @@ const CARS = [
       "note": "Car and Driver test",
       "src": "https://autos.yahoo.com/2017-toyota-corolla-im-automatic-203500349.html"
     },
-    "top": null,
+    "top": {
+      "mph": 112,
+      "kind": "tested",
+      "note": "Governor limited (Car and Driver)",
+      "src": "https://autos.yahoo.com/2017-toyota-corolla-im-automatic-203500349.html"
+    },
+    "mpg": {
+      "combined": 31,
+      "city": 28,
+      "hwy": 36,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/38112.shtml"
+    },
     "built": null,
     "predecessor": null,
     "successor": {
@@ -6971,8 +7722,23 @@ const CARS = [
       "note": "Car and Driver test",
       "src": "https://autos.yahoo.com/2019-toyota-corolla-hatchback-belies-161400933.html"
     },
-    "top": null,
-    "built": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 36,
+      "city": 32,
+      "hwy": 42,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/40334.shtml"
+    },
+    "built": {
+      "count": 1944508,
+      "approx": true,
+      "note": "Sold in the US so far, 2019 to October 2026 (all Corolla models)",
+      "src": "https://www.goodcarbadcar.net/toyota-corolla-sales-figures/"
+    },
     "predecessor": {
       "name": "Toyota Corolla (E170)",
       "id": "toyota-corolla-e170"
@@ -7033,7 +7799,20 @@ const CARS = [
       "note": "Maker's claim, 4.99 sec",
       "src": "https://www.cars.com/research/toyota-gr_corolla-2023"
     },
-    "top": null,
+    "top": {
+      "mph": 142.9,
+      "kind": "claimed",
+      "note": "Electronically limited (Toyota)",
+      "src": "https://aol.com/2023-toyota-gr-corolla-specs-113000201.html"
+    },
+    "mpg": {
+      "combined": 24,
+      "city": 21,
+      "hwy": 28,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/46218.shtml"
+    },
     "built": null,
     "predecessor": null,
     "successor": null,
@@ -7096,8 +7875,23 @@ const CARS = [
       "note": "Car and Driver test",
       "src": "https://www.0-60specs.com/toyota/corolla-cross-0-60-times"
     },
-    "top": null,
-    "built": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 42,
+      "city": 45,
+      "hwy": 38,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/47519.shtml"
+    },
+    "built": {
+      "count": 428738,
+      "approx": true,
+      "note": "Sold in the US so far, 2021 to October 2026",
+      "src": "https://www.goodcarbadcar.net/toyota-corolla-cross-sales-figures/"
+    },
     "predecessor": null,
     "successor": null,
     "quick": "The Corolla as a small SUV: practical, efficient and built in Alabama. The gas model is slow; the hybrid, added for 2023, has 196 hp, standard all-wheel drive and 42 mpg.",
@@ -7153,8 +7947,23 @@ const CARS = [
       "note": "Consumer Guide test, Hybrid Limited",
       "src": "https://blog.consumerguide.com/test-drive-2017-toyota-rav4-hybrid-limited/"
     },
-    "top": null,
-    "built": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 32,
+      "city": 34,
+      "hwy": 30,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/38075.shtml"
+    },
+    "built": {
+      "count": 1988260,
+      "approx": true,
+      "note": "Sold in the US, 2013–2018",
+      "src": "https://www.goodcarbadcar.net/toyota-rav4-sales-figures/"
+    },
     "predecessor": null,
     "successor": {
       "name": "Toyota RAV4 (XA50)",
@@ -7214,8 +8023,23 @@ const CARS = [
       "note": "Consumer Guide test, Hybrid Limited",
       "src": "https://blog.consumerguide.com/?p=74227"
     },
-    "top": null,
-    "built": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 40,
+      "city": 41,
+      "hwy": 38,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/41307.shtml"
+    },
+    "built": {
+      "count": 3075559,
+      "approx": true,
+      "note": "Sold in the US, 2019–2025",
+      "src": "https://www.goodcarbadcar.net/toyota-rav4-sales-figures/"
+    },
     "predecessor": {
       "name": "Toyota RAV4 (XA40)",
       "id": "toyota-rav4-xa40"
@@ -7278,8 +8102,23 @@ const CARS = [
       "note": "Edmunds test",
       "src": "https://www.edmunds.com/car-news/long-term/2026-toyota-rav4-hybrid.html"
     },
-    "top": null,
-    "built": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 43,
+      "city": 47,
+      "hwy": 40,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/50285.shtml"
+    },
+    "built": {
+      "count": 293552,
+      "approx": true,
+      "note": "Sold in the US so far, January to October 2026",
+      "src": "https://www.goodcarbadcar.net/toyota-rav4-sales-figures/"
+    },
     "predecessor": {
       "name": "Toyota RAV4 (XA50)",
       "id": "toyota-rav4-xa50"
@@ -7337,8 +8176,26 @@ const CARS = [
       "note": "Car and Driver test",
       "src": "https://autos.yahoo.com/2017-toyota-highlander-v-6-223000591.html"
     },
-    "top": null,
-    "built": null,
+    "top": {
+      "mph": 115,
+      "kind": "tested",
+      "note": "Governor limited (Car and Driver)",
+      "src": "https://autos.yahoo.com/2017-toyota-highlander-v-6-223000591.html"
+    },
+    "mpg": {
+      "combined": 22,
+      "city": 19,
+      "hwy": 26,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/38424.shtml"
+    },
+    "built": {
+      "count": 1196144,
+      "approx": true,
+      "note": "Sold in the US, 2014–2019",
+      "src": "https://www.goodcarbadcar.net/toyota-highlander-sales-figures/"
+    },
     "predecessor": null,
     "successor": {
       "name": "Toyota Highlander (XU70)",
@@ -7396,8 +8253,23 @@ const CARS = [
       "note": "Car and Driver test",
       "src": "https://www.carpro.com/vehicle-reviews/2020-toyota-highlander-platinum-review"
     },
-    "top": null,
-    "built": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 23,
+      "city": 20,
+      "hwy": 27,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/42381.shtml"
+    },
+    "built": {
+      "count": 1061295,
+      "approx": true,
+      "note": "Sold in the US so far, 2020 to October 2026",
+      "src": "https://www.goodcarbadcar.net/toyota-highlander-sales-figures/"
+    },
     "predecessor": {
       "name": "Toyota Highlander (XU50)",
       "id": "toyota-highlander-xu50"
@@ -7456,8 +8328,23 @@ const CARS = [
       "note": "Car and Driver test",
       "src": "https://autos.yahoo.com/2024-toyota-grand-highlander-hybrid-130100428.html"
     },
-    "top": null,
-    "built": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 27,
+      "city": 26,
+      "hwy": 27,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/46754.shtml"
+    },
+    "built": {
+      "count": 379506,
+      "approx": true,
+      "note": "Sold in the US so far, 2023 to October 2026",
+      "src": "https://www.goodcarbadcar.net/toyota-grand-highlander-sales-figures/"
+    },
     "predecessor": null,
     "successor": null,
     "quick": "The bigger Highlander, with an adult-size third row and 20.6 cu ft of cargo space behind it. It offers a 265-hp turbo, a hybrid rated at up to 36 mpg and the 362-hp Hybrid MAX.",
@@ -7514,8 +8401,27 @@ const CARS = [
       "note": "Car and Driver test",
       "src": "https://autos.yahoo.com/2017-toyota-tacoma-trd-pro-221800920.html"
     },
-    "top": null,
-    "built": null,
+    "top": {
+      "mph": 113,
+      "kind": "tested",
+      "note": "Governor limited (Car and Driver)",
+      "src": "https://autos.yahoo.com/2017-toyota-tacoma-trd-pro-221800920.html"
+    },
+    "mpg": {
+      "combined": 20,
+      "city": 18,
+      "hwy": 23,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, V6 4x4 automatic (manual: 18 mpg)",
+      "src": "https://www.fueleconomy.gov/feg/noframes/37987.shtml"
+    },
+    "built": {
+      "count": 1847631,
+      "approx": true,
+      "note": "Sold in the US, 2016–2023",
+      "src": "https://www.goodcarbadcar.net/toyota-tacoma-sales-figures/"
+    },
     "predecessor": null,
     "successor": {
       "name": "Toyota Tacoma (N400)",
@@ -7577,8 +8483,23 @@ const CARS = [
       "note": "Car and Driver test",
       "src": "https://autos.yahoo.com/2024-toyota-tacoma-better-tests-140000353.html"
     },
-    "top": null,
-    "built": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 21,
+      "city": 19,
+      "hwy": 24,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/47601.shtml"
+    },
+    "built": {
+      "count": 704579,
+      "approx": true,
+      "note": "Sold in the US so far, 2024 to October 2026",
+      "src": "https://www.goodcarbadcar.net/toyota-tacoma-sales-figures/"
+    },
     "predecessor": {
       "name": "Toyota Tacoma (N300)",
       "id": "toyota-tacoma-n300"
@@ -7639,8 +8560,26 @@ const CARS = [
       "note": "Car and Driver test",
       "src": "https://www.theday.com/automotive/20210403/toyota-tundra-trd-pro-likes-to-get-dirty/"
     },
-    "top": null,
-    "built": null,
+    "top": {
+      "mph": 108,
+      "kind": "tested",
+      "note": "Governor limited; Car and Driver test of a 2017 Tundra 5.7 CrewMax 4x4",
+      "src": "https://autos.yahoo.com/2017-toyota-tundra-5-7l-235000998.html"
+    },
+    "mpg": {
+      "combined": 14,
+      "city": 13,
+      "hwy": 17,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/41859.shtml"
+    },
+    "built": {
+      "count": 1689999,
+      "approx": true,
+      "note": "Sold in the US, 2007–2021",
+      "src": "https://www.goodcarbadcar.net/toyota-tundra-sales-figures/"
+    },
     "predecessor": null,
     "successor": {
       "name": "Toyota Tundra (XK70)",
@@ -7702,8 +8641,23 @@ const CARS = [
       "note": "Car and Driver test",
       "src": "https://autos.yahoo.com/2022-toyota-tundra-hybrid-cant-200000374.html"
     },
-    "top": null,
-    "built": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 19,
+      "city": 18,
+      "hwy": 20,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/45215.shtml"
+    },
+    "built": {
+      "count": 658953,
+      "approx": true,
+      "note": "Sold in the US so far, 2022 to October 2026",
+      "src": "https://www.goodcarbadcar.net/toyota-tundra-sales-figures/"
+    },
     "predecessor": {
       "name": "Toyota Tundra (XK50)",
       "id": "toyota-tundra-xk50"
@@ -7763,8 +8717,23 @@ const CARS = [
       "note": "MotorWeek test, 2020 TRD Pro",
       "src": "https://motorweek.org/road_tests/2020-toyota-sequoia-trd-pro-2"
     },
-    "top": null,
-    "built": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 14,
+      "city": 13,
+      "hwy": 17,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/41882.shtml"
+    },
+    "built": {
+      "count": 192365,
+      "approx": true,
+      "note": "Sold in the US, 2008–2022",
+      "src": "https://www.goodcarbadcar.net/toyota-sequoia-sales-figures/"
+    },
     "predecessor": null,
     "successor": {
       "name": "Toyota Sequoia (XK80)",
@@ -7826,8 +8795,23 @@ const CARS = [
       "note": "Car and Driver test, 2023 Capstone",
       "src": "https://cars.ksl.com/resources/car-review/2023-toyota-sequoia-trd-pro-test-drive-review"
     },
-    "top": null,
-    "built": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 20,
+      "city": 19,
+      "hwy": 22,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/45748.shtml"
+    },
+    "built": {
+      "count": 98198,
+      "approx": true,
+      "note": "Sold in the US so far, 2023 to October 2026",
+      "src": "https://www.goodcarbadcar.net/toyota-sequoia-sales-figures/"
+    },
     "predecessor": {
       "name": "Toyota Sequoia (XK60)",
       "id": "toyota-sequoia-xk60"
@@ -7888,8 +8872,26 @@ const CARS = [
       "note": "Car and Driver test",
       "src": "https://autos.yahoo.com/2018-toyota-land-cruiser-205000074.html"
     },
-    "top": null,
-    "built": null,
+    "top": {
+      "mph": 114,
+      "kind": "tested",
+      "note": "Governor limited (Car and Driver)",
+      "src": "https://autos.yahoo.com/2018-toyota-land-cruiser-205000074.html"
+    },
+    "mpg": {
+      "combined": 15,
+      "city": 13,
+      "hwy": 18,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/39379.shtml"
+    },
+    "built": {
+      "count": 41834,
+      "approx": true,
+      "note": "Sold in the US, 2008–2022",
+      "src": "https://www.goodcarbadcar.net/toyota-land-cruiser-sales-figures/"
+    },
     "predecessor": null,
     "successor": {
       "name": "Toyota Land Cruiser (250 Series)",
@@ -7952,8 +8954,23 @@ const CARS = [
       "note": "Car and Driver test",
       "src": "https://autos.yahoo.com/2024-toyota-land-cruiser-tested-140000657.html"
     },
-    "top": null,
-    "built": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 23,
+      "city": 22,
+      "hwy": 25,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/47762.shtml"
+    },
+    "built": {
+      "count": 100880,
+      "approx": true,
+      "note": "Sold in the US so far, 2024 to October 2026",
+      "src": "https://www.goodcarbadcar.net/toyota-land-cruiser-sales-figures/"
+    },
     "predecessor": {
       "name": "Toyota Land Cruiser (200 Series)",
       "id": "toyota-land-cruiser-j200"
@@ -8014,8 +9031,23 @@ const CARS = [
       "note": "Edmunds test, 2021",
       "src": "https://www.edmunds.com:443/toyota/venza/2021/review/"
     },
-    "top": null,
-    "built": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 39,
+      "city": 40,
+      "hwy": 37,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/42912.shtml"
+    },
+    "built": {
+      "count": 171174,
+      "approx": true,
+      "note": "Sold in the US, 2020–2025",
+      "src": "https://www.goodcarbadcar.net/toyota-venza-sales-figures/"
+    },
     "predecessor": null,
     "successor": null,
     "quick": "Toyota's hybrid-only, all-wheel-drive crossover for 2021–2024: the RAV4 Hybrid's 219-hp system and wheelbase under a sleeker body and a plusher cabin, rated at 39 mpg combined, with less cargo room than a RAV4.",
@@ -8073,8 +9105,24 @@ const CARS = [
       "note": "Car and Driver test, 2023 Limited AWD",
       "src": "https://autos.yahoo.com/2023-toyota-bz4x-gets-toyota-110000045.html"
     },
-    "top": null,
-    "built": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 119,
+      "city": 131,
+      "hwy": 107,
+      "unit": "MPGe",
+      "kind": "epa",
+      "note": "EPA combined, front-wheel drive XLE",
+      "src": "https://www.fueleconomy.gov/feg/noframes/45756.shtml"
+    },
+    "built": {
+      "count": 74857,
+      "approx": true,
+      "note": "Sold in the US so far, 2022 to October 2026 (bZ4X and bZ)",
+      "src": "https://www.goodcarbadcar.net/toyota-bz4x-sales-figures/"
+    },
     "predecessor": null,
     "successor": null,
     "quick": "Toyota's first mass-market electric SUV in the US, about the size of a RAV4. The 2023–2025 bZ4X has up to 252 miles of EPA range; the 2026 bZ brought bigger batteries, a NACS port, 338 hp with AWD and up to 314 miles.",
@@ -8125,7 +9173,18 @@ const CARS = [
       "note": "Toyota estimate",
       "src": "https://pressroom.toyota.com/toyotas-all-electric-lineup-gains-rugged-powerful-new-bz-woodland-suv/"
     },
-    "top": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 117,
+      "city": 127,
+      "hwy": 107,
+      "unit": "MPGe",
+      "kind": "epa",
+      "note": "EPA combined, on 235/60R18 tires (235/65R18: 109 MPGe)",
+      "src": "https://www.fueleconomy.gov/feg/noframes/50305.shtml"
+    },
     "built": null,
     "predecessor": null,
     "successor": null,
@@ -8179,8 +9238,24 @@ const CARS = [
       "src": "https://www.kbb.com/toyota/avalonhybrid/2017/"
     },
     "zero60": null,
-    "top": null,
-    "built": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 24,
+      "city": 21,
+      "hwy": 30,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, V6 (Hybrid: 40 mpg)",
+      "src": "https://www.fueleconomy.gov/feg/noframes/38294.shtml"
+    },
+    "built": {
+      "count": 312478,
+      "approx": true,
+      "note": "Sold in the US, 2013–2018",
+      "src": "https://www.goodcarbadcar.net/toyota-avalon-sales-figures/"
+    },
     "predecessor": null,
     "successor": {
       "name": "Toyota Avalon (XX50)",
@@ -8243,8 +9318,23 @@ const CARS = [
       "note": "Car and Driver test, via 0-60 Specs",
       "src": "https://www.0-60specs.com/index.php/toyota/avalon-0-60-times"
     },
-    "top": null,
-    "built": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 25,
+      "city": 22,
+      "hwy": 31,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/40087.shtml"
+    },
+    "built": {
+      "count": 77918,
+      "approx": true,
+      "note": "Sold in the US, 2019–2023",
+      "src": "https://www.goodcarbadcar.net/toyota-avalon-sales-figures/"
+    },
     "predecessor": {
       "name": "Toyota Avalon (XX40)",
       "id": "toyota-avalon-xx40"
@@ -8302,7 +9392,18 @@ const CARS = [
       "note": "Car and Driver test, 2016 Yaris LE 5-door automatic, via 0-60 Specs",
       "src": "https://www.0-60specs.com/toyota/yaris-0-60-times"
     },
-    "top": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 32,
+      "city": 30,
+      "hwy": 35,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, automatic (manual: 33 mpg)",
+      "src": "https://www.fueleconomy.gov/feg/noframes/38778.shtml"
+    },
     "built": null,
     "predecessor": null,
     "successor": null,
@@ -8362,7 +9463,20 @@ const CARS = [
       "note": "Car and Driver test, manual",
       "src": "https://jalopnik.com/1821884886"
     },
-    "top": null,
+    "top": {
+      "mph": 120,
+      "kind": "tested",
+      "note": "Governor limited (Car and Driver)",
+      "src": "https://autos.yahoo.com/2017-toyota-yaris-ia-manual-222500735.html"
+    },
+    "mpg": {
+      "combined": 34,
+      "city": 30,
+      "hwy": 39,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/37884.shtml"
+    },
     "built": null,
     "predecessor": null,
     "successor": null,
@@ -8425,8 +9539,27 @@ const CARS = [
       "note": "Car and Driver test, 2017 Prius Three Touring",
       "src": "https://autos.yahoo.com/2017-toyota-prius-three-touring-170700912.html"
     },
-    "top": null,
-    "built": null,
+    "top": {
+      "mph": 114,
+      "kind": "tested",
+      "note": "Drag limited (Car and Driver)",
+      "src": "https://autos.yahoo.com/2017-toyota-prius-three-touring-170700912.html"
+    },
+    "mpg": {
+      "combined": 52,
+      "city": 54,
+      "hwy": 50,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, 54 city / 50 highway (Prius Two Eco: 56 mpg)",
+      "src": "https://www.fueleconomy.gov/feg/noframes/38061.shtml"
+    },
+    "built": {
+      "count": 542052,
+      "approx": true,
+      "note": "Sold in the US, 2016–2022 (all Prius models, including the Prius c, v and Prime)",
+      "src": "https://www.goodcarbadcar.net/toyota-prius-sales-figures/"
+    },
     "predecessor": null,
     "successor": {
       "name": "Toyota Prius (XW60)",
@@ -8489,8 +9622,23 @@ const CARS = [
       "note": "Car and Driver test, 2023 Prius Limited FWD",
       "src": "https://autos.yahoo.com/tested-2023-toyota-prius-drives-120000770.html"
     },
-    "top": null,
-    "built": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 57,
+      "city": 57,
+      "hwy": 56,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/46359.shtml"
+    },
+    "built": {
+      "count": 171981,
+      "approx": true,
+      "note": "Sold in the US so far, 2023 to October 2026 (all Prius models, including the Prius Prime)",
+      "src": "https://www.goodcarbadcar.net/toyota-prius-sales-figures/"
+    },
     "predecessor": {
       "name": "Toyota Prius (XW50)",
       "id": "toyota-prius-xw50"
@@ -8542,8 +9690,27 @@ const CARS = [
       "src": "https://photos.velocityjournal.com/journal/2017/toyota/29534/index.html"
     },
     "weight": null,
-    "zero60": null,
-    "top": null,
+    "zero60": {
+      "sec": 10.3,
+      "kind": "tested",
+      "note": "Car and Driver test, Prius Prime Plus",
+      "src": "https://autos.yahoo.com/2017-toyota-prius-prime-plug-224200086.html"
+    },
+    "top": {
+      "mph": 101,
+      "kind": "tested",
+      "note": "Governor limited (Car and Driver)",
+      "src": "https://autos.yahoo.com/2017-toyota-prius-prime-plug-224200086.html"
+    },
+    "mpg": {
+      "combined": 54,
+      "city": 55,
+      "hwy": 53,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined on gas; 133 MPGe on electricity",
+      "src": "https://www.fueleconomy.gov/feg/noframes/38531.shtml"
+    },
     "built": null,
     "predecessor": null,
     "successor": {
@@ -8606,7 +9773,18 @@ const CARS = [
       "note": "Toyota figure",
       "src": "https://www.kbb.com/toyota/prius-prime/2023/specs"
     },
-    "top": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 52,
+      "city": 53,
+      "hwy": 51,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined on gas; 127 MPGe on electricity",
+      "src": "https://www.fueleconomy.gov/feg/noframes/47229.shtml"
+    },
     "built": null,
     "predecessor": {
       "name": "Toyota Prius Prime (XW52)",
@@ -8661,8 +9839,26 @@ const CARS = [
       "note": "Curb weight, 2019 L",
       "src": "https://www.cars.com/research/toyota-prius_c-2019/specs"
     },
-    "zero60": null,
-    "top": null,
+    "zero60": {
+      "sec": 11.2,
+      "kind": "tested",
+      "note": "Car and Driver test of a 2018 Prius c",
+      "src": "https://autos.yahoo.com/2018-toyota-prius-c-205500159.html"
+    },
+    "top": {
+      "mph": 105,
+      "kind": "tested",
+      "note": "Drag limited, Car and Driver estimate (2018 Prius c)",
+      "src": "https://autos.yahoo.com/2018-toyota-prius-c-205500159.html"
+    },
+    "mpg": {
+      "combined": 46,
+      "city": 48,
+      "hwy": 43,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/40596.shtml"
+    },
     "built": null,
     "predecessor": null,
     "successor": null,
@@ -8718,7 +9914,17 @@ const CARS = [
       "note": "Kelley Blue Book figure",
       "src": "https://www.kbb.com/toyota/prius-v/2017/"
     },
-    "top": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 41,
+      "city": 43,
+      "hwy": 39,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/37463.shtml"
+    },
     "built": null,
     "predecessor": null,
     "successor": null,
@@ -8779,8 +9985,26 @@ const CARS = [
       "note": "Car and Driver test, 2017 Sienna SE Premium",
       "src": "https://autos.yahoo.com/2017-toyota-sienna-fwd-204500043.html"
     },
-    "top": null,
-    "built": null,
+    "top": {
+      "mph": 117,
+      "kind": "tested",
+      "note": "Governor limited (Car and Driver)",
+      "src": "https://autos.yahoo.com/2017-toyota-sienna-fwd-204500043.html"
+    },
+    "mpg": {
+      "combined": 22,
+      "city": 19,
+      "hwy": 27,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/37996.shtml"
+    },
+    "built": {
+      "count": 1052689,
+      "approx": true,
+      "note": "Sold in the US, 2011–2020",
+      "src": "https://www.goodcarbadcar.net/toyota-sienna-sales-figures/"
+    },
     "predecessor": null,
     "successor": {
       "name": "Toyota Sienna (XL40)",
@@ -8838,8 +10062,23 @@ const CARS = [
       "note": "Car and Driver test, 2021 Sienna",
       "src": "https://uk.news.yahoo.com/tested-2021-toyota-sienna-sheds-110000646.html"
     },
-    "top": null,
-    "built": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 36,
+      "city": 36,
+      "hwy": 36,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/43470.shtml"
+    },
+    "built": {
+      "count": 516515,
+      "approx": true,
+      "note": "Sold in the US so far, 2021 to October 2026",
+      "src": "https://www.goodcarbadcar.net/toyota-sienna-sales-figures/"
+    },
     "predecessor": {
       "name": "Toyota Sienna (XL30)",
       "id": "toyota-sienna-xl30"
@@ -8901,8 +10140,23 @@ const CARS = [
       "note": "Edmunds test, Crown Platinum Hybrid MAX",
       "src": "https://www.edmunds.com/toyota/crown/2023/"
     },
-    "top": null,
-    "built": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 41,
+      "city": 42,
+      "hwy": 41,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/46322.shtml"
+    },
+    "built": {
+      "count": 58356,
+      "approx": true,
+      "note": "Sold in the US so far, 2023 to October 2026",
+      "src": "https://www.goodcarbadcar.net/toyota-crown-sales-figures/"
+    },
     "predecessor": null,
     "successor": null,
     "quick": "The Crown name's return to the US after 1972: a tall, all-wheel-drive hybrid sedan that replaced the Avalon for 2023, rated at 41 mpg, with a 340-hp Hybrid MAX on the Platinum.",
@@ -8954,7 +10208,17 @@ const CARS = [
       "src": "https://www.kbb.com/toyota/crown-signia/2025/"
     },
     "zero60": null,
-    "top": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 38,
+      "city": 39,
+      "hwy": 37,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/48049.shtml"
+    },
     "built": null,
     "predecessor": null,
     "successor": null,
@@ -9014,7 +10278,20 @@ const CARS = [
       "note": "Car and Driver test, 2018 XLE Premium",
       "src": "https://autos.yahoo.com/2018-toyota-c-hr-200000759.html"
     },
-    "top": null,
+    "top": {
+      "mph": 115,
+      "kind": "tested",
+      "note": "Drag limited (Car and Driver)",
+      "src": "https://autos.yahoo.com/2018-toyota-c-hr-200000759.html"
+    },
+    "mpg": {
+      "combined": 29,
+      "city": 27,
+      "hwy": 31,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/38679.shtml"
+    },
     "built": null,
     "predecessor": null,
     "successor": {
@@ -9069,7 +10346,7 @@ const CARS = [
     },
     "weight": {
       "kg": 2071,
-      "note": "Edmunds test car (4,565 lb)",
+      "note": "Edmunds test car",
       "src": "https://www.edmunds.com/car-news/tested-2026-toyota-c-hr-too-quick.html"
     },
     "zero60": {
@@ -9078,7 +10355,18 @@ const CARS = [
       "note": "Edmunds test, matching Toyota's claim",
       "src": "https://www.edmunds.com/car-news/tested-2026-toyota-c-hr-too-quick.html"
     },
-    "top": null,
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 117,
+      "city": 127,
+      "hwy": 107,
+      "unit": "MPGe",
+      "kind": "epa",
+      "note": "EPA combined, on 18-inch wheels (20-inch: 112 MPGe)",
+      "src": "https://www.fueleconomy.gov/feg/noframes/50307.shtml"
+    },
     "built": null,
     "predecessor": {
       "name": "Toyota C-HR (AX10)",
@@ -9102,8 +10390,23 @@ const CARS = [
     }
   },
   {
-    "top": null,
-    "built": null,
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 30,
+      "city": 27,
+      "hwy": 36,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/37625.shtml"
+    },
+    "built": {
+      "count": 1778460,
+      "approx": true,
+      "note": "Sold in the US, 2013–2017",
+      "src": "https://www.goodcarbadcar.net/honda-accord-sales-figures/"
+    },
     "predecessor": null,
     "successor": {
       "name": "Honda Accord (tenth generation)",
@@ -9143,10 +10446,15 @@ const CARS = [
     },
     "weight": {
       "kg": 1438,
-      "note": "Curb weight, 2017 LX sedan (3,170 lb)",
+      "note": "Curb weight, 2017 LX sedan",
       "src": "https://www.motormatchup.com/catalog/Honda/Accord/2017/LX-4DR-Sedan"
     },
-    "zero60": null,
+    "zero60": {
+      "sec": 7.6,
+      "kind": "tested",
+      "note": "Car and Driver test, 2.4-liter with CVT",
+      "src": "https://autos.yahoo.com/2018-honda-accord-1-5t-233000760.html"
+    },
     "quick": "The ninth-generation Accord, sold for 2013–2017: the last Accord with a V6, the last with a coupe body, and the one that brought the Accord Hybrid back for 2017, rated at 48 mpg combined.",
     "story": [
       "The ninth-generation Accord arrived for 2013 and was refreshed for 2016. Most have a 2.4-liter 4-cylinder with 185 hp, or 189 in the Sport, with a CVT or a 6-speed manual, rated at 30 mpg combined with the CVT. The 3.5-liter V6 makes 278 hp; the sedan has a 6-speed automatic, and the coupe could also be ordered with a 6-speed manual. The 2017 Accord Hybrid, with Honda's 2-motor system and 212 hp, is rated at 48 mpg combined, though its battery cuts the trunk to 13.7 cubic feet.",
@@ -9162,8 +10470,26 @@ const CARS = [
     }
   },
   {
-    "top": null,
-    "built": null,
+    "top": {
+      "mph": 121,
+      "kind": "tested",
+      "note": "Governor limited; Car and Driver test, 1.5T automatic",
+      "src": "https://autos.yahoo.com/2018-honda-accord-1-5t-233000760.html"
+    },
+    "mpg": {
+      "combined": 33,
+      "city": 30,
+      "hwy": 38,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/39595.shtml"
+    },
+    "built": {
+      "count": 1115384,
+      "approx": true,
+      "note": "Sold in the US, 2018–2022",
+      "src": "https://www.goodcarbadcar.net/honda-accord-sales-figures/"
+    },
     "predecessor": {
       "name": "Honda Accord (ninth generation)",
       "id": "honda-accord-9th-gen"
@@ -9206,14 +10532,14 @@ const CARS = [
     },
     "weight": {
       "kg": 1420,
-      "note": "Curb weight, 2018 LX (3,131 lb)",
+      "note": "Curb weight, 2018 LX",
       "src": "https://www.kbb.com/honda/accord/2018/specs/"
     },
     "zero60": {
-      "sec": 5.5,
+      "sec": 7.3,
       "kind": "tested",
-      "note": "Car and Driver test, 2018 Accord 2.0T Touring, 10-speed automatic",
-      "src": "https://www.thetruthaboutcars.com/2017/10/2018-honda-accord-2-0t-fact-quicker-2017-honda-accord-v6/"
+      "note": "Car and Driver test, 1.5T automatic (2.0T: 5.5 sec)",
+      "src": "https://autos.yahoo.com/2018-honda-accord-1-5t-233000760.html"
     },
     "quick": "The tenth-generation Accord, 2018–2022: lower, lighter and sharper, with a 192-hp 1.5-liter turbo, a 252-hp 2.0-liter turbo with a 10-speed automatic, a 212-hp hybrid and, through 2020, a 6-speed manual.",
     "story": [
@@ -9230,8 +10556,24 @@ const CARS = [
     }
   },
   {
-    "top": null,
-    "built": null,
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 44,
+      "city": 46,
+      "hwy": 41,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, Hybrid Sport and Touring (EX-L Hybrid: 48 mpg; 1.5-liter turbo: 32 mpg)",
+      "src": "https://www.fueleconomy.gov/feg/noframes/46358.shtml"
+    },
+    "built": {
+      "count": 672302,
+      "approx": true,
+      "note": "Sold in the US so far, 2023 to October 2026",
+      "src": "https://www.goodcarbadcar.net/honda-accord-sales-figures/"
+    },
     "predecessor": {
       "name": "Honda Accord (tenth generation)",
       "id": "honda-accord-10th-gen"
@@ -9270,7 +10612,7 @@ const CARS = [
     },
     "weight": {
       "kg": 1469,
-      "note": "Curb weight, 2023 LX (3,239 lb)",
+      "note": "Curb weight, 2023 LX",
       "src": "https://www.kbb.com/honda/accord/2023/specs/"
     },
     "zero60": {
@@ -9294,8 +10636,24 @@ const CARS = [
     }
   },
   {
-    "top": null,
-    "built": null,
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 36,
+      "city": 32,
+      "hwy": 42,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, 1.5-liter turbo sedan, CVT",
+      "src": "https://www.fueleconomy.gov/feg/noframes/38249.shtml"
+    },
+    "built": {
+      "count": 1920635,
+      "approx": true,
+      "note": "Sold in the US, 2016–2021 (all Civic models)",
+      "src": "https://www.goodcarbadcar.net/honda-civic-sales-figures/"
+    },
     "predecessor": null,
     "successor": {
       "name": "Honda Civic (eleventh generation)",
@@ -9335,7 +10693,7 @@ const CARS = [
     },
     "weight": {
       "kg": 1378,
-      "note": "Test weight, 2017 Hatchback Sport Touring (Edmunds, 3,038 lb)",
+      "note": "Test weight, 2017 Hatchback Sport Touring (Edmunds)",
       "src": "https://www.edmunds.com/car-news/tested-2022-honda-civic-hatchback-loses-speed-but-wins-our-hearts.html"
     },
     "zero60": {
@@ -9359,8 +10717,24 @@ const CARS = [
     }
   },
   {
-    "top": null,
-    "built": null,
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 36,
+      "city": 33,
+      "hwy": 42,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, 1.5-liter turbo sedan, CVT",
+      "src": "https://www.fueleconomy.gov/feg/noframes/44131.shtml"
+    },
+    "built": {
+      "count": 1028074,
+      "approx": true,
+      "note": "Sold in the US so far, 2022 to October 2026 (all Civic models)",
+      "src": "https://www.goodcarbadcar.net/honda-civic-sales-figures/"
+    },
     "predecessor": {
       "name": "Honda Civic (tenth generation)",
       "id": "honda-civic-10th-gen"
@@ -9400,7 +10774,7 @@ const CARS = [
     },
     "weight": {
       "kg": 1398,
-      "note": "Test weight, 2022 Hatchback Sport Touring (Edmunds, 3,083 lb)",
+      "note": "Test weight, 2022 Hatchback Sport Touring (Edmunds)",
       "src": "https://www.edmunds.com/car-news/tested-2022-honda-civic-hatchback-loses-speed-but-wins-our-hearts.html"
     },
     "zero60": {
@@ -9424,7 +10798,17 @@ const CARS = [
     }
   },
   {
-    "top": null,
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 32,
+      "city": 28,
+      "hwy": 38,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/38772.shtml"
+    },
     "built": null,
     "predecessor": null,
     "successor": {
@@ -9461,7 +10845,7 @@ const CARS = [
     },
     "weight": {
       "kg": 1329,
-      "note": "Test weight, 2017 Si sedan (Edmunds, 2,929 lb)",
+      "note": "Test weight, 2017 Si sedan (Edmunds)",
       "src": "https://www.edmunds.com/car-news/2022-honda-civic-si-long-term-test-wrap-up.html"
     },
     "zero60": {
@@ -9485,7 +10869,17 @@ const CARS = [
     }
   },
   {
-    "top": null,
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 31,
+      "city": 27,
+      "hwy": 37,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/44846.shtml"
+    },
     "built": null,
     "predecessor": {
       "name": "Honda Civic Si (tenth generation)",
@@ -9522,7 +10916,7 @@ const CARS = [
     },
     "weight": {
       "kg": 1339,
-      "note": "Curb weight (2,952 lb)",
+      "note": "Curb weight",
       "src": "https://www.motorbiscuit.com/2022-honda-civic-si-still-sporty-subtly-civilized/"
     },
     "zero60": {
@@ -9546,7 +10940,20 @@ const CARS = [
     }
   },
   {
-    "top": null,
+    "top": {
+      "mph": 170,
+      "kind": "tested",
+      "note": "Drag limited, Car and Driver estimate",
+      "src": "https://autos.yahoo.com/2017-honda-civic-type-r-221500571.html"
+    },
+    "mpg": {
+      "combined": 25,
+      "city": 22,
+      "hwy": 28,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/38696.shtml"
+    },
     "built": null,
     "predecessor": null,
     "successor": {
@@ -9585,7 +10992,7 @@ const CARS = [
     },
     "weight": {
       "kg": 1411,
-      "note": "Car and Driver test car (3,111 lb)",
+      "note": "Car and Driver test car",
       "src": "https://www.yahoo.com/news/2017-honda-civic-type-r-221500571.html"
     },
     "zero60": {
@@ -9609,7 +11016,20 @@ const CARS = [
     }
   },
   {
-    "top": null,
+    "top": {
+      "mph": 171,
+      "kind": "claimed",
+      "note": "Honda's figure (275 km/h)",
+      "src": "https://www.mobilityengineeringtech.com/component/content/article/48871-sae-ma-07224"
+    },
+    "mpg": {
+      "combined": 24,
+      "city": 22,
+      "hwy": 28,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/46142.shtml"
+    },
     "built": null,
     "predecessor": {
       "name": "Honda Civic Type R (FK8)",
@@ -9646,7 +11066,7 @@ const CARS = [
     },
     "weight": {
       "kg": 1446,
-      "note": "Curb weight (3,188 lb)",
+      "note": "Curb weight",
       "src": "https://www.carwhere.com/0-60-times/compare/honda-civic-type-r-vs-volkswagen-golf-r"
     },
     "zero60": {
@@ -9670,8 +11090,24 @@ const CARS = [
     }
   },
   {
-    "top": null,
-    "built": null,
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 30,
+      "city": 28,
+      "hwy": 34,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA combined, 1.5-liter turbo, front-wheel drive (2.4-liter: 28 mpg)",
+      "src": "https://www.fueleconomy.gov/feg/noframes/38449.shtml"
+    },
+    "built": {
+      "count": 2064004,
+      "approx": true,
+      "note": "Sold in the US, 2017–2022",
+      "src": "https://www.goodcarbadcar.net/honda-cr-v-sales-figures/"
+    },
     "predecessor": null,
     "successor": {
       "name": "Honda CR-V (sixth generation)",
@@ -9709,7 +11145,7 @@ const CARS = [
     },
     "weight": {
       "kg": 1500,
-      "note": "Curb weight, 2017 LX, front-wheel drive (3,307 lb)",
+      "note": "Curb weight, 2017 LX, front-wheel drive",
       "src": "https://www.hondanews.com/en-US/honda-automobiles/releases/release-40fde7e3aa47477f86c3d735579e6a5a-2017-honda-cr-v-overview"
     },
     "zero60": {
@@ -9733,8 +11169,23 @@ const CARS = [
     }
   },
   {
-    "top": null,
-    "built": null,
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 37,
+      "city": 40,
+      "hwy": 34,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/46071.shtml"
+    },
+    "built": {
+      "count": 1539675,
+      "approx": true,
+      "note": "Sold in the US so far, 2023 to October 2026 (all CR-V models)",
+      "src": "https://www.goodcarbadcar.net/honda-cr-v-sales-figures/"
+    },
     "predecessor": {
       "name": "Honda CR-V (fifth generation)",
       "id": "honda-cr-v-5th-gen"
@@ -9773,7 +11224,7 @@ const CARS = [
     },
     "weight": {
       "kg": 1781,
-      "note": "Curb weight, 2023 Sport Touring Hybrid AWD (3,926 lb)",
+      "note": "Curb weight, 2023 Sport Touring Hybrid AWD",
       "src": "https://henrypayne.com/?p=29934"
     },
     "zero60": {
@@ -9797,7 +11248,16 @@ const CARS = [
     }
   },
   {
-    "top": null,
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 57,
+      "unit": "MPGe",
+      "kind": "epa",
+      "note": "EPA combined on hydrogen (87 MPGe on battery power for the first 29 miles)",
+      "src": "https://www.fueleconomy.gov/feg/noframes/50270.shtml"
+    },
     "built": null,
     "predecessor": null,
     "successor": null,
@@ -9832,7 +11292,7 @@ const CARS = [
     },
     "weight": {
       "kg": 2023,
-      "note": "Curb weight (4,460 lb)",
+      "note": "Curb weight",
       "src": "https://akamai-release.automobiles.honda.com/cr-v-fcev/specs-features-trim-comparison"
     },
     "zero60": null,
@@ -9851,7 +11311,17 @@ const CARS = [
     }
   },
   {
-    "top": null,
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 44,
+      "city": 46,
+      "hwy": 41,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/50046.shtml"
+    },
     "built": null,
     "predecessor": null,
     "successor": null,
@@ -9885,7 +11355,7 @@ const CARS = [
     },
     "weight": {
       "kg": 1479,
-      "note": "Curb weight (3,261 lb)",
+      "note": "Curb weight",
       "src": "https://automobiles.honda.com/2026/prelude/specs-features-trim-comparison"
     },
     "zero60": {

@@ -187,6 +187,13 @@ def lb(kg):
 
 
 def stat_blocks(c):
+    out = _stat_blocks(c)
+    # a field with no figure can say why, e.g. {"na": "Not published by Toyota"}
+    keys = ("power", "weight", "zero60", "top", "mpg", "built")
+    return [(l, v, sub if v else ((c.get(k) or {}).get("na") or "")) for (l, v, sub), k in zip(out, keys)]
+
+
+def _stat_blocks(c):
     out = []
     p = c.get("power") or {}
     out.append(("Power", (num(int(round(p["hp"]))), "hp") if p.get("hp") else None, p.get("note", "")))
@@ -203,8 +210,19 @@ def stat_blocks(c):
     if t.get("mph"):
         ts = t.get("note") or ("Maker's claim" if t.get("kind") == "claimed" else "Tested")
     out.append(("Top speed", (num(int(round(t["mph"]))), "mph") if t.get("mph") else None, ts))
+    m = c.get("mpg") or {}
+    ms = ""
+    if m.get("combined"):
+        ms = m.get("note") or ("EPA combined" + (f", {m['city']} city / {m['hwy']} highway" if m.get("city") and m.get("hwy") else "")
+                               if m.get("kind") == "epa" else "Road test")
+    out.append(("MPG", (f"{m['combined']:g}", m.get("unit") or "mpg") if m.get("combined") else None, ms))
     b = c.get("built") or {}
-    out.append(("Built", (("about " if b.get("approx") else "") + num(int(b["count"])), "") if b.get("count") else None, b.get("note", "")))
+    bs = b.get("note", "")
+    if b.get("count") and b.get("approx"):
+        bs = "Approximate" + (" &middot; " + esc(bs) if bs else "")
+    elif bs:
+        bs = esc(bs)
+    out.append(("Built", (num(int(b["count"])), "") if b.get("count") else None, bs))
     return out
 
 
@@ -419,9 +437,9 @@ def car_page(c, cars, by_id, arts, photos):
     for label, val, sub in stat_blocks(c):
         if val:
             nums += (f'<div class="num"><div class="l">{label.replace("0-60", "0&ndash;60")}</div><div class="v">{esc(val[0])}'
-                     f'{"<small>" + esc(val[1]) + "</small>" if val[1] else ""}</div><div class="s">{sub if label == "Weight" else esc(sub)}</div></div>')
+                     f'{"<small>" + esc(val[1]) + "</small>" if val[1] else ""}</div><div class="s">{sub if label in ("Weight", "Built") else esc(sub)}</div></div>')
         else:
-            nums += f'<div class="num na"><div class="l">{label.replace("0-60", "0&ndash;60")}</div><div class="v">&mdash;</div><div class="s">Not on record</div></div>'
+            nums += f'<div class="num na"><div class="l">{label.replace("0-60", "0&ndash;60")}</div><div class="v">&mdash;</div><div class="s">{esc(sub) if sub else "Not on record"}</div></div>'
 
     story = "".join(f"<p>{esc(p)}</p>" for p in c.get("story") or [])
     facts = [("Years", c.get("years")), ("Built in", c.get("country")), ("Engine", c.get("engine")),
@@ -459,7 +477,7 @@ def car_page(c, cars, by_id, arts, photos):
                  "".join(mini_card(x, photos[x["id"]]) for x in more) + "</div></div></section>") if more else ""
 
     srcs = []
-    for key in ("power", "weight", "zero60", "top", "built"):
+    for key in ("power", "weight", "zero60", "top", "mpg", "built"):
         s = (c.get(key) or {}).get("src")
         lab = src_label(s, arts)
         if lab and lab not in srcs:
@@ -596,7 +614,7 @@ def car_page(c, cars, by_id, arts, photos):
 
 def compare_page():
     title = "Compare Cars Side by Side — The Car Index"
-    desc = "Put up to 3 cars from the Carveyance Car Index side by side: power, weight, 0-60 mph, top speed, how many were built, and what readers rate them."
+    desc = "Put up to 3 cars from the Carveyance Car Index side by side: power, weight, 0-60 mph, top speed, fuel economy, how many were built, and what readers rate them."
     return f"""{head(title, desc, SITE + "/cars/compare/")}
 </head>
 <body>
@@ -764,6 +782,7 @@ def main():
                      "hp": (c.get("power") or {}).get("hp"), "kg": (c.get("weight") or {}).get("kg"), "kgNote": (c.get("weight") or {}).get("note", ""),
                      "z60": ({k: (c.get("zero60") or {}).get(k) for k in ("sec", "kind", "note")} if (c.get("zero60") or {}).get("sec") else None),
                      "top": ({k: (c.get("top") or {}).get(k) for k in ("mph", "kind", "note")} if (c.get("top") or {}).get("mph") else None),
+                     "mpg": ({k: (c.get("mpg") or {}).get(k) for k in ("combined", "city", "hwy", "unit", "kind", "note")} if (c.get("mpg") or {}).get("combined") else None),
                      "built": ({k: (c.get("built") or {}).get(k) for k in ("count", "approx", "note")} if (c.get("built") or {}).get("count") else None),
                      "alongside": [{"id": x.get("id") if x.get("id") in by_id else None, "name": x.get("name", "")} for x in c.get("alongside") or []],
                      "prev": ({"id": c["predecessor"].get("id") if c["predecessor"].get("id") in by_id else None, "name": c["predecessor"].get("name", "")} if (c.get("predecessor") or {}).get("name") else None),

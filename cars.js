@@ -7776,6 +7776,365 @@ const CARS = [
     }
   },
   {
+    "id": "toyota-celica-supra-a40",
+    "name": "Toyota Celica Supra (A40)",
+    "aka": [
+      "1979–1981 Celica Supra",
+      "Celica XX",
+      "MA46",
+      "MA47",
+      "A40"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "1979–1981",
+    "start": 1979,
+    "end": 1981,
+    "body": "2+2 3-door liftback",
+    "engine": "2.6-liter 6-cylinder; 2.8-liter from 1981",
+    "drive": "Rear-wheel drive",
+    "gearbox": "5-speed manual or 4-speed automatic",
+    "specsFor": "1979 Toyota Celica Supra, 2.6-liter, 5-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 110,
+      "note": "2.6-liter inline-6 (2.8-liter for 1981: 116 hp)",
+      "src": "https://www.0-60specs.com/toyota/celica-supra-0-60-times"
+    },
+    "weight": {
+      "kg": 1293,
+      "lb": 2850,
+      "note": "Curb weight, 1979",
+      "src": "https://www.0-60specs.com/toyota/celica-supra-0-60-times"
+    },
+    "zero60": {
+      "sec": 11.2,
+      "kind": "tested",
+      "note": "Car and Driver test, 1979",
+      "src": "https://www.0-60specs.com/toyota/celica-supra-0-60-times"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "na": "No production total on record"
+    },
+    "predecessor": null,
+    "successor": {
+      "name": "Toyota Celica Supra (A60)",
+      "id": "toyota-celica-supra-a60"
+    },
+    "quick": "The first Celica Supra, 1979–1981: a Celica with a longer nose and an inline-6, built because Toyota's American dealers wanted a rival to the Datsun 280Z.",
+    "story": [
+      "Toyota created the Celica Supra after its North American dealers asked for a competitor to the popular Datsun 280Z. Sold in Japan as the Celica XX, it shared its doors and rear with the Celica liftback but had a longer front end to fit an inline-6 in place of the Celica's 4-cylinder. Exports began in January 1979.",
+      "American cars had a 2.6-liter inline-6 with 110 hp, and Car and Driver timed a 1979 car to 60 mph in 11.2 seconds. For 1981 a 2.8-liter shared with the Crown raised output to 116 hp, and a Sports Performance Package added a firmer suspension, raised-white-letter tires and spoilers."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Supra"
+    ]
+  },
+  {
+    "id": "toyota-celica-supra-a60",
+    "name": "Toyota Celica Supra (A60)",
+    "aka": [
+      "1982–1986 Celica Supra",
+      "Celica Supra P-type",
+      "Celica Supra L-type",
+      "Celica XX",
+      "A60"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "1982–1986",
+    "start": 1982,
+    "end": 1986,
+    "body": "2+2 3-door liftback",
+    "engine": "2.8-liter twin-cam 6-cylinder",
+    "drive": "Rear-wheel drive",
+    "gearbox": "5-speed manual or 4-speed automatic",
+    "specsFor": "1982 Toyota Celica Supra, 5-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 145,
+      "note": "2.8-liter twin-cam inline-6 at launch (161 hp by 1985)",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Supra"
+    },
+    "weight": {
+      "kg": 1311,
+      "lb": 2890,
+      "note": "Curb weight, 1982",
+      "src": "https://www.0-60specs.com/toyota/celica-supra-0-60-times"
+    },
+    "zero60": {
+      "sec": 8.8,
+      "kind": "tested",
+      "note": "Car and Driver test, 1982",
+      "src": "https://www.0-60specs.com/toyota/celica-supra-0-60-times"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "combined": 18,
+      "city": 17,
+      "hwy": 21,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/26770.shtml",
+      "note": "EPA combined, 1984, 5-speed manual"
+    },
+    "built": {
+      "na": "No production total on record"
+    },
+    "predecessor": {
+      "name": "Toyota Celica Supra (A40)",
+      "id": "toyota-celica-supra-a40"
+    },
+    "successor": {
+      "name": "Toyota Supra (A70)",
+      "id": "toyota-supra-a70"
+    },
+    "quick": "The second Celica Supra, 1982–1986: pop-up headlights, a twin-cam inline-6 and suspension tuned with help from Lotus, in P-type and L-type forms.",
+    "story": [
+      "Toyota redesigned the Celica Supra for 1982 with a new front end and fully retractable pop-up headlights, on a longer wheelbase to fit its inline-6. Its 4-wheel independent suspension was tuned with help from Lotus. North American buyers chose the Performance Type, with fiberglass fender flares and 8-way sport seats, or the Luxury Type, which could have a digital instrument cluster with a trip computer.",
+      "The 2.8-liter twin-cam made 145 hp at launch, then 150 and 160, and finally 161 hp by 1985, and Car and Driver timed a 1982 car to 60 mph in 8.8 seconds. It was the last Supra to carry the Celica name: in 1986 the 2 cars went separate ways."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Supra"
+    ]
+  },
+  {
+    "id": "toyota-supra-a70",
+    "name": "Toyota Supra (A70)",
+    "aka": [
+      "1986–1993 Supra",
+      "Supra Turbo",
+      "Supra Turbo A",
+      "A70"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "1986–1993",
+    "start": 1986,
+    "end": 1993,
+    "body": "2+2 3-door liftback; targa top available",
+    "engine": "3.0-liter twin-cam 6-cylinder; turbo from 1987",
+    "drive": "Rear-wheel drive",
+    "gearbox": "5-speed manual or 4-speed automatic",
+    "specsFor": "1986 Toyota Supra, 3.0-liter, 5-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 200,
+      "note": "3.0-liter twin-cam inline-6",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Supra"
+    },
+    "weight": {
+      "kg": 1542,
+      "lb": 3400,
+      "note": "Curb weight, 1986",
+      "src": "https://www.0-60specs.com/toyota/supra-0-60-times"
+    },
+    "zero60": {
+      "sec": 8.0,
+      "kind": "tested",
+      "note": "Car and Driver test, 1986",
+      "src": "https://www.0-60specs.com/toyota/supra-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 18,
+      "city": 16,
+      "hwy": 21,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/3149.shtml",
+      "note": "EPA combined, 1987, 5-speed manual"
+    },
+    "built": {
+      "na": "No production total on record"
+    },
+    "versions": [
+      {
+        "name": "3.0-liter",
+        "detail": "Naturally aspirated inline-6"
+      },
+      {
+        "name": "Turbo",
+        "detail": "3.0-liter turbo inline-6, from 1987",
+        "specsFor": "1987 Toyota Supra Turbo, 5-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 230,
+          "note": "3.0-liter turbo inline-6 (232 hp from 1989)",
+          "src": "https://www.0-60specs.com/toyota/supra-0-60-times"
+        },
+        "weight": {
+          "kg": 1569,
+          "lb": 3460,
+          "note": "Curb weight, 1987 Turbo",
+          "src": "https://www.0-60specs.com/toyota/supra-0-60-times"
+        },
+        "zero60": {
+          "sec": 6.4,
+          "kind": "tested",
+          "note": "Car and Driver test, 1987 Turbo",
+          "src": "https://www.0-60specs.com/toyota/supra-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 18,
+          "city": 16,
+          "hwy": 21,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/3148.shtml",
+          "note": "EPA combined, 1987 Turbo, 5-speed manual"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Toyota Celica Supra (A60)",
+      "id": "toyota-celica-supra-a60"
+    },
+    "successor": {
+      "name": "Toyota Supra (A80)",
+      "id": "toyota-supra-a80"
+    },
+    "quick": "The third Supra, 1986–1993: no longer a Celica, with rear-wheel drive, double wishbones at all 4 corners and, from 1987, a 230-hp turbo.",
+    "story": [
+      "In February 1986 the Supra split from the Celica, which moved to front-wheel drive, while the Supra kept rear-wheel drive and gained double-wishbone suspension front and rear. Its 3.0-liter twin-cam inline-6 made 200 hp, and Car and Driver timed a 1986 car to 60 mph in 8.0 seconds. A targa top was available every year, and options included 3-channel anti-lock brakes and TEMS adjustable dampers.",
+      "A turbocharged version arrived for 1987, Toyota's first distributorless engine in the US, with 230 hp, and Car and Driver ran a 1987 Turbo to 60 in 6.4 seconds. Output rose to 232 hp in 1989. The A70's twin-cam inline-6 remained Toyota's flagship engine until the next Supra arrived."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Supra"
+    ]
+  },
+  {
+    "id": "toyota-supra-a80",
+    "name": "Toyota Supra (A80)",
+    "aka": [
+      "1993–2002 Supra",
+      "Supra Turbo",
+      "Supra RZ",
+      "2JZ Supra",
+      "A80",
+      "Mk4 Supra"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "1993–2002",
+    "start": 1993,
+    "end": 2002,
+    "body": "2+2 3-door liftback; targa top available",
+    "engine": "3.0-liter 6-cylinder, naturally aspirated or twin-turbo",
+    "drive": "Rear-wheel drive",
+    "gearbox": "5-speed manual (6-speed Getrag with the turbo) or 4-speed automatic",
+    "specsFor": "1994 Toyota Supra, 3.0-liter, 5-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 220,
+      "note": "3.0-liter inline-6",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Supra"
+    },
+    "weight": {
+      "kg": 1569,
+      "lb": 3460,
+      "note": "Curb weight, 1994",
+      "src": "https://www.0-60specs.com/toyota/supra-0-60-times"
+    },
+    "zero60": {
+      "sec": 6.2,
+      "kind": "tested",
+      "note": "Car and Driver test, 1994",
+      "src": "https://www.0-60specs.com/toyota/supra-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 18,
+      "city": 16,
+      "hwy": 22,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/10674.shtml",
+      "note": "EPA combined, 1994, 5-speed manual"
+    },
+    "built": {
+      "na": "No production total on record"
+    },
+    "versions": [
+      {
+        "name": "3.0-liter",
+        "detail": "Naturally aspirated inline-6, 5-speed manual"
+      },
+      {
+        "name": "Turbo",
+        "detail": "Sequential twin-turbo inline-6, 6-speed manual",
+        "specsFor": "1993 Toyota Supra Turbo, 6-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 320,
+          "note": "3.0-liter twin-turbo inline-6, US rating",
+          "src": "https://www.0-60specs.com/toyota/supra-0-60-times"
+        },
+        "weight": {
+          "kg": 1565,
+          "lb": 3450,
+          "note": "Curb weight, 1993 Turbo",
+          "src": "https://www.0-60specs.com/toyota/supra-0-60-times"
+        },
+        "zero60": {
+          "sec": 4.6,
+          "kind": "tested",
+          "note": "Car and Driver test, 1993 Turbo",
+          "src": "https://www.0-60specs.com/toyota/supra-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 18,
+          "city": 15,
+          "hwy": 22,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/28973.shtml",
+          "note": "EPA combined, 1993 Turbo, 6-speed manual"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Toyota Supra (A70)",
+      "id": "toyota-supra-a70"
+    },
+    "successor": {
+      "name": "Toyota GR Supra (A90)",
+      "id": "toyota-gr-supra-a90"
+    },
+    "quick": "The fourth Supra, 1993–2002: a sequential twin-turbo inline-6 with 320 hp and a Getrag 6-speed, and a 4.6-second run to 60 in Car and Driver's hands.",
+    "story": [
+      "Development began in February 1989 under Isao Tsuzuki, using subframes, suspension and drivetrain parts from the Soarer, sold in America as the Lexus SC, and the fourth Supra was introduced in May 1993. Toyota worked hard on weight, and a base manual car weighed 1,456 kg (3,210 lb). The naturally aspirated 3.0-liter made 220 hp with a 5-speed manual, and Car and Driver timed a 1994 car to 60 mph in 6.2 seconds.",
+      "The twin-turbo version, its turbochargers working in sequence rather than in parallel, made 320 hp in the US and came with a new 6-speed Getrag gearbox; Car and Driver ran a 1993 Turbo to 60 in 4.6 seconds. Sports-coupe sales faded in the late 1990s and a stronger yen raised prices, so the Supra left Canada in 1996 and the US after 1998. Production continued in Japan until August 2002, when emissions rules ended it."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Supra"
+    ]
+  },
+  {
     "id": "toyota-gr-supra-a90",
     "name": "Toyota GR Supra (A90)",
     "aka": [
@@ -7829,7 +8188,8 @@ const CARS = [
       "src": "https://www.goodcarbadcar.net/toyota-supra-sales-figures/"
     },
     "predecessor": {
-      "name": "Toyota Supra (A80)"
+      "name": "Toyota Supra (A80)",
+      "id": "toyota-supra-a80"
     },
     "successor": null,
     "alongside": [

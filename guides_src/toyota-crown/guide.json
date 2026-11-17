@@ -1,0 +1,114 @@
+{
+  "id": "toyota-crown",
+  "make": "Toyota",
+  "model": "Crown",
+  "years": "2023–2026",
+  "byline": "Oliver Bacon",
+  "published": "2026-11-16",
+  "updated": "2026-11-16",
+  "cars": [
+    "toyota-crown-crossover",
+    "toyota-crown-signia"
+  ],
+  "shop": {
+    "cargurus": "d1156"
+  },
+  "chapters": [
+    "crown-sedan",
+    "crown-signia",
+    "used-checklist"
+  ],
+  "series": {
+    "c25": {"name": "Crown XLE and Limited, 2.5-liter hybrid", "color": "#2E6E96"},
+    "cmax": {"name": "Crown Platinum, Hybrid MAX", "color": "#e05c2a"},
+    "sig": {"name": "Crown Signia", "color": "#2E6E96"},
+    "ct": {"name": "Crown sedan, trunk", "color": "#9aa5b1"},
+    "sr": {"name": "Crown Signia, behind the rear seat", "color": "#2E6E96"},
+    "sf": {"name": "Crown Signia, rear seat folded", "color": "#e05c2a"},
+    "p23x": {"name": "2023 Crown XLE", "color": "#2E6E96"},
+    "p23p": {"name": "2023 Crown Platinum", "color": "#e05c2a"},
+    "p25s": {"name": "2025 Crown Signia XLE", "color": "#2E6E96"},
+    "p25sl": {"name": "2025 Crown Signia Limited", "color": "#2E6E96"}
+  },
+  "charts": {
+    "power": {
+      "n": 1,
+      "title": "Horsepower by powertrain",
+      "sub": "Toyota's figures, combined hybrid system output.",
+      "source": "Toyota and Cars.com",
+      "bars": [
+        ["c25", 236, "236 hp"],
+        ["cmax", 340, "340 hp"],
+        ["sig", 240, "240 hp"]
+      ]
+    },
+    "mpg": {
+      "n": 2,
+      "title": "EPA combined fuel economy",
+      "sub": "Miles per gallon. All have all-wheel drive.",
+      "source": "EPA ratings, via Toyota, Cars.com and Edmunds",
+      "bars": [
+        ["c25", 41, "41 mpg"],
+        ["cmax", 30, "30 mpg"],
+        ["sig", 38, "38 mpg"]
+      ]
+    },
+    "cargo": {
+      "n": 3,
+      "title": "Cargo space",
+      "sub": "Cubic feet. The Crown Signia figures are for the XLE.",
+      "source": "Kelley Blue Book, Edmunds and Toyota",
+      "bars": [
+        ["ct", 15.2, "15.2 cu ft"],
+        ["sr", 25.8, "25.8 cu ft"],
+        ["sf", 68.8, "68.8 cu ft"]
+      ]
+    },
+    "price": {
+      "n": 4,
+      "title": "What a new one cost, in 2026 dollars",
+      "sub": "Starting prices before delivery, adjusted with the US consumer price index. The original price is in each label.",
+      "source": "Toyota and Edmunds prices; Carveyance CPI arithmetic",
+      "bars": [
+        ["p23x", 44100, "$44,100 · $39,950 then"],
+        ["p23p", 57800, "$57,800 · $52,350 then"],
+        ["p25s", 45500, "$45,500 · $43,590 then"],
+        ["p25sl", 50100, "$50,100 · $47,990 then"]
+      ]
+    }
+  },
+  "photos": {
+    "hub-hero": {
+      "want": "A Crown outside, front three-quarter, ideally a two-tone Platinum",
+      "credit": "Toyota",
+      "alt": "A 2023–2026 Toyota Crown"
+    },
+    "ch1-hero": {
+      "want": "A Crown driving on the road",
+      "credit": "Toyota",
+      "alt": "A Toyota Crown on the road"
+    },
+    "ch2-hero": {
+      "want": "A Crown Signia outside, or its cargo area",
+      "credit": "Toyota",
+      "alt": "A 2025 Toyota Crown Signia"
+    },
+    "ch3-hero": {
+      "want": "The Crown's cabin with its 12.3-inch screens",
+      "credit": "Toyota",
+      "alt": "The dashboard of a Toyota Crown"
+    }
+  },
+  "find": {
+    "picker": [
+      {"model": "Crown", "years": "2023–2026", "ch": "crown-sedan"},
+      {"model": "Crown Signia", "years": "2025–2026", "ch": "crown-signia"}
+    ],
+    "terms": {
+      "": ["Crown", "Toyota Crown", "Crown Signia", "hybrid", "AWD", "Avalon replacement"],
+      "crown-sedan": ["Crown sedan", "Crown Crossover", "Hybrid MAX", "Platinum", "340 hp", "2.4 turbo", "XLE", "Limited", "Nightshade", "41 mpg", "lifted sedan"],
+      "crown-signia": ["Signia", "Crown Signia", "Crown Estate", "wagon", "SUV", "Venza replacement", "cargo space", "38 mpg", "towing"],
+      "used-checklist": ["used", "checklist", "inspection", "recalls", "instrument panel recall", "rear camera recall", "over-the-air update", "warranty"]
+    }
+  }
+}

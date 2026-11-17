@@ -1,0 +1,109 @@
+{
+  "id": "toyota-c-hr",
+  "make": "Toyota",
+  "model": "C-HR",
+  "years": "2018–2026",
+  "byline": "Grayson Kollen",
+  "published": "2026-11-16",
+  "updated": "2026-11-16",
+  "cars": [
+    "toyota-c-hr-ax10",
+    "toyota-c-hr-ev"
+  ],
+  "shop": {
+    "cargurus": "d2474"
+  },
+  "chapters": [
+    "2018-2022",
+    "2026-electric",
+    "used-checklist"
+  ],
+  "series": {
+    "gas": {"name": "2018–2022 C-HR, gas", "color": "#9aa5b1"},
+    "ev": {"name": "2026 C-HR, electric", "color": "#e05c2a"},
+    "evse": {"name": "2026 C-HR SE, 18-inch wheels", "color": "#e05c2a"},
+    "evx": {"name": "2026 C-HR XSE, 20-inch wheels", "color": "#2E6E96"},
+    "p18": {"name": "2018 C-HR XLE", "color": "#9aa5b1"},
+    "p19": {"name": "2019 C-HR LE", "color": "#9aa5b1"},
+    "p26se": {"name": "2026 C-HR SE", "color": "#e05c2a"},
+    "p26x": {"name": "2026 C-HR XSE", "color": "#2E6E96"}
+  },
+  "charts": {
+    "power": {
+      "n": 1,
+      "title": "Horsepower, gas against electric",
+      "sub": "Toyota's figures. The electric figure is combined output from 2 motors.",
+      "source": "Toyota and Car and Driver",
+      "bars": [
+        ["gas", 144, "144 hp"],
+        ["ev", 338, "338 hp"]
+      ]
+    },
+    "zero60": {
+      "n": 2,
+      "title": "0–60 mph, tested",
+      "sub": "Seconds; shorter is quicker. The gas C-HR tested by Car and Driver, the electric C-HR by Edmunds.",
+      "source": "Car and Driver and Edmunds",
+      "bars": [
+        ["gas", 11.0, "11.0 sec"],
+        ["ev", 4.9, "4.9 sec"]
+      ]
+    },
+    "range": {
+      "n": 3,
+      "title": "EPA range on a full charge",
+      "sub": "Miles. The bigger wheels on the XSE cost some range.",
+      "source": "Toyota and the EPA",
+      "bars": [
+        ["evse", 287, "287 miles"],
+        ["evx", 273, "273 miles"]
+      ]
+    },
+    "price": {
+      "n": 4,
+      "title": "What a new one cost, in 2026 dollars",
+      "sub": "Starting prices before delivery, adjusted with the US consumer price index. The original price is in each label.",
+      "source": "Toyota, Automotive Fleet and Carscoops prices; Carveyance CPI arithmetic",
+      "bars": [
+        ["p18", 30100, "$30,100 · $22,500 then"],
+        ["p19", 27600, "$27,600 · $20,995 then"],
+        ["p26se", 37000, "$37,000"],
+        ["p26x", 39000, "$39,000"]
+      ]
+    }
+  },
+  "photos": {
+    "hub-hero": {
+      "want": "A 2026 electric C-HR outside, front three-quarter, ideally two-tone",
+      "credit": "Toyota",
+      "alt": "A 2026 Toyota C-HR"
+    },
+    "ch1-hero": {
+      "want": "A 2018–2022 gas C-HR outside, ideally a 2020–2022",
+      "credit": "Toyota",
+      "alt": "A 2018–2022 Toyota C-HR"
+    },
+    "ch2-hero": {
+      "want": "A 2026 electric C-HR on the road, or plugged in to charge",
+      "credit": "Toyota",
+      "alt": "A 2026 Toyota C-HR on the road"
+    },
+    "ch3-hero": {
+      "want": "The C-HR's cabin, gas or electric",
+      "credit": "Toyota",
+      "alt": "The cabin of a Toyota C-HR"
+    }
+  },
+  "find": {
+    "picker": [
+      {"model": "C-HR (gas)", "years": "2018–2022", "ch": "2018-2022"},
+      {"model": "C-HR (electric)", "years": "2026", "ch": "2026-electric"}
+    ],
+    "terms": {
+      "": ["C-HR", "CHR", "Toyota C-HR", "crossover", "small SUV"],
+      "2018-2022": ["gas C-HR", "first generation", "AX10", "2.0-liter", "144 hp", "CVT", "XLE Premium", "LE", "Limited", "Nightshade", "Scion"],
+      "2026-electric": ["electric", "EV", "BEV", "C-HR EV", "338 hp", "AWD", "NACS", "Supercharger", "range", "charging", "SE", "XSE"],
+      "used-checklist": ["used", "checklist", "inspection", "recalls", "parking brake recall", "hub bolt recall", "seat belt recall", "battery recall", "battery warranty"]
+    }
+  }
+}

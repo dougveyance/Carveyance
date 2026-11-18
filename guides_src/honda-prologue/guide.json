@@ -1,0 +1,272 @@
+{
+ "id": "honda-prologue",
+ "make": "Honda",
+ "model": "Prologue",
+ "years": "2024–2026",
+ "byline": "Theo Wren",
+ "published": "2026-11-18",
+ "updated": "2026-11-18",
+ "cars": [
+  "honda-prologue"
+ ],
+ "shop": {
+  "cargurus": "d3357"
+ },
+ "chapters": [
+  "2024",
+  "2025-2026",
+  "used-checklist"
+ ],
+ "series": {
+  "w24f": {
+   "name": "2024, front-wheel drive",
+   "color": "#9aa5b1"
+  },
+  "w24a": {
+   "name": "2024, all-wheel drive",
+   "color": "#9aa5b1"
+  },
+  "w25f": {
+   "name": "2025–2026, front-wheel drive",
+   "color": "#2E6E96"
+  },
+  "w25a": {
+   "name": "2025–2026, all-wheel drive",
+   "color": "#2E6E96"
+  },
+  "r24f": {
+   "name": "2024 EX and Touring, FWD",
+   "color": "#9aa5b1"
+  },
+  "r24a": {
+   "name": "2024 EX and Touring, AWD",
+   "color": "#9aa5b1"
+  },
+  "r24e": {
+   "name": "2024 Elite",
+   "color": "#9aa5b1"
+  },
+  "r25f": {
+   "name": "2025–2026 EX and Touring, FWD",
+   "color": "#2E6E96"
+  },
+  "r25a": {
+   "name": "2025–2026 EX and Touring, AWD",
+   "color": "#2E6E96"
+  },
+  "r25e": {
+   "name": "2025–2026 Elite",
+   "color": "#2E6E96"
+  },
+  "p24": {
+   "name": "2024 EX, FWD",
+   "color": "#9aa5b1"
+  },
+  "p24e": {
+   "name": "2024 Elite",
+   "color": "#9aa5b1"
+  },
+  "p25": {
+   "name": "2025 EX, FWD",
+   "color": "#2E6E96"
+  },
+  "p26": {
+   "name": "2026 EX, FWD, at launch",
+   "color": "#2E6E96"
+  },
+  "p26c": {
+   "name": "2026 EX, FWD, from April 2026",
+   "color": "#e05c2a"
+  },
+  "p26e": {
+   "name": "2026 Elite, from April 2026",
+   "color": "#e05c2a"
+  }
+ },
+ "charts": {
+  "power": {
+   "n": 1,
+   "title": "Power by drivetrain",
+   "sub": "Horsepower.",
+   "source": "Honda",
+   "bars": [
+    [
+     "w24f",
+     212,
+     "212 hp"
+    ],
+    [
+     "w24a",
+     288,
+     "288 hp"
+    ],
+    [
+     "w25f",
+     220,
+     "220 hp"
+    ],
+    [
+     "w25a",
+     300,
+     "300 hp"
+    ]
+   ]
+  },
+  "range": {
+   "n": 2,
+   "title": "EPA range on a full charge",
+   "sub": "Miles.",
+   "source": "US EPA, fueleconomy.gov",
+   "bars": [
+    [
+     "r24f",
+     296,
+     "296 mi"
+    ],
+    [
+     "r24a",
+     281,
+     "281 mi"
+    ],
+    [
+     "r24e",
+     273,
+     "273 mi"
+    ],
+    [
+     "r25f",
+     308,
+     "308 mi"
+    ],
+    [
+     "r25a",
+     294,
+     "294 mi"
+    ],
+    [
+     "r25e",
+     283,
+     "283 mi"
+    ]
+   ]
+  },
+  "price": {
+   "n": 3,
+   "title": "What a new one cost, in 2026 dollars",
+   "sub": "Starting prices before delivery, adjusted with the US consumer price index. The original price is in each label.",
+   "source": "Honda prices; Carveyance CPI arithmetic",
+   "bars": [
+    [
+     "p24",
+     50800,
+     "$50,800 · $47,400 then"
+    ],
+    [
+     "p24e",
+     62100,
+     "$62,100 · $57,900 then"
+    ],
+    [
+     "p25",
+     49500,
+     "$49,500 · $47,400 then"
+    ],
+    [
+     "p26",
+     47400,
+     "$47,400"
+    ],
+    [
+     "p26c",
+     39900,
+     "$39,900"
+    ],
+    [
+     "p26e",
+     50400,
+     "$50,400"
+    ]
+   ]
+  }
+ },
+ "photos": {
+  "hub-hero": {
+   "want": "A Prologue",
+   "credit": "Honda",
+   "alt": "A blue 2025 Honda Prologue Elite on a road through a redwood forest"
+  },
+  "ch1-hero": {
+   "want": "A 2024 Prologue",
+   "credit": "Honda",
+   "alt": "A blue 2024 Honda Prologue Elite on a coastal road"
+  },
+  "ch2-hero": {
+   "want": "A 2025–2026 Prologue",
+   "credit": "Honda",
+   "alt": "A blue 2025 Honda Prologue Elite in front of mountains"
+  },
+  "ch3-hero": {
+   "want": "A Prologue charging",
+   "credit": "Honda",
+   "alt": "A 2024 Honda Prologue plugged into a DC fast charger"
+  }
+ },
+ "find": {
+  "picker": [
+   {
+    "model": "Prologue",
+    "years": "2024",
+    "ch": "2024"
+   },
+   {
+    "model": "Prologue",
+    "years": "2025–2026",
+    "ch": "2025-2026"
+   }
+  ],
+  "terms": {
+   "": [
+    "Prologue",
+    "Honda Prologue",
+    "electric SUV",
+    "EV",
+    "battery electric",
+    "Ultium",
+    "Blazer EV"
+   ],
+   "2024": [
+    "2024",
+    "first year",
+    "212 hp",
+    "288 hp",
+    "296 miles",
+    "EX",
+    "Touring",
+    "Elite",
+    "tax credit"
+   ],
+   "2025-2026": [
+    "2025",
+    "2026",
+    "308 miles",
+    "300 hp",
+    "price cut",
+    "$39,900",
+    "discontinued",
+    "last year"
+   ],
+   "used-checklist": [
+    "used",
+    "checklist",
+    "recalls",
+    "battery health",
+    "state of health",
+    "charging",
+    "DC fast charging",
+    "NACS",
+    "rearview camera",
+    "control arm"
+   ]
+  }
+ }
+}

@@ -1,0 +1,506 @@
+{
+ "id": "ford-mustang-mach-e",
+ "make": "Ford",
+ "model": "Mustang Mach-E",
+ "years": "2021–2026",
+ "byline": "Priya Raghavan",
+ "published": "2026-11-18",
+ "updated": "2026-11-18",
+ "cars": [
+  "ford-mustang-mach-e",
+  "ford-mustang-mach-e-gt"
+ ],
+ "shop": {
+  "cargurus": "d2990"
+ },
+ "chapters": [
+  "2021-2024",
+  "2025-2026",
+  "gt-and-rally",
+  "used-checklist"
+ ],
+ "series": {
+  "r21c": {
+   "name": "California Route 1, 2021",
+   "color": "#9aa5b1"
+  },
+  "r21re": {
+   "name": "Extended range, rear-wheel drive, 2021",
+   "color": "#9aa5b1"
+  },
+  "r21ae": {
+   "name": "Extended range, all-wheel drive, 2021",
+   "color": "#9aa5b1"
+  },
+  "r21gt": {
+   "name": "GT, 2021",
+   "color": "#9aa5b1"
+  },
+  "r21gp": {
+   "name": "GT Performance Edition, 2021",
+   "color": "#9aa5b1"
+  },
+  "r21rs": {
+   "name": "Standard range, rear-wheel drive, 2021",
+   "color": "#9aa5b1"
+  },
+  "r21as": {
+   "name": "Standard range, all-wheel drive, 2021",
+   "color": "#9aa5b1"
+  },
+  "r24re": {
+   "name": "Extended range, rear-wheel drive, 2024",
+   "color": "#2E6E96"
+  },
+  "r24as": {
+   "name": "Standard range, all-wheel drive, 2024",
+   "color": "#2E6E96"
+  },
+  "c21gp": {
+   "name": "GT Performance Edition, 2021",
+   "color": "#e05c2a"
+  },
+  "c21gt": {
+   "name": "GT, 2021",
+   "color": "#2E6E96"
+  },
+  "c21pa": {
+   "name": "Premium, extended range, all-wheel drive, 2021",
+   "color": "#9aa5b1"
+  },
+  "x26re": {
+   "name": "Extended range, rear-wheel drive",
+   "color": "#2E6E96"
+  },
+  "x26ae": {
+   "name": "Extended range, all-wheel drive",
+   "color": "#2E6E96"
+  },
+  "x26gt": {
+   "name": "GT",
+   "color": "#e05c2a"
+  },
+  "x26rs": {
+   "name": "Standard range, rear-wheel drive",
+   "color": "#9aa5b1"
+  },
+  "x26ry": {
+   "name": "Rally",
+   "color": "#e05c2a"
+  },
+  "x26as": {
+   "name": "Standard range, all-wheel drive",
+   "color": "#9aa5b1"
+  },
+  "g24ry": {
+   "name": "Rally, 2024",
+   "color": "#e05c2a"
+  },
+  "g21gp": {
+   "name": "GT Performance Edition, 2021",
+   "color": "#2E6E96"
+  },
+  "g21gt": {
+   "name": "GT, 2021",
+   "color": "#2E6E96"
+  },
+  "h21gt": {
+   "name": "GT, 2021",
+   "color": "#9aa5b1"
+  },
+  "h21gp": {
+   "name": "GT Performance Edition, 2021",
+   "color": "#9aa5b1"
+  },
+  "h24gt": {
+   "name": "GT, 2024",
+   "color": "#2E6E96"
+  },
+  "h24ry": {
+   "name": "Rally, 2024",
+   "color": "#2E6E96"
+  },
+  "h26gt": {
+   "name": "GT, 2026",
+   "color": "#e05c2a"
+  },
+  "h26ry": {
+   "name": "Rally, 2026",
+   "color": "#e05c2a"
+  },
+  "h26ae": {
+   "name": "Extended range, all-wheel drive, 2026",
+   "color": "#9aa5b1"
+  },
+  "p21s": {
+   "name": "2021 Select",
+   "color": "#9aa5b1"
+  },
+  "p21g": {
+   "name": "2021 GT",
+   "color": "#9aa5b1"
+  },
+  "p26s": {
+   "name": "2026 Select",
+   "color": "#e05c2a"
+  },
+  "p26p": {
+   "name": "2026 Premium",
+   "color": "#e05c2a"
+  },
+  "p26g": {
+   "name": "2026 GT",
+   "color": "#e05c2a"
+  },
+  "p26r": {
+   "name": "2026 Rally",
+   "color": "#e05c2a"
+  }
+ },
+ "charts": {
+  "range21": {
+   "n": 1,
+   "title": "EPA range, 2021 and 2024",
+   "sub": "Miles on a full charge.",
+   "source": "US EPA, fueleconomy.gov",
+   "bars": [
+    [
+     "r21c",
+     305,
+     "305 mi"
+    ],
+    [
+     "r21re",
+     300,
+     "300 mi"
+    ],
+    [
+     "r21ae",
+     270,
+     "270 mi"
+    ],
+    [
+     "r21gt",
+     270,
+     "270 mi"
+    ],
+    [
+     "r21gp",
+     260,
+     "260 mi"
+    ],
+    [
+     "r21rs",
+     230,
+     "230 mi"
+    ],
+    [
+     "r21as",
+     211,
+     "211 mi"
+    ],
+    [
+     "r24re",
+     320,
+     "320 mi"
+    ],
+    [
+     "r24as",
+     230,
+     "230 mi"
+    ]
+   ]
+  },
+  "accel21": {
+   "n": 2,
+   "title": "0–60 mph, as tested, 2021",
+   "sub": "Seconds; shorter is quicker.",
+   "source": "Car and Driver tests, via 0-60specs",
+   "bars": [
+    [
+     "c21gp",
+     3.7,
+     "3.7 sec"
+    ],
+    [
+     "c21gt",
+     4.3,
+     "4.3 sec"
+    ],
+    [
+     "c21pa",
+     4.9,
+     "4.9 sec"
+    ]
+   ]
+  },
+  "range26": {
+   "n": 3,
+   "title": "EPA range, 2026",
+   "sub": "Miles on a full charge.",
+   "source": "US EPA, fueleconomy.gov",
+   "bars": [
+    [
+     "x26re",
+     320,
+     "320 mi"
+    ],
+    [
+     "x26ae",
+     300,
+     "300 mi"
+    ],
+    [
+     "x26gt",
+     280,
+     "280 mi"
+    ],
+    [
+     "x26rs",
+     260,
+     "260 mi"
+    ],
+    [
+     "x26ry",
+     255,
+     "255 mi"
+    ],
+    [
+     "x26as",
+     240,
+     "240 mi"
+    ]
+   ]
+  },
+  "eff26": {
+   "n": 4,
+   "title": "EPA efficiency, 2026",
+   "sub": "Combined MPGe; higher is better.",
+   "source": "US EPA, fueleconomy.gov",
+   "bars": [
+    [
+     "x26re",
+     110,
+     "110 MPGe"
+    ],
+    [
+     "x26rs",
+     107,
+     "107 MPGe"
+    ],
+    [
+     "x26ae",
+     104,
+     "104 MPGe"
+    ],
+    [
+     "x26as",
+     100,
+     "100 MPGe"
+    ],
+    [
+     "x26gt",
+     90,
+     "90 MPGe"
+    ],
+    [
+     "x26ry",
+     84,
+     "84 MPGe"
+    ]
+   ]
+  },
+  "accelGT": {
+   "n": 5,
+   "title": "0–60 mph, as tested",
+   "sub": "Seconds; shorter is quicker.",
+   "source": "Car and Driver tests, via 0-60specs",
+   "bars": [
+    [
+     "g24ry",
+     3.3,
+     "3.3 sec"
+    ],
+    [
+     "g21gp",
+     3.7,
+     "3.7 sec"
+    ],
+    [
+     "g21gt",
+     4.3,
+     "4.3 sec"
+    ]
+   ]
+  },
+  "rangeGT": {
+   "n": 6,
+   "title": "EPA range, GT and Rally",
+   "sub": "Miles on a full charge, with an extended-range all-wheel-drive Premium for comparison.",
+   "source": "US EPA, fueleconomy.gov",
+   "bars": [
+    [
+     "h21gt",
+     270,
+     "270 mi"
+    ],
+    [
+     "h21gp",
+     260,
+     "260 mi"
+    ],
+    [
+     "h24gt",
+     280,
+     "280 mi"
+    ],
+    [
+     "h24ry",
+     265,
+     "265 mi"
+    ],
+    [
+     "h26gt",
+     280,
+     "280 mi"
+    ],
+    [
+     "h26ry",
+     255,
+     "255 mi"
+    ],
+    [
+     "h26ae",
+     300,
+     "300 mi"
+    ]
+   ]
+  },
+  "price": {
+   "n": 7,
+   "title": "What a new one cost, in 2026 dollars",
+   "sub": "Starting prices before delivery, adjusted with the US consumer price index. The original price is in each label.",
+   "source": "Ford prices; Carveyance CPI arithmetic",
+   "bars": [
+    [
+     "p21s",
+     53200,
+     "$53,200 · $42,895 then"
+    ],
+    [
+     "p21g",
+     74300,
+     "$74,300 · $59,900 then"
+    ],
+    [
+     "p26s",
+     37795,
+     "$37,795 for 2026"
+    ],
+    [
+     "p26p",
+     40595,
+     "$40,595 for 2026"
+    ],
+    [
+     "p26g",
+     53395,
+     "$53,395 for 2026"
+    ],
+    [
+     "p26r",
+     57690,
+     "$57,690 for 2026"
+    ]
+   ]
+  }
+ },
+ "photos": {
+  "hub-hero": {
+   "want": "A Mach-E on the road"
+  },
+  "ch1-hero": {
+   "want": "A 2021–2024 Mach-E"
+  },
+  "ch2-hero": {
+   "want": "A 2025–2026 Mach-E"
+  },
+  "ch3-hero": {
+   "want": "A Mach-E GT or Rally"
+  },
+  "ch4-hero": {
+   "want": "A Mach-E charging"
+  }
+ },
+ "find": {
+  "picker": [
+   {
+    "model": "Mustang Mach-E",
+    "years": "2021–2024",
+    "ch": "2021-2024"
+   },
+   {
+    "model": "Mustang Mach-E",
+    "years": "2025–2026",
+    "ch": "2025-2026"
+   },
+   {
+    "model": "Mach-E GT or Rally",
+    "years": "2021–2026",
+    "ch": "gt-and-rally"
+   }
+  ],
+  "terms": {
+   "": [
+    "Mach-E",
+    "Mustang Mach-E",
+    "Ford Mach-E",
+    "electric SUV",
+    "EV",
+    "electric crossover",
+    "Model Y rival"
+   ],
+   "2021-2024": [
+    "Select",
+    "Premium",
+    "California Route 1",
+    "standard range",
+    "extended range",
+    "LFP battery",
+    "rear-wheel drive",
+    "all-wheel drive",
+    "BlueCruise"
+   ],
+   "2025-2026": [
+    "2025 update",
+    "heat pump",
+    "stalk shifter",
+    "Technology Package",
+    "NACS adapter",
+    "Tesla Supercharger",
+    "2026 changes",
+    "frunk"
+   ],
+   "gt-and-rally": [
+    "GT",
+    "GT Performance Edition",
+    "Rally",
+    "480 hp",
+    "700 lb-ft",
+    "quickest Mach-E"
+   ],
+   "used-checklist": [
+    "used",
+    "checklist",
+    "recalls",
+    "battery health",
+    "junction box",
+    "contactors",
+    "23S56",
+    "door latch",
+    "pinion shaft",
+    "charging"
+   ]
+  }
+ }
+}

@@ -5117,7 +5117,7 @@ const CARS = [
     "years": "2000",
     "start": 2000,
     "end": 2000,
-    "body": "Two-door coupe",
+    "body": "2-door coupe",
     "engine": "5.4-liter DOHC V8",
     "drive": "Rear-wheel drive",
     "gearbox": "6-speed manual",
@@ -5133,9 +5133,9 @@ const CARS = [
       "src": "article:all-for-one"
     },
     "zero60": {
-      "sec": 4.4,
+      "sec": 4.7,
       "kind": "tested",
-      "note": "Motor Trend test",
+      "note": "Car and Driver test",
       "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
     },
     "top": null,
@@ -5158,6 +5158,12 @@ const CARS = [
       "id": null
     },
     "successor": null,
+    "alongside": [
+      {
+        "name": "Ford Mustang (fourth generation)",
+        "id": "ford-mustang-4th-gen"
+      }
+    ],
     "quick": "Ford's Special Vehicle Team built just 300 of these stripped, winged, side-piped Mustangs around a hand-assembled 5.4-liter DOHC V8. Loud, heavy and proudly unsubtle, it is a homologation special that would always rather shout than whisper.",
     "story": [
       "The 2000 Cobra R is a Mustang with everything nonessential thrown out and everything aggressive bolted on. There is no radio, no air conditioning and no back seat. Instead there is a towering rear wing, a chin splitter, side-exit exhausts that flood the cabin with noise, big Brembo front brakes and a 5.4-liter DOHC V8 strengthened with tougher connecting rods, larger valves and a racing oil pan. Ford rated it at 385 hp and 385 lb-ft, figures plenty of owners suspected were on the modest side, and sent the lot through a 6-speed manual.",
@@ -28217,6 +28223,2758 @@ const CARS = [
       "url": "/fitdrive/guides/ford-ranger/",
       "title": "The Ford Ranger Buyer's Guide",
       "blurb": "The 2019–2023 Ranger, the 2024–2026 redesign, the Ranger Raptor and the used-truck checklist with the recalls, in 4 chapters."
+    }
+  },
+  {
+    "id": "ford-mustang-1st-gen",
+    "name": "Ford Mustang (first generation)",
+    "aka": [
+      "1964½–1973 Mustang",
+      "1965 Mustang",
+      "Mustang fastback",
+      "Mustang GT",
+      "Mach 1",
+      "Boss 351",
+      "Boss 429",
+      "Grande"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Dearborn, Michigan; Edison, New Jersey; and Milpitas, California)",
+    "country": "United States",
+    "years": "1964½–1973",
+    "start": 1964,
+    "end": 1973,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Pony car: hardtop coupe, fastback and convertible",
+    "engine": "6-cylinder (2.8 to 4.1 liters) or V8 (4.3 to 7.0 liters)",
+    "drive": "Rear-wheel drive",
+    "gearbox": "3-speed or 4-speed manual, or 3-speed automatic",
+    "specsFor": "1964 Ford Mustang convertible, 289 V8 (271 hp), 4-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 271,
+      "note": "4.7-liter (289) V8, K-code high-performance version",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "weight": {
+      "kg": 1397,
+      "lb": 3080,
+      "note": "Test weight, 1964 convertible",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "zero60": {
+      "sec": 8.2,
+      "kind": "tested",
+      "note": "Car and Driver test, 1964 convertible",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "top": {
+      "na": "No figure published by Ford"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "count": 2981259,
+      "approx": true,
+      "note": "1964½–1973 model years, Ford figures as tabled by Wikipedia, where they're labeled as sales",
+      "src": "https://en.wikipedia.org/wiki/Ford_Mustang"
+    },
+    "versions": [
+      {
+        "name": "289 V8, 4-speed manual",
+        "detail": "271 hp in K-code form"
+      },
+      {
+        "name": "390 GT, automatic",
+        "detail": "1967–1969 big-block",
+        "specsFor": "1967 Ford Mustang GT/A fastback, 390 V8, 3-speed automatic, US market (Car and Driver test)",
+        "power": {
+          "hp": 320,
+          "note": "6.4-liter (390) V8",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "weight": {
+          "kg": 1542,
+          "lb": 3400,
+          "note": "Test weight, 1967 GT/A fastback",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "zero60": {
+          "sec": 7.3,
+          "kind": "tested",
+          "note": "Car and Driver test, 1967 GT/A fastback",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "top": {
+          "na": "No figure published by Ford"
+        },
+        "mpg": {
+          "na": "fueleconomy.gov starts with 1984 models"
+        }
+      },
+      {
+        "name": "Mach 1, 428 Cobra Jet",
+        "detail": "1969 on; 335 hp",
+        "specsFor": "1969 Ford Mustang Mach 1, 428 Cobra Jet V8, 3-speed automatic, US market (Car and Driver test)",
+        "power": {
+          "hp": 335,
+          "note": "7.0-liter (428) Cobra Jet V8",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "weight": {
+          "kg": 1633,
+          "lb": 3600,
+          "note": "Test weight, 1969 Mach 1",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "zero60": {
+          "sec": 5.7,
+          "kind": "tested",
+          "note": "Car and Driver test, 1969 Mach 1",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "top": {
+          "na": "No figure published by Ford"
+        },
+        "mpg": {
+          "na": "fueleconomy.gov starts with 1984 models"
+        }
+      },
+      {
+        "name": "Boss 351",
+        "detail": "1971 only; 330 hp",
+        "specsFor": "1971 Ford Mustang Boss 351, 4-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 330,
+          "note": "5.8-liter (351) V8",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "weight": {
+          "kg": 1678,
+          "lb": 3700,
+          "note": "Test weight, 1971 Boss 351",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "zero60": {
+          "sec": 5.8,
+          "kind": "tested",
+          "note": "Car and Driver test, 1971 Boss 351",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "top": {
+          "na": "No figure published by Ford"
+        },
+        "mpg": {
+          "na": "fueleconomy.gov starts with 1984 models"
+        }
+      }
+    ],
+    "predecessor": null,
+    "successor": {
+      "name": "Ford Mustang (second generation)",
+      "id": "ford-mustang-2nd-gen"
+    },
+    "alongside": [
+      {
+        "name": "Shelby GT350 (1965–1966)",
+        "id": "ford-mustang-shelby-gt350-1965"
+      },
+      {
+        "name": "Ford Mustang Boss 302 (1969–1970)",
+        "id": "ford-mustang-boss-302-1969"
+      }
+    ],
+    "quick": "The original Mustang, 1964½–1973: the car that created the pony-car class, at $2,368, then grew bigger and faster with almost every update.",
+    "story": [
+      "Ford showed the Mustang at the New York World's Fair and put it on sale on April 17, 1964, as an early 1965 model, at $2,368, or $25,700 in 2026 dollars. It used the compact Falcon's underpinnings under a long hood and a short rear deck, with a 6-cylinder as standard and V8s up to a 271-hp 289 on the options list, so buyers could make it an economy car or a fast one. Ford sold 418,812 in its first 12 months, and a fastback joined the hardtop and convertible for the 1965 model year.",
+      "The Mustang grew with almost every redesign: larger for 1967, to make room for a 390 big-block V8, larger again for 1969, when the Mach 1, Boss 302 and Boss 429 arrived, and largest of all for 1971. Car and Driver timed a 1964 convertible with the 271-hp 289 at 8.2 seconds to 60 mph and a 1969 Mach 1 with the 428 Cobra Jet at 5.7. Ford built almost 3 million of the first generation, from March 1964 to June 1973."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Ford Mustang"
+    ]
+  },
+  {
+    "id": "ford-mustang-2nd-gen",
+    "name": "Ford Mustang II (second generation)",
+    "aka": [
+      "1974–1978 Mustang",
+      "Mustang II",
+      "Mustang II Mach 1",
+      "Cobra II",
+      "King Cobra",
+      "Ghia"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Dearborn, Michigan; Edison, New Jersey; and Milpitas, California)",
+    "country": "United States",
+    "years": "1974–1978",
+    "start": 1974,
+    "end": 1978,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Subcompact: 2-door hardtop or 3-door hatchback",
+    "engine": "2.3-liter 4-cylinder, 2.8-liter V6 or, from 1975, 5.0-liter (302) V8",
+    "drive": "Rear-wheel drive",
+    "gearbox": "4-speed manual or 3-speed automatic",
+    "specsFor": "1974 Ford Mustang II Mach 1 hatchback, 2.8-liter V6, 4-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 105,
+      "note": "2.8-liter V6",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "weight": {
+      "kg": 1293,
+      "lb": 2850,
+      "note": "Test weight, 1974 Mach 1",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "zero60": {
+      "sec": 12.2,
+      "kind": "tested",
+      "note": "Car and Driver test, 1974 Mach 1",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "top": {
+      "na": "No figure published by Ford"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "count": 1107718,
+      "approx": false,
+      "note": "Built, 1974–1978 model years, Ford figures as tabled by Wikipedia",
+      "src": "https://en.wikipedia.org/wiki/Ford_Mustang"
+    },
+    "versions": [
+      {
+        "name": "2.8-liter V6, 4-speed manual",
+        "detail": "105 hp in the tested car"
+      },
+      {
+        "name": "Cobra II, 302 V8",
+        "detail": "1976–1978",
+        "specsFor": "1976 Ford Mustang II Cobra II hatchback, 302 V8, 4-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 140,
+          "note": "5.0-liter (302) V8, as listed for Car and Driver's test car",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "weight": {
+          "kg": 1383,
+          "lb": 3050,
+          "note": "Test weight, 1976 Cobra II",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "zero60": {
+          "sec": 8.9,
+          "kind": "tested",
+          "note": "Car and Driver test, 1976 Cobra II",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "top": {
+          "na": "No figure published by Ford"
+        },
+        "mpg": {
+          "na": "fueleconomy.gov starts with 1984 models"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Ford Mustang (first generation)",
+      "id": "ford-mustang-1st-gen"
+    },
+    "successor": {
+      "name": "Ford Mustang (third generation)",
+      "id": "ford-mustang-3rd-gen"
+    },
+    "quick": "The Mustang II, 1974–1978: smaller, lighter and based on the Pinto, launched just as the fuel crisis hit, and Motor Trend's 1974 Car of the Year.",
+    "story": [
+      "Ford introduced the Mustang II on September 21, 1973, for the 1974 model year: much smaller and lighter than the car it replaced, on the Pinto's platform, at $3,134 for a hardtop, or $21,400 in 2026 dollars. It arrived just as the fuel crisis took hold, with a 2.3-liter 4-cylinder as standard and a 2.8-liter V6 optional, and no V8 at all in its first year. Motor Trend named it its 1974 Car of the Year, and Ford's figures show 385,993 for the 1974 model year.",
+      "A 302 V8 returned for 1975, and the Cobra II and, for 1978, the King Cobra dressed it up with stripes, scoops and spoilers. Car and Driver timed a 1974 Mach 1 with the 105-hp V6 at 12.2 seconds to 60 mph and a 1976 Cobra II with the V8 at 8.9. Ford built 1,107,718 in 5 model years before the larger Fox-platform Mustang replaced it for 1979."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Ford Mustang"
+    ]
+  },
+  {
+    "id": "ford-mustang-3rd-gen",
+    "name": "Ford Mustang (third generation)",
+    "aka": [
+      "1979–1993 Mustang",
+      "Fox-body Mustang",
+      "Fox Mustang",
+      "Mustang GT",
+      "Mustang LX 5.0",
+      "Mustang Cobra",
+      "1993 SVT Cobra"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Dearborn, Michigan, and Milpitas, California)",
+    "country": "United States",
+    "years": "1979–1993",
+    "start": 1979,
+    "end": 1993,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Pony car: coupe (notchback), hatchback and, from 1983, convertible",
+    "engine": "2.3-liter 4-cylinder, with turbo versions; 6-cylinder or V6; 5.0-liter V8",
+    "drive": "Rear-wheel drive",
+    "gearbox": "4-speed or 5-speed manual, 3-speed or 4-speed automatic",
+    "specsFor": "1987 Ford Mustang GT hatchback, 5.0-liter V8, 5-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 225,
+      "note": "5.0-liter V8, 1987–1992",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "weight": {
+      "kg": 1451,
+      "lb": 3200,
+      "note": "Test weight, 1987 GT",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "zero60": {
+      "sec": 6.3,
+      "kind": "tested",
+      "note": "Car and Driver test, 1987 GT",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "top": {
+      "na": "No figure published by Ford"
+    },
+    "mpg": {
+      "combined": 17,
+      "city": 15,
+      "hwy": 22,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/3032.shtml",
+      "note": "EPA combined, 1987, 5.0-liter V8, 5-speed manual (fueleconomy.gov starts with 1984 models)"
+    },
+    "built": {
+      "count": 2518948,
+      "approx": true,
+      "note": "Built, 1979–1993 model years, from the production table in Wikipedia's article; one year's split is missing, so treat it as approximate",
+      "src": "https://en.wikipedia.org/wiki/Ford_Mustang_(third_generation)"
+    },
+    "versions": [
+      {
+        "name": "5.0-liter V8, 5-speed manual",
+        "detail": "225 hp from 1987"
+      },
+      {
+        "name": "2.3-liter 4-cylinder, 5-speed manual",
+        "detail": "The base engine",
+        "specsFor": "1987 Ford Mustang LX, 2.3-liter 4-cylinder, 5-speed manual, US market (EPA figure)",
+        "power": {
+          "na": "No figure on record"
+        },
+        "weight": {
+          "na": "No figure on record"
+        },
+        "zero60": {
+          "na": "No test on record"
+        },
+        "top": {
+          "na": "No figure published by Ford"
+        },
+        "mpg": {
+          "combined": 24,
+          "city": 22,
+          "hwy": 28,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/3030.shtml",
+          "note": "EPA combined, 1987, 2.3-liter, 5-speed manual"
+        }
+      },
+      {
+        "name": "1982 GT",
+        "detail": "The high-output 5.0 returns; 157 hp",
+        "specsFor": "1982 Ford Mustang GT hatchback, 5.0-liter V8, 4-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 157,
+          "note": "5.0-liter V8, 1982",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "weight": {
+          "kg": 1361,
+          "lb": 3000,
+          "note": "Test weight, 1982 GT",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "zero60": {
+          "sec": 8.1,
+          "kind": "tested",
+          "note": "Car and Driver test, 1982 GT",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "top": {
+          "na": "No figure published by Ford"
+        },
+        "mpg": {
+          "na": "fueleconomy.gov starts with 1984 models"
+        }
+      },
+      {
+        "name": "1993 SVT Cobra",
+        "detail": "235 hp; the first SVT Mustang",
+        "specsFor": "1993 Ford Mustang SVT Cobra, 5-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 235,
+          "note": "5.0-liter V8",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "weight": {
+          "kg": 1519,
+          "lb": 3348,
+          "note": "Test weight, 1993 SVT Cobra",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "zero60": {
+          "sec": 5.6,
+          "kind": "tested",
+          "note": "Car and Driver test, 1993 SVT Cobra",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "top": {
+          "na": "No figure published by Ford"
+        },
+        "mpg": {
+          "combined": 17,
+          "city": 15,
+          "hwy": 22,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/9755.shtml",
+          "note": "EPA combined, 1993 Mustang, 5.0-liter V8, 5-speed manual"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Ford Mustang (second generation)",
+      "id": "ford-mustang-2nd-gen"
+    },
+    "successor": {
+      "name": "Ford Mustang (fourth generation)",
+      "id": "ford-mustang-4th-gen"
+    },
+    "alongside": [
+      {
+        "name": "Ford Mustang SVO",
+        "id": "ford-mustang-svo"
+      }
+    ],
+    "quick": "The Fox-body Mustang, 1979–1993: larger than the Mustang II, the 5.0 that made it fast again, and the longest-running Mustang of all.",
+    "story": [
+      "The 1979 Mustang moved to Ford's new Fox platform: larger than the Mustang II, as a coupe or a hatchback, at $4,494 for the coupe, or $20,800 in 2026 dollars, and it paced the 1979 Indianapolis 500. Engines ran from a 2.3-liter 4-cylinder, with a turbocharged version, to a 5.0-liter V8, and a convertible returned for 1983. The 1982 GT brought back a high-output 5.0, and the turbocharged SVO followed for 1984.",
+      "For 1987 a smoother nose and a 225-hp 5.0 made the GT and the lighter LX 5.0 a cheap way to go very fast; Car and Driver timed a 1987 GT at 6.3 seconds to 60 mph and a 1989 LX at 6.2. The Fox-body car ran for 15 model years, longer than any other Mustang, ending with the first SVT Cobra for 1993, and Ford built about 2.5 million."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Ford Mustang"
+    ]
+  },
+  {
+    "id": "ford-mustang-4th-gen",
+    "name": "Ford Mustang (fourth generation)",
+    "aka": [
+      "1994–2004 Mustang",
+      "SN95",
+      "New Edge Mustang",
+      "Mustang GT",
+      "Mustang Bullitt (2001)",
+      "Mustang Mach 1 (2003–2004)",
+      "SVT Cobra",
+      "Terminator Cobra"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Dearborn Assembly Plant, Dearborn, Michigan)",
+    "country": "United States",
+    "years": "1994–2004",
+    "start": 1994,
+    "end": 2004,
+    "shop": {
+      "cargurus": "d2"
+    },
+    "body": "Pony car: coupe and convertible",
+    "engine": "3.8-liter or 3.9-liter V6, 5.0-liter V8 to 1995, then 4.6-liter V8",
+    "drive": "Rear-wheel drive",
+    "gearbox": "5-speed or 6-speed manual, or 4-speed automatic",
+    "specsFor": "1994 Ford Mustang GT coupe, 5.0-liter V8, 5-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 215,
+      "note": "5.0-liter V8, 1994–1995",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "weight": {
+      "kg": 1510,
+      "lb": 3330,
+      "note": "Test weight, 1994 GT",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "zero60": {
+      "sec": 6.1,
+      "kind": "tested",
+      "note": "Car and Driver test, 1994 GT",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "top": {
+      "na": "No figure published by Ford"
+    },
+    "mpg": {
+      "combined": 18,
+      "city": 15,
+      "hwy": 23,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/10733.shtml",
+      "note": "EPA combined, 1994, 5.0-liter V8, 5-speed manual"
+    },
+    "built": {
+      "count": 1562529,
+      "approx": true,
+      "note": "Sold in the US: the 1994–1999 model years plus the 2000–2004 calendar years, from the tables in Wikipedia's Ford Mustang article",
+      "src": "https://en.wikipedia.org/wiki/Ford_Mustang"
+    },
+    "versions": [
+      {
+        "name": "GT, 5.0-liter V8",
+        "detail": "215 hp, 1994–1995"
+      },
+      {
+        "name": "3.8-liter V6, manual",
+        "detail": "145 hp; the base engine",
+        "specsFor": "1994 Ford Mustang V6 coupe, 3.8-liter, 5-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 145,
+          "note": "3.8-liter V6, 1994",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "weight": {
+          "kg": 1397,
+          "lb": 3080,
+          "note": "Test weight, 1994 V6 coupe",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "zero60": {
+          "sec": 8.3,
+          "kind": "tested",
+          "note": "Car and Driver test, 1994 V6 coupe",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "top": {
+          "na": "No figure published by Ford"
+        },
+        "mpg": {
+          "combined": 21,
+          "city": 18,
+          "hwy": 27,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/10731.shtml",
+          "note": "EPA combined, 1994, 3.8-liter V6, 5-speed manual"
+        }
+      },
+      {
+        "name": "1999 GT, 4.6-liter V8",
+        "detail": "260 hp; New Edge styling",
+        "specsFor": "1999 Ford Mustang GT coupe, 4.6-liter V8, 5-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 260,
+          "note": "4.6-liter V8, 1999–2004",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "weight": {
+          "kg": 1483,
+          "lb": 3270,
+          "note": "Test weight, 1999 GT",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "zero60": {
+          "sec": 5.5,
+          "kind": "tested",
+          "note": "Car and Driver test, 1999 GT",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "top": {
+          "na": "No figure published by Ford"
+        },
+        "mpg": {
+          "combined": 18,
+          "city": 15,
+          "hwy": 22,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/14867.shtml",
+          "note": "EPA combined, 1999, 4.6-liter V8, 5-speed manual"
+        }
+      },
+      {
+        "name": "2003 Mach 1",
+        "detail": "305 hp, 4-valve 4.6-liter V8",
+        "specsFor": "2003 Ford Mustang Mach 1 Premium coupe, 5-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 305,
+          "note": "4.6-liter 4-valve V8",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "weight": {
+          "kg": 1572,
+          "lb": 3465,
+          "note": "Test weight, 2003 Mach 1",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "zero60": {
+          "sec": 5.2,
+          "kind": "tested",
+          "note": "Car and Driver test, 2003 Mach 1",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "top": {
+          "na": "No figure published by Ford"
+        },
+        "mpg": {
+          "combined": 18,
+          "city": 15,
+          "hwy": 23,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/18412.shtml",
+          "note": "EPA combined, 2003 Mustang, 4.6-liter 4-valve V8, 5-speed manual"
+        }
+      },
+      {
+        "name": "2003 SVT Cobra",
+        "detail": "390 hp, supercharged",
+        "specsFor": "2003 Ford Mustang SVT Cobra coupe, 6-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 390,
+          "note": "4.6-liter supercharged V8",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "weight": {
+          "kg": 1662,
+          "lb": 3665,
+          "note": "Test weight, 2003 SVT Cobra",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "zero60": {
+          "sec": 4.5,
+          "kind": "tested",
+          "note": "Car and Driver test, 2003 SVT Cobra",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "top": {
+          "na": "No figure published by Ford"
+        },
+        "mpg": {
+          "combined": 17,
+          "city": 15,
+          "hwy": 21,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/18413.shtml",
+          "note": "EPA combined, 2003, 4.6-liter V8, 6-speed manual"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Ford Mustang (third generation)",
+      "id": "ford-mustang-3rd-gen"
+    },
+    "successor": {
+      "name": "Ford Mustang (fifth generation)",
+      "id": "ford-mustang-5th-gen"
+    },
+    "alongside": [
+      {
+        "name": "Ford SVT Mustang Cobra R (2000)",
+        "id": "ford-svt-mustang-cobra-r"
+      }
+    ],
+    "quick": "The SN95 Mustang, 1994–2004: rounder styling with cues from the original, Motor Trend's 1994 Car of the Year, the modular V8 and the 'New Edge' restyle.",
+    "story": [
+      "The 1994 Mustang, code-named SN95, kept a heavily modified Fox platform under new, rounder styling with cues from the 1960s cars, and came only as a coupe or a convertible; the hatchback was gone. It started at $13,365, or $30,300 in 2026 dollars, with a 3.8-liter V6 as standard and a 215-hp 5.0-liter V8 in the GT, and Motor Trend named it its 1994 Car of the Year. For 1996 an overhead-cam 4.6-liter V8 from Ford's new modular family replaced the 5.0.",
+      "A sharper restyle for 1999, known as the New Edge, raised the GT to 260 hp, and Car and Driver timed one at 5.5 seconds to 60 mph, against 6.1 for a 1994 GT. The SVT Cobra reached 390 hp with a supercharger for 2003 and 2004, and the 2001 Bullitt and the 2003–2004 Mach 1 revived famous names. Ford built the last one in Dearborn on May 10, 2004, after about 1.56 million had been sold in the US."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Ford Mustang"
+    ]
+  },
+  {
+    "id": "ford-mustang-5th-gen",
+    "name": "Ford Mustang (fifth generation)",
+    "aka": [
+      "2005–2014 Mustang",
+      "S197",
+      "Mustang GT",
+      "Mustang V6",
+      "Mustang Bullitt (2008–2009)",
+      "Mustang GT/CS",
+      "Mustang 5.0 Coyote"
+    ],
+    "make": "Ford",
+    "maker": "Ford (AutoAlliance International, Flat Rock, Michigan)",
+    "country": "United States",
+    "years": "2005–2014",
+    "start": 2005,
+    "end": 2014,
+    "shop": {
+      "cargurus": "d2"
+    },
+    "body": "Pony car: coupe and convertible",
+    "engine": "4.0-liter V6 or 4.6-liter V8; 3.7-liter V6 or 5.0-liter V8 from 2011",
+    "drive": "Rear-wheel drive",
+    "gearbox": "5-speed or 6-speed manual, 5-speed or 6-speed automatic",
+    "specsFor": "2005 Ford Mustang GT Premium coupe, 4.6-liter V8, 5-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 300,
+      "note": "4.6-liter 3-valve V8, 2005–2009",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "weight": {
+      "kg": 1580,
+      "lb": 3483,
+      "note": "Test weight, 2005 GT Premium",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "zero60": {
+      "sec": 4.8,
+      "kind": "tested",
+      "note": "Car and Driver test, 2005 GT Premium (its quickest of several)",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "top": {
+      "na": "No figure published by Ford"
+    },
+    "mpg": {
+      "combined": 18,
+      "city": 15,
+      "hwy": 23,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/20611.shtml",
+      "note": "EPA combined, 2005, 4.6-liter V8, 5-speed manual"
+    },
+    "built": {
+      "count": 1006975,
+      "approx": true,
+      "note": "Sold in the US, 2005–2014 calendar years, from the tables in Wikipedia's Ford Mustang article",
+      "src": "https://en.wikipedia.org/wiki/Ford_Mustang"
+    },
+    "versions": [
+      {
+        "name": "GT, 4.6-liter V8",
+        "detail": "300 hp, 2005–2009; 315 hp for 2010"
+      },
+      {
+        "name": "4.0-liter V6",
+        "detail": "210 hp, 2005–2010",
+        "specsFor": "2005 Ford Mustang V6 Premium coupe, 4.0-liter, 5-speed automatic, US market (Car and Driver test)",
+        "power": {
+          "hp": 210,
+          "note": "4.0-liter V6",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "weight": {
+          "kg": 1565,
+          "lb": 3450,
+          "note": "Test weight, 2005 V6 Premium",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "zero60": {
+          "sec": 6.9,
+          "kind": "tested",
+          "note": "Car and Driver test, 2005 V6 Premium",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "top": {
+          "na": "No figure published by Ford"
+        },
+        "mpg": {
+          "combined": 19,
+          "city": 17,
+          "hwy": 23,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/20608.shtml",
+          "note": "EPA combined, 2005, 4.0-liter V6, 5-speed automatic"
+        }
+      },
+      {
+        "name": "2008 Bullitt",
+        "detail": "315 hp, 4.6-liter V8, manual",
+        "specsFor": "2008 Ford Mustang Bullitt coupe, 5-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 315,
+          "note": "4.6-liter V8",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "weight": {
+          "kg": 1620,
+          "lb": 3572,
+          "note": "Test weight, 2008 Bullitt",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "zero60": {
+          "sec": 5.0,
+          "kind": "tested",
+          "note": "Car and Driver test, 2008 Bullitt",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "top": {
+          "na": "No figure published by Ford"
+        },
+        "mpg": {
+          "combined": 18,
+          "city": 15,
+          "hwy": 23,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/24256.shtml",
+          "note": "EPA combined, 2008 Mustang, 4.6-liter V8, 5-speed manual"
+        }
+      },
+      {
+        "name": "2011 GT, 5.0-liter Coyote V8",
+        "detail": "412 hp; 420 hp for 2013–2014",
+        "specsFor": "2011 Ford Mustang GT coupe, 5.0-liter V8, 6-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 412,
+          "note": "5.0-liter V8, 390 lb-ft, 2011–2012",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "weight": {
+          "kg": 1635,
+          "lb": 3605,
+          "note": "Test weight, 2011 GT",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "zero60": {
+          "sec": 4.6,
+          "kind": "tested",
+          "note": "Car and Driver test, 2011 GT",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "top": {
+          "na": "No figure published by Ford"
+        },
+        "mpg": {
+          "combined": 20,
+          "city": 17,
+          "hwy": 26,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/30041.shtml",
+          "note": "EPA combined, 2011, 5.0-liter V8, 6-speed manual"
+        }
+      },
+      {
+        "name": "2011 V6, 3.7-liter",
+        "detail": "305 hp",
+        "specsFor": "2011 Ford Mustang V6 Premium coupe, 3.7-liter, 6-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 305,
+          "note": "3.7-liter V6",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "weight": {
+          "kg": 1580,
+          "lb": 3483,
+          "note": "Test weight, 2011 V6 Premium",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "zero60": {
+          "sec": 5.4,
+          "kind": "tested",
+          "note": "Car and Driver test, 2011 V6 Premium",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "top": {
+          "na": "No figure published by Ford"
+        },
+        "mpg": {
+          "combined": 23,
+          "city": 19,
+          "hwy": 30,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/30039.shtml",
+          "note": "EPA combined, 2011, 3.7-liter V6, 6-speed automatic"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Ford Mustang (fourth generation)",
+      "id": "ford-mustang-4th-gen"
+    },
+    "successor": {
+      "name": "Ford Mustang (sixth generation)",
+      "id": "ford-mustang-6th-gen"
+    },
+    "alongside": [
+      {
+        "name": "Shelby GT500 (2007–2014)",
+        "id": "ford-mustang-shelby-gt500-2007"
+      },
+      {
+        "name": "Ford Mustang Boss 302 (2012–2013)",
+        "id": "ford-mustang-boss-302-2012"
+      }
+    ],
+    "quick": "The S197 Mustang, 2005–2014: retro styling from the late 1960s, a new platform, and from 2011 the 412-hp Coyote V8 and a 305-hp V6.",
+    "story": [
+      "The 2005 Mustang, the S197, had a new platform with a solid rear axle and retro styling drawn from the late-1960s cars, and Ford built it at the AutoAlliance plant in Flat Rock, Michigan, from September 2004. It started at $18,785 for a V6 before delivery, or $32,300 in 2026 dollars, and the GT's 4.6-liter 3-valve V8 made 300 hp; Car and Driver timed a 2005 GT Premium at 4.8 seconds to 60 mph. The Shelby GT500 returned for 2007 with 500 hp, and a Bullitt followed for 2008.",
+      "A 2010 restyle came before a bigger change for 2011: a 412-hp 5.0-liter V8, the Coyote, in the GT and a 305-hp 3.7-liter V6 in the base car, which Car and Driver timed at 4.6 and 5.4 seconds to 60 mph. The Boss 302 returned for 2012 and 2013, and the 2013 Shelby GT500 reached 662 hp. Ford sold about 1 million in the US from 2005 to 2014, and built the last in June 2014."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Ford Mustang"
+    ]
+  },
+  {
+    "id": "ford-mustang-6th-gen",
+    "name": "Ford Mustang (sixth generation)",
+    "aka": [
+      "2015–2023 Mustang",
+      "S550",
+      "Mustang EcoBoost",
+      "Mustang GT",
+      "Mustang V6",
+      "Mustang Bullitt (2019–2020)",
+      "Mustang California Special"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Flat Rock Assembly Plant, Flat Rock, Michigan)",
+    "country": "United States",
+    "years": "2015–2023",
+    "start": 2015,
+    "end": 2023,
+    "shop": {
+      "cargurus": "d2"
+    },
+    "body": "Pony car: fastback coupe and convertible",
+    "engine": "2.3-liter turbo 4-cylinder, 3.7-liter V6 (to 2017) or 5.0-liter V8",
+    "drive": "Rear-wheel drive",
+    "gearbox": "6-speed manual; 6-speed automatic, then 10-speed from 2018",
+    "specsFor": "2015 Ford Mustang GT Premium fastback, 5.0-liter V8, 6-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 435,
+      "note": "5.0-liter V8, 400 lb-ft, 2015–2017",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "weight": {
+      "kg": 1681,
+      "lb": 3705,
+      "note": "Test weight, 2015 GT Premium",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "zero60": {
+      "sec": 4.4,
+      "kind": "tested",
+      "note": "Car and Driver test, 2015 GT Premium, manual",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "top": {
+      "na": "No figure published by Ford"
+    },
+    "mpg": {
+      "combined": 19,
+      "city": 15,
+      "hwy": 25,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/35661.shtml",
+      "note": "EPA combined, 2015, 5.0-liter V8, 6-speed manual"
+    },
+    "built": {
+      "count": 668153,
+      "approx": true,
+      "note": "Sold in the US, 2015–2023 calendar years, from the tables in Wikipedia's Ford Mustang article",
+      "src": "https://en.wikipedia.org/wiki/Ford_Mustang"
+    },
+    "versions": [
+      {
+        "name": "GT, 5.0-liter V8, manual",
+        "detail": "435 hp; 460 hp from 2018"
+      },
+      {
+        "name": "2.3-liter EcoBoost",
+        "detail": "310 hp; 330 hp with the 2020–2023 High Performance Package",
+        "specsFor": "2018 Ford Mustang EcoBoost fastback, 6-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 310,
+          "note": "2.3-liter turbo 4-cylinder, 350 lb-ft, 2018–2023",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "weight": {
+          "kg": 1602,
+          "lb": 3532,
+          "note": "Test weight, 2018 EcoBoost",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "zero60": {
+          "sec": 5.1,
+          "kind": "tested",
+          "note": "Car and Driver test, 2018 EcoBoost",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "top": {
+          "na": "No figure published by Ford"
+        },
+        "mpg": {
+          "combined": 25,
+          "city": 21,
+          "hwy": 32,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/39648.shtml",
+          "note": "EPA combined, 2018, 2.3-liter, 10-speed automatic"
+        }
+      },
+      {
+        "name": "3.7-liter V6",
+        "detail": "300 hp; 2015–2017",
+        "specsFor": "2015 Ford Mustang V6 fastback, 6-speed automatic, US market (Car and Driver test)",
+        "power": {
+          "hp": 300,
+          "note": "3.7-liter V6, 280 lb-ft",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "weight": {
+          "kg": 1599,
+          "lb": 3526,
+          "note": "Test weight, 2015 V6",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "zero60": {
+          "sec": 5.5,
+          "kind": "tested",
+          "note": "Car and Driver test, 2015 V6",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "top": {
+          "na": "No figure published by Ford"
+        },
+        "mpg": {
+          "combined": 22,
+          "city": 19,
+          "hwy": 27,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/35660.shtml",
+          "note": "EPA combined, 2015, 3.7-liter V6, 6-speed automatic"
+        }
+      },
+      {
+        "name": "2018 GT, 10-speed automatic",
+        "detail": "460 hp",
+        "specsFor": "2018 Ford Mustang GT Premium fastback, Performance Pack, 10-speed automatic, US market (Car and Driver test)",
+        "power": {
+          "hp": 460,
+          "note": "5.0-liter V8, 420 lb-ft, 2018–2023",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "weight": {
+          "kg": 1746,
+          "lb": 3850,
+          "note": "Test weight, 2018 GT Premium",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "zero60": {
+          "sec": 3.8,
+          "kind": "tested",
+          "note": "Car and Driver test, 2018 GT Premium, automatic",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "top": {
+          "na": "No figure published by Ford"
+        },
+        "mpg": {
+          "combined": 19,
+          "city": 16,
+          "hwy": 25,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/39650.shtml",
+          "note": "EPA combined, 2018, 5.0-liter V8, 10-speed automatic"
+        }
+      },
+      {
+        "name": "Bullitt",
+        "detail": "2019–2020; 480 hp, manual only",
+        "specsFor": "2019 Ford Mustang Bullitt, 6-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 480,
+          "note": "5.0-liter V8, 420 lb-ft",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "weight": {
+          "kg": 1733,
+          "lb": 3820,
+          "note": "Test weight, 2019 Bullitt",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "zero60": {
+          "sec": 4.4,
+          "kind": "tested",
+          "note": "Car and Driver test, 2019 Bullitt",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "top": {
+          "na": "No figure published by Ford"
+        },
+        "mpg": {
+          "combined": 18,
+          "city": 15,
+          "hwy": 24,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/40327.shtml",
+          "note": "EPA combined, 2019 Bullitt"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Ford Mustang (fifth generation)",
+      "id": "ford-mustang-5th-gen"
+    },
+    "successor": {
+      "name": "Ford Mustang (seventh generation)",
+      "id": "ford-mustang-7th-gen"
+    },
+    "alongside": [
+      {
+        "name": "Shelby GT350 (2015–2020)",
+        "id": "ford-mustang-shelby-gt350-2015"
+      },
+      {
+        "name": "Shelby GT500 (2020–2022)",
+        "id": "ford-mustang-shelby-gt500-2020"
+      },
+      {
+        "name": "Ford Mustang Mach 1 (2021–2023)",
+        "id": "ford-mustang-mach-1-2021"
+      }
+    ],
+    "quick": "The S550 Mustang, 2015–2023: independent rear suspension on every car, a turbo 4-cylinder EcoBoost, right-hand drive for export and 3 Shelbys.",
+    "story": [
+      "The 2015 Mustang, the S550, was the first with independent rear suspension on every version and the first Mustang Ford built in right-hand drive to sell around the world, at the Flat Rock plant from August 2014. It offered a 300-hp 3.7-liter V6, a 310-hp 2.3-liter EcoBoost 4-cylinder and a 435-hp 5.0-liter V8 in the GT, from $23,600, $25,170 and $32,100 before delivery, or $33,500, $35,700 and $45,500 in 2026 dollars. Car and Driver ran a 2015 GT Premium with the manual to 60 mph in 4.4 seconds.",
+      "The 2018 update dropped the V6, raised the GT to 460 hp and added a 10-speed automatic, and Car and Driver ran a 2018 GT Premium with the Performance Pack and the automatic to 60 mph in 3.8 seconds. The Shelby GT350, GT350R and GT500, the Bullitt and the Mach 1 all came from this generation. Ford sold 668,153 in the US from 2015 to 2023, the most, 122,349, in 2015, and built the last in April 2023."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Ford Mustang"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/ford-mustang/",
+      "title": "The Ford Mustang Buyer's Guide",
+      "blurb": "The 2017–2023 and 2024–2026 Mustangs, EcoBoost or GT, the Shelby GT350 and GT500, the Bullitt, Mach 1, Dark Horse and GTD, and the used checklist with the recalls, in 6 chapters."
+    }
+  },
+  {
+    "id": "ford-mustang-7th-gen",
+    "name": "Ford Mustang (seventh generation)",
+    "aka": [
+      "2024–2026 Mustang",
+      "S650",
+      "Mustang EcoBoost",
+      "Mustang GT",
+      "Mustang GT Premium",
+      "Mustang convertible"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Flat Rock Assembly Plant, Flat Rock, Michigan)",
+    "country": "United States",
+    "years": "2024–present",
+    "start": 2024,
+    "end": null,
+    "shop": {
+      "cargurus": "d2"
+    },
+    "body": "Pony car: fastback coupe and convertible",
+    "engine": "2.3-liter turbo 4-cylinder or 5.0-liter V8",
+    "drive": "Rear-wheel drive",
+    "gearbox": "10-speed automatic; 6-speed manual on V8 cars",
+    "specsFor": "2024 Ford Mustang GT Premium fastback, Performance Pack, 6-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 480,
+      "note": "5.0-liter V8, 415 lb-ft (486 hp, 418 lb-ft with the active exhaust)",
+      "src": "https://en.wikipedia.org/wiki/Ford_Mustang_(seventh_generation)"
+    },
+    "weight": {
+      "kg": 1792,
+      "lb": 3950,
+      "note": "Test weight, 2024 GT Premium",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "zero60": {
+      "sec": 4.2,
+      "kind": "tested",
+      "note": "Car and Driver test, 2024 GT Premium, manual",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "top": {
+      "na": "No figure published by Ford"
+    },
+    "mpg": {
+      "combined": 17,
+      "city": 14,
+      "hwy": 23,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/46647.shtml",
+      "note": "EPA combined, 2024, 5.0-liter V8, 6-speed manual (18 for 2026)"
+    },
+    "built": {
+      "count": 89336,
+      "approx": true,
+      "note": "Sold in the US, 2024–2025 calendar years; the first months include the last 2023 models",
+      "src": "https://www.fromtheroad.ford.com/us/en/articles/2026/ford-2025-full-year-us-sales-results"
+    },
+    "versions": [
+      {
+        "name": "GT, 6-speed manual",
+        "detail": "480 hp; 486 hp with the active exhaust"
+      },
+      {
+        "name": "2.3-liter EcoBoost",
+        "detail": "315 hp, 350 lb-ft",
+        "specsFor": "2024 Ford Mustang EcoBoost Premium fastback, High Performance Package, 10-speed automatic, US market (Car and Driver test)",
+        "power": {
+          "hp": 315,
+          "note": "2.3-liter turbo 4-cylinder, 350 lb-ft",
+          "src": "https://en.wikipedia.org/wiki/Ford_Mustang_(seventh_generation)"
+        },
+        "weight": {
+          "kg": 1656,
+          "lb": 3650,
+          "note": "Test weight, 2024 EcoBoost Premium",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "zero60": {
+          "sec": 4.5,
+          "kind": "tested",
+          "note": "Car and Driver test, 2024 EcoBoost Premium",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "top": {
+          "na": "No figure published by Ford"
+        },
+        "mpg": {
+          "combined": 26,
+          "city": 22,
+          "hwy": 33,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/46646.shtml",
+          "note": "EPA combined, 2024, 2.3-liter (the same for 2025–2026)"
+        }
+      },
+      {
+        "name": "GT, 10-speed automatic",
+        "detail": "486 hp with the active exhaust",
+        "specsFor": "2026 Ford Mustang GT Premium fastback, 10-speed automatic, US market (Car and Driver test)",
+        "power": {
+          "hp": 486,
+          "note": "5.0-liter V8, 418 lb-ft, with the active exhaust",
+          "src": "https://en.wikipedia.org/wiki/Ford_Mustang_(seventh_generation)"
+        },
+        "weight": {
+          "kg": 1807,
+          "lb": 3984,
+          "note": "Test weight, 2026 GT Premium",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "zero60": {
+          "sec": 3.7,
+          "kind": "tested",
+          "note": "Car and Driver test, 2026 GT Premium, automatic",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "top": {
+          "na": "No figure published by Ford"
+        },
+        "mpg": {
+          "combined": 19,
+          "city": 16,
+          "hwy": 24,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/49792.shtml",
+          "note": "EPA combined, 2026, 5.0-liter V8, 10-speed automatic"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Ford Mustang (sixth generation)",
+      "id": "ford-mustang-6th-gen"
+    },
+    "successor": null,
+    "alongside": [
+      {
+        "name": "Ford Mustang Dark Horse",
+        "id": "ford-mustang-dark-horse"
+      },
+      {
+        "name": "Ford Mustang GTD",
+        "id": "ford-mustang-gtd"
+      }
+    ],
+    "quick": "The seventh Mustang, 2024 on: a cabin built around screens, a 315-hp EcoBoost, a 480-hp V8 that still offers a manual, and the Dark Horse.",
+    "story": [
+      "Ford revealed the seventh-generation Mustang, the S650, in September 2022 and began building it at Flat Rock in May 2023 as a 2024 model. It kept the 2.3-liter EcoBoost, now with 315 hp, and a 480-hp 5.0-liter V8 in the GT, still with a 6-speed manual on V8 cars, and its cabin is built around a digital instrument panel and a center touchscreen. It started at $30,920 for the EcoBoost and $41,495 for the GT before delivery, or $33,100 and $44,500 in 2026 dollars.",
+      "Car and Driver ran a 2024 GT Premium with the Performance Pack and the manual to 60 mph in 4.2 seconds and a 2026 GT Premium with the automatic in 3.7. The 500-hp Dark Horse arrived with it, and the 795-hp Dark Horse SC and the 815-hp GTD sit at the top of the range. Its recalls include 26V547, for engine-bay wiring ground connections on 2024–2026 cars. Ford sold 44,003 in the US in 2024 and 45,333 in 2025."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Ford Mustang"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/ford-mustang/",
+      "title": "The Ford Mustang Buyer's Guide",
+      "blurb": "The 2017–2023 and 2024–2026 Mustangs, EcoBoost or GT, the Shelby GT350 and GT500, the Bullitt, Mach 1, Dark Horse and GTD, and the used checklist with the recalls, in 6 chapters."
+    }
+  },
+  {
+    "id": "ford-mustang-shelby-gt350-1965",
+    "name": "Shelby GT350 (1965–1966)",
+    "aka": [
+      "1965 Shelby GT350",
+      "1966 Shelby GT350",
+      "GT350H",
+      "Hertz Shelby",
+      "GT350R",
+      "Shelby Mustang"
+    ],
+    "make": "Ford",
+    "maker": "Shelby American (Los Angeles, California)",
+    "country": "United States",
+    "years": "1965–1966",
+    "start": 1965,
+    "end": 1966,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "2-door fastback",
+    "engine": "4.7-liter (289) V8",
+    "drive": "Rear-wheel drive",
+    "gearbox": "4-speed manual; 3-speed automatic optional for 1966",
+    "specsFor": "1966 Shelby GT350 fastback, 4-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 306,
+      "note": "4.7-liter (289) V8, 329 lb-ft",
+      "src": "https://en.wikipedia.org/wiki/Shelby_Mustang"
+    },
+    "weight": {
+      "kg": 1270,
+      "lb": 2800,
+      "note": "Test weight, 1966 GT350",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "zero60": {
+      "sec": 6.9,
+      "kind": "tested",
+      "note": "Car and Driver test, 1966 GT350",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "top": {
+      "na": "No figure published by Ford"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "count": 2940,
+      "approx": false,
+      "note": "Built: 562 for 1965 and 2,378 for 1966, prototypes and drag cars included",
+      "src": "https://en.wikipedia.org/wiki/Shelby_Mustang"
+    },
+    "predecessor": null,
+    "successor": {
+      "name": "Shelby GT350 (2015–2020)",
+      "id": "ford-mustang-shelby-gt350-2015"
+    },
+    "alongside": [
+      {
+        "name": "Ford Mustang (first generation)",
+        "id": "ford-mustang-1st-gen"
+      }
+    ],
+    "quick": "The first Shelby Mustang, 1965–1966: a fastback turned into a production-class racer by Carroll Shelby's team in Los Angeles, with 306 hp.",
+    "story": [
+      "Ford asked Carroll Shelby to turn its new Mustang into a car that could win in SCCA production-class racing, and Shelby American built the GT350 in Los Angeles from Mustang fastbacks. Its 289 V8 was reworked with a larger Holley 4-barrel carburetor to make 306 hp, every 1965 car was painted Wimbledon White, and 34 racing GT350Rs were built for competition; the model won the SCCA's B-Production championship 3 years running.",
+      "Shelby built 562 for 1965 and 2,378 for 1966, a total that includes about 1,000 sold to Hertz, which rented them out as the GT350H. Car and Driver timed a 1966 GT350 at 6.9 seconds to 60 mph. The big-block GT500 joined it for 1967, and the GT350 name returned on a Ford-built Mustang for 2015."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Shelby GT350",
+      "Ford Shelby GT350"
+    ]
+  },
+  {
+    "id": "ford-mustang-boss-302-1969",
+    "name": "Ford Mustang Boss 302 (1969–1970)",
+    "aka": [
+      "1969 Boss 302",
+      "1970 Boss 302",
+      "Boss 302 Mustang"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Dearborn, Michigan)",
+    "country": "United States",
+    "years": "1969–1970",
+    "start": 1969,
+    "end": 1970,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "2-door fastback (SportsRoof)",
+    "engine": "5.0-liter (302) V8",
+    "drive": "Rear-wheel drive",
+    "gearbox": "4-speed manual",
+    "specsFor": "1970 Ford Mustang Boss 302, 4-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 290,
+      "note": "5.0-liter (302) V8, 290 lb-ft",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "weight": {
+      "kg": 1619,
+      "lb": 3570,
+      "note": "Test weight, 1970 Boss 302",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "zero60": {
+      "sec": 6.5,
+      "kind": "tested",
+      "note": "Car and Driver test, 1970 Boss 302",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "top": {
+      "na": "No figure published by Ford"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "count": 8641,
+      "approx": false,
+      "note": "Built: 1,628 for 1969 and 7,013 for 1970",
+      "src": "https://en.wikipedia.org/wiki/Boss_302_Mustang"
+    },
+    "predecessor": null,
+    "successor": {
+      "name": "Ford Mustang Boss 302 (2012–2013)",
+      "id": "ford-mustang-boss-302-2012"
+    },
+    "alongside": [
+      {
+        "name": "Ford Mustang (first generation)",
+        "id": "ford-mustang-1st-gen"
+      }
+    ],
+    "quick": "The original Boss 302, 1969–1970: a Trans-Am homologation special with high-flow heads, a front spoiler and a rear wing.",
+    "story": [
+      "Ford built the Boss 302 so that it could race the Mustang in the SCCA's Trans-Am series, which limited engines to 5 liters. Its 302 V8 had large-port, canted-valve cylinder heads and was rated at 290 hp, and designer Larry Shinoda gave it a front spoiler, a rear wing, a blacked-out hood and its hockey-stick side stripes, making it one of the first production cars with both a front spoiler and a rear wing.",
+      "Ford built 1,628 for 1969 and 7,013 for 1970, when it had a suggested price of $3,720, or $32,200 in 2026 dollars. Car and Driver timed a 1970 at 6.5 seconds to 60 mph. The big-block Boss 429 was sold alongside it, and the Boss 302 name returned for 2012."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Ford Mustang Boss 302",
+      "Boss 302"
+    ]
+  },
+  {
+    "id": "ford-mustang-svo",
+    "name": "Ford Mustang SVO",
+    "aka": [
+      "1984 Mustang SVO",
+      "1985½ SVO",
+      "Mustang SVO",
+      "Special Vehicle Operations"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Dearborn, Michigan)",
+    "country": "United States",
+    "years": "1984–1986",
+    "start": 1984,
+    "end": 1986,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "3-door hatchback",
+    "engine": "2.3-liter turbo 4-cylinder, intercooled",
+    "drive": "Rear-wheel drive",
+    "gearbox": "5-speed manual",
+    "specsFor": "1984 Ford Mustang SVO, 5-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 175,
+      "note": "2.3-liter turbo 4-cylinder, 210 lb-ft, 1984–1985",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "weight": {
+      "kg": 1399,
+      "lb": 3085,
+      "note": "Test weight, 1984 SVO",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "zero60": {
+      "sec": 7.5,
+      "kind": "tested",
+      "note": "Car and Driver test, 1984 SVO",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "top": {
+      "na": "No figure published by Ford"
+    },
+    "mpg": {
+      "combined": 19,
+      "city": 17,
+      "hwy": 24,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/26678.shtml",
+      "note": "EPA combined, 1984 Mustang, 2.3-liter turbo, 5-speed manual, the SVO's engine and gearbox"
+    },
+    "built": {
+      "count": 9844,
+      "approx": false,
+      "note": "Built: 4,508 for 1984, 1,954 for 1985 and 3,382 for 1986",
+      "src": "https://en.wikipedia.org/wiki/Ford_Mustang_SVO"
+    },
+    "versions": [
+      {
+        "name": "1984",
+        "detail": "175 hp"
+      },
+      {
+        "name": "1985½ and 1986",
+        "detail": "205 hp",
+        "specsFor": "1985 Ford Mustang SVO, 5-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 205,
+          "note": "2.3-liter turbo 4-cylinder, 240 lb-ft",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "weight": {
+          "kg": 1397,
+          "lb": 3080,
+          "note": "Test weight, 1985 SVO",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "zero60": {
+          "sec": 6.8,
+          "kind": "tested",
+          "note": "Car and Driver test, 1985 SVO",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "top": {
+          "na": "No figure published by Ford"
+        },
+        "mpg": {
+          "combined": 19,
+          "city": 17,
+          "hwy": 24,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/128.shtml",
+          "note": "EPA combined, 1985 Mustang, 2.3-liter turbo, 5-speed manual"
+        }
+      }
+    ],
+    "predecessor": null,
+    "successor": null,
+    "alongside": [
+      {
+        "name": "Ford Mustang (third generation)",
+        "id": "ford-mustang-3rd-gen"
+      }
+    ],
+    "quick": "The SVO, 1984–1986: Ford's racing division's idea of a fast Mustang, with an intercooled turbo 4-cylinder, 4-wheel disc brakes and a European-style chassis.",
+    "story": [
+      "Ford's Special Vehicle Operations, its racing division, built the SVO as a different kind of fast Mustang: an intercooled, turbocharged 2.3-liter 4-cylinder with 175 hp, 4-wheel disc brakes, adjustable shocks, an offset hood scoop and a twin-wing rear spoiler. It reached dealers in mid-April 1984 at $15,585, or $50,400 in 2026 dollars: more than twice what a base Mustang cost, and about $6,000 more than a V8 GT.",
+      "A mid-1985 update raised it to 205 hp, and Car and Driver timed a 1985 at 6.8 seconds to 60 mph, against 7.5 for a 1984. Ford built 9,844 in 3 model years, most of them in the first, and only 123 had the lighter Competition Prep package."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Ford Mustang SVO",
+      "Mustang SVO"
+    ]
+  },
+  {
+    "id": "ford-mustang-shelby-gt500-2007",
+    "name": "Shelby GT500 (2007–2014)",
+    "aka": [
+      "2007 Shelby GT500",
+      "Ford Shelby GT500",
+      "GT500KR",
+      "SVT Shelby GT500",
+      "2013 GT500"
+    ],
+    "make": "Ford",
+    "maker": "Ford (AutoAlliance International, Flat Rock, Michigan)",
+    "country": "United States",
+    "years": "2007–2014",
+    "start": 2007,
+    "end": 2014,
+    "shop": {
+      "cargurus": "d924"
+    },
+    "body": "2-door coupe and convertible",
+    "engine": "5.4-liter supercharged V8; 5.8-liter supercharged V8 from 2013",
+    "drive": "Rear-wheel drive",
+    "gearbox": "6-speed manual",
+    "specsFor": "2007 Ford Shelby GT500 coupe, 6-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 500,
+      "note": "5.4-liter supercharged V8, 480 lb-ft, 2007–2009",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "weight": {
+      "kg": 1778,
+      "lb": 3920,
+      "note": "Test weight, 2007 GT500",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "zero60": {
+      "sec": 4.5,
+      "kind": "tested",
+      "note": "Car and Driver test, 2007 GT500 coupe",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "top": {
+      "na": "No figure published by Ford"
+    },
+    "mpg": {
+      "combined": 16,
+      "city": 14,
+      "hwy": 20,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/23137.shtml",
+      "note": "EPA combined, 2007, 5.4-liter supercharged V8, 6-speed manual"
+    },
+    "built": {
+      "na": "Ford hasn't published a total"
+    },
+    "versions": [
+      {
+        "name": "2007–2010, 5.4-liter",
+        "detail": "500 hp; 540 hp for 2010"
+      },
+      {
+        "name": "2011–2012, aluminum-block 5.4-liter",
+        "detail": "550 hp",
+        "specsFor": "2011 Ford Shelby GT500 coupe, 6-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 550,
+          "note": "5.4-liter supercharged V8, 510 lb-ft",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "weight": {
+          "kg": 1733,
+          "lb": 3820,
+          "note": "Test weight, 2011 GT500",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "zero60": {
+          "sec": 4.1,
+          "kind": "tested",
+          "note": "Car and Driver test, 2011 GT500",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "top": {
+          "na": "No figure published by Ford"
+        },
+        "mpg": {
+          "combined": 18,
+          "city": 15,
+          "hwy": 23,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/31166.shtml",
+          "note": "EPA combined, 2012, 5.4-liter supercharged V8, 6-speed manual"
+        }
+      },
+      {
+        "name": "2013–2014, 5.8-liter",
+        "detail": "662 hp",
+        "specsFor": "2013 Ford Shelby GT500 coupe, 6-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 662,
+          "note": "5.8-liter supercharged V8, 631 lb-ft",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "weight": {
+          "kg": 1746,
+          "lb": 3850,
+          "note": "Test weight, 2013 GT500",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "zero60": {
+          "sec": 3.5,
+          "kind": "tested",
+          "note": "Car and Driver test, 2013 GT500",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "top": {
+          "na": "No figure published by Ford"
+        },
+        "mpg": {
+          "combined": 18,
+          "city": 15,
+          "hwy": 24,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/32391.shtml",
+          "note": "EPA combined, 2013, 5.8-liter supercharged V8, 6-speed manual"
+        }
+      }
+    ],
+    "predecessor": null,
+    "successor": {
+      "name": "Shelby GT500 (2020–2022)",
+      "id": "ford-mustang-shelby-gt500-2020"
+    },
+    "alongside": [
+      {
+        "name": "Ford Mustang (fifth generation)",
+        "id": "ford-mustang-5th-gen"
+      }
+    ],
+    "quick": "The S197 Shelby GT500, 2007–2014: a supercharged V8 from Ford's Special Vehicle Team and Carroll Shelby, with 500 hp at first and 662 hp at the end.",
+    "story": [
+      "Ford's Special Vehicle Team and Carroll Shelby revived the GT500 for 2007 on the S197 Mustang, built alongside it at Flat Rock, with a supercharged 5.4-liter V8 making 500 hp and a 6-speed manual, as a coupe or a convertible. Car and Driver timed a 2007 coupe at 4.5 seconds to 60 mph, and a limited GT500KR followed for 2008 and 2009.",
+      "The GT500 reached 540 hp for 2010 and 550 hp with an aluminum-block 5.4-liter for 2011, which Car and Driver timed at 4.1 seconds to 60 mph. For 2013 and 2014 a supercharged 5.8-liter V8 raised it to 662 hp, and Car and Driver ran a 2013 to 60 mph in 3.5 seconds. The EPA rated the 2013 at 18 mpg combined."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Shelby GT500",
+      "Ford Shelby GT500"
+    ]
+  },
+  {
+    "id": "ford-mustang-boss-302-2012",
+    "name": "Ford Mustang Boss 302 (2012–2013)",
+    "aka": [
+      "2012 Boss 302",
+      "2013 Boss 302",
+      "Boss 302 Laguna Seca",
+      "Boss 302S"
+    ],
+    "make": "Ford",
+    "maker": "Ford (AutoAlliance International, Flat Rock, Michigan)",
+    "country": "United States",
+    "years": "2012–2013",
+    "start": 2012,
+    "end": 2013,
+    "shop": {
+      "cargurus": "d2"
+    },
+    "body": "2-door coupe",
+    "engine": "5.0-liter V8",
+    "drive": "Rear-wheel drive",
+    "gearbox": "6-speed manual",
+    "specsFor": "2012 Ford Mustang Boss 302, 6-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 444,
+      "note": "5.0-liter V8, 380 lb-ft",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "weight": {
+      "kg": 1647,
+      "lb": 3631,
+      "note": "Test weight, 2012 Boss 302",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "zero60": {
+      "sec": 4.3,
+      "kind": "tested",
+      "note": "Car and Driver test, 2012 Boss 302",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "top": {
+      "na": "No figure published by Ford"
+    },
+    "mpg": {
+      "combined": 20,
+      "city": 17,
+      "hwy": 26,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/31165.shtml",
+      "note": "EPA combined, 2012 Mustang, 5.0-liter V8, 6-speed manual; the EPA doesn't list the Boss 302 separately"
+    },
+    "built": {
+      "na": "Ford hasn't published a total"
+    },
+    "versions": [
+      {
+        "name": "Boss 302",
+        "detail": "444 hp"
+      },
+      {
+        "name": "Laguna Seca",
+        "detail": "No rear seat; more aerodynamic parts",
+        "specsFor": "2013 Ford Mustang Boss 302 Laguna Seca, 6-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 444,
+          "note": "5.0-liter V8, 380 lb-ft",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "weight": {
+          "kg": 1647,
+          "lb": 3631,
+          "note": "Test weight, 2013 Laguna Seca",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "zero60": {
+          "sec": 4.2,
+          "kind": "tested",
+          "note": "Car and Driver test, 2013 Laguna Seca",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "top": {
+          "na": "No figure published by Ford"
+        },
+        "mpg": {
+          "combined": 19,
+          "city": 16,
+          "hwy": 25,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/32247.shtml",
+          "note": "EPA combined, 2013 Mustang, 5.0-liter V8, 6-speed manual"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Ford Mustang Boss 302 (1969–1970)",
+      "id": "ford-mustang-boss-302-1969"
+    },
+    "successor": null,
+    "alongside": [
+      {
+        "name": "Ford Mustang (fifth generation)",
+        "id": "ford-mustang-5th-gen"
+      }
+    ],
+    "quick": "The second Boss 302, 2012–2013: a 444-hp Coyote V8, side exhausts, adjustable suspension and a track-ready Laguna Seca version.",
+    "story": [
+      "Ford revived the Boss 302 for 2012 on the S197 Mustang, with a 444-hp version of the 5.0-liter Coyote V8, called the Road Runner, a 6-speed manual, adjustable shocks, stiffer springs and an extra pair of exhaust outlets that exit ahead of the rear wheels. The Laguna Seca version, named for the California circuit, replaced the rear seat with a chassis brace and added a larger front splitter, a bigger rear wing and a limited-slip differential.",
+      "Car and Driver timed a 2012 Boss 302 at 4.3 seconds to 60 mph and a 2013 Laguna Seca at 4.2. It was sold for the 2012 and 2013 model years only."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Ford Mustang Boss 302",
+      "Boss 302"
+    ]
+  },
+  {
+    "id": "ford-mustang-shelby-gt350-2015",
+    "name": "Shelby GT350 (2015–2020)",
+    "aka": [
+      "2016 Shelby GT350",
+      "Shelby GT350R",
+      "GT350R",
+      "Voodoo V8",
+      "Ford Shelby GT350"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Flat Rock Assembly Plant, Flat Rock, Michigan)",
+    "country": "United States",
+    "years": "2015–2020",
+    "start": 2015,
+    "end": 2020,
+    "shop": {
+      "cargurus": "d2303"
+    },
+    "body": "2-door fastback coupe",
+    "engine": "5.2-liter flat-plane-crank V8 (Voodoo)",
+    "drive": "Rear-wheel drive",
+    "gearbox": "6-speed manual",
+    "specsFor": "2016 Ford Shelby GT350, 6-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 526,
+      "note": "5.2-liter flat-plane-crank V8, 429 lb-ft",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "weight": {
+      "kg": 1706,
+      "lb": 3760,
+      "note": "Test weight, 2016 GT350",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "zero60": {
+      "sec": 4.3,
+      "kind": "tested",
+      "note": "Car and Driver test, 2016 GT350",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "top": {
+      "na": "No figure published by Ford"
+    },
+    "mpg": {
+      "combined": 16,
+      "city": 14,
+      "hwy": 21,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/36885.shtml",
+      "note": "EPA combined, 2016 (the same every year)"
+    },
+    "built": {
+      "na": "Ford hasn't published a total"
+    },
+    "versions": [
+      {
+        "name": "GT350",
+        "detail": "526 hp"
+      },
+      {
+        "name": "GT350R",
+        "detail": "Carbon-fiber wheels, rear wing, less weight",
+        "specsFor": "2016 Ford Shelby GT350R, 6-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 526,
+          "note": "5.2-liter flat-plane-crank V8, 429 lb-ft",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "weight": {
+          "kg": 1657,
+          "lb": 3654,
+          "note": "Test weight, 2016 GT350R",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "zero60": {
+          "sec": 3.9,
+          "kind": "tested",
+          "note": "Car and Driver test, 2016 GT350R",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "top": {
+          "na": "No figure published by Ford"
+        },
+        "mpg": {
+          "combined": 16,
+          "city": 14,
+          "hwy": 21,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/37530.shtml",
+          "note": "EPA combined, 2017 GT350; the EPA doesn't list the R separately"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Shelby GT350 (1965–1966)",
+      "id": "ford-mustang-shelby-gt350-1965"
+    },
+    "successor": null,
+    "alongside": [
+      {
+        "name": "Ford Mustang (sixth generation)",
+        "id": "ford-mustang-6th-gen"
+      },
+      {
+        "name": "Shelby GT500 (2020–2022)",
+        "id": "ford-mustang-shelby-gt500-2020"
+      }
+    ],
+    "quick": "The S550 Shelby GT350, 2015–2020: a 526-hp flat-plane-crank V8 that revs to 8,250 rpm, a manual only, and the GT350R for the track.",
+    "story": [
+      "Ford Performance built the 2015 Shelby GT350 around a naturally aspirated 5.2-liter V8 with a flat-plane crankshaft, the Voodoo, which revs to 8,250 rpm and makes 526 hp, sent only through a 6-speed manual. The GT350R went further, with carbon-fiber wheels, a rear wing and less weight; the first 37 were built for 2015. The 2016 GT350 started at $47,795 before delivery, or $67,000 in 2026 dollars.",
+      "Car and Driver ran a 2016 GT350 to 60 mph in 4.3 seconds and a GT350R in 3.9. The EPA rates it at 16 mpg combined. Its high-revving engine is its appeal and the thing to check hardest on a used car, so ask for the service history and any oil-consumption records. Production ended with the 2020 model year, when the GT500 took over."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Shelby GT350",
+      "Ford Shelby GT350",
+      "Shelby GT350R"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/ford-mustang/",
+      "title": "The Ford Mustang Buyer's Guide",
+      "blurb": "The 2017–2023 and 2024–2026 Mustangs, EcoBoost or GT, the Shelby GT350 and GT500, the Bullitt, Mach 1, Dark Horse and GTD, and the used checklist with the recalls, in 6 chapters."
+    }
+  },
+  {
+    "id": "ford-mustang-shelby-gt500-2020",
+    "name": "Shelby GT500 (2020–2022)",
+    "aka": [
+      "2020 Shelby GT500",
+      "Ford Shelby GT500",
+      "GT500 Carbon Fiber Track Package",
+      "Predator V8"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Flat Rock Assembly Plant, Flat Rock, Michigan)",
+    "country": "United States",
+    "years": "2020–2022",
+    "start": 2020,
+    "end": 2022,
+    "shop": {
+      "cargurus": "d924"
+    },
+    "body": "2-door fastback coupe",
+    "engine": "5.2-liter supercharged cross-plane V8",
+    "drive": "Rear-wheel drive",
+    "gearbox": "7-speed dual-clutch automatic",
+    "specsFor": "2020 Ford Shelby GT500, Carbon Fiber Track Package, US market (Car and Driver test)",
+    "power": {
+      "hp": 760,
+      "note": "5.2-liter supercharged V8, 625 lb-ft",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "weight": {
+      "kg": 1892,
+      "lb": 4171,
+      "note": "Test weight, 2020 GT500, Carbon Fiber Track Package",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "zero60": {
+      "sec": 3.6,
+      "kind": "tested",
+      "note": "Car and Driver test, 2020 GT500, Carbon Fiber Track Package (3.4 on Michelin Pilot Sport 4S tires)",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "top": {
+      "na": "No figure published by Ford"
+    },
+    "mpg": {
+      "combined": 14,
+      "city": 12,
+      "hwy": 18,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/42139.shtml",
+      "note": "EPA combined, 2020 (the same for 2021–2022)"
+    },
+    "built": {
+      "na": "Ford hasn't published a total"
+    },
+    "predecessor": {
+      "name": "Shelby GT500 (2007–2014)",
+      "id": "ford-mustang-shelby-gt500-2007"
+    },
+    "successor": null,
+    "alongside": [
+      {
+        "name": "Ford Mustang (sixth generation)",
+        "id": "ford-mustang-6th-gen"
+      },
+      {
+        "name": "Shelby GT350 (2015–2020)",
+        "id": "ford-mustang-shelby-gt350-2015"
+      }
+    ],
+    "quick": "The S550 Shelby GT500, 2020–2022: a 760-hp supercharged V8, a 7-speed dual-clutch and no manual, the most powerful Mustang until the Dark Horse SC and GTD.",
+    "story": [
+      "The 2020 GT500 has a supercharged 5.2-liter cross-plane V8 with 760 hp and 625 lb-ft, which Ford called its most powerful street-legal car yet, and a 7-speed dual-clutch automatic; there was no manual. It started at $70,300 before delivery and the gas-guzzler tax, or $91,300 in 2026 dollars; with both, Ford's sticker was $73,995.",
+      "Car and Driver ran one with the Carbon Fiber Track Package to 60 mph in 3.6 seconds, and in 3.4 on Michelin Pilot Sport 4S tires. The EPA rates it at 14 mpg combined. It was sold for 2020 to 2022; for 2026 the seventh generation's Dark Horse SC brought a 795-hp version of the supercharged 5.2-liter."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Shelby GT500",
+      "Ford Shelby GT500"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/ford-mustang/",
+      "title": "The Ford Mustang Buyer's Guide",
+      "blurb": "The 2017–2023 and 2024–2026 Mustangs, EcoBoost or GT, the Shelby GT350 and GT500, the Bullitt, Mach 1, Dark Horse and GTD, and the used checklist with the recalls, in 6 chapters."
+    }
+  },
+  {
+    "id": "ford-mustang-mach-1-2021",
+    "name": "Ford Mustang Mach 1 (2021–2023)",
+    "aka": [
+      "2021 Mach 1",
+      "Mustang Mach 1",
+      "Mach 1 Handling Package"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Flat Rock Assembly Plant, Flat Rock, Michigan)",
+    "country": "United States",
+    "years": "2021–2023",
+    "start": 2021,
+    "end": 2023,
+    "shop": {
+      "cargurus": "d2"
+    },
+    "body": "2-door fastback coupe",
+    "engine": "5.0-liter V8",
+    "drive": "Rear-wheel drive",
+    "gearbox": "Tremec 6-speed manual or 10-speed automatic",
+    "specsFor": "2021 Ford Mustang Mach 1, Handling Package, 6-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 480,
+      "note": "5.0-liter V8, 420 lb-ft",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "weight": {
+      "kg": 1729,
+      "lb": 3811,
+      "note": "Test weight, 2021 Mach 1, Handling Package",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "zero60": {
+      "sec": 4.5,
+      "kind": "tested",
+      "note": "Car and Driver test, 2021 Mach 1, Handling Package",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "top": {
+      "na": "No figure published by Ford"
+    },
+    "mpg": {
+      "combined": 17,
+      "city": 14,
+      "hwy": 22,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/43679.shtml",
+      "note": "EPA combined, 2021, 6-speed manual (automatic: 18)"
+    },
+    "built": {
+      "na": "Ford hasn't published a total"
+    },
+    "versions": [
+      {
+        "name": "Tremec 6-speed manual",
+        "detail": "From the GT350"
+      },
+      {
+        "name": "10-speed automatic",
+        "detail": "480 hp",
+        "specsFor": "2021 Ford Mustang Mach 1, 10-speed automatic, US market (EPA figure)",
+        "power": {
+          "hp": 480,
+          "note": "5.0-liter V8, 420 lb-ft",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "weight": {
+          "na": "No figure on record"
+        },
+        "zero60": {
+          "na": "No test on record"
+        },
+        "top": {
+          "na": "No figure published by Ford"
+        },
+        "mpg": {
+          "combined": 18,
+          "city": 15,
+          "hwy": 23,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/43610.shtml",
+          "note": "EPA combined, 2021, 10-speed automatic"
+        }
+      }
+    ],
+    "predecessor": null,
+    "successor": null,
+    "alongside": [
+      {
+        "name": "Ford Mustang (sixth generation)",
+        "id": "ford-mustang-6th-gen"
+      },
+      {
+        "name": "Shelby GT350 (2015–2020)",
+        "id": "ford-mustang-shelby-gt350-2015"
+      }
+    ],
+    "quick": "The Mach 1, 2021–2023: a 480-hp V8 with the GT350's manual gearbox and cooling and suspension parts from both Shelbys, between the GT and the GT350.",
+    "story": [
+      "Ford revived the Mach 1 for 2021 to sit between the GT and the Shelbys as the GT350 bowed out: a 480-hp 5.0-liter V8, the GT350's Tremec 6-speed manual or a 10-speed automatic, and cooling, suspension and aerodynamic parts from the GT350 and GT500. It started at $51,720 before delivery, or $64,200 in 2026 dollars.",
+      "Car and Driver ran a Mach 1 with the Handling Package and the manual to 60 mph in 4.5 seconds. The EPA rates the manual at 17 mpg combined and the automatic at 18. It ended with the sixth generation in 2023, and the Dark Horse became the track-focused V8 Mustang for 2024."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Ford Mustang Mach 1",
+      "Mustang Mach 1"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/ford-mustang/",
+      "title": "The Ford Mustang Buyer's Guide",
+      "blurb": "The 2017–2023 and 2024–2026 Mustangs, EcoBoost or GT, the Shelby GT350 and GT500, the Bullitt, Mach 1, Dark Horse and GTD, and the used checklist with the recalls, in 6 chapters."
+    }
+  },
+  {
+    "id": "ford-mustang-dark-horse",
+    "name": "Ford Mustang Dark Horse",
+    "aka": [
+      "2024 Dark Horse",
+      "Mustang Dark Horse",
+      "Dark Horse Premium",
+      "Dark Horse SC"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Flat Rock Assembly Plant, Flat Rock, Michigan)",
+    "country": "United States",
+    "years": "2024–present",
+    "start": 2024,
+    "end": null,
+    "shop": {
+      "cargurus": "d2"
+    },
+    "body": "2-door fastback coupe",
+    "engine": "5.0-liter V8; 5.2-liter supercharged V8 in the Dark Horse SC",
+    "drive": "Rear-wheel drive",
+    "gearbox": "Tremec 6-speed manual or 10-speed automatic; 7-speed dual-clutch in the SC",
+    "specsFor": "2024 Ford Mustang Dark Horse Premium, Handling Package, 6-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 500,
+      "note": "5.0-liter V8, 418 lb-ft",
+      "src": "https://en.wikipedia.org/wiki/Ford_Mustang_(seventh_generation)"
+    },
+    "weight": {
+      "kg": 1790,
+      "lb": 3947,
+      "note": "Test weight, 2024 Dark Horse Premium",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "zero60": {
+      "sec": 4.1,
+      "kind": "tested",
+      "note": "Car and Driver test, 2024 Dark Horse Premium, manual",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "top": {
+      "na": "No figure published by Ford"
+    },
+    "mpg": {
+      "combined": 17,
+      "city": 14,
+      "hwy": 22,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/46649.shtml",
+      "note": "EPA combined, 2024, 6-speed manual (the automatic is also 17)"
+    },
+    "built": {
+      "na": "Ford doesn't publish Dark Horse sales separately; they're included in the Mustang's"
+    },
+    "versions": [
+      {
+        "name": "Dark Horse",
+        "detail": "500 hp, 418 lb-ft"
+      },
+      {
+        "name": "Dark Horse SC",
+        "detail": "2026; 795 hp, 7-speed dual-clutch automatic",
+        "specsFor": "2026 Ford Mustang Dark Horse SC, US market (Motor Trend test)",
+        "power": {
+          "hp": 795,
+          "note": "5.2-liter supercharged V8, 660 lb-ft",
+          "src": "https://www.ford.com/cars/mustang/"
+        },
+        "weight": {
+          "kg": 1862,
+          "lb": 4105,
+          "note": "Test weight, 2026 Dark Horse SC",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "zero60": {
+          "sec": 2.9,
+          "kind": "tested",
+          "note": "Motor Trend test, 2026 Dark Horse SC (no Car and Driver test on record)",
+          "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+        },
+        "top": {
+          "na": "No figure published by Ford"
+        },
+        "mpg": {
+          "combined": 14,
+          "city": 12,
+          "hwy": 18,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/51093.shtml",
+          "note": "EPA combined, 2026 Dark Horse SC"
+        }
+      }
+    ],
+    "predecessor": null,
+    "successor": null,
+    "alongside": [
+      {
+        "name": "Ford Mustang (seventh generation)",
+        "id": "ford-mustang-7th-gen"
+      },
+      {
+        "name": "Ford Mustang GTD",
+        "id": "ford-mustang-gtd"
+      }
+    ],
+    "quick": "The Dark Horse, 2024 on: the seventh generation's track-focused Mustang, with 500 hp, MagneRide dampers and big Brembo brakes, and 795 hp in the SC.",
+    "story": [
+      "The Dark Horse is the seventh generation's track-focused Mustang. Its 5.0-liter V8 makes 500 hp, with a Tremec 6-speed manual or a 10-speed automatic, and it adds MagneRide adaptive dampers, larger Brembo brakes and extra cooling. It started at $57,970 for 2024 before delivery, or $62,100 in 2026 dollars, and at $65,080 for 2026.",
+      "Car and Driver ran a 2024 Dark Horse Premium with the Handling Package and the manual to 60 mph in 4.1 seconds, and the EPA rates it at 17 mpg combined with either gearbox. For 2026 the 10-speed automatic became standard, with the manual an option, and the Dark Horse SC added a supercharged 5.2-liter V8 with 795 hp, at $106,090."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Ford Mustang Dark Horse",
+      "Mustang Dark Horse"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/ford-mustang/",
+      "title": "The Ford Mustang Buyer's Guide",
+      "blurb": "The 2017–2023 and 2024–2026 Mustangs, EcoBoost or GT, the Shelby GT350 and GT500, the Bullitt, Mach 1, Dark Horse and GTD, and the used checklist with the recalls, in 6 chapters."
+    }
+  },
+  {
+    "id": "ford-mustang-gtd",
+    "name": "Ford Mustang GTD",
+    "aka": [
+      "2025 Mustang GTD",
+      "Mustang GTD"
+    ],
+    "make": "Ford",
+    "maker": "Ford, with Multimatic (Markham, Ontario)",
+    "country": "Canada",
+    "years": "2025–present",
+    "start": 2025,
+    "end": null,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "2-door fastback coupe",
+    "engine": "5.2-liter supercharged V8",
+    "drive": "Rear-wheel drive",
+    "gearbox": "8-speed dual-clutch transaxle",
+    "specsFor": "2025 Ford Mustang GTD, US market (Car and Driver test)",
+    "power": {
+      "hp": 815,
+      "note": "5.2-liter supercharged V8, 664 lb-ft",
+      "src": "https://en.wikipedia.org/wiki/Ford_Mustang_(seventh_generation)"
+    },
+    "weight": {
+      "kg": 1998,
+      "lb": 4404,
+      "note": "Test weight, 2025 GTD",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "zero60": {
+      "sec": 2.8,
+      "kind": "tested",
+      "note": "Car and Driver test, 2025 GTD",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
+    "top": {
+      "na": "No figure published by Ford"
+    },
+    "mpg": {
+      "combined": 12,
+      "city": 10,
+      "hwy": 17,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/48828.shtml",
+      "note": "EPA combined, 2025 (the same for 2026)"
+    },
+    "built": {
+      "na": "Ford hasn't published a total"
+    },
+    "predecessor": null,
+    "successor": null,
+    "alongside": [
+      {
+        "name": "Ford Mustang (seventh generation)",
+        "id": "ford-mustang-7th-gen"
+      },
+      {
+        "name": "Ford Mustang Dark Horse",
+        "id": "ford-mustang-dark-horse"
+      }
+    ],
+    "quick": "The GTD, 2025 on: an 815-hp road car developed alongside the Mustang GT3 racer, finished by hand by Multimatic, and the first Mustang under 7 minutes at the Nürburgring.",
+    "story": [
+      "The GTD is a road car developed alongside the Mustang GT3 race car, with a supercharged 5.2-liter V8 making 815 hp and 664 lb-ft, an 8-speed dual-clutch transaxle at the rear, and active aerodynamics and suspension. Its body starts on the Flat Rock line, and Multimatic finishes each car by hand in Markham, Ontario. Ford said it starts at approximately $325,000, or about $338,800 in 2026 dollars, and took applications from buyers rather than ordinary orders.",
+      "Car and Driver ran a 2025 GTD to 60 mph in 2.8 seconds, the quickest Mustang it has timed, and in December 2024 a GTD lapped the Nürburgring in 6:57.685, the first time a Mustang had gone under 7 minutes there. The EPA rates it at 12 mpg combined."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Ford Mustang GTD",
+      "Mustang GTD"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/ford-mustang/",
+      "title": "The Ford Mustang Buyer's Guide",
+      "blurb": "The 2017–2023 and 2024–2026 Mustangs, EcoBoost or GT, the Shelby GT350 and GT500, the Bullitt, Mach 1, Dark Horse and GTD, and the used checklist with the recalls, in 6 chapters."
+    }
+  },
+  {
+    "id": "ford-mustang-mach-e",
+    "name": "Ford Mustang Mach-E",
+    "aka": [
+      "2021–2026 Mach-E",
+      "Mach-E",
+      "Mach-E Select",
+      "Mach-E Premium",
+      "Mach-E California Route 1",
+      "Mustang Mach-E extended range"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Cuautitlán Izcalli, Mexico)",
+    "country": "Mexico",
+    "years": "2021–present",
+    "start": 2021,
+    "end": null,
+    "shop": {
+      "cargurus": "d2990"
+    },
+    "body": "Electric compact crossover, 5 doors",
+    "engine": "1 or 2 electric motors; standard-range or extended-range battery",
+    "drive": "Rear-wheel drive or all-wheel drive",
+    "gearbox": "Single-speed",
+    "specsFor": "2021 Ford Mustang Mach-E Premium, extended range, all-wheel drive, US market (Car and Driver test)",
+    "power": {
+      "hp": 346,
+      "note": "Extended range, all-wheel drive, 428 lb-ft, 2021",
+      "src": "https://en.wikipedia.org/wiki/Ford_Mustang_Mach-E"
+    },
+    "weight": {
+      "kg": 2218,
+      "lb": 4890,
+      "note": "Test weight, 2021 Premium, extended range, all-wheel drive",
+      "src": "https://www.0-60specs.com/ford/mustang-mach-e-0-60-times"
+    },
+    "zero60": {
+      "sec": 4.9,
+      "kind": "tested",
+      "note": "Car and Driver test, 2021 Premium, extended range, all-wheel drive",
+      "src": "https://www.0-60specs.com/ford/mustang-mach-e-0-60-times"
+    },
+    "top": {
+      "mph": 112,
+      "kind": "claimed",
+      "note": "Ford's figure for non-GT models",
+      "src": "https://en.wikipedia.org/wiki/Ford_Mustang_Mach-E"
+    },
+    "mpg": {
+      "combined": 90,
+      "city": 96,
+      "hwy": 84,
+      "unit": "MPGe",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/43603.shtml",
+      "note": "EPA combined, 2021, extended range, all-wheel drive; 270-mile range"
+    },
+    "built": {
+      "count": 210734,
+      "approx": true,
+      "note": "Sold in the US, 2021–2025 calendar years, GT and Rally included; 2025 from Ford",
+      "src": "https://en.wikipedia.org/wiki/Ford_Mustang_Mach-E"
+    },
+    "versions": [
+      {
+        "name": "Extended range, all-wheel drive",
+        "detail": "346 hp for 2021; 300-mile EPA range for 2024–2026"
+      },
+      {
+        "name": "Standard range, rear-wheel drive",
+        "detail": "2026 Select: 264 hp, 260-mile range",
+        "specsFor": "2026 Ford Mustang Mach-E Select, standard range, rear-wheel drive, US market (Car and Driver test)",
+        "power": {
+          "hp": 264,
+          "note": "Standard range, rear-wheel drive, 387 lb-ft, 2026",
+          "src": "https://www.ford.com/suvs/mach-e/"
+        },
+        "weight": {
+          "kg": 2096,
+          "lb": 4620,
+          "note": "Test weight, 2026 Select",
+          "src": "https://www.0-60specs.com/ford/mustang-mach-e-0-60-times"
+        },
+        "zero60": {
+          "sec": 5.6,
+          "kind": "tested",
+          "note": "Car and Driver test, 2026 Select",
+          "src": "https://www.0-60specs.com/ford/mustang-mach-e-0-60-times"
+        },
+        "top": {
+          "na": "No figure published by Ford"
+        },
+        "mpg": {
+          "combined": 107,
+          "city": 111,
+          "hwy": 103,
+          "unit": "MPGe",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/50204.shtml",
+          "note": "EPA combined, 2026, standard range, rear-wheel drive; 260-mile range"
+        }
+      },
+      {
+        "name": "Extended range, rear-wheel drive",
+        "detail": "The longest range: 320 miles for 2024–2026",
+        "specsFor": "2026 Ford Mustang Mach-E Premium, extended range, rear-wheel drive, US market (EPA figure)",
+        "power": {
+          "na": "No figure on record"
+        },
+        "weight": {
+          "na": "No figure on record"
+        },
+        "zero60": {
+          "na": "No test on record"
+        },
+        "top": {
+          "na": "No figure published by Ford"
+        },
+        "mpg": {
+          "combined": 110,
+          "city": 115,
+          "hwy": 104,
+          "unit": "MPGe",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/50205.shtml",
+          "note": "EPA combined, 2026, extended range, rear-wheel drive; 320-mile range"
+        }
+      },
+      {
+        "name": "California Route 1",
+        "detail": "Extended range, built for efficiency",
+        "specsFor": "2021 Ford Mustang Mach-E California Route 1, extended range, rear-wheel drive, US market (Motor Trend test)",
+        "power": {
+          "hp": 290,
+          "note": "Extended range, rear-wheel drive, 2021",
+          "src": "https://en.wikipedia.org/wiki/Ford_Mustang_Mach-E"
+        },
+        "weight": {
+          "kg": 1987,
+          "lb": 4380,
+          "note": "Test weight, 2021 California Route 1",
+          "src": "https://www.0-60specs.com/ford/mustang-mach-e-0-60-times"
+        },
+        "zero60": {
+          "sec": 6.3,
+          "kind": "tested",
+          "note": "Motor Trend test, 2021 California Route 1 (no Car and Driver test on record)",
+          "src": "https://www.0-60specs.com/ford/mustang-mach-e-0-60-times"
+        },
+        "top": {
+          "na": "No figure published by Ford"
+        },
+        "mpg": {
+          "combined": 101,
+          "city": 108,
+          "hwy": 94,
+          "unit": "MPGe",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/43683.shtml",
+          "note": "EPA combined, 2021 California Route 1; 305-mile range"
+        }
+      }
+    ],
+    "predecessor": null,
+    "successor": null,
+    "alongside": [
+      {
+        "name": "Ford Mustang Mach-E GT and Rally",
+        "id": "ford-mustang-mach-e-gt"
+      }
+    ],
+    "quick": "The Mustang Mach-E, 2021 on: Ford's electric crossover with the Mustang's name, 2 batteries, rear- or all-wheel drive and up to 320 miles of EPA range.",
+    "story": [
+      "Ford revealed the Mustang Mach-E in November 2019 as an electric crossover with 5 doors and the Mustang's name and pony badge, built in Cuautitlán Izcalli, Mexico. It came with a standard-range or an extended-range battery and rear-wheel or all-wheel drive, and a 2021 Select started at $42,895 before delivery, or $53,200 in 2026 dollars. Its recalls include 22V412 and 23V687, for high-voltage battery contactors on 2021–2022 cars.",
+      "Car and Driver ran a 2021 Premium with the extended-range battery and all-wheel drive to 60 mph in 4.9 seconds and a 2026 standard-range rear-drive Select in 5.6. The 2025 update made a heat pump standard, the 2026 extended-range rear-drive car is rated at 320 miles, and the 2026 range starts at $37,795. Ford sold 51,745 in the US in 2024, its best year so far, and 51,620 in 2025."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Ford Mustang Mach-E",
+      "Mustang Mach-E",
+      "Mach-E"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/ford-mustang-mach-e/",
+      "title": "The Ford Mustang Mach-E Buyer's Guide",
+      "blurb": "The 2021–2024 and 2025–2026 Mach-E, which battery and drive to choose, the GT and Rally, and the used checklist with the battery and recall checks, in 4 chapters."
+    }
+  },
+  {
+    "id": "ford-mustang-mach-e-gt",
+    "name": "Ford Mustang Mach-E GT and Rally",
+    "aka": [
+      "Mach-E GT",
+      "Mach-E GT Performance Edition",
+      "Mach-E Rally",
+      "Mustang Mach-E GT"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Cuautitlán Izcalli, Mexico)",
+    "country": "Mexico",
+    "years": "2021–present",
+    "start": 2021,
+    "end": null,
+    "shop": {
+      "cargurus": "d2990"
+    },
+    "body": "Electric compact crossover, 5 doors",
+    "engine": "2 electric motors, extended-range battery",
+    "drive": "All-wheel drive",
+    "gearbox": "Single-speed",
+    "specsFor": "2021 Ford Mustang Mach-E GT, US market (Car and Driver test)",
+    "power": {
+      "hp": 480,
+      "note": "600 lb-ft, 2021; 700 lb-ft with the 2026 GT Performance Upgrade",
+      "src": "https://en.wikipedia.org/wiki/Ford_Mustang_Mach-E"
+    },
+    "weight": {
+      "kg": 2218,
+      "lb": 4890,
+      "note": "Test weight, 2021 GT",
+      "src": "https://www.0-60specs.com/ford/mustang-mach-e-0-60-times"
+    },
+    "zero60": {
+      "sec": 4.3,
+      "kind": "tested",
+      "note": "Car and Driver test, 2021 GT",
+      "src": "https://www.0-60specs.com/ford/mustang-mach-e-0-60-times"
+    },
+    "top": {
+      "mph": 124,
+      "kind": "claimed",
+      "note": "Ford's figure for the GT",
+      "src": "https://en.wikipedia.org/wiki/Ford_Mustang_Mach-E"
+    },
+    "mpg": {
+      "combined": 84,
+      "city": 90,
+      "hwy": 77,
+      "unit": "MPGe",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/44797.shtml",
+      "note": "EPA combined, 2021 GT; 270-mile range"
+    },
+    "built": {
+      "na": "Ford doesn't publish GT and Rally sales separately; they're included in the Mach-E's"
+    },
+    "versions": [
+      {
+        "name": "GT",
+        "detail": "480 hp, 600 lb-ft; 700 lb-ft with the 2026 GT Performance Upgrade"
+      },
+      {
+        "name": "GT Performance Edition",
+        "detail": "2021–2023; 634 lb-ft",
+        "specsFor": "2021 Ford Mustang Mach-E GT Performance Edition, US market (Car and Driver test)",
+        "power": {
+          "hp": 480,
+          "note": "634 lb-ft",
+          "src": "https://en.wikipedia.org/wiki/Ford_Mustang_Mach-E"
+        },
+        "weight": {
+          "kg": 2232,
+          "lb": 4920,
+          "note": "Test weight, 2021 GT Performance Edition",
+          "src": "https://www.0-60specs.com/ford/mustang-mach-e-0-60-times"
+        },
+        "zero60": {
+          "sec": 3.7,
+          "kind": "tested",
+          "note": "Car and Driver test, 2021 GT Performance Edition",
+          "src": "https://www.0-60specs.com/ford/mustang-mach-e-0-60-times"
+        },
+        "top": {
+          "na": "No figure published by Ford"
+        },
+        "mpg": {
+          "combined": 82,
+          "city": 88,
+          "hwy": 75,
+          "unit": "MPGe",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/44798.shtml",
+          "note": "EPA combined, 2021 GT Performance Edition; 260-mile range"
+        }
+      },
+      {
+        "name": "Rally",
+        "detail": "2024 on; 700 lb-ft",
+        "specsFor": "2024 Ford Mustang Mach-E Rally, US market (Car and Driver test)",
+        "power": {
+          "hp": 480,
+          "note": "700 lb-ft",
+          "src": "https://www.ford.com/suvs/mach-e/"
+        },
+        "weight": {
+          "kg": 2263,
+          "lb": 4990,
+          "note": "Test weight, 2024 Rally",
+          "src": "https://www.0-60specs.com/ford/mustang-mach-e-0-60-times"
+        },
+        "zero60": {
+          "sec": 3.3,
+          "kind": "tested",
+          "note": "Car and Driver test, 2024 Rally",
+          "src": "https://www.0-60specs.com/ford/mustang-mach-e-0-60-times"
+        },
+        "top": {
+          "na": "No figure published by Ford"
+        },
+        "mpg": {
+          "combined": 86,
+          "city": 90,
+          "hwy": 81,
+          "unit": "MPGe",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/47827.shtml",
+          "note": "EPA combined, 2024 Rally; 265-mile range (255 for 2026)"
+        }
+      }
+    ],
+    "predecessor": null,
+    "successor": null,
+    "alongside": [
+      {
+        "name": "Ford Mustang Mach-E",
+        "id": "ford-mustang-mach-e"
+      }
+    ],
+    "quick": "The quickest Mach-Es, 2021 on: 480 hp and all-wheel drive in the GT, more torque in the GT Performance Edition, and the Rally, tuned for rough roads.",
+    "story": [
+      "The GT is the quickest kind of Mach-E: all-wheel drive, the extended-range battery and 480 hp, with 600 lb-ft at launch. A 2021 GT started at $59,900 before delivery, or $74,300 in 2026 dollars, and the GT Performance Edition, sold for 2021–2023, raised torque to 634 lb-ft. The Rally, a GT tuned for gravel and rough roads with 700 lb-ft, joined for 2024, and for 2026 the GT starts at $53,395 and the Rally at $57,690.",
+      "Car and Driver ran a 2021 GT to 60 mph in 4.3 seconds, a 2021 GT Performance Edition in 3.7 and a 2024 Rally in 3.3, the quickest Mach-E it has tested. The pace costs range: the EPA rates the 2026 GT at 280 miles and the Rally at 255, against 300 for an extended-range all-wheel-drive Premium."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Mach-E GT",
+      "Mustang Mach-E GT",
+      "Mach-E Rally"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/ford-mustang-mach-e/",
+      "title": "The Ford Mustang Mach-E Buyer's Guide",
+      "blurb": "The 2021–2024 and 2025–2026 Mach-E, which battery and drive to choose, the GT and Rally, and the used checklist with the battery and recall checks, in 4 chapters."
     }
   }
 ];

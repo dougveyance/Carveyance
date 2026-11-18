@@ -1,0 +1,260 @@
+{
+ "id": "honda-passport",
+ "make": "Honda",
+ "model": "Passport",
+ "years": "2019–2026",
+ "byline": "Elliot Vance",
+ "published": "2026-11-18",
+ "updated": "2026-11-18",
+ "cars": [
+  "honda-passport-3rd-gen",
+  "honda-passport-4th-gen"
+ ],
+ "shop": {
+  "cargurus": "d593"
+ },
+ "chapters": [
+  "2019-2025",
+  "2026",
+  "used-checklist"
+ ],
+ "series": {
+  "f19": {
+   "name": "2019–2022, front-wheel drive",
+   "color": "#9aa5b1"
+  },
+  "a19": {
+   "name": "2019–2025, all-wheel drive",
+   "color": "#2E6E96"
+  },
+  "r26": {
+   "name": "2026 RTL",
+   "color": "#e05c2a"
+  },
+  "t26": {
+   "name": "2026 TrailSport",
+   "color": "#e05c2a"
+  },
+  "z19": {
+   "name": "2019 Elite",
+   "color": "#9aa5b1"
+  },
+  "z22": {
+   "name": "2022 TrailSport",
+   "color": "#2E6E96"
+  },
+  "z24": {
+   "name": "2024 TrailSport",
+   "color": "#2E6E96"
+  },
+  "z26": {
+   "name": "2026 TrailSport Elite",
+   "color": "#e05c2a"
+  },
+  "p19": {
+   "name": "2019 Sport, front-wheel drive",
+   "color": "#9aa5b1"
+  },
+  "p19e": {
+   "name": "2019 Elite",
+   "color": "#9aa5b1"
+  },
+  "p22": {
+   "name": "2022 TrailSport",
+   "color": "#2E6E96"
+  },
+  "p24": {
+   "name": "2024 TrailSport",
+   "color": "#2E6E96"
+  },
+  "p26": {
+   "name": "2026 RTL",
+   "color": "#e05c2a"
+  },
+  "p26e": {
+   "name": "2026 TrailSport Elite",
+   "color": "#e05c2a"
+  }
+ },
+ "charts": {
+  "mpg": {
+   "n": 1,
+   "title": "EPA combined fuel economy",
+   "sub": "Miles per gallon.",
+   "source": "US EPA, fueleconomy.gov",
+   "bars": [
+    [
+     "f19",
+     22,
+     "22 mpg"
+    ],
+    [
+     "a19",
+     21,
+     "21 mpg"
+    ],
+    [
+     "r26",
+     21,
+     "21 mpg"
+    ],
+    [
+     "t26",
+     20,
+     "20 mpg"
+    ]
+   ]
+  },
+  "accel": {
+   "n": 2,
+   "title": "0–60 mph, as tested",
+   "sub": "Seconds; shorter is quicker.",
+   "source": "Car and Driver tests, via 0-60specs",
+   "bars": [
+    [
+     "z19",
+     5.8,
+     "5.8 sec"
+    ],
+    [
+     "z22",
+     6.0,
+     "6.0 sec"
+    ],
+    [
+     "z24",
+     5.9,
+     "5.9 sec"
+    ],
+    [
+     "z26",
+     7.1,
+     "7.1 sec"
+    ]
+   ]
+  },
+  "price": {
+   "n": 3,
+   "title": "What a new one cost, in 2026 dollars",
+   "sub": "Starting prices before delivery, adjusted with the US consumer price index. The original price is in each label.",
+   "source": "Honda prices; Carveyance CPI arithmetic",
+   "bars": [
+    [
+     "p19",
+     42100,
+     "$42,100 · $31,990 then"
+    ],
+    [
+     "p19e",
+     57400,
+     "$57,400 · $43,680 then"
+    ],
+    [
+     "p22",
+     48800,
+     "$48,800 · $42,470 then"
+    ],
+    [
+     "p24",
+     47700,
+     "$47,700 · $44,500 then"
+    ],
+    [
+     "p26",
+     44750,
+     "$44,750 at launch"
+    ],
+    [
+     "p26e",
+     52450,
+     "$52,450 at launch"
+    ]
+   ]
+  }
+ },
+ "photos": {
+  "hub-hero": {
+   "want": "A 2026 Passport TrailSport",
+   "credit": "Honda",
+   "alt": "A white 2026 Honda Passport TrailSport Elite parked in a forest clearing"
+  },
+  "ch1-hero": {
+   "want": "A 2019–2025 Passport",
+   "credit": "Honda",
+   "alt": "A silver 2019 Honda Passport on a red-dirt desert trail"
+  },
+  "ch2-hero": {
+   "want": "A 2026 Passport off-road",
+   "credit": "Honda",
+   "alt": "A white 2026 Honda Passport TrailSport Elite on a rough dirt track"
+  },
+  "ch3-hero": {
+   "want": "Passport tires or underside",
+   "credit": "Honda",
+   "alt": "The all-terrain tire and black wheel of a 2026 Honda Passport TrailSport Elite climbing over logs"
+  }
+ },
+ "find": {
+  "picker": [
+   {
+    "model": "Passport",
+    "years": "2019–2025",
+    "ch": "2019-2025"
+   },
+   {
+    "model": "Passport",
+    "years": "2026–2027",
+    "ch": "2026"
+   }
+  ],
+  "terms": {
+   "": [
+    "Passport",
+    "Honda Passport",
+    "2-row SUV",
+    "two-row SUV",
+    "midsize SUV",
+    "5-seat SUV"
+   ],
+   "2019-2025": [
+    "third generation",
+    "3rd gen",
+    "YF7",
+    "YF8",
+    "Sport",
+    "EX-L",
+    "Touring",
+    "Elite",
+    "Black Edition",
+    "9-speed",
+    "front-wheel drive",
+    "2022 restyle"
+   ],
+   "2026": [
+    "fourth generation",
+    "4th gen",
+    "YF9",
+    "RTL",
+    "TrailSport",
+    "TrailSport Elite",
+    "Blackout",
+    "TrailWatch",
+    "10-speed",
+    "2027",
+    "lifted"
+   ],
+   "used-checklist": [
+    "used",
+    "checklist",
+    "recalls",
+    "rear subframe",
+    "corrosion",
+    "timing belt",
+    "fuel pump",
+    "hood latch",
+    "towing",
+    "all-terrain tires"
+   ]
+  }
+ }
+}

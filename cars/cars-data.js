@@ -17737,6 +17737,289 @@ const CARS_INDEX = [
   }
  },
  {
+  "id": "honda-passport-1st-gen",
+  "name": "Honda Passport (first generation)",
+  "aka": [
+   "1994–1997 Passport",
+   "Passport DX",
+   "Passport LX",
+   "Passport EX",
+   "C58",
+   "Isuzu Rodeo"
+  ],
+  "make": "Honda",
+  "maker": "Isuzu (Subaru-Isuzu Automotive, Lafayette, Indiana), for Honda",
+  "years": "1994–1997",
+  "start": 1994,
+  "body": "Midsize SUV",
+  "engine": "3.2-liter V6 or 2.6-liter 4-cylinder",
+  "country": "United States",
+  "quick": "The first Passport, 1994–1997: an Isuzu Rodeo with Honda badges, and the first SUV Honda sold in America.",
+  "articles": [
+   "honda-hybrid-factory",
+   "honda-hybrid-not-a-bridge"
+  ],
+  "latest": "2026-11-16",
+  "ownDates": [],
+  "dates": [
+   "2026-11-16",
+   "2026-10-12"
+  ],
+  "drive": "Rear-wheel drive or 4-wheel drive",
+  "gearbox": "5-speed manual or 4-speed automatic",
+  "specsFor": "1996 Honda Passport EX, 3.2-liter V6, 4-wheel drive, manual, US market",
+  "guide": null,
+  "shop": {
+   "cargurus": "d593"
+  },
+  "hp": 190,
+  "kg": 1884,
+  "kgNote": "Curb weight, 1996 EX, 4-wheel drive",
+  "lbs": 4154,
+  "z60": null,
+  "top": null,
+  "mpg": {
+   "combined": 16,
+   "city": 15,
+   "hwy": 17,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1996, V6, 4-wheel drive, manual (automatic: 15)"
+  },
+  "built": {
+   "count": 104651,
+   "approx": true,
+   "note": "Sold in the US, 1993–1997 calendar years"
+  },
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": "honda-passport-2nd-gen",
+   "name": "Honda Passport (second generation)"
+  },
+  "photo": null
+ },
+ {
+  "id": "honda-passport-2nd-gen",
+  "name": "Honda Passport (second generation)",
+  "aka": [
+   "1998–2002 Passport",
+   "Passport LX",
+   "Passport EX",
+   "Passport EX-L",
+   "Isuzu Rodeo"
+  ],
+  "make": "Honda",
+  "maker": "Isuzu (Subaru-Isuzu Automotive, Lafayette, Indiana), for Honda",
+  "years": "1998–2002",
+  "start": 1998,
+  "body": "Midsize SUV",
+  "engine": "3.2-liter V6",
+  "country": "United States",
+  "quick": "The second Passport, 1998–2002: the redesigned Isuzu Rodeo with a 205-hp V6, replaced by Honda's own Pilot.",
+  "articles": [
+   "honda-hybrid-factory",
+   "honda-hybrid-not-a-bridge"
+  ],
+  "latest": "2026-11-16",
+  "ownDates": [],
+  "dates": [
+   "2026-11-16",
+   "2026-10-12"
+  ],
+  "drive": "Rear-wheel drive or 4-wheel drive",
+  "gearbox": "5-speed manual or 4-speed automatic",
+  "specsFor": "1998 Honda Passport EX, 4-wheel drive, automatic, US market (Motor Trend test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d593"
+  },
+  "hp": 205,
+  "kg": 1851,
+  "kgNote": "Curb weight, 1998 EX, 4-wheel drive",
+  "lbs": 4080,
+  "z60": {
+   "sec": 8.3,
+   "kind": "tested",
+   "note": "Motor Trend test, 1998 EX, 4-wheel drive (no Car and Driver test on record)"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 16,
+   "city": 15,
+   "hwy": 19,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1998, 4-wheel drive, automatic (manual: 17)"
+  },
+  "built": {
+   "count": 92003,
+   "approx": true,
+   "note": "Sold in the US, 1998–2003 calendar years"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "honda-passport-1st-gen",
+   "name": "Honda Passport (first generation)"
+  },
+  "next": {
+   "id": "honda-passport-3rd-gen",
+   "name": "Honda Passport (third generation)"
+  },
+  "photo": null
+ },
+ {
+  "id": "honda-passport-3rd-gen",
+  "name": "Honda Passport (third generation)",
+  "aka": [
+   "2019–2025 Passport",
+   "Passport EX-L",
+   "Passport TrailSport",
+   "Passport Elite",
+   "Passport Black Edition",
+   "YF7",
+   "YF8"
+  ],
+  "make": "Honda",
+  "maker": "Honda",
+  "years": "2019–2025",
+  "start": 2019,
+  "body": "Midsize SUV",
+  "engine": "3.5-liter V6",
+  "country": "United States",
+  "quick": "The third Passport, 2019–2025: a 2-row Pilot with a 280-hp V6, a huge cargo area and, from 2022, a TrailSport.",
+  "articles": [
+   "honda-hybrid-factory",
+   "honda-hybrid-not-a-bridge"
+  ],
+  "latest": "2026-11-16",
+  "ownDates": [],
+  "dates": [
+   "2026-11-16",
+   "2026-10-12"
+  ],
+  "drive": "Front-wheel drive or i-VTM4 torque-vectoring all-wheel drive; all-wheel drive standard from 2023",
+  "gearbox": "9-speed automatic",
+  "specsFor": "2019 Honda Passport Elite, all-wheel drive, US market (Car and Driver test)",
+  "guide": {
+   "url": "/fitdrive/guides/honda-passport/",
+   "title": "The Honda Passport Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d593"
+  },
+  "hp": 280,
+  "kg": 1937,
+  "kgNote": "Curb weight, 2019 Elite",
+  "lbs": 4270,
+  "z60": {
+   "sec": 5.8,
+   "kind": "tested",
+   "note": "Car and Driver test, 2019 Elite"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 21,
+   "city": 19,
+   "hwy": 24,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2019, all-wheel drive (front-wheel drive: 22)"
+  },
+  "built": {
+   "count": 243607,
+   "approx": true,
+   "note": "Sold in the US, 2019–2024 calendar years"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "honda-passport-2nd-gen",
+   "name": "Honda Passport (second generation)"
+  },
+  "next": {
+   "id": "honda-passport-4th-gen",
+   "name": "Honda Passport (fourth generation)"
+  },
+  "photo": {
+   "card": "/assets/images/cars/honda-passport-3rd-gen.jpg?v=e722cb96",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "honda-passport-4th-gen",
+  "name": "Honda Passport (fourth generation)",
+  "aka": [
+   "2026 Passport",
+   "Passport RTL",
+   "Passport TrailSport",
+   "Passport TrailSport Elite",
+   "YF9"
+  ],
+  "make": "Honda",
+  "maker": "Honda",
+  "years": "2026–present",
+  "start": 2026,
+  "body": "Midsize SUV",
+  "engine": "3.5-liter V6",
+  "country": "United States",
+  "quick": "The fourth Passport, 2026 on: boxier and tougher, with a 285-hp V6, a 10-speed, standard all-wheel drive and a TrailSport that got a lift for 2027.",
+  "articles": [
+   "honda-hybrid-factory",
+   "honda-hybrid-not-a-bridge"
+  ],
+  "latest": "2026-11-16",
+  "ownDates": [],
+  "dates": [
+   "2026-11-16",
+   "2026-10-12"
+  ],
+  "drive": "i-VTM4 torque-vectoring all-wheel drive",
+  "gearbox": "10-speed automatic",
+  "specsFor": "2026 Honda Passport TrailSport Elite, US market (Car and Driver test)",
+  "guide": {
+   "url": "/fitdrive/guides/honda-passport/",
+   "title": "The Honda Passport Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d593"
+  },
+  "hp": 285,
+  "kg": 2133,
+  "kgNote": "Curb weight, 2026 TrailSport Elite",
+  "lbs": 4702,
+  "z60": {
+   "sec": 7.1,
+   "kind": "tested",
+   "note": "Car and Driver test, 2026 TrailSport Elite"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 20,
+   "city": 18,
+   "hwy": 23,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2026 TrailSport (RTL: 21)"
+  },
+  "built": {
+   "count": 107965,
+   "approx": true,
+   "note": "Sold in the US so far, 2025 to October 2026; the first months include the last 2025 models"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "honda-passport-3rd-gen",
+   "name": "Honda Passport (third generation)"
+  },
+  "next": null,
+  "photo": {
+   "card": "/assets/images/cars/honda-passport-4th-gen.jpg?v=87fc099c",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
   "id": "honda-pilot-1st-gen",
   "name": "Honda Pilot (first generation)",
   "aka": [
@@ -18436,6 +18719,74 @@ const CARS_INDEX = [
   "next": null,
   "photo": {
    "card": "/assets/images/cars/honda-prelude-6th-gen.jpg?v=1047ed88",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "honda-prologue",
+  "name": "Honda Prologue",
+  "aka": [
+   "2024–2026 Prologue",
+   "Prologue EX",
+   "Prologue Touring",
+   "Prologue Elite"
+  ],
+  "make": "Honda",
+  "maker": "General Motors (Ramos Arizpe, Mexico), for Honda",
+  "years": "2024–2026",
+  "start": 2024,
+  "body": "Midsize electric SUV",
+  "engine": "Battery-electric: 1 motor (FWD) or 2 motors (AWD), 85-kWh battery",
+  "country": "Mexico",
+  "quick": "Honda's first volume electric SUV, 2024–2026: built by GM on the Blazer EV's platform, with up to 308 miles of range, and dropped after 3 model years.",
+  "articles": [
+   "same-technology-two-ev-markets",
+   "honda-hybrid-not-a-bridge"
+  ],
+  "latest": "2026-10-12",
+  "ownDates": [],
+  "dates": [
+   "2026-10-12"
+  ],
+  "drive": "Front-wheel drive or all-wheel drive",
+  "gearbox": "Single-speed",
+  "specsFor": "2024 Honda Prologue Elite, all-wheel drive, US market (Car and Driver test)",
+  "guide": {
+   "url": "/fitdrive/guides/honda-prologue/",
+   "title": "The Honda Prologue Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d3357"
+  },
+  "hp": 288,
+  "kg": 2392,
+  "kgNote": "Curb weight, 2024 Elite",
+  "lbs": 5273,
+  "z60": {
+   "sec": 5.9,
+   "kind": "tested",
+   "note": "Car and Driver test, 2024 Elite"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 92,
+   "city": 99,
+   "hwy": 84,
+   "unit": "MPGe",
+   "kind": "epa",
+   "note": "EPA combined, 2024 Elite; 273-mile range"
+  },
+  "built": {
+   "count": 86741,
+   "approx": true,
+   "note": "Sold in the US, 2024 to October 2026"
+  },
+  "alongside": [],
+  "prev": null,
+  "next": null,
+  "photo": {
+   "card": "/assets/images/cars/honda-prologue.jpg?v=367ffb08",
    "pos": "",
    "fit": ""
   }

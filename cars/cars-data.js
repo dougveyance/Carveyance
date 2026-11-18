@@ -11273,6 +11273,228 @@ const CARS_INDEX = [
   }
  },
  {
+  "id": "honda-civic-type-r-ek9",
+  "name": "Honda Civic Type R (EK9)",
+  "aka": [
+   "1997–2000 Civic Type R",
+   "EK9",
+   "Civic Type R Rx"
+  ],
+  "make": "Honda",
+  "maker": "Honda",
+  "years": "1997–2000",
+  "start": 1997,
+  "body": "Compact 3-door hatchback",
+  "engine": "1.6-liter twin-cam VTEC 4-cylinder (B16B)",
+  "country": "Japan",
+  "quick": "The first Civic Type R, 1997–2000: a stripped, seam-welded Japanese-market hatchback whose hand-finished 1.6-liter made 185 PS (182 hp) and revved past 8,000 rpm.",
+  "articles": [
+   "the-one-and-only"
+  ],
+  "latest": "2026-09-08",
+  "ownDates": [],
+  "dates": [
+   "2026-09-08"
+  ],
+  "drive": "Front-wheel drive",
+  "gearbox": "5-speed manual",
+  "specsFor": "1997 Honda Civic Type R (EK9), Japanese market",
+  "guide": null,
+  "shop": null,
+  "hp": 182,
+  "kg": 1050,
+  "kgNote": "Curb weight, 1,050–1,070 kg depending on trim",
+  "lbs": null,
+  "z60": {
+   "sec": 6.7,
+   "kind": "claimed",
+   "note": "Published figure, tester not named"
+  },
+  "top": {
+   "mph": 140,
+   "kind": "claimed",
+   "note": "Published figure, 225 km/h"
+  },
+  "mpg": null,
+  "built": {
+   "count": 16000,
+   "approx": true,
+   "note": "Built, all for Japan"
+  },
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": "honda-civic-type-r-ep3",
+   "name": "Honda Civic Type R (EP3)"
+  },
+  "photo": null
+ },
+ {
+  "id": "honda-civic-type-r-ep3",
+  "name": "Honda Civic Type R (EP3)",
+  "aka": [
+   "2001–2005 Civic Type R",
+   "EP3",
+   "Civic Type R Premier Edition"
+  ],
+  "make": "Honda",
+  "maker": "Honda",
+  "years": "2001–2005",
+  "start": 2001,
+  "body": "Compact 3-door hatchback",
+  "engine": "2.0-liter i-VTEC 4-cylinder (K20A2 in Europe, K20A in Japan)",
+  "country": "United Kingdom",
+  "quick": "The second Civic Type R, 2001–2005: built in Swindon, England, with a 2.0-liter i-VTEC and a 6-speed, sold in Europe and shipped to Japan in a sharper form.",
+  "articles": [
+   "the-one-and-only"
+  ],
+  "latest": "2026-09-08",
+  "ownDates": [],
+  "dates": [
+   "2026-09-08"
+  ],
+  "drive": "Front-wheel drive",
+  "gearbox": "6-speed manual",
+  "specsFor": "2001 Honda Civic Type R (EP3), European market",
+  "guide": null,
+  "shop": null,
+  "hp": 197,
+  "kg": 1190,
+  "kgNote": "Curb weight, 1,190–1,205 kg depending on market",
+  "lbs": null,
+  "z60": {
+   "sec": 6.5,
+   "kind": "claimed",
+   "note": "Honda claim, European car before the 2003 update (6.4 sec after)"
+  },
+  "top": {
+   "mph": 146,
+   "kind": "claimed",
+   "note": "Honda claim, European car"
+  },
+  "mpg": null,
+  "built": {
+   "count": 25798,
+   "approx": false,
+   "note": "Built in Swindon: 24,334 for Europe and 1,464 for Japan"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "honda-civic-type-r-ek9",
+   "name": "Honda Civic Type R (EK9)"
+  },
+  "next": {
+   "id": "honda-civic-type-r-fd2-fn2",
+   "name": "Honda Civic Type R (FD2 and FN2)"
+  },
+  "photo": null
+ },
+ {
+  "id": "honda-civic-type-r-fd2-fn2",
+  "name": "Honda Civic Type R (FD2 and FN2)",
+  "aka": [
+   "2007–2011 Civic Type R",
+   "FD2",
+   "FN2",
+   "Civic Type R Euro"
+  ],
+  "make": "Honda",
+  "maker": "Honda",
+  "years": "2007–2011",
+  "start": 2007,
+  "body": "4-door sedan (FD2, Japan) and 3-door hatchback (FN2, Europe)",
+  "engine": "2.0-liter i-VTEC 4-cylinder",
+  "country": "Japan and United Kingdom",
+  "quick": "The third Civic Type R, 2007–2011: 2 different cars, a high-revving sedan for Japan and a heavier hatchback for Europe.",
+  "articles": [
+   "the-one-and-only"
+  ],
+  "latest": "2026-09-08",
+  "ownDates": [],
+  "dates": [
+   "2026-09-08"
+  ],
+  "drive": "Front-wheel drive",
+  "gearbox": "6-speed manual",
+  "specsFor": "2007 Honda Civic Type R (FD2) sedan, Japanese market",
+  "guide": null,
+  "shop": null,
+  "hp": 222,
+  "kg": 1255,
+  "kgNote": "Curb weight, FD2 sedan, 1,255–1,270 kg",
+  "lbs": null,
+  "z60": null,
+  "top": null,
+  "mpg": null,
+  "built": {
+   "count": 43101,
+   "approx": false,
+   "note": "Built: 14,062 FD2 sedans in Japan and 29,039 FN2 hatchbacks in Swindon"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "honda-civic-type-r-ep3",
+   "name": "Honda Civic Type R (EP3)"
+  },
+  "next": {
+   "id": "honda-civic-type-r-fk2",
+   "name": "Honda Civic Type R (FK2)"
+  },
+  "photo": null
+ },
+ {
+  "id": "honda-civic-type-r-fk2",
+  "name": "Honda Civic Type R (FK2)",
+  "aka": [
+   "2015–2017 Civic Type R",
+   "FK2",
+   "Civic Type R GT"
+  ],
+  "make": "Honda",
+  "maker": "Honda",
+  "years": "2015–2017",
+  "start": 2015,
+  "body": "Compact 5-door hatchback",
+  "engine": "2.0-liter turbo 4-cylinder (K20C1)",
+  "country": "United Kingdom",
+  "quick": "The fourth Civic Type R, 2015–2017: the first with a turbocharger, 310 PS (306 hp) from a 2.0-liter, and a Nürburgring record for front-wheel-drive cars.",
+  "articles": [
+   "the-one-and-only"
+  ],
+  "latest": "2026-09-08",
+  "ownDates": [],
+  "dates": [
+   "2026-09-08"
+  ],
+  "drive": "Front-wheel drive",
+  "gearbox": "6-speed manual",
+  "specsFor": "2015 Honda Civic Type R (FK2), European market",
+  "guide": null,
+  "shop": null,
+  "hp": 306,
+  "kg": 1380,
+  "kgNote": "Curb weight",
+  "lbs": null,
+  "z60": {
+   "sec": 5.7,
+   "kind": "claimed",
+   "note": "Honda claim, 0–100 km/h (62 mph)"
+  },
+  "top": null,
+  "mpg": null,
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "honda-civic-type-r-fd2-fn2",
+   "name": "Honda Civic Type R (FD2 and FN2)"
+  },
+  "next": {
+   "id": "honda-civic-type-r-fk8",
+   "name": "Honda Civic Type R (FK8)"
+  },
+  "photo": null
+ },
+ {
   "id": "honda-civic-type-r-fk8",
   "name": "Honda Civic Type R (FK8)",
   "aka": [
@@ -11332,7 +11554,10 @@ const CARS_INDEX = [
   },
   "built": null,
   "alongside": [],
-  "prev": null,
+  "prev": {
+   "id": "honda-civic-type-r-fk2",
+   "name": "Honda Civic Type R (FK2)"
+  },
   "next": {
    "id": "honda-civic-type-r-fl5",
    "name": "Honda Civic Type R (FL5)"

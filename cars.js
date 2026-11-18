@@ -14663,6 +14663,334 @@ const CARS = [
     }
   },
   {
+    "id": "honda-civic-type-r-ek9",
+    "name": "Honda Civic Type R (EK9)",
+    "aka": [
+      "1997–2000 Civic Type R",
+      "EK9",
+      "Civic Type R Rx"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "1997–2000",
+    "start": 1997,
+    "end": 2000,
+    "body": "Compact 3-door hatchback",
+    "engine": "1.6-liter twin-cam VTEC 4-cylinder (B16B)",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual",
+    "specsFor": "1997 Honda Civic Type R (EK9), Japanese market",
+    "power": {
+      "hp": 182,
+      "note": "185 PS at 8,200 rpm from the 1.6-liter twin-cam VTEC",
+      "src": "https://en.wikipedia.org/wiki/Honda_Civic_Type_R"
+    },
+    "weight": {
+      "kg": 1050,
+      "note": "Curb weight, 1,050–1,070 kg depending on trim",
+      "src": "https://en.wikipedia.org/wiki/Honda_Civic_Type_R"
+    },
+    "zero60": {
+      "sec": 6.7,
+      "kind": "claimed",
+      "note": "Published figure, tester not named",
+      "src": "https://en.wikipedia.org/wiki/Honda_Civic_Type_R"
+    },
+    "top": {
+      "mph": 140,
+      "kind": "claimed",
+      "note": "Published figure, 225 km/h",
+      "src": "https://en.wikipedia.org/wiki/Honda_Civic_Type_R"
+    },
+    "mpg": {
+      "na": "Not sold in the US, so no EPA rating"
+    },
+    "built": {
+      "count": 16000,
+      "approx": true,
+      "note": "Built, all for Japan",
+      "src": "https://en.wikipedia.org/wiki/Honda_Civic_Type_R"
+    },
+    "predecessor": null,
+    "successor": {
+      "name": "Honda Civic Type R (EP3)",
+      "id": "honda-civic-type-r-ep3"
+    },
+    "quick": "The first Civic Type R, 1997–2000: a stripped, seam-welded Japanese-market hatchback whose hand-finished 1.6-liter made 185 PS (182 hp) and revved past 8,000 rpm.",
+    "story": [
+      "Honda introduced the Civic Type R on August 19, 1997, the third car to wear the badge after the NSX and the Integra. It started from the Japanese SiR hatchback and followed the Integra Type R's recipe: less sound deadening, a seam-welded body for extra stiffness, a helical limited-slip differential and a close-ratio 5-speed. The hand-ported 1.6-liter twin-cam VTEC made 185 PS (182 hp) at 8,200 rpm, one of the highest outputs per liter ever from a naturally aspirated engine.",
+      "Inside were red Recaro seats, red door panels, a titanium shift knob and a Momo steering wheel. Published figures put it at 6.7 seconds to 60 mph and 225 km/h (140 mph) flat out. A stripped-out Motor Sports edition followed in 1998 and a better-equipped Type Rx in 1999. The EK9 was sold only in Japan, and Honda built about 16,000."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Honda Civic Type R"
+    ]
+  },
+  {
+    "id": "honda-civic-type-r-ep3",
+    "name": "Honda Civic Type R (EP3)",
+    "aka": [
+      "2001–2005 Civic Type R",
+      "EP3",
+      "Civic Type R Premier Edition"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "United Kingdom",
+    "years": "2001–2005",
+    "start": 2001,
+    "end": 2005,
+    "body": "Compact 3-door hatchback",
+    "engine": "2.0-liter i-VTEC 4-cylinder (K20A2 in Europe, K20A in Japan)",
+    "drive": "Front-wheel drive",
+    "gearbox": "6-speed manual",
+    "specsFor": "2001 Honda Civic Type R (EP3), European market",
+    "power": {
+      "hp": 197,
+      "note": "200 PS from the European K20A2 2.0-liter",
+      "src": "https://en.wikipedia.org/wiki/Honda_Civic_Type_R"
+    },
+    "weight": {
+      "kg": 1190,
+      "note": "Curb weight, 1,190–1,205 kg depending on market",
+      "src": "https://en.wikipedia.org/wiki/Honda_Civic_Type_R"
+    },
+    "zero60": {
+      "sec": 6.5,
+      "kind": "claimed",
+      "note": "Honda claim, European car before the 2003 update (6.4 sec after)",
+      "src": "https://en.wikipedia.org/wiki/Honda_Civic_Type_R"
+    },
+    "top": {
+      "mph": 146,
+      "kind": "claimed",
+      "note": "Honda claim, European car",
+      "src": "https://en.wikipedia.org/wiki/Honda_Civic_Type_R"
+    },
+    "mpg": {
+      "na": "Not sold in the US, so no EPA rating"
+    },
+    "built": {
+      "count": 25798,
+      "approx": false,
+      "note": "Built in Swindon: 24,334 for Europe and 1,464 for Japan",
+      "src": "https://en.wikipedia.org/wiki/Honda_Civic_Type_R"
+    },
+    "versions": [
+      {
+        "name": "Europe",
+        "detail": "200 PS K20A2"
+      },
+      {
+        "name": "Japan",
+        "detail": "215 PS K20A, helical limited-slip differential",
+        "specsFor": "Honda Civic Type R (EP3), Japanese market",
+        "power": {
+          "hp": 212,
+          "note": "215 PS from the Japanese K20A 2.0-liter",
+          "src": "https://en.wikipedia.org/wiki/Honda_Civic_Type_R"
+        },
+        "weight": {
+          "kg": 1190,
+          "note": "Curb weight, 1,190–1,205 kg depending on market",
+          "src": "https://en.wikipedia.org/wiki/Honda_Civic_Type_R"
+        },
+        "zero60": {
+          "sec": 5.8,
+          "kind": "claimed",
+          "note": "Honda claim, Japanese car",
+          "src": "https://en.wikipedia.org/wiki/Honda_Civic_Type_R"
+        },
+        "top": {
+          "mph": 141,
+          "kind": "claimed",
+          "note": "Honda claim, Japanese car",
+          "src": "https://en.wikipedia.org/wiki/Honda_Civic_Type_R"
+        },
+        "mpg": {
+          "na": "Not sold in the US, so no EPA rating"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Honda Civic Type R (EK9)",
+      "id": "honda-civic-type-r-ek9"
+    },
+    "successor": {
+      "name": "Honda Civic Type R (FD2 and FN2)",
+      "id": "honda-civic-type-r-fd2-fn2"
+    },
+    "quick": "The second Civic Type R, 2001–2005: built in Swindon, England, with a 2.0-liter i-VTEC and a 6-speed, sold in Europe and shipped to Japan in a sharper form.",
+    "story": [
+      "The second Type R arrived in 2001 as a 3-door hatchback built at Honda's plant in Swindon, England, on the same body shell as the American Civic Si. European cars had a 2.0-liter i-VTEC with 200 PS (197 hp), a close-ratio 6-speed and bigger brakes, but went without the limited-slip differential and red Recaros. Honda claimed 0 to 60 mph in 6.5 seconds and a top speed of 146 mph.",
+      "Japan got its own version, also built in Swindon but with a Japanese-built 215-PS (212-hp) engine, the helical limited-slip differential, red Recaro seats and firmer chassis settings; Honda quoted 5.8 seconds to 60. A 2003 update brought quicker steering, revised suspension and a lighter flywheel to answer complaints about understeer and numb steering. Honda built 25,798, of which 24,334 went to Europe and 1,464 to Japan."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Honda Civic Type R"
+    ]
+  },
+  {
+    "id": "honda-civic-type-r-fd2-fn2",
+    "name": "Honda Civic Type R (FD2 and FN2)",
+    "aka": [
+      "2007–2011 Civic Type R",
+      "FD2",
+      "FN2",
+      "Civic Type R Euro"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan and United Kingdom",
+    "years": "2007–2011",
+    "start": 2007,
+    "end": 2011,
+    "body": "4-door sedan (FD2, Japan) and 3-door hatchback (FN2, Europe)",
+    "engine": "2.0-liter i-VTEC 4-cylinder",
+    "drive": "Front-wheel drive",
+    "gearbox": "6-speed manual",
+    "specsFor": "2007 Honda Civic Type R (FD2) sedan, Japanese market",
+    "power": {
+      "hp": 222,
+      "note": "225 PS at 8,000 rpm, FD2 sedan",
+      "src": "https://en.wikipedia.org/wiki/Honda_Civic_Type_R"
+    },
+    "weight": {
+      "kg": 1255,
+      "note": "Curb weight, FD2 sedan, 1,255–1,270 kg",
+      "src": "https://en.wikipedia.org/wiki/Honda_Civic_Type_R"
+    },
+    "zero60": {
+      "na": "No test on record"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "na": "Not sold in the US, so no EPA rating"
+    },
+    "built": {
+      "count": 43101,
+      "approx": false,
+      "note": "Built: 14,062 FD2 sedans in Japan and 29,039 FN2 hatchbacks in Swindon",
+      "src": "https://en.wikipedia.org/wiki/Honda_Civic_Type_R"
+    },
+    "versions": [
+      {
+        "name": "FD2 sedan",
+        "detail": "Japan, 2007–2010"
+      },
+      {
+        "name": "FN2 hatchback",
+        "detail": "Europe, 2007–2011",
+        "specsFor": "2007 Honda Civic Type R (FN2) hatchback, European market",
+        "power": {
+          "hp": 198,
+          "note": "201 PS at 7,800 rpm",
+          "src": "https://en.wikipedia.org/wiki/Honda_Civic_Type_R"
+        },
+        "weight": {
+          "kg": 1320,
+          "note": "Curb weight, FN2 hatchback",
+          "src": "https://en.wikipedia.org/wiki/Honda_Civic_Type_R"
+        },
+        "zero60": {
+          "na": "No test on record"
+        },
+        "top": {
+          "na": "No figure on record"
+        },
+        "mpg": {
+          "na": "Not sold in the US, so no EPA rating"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Honda Civic Type R (EP3)",
+      "id": "honda-civic-type-r-ep3"
+    },
+    "successor": {
+      "name": "Honda Civic Type R (FK2)",
+      "id": "honda-civic-type-r-fk2"
+    },
+    "quick": "The third Civic Type R, 2007–2011: 2 different cars, a high-revving sedan for Japan and a heavier hatchback for Europe.",
+    "story": [
+      "For the eighth-generation Civic, Honda split the Type R in 2. Japan got the FD2, on sale from March 30, 2007: the first Type R sedan, larger and wider than before, with a 225-PS (222-hp) 2.0-liter that peaked at 8,000 rpm, a helical limited-slip differential, Brembo brakes and independent rear suspension. It lapped the Tsukuba circuit about a second quicker than the Integra Type R. Honda built 14,062 before tighter emissions rules ended production in August 2010.",
+      "Europe got the FN2, a 3-door hatchback built in Swindon with a 201-PS (198-hp) engine, a torsion-beam rear axle and a curb weight of 1,320 kg (2,910 lb). Top Gear magazine named it Hot Hatch of 2007, though the TV show later said it felt slower and less composed than the car it replaced. Honda built 29,039, including 3,510 sold in Japan as the Type R Euro."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Honda Civic Type R"
+    ]
+  },
+  {
+    "id": "honda-civic-type-r-fk2",
+    "name": "Honda Civic Type R (FK2)",
+    "aka": [
+      "2015–2017 Civic Type R",
+      "FK2",
+      "Civic Type R GT"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "United Kingdom",
+    "years": "2015–2017",
+    "start": 2015,
+    "end": 2017,
+    "body": "Compact 5-door hatchback",
+    "engine": "2.0-liter turbo 4-cylinder (K20C1)",
+    "drive": "Front-wheel drive",
+    "gearbox": "6-speed manual",
+    "specsFor": "2015 Honda Civic Type R (FK2), European market",
+    "power": {
+      "hp": 306,
+      "note": "310 PS from the 2.0-liter turbo",
+      "src": "https://en.wikipedia.org/wiki/Honda_Civic_Type_R"
+    },
+    "weight": {
+      "kg": 1380,
+      "note": "Curb weight",
+      "src": "https://en.wikipedia.org/wiki/Honda_Civic_Type_R"
+    },
+    "zero60": {
+      "sec": 5.7,
+      "kind": "claimed",
+      "note": "Honda claim, 0–100 km/h (62 mph)",
+      "src": "https://en.wikipedia.org/wiki/Honda_Civic_Type_R"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "na": "Not sold in the US, so no EPA rating"
+    },
+    "built": {
+      "na": "No production total on record"
+    },
+    "predecessor": {
+      "name": "Honda Civic Type R (FD2 and FN2)",
+      "id": "honda-civic-type-r-fd2-fn2"
+    },
+    "successor": {
+      "name": "Honda Civic Type R (FK8)",
+      "id": "honda-civic-type-r-fk8"
+    },
+    "quick": "The fourth Civic Type R, 2015–2017: the first with a turbocharger, 310 PS (306 hp) from a 2.0-liter, and a Nürburgring record for front-wheel-drive cars.",
+    "story": [
+      "Shown in production form at the Geneva Motor Show in March 2015, the FK2 was the first factory-turbocharged Civic Type R. Its direct-injected 2.0-liter made 310 PS (306 hp) and 400 Nm (295 lb-ft), drove through a 6-speed manual and a limited-slip differential, and was built at Honda's engine plant in Anna, Ohio, then shipped to Swindon for assembly. Honda claimed 0 to 100 km/h (62 mph) in 5.7 seconds.",
+      "Brembo brakes with 350-mm front discs, a stiffened body and 19-inch Continental tires completed the package, and in May 2014 a development car lapped the Nürburgring Nordschleife in 7 minutes 50.63 seconds, then the record for a front-wheel-drive production car. It was sold in Europe, with 750 exported to Japan, and its successor, the FK8, became the first Civic Type R officially sold in America."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Honda Civic Type R"
+    ]
+  },
+  {
     "top": {
       "mph": 170,
       "kind": "tested",
@@ -14678,7 +15006,10 @@ const CARS = [
       "src": "https://www.fueleconomy.gov/feg/noframes/38696.shtml"
     },
     "built": null,
-    "predecessor": null,
+    "predecessor": {
+      "name": "Honda Civic Type R (FK2)",
+      "id": "honda-civic-type-r-fk2"
+    },
     "successor": {
       "name": "Honda Civic Type R (FL5)",
       "id": "honda-civic-type-r-fl5"

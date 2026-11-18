@@ -12999,6 +12999,1244 @@ const CARS = [
     }
   },
   {
+    "id": "honda-civic-1st-gen",
+    "name": "Honda Civic (first generation)",
+    "aka": [
+      "1973–1979 Civic",
+      "Civic CVCC",
+      "Civic 1200",
+      "Civic Wagon"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "1973–1979",
+    "start": 1973,
+    "end": 1979,
+    "shop": {
+      "cargurus": "d586"
+    },
+    "body": "Subcompact 2-door sedan, 3-door hatchback and wagon",
+    "engine": "1.2-liter 4-cylinder; 1.5-liter CVCC 4-cylinder from 1975",
+    "drive": "Front-wheel drive",
+    "gearbox": "4-speed or 5-speed manual, or 2-speed Hondamatic",
+    "specsFor": "1973 Honda Civic hatchback, 1.2-liter, 4-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 50,
+      "note": "1.2-liter 4-cylinder, 1973 (52 hp from 1974)",
+      "src": "https://en.wikipedia.org/wiki/Honda_Civic_(first_generation)"
+    },
+    "weight": {
+      "kg": 680,
+      "lb": 1500,
+      "note": "Curb weight, 1973 hatchback",
+      "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+    },
+    "zero60": {
+      "sec": 12.9,
+      "kind": "tested",
+      "note": "Car and Driver test, 1973 hatchback",
+      "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "count": 767583,
+      "approx": true,
+      "note": "Sold in the US, 1973–1979 (Honda figures)",
+      "src": "https://en.wikipedia.org/wiki/Honda_Civic"
+    },
+    "versions": [
+      {
+        "name": "1.2-liter",
+        "detail": "4-cylinder, 1973–1979"
+      },
+      {
+        "name": "1.5-liter CVCC",
+        "detail": "CVCC 4-cylinder, 1975–1979",
+        "specsFor": "1975 Honda Civic CVCC hatchback, 5-speed manual, US market (Motor Trend test)",
+        "power": {
+          "hp": 53,
+          "note": "1.5-liter CVCC 4-cylinder",
+          "src": "https://en.wikipedia.org/wiki/Honda_Civic_(first_generation)"
+        },
+        "weight": {
+          "kg": 816,
+          "lb": 1800,
+          "note": "Curb weight, 1975 CVCC hatchback",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "zero60": {
+          "sec": 15.6,
+          "kind": "tested",
+          "note": "Motor Trend test, 1975 CVCC hatchback",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "top": {
+          "na": "No figure on record"
+        },
+        "mpg": {
+          "na": "fueleconomy.gov starts with 1984 models"
+        }
+      }
+    ],
+    "predecessor": null,
+    "successor": {
+      "name": "Honda Civic (second generation)",
+      "id": "honda-civic-2nd-gen"
+    },
+    "quick": "The first Civic, 1973–1979: a small front-wheel-drive hatchback that reached America just before the 1973 oil crisis and became Honda's first real success as a carmaker.",
+    "story": [
+      "Honda started building the Civic in July 1972, and it was the company's first genuine hit on 4 wheels. It was bigger than the tiny N600 before it, with a water-cooled 1.2-liter 4-cylinder mounted sideways to drive the front wheels, about 50 hp, front disc brakes and independent suspension at all 4 corners. It weighed about 680 kg (1,500 lb), and Car and Driver timed one to 60 mph in 12.9 seconds. When the 1973 oil crisis sent Americans looking for small, thrifty cars, the Civic was already in showrooms.",
+      "For 1975 Honda added the CVCC engine, a 1.5-liter whose cylinder head burned fuel cleanly enough to pass US emissions rules without a catalytic converter; in California it was the only Civic engine on sale. A 5-speed manual and a wagon widened the range, and US sales passed 100,000 that year on the way to about 768,000 by 1979. The early cars rusted quickly where roads were salted, and Honda later agreed with the Federal Trade Commission to replace or pay for rusted fenders on 1975–1979 Civics."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Honda Civic"
+    ]
+  },
+  {
+    "id": "honda-civic-2nd-gen",
+    "name": "Honda Civic (second generation)",
+    "aka": [
+      "1980–1983 Civic",
+      "Civic 1500GL",
+      "Civic FE",
+      "Civic S"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "1980–1983",
+    "start": 1980,
+    "end": 1983,
+    "shop": {
+      "cargurus": "d586"
+    },
+    "body": "Subcompact 3-door hatchback and wagon; 4-door sedan from 1981",
+    "engine": "1.3-liter or 1.5-liter CVCC 4-cylinder",
+    "drive": "Front-wheel drive",
+    "gearbox": "4-speed or 5-speed manual; 2-speed Hondamatic, then 3-speed automatic",
+    "specsFor": "1980 Honda Civic 1500GL hatchback, 5-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 67,
+      "note": "1.5-liter CVCC 4-cylinder (1.3-liter: 55 hp)",
+      "src": "https://en.wikipedia.org/wiki/Honda_Civic_(second_generation)"
+    },
+    "weight": {
+      "kg": 862,
+      "lb": 1900,
+      "note": "Curb weight, 1980 1500GL hatchback",
+      "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+    },
+    "zero60": {
+      "sec": 10.9,
+      "kind": "tested",
+      "note": "Car and Driver test, 1980 1500GL hatchback",
+      "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "count": 563654,
+      "approx": true,
+      "note": "Sold in the US, 1980–1983 (Honda figures)",
+      "src": "https://en.wikipedia.org/wiki/Honda_Civic"
+    },
+    "predecessor": {
+      "name": "Honda Civic (first generation)",
+      "id": "honda-civic-1st-gen"
+    },
+    "successor": {
+      "name": "Honda Civic (third generation)",
+      "id": "honda-civic-3rd-gen"
+    },
+    "quick": "The second-generation Civic, 1980–1983: bigger, squarer and closer to the Accord, with a 4-door sedan in America for the first time from 1981.",
+    "story": [
+      "The second Civic debuted in June 1979, more angular than the first, larger in every direction and more comfortable to live with. US buyers chose between a 1.3-liter CVCC engine with 55 hp and a 1.5-liter with 67 hp. The bigger engine now needed a small catalytic converter and unleaded fuel to meet emissions rules, while the 1.3 still ran on leaded gas but wasn't sold in California. Car and Driver ran a 1980 1500GL hatchback to 60 mph in 10.9 seconds.",
+      "A 3-speed automatic replaced the old 2-speed Hondamatic, and a 4-door sedan reached America for 1981, a car British Leyland also built under license as the Triumph Acclaim. Rectangular headlights and bigger bumpers came in 1982, along with an FE model built purely for economy. Americans bought about 564,000 second-generation Civics."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Honda Civic"
+    ]
+  },
+  {
+    "id": "honda-civic-3rd-gen",
+    "name": "Honda Civic (third generation)",
+    "aka": [
+      "1984–1987 Civic",
+      "Civic Si",
+      "Civic Wagon",
+      "Civic Wagovan",
+      "Civic S"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "1984–1987",
+    "start": 1984,
+    "end": 1987,
+    "shop": {
+      "cargurus": "d586"
+    },
+    "body": "Subcompact 3-door hatchback, 4-door sedan and 5-door wagon (also with part-time 4-wheel drive)",
+    "engine": "1.3-liter or 1.5-liter 12-valve 4-cylinder; fuel-injected 1.5-liter in the Si (1986–1987)",
+    "drive": "Front-wheel drive",
+    "gearbox": "4-speed or 5-speed manual; 3-speed automatic, 4-speed from 1986",
+    "specsFor": "1984 Honda Civic wagon, 1.5-liter, 5-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 76,
+      "note": "1.5-liter 12-valve 4-cylinder (base 1.3-liter: 60 hp)",
+      "src": "https://en.wikipedia.org/wiki/Honda_Civic_(third_generation)"
+    },
+    "weight": {
+      "na": "No figure on record"
+    },
+    "zero60": {
+      "sec": 11.6,
+      "kind": "tested",
+      "note": "Car and Driver test, 1984 wagon",
+      "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "combined": 29,
+      "city": 27,
+      "hwy": 32,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/26686.shtml",
+      "note": "EPA combined, 1984 1.5-liter, 5-speed manual"
+    },
+    "built": {
+      "count": 849930,
+      "approx": true,
+      "note": "Sold in the US, 1984–1987 (Honda figures)",
+      "src": "https://en.wikipedia.org/wiki/Honda_Civic"
+    },
+    "versions": [
+      {
+        "name": "1.5-liter",
+        "detail": "12-valve 4-cylinder, carbureted"
+      },
+      {
+        "name": "Si",
+        "detail": "Fuel-injected 1.5-liter, 1986–1987",
+        "specsFor": "1986 Honda Civic Si hatchback, 5-speed manual, US market (Motor Trend test)",
+        "power": {
+          "hp": 91,
+          "note": "Fuel-injected 1.5-liter 4-cylinder",
+          "src": "https://en.wikipedia.org/wiki/Honda_Civic_(third_generation)"
+        },
+        "weight": {
+          "kg": 984,
+          "lb": 2170,
+          "note": "Curb weight, 1986 Si hatchback",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "zero60": {
+          "sec": 10.6,
+          "kind": "tested",
+          "note": "Motor Trend test, 1986 Si hatchback",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "top": {
+          "na": "No figure on record"
+        },
+        "mpg": {
+          "combined": 27,
+          "city": 26,
+          "hwy": 30,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/1832.shtml",
+          "note": "EPA combined, 1986 Si, 5-speed manual"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Honda Civic (second generation)",
+      "id": "honda-civic-2nd-gen"
+    },
+    "successor": {
+      "name": "Honda Civic (fourth generation)",
+      "id": "honda-civic-4th-gen"
+    },
+    "quick": "The third-generation Civic, 1984–1987: a flat-roofed hatchback, a sedan, a tall wagon you could get with 4-wheel drive, and from 1986 the first Civic Si hatchback sold in America.",
+    "story": [
+      "Introduced in September 1983 for 1984, the third Civic won Japan's Car of the Year. Its wheelbase grew, and the family split into distinct shapes on shared underpinnings: a 3-door hatchback with a flat roof and a chopped tail, a 4-door sedan, a tall 5-door wagon and the sporty CRX. Most US cars used a new 12-valve 1.5-liter with 76 hp, and Car and Driver timed a 1984 wagon to 60 mph in 11.6 seconds.",
+      "For 1986 the hatchback got the Si treatment, borrowing the CRX Si's fuel-injected 91-hp 1.5-liter along with a removable glass sunroof and a roof spoiler; Motor Trend clocked one at 10.6 seconds. The same year brought flush headlights and an overdrive 4th gear for the automatic, and the wagon could be ordered with part-time 4-wheel drive engaged by a button on the dash. US sales passed 235,000 in 1986 and came to about 850,000 over 4 years."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Honda Civic"
+    ]
+  },
+  {
+    "id": "honda-civic-4th-gen",
+    "name": "Honda Civic (fourth generation)",
+    "aka": [
+      "1988–1991 Civic",
+      "Civic Si",
+      "Civic EX",
+      "Civic Wagon 4WD",
+      "EF"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "1988–1991",
+    "start": 1988,
+    "end": 1991,
+    "shop": {
+      "cargurus": "d586"
+    },
+    "body": "Subcompact 3-door hatchback, 4-door sedan and 5-door wagon (front-wheel drive or Real Time 4WD)",
+    "engine": "1.5-liter 16-valve 4-cylinder; 1.6-liter in the Si, EX and 4WD wagon",
+    "drive": "Front-wheel drive",
+    "gearbox": "4-speed or 5-speed manual or 4-speed automatic",
+    "specsFor": "1988 Honda Civic DX hatchback, 1.5-liter, 5-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 92,
+      "note": "1.5-liter 16-valve 4-cylinder, DX and LX",
+      "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+    },
+    "weight": {
+      "kg": 948,
+      "lb": 2090,
+      "note": "Curb weight, 1988 DX hatchback",
+      "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+    },
+    "zero60": {
+      "sec": 9.6,
+      "kind": "tested",
+      "note": "Car and Driver test, 1988 DX hatchback",
+      "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 31,
+      "city": 28,
+      "hwy": 34,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/4259.shtml",
+      "note": "EPA combined, 1988 1.5-liter, 5-speed manual"
+    },
+    "built": {
+      "count": 955187,
+      "approx": true,
+      "note": "Sold in the US, 1988–1991 (Honda figures)",
+      "src": "https://en.wikipedia.org/wiki/Honda_Civic"
+    },
+    "versions": [
+      {
+        "name": "1.5-liter",
+        "detail": "16-valve 4-cylinder, DX and LX"
+      },
+      {
+        "name": "1.6-liter",
+        "detail": "Si (from 1989) and EX (from 1990)",
+        "specsFor": "1990 Honda Civic Si hatchback, 5-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 108,
+          "note": "1.6-liter 16-valve 4-cylinder",
+          "src": "https://en.wikipedia.org/wiki/Honda_Civic_(fourth_generation)"
+        },
+        "weight": {
+          "kg": 1043,
+          "lb": 2300,
+          "note": "Curb weight, 1990 Si hatchback",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "zero60": {
+          "sec": 8.5,
+          "kind": "tested",
+          "note": "Car and Driver test, 1990 Si hatchback",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 26,
+          "city": 24,
+          "hwy": 29,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/6529.shtml",
+          "note": "EPA combined, 1990 1.6-liter, 5-speed manual"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Honda Civic (third generation)",
+      "id": "honda-civic-3rd-gen"
+    },
+    "successor": {
+      "name": "Honda Civic (fifth generation)",
+      "id": "honda-civic-5th-gen"
+    },
+    "quick": "The fourth-generation Civic, 1988–1991: lower and glassier, with double wishbones up front, fuel injection in every US car and the return of the Si.",
+    "story": [
+      "The 1988 Civic sat lower, with a sloping hood and more glass, on a longer 98-inch wheelbase. It had double-wishbone front suspension and independent rear suspension, and every North American Civic was now fuel-injected. The DX and LX used a 16-valve 1.5-liter with 92 hp, and Car and Driver timed a 1988 DX hatchback to 60 mph in 9.6 seconds.",
+      "The Si hatchback returned for 1989 with a 108-hp 1.6-liter, the same engine as the EX sedan that followed for 1990, and Car and Driver ran a 1990 Si to 60 in 8.5 seconds. The wagon came with front-wheel drive or Real Time 4-wheel drive. In Japan, the late-1989 SiR introduced Honda's VTEC variable valve timing in a 1.6-liter that made 158 hp. US sales peaked at more than 261,000 in 1990, and came to about 955,000 in all."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Honda Civic"
+    ]
+  },
+  {
+    "id": "honda-civic-5th-gen",
+    "name": "Honda Civic (fifth generation)",
+    "aka": [
+      "1992–1995 Civic",
+      "Civic Si",
+      "Civic VX",
+      "Civic EX Coupe",
+      "EG",
+      "EH",
+      "EJ"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "1992–1995",
+    "start": 1992,
+    "end": 1995,
+    "shop": {
+      "cargurus": "d586"
+    },
+    "body": "Subcompact 3-door hatchback and 4-door sedan; 2-door coupe from 1993",
+    "engine": "1.5-liter 4-cylinder (VTEC-E in the VX); 1.6-liter VTEC in the Si and EX",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual or 4-speed automatic",
+    "specsFor": "1992 Honda Civic Si hatchback, 1.6-liter VTEC, 5-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 125,
+      "note": "1.6-liter VTEC 4-cylinder, Si and EX",
+      "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+    },
+    "weight": {
+      "kg": 1124,
+      "lb": 2477,
+      "note": "Curb weight, 1992 Si hatchback",
+      "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+    },
+    "zero60": {
+      "sec": 7.5,
+      "kind": "tested",
+      "note": "Car and Driver test, 1992 Si hatchback",
+      "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 28,
+      "city": 25,
+      "hwy": 33,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/8718.shtml",
+      "note": "EPA combined, 1992 1.6-liter, 5-speed manual"
+    },
+    "built": {
+      "count": 1031265,
+      "approx": true,
+      "note": "Sold in the US, 1992–1995 (Honda figures)",
+      "src": "https://en.wikipedia.org/wiki/Honda_Civic"
+    },
+    "versions": [
+      {
+        "name": "1.6-liter VTEC",
+        "detail": "Si and EX"
+      },
+      {
+        "name": "1.5-liter",
+        "detail": "16-valve 4-cylinder, DX and LX",
+        "specsFor": "1992 Honda Civic DX, 1.5-liter, 5-speed manual, US market",
+        "power": {
+          "hp": 102,
+          "note": "1.5-liter 16-valve 4-cylinder",
+          "src": "https://en.wikipedia.org/wiki/Honda_Civic_(fifth_generation)"
+        },
+        "weight": {
+          "na": "No figure on record"
+        },
+        "zero60": {
+          "na": "No test on record"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 32,
+          "city": 30,
+          "hwy": 36,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/8716.shtml",
+          "note": "EPA combined, 1992 1.5-liter, 5-speed manual"
+        }
+      },
+      {
+        "name": "VX",
+        "detail": "Lean-burn 1.5-liter VTEC-E hatchback",
+        "specsFor": "1992 Honda Civic VX hatchback, 5-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 92,
+          "note": "1.5-liter VTEC-E 4-cylinder",
+          "src": "https://en.wikipedia.org/wiki/Honda_Civic_(fifth_generation)"
+        },
+        "weight": {
+          "kg": 948,
+          "lb": 2090,
+          "note": "Curb weight, 1992 VX hatchback",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "zero60": {
+          "sec": 9.5,
+          "kind": "tested",
+          "note": "Car and Driver test, 1992 VX hatchback",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 43,
+          "city": 39,
+          "hwy": 49,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/8719.shtml",
+          "note": "EPA combined, 1992 VX, 5-speed manual"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Honda Civic (fourth generation)",
+      "id": "honda-civic-4th-gen"
+    },
+    "successor": {
+      "name": "Honda Civic (sixth generation)",
+      "id": "honda-civic-6th-gen"
+    },
+    "quick": "The fifth-generation Civic, 1992–1995: rounder and lighter, with VTEC in the Si and EX, a new coupe for 1993, and the VX hatchback that topped 40 mpg.",
+    "story": [
+      "The fifth Civic debuted in Japan in September 1991 and won Japan's Car of the Year, the nameplate's second. It was larger and slipperier than the car it replaced, built with lighter materials, and it rode more softly. The Si hatchback and EX models got a 1.6-liter VTEC engine with 125 hp, and Car and Driver ran a 1992 Si to 60 mph in 7.5 seconds; the DX and LX made do with a 102-hp 1.5-liter.",
+      "The VX hatchback was built for mileage, with a lean-burn VTEC-E 1.5-liter that opened only 1 intake valve at low revs, light alloy wheels and trimmed weight. On today's EPA scale it rates 39 mpg city and 49 highway, and hypermilers still seek it out. A 2-door coupe arrived for 1993, built in Canada and the US and exported to Europe and Japan, while the wagon was dropped. Americans bought about 1.03 million."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Honda Civic"
+    ]
+  },
+  {
+    "id": "honda-civic-6th-gen",
+    "name": "Honda Civic (sixth generation)",
+    "aka": [
+      "1996–2000 Civic",
+      "Civic Si",
+      "Civic EX",
+      "Civic HX",
+      "Civic GX",
+      "EK",
+      "EJ"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "1996–2000",
+    "start": 1996,
+    "end": 2000,
+    "shop": {
+      "cargurus": "d586"
+    },
+    "body": "Subcompact 3-door hatchback, 2-door coupe and 4-door sedan",
+    "engine": "1.6-liter 4-cylinder (VTEC in the EX, VTEC-E in the HX); twin-cam 1.6-liter VTEC in the Si (1999–2000)",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual, 4-speed automatic or CVT (HX)",
+    "specsFor": "1996 Honda Civic DX hatchback, 1.6-liter, 5-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 106,
+      "note": "1.6-liter 4-cylinder, CX, DX and LX",
+      "src": "https://en.wikipedia.org/wiki/Honda_Civic_(sixth_generation)"
+    },
+    "weight": {
+      "kg": 1040,
+      "lb": 2293,
+      "note": "Curb weight, 1996 DX hatchback",
+      "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+    },
+    "zero60": {
+      "sec": 8.5,
+      "kind": "tested",
+      "note": "Car and Driver test, 1996 DX hatchback",
+      "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 31,
+      "city": 28,
+      "hwy": 35,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/12609.shtml",
+      "note": "EPA combined, 1996 1.6-liter, 5-speed manual"
+    },
+    "built": {
+      "count": 1585441,
+      "approx": true,
+      "note": "Sold in the US, 1996–2000 (Honda figures)",
+      "src": "https://en.wikipedia.org/wiki/Honda_Civic"
+    },
+    "versions": [
+      {
+        "name": "1.6-liter",
+        "detail": "4-cylinder, CX, DX and LX"
+      },
+      {
+        "name": "1.6-liter VTEC",
+        "detail": "EX",
+        "specsFor": "1996 Honda Civic EX coupe, automatic, US market (Motor Trend test)",
+        "power": {
+          "hp": 127,
+          "note": "1.6-liter VTEC 4-cylinder",
+          "src": "https://en.wikipedia.org/wiki/Honda_Civic_(sixth_generation)"
+        },
+        "weight": {
+          "kg": 1129,
+          "lb": 2490,
+          "note": "Curb weight, 1996 EX coupe",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "zero60": {
+          "sec": 9.4,
+          "kind": "tested",
+          "note": "Motor Trend test, 1996 EX coupe, automatic",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 27,
+          "city": 24,
+          "hwy": 32,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/12607.shtml",
+          "note": "EPA combined, 1996 VTEC, automatic"
+        }
+      },
+      {
+        "name": "Si",
+        "detail": "Twin-cam 1.6-liter VTEC coupe, 1999–2000",
+        "specsFor": "1999 Honda Civic Si coupe, 5-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 160,
+          "note": "Twin-cam 1.6-liter VTEC 4-cylinder",
+          "src": "https://en.wikipedia.org/wiki/Honda_Civic_(sixth_generation)"
+        },
+        "weight": {
+          "kg": 1197,
+          "lb": 2639,
+          "note": "Curb weight, 1999 Si coupe",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "zero60": {
+          "sec": 7.1,
+          "kind": "tested",
+          "note": "Car and Driver test, 1999 Si coupe",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 25,
+          "city": 22,
+          "hwy": 29,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/14872.shtml",
+          "note": "EPA combined, 1999 Si"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Honda Civic (fifth generation)",
+      "id": "honda-civic-5th-gen"
+    },
+    "successor": {
+      "name": "Honda Civic (seventh generation)",
+      "id": "honda-civic-7th-gen"
+    },
+    "quick": "The sixth-generation Civic, 1996–2000: the last with double-wishbone front suspension, a CVT in the thrifty HX coupe, and from 1999 a 160-hp Si.",
+    "story": [
+      "The 1996 Civic kept the hatchback, sedan and coupe lineup and grew a little longer. 2 new 1.6-liter engines arrived: 106 hp in the CX, DX and LX, and 127 hp with VTEC in the EX, while the fuel-saving HX coupe offered a continuously variable transmission. Car and Driver timed a 1996 DX hatchback to 60 mph in 8.5 seconds and put the Civic on its 10Best list that year. In Japan it won Car of the Year, the nameplate's third.",
+      "The Si came back for 1999 as a coupe with a twin-cam 1.6-liter VTEC that made 160 hp at 7,600 rpm; Car and Driver ran one to 60 in 7.1 seconds. A natural-gas GX sedan for fleets joined in 1997, and this was the last Civic with double wishbones at the front. Americans bought more than 300,000 a year from 1997 on, about 1.59 million in all."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Honda Civic"
+    ]
+  },
+  {
+    "id": "honda-civic-7th-gen",
+    "name": "Honda Civic (seventh generation)",
+    "aka": [
+      "2001–2005 Civic",
+      "Civic Si",
+      "Civic EX",
+      "Civic Hybrid",
+      "EP3",
+      "ES",
+      "EM2"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "2001–2005",
+    "start": 2001,
+    "end": 2005,
+    "shop": {
+      "cargurus": "d586"
+    },
+    "body": "Compact 4-door sedan and 2-door coupe; 3-door hatchback (Si, 2002–2005)",
+    "engine": "1.7-liter 4-cylinder (VTEC in the EX); 2.0-liter in the Si; 1.3-liter hybrid (2003–2005)",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual, 4-speed automatic or CVT (Hybrid and HX)",
+    "specsFor": "2002 Honda Civic LX sedan, 1.7-liter, 5-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 115,
+      "note": "1.7-liter 4-cylinder, DX and LX",
+      "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+    },
+    "weight": {
+      "kg": 1190,
+      "lb": 2623,
+      "note": "Curb weight, 2002 LX sedan",
+      "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+    },
+    "zero60": {
+      "sec": 9.3,
+      "kind": "tested",
+      "note": "Car and Driver test, 2002 LX sedan",
+      "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 31,
+      "city": 28,
+      "hwy": 36,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/17554.shtml",
+      "note": "EPA combined, 2002 1.7-liter, 5-speed manual"
+    },
+    "built": {
+      "count": 1562222,
+      "approx": true,
+      "note": "Sold in the US, 2001–2005 (Honda figures)",
+      "src": "https://en.wikipedia.org/wiki/Honda_Civic"
+    },
+    "versions": [
+      {
+        "name": "1.7-liter",
+        "detail": "4-cylinder, DX and LX"
+      },
+      {
+        "name": "1.7-liter VTEC",
+        "detail": "EX",
+        "specsFor": "2001 Honda Civic EX coupe, 5-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 127,
+          "note": "1.7-liter VTEC 4-cylinder",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "weight": {
+          "kg": 1169,
+          "lb": 2578,
+          "note": "Curb weight, 2001 EX coupe",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "zero60": {
+          "sec": 8.4,
+          "kind": "tested",
+          "note": "Car and Driver test, 2001 EX coupe",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 30,
+          "city": 27,
+          "hwy": 33,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/16636.shtml",
+          "note": "EPA combined, 2001 VTEC, 5-speed manual"
+        }
+      },
+      {
+        "name": "Si",
+        "detail": "2.0-liter hatchback, 2002–2005",
+        "specsFor": "2002 Honda Civic Si hatchback, 5-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 160,
+          "note": "2.0-liter 4-cylinder (from the Acura RSX)",
+          "src": "https://en.wikipedia.org/wiki/Honda_Civic_(seventh_generation)"
+        },
+        "weight": {
+          "kg": 1245,
+          "lb": 2744,
+          "note": "Curb weight, 2002 Si hatchback",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "zero60": {
+          "sec": 8.0,
+          "kind": "tested",
+          "note": "Car and Driver test, 2002 Si hatchback",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 25,
+          "city": 23,
+          "hwy": 28,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/17556.shtml",
+          "note": "EPA combined, 2002 Si"
+        }
+      },
+      {
+        "name": "Hybrid",
+        "detail": "1.3-liter hybrid, 2003–2005",
+        "specsFor": "2003 Honda Civic Hybrid, 5-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 93,
+          "note": "Combined system output",
+          "src": "https://en.wikipedia.org/wiki/Honda_Civic_(seventh_generation)"
+        },
+        "weight": {
+          "kg": 1239,
+          "lb": 2732,
+          "note": "Curb weight, 2003 Hybrid",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "zero60": {
+          "sec": 10.9,
+          "kind": "tested",
+          "note": "Car and Driver test, 2003 Hybrid, 5-speed manual",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 41,
+          "city": 38,
+          "hwy": 45,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/18526.shtml",
+          "note": "EPA combined, 2003 Hybrid, 5-speed manual"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Honda Civic (sixth generation)",
+      "id": "honda-civic-6th-gen"
+    },
+    "successor": {
+      "name": "Honda Civic (eighth generation)",
+      "id": "honda-civic-8th-gen"
+    },
+    "quick": "The seventh-generation Civic, 2001–2005: roomier inside, simpler underneath, the first Civic Hybrid, and an Si hatchback built in England.",
+    "story": [
+      "The 2001 Civic, unveiled in September 2000, looked much like the car before it but had far more space inside, enough to move it into the compact class, with a flat rear floor for back-seat passengers. Honda swapped the double-wishbone front suspension for MacPherson struts. The DX and LX had a 115-hp 1.7-liter and the EX a 127-hp VTEC version, and Car and Driver timed a 2002 LX sedan to 60 mph in 9.3 seconds. In Japan it won Car of the Year for a record 4th time.",
+      "The Civic Hybrid arrived in spring 2002 as a 2003 model, pairing a 1.3-liter engine with an electric motor for 93 hp and 41 mpg combined on today's EPA scale. The Si returned as a 3-door hatchback built in Swindon, England, with a 160-hp 2.0-liter from the Acura RSX and a gearshift mounted high on the dashboard. Americans bought about 1.56 million."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Honda Civic"
+    ]
+  },
+  {
+    "id": "honda-civic-8th-gen",
+    "name": "Honda Civic (eighth generation)",
+    "aka": [
+      "2006–2011 Civic",
+      "Civic Si",
+      "Civic Hybrid",
+      "Civic GX",
+      "FA",
+      "FD",
+      "FG"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "2006–2011",
+    "start": 2006,
+    "end": 2011,
+    "shop": {
+      "cargurus": "d586"
+    },
+    "body": "Compact 4-door sedan and 2-door coupe",
+    "engine": "1.8-liter 4-cylinder; 2.0-liter in the Si; 1.3-liter hybrid",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual or 5-speed automatic; 6-speed manual (Si); CVT (Hybrid)",
+    "specsFor": "2006 Honda Civic LX sedan, 1.8-liter, 5-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 140,
+      "note": "1.8-liter 4-cylinder",
+      "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+    },
+    "weight": {
+      "kg": 1219,
+      "lb": 2687,
+      "note": "Curb weight, 2006 LX sedan",
+      "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+    },
+    "zero60": {
+      "sec": 7.7,
+      "kind": "tested",
+      "note": "Car and Driver test, 2006 LX sedan",
+      "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 29,
+      "city": 26,
+      "hwy": 34,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/21737.shtml",
+      "note": "EPA combined, 2006 1.8-liter, 5-speed manual"
+    },
+    "built": {
+      "count": 1728197,
+      "approx": true,
+      "note": "Sold in the US, 2006–2011 (Honda figures)",
+      "src": "https://en.wikipedia.org/wiki/Honda_Civic"
+    },
+    "versions": [
+      {
+        "name": "1.8-liter",
+        "detail": "4-cylinder"
+      },
+      {
+        "name": "Si",
+        "detail": "2.0-liter, 6-speed manual",
+        "specsFor": "2006 Honda Civic Si coupe, 6-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 197,
+          "note": "2.0-liter 4-cylinder",
+          "src": "https://en.wikipedia.org/wiki/Honda_Civic_(eighth_generation)"
+        },
+        "weight": {
+          "kg": 1313,
+          "lb": 2895,
+          "note": "Curb weight, 2006 Si coupe",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "zero60": {
+          "sec": 6.7,
+          "kind": "tested",
+          "note": "Car and Driver test, 2006 Si coupe",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 23,
+          "city": 20,
+          "hwy": 29,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/22675.shtml",
+          "note": "EPA combined, 2006 Si"
+        }
+      },
+      {
+        "name": "Hybrid",
+        "detail": "1.3-liter hybrid, CVT",
+        "specsFor": "2006 Honda Civic Hybrid, US market (Car and Driver test)",
+        "power": {
+          "hp": 110,
+          "note": "Combined system output",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "weight": {
+          "kg": 1305,
+          "lb": 2877,
+          "note": "Curb weight, 2006 Hybrid",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "zero60": {
+          "sec": 10.8,
+          "kind": "tested",
+          "note": "Car and Driver test, 2006 Hybrid",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 42,
+          "city": 40,
+          "hwy": 45,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/22643.shtml",
+          "note": "EPA combined, 2006 Hybrid"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Honda Civic (seventh generation)",
+      "id": "honda-civic-7th-gen"
+    },
+    "successor": {
+      "name": "Honda Civic (ninth generation)",
+      "id": "honda-civic-9th-gen"
+    },
+    "quick": "The eighth-generation Civic, 2006–2011: a 2-tier dashboard, a 197-hp Si with a limited-slip differential, and the 2006 North American Car of the Year.",
+    "story": [
+      "The eighth Civic went on sale in September 2005 as a 2006 model, the sedan designed in Japan and the coupe in Ohio. Inside, a 2-tier dashboard put a digital speedometer up high with the tachometer below it. A 140-hp 1.8-liter powered most models, and Car and Driver ran a 2006 LX sedan with the manual to 60 mph in 7.7 seconds. It was named the 2006 North American Car of the Year and Motor Trend's Car of the Year.",
+      "The Si coupe brought a 197-hp 2.0-liter, a 6-speed manual and a helical limited-slip differential, and an Si sedan joined for 2007; Car and Driver timed a 2006 Si coupe at 6.7 seconds. The 110-hp Hybrid rates 42 mpg combined. By 2010 more than 95 percent of the Civics sold in America were built in North America, in Greensburg, Indiana, or Alliston, Ontario, and US sales came to about 1.73 million."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Honda Civic"
+    ]
+  },
+  {
+    "id": "honda-civic-9th-gen",
+    "name": "Honda Civic (ninth generation)",
+    "aka": [
+      "2012–2015 Civic",
+      "Civic Si",
+      "Civic HF",
+      "Civic Hybrid",
+      "Civic Natural Gas",
+      "FB",
+      "FG"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "2012–2015",
+    "start": 2012,
+    "end": 2015,
+    "shop": {
+      "cargurus": "d586"
+    },
+    "body": "Compact 4-door sedan and 2-door coupe",
+    "engine": "1.8-liter 4-cylinder; 2.4-liter in the Si; 1.5-liter hybrid; 1.8-liter on natural gas",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual or 5-speed automatic (CVT from 2014); 6-speed manual (Si)",
+    "specsFor": "2012 Honda Civic EX sedan, 1.8-liter, automatic, US market (Car and Driver test)",
+    "power": {
+      "hp": 140,
+      "note": "1.8-liter 4-cylinder (143 hp from 2014)",
+      "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+    },
+    "weight": {
+      "kg": 1262,
+      "lb": 2782,
+      "note": "Curb weight, 2012 EX sedan",
+      "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+    },
+    "zero60": {
+      "sec": 9.0,
+      "kind": "tested",
+      "note": "Car and Driver test, 2012 EX sedan, automatic",
+      "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 31,
+      "city": 28,
+      "hwy": 38,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/31186.shtml",
+      "note": "EPA combined, 2012 1.8-liter, automatic"
+    },
+    "built": {
+      "count": 1315454,
+      "approx": true,
+      "note": "Sold in the US, 2012–2015 (Honda figures)",
+      "src": "https://en.wikipedia.org/wiki/Honda_Civic"
+    },
+    "versions": [
+      {
+        "name": "1.8-liter",
+        "detail": "4-cylinder"
+      },
+      {
+        "name": "Si",
+        "detail": "2.4-liter, 6-speed manual",
+        "specsFor": "2012 Honda Civic Si sedan, 6-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 201,
+          "note": "2.4-liter 4-cylinder (205 hp from 2014)",
+          "src": "https://en.wikipedia.org/wiki/Honda_Civic_(ninth_generation)"
+        },
+        "weight": {
+          "kg": 1342,
+          "lb": 2959,
+          "note": "Curb weight, 2012 Si sedan",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "zero60": {
+          "sec": 6.1,
+          "kind": "tested",
+          "note": "Car and Driver test, 2012 Si sedan",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 25,
+          "city": 22,
+          "hwy": 31,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/31188.shtml",
+          "note": "EPA combined, 2012 Si"
+        }
+      },
+      {
+        "name": "Hybrid",
+        "detail": "1.5-liter hybrid, CVT",
+        "specsFor": "2012 Honda Civic Hybrid, US market (Car and Driver test)",
+        "power": {
+          "hp": 110,
+          "note": "Combined system output",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "weight": {
+          "kg": 1305,
+          "lb": 2877,
+          "note": "Curb weight, 2012 Hybrid",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "zero60": {
+          "sec": 10.1,
+          "kind": "tested",
+          "note": "Car and Driver test, 2012 Hybrid",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 44,
+          "city": 43,
+          "hwy": 44,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/31190.shtml",
+          "note": "EPA combined, 2012 Hybrid"
+        }
+      },
+      {
+        "name": "Natural Gas",
+        "detail": "1.8-liter on compressed natural gas",
+        "specsFor": "2012 Honda Civic Natural Gas, automatic, US market (Car and Driver test)",
+        "power": {
+          "hp": 110,
+          "note": "1.8-liter 4-cylinder on natural gas",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "weight": {
+          "kg": 1305,
+          "lb": 2877,
+          "note": "Curb weight, 2012 Natural Gas",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "zero60": {
+          "sec": 10.7,
+          "kind": "tested",
+          "note": "Car and Driver test, 2012 Natural Gas",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 31,
+          "city": 27,
+          "hwy": 38,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/32336.shtml",
+          "note": "EPA combined, 2012 Natural Gas, per gasoline-gallon equivalent"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Honda Civic (eighth generation)",
+      "id": "honda-civic-8th-gen"
+    },
+    "successor": {
+      "name": "Honda Civic (tenth generation)",
+      "id": "honda-civic-10th-gen"
+    },
+    "quick": "The ninth-generation Civic, 2012–2015: planned during the 2008 recession, criticized at launch, and reworked by Honda within a year.",
+    "story": [
+      "Honda developed the ninth Civic during the 2008 financial crisis and made it slightly smaller and lighter, betting that buyers would trade nicer materials for fuel economy and a lower price. It went on sale in April 2011 as a 2012 model with a 140-hp 1.8-liter, a 2.4-liter Si, a 110-hp Hybrid, a Natural Gas model and an HF sedan rated at 41 mpg on the highway. Car and Driver timed a 2012 EX sedan to 60 mph in 9.0 seconds and an Si sedan in 6.1.",
+      "Reviewers called out cheap plastics, wind noise and duller handling, and Consumer Reports dropped the Civic from its recommended list. Honda answered fast: the 2013 sedan got a new nose and tail, better materials, a quieter cabin and a standard backup camera, and 2014 brought a CVT, 143 hp and a 205-hp Si. It still sold well, about 1.32 million in the US over 4 years."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Honda Civic"
+    ]
+  },
+  {
     "top": {
       "mph": 126,
       "kind": "tested",
@@ -13060,7 +14298,10 @@ const CARS = [
       "note": "Sold in the US, 2016–2021 (all Civic models)",
       "src": "https://www.goodcarbadcar.net/honda-civic-sales-figures/"
     },
-    "predecessor": null,
+    "predecessor": {
+      "name": "Honda Civic (ninth generation)",
+      "id": "honda-civic-9th-gen"
+    },
     "successor": {
       "name": "Honda Civic (eleventh generation)",
       "id": "honda-civic-11th-gen"

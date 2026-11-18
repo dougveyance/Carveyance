@@ -20848,7 +20848,11 @@ const CARS_INDEX = [
    "id": "ford-mustang-2nd-gen",
    "name": "Ford Mustang (second generation)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/ford-mustang-1st-gen.jpg?v=b4be4822",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "ford-mustang-2nd-gen",
@@ -20917,7 +20921,11 @@ const CARS_INDEX = [
    "id": "ford-mustang-3rd-gen",
    "name": "Ford Mustang (third generation)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/ford-mustang-2nd-gen.jpg?v=6d58dd5d",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "ford-mustang-3rd-gen",
@@ -20999,7 +21007,11 @@ const CARS_INDEX = [
    "id": "ford-mustang-4th-gen",
    "name": "Ford Mustang (fourth generation)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/ford-mustang-3rd-gen.jpg?v=6b9906b2",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "ford-mustang-4th-gen",
@@ -21084,7 +21096,11 @@ const CARS_INDEX = [
    "id": "ford-mustang-5th-gen",
    "name": "Ford Mustang (fifth generation)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/ford-mustang-4th-gen.jpg?v=561b82ae",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "ford-mustang-5th-gen",
@@ -21170,7 +21186,11 @@ const CARS_INDEX = [
    "id": "ford-mustang-6th-gen",
    "name": "Ford Mustang (sixth generation)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/ford-mustang-5th-gen.jpg?v=c494ec45",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "ford-mustang-6th-gen",
@@ -21263,7 +21283,11 @@ const CARS_INDEX = [
    "id": "ford-mustang-7th-gen",
    "name": "Ford Mustang (seventh generation)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/ford-mustang-6th-gen.jpg?v=c6c57dd7",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "ford-mustang-7th-gen",
@@ -21348,7 +21372,11 @@ const CARS_INDEX = [
    "name": "Ford Mustang (sixth generation)"
   },
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/ford-mustang-7th-gen.jpg?v=bbead819",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "ford-mustang-shelby-gt350-1965",
@@ -21407,7 +21435,11 @@ const CARS_INDEX = [
    "id": "ford-mustang-shelby-gt350-2015",
    "name": "Shelby GT350 (2015–2020)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/ford-mustang-shelby-gt350-1965.jpg?v=3c1750a7",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "ford-mustang-boss-302-1969",
@@ -21463,7 +21495,11 @@ const CARS_INDEX = [
    "id": "ford-mustang-boss-302-2012",
    "name": "Ford Mustang Boss 302 (2012–2013)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/ford-mustang-boss-302-1969.jpg?v=9873bc64",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "ford-mustang-svo",
@@ -21524,7 +21560,11 @@ const CARS_INDEX = [
   ],
   "prev": null,
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/ford-mustang-svo.jpg?v=97c0eea2",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "ford-mustang-shelby-gt500-2007",
@@ -21585,7 +21625,11 @@ const CARS_INDEX = [
    "id": "ford-mustang-shelby-gt500-2020",
    "name": "Shelby GT500 (2020–2022)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/ford-mustang-shelby-gt500-2007.jpg?v=099852f2",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "ford-mustang-boss-302-2012",
@@ -21645,7 +21689,11 @@ const CARS_INDEX = [
    "name": "Ford Mustang Boss 302 (1969–1970)"
   },
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/ford-mustang-boss-302-2012.jpg?v=d38c6fa2",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "ford-mustang-shelby-gt350-2015",
@@ -21780,7 +21828,11 @@ const CARS_INDEX = [
    "name": "Shelby GT500 (2007–2014)"
   },
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/ford-mustang-shelby-gt500-2020.jpg?v=f2ff6e93",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "ford-mustang-mach-1-2021",
@@ -21843,7 +21895,11 @@ const CARS_INDEX = [
   ],
   "prev": null,
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/ford-mustang-mach-1-2021.jpg?v=5fdb301b",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "ford-mustang-dark-horse",
@@ -21907,7 +21963,11 @@ const CARS_INDEX = [
   ],
   "prev": null,
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/ford-mustang-dark-horse.jpg?v=b0bf9c48",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "ford-mustang-gtd",
@@ -21973,7 +22033,11 @@ const CARS_INDEX = [
   ],
   "prev": null,
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/ford-mustang-gtd.jpg?v=6101d37b",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "ford-mustang-mach-e",
@@ -22050,7 +22114,11 @@ const CARS_INDEX = [
   ],
   "prev": null,
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/ford-mustang-mach-e.jpg?v=301cbeb1",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "ford-mustang-mach-e-gt",
@@ -22114,6 +22182,10 @@ const CARS_INDEX = [
   ],
   "prev": null,
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/ford-mustang-mach-e-gt.jpg?v=6e820f2f",
+   "pos": "",
+   "fit": ""
+  }
  }
 ];

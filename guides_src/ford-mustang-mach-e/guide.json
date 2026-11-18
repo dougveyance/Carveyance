@@ -417,19 +417,29 @@
  },
  "photos": {
   "hub-hero": {
-   "want": "A Mach-E on the road"
+   "want": "A Mach-E on the road",
+   "credit": "Ford",
+   "alt": "A white 2026 Ford Mustang Mach-E GT California Special on the Oatman Highway, a stretch of Route 66 in Arizona"
   },
   "ch1-hero": {
-   "want": "A 2021–2024 Mach-E"
+   "want": "A 2021–2024 Mach-E",
+   "credit": "Ford",
+   "alt": "A dark gray 2022 Ford Mustang Mach-E Premium parked by the water"
   },
   "ch2-hero": {
-   "want": "A 2025–2026 Mach-E"
+   "want": "A 2025–2026 Mach-E",
+   "credit": "Ford",
+   "alt": "A red 2025 Ford Mustang Mach-E Premium with the Sport Appearance Package, seen from the front"
   },
   "ch3-hero": {
-   "want": "A Mach-E GT or Rally"
+   "want": "A Mach-E GT or Rally",
+   "credit": "Ford",
+   "alt": "A Ford Mustang Mach-E Rally kicking up dust on a gravel road"
   },
   "ch4-hero": {
-   "want": "A Mach-E charging"
+   "want": "A Mach-E charging",
+   "credit": "Ford",
+   "alt": "A charging cable plugged into a yellow Ford Mustang Mach-E Rally"
   }
  },
  "find": {

@@ -184,6 +184,13 @@ def photo_html(g, slot, hero=False):
     if os.path.exists(photo_path(g, slot)):
         src = f"/fitdrive/guides/{g['id']}/img/{slot}.jpg"
         bits = [esc(p["caption"]) + "." if p.get("caption") else "", "Photo: " + esc(p["credit"]) if p.get("credit") else ""]
+        if p.get("page"):
+            # a Wikimedia Commons photo: credit the photographer, link the file page and the license
+            lic = esc(p.get("license", ""))
+            if p.get("licenseUrl"):
+                lic = f'<a href="{esc(p["licenseUrl"])}" rel="license noopener" target="_blank">{lic}</a>'
+            bits[1] = (f'Photo: {esc(p.get("credit", ""))} / <a href="{esc(p["page"])}" rel="noopener" target="_blank">Wikimedia Commons</a>'
+                       + (", " + lic if lic else ""))
         cap = " ".join(b for b in bits if b)
         load = ' fetchpriority="high"' if hero else ' loading="lazy"'
         capx = "<figcaption>" + cap + "</figcaption>" if cap else ""

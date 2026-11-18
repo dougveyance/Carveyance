@@ -580,25 +580,45 @@
  },
  "photos": {
   "hub-hero": {
-   "want": "A Mustang on the road"
+   "want": "A Mustang on the road",
+   "credit": "Ford",
+   "alt": "A blue 2025 Ford Mustang GT with the 60th Anniversary Package on a winding forest road"
   },
   "ch1-hero": {
-   "want": "A 2018–2023 Mustang"
+   "want": "A 2018–2023 Mustang",
+   "credit": "Vauxford",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:2018_Ford_Mustang_GT_5.0_Front.jpg",
+   "alt": "A yellow 2018 Ford Mustang GT fastback parked by a street"
   },
   "ch2-hero": {
-   "want": "A 2024–2026 Mustang"
+   "want": "A 2024–2026 Mustang",
+   "credit": "Ford",
+   "alt": "A blue 2025 Ford Mustang GT 60th Anniversary edition on a country road"
   },
   "ch3-hero": {
-   "want": "An EcoBoost and a GT"
+   "want": "An EcoBoost and a GT",
+   "credit": "Ford",
+   "alt": "A blue 2024 Ford Mustang GT pace car in front of the Martinsville Speedway grandstand"
   },
   "ch4-hero": {
-   "want": "A Shelby GT350 or GT500"
+   "want": "A Shelby GT350 or GT500",
+   "credit": "Ethan Llamas",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:2020_Ford_Mustang_Shelby_GT500_in_Oxford_White,_05-31-2024.jpg",
+   "alt": "A white 2020 Ford Mustang Shelby GT500 with gray stripes"
   },
   "ch5-hero": {
-   "want": "A Dark Horse, Mach 1 or Bullitt"
+   "want": "A Dark Horse, Mach 1 or Bullitt",
+   "credit": "Ford",
+   "alt": "A blue 2026 Ford Mustang Dark Horse SC with the Track Pack on a racetrack"
   },
   "ch6-hero": {
-   "want": "A Mustang"
+   "want": "A Mustang",
+   "credit": "Ford",
+   "alt": "A silver 2024 Ford Mustang GT California Special convertible on a coastal road"
   }
  },
  "find": {

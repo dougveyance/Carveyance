@@ -28392,7 +28392,10 @@ const CARS = [
       "The Mustang grew with almost every redesign: larger for 1967, to make room for a 390 big-block V8, larger again for 1969, when the Mach 1, Boss 302 and Boss 429 arrived, and largest of all for 1971. Car and Driver timed a 1964 convertible with the 271-hp 289 at 8.2 seconds to 60 mph and a 1969 Mach 1 with the 428 Cobra Jet at 5.7. Ford built almost 3 million of the first generation, from March 1964 to June 1973."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {
+      "credit": "Ford",
+      "caption": "A 1965 Mustang convertible on Ford's Magic Skyway ride at the 1964 New York World's Fair"
+    },
     "match": [
       "Ford Mustang"
     ]
@@ -28499,7 +28502,13 @@ const CARS = [
       "A 302 V8 returned for 1975, and the Cobra II and, for 1978, the King Cobra dressed it up with stripes, scoops and spoilers. Car and Driver timed a 1974 Mach 1 with the 105-hp V6 at 12.2 seconds to 60 mph and a 1976 Cobra II with the V8 at 8.9. Ford built 1,107,718 in 5 model years before the larger Fox-platform Mustang replaced it for 1979."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {
+      "file": "Ford Mustang II - Flickr - Alexandre Prévot (5).jpg",
+      "credit": "Alexandre Prévot",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "pos": ""
+    },
     "match": [
       "Ford Mustang"
     ]
@@ -28679,7 +28688,13 @@ const CARS = [
       "For 1987 a smoother nose and a 225-hp 5.0 made the GT and the lighter LX 5.0 a cheap way to go very fast; Car and Driver timed a 1987 GT at 6.3 seconds to 60 mph and a 1989 LX at 6.2. The Fox-body car ran for 15 model years, longer than any other Mustang, ending with the first SVT Cobra for 1993, and Ford built about 2.5 million."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {
+      "file": "Ford Mustang, 3rd Generation, Blenheim Classics Auto Show, Blenheim, Ontario, 2025-06-21.jpg",
+      "credit": "Crisco 1492",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pos": ""
+    },
     "match": [
       "Ford Mustang"
     ]
@@ -28908,7 +28923,14 @@ const CARS = [
       "A sharper restyle for 1999, known as the New Edge, raised the GT to 260 hp, and Car and Driver timed one at 5.5 seconds to 60 mph, against 6.1 for a 1994 GT. The SVT Cobra reached 390 hp with a supercharger for 2003 and 2004, and the 2001 Bullitt and the 2003–2004 Mach 1 revived famous names. Ford built the last one in Dearborn on May 10, 2004, after about 1.56 million had been sold in the US."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {
+      "file": "99 Ford Mustang (14344070750).jpg",
+      "credit": "Greg Gjerdingen",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "pos": "",
+      "caption": "A 1999 Mustang"
+    },
     "match": [
       "Ford Mustang"
     ]
@@ -29140,7 +29162,13 @@ const CARS = [
       "A 2010 restyle came before a bigger change for 2011: a 412-hp 5.0-liter V8, the Coyote, in the GT and a 305-hp 3.7-liter V6 in the base car, which Car and Driver timed at 4.6 and 5.4 seconds to 60 mph. The Boss 302 returned for 2012 and 2013, and the 2013 Shelby GT500 reached 662 hp. Ford sold about 1 million in the US from 2005 to 2014, and built the last in June 2014."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {
+      "file": "Ford Mustang V 4290564.jpg",
+      "credit": "Ermell",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pos": ""
+    },
     "match": [
       "Ford Mustang"
     ]
@@ -29376,7 +29404,13 @@ const CARS = [
       "The 2018 update dropped the V6, raised the GT to 460 hp and added a 10-speed automatic, and Car and Driver ran a 2018 GT Premium with the Performance Pack and the automatic to 60 mph in 3.8 seconds. The Shelby GT350, GT350R and GT500, the Bullitt and the Mach 1 all came from this generation. Ford sold 668,153 in the US from 2015 to 2023, the most, 122,349, in 2015, and built the last in April 2023."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {
+      "file": "Ford Mustang Fastback 2015 Model.jpg",
+      "credit": "Tobias Maier",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pos": ""
+    },
     "match": [
       "Ford Mustang"
     ],
@@ -29541,7 +29575,10 @@ const CARS = [
       "Car and Driver ran a 2024 GT Premium with the Performance Pack and the manual to 60 mph in 4.2 seconds and a 2026 GT Premium with the automatic in 3.7. The 500-hp Dark Horse arrived with it, and the 795-hp Dark Horse SC and the 815-hp GTD sit at the top of the range. Its recalls include 26V547, for engine-bay wiring ground connections on 2024–2026 cars. Ford sold 44,003 in the US in 2024 and 45,333 in 2025."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {
+      "credit": "Ford",
+      "caption": "A 2024 Mustang GT California Special convertible"
+    },
     "match": [
       "Ford Mustang"
     ],
@@ -29622,7 +29659,14 @@ const CARS = [
       "Shelby built 562 for 1965 and 2,378 for 1966, a total that includes about 1,000 sold to Hertz, which rented them out as the GT350H. Car and Driver timed a 1966 GT350 at 6.9 seconds to 60 mph. The big-block GT500 joined it for 1967, and the GT350 name returned on a Ford-built Mustang for 2015."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {
+      "file": "1966 Shelby GT350H 1X7A5751.jpg",
+      "credit": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pos": "",
+      "caption": "A 1966 Shelby GT350H, one of the cars built for Hertz"
+    },
     "match": [
       "Shelby GT350",
       "Ford Shelby GT350"
@@ -29696,7 +29740,14 @@ const CARS = [
       "Ford built 1,628 for 1969 and 7,013 for 1970, when it had a suggested price of $3,720, or $32,200 in 2026 dollars. Car and Driver timed a 1970 at 6.5 seconds to 60 mph. The big-block Boss 429 was sold alongside it, and the Boss 302 name returned for 2012."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {
+      "file": "1970 Ford Mustang Boss 302.jpg",
+      "credit": "Sicnag",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "pos": "",
+      "caption": "A 1970 Boss 302"
+    },
     "match": [
       "Ford Mustang Boss 302",
       "Boss 302"
@@ -29814,7 +29865,13 @@ const CARS = [
       "A mid-1985 update raised it to 205 hp, and Car and Driver timed a 1985 at 6.8 seconds to 60 mph, against 7.5 for a 1984. Ford built 9,844 in 3 model years, most of them in the first, and only 123 had the lighter Competition Prep package."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {
+      "file": "Ford Mustang SVO - 20101017.jpg",
+      "credit": "Jimnva",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0",
+      "pos": ""
+    },
     "match": [
       "Ford Mustang SVO",
       "Mustang SVO"
@@ -29967,7 +30024,12 @@ const CARS = [
       "The GT500 reached 540 hp for 2010 and 550 hp with an aluminum-block 5.4-liter for 2011, which Car and Driver timed at 4.1 seconds to 60 mph. For 2013 and 2014 a supercharged 5.8-liter V8 raised it to 662 hp, and Car and Driver ran a 2013 to 60 mph in 3.5 seconds. The EPA rated the 2013 at 18 mpg combined."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {
+      "file": "Ford Mustang GT500.jpg",
+      "credit": "IFCAR",
+      "license": "Public domain",
+      "pos": ""
+    },
     "match": [
       "Shelby GT500",
       "Ford Shelby GT500"
@@ -30085,7 +30147,13 @@ const CARS = [
       "Car and Driver timed a 2012 Boss 302 at 4.3 seconds to 60 mph and a 2013 Laguna Seca at 4.2. It was sold for the 2012 and 2013 model years only."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {
+      "file": "Ford Mustang Boss 302 Red.jpg",
+      "credit": "Tino Rossini",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "pos": ""
+    },
     "match": [
       "Ford Mustang Boss 302",
       "Boss 302"
@@ -30296,7 +30364,14 @@ const CARS = [
       "Car and Driver ran one with the Carbon Fiber Track Package to 60 mph in 3.6 seconds, and in 3.4 on Michelin Pilot Sport 4S tires. The EPA rates it at 14 mpg combined. It was sold for 2020 to 2022; for 2026 the seventh generation's Dark Horse SC brought a 795-hp version of the supercharged 5.2-liter."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {
+      "file": "21 Ford Mustang Shelby GT500.jpg",
+      "credit": "HJUdall",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0",
+      "pos": "",
+      "caption": "A 2021 Shelby GT500"
+    },
     "match": [
       "Shelby GT500",
       "Ford Shelby GT500"
@@ -30413,7 +30488,13 @@ const CARS = [
       "Car and Driver ran a Mach 1 with the Handling Package and the manual to 60 mph in 4.5 seconds. The EPA rates the manual at 17 mpg combined and the automatic at 18. It ended with the sixth generation in 2023, and the Dark Horse became the track-focused V8 Mustang for 2024."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {
+      "file": "Ford Mustang VI Mach I Auto Zuerich 2021 IMG 0117.jpg",
+      "credit": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pos": ""
+    },
     "match": [
       "Ford Mustang Mach 1",
       "Mustang Mach 1"
@@ -30537,7 +30618,10 @@ const CARS = [
       "Car and Driver ran a 2024 Dark Horse Premium with the Handling Package and the manual to 60 mph in 4.1 seconds, and the EPA rates it at 17 mpg combined with either gearbox. For 2026 the 10-speed automatic became standard, with the manual an option, and the Dark Horse SC added a supercharged 5.2-liter V8 with 795 hp, at $106,090; a Dark Horse SC convertible followed in August 2026."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {
+      "credit": "Ford",
+      "caption": "A 2026 Dark Horse"
+    },
     "match": [
       "Ford Mustang Dark Horse",
       "Mustang Dark Horse"
@@ -30622,7 +30706,9 @@ const CARS = [
       "Car and Driver ran a 2025 GTD to 60 mph in 2.8 seconds, the quickest Mustang it has timed, and in December 2024 a GTD lapped the Nürburgring in 6:57.685, the first time a Mustang had gone under 7 minutes there. The EPA rates it at 12 mpg combined."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {
+      "credit": "Ford"
+    },
     "match": [
       "Ford Mustang GTD",
       "Mustang GTD"
@@ -30810,7 +30896,10 @@ const CARS = [
       "Car and Driver ran a 2021 Premium with the extended-range battery and all-wheel drive to 60 mph in 4.9 seconds and a 2026 standard-range rear-drive Select in 5.6. The 2025 update made a heat pump standard, the 2026 extended-range rear-drive car is rated at 320 miles, and the 2026 range starts at $37,795. Ford sold 51,745 in the US in 2024, its best year so far, and 51,620 in 2025. For 2027 Ford is adding the Mach-E Trail, a slightly raised Select with all-wheel drive and the Rally's wheels and tires."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {
+      "credit": "Ford",
+      "caption": "A 2027 Mach-E Trail"
+    },
     "match": [
       "Ford Mustang Mach-E",
       "Mustang Mach-E",
@@ -30968,7 +31057,10 @@ const CARS = [
       "Car and Driver ran a 2021 GT to 60 mph in 4.3 seconds, a 2021 GT Performance Edition in 3.7 and a 2024 Rally in 3.3, the quickest Mach-E it has tested. The pace costs range: the EPA rates the 2026 GT at 280 miles and the Rally at 255, against 300 for an extended-range all-wheel-drive Premium."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {
+      "credit": "Ford",
+      "caption": "A Mach-E Rally"
+    },
     "match": [
       "Mach-E GT",
       "Mustang Mach-E GT",

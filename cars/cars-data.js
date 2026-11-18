@@ -16752,7 +16752,7 @@ const CARS_INDEX = [
   },
   "next": null,
   "photo": {
-   "card": "/assets/images/cars/honda-clarity.jpg?v=bdf58c86",
+   "card": "/assets/images/cars/honda-clarity.jpg?v=4d5b230c",
    "pos": "",
    "fit": ""
   }

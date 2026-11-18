@@ -22108,6 +22108,163 @@ const CARS = [
     }
   },
   {
+    "id": "honda-clarity",
+    "name": "Honda Clarity",
+    "aka": [
+      "2017–2021 Clarity",
+      "Clarity Plug-in Hybrid",
+      "Clarity Electric",
+      "Clarity Fuel Cell",
+      "Clarity Touring",
+      "ZC5"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "2017–2021",
+    "start": 2017,
+    "end": 2021,
+    "shop": {
+      "cargurus": "d2560"
+    },
+    "body": "Midsize sedan",
+    "engine": "Plug-in hybrid, battery electric or hydrogen fuel cell",
+    "drive": "Front-wheel drive",
+    "gearbox": "No conventional gearbox (Plug-in Hybrid); single-speed (Electric and Fuel Cell)",
+    "specsFor": "2018 Honda Clarity Plug-in Hybrid Touring, US market (Car and Driver test)",
+    "power": {
+      "hp": 212,
+      "note": "1.5-liter engine and 181-hp motor combined; 232 lb-ft from the motor",
+      "src": "https://hondanews.ca/en-CA/hci-automobiles/releases/release-519a23469582d80780152ae4230631b8-2018-clarity-plug-in-hybrid-press-kit"
+    },
+    "weight": {
+      "kg": 1838,
+      "lb": 4052,
+      "note": "Curb weight, 2018 Plug-in Hybrid Touring",
+      "src": "https://www.0-60specs.com/honda/clarity-0-60-times"
+    },
+    "zero60": {
+      "sec": 7.7,
+      "kind": "tested",
+      "note": "Car and Driver test, 2018 Plug-in Hybrid Touring",
+      "src": "https://www.0-60specs.com/honda/clarity-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 42,
+      "city": 44,
+      "hwy": 40,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/39782.shtml",
+      "note": "EPA combined on gasoline, Plug-in Hybrid; 110 MPGe and 47 miles on electricity"
+    },
+    "built": {
+      "count": 40752,
+      "approx": true,
+      "note": "Sold in the US, all 3 versions, 2017–2022 calendar years",
+      "src": "https://www.goodcarbadcar.net/honda-clarity-sales-figures/"
+    },
+    "versions": [
+      {
+        "name": "Plug-in Hybrid",
+        "detail": "2018–2021; sold nationwide"
+      },
+      {
+        "name": "Electric",
+        "detail": "2017–2019; leased in California and Oregon",
+        "specsFor": "2017 Honda Clarity Electric, US market (Honda and EPA figures)",
+        "power": {
+          "hp": 161,
+          "note": "120-kW electric motor, 221 lb-ft",
+          "src": "https://hondanews.com/en-US/releases/release-79a636b2660e457fbeecb5603a9b9ce2-2017-clarity-electric-specifications-features"
+        },
+        "weight": {
+          "kg": 1825,
+          "lb": 4024,
+          "note": "Curb weight (Honda figure)",
+          "src": "https://hondanews.com/en-US/releases/release-79a636b2660e457fbeecb5603a9b9ce2-2017-clarity-electric-specifications-features"
+        },
+        "zero60": {
+          "na": "No test on record"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 114,
+          "city": 126,
+          "hwy": 103,
+          "unit": "MPGe",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/39191.shtml",
+          "note": "EPA combined; 89-mile range"
+        }
+      },
+      {
+        "name": "Fuel Cell",
+        "detail": "2017–2021; leased in California",
+        "specsFor": "2017 Honda Clarity Fuel Cell, US market (Car and Driver test)",
+        "power": {
+          "hp": 174,
+          "note": "130-kW electric motor, 221 lb-ft",
+          "src": "https://hondanews.com/en-US/releases/release-fdf2b7a7fd6542489b0d45ede2248a55-2017-honda-clarity-fuel-cell-specifications"
+        },
+        "weight": {
+          "kg": 1882,
+          "lb": 4148,
+          "note": "Curb weight, 2017, as tested",
+          "src": "https://www.yahoo.com/news/2017-honda-clarity-fuel-cell-203700284.html"
+        },
+        "zero60": {
+          "sec": 8.1,
+          "kind": "tested",
+          "note": "Car and Driver test, 2017",
+          "src": "https://www.yahoo.com/news/2017-honda-clarity-fuel-cell-203700284.html"
+        },
+        "top": {
+          "mph": 105,
+          "kind": "tested",
+          "note": "Car and Driver test, governor-limited",
+          "src": "https://www.yahoo.com/news/2017-honda-clarity-fuel-cell-203700284.html"
+        },
+        "mpg": {
+          "combined": 68,
+          "city": 69,
+          "hwy": 67,
+          "unit": "MPGe",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/47526.shtml",
+          "note": "EPA combined, 2017–2018; 366-mile range (360 from 2019)"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Honda FCX Clarity",
+      "id": "honda-fcx-clarity"
+    },
+    "successor": null,
+    "quick": "Honda's 3-in-1 sedan, 2017–2021: the same body as a plug-in hybrid, a battery electric car and a hydrogen fuel cell car.",
+    "story": [
+      "Honda designed the Clarity to take 3 powertrains. The Fuel Cell came first, leased in California from December 2016; the Electric followed in August 2017, leased in California and Oregon with an 89-mile range; and the Plug-in Hybrid went on sale nationwide in December 2017 at $33,400 ($44,700 in 2026 dollars), with 47 miles of range on electricity and 340 in all. All 3 were built in Sayama, Japan.",
+      "The Plug-in Hybrid was the only one sold nationwide, and Car and Driver ran a 2018 Touring to 60 mph in 7.7 seconds. Honda dropped the Electric in early 2020 and ended production of the other 2 in August 2021, when it closed the Sayama plant, and kept leasing the Fuel Cell through 2022."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Honda"
+    },
+    "match": [
+      "Honda Clarity"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/honda-clarity/",
+      "title": "The Honda Clarity Buyer's Guide",
+      "blurb": "The Plug-in Hybrid, the Electric and the Fuel Cell, and how to check each before you buy, in 4 chapters."
+    }
+  },
+  {
     "id": "honda-cr-v-1st-gen",
     "name": "Honda CR-V (first generation)",
     "aka": [
@@ -22799,6 +22956,506 @@ const CARS = [
     }
   },
   {
+    "id": "honda-fcx-clarity",
+    "name": "Honda FCX Clarity",
+    "aka": [
+      "2008–2014 FCX Clarity",
+      "FCX"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "2008–2014",
+    "start": 2008,
+    "end": 2014,
+    "shop": null,
+    "body": "Midsize hydrogen fuel cell sedan",
+    "engine": "Hydrogen fuel cell, 100-kW electric motor",
+    "drive": "Front-wheel drive",
+    "gearbox": "Single-speed",
+    "specsFor": "2014 Honda FCX Clarity, US market (Honda and EPA figures)",
+    "power": {
+      "hp": 134,
+      "note": "100-kW electric motor",
+      "src": "https://www.fueleconomy.gov/feg/noframes/47522.shtml"
+    },
+    "weight": {
+      "kg": 1625,
+      "lb": 3582,
+      "note": "Curb weight (Honda figure, via WardsAuto)",
+      "src": "https://wardsauto.com/honda/honda-brings-clarity-to-green-effort"
+    },
+    "zero60": {
+      "na": "No test on record"
+    },
+    "top": {
+      "mph": 100,
+      "kind": "claimed",
+      "note": "Honda figure, via WardsAuto",
+      "src": "https://wardsauto.com/honda/honda-brings-clarity-to-green-effort"
+    },
+    "mpg": {
+      "combined": 60,
+      "city": 59,
+      "hwy": 61,
+      "unit": "MPGe",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/47522.shtml",
+      "note": "EPA combined, 2014; 231-mile range"
+    },
+    "built": {
+      "count": 46,
+      "approx": true,
+      "note": "Leased in the US, 2008–2014",
+      "src": "https://en.wikipedia.org/wiki/Honda_Clarity"
+    },
+    "predecessor": null,
+    "successor": {
+      "name": "Honda Clarity",
+      "id": "honda-clarity"
+    },
+    "quick": "Honda's hydrogen sedan of 2008–2014: leased to a few dozen drivers in Southern California for $600 a month.",
+    "story": [
+      "Production of the FCX Clarity began in June 2008 at Honda's plant in Takanezawa, Japan, and Honda leased it from July 2008 to selected drivers in Southern California, near the region's hydrogen stations, for $600 a month ($940 in 2026 dollars) over 3 years, including maintenance and collision coverage.",
+      "A fuel cell stack turned hydrogen into electricity for a 100-kW motor, and the EPA rated the 2014 at 60 MPGe and 231 miles of range. Honda leased 46 in the US before production ended in 2014. Its successor, the Clarity Fuel Cell, arrived at the end of 2016, and its first 6 customers had all driven an FCX Clarity."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Honda"
+    },
+    "match": [
+      "Honda FCX Clarity"
+    ]
+  },
+  {
+    "id": "honda-fit-1st-gen",
+    "name": "Honda Fit (first generation)",
+    "aka": [
+      "2007–2008 Fit",
+      "Fit Sport",
+      "Jazz",
+      "GD"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "2007–2008",
+    "start": 2007,
+    "end": 2008,
+    "shop": {
+      "cargurus": "d744"
+    },
+    "body": "Subcompact hatchback",
+    "engine": "1.5-liter 4-cylinder",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual or 5-speed automatic",
+    "specsFor": "2007 Honda Fit Sport, manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 109,
+      "note": "1.5-liter VTEC 4-cylinder, 105 lb-ft",
+      "src": "https://hondanews.com/en-US/honda-automobiles/releases/release-48487a9ec33b3b690826e4004c34c042-honda-announces-pricing-for-all-new-2007-fit"
+    },
+    "weight": {
+      "kg": 1132,
+      "lb": 2496,
+      "note": "Curb weight, 2007 Sport, manual",
+      "src": "https://www.0-60specs.com/honda/fit-0-60-times"
+    },
+    "zero60": {
+      "sec": 8.7,
+      "kind": "tested",
+      "note": "Car and Driver test, 2007 Sport, manual",
+      "src": "https://www.0-60specs.com/honda/fit-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 31,
+      "city": 28,
+      "hwy": 34,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/22861.shtml",
+      "note": "EPA combined, 2007, manual (automatic: 30)"
+    },
+    "built": {
+      "count": 164322,
+      "approx": true,
+      "note": "Sold in the US, April 2006 to the end of 2008; the last months include the first 2009 models",
+      "src": "https://www.goodcarbadcar.net/honda-fit-sales-figures/"
+    },
+    "versions": [
+      {
+        "name": "5-speed manual",
+        "detail": "Base and Sport"
+      },
+      {
+        "name": "5-speed automatic",
+        "detail": "Base and Sport; paddle shifters on the Sport",
+        "specsFor": "2007 Honda Fit Sport, automatic, US market (Car and Driver test)",
+        "power": {
+          "hp": 109,
+          "note": "1.5-liter VTEC 4-cylinder, 105 lb-ft",
+          "src": "https://hondanews.com/en-US/honda-automobiles/releases/release-48487a9ec33b3b690826e4004c34c042-honda-announces-pricing-for-all-new-2007-fit"
+        },
+        "weight": {
+          "kg": 1132,
+          "lb": 2496,
+          "note": "Curb weight, 2007 Sport, as tested",
+          "src": "https://www.0-60specs.com/honda/fit-0-60-times"
+        },
+        "zero60": {
+          "sec": 10.4,
+          "kind": "tested",
+          "note": "Car and Driver test, 2007 Sport, automatic",
+          "src": "https://www.0-60specs.com/honda/fit-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 30,
+          "city": 27,
+          "hwy": 35,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/22860.shtml",
+          "note": "EPA combined, 2007, automatic (Sport with paddle shifters: 29)"
+        }
+      }
+    ],
+    "predecessor": null,
+    "successor": {
+      "name": "Honda Fit (second generation)",
+      "id": "honda-fit-2nd-gen"
+    },
+    "quick": "The first Fit sold in America, 2007–2008: a small hatchback from Japan with a 109-hp engine and the folding Magic Seat.",
+    "story": [
+      "The Fit, sold as the Jazz in most other countries, went on sale in Japan in June 2001. The version for the US arrived on April 20, 2006, as a 2007 model, at $13,850 ($22,500 in 2026 dollars), with a 109-hp 1.5-liter 4-cylinder and a 5-speed manual, or a 5-speed automatic for $800 more. The Sport added body styling and, with the automatic, paddle shifters. Honda put the fuel tank under the front seats, so the rear Magic Seat could fold flat or flip up to carry tall things.",
+      "Honda sold the Fit as fast as it could ship them from Japan, almost 80,000 in 2008 alone, as fuel prices rose. Car and Driver ran a Sport with the manual to 60 mph in 8.7 seconds, and one with the automatic in 10.4."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Honda"
+    },
+    "match": [
+      "Honda Fit"
+    ]
+  },
+  {
+    "id": "honda-fit-2nd-gen",
+    "name": "Honda Fit (second generation)",
+    "aka": [
+      "2009–2013 Fit",
+      "Fit Sport",
+      "Jazz",
+      "GE"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan and China",
+    "years": "2009–2013",
+    "start": 2009,
+    "end": 2013,
+    "shop": {
+      "cargurus": "d744"
+    },
+    "body": "Subcompact hatchback",
+    "engine": "1.5-liter 4-cylinder",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual or 5-speed automatic",
+    "specsFor": "2009 Honda Fit Sport, manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 117,
+      "note": "1.5-liter i-VTEC 4-cylinder, 106 lb-ft",
+      "src": "https://hondanews.com/en-US/honda-automobiles/releases/release-1027c536ed1f3779d1e1fb004c34bc92-all-new-2009-honda-fit-big-on-style-and-refinement-small-on-price-and-fuel-consumption"
+    },
+    "weight": {
+      "kg": 1152,
+      "lb": 2540,
+      "note": "Curb weight, 2009 Sport, manual",
+      "src": "https://www.0-60specs.com/honda/fit-0-60-times"
+    },
+    "zero60": {
+      "sec": 8.5,
+      "kind": "tested",
+      "note": "Car and Driver test, 2009 Sport, manual",
+      "src": "https://www.0-60specs.com/honda/fit-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 29,
+      "city": 27,
+      "hwy": 33,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/26020.shtml",
+      "note": "EPA combined, 2009, manual (automatic: 31)"
+    },
+    "built": {
+      "count": 283763,
+      "approx": true,
+      "note": "Sold in the US, 2009–2013 calendar years",
+      "src": "https://www.goodcarbadcar.net/honda-fit-sales-figures/"
+    },
+    "versions": [
+      {
+        "name": "5-speed manual",
+        "detail": "Base and Sport"
+      },
+      {
+        "name": "5-speed automatic",
+        "detail": "Base and Sport; paddle shifters on the Sport",
+        "specsFor": "2009 Honda Fit Sport, automatic, US market (Car and Driver test)",
+        "power": {
+          "hp": 117,
+          "note": "1.5-liter i-VTEC 4-cylinder, 106 lb-ft",
+          "src": "https://hondanews.com/en-US/honda-automobiles/releases/release-1027c536ed1f3779d1e1fb004c34bc92-all-new-2009-honda-fit-big-on-style-and-refinement-small-on-price-and-fuel-consumption"
+        },
+        "weight": {
+          "kg": 1152,
+          "lb": 2540,
+          "note": "Curb weight, 2009 Sport, as tested",
+          "src": "https://www.0-60specs.com/honda/fit-0-60-times"
+        },
+        "zero60": {
+          "sec": 9.9,
+          "kind": "tested",
+          "note": "Car and Driver test, 2009 Sport, automatic",
+          "src": "https://www.0-60specs.com/honda/fit-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 31,
+          "city": 28,
+          "hwy": 35,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/26019.shtml",
+          "note": "EPA combined, 2009, automatic (Sport with paddle shifters: 30)"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Honda Fit (first generation)",
+      "id": "honda-fit-1st-gen"
+    },
+    "successor": {
+      "name": "Honda Fit (third generation)",
+      "id": "honda-fit-3rd-gen"
+    },
+    "quick": "The second Fit, 2009–2013: longer and wider, with 117 hp, built in Japan and later in China too.",
+    "story": [
+      "The second-generation Fit went on sale in the US on August 26, 2008, as a 2009 model, at $14,550 ($22,800 in 2026 dollars). It was longer and wider than the first, with a 117-hp 1.5-liter 4-cylinder and again a 5-speed manual or a 5-speed automatic, with paddle shifters on the Sport. US cars came from Japan and, later, from Honda's plant in Guangzhou, China.",
+      "Car and Driver ran a 2009 Sport with the manual to 60 mph in 8.5 seconds and one with the automatic in 9.9. The battery-electric Fit EV of 2013–2014 was based on this car. There was no gasoline Fit for 2014: the next one went on sale in April 2014 as a 2015 model."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Honda"
+    },
+    "match": [
+      "Honda Fit"
+    ]
+  },
+  {
+    "id": "honda-fit-3rd-gen",
+    "name": "Honda Fit (third generation)",
+    "aka": [
+      "2015–2020 Fit",
+      "Fit LX",
+      "Fit Sport",
+      "Fit EX",
+      "Fit EX-L",
+      "Jazz",
+      "GK"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Mexico; some 2016–2017 cars in Japan",
+    "years": "2015–2020",
+    "start": 2015,
+    "end": 2020,
+    "shop": {
+      "cargurus": "d744"
+    },
+    "body": "Subcompact hatchback",
+    "engine": "1.5-liter 4-cylinder",
+    "drive": "Front-wheel drive",
+    "gearbox": "6-speed manual or CVT",
+    "specsFor": "2018 Honda Fit Sport, 6-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 130,
+      "note": "1.5-liter direct-injected 4-cylinder, 114 lb-ft",
+      "src": "https://hondanews.com/en-US/honda-automobiles/releases/release-f771e32f8f364073aae4639b7eb97ea6-fresh-and-furyous-new-sporty-and-feature-rich-2018-honda-fit-goes-on-sale-today"
+    },
+    "weight": {
+      "kg": 1158,
+      "lb": 2552,
+      "note": "Curb weight, 2018 Sport, manual",
+      "src": "https://www.0-60specs.com/honda/fit-0-60-times"
+    },
+    "zero60": {
+      "sec": 8.2,
+      "kind": "tested",
+      "note": "Car and Driver test, 2018 Sport, manual",
+      "src": "https://www.0-60specs.com/honda/fit-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 31,
+      "city": 29,
+      "hwy": 36,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/38980.shtml",
+      "note": "EPA combined, 2018, manual (LX with the CVT: 36)"
+    },
+    "built": {
+      "count": 327968,
+      "approx": true,
+      "note": "Sold in the US, 2014–2021 calendar years",
+      "src": "https://www.goodcarbadcar.net/honda-fit-sales-figures/"
+    },
+    "versions": [
+      {
+        "name": "6-speed manual",
+        "detail": "LX, Sport and EX; LX and Sport only for 2020"
+      },
+      {
+        "name": "CVT",
+        "detail": "Every trim; 128 hp from 2018",
+        "specsFor": "2016 Honda Fit EX-L, CVT, US market (Car and Driver test)",
+        "power": {
+          "hp": 130,
+          "note": "1.5-liter direct-injected 4-cylinder, 114 lb-ft; 128 hp from 2018",
+          "src": "https://hondanews.com/en-US/releases/release-0cbf1ed981f84e70be2f2c4d4b68d17e-2015-honda-fit-overview"
+        },
+        "weight": {
+          "kg": 1198,
+          "lb": 2642,
+          "note": "Curb weight, 2015 EX-L with the CVT (Honda figure)",
+          "src": "https://hondanews.com/en-US/releases/release-0cbf1ed981f84e70be2f2c4d4b68d17e-2015-honda-fit-overview"
+        },
+        "zero60": {
+          "sec": 8.5,
+          "kind": "tested",
+          "note": "Car and Driver test, 2016 EX-L, CVT",
+          "src": "https://www.0-60specs.com/honda/fit-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 36,
+          "city": 33,
+          "hwy": 40,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/38978.shtml",
+          "note": "EPA combined, 2018 LX with the CVT (Sport, EX and EX-L: 33)"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Honda Fit (second generation)",
+      "id": "honda-fit-2nd-gen"
+    },
+    "successor": null,
+    "quick": "The last Fit sold in America, 2015–2020: built in Mexico, with a 130-hp direct-injected engine, a CVT option and, from 2018, Honda Sensing.",
+    "story": [
+      "The third Fit went on sale on April 14, 2014, as a 2015 model, at $15,525 ($22,000 in 2026 dollars). It was the first US Fit built in North America, at a new plant in Celaya, Mexico, though some 2016–2017 cars came from Japan. It had a 130-hp direct-injected 1.5-liter and a 6-speed manual or a CVT, and the cargo area held 16.6 cubic feet behind the rear seat and 52.7 with it folded. Car and Driver ran a 2015 EX manual to 60 mph in 7.7 seconds.",
+      "A 2018 update brought new styling, a Sport trim, a quieter cabin, Apple CarPlay and Android Auto, and Honda Sensing, standard on the EX and EX-L. In July 2020 Honda said the 2020 would be the last Fit for North America, and the HR-V, built in the same plant, became its cheapest model."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Honda"
+    },
+    "match": [
+      "Honda Fit"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/honda-fit/",
+      "title": "The Honda Fit Buyer's Guide",
+      "blurb": "The 2017–2020 Fit, manual or CVT, and the used checklist with the recalls to check, in 3 chapters."
+    }
+  },
+  {
+    "id": "honda-fit-ev",
+    "name": "Honda Fit EV",
+    "aka": [
+      "2013–2014 Fit EV",
+      "Fit electric"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "2013–2014",
+    "start": 2013,
+    "end": 2014,
+    "shop": null,
+    "body": "Electric subcompact hatchback",
+    "engine": "Battery-electric: 1 motor, 20-kWh battery",
+    "drive": "Front-wheel drive",
+    "gearbox": "Single-speed",
+    "specsFor": "2013 Honda Fit EV, US market (Car and Driver test)",
+    "power": {
+      "hp": 123,
+      "note": "92-kW electric motor, 189 lb-ft",
+      "src": "https://hondanews.com/en-US/releases/release-c2152ff8fb3b43a8923c61ab3326fbb9-2013-honda-fit-ev-overview"
+    },
+    "weight": {
+      "kg": 1475,
+      "lb": 3252,
+      "note": "Curb weight (Honda figure)",
+      "src": "https://hondanews.com/en-US/releases/release-c2152ff8fb3b43a8923c61ab3326fbb9-2013-honda-fit-ev-overview"
+    },
+    "zero60": {
+      "sec": 8.5,
+      "kind": "tested",
+      "note": "Car and Driver test, 2013",
+      "src": "https://www.0-60specs.com/honda/fit-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 118,
+      "city": 132,
+      "hwy": 105,
+      "unit": "MPGe",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/33265.shtml",
+      "note": "EPA combined; 82-mile range"
+    },
+    "built": {
+      "count": 1069,
+      "approx": true,
+      "note": "Leased in the US, July 2012 to December 2014",
+      "src": "https://www.electriccarsreport.com/2015/01/december-2014-plug-sales/"
+    },
+    "predecessor": null,
+    "successor": null,
+    "quick": "Honda's electric Fit, 2013–2014: lease only, about 1,100 built, with an 82-mile range and the EPA's best efficiency rating of its time.",
+    "story": [
+      "Honda showed the Fit EV at the 2011 Los Angeles Auto Show and began leasing it on July 20, 2012, first in parts of California and Oregon and then in 6 East Coast markets. It had a 20-kWh lithium-ion battery from Toshiba under the floor and a 123-hp motor derived from the FCX Clarity's, and the EPA rated it at 118 MPGe, the best of any electric car at the time, with 82 miles of range.",
+      "It was never sold, only leased: at first for $389 a month ($560 in 2026 dollars), cut in June 2013 to $259 a month ($370) with unlimited mileage. Honda planned about 1,100 and had leased 1,069 by the end of 2014, when production ended. Car and Driver ran one to 60 mph in 8.5 seconds."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Honda"
+    },
+    "match": [
+      "Honda Fit EV"
+    ]
+  },
+  {
     "id": "honda-hr-v-1st-gen",
     "name": "Honda HR-V (first generation)",
     "aka": [
@@ -23074,6 +23731,281 @@ const CARS = [
       "url": "/fitdrive/guides/honda-hr-v/",
       "title": "The Honda HR-V Buyer's Guide",
       "blurb": "The Magic Seat generation, the bigger 2023 car, and the used checklist with the recalls to check, in 3 chapters."
+    }
+  },
+  {
+    "id": "honda-insight-1st-gen",
+    "name": "Honda Insight (first generation)",
+    "aka": [
+      "2000–2006 Insight",
+      "ZE1"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "2000–2006",
+    "start": 2000,
+    "end": 2006,
+    "shop": {
+      "cargurus": "d591"
+    },
+    "body": "2-seat hybrid hatchback",
+    "engine": "1.0-liter 3-cylinder hybrid (Integrated Motor Assist)",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual or CVT (from 2001)",
+    "specsFor": "2000 Honda Insight, manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 73,
+      "note": "1.0-liter 3-cylinder and electric motor combined, 91 lb-ft",
+      "src": "https://blog.consumerguide.com/2000-honda-insight-review/"
+    },
+    "weight": {
+      "kg": 839,
+      "lb": 1850,
+      "note": "Curb weight, 2000, manual",
+      "src": "https://www.0-60specs.com/honda/insight-0-60-times"
+    },
+    "zero60": {
+      "sec": 10.6,
+      "kind": "tested",
+      "note": "Car and Driver test, 2000, manual",
+      "src": "https://www.0-60specs.com/honda/insight-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 53,
+      "city": 49,
+      "hwy": 61,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/15606.shtml",
+      "note": "EPA combined, 2000, manual, under today's test (CVT: 47)"
+    },
+    "built": {
+      "count": 13889,
+      "approx": true,
+      "note": "Sold in the US, 1999–2007 calendar years",
+      "src": "https://www.goodcarbadcar.net/honda-insight-sales-figures/"
+    },
+    "versions": [
+      {
+        "name": "5-speed manual",
+        "detail": "Every year"
+      },
+      {
+        "name": "CVT",
+        "detail": "From 2001",
+        "specsFor": "2002 Honda Insight, CVT, US market (Car and Driver test)",
+        "power": {
+          "hp": 73,
+          "note": "1.0-liter 3-cylinder and electric motor combined",
+          "src": "https://blog.consumerguide.com/2000-honda-insight-review/"
+        },
+        "weight": {
+          "kg": 852,
+          "lb": 1878,
+          "note": "Curb weight, 2002, CVT",
+          "src": "https://www.0-60specs.com/honda/insight-0-60-times"
+        },
+        "zero60": {
+          "sec": 11.1,
+          "kind": "tested",
+          "note": "Car and Driver test, 2002, CVT",
+          "src": "https://www.0-60specs.com/honda/insight-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 47,
+          "city": 45,
+          "hwy": 49,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/16445.shtml",
+          "note": "EPA combined, 2001, CVT"
+        }
+      }
+    ],
+    "predecessor": null,
+    "successor": {
+      "name": "Honda Insight (second generation)",
+      "id": "honda-insight-2nd-gen"
+    },
+    "quick": "The first hybrid sold in America, 2000–2006: an aluminum 2-seater with a 3-cylinder engine and the best EPA rating of its time.",
+    "story": [
+      "Honda's first hybrid went on sale in the US on December 15, 1999, at $18,880 ($36,900 in 2026 dollars), months before the Toyota Prius arrived. It was a 2-seat hatchback with an aluminum body, covered rear wheels and a 1.0-liter 3-cylinder engine helped by a thin electric motor, Honda's Integrated Motor Assist, for 73 hp in all. The EPA first rated it at 61 mpg in the city and 70 on the highway, the best it had ever given.",
+      "A CVT became an option for 2001. Honda built the Insight in Japan, at Takanezawa and later Suzuka, and sold about 13,900 in the US before production ended in September 2006. Car and Driver ran a 2000 with the manual to 60 mph in 10.6 seconds."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Honda"
+    },
+    "match": [
+      "Honda Insight"
+    ]
+  },
+  {
+    "id": "honda-insight-2nd-gen",
+    "name": "Honda Insight (second generation)",
+    "aka": [
+      "2010–2014 Insight",
+      "Insight LX",
+      "Insight EX",
+      "ZE2"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "2010–2014",
+    "start": 2010,
+    "end": 2014,
+    "shop": {
+      "cargurus": "d591"
+    },
+    "body": "Hybrid hatchback",
+    "engine": "1.3-liter 4-cylinder hybrid (Integrated Motor Assist)",
+    "drive": "Front-wheel drive",
+    "gearbox": "CVT",
+    "specsFor": "2010 Honda Insight EX, US market (Car and Driver test)",
+    "power": {
+      "hp": 98,
+      "note": "1.3-liter 4-cylinder and electric motor combined",
+      "src": "https://hondanews.com/en-US/releases/release-0edd6e402c3e5053b3473b004c34bbb2-2010-honda-insight-ex"
+    },
+    "weight": {
+      "kg": 1255,
+      "lb": 2767,
+      "note": "Curb weight, 2010 EX",
+      "src": "https://www.0-60specs.com/honda/insight-0-60-times"
+    },
+    "zero60": {
+      "sec": 10.3,
+      "kind": "tested",
+      "note": "Car and Driver test, 2010 EX",
+      "src": "https://www.0-60specs.com/honda/insight-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 41,
+      "city": 40,
+      "hwy": 43,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/26366.shtml",
+      "note": "EPA combined, 2010"
+    },
+    "built": {
+      "count": 73224,
+      "approx": true,
+      "note": "Sold in the US, 2009–2017 calendar years",
+      "src": "https://www.goodcarbadcar.net/honda-insight-sales-figures/"
+    },
+    "predecessor": {
+      "name": "Honda Insight (first generation)",
+      "id": "honda-insight-1st-gen"
+    },
+    "successor": {
+      "name": "Honda Insight (third generation)",
+      "id": "honda-insight-3rd-gen"
+    },
+    "quick": "The second Insight, 2010–2014: a 5-seat hybrid hatchback priced below the Prius.",
+    "story": [
+      "The second Insight went on sale on March 24, 2009, as a 2010 model, at $19,800 ($30,500 in 2026 dollars), about 10 percent less than a Prius and the cheapest hybrid in America. It was a 5-door, 5-seat hatchback with a 1.3-liter 4-cylinder, Honda's Integrated Motor Assist and a CVT, 98 hp in all, built at Suzuka in Japan.",
+      "The EPA rated it at 41 mpg combined, and Car and Driver ran a 2010 EX to 60 mph in 10.3 seconds. US sales reached about 21,000 in 2010 and fell after that. A cheaper base model arrived in December 2010, and Honda ended production in 2014, along with the FCX Clarity and the Fit EV."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Honda"
+    },
+    "match": [
+      "Honda Insight"
+    ]
+  },
+  {
+    "id": "honda-insight-3rd-gen",
+    "name": "Honda Insight (third generation)",
+    "aka": [
+      "2019–2022 Insight",
+      "Insight LX",
+      "Insight EX",
+      "Insight Touring",
+      "ZE4"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "United States",
+    "years": "2019–2022",
+    "start": 2019,
+    "end": 2022,
+    "shop": {
+      "cargurus": "d591"
+    },
+    "body": "Compact hybrid sedan",
+    "engine": "1.5-liter 4-cylinder, 2-motor hybrid",
+    "drive": "Front-wheel drive",
+    "gearbox": "No conventional gearbox (2-motor hybrid)",
+    "specsFor": "2019 Honda Insight Touring, US market (Car and Driver test)",
+    "power": {
+      "hp": 151,
+      "note": "1.5-liter engine and 2-motor hybrid system; 197 lb-ft from the motor",
+      "src": "https://hondanews.com/releases/all-new-2019-honda-insight-brings-style-sophistication-and-55-mpg-city-rating"
+    },
+    "weight": {
+      "kg": 1396,
+      "lb": 3078,
+      "note": "Curb weight, 2019 Touring",
+      "src": "https://www.0-60specs.com/honda/insight-0-60-times"
+    },
+    "zero60": {
+      "sec": 7.6,
+      "kind": "tested",
+      "note": "Car and Driver test, 2019 Touring",
+      "src": "https://www.0-60specs.com/honda/insight-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 48,
+      "city": 51,
+      "hwy": 45,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/40352.shtml",
+      "note": "EPA combined, 2019 Touring (LX and EX: 52)"
+    },
+    "built": {
+      "count": 78445,
+      "approx": true,
+      "note": "Sold in the US, 2018–2023 calendar years",
+      "src": "https://www.goodcarbadcar.net/honda-insight-sales-figures/"
+    },
+    "predecessor": {
+      "name": "Honda Insight (second generation)",
+      "id": "honda-insight-2nd-gen"
+    },
+    "successor": null,
+    "quick": "The third Insight, 2019–2022: a hybrid sedan on the Civic's platform, built in Indiana and rated at up to 52 mpg.",
+    "story": [
+      "The third Insight went on sale on June 29, 2018, as a 2019 model, at $22,830 ($30,000 in 2026 dollars). Unlike the earlier cars, it looks like an ordinary sedan; it shares its platform with the Civic and was built alongside it in Greensburg, Indiana. A 1.5-liter Atkinson-cycle engine and Honda's 2-motor hybrid system make 151 hp, with no conventional gearbox, and the EPA rated the LX and EX at 52 mpg combined.",
+      "Car and Driver ran a 2019 Touring to 60 mph in 7.6 seconds. The LX was dropped for 2022, and production ended in June 2022. Its recalls include a DC-DC converter on 2020–2021 cars that can shut down and cause a loss of drive power (20V798)."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Honda"
+    },
+    "match": [
+      "Honda Insight"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/honda-insight/",
+      "title": "The Honda Insight Buyer's Guide",
+      "blurb": "The 2019–2022 hybrid sedan trim by trim, and the used checklist with the recalls and hybrid checks, in 2 chapters."
     }
   },
   {

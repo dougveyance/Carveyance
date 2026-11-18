@@ -5011,6 +5011,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://carveyance.com/cars/honda-clarity/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://carveyance.com/cars/honda-cr-v-1st-gen/</loc>
     <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
@@ -5053,6 +5059,36 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://carveyance.com/cars/honda-fcx-clarity/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/cars/honda-fit-1st-gen/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/cars/honda-fit-2nd-gen/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/cars/honda-fit-3rd-gen/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/cars/honda-fit-ev/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://carveyance.com/cars/honda-hr-v-1st-gen/</loc>
     <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
@@ -5066,6 +5102,24 @@
   </url>
   <url>
     <loc>https://carveyance.com/cars/honda-hr-v-3rd-gen/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/cars/honda-insight-1st-gen/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/cars/honda-insight-2nd-gen/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/cars/honda-insight-3rd-gen/</loc>
     <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -6421,6 +6475,36 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://carveyance.com/fitdrive/guides/honda-clarity/electric/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/fitdrive/guides/honda-clarity/fuel-cell/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/fitdrive/guides/honda-clarity/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/fitdrive/guides/honda-clarity/plug-in-hybrid/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/fitdrive/guides/honda-clarity/used-checklist/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://carveyance.com/fitdrive/guides/honda-cr-v/2017-2022/</loc>
     <lastmod>2026-11-17</lastmod>
     <changefreq>monthly</changefreq>
@@ -6457,6 +6541,30 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://carveyance.com/fitdrive/guides/honda-fit/2017-2020/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/fitdrive/guides/honda-fit/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/fitdrive/guides/honda-fit/manual-or-cvt/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/fitdrive/guides/honda-fit/used-checklist/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://carveyance.com/fitdrive/guides/honda-hr-v/2017-2022/</loc>
     <lastmod>2026-11-17</lastmod>
     <changefreq>monthly</changefreq>
@@ -6476,6 +6584,24 @@
   </url>
   <url>
     <loc>https://carveyance.com/fitdrive/guides/honda-hr-v/used-checklist/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/fitdrive/guides/honda-insight/2019-2022/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/fitdrive/guides/honda-insight/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/fitdrive/guides/honda-insight/used-checklist/</loc>
     <lastmod>2026-11-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

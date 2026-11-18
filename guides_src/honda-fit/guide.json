@@ -1,0 +1,261 @@
+{
+ "id": "honda-fit",
+ "make": "Honda",
+ "model": "Fit",
+ "years": "2017–2020",
+ "byline": "Sloane Whitaker",
+ "published": "2026-11-18",
+ "updated": "2026-11-18",
+ "cars": [
+  "honda-fit-3rd-gen"
+ ],
+ "shop": {
+  "cargurus": "d744"
+ },
+ "chapters": [
+  "2017-2020",
+  "manual-or-cvt",
+  "used-checklist"
+ ],
+ "series": {
+  "f17l": {
+   "name": "2017 LX, CVT",
+   "color": "#9aa5b1"
+  },
+  "f17e": {
+   "name": "2017 EX and EX-L, CVT",
+   "color": "#9aa5b1"
+  },
+  "f17m": {
+   "name": "2017, manual",
+   "color": "#9aa5b1"
+  },
+  "f18l": {
+   "name": "2018–2020 LX, CVT",
+   "color": "#2E6E96"
+  },
+  "f18e": {
+   "name": "2018–2020 Sport, EX and EX-L, CVT",
+   "color": "#2E6E96"
+  },
+  "f18m": {
+   "name": "2018–2020, manual",
+   "color": "#2E6E96"
+  },
+  "a15": {
+   "name": "2015 EX, manual",
+   "color": "#2E6E96"
+  },
+  "a16": {
+   "name": "2016 EX-L, CVT",
+   "color": "#e05c2a"
+  },
+  "a18": {
+   "name": "2018 Sport, manual",
+   "color": "#2E6E96"
+  },
+  "p17": {
+   "name": "2017 LX, manual",
+   "color": "#9aa5b1"
+  },
+  "p17x": {
+   "name": "2017 EX-L with navigation",
+   "color": "#9aa5b1"
+  },
+  "p18": {
+   "name": "2018 Sport, manual",
+   "color": "#2E6E96"
+  },
+  "p18x": {
+   "name": "2018 EX-L with navigation",
+   "color": "#2E6E96"
+  },
+  "p20": {
+   "name": "2020 LX, manual",
+   "color": "#e05c2a"
+  },
+  "p20e": {
+   "name": "2020 EX",
+   "color": "#e05c2a"
+  }
+ },
+ "charts": {
+  "mpg": {
+   "n": 1,
+   "title": "EPA combined fuel economy",
+   "sub": "Miles per gallon.",
+   "source": "US EPA, fueleconomy.gov",
+   "bars": [
+    [
+     "f17l",
+     36,
+     "36 mpg"
+    ],
+    [
+     "f17e",
+     34,
+     "34 mpg"
+    ],
+    [
+     "f17m",
+     32,
+     "32 mpg"
+    ],
+    [
+     "f18l",
+     36,
+     "36 mpg"
+    ],
+    [
+     "f18e",
+     33,
+     "33 mpg"
+    ],
+    [
+     "f18m",
+     31,
+     "31 mpg"
+    ]
+   ]
+  },
+  "accel": {
+   "n": 2,
+   "title": "0–60 mph, as tested",
+   "sub": "Seconds; shorter is quicker. Same generation and engine throughout.",
+   "source": "Car and Driver tests, via 0-60specs",
+   "bars": [
+    [
+     "a15",
+     7.7,
+     "7.7 sec"
+    ],
+    [
+     "a18",
+     8.2,
+     "8.2 sec"
+    ],
+    [
+     "a16",
+     8.5,
+     "8.5 sec"
+    ]
+   ]
+  },
+  "price": {
+   "n": 3,
+   "title": "What a new one cost, in 2026 dollars",
+   "sub": "Starting prices before delivery, adjusted with the US consumer price index. The original price is in each label.",
+   "source": "Honda prices; Carveyance CPI arithmetic",
+   "bars": [
+    [
+     "p17",
+     21900,
+     "$21,900 · $15,990 then"
+    ],
+    [
+     "p17x",
+     29200,
+     "$29,200 · $21,265 then"
+    ],
+    [
+     "p18",
+     23400,
+     "$23,400 · $17,500 then"
+    ],
+    [
+     "p18x",
+     28800,
+     "$28,800 · $21,520 then"
+    ],
+    [
+     "p20",
+     21000,
+     "$21,000 · $16,190 then"
+    ],
+    [
+     "p20e",
+     24800,
+     "$24,800 · $19,060 then"
+    ]
+   ]
+  }
+ },
+ "photos": {
+  "hub-hero": {
+   "want": "A Fit",
+   "credit": "Honda",
+   "alt": "An orange 2018 Honda Fit Sport parked in front of city towers"
+  },
+  "ch1-hero": {
+   "want": "A 2017–2020 Fit",
+   "credit": "Honda",
+   "alt": "A silver 2018 Honda Fit EX-L on a beach"
+  },
+  "ch2-hero": {
+   "want": "A Fit interior",
+   "credit": "Honda",
+   "alt": "The dashboard and CVT gear selector of a 2018 Honda Fit EX-L"
+  },
+  "ch3-hero": {
+   "want": "A Fit with the seats folded",
+   "credit": "Honda",
+   "alt": "A bicycle loaded in the back of a 2018 Honda Fit with the rear seat folded"
+  }
+ },
+ "find": {
+  "picker": [
+   {
+    "model": "Fit",
+    "years": "2015–2020",
+    "ch": "2017-2020"
+   }
+  ],
+  "terms": {
+   "": [
+    "Fit",
+    "Honda Fit",
+    "Jazz",
+    "subcompact",
+    "hatchback",
+    "small car",
+    "Magic Seat"
+   ],
+   "2017-2020": [
+    "third generation",
+    "3rd gen",
+    "GK",
+    "LX",
+    "Sport",
+    "EX",
+    "EX-L",
+    "2018 update",
+    "Honda Sensing",
+    "Apple CarPlay",
+    "Android Auto",
+    "last year",
+    "discontinued"
+   ],
+   "manual-or-cvt": [
+    "manual",
+    "6-speed",
+    "stick shift",
+    "CVT",
+    "automatic",
+    "clutch",
+    "0-60",
+    "mpg"
+   ],
+   "used-checklist": [
+    "used",
+    "checklist",
+    "recalls",
+    "fuel pump",
+    "rearview camera",
+    "Magic Seat",
+    "clutch",
+    "CVT fluid",
+    "price"
+   ]
+  }
+ }
+}

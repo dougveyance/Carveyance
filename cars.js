@@ -15497,6 +15497,450 @@ const CARS = [
     }
   },
   {
+    "id": "honda-prelude-1st-gen",
+    "name": "Honda Prelude (first generation)",
+    "aka": [
+      "1979–1982 Prelude",
+      "Prelude SN"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "1979–1982",
+    "start": 1979,
+    "end": 1982,
+    "shop": {
+      "cargurus": "d595"
+    },
+    "body": "2+2 coupe",
+    "engine": "1.8-liter CVCC 4-cylinder (US)",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual; 2-speed Hondamatic, then 3-speed automatic",
+    "specsFor": "1979 Honda Prelude, 1.8-liter, US market",
+    "power": {
+      "hp": 72,
+      "note": "1.8-liter CVCC 4-cylinder, US version",
+      "src": "https://en.wikipedia.org/wiki/Honda_Prelude"
+    },
+    "weight": {
+      "na": "No figure on record"
+    },
+    "zero60": {
+      "na": "No test on record"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "count": 171829,
+      "approx": true,
+      "note": "Sold in the US, 1979–1982 model years",
+      "src": "https://en.wikipedia.org/wiki/Honda_Prelude"
+    },
+    "predecessor": null,
+    "successor": {
+      "name": "Honda Prelude (second generation)",
+      "id": "honda-prelude-2nd-gen"
+    },
+    "quick": "The first Prelude, 1979–1982: an Accord-based 2+2 coupe with a power moonroof as standard, the feature that became the Prelude's trademark.",
+    "story": [
+      "Honda launched the Prelude in Japan on November 24, 1978, and it reached the US in March 1979. It borrowed its strut suspension, brakes and engine from the first Accord but sat on a new, lower chassis with a long hood and short trunk, and it was the first Honda with a power moonroof as standard; US cars got a glass panel that freed up headroom. American models had a 1.8-liter CVCC 4-cylinder with 72 hp, and the rear seat was really only for small children.",
+      "Motor Trend praised its build quality and ran an early car through the quarter mile in 18.8 seconds. A 3-speed automatic replaced the 2-speed Hondamatic in late 1979, and a 1981 facelift swapped the unusual combined speedometer-and-tachometer dial for a conventional dashboard. Toyota had registered the Prelude name first and let Honda have it. Honda built about 313,000, more than 80 percent of them for export, and Americans bought about 172,000."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Honda Prelude"
+    ]
+  },
+  {
+    "id": "honda-prelude-2nd-gen",
+    "name": "Honda Prelude (second generation)",
+    "aka": [
+      "1983–1987 Prelude",
+      "Prelude 2.0 Si",
+      "AB",
+      "BA1"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "1983–1987",
+    "start": 1983,
+    "end": 1987,
+    "shop": {
+      "cargurus": "d595"
+    },
+    "body": "2+2 coupe",
+    "engine": "1.8-liter 12-valve 4-cylinder; fuel-injected 2.0-liter in the Si from 1985",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual or 4-speed automatic",
+    "specsFor": "1985 Honda Prelude, 1.8-liter, 5-speed manual, US market (MotorWeek test)",
+    "power": {
+      "hp": 100,
+      "note": "1.8-liter 12-valve 4-cylinder, twin carburetors",
+      "src": "https://en.wikipedia.org/wiki/Honda_Prelude"
+    },
+    "weight": {
+      "kg": 1066,
+      "lb": 2350,
+      "note": "Curb weight, 1985 coupe",
+      "src": "https://www.0-60specs.com/honda/prelude-0-60-times"
+    },
+    "zero60": {
+      "sec": 10.7,
+      "kind": "tested",
+      "note": "MotorWeek test, 1985 coupe",
+      "src": "https://www.0-60specs.com/honda/prelude-0-60-times"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "combined": 24,
+      "city": 21,
+      "hwy": 29,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/26688.shtml",
+      "note": "EPA combined, 1984 1.8-liter, 5-speed manual"
+    },
+    "built": {
+      "count": 336599,
+      "approx": true,
+      "note": "Sold in the US, 1983–1987 model years",
+      "src": "https://en.wikipedia.org/wiki/Honda_Prelude"
+    },
+    "versions": [
+      {
+        "name": "1.8-liter",
+        "detail": "12-valve 4-cylinder, twin carburetors"
+      },
+      {
+        "name": "2.0 Si",
+        "detail": "Fuel-injected 2.0-liter, 1985–1987",
+        "specsFor": "1986 Honda Prelude 2.0 Si, 5-speed manual, US market",
+        "power": {
+          "hp": 110,
+          "note": "Fuel-injected 2.0-liter 4-cylinder",
+          "src": "https://en.wikipedia.org/wiki/Honda_Prelude"
+        },
+        "weight": {
+          "na": "No figure on record"
+        },
+        "zero60": {
+          "na": "No test on record"
+        },
+        "top": {
+          "na": "No figure on record"
+        },
+        "mpg": {
+          "combined": 24,
+          "city": 22,
+          "hwy": 28,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/1838.shtml",
+          "note": "EPA combined, 1986 2.0-liter, 5-speed manual"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Honda Prelude (first generation)",
+      "id": "honda-prelude-1st-gen"
+    },
+    "successor": {
+      "name": "Honda Prelude (third generation)",
+      "id": "honda-prelude-3rd-gen"
+    },
+    "quick": "The second-generation Prelude, 1983–1987: low, wide and glassy, with pop-up headlights, optional anti-lock brakes and, from 1985, a fuel-injected 2.0-liter Si.",
+    "story": [
+      "The second Prelude arrived in Japan in November 1982 and around the world in spring 1983, on an all-new platform. It was the first Prelude with pop-up headlights, the body was far sleeker and glassier than before, and Honda tilted the engine backward so the hood could sit low. US cars had a twin-carburetor 1.8-liter with 100 hp, and MotorWeek timed a 1985 coupe to 60 mph in 10.7 seconds. Honda's new anti-lock brakes were on the options list.",
+      "In Japan a twin-cam 2.0-liter with 160 PS (158 hp) made it one of the quickest cars in its class; American buyers got a fuel-injected 2.0-liter Si with 110 hp from 1985. The car sold well in Britain at a time when other makers were giving up on coupes, and in the US it was the best-selling Prelude of all, at about 337,000."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Honda Prelude"
+    ]
+  },
+  {
+    "id": "honda-prelude-3rd-gen",
+    "name": "Honda Prelude (third generation)",
+    "aka": [
+      "1988–1991 Prelude",
+      "Prelude Si 4WS",
+      "Prelude S",
+      "BA4",
+      "BA5"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "1988–1991",
+    "start": 1988,
+    "end": 1991,
+    "shop": {
+      "cargurus": "d595"
+    },
+    "body": "2+2 coupe",
+    "engine": "2.0-liter 4-cylinder, carbureted (S) or fuel-injected twin-cam (Si); 2.1-liter Si from 1990",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual or 4-speed automatic",
+    "specsFor": "1989 Honda Prelude Si, 5-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 135,
+      "note": "Fuel-injected twin-cam 2.0-liter 4-cylinder, Si",
+      "src": "https://www.0-60specs.com/honda/prelude-0-60-times"
+    },
+    "weight": {
+      "kg": 1279,
+      "lb": 2820,
+      "note": "Curb weight, 1989 Si",
+      "src": "https://www.0-60specs.com/honda/prelude-0-60-times"
+    },
+    "zero60": {
+      "sec": 8.6,
+      "kind": "tested",
+      "note": "Car and Driver test, 1989 Si",
+      "src": "https://www.0-60specs.com/honda/prelude-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 21,
+      "city": 20,
+      "hwy": 24,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/5395.shtml",
+      "note": "EPA combined, 1989 fuel-injected, 5-speed manual"
+    },
+    "built": {
+      "count": 160909,
+      "approx": true,
+      "note": "Sold in the US, 1988–1991 model years",
+      "src": "https://en.wikipedia.org/wiki/Honda_Prelude"
+    },
+    "predecessor": {
+      "name": "Honda Prelude (second generation)",
+      "id": "honda-prelude-2nd-gen"
+    },
+    "successor": {
+      "name": "Honda Prelude (fourth generation)",
+      "id": "honda-prelude-4th-gen"
+    },
+    "quick": "The third-generation Prelude, 1988–1991: the first mass-production car with mechanical 4-wheel steering, and quicker through a slalom than a Corvette.",
+    "story": [
+      "The third Prelude went on sale in Japan in April 1987 and in America as a 1988 model. Its headline feature was optional mechanical 4-wheel steering, the first offered on a mass-production car: with small steering inputs the rear wheels turned with the fronts for steadier lane changes, and past about 140 degrees of steering-wheel turn they turned the other way to tighten parking maneuvers. The engine was tilted 18 degrees back to drop the hood another 30 mm (1.2 in), and the fuel-injected 2.0-liter Si made 135 hp; Car and Driver ran a 1989 Si to 60 mph in 8.6 seconds.",
+      "In Road & Track's 1987 testing a 2.0Si 4WS went through the slalom at 65.5 mph, faster than any other car that year, including a C4 Corvette, Porsches and Ferraris. In Japan, 80 percent of first-year buyers chose 4-wheel steering. For 1990 the carbureted S was dropped and a 2.1-liter Si joined the range. US sales fell to about 161,000 as the Accord and Civic began to win the same buyers."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Honda Prelude"
+    ]
+  },
+  {
+    "id": "honda-prelude-4th-gen",
+    "name": "Honda Prelude (fourth generation)",
+    "aka": [
+      "1992–1996 Prelude",
+      "Prelude Si",
+      "Prelude VTEC",
+      "Prelude Si VTEC",
+      "BB1",
+      "BB4"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "1992–1996",
+    "start": 1992,
+    "end": 1996,
+    "shop": {
+      "cargurus": "d595"
+    },
+    "body": "2+2 coupe",
+    "engine": "2.2-liter 4-cylinder (S); 2.3-liter twin-cam (Si); 2.2-liter twin-cam VTEC (VTEC)",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual or 4-speed automatic",
+    "specsFor": "1992 Honda Prelude Si, 2.3-liter, 5-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 160,
+      "note": "2.3-liter twin-cam 4-cylinder, Si",
+      "src": "https://www.0-60specs.com/honda/prelude-0-60-times"
+    },
+    "weight": {
+      "kg": 1343,
+      "lb": 2960,
+      "note": "Curb weight, 1992 Si",
+      "src": "https://www.0-60specs.com/honda/prelude-0-60-times"
+    },
+    "zero60": {
+      "sec": 7.2,
+      "kind": "tested",
+      "note": "Car and Driver test, 1992 Si",
+      "src": "https://www.0-60specs.com/honda/prelude-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 21,
+      "city": 19,
+      "hwy": 24,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/8724.shtml",
+      "note": "EPA combined, 1992 2.3-liter, 5-speed manual"
+    },
+    "built": {
+      "count": 98627,
+      "approx": true,
+      "note": "Sold in the US, 1992–1996 model years",
+      "src": "https://en.wikipedia.org/wiki/Honda_Prelude"
+    },
+    "versions": [
+      {
+        "name": "2.3-liter",
+        "detail": "Twin-cam 4-cylinder, Si"
+      },
+      {
+        "name": "2.2-liter VTEC",
+        "detail": "Twin-cam VTEC 4-cylinder",
+        "specsFor": "1993 Honda Prelude Si VTEC, 5-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 190,
+          "note": "2.2-liter twin-cam VTEC 4-cylinder",
+          "src": "https://www.0-60specs.com/honda/prelude-0-60-times"
+        },
+        "weight": {
+          "kg": 1379,
+          "lb": 3040,
+          "note": "Curb weight, 1993 Si VTEC",
+          "src": "https://www.0-60specs.com/honda/prelude-0-60-times"
+        },
+        "zero60": {
+          "sec": 6.7,
+          "kind": "tested",
+          "note": "Car and Driver test, 1993 Si VTEC",
+          "src": "https://www.0-60specs.com/honda/prelude-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 21,
+          "city": 19,
+          "hwy": 24,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/9779.shtml",
+          "note": "EPA combined, 1993 VTEC, 5-speed manual"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Honda Prelude (third generation)",
+      "id": "honda-prelude-3rd-gen"
+    },
+    "successor": {
+      "name": "Honda Prelude (fifth generation)",
+      "id": "honda-prelude-5th-gen"
+    },
+    "quick": "The fourth-generation Prelude, 1992–1996: rounded and wide, with fixed headlights, electronic 4-wheel steering and a 190-hp VTEC engine.",
+    "story": [
+      "Introduced in Japan in September 1991, the fourth Prelude dropped the pop-up headlights for a wide, rounded nose and a high, curved tail, and its 4-wheel steering became electronic. US buyers chose a 2.2-liter S, a 160-hp 2.3-liter Si or a 2.2-liter VTEC with 190 hp and bigger front brakes. Car and Driver ran a 1992 Si to 60 mph in 7.2 seconds and a 1993 Si VTEC in 6.7.",
+      "Inside, the gauges kept their blue backlighting, VTEC models came with leather, and the US VTEC's 7-speaker stereo included a subwoofer; the sunroof now slid back over the outside of the roof. The Prelude served as Formula One's safety car at the 1994 Japanese Grand Prix. US sales kept sliding, to about 99,000 over 5 model years."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Honda Prelude"
+    ]
+  },
+  {
+    "id": "honda-prelude-5th-gen",
+    "name": "Honda Prelude (fifth generation)",
+    "aka": [
+      "1997–2001 Prelude",
+      "Prelude Type SH",
+      "BB6"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "1997–2001",
+    "start": 1997,
+    "end": 2001,
+    "shop": {
+      "cargurus": "d595"
+    },
+    "body": "2+2 coupe",
+    "engine": "2.2-liter twin-cam VTEC 4-cylinder",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual or 4-speed automatic with SportShift",
+    "specsFor": "1997 Honda Prelude Type SH, 5-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 195,
+      "note": "2.2-liter twin-cam VTEC 4-cylinder (200 hp from 1999)",
+      "src": "https://www.0-60specs.com/honda/prelude-0-60-times"
+    },
+    "weight": {
+      "kg": 1420,
+      "lb": 3131,
+      "note": "Curb weight, 1997 Type SH",
+      "src": "https://www.0-60specs.com/honda/prelude-0-60-times"
+    },
+    "zero60": {
+      "sec": 6.9,
+      "kind": "tested",
+      "note": "Car and Driver test, 1997 Type SH",
+      "src": "https://www.0-60specs.com/honda/prelude-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 21,
+      "city": 20,
+      "hwy": 24,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/14876.shtml",
+      "note": "EPA combined, 1999, 5-speed manual"
+    },
+    "built": {
+      "count": 58118,
+      "approx": true,
+      "note": "Sold in the US, 1997–2001 model years",
+      "src": "https://en.wikipedia.org/wiki/Honda_Prelude"
+    },
+    "predecessor": {
+      "name": "Honda Prelude (fourth generation)",
+      "id": "honda-prelude-4th-gen"
+    },
+    "successor": {
+      "name": "Honda Prelude (sixth generation)",
+      "id": "honda-prelude-6th-gen"
+    },
+    "quick": "The fifth Prelude, 1997–2001: squarer again, with a 195-hp VTEC engine in every US car and the torque-shuffling Type SH.",
+    "story": [
+      "Introduced in November 1996, the fifth Prelude went back to the squarer look of the third generation in a bid to revive sales, on a slightly longer wheelbase. Every North American car had a 2.2-liter twin-cam VTEC with 195 hp, later 200, and 16-inch alloy wheels, and the optional automatic offered Sequential SportShift manual control. Car and Driver timed a 1997 Type SH to 60 mph in 6.9 seconds.",
+      "The Type SH, manual only, carried Honda's Active Torque Transfer System, which could spin the outside front wheel up to 15 percent faster than the inside one in a turn and send it up to 80 percent of the torque, to fight understeer. Reviewers found the car's 63 percent front weight bias too much for it to hide. Squeezed by the Accord coupe, the Civic Si and the S2000, the Prelude sold about 58,000 in the US before production ended in 2001; the name returned for 2026."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Honda Prelude"
+    ]
+  },
+  {
     "top": {
       "na": "No US figure from Honda"
     },
@@ -15509,7 +15953,10 @@ const CARS = [
       "src": "https://www.fueleconomy.gov/feg/noframes/50046.shtml"
     },
     "built": null,
-    "predecessor": null,
+    "predecessor": {
+      "name": "Honda Prelude (fifth generation)",
+      "id": "honda-prelude-5th-gen"
+    },
     "successor": null,
     "articles": [],
     "photo": {"credit": "Honda"},

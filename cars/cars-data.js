@@ -11934,6 +11934,332 @@ const CARS_INDEX = [
   }
  },
  {
+  "id": "honda-prelude-1st-gen",
+  "name": "Honda Prelude (first generation)",
+  "aka": [
+   "1979–1982 Prelude",
+   "Prelude SN"
+  ],
+  "make": "Honda",
+  "maker": "Honda",
+  "years": "1979–1982",
+  "start": 1979,
+  "body": "2+2 coupe",
+  "engine": "1.8-liter CVCC 4-cylinder (US)",
+  "country": "Japan",
+  "quick": "The first Prelude, 1979–1982: an Accord-based 2+2 coupe with a power moonroof as standard, the feature that became the Prelude's trademark.",
+  "articles": [
+   "the-brightest-star",
+   "a-golden-relic"
+  ],
+  "latest": "2026-09-29",
+  "ownDates": [],
+  "dates": [
+   "2026-09-29",
+   "2026-07-20"
+  ],
+  "drive": "Front-wheel drive",
+  "gearbox": "5-speed manual; 2-speed Hondamatic, then 3-speed automatic",
+  "specsFor": "1979 Honda Prelude, 1.8-liter, US market",
+  "guide": null,
+  "shop": {
+   "cargurus": "d595"
+  },
+  "hp": 72,
+  "kg": null,
+  "kgNote": "",
+  "lbs": null,
+  "z60": null,
+  "top": null,
+  "mpg": null,
+  "built": {
+   "count": 171829,
+   "approx": true,
+   "note": "Sold in the US, 1979–1982 model years"
+  },
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": "honda-prelude-2nd-gen",
+   "name": "Honda Prelude (second generation)"
+  },
+  "photo": null
+ },
+ {
+  "id": "honda-prelude-2nd-gen",
+  "name": "Honda Prelude (second generation)",
+  "aka": [
+   "1983–1987 Prelude",
+   "Prelude 2.0 Si",
+   "AB",
+   "BA1"
+  ],
+  "make": "Honda",
+  "maker": "Honda",
+  "years": "1983–1987",
+  "start": 1983,
+  "body": "2+2 coupe",
+  "engine": "1.8-liter 12-valve 4-cylinder; fuel-injected 2.0-liter in the Si from 1985",
+  "country": "Japan",
+  "quick": "The second-generation Prelude, 1983–1987: low, wide and glassy, with pop-up headlights, optional anti-lock brakes and, from 1985, a fuel-injected 2.0-liter Si.",
+  "articles": [
+   "the-brightest-star",
+   "a-golden-relic"
+  ],
+  "latest": "2026-09-29",
+  "ownDates": [],
+  "dates": [
+   "2026-09-29",
+   "2026-07-20"
+  ],
+  "drive": "Front-wheel drive",
+  "gearbox": "5-speed manual or 4-speed automatic",
+  "specsFor": "1985 Honda Prelude, 1.8-liter, 5-speed manual, US market (MotorWeek test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d595"
+  },
+  "hp": 100,
+  "kg": 1066,
+  "kgNote": "Curb weight, 1985 coupe",
+  "lbs": 2350,
+  "z60": {
+   "sec": 10.7,
+   "kind": "tested",
+   "note": "MotorWeek test, 1985 coupe"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 24,
+   "city": 21,
+   "hwy": 29,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1984 1.8-liter, 5-speed manual"
+  },
+  "built": {
+   "count": 336599,
+   "approx": true,
+   "note": "Sold in the US, 1983–1987 model years"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "honda-prelude-1st-gen",
+   "name": "Honda Prelude (first generation)"
+  },
+  "next": {
+   "id": "honda-prelude-3rd-gen",
+   "name": "Honda Prelude (third generation)"
+  },
+  "photo": null
+ },
+ {
+  "id": "honda-prelude-3rd-gen",
+  "name": "Honda Prelude (third generation)",
+  "aka": [
+   "1988–1991 Prelude",
+   "Prelude Si 4WS",
+   "Prelude S",
+   "BA4",
+   "BA5"
+  ],
+  "make": "Honda",
+  "maker": "Honda",
+  "years": "1988–1991",
+  "start": 1988,
+  "body": "2+2 coupe",
+  "engine": "2.0-liter 4-cylinder, carbureted (S) or fuel-injected twin-cam (Si); 2.1-liter Si from 1990",
+  "country": "Japan",
+  "quick": "The third-generation Prelude, 1988–1991: the first mass-production car with mechanical 4-wheel steering, and quicker through a slalom than a Corvette.",
+  "articles": [
+   "the-brightest-star",
+   "a-golden-relic"
+  ],
+  "latest": "2026-09-29",
+  "ownDates": [],
+  "dates": [
+   "2026-09-29",
+   "2026-07-20"
+  ],
+  "drive": "Front-wheel drive",
+  "gearbox": "5-speed manual or 4-speed automatic",
+  "specsFor": "1989 Honda Prelude Si, 5-speed manual, US market (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d595"
+  },
+  "hp": 135,
+  "kg": 1279,
+  "kgNote": "Curb weight, 1989 Si",
+  "lbs": 2820,
+  "z60": {
+   "sec": 8.6,
+   "kind": "tested",
+   "note": "Car and Driver test, 1989 Si"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 21,
+   "city": 20,
+   "hwy": 24,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1989 fuel-injected, 5-speed manual"
+  },
+  "built": {
+   "count": 160909,
+   "approx": true,
+   "note": "Sold in the US, 1988–1991 model years"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "honda-prelude-2nd-gen",
+   "name": "Honda Prelude (second generation)"
+  },
+  "next": {
+   "id": "honda-prelude-4th-gen",
+   "name": "Honda Prelude (fourth generation)"
+  },
+  "photo": null
+ },
+ {
+  "id": "honda-prelude-4th-gen",
+  "name": "Honda Prelude (fourth generation)",
+  "aka": [
+   "1992–1996 Prelude",
+   "Prelude Si",
+   "Prelude VTEC",
+   "Prelude Si VTEC",
+   "BB1",
+   "BB4"
+  ],
+  "make": "Honda",
+  "maker": "Honda",
+  "years": "1992–1996",
+  "start": 1992,
+  "body": "2+2 coupe",
+  "engine": "2.2-liter 4-cylinder (S); 2.3-liter twin-cam (Si); 2.2-liter twin-cam VTEC (VTEC)",
+  "country": "Japan",
+  "quick": "The fourth-generation Prelude, 1992–1996: rounded and wide, with fixed headlights, electronic 4-wheel steering and a 190-hp VTEC engine.",
+  "articles": [
+   "the-brightest-star",
+   "a-golden-relic"
+  ],
+  "latest": "2026-09-29",
+  "ownDates": [],
+  "dates": [
+   "2026-09-29",
+   "2026-07-20"
+  ],
+  "drive": "Front-wheel drive",
+  "gearbox": "5-speed manual or 4-speed automatic",
+  "specsFor": "1992 Honda Prelude Si, 2.3-liter, 5-speed manual, US market (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d595"
+  },
+  "hp": 160,
+  "kg": 1343,
+  "kgNote": "Curb weight, 1992 Si",
+  "lbs": 2960,
+  "z60": {
+   "sec": 7.2,
+   "kind": "tested",
+   "note": "Car and Driver test, 1992 Si"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 21,
+   "city": 19,
+   "hwy": 24,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1992 2.3-liter, 5-speed manual"
+  },
+  "built": {
+   "count": 98627,
+   "approx": true,
+   "note": "Sold in the US, 1992–1996 model years"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "honda-prelude-3rd-gen",
+   "name": "Honda Prelude (third generation)"
+  },
+  "next": {
+   "id": "honda-prelude-5th-gen",
+   "name": "Honda Prelude (fifth generation)"
+  },
+  "photo": null
+ },
+ {
+  "id": "honda-prelude-5th-gen",
+  "name": "Honda Prelude (fifth generation)",
+  "aka": [
+   "1997–2001 Prelude",
+   "Prelude Type SH",
+   "BB6"
+  ],
+  "make": "Honda",
+  "maker": "Honda",
+  "years": "1997–2001",
+  "start": 1997,
+  "body": "2+2 coupe",
+  "engine": "2.2-liter twin-cam VTEC 4-cylinder",
+  "country": "Japan",
+  "quick": "The fifth Prelude, 1997–2001: squarer again, with a 195-hp VTEC engine in every US car and the torque-shuffling Type SH.",
+  "articles": [
+   "the-brightest-star",
+   "a-golden-relic"
+  ],
+  "latest": "2026-09-29",
+  "ownDates": [],
+  "dates": [
+   "2026-09-29",
+   "2026-07-20"
+  ],
+  "drive": "Front-wheel drive",
+  "gearbox": "5-speed manual or 4-speed automatic with SportShift",
+  "specsFor": "1997 Honda Prelude Type SH, 5-speed manual, US market (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d595"
+  },
+  "hp": 195,
+  "kg": 1420,
+  "kgNote": "Curb weight, 1997 Type SH",
+  "lbs": 3131,
+  "z60": {
+   "sec": 6.9,
+   "kind": "tested",
+   "note": "Car and Driver test, 1997 Type SH"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 21,
+   "city": 20,
+   "hwy": 24,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1999, 5-speed manual"
+  },
+  "built": {
+   "count": 58118,
+   "approx": true,
+   "note": "Sold in the US, 1997–2001 model years"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "honda-prelude-4th-gen",
+   "name": "Honda Prelude (fourth generation)"
+  },
+  "next": {
+   "id": "honda-prelude-6th-gen",
+   "name": "Honda Prelude (sixth generation)"
+  },
+  "photo": null
+ },
+ {
   "id": "honda-prelude-6th-gen",
   "name": "Honda Prelude (sixth generation)",
   "aka": [
@@ -11989,7 +12315,10 @@ const CARS_INDEX = [
   },
   "built": null,
   "alongside": [],
-  "prev": null,
+  "prev": {
+   "id": "honda-prelude-5th-gen",
+   "name": "Honda Prelude (fifth generation)"
+  },
   "next": null,
   "photo": {
    "card": "/assets/images/cars/honda-prelude-6th-gen.jpg?v=1047ed88",

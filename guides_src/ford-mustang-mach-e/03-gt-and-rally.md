@@ -12,13 +12,13 @@ The GT is the Mach-E that earns the Mustang badge in a straight line. Every one 
 
 ## How quick they are
 
-[[chart:accelGT]]
+[[chart:accel-gt]]
 
 Car and Driver ran a 2021 GT to 60 mph in 4.3 seconds and a 2021 GT Performance Edition in 3.7. The 2024 Rally took 3.3 seconds, the quickest time for a Mach-E in Car and Driver's tests. All 3 weigh about 2,220 to 2,260 kg (4,890 to 4,990 lb), so the speed comes from the motors' instant torque rather than from lightness.
 
 ## How far they go
 
-[[chart:rangeGT]]
+[[chart:range-gt]]
 
 Pace costs range. The EPA rated the 2021 GT at 270 miles and the Performance Edition at 260. On the 2026 cars, the GT is rated at 280 miles and the Rally at 255, against 300 miles for an extended-range all-wheel-drive Premium. Big wheels and grippy tires are part of the reason, and they also make tires the biggest running cost after electricity.
 

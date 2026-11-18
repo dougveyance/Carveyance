@@ -310,7 +310,7 @@
     ]
    ]
   },
-  "accelGT": {
+  "accel-gt": {
    "n": 5,
    "title": "0–60 mph, as tested",
    "sub": "Seconds; shorter is quicker.",
@@ -333,7 +333,7 @@
     ]
    ]
   },
-  "rangeGT": {
+  "range-gt": {
    "n": 6,
    "title": "EPA range, GT and Rally",
    "sub": "Miles on a full charge, with an extended-range all-wheel-drive Premium for comparison.",

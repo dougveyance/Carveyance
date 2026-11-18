@@ -313,6 +313,8 @@ def render_body(g, text):
             flush()
             out.append(f"<h3>{inline(s[4:])}</h3>")
             continue
+        if re.match(r"^\[\[(chart|photo):", s) and not re.match(r"^\[\[(chart|photo):[a-z0-9-]+\]\]$", s):
+            sys.exit(f"{g['id']}: {s} isn't a valid marker; keys use lowercase letters, digits and hyphens only")
         m = re.match(r"^\[\[chart:([a-z0-9-]+)\]\]$", s)
         if m:
             flush()

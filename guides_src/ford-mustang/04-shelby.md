@@ -26,7 +26,7 @@ Prices are before delivery and, on the GT500, before the gas-guzzler tax. For 20
 
 ## How quick they are
 
-[[chart:accelS]]
+[[chart:accel-shelby]]
 
 Car and Driver ran a 2016 GT350 to 60 mph in 4.3 seconds and a GT350R in 3.9. The 2020 GT500 with the Carbon Fiber Track Pack took 3.6 seconds, and 3.4 on Michelin Pilot Sport 4S tires. On a road course the gap narrows, because the GT350's appeal was always its steering, its brakes and an engine that loves to rev, not its straight-line pace.
 

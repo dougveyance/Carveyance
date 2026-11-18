@@ -1,0 +1,300 @@
+{
+ "id": "ford-maverick",
+ "make": "Ford",
+ "model": "Maverick",
+ "years": "2022–2026",
+ "byline": "Jolice Franklyn",
+ "published": "2026-11-18",
+ "updated": "2026-11-18",
+ "cars": [
+  "ford-maverick-pickup",
+  "ford-maverick-tremor",
+  "ford-maverick-lobo"
+ ],
+ "shop": {
+  "cargurus": "d1293"
+ },
+ "chapters": [
+  "2022-2024",
+  "2025-2026",
+  "tremor-lobo",
+  "used-checklist"
+ ],
+ "series": {
+  "ah22": {
+   "name": "Hybrid, front-drive, 2022",
+   "color": "#9aa5b1"
+  },
+  "ae22": {
+   "name": "EcoBoost, all-wheel drive, 2022",
+   "color": "#9aa5b1"
+  },
+  "at23": {
+   "name": "Tremor, 2023",
+   "color": "#2E6E96"
+  },
+  "ah25": {
+   "name": "Hybrid, all-wheel drive, 2025",
+   "color": "#e05c2a"
+  },
+  "al25": {
+   "name": "Lobo, 2025",
+   "color": "#e05c2a"
+  },
+  "mh22": {
+   "name": "Hybrid, front-drive, 2022–2024",
+   "color": "#9aa5b1"
+  },
+  "mh25": {
+   "name": "Hybrid, front-drive, 2025–2026",
+   "color": "#2E6E96"
+  },
+  "mha": {
+   "name": "Hybrid, all-wheel drive, 2025–2026",
+   "color": "#2E6E96"
+  },
+  "mef": {
+   "name": "EcoBoost, front-drive, 2026",
+   "color": "#e05c2a"
+  },
+  "mea": {
+   "name": "EcoBoost, all-wheel drive, 2025–2026",
+   "color": "#e05c2a"
+  },
+  "mt": {
+   "name": "Tremor, 2025–2026",
+   "color": "#e05c2a"
+  },
+  "ml": {
+   "name": "Lobo, 2025–2026",
+   "color": "#e05c2a"
+  },
+  "p22": {
+   "name": "2022 XL Hybrid",
+   "color": "#9aa5b1"
+  },
+  "p24": {
+   "name": "2024 XL EcoBoost",
+   "color": "#2E6E96"
+  },
+  "p25t": {
+   "name": "2025 Tremor",
+   "color": "#e05c2a"
+  },
+  "p26": {
+   "name": "2026, starting price",
+   "color": "#e05c2a"
+  }
+ },
+ "charts": {
+  "accel": {
+   "n": 1,
+   "title": "0–60 mph, as tested",
+   "sub": "Seconds; shorter is quicker.",
+   "source": "Car and Driver tests, via 0-60specs",
+   "bars": [
+    [
+     "ah22",
+     7.7,
+     "7.7 sec"
+    ],
+    [
+     "ae22",
+     5.9,
+     "5.9 sec"
+    ],
+    [
+     "at23",
+     6.0,
+     "6.0 sec"
+    ],
+    [
+     "ah25",
+     6.7,
+     "6.7 sec"
+    ],
+    [
+     "al25",
+     5.8,
+     "5.8 sec"
+    ]
+   ]
+  },
+  "mpg": {
+   "n": 2,
+   "title": "EPA combined fuel economy",
+   "sub": "Miles per gallon.",
+   "source": "US EPA, fueleconomy.gov",
+   "bars": [
+    [
+     "mh22",
+     37,
+     "37 mpg"
+    ],
+    [
+     "mh25",
+     38,
+     "38 mpg"
+    ],
+    [
+     "mha",
+     37,
+     "37 mpg"
+    ],
+    [
+     "mef",
+     26,
+     "26 mpg"
+    ],
+    [
+     "mea",
+     25,
+     "25 mpg"
+    ],
+    [
+     "mt",
+     23,
+     "23 mpg"
+    ],
+    [
+     "ml",
+     24,
+     "24 mpg"
+    ]
+   ]
+  },
+  "price": {
+   "n": 3,
+   "title": "What a new one cost, in 2026 dollars",
+   "sub": "Starting prices before delivery, adjusted with the US consumer price index. The original price is in each label.",
+   "source": "Ford prices; Carveyance CPI arithmetic",
+   "bars": [
+    [
+     "p22",
+     23000,
+     "$23,000 · $19,995 then"
+    ],
+    [
+     "p24",
+     25100,
+     "$25,100 · $23,400 then"
+    ],
+    [
+     "p25t",
+     42800,
+     "$42,800 · $40,995 then"
+    ],
+    [
+     "p26",
+     28145,
+     "$28,145 for 2026"
+    ]
+   ]
+  }
+ },
+ "photos": {
+  "hub-hero": {
+   "want": "A Maverick",
+   "credit": "Ford",
+   "alt": "A red 2026 Ford Maverick Lariat on a city street at dusk"
+  },
+  "ch1-hero": {
+   "want": "A 2022–2024 Maverick",
+   "credit": "Ford",
+   "alt": "A light-blue 2022 Ford Maverick Hybrid XLT parked in front of a yellow building"
+  },
+  "ch2-hero": {
+   "want": "A 2025–2026 Maverick",
+   "credit": "Ford",
+   "alt": "A green 2025 Ford Maverick Lariat parked by a brick building"
+  },
+  "ch2-cabin": {
+   "want": "The 2025–2026 cabin",
+   "credit": "Ford",
+   "alt": "The front seats and dashboard of a 2025 Ford Maverick Lariat"
+  },
+  "ch3-hero": {
+   "want": "Maverick Tremors",
+   "credit": "Ford",
+   "alt": "A Ford Maverick Tremor lined up with Ranger, F-150 and Super Duty Tremor pickups on a dirt hillside"
+  },
+  "ch3-lobo": {
+   "want": "A Maverick Lobo",
+   "credit": "Ford",
+   "alt": "A blue 2025 Ford Maverick Lobo parked in a dark warehouse"
+  },
+  "ch4-hero": {
+   "want": "A Maverick towing",
+   "credit": "Ford",
+   "alt": "A green 2025 Ford Maverick towing an Airstream trailer"
+  }
+ },
+ "find": {
+  "picker": [
+   {
+    "model": "Maverick",
+    "years": "2022–2024",
+    "ch": "2022-2024"
+   },
+   {
+    "model": "Maverick",
+    "years": "2025–2026",
+    "ch": "2025-2026"
+   },
+   {
+    "model": "Maverick Hybrid",
+    "years": "2022–2026",
+    "ch": "2025-2026"
+   }
+  ],
+  "terms": {
+   "": [
+    "Maverick",
+    "Ford Maverick",
+    "compact pickup",
+    "small truck",
+    "hybrid pickup",
+    "cheapest truck"
+   ],
+   "2022-2024": [
+    "hybrid",
+    "front-wheel drive",
+    "EcoBoost",
+    "2.0-liter",
+    "FX4",
+    "XL",
+    "XLT",
+    "Lariat",
+    "FLEXBED",
+    "4K Tow Package"
+   ],
+   "2025-2026": [
+    "2025 update",
+    "hybrid AWD",
+    "all-wheel drive",
+    "13.2-inch screen",
+    "SYNC 4",
+    "238 hp",
+    "2026"
+   ],
+   "tremor-lobo": [
+    "Tremor",
+    "Lobo",
+    "street truck",
+    "off-road package",
+    "7-speed",
+    "twin-clutch"
+   ],
+   "used-checklist": [
+    "used",
+    "checklist",
+    "recalls",
+    "12-volt battery",
+    "hybrid engine",
+    "tail lights",
+    "trailer module",
+    "ball joints"
+   ]
+  }
+ }
+}

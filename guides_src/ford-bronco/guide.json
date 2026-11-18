@@ -1,0 +1,378 @@
+{
+ "id": "ford-bronco",
+ "make": "Ford",
+ "model": "Bronco",
+ "years": "2021–2026",
+ "byline": "Elliot Vance",
+ "published": "2026-11-18",
+ "updated": "2026-11-18",
+ "cars": [
+  "ford-bronco-6th-gen",
+  "ford-bronco-raptor"
+ ],
+ "shop": {
+  "cargurus": "d320"
+ },
+ "chapters": [
+  "2021-2026",
+  "raptor",
+  "trims",
+  "used-checklist"
+ ],
+ "series": {
+  "a27": {
+   "name": "2.7 V6 Wildtrak 4-door, 2021",
+   "color": "#2E6E96"
+  },
+  "a23a": {
+   "name": "2.3 automatic Outer Banks 4-door, 2021",
+   "color": "#9aa5b1"
+  },
+  "a23m": {
+   "name": "2.3 manual Black Diamond 2-door, 2021",
+   "color": "#9aa5b1"
+  },
+  "a23s": {
+   "name": "2.3 manual Badlands 4-door, Sasquatch, 2022",
+   "color": "#9aa5b1"
+  },
+  "arap": {
+   "name": "Raptor, 2022",
+   "color": "#e05c2a"
+  },
+  "m23a": {
+   "name": "2.3 automatic",
+   "color": "#9aa5b1"
+  },
+  "m23m": {
+   "name": "2.3 manual",
+   "color": "#9aa5b1"
+  },
+  "m27o": {
+   "name": "2.7 V6 Outer Banks",
+   "color": "#2E6E96"
+  },
+  "m27": {
+   "name": "2.7 V6, other trims",
+   "color": "#2E6E96"
+  },
+  "m23s": {
+   "name": "2.3 with the Sasquatch Package",
+   "color": "#9aa5b1"
+  },
+  "mrap": {
+   "name": "Raptor",
+   "color": "#e05c2a"
+  },
+  "f20": {
+   "name": "20 mpg, 2.3 automatic",
+   "color": "#9aa5b1"
+  },
+  "f19": {
+   "name": "19 mpg, 2.3 manual",
+   "color": "#9aa5b1"
+  },
+  "f17": {
+   "name": "17 mpg, 2.7 V6",
+   "color": "#2E6E96"
+  },
+  "f15": {
+   "name": "15 mpg, Raptor",
+   "color": "#e05c2a"
+  },
+  "tbr": {
+   "name": "Bronco, 2.3 or 2.7, properly equipped",
+   "color": "#2E6E96"
+  },
+  "trap": {
+   "name": "Bronco Raptor",
+   "color": "#e05c2a"
+  },
+  "p21b": {
+   "name": "2021 Base 2-door",
+   "color": "#9aa5b1"
+  },
+  "p21d": {
+   "name": "2021 Badlands 4-door",
+   "color": "#9aa5b1"
+  },
+  "p22r": {
+   "name": "2022 Raptor",
+   "color": "#2E6E96"
+  },
+  "p26b": {
+   "name": "2026 Base",
+   "color": "#e05c2a"
+  },
+  "p26d": {
+   "name": "2026 Badlands",
+   "color": "#e05c2a"
+  },
+  "p26r": {
+   "name": "2026 Raptor",
+   "color": "#e05c2a"
+  }
+ },
+ "charts": {
+  "accel": {
+   "n": 1,
+   "title": "0–60 mph, as tested",
+   "sub": "Seconds; shorter is quicker.",
+   "source": "Car and Driver tests, via 0-60specs",
+   "bars": [
+    [
+     "arap",
+     5.6,
+     "5.6 sec"
+    ],
+    [
+     "a27",
+     6.2,
+     "6.2 sec"
+    ],
+    [
+     "a23a",
+     6.5,
+     "6.5 sec"
+    ],
+    [
+     "a23m",
+     7.0,
+     "7.0 sec"
+    ],
+    [
+     "a23s",
+     7.4,
+     "7.4 sec"
+    ]
+   ]
+  },
+  "mpg": {
+   "n": 2,
+   "title": "EPA combined fuel economy, 2026",
+   "sub": "Miles per gallon.",
+   "source": "US EPA, fueleconomy.gov",
+   "bars": [
+    [
+     "m23a",
+     20,
+     "20 mpg"
+    ],
+    [
+     "m23m",
+     19,
+     "19 mpg"
+    ],
+    [
+     "m27o",
+     20,
+     "20 mpg"
+    ],
+    [
+     "m27",
+     17,
+     "17 mpg"
+    ],
+    [
+     "m23s",
+     18,
+     "18 mpg"
+    ],
+    [
+     "mrap",
+     15,
+     "15 mpg"
+    ]
+   ]
+  },
+  "fuelcost": {
+   "n": 3,
+   "title": "A year of fuel",
+   "sub": "15,000 miles at $4 a gallon, using EPA combined figures for 2026 models. An example, not a forecast.",
+   "source": "Carveyance arithmetic from EPA ratings",
+   "bars": [
+    [
+     "f20",
+     3000,
+     "$3,000 · 750 gal"
+    ],
+    [
+     "f19",
+     3158,
+     "$3,158 · 789 gal"
+    ],
+    [
+     "f17",
+     3529,
+     "$3,529 · 882 gal"
+    ],
+    [
+     "f15",
+     4000,
+     "$4,000 · 1,000 gal"
+    ]
+   ]
+  },
+  "tow": {
+   "n": 4,
+   "title": "How much it can tow",
+   "sub": "Ford's maximum towing ratings, in kilograms, with pounds in parentheses.",
+   "source": "Ford, via the Detroit Free Press",
+   "bars": [
+    [
+     "tbr",
+     1588,
+     "1,588 kg (3,500 lb)"
+    ],
+    [
+     "trap",
+     2041,
+     "2,041 kg (4,500 lb)"
+    ]
+   ]
+  },
+  "price": {
+   "n": 5,
+   "title": "What a new one cost, in 2026 dollars",
+   "sub": "Starting prices before delivery, adjusted with the US consumer price index. The original price is in each label.",
+   "source": "Ford prices; Carveyance CPI arithmetic",
+   "bars": [
+    [
+     "p21b",
+     35400,
+     "$35,400 · $28,500 then"
+    ],
+    [
+     "p21d",
+     55300,
+     "$55,300 · $44,590 then"
+    ],
+    [
+     "p22r",
+     78700,
+     "$78,700 · $68,500 then"
+    ],
+    [
+     "p26b",
+     40495,
+     "$40,495 for 2026"
+    ],
+    [
+     "p26d",
+     48890,
+     "$48,890 for 2026"
+    ],
+    [
+     "p26r",
+     79995,
+     "$79,995 for 2026"
+    ]
+   ]
+  }
+ },
+ "photos": {
+  "hub-hero": {
+   "want": "Broncos on a trail",
+   "credit": "Ford",
+   "alt": "2 Ford Broncos on a trail through a red-rock canyon"
+  },
+  "ch1-hero": {
+   "want": "A 2021–2026 Bronco",
+   "credit": "Ford",
+   "alt": "A red 2026 Ford Bronco Badlands climbing a rocky trail"
+  },
+  "ch2-hero": {
+   "want": "A Bronco Raptor",
+   "credit": "Ford",
+   "alt": "A green 2026 Ford Bronco Raptor crawling over rocks"
+  },
+  "ch3-hero": {
+   "want": "A Bronco special edition",
+   "credit": "Ford",
+   "alt": "A red, white and blue 2026 Ford Bronco Stroppe Edition at speed on a desert flat"
+  },
+  "ch4-hero": {
+   "want": "A Bronco off-road",
+   "credit": "Ford",
+   "alt": "A gray Ford Bronco Big Bend 4-door on a dirt trail among desert shrubs"
+  }
+ },
+ "find": {
+  "picker": [
+   {
+    "model": "Bronco",
+    "years": "2021–2026",
+    "ch": "2021-2026"
+   },
+   {
+    "model": "Bronco Raptor",
+    "years": "2022–2026",
+    "ch": "raptor"
+   }
+  ],
+  "terms": {
+   "": [
+    "Bronco",
+    "Ford Bronco",
+    "sixth generation",
+    "6th gen",
+    "4x4",
+    "off-road SUV",
+    "removable doors",
+    "removable roof",
+    "Wrangler rival"
+   ],
+   "2021-2026": [
+    "2-door",
+    "4-door",
+    "2.3",
+    "2.3-liter",
+    "2.7",
+    "2.7-liter",
+    "V6",
+    "EcoBoost",
+    "manual",
+    "7-speed",
+    "10-speed",
+    "crawler gear",
+    "2027"
+   ],
+   "raptor": [
+    "Raptor",
+    "Bronco Raptor",
+    "3.0-liter",
+    "418 hp",
+    "37-inch tires",
+    "FOX shocks",
+    "Baja"
+   ],
+   "trims": [
+    "Base",
+    "Big Bend",
+    "Black Diamond",
+    "Outer Banks",
+    "Badlands",
+    "Wildtrak",
+    "First Edition",
+    "Everglades",
+    "Heritage",
+    "Heritage Limited",
+    "Stroppe",
+    "Sasquatch",
+    "35-inch tires"
+   ],
+   "used-checklist": [
+    "used",
+    "checklist",
+    "recalls",
+    "intake valves",
+    "rear shocks",
+    "hardtop",
+    "roof leaks",
+    "manual grinding",
+    "wiring harness",
+    "transfer case"
+   ]
+  }
+ }
+}

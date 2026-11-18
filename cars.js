@@ -13556,6 +13556,120 @@ const CARS = [
     }
   },
   {
+    "id": "toyota-venza-av10",
+    "name": "Toyota Venza (AV10)",
+    "aka": [
+      "2009–2015 Venza",
+      "Venza V6",
+      "Venza Limited",
+      "AV10"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "United States",
+    "years": "2009–2015",
+    "start": 2009,
+    "end": 2015,
+    "shop": {
+      "cargurus": "d1516"
+    },
+    "body": "Mid-size crossover wagon, 5 seats",
+    "engine": "2.7-liter 4-cylinder; 3.5-liter V6",
+    "drive": "Front-wheel drive or all-wheel drive",
+    "gearbox": "6-speed automatic",
+    "specsFor": "2009 Toyota Venza, 2.7-liter, front-wheel drive, US market (Car and Driver test)",
+    "power": {
+      "hp": 182,
+      "note": "2.7-liter 4-cylinder",
+      "src": "https://www.0-60specs.com/toyota/venza-0-60-times"
+    },
+    "weight": {
+      "kg": 1721,
+      "lb": 3795,
+      "note": "Curb weight, 2009 4-cylinder",
+      "src": "https://www.0-60specs.com/toyota/venza-0-60-times"
+    },
+    "zero60": {
+      "sec": 8.4,
+      "kind": "tested",
+      "note": "Car and Driver test, 2009 4-cylinder",
+      "src": "https://www.0-60specs.com/toyota/venza-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 24,
+      "city": 21,
+      "hwy": 29,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/29381.shtml",
+      "note": "EPA combined, 2009 4-cylinder, front-wheel drive"
+    },
+    "built": {
+      "count": 272981,
+      "approx": true,
+      "note": "Sold in the US, 2008–2016 (calendar years)",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Venza"
+    },
+    "versions": [
+      {
+        "name": "2.7-liter",
+        "detail": "4-cylinder"
+      },
+      {
+        "name": "3.5-liter V6",
+        "detail": "V6",
+        "specsFor": "2009 Toyota Venza V6, front-wheel drive, US market (Car and Driver test)",
+        "power": {
+          "hp": 268,
+          "note": "3.5-liter V6",
+          "src": "https://www.0-60specs.com/toyota/venza-0-60-times"
+        },
+        "weight": {
+          "kg": 1751,
+          "lb": 3860,
+          "note": "Curb weight, 2009 V6",
+          "src": "https://www.0-60specs.com/toyota/venza-0-60-times"
+        },
+        "zero60": {
+          "sec": 6.5,
+          "kind": "tested",
+          "note": "Car and Driver test, 2009 V6",
+          "src": "https://www.0-60specs.com/toyota/venza-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 22,
+          "city": 19,
+          "hwy": 26,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/26282.shtml",
+          "note": "EPA combined, 2009 V6, front-wheel drive"
+        }
+      }
+    ],
+    "predecessor": null,
+    "successor": {
+      "name": "Toyota Venza (XU80)",
+      "id": "toyota-venza-xu80"
+    },
+    "quick": "The first Venza, 2009–2015: a Camry-based crossover wagon designed in California and built in Kentucky, sized between the Camry and the Highlander.",
+    "story": [
+      "Designed at Toyota's Calty studio in Newport Beach, California, from the FT-SX concept and engineered in Ann Arbor, Michigan, the Venza was built on the XV40 Camry's platform. Production began at Toyota's Kentucky plant on November 11, 2008, with more than 70 percent of its parts from US suppliers. Toyota pitched it as neither a wagon nor an SUV, for buyers who wanted more room than a Camry but less size than a Highlander.",
+      "A 182-hp 2.7-liter 4-cylinder or a 268-hp 3.5-liter V6 drove the front or all 4 wheels through a 6-speed automatic, and Car and Driver timed a 2009 V6 to 60 mph in 6.5 seconds and a 4-cylinder in 8.4. The IIHS named it a Top Safety Pick in 2009. US production ended in June 2015, after about 273,000 US sales, and the name returned for 2021 on a hybrid crossover."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Venza"
+    ]
+  },
+  {
     "id": "toyota-venza-xu80",
     "name": "Toyota Venza (XU80)",
     "aka": [
@@ -13611,7 +13725,10 @@ const CARS = [
       "note": "Sold in the US, 2020–2025",
       "src": "https://www.goodcarbadcar.net/toyota-venza-sales-figures/"
     },
-    "predecessor": null,
+    "predecessor": {
+      "name": "Toyota Venza (AV10)",
+      "id": "toyota-venza-av10"
+    },
     "successor": null,
     "quick": "Toyota's hybrid-only, all-wheel-drive crossover for 2021–2024: the RAV4 Hybrid's 219-hp system and wheelbase under a sleeker body and a plusher cabin, rated at 39 mpg combined, with less cargo room than a RAV4.",
     "story": [
@@ -14268,6 +14385,150 @@ const CARS = [
     }
   },
   {
+    "id": "toyota-echo-xp10",
+    "name": "Toyota Echo (XP10)",
+    "aka": [
+      "2000–2005 Echo",
+      "Echo coupe",
+      "Yaris (XP10)",
+      "Toyota Platz"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "2000–2005",
+    "start": 2000,
+    "end": 2005,
+    "body": "Subcompact 4-door sedan and 2-door coupe",
+    "engine": "1.5-liter 4-cylinder",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual or 4-speed automatic",
+    "specsFor": "2000 Toyota Echo sedan, 5-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 108,
+      "note": "1.5-liter 4-cylinder",
+      "src": "https://www.0-60specs.com/toyota/echo-0-60-times"
+    },
+    "weight": {
+      "kg": 928,
+      "lb": 2045,
+      "note": "Curb weight, 2000 sedan",
+      "src": "https://www.0-60specs.com/toyota/echo-0-60-times"
+    },
+    "zero60": {
+      "sec": 8.5,
+      "kind": "tested",
+      "note": "Car and Driver test, 2000 sedan",
+      "src": "https://www.0-60specs.com/toyota/echo-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 32,
+      "city": 29,
+      "hwy": 37,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/15847.shtml",
+      "note": "EPA combined, 2000, 5-speed manual"
+    },
+    "built": {
+      "na": "No complete US sales total on record"
+    },
+    "predecessor": null,
+    "successor": {
+      "name": "Toyota Yaris (XP90)",
+      "id": "toyota-yaris-xp90"
+    },
+    "quick": "The Echo, 2000–2005: a tall little Toyota sedan and coupe with its gauges in the middle of the dash, the North American forerunner of the Yaris.",
+    "story": [
+      "Toyota built the XP10 sedan in Japan as the Platz and exported it as the Echo or Yaris, adding a 2-door version made only for North America for 2000. It was part of Project Genesis, Toyota's effort to bring younger buyers to the brand in the US, and it put the speedometer and gauges in the center of the dashboard instead of behind the steering wheel, a layout the Yaris kept.",
+      "Its 1.5-liter 4-cylinder made 108 hp, and Car and Driver timed a 2000 sedan with the manual to 60 mph in 8.5 seconds; the EPA rates it at 32 mpg combined. Most Echos had manual windows and locks. It sold almost 50,000 in the US in its first year but only half that in 2003, though it did well in Canada, where hatchback versions were sold from 2004."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Echo"
+    ]
+  },
+  {
+    "id": "toyota-yaris-xp90",
+    "name": "Toyota Yaris (XP90)",
+    "aka": [
+      "2007–2011 Yaris",
+      "Yaris Liftback",
+      "Yaris sedan",
+      "Toyota Vitz",
+      "Toyota Belta",
+      "XP90"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "2007–2011",
+    "start": 2007,
+    "end": 2011,
+    "shop": {
+      "cargurus": "d827"
+    },
+    "body": "Subcompact 3-door and 5-door liftback; 4-door sedan",
+    "engine": "1.5-liter 4-cylinder",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual or 4-speed automatic",
+    "specsFor": "2007 Toyota Yaris S sedan, 5-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 106,
+      "note": "1.5-liter 4-cylinder",
+      "src": "https://www.0-60specs.com/toyota/yaris-0-60-times"
+    },
+    "weight": {
+      "kg": 1080,
+      "lb": 2380,
+      "note": "Curb weight, 2007 S sedan",
+      "src": "https://www.0-60specs.com/toyota/yaris-0-60-times"
+    },
+    "zero60": {
+      "sec": 8.9,
+      "kind": "tested",
+      "note": "Car and Driver test, 2007 S sedan",
+      "src": "https://www.0-60specs.com/toyota/yaris-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 32,
+      "city": 29,
+      "hwy": 36,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/22750.shtml",
+      "note": "EPA combined, 2007, 5-speed manual"
+    },
+    "built": {
+      "na": "No US sales total on record"
+    },
+    "predecessor": {
+      "name": "Toyota Echo (XP10)",
+      "id": "toyota-echo-xp10"
+    },
+    "successor": {
+      "name": "Toyota Yaris (XP130)",
+      "id": "toyota-yaris-xp130"
+    },
+    "quick": "The first car sold in America as a Yaris, 2007–2011: a small liftback and sedan with a 106-hp 1.5-liter that replaced the Echo.",
+    "story": [
+      "Developed under chief engineer Kousuke Shibahara, the second-generation Yaris family included the Vitz hatchback and the Belta sedan, and North America got both under the Yaris name for the first time. The US car was unveiled at the Los Angeles auto show in January 2006, and it kept the Echo's center-mounted instruments.",
+      "Its 1.5-liter 4-cylinder made 106 hp, and Car and Driver timed a 2007 Yaris S sedan with the manual to 60 mph in 8.9 seconds; the EPA rates it at 32 mpg combined. The XP90 was built in Japan, France, Thailand, China and Taiwan, and the sedan stayed on sale in the US until 2015, when a Mazda2-based Yaris sedan replaced it."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Yaris"
+    ]
+  },
+  {
     "id": "toyota-yaris-xp130",
     "name": "Toyota Yaris (XP130)",
     "aka": [
@@ -14316,7 +14577,10 @@ const CARS = [
       "src": "https://www.fueleconomy.gov/feg/noframes/38778.shtml"
     },
     "built": null,
-    "predecessor": null,
+    "predecessor": {
+      "name": "Toyota Yaris (XP90)",
+      "id": "toyota-yaris-xp90"
+    },
     "successor": null,
     "quick": "The last Toyota-designed Yaris sold in the US: a small 3-door or 5-door hatchback with a 106-hp 1.5-liter, a 5-speed manual or a 4-speed automatic and, from 2017, standard Toyota Safety Sense C.",
     "story": [

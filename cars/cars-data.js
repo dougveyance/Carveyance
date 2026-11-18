@@ -17797,7 +17797,11 @@ const CARS_INDEX = [
    "id": "honda-passport-2nd-gen",
    "name": "Honda Passport (second generation)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/honda-passport-1st-gen.jpg?v=a8237e72",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "honda-passport-2nd-gen",
@@ -17866,7 +17870,11 @@ const CARS_INDEX = [
    "id": "honda-passport-3rd-gen",
    "name": "Honda Passport (third generation)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/honda-passport-2nd-gen.jpg?v=15f55023",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "honda-passport-3rd-gen",

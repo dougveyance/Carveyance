@@ -23699,7 +23699,7 @@ const CARS = [
       "Driver and passenger air bags arrived for 1995. For 1996 the V6 grew to 190 hp and shift-on-the-fly 4-wheel drive became available, and for 1997 the DX and the 4-cylinder were dropped. Honda sold about 105,000 in the US."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Honda"},
     "match": [
       "Honda Passport"
     ]
@@ -23811,7 +23811,7 @@ const CARS = [
       "Production ended in March 2002, and Honda's own Pilot took its place. In 2010, 1998–2002 Passports and Rodeos were recalled because the frame could corrode badly near the rear suspension mounts (10V436), and Honda bought back the worst affected. Honda sold about 92,000 in the US."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {"credit": "Honda"},
     "match": [
       "Honda Passport"
     ]

@@ -1,0 +1,726 @@
+{
+ "id": "ford-mustang",
+ "make": "Ford",
+ "model": "Mustang",
+ "years": "2017–2026",
+ "byline": "Theo Wren",
+ "published": "2026-11-18",
+ "updated": "2026-11-18",
+ "cars": [
+  "ford-mustang-6th-gen",
+  "ford-mustang-7th-gen",
+  "ford-mustang-shelby-gt350-2015",
+  "ford-mustang-shelby-gt500-2020",
+  "ford-mustang-mach-1-2021",
+  "ford-mustang-dark-horse",
+  "ford-mustang-gtd"
+ ],
+ "shop": {
+  "cargurus": "d2"
+ },
+ "chapters": [
+  "2017-2023",
+  "2024-2026",
+  "ecoboost-or-gt",
+  "shelby-gt350-gt500",
+  "bullitt-mach-1-dark-horse",
+  "used-checklist"
+ ],
+ "series": {
+  "a18ga": {
+   "name": "GT Premium, Performance Pack, 10-speed automatic, 2018",
+   "color": "#2E6E96"
+  },
+  "a18gm": {
+   "name": "GT Premium, Performance Pack, manual, 2018",
+   "color": "#2E6E96"
+  },
+  "a20eh": {
+   "name": "EcoBoost Premium, High Performance Package, manual, 2020",
+   "color": "#9aa5b1"
+  },
+  "a18em": {
+   "name": "EcoBoost, manual, 2018",
+   "color": "#9aa5b1"
+  },
+  "m18e": {
+   "name": "2.3 EcoBoost, automatic, 2018",
+   "color": "#9aa5b1"
+  },
+  "m17v": {
+   "name": "3.7 V6, automatic, 2017",
+   "color": "#9aa5b1"
+  },
+  "m18ga": {
+   "name": "GT, 10-speed automatic, 2018",
+   "color": "#2E6E96"
+  },
+  "m18gm": {
+   "name": "GT, manual, 2018",
+   "color": "#2E6E96"
+  },
+  "m18s": {
+   "name": "Shelby GT350, 2018",
+   "color": "#e05c2a"
+  },
+  "b26ga": {
+   "name": "GT Premium, automatic, 2026",
+   "color": "#e05c2a"
+  },
+  "b24dh": {
+   "name": "Dark Horse Premium, Handling Package, manual, 2024",
+   "color": "#e05c2a"
+  },
+  "b24gm": {
+   "name": "GT Premium, Performance Pack, manual, 2024",
+   "color": "#2E6E96"
+  },
+  "b24eh": {
+   "name": "EcoBoost Premium, High Performance Package, automatic, 2024",
+   "color": "#9aa5b1"
+  },
+  "n26e": {
+   "name": "2.3 EcoBoost",
+   "color": "#9aa5b1"
+  },
+  "n26ga": {
+   "name": "GT, automatic",
+   "color": "#2E6E96"
+  },
+  "n26gm": {
+   "name": "GT, manual",
+   "color": "#2E6E96"
+  },
+  "n26dh": {
+   "name": "Dark Horse",
+   "color": "#e05c2a"
+  },
+  "n26sc": {
+   "name": "Dark Horse SC",
+   "color": "#e05c2a"
+  },
+  "n26gtd": {
+   "name": "GTD",
+   "color": "#e05c2a"
+  },
+  "pe18": {
+   "name": "EcoBoost, 2018–2023",
+   "color": "#9aa5b1"
+  },
+  "peh": {
+   "name": "EcoBoost, High Performance Package, 2020–2023",
+   "color": "#9aa5b1"
+  },
+  "pg18": {
+   "name": "GT, 2018–2023",
+   "color": "#2E6E96"
+  },
+  "pe24": {
+   "name": "EcoBoost, 2024–2026",
+   "color": "#9aa5b1"
+  },
+  "pg24": {
+   "name": "GT, 2024–2026 (486 hp with the active exhaust)",
+   "color": "#2E6E96"
+  },
+  "f26": {
+   "name": "26 mpg, EcoBoost",
+   "color": "#9aa5b1"
+  },
+  "f19": {
+   "name": "19 mpg, GT automatic",
+   "color": "#2E6E96"
+  },
+  "f18": {
+   "name": "18 mpg, GT manual",
+   "color": "#2E6E96"
+  },
+  "f17": {
+   "name": "17 mpg, Dark Horse",
+   "color": "#e05c2a"
+  },
+  "s500p": {
+   "name": "GT500, Carbon Fiber Track Package, Michelin Pilot Sport 4S tires, 2020",
+   "color": "#e05c2a"
+  },
+  "s500": {
+   "name": "GT500, Carbon Fiber Track Package, 2020",
+   "color": "#e05c2a"
+  },
+  "s350r": {
+   "name": "GT350R, 2016",
+   "color": "#2E6E96"
+  },
+  "s350": {
+   "name": "GT350, 2016",
+   "color": "#2E6E96"
+  },
+  "wbul": {
+   "name": "Bullitt, 2019–2020",
+   "color": "#2E6E96"
+  },
+  "wm1": {
+   "name": "Mach 1, 2021–2023",
+   "color": "#2E6E96"
+  },
+  "wdh": {
+   "name": "Dark Horse, 2024–2026",
+   "color": "#e05c2a"
+  },
+  "wsc": {
+   "name": "Dark Horse SC, 2026",
+   "color": "#e05c2a"
+  },
+  "wgtd": {
+   "name": "GTD, 2025–2026",
+   "color": "#e05c2a"
+  },
+  "qgtd": {
+   "name": "GTD, 2025",
+   "color": "#e05c2a"
+  },
+  "qdh": {
+   "name": "Dark Horse Premium, manual, 2024",
+   "color": "#e05c2a"
+  },
+  "qbul": {
+   "name": "Bullitt, 2019",
+   "color": "#2E6E96"
+  },
+  "qm1": {
+   "name": "Mach 1, Handling Package, manual, 2021",
+   "color": "#2E6E96"
+  },
+  "p15v": {
+   "name": "2015 V6",
+   "color": "#9aa5b1"
+  },
+  "p15e": {
+   "name": "2015 EcoBoost",
+   "color": "#9aa5b1"
+  },
+  "p15g": {
+   "name": "2015 GT",
+   "color": "#9aa5b1"
+  },
+  "p16s": {
+   "name": "2016 Shelby GT350",
+   "color": "#9aa5b1"
+  },
+  "p20s": {
+   "name": "2020 Shelby GT500",
+   "color": "#9aa5b1"
+  },
+  "p24e": {
+   "name": "2024 EcoBoost",
+   "color": "#2E6E96"
+  },
+  "p24g": {
+   "name": "2024 GT",
+   "color": "#2E6E96"
+  },
+  "p24d": {
+   "name": "2024 Dark Horse",
+   "color": "#2E6E96"
+  },
+  "p26e": {
+   "name": "2026 EcoBoost",
+   "color": "#e05c2a"
+  },
+  "p26g": {
+   "name": "2026 GT",
+   "color": "#e05c2a"
+  },
+  "p26d": {
+   "name": "2026 Dark Horse",
+   "color": "#e05c2a"
+  }
+ },
+ "charts": {
+  "accel": {
+   "n": 1,
+   "title": "0–60 mph, as tested, 2018–2020",
+   "sub": "Seconds; shorter is quicker.",
+   "source": "Car and Driver tests, via 0-60specs",
+   "bars": [
+    [
+     "a18ga",
+     3.8,
+     "3.8 sec"
+    ],
+    [
+     "a18gm",
+     4.3,
+     "4.3 sec"
+    ],
+    [
+     "a20eh",
+     5.0,
+     "5.0 sec"
+    ],
+    [
+     "a18em",
+     5.1,
+     "5.1 sec"
+    ]
+   ]
+  },
+  "mpg": {
+   "n": 2,
+   "title": "EPA combined fuel economy, 2017–2018",
+   "sub": "Miles per gallon.",
+   "source": "US EPA, fueleconomy.gov",
+   "bars": [
+    [
+     "m18e",
+     25,
+     "25 mpg"
+    ],
+    [
+     "m17v",
+     21,
+     "21 mpg"
+    ],
+    [
+     "m18ga",
+     19,
+     "19 mpg"
+    ],
+    [
+     "m18gm",
+     18,
+     "18 mpg"
+    ],
+    [
+     "m18s",
+     16,
+     "16 mpg"
+    ]
+   ]
+  },
+  "accel24": {
+   "n": 3,
+   "title": "0–60 mph, as tested, 2024–2026",
+   "sub": "Seconds; shorter is quicker.",
+   "source": "Car and Driver tests, via 0-60specs",
+   "bars": [
+    [
+     "b26ga",
+     3.7,
+     "3.7 sec"
+    ],
+    [
+     "b24dh",
+     4.1,
+     "4.1 sec"
+    ],
+    [
+     "b24gm",
+     4.2,
+     "4.2 sec"
+    ],
+    [
+     "b24eh",
+     4.5,
+     "4.5 sec"
+    ]
+   ]
+  },
+  "mpg26": {
+   "n": 4,
+   "title": "EPA combined fuel economy, 2026",
+   "sub": "Miles per gallon.",
+   "source": "US EPA, fueleconomy.gov",
+   "bars": [
+    [
+     "n26e",
+     26,
+     "26 mpg"
+    ],
+    [
+     "n26ga",
+     19,
+     "19 mpg"
+    ],
+    [
+     "n26gm",
+     18,
+     "18 mpg"
+    ],
+    [
+     "n26dh",
+     17,
+     "17 mpg"
+    ],
+    [
+     "n26sc",
+     14,
+     "14 mpg"
+    ],
+    [
+     "n26gtd",
+     12,
+     "12 mpg"
+    ]
+   ]
+  },
+  "power": {
+   "n": 5,
+   "title": "How much power",
+   "sub": "Ford's ratings, in horsepower.",
+   "source": "Ford; Wikipedia",
+   "bars": [
+    [
+     "pe18",
+     310,
+     "310 hp"
+    ],
+    [
+     "peh",
+     330,
+     "330 hp"
+    ],
+    [
+     "pg18",
+     460,
+     "460 hp"
+    ],
+    [
+     "pe24",
+     315,
+     "315 hp"
+    ],
+    [
+     "pg24",
+     480,
+     "480 hp"
+    ]
+   ]
+  },
+  "fuelcost": {
+   "n": 6,
+   "title": "A year of fuel, 2024–2026",
+   "sub": "15,000 miles at $4 a gallon, using EPA combined figures for 2026 models. An example, not a forecast.",
+   "source": "Carveyance arithmetic from EPA ratings",
+   "bars": [
+    [
+     "f26",
+     2308,
+     "$2,308 · 577 gal"
+    ],
+    [
+     "f19",
+     3158,
+     "$3,158 · 789 gal"
+    ],
+    [
+     "f18",
+     3333,
+     "$3,333 · 833 gal"
+    ],
+    [
+     "f17",
+     3529,
+     "$3,529 · 882 gal"
+    ]
+   ]
+  },
+  "accel-shelby": {
+   "n": 7,
+   "title": "0–60 mph, as tested",
+   "sub": "Seconds; shorter is quicker.",
+   "source": "Car and Driver tests, via 0-60specs",
+   "bars": [
+    [
+     "s500p",
+     3.4,
+     "3.4 sec"
+    ],
+    [
+     "s500",
+     3.6,
+     "3.6 sec"
+    ],
+    [
+     "s350r",
+     3.9,
+     "3.9 sec"
+    ],
+    [
+     "s350",
+     4.3,
+     "4.3 sec"
+    ]
+   ]
+  },
+  "power5": {
+   "n": 8,
+   "title": "How much power",
+   "sub": "Ford's ratings, in horsepower.",
+   "source": "Ford; Wikipedia",
+   "bars": [
+    [
+     "wbul",
+     480,
+     "480 hp"
+    ],
+    [
+     "wm1",
+     480,
+     "480 hp"
+    ],
+    [
+     "wdh",
+     500,
+     "500 hp"
+    ],
+    [
+     "wsc",
+     795,
+     "795 hp"
+    ],
+    [
+     "wgtd",
+     815,
+     "815 hp"
+    ]
+   ]
+  },
+  "accel5": {
+   "n": 9,
+   "title": "0–60 mph, as tested",
+   "sub": "Seconds; shorter is quicker.",
+   "source": "Car and Driver tests, via 0-60specs",
+   "bars": [
+    [
+     "qgtd",
+     2.8,
+     "2.8 sec"
+    ],
+    [
+     "qdh",
+     4.1,
+     "4.1 sec"
+    ],
+    [
+     "qbul",
+     4.4,
+     "4.4 sec"
+    ],
+    [
+     "qm1",
+     4.5,
+     "4.5 sec"
+    ]
+   ]
+  },
+  "price": {
+   "n": 10,
+   "title": "What a new one cost, in 2026 dollars",
+   "sub": "Starting prices before delivery, adjusted with the US consumer price index. The original price is in each label.",
+   "source": "Ford prices; Carveyance CPI arithmetic",
+   "bars": [
+    [
+     "p15v",
+     33500,
+     "$33,500 · $23,600 then"
+    ],
+    [
+     "p15e",
+     35700,
+     "$35,700 · $25,170 then"
+    ],
+    [
+     "p15g",
+     45500,
+     "$45,500 · $32,100 then"
+    ],
+    [
+     "p16s",
+     67000,
+     "$67,000 · $47,795 then"
+    ],
+    [
+     "p20s",
+     91300,
+     "$91,300 · $70,300 then"
+    ],
+    [
+     "p24e",
+     33100,
+     "$33,100 · $30,920 then"
+    ],
+    [
+     "p24g",
+     44500,
+     "$44,500 · $41,495 then"
+    ],
+    [
+     "p24d",
+     62100,
+     "$62,100 · $57,970 then"
+    ],
+    [
+     "p26e",
+     32995,
+     "$32,995 for 2026"
+    ],
+    [
+     "p26g",
+     47800,
+     "$47,800 for 2026"
+    ],
+    [
+     "p26d",
+     65080,
+     "$65,080 for 2026"
+    ]
+   ]
+  }
+ },
+ "photos": {
+  "hub-hero": {
+   "want": "A Mustang on the road",
+   "credit": "Ford",
+   "alt": "A blue 2025 Ford Mustang GT with the 60th Anniversary Package on a winding forest road"
+  },
+  "ch1-hero": {
+   "want": "A 2018–2023 Mustang",
+   "credit": "Vauxford",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:2018_Ford_Mustang_GT_5.0_Front.jpg",
+   "alt": "A yellow 2018 Ford Mustang GT fastback parked by a street"
+  },
+  "ch2-hero": {
+   "want": "A 2024–2026 Mustang",
+   "credit": "Ford",
+   "alt": "A blue 2025 Ford Mustang GT 60th Anniversary edition on a country road"
+  },
+  "ch3-hero": {
+   "want": "An EcoBoost and a GT",
+   "credit": "Ford",
+   "alt": "A blue 2024 Ford Mustang GT pace car in front of the Martinsville Speedway grandstand"
+  },
+  "ch4-hero": {
+   "want": "A Shelby GT350 or GT500",
+   "credit": "Ethan Llamas",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:2020_Ford_Mustang_Shelby_GT500_in_Oxford_White,_05-31-2024.jpg",
+   "alt": "A white 2020 Ford Mustang Shelby GT500 with gray stripes"
+  },
+  "ch5-hero": {
+   "want": "A Dark Horse, Mach 1 or Bullitt",
+   "credit": "Ford",
+   "alt": "A blue 2026 Ford Mustang Dark Horse SC with the Track Pack on a racetrack"
+  },
+  "ch6-hero": {
+   "want": "A Mustang",
+   "credit": "Ford",
+   "alt": "A silver 2024 Ford Mustang GT California Special convertible on a coastal road"
+  }
+ },
+ "find": {
+  "picker": [
+   {
+    "model": "Mustang",
+    "years": "2017–2023",
+    "ch": "2017-2023"
+   },
+   {
+    "model": "Mustang",
+    "years": "2024–2026",
+    "ch": "2024-2026"
+   },
+   {
+    "model": "Shelby GT350 or GT500",
+    "years": "2015–2022",
+    "ch": "shelby-gt350-gt500"
+   },
+   {
+    "model": "Bullitt, Mach 1, Dark Horse or GTD",
+    "years": "2019–2026",
+    "ch": "bullitt-mach-1-dark-horse"
+   }
+  ],
+  "terms": {
+   "": [
+    "Mustang",
+    "Ford Mustang",
+    "pony car",
+    "muscle car",
+    "V8",
+    "fastback",
+    "convertible",
+    "Camaro rival",
+    "Challenger rival"
+   ],
+   "2017-2023": [
+    "sixth generation",
+    "6th gen",
+    "S550",
+    "2018 update",
+    "10-speed",
+    "Performance Pack",
+    "High Performance Package",
+    "V6"
+   ],
+   "2024-2026": [
+    "seventh generation",
+    "7th gen",
+    "S650",
+    "2024 redesign",
+    "digital cluster",
+    "GT Premium",
+    "active exhaust",
+    "60th Anniversary",
+    "2027"
+   ],
+   "ecoboost-or-gt": [
+    "EcoBoost",
+    "2.3-liter",
+    "turbo 4-cylinder",
+    "GT",
+    "5.0-liter",
+    "Coyote",
+    "manual",
+    "insurance",
+    "fuel cost"
+   ],
+   "shelby-gt350-gt500": [
+    "Shelby",
+    "GT350",
+    "GT350R",
+    "GT500",
+    "Voodoo",
+    "flat-plane crank",
+    "supercharged",
+    "Carbon Fiber Track Package",
+    "dual-clutch"
+   ],
+   "bullitt-mach-1-dark-horse": [
+    "Bullitt",
+    "Mach 1",
+    "Dark Horse",
+    "Dark Horse SC",
+    "GTD",
+    "Nürburgring",
+    "Multimatic",
+    "track car",
+    "special edition"
+   ],
+   "used-checklist": [
+    "used",
+    "checklist",
+    "recalls",
+    "rearview camera",
+    "seat belt pretensioner",
+    "brake fluid sensor",
+    "steering",
+    "wiring harness",
+    "clutch"
+   ]
+  }
+ }
+}

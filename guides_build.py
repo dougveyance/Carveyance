@@ -164,7 +164,8 @@ def inline(t):
         ext = url.startswith("http")
         attr = ' target="_blank" rel="noopener"' if ext else ""
         return f'<a href="{url}"{attr}>{words}</a>'
-    t = re.sub(r"\[([^\]]+)\]\(([^)\s]+)\)", link, t)
+    # a URL may hold one level of parentheses, as Wikipedia's do: Ford_Ranger_(Americas)
+    t = re.sub(r"\[([^\]]+)\]\(((?:[^()\s]|\([^()\s]*\))+)\)", link, t)
     t = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", t)
     t = re.sub(r"(?<![*\w])\*(?!\s)(.+?)(?<!\s)\*(?![*\w])", r"<em>\1</em>", t)
     return t
@@ -183,6 +184,13 @@ def photo_html(g, slot, hero=False):
     if os.path.exists(photo_path(g, slot)):
         src = f"/fitdrive/guides/{g['id']}/img/{slot}.jpg"
         bits = [esc(p["caption"]) + "." if p.get("caption") else "", "Photo: " + esc(p["credit"]) if p.get("credit") else ""]
+        if p.get("page"):
+            # a Wikimedia Commons photo: credit the photographer, link the file page and the license
+            lic = esc(p.get("license", ""))
+            if p.get("licenseUrl"):
+                lic = f'<a href="{esc(p["licenseUrl"])}" rel="license noopener" target="_blank">{lic}</a>'
+            bits[1] = (f'Photo: {esc(p.get("credit", ""))} / <a href="{esc(p["page"])}" rel="noopener" target="_blank">Wikimedia Commons</a>'
+                       + (", " + lic if lic else ""))
         cap = " ".join(b for b in bits if b)
         load = ' fetchpriority="high"' if hero else ' loading="lazy"'
         capx = "<figcaption>" + cap + "</figcaption>" if cap else ""
@@ -312,6 +320,8 @@ def render_body(g, text):
             flush()
             out.append(f"<h3>{inline(s[4:])}</h3>")
             continue
+        if re.match(r"^\[\[(chart|photo):", s) and not re.match(r"^\[\[(chart|photo):[a-z0-9-]+\]\]$", s):
+            sys.exit(f"{g['id']}: {s} isn't a valid marker; keys use lowercase letters, digits and hyphens only")
         m = re.match(r"^\[\[chart:([a-z0-9-]+)\]\]$", s)
         if m:
             flush()

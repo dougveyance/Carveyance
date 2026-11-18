@@ -66,6 +66,6 @@ Buying from a private seller, or keeping a Clarity past its factory warranty? Se
 - [NHTSA: recall lookup by VIN](https://www.nhtsa.gov/recalls)
 - [Honda: 2018 Clarity Plug-in Hybrid prices](https://www.conceptcarz.com/a24191/2018-Honda-Clarity-Plug-Hybrid-Pricing.aspx)
 - [Edmunds: the 2017 Clarity Electric's list price](https://www.edmunds.com/honda/clarity/2017/features-specs/used/)
-- [CarGurus: the 2017 Clarity Fuel Cell's list price](https://www.cargurus.com/research/2017-Honda-Clarity-Fuel-Cell-c26312)
+- [Los Angeles Times, via HeraldNet: the Clarity Fuel Cell's $58,490 price, though it was lease only](https://www.heraldnet.com/business/honda-prices-fuel-cell-clarity-to-match-rival-toyotas-mirai)
 - [US EPA: Clarity ratings](https://www.fueleconomy.gov/feg/findacar.shtml)
 - [US Bureau of Labor Statistics: Consumer Price Index](https://www.bls.gov/cpi/)

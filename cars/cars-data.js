@@ -15164,7 +15164,7 @@ const CARS_INDEX = [
   "start": 2013,
   "body": "Midsize 4-door sedan and 2-door coupe",
   "engine": "2.4-liter 4-cylinder; 3.5-liter V6; 2.0-liter 2-motor hybrid",
-  "country": "Japan",
+  "country": "United States; the 2017 Hybrid in Japan",
   "quick": "The ninth-generation Accord, sold for 2013–2017: the last Accord with a V6, the last with a coupe body, and the one that brought the Accord Hybrid back for 2017, rated at 48 mpg combined.",
   "articles": [
    "honda-hybrid-factory"
@@ -15244,7 +15244,7 @@ const CARS_INDEX = [
   "start": 2018,
   "body": "Midsize 4-door sedan",
   "engine": "1.5-liter turbo 4-cylinder; 2.0-liter turbo 4-cylinder; 2.0-liter 2-motor hybrid",
-  "country": "Japan",
+  "country": "United States",
   "quick": "The tenth-generation Accord, 2018–2022: lower, lighter and sharper, with a 192-hp 1.5-liter turbo, a 252-hp 2.0-liter turbo with a 10-speed automatic, a 212-hp hybrid and, through 2020, a 6-speed manual.",
   "articles": [
    "honda-hybrid-factory"
@@ -15323,7 +15323,7 @@ const CARS_INDEX = [
   "start": 2023,
   "body": "Midsize 4-door sedan",
   "engine": "1.5-liter turbo 4-cylinder; 2.0-liter 2-motor hybrid",
-  "country": "Japan",
+  "country": "United States",
   "quick": "The eleventh-generation Accord, from 2023: a 192-hp turbo or, in most trims, a 204-hp hybrid rated at up to 48 mpg, with no V6, no 2.0T and no manual, and the first Honda with Google built-in.",
   "articles": [
    "honda-hybrid-factory"
@@ -15527,7 +15527,7 @@ const CARS_INDEX = [
   "start": 1984,
   "body": "Subcompact 3-door hatchback, 4-door sedan and 5-door wagon (also with part-time 4-wheel drive)",
   "engine": "1.3-liter or 1.5-liter 12-valve 4-cylinder; fuel-injected 1.5-liter in the Si (1986–1987)",
-  "country": "Japan",
+  "country": "Japan and United States",
   "quick": "The third-generation Civic, 1984–1987: a flat-roofed hatchback, a sedan, a tall wagon you could get with 4-wheel drive, and from 1986 the first Civic Si hatchback sold in America.",
   "articles": [
    "honda-hybrid-factory",
@@ -15596,7 +15596,7 @@ const CARS_INDEX = [
   "start": 1988,
   "body": "Subcompact 3-door hatchback, 4-door sedan and 5-door wagon (front-wheel drive or Real Time 4WD)",
   "engine": "1.5-liter 16-valve 4-cylinder; 1.6-liter in the Si, EX and 4WD wagon",
-  "country": "Japan",
+  "country": "Japan, United States and Canada",
   "quick": "The fourth-generation Civic, 1988–1991: lower and glassier, with double wishbones up front, fuel injection in every US car and the return of the Si.",
   "articles": [
    "honda-hybrid-factory",
@@ -15667,7 +15667,7 @@ const CARS_INDEX = [
   "start": 1992,
   "body": "Subcompact 3-door hatchback and 4-door sedan; 2-door coupe from 1993",
   "engine": "1.5-liter 4-cylinder (VTEC-E in the VX); 1.6-liter VTEC in the Si and EX",
-  "country": "Japan",
+  "country": "United States, Canada and Japan",
   "quick": "The fifth-generation Civic, 1992–1995: rounder and lighter, with VTEC in the Si and EX, a new coupe for 1993, and the VX hatchback that topped 40 mpg.",
   "articles": [
    "honda-hybrid-factory",
@@ -15738,7 +15738,7 @@ const CARS_INDEX = [
   "start": 1996,
   "body": "Subcompact 3-door hatchback, 2-door coupe and 4-door sedan",
   "engine": "1.6-liter 4-cylinder (VTEC in the EX, VTEC-E in the HX); twin-cam 1.6-liter VTEC in the Si (1999–2000)",
-  "country": "Japan",
+  "country": "United States, Canada and Japan",
   "quick": "The sixth-generation Civic, 1996–2000: the last with double-wishbone front suspension, a CVT in the thrifty HX coupe, and from 1999 a 160-hp Si.",
   "articles": [
    "honda-hybrid-factory",
@@ -15809,7 +15809,7 @@ const CARS_INDEX = [
   "start": 2001,
   "body": "Compact 4-door sedan and 2-door coupe; 3-door hatchback (Si, 2002–2005)",
   "engine": "1.7-liter 4-cylinder (VTEC in the EX); 2.0-liter in the Si; 1.3-liter hybrid (2003–2005)",
-  "country": "Japan",
+  "country": "United States and Canada; the Hybrid in Japan, the Si in the United Kingdom",
   "quick": "The seventh-generation Civic, 2001–2005: roomier inside, simpler underneath, the first Civic Hybrid, and an Si hatchback built in England.",
   "articles": [
    "honda-hybrid-factory",
@@ -15880,7 +15880,7 @@ const CARS_INDEX = [
   "start": 2006,
   "body": "Compact 4-door sedan and 2-door coupe",
   "engine": "1.8-liter 4-cylinder; 2.0-liter in the Si; 1.3-liter hybrid",
-  "country": "Japan",
+  "country": "United States and Canada; the Hybrid in Japan",
   "quick": "The eighth-generation Civic, 2006–2011: a 2-tier dashboard, a 197-hp Si with a limited-slip differential, and the 2006 North American Car of the Year.",
   "articles": [
    "honda-hybrid-factory",
@@ -15951,7 +15951,7 @@ const CARS_INDEX = [
   "start": 2012,
   "body": "Compact 4-door sedan and 2-door coupe",
   "engine": "1.8-liter 4-cylinder; 2.4-liter in the Si; 1.5-liter hybrid; 1.8-liter on natural gas",
-  "country": "Japan",
+  "country": "United States and Canada",
   "quick": "The ninth-generation Civic, 2012–2015: planned during the 2008 recession, criticized at launch, and reworked by Honda within a year.",
   "articles": [
    "honda-hybrid-factory",
@@ -16022,7 +16022,7 @@ const CARS_INDEX = [
   "start": 2016,
   "body": "Compact 4-door sedan, 2-door coupe and 5-door hatchback",
   "engine": "2.0-liter 4-cylinder; 1.5-liter turbo 4-cylinder",
-  "country": "Japan",
+  "country": "United States and Canada; the hatchback in the United Kingdom",
   "quick": "The tenth-generation Civic, 2016–2021: a sedan, a coupe through 2020 and, from 2017, an England-built hatchback, with a 158-hp 2.0-liter or a 174- to 180-hp 1.5-liter turbo.",
   "articles": [
    "honda-hybrid-factory",
@@ -16104,7 +16104,7 @@ const CARS_INDEX = [
   "start": 2022,
   "body": "Compact 4-door sedan and 5-door hatchback",
   "engine": "2.0-liter 4-cylinder; 1.5-liter turbo 4-cylinder (2022–2024); 2.0-liter 2-motor hybrid (from 2025)",
-  "country": "Japan",
+  "country": "United States and Canada",
   "quick": "The eleventh-generation Civic, from 2022: a calmer sedan and a US-built hatchback, with a 2.0-liter or 1.5-liter turbo at first and, from 2025, a 200-hp hybrid rated at up to 49 mpg.",
   "articles": [
    "honda-hybrid-factory",
@@ -16175,7 +16175,7 @@ const CARS_INDEX = [
   "start": 2017,
   "body": "Compact 4-door sedan and 2-door coupe",
   "engine": "1.5-liter turbo 4-cylinder",
-  "country": "Japan",
+  "country": "Canada",
   "quick": "The 2017–2020 Civic Si: a 205-hp turbo sedan or coupe with a 6-speed manual, a limited-slip differential and adaptive dampers, priced from $23,900 ($32,800 in 2026 dollars).",
   "articles": [],
   "latest": "",
@@ -16236,7 +16236,7 @@ const CARS_INDEX = [
   "start": 2022,
   "body": "Compact 4-door sedan",
   "engine": "1.5-liter turbo 4-cylinder",
-  "country": "Japan",
+  "country": "Canada",
   "quick": "The 2022 and later Civic Si: a 200-hp turbo sedan with a rev-matching 6-speed manual and a limited-slip differential, but no adaptive dampers.",
   "articles": [],
   "latest": "",
@@ -16557,7 +16557,7 @@ const CARS_INDEX = [
   "start": 2017,
   "body": "Compact 5-door hatchback",
   "engine": "2.0-liter turbo 4-cylinder",
-  "country": "Japan",
+  "country": "United Kingdom",
   "quick": "The first Civic Type R sold new in the US: a 306-hp, manual-only hatchback built in Swindon, England, that Car and Driver ran from 0 to 60 mph in 4.9 seconds.",
   "articles": [
    "the-one-and-only"
@@ -16840,7 +16840,7 @@ const CARS_INDEX = [
   "start": 2002,
   "body": "Compact SUV",
   "engine": "2.4-liter 4-cylinder",
-  "country": "Japan",
+  "country": "Japan and United Kingdom",
   "quick": "The second-generation CR-V, 2002–2006: a full redesign on Civic bones with a 160-hp 2.4-liter, and Car and Driver's Best Small SUV for 2002 and 2003.",
   "articles": [
    "industry-brief-2026-11-16",
@@ -16915,7 +16915,7 @@ const CARS_INDEX = [
   "start": 2007,
   "body": "Compact SUV",
   "engine": "2.4-liter 4-cylinder",
-  "country": "Japan",
+  "country": "United States, Mexico, Japan and United Kingdom",
   "quick": "The third-generation CR-V, 2007–2011: lower and wider, with a liftgate instead of a swing-out door, and America's best-selling SUV in 2007 and 2008.",
   "articles": [
    "industry-brief-2026-11-16",
@@ -16990,7 +16990,7 @@ const CARS_INDEX = [
   "start": 2012,
   "body": "Compact SUV",
   "engine": "2.4-liter 4-cylinder",
-  "country": "Japan",
+  "country": "United States and Canada",
   "quick": "The fourth-generation CR-V, 2012–2016: 185 hp and smarter all-wheel drive at launch, then a 2015 update with direct injection, a CVT and driver-assist safety features.",
   "articles": [
    "industry-brief-2026-11-16",
@@ -17066,7 +17066,7 @@ const CARS_INDEX = [
   "start": 2017,
   "body": "Compact SUV",
   "engine": "2.4-liter 4-cylinder (2017–2019 LX); 1.5-liter turbo 4-cylinder; 2.0-liter 2-motor hybrid (2020–2022)",
-  "country": "Japan",
+  "country": "United States and Canada",
   "quick": "The fifth-generation CR-V, 2017–2022: roomy and easy to live with, with a 1.5-liter turbo in most versions, 75.8 cubic feet of cargo space and, from 2020, the first US CR-V Hybrid.",
   "articles": [
    "industry-brief-2026-11-16",
@@ -17150,7 +17150,7 @@ const CARS_INDEX = [
   "start": 2023,
   "body": "Compact SUV",
   "engine": "1.5-liter turbo 4-cylinder; 2.0-liter 2-motor hybrid",
-  "country": "Japan",
+  "country": "United States and Canada",
   "quick": "The sixth-generation CR-V, from 2023: bigger and calmer, with a 190-hp turbo or a 204-hp hybrid now offered with front-wheel drive and rated at up to 40 mpg.",
   "articles": [
    "industry-brief-2026-11-16",
@@ -17229,7 +17229,7 @@ const CARS_INDEX = [
   "start": 2025,
   "body": "Compact SUV, plug-in hydrogen fuel cell",
   "engine": "92.2 kW fuel cell, 17.7 kWh battery and an electric motor",
-  "country": "Japan",
+  "country": "United States",
   "quick": "America's first production plug-in hydrogen fuel cell vehicle: a CR-V with 29 miles of battery range and 270 miles in all, leased only in California.",
   "articles": [
    "the-gateway-theory"

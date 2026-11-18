@@ -25,7 +25,7 @@ Begin with the window sticker or Ford's build record, not the badge. Confirm whe
 
 ## Battery and charging
 
-Ask a Ford dealer or an EV specialist for a battery health report, and compare it with the car's age, mileage and climate. Ask how it was charged; frequent fast charging and high annual mileage aren't disqualifying, but they deserve context. Ask the seller to show the car charging on a 240-volt charger, and if possible start a DC fast-charging session too. A connector that plugs in isn't proof that a session will start and keep going.
+Ask a Ford dealer or an EV specialist for a battery health report, and compare it with the car's age, mileage and climate. For scale: Ford says its data from about 36,000 2021 Mach-Es showed an average of 92% battery health retained after 5 years, with 95% of the cars between 87% and 97%. That's a fleet average, so it tells you what's normal, not what the car in front of you has. Ask how it was charged; frequent fast charging and high annual mileage aren't disqualifying, but they deserve context. Ask the seller to show the car charging on a 240-volt charger, and if possible start a DC fast-charging session too. A connector that plugs in isn't proof that a session will start and keep going.
 
 If you'll rely on public fast charging, check which networks the car can use on your regular routes, and whether it has the NACS adapter for Tesla Superchargers. On a 2026, the adapter is an option, not standard.
 
@@ -59,6 +59,7 @@ We don't publish average prices. Used EV prices move quickly, and an average tha
 
 ## Sources
 
+- [Ford: 5 years of battery data from 2021 Mach-Es](https://www.fromtheroad.ford.com/us/en/articles/2026/mustang-mach-e-electric-vehicle-battery-health)
 - [NHTSA: recall lookup](https://www.nhtsa.gov/recalls)
 - [NHTSA: recall 22V412, battery contactors](https://www.nhtsa.gov/recalls?nhtsaId=22V412000)
 - [NHTSA: recall 23V687, high-voltage battery junction box](https://www.nhtsa.gov/recalls?nhtsaId=23V687000)

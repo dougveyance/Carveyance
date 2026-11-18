@@ -7711,6 +7711,774 @@ const CARS = [
     }
   },
   {
+    "id": "toyota-celica-camry",
+    "name": "Toyota Celica Camry",
+    "aka": [
+      "Celica Camry",
+      "A40",
+      "A50"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "1980–1982",
+    "start": 1980,
+    "end": 1982,
+    "body": "4-door sedan",
+    "engine": "1.6-liter, 1.8-liter and 2.0-liter 4-cylinder",
+    "drive": "Rear-wheel drive",
+    "gearbox": "Manual or automatic",
+    "specsFor": "Toyota Celica Camry, Japanese market",
+    "power": {
+      "na": "No figure on record"
+    },
+    "weight": {
+      "na": "No figure on record"
+    },
+    "zero60": {
+      "na": "No test on record"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "na": "Not sold in the US, so no EPA rating"
+    },
+    "built": {
+      "na": "No production total on record"
+    },
+    "predecessor": null,
+    "successor": {
+      "name": "Toyota Camry (V10)",
+      "id": "toyota-camry-v10"
+    },
+    "quick": "The Celica Camry, 1980–1982: a rear-wheel-drive Japanese sedan dressed to look like a Celica, and the car that gave the Camry its name.",
+    "story": [
+      "The Camry name first appeared on a 4-door sedan that Toyota began building at its Tsutsumi plant in December 1979 and put on sale in Japan in January 1980, through its Toyota Corolla Store dealers. Despite the Celica badge it was really a Carina underneath, with a longer nose and a T-bar grille styled after the Celica XX. It kept rear-wheel drive and, at first, a 4-link rigid rear axle, with 1.6-liter and 1.8-liter 4-cylinder engines.",
+      "From August 1980 the top versions got independent rear suspension and disc brakes all around, and 2.0-liter models arrived, including a twin-cam 2000 GT. Strictly speaking it was the Camry's forerunner rather than its first generation: the front-wheel-drive Camry that replaced it in 1982 was the one Toyota sent to America."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Camry"
+    ]
+  },
+  {
+    "id": "toyota-camry-v10",
+    "name": "Toyota Camry (V10)",
+    "aka": [
+      "1983–1986 Camry",
+      "Camry LE",
+      "Camry DX",
+      "Camry liftback",
+      "V10"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "1983–1986",
+    "start": 1983,
+    "end": 1986,
+    "shop": {
+      "cargurus": "d292"
+    },
+    "body": "Compact 4-door sedan and 5-door liftback",
+    "engine": "2.0-liter 4-cylinder; 1.8-liter and 2.0-liter turbodiesel",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual or 4-speed automatic",
+    "specsFor": "1983 Toyota Camry LE sedan, 2.0-liter, automatic, US market (Car and Driver test)",
+    "power": {
+      "hp": 92,
+      "note": "2.0-liter 4-cylinder, US version",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Camry"
+    },
+    "weight": {
+      "kg": 1157,
+      "lb": 2550,
+      "note": "Curb weight, 1983 LE",
+      "src": "https://www.0-60specs.com/toyota/camry-0-60-times"
+    },
+    "zero60": {
+      "sec": 11.8,
+      "kind": "tested",
+      "note": "Car and Driver test, 1983 LE, automatic",
+      "src": "https://www.0-60specs.com/toyota/camry-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 26,
+      "city": 23,
+      "hwy": 29,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/26909.shtml",
+      "note": "EPA combined, 1984 2.0-liter, automatic"
+    },
+    "built": {
+      "count": 426286,
+      "approx": true,
+      "note": "Sold in the US, 1983–1986",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Camry"
+    },
+    "predecessor": {
+      "name": "Toyota Celica Camry",
+      "id": "toyota-celica-camry"
+    },
+    "successor": {
+      "name": "Toyota Camry (V20)",
+      "id": "toyota-camry-v20"
+    },
+    "quick": "The first Camry, 1983–1986: Toyota's first front-wheel-drive car with a sideways-mounted engine, built to take on the Honda Accord.",
+    "story": [
+      "Toyota started building the Camry in March 1982, and it was a first for the company: front-wheel drive with the engine mounted sideways. Development began in 1977 in the wake of the first oil crisis, aimed squarely at export markets and the Honda Accord, and a long 2,600-mm (102.4-in) wheelbase, plus a fuel tank tucked under the rear seat, made it unusually roomy for its size. Toyota had even proposed building it with Ford in America, but Ford was developing the Tempo, and the talks ended in 1981.",
+      "US sales began in March 1983, with a sedan or a 5-door liftback, a 92-hp 2.0-liter 4-cylinder and DX or LE trim; a 1.8-liter turbodiesel was offered too. Car and Driver timed a 1983 LE automatic to 60 mph in 11.8 seconds. Americans bought about 426,000 over 4 years."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Camry"
+    ]
+  },
+  {
+    "id": "toyota-camry-v20",
+    "name": "Toyota Camry (V20)",
+    "aka": [
+      "1987–1991 Camry",
+      "Camry All-Trac",
+      "Camry V6",
+      "Camry wagon",
+      "V20"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan and United States",
+    "years": "1987–1991",
+    "start": 1987,
+    "end": 1991,
+    "shop": {
+      "cargurus": "d292"
+    },
+    "body": "Compact 4-door sedan and 5-door wagon",
+    "engine": "2.0-liter 4-cylinder; 2.5-liter V6 from 1988",
+    "drive": "Front-wheel drive; All-Trac all-wheel drive from 1988",
+    "gearbox": "5-speed manual or 4-speed automatic",
+    "specsFor": "1987 Toyota Camry, 2.0-liter, 5-speed manual, US market",
+    "power": {
+      "hp": 115,
+      "note": "2.0-liter twin-cam 4-cylinder",
+      "src": "https://www.cargurus.com/research/1987-Toyota-Camry-c4148"
+    },
+    "weight": {
+      "na": "No figure on record"
+    },
+    "zero60": {
+      "na": "No test on record"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 26,
+      "city": 23,
+      "hwy": 31,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/3323.shtml",
+      "note": "EPA combined, 1987 2.0-liter, 5-speed manual"
+    },
+    "built": {
+      "count": 1212770,
+      "approx": true,
+      "note": "Sold in the US, 1987–1991",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Camry"
+    },
+    "versions": [
+      {
+        "name": "2.0-liter",
+        "detail": "Twin-cam 4-cylinder"
+      },
+      {
+        "name": "2.5-liter V6",
+        "detail": "1988–1991",
+        "specsFor": "1988 Toyota Camry V6, automatic, US market",
+        "power": {
+          "hp": 153,
+          "note": "2.5-liter V6 (156 hp from 1990)",
+          "src": "https://en.wikipedia.org/wiki/Toyota_Camry"
+        },
+        "weight": {
+          "na": "No figure on record"
+        },
+        "zero60": {
+          "na": "No test on record"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 19,
+          "city": 17,
+          "hwy": 22,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/4514.shtml",
+          "note": "EPA combined, 1988 V6, automatic"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Toyota Camry (V10)",
+      "id": "toyota-camry-v10"
+    },
+    "successor": {
+      "name": "Toyota Camry (XV10)",
+      "id": "toyota-camry-xv10"
+    },
+    "quick": "The second Camry, 1987–1991: softer, sleeker and better built, the first Camry made in Kentucky, with a V6 and All-Trac all-wheel drive from 1988.",
+    "story": [
+      "The second Camry went on sale in Japan in August 1986 and in America for 1987, as a sedan and, for the first time, a wagon. Toyota spent heavily on materials and build quality, and the body was smoother, with a drag coefficient of 0.34. US cars had a 115-hp twin-cam 2.0-liter 4-cylinder, and for 1988 Toyota added a 2.5-liter V6 with 153 hp and an All-Trac all-wheel-drive option, though not on the same car.",
+      "In May 1988, Toyota Motor Manufacturing Kentucky, the company's first wholly owned US plant, began building Camry sedans in Georgetown; the wagons kept coming from Japan. Anti-lock brakes became an option in 1989, and the V6 rose to 156 hp for 1990. A Japanese hardtop version of this car became the hastily created Lexus ES 250 in 1989. US sales rose each year through 1990, and came to about 1.21 million in all."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Camry"
+    ]
+  },
+  {
+    "id": "toyota-camry-xv10",
+    "name": "Toyota Camry (XV10)",
+    "aka": [
+      "1992–1996 Camry",
+      "Camry Coupe",
+      "Camry wagon",
+      "XV10",
+      "Toyota Scepter"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan and United States",
+    "years": "1992–1996",
+    "start": 1992,
+    "end": 1996,
+    "shop": {
+      "cargurus": "d292"
+    },
+    "body": "Mid-size 4-door sedan and 5-door wagon; 2-door coupe from 1994",
+    "engine": "2.2-liter 4-cylinder; 3.0-liter V6",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual or 4-speed automatic",
+    "specsFor": "1995 Toyota Camry LE, 2.2-liter, automatic, US market (Motor Trend test)",
+    "power": {
+      "hp": 130,
+      "note": "2.2-liter 4-cylinder (125 hp from 1995)",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Camry_(XV10)"
+    },
+    "weight": {
+      "kg": 1393,
+      "lb": 3070,
+      "note": "Curb weight, 1995 LE",
+      "src": "https://www.0-60specs.com/toyota/camry-0-60-times"
+    },
+    "zero60": {
+      "sec": 12.0,
+      "kind": "tested",
+      "note": "Motor Trend test, 1995 LE, automatic",
+      "src": "https://www.0-60specs.com/toyota/camry-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 21,
+      "city": 19,
+      "hwy": 26,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/12001.shtml",
+      "note": "EPA combined, 1995 2.2-liter, automatic"
+    },
+    "built": {
+      "count": 1586296,
+      "approx": true,
+      "note": "Sold in the US, 1992–1996",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Camry"
+    },
+    "versions": [
+      {
+        "name": "2.2-liter",
+        "detail": "4-cylinder"
+      },
+      {
+        "name": "3.0-liter V6",
+        "detail": "185 hp, 188 hp from 1994",
+        "specsFor": "1995 Toyota Camry LE V6, automatic, US market (Motor Trend test)",
+        "power": {
+          "hp": 188,
+          "note": "3.0-liter V6, 1994–1996 (185 hp before)",
+          "src": "https://www.0-60specs.com/toyota/camry-0-60-times"
+        },
+        "weight": {
+          "kg": 1451,
+          "lb": 3200,
+          "note": "Curb weight, 1995 LE V6",
+          "src": "https://www.0-60specs.com/toyota/camry-0-60-times"
+        },
+        "zero60": {
+          "sec": 8.0,
+          "kind": "tested",
+          "note": "Motor Trend test, 1995 LE V6",
+          "src": "https://www.0-60specs.com/toyota/camry-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 21,
+          "city": 18,
+          "hwy": 26,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/12003.shtml",
+          "note": "EPA combined, 1995 V6, automatic"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Toyota Camry (V20)",
+      "id": "toyota-camry-v20"
+    },
+    "successor": {
+      "name": "Toyota Camry (XV20)",
+      "id": "toyota-camry-xv20"
+    },
+    "quick": "The third Camry, 1992–1996: the first wide-body, American-sized Camry, reshaped at the urging of Toyota's US executives and twice on Car and Driver's 10Best list.",
+    "story": [
+      "Toyota's planners first imagined the next Camry as a narrow, angular sedan, but executives at its American headquarters in Torrance, California, argued that US roads and tastes called for something bigger and softer. The result, introduced in North America on September 9, 1991, was a smooth, rounded mid-size sedan with a wagon alongside it and, from 1994, a coupe. It made Car and Driver's 10Best list for 1992 and 1993.",
+      "The 2.2-liter 4-cylinder made 130 hp, later 125, and the 3.0-liter V6 185 hp, rising to 188 with the new aluminum 1MZ-FE V6 for 1994; Motor Trend timed a 1995 LE V6 to 60 mph in 8.0 seconds. In Japan the same car was sold as the Toyota Scepter, alongside a smaller Camry. Americans bought about 1.59 million."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Camry"
+    ]
+  },
+  {
+    "id": "toyota-camry-xv20",
+    "name": "Toyota Camry (XV20)",
+    "aka": [
+      "1997–2001 Camry",
+      "Camry LE V6",
+      "Camry XLE",
+      "XV20"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan and United States",
+    "years": "1997–2001",
+    "start": 1997,
+    "end": 2001,
+    "shop": {
+      "cargurus": "d292"
+    },
+    "body": "Mid-size 4-door sedan",
+    "engine": "2.2-liter 4-cylinder; 3.0-liter V6",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual or 4-speed automatic",
+    "specsFor": "1997 Toyota Camry LE V6, automatic, US market (Motor Trend test)",
+    "power": {
+      "hp": 194,
+      "note": "3.0-liter V6",
+      "src": "https://www.0-60specs.com/toyota/camry-0-60-times"
+    },
+    "weight": {
+      "kg": 1486,
+      "lb": 3275,
+      "note": "Curb weight, 1997 LE V6",
+      "src": "https://www.0-60specs.com/toyota/camry-0-60-times"
+    },
+    "zero60": {
+      "sec": 7.7,
+      "kind": "tested",
+      "note": "Motor Trend test, 1997 LE V6, automatic",
+      "src": "https://www.0-60specs.com/toyota/camry-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 19,
+      "city": 17,
+      "hwy": 24,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/13607.shtml",
+      "note": "EPA combined, 1997 V6, automatic"
+    },
+    "built": {
+      "count": 2078874,
+      "approx": true,
+      "note": "Sold in the US, 1997–2001",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Camry"
+    },
+    "versions": [
+      {
+        "name": "3.0-liter V6",
+        "detail": "V6"
+      },
+      {
+        "name": "2.2-liter",
+        "detail": "4-cylinder",
+        "specsFor": "1997 Toyota Camry, 2.2-liter, automatic, US market",
+        "power": {
+          "hp": 133,
+          "note": "2.2-liter 4-cylinder",
+          "src": "https://en.wikipedia.org/wiki/Toyota_Camry"
+        },
+        "weight": {
+          "na": "No figure on record"
+        },
+        "zero60": {
+          "na": "No test on record"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 23,
+          "city": 20,
+          "hwy": 28,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/13605.shtml",
+          "note": "EPA combined, 1997 2.2-liter, automatic"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Toyota Camry (XV10)",
+      "id": "toyota-camry-xv10"
+    },
+    "successor": {
+      "name": "Toyota Camry (XV30)",
+      "id": "toyota-camry-xv30"
+    },
+    "quick": "The fourth Camry, 1997–2001: a sedan-only Camry in America, with a 133-hp 4-cylinder or a 194-hp V6, and the country's best-selling car from 1997 to 2000.",
+    "story": [
+      "Introduced on September 3, 1996, the fourth Camry reached America as a 1997 model and was sold only as a sedan there, while the wagon carried on in other markets. It was built in Japan, Australia and at Toyota's plant in Georgetown, Kentucky. Buyers chose a 2.2-liter 4-cylinder with 133 hp or a 3.0-liter V6 with 194 hp, and Motor Trend ran a 1997 LE V6 automatic to 60 mph in 7.7 seconds.",
+      "From 1999 the 2-door versions became a separate model, the Camry Solara, with a coupe that year and a convertible in 2000. The sedan was America's best-selling passenger car every year from 1997 through 2000, and US sales peaked at about 446,000 in 1999, about 2.08 million in all."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Camry"
+    ]
+  },
+  {
+    "id": "toyota-camry-xv30",
+    "name": "Toyota Camry (XV30)",
+    "aka": [
+      "2002–2006 Camry",
+      "Camry SE",
+      "Camry XLE",
+      "XV30"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan and United States",
+    "years": "2002–2006",
+    "start": 2002,
+    "end": 2006,
+    "shop": {
+      "cargurus": "d292"
+    },
+    "body": "Mid-size 4-door sedan",
+    "engine": "2.4-liter 4-cylinder; 3.0-liter V6",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual, 4-speed or 5-speed automatic",
+    "specsFor": "2003 Toyota Camry SE, 2.4-liter, 5-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 157,
+      "note": "2.4-liter 4-cylinder",
+      "src": "https://www.0-60specs.com/toyota/camry-0-60-times"
+    },
+    "weight": {
+      "kg": 1470,
+      "lb": 3241,
+      "note": "Curb weight, 2003 SE",
+      "src": "https://www.0-60specs.com/toyota/camry-0-60-times"
+    },
+    "zero60": {
+      "sec": 8.3,
+      "kind": "tested",
+      "note": "Car and Driver test, 2003 SE",
+      "src": "https://www.0-60specs.com/toyota/camry-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 24,
+      "city": 21,
+      "hwy": 30,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/18713.shtml",
+      "note": "EPA combined, 2003 2.4-liter, 5-speed manual"
+    },
+    "built": {
+      "count": 2154579,
+      "approx": true,
+      "note": "Sold in the US, 2002–2006",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Camry"
+    },
+    "versions": [
+      {
+        "name": "2.4-liter",
+        "detail": "4-cylinder"
+      },
+      {
+        "name": "3.0-liter V6",
+        "detail": "V6",
+        "specsFor": "2002 Toyota Camry SE V6, automatic, US market (Car and Driver test)",
+        "power": {
+          "hp": 192,
+          "note": "3.0-liter V6",
+          "src": "https://www.0-60specs.com/toyota/camry-0-60-times"
+        },
+        "weight": {
+          "kg": 1501,
+          "lb": 3310,
+          "note": "Curb weight, 2002 SE V6",
+          "src": "https://www.0-60specs.com/toyota/camry-0-60-times"
+        },
+        "zero60": {
+          "sec": 8.2,
+          "kind": "tested",
+          "note": "Car and Driver test, 2002 SE V6",
+          "src": "https://www.0-60specs.com/toyota/camry-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 21,
+          "city": 18,
+          "hwy": 26,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/17761.shtml",
+          "note": "EPA combined, 2002 V6, automatic"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Toyota Camry (XV20)",
+      "id": "toyota-camry-xv20"
+    },
+    "successor": {
+      "name": "Toyota Camry (XV40)",
+      "id": "toyota-camry-xv40"
+    },
+    "quick": "The fifth Camry, 2002–2006: bigger and taller, sedan only, with a sporty SE back in the lineup, and the start of the Camry's long run as America's best-selling car.",
+    "story": [
+      "Released on August 27, 2001, as a 2002 model, the fifth Camry was larger and taller than before on a longer wheelbase, and for the first time there was no wagon: the Sienna minivan and the Highlander SUV, both built on the Camry's platform, took over that job. In the US the base CE was dropped and a sporty SE returned. A 157-hp 2.4-liter came with a 5-speed manual or 4-speed automatic, and Car and Driver timed a 2003 SE manual to 60 mph in 8.3 seconds.",
+      "The 3.0-liter V6 made 192 hp and could be had with a 5-speed automatic, and Car and Driver ran a 2002 SE V6 to 60 in 8.2 seconds. From 2002 the Camry was America's best-selling passenger car every year, a title it still held in 2025, and US sales topped 400,000 in each year of this generation, about 2.15 million in all."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Camry"
+    ]
+  },
+  {
+    "id": "toyota-camry-xv40",
+    "name": "Toyota Camry (XV40)",
+    "aka": [
+      "2007–2011 Camry",
+      "Camry Hybrid",
+      "Camry SE V6",
+      "XV40"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan and United States",
+    "years": "2007–2011",
+    "start": 2007,
+    "end": 2011,
+    "shop": {
+      "cargurus": "d292"
+    },
+    "body": "Mid-size 4-door sedan",
+    "engine": "2.4-liter or 2.5-liter 4-cylinder; 3.5-liter V6; 2.4-liter hybrid",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual, 5-speed or 6-speed automatic, or CVT (Hybrid)",
+    "specsFor": "2007 Toyota Camry LE, 2.4-liter, automatic, US market (Car and Driver test)",
+    "power": {
+      "hp": 158,
+      "note": "2.4-liter 4-cylinder, 2007–2009",
+      "src": "https://www.0-60specs.com/toyota/camry-0-60-times"
+    },
+    "weight": {
+      "kg": 1495,
+      "lb": 3296,
+      "note": "Curb weight, 2007 LE",
+      "src": "https://www.0-60specs.com/toyota/camry-0-60-times"
+    },
+    "zero60": {
+      "sec": 8.7,
+      "kind": "tested",
+      "note": "Car and Driver test, 2007 LE, automatic",
+      "src": "https://www.0-60specs.com/toyota/camry-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 24,
+      "city": 21,
+      "hwy": 30,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/22822.shtml",
+      "note": "EPA combined, 2007 2.4-liter, automatic"
+    },
+    "built": {
+      "count": 1900312,
+      "approx": true,
+      "note": "Sold in the US, 2007–2011",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Camry"
+    },
+    "versions": [
+      {
+        "name": "2.4-liter",
+        "detail": "4-cylinder, 2007–2009"
+      },
+      {
+        "name": "2.5-liter",
+        "detail": "4-cylinder, 2010–2011",
+        "specsFor": "2010 Toyota Camry SE, 2.5-liter, automatic, US market (Car and Driver test)",
+        "power": {
+          "hp": 169,
+          "note": "2.5-liter 4-cylinder",
+          "src": "https://www.0-60specs.com/toyota/camry-0-60-times"
+        },
+        "weight": {
+          "kg": 1506,
+          "lb": 3320,
+          "note": "Curb weight, 2010 SE",
+          "src": "https://www.0-60specs.com/toyota/camry-0-60-times"
+        },
+        "zero60": {
+          "sec": 8.1,
+          "kind": "tested",
+          "note": "Car and Driver test, 2010 SE",
+          "src": "https://www.0-60specs.com/toyota/camry-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 26,
+          "city": 22,
+          "hwy": 32,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/26422.shtml",
+          "note": "EPA combined, 2010 2.5-liter, automatic"
+        }
+      },
+      {
+        "name": "3.5-liter V6",
+        "detail": "V6, 6-speed automatic",
+        "specsFor": "2007 Toyota Camry SE V6, US market (Car and Driver test)",
+        "power": {
+          "hp": 268,
+          "note": "3.5-liter V6",
+          "src": "https://www.0-60specs.com/toyota/camry-0-60-times"
+        },
+        "weight": {
+          "kg": 1610,
+          "lb": 3550,
+          "note": "Curb weight, 2007 SE V6",
+          "src": "https://www.0-60specs.com/toyota/camry-0-60-times"
+        },
+        "zero60": {
+          "sec": 5.8,
+          "kind": "tested",
+          "note": "Car and Driver test, 2007 SE V6",
+          "src": "https://www.0-60specs.com/toyota/camry-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 23,
+          "city": 19,
+          "hwy": 28,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/22824.shtml",
+          "note": "EPA combined, 2007 V6"
+        }
+      },
+      {
+        "name": "Hybrid",
+        "detail": "2.4-liter hybrid, CVT",
+        "specsFor": "2007 Toyota Camry Hybrid, US market (Car and Driver test)",
+        "power": {
+          "hp": 187,
+          "note": "Combined system output",
+          "src": "https://www.0-60specs.com/toyota/camry-0-60-times"
+        },
+        "weight": {
+          "kg": 1669,
+          "lb": 3680,
+          "note": "Curb weight, 2007 Hybrid",
+          "src": "https://www.0-60specs.com/toyota/camry-0-60-times"
+        },
+        "zero60": {
+          "sec": 7.7,
+          "kind": "tested",
+          "note": "Car and Driver test, 2007 Hybrid",
+          "src": "https://www.0-60specs.com/toyota/camry-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 34,
+          "city": 33,
+          "hwy": 34,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/22825.shtml",
+          "note": "EPA combined, 2007 Hybrid"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Toyota Camry (XV30)",
+      "id": "toyota-camry-xv30"
+    },
+    "successor": {
+      "name": "Toyota Camry (XV50)",
+      "id": "toyota-camry-xv50"
+    },
+    "quick": "The sixth Camry, 2007–2011: the first Camry Hybrid, a 268-hp V6 that ran to 60 in under 6 seconds, and the Camry's best US sales year, 2007.",
+    "story": [
+      "Shown at the Detroit auto show in January 2006, the sixth Camry went on sale that March as a 2007 model, alongside the first Camry Hybrid, which paired a 2.4-liter 4-cylinder with an electric motor for 187 hp. Hybrids were built in Japan at first and in Kentucky from October 2006, though Toyota never sold them in its home market. Car and Driver timed a 2007 Hybrid to 60 mph in 7.7 seconds.",
+      "The 2.4-liter 4-cylinder made 158 hp, replaced for 2010 by a 169-hp 2.5-liter, and the new 3.5-liter V6 made 268 hp; Car and Driver ran a 2007 SE V6 to 60 in 5.8 seconds. The 2010 refresh brought a new grille, bigger headlights and LED taillights. US sales reached about 473,000 in 2007, the Camry's best year on record, and about 1.9 million over the generation."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Camry"
+    ]
+  },
+  {
     "id": "toyota-camry-xv50",
     "name": "Toyota Camry (XV50)",
     "aka": [],
@@ -7841,7 +8609,8 @@ const CARS = [
       "src": "https://www.goodcarbadcar.net/toyota-camry-sales-figures/"
     },
     "predecessor": {
-      "name": "Toyota Camry (XV40)"
+      "name": "Toyota Camry (XV40)",
+      "id": "toyota-camry-xv40"
     },
     "successor": {
       "name": "Toyota Camry (XV70)",

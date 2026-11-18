@@ -7161,6 +7161,436 @@ const CARS = [
     ]
   },
   {
+    "id": "toyota-4runner-n60",
+    "name": "Toyota 4Runner (N60)",
+    "aka": [
+      "1984–1989 4Runner",
+      "Hilux Surf",
+      "4Runner SR5",
+      "N60"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "1984–1989",
+    "start": 1984,
+    "end": 1989,
+    "shop": {
+      "cargurus": "d290"
+    },
+    "body": "2-door SUV with a removable fiberglass top",
+    "engine": "2.4-liter 4-cylinder (turbo from 1986); 3.0-liter V6 from late 1987",
+    "drive": "4-wheel drive",
+    "gearbox": "5-speed manual or 4-speed automatic",
+    "specsFor": "1985 Toyota 4Runner, fuel-injected 2.4-liter, 5-speed manual, US market",
+    "power": {
+      "hp": 116,
+      "note": "Fuel-injected 2.4-liter 4-cylinder (carbureted: 96 hp)",
+      "src": "https://en.wikipedia.org/wiki/Toyota_4Runner"
+    },
+    "weight": {
+      "na": "No figure on record"
+    },
+    "zero60": {
+      "na": "No test on record"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "combined": 21,
+      "city": 19,
+      "hwy": 23,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/1154.shtml",
+      "note": "EPA combined, 1985 2.4-liter, 5-speed manual"
+    },
+    "built": {
+      "count": 78999,
+      "approx": true,
+      "note": "Sold in the US, 1984–1989",
+      "src": "https://en.wikipedia.org/wiki/Toyota_4Runner"
+    },
+    "versions": [
+      {
+        "name": "2.4-liter",
+        "detail": "4-cylinder"
+      },
+      {
+        "name": "3.0-liter V6",
+        "detail": "SR5, late 1987–1989",
+        "specsFor": "1988 Toyota 4Runner SR5 V6, 5-speed manual, US market",
+        "power": {
+          "hp": 145,
+          "note": "3.0-liter V6",
+          "src": "https://en.wikipedia.org/wiki/Toyota_4Runner"
+        },
+        "weight": {
+          "na": "No figure on record"
+        },
+        "zero60": {
+          "na": "No test on record"
+        },
+        "top": {
+          "na": "No figure on record"
+        },
+        "mpg": {
+          "combined": 16,
+          "city": 15,
+          "hwy": 17,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/5225.shtml",
+          "note": "EPA combined, 1988 V6, 5-speed manual"
+        }
+      }
+    ],
+    "predecessor": null,
+    "successor": {
+      "name": "Toyota 4Runner (N120/N130)",
+      "id": "toyota-4runner-n120"
+    },
+    "quick": "The first 4Runner, 1984–1989: a Toyota pickup with a rear seat under a removable fiberglass top, Toyota's answer to the Bronco and Blazer.",
+    "story": [
+      "Rather than design a new SUV, Toyota took its 4-wheel-drive Hilux pickup, removed the panel behind the front seats and added a rear seat, a roll bar and a removable fiberglass canopy, the same idea as the Ford Bronco and Chevrolet K5 Blazer. In North America it went on sale in May 1984 as a 1984½ model, and from the dashboard forward it was identical to the pickup.",
+      "Fuel injection raised the 2.4-liter's output from 96 to 116 hp, and for 1986 the solid front axle gave way to independent Hi-Trac front suspension, which made room for bigger engines. A 135-hp turbo arrived the same year and a 145-hp 3.0-liter V6 followed. The rear springs were never upgraded for the extra weight of the seats and top, so many early trucks sagged at the back. Americans bought about 79,000."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota 4Runner"
+    ]
+  },
+  {
+    "id": "toyota-4runner-n120",
+    "name": "Toyota 4Runner (N120/N130)",
+    "aka": [
+      "1990–1995 4Runner",
+      "Hilux Surf",
+      "4Runner SR5 V6",
+      "N120",
+      "N130"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "1990–1995",
+    "start": 1990,
+    "end": 1995,
+    "shop": {
+      "cargurus": "d290"
+    },
+    "body": "SUV with an all-steel body",
+    "engine": "2.4-liter 4-cylinder; 3.0-liter V6",
+    "drive": "Rear-wheel drive or 4-wheel drive",
+    "gearbox": "5-speed manual or 4-speed automatic",
+    "specsFor": "1991 Toyota 4Runner SR5 V6, 4-wheel drive, automatic, US market",
+    "power": {
+      "hp": 150,
+      "note": "3.0-liter V6",
+      "src": "https://www.0-60specs.com/toyota/4runner-0-60-times"
+    },
+    "weight": {
+      "na": "No figure on record"
+    },
+    "zero60": {
+      "na": "No test on record"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 14,
+      "city": 13,
+      "hwy": 17,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/8543.shtml",
+      "note": "EPA combined, 1991 V6, 4-wheel drive, automatic"
+    },
+    "built": {
+      "count": 329814,
+      "approx": true,
+      "note": "Sold in the US, 1990–1995",
+      "src": "https://en.wikipedia.org/wiki/Toyota_4Runner"
+    },
+    "versions": [
+      {
+        "name": "3.0-liter V6",
+        "detail": "SR5 V6"
+      },
+      {
+        "name": "2.4-liter",
+        "detail": "4-cylinder",
+        "specsFor": "1991 Toyota 4Runner, 2.4-liter, 4-wheel drive, 5-speed manual, US market",
+        "power": {
+          "hp": 116,
+          "note": "Fuel-injected 2.4-liter 4-cylinder",
+          "src": "https://en.wikipedia.org/wiki/Toyota_4Runner"
+        },
+        "weight": {
+          "na": "No figure on record"
+        },
+        "zero60": {
+          "na": "No test on record"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 18,
+          "city": 17,
+          "hwy": 20,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/8542.shtml",
+          "note": "EPA combined, 1991 4-cylinder, 4-wheel drive, manual"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Toyota 4Runner (N60)",
+      "id": "toyota-4runner-n60"
+    },
+    "successor": {
+      "name": "Toyota 4Runner (N180)",
+      "id": "toyota-4runner-n180"
+    },
+    "quick": "The second 4Runner, 1990–1995: a proper all-steel SUV body on Hilux underpinnings, with the old roll-down tailgate glass.",
+    "story": [
+      "Released in 1989 for 1990, the second 4Runner was still built on the Hilux pickup, but it traded the bolt-on fiberglass cap for a body formed as a single steel unit. It kept the independent front suspension from the previous model and the retractable tailgate glass, which had to be lowered into the gate before the tailgate could drop like a pickup's.",
+      "Engines were shared with the Hilux, a 2.4-liter 4-cylinder or a 150-hp 3.0-liter V6, and rear anti-lock brakes were standard on the SR5 V6 from 1990, with 4-wheel ABS optional. A facelift moved its looks further from the pickup's. US sales climbed to about 76,000 in 1995, about 330,000 in all."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota 4Runner"
+    ]
+  },
+  {
+    "id": "toyota-4runner-n180",
+    "name": "Toyota 4Runner (N180)",
+    "aka": [
+      "1996–2002 4Runner",
+      "4Runner Limited",
+      "4Runner SR5",
+      "N180"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "1996–2002",
+    "start": 1996,
+    "end": 2002,
+    "shop": {
+      "cargurus": "d290"
+    },
+    "body": "Mid-size SUV",
+    "engine": "2.7-liter 4-cylinder; 3.4-liter V6",
+    "drive": "Rear-wheel drive or 4-wheel drive",
+    "gearbox": "5-speed manual or 4-speed automatic",
+    "specsFor": "1996 Toyota 4Runner SR5 V6, 4-wheel drive, automatic, US market (Car and Driver test)",
+    "power": {
+      "hp": 183,
+      "note": "3.4-liter V6",
+      "src": "https://en.wikipedia.org/wiki/Toyota_4Runner"
+    },
+    "weight": {
+      "kg": 1769,
+      "lb": 3900,
+      "note": "Curb weight, 1996 SR5 V6",
+      "src": "https://www.0-60specs.com/toyota/4runner-0-60-times"
+    },
+    "zero60": {
+      "sec": 9.5,
+      "kind": "tested",
+      "note": "Car and Driver test, 1996 SR5 V6, 4-wheel drive",
+      "src": "https://www.0-60specs.com/toyota/4runner-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 16,
+      "city": 15,
+      "hwy": 18,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/13254.shtml",
+      "note": "EPA combined, 1996 V6, 4-wheel drive, automatic"
+    },
+    "built": {
+      "count": 749871,
+      "approx": true,
+      "note": "Sold in the US, 1996–2002",
+      "src": "https://en.wikipedia.org/wiki/Toyota_4Runner"
+    },
+    "versions": [
+      {
+        "name": "3.4-liter V6",
+        "detail": "V6"
+      },
+      {
+        "name": "2.7-liter",
+        "detail": "4-cylinder",
+        "specsFor": "1996 Toyota 4Runner, 2.7-liter, 4-wheel drive, automatic, US market",
+        "power": {
+          "hp": 150,
+          "note": "2.7-liter 4-cylinder",
+          "src": "https://en.wikipedia.org/wiki/Toyota_4Runner"
+        },
+        "weight": {
+          "na": "No figure on record"
+        },
+        "zero60": {
+          "na": "No test on record"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 18,
+          "city": 17,
+          "hwy": 20,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/13252.shtml",
+          "note": "EPA combined, 1996 4-cylinder, 4-wheel drive, automatic"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Toyota 4Runner (N120/N130)",
+      "id": "toyota-4runner-n120"
+    },
+    "successor": {
+      "name": "Toyota 4Runner (N210)",
+      "id": "toyota-4runner-n210"
+    },
+    "quick": "The third 4Runner, 1996–2002: a clean-sheet redesign on the Land Cruiser Prado's chassis, with coil springs all around and a 183-hp V6.",
+    "story": [
+      "Developed from 1990 under chief engineer Masaaki Ishiko, the third 4Runner arrived in late 1995 as a 1996 model, sharing its engine and transmission with the new Tacoma and its chassis with the Land Cruiser Prado. It had a longer wheelbase, a wider track, more room inside, dual airbags, anti-lock brakes, a lift-up tailgate, coil springs at all 4 corners and rack-and-pinion steering.",
+      "A 150-hp 2.7-liter 4-cylinder or a 183-hp 3.4-liter V6 powered it, towing rose to 2,268 kg (5,000 lb) with the V6, and a factory locking rear differential was a 4Runner first. Car and Driver timed a 1996 SR5 V6 with 4-wheel drive to 60 mph in 9.5 seconds. US sales peaked at about 128,000 in 1997, about 750,000 in all."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota 4Runner"
+    ]
+  },
+  {
+    "id": "toyota-4runner-n210",
+    "name": "Toyota 4Runner (N210)",
+    "aka": [
+      "2003–2009 4Runner",
+      "4Runner V8",
+      "4Runner Sport Edition",
+      "N210"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "2003–2009",
+    "start": 2003,
+    "end": 2009,
+    "shop": {
+      "cargurus": "d290"
+    },
+    "body": "Mid-size SUV",
+    "engine": "4.0-liter V6; 4.7-liter V8",
+    "drive": "Rear-wheel drive or 4-wheel drive (full-time with the V8)",
+    "gearbox": "4-speed or 5-speed automatic",
+    "specsFor": "2003 Toyota 4Runner SR5 V8, 4-wheel drive, US market (Car and Driver test)",
+    "power": {
+      "hp": 235,
+      "note": "4.7-liter V8 (268 hp from 2005)",
+      "src": "https://en.wikipedia.org/wiki/Toyota_4Runner"
+    },
+    "weight": {
+      "kg": 1996,
+      "lb": 4400,
+      "note": "Curb weight, 2003 SR5 V8",
+      "src": "https://www.0-60specs.com/toyota/4runner-0-60-times"
+    },
+    "zero60": {
+      "sec": 8.0,
+      "kind": "tested",
+      "note": "Car and Driver test, 2003 SR5 V8",
+      "src": "https://www.0-60specs.com/toyota/4runner-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 15,
+      "city": 14,
+      "hwy": 17,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/19241.shtml",
+      "note": "EPA combined, 2003 V8, 4-wheel drive"
+    },
+    "built": {
+      "count": 585707,
+      "approx": true,
+      "note": "Sold in the US, 2003–2009",
+      "src": "https://en.wikipedia.org/wiki/Toyota_4Runner"
+    },
+    "versions": [
+      {
+        "name": "4.7-liter V8",
+        "detail": "V8, full-time 4-wheel drive"
+      },
+      {
+        "name": "4.0-liter V6",
+        "detail": "V6",
+        "specsFor": "2003 Toyota 4Runner, 4.0-liter V6, 4-wheel drive, US market",
+        "power": {
+          "hp": 245,
+          "note": "4.0-liter V6",
+          "src": "https://en.wikipedia.org/wiki/Toyota_4Runner"
+        },
+        "weight": {
+          "na": "No figure on record"
+        },
+        "zero60": {
+          "na": "No test on record"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 17,
+          "city": 15,
+          "hwy": 19,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/19240.shtml",
+          "note": "EPA combined, 2003 V6, 4-wheel drive"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Toyota 4Runner (N180)",
+      "id": "toyota-4runner-n180"
+    },
+    "successor": {
+      "name": "Toyota 4Runner (N280)",
+      "id": "toyota-4runner-n280"
+    },
+    "quick": "The fourth 4Runner, 2003–2009: built on the Land Cruiser Prado 120, with a 245-hp V6 or, for the first time, a V8.",
+    "story": [
+      "Based on the Land Cruiser Prado 120 series, the fourth 4Runner reached dealers in October 2002 as a 2003 model, still body-on-frame with a solid rear axle for strength. The standard 4.0-liter V6 made 245 hp, and for the first time a V8 was offered, a 4.7-liter with 235 hp, 268 hp from 2005; Car and Driver timed a 2003 SR5 V8 to 60 mph in 8.0 seconds.",
+      "V8 models got full-time 4-wheel drive and V6s a part-time or Multi-Mode system, and the Sport Edition came with X-REAS, which linked the shock absorbers diagonally to reduce body roll. A 2007 IIHS report found the 2003 and 2004 4Runner had one of the lowest death rates of any vehicle on the road. US sales came to about 586,000."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota 4Runner"
+    ]
+  },
+  {
     "id": "toyota-4runner-n280",
     "name": "Toyota 4Runner (N280)",
     "aka": [],
@@ -7213,7 +7643,8 @@ const CARS = [
       "src": "https://www.goodcarbadcar.net/toyota-4runner-sales-figures/"
     },
     "predecessor": {
-      "name": "Toyota 4Runner (N210)"
+      "name": "Toyota 4Runner (N210)",
+      "id": "toyota-4runner-n210"
     },
     "successor": {
       "name": "Toyota 4Runner (N500)",

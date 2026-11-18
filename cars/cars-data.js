@@ -6342,6 +6342,264 @@ const CARS_INDEX = [
   }
  },
  {
+  "id": "toyota-4runner-n60",
+  "name": "Toyota 4Runner (N60)",
+  "aka": [
+   "1984–1989 4Runner",
+   "Hilux Surf",
+   "4Runner SR5",
+   "N60"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "1984–1989",
+  "start": 1984,
+  "body": "2-door SUV with a removable fiberglass top",
+  "engine": "2.4-liter 4-cylinder (turbo from 1986); 3.0-liter V6 from late 1987",
+  "country": "Japan",
+  "quick": "The first 4Runner, 1984–1989: a Toyota pickup with a rear seat under a removable fiberglass top, Toyota's answer to the Bronco and Blazer.",
+  "articles": [
+   "the-ford-america-will-not-sell-you",
+   "the-segment-america-never-got"
+  ],
+  "latest": "2026-08-18",
+  "ownDates": [],
+  "dates": [
+   "2026-08-18"
+  ],
+  "drive": "4-wheel drive",
+  "gearbox": "5-speed manual or 4-speed automatic",
+  "specsFor": "1985 Toyota 4Runner, fuel-injected 2.4-liter, 5-speed manual, US market",
+  "guide": null,
+  "shop": {
+   "cargurus": "d290"
+  },
+  "hp": 116,
+  "kg": null,
+  "kgNote": "",
+  "lbs": null,
+  "z60": null,
+  "top": null,
+  "mpg": {
+   "combined": 21,
+   "city": 19,
+   "hwy": 23,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1985 2.4-liter, 5-speed manual"
+  },
+  "built": {
+   "count": 78999,
+   "approx": true,
+   "note": "Sold in the US, 1984–1989"
+  },
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": "toyota-4runner-n120",
+   "name": "Toyota 4Runner (N120/N130)"
+  },
+  "photo": null
+ },
+ {
+  "id": "toyota-4runner-n120",
+  "name": "Toyota 4Runner (N120/N130)",
+  "aka": [
+   "1990–1995 4Runner",
+   "Hilux Surf",
+   "4Runner SR5 V6",
+   "N120",
+   "N130"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "1990–1995",
+  "start": 1990,
+  "body": "SUV with an all-steel body",
+  "engine": "2.4-liter 4-cylinder; 3.0-liter V6",
+  "country": "Japan",
+  "quick": "The second 4Runner, 1990–1995: a proper all-steel SUV body on Hilux underpinnings, with the old roll-down tailgate glass.",
+  "articles": [
+   "the-ford-america-will-not-sell-you",
+   "the-segment-america-never-got"
+  ],
+  "latest": "2026-08-18",
+  "ownDates": [],
+  "dates": [
+   "2026-08-18"
+  ],
+  "drive": "Rear-wheel drive or 4-wheel drive",
+  "gearbox": "5-speed manual or 4-speed automatic",
+  "specsFor": "1991 Toyota 4Runner SR5 V6, 4-wheel drive, automatic, US market",
+  "guide": null,
+  "shop": {
+   "cargurus": "d290"
+  },
+  "hp": 150,
+  "kg": null,
+  "kgNote": "",
+  "lbs": null,
+  "z60": null,
+  "top": null,
+  "mpg": {
+   "combined": 14,
+   "city": 13,
+   "hwy": 17,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1991 V6, 4-wheel drive, automatic"
+  },
+  "built": {
+   "count": 329814,
+   "approx": true,
+   "note": "Sold in the US, 1990–1995"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "toyota-4runner-n60",
+   "name": "Toyota 4Runner (N60)"
+  },
+  "next": {
+   "id": "toyota-4runner-n180",
+   "name": "Toyota 4Runner (N180)"
+  },
+  "photo": null
+ },
+ {
+  "id": "toyota-4runner-n180",
+  "name": "Toyota 4Runner (N180)",
+  "aka": [
+   "1996–2002 4Runner",
+   "4Runner Limited",
+   "4Runner SR5",
+   "N180"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "1996–2002",
+  "start": 1996,
+  "body": "Mid-size SUV",
+  "engine": "2.7-liter 4-cylinder; 3.4-liter V6",
+  "country": "Japan",
+  "quick": "The third 4Runner, 1996–2002: a clean-sheet redesign on the Land Cruiser Prado's chassis, with coil springs all around and a 183-hp V6.",
+  "articles": [
+   "the-ford-america-will-not-sell-you",
+   "the-segment-america-never-got"
+  ],
+  "latest": "2026-08-18",
+  "ownDates": [],
+  "dates": [
+   "2026-08-18"
+  ],
+  "drive": "Rear-wheel drive or 4-wheel drive",
+  "gearbox": "5-speed manual or 4-speed automatic",
+  "specsFor": "1996 Toyota 4Runner SR5 V6, 4-wheel drive, automatic, US market (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d290"
+  },
+  "hp": 183,
+  "kg": 1769,
+  "kgNote": "Curb weight, 1996 SR5 V6",
+  "lbs": 3900,
+  "z60": {
+   "sec": 9.5,
+   "kind": "tested",
+   "note": "Car and Driver test, 1996 SR5 V6, 4-wheel drive"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 16,
+   "city": 15,
+   "hwy": 18,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1996 V6, 4-wheel drive, automatic"
+  },
+  "built": {
+   "count": 749871,
+   "approx": true,
+   "note": "Sold in the US, 1996–2002"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "toyota-4runner-n120",
+   "name": "Toyota 4Runner (N120/N130)"
+  },
+  "next": {
+   "id": "toyota-4runner-n210",
+   "name": "Toyota 4Runner (N210)"
+  },
+  "photo": null
+ },
+ {
+  "id": "toyota-4runner-n210",
+  "name": "Toyota 4Runner (N210)",
+  "aka": [
+   "2003–2009 4Runner",
+   "4Runner V8",
+   "4Runner Sport Edition",
+   "N210"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2003–2009",
+  "start": 2003,
+  "body": "Mid-size SUV",
+  "engine": "4.0-liter V6; 4.7-liter V8",
+  "country": "Japan",
+  "quick": "The fourth 4Runner, 2003–2009: built on the Land Cruiser Prado 120, with a 245-hp V6 or, for the first time, a V8.",
+  "articles": [
+   "the-ford-america-will-not-sell-you",
+   "the-segment-america-never-got"
+  ],
+  "latest": "2026-08-18",
+  "ownDates": [],
+  "dates": [
+   "2026-08-18"
+  ],
+  "drive": "Rear-wheel drive or 4-wheel drive (full-time with the V8)",
+  "gearbox": "4-speed or 5-speed automatic",
+  "specsFor": "2003 Toyota 4Runner SR5 V8, 4-wheel drive, US market (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d290"
+  },
+  "hp": 235,
+  "kg": 1996,
+  "kgNote": "Curb weight, 2003 SR5 V8",
+  "lbs": 4400,
+  "z60": {
+   "sec": 8.0,
+   "kind": "tested",
+   "note": "Car and Driver test, 2003 SR5 V8"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 15,
+   "city": 14,
+   "hwy": 17,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2003 V8, 4-wheel drive"
+  },
+  "built": {
+   "count": 585707,
+   "approx": true,
+   "note": "Sold in the US, 2003–2009"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "toyota-4runner-n180",
+   "name": "Toyota 4Runner (N180)"
+  },
+  "next": {
+   "id": "toyota-4runner-n280",
+   "name": "Toyota 4Runner (N280)"
+  },
+  "photo": null
+ },
+ {
   "id": "toyota-4runner-n280",
   "name": "Toyota 4Runner (N280)",
   "aka": [],
@@ -6401,7 +6659,7 @@ const CARS_INDEX = [
   },
   "alongside": [],
   "prev": {
-   "id": null,
+   "id": "toyota-4runner-n210",
    "name": "Toyota 4Runner (N210)"
   },
   "next": {

@@ -7481,6 +7481,655 @@ const CARS_INDEX = [
   }
  },
  {
+  "id": "toyota-corolla-e10",
+  "name": "Toyota Corolla (E10)",
+  "aka": [
+   "1968–1970 Corolla",
+   "Corolla 1100",
+   "Corolla Sprinter",
+   "E10"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "1968–1970",
+  "start": 1968,
+  "body": "Subcompact 2-door and 4-door sedan, fastback coupe and wagon",
+  "engine": "1.1-liter or 1.2-liter 4-cylinder",
+  "country": "Japan",
+  "quick": "The first Corolla, sold in America from 1968 to 1970: a small, simple rear-wheel-drive car, launched in Japan in 1966, that started the best-selling nameplate in history.",
+  "articles": [
+   "industry-brief-2026-11-02",
+   "the-car-that-carried-the-world",
+   "the-prius-paradox"
+  ],
+  "latest": "2026-11-02",
+  "ownDates": [],
+  "dates": [
+   "2026-11-02",
+   "2026-10-05"
+  ],
+  "drive": "Rear-wheel drive",
+  "gearbox": "4-speed manual or automatic",
+  "specsFor": "1968 Toyota Corolla Sprinter coupe, 1.1-liter, 4-speed manual, US market (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d295"
+  },
+  "hp": 60,
+  "kg": 699,
+  "kgNote": "Curb weight, 1968 Sprinter coupe",
+  "lbs": 1540,
+  "z60": {
+   "sec": 17.0,
+   "kind": "tested",
+   "note": "Car and Driver test, 1968 Sprinter coupe"
+  },
+  "top": null,
+  "mpg": null,
+  "built": null,
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": "toyota-corolla-e20",
+   "name": "Toyota Corolla (E20)"
+  },
+  "photo": null
+ },
+ {
+  "id": "toyota-corolla-e20",
+  "name": "Toyota Corolla (E20)",
+  "aka": [
+   "1971–1974 Corolla",
+   "Corolla 1600",
+   "Corolla SR-5",
+   "E20"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "1971–1974",
+  "start": 1971,
+  "body": "Subcompact sedan, coupe and wagon",
+  "engine": "1.2-liter or 1.6-liter 4-cylinder",
+  "country": "Japan",
+  "quick": "The second Corolla, 1971–1974: bigger and curvier, with an optional 1.6-liter and, from 1972, 5-speed SR-5 coupes.",
+  "articles": [
+   "industry-brief-2026-11-02",
+   "the-car-that-carried-the-world",
+   "the-prius-paradox"
+  ],
+  "latest": "2026-11-02",
+  "ownDates": [],
+  "dates": [
+   "2026-11-02",
+   "2026-10-05"
+  ],
+  "drive": "Rear-wheel drive",
+  "gearbox": "4-speed or 5-speed manual, 2-speed or 3-speed automatic",
+  "specsFor": "1971 Toyota Corolla 1600 coupe, 4-speed manual, US market (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d295"
+  },
+  "hp": 102,
+  "kg": 930,
+  "kgNote": "Curb weight, 1971 1600 coupe",
+  "lbs": 2050,
+  "z60": {
+   "sec": 11.4,
+   "kind": "tested",
+   "note": "Car and Driver test, 1971 1600 coupe"
+  },
+  "top": null,
+  "mpg": null,
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "toyota-corolla-e10",
+   "name": "Toyota Corolla (E10)"
+  },
+  "next": {
+   "id": "toyota-corolla-e30",
+   "name": "Toyota Corolla (E30)"
+  },
+  "photo": null
+ },
+ {
+  "id": "toyota-corolla-e30",
+  "name": "Toyota Corolla (E30)",
+  "aka": [
+   "1975–1979 Corolla",
+   "Corolla SR5",
+   "Corolla Liftback",
+   "E30",
+   "E50"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "1975–1979",
+  "start": 1975,
+  "body": "Subcompact sedan, hardtop coupe, sport coupe, 3-door liftback and wagon",
+  "engine": "1.6-liter 4-cylinder",
+  "country": "Japan",
+  "quick": "The third Corolla, 1975–1979: the generation behind Toyota's biggest growth in America after the fuel crisis, with SR5 coupes and liftbacks.",
+  "articles": [
+   "industry-brief-2026-11-02",
+   "the-car-that-carried-the-world",
+   "the-prius-paradox"
+  ],
+  "latest": "2026-11-02",
+  "ownDates": [],
+  "dates": [
+   "2026-11-02",
+   "2026-10-05"
+  ],
+  "drive": "Rear-wheel drive",
+  "gearbox": "4-speed or 5-speed manual or automatic",
+  "specsFor": "1975 Toyota Corolla SR-5 coupe, 1.6-liter, 5-speed manual, US market (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d295"
+  },
+  "hp": 75,
+  "kg": 953,
+  "kgNote": "Curb weight, 1976 SR-5 liftback",
+  "lbs": 2100,
+  "z60": {
+   "sec": 13.9,
+   "kind": "tested",
+   "note": "Car and Driver test, 1975 SR-5 coupe"
+  },
+  "top": null,
+  "mpg": null,
+  "built": {
+   "count": 1067695,
+   "approx": true,
+   "note": "Sold in the US, 1975–1979"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "toyota-corolla-e20",
+   "name": "Toyota Corolla (E20)"
+  },
+  "next": {
+   "id": "toyota-corolla-e70",
+   "name": "Toyota Corolla (E70)"
+  },
+  "photo": null
+ },
+ {
+  "id": "toyota-corolla-e70",
+  "name": "Toyota Corolla (E70)",
+  "aka": [
+   "1980–1983 Corolla",
+   "Corolla SR-5",
+   "Corolla Hardtop",
+   "E70"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "1980–1983",
+  "start": 1980,
+  "body": "Subcompact sedan, hardtop, coupe, liftback and wagon",
+  "engine": "1.8-liter or 1.6-liter 4-cylinder",
+  "country": "Japan",
+  "quick": "The fourth Corolla, 1980–1983: the last all-rear-wheel-drive Corolla, with a 1.8-liter engine and some of the last true pillarless hardtops sold in America.",
+  "articles": [
+   "industry-brief-2026-11-02",
+   "the-car-that-carried-the-world",
+   "the-prius-paradox"
+  ],
+  "latest": "2026-11-02",
+  "ownDates": [],
+  "dates": [
+   "2026-11-02",
+   "2026-10-05"
+  ],
+  "drive": "Rear-wheel drive",
+  "gearbox": "5-speed manual or automatic",
+  "specsFor": "1982 Toyota Corolla SR-5 liftback, 1.8-liter, 5-speed manual, US market (Motor Trend test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d295"
+  },
+  "hp": 75,
+  "kg": 998,
+  "kgNote": "Curb weight, 1982 SR-5 liftback",
+  "lbs": 2200,
+  "z60": {
+   "sec": 13.4,
+   "kind": "tested",
+   "note": "Motor Trend test, 1982 SR-5 liftback"
+  },
+  "top": null,
+  "mpg": null,
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "toyota-corolla-e30",
+   "name": "Toyota Corolla (E30)"
+  },
+  "next": {
+   "id": "toyota-corolla-e80",
+   "name": "Toyota Corolla (E80)"
+  },
+  "photo": null
+ },
+ {
+  "id": "toyota-corolla-e80",
+  "name": "Toyota Corolla (E80)",
+  "aka": [
+   "1984–1987 Corolla",
+   "Corolla GT-S",
+   "Corolla SR-5",
+   "AE86",
+   "Corolla FX16",
+   "E80"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "1984–1987",
+  "start": 1984,
+  "body": "Compact sedan and hatchback (front-wheel drive); coupe and liftback (rear-wheel drive)",
+  "engine": "1.6-liter 4-cylinder; twin-cam 1.6-liter in the GT-S and FX16",
+  "country": "Japan and United States",
+  "quick": "The fifth Corolla, 1984–1987: front-wheel drive at last for the sedans, with a rear-drive GT-S coupe whose twin-cam AE86 later became a drifting legend.",
+  "articles": [
+   "industry-brief-2026-11-02",
+   "the-car-that-carried-the-world",
+   "the-prius-paradox"
+  ],
+  "latest": "2026-11-02",
+  "ownDates": [],
+  "dates": [
+   "2026-11-02",
+   "2026-10-05"
+  ],
+  "drive": "Front-wheel drive; coupes rear-wheel drive",
+  "gearbox": "5-speed manual or automatic",
+  "specsFor": "1987 Toyota Corolla FX16 GT-S hatchback, twin-cam 1.6-liter, 5-speed manual, US market (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d295"
+  },
+  "hp": 112,
+  "kg": 991,
+  "kgNote": "Curb weight, 1987 FX16 GT-S",
+  "lbs": 2185,
+  "z60": {
+   "sec": 9.8,
+   "kind": "tested",
+   "note": "Car and Driver test, 1987 FX16 GT-S"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 24,
+   "city": 22,
+   "hwy": 27,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1987 FX16, 5-speed manual"
+  },
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "toyota-corolla-e70",
+   "name": "Toyota Corolla (E70)"
+  },
+  "next": {
+   "id": "toyota-corolla-e90",
+   "name": "Toyota Corolla (E90)"
+  },
+  "photo": null
+ },
+ {
+  "id": "toyota-corolla-e90",
+  "name": "Toyota Corolla (E90)",
+  "aka": [
+   "1988–1992 Corolla",
+   "Corolla GT-S",
+   "Corolla All-Trac",
+   "E90"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "1988–1992",
+  "start": 1988,
+  "body": "Compact sedan, wagon and coupe",
+  "engine": "1.6-liter 4-cylinder; twin-cam 1.6-liter in the GT-S",
+  "country": "Japan, United States and Canada",
+  "quick": "The sixth Corolla, 1988–1992: rounder and sleeker, built in California and Ontario, with an All-Trac 4-wheel-drive wagon and a sporty GT-S coupe.",
+  "articles": [
+   "industry-brief-2026-11-02",
+   "the-car-that-carried-the-world",
+   "the-prius-paradox"
+  ],
+  "latest": "2026-11-02",
+  "ownDates": [],
+  "dates": [
+   "2026-11-02",
+   "2026-10-05"
+  ],
+  "drive": "Front-wheel drive; All-Trac 4-wheel drive (wagon)",
+  "gearbox": "5-speed manual or automatic",
+  "specsFor": "1988 Toyota Corolla sedan, 1.6-liter, 5-speed manual, US market (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d295"
+  },
+  "hp": 102,
+  "kg": 1066,
+  "kgNote": "Curb weight, 1988 sedan",
+  "lbs": 2350,
+  "z60": {
+   "sec": 11.3,
+   "kind": "tested",
+   "note": "Car and Driver test, 1988 sedan"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 28,
+   "city": 26,
+   "hwy": 32,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1988 1.6-liter, 5-speed manual"
+  },
+  "built": {
+   "count": 1040064,
+   "approx": true,
+   "note": "Sold in the US, 1988–1992"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "toyota-corolla-e80",
+   "name": "Toyota Corolla (E80)"
+  },
+  "next": {
+   "id": "toyota-corolla-e100",
+   "name": "Toyota Corolla (E100)"
+  },
+  "photo": null
+ },
+ {
+  "id": "toyota-corolla-e100",
+  "name": "Toyota Corolla (E100)",
+  "aka": [
+   "1993–1997 Corolla",
+   "Corolla DX",
+   "Corolla LE",
+   "Corolla wagon",
+   "E100"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "1993–1997",
+  "start": 1993,
+  "body": "Compact 4-door sedan and wagon",
+  "engine": "1.6-liter or 1.8-liter 4-cylinder",
+  "country": "Japan, United States and Canada",
+  "quick": "The seventh Corolla, 1993–1997: a bigger, more refined sedan and wagon with a 1.8-liter, and no coupe.",
+  "articles": [
+   "industry-brief-2026-11-02",
+   "the-car-that-carried-the-world",
+   "the-prius-paradox"
+  ],
+  "latest": "2026-11-02",
+  "ownDates": [],
+  "dates": [
+   "2026-11-02",
+   "2026-10-05"
+  ],
+  "drive": "Front-wheel drive",
+  "gearbox": "5-speed manual, 3-speed or 4-speed automatic",
+  "specsFor": "1993 Toyota Corolla DX wagon, 1.8-liter, automatic, US market (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d295"
+  },
+  "hp": 115,
+  "kg": 1111,
+  "kgNote": "Curb weight, 1993 DX wagon",
+  "lbs": 2450,
+  "z60": {
+   "sec": 10.3,
+   "kind": "tested",
+   "note": "Car and Driver test, 1993 DX wagon, automatic"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 25,
+   "city": 23,
+   "hwy": 30,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1993 1.8-liter sedan, automatic"
+  },
+  "built": {
+   "count": 1045824,
+   "approx": true,
+   "note": "Sold in the US, 1993–1997"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "toyota-corolla-e90",
+   "name": "Toyota Corolla (E90)"
+  },
+  "next": {
+   "id": "toyota-corolla-e110",
+   "name": "Toyota Corolla (E110)"
+  },
+  "photo": null
+ },
+ {
+  "id": "toyota-corolla-e110",
+  "name": "Toyota Corolla (E110)",
+  "aka": [
+   "1998–2002 Corolla",
+   "Corolla LE",
+   "Corolla S",
+   "E110"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "1998–2002",
+  "start": 1998,
+  "body": "Compact 4-door sedan",
+  "engine": "1.8-liter 4-cylinder",
+  "country": "United States and Canada",
+  "quick": "The eighth Corolla, 1998–2002: sedan only in America, built in North America, with a new all-aluminum 1.8-liter.",
+  "articles": [
+   "industry-brief-2026-11-02",
+   "the-car-that-carried-the-world",
+   "the-prius-paradox"
+  ],
+  "latest": "2026-11-02",
+  "ownDates": [],
+  "dates": [
+   "2026-11-02",
+   "2026-10-05"
+  ],
+  "drive": "Front-wheel drive",
+  "gearbox": "5-speed manual, 3-speed or 4-speed automatic",
+  "specsFor": "1998 Toyota Corolla LE, 1.8-liter, automatic, US market (Motor Trend test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d295"
+  },
+  "hp": 120,
+  "kg": 1143,
+  "kgNote": "Curb weight, 1998 LE",
+  "lbs": 2520,
+  "z60": {
+   "sec": 10.3,
+   "kind": "tested",
+   "note": "Motor Trend test, 1998 LE, automatic"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 28,
+   "city": 25,
+   "hwy": 33,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1998, 4-speed automatic"
+  },
+  "built": {
+   "count": 1229168,
+   "approx": true,
+   "note": "Sold in the US, 1998–2002"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "toyota-corolla-e100",
+   "name": "Toyota Corolla (E100)"
+  },
+  "next": {
+   "id": "toyota-corolla-e120",
+   "name": "Toyota Corolla (E120)"
+  },
+  "photo": null
+ },
+ {
+  "id": "toyota-corolla-e120",
+  "name": "Toyota Corolla (E120)",
+  "aka": [
+   "2003–2008 Corolla",
+   "Corolla XRS",
+   "Corolla S",
+   "Corolla LE",
+   "E120"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2003–2008",
+  "start": 2003,
+  "body": "Compact 4-door sedan",
+  "engine": "1.8-liter 4-cylinder; 170-hp 1.8-liter in the XRS",
+  "country": "Japan, United States and Canada",
+  "quick": "The ninth Corolla, 2003–2008: bigger than the Japanese version, with a 170-hp XRS, and the first Corolla to sell more than 300,000 a year in America.",
+  "articles": [
+   "industry-brief-2026-11-02",
+   "the-car-that-carried-the-world",
+   "the-prius-paradox"
+  ],
+  "latest": "2026-11-02",
+  "ownDates": [],
+  "dates": [
+   "2026-11-02",
+   "2026-10-05"
+  ],
+  "drive": "Front-wheel drive",
+  "gearbox": "5-speed manual or 4-speed automatic; 6-speed manual (XRS)",
+  "specsFor": "2003 Toyota Corolla LE, 1.8-liter, 5-speed manual, US market (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d295"
+  },
+  "hp": 130,
+  "kg": 1184,
+  "kgNote": "Curb weight, 2003 LE",
+  "lbs": 2610,
+  "z60": {
+   "sec": 8.2,
+   "kind": "tested",
+   "note": "Car and Driver test, 2003 LE"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 31,
+   "city": 28,
+   "hwy": 36,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2003, 5-speed manual"
+  },
+  "built": {
+   "count": 2109713,
+   "approx": true,
+   "note": "Sold in the US, 2003–2008"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "toyota-corolla-e110",
+   "name": "Toyota Corolla (E110)"
+  },
+  "next": {
+   "id": "toyota-corolla-e140",
+   "name": "Toyota Corolla (E140)"
+  },
+  "photo": null
+ },
+ {
+  "id": "toyota-corolla-e140",
+  "name": "Toyota Corolla (E140)",
+  "aka": [
+   "2009–2013 Corolla",
+   "Corolla XRS",
+   "Corolla S",
+   "Corolla LE",
+   "E140"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "2009–2013",
+  "start": 2009,
+  "body": "Compact 4-door sedan",
+  "engine": "1.8-liter or 2.4-liter (XRS) 4-cylinder",
+  "country": "Japan, United States and Canada",
+  "quick": "The tenth Corolla, 2009–2013: a sedan styled like a small Camry, with electric power steering and a 158-hp 2.4-liter XRS.",
+  "articles": [
+   "industry-brief-2026-11-02",
+   "the-car-that-carried-the-world",
+   "the-prius-paradox"
+  ],
+  "latest": "2026-11-02",
+  "ownDates": [],
+  "dates": [
+   "2026-11-02",
+   "2026-10-05"
+  ],
+  "drive": "Front-wheel drive",
+  "gearbox": "5-speed manual, 4-speed or 5-speed automatic",
+  "specsFor": "2009 Toyota Corolla, 1.8-liter, 5-speed manual, US market (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d295"
+  },
+  "hp": 132,
+  "kg": 1270,
+  "kgNote": "Curb weight, 2009 sedan",
+  "lbs": 2800,
+  "z60": {
+   "sec": 8.6,
+   "kind": "tested",
+   "note": "Car and Driver test, 2009 sedan"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 30,
+   "city": 26,
+   "hwy": 35,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2009 1.8-liter, 5-speed manual"
+  },
+  "built": {
+   "count": 1396342,
+   "approx": true,
+   "note": "Sold in the US, 2009–2013"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "toyota-corolla-e120",
+   "name": "Toyota Corolla (E120)"
+  },
+  "next": {
+   "id": "toyota-corolla-e170",
+   "name": "Toyota Corolla (E170)"
+  },
+  "photo": null
+ },
+ {
   "id": "toyota-corolla-e170",
   "name": "Toyota Corolla (E170)",
   "aka": [],
@@ -7542,7 +8191,7 @@ const CARS_INDEX = [
   },
   "alongside": [],
   "prev": {
-   "id": null,
+   "id": "toyota-corolla-e140",
    "name": "Toyota Corolla (E140)"
   },
   "next": {

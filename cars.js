@@ -8859,6 +8859,855 @@ const CARS = [
     }
   },
   {
+    "id": "toyota-corolla-e10",
+    "name": "Toyota Corolla (E10)",
+    "aka": [
+      "1968–1970 Corolla",
+      "Corolla 1100",
+      "Corolla Sprinter",
+      "E10"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "1968–1970",
+    "start": 1968,
+    "end": 1970,
+    "shop": {
+      "cargurus": "d295"
+    },
+    "body": "Subcompact 2-door and 4-door sedan, fastback coupe and wagon",
+    "engine": "1.1-liter or 1.2-liter 4-cylinder",
+    "drive": "Rear-wheel drive",
+    "gearbox": "4-speed manual or automatic",
+    "specsFor": "1968 Toyota Corolla Sprinter coupe, 1.1-liter, 4-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 60,
+      "note": "1.1-liter 4-cylinder, US version (1.2-liter: 65 hp)",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Corolla_(E10)"
+    },
+    "weight": {
+      "kg": 699,
+      "lb": 1540,
+      "note": "Curb weight, 1968 Sprinter coupe",
+      "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
+    },
+    "zero60": {
+      "sec": 17.0,
+      "kind": "tested",
+      "note": "Car and Driver test, 1968 Sprinter coupe",
+      "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "na": "No complete US sales total on record"
+    },
+    "predecessor": null,
+    "successor": {
+      "name": "Toyota Corolla (E20)",
+      "id": "toyota-corolla-e20"
+    },
+    "quick": "The first Corolla, sold in America from 1968 to 1970: a small, simple rear-wheel-drive car, launched in Japan in 1966, that started the best-selling nameplate in history.",
+    "story": [
+      "Toyota launched the Corolla in Japan in November 1966, selling it through a new dealer network named after the car, Toyota Corolla Store. It was a small rear-wheel-drive car with a 1.1-liter 4-cylinder, offered as a 2-door or 4-door sedan, a wagon and, from 1968, a fastback Corolla Sprinter coupe. Exports to the United States began in March 1968.",
+      "American cars had a 60-hp 1.1-liter at first and later a 65-hp 1.2-liter, and Car and Driver ran a 1968 Sprinter coupe to 60 mph in 17.0 seconds. A small number were assembled in Nova Scotia by Canadian Motor Industries from 1969, but they cost more than imported cars and were built less well. The Corolla went on to become the best-selling car nameplate of all time, passing the Volkswagen Beetle in 1997, with more than 54 million sold by early 2026."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Corolla"
+    ]
+  },
+  {
+    "id": "toyota-corolla-e20",
+    "name": "Toyota Corolla (E20)",
+    "aka": [
+      "1971–1974 Corolla",
+      "Corolla 1600",
+      "Corolla SR-5",
+      "E20"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "1971–1974",
+    "start": 1971,
+    "end": 1974,
+    "shop": {
+      "cargurus": "d295"
+    },
+    "body": "Subcompact sedan, coupe and wagon",
+    "engine": "1.2-liter or 1.6-liter 4-cylinder",
+    "drive": "Rear-wheel drive",
+    "gearbox": "4-speed or 5-speed manual, 2-speed or 3-speed automatic",
+    "specsFor": "1971 Toyota Corolla 1600 coupe, 4-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 102,
+      "note": "Optional 1.6-liter 4-cylinder, SAE gross rating",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Corolla_(E20)"
+    },
+    "weight": {
+      "kg": 930,
+      "lb": 2050,
+      "note": "Curb weight, 1971 1600 coupe",
+      "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
+    },
+    "zero60": {
+      "sec": 11.4,
+      "kind": "tested",
+      "note": "Car and Driver test, 1971 1600 coupe",
+      "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "na": "No complete US sales total on record"
+    },
+    "predecessor": {
+      "name": "Toyota Corolla (E10)",
+      "id": "toyota-corolla-e10"
+    },
+    "successor": {
+      "name": "Toyota Corolla (E30)",
+      "id": "toyota-corolla-e30"
+    },
+    "quick": "The second Corolla, 1971–1974: bigger and curvier, with an optional 1.6-liter and, from 1972, 5-speed SR-5 coupes.",
+    "story": [
+      "Launched in May 1970, the second Corolla had Coke-bottle styling, a longer 2,335-mm (91.9-in) wheelbase and better front suspension with an anti-roll bar, and it was the second-best-selling car in the world that year. Most body styles came to the United States, where an optional 1.6-liter rated at 102 hp (SAE gross) arrived in September 1970; Car and Driver timed a 1971 1600 coupe to 60 mph in 11.4 seconds.",
+      "Buyers chose a 4-speed manual or a 2-speed or 3-speed automatic until the sporty 5-speed S-5 and SR-5 coupes arrived in 1972, and in 1974 Car and Driver entered an SR-5 in SCCA racing. Japan's twin-cam Levin never came to America."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Corolla"
+    ]
+  },
+  {
+    "id": "toyota-corolla-e30",
+    "name": "Toyota Corolla (E30)",
+    "aka": [
+      "1975–1979 Corolla",
+      "Corolla SR5",
+      "Corolla Liftback",
+      "E30",
+      "E50"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "1975–1979",
+    "start": 1975,
+    "end": 1979,
+    "shop": {
+      "cargurus": "d295"
+    },
+    "body": "Subcompact sedan, hardtop coupe, sport coupe, 3-door liftback and wagon",
+    "engine": "1.6-liter 4-cylinder",
+    "drive": "Rear-wheel drive",
+    "gearbox": "4-speed or 5-speed manual or automatic",
+    "specsFor": "1975 Toyota Corolla SR-5 coupe, 1.6-liter, 5-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 75,
+      "note": "1.6-liter 4-cylinder, US version",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Corolla_(E30)"
+    },
+    "weight": {
+      "kg": 953,
+      "lb": 2100,
+      "note": "Curb weight, 1976 SR-5 liftback",
+      "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
+    },
+    "zero60": {
+      "sec": 13.9,
+      "kind": "tested",
+      "note": "Car and Driver test, 1975 SR-5 coupe",
+      "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "count": 1067695,
+      "approx": true,
+      "note": "Sold in the US, 1975–1979",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Corolla"
+    },
+    "predecessor": {
+      "name": "Toyota Corolla (E20)",
+      "id": "toyota-corolla-e20"
+    },
+    "successor": {
+      "name": "Toyota Corolla (E70)",
+      "id": "toyota-corolla-e70"
+    },
+    "quick": "The third Corolla, 1975–1979: the generation behind Toyota's biggest growth in America after the fuel crisis, with SR5 coupes and liftbacks.",
+    "story": [
+      "Built from August 1974 to July 1981, the third Corolla arrived in North America in late 1974 as a 1975 model and marked Toyota's greatest growth in the US after the fuel crisis. American cars had a 75-hp 1.6-liter 4-cylinder and came as 2-door and 4-door sedans, a wagon, a hardtop coupe, a sport coupe and a 3-door liftback, with SR5 versions of the sporty ones. Car and Driver timed a 1975 SR-5 coupe to 60 mph in 13.9 seconds.",
+      "It was the longest-lived Corolla generation, partly because of the 1970s recession, and Toyota used it to try out cleaner engines, with lean-burn and catalytic-converter systems. US sales grew from about 151,000 in 1975 to more than 257,000 in 1979, about 1.07 million in all."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Corolla"
+    ]
+  },
+  {
+    "id": "toyota-corolla-e70",
+    "name": "Toyota Corolla (E70)",
+    "aka": [
+      "1980–1983 Corolla",
+      "Corolla SR-5",
+      "Corolla Hardtop",
+      "E70"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "1980–1983",
+    "start": 1980,
+    "end": 1983,
+    "shop": {
+      "cargurus": "d295"
+    },
+    "body": "Subcompact sedan, hardtop, coupe, liftback and wagon",
+    "engine": "1.8-liter or 1.6-liter 4-cylinder",
+    "drive": "Rear-wheel drive",
+    "gearbox": "5-speed manual or automatic",
+    "specsFor": "1982 Toyota Corolla SR-5 liftback, 1.8-liter, 5-speed manual, US market (Motor Trend test)",
+    "power": {
+      "hp": 75,
+      "note": "1.8-liter 4-cylinder, US version (1.6-liter: 90 hp)",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Corolla_(E70)"
+    },
+    "weight": {
+      "kg": 998,
+      "lb": 2200,
+      "note": "Curb weight, 1982 SR-5 liftback",
+      "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
+    },
+    "zero60": {
+      "sec": 13.4,
+      "kind": "tested",
+      "note": "Motor Trend test, 1982 SR-5 liftback",
+      "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "na": "No complete US sales total on record"
+    },
+    "predecessor": {
+      "name": "Toyota Corolla (E30)",
+      "id": "toyota-corolla-e30"
+    },
+    "successor": {
+      "name": "Toyota Corolla (E80)",
+      "id": "toyota-corolla-e80"
+    },
+    "quick": "The fourth Corolla, 1980–1983: the last all-rear-wheel-drive Corolla, with a 1.8-liter engine and some of the last true pillarless hardtops sold in America.",
+    "story": [
+      "Released in Japan in March 1979, with exports from August, the fourth Corolla was the last generation built entirely with rear-wheel drive. In 1980 Corolla production averaged 2,346 cars a day, an all-time high. American cars used a 75-hp 1.8-liter 4-cylinder, later joined by a 90-hp 1.6-liter, and Motor Trend timed a 1982 SR-5 liftback to 60 mph in 13.4 seconds.",
+      "The Hardtop and Liftback were among the last true pillarless hardtops sold in the US, and they wore the same styled steel wheels as the 1974–1975 Celica GT. The wagon and van carried on in some markets until late 1987, long after the sedans had switched to front-wheel drive."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Corolla"
+    ]
+  },
+  {
+    "id": "toyota-corolla-e80",
+    "name": "Toyota Corolla (E80)",
+    "aka": [
+      "1984–1987 Corolla",
+      "Corolla GT-S",
+      "Corolla SR-5",
+      "AE86",
+      "Corolla FX16",
+      "E80"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan and United States",
+    "years": "1984–1987",
+    "start": 1984,
+    "end": 1987,
+    "shop": {
+      "cargurus": "d295"
+    },
+    "body": "Compact sedan and hatchback (front-wheel drive); coupe and liftback (rear-wheel drive)",
+    "engine": "1.6-liter 4-cylinder; twin-cam 1.6-liter in the GT-S and FX16",
+    "drive": "Front-wheel drive; coupes rear-wheel drive",
+    "gearbox": "5-speed manual or automatic",
+    "specsFor": "1987 Toyota Corolla FX16 GT-S hatchback, twin-cam 1.6-liter, 5-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 112,
+      "note": "Twin-cam 1.6-liter 4-cylinder, US version",
+      "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
+    },
+    "weight": {
+      "kg": 991,
+      "lb": 2185,
+      "note": "Curb weight, 1987 FX16 GT-S",
+      "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
+    },
+    "zero60": {
+      "sec": 9.8,
+      "kind": "tested",
+      "note": "Car and Driver test, 1987 FX16 GT-S",
+      "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 24,
+      "city": 22,
+      "hwy": 27,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/3142.shtml",
+      "note": "EPA combined, 1987 FX16, 5-speed manual"
+    },
+    "built": {
+      "na": "No complete US sales total on record"
+    },
+    "versions": [
+      {
+        "name": "Twin-cam 1.6-liter",
+        "detail": "GT-S coupe and FX16 hatchback"
+      },
+      {
+        "name": "1.6-liter",
+        "detail": "Front-wheel-drive sedan",
+        "specsFor": "1984 Toyota Corolla sedan, 1.6-liter, 5-speed manual, US market",
+        "power": {
+          "na": "No figure on record"
+        },
+        "weight": {
+          "na": "No figure on record"
+        },
+        "zero60": {
+          "na": "No test on record"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 29,
+          "city": 26,
+          "hwy": 33,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/26912.shtml",
+          "note": "EPA combined, 1984 1.6-liter, 5-speed manual"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Toyota Corolla (E70)",
+      "id": "toyota-corolla-e70"
+    },
+    "successor": {
+      "name": "Toyota Corolla (E90)",
+      "id": "toyota-corolla-e90"
+    },
+    "quick": "The fifth Corolla, 1984–1987: front-wheel drive at last for the sedans, with a rear-drive GT-S coupe whose twin-cam AE86 later became a drifting legend.",
+    "story": [
+      "The fifth Corolla, launched in Japan in May 1983, moved the sedans and hatchbacks to front-wheel drive on a 2,430-mm (95.7-in) wheelbase, while the coupes stayed rear-wheel drive. Toyota built about 3.3 million. In a joint venture with General Motors, the NUMMI plant in Fremont, California, built a lightly restyled sedan sold as the Chevrolet Nova from 1985, and later Toyota-badged Corollas and the FX hatchback.",
+      "The twin-cam 16-valve 1.6-liter added in 1983 turned the rear-drive coupes into something close to sports cars. In America they were the SR-5 and GT-S, the cars the world now knows as the AE86, which became a star of drifting and club racing. The same engine went into the front-drive FX16 hatchback, and Car and Driver ran a 1987 FX16 GT-S to 60 mph in 9.8 seconds."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Corolla"
+    ]
+  },
+  {
+    "id": "toyota-corolla-e90",
+    "name": "Toyota Corolla (E90)",
+    "aka": [
+      "1988–1992 Corolla",
+      "Corolla GT-S",
+      "Corolla All-Trac",
+      "E90"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan, United States and Canada",
+    "years": "1988–1992",
+    "start": 1988,
+    "end": 1992,
+    "shop": {
+      "cargurus": "d295"
+    },
+    "body": "Compact sedan, wagon and coupe",
+    "engine": "1.6-liter 4-cylinder; twin-cam 1.6-liter in the GT-S",
+    "drive": "Front-wheel drive; All-Trac 4-wheel drive (wagon)",
+    "gearbox": "5-speed manual or automatic",
+    "specsFor": "1988 Toyota Corolla sedan, 1.6-liter, 5-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 102,
+      "note": "1.6-liter 4-cylinder",
+      "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
+    },
+    "weight": {
+      "kg": 1066,
+      "lb": 2350,
+      "note": "Curb weight, 1988 sedan",
+      "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
+    },
+    "zero60": {
+      "sec": 11.3,
+      "kind": "tested",
+      "note": "Car and Driver test, 1988 sedan",
+      "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 28,
+      "city": 26,
+      "hwy": 32,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/4341.shtml",
+      "note": "EPA combined, 1988 1.6-liter, 5-speed manual"
+    },
+    "built": {
+      "count": 1040064,
+      "approx": true,
+      "note": "Sold in the US, 1988–1992",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Corolla"
+    },
+    "predecessor": {
+      "name": "Toyota Corolla (E80)",
+      "id": "toyota-corolla-e80"
+    },
+    "successor": {
+      "name": "Toyota Corolla (E100)",
+      "id": "toyota-corolla-e100"
+    },
+    "quick": "The sixth Corolla, 1988–1992: rounder and sleeker, built in California and Ontario, with an All-Trac 4-wheel-drive wagon and a sporty GT-S coupe.",
+    "story": [
+      "The sixth Corolla went on sale in North America for 1988 with smoother, more aerodynamic styling than the boxy car before it. Sedans were built at NUMMI in California and in Cambridge, Ontario, and General Motors sold its own version as the Geo Prizm. Car and Driver timed a 1988 sedan with the 5-speed to 60 mph in 11.3 seconds.",
+      "The range included a wagon that could be had with All-Trac 4-wheel drive and a GT-S coupe with a twin-cam engine. NUMMI had built the FX hatchback before, but it never sold well in the US, so the plant switched to sedans. Americans bought about 1.04 million."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Corolla"
+    ]
+  },
+  {
+    "id": "toyota-corolla-e100",
+    "name": "Toyota Corolla (E100)",
+    "aka": [
+      "1993–1997 Corolla",
+      "Corolla DX",
+      "Corolla LE",
+      "Corolla wagon",
+      "E100"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan, United States and Canada",
+    "years": "1993–1997",
+    "start": 1993,
+    "end": 1997,
+    "shop": {
+      "cargurus": "d295"
+    },
+    "body": "Compact 4-door sedan and wagon",
+    "engine": "1.6-liter or 1.8-liter 4-cylinder",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual, 3-speed or 4-speed automatic",
+    "specsFor": "1993 Toyota Corolla DX wagon, 1.8-liter, automatic, US market (Car and Driver test)",
+    "power": {
+      "hp": 115,
+      "note": "1.8-liter 4-cylinder, 1993–1994 (105 hp after)",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Corolla_(E100)"
+    },
+    "weight": {
+      "kg": 1111,
+      "lb": 2450,
+      "note": "Curb weight, 1993 DX wagon",
+      "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
+    },
+    "zero60": {
+      "sec": 10.3,
+      "kind": "tested",
+      "note": "Car and Driver test, 1993 DX wagon, automatic",
+      "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 25,
+      "city": 23,
+      "hwy": 30,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/10005.shtml",
+      "note": "EPA combined, 1993 1.8-liter sedan, automatic"
+    },
+    "built": {
+      "count": 1045824,
+      "approx": true,
+      "note": "Sold in the US, 1993–1997",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Corolla"
+    },
+    "predecessor": {
+      "name": "Toyota Corolla (E90)",
+      "id": "toyota-corolla-e90"
+    },
+    "successor": {
+      "name": "Toyota Corolla (E110)",
+      "id": "toyota-corolla-e110"
+    },
+    "quick": "The seventh Corolla, 1993–1997: a bigger, more refined sedan and wagon with a 1.8-liter, and no coupe.",
+    "story": [
+      "New in North America for 1993, the seventh Corolla came as a sedan and a wagon, with fully independent suspension and front disc brakes. The base car had a 1.6-liter, while the DX, LE and wagon got a 1.8-liter rated at 115 hp in 1993 and 1994 and 105 hp after that; Car and Driver ran a 1993 DX wagon to 60 mph in 10.3 seconds.",
+      "The sport coupe and the All-Trac wagon were dropped, with the smaller Paseo taking the coupe's place. US sales held above 190,000 a year, about 1.05 million in all."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Corolla"
+    ]
+  },
+  {
+    "id": "toyota-corolla-e110",
+    "name": "Toyota Corolla (E110)",
+    "aka": [
+      "1998–2002 Corolla",
+      "Corolla LE",
+      "Corolla S",
+      "E110"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "United States and Canada",
+    "years": "1998–2002",
+    "start": 1998,
+    "end": 2002,
+    "shop": {
+      "cargurus": "d295"
+    },
+    "body": "Compact 4-door sedan",
+    "engine": "1.8-liter 4-cylinder",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual, 3-speed or 4-speed automatic",
+    "specsFor": "1998 Toyota Corolla LE, 1.8-liter, automatic, US market (Motor Trend test)",
+    "power": {
+      "hp": 120,
+      "note": "1.8-liter 4-cylinder (125 hp later)",
+      "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
+    },
+    "weight": {
+      "kg": 1143,
+      "lb": 2520,
+      "note": "Curb weight, 1998 LE",
+      "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
+    },
+    "zero60": {
+      "sec": 10.3,
+      "kind": "tested",
+      "note": "Motor Trend test, 1998 LE, automatic",
+      "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 28,
+      "city": 25,
+      "hwy": 33,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/14264.shtml",
+      "note": "EPA combined, 1998, 4-speed automatic"
+    },
+    "built": {
+      "count": 1229168,
+      "approx": true,
+      "note": "Sold in the US, 1998–2002",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Corolla"
+    },
+    "predecessor": {
+      "name": "Toyota Corolla (E100)",
+      "id": "toyota-corolla-e100"
+    },
+    "successor": {
+      "name": "Toyota Corolla (E120)",
+      "id": "toyota-corolla-e120"
+    },
+    "quick": "The eighth Corolla, 1998–2002: sedan only in America, built in North America, with a new all-aluminum 1.8-liter.",
+    "story": [
+      "Introduced in 1997 as a 1998 model, the North American Corolla came only as a sedan, built at NUMMI in Fremont, California, or at Toyota's plant in Cambridge, Ontario, and every one had daytime running lights. A new all-aluminum 1.8-liter made it lighter than the car before. It made 120 hp at first, and Motor Trend timed a 1998 LE automatic to 60 mph in 10.3 seconds.",
+      "Early engines, built before variable valve timing was added, used a piston-ring design that left some of them burning oil. US sales passed 250,000 in 1998 and 2002, about 1.23 million in all."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Corolla"
+    ]
+  },
+  {
+    "id": "toyota-corolla-e120",
+    "name": "Toyota Corolla (E120)",
+    "aka": [
+      "2003–2008 Corolla",
+      "Corolla XRS",
+      "Corolla S",
+      "Corolla LE",
+      "E120"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan, United States and Canada",
+    "years": "2003–2008",
+    "start": 2003,
+    "end": 2008,
+    "shop": {
+      "cargurus": "d295"
+    },
+    "body": "Compact 4-door sedan",
+    "engine": "1.8-liter 4-cylinder; 170-hp 1.8-liter in the XRS",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual or 4-speed automatic; 6-speed manual (XRS)",
+    "specsFor": "2003 Toyota Corolla LE, 1.8-liter, 5-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 130,
+      "note": "1.8-liter 4-cylinder",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Corolla_(E120)"
+    },
+    "weight": {
+      "kg": 1184,
+      "lb": 2610,
+      "note": "Curb weight, 2003 LE",
+      "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
+    },
+    "zero60": {
+      "sec": 8.2,
+      "kind": "tested",
+      "note": "Car and Driver test, 2003 LE",
+      "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 31,
+      "city": 28,
+      "hwy": 36,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/18605.shtml",
+      "note": "EPA combined, 2003, 5-speed manual"
+    },
+    "built": {
+      "count": 2109713,
+      "approx": true,
+      "note": "Sold in the US, 2003–2008",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Corolla"
+    },
+    "versions": [
+      {
+        "name": "1.8-liter",
+        "detail": "4-cylinder"
+      },
+      {
+        "name": "XRS",
+        "detail": "High-revving 1.8-liter, 6-speed manual",
+        "specsFor": "2005 Toyota Corolla XRS, 6-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 170,
+          "note": "High-revving 1.8-liter 4-cylinder",
+          "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
+        },
+        "weight": {
+          "kg": 1252,
+          "lb": 2760,
+          "note": "Curb weight, 2005 XRS",
+          "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
+        },
+        "zero60": {
+          "sec": 7.1,
+          "kind": "tested",
+          "note": "Car and Driver test, 2005 XRS",
+          "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 25,
+          "city": 22,
+          "hwy": 31,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/20798.shtml",
+          "note": "EPA combined, 2005 XRS"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Toyota Corolla (E110)",
+      "id": "toyota-corolla-e110"
+    },
+    "successor": {
+      "name": "Toyota Corolla (E140)",
+      "id": "toyota-corolla-e140"
+    },
+    "quick": "The ninth Corolla, 2003–2008: bigger than the Japanese version, with a 170-hp XRS, and the first Corolla to sell more than 300,000 a year in America.",
+    "story": [
+      "Unveiled at the Detroit auto show in January 2002, the North American Corolla for 2003 was bigger than the Japanese car, based on the Corolla Altis sold in Southeast Asia, and it stood taller on 15-inch wheels. The carried-over 1.8-liter now made 130 hp, and Car and Driver timed a 2003 LE manual to 60 mph in 8.2 seconds. A hatchback version became a separate model, the Matrix.",
+      "From 2005 the XRS added a high-revving 170-hp 1.8-liter and a 6-speed manual, good for 7.1 seconds to 60 in Car and Driver's test. US sales passed 300,000 every year of this generation, peaking at about 387,000 in 2006, about 2.11 million in all."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Corolla"
+    ]
+  },
+  {
+    "id": "toyota-corolla-e140",
+    "name": "Toyota Corolla (E140)",
+    "aka": [
+      "2009–2013 Corolla",
+      "Corolla XRS",
+      "Corolla S",
+      "Corolla LE",
+      "E140"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan, United States and Canada",
+    "years": "2009–2013",
+    "start": 2009,
+    "end": 2013,
+    "shop": {
+      "cargurus": "d295"
+    },
+    "body": "Compact 4-door sedan",
+    "engine": "1.8-liter or 2.4-liter (XRS) 4-cylinder",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual, 4-speed or 5-speed automatic",
+    "specsFor": "2009 Toyota Corolla, 1.8-liter, 5-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 132,
+      "note": "1.8-liter 4-cylinder",
+      "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
+    },
+    "weight": {
+      "kg": 1270,
+      "lb": 2800,
+      "note": "Curb weight, 2009 sedan",
+      "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
+    },
+    "zero60": {
+      "sec": 8.6,
+      "kind": "tested",
+      "note": "Car and Driver test, 2009 sedan",
+      "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 30,
+      "city": 26,
+      "hwy": 35,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/25255.shtml",
+      "note": "EPA combined, 2009 1.8-liter, 5-speed manual"
+    },
+    "built": {
+      "count": 1396342,
+      "approx": true,
+      "note": "Sold in the US, 2009–2013",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Corolla"
+    },
+    "versions": [
+      {
+        "name": "1.8-liter",
+        "detail": "4-cylinder"
+      },
+      {
+        "name": "XRS 2.4-liter",
+        "detail": "2.4-liter 4-cylinder",
+        "specsFor": "2009 Toyota Corolla XRS, 5-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 158,
+          "note": "2.4-liter 4-cylinder",
+          "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
+        },
+        "weight": {
+          "kg": 1379,
+          "lb": 3040,
+          "note": "Curb weight, 2009 XRS",
+          "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
+        },
+        "zero60": {
+          "sec": 7.9,
+          "kind": "tested",
+          "note": "Car and Driver test, 2009 XRS",
+          "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 25,
+          "city": 22,
+          "hwy": 30,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/25252.shtml",
+          "note": "EPA combined, 2009 XRS, 5-speed manual"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Toyota Corolla (E120)",
+      "id": "toyota-corolla-e120"
+    },
+    "successor": {
+      "name": "Toyota Corolla (E170)",
+      "id": "toyota-corolla-e170"
+    },
+    "quick": "The tenth Corolla, 2009–2013: a sedan styled like a small Camry, with electric power steering and a 158-hp 2.4-liter XRS.",
+    "story": [
+      "Unveiled at the SEMA show in Las Vegas on October 31, 2007, the tenth Corolla reached US dealers in January 2008 as a 2009 model. It came only as a sedan, styled like a small Camry, with electric power steering, an upgraded suspension and better interior materials. The 1.8-liter made 132 hp, and Car and Driver timed a 2009 sedan with the manual to 60 mph in 8.6 seconds.",
+      "The XRS brought a 158-hp 2.4-liter and ran to 60 in 7.9 seconds, while the Matrix hatchback shared its platform. Reviewers saw it as a careful evolution of a plain, reliable, efficient and inexpensive car. Americans bought about 1.4 million."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Corolla"
+    ]
+  },
+  {
     "id": "toyota-corolla-e170",
     "name": "Toyota Corolla (E170)",
     "aka": [],
@@ -8913,7 +9762,8 @@ const CARS = [
       "src": "https://www.goodcarbadcar.net/toyota-corolla-sales-figures/"
     },
     "predecessor": {
-      "name": "Toyota Corolla (E140)"
+      "name": "Toyota Corolla (E140)",
+      "id": "toyota-corolla-e140"
     },
     "successor": {
       "name": "Toyota Corolla (E210)",

@@ -11721,6 +11721,835 @@ const CARS = [
     }
   },
   {
+    "id": "honda-accord-1st-gen",
+    "name": "Honda Accord (first generation)",
+    "aka": [
+      "1976–1981 Accord",
+      "Accord CVCC",
+      "Accord LX",
+      "Accord SE"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "1976–1981",
+    "start": 1976,
+    "end": 1981,
+    "shop": {
+      "cargurus": "d585"
+    },
+    "body": "Compact 3-door hatchback; 4-door sedan from 1979",
+    "engine": "1.6-liter CVCC 4-cylinder; 1.8-liter CVCC from 1979 (US)",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual or Hondamatic automatic",
+    "specsFor": "1976 Honda Accord CVCC hatchback, 1.6-liter, 5-speed manual, US market (Motor Trend test)",
+    "power": {
+      "hp": 68,
+      "note": "1.6-liter CVCC 4-cylinder, US version",
+      "src": "https://en.wikipedia.org/wiki/Honda_Accord"
+    },
+    "weight": {
+      "kg": 930,
+      "lb": 2050,
+      "note": "Curb weight, 1976 hatchback",
+      "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+    },
+    "zero60": {
+      "sec": 13.8,
+      "kind": "tested",
+      "note": "Motor Trend test, 1976 CVCC hatchback",
+      "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "count": 731927,
+      "approx": true,
+      "note": "Sold in the US, 1976–1981",
+      "src": "https://en.wikipedia.org/wiki/Honda_Accord"
+    },
+    "versions": [
+      {
+        "name": "1.6-liter",
+        "detail": "CVCC 4-cylinder, 1976–1978"
+      },
+      {
+        "name": "1.8-liter",
+        "detail": "CVCC 4-cylinder, 1979–1981",
+        "specsFor": "1979 Honda Accord CVCC sedan, 1.8-liter, 5-speed manual, US market (Road & Track test)",
+        "power": {
+          "hp": 72,
+          "note": "1.8-liter CVCC 4-cylinder, 5-speed manual (75 hp from 1981)",
+          "src": "https://en.wikipedia.org/wiki/Honda_Accord"
+        },
+        "weight": {
+          "kg": 998,
+          "lb": 2200,
+          "note": "Curb weight, 1979 sedan",
+          "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+        },
+        "zero60": {
+          "sec": 12.0,
+          "kind": "tested",
+          "note": "Road & Track test, 1979 CVCC sedan",
+          "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+        },
+        "top": {
+          "na": "No figure on record"
+        },
+        "mpg": {
+          "na": "fueleconomy.gov starts with 1984 models"
+        }
+      }
+    ],
+    "predecessor": null,
+    "successor": {
+      "name": "Honda Accord (second generation)",
+      "id": "honda-accord-2nd-gen"
+    },
+    "quick": "The first Accord, 1976–1981: a small, unusually well-equipped hatchback, then a sedan, that turned Honda from the maker of the Civic into a serious name in American driveways.",
+    "story": [
+      "Honda launched the Accord in May 1976 as a 3-door hatchback, a step up from the Civic. North American cars made 68 hp from a 1.6-liter 4-cylinder with Honda's CVCC cylinder head, which met tightening emissions rules, and the car weighed about 900 kg. Buyers got things other small imports charged extra for: cloth seats, a tachometer, intermittent wipers and an AM/FM radio. That, and its fuel economy, made it an easy sell in the years after the oil crisis.",
+      "An LX hatchback added air conditioning, power steering and a digital clock for 1978, and a 4-door sedan arrived for 1979 with a 1.8-liter engine of 72 hp. A leather-trimmed SE sedan with power windows followed in 1981. Americans bought about 730,000 first-generation Accords, and the next one would be built in Ohio."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Honda Accord"
+    ]
+  },
+  {
+    "id": "honda-accord-2nd-gen",
+    "name": "Honda Accord (second generation)",
+    "aka": [
+      "1982–1985 Accord",
+      "Accord LX",
+      "Accord SE",
+      "Accord SE-i"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan and United States",
+    "years": "1982–1985",
+    "start": 1982,
+    "end": 1985,
+    "shop": {
+      "cargurus": "d585"
+    },
+    "body": "Compact 3-door hatchback and 4-door sedan",
+    "engine": "1.8-liter CVCC 4-cylinder (12-valve from 1984)",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual or automatic (4-speed from 1984)",
+    "specsFor": "1984 Honda Accord, 1.8-liter 12-valve, 5-speed manual, US market",
+    "power": {
+      "hp": 86,
+      "note": "1.8-liter 12-valve 4-cylinder, 1984–1985, federal version",
+      "src": "https://en.wikipedia.org/wiki/Honda_Accord"
+    },
+    "weight": {
+      "na": "No figure on record"
+    },
+    "zero60": {
+      "na": "No test on record"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "combined": 28,
+      "city": 25,
+      "hwy": 32,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/26683.shtml",
+      "note": "EPA combined, 1984, 5-speed manual"
+    },
+    "built": {
+      "count": 942731,
+      "approx": true,
+      "note": "Sold in the US, 1982–1985",
+      "src": "https://en.wikipedia.org/wiki/Honda_Accord"
+    },
+    "predecessor": {
+      "name": "Honda Accord (first generation)",
+      "id": "honda-accord-1st-gen"
+    },
+    "successor": {
+      "name": "Honda Accord (third generation)",
+      "id": "honda-accord-3rd-gen"
+    },
+    "quick": "The second-generation Accord, 1982–1985: the first car a Japanese company built in the United States, made at Honda's plant in Marysville, Ohio, from late 1982.",
+    "story": [
+      "Honda revealed the second Accord in September 1981. It was roomier and more modern than the first but mechanically close to it, still with a carbureted 1.8-liter CVCC engine. From late 1982 it was also built at Honda's new plant in Marysville, Ohio, the first car a Japanese maker built in America, and by 1983 the Ohio cars were judged as good as those from Japan. It became the best-selling Japanese nameplate in the US, a title the Accord kept for about 15 years.",
+      "A facelift for 1984 brought a sloping nose and a 12-valve 1.8-liter with 86 hp in US form, and the leather-lined SE sedan carried on. In Japan, Honda offered the Electro Gyrocator, an early navigation system that tracked the car's position with a gyroscope instead of satellites. Supply was tight in the eastern US, where buyers waited months for popular colors, and Americans bought about 943,000 in all."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Honda Accord"
+    ]
+  },
+  {
+    "id": "honda-accord-3rd-gen",
+    "name": "Honda Accord (third generation)",
+    "aka": [
+      "1986–1989 Accord",
+      "Accord LXi",
+      "Accord SE-i",
+      "Accord Coupe"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan and United States",
+    "years": "1986–1989",
+    "start": 1986,
+    "end": 1989,
+    "shop": {
+      "cargurus": "d585"
+    },
+    "body": "Compact 4-door sedan and 3-door hatchback; 2-door coupe from 1988",
+    "engine": "2.0-liter 4-cylinder, carbureted or fuel-injected",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual or 4-speed automatic",
+    "specsFor": "1989 Honda Accord LXi coupe, fuel-injected 2.0-liter, automatic, US market (MotorWeek test)",
+    "power": {
+      "hp": 120,
+      "note": "Fuel-injected 2.0-liter 4-cylinder, 1988–1989 LXi",
+      "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+    },
+    "weight": {
+      "kg": 1311,
+      "lb": 2890,
+      "note": "Curb weight, 1989 LXi coupe",
+      "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+    },
+    "zero60": {
+      "sec": 11.4,
+      "kind": "tested",
+      "note": "MotorWeek test, 1989 LXi coupe, automatic",
+      "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "combined": 22,
+      "city": 19,
+      "hwy": 26,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/5557.shtml",
+      "note": "EPA combined, 1989 fuel-injected, automatic (manual: 24 mpg)"
+    },
+    "built": {
+      "count": 1385250,
+      "approx": true,
+      "note": "Sold in the US, 1986–1989",
+      "src": "https://en.wikipedia.org/wiki/Honda_Accord"
+    },
+    "predecessor": {
+      "name": "Honda Accord (second generation)",
+      "id": "honda-accord-2nd-gen"
+    },
+    "successor": {
+      "name": "Honda Accord (fourth generation)",
+      "id": "honda-accord-4th-gen"
+    },
+    "quick": "The third-generation Accord, 1986–1989: pop-up headlights, double wishbones at all 4 corners, and a coupe built only in Ohio and shipped back to Japan.",
+    "story": [
+      "Introduced in June 1985, the third Accord was lower and sleeker, with hidden headlights on US cars, and it won Japan's Car of the Year. Under the skin it was the first Honda with double-wishbone suspension front and rear, hardware usually kept for sports cars. US buyers got a 2.0-liter 4-cylinder, carbureted in the DX and LX and fuel-injected in the LXi.",
+      "For 1988 Honda added a 2-door coupe that was built only in Marysville and exported to Japan, an American-made Honda sold in Honda's home market. By 1989 the fuel-injected engine made 120 hp, and the leather-trimmed SE-i returned for that final year. US sales passed 360,000 a year by the end of the run, about 1.39 million in all."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Honda Accord"
+    ]
+  },
+  {
+    "id": "honda-accord-4th-gen",
+    "name": "Honda Accord (fourth generation)",
+    "aka": [
+      "1990–1993 Accord",
+      "Accord EX",
+      "Accord SE",
+      "Accord Wagon"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan and United States",
+    "years": "1990–1993",
+    "start": 1990,
+    "end": 1993,
+    "shop": {
+      "cargurus": "d585"
+    },
+    "body": "4-door sedan and 2-door coupe; 5-door wagon from 1991",
+    "engine": "2.2-liter 16-valve 4-cylinder",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual or 4-speed automatic",
+    "specsFor": "1990 Honda Accord EX sedan, 5-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 125,
+      "note": "2.2-liter 4-cylinder, DX and LX (EX: 130 hp for 1990–1991, 140 hp for 1992–1993)",
+      "src": "https://en.wikipedia.org/wiki/Honda_Accord"
+    },
+    "weight": {
+      "kg": 1302,
+      "lb": 2870,
+      "note": "Curb weight, 1990 EX sedan",
+      "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+    },
+    "zero60": {
+      "sec": 9.7,
+      "kind": "tested",
+      "note": "Car and Driver test, 1990 EX sedan",
+      "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 23,
+      "city": 21,
+      "hwy": 27,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/6689.shtml",
+      "note": "EPA combined, 1990, 5-speed manual"
+    },
+    "built": {
+      "count": 1539983,
+      "approx": true,
+      "note": "Sold in the US, 1990–1993",
+      "src": "https://en.wikipedia.org/wiki/Honda_Accord"
+    },
+    "predecessor": {
+      "name": "Honda Accord (third generation)",
+      "id": "honda-accord-3rd-gen"
+    },
+    "successor": {
+      "name": "Honda Accord (fifth generation)",
+      "id": "honda-accord-5th-gen"
+    },
+    "quick": "The fourth-generation Accord, 1990–1993: bigger and smoother, with a fuel-injected 2.2-liter in every US car and, from 1991, a wagon built in Ohio.",
+    "story": [
+      "The 1990 Accord grew to almost the size of Honda's first Legend while keeping the low, wide look of the car before it. Every US model now had fuel injection, from an all-aluminum, 16-valve 2.2-liter that made 125 hp in the DX and LX and 130 hp in the EX, rising to 140 hp for 1992. Car and Driver timed a 1990 EX with the manual to 60 mph in 9.7 seconds.",
+      "A wagon joined the sedan and coupe for 1991, built in Marysville, and the Ohio plant shipped right-hand-drive wagons and coupes to Japan and Europe. Early cars wore motorized front seatbelts to meet passive-restraint rules. This was the Accord at its American peak: more than 417,000 sold in 1990 alone, and about 1.54 million over 4 years."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Honda Accord"
+    ]
+  },
+  {
+    "id": "honda-accord-5th-gen",
+    "name": "Honda Accord (fifth generation)",
+    "aka": [
+      "1994–1997 Accord",
+      "Accord EX",
+      "Accord V6",
+      "Accord Wagon"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan and United States",
+    "years": "1994–1997",
+    "start": 1994,
+    "end": 1997,
+    "shop": {
+      "cargurus": "d585"
+    },
+    "body": "4-door sedan, 2-door coupe and 5-door wagon",
+    "engine": "2.2-liter 4-cylinder (VTEC in the EX); 2.7-liter V6 from 1995",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual or 4-speed automatic (V6: automatic only)",
+    "specsFor": "1994 Honda Accord EX sedan, VTEC, automatic, US market (Motor Trend test)",
+    "power": {
+      "hp": 145,
+      "note": "2.2-liter VTEC 4-cylinder, EX",
+      "src": "https://en.wikipedia.org/wiki/Honda_Accord"
+    },
+    "weight": {
+      "kg": 1397,
+      "lb": 3080,
+      "note": "Curb weight, 1994 EX sedan",
+      "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+    },
+    "zero60": {
+      "sec": 9.4,
+      "kind": "tested",
+      "note": "Motor Trend test, 1994 EX sedan, automatic",
+      "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 23,
+      "city": 20,
+      "hwy": 27,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/10904.shtml",
+      "note": "EPA combined, 1994 VTEC, automatic"
+    },
+    "built": {
+      "count": 1475906,
+      "approx": true,
+      "note": "Sold in the US, 1994–1997",
+      "src": "https://en.wikipedia.org/wiki/Honda_Accord"
+    },
+    "versions": [
+      {
+        "name": "2.2-liter",
+        "detail": "4-cylinder, VTEC in the EX"
+      },
+      {
+        "name": "2.7-liter V6",
+        "detail": "1995–1997, automatic",
+        "specsFor": "1995 Honda Accord LX V6 sedan, US market (Motor Trend test)",
+        "power": {
+          "hp": 170,
+          "note": "2.7-liter V6",
+          "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+        },
+        "weight": {
+          "kg": 1497,
+          "lb": 3300,
+          "note": "Curb weight, 1995 LX V6 sedan",
+          "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+        },
+        "zero60": {
+          "sec": 8.5,
+          "kind": "tested",
+          "note": "Motor Trend test, 1995 LX V6 sedan",
+          "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 19,
+          "city": 17,
+          "hwy": 23,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/11855.shtml",
+          "note": "EPA combined, 1995 V6"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Honda Accord (fourth generation)",
+      "id": "honda-accord-4th-gen"
+    },
+    "successor": {
+      "name": "Honda Accord (sixth generation)",
+      "id": "honda-accord-6th-gen"
+    },
+    "quick": "The fifth-generation Accord, 1994–1997: dual airbags as standard, VTEC in the EX and, from 1995, the first V6 Accord.",
+    "story": [
+      "Launched in September 1993 for 1994, the fifth Accord was wider but shorter than the fourth, which made it a midsize car in America and too wide for Japan's favorable tax class. Dual airbags became standard, and the EX's 2.2-liter gained VTEC for 145 hp, with 4-wheel disc brakes and anti-lock brakes to match. It won Japan's Car of the Year for a second time.",
+      "For 1995 Honda added a 170-hp 2.7-liter V6 with an automatic, and Motor Trend timed an LX V6 to 60 mph in 8.5 seconds. Sedan, coupe and wagon all carried on, and in Japan the car was also sold as the Isuzu Aska. Americans bought about 1.48 million over 4 years."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Honda Accord"
+    ]
+  },
+  {
+    "id": "honda-accord-6th-gen",
+    "name": "Honda Accord (sixth generation)",
+    "aka": [
+      "1998–2002 Accord",
+      "Accord EX",
+      "Accord V6",
+      "Accord Coupe"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan and United States",
+    "years": "1998–2002",
+    "start": 1998,
+    "end": 2002,
+    "shop": {
+      "cargurus": "d585"
+    },
+    "body": "4-door sedan and 2-door coupe",
+    "engine": "2.3-liter 4-cylinder (VTEC in the LX and EX); 3.0-liter VTEC V6",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual or 4-speed automatic (V6: automatic only)",
+    "specsFor": "1998 Honda Accord EX coupe, 5-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 150,
+      "note": "2.3-liter VTEC 4-cylinder, LX and EX (DX: 135 hp)",
+      "src": "https://en.wikipedia.org/wiki/Honda_Accord_(sixth_generation)"
+    },
+    "weight": {
+      "kg": 1400,
+      "lb": 3086,
+      "note": "Curb weight, 1998 EX coupe",
+      "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+    },
+    "zero60": {
+      "sec": 8.2,
+      "kind": "tested",
+      "note": "Car and Driver test, 1998 EX coupe",
+      "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 24,
+      "city": 22,
+      "hwy": 28,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/14316.shtml",
+      "note": "EPA combined, 1998 VTEC, 5-speed manual"
+    },
+    "built": {
+      "count": 2023476,
+      "approx": true,
+      "note": "Sold in the US, 1998–2002",
+      "src": "https://en.wikipedia.org/wiki/Honda_Accord"
+    },
+    "versions": [
+      {
+        "name": "2.3-liter",
+        "detail": "4-cylinder, VTEC in the LX and EX"
+      },
+      {
+        "name": "3.0-liter V6",
+        "detail": "VTEC V6, automatic",
+        "specsFor": "1998 Honda Accord LX V6 sedan, US market (Car and Driver test)",
+        "power": {
+          "hp": 200,
+          "note": "3.0-liter VTEC V6",
+          "src": "https://en.wikipedia.org/wiki/Honda_Accord_(sixth_generation)"
+        },
+        "weight": {
+          "kg": 1497,
+          "lb": 3300,
+          "note": "Curb weight, 1998 LX V6 sedan",
+          "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+        },
+        "zero60": {
+          "sec": 7.7,
+          "kind": "tested",
+          "note": "Car and Driver test, 1998 LX V6 sedan",
+          "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 21,
+          "city": 18,
+          "hwy": 26,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/14317.shtml",
+          "note": "EPA combined, 1998 V6"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Honda Accord (fifth generation)",
+      "id": "honda-accord-5th-gen"
+    },
+    "successor": {
+      "name": "Honda Accord (seventh generation)",
+      "id": "honda-accord-7th-gen"
+    },
+    "quick": "The sixth-generation Accord, 1998–2002: split into separate cars for Japan, Europe and North America, with an American-designed coupe and a 200-hp VTEC V6.",
+    "story": [
+      "For the sixth Accord, Honda stopped building one car for everyone and made 3: one each for Japan, Europe and North America. The American coupe was styled in Torrance, California, and engineered at Honda's research center in Ohio. Sedan production began in August 1997, and US customers took their first cars in late September.",
+      "The DX had a 135-hp 2.3-liter, the LX and EX a 150-hp VTEC version, and every V6 car a 3.0-liter VTEC V6 with 200 hp and an automatic. Car and Driver ran an LX V6 sedan to 60 mph in 7.7 seconds. Americans bought more than 400,000 a year, about 2.02 million in all, more than any other Accord generation."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Honda Accord"
+    ]
+  },
+  {
+    "id": "honda-accord-7th-gen",
+    "name": "Honda Accord (seventh generation)",
+    "aka": [
+      "2003–2007 Accord",
+      "Accord EX V6",
+      "Accord Coupe 6-speed",
+      "Accord Hybrid"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan and United States",
+    "years": "2003–2007",
+    "start": 2003,
+    "end": 2007,
+    "shop": {
+      "cargurus": "d585"
+    },
+    "body": "4-door sedan and 2-door coupe",
+    "engine": "2.4-liter i-VTEC 4-cylinder; 3.0-liter V6; 3.0-liter V6 hybrid (2005–2007)",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual or 5-speed automatic; 6-speed manual with the V6",
+    "specsFor": "2003 Honda Accord EX sedan, 5-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 160,
+      "note": "2.4-liter i-VTEC 4-cylinder (166 hp from 2006)",
+      "src": "https://en.wikipedia.org/wiki/Honda_Accord"
+    },
+    "weight": {
+      "kg": 1456,
+      "lb": 3210,
+      "note": "Curb weight, 2003 EX sedan",
+      "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+    },
+    "zero60": {
+      "sec": 7.5,
+      "kind": "tested",
+      "note": "Car and Driver test, 2003 EX sedan",
+      "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 26,
+      "city": 23,
+      "hwy": 31,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/18656.shtml",
+      "note": "EPA combined, 2003, 5-speed manual"
+    },
+    "built": {
+      "count": 1900485,
+      "approx": true,
+      "note": "Sold in the US, 2003–2007",
+      "src": "https://en.wikipedia.org/wiki/Honda_Accord"
+    },
+    "versions": [
+      {
+        "name": "2.4-liter",
+        "detail": "i-VTEC 4-cylinder"
+      },
+      {
+        "name": "3.0-liter V6",
+        "detail": "5-speed automatic or 6-speed manual",
+        "specsFor": "2003 Honda Accord EX V6 sedan, automatic, US market (Car and Driver test)",
+        "power": {
+          "hp": 240,
+          "note": "3.0-liter V6 (244 hp from 2006)",
+          "src": "https://en.wikipedia.org/wiki/Honda_Accord"
+        },
+        "weight": {
+          "kg": 1519,
+          "lb": 3349,
+          "note": "Curb weight, 2003 EX V6 sedan",
+          "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+        },
+        "zero60": {
+          "sec": 7.0,
+          "kind": "tested",
+          "note": "Car and Driver test, 2003 EX V6 sedan, automatic (2004 EX V6 coupe, 6-speed manual: 5.9 sec)",
+          "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 22,
+          "city": 19,
+          "hwy": 27,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/18657.shtml",
+          "note": "EPA combined, 2003 V6, automatic"
+        }
+      },
+      {
+        "name": "Hybrid",
+        "detail": "3.0-liter V6 hybrid, 2005–2007",
+        "specsFor": "2005 Honda Accord Hybrid, US market (Car and Driver test)",
+        "power": {
+          "hp": 255,
+          "note": "Combined system output",
+          "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+        },
+        "weight": {
+          "kg": 1667,
+          "lb": 3675,
+          "note": "Curb weight, 2005 Hybrid",
+          "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+        },
+        "zero60": {
+          "sec": 6.7,
+          "kind": "tested",
+          "note": "Car and Driver test, 2005 Hybrid",
+          "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 28,
+          "city": 25,
+          "hwy": 33,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/21539.shtml",
+          "note": "EPA combined, 2005 Hybrid"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Honda Accord (sixth generation)",
+      "id": "honda-accord-6th-gen"
+    },
+    "successor": {
+      "name": "Honda Accord (eighth generation)",
+      "id": "honda-accord-8th-gen"
+    },
+    "quick": "The seventh-generation Accord, 2003–2007: i-VTEC 4-cylinders, a 240-hp V6 that coupe buyers could pair with a 6-speed manual, and the first Accord Hybrid.",
+    "story": [
+      "The 2003 Accord brought a 2.4-liter i-VTEC 4-cylinder with 160 hp, 166 from 2006, and a 3.0-liter V6 with 240 hp, 244 from 2006. Coupe buyers could pair the V6 with a 6-speed manual, and Car and Driver ran a 2004 EX V6 coupe to 60 mph in 5.9 seconds, more than a second quicker than the automatic. It was also the first Accord with 5 lug nuts on its 4-cylinder models.",
+      "For 2005 Honda added the Accord Hybrid, which teamed the V6 with an electric motor for 255 hp and shut off 3 cylinders when cruising; Car and Driver timed one at 6.7 seconds. It was quick rather than frugal by hybrid standards and left after 2007. Over the generation, Americans bought about 1.9 million Accords."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Honda Accord"
+    ]
+  },
+  {
+    "id": "honda-accord-8th-gen",
+    "name": "Honda Accord (eighth generation)",
+    "aka": [
+      "2008–2012 Accord",
+      "Accord EX-L V6",
+      "Accord Coupe",
+      "Accord Crosstour"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan and United States",
+    "years": "2008–2012",
+    "start": 2008,
+    "end": 2012,
+    "shop": {
+      "cargurus": "d585"
+    },
+    "body": "4-door sedan and 2-door coupe",
+    "engine": "2.4-liter 4-cylinder; 3.5-liter V6",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual or 5-speed automatic; 6-speed manual with the V6 coupe",
+    "specsFor": "2008 Honda Accord EX sedan, automatic, US market (Car and Driver test)",
+    "power": {
+      "hp": 190,
+      "note": "2.4-liter 4-cylinder, EX and coupe (LX: 177 hp)",
+      "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+    },
+    "weight": {
+      "kg": 1465,
+      "lb": 3230,
+      "note": "Curb weight, 2008 EX sedan",
+      "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+    },
+    "zero60": {
+      "sec": 8.2,
+      "kind": "tested",
+      "note": "Car and Driver test, 2008 EX sedan, automatic",
+      "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 24,
+      "city": 21,
+      "hwy": 31,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/24900.shtml",
+      "note": "EPA combined, 2008, automatic"
+    },
+    "built": {
+      "count": 1541723,
+      "approx": true,
+      "note": "Sold in the US, 2008–2012",
+      "src": "https://en.wikipedia.org/wiki/Honda_Accord"
+    },
+    "versions": [
+      {
+        "name": "2.4-liter",
+        "detail": "4-cylinder"
+      },
+      {
+        "name": "3.5-liter V6",
+        "detail": "5-speed automatic or, in the coupe, 6-speed manual",
+        "specsFor": "2011 Honda Accord EX-L V6 sedan, US market (Car and Driver test)",
+        "power": {
+          "hp": 271,
+          "note": "3.5-liter V6, 2011–2012 (268 hp for 2008–2010)",
+          "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+        },
+        "weight": {
+          "kg": 1633,
+          "lb": 3600,
+          "note": "Curb weight, 2011 EX-L V6 sedan",
+          "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+        },
+        "zero60": {
+          "sec": 6.6,
+          "kind": "tested",
+          "note": "Car and Driver test, 2011 EX-L V6 sedan",
+          "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 23,
+          "city": 20,
+          "hwy": 30,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/30686.shtml",
+          "note": "EPA combined, 2011 V6, automatic"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Honda Accord (seventh generation)",
+      "id": "honda-accord-7th-gen"
+    },
+    "successor": {
+      "name": "Honda Accord (ninth generation)",
+      "id": "honda-accord-9th-gen"
+    },
+    "quick": "The eighth-generation Accord, 2008–2012: big enough that the EPA classed the sedan as a full-size car, with a 190-hp 4-cylinder and a 3.5-liter V6.",
+    "story": [
+      "Honda made the 2008 Accord larger again, enough that the EPA classed the sedan as a full-size car, even though Honda said it wasn't chasing size. The 2.4-liter 4-cylinder made 177 hp in the LX and 190 hp in the EX and coupe, and a new 3.5-liter V6 made 268 hp, 271 from 2011.",
+      "Car and Driver timed a 2008 EX automatic to 60 mph in 8.2 seconds and a 2011 EX-L V6 sedan in 6.6. The V6 coupe could still be ordered with a 6-speed manual, and the Crosstour fastback joined the family for 2010. US sales dipped through the recession but still came to about 1.54 million."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Honda Accord"
+    ]
+  },
+  {
     "top": {
       "mph": 127,
       "kind": "tested",
@@ -11821,7 +12650,10 @@ const CARS = [
       "note": "Sold in the US, 2013–2017",
       "src": "https://www.goodcarbadcar.net/honda-accord-sales-figures/"
     },
-    "predecessor": null,
+    "predecessor": {
+      "name": "Honda Accord (eighth generation)",
+      "id": "honda-accord-8th-gen"
+    },
     "successor": {
       "name": "Honda Accord (tenth generation)",
       "id": "honda-accord-10th-gen"

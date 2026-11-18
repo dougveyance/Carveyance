@@ -1,0 +1,325 @@
+{
+ "id": "ford-ranger",
+ "make": "Ford",
+ "model": "Ranger",
+ "years": "2019–2026",
+ "byline": "Diana Chambers",
+ "published": "2026-11-18",
+ "updated": "2026-11-18",
+ "cars": [
+  "ford-ranger-4th-gen",
+  "ford-ranger-5th-gen",
+  "ford-ranger-raptor"
+ ],
+ "shop": {
+  "cargurus": "d354"
+ },
+ "chapters": [
+  "2019-2023",
+  "2024-2026",
+  "raptor",
+  "used-checklist"
+ ],
+ "series": {
+  "a19s": {
+   "name": "XL SuperCab, rear-drive, 2019",
+   "color": "#2E6E96"
+  },
+  "a19f": {
+   "name": "XLT FX4 SuperCrew, 4x4, 2019",
+   "color": "#2E6E96"
+  },
+  "m19r": {
+   "name": "2019–2023, rear-drive",
+   "color": "#2E6E96"
+  },
+  "m19f": {
+   "name": "2019–2023, 4x4",
+   "color": "#2E6E96"
+  },
+  "m21t": {
+   "name": "2021–2023 Tremor",
+   "color": "#2E6E96"
+  },
+  "m24": {
+   "name": "2024–2026 2.3, 4x4",
+   "color": "#e05c2a"
+  },
+  "m27": {
+   "name": "2024–2026 2.7 V6",
+   "color": "#e05c2a"
+  },
+  "mrap": {
+   "name": "Raptor",
+   "color": "#e05c2a"
+  },
+  "b23": {
+   "name": "2.3 Lariat, 4x4, 2024",
+   "color": "#9aa5b1"
+  },
+  "b27": {
+   "name": "2.7 V6 XLT FX4, 2024",
+   "color": "#2E6E96"
+  },
+  "brap": {
+   "name": "Raptor, 2024",
+   "color": "#e05c2a"
+  },
+  "tr": {
+   "name": "2.3 or 2.7, properly equipped",
+   "color": "#2E6E96"
+  },
+  "trap": {
+   "name": "Raptor",
+   "color": "#e05c2a"
+  },
+  "p19": {
+   "name": "2019 XL SuperCab, rear-drive",
+   "color": "#2E6E96"
+  },
+  "p19l": {
+   "name": "2019 Lariat SuperCrew, 4x4",
+   "color": "#2E6E96"
+  },
+  "p24": {
+   "name": "2024 XL",
+   "color": "#e05c2a"
+  },
+  "p24l": {
+   "name": "2024 Lariat",
+   "color": "#e05c2a"
+  },
+  "p24r": {
+   "name": "2024 Raptor",
+   "color": "#e05c2a"
+  }
+ },
+ "charts": {
+  "accel": {
+   "n": 1,
+   "title": "0–60 mph, as tested, 2019",
+   "sub": "Seconds; shorter is quicker.",
+   "source": "Car and Driver tests, via 0-60specs",
+   "bars": [
+    [
+     "a19s",
+     6.0,
+     "6.0 sec"
+    ],
+    [
+     "a19f",
+     6.5,
+     "6.5 sec"
+    ]
+   ]
+  },
+  "mpg": {
+   "n": 2,
+   "title": "EPA combined fuel economy",
+   "sub": "Miles per gallon.",
+   "source": "US EPA, fueleconomy.gov",
+   "bars": [
+    [
+     "m19r",
+     23,
+     "23 mpg"
+    ],
+    [
+     "m19f",
+     22,
+     "22 mpg"
+    ],
+    [
+     "m21t",
+     19,
+     "19 mpg"
+    ],
+    [
+     "m24",
+     22,
+     "22 mpg"
+    ],
+    [
+     "m27",
+     20,
+     "20 mpg"
+    ],
+    [
+     "mrap",
+     17,
+     "17 mpg"
+    ]
+   ]
+  },
+  "accel24": {
+   "n": 3,
+   "title": "0–60 mph, as tested, 2024",
+   "sub": "Seconds; shorter is quicker.",
+   "source": "Car and Driver tests, via 0-60specs",
+   "bars": [
+    [
+     "b23",
+     6.2,
+     "6.2 sec"
+    ],
+    [
+     "b27",
+     5.6,
+     "5.6 sec"
+    ],
+    [
+     "brap",
+     5.3,
+     "5.3 sec"
+    ]
+   ]
+  },
+  "tow": {
+   "n": 4,
+   "title": "How much it can tow, 2026",
+   "sub": "Ford's maximum towing ratings, in kilograms, with pounds in parentheses. Each applies only to specific configurations.",
+   "source": "Ford 2026 Ranger towing guide",
+   "bars": [
+    [
+     "tr",
+     3402,
+     "3,402 kg (7,500 lb)"
+    ],
+    [
+     "trap",
+     2499,
+     "2,499 kg (5,510 lb)"
+    ]
+   ]
+  },
+  "price": {
+   "n": 5,
+   "title": "What a new one cost, in 2026 dollars",
+   "sub": "Starting prices before delivery, adjusted with the US consumer price index. The original price is in each label.",
+   "source": "Ford prices; Carveyance CPI arithmetic",
+   "bars": [
+    [
+     "p19",
+     32000,
+     "$32,000 · $24,300 then"
+    ],
+    [
+     "p19l",
+     49000,
+     "$49,000 · $37,290 then"
+    ],
+    [
+     "p24",
+     34900,
+     "$34,900 · $32,565 then"
+    ],
+    [
+     "p24l",
+     46700,
+     "$46,700 · $43,525 then"
+    ],
+    [
+     "p24r",
+     59400,
+     "$59,400 · $55,365 then"
+    ]
+   ]
+  }
+ },
+ "photos": {
+  "hub-hero": {
+   "want": "A Ranger",
+   "credit": "Ford",
+   "alt": "A red 2026 Ford Ranger Lariat on a winding mountain road"
+  },
+  "ch1-hero": {
+   "want": "A 2019–2023 Ranger"
+  },
+  "ch2-hero": {
+   "want": "A 2024–2026 Ranger off-road",
+   "credit": "Ford",
+   "alt": "A white 2025 Ford Ranger Lariat climbing a red-dirt trail"
+  },
+  "ch2-cabin": {
+   "want": "The 2024–2026 cabin",
+   "credit": "Ford",
+   "alt": "The dashboard and center touchscreen of a 2025 Ford Ranger Lariat"
+  },
+  "ch3-hero": {
+   "want": "A Ranger Raptor",
+   "credit": "Ford",
+   "alt": "A 2026 Ford Ranger Raptor kicking up dust on a dirt road"
+  },
+  "ch4-hero": {
+   "want": "A Ranger towing",
+   "credit": "Ford",
+   "alt": "A 2025 Ford Ranger Lariat FX4 towing a camper trailer"
+  }
+ },
+ "find": {
+  "picker": [
+   {
+    "model": "Ranger",
+    "years": "2019–2023",
+    "ch": "2019-2023"
+   },
+   {
+    "model": "Ranger",
+    "years": "2024–2026",
+    "ch": "2024-2026"
+   },
+   {
+    "model": "Ranger Raptor",
+    "years": "2024–2026",
+    "ch": "raptor"
+   }
+  ],
+  "terms": {
+   "": [
+    "Ranger",
+    "Ford Ranger",
+    "midsize truck",
+    "midsize pickup",
+    "pickup"
+   ],
+   "2019-2023": [
+    "SuperCab",
+    "SuperCrew",
+    "6-foot bed",
+    "FX4",
+    "Tremor",
+    "2.3-liter",
+    "XL",
+    "XLT",
+    "Lariat",
+    "10-speed"
+   ],
+   "2024-2026": [
+    "redesign",
+    "2.7-liter",
+    "V6",
+    "SuperCrew only",
+    "SYNC 4",
+    "2027",
+    "3.0-liter"
+   ],
+   "raptor": [
+    "Raptor",
+    "Ranger Raptor",
+    "405 hp",
+    "FOX shocks",
+    "Baja"
+   ],
+   "used-checklist": [
+    "used",
+    "checklist",
+    "recalls",
+    "curtain air bags",
+    "trailer module",
+    "shifter",
+    "towing",
+    "4x4"
+   ]
+  }
+ }
+}

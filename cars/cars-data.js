@@ -19529,5 +19529,1175 @@ const CARS_INDEX = [
    "pos": "",
    "fit": ""
   }
+ },
+ {
+  "id": "ford-bronco-1st-gen",
+  "name": "Ford Bronco (first generation)",
+  "aka": [
+   "1966–1977 Bronco",
+   "Early Bronco",
+   "Bronco Roadster",
+   "Bronco Sports",
+   "Baja Bronco"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Wayne, Michigan)",
+  "years": "1966–1977",
+  "start": 1966,
+  "body": "Compact 4x4: wagon, half-cab pickup and roadster",
+  "engine": "2.8-liter or larger 6-cylinder; V8 optional",
+  "country": "United States",
+  "quick": "The original Bronco, 1966–1977: Ford's own small 4x4, built on a chassis of its own as a wagon, a half-cab pickup or an open roadster.",
+  "articles": [
+   "the-ford-america-will-not-sell-you"
+  ],
+  "latest": "2026-08-18",
+  "ownDates": [],
+  "dates": [
+   "2026-08-18"
+  ],
+  "drive": "4-wheel drive",
+  "gearbox": "3-speed manual; automatic in later years",
+  "specsFor": "1966 Ford Bronco, 2.8-liter 6-cylinder, US market",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 105,
+  "kg": null,
+  "kgNote": "",
+  "lbs": null,
+  "z60": null,
+  "top": null,
+  "mpg": null,
+  "built": {
+   "count": 225585,
+   "approx": false,
+   "note": "Built, 1966–1977 model years, Ford production figures"
+  },
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": "ford-bronco-2nd-gen",
+   "name": "Ford Bronco (second generation)"
+  },
+  "photo": null
+ },
+ {
+  "id": "ford-bronco-2nd-gen",
+  "name": "Ford Bronco (second generation)",
+  "aka": [
+   "1978–1979 Bronco",
+   "Big Bronco",
+   "Bronco Custom",
+   "Bronco Ranger XLT",
+   "Free Wheelin'"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Wayne, Michigan)",
+  "years": "1978–1979",
+  "start": 1978,
+  "body": "Full-size 2-door SUV with a removable rear top",
+  "engine": "5.8-liter or 6.6-liter V8",
+  "country": "United States",
+  "quick": "The big Bronco, 1978–1979: a shortened F-100 with V8 power, held back by the fuel crisis and sold for just 2 model years.",
+  "articles": [
+   "the-ford-america-will-not-sell-you"
+  ],
+  "latest": "2026-08-18",
+  "ownDates": [],
+  "dates": [
+   "2026-08-18"
+  ],
+  "drive": "4-wheel drive",
+  "gearbox": "4-speed manual or 3-speed automatic",
+  "specsFor": "1978 Ford Bronco Ranger XLT, 5.8-liter V8, automatic, US market (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 161,
+  "kg": 2115,
+  "kgNote": "Curb weight, lower end of the range",
+  "lbs": 4663,
+  "z60": {
+   "sec": 13.7,
+   "kind": "tested",
+   "note": "Car and Driver test, 1978 Ranger XLT"
+  },
+  "top": null,
+  "mpg": null,
+  "built": {
+   "count": 181955,
+   "approx": false,
+   "note": "Built, 1978 and 1979 model years, Ford production figures"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "ford-bronco-1st-gen",
+   "name": "Ford Bronco (first generation)"
+  },
+  "next": {
+   "id": "ford-bronco-3rd-gen",
+   "name": "Ford Bronco (third generation)"
+  },
+  "photo": null
+ },
+ {
+  "id": "ford-bronco-3rd-gen",
+  "name": "Ford Bronco (third generation)",
+  "aka": [
+   "1980–1986 Bronco",
+   "Bronco XLT",
+   "Bronco Eddie Bauer"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Wayne, Michigan)",
+  "years": "1980–1986",
+  "start": 1980,
+  "body": "Full-size 2-door SUV with a removable rear top",
+  "engine": "4.9-liter 6-cylinder, 5.0-liter or 5.8-liter V8",
+  "country": "United States",
+  "quick": "The third Bronco, 1980–1986: smaller and lighter, on the new F-Series, with independent front suspension and a 6-cylinder as standard.",
+  "articles": [
+   "the-ford-america-will-not-sell-you"
+  ],
+  "latest": "2026-08-18",
+  "ownDates": [],
+  "dates": [
+   "2026-08-18"
+  ],
+  "drive": "4-wheel drive",
+  "gearbox": "4-speed manual, 3-speed or 4-speed automatic",
+  "specsFor": "1980 Ford Bronco Ranger XLT, 5.8-liter V8, automatic, US market (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 160,
+  "kg": 1970,
+  "kgNote": "Curb weight, lower end of the range",
+  "lbs": 4343,
+  "z60": {
+   "sec": 14.1,
+   "kind": "tested",
+   "note": "Car and Driver test, 1980 Ranger XLT"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 10,
+   "city": 10,
+   "hwy": 11,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1984, 5.8-liter V8, 3-speed automatic (fueleconomy.gov starts with 1984 models)"
+  },
+  "built": {
+   "count": 322429,
+   "approx": true,
+   "note": "Built, 1980–1986 model years. Ford's figures as tabled by Wikipedia show 2 years with the same total, so treat it as approximate"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "ford-bronco-2nd-gen",
+   "name": "Ford Bronco (second generation)"
+  },
+  "next": {
+   "id": "ford-bronco-4th-gen",
+   "name": "Ford Bronco (fourth generation)"
+  },
+  "photo": null
+ },
+ {
+  "id": "ford-bronco-4th-gen",
+  "name": "Ford Bronco (fourth generation)",
+  "aka": [
+   "1987–1991 Bronco",
+   "Bronco Eddie Bauer",
+   "Bronco Nite"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Wayne, Michigan)",
+  "years": "1987–1991",
+  "start": 1987,
+  "body": "Full-size 2-door SUV with a removable rear top",
+  "engine": "4.9-liter 6-cylinder, 5.0-liter or 5.8-liter V8",
+  "country": "United States",
+  "quick": "The fourth Bronco, 1987–1991: a smoother nose, fuel injection and rear anti-lock brakes on the same proven platform.",
+  "articles": [
+   "the-ford-america-will-not-sell-you"
+  ],
+  "latest": "2026-08-18",
+  "ownDates": [],
+  "dates": [
+   "2026-08-18"
+  ],
+  "drive": "4-wheel drive",
+  "gearbox": "4-speed or 5-speed manual, 3-speed or 4-speed automatic",
+  "specsFor": "1988 Ford Bronco XLT, 5.0-liter V8, automatic, US market (MotorWeek test)",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 185,
+  "kg": 2087,
+  "kgNote": "Test weight, 1988 XLT",
+  "lbs": 4600,
+  "z60": {
+   "sec": 10.0,
+   "kind": "tested",
+   "note": "MotorWeek test, 1988 XLT (no Car and Driver or Motor Trend test on record)"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 13,
+   "city": 11,
+   "hwy": 16,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1988, 5.0-liter V8, 4-speed automatic"
+  },
+  "built": {
+   "count": 235451,
+   "approx": true,
+   "note": "Built, 1987–1991 model years. Ford's figures as tabled by Wikipedia show 2 years with the same total, so treat it as approximate"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "ford-bronco-3rd-gen",
+   "name": "Ford Bronco (third generation)"
+  },
+  "next": {
+   "id": "ford-bronco-5th-gen",
+   "name": "Ford Bronco (fifth generation)"
+  },
+  "photo": null
+ },
+ {
+  "id": "ford-bronco-5th-gen",
+  "name": "Ford Bronco (fifth generation)",
+  "aka": [
+   "1992–1996 Bronco",
+   "Bronco XLT",
+   "Bronco Eddie Bauer",
+   "Bronco XLT Sport"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Wayne, Michigan)",
+  "years": "1992–1996",
+  "start": 1992,
+  "body": "Full-size 2-door SUV with a removable rear top",
+  "engine": "5.0-liter or 5.8-liter V8 (4.9-liter 6-cylinder for 1992)",
+  "country": "United States",
+  "quick": "The last of the original line, 1992–1996: a rounder Bronco on the 1992 F-150, with a driver's air bag from 1994, replaced by the Expedition.",
+  "articles": [
+   "the-ford-america-will-not-sell-you"
+  ],
+  "latest": "2026-08-18",
+  "ownDates": [],
+  "dates": [
+   "2026-08-18"
+  ],
+  "drive": "4-wheel drive",
+  "gearbox": "5-speed manual or 4-speed automatic",
+  "specsFor": "1996 Ford Bronco, 5.0-liter V8, automatic, US market (EPA figure)",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": null,
+  "kg": null,
+  "kgNote": "",
+  "lbs": null,
+  "z60": null,
+  "top": null,
+  "mpg": {
+   "combined": 13,
+   "city": 11,
+   "hwy": 16,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1996, 5.0-liter V8, 4-speed automatic"
+  },
+  "built": {
+   "count": 162703,
+   "approx": false,
+   "note": "Built, 1992–1996 model years, Ford production figures"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "ford-bronco-4th-gen",
+   "name": "Ford Bronco (fourth generation)"
+  },
+  "next": {
+   "id": "ford-bronco-6th-gen",
+   "name": "Ford Bronco (sixth generation)"
+  },
+  "photo": null
+ },
+ {
+  "id": "ford-bronco-6th-gen",
+  "name": "Ford Bronco (sixth generation)",
+  "aka": [
+   "2021–2026 Bronco",
+   "Bronco Base",
+   "Big Bend",
+   "Black Diamond",
+   "Outer Banks",
+   "Badlands",
+   "Wildtrak",
+   "Everglades",
+   "Heritage Edition",
+   "Stroppe Edition",
+   "Bronco 2-door",
+   "Bronco 4-door"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Michigan Assembly Plant, Wayne, Michigan)",
+  "years": "2021–present",
+  "start": 2021,
+  "body": "Midsize body-on-frame SUV, 2-door or 4-door, removable doors and roof",
+  "engine": "2.3-liter turbo 4-cylinder or 2.7-liter twin-turbo V6",
+  "country": "United States",
+  "quick": "The Bronco's return, 2021 on: a body-on-frame 4x4 with removable doors and roof, 2 or 4 doors and, for those who row their own, a 7-speed manual.",
+  "articles": [
+   "the-ford-america-will-not-sell-you"
+  ],
+  "latest": "2026-08-18",
+  "ownDates": [],
+  "dates": [
+   "2026-08-18"
+  ],
+  "drive": "4-wheel drive",
+  "gearbox": "10-speed automatic or 7-speed manual",
+  "specsFor": "2021 Ford Bronco Wildtrak 4-door, 2.7-liter V6, US market (Car and Driver test)",
+  "guide": {
+   "url": "/fitdrive/guides/ford-bronco/",
+   "title": "The Ford Bronco Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d320"
+  },
+  "hp": 330,
+  "kg": 2231,
+  "kgNote": "Test weight, 2021 Wildtrak 4-door",
+  "lbs": 4919,
+  "z60": {
+   "sec": 6.2,
+   "kind": "tested",
+   "note": "Car and Driver test, 2021 Wildtrak 4-door"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 19,
+   "city": 18,
+   "hwy": 20,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2021, 2.7-liter V6 (2.3-liter: 21)"
+  },
+  "built": {
+   "count": 512924,
+   "approx": true,
+   "note": "Sold in the US, 2021–2025 calendar years, Raptor included"
+  },
+  "alongside": [
+   {
+    "id": "ford-bronco-raptor",
+    "name": "Ford Bronco Raptor"
+   }
+  ],
+  "prev": {
+   "id": "ford-bronco-5th-gen",
+   "name": "Ford Bronco (fifth generation)"
+  },
+  "next": null,
+  "photo": null
+ },
+ {
+  "id": "ford-bronco-raptor",
+  "name": "Ford Bronco Raptor",
+  "aka": [
+   "2022–2026 Bronco Raptor",
+   "Bronco Raptor"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Michigan Assembly Plant, Wayne, Michigan)",
+  "years": "2022–present",
+  "start": 2022,
+  "body": "Midsize body-on-frame 4-door SUV",
+  "engine": "3.0-liter twin-turbo V6",
+  "country": "United States",
+  "quick": "The desert Bronco, 2022 on: 418 hp, FOX shocks, 37-inch tires and 85.7 inches of width, and the quickest Bronco Car and Driver has tested.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "4-wheel drive",
+  "gearbox": "10-speed automatic",
+  "specsFor": "2022 Ford Bronco Raptor, US market (Car and Driver test)",
+  "guide": {
+   "url": "/fitdrive/guides/ford-bronco/",
+   "title": "The Ford Bronco Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d320"
+  },
+  "hp": 418,
+  "kg": 2600,
+  "kgNote": "Test weight, 2022 Raptor",
+  "lbs": 5733,
+  "z60": {
+   "sec": 5.6,
+   "kind": "tested",
+   "note": "Car and Driver test, 2022 Raptor"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 15,
+   "city": 15,
+   "hwy": 16,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2022 (the same every year to 2026)"
+  },
+  "built": null,
+  "alongside": [
+   {
+    "id": "ford-bronco-6th-gen",
+    "name": "Ford Bronco (sixth generation)"
+   }
+  ],
+  "prev": null,
+  "next": null,
+  "photo": null
+ },
+ {
+  "id": "ford-bronco-sport",
+  "name": "Ford Bronco Sport",
+  "aka": [
+   "2021–2026 Bronco Sport",
+   "Bronco Sport Big Bend",
+   "Bronco Sport Outer Banks",
+   "Bronco Sport Badlands",
+   "Bronco Sport Heritage",
+   "Bronco Sport First Edition",
+   "Bronco Sport Free Wheeling",
+   "CX430"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Hermosillo Stamping and Assembly, Mexico)",
+  "years": "2021–present",
+  "start": 2021,
+  "body": "Compact unibody SUV",
+  "engine": "1.5-liter turbo 3-cylinder or 2.0-liter turbo 4-cylinder",
+  "country": "Mexico",
+  "quick": "The smaller Bronco, 2021 on: an Escape-based crossover with an upright body, standard 4-wheel drive and, in the Badlands, real trail hardware.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "4-wheel drive (marketed as 4x4); Advanced 4x4 with a twin-clutch rear drive unit on the Badlands",
+  "gearbox": "8-speed automatic",
+  "specsFor": "2021 Ford Bronco Sport Outer Banks, 1.5-liter, US market (Car and Driver test)",
+  "guide": {
+   "url": "/fitdrive/guides/ford-bronco-sport/",
+   "title": "The Ford Bronco Sport Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d3094"
+  },
+  "hp": 181,
+  "kg": 1573,
+  "kgNote": "Test weight, 2021 Outer Banks",
+  "lbs": 3467,
+  "z60": {
+   "sec": 8.2,
+   "kind": "tested",
+   "note": "Car and Driver test, 2021 Outer Banks"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 26,
+   "city": 25,
+   "hwy": 28,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2021, 1.5-liter (27 from 2025)"
+  },
+  "built": {
+   "count": 594386,
+   "approx": true,
+   "note": "Sold in the US, 2021–2025 calendar years; the first were built in October 2020"
+  },
+  "alongside": [],
+  "prev": null,
+  "next": null,
+  "photo": null
+ },
+ {
+  "id": "ford-maverick-1970",
+  "name": "Ford Maverick (1970–1977)",
+  "aka": [
+   "1970 Maverick",
+   "Maverick Grabber",
+   "Maverick LDO",
+   "Maverick Sprint",
+   "Simple Machine"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Kansas City, Missouri; Milpitas, California; Wayne, Michigan; and Canada)",
+  "years": "1970–1977",
+  "start": 1970,
+  "body": "Compact car: 2-door fastback sedan or 4-door sedan",
+  "engine": "6-cylinder (2.8, 3.3 or 4.1 liters) or 4.9-liter V8",
+  "country": "United States",
+  "quick": "The first Maverick, 1970–1977: a $1,995 compact that replaced the Falcon and had one of the biggest launches in Ford history.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive",
+  "gearbox": "Manual or automatic",
+  "specsFor": "1970 Ford Maverick 2-door, US market",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": null,
+  "kg": 1320,
+  "kgNote": "Curb weight, 2-door",
+  "lbs": 2909,
+  "z60": null,
+  "top": null,
+  "mpg": null,
+  "built": {
+   "count": 2105263,
+   "approx": false,
+   "note": "Built for North America, 1970–1977 model years"
+  },
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": "ford-maverick-pickup",
+   "name": "Ford Maverick (2022 pickup)"
+  },
+  "photo": null
+ },
+ {
+  "id": "ford-maverick-pickup",
+  "name": "Ford Maverick (2022 pickup)",
+  "aka": [
+   "2022–2026 Maverick",
+   "Maverick Hybrid",
+   "Maverick XL",
+   "Maverick XLT",
+   "Maverick Lariat",
+   "Maverick EcoBoost",
+   "P758"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Hermosillo Stamping and Assembly, Mexico)",
+  "years": "2022–present",
+  "start": 2022,
+  "body": "Compact unibody 4-door pickup",
+  "engine": "2.5-liter hybrid or 2.0-liter turbo 4-cylinder",
+  "country": "Mexico",
+  "quick": "The Maverick pickup, 2022 on: a compact hybrid truck that started at $19,995, became America's most affordable pickup and set a sales record in 2025.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Front-wheel drive or all-wheel drive",
+  "gearbox": "Hybrid CVT, 8-speed automatic or, on the Lobo, 7-speed automatic",
+  "specsFor": "2022 Ford Maverick Hybrid XLT, front-wheel drive, US market (Car and Driver test)",
+  "guide": {
+   "url": "/fitdrive/guides/ford-maverick/",
+   "title": "The Ford Maverick Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d1293"
+  },
+  "hp": 191,
+  "kg": 1675,
+  "kgNote": "Test weight, 2022 Hybrid XLT",
+  "lbs": 3693,
+  "z60": {
+   "sec": 7.7,
+   "kind": "tested",
+   "note": "Car and Driver test, 2022 Hybrid XLT"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 37,
+   "city": 42,
+   "hwy": 33,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2022 hybrid, front-wheel drive (38 for 2025–2026)"
+  },
+  "built": {
+   "count": 467879,
+   "approx": true,
+   "note": "Sold in the US, 2021–2025 calendar years, Tremor and Lobo included"
+  },
+  "alongside": [
+   {
+    "id": "ford-maverick-tremor",
+    "name": "Ford Maverick Tremor"
+   },
+   {
+    "id": "ford-maverick-lobo",
+    "name": "Ford Maverick Lobo"
+   }
+  ],
+  "prev": {
+   "id": "ford-maverick-1970",
+   "name": "Ford Maverick (1970–1977)"
+  },
+  "next": null,
+  "photo": null
+ },
+ {
+  "id": "ford-maverick-tremor",
+  "name": "Ford Maverick Tremor",
+  "aka": [
+   "Maverick Tremor",
+   "Tremor Off-Road Package"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Hermosillo Stamping and Assembly, Mexico)",
+  "years": "2023–present",
+  "start": 2023,
+  "body": "Compact unibody 4-door pickup",
+  "engine": "2.0-liter turbo 4-cylinder",
+  "country": "Mexico",
+  "quick": "The off-road Maverick, 2023 on: a package with the Bronco Sport Badlands' twin-clutch rear drive unit, then its own model from 2025.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "All-wheel drive with a twin-clutch rear drive unit",
+  "gearbox": "8-speed automatic",
+  "specsFor": "2023 Ford Maverick XLT Tremor, US market (Car and Driver test)",
+  "guide": {
+   "url": "/fitdrive/guides/ford-maverick/",
+   "title": "The Ford Maverick Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d1293"
+  },
+  "hp": 250,
+  "kg": 1725,
+  "kgNote": "Test weight, 2023 XLT Tremor",
+  "lbs": 3804,
+  "z60": {
+   "sec": 6.0,
+   "kind": "tested",
+   "note": "Car and Driver test, 2023 XLT Tremor"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 23,
+   "city": 21,
+   "hwy": 27,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2025 (2023–2024: 21)"
+  },
+  "built": null,
+  "alongside": [
+   {
+    "id": "ford-maverick-pickup",
+    "name": "Ford Maverick (2022 pickup)"
+   },
+   {
+    "id": "ford-maverick-lobo",
+    "name": "Ford Maverick Lobo"
+   }
+  ],
+  "prev": null,
+  "next": null,
+  "photo": null
+ },
+ {
+  "id": "ford-maverick-lobo",
+  "name": "Ford Maverick Lobo",
+  "aka": [
+   "Maverick Lobo",
+   "2025 Lobo"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Hermosillo Stamping and Assembly, Mexico)",
+  "years": "2025–present",
+  "start": 2025,
+  "body": "Compact unibody 4-door pickup, lowered",
+  "engine": "2.0-liter turbo 4-cylinder",
+  "country": "Mexico",
+  "quick": "The street Maverick, 2025 on: lowered, with a 7-speed, bigger brakes, 19-inch wheels and a drive mode for closed courses.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "All-wheel drive with a twin-clutch rear drive unit",
+  "gearbox": "7-speed automatic with paddle shifters",
+  "specsFor": "2025 Ford Maverick Lobo, US market (Car and Driver test)",
+  "guide": {
+   "url": "/fitdrive/guides/ford-maverick/",
+   "title": "The Ford Maverick Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d1293"
+  },
+  "hp": 250,
+  "kg": 1730,
+  "kgNote": "Test weight, 2025 Lobo",
+  "lbs": 3814,
+  "z60": {
+   "sec": 5.8,
+   "kind": "tested",
+   "note": "Car and Driver test, 2025 Lobo"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 24,
+   "city": 21,
+   "hwy": 30,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2025"
+  },
+  "built": null,
+  "alongside": [
+   {
+    "id": "ford-maverick-pickup",
+    "name": "Ford Maverick (2022 pickup)"
+   },
+   {
+    "id": "ford-maverick-tremor",
+    "name": "Ford Maverick Tremor"
+   }
+  ],
+  "prev": null,
+  "next": null,
+  "photo": null
+ },
+ {
+  "id": "ford-ranger-1st-gen",
+  "name": "Ford Ranger (first generation)",
+  "aka": [
+   "1983–1992 Ranger",
+   "Ranger S",
+   "Ranger XLS",
+   "Ranger XLT",
+   "Ranger GT",
+   "Ranger SuperCab"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Louisville, Kentucky, and St. Paul, Minnesota)",
+  "years": "1983–1992",
+  "start": 1983,
+  "body": "Compact pickup: regular cab, SuperCab from 1986",
+  "engine": "2.0 or 2.3-liter 4-cylinder, V6 of 2.8 to 4.0 liters, or diesel",
+  "country": "United States",
+  "quick": "The first Ranger, 1983–1992: Ford's first compact pickup of its own design, and from 1987 the best-selling compact truck in America.",
+  "articles": [
+   "the-25-mph-kei-truck",
+   "the-ford-america-will-not-sell-you",
+   "everything-is-two-cars"
+  ],
+  "latest": "2026-11-16",
+  "ownDates": [],
+  "dates": [
+   "2026-11-16",
+   "2026-08-18"
+  ],
+  "drive": "Rear-wheel drive or part-time 4-wheel drive",
+  "gearbox": "4-speed or 5-speed manual, 3-speed or 4-speed automatic",
+  "specsFor": "1983 Ford Ranger XLS, 2.0-liter 4-cylinder, manual, US market (Motor Trend test)",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 73,
+  "kg": 1315,
+  "kgNote": "Test weight, 1983 XLS",
+  "lbs": 2900,
+  "z60": {
+   "sec": 14.8,
+   "kind": "tested",
+   "note": "Motor Trend test, 1983 XLS (no Car and Driver test on record)"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 21,
+   "city": 19,
+   "hwy": 24,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1988, 2.0-liter, 5-speed manual (fueleconomy.gov starts with 1984 models)"
+  },
+  "built": {
+   "count": 2066421,
+   "approx": true,
+   "note": "Sold in the US, 1985–1992 calendar years; the 1983 and 1984 totals aren't listed, so the real figure is higher"
+  },
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": "ford-ranger-2nd-gen",
+   "name": "Ford Ranger (second generation)"
+  },
+  "photo": null
+ },
+ {
+  "id": "ford-ranger-2nd-gen",
+  "name": "Ford Ranger (second generation)",
+  "aka": [
+   "1993–1997 Ranger",
+   "Ranger Splash",
+   "Ranger XLT",
+   "Ranger STX"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Louisville, Kentucky; Edison, New Jersey; and St. Paul, Minnesota)",
+  "years": "1993–1997",
+  "start": 1993,
+  "body": "Compact pickup: regular cab or SuperCab",
+  "engine": "2.3-liter 4-cylinder, 3.0-liter or 4.0-liter V6",
+  "country": "United States",
+  "quick": "The second Ranger, 1993–1997: smoother styling on the proven chassis, the Splash with its flared bed, and America's best-selling compact pickup throughout.",
+  "articles": [
+   "the-25-mph-kei-truck",
+   "the-ford-america-will-not-sell-you",
+   "everything-is-two-cars"
+  ],
+  "latest": "2026-11-16",
+  "ownDates": [],
+  "dates": [
+   "2026-11-16",
+   "2026-08-18"
+  ],
+  "drive": "Rear-wheel drive or part-time 4-wheel drive",
+  "gearbox": "5-speed manual, 4-speed or 5-speed automatic",
+  "specsFor": "1993 Ford Ranger XLT regular cab, 4.0-liter V6, automatic, rear-wheel drive, US market (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 160,
+  "kg": 1529,
+  "kgNote": "Test weight, 1993 XLT",
+  "lbs": 3370,
+  "z60": {
+   "sec": 8.9,
+   "kind": "tested",
+   "note": "Car and Driver test, 1993 XLT"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 17,
+   "city": 15,
+   "hwy": 20,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1995, 4.0-liter V6, 4-speed automatic, rear-wheel drive"
+  },
+  "built": {
+   "count": 1581202,
+   "approx": true,
+   "note": "Sold in the US, 1993–1997 calendar years"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "ford-ranger-1st-gen",
+   "name": "Ford Ranger (first generation)"
+  },
+  "next": {
+   "id": "ford-ranger-3rd-gen",
+   "name": "Ford Ranger (third generation)"
+  },
+  "photo": null
+ },
+ {
+  "id": "ford-ranger-3rd-gen",
+  "name": "Ford Ranger (third generation)",
+  "aka": [
+   "1998–2011 Ranger",
+   "Ranger Edge",
+   "Ranger FX4",
+   "Ranger Sport",
+   "Ranger EV",
+   "4-door SuperCab"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Louisville, Kentucky; Edison, New Jersey; and St. Paul, Minnesota)",
+  "years": "1998–2011",
+  "start": 1998,
+  "body": "Compact pickup: regular cab or SuperCab, with 4 doors from 1999",
+  "engine": "2.5 or 2.3-liter 4-cylinder, 3.0-liter or 4.0-liter V6",
+  "country": "United States",
+  "quick": "The last of the compact Rangers, 1998–2011: a longer cab, new front suspension, a 4-door SuperCab, and production that ended in St. Paul in December 2011.",
+  "articles": [
+   "the-25-mph-kei-truck",
+   "the-ford-america-will-not-sell-you",
+   "everything-is-two-cars"
+  ],
+  "latest": "2026-11-16",
+  "ownDates": [],
+  "dates": [
+   "2026-11-16",
+   "2026-08-18"
+  ],
+  "drive": "Rear-wheel drive or part-time 4-wheel drive",
+  "gearbox": "5-speed manual, 4-speed or 5-speed automatic",
+  "specsFor": "2001 Ford Ranger Edge Plus SuperCab, 4.0-liter V6, automatic, 4-wheel drive, US market (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d354"
+  },
+  "hp": 207,
+  "kg": 1774,
+  "kgNote": "Test weight, 2001 Edge Plus SuperCab",
+  "lbs": 3910,
+  "z60": {
+   "sec": 8.1,
+   "kind": "tested",
+   "note": "Car and Driver test, 2001 Edge Plus SuperCab"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 16,
+   "city": 15,
+   "hwy": 18,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2011, 4.0-liter V6, automatic, 4-wheel drive"
+  },
+  "built": {
+   "count": 2423735,
+   "approx": true,
+   "note": "Sold in the US, 1998–2012 calendar years; the last were fleet-only 2012 models"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "ford-ranger-2nd-gen",
+   "name": "Ford Ranger (second generation)"
+  },
+  "next": {
+   "id": "ford-ranger-4th-gen",
+   "name": "Ford Ranger (fourth generation)"
+  },
+  "photo": null
+ },
+ {
+  "id": "ford-ranger-4th-gen",
+  "name": "Ford Ranger (fourth generation)",
+  "aka": [
+   "2019–2023 Ranger",
+   "Ranger XL",
+   "Ranger XLT",
+   "Ranger Lariat",
+   "Ranger FX4",
+   "Ranger Tremor",
+   "Ranger SuperCab",
+   "Ranger SuperCrew"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Michigan Assembly Plant, Wayne, Michigan)",
+  "years": "2019–2023",
+  "start": 2019,
+  "body": "Midsize body-on-frame pickup: SuperCab or SuperCrew",
+  "engine": "2.3-liter turbo 4-cylinder",
+  "country": "United States",
+  "quick": "The Ranger's return, 2019–2023: the global midsize Ranger, built in Michigan, with a 270-hp turbo 4, a 10-speed and a 3,402-kg (7,500-lb) tow rating.",
+  "articles": [
+   "the-25-mph-kei-truck",
+   "the-ford-america-will-not-sell-you",
+   "everything-is-two-cars"
+  ],
+  "latest": "2026-11-16",
+  "ownDates": [],
+  "dates": [
+   "2026-11-16",
+   "2026-08-18"
+  ],
+  "drive": "Rear-wheel drive or part-time 4-wheel drive",
+  "gearbox": "10-speed automatic",
+  "specsFor": "2019 Ford Ranger XL SuperCab, rear-wheel drive, US market (Car and Driver test)",
+  "guide": {
+   "url": "/fitdrive/guides/ford-ranger/",
+   "title": "The Ford Ranger Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d354"
+  },
+  "hp": 270,
+  "kg": 1779,
+  "kgNote": "Test weight, 2019 XL SuperCab, rear-wheel drive",
+  "lbs": 3922,
+  "z60": {
+   "sec": 6.0,
+   "kind": "tested",
+   "note": "Car and Driver test, 2019 XL SuperCab"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 23,
+   "city": 21,
+   "hwy": 26,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2019, rear-wheel drive (4-wheel drive: 22)"
+  },
+  "built": {
+   "count": 375151,
+   "approx": true,
+   "note": "Sold in the US, 2019–2023 calendar years; the last months include early 2024 models"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "ford-ranger-3rd-gen",
+   "name": "Ford Ranger (third generation)"
+  },
+  "next": {
+   "id": "ford-ranger-5th-gen",
+   "name": "Ford Ranger (fifth generation)"
+  },
+  "photo": null
+ },
+ {
+  "id": "ford-ranger-5th-gen",
+  "name": "Ford Ranger (fifth generation)",
+  "aka": [
+   "2024–2026 Ranger",
+   "Ranger XL",
+   "Ranger XLT",
+   "Ranger Lariat",
+   "Ranger 2.7",
+   "Ranger SuperCrew"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Michigan Assembly Plant, Wayne, Michigan)",
+  "years": "2024–present",
+  "start": 2024,
+  "body": "Midsize body-on-frame pickup: SuperCrew",
+  "engine": "2.3-liter turbo 4-cylinder or 2.7-liter twin-turbo V6",
+  "country": "United States",
+  "quick": "The redesigned Ranger, 2024 on: a wider truck with a modern cabin, an optional 315-hp V6 and, in America, a SuperCrew only.",
+  "articles": [
+   "the-25-mph-kei-truck",
+   "the-ford-america-will-not-sell-you",
+   "everything-is-two-cars"
+  ],
+  "latest": "2026-11-16",
+  "ownDates": [],
+  "dates": [
+   "2026-11-16",
+   "2026-08-18"
+  ],
+  "drive": "Rear-wheel drive or 4-wheel drive",
+  "gearbox": "10-speed automatic",
+  "specsFor": "2024 Ford Ranger Lariat SuperCrew, 2.3-liter, 4-wheel drive, US market (Car and Driver test)",
+  "guide": {
+   "url": "/fitdrive/guides/ford-ranger/",
+   "title": "The Ford Ranger Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d354"
+  },
+  "hp": 270,
+  "kg": 2055,
+  "kgNote": "Test weight, 2024 Lariat",
+  "lbs": 4530,
+  "z60": {
+   "sec": 6.2,
+   "kind": "tested",
+   "note": "Car and Driver test, 2024 Lariat"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 22,
+   "city": 20,
+   "hwy": 24,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2024, 2.3-liter, 4-wheel drive"
+  },
+  "built": {
+   "count": 117165,
+   "approx": true,
+   "note": "Sold in the US, 2024–2025 calendar years; the first months include the last 2023 models"
+  },
+  "alongside": [
+   {
+    "id": "ford-ranger-raptor",
+    "name": "Ford Ranger Raptor"
+   }
+  ],
+  "prev": {
+   "id": "ford-ranger-4th-gen",
+   "name": "Ford Ranger (fourth generation)"
+  },
+  "next": null,
+  "photo": null
+ },
+ {
+  "id": "ford-ranger-raptor",
+  "name": "Ford Ranger Raptor",
+  "aka": [
+   "2024–2026 Ranger Raptor",
+   "Ranger Raptor"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Michigan Assembly Plant, Wayne, Michigan)",
+  "years": "2024–present",
+  "start": 2024,
+  "body": "Midsize body-on-frame pickup: SuperCrew",
+  "engine": "3.0-liter twin-turbo V6",
+  "country": "United States",
+  "quick": "The first Ranger Raptor sold in America, 2024 on: 405 hp, FOX Live Valve shocks and a reinforced frame, built in Michigan.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "4-wheel drive",
+  "gearbox": "10-speed automatic",
+  "specsFor": "2024 Ford Ranger Raptor, US market (Car and Driver test)",
+  "guide": {
+   "url": "/fitdrive/guides/ford-ranger/",
+   "title": "The Ford Ranger Buyer's Guide"
+  },
+  "shop": {
+   "cargurus": "d354"
+  },
+  "hp": 405,
+  "kg": 2415,
+  "kgNote": "Test weight, 2024 Raptor",
+  "lbs": 5325,
+  "z60": {
+   "sec": 5.3,
+   "kind": "tested",
+   "note": "Car and Driver test, 2024 Raptor"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 17,
+   "city": 16,
+   "hwy": 18,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2024 (the same for 2025–2026)"
+  },
+  "built": null,
+  "alongside": [
+   {
+    "id": "ford-ranger-5th-gen",
+    "name": "Ford Ranger (fifth generation)"
+   }
+  ],
+  "prev": null,
+  "next": null,
+  "photo": null
  }
 ];

@@ -6739,6 +6739,256 @@ const CARS_INDEX = [
   }
  },
  {
+  "id": "toyota-celica-supra-a40",
+  "name": "Toyota Celica Supra (A40)",
+  "aka": [
+   "1979–1981 Celica Supra",
+   "Celica XX",
+   "MA46",
+   "MA47",
+   "A40"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "1979–1981",
+  "start": 1979,
+  "body": "2+2 3-door liftback",
+  "engine": "2.6-liter 6-cylinder; 2.8-liter from 1981",
+  "country": "Japan",
+  "quick": "The first Celica Supra, 1979–1981: a Celica with a longer nose and an inline-6, built because Toyota's American dealers wanted a rival to the Datsun 280Z.",
+  "articles": [
+   "the-one-on-the-wall",
+   "the-overachiever",
+   "the-middle-child"
+  ],
+  "latest": "2026-10-07",
+  "ownDates": [],
+  "dates": [
+   "2026-10-07",
+   "2026-09-25",
+   "2026-08-17"
+  ],
+  "drive": "Rear-wheel drive",
+  "gearbox": "5-speed manual or 4-speed automatic",
+  "specsFor": "1979 Toyota Celica Supra, 2.6-liter, 5-speed manual, US market (Car and Driver test)",
+  "guide": null,
+  "shop": null,
+  "hp": 110,
+  "kg": 1293,
+  "kgNote": "Curb weight, 1979",
+  "lbs": 2850,
+  "z60": {
+   "sec": 11.2,
+   "kind": "tested",
+   "note": "Car and Driver test, 1979"
+  },
+  "top": null,
+  "mpg": null,
+  "built": null,
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": "toyota-celica-supra-a60",
+   "name": "Toyota Celica Supra (A60)"
+  },
+  "photo": null
+ },
+ {
+  "id": "toyota-celica-supra-a60",
+  "name": "Toyota Celica Supra (A60)",
+  "aka": [
+   "1982–1986 Celica Supra",
+   "Celica Supra P-type",
+   "Celica Supra L-type",
+   "Celica XX",
+   "A60"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "1982–1986",
+  "start": 1982,
+  "body": "2+2 3-door liftback",
+  "engine": "2.8-liter twin-cam 6-cylinder",
+  "country": "Japan",
+  "quick": "The second Celica Supra, 1982–1986: pop-up headlights, a twin-cam inline-6 and suspension tuned with help from Lotus, in P-type and L-type forms.",
+  "articles": [
+   "the-one-on-the-wall",
+   "the-overachiever",
+   "the-middle-child"
+  ],
+  "latest": "2026-10-07",
+  "ownDates": [],
+  "dates": [
+   "2026-10-07",
+   "2026-09-25",
+   "2026-08-17"
+  ],
+  "drive": "Rear-wheel drive",
+  "gearbox": "5-speed manual or 4-speed automatic",
+  "specsFor": "1982 Toyota Celica Supra, 5-speed manual, US market (Car and Driver test)",
+  "guide": null,
+  "shop": null,
+  "hp": 145,
+  "kg": 1311,
+  "kgNote": "Curb weight, 1982",
+  "lbs": 2890,
+  "z60": {
+   "sec": 8.8,
+   "kind": "tested",
+   "note": "Car and Driver test, 1982"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 18,
+   "city": 17,
+   "hwy": 21,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1984, 5-speed manual"
+  },
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "toyota-celica-supra-a40",
+   "name": "Toyota Celica Supra (A40)"
+  },
+  "next": {
+   "id": "toyota-supra-a70",
+   "name": "Toyota Supra (A70)"
+  },
+  "photo": null
+ },
+ {
+  "id": "toyota-supra-a70",
+  "name": "Toyota Supra (A70)",
+  "aka": [
+   "1986–1993 Supra",
+   "Supra Turbo",
+   "Supra Turbo A",
+   "A70"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "1986–1993",
+  "start": 1986,
+  "body": "2+2 3-door liftback; targa top available",
+  "engine": "3.0-liter twin-cam 6-cylinder; turbo from 1987",
+  "country": "Japan",
+  "quick": "The third Supra, 1986–1993: no longer a Celica, with rear-wheel drive, double wishbones at all 4 corners and, from 1987, a 230-hp turbo.",
+  "articles": [
+   "the-one-on-the-wall",
+   "the-overachiever",
+   "the-middle-child"
+  ],
+  "latest": "2026-10-07",
+  "ownDates": [],
+  "dates": [
+   "2026-10-07",
+   "2026-09-25",
+   "2026-08-17"
+  ],
+  "drive": "Rear-wheel drive",
+  "gearbox": "5-speed manual or 4-speed automatic",
+  "specsFor": "1986 Toyota Supra, 3.0-liter, 5-speed manual, US market (Car and Driver test)",
+  "guide": null,
+  "shop": null,
+  "hp": 200,
+  "kg": 1542,
+  "kgNote": "Curb weight, 1986",
+  "lbs": 3400,
+  "z60": {
+   "sec": 8.0,
+   "kind": "tested",
+   "note": "Car and Driver test, 1986"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 18,
+   "city": 16,
+   "hwy": 21,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1987, 5-speed manual"
+  },
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "toyota-celica-supra-a60",
+   "name": "Toyota Celica Supra (A60)"
+  },
+  "next": {
+   "id": "toyota-supra-a80",
+   "name": "Toyota Supra (A80)"
+  },
+  "photo": null
+ },
+ {
+  "id": "toyota-supra-a80",
+  "name": "Toyota Supra (A80)",
+  "aka": [
+   "1993–2002 Supra",
+   "Supra Turbo",
+   "Supra RZ",
+   "2JZ Supra",
+   "A80",
+   "Mk4 Supra"
+  ],
+  "make": "Toyota",
+  "maker": "Toyota",
+  "years": "1993–2002",
+  "start": 1993,
+  "body": "2+2 3-door liftback; targa top available",
+  "engine": "3.0-liter 6-cylinder, naturally aspirated or twin-turbo",
+  "country": "Japan",
+  "quick": "The fourth Supra, 1993–2002: a sequential twin-turbo inline-6 with 320 hp and a Getrag 6-speed, and a 4.6-second run to 60 in Car and Driver's hands.",
+  "articles": [
+   "the-one-on-the-wall",
+   "the-overachiever",
+   "the-middle-child"
+  ],
+  "latest": "2026-10-07",
+  "ownDates": [],
+  "dates": [
+   "2026-10-07",
+   "2026-09-25",
+   "2026-08-17"
+  ],
+  "drive": "Rear-wheel drive",
+  "gearbox": "5-speed manual (6-speed Getrag with the turbo) or 4-speed automatic",
+  "specsFor": "1994 Toyota Supra, 3.0-liter, 5-speed manual, US market (Car and Driver test)",
+  "guide": null,
+  "shop": null,
+  "hp": 220,
+  "kg": 1569,
+  "kgNote": "Curb weight, 1994",
+  "lbs": 3460,
+  "z60": {
+   "sec": 6.2,
+   "kind": "tested",
+   "note": "Car and Driver test, 1994"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 18,
+   "city": 16,
+   "hwy": 22,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1994, 5-speed manual"
+  },
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "toyota-supra-a70",
+   "name": "Toyota Supra (A70)"
+  },
+  "next": {
+   "id": "toyota-gr-supra-a90",
+   "name": "Toyota GR Supra (A90)"
+  },
+  "photo": null
+ },
+ {
   "id": "toyota-gr-supra-a90",
   "name": "Toyota GR Supra (A90)",
   "aka": [
@@ -6798,7 +7048,7 @@ const CARS_INDEX = [
    }
   ],
   "prev": {
-   "id": null,
+   "id": "toyota-supra-a80",
    "name": "Toyota Supra (A80)"
   },
   "next": null,

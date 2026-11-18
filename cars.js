@@ -95,7 +95,9 @@ const CARS = [
       "src": "https://www.fueleconomy.gov/feg/noframes/41905.shtml"
     },
     "built": {
-      "na": "Counted in the Evora's 6,117 total (2009–2021)",
+      "count": 6117,
+      "approx": false,
+      "note": "All Evora versions combined, 2009–2021; Lotus never published a split by version",
       "src": "https://en.wikipedia.org/wiki/Lotus_Evora"
     },
     "predecessor": {
@@ -171,7 +173,12 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/19386.shtml"
     },
-    "built": null,
+    "built": {
+      "count": 4863,
+      "approx": true,
+      "note": "All 996 GT3s and GT3 RSs, 1999–2005",
+      "src": "https://renndriver.com/guides/porsche-996-gt3/"
+    },
     "predecessor": {
       "name": "Porsche 911 Carrera RS (993)",
       "id": null
@@ -301,7 +308,9 @@ const CARS = [
       "src": "https://www.fueleconomy.gov/feg/noframes/34741.shtml"
     },
     "built": {
-      "na": "Counted in the Evora's 6,117 total (2009–2021)",
+      "count": 6117,
+      "approx": false,
+      "note": "All Evora versions combined, 2009–2021; Lotus never published a split by version",
       "src": "https://en.wikipedia.org/wiki/Lotus_Evora"
     },
     "articles": [
@@ -405,7 +414,9 @@ const CARS = [
       "src": "https://www.fueleconomy.gov/feg/noframes/38082.shtml"
     },
     "built": {
-      "na": "Counted in the Evora's 6,117 total (2009–2021)",
+      "count": 6117,
+      "approx": false,
+      "note": "All Evora versions combined, 2009–2021; Lotus never published a split by version",
       "src": "https://en.wikipedia.org/wiki/Lotus_Evora"
     },
     "predecessor": {
@@ -438,8 +449,17 @@ const CARS = [
     "maker": "Lotus",
     "country": "United Kingdom",
     "drive": "Rear-wheel drive",
+    "mpg": {
+      "combined": 24.2,
+      "unit": "mpg",
+      "kind": "official",
+      "note": "Official Australian ADR 81/02 combined figure, Sport 410 manual, 9.7 L/100 km",
+      "src": "https://www.carexpert.com.au/lotus/evora/2016-410-3-5l-coupe-rwd-petrol-manual-joo8gask20160701"
+    },
     "built": {
-      "na": "Counted in the Evora's 6,117 total (2009–2021)",
+      "count": 6117,
+      "approx": false,
+      "note": "All Evora versions combined, 2009–2021; Lotus never published a split by version",
       "src": "https://en.wikipedia.org/wiki/Lotus_Evora"
     },
     "articles": [
@@ -503,9 +523,18 @@ const CARS = [
     "maker": "Lotus",
     "country": "United Kingdom",
     "drive": "Rear-wheel drive",
+    "mpg": {
+      "combined": 23.2,
+      "unit": "mpg",
+      "kind": "official",
+      "note": "Lotus UK brochure combined figure, GT430 manual, 27.9 mpg in imperial gallons",
+      "src": "https://xr793.com/wp-content/uploads/2025/01/2018-Lotus-Evora-GT-430-UK.pdf"
+    },
     "built": {
-      "na": "Counted in the Evora's 6,117 total (2009–2021)",
-      "src": "https://en.wikipedia.org/wiki/Lotus_Evora"
+      "count": 60,
+      "approx": false,
+      "note": "Limited run announced by Lotus",
+      "src": "https://www.autocar.co.uk/node/83082"
     },
     "articles": [
       "simplify-then-add-soul"
@@ -586,15 +615,29 @@ const CARS = [
       "note": "dry, Lotus's figure",
       "src": "https://www.lotuscars.com/en/lotus-story/road-cars/evora"
     },
-    "zero60": null,
+    "zero60": {
+      "sec": 3.7,
+      "kind": "claimed",
+      "note": "Lotus figure, manual (3.6 sec automatic)",
+      "src": "https://xr793.com/wp-content/uploads/2025/01/2021-Lotus-Evora-GT-430-Sport-INT.pdf"
+    },
     "top": {
       "mph": 196,
       "kind": "claimed",
       "note": "Maker's claim, manual",
       "src": "https://www.lotuscars.com/en/lotus-story/road-cars/evora"
     },
+    "mpg": {
+      "combined": 22.2,
+      "unit": "mpg",
+      "kind": "official",
+      "note": "Official WLTP combined figure, GT430 Sport manual, 26.7 mpg in imperial gallons",
+      "src": "https://www.autoexpress.co.uk/lotus/evora/prices-specs/83759/3.5-v6-gt430-sport-2dr"
+    },
     "built": {
-      "na": "Counted in the Evora's 6,117 total (2009–2021)",
+      "count": 6117,
+      "approx": false,
+      "note": "All Evora versions combined, 2009–2021; Lotus never published a split by version",
       "src": "https://en.wikipedia.org/wiki/Lotus_Evora"
     },
     "predecessor": {
@@ -735,6 +778,13 @@ const CARS = [
       "kind": "tested",
       "note": "Autocar test",
       "src": "article:the-shape-children-draw"
+    },
+    "mpg": {
+      "combined": 17,
+      "unit": "mpg",
+      "kind": "tested",
+      "note": "Car and Driver observed, 1995 Esprit S4S (the same 300 bhp 2.2-liter turbo); Autocar's Sport 300 test gave no fuel figure",
+      "src": "https://www.0-60specs.com/lotus/esprit-0-60-times"
     },
     "built": {
       "count": 64,
@@ -976,6 +1026,13 @@ const CARS = [
       "kind": "claimed",
       "note": "Maker's claim",
       "src": "article:the-fastest-argument-in-the-room"
+    },
+    "mpg": {
+      "combined": 14.7,
+      "unit": "mpg",
+      "kind": "tested",
+      "note": "Period road-test consumption quoted by Auto Express (17.6 mpg in imperial gallons)",
+      "src": "https://www.autoexpress.co.uk/classic-cars/104937/lotus-carlton-buying-guide-and-review-1990-1992"
     },
     "built": {
       "count": 950,
@@ -1408,7 +1465,12 @@ const CARS = [
       "note": "",
       "src": "article:first-flight"
     },
-    "zero60": null,
+    "zero60": {
+      "sec": 8.8,
+      "kind": "tested",
+      "note": "Car and Driver test, 1967 Cosmo 110S Series I",
+      "src": "https://www.0-60specs.com/mazda/cosmo-0-60-times"
+    },
     "top": {
       "mph": 115,
       "kind": "claimed",
@@ -1471,12 +1533,17 @@ const CARS = [
       "note": "",
       "src": "article:now-boarding"
     },
-    "zero60": null,
+    "zero60": {
+      "na": "Top speed 22 mph (35 km/h), Mazda's claim; it cannot reach 60 mph"
+    },
     "top": {
       "mph": 22,
       "kind": "claimed",
       "note": "Maker's claim",
       "src": "article:now-boarding"
+    },
+    "mpg": {
+      "na": "Mazda published no fuel figure for this 1.7 hp prototype"
     },
     "built": {
       "count": 3,
@@ -1679,7 +1746,12 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/31285.shtml"
     },
-    "built": null,
+    "built": {
+      "count": 160065,
+      "approx": true,
+      "note": "Sold in the US, 2005–2017",
+      "src": "https://www.goodcarbadcar.net/mazda-5-sales-figures/"
+    },
     "predecessor": {
       "name": "Mazda5 (first generation)",
       "id": null
@@ -1878,7 +1950,12 @@ const CARS = [
       "note": "",
       "src": "https://www.auto123.com/en/news/2003-mazdaspeed-protege-preview/43324/?page=4"
     },
-    "zero60": null,
+    "zero60": {
+      "sec": 6.9,
+      "kind": "tested",
+      "note": "Car and Driver test",
+      "src": "https://www.0-60specs.com/mazda/mazdaspeed-protege-0-60-times"
+    },
     "top": null,
     "mpg": {
       "combined": 23,
@@ -2279,7 +2356,12 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/19178.shtml"
     },
-    "built": null,
+    "built": {
+      "count": 143433,
+      "approx": true,
+      "note": "US sales of all first-generation FX (FX35 and FX45), 2003–2008; Infiniti split out the FX45 only for 2007 (1,598)",
+      "src": "https://www.goodcarbadcar.net/infiniti-fx-sales-figures/"
+    },
     "predecessor": null,
     "successor": {
       "name": "Infiniti FX50",
@@ -2555,7 +2637,12 @@ const CARS = [
       "note": "",
       "src": "https://hagerty.com/media/?p=76947"
     },
-    "zero60": null,
+    "zero60": {
+      "sec": 14.3,
+      "kind": "tested",
+      "note": "Car and Driver test, 1982 BRAT GL",
+      "src": "https://www.0-60specs.com/subaru/brat-0-60-times"
+    },
     "top": null,
     "mpg": {
       "combined": 23,
@@ -3003,7 +3090,12 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/29959.shtml"
     },
-    "built": null,
+    "built": {
+      "count": 118444,
+      "approx": false,
+      "note": "All E89 Z4s, 2009–2016; BMW did not publish a 35is-only total",
+      "src": "https://en.wikipedia.org/wiki/BMW_Z4_(E89)"
+    },
     "predecessor": {
       "name": "BMW Z4 M Coupe",
       "id": "bmw-z4-m-coupe"
@@ -3067,6 +3159,13 @@ const CARS = [
       "kind": "claimed",
       "note": "Maker's claim",
       "src": "article:bmw-507"
+    },
+    "mpg": {
+      "combined": 13.8,
+      "unit": "mpg",
+      "kind": "official",
+      "note": "BMW's period consumption figure, 17 L/100 km",
+      "src": "https://myautoworld.com/BMW/history/1950/507/507.html"
     },
     "built": {
       "count": 252,
@@ -3341,7 +3440,19 @@ const CARS = [
       "note": "Maker's claim",
       "src": "article:ghost-in-ice-green"
     },
-    "built": null,
+    "mpg": {
+      "combined": 22,
+      "unit": "mpg",
+      "kind": "tested",
+      "note": "Car and Driver observed, 1983 911 SC Cabriolet",
+      "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+    },
+    "built": {
+      "count": 58914,
+      "approx": false,
+      "note": "All 911 SCs, 1978–1983 (Stuttcars' year-by-year tables add up to 60,625)",
+      "src": "https://www.conceptcarz.com/vehicle/z9610/concepts.aspx"
+    },
     "predecessor": {
       "name": "Porsche 911 Carrera 3.0",
       "id": null
@@ -3554,12 +3665,24 @@ const CARS = [
       "note": "",
       "src": "https://jec.org.uk/?p=8189"
     },
-    "zero60": null,
+    "zero60": {
+      "sec": 8.5,
+      "kind": "tested",
+      "note": "The Motor test, 3.8-liter",
+      "src": "https://en.wikipedia.org/wiki/Jaguar_Mark_2"
+    },
     "top": {
       "mph": 125,
       "kind": "claimed",
       "note": "Maker's claim",
       "src": "article:jaguar-mk2"
+    },
+    "mpg": {
+      "combined": 13.9,
+      "unit": "mpg",
+      "kind": "tested",
+      "note": "Motor Sport long road test, 1960 3.8 (16¾ mpg in imperial gallons)",
+      "src": "https://www.motorsportmagazine.com/archive/article/september-1960/44/jaguar-38mkii/"
     },
     "built": {
       "count": 83701,
@@ -3617,7 +3740,12 @@ const CARS = [
       "note": "265 bhp gross, Jaguar's figure",
       "src": "https://media.jlr.com/corporate/news/2011/01/jaguar-celebrates-50-years-iconic-e-type"
     },
-    "weight": null,
+    "weight": {
+      "kg": 1315,
+      "lb": 2899,
+      "note": "Curb weight, Series 1 fixed-head coupé (roadster 1,256 kg)",
+      "src": "https://en.wikipedia.org/wiki/Jaguar_E-Type"
+    },
     "zero60": {
       "sec": 7.1,
       "kind": "tested",
@@ -3868,7 +3996,12 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/19850.shtml"
     },
-    "built": null,
+    "built": {
+      "count": 83566,
+      "approx": false,
+      "note": "All X350 XJs, 2003–2009; Jaguar did not publish an XJR-only total",
+      "src": "https://en.wikipedia.org/wiki/Jaguar_XJ_(X350)"
+    },
     "predecessor": {
       "name": "Jaguar XJR (X308)",
       "id": "jaguar-xjr-x308"
@@ -4076,12 +4209,24 @@ const CARS = [
       "note": "",
       "src": "https://mb107.com/models/280sl.htm"
     },
-    "zero60": null,
+    "zero60": {
+      "sec": 10.1,
+      "kind": "claimed",
+      "note": "Maker's claim, 0-100 km/h (62 mph)",
+      "src": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/280-SL.xhtml?oid=4668"
+    },
     "top": {
       "mph": 127,
       "kind": "claimed",
       "note": "Maker's claim",
       "src": "https://mb107.com/models/280sl.htm"
+    },
+    "mpg": {
+      "combined": 18.8,
+      "unit": "mpg",
+      "kind": "official",
+      "note": "Mercedes-Benz DIN 70030 figure, 12.5 L/100 km (measured at three-quarters of top speed, plus 10%)",
+      "src": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/280-SL.xhtml?oid=4668"
     },
     "built": {
       "count": 25436,
@@ -4141,7 +4286,12 @@ const CARS = [
       "note": "",
       "src": "https://www.presstopic.bmwgroup.com/en/bmw-classic-blog/buyme/text/THE-SKYS-THE-LIMIT-THE-ROLLS-ROYCE-CORNICHE-13005.html"
     },
-    "zero60": null,
+    "zero60": {
+      "sec": 9.7,
+      "kind": "tested",
+      "note": "Autocar test, 1974 Corniche",
+      "src": "https://w.autozine.org/Archive/RR/classic/Silver_Shadow.html"
+    },
     "top": {
       "mph": 120,
       "kind": "claimed",
@@ -4234,7 +4384,12 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/36193.shtml"
     },
-    "built": null,
+    "built": {
+      "count": 17000,
+      "approx": true,
+      "note": "First-generation AMG GT coupé and roadster, October 2014 to September 2022 (plus about 1,700 Black Series)",
+      "src": "https://en.wikipedia.org/wiki/Mercedes-AMG_GT"
+    },
     "predecessor": {
       "name": "Mercedes-Benz SLS AMG",
       "id": null
@@ -4464,7 +4619,12 @@ const CARS = [
     ],
     "country": "United Kingdom",
     "drive": "Rear-wheel drive",
-    "built": null,
+    "built": {
+      "count": 1677,
+      "approx": false,
+      "note": "Tuscan Speed Six, 1999–2006",
+      "src": "https://en.wikipedia.org/wiki/TVR_Tuscan_Speed_Six"
+    },
     "weight": {
       "kg": 1100,
       "note": "about, TVR's figure",
@@ -4692,7 +4852,9 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/50461.shtml"
     },
-    "built": null,
+    "built": {
+      "na": "Still in production; no build total published yet"
+    },
     "predecessor": {
       "name": "Chevrolet Corvette Grand Sport (C7)",
       "id": null
@@ -4894,7 +5056,12 @@ const CARS = [
       "note": "",
       "src": "article:all-for-one"
     },
-    "zero60": null,
+    "zero60": {
+      "sec": 4.4,
+      "kind": "tested",
+      "note": "Motor Trend test",
+      "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
+    },
     "top": null,
     "mpg": {
       "combined": 14,
@@ -4973,7 +5140,12 @@ const CARS = [
       "note": "EPA combined, 2002 Corvette manual; EPA does not list the Z06 on its own",
       "src": "https://www.fueleconomy.gov/feg/noframes/17345.shtml"
     },
-    "built": null,
+    "built": {
+      "count": 28388,
+      "approx": false,
+      "note": "All C5 Z06s: 5,773 (2001), 8,297 (2002), 8,635 (2003), 5,683 (2004)",
+      "src": "https://www.corvetteforum.com/forums/c5-general/2365256-c2s-and-c5-z06s.html"
+    },
     "predecessor": null,
     "successor": {
       "name": "Chevrolet Corvette Z06 (C6)",
@@ -5021,9 +5193,19 @@ const CARS = [
       "note": "",
       "src": "article:all-for-one"
     },
-    "zero60": null,
+    "zero60": {
+      "sec": 5.9,
+      "kind": "tested",
+      "note": "Motor Trend test, 2002 Evolution VII",
+      "src": "https://www.0-60specs.com/mitsubishi/lancer-evolution-0-60-times"
+    },
     "top": null,
-    "built": null,
+    "built": {
+      "count": 10850,
+      "approx": true,
+      "note": "Evolution VII GSR, RS and GT-A, 2001–2003",
+      "src": "https://more-cars.net/lancer-evolution-vii__1869"
+    },
     "predecessor": {
       "name": "Mitsubishi Lancer Evolution VI",
       "id": null
@@ -5076,7 +5258,12 @@ const CARS = [
       "note": "",
       "src": "article:it-died-so-you-could-live"
     },
-    "zero60": null,
+    "zero60": {
+      "sec": 14.0,
+      "kind": "tested",
+      "note": "Car Life test, 1964 Monza convertible with the same 110 hp 164 cu in engine and 4-speed",
+      "src": "https://www.curbsideclassic.com/vintage-reviews/vintage-review-1964-corvair-monza-110-hp-4-speed-the-poor-mans-porsche-is-now-even-more-of-one-and-finally-an-explanation-for-its-exoneration-by-nhtsa"
+    },
     "top": null,
     "built": {
       "count": 1659022,
@@ -5150,7 +5337,12 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/36748.shtml"
     },
-    "built": null,
+    "built": {
+      "count": 6327,
+      "approx": true,
+      "note": "Built, 2016–2019 (Cadillac V-Net registry figures)",
+      "src": "https://getjerry.com/questions/how-many-cadillac-cts-v-were-made"
+    },
     "predecessor": {
       "name": "Cadillac CTS-V (second generation)",
       "id": null
@@ -5444,6 +5636,13 @@ const CARS = [
       "note": "Maker's claim",
       "src": "https://citroenet.org.uk/passenger-cars/michelin/ds/06.html"
     },
+    "mpg": {
+      "combined": 24.3,
+      "unit": "mpg",
+      "kind": "tested",
+      "note": "Road & Track road test, 1956 DS 19, overall",
+      "src": "https://www.citroenet.org.uk/foreign/usa/56-10.html"
+    },
     "built": {
       "count": 1455746,
       "approx": false,
@@ -5521,6 +5720,13 @@ const CARS = [
       "kind": "claimed",
       "note": "Maker's claim",
       "src": "article:her-majesty-drives-herself"
+    },
+    "mpg": {
+      "combined": 15.1,
+      "unit": "mpg",
+      "kind": "tested",
+      "note": "Autocar 10,000-mile long-term test, 1974 SM Injection (18.1 mpg in imperial gallons)",
+      "src": "https://autocar-prod.codeenigma.net/node/120462"
     },
     "built": {
       "count": 12920,
@@ -5668,12 +5874,21 @@ const CARS = [
       "note": "",
       "src": "article:the-2cv-again"
     },
-    "zero60": null,
+    "zero60": {
+      "na": "Top speed 40 mph (64 km/h): the original 375 cc 2CV could not reach 60 mph"
+    },
     "top": {
       "mph": 40,
       "kind": "claimed",
       "note": "Maker's claim",
       "src": "article:the-2cv-again"
+    },
+    "mpg": {
+      "combined": 46.9,
+      "unit": "mpg",
+      "kind": "tested",
+      "note": "Motor Sport road test, 1954 375 cc 2CV (56.3 mpg in imperial gallons)",
+      "src": "https://www.motorsportmagazine.com/archive/article/august-1999/90/a-two-horse-tale"
     },
     "built": {
       "count": 5100000,
@@ -5744,6 +5959,13 @@ const CARS = [
       "note": "Maker's claim",
       "src": "article:the-king-was-italian"
     },
+    "mpg": {
+      "combined": 17.5,
+      "unit": "mpg",
+      "kind": "tested",
+      "note": "Motor Sport road test, 1988 Integrale 8V, about 21 mpg in imperial gallons at high touring speeds (no Evoluzione II figure published)",
+      "src": "https://www.motorsportmagazine.com/archive/page/august-1988/39"
+    },
     "built": {
       "count": 44296,
       "approx": false,
@@ -5786,14 +6008,31 @@ const CARS = [
     ],
     "country": "Italy",
     "drive": "Front-wheel drive",
-    "built": null,
+    "mpg": {
+      "combined": 18.3,
+      "unit": "mpg",
+      "kind": "estimated",
+      "note": "Spec-database combined figure (encyCARpedia), Fulvia Rallye 1.6 HF; no period road test figure found",
+      "src": "https://www.encycarpedia.com/us/lancia/69-fulvia-rallye-1-6-hf-coupe"
+    },
+    "built": {
+      "count": 1258,
+      "approx": false,
+      "note": "Rallye 1.6 HF (Fanalone) only, 1969–1970; 3,690 later 1600 HF Lusso road cars were built after it",
+      "src": "https://www.conceptcarz.com/w24925/lancia-fulvia.aspx"
+    },
     "weight": {
       "kg": 850,
       "note": "around",
       "src": "article:the-little-red-elephant"
     },
     "top": null,
-    "zero60": null,
+    "zero60": {
+      "sec": 9.4,
+      "kind": "tested",
+      "note": "Autocar test, Fulvia Coupé 1.6 HF",
+      "src": "https://mobile.autozine.org/Archive/Lancia/classic/Fulvia.html"
+    },
     "photo": {},
     "id": "lancia-fulvia-hf",
     "name": "Lancia Fulvia Coupé HF",
@@ -5870,6 +6109,13 @@ const CARS = [
       "kind": "claimed",
       "note": "Maker's claim",
       "src": "article:the-one-and-only"
+    },
+    "mpg": {
+      "combined": 23.8,
+      "unit": "mpg",
+      "kind": "tested",
+      "note": "auto motor und sport road test, 1976 Golf GTI, overall test consumption 9.9 L/100 km",
+      "src": "https://www.curbsideclassic.com/vintage-reviews/1970s-vintage-reviews/european-brands-1970s-vintage-reviews/vintage-ams-review-1976-volkswagen-golf-gti-vw-hot-hatch-changes-the-game-but-americans-dont-get-it"
     },
     "built": {
       "count": 461690,
@@ -5991,8 +6237,18 @@ const CARS = [
         }
       }
     ],
-    "built": null,
-    "weight": null,
+    "built": {
+      "count": 66223,
+      "approx": false,
+      "note": "US sales, 1985–1992 (worldwide total not published)",
+      "src": "https://www.auto123.com/en/news/10-facts-about-the-2015-volkswagen-gti/55537/"
+    },
+    "weight": {
+      "kg": 1021,
+      "lb": 2250,
+      "note": "Curb weight, 1987 US GTI 16V, Car and Driver test car",
+      "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+    },
     "top": {
       "mph": 130,
       "kind": "claimed",
@@ -6120,8 +6376,27 @@ const CARS = [
         }
       }
     ],
-    "built": null,
-    "weight": null,
+    "mpg": {
+      "combined": 23,
+      "city": 20,
+      "hwy": 28,
+      "unit": "mpg",
+      "kind": "epa",
+      "note": "EPA rating, 1996 US GTI 2.0, 20 city / 28 highway (combined worked out with EPA's 55/45 weighting)",
+      "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+    },
+    "built": {
+      "count": 28115,
+      "approx": false,
+      "note": "US sales, 1994–1999 (worldwide total not published)",
+      "src": "https://www.auto123.com/en/news/10-facts-about-the-2015-volkswagen-gti/55537/"
+    },
+    "weight": {
+      "kg": 1247,
+      "lb": 2750,
+      "note": "Curb weight, 1996 US GTI 2.0, Motor Trend test car",
+      "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+    },
     "top": null,
     "zero60": {
       "sec": 8.8,
@@ -6221,7 +6496,12 @@ const CARS = [
         }
       }
     ],
-    "built": null,
+    "built": {
+      "count": 60995,
+      "approx": false,
+      "note": "US sales, 1998–2004 (worldwide total not published)",
+      "src": "https://www.auto123.com/en/news/10-facts-about-the-2015-volkswagen-gti/55537/"
+    },
     "weight": {
       "kg": 1315,
       "note": "Curb weight, 2000 GTI GLS 1.8T",
@@ -6368,10 +6648,25 @@ const CARS = [
       "note": "EPA combined, 2010 US GTI, 6-speed manual",
       "src": "https://www.fueleconomy.gov/feg/noframes/28608.shtml"
     },
-    "built": null,
-    "weight": null,
+    "built": {
+      "count": 63016,
+      "approx": false,
+      "note": "US sales, 2010–2014 (worldwide total not published)",
+      "src": "https://www.auto123.com/en/news/10-facts-about-the-2015-volkswagen-gti/55537/"
+    },
+    "weight": {
+      "kg": 1427,
+      "lb": 3146,
+      "note": "Curb weight, 2010 US GTI 3-door, Car and Driver test car",
+      "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+    },
     "top": null,
-    "zero60": null,
+    "zero60": {
+      "sec": 6.1,
+      "kind": "tested",
+      "note": "Car and Driver test, 2010 GTI 3-door",
+      "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+    },
     "photo": {},
     "id": "volkswagen-golf-gti-mk6",
     "name": "Volkswagen Golf GTI (Mk6)",
@@ -6425,7 +6720,12 @@ const CARS = [
       "src": "https://www.fueleconomy.gov/feg/noframes/37973.shtml"
     },
     "built": null,
-    "weight": null,
+    "weight": {
+      "kg": 1388,
+      "lb": 3060,
+      "note": "Curb weight, 2015 US GTI S 5-door with Performance Pack, Car and Driver test car",
+      "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+    },
     "top": null,
     "zero60": {
       "sec": 6.4,
@@ -6487,8 +6787,15 @@ const CARS = [
       "note": "EPA combined, 2022 GTI, DSG or manual",
       "src": "https://www.fueleconomy.gov/feg/noframes/44539.shtml"
     },
-    "built": null,
-    "weight": null,
+    "built": {
+      "na": "Still in production; no build total published yet"
+    },
+    "weight": {
+      "kg": 1447,
+      "lb": 3190,
+      "note": "Curb weight, 2022 European-spec GTI, Car and Driver test car",
+      "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+    },
     "top": null,
     "zero60": {
       "sec": 5.1,
@@ -6563,7 +6870,12 @@ const CARS = [
       "note": "",
       "src": "https://www.kbb.com/volvo/240/1993/specs"
     },
-    "zero60": null,
+    "zero60": {
+      "sec": 11.6,
+      "kind": "claimed",
+      "note": "Maker's figure, 0-100 km/h (62 mph), 240 GL with the same B230F engine, manual",
+      "src": "https://www.encycarpedia.com/volvo/86-240-gl-saloon"
+    },
     "top": null,
     "mpg": {
       "combined": 20,
@@ -6779,9 +7091,23 @@ const CARS = [
       "note": "",
       "src": "article:the-ford-america-will-not-sell-you"
     },
-    "zero60": null,
+    "zero60": {
+      "sec": 9.5,
+      "kind": "estimated",
+      "note": "CarsGuide figure for the 3.0 V6, 0-100 km/h (62 mph); Ford publishes no claim",
+      "src": "https://www.carsguide.com.au/ford/everest/speed"
+    },
     "top": null,
-    "built": null,
+    "mpg": {
+      "combined": 27.7,
+      "unit": "mpg",
+      "kind": "official",
+      "note": "Official Australian ADR 81/02 combined figure, 3.0 V6, 8.5 L/100 km",
+      "src": "https://www.carexpert.com.au/ford/everest/2025/wildtrak/powertrain-and-performance"
+    },
+    "built": {
+      "na": "Still in production; Ford has not published a total for this generation"
+    },
     "predecessor": {
       "name": "Ford Everest (second generation, 2015-2022)",
       "id": null
@@ -6923,6 +7249,9 @@ const CARS = [
       "note": "Maker's claim",
       "src": "article:twelve-angry-cylinders"
     },
+    "mpg": {
+      "na": "One-off show car; no fuel figure was ever published"
+    },
     "built": {
       "count": 1,
       "approx": false,
@@ -6974,8 +7303,13 @@ const CARS = [
       "note": "",
       "src": "article:twelve-angry-cylinders"
     },
-    "zero60": null,
+    "zero60": {
+      "na": "One-off show car; no acceleration figure was ever published"
+    },
     "top": null,
+    "mpg": {
+      "na": "One-off show car; no fuel figure was ever published"
+    },
     "built": {
       "count": 1,
       "approx": false,
@@ -7025,12 +7359,17 @@ const CARS = [
       "note": "",
       "src": "article:release-the-hounds"
     },
-    "zero60": null,
+    "zero60": {
+      "na": "Built to order in a run of 14; Sbarro published no acceleration figure"
+    },
     "top": {
       "mph": 112,
       "kind": "claimed",
       "note": "Maker's claim",
       "src": "article:release-the-hounds"
+    },
+    "mpg": {
+      "na": "Built to order in a run of 14; Sbarro published no fuel figure"
     },
     "built": {
       "count": 14,
@@ -7075,13 +7414,20 @@ const CARS = [
       "note": "",
       "src": "article:frankenstein-monster-g"
     },
-    "weight": null,
-    "zero60": null,
+    "weight": {
+      "na": "One-off built for a private client; no weight was ever published"
+    },
+    "zero60": {
+      "na": "One-off built for a private client; no acceleration figure was ever published"
+    },
     "top": {
       "mph": 130,
       "kind": "claimed",
       "note": "Maker's claim",
       "src": "article:frankenstein-monster-g"
+    },
+    "mpg": {
+      "na": "One-off built for a private client; no fuel figure was ever published"
     },
     "built": {
       "count": 1,
@@ -7130,9 +7476,16 @@ const CARS = [
       "note": "",
       "src": "article:topless-beach"
     },
-    "weight": null,
-    "zero60": null,
+    "weight": {
+      "na": "One-off built for a private client; no weight was ever published"
+    },
+    "zero60": {
+      "na": "One-off built for a private client; no acceleration figure was ever published"
+    },
     "top": null,
+    "mpg": {
+      "na": "One-off built for a private client; no fuel figure was ever published"
+    },
     "built": {
       "count": 1,
       "approx": false,
@@ -7441,10 +7794,16 @@ const CARS = [
           "src": "https://en.wikipedia.org/wiki/Toyota_4Runner"
         },
         "weight": {
-          "na": "No figure on record"
+          "kg": 1696,
+          "lb": 3740,
+          "note": "Toyota's preliminary curb weight, 1996 4Runner 2.7, 4-wheel drive, automatic",
+          "src": "https://www.top4runners.com/runhist/runhist31996.html"
         },
         "zero60": {
-          "na": "No test on record"
+          "sec": 12.5,
+          "kind": "estimated",
+          "note": "Spec-database figure, 0-100 km/h (62 mph), 4Runner 2.7 4x4",
+          "src": "https://auto-data.net/en/toyota-4runner-iii-2.7-16v-150hp-4x4-3111"
         },
         "top": {
           "na": "No US figure from Toyota"
@@ -7552,7 +7911,10 @@ const CARS = [
           "src": "https://en.wikipedia.org/wiki/Toyota_4Runner"
         },
         "weight": {
-          "na": "No figure on record"
+          "kg": 1941,
+          "lb": 4280,
+          "note": "Curb weight, 2003 4Runner SR5 V6, 4-wheel drive",
+          "src": "https://www.motormatchup.com/catalog/Toyota/4Runner/2003/SR5-V6-4X4"
         },
         "zero60": {
           "na": "No test on record"
@@ -7820,7 +8182,10 @@ const CARS = [
       "na": "fueleconomy.gov starts with 1984 models"
     },
     "built": {
-      "na": "No production total on record"
+      "count": 63895,
+      "approx": true,
+      "note": "Sold in North America, 1979–1981 (estimated figures)",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Supra"
     },
     "predecessor": null,
     "successor": {
@@ -7889,7 +8254,10 @@ const CARS = [
       "note": "EPA combined, 1984, 5-speed manual"
     },
     "built": {
-      "na": "No production total on record"
+      "count": 114459,
+      "approx": true,
+      "note": "Sold in North America, 1982–1985 (estimated figures)",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Supra"
     },
     "predecessor": {
       "name": "Toyota Celica Supra (A40)",
@@ -7960,7 +8328,10 @@ const CARS = [
       "note": "EPA combined, 1987, 5-speed manual"
     },
     "built": {
-      "na": "No production total on record"
+      "count": 108565,
+      "approx": true,
+      "note": "Sold in North America, 1986–1992 (estimated figures)",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Supra"
     },
     "versions": [
       {
@@ -8073,7 +8444,10 @@ const CARS = [
       "note": "EPA combined, 1994, 5-speed manual"
     },
     "built": {
-      "na": "No production total on record"
+      "count": 12059,
+      "approx": true,
+      "note": "Sold in North America, 1993–1999 (estimated figures)",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Supra"
     },
     "versions": [
       {
@@ -8259,7 +8633,12 @@ const CARS = [
       "note": "EPA combined on hydrogen, 67 city / 67 highway",
       "src": "https://www.fueleconomy.gov/feg/noframes/47528.shtml"
     },
-    "built": null,
+    "built": {
+      "count": 6645,
+      "approx": true,
+      "note": "Sold in the US, 2015–2020",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Mirai"
+    },
     "predecessor": null,
     "successor": {
       "name": "Toyota Mirai (JPD20)",
@@ -8324,7 +8703,12 @@ const CARS = [
       "note": "EPA combined on hydrogen, 76 city / 71 highway",
       "src": "https://www.fueleconomy.gov/feg/noframes/47543.shtml"
     },
-    "built": null,
+    "built": {
+      "count": 7705,
+      "approx": true,
+      "note": "Sold in the US, 2021 to November 2024",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Mirai"
+    },
     "predecessor": {
       "name": "Toyota Mirai (JPD10)",
       "id": "toyota-mirai-jpd10"
@@ -8521,10 +8905,15 @@ const CARS = [
     "gearbox": "Manual or automatic",
     "specsFor": "Toyota Celica Camry, Japanese market",
     "power": {
-      "na": "No figure on record"
+      "hp": 94,
+      "note": "1800 XT, 1.8-liter 13T-U, 95 PS (JIS gross)",
+      "src": "https://global.toyota/en/detail/7582264"
     },
     "weight": {
-      "na": "No figure on record"
+      "kg": 1010,
+      "lb": 2227,
+      "note": "Curb weight, 1800 XT, Toyota's launch figure (1,010–1,025 kg)",
+      "src": "https://global.toyota/en/detail/7582264"
     },
     "zero60": {
       "na": "No test on record"
@@ -8536,7 +8925,10 @@ const CARS = [
       "na": "Not sold in the US, so no EPA rating"
     },
     "built": {
-      "na": "No production total on record"
+      "count": 100000,
+      "approx": true,
+      "note": "More than 100,000 sold in Japan",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Carina"
     },
     "predecessor": null,
     "successor": {
@@ -8662,10 +9054,16 @@ const CARS = [
       "src": "https://www.cargurus.com/research/1987-Toyota-Camry-c4148"
     },
     "weight": {
-      "na": "No figure on record"
+      "kg": 1247,
+      "lb": 2750,
+      "note": "Curb weight, 1987 Camry Deluxe, Car and Driver test car",
+      "src": "https://www.0-60specs.com/toyota/camry-0-60-times"
     },
     "zero60": {
-      "na": "No test on record"
+      "sec": 9.2,
+      "kind": "tested",
+      "note": "Car and Driver test, 1987 Camry Deluxe",
+      "src": "https://www.0-60specs.com/toyota/camry-0-60-times"
     },
     "top": {
       "na": "No US figure from Toyota"
@@ -8703,7 +9101,10 @@ const CARS = [
           "na": "No figure on record"
         },
         "zero60": {
-          "na": "No test on record"
+          "sec": 9.3,
+          "kind": "tested",
+          "note": "Period road test of a V6 Camry, as reported by BangShift",
+          "src": "https://bangshift.com/general-news/in-1989-the-toyota-camry-got-a-v6-to-fight-the-taurus/"
         },
         "top": {
           "na": "No US figure from Toyota"
@@ -8929,10 +9330,16 @@ const CARS = [
           "src": "https://en.wikipedia.org/wiki/Toyota_Camry"
         },
         "weight": {
-          "na": "No figure on record"
+          "kg": 1445,
+          "lb": 3185,
+          "note": "Curb weight, 1997 Camry LE 4-cylinder test car",
+          "src": "https://www.theautochannel.com/vehicles/new/reviews/1997/solo9649.html"
         },
         "zero60": {
-          "na": "No test on record"
+          "sec": 11.8,
+          "kind": "tested",
+          "note": "The Auto Channel test, 1997 Camry LE 4-cylinder, automatic",
+          "src": "https://www.theautochannel.com/vehicles/new/reviews/1997/solo9649.html"
         },
         "top": {
           "na": "No US figure from Toyota"
@@ -9693,10 +10100,17 @@ const CARS = [
       "na": "No figure on record"
     },
     "mpg": {
-      "na": "fueleconomy.gov starts with 1984 models"
+      "combined": 31.5,
+      "unit": "mpg",
+      "kind": "tested",
+      "note": "Motor Trend road test, 1968 Corolla 1100 2-door sedan",
+      "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
     },
     "built": {
-      "na": "No complete US sales total on record"
+      "count": 1000000,
+      "approx": true,
+      "note": "Toyota says the first-generation Corolla passed 1 million built",
+      "src": "https://global.toyota/detail/14095114"
     },
     "predecessor": null,
     "successor": {
@@ -9761,7 +10175,10 @@ const CARS = [
       "na": "fueleconomy.gov starts with 1984 models"
     },
     "built": {
-      "na": "No complete US sales total on record"
+      "count": 2410000,
+      "approx": true,
+      "note": "Worked out from Toyota's year-end cumulative Corolla sales, interpolated to the May 1970 and April 1974 changeovers; counts every Corolla-badged car sold in that span",
+      "src": "https://global.toyota/detail/13824334"
     },
     "predecessor": {
       "name": "Toyota Corolla (E10)",
@@ -9827,7 +10244,11 @@ const CARS = [
       "na": "No figure on record"
     },
     "mpg": {
-      "na": "fueleconomy.gov starts with 1984 models"
+      "combined": 24,
+      "unit": "mpg",
+      "kind": "tested",
+      "note": "Car and Driver road test, 1975 SR-5 coupe",
+      "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
     },
     "built": {
       "count": 1067695,
@@ -9898,10 +10319,17 @@ const CARS = [
       "na": "No figure on record"
     },
     "mpg": {
-      "na": "fueleconomy.gov starts with 1984 models"
+      "combined": 25,
+      "unit": "mpg",
+      "kind": "tested",
+      "note": "Road & Track road test, 1980 Corolla Deluxe Sport Coupe",
+      "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
     },
     "built": {
-      "na": "No complete US sales total on record"
+      "count": 3330000,
+      "approx": true,
+      "note": "Worked out from Toyota's year-end cumulative Corolla sales, interpolated to the March 1979 and May 1983 changeovers; counts every Corolla-badged car sold in that span",
+      "src": "https://global.toyota/detail/13824334"
     },
     "predecessor": {
       "name": "Toyota Corolla (E30)",
@@ -9977,7 +10405,10 @@ const CARS = [
       "note": "EPA combined, 1987 FX16, 5-speed manual"
     },
     "built": {
-      "na": "No complete US sales total on record"
+      "count": 2810000,
+      "approx": true,
+      "note": "Worked out from Toyota's year-end cumulative Corolla sales, interpolated to the May 1983 and May 1987 changeovers; counts every Corolla-badged car sold in that span",
+      "src": "https://global.toyota/detail/13824334"
     },
     "versions": [
       {
@@ -10627,7 +11058,12 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/38112.shtml"
     },
-    "built": null,
+    "built": {
+      "count": 62796,
+      "approx": true,
+      "note": "Sold in the US as the Scion iM and Corolla iM, 2015 to October 2018",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Auris"
+    },
     "predecessor": null,
     "successor": {
       "name": "Toyota Corolla (E210)",
@@ -10848,7 +11284,12 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/46218.shtml"
     },
-    "built": null,
+    "built": {
+      "count": 5567,
+      "approx": true,
+      "note": "US sales in 2023, its first full year; Toyota folds later GR Corolla sales into the Corolla total",
+      "src": "https://www.motor1.com/news/704830/2023-toyota-gr-corolla-sales/"
+    },
     "predecessor": null,
     "successor": null,
     "alongside": [
@@ -11849,10 +12290,16 @@ const CARS = [
           "src": "https://en.wikipedia.org/wiki/Toyota_Highlander"
         },
         "weight": {
-          "na": "No figure on record"
+          "kg": 1685,
+          "lb": 3715,
+          "note": "Curb weight, 2001 Highlander 2.4, 4-wheel drive",
+          "src": "https://www.edmunds.com/toyota/highlander/2001/st-100001867/features-specs"
         },
         "zero60": {
-          "na": "No test on record"
+          "sec": 10.1,
+          "kind": "estimated",
+          "note": "Spec-sheet figure, Highlander 2.4 all-wheel drive (no magazine tested the 4-cylinder)",
+          "src": "https://www.autoblog.com/best-deal/2007-Toyota-Highlander-Base__4dr_All_Wheel_Drive/"
         },
         "top": {
           "na": "No US figure from Toyota"
@@ -11991,10 +12438,16 @@ const CARS = [
           "src": "https://en.wikipedia.org/wiki/Toyota_Highlander"
         },
         "weight": {
-          "na": "No figure on record"
+          "kg": 1835,
+          "lb": 4045,
+          "note": "Curb weight, 2009 Highlander 2.7, front-wheel drive",
+          "src": "https://carspecs.us/cars/2009/toyota/highlander"
         },
         "zero60": {
-          "na": "No test on record"
+          "sec": 9.7,
+          "kind": "claimed",
+          "note": "Toyota's preliminary in-house figure at launch",
+          "src": "https://www.worktruckonline.com/news/toyota-announces-its-new-2009-four-cylinder-highlander"
         },
         "top": {
           "na": "No US figure from Toyota"
@@ -12130,7 +12583,10 @@ const CARS = [
           "na": "No US figure from Toyota"
         },
         "zero60": {
-          "na": "No test on record"
+          "sec": 9.4,
+          "kind": "estimated",
+          "note": "MotorMatchup simulation, 2017 Highlander LE 2.7 (no magazine tested the 4-cylinder)",
+          "src": "https://www.motormatchup.com/catalog/Toyota/Highlander/2017/LE-I4-4DR-FWD"
         },
         "mpg": {
           "combined": 22,
@@ -12139,6 +12595,12 @@ const CARS = [
           "unit": "mpg",
           "kind": "epa",
           "src": "https://www.fueleconomy.gov/feg/noframes/38414.shtml"
+        },
+        "weight": {
+          "kg": 1889,
+          "lb": 4165,
+          "note": "Curb weight, 2017 Highlander LE 2.7, front-wheel drive",
+          "src": "https://www.cars.com/research/toyota-highlander-2017/specs/"
         }
       }
     ],
@@ -12520,7 +12982,10 @@ const CARS = [
       "note": "EPA combined, 1995 V6, 4-wheel drive, automatic"
     },
     "built": {
-      "na": "No complete US sales total on record"
+      "count": 1445189,
+      "approx": false,
+      "note": "US sales by model year, 1995–2004",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Tacoma"
     },
     "predecessor": null,
     "successor": {
@@ -12684,7 +13149,10 @@ const CARS = [
           "src": "https://pressroom.toyota.com/2017-tacoma-welcomes-new-trd-pro-lineup/"
         },
         "zero60": {
-          "na": "No test on record"
+          "sec": 10.4,
+          "kind": "estimated",
+          "note": "MotorMatchup simulation, 2017 Tacoma SR 4x2 2.7, automatic (no magazine tested the 4-cylinder)",
+          "src": "https://www.motormatchup.com/catalog/Toyota/Tacoma/2017/SR-4X2-Double-CAB-127.4-IN.-WB"
         },
         "top": {
           "na": "No US figure from Toyota"
@@ -12697,6 +13165,12 @@ const CARS = [
           "kind": "epa",
           "src": "https://www.fueleconomy.gov/feg/noframes/37985.shtml",
           "note": "EPA combined, 2WD automatic (4WD: 20 mpg)"
+        },
+        "weight": {
+          "kg": 1805,
+          "lb": 3980,
+          "note": "Curb weight, base 2.7-liter Tacoma (SR Access Cab 4x2)",
+          "src": "https://www.autoblog.com/buy/2017-Toyota-Tacoma/user-reviews/"
         }
       }
     ],
@@ -13422,7 +13896,10 @@ const CARS = [
       "src": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser"
     },
     "weight": {
-      "na": "No figure on record"
+      "kg": 1425,
+      "lb": 3142,
+      "note": "Curb mass, Toyota's figure",
+      "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60012609/"
     },
     "zero60": {
       "na": "No test on record"
@@ -13434,7 +13911,10 @@ const CARS = [
       "na": "Not sold in the US, so no EPA rating"
     },
     "built": {
-      "na": "No production total on record"
+      "count": 874,
+      "approx": false,
+      "note": "BJR 203, BJT 232, BJJ 253 and FJJ 186, from Toyota's 1958 company history (translated by an IH8MUD member)",
+      "src": "https://forum.ih8mud.com/threads/toyota-bj-jeep-thread.182483/page-7"
     },
     "predecessor": null,
     "successor": {
@@ -13478,7 +13958,10 @@ const CARS = [
       "src": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser"
     },
     "weight": {
-      "na": "No figure on record"
+      "kg": 1425,
+      "lb": 3142,
+      "note": "Curb mass, FJ25, Toyota's figure",
+      "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60012610/index.html"
     },
     "zero60": {
       "na": "No test on record"
@@ -13539,19 +14022,32 @@ const CARS = [
       "src": "https://www.0-60specs.com/toyota/land-cruiser-0-60-times"
     },
     "weight": {
-      "na": "No figure on record"
+      "kg": 1480,
+      "lb": 3263,
+      "note": "Curb mass, FJ40, Toyota's figure",
+      "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60012611/"
     },
     "zero60": {
-      "na": "No test on record"
+      "sec": 14.0,
+      "kind": "tested",
+      "note": "Motor Trend test, 1975 FJ40",
+      "src": "https://www.0-60specs.com/toyota/land-cruiser-0-60-times"
     },
     "top": {
       "na": "No figure on record"
     },
     "mpg": {
-      "na": "fueleconomy.gov starts with 1984 models"
+      "combined": 12,
+      "unit": "mpg",
+      "kind": "tested",
+      "note": "Motor Trend road test, 1975 FJ40",
+      "src": "https://www.0-60specs.com/toyota/land-cruiser-0-60-times"
     },
     "built": {
-      "na": "No production total on record"
+      "count": 1100000,
+      "approx": true,
+      "note": "More than 1.1 million built worldwide by 1984",
+      "src": "https://www.thedrive.com/vintage/3254/a-visual-history-of-the-land-cruiser.md"
     },
     "predecessor": {
       "name": "Toyota Land Cruiser (20 Series)",
@@ -13594,22 +14090,34 @@ const CARS = [
     "gearbox": "Manual or automatic",
     "specsFor": "Toyota Land Cruiser 70 Series",
     "power": {
-      "na": "Varies by market and engine"
+      "hp": 202,
+      "note": "LandCruiser 76 wagon, 4.5-liter turbodiesel V8, 151 kW (Australia)",
+      "src": "https://www.carexpert.com.au/car-comparisons/drag-race-toyota-landcruiser-70-series-4cyl-v-landcruiser-70-series-v8-v-hilux"
     },
     "weight": {
-      "na": "No figure on record"
+      "kg": 2355,
+      "lb": 5192,
+      "note": "Curb weight, LandCruiser 76 wagon V8",
+      "src": "https://www.carexpert.com.au/car-comparisons/drag-race-toyota-landcruiser-70-series-4cyl-v-landcruiser-70-series-v8-v-hilux"
     },
     "zero60": {
-      "na": "No test on record"
+      "sec": 14.6,
+      "kind": "tested",
+      "note": "CarExpert test, 0-100 km/h (62 mph), LandCruiser 76 wagon V8, 2024",
+      "src": "https://www.carexpert.com.au/car-comparisons/drag-race-toyota-landcruiser-70-series-4cyl-v-landcruiser-70-series-v8-v-hilux"
     },
     "top": {
       "na": "No figure on record"
     },
     "mpg": {
-      "na": "Not sold in the US, so no EPA rating"
+      "combined": 22.0,
+      "unit": "mpg",
+      "kind": "official",
+      "note": "Official Australian combined, 10.7 L/100 km, LandCruiser 79 GXL V8",
+      "src": "https://www.carsguide.com.au/tradies/toyota-landcruiser-lc79-2018-review-73062"
     },
     "built": {
-      "na": "No production total on record"
+      "na": "Still in production; no build total published yet"
     },
     "predecessor": {
       "name": "Toyota Land Cruiser (40 Series)",
@@ -13655,7 +14163,10 @@ const CARS = [
       "src": "https://www.0-60specs.com/toyota/land-cruiser-0-60-times"
     },
     "weight": {
-      "na": "No figure on record"
+      "kg": 1810,
+      "lb": 3990,
+      "note": "Vehicle weight, FJ55V, Toyota's figure",
+      "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60017153/index.html"
     },
     "zero60": {
       "na": "No test on record"
@@ -13667,7 +14178,10 @@ const CARS = [
       "na": "fueleconomy.gov starts with 1984 models"
     },
     "built": {
-      "na": "No production total on record"
+      "count": 113000,
+      "approx": true,
+      "note": "Almost 113,000 built, 1967–1980",
+      "src": "https://flexmotor.com/landcruiser/landcruiser-articles/land-cruiser-genealogy"
     },
     "predecessor": {
       "name": "Toyota Land Cruiser (40 Series)",
@@ -13740,7 +14254,10 @@ const CARS = [
       "note": "EPA combined, 1988 FJ62, automatic"
     },
     "built": {
-      "na": "No production total on record"
+      "count": 45489,
+      "approx": true,
+      "note": "All Land Cruisers sold in the US, 1981–1990 (includes the last FJ40s, through 1983)",
+      "src": "https://motorandwheels.com/toyota-land-cruiser-statistics/"
     },
     "versions": [
       {
@@ -13845,7 +14362,10 @@ const CARS = [
       "note": "EPA combined, 1991"
     },
     "built": {
-      "na": "No production total on record"
+      "count": 74796,
+      "approx": true,
+      "note": "Sold in the US, 1991–1997",
+      "src": "https://motorandwheels.com/toyota-land-cruiser-statistics/"
     },
     "versions": [
       {
@@ -13958,7 +14478,10 @@ const CARS = [
       "note": "EPA combined, 1998"
     },
     "built": {
-      "na": "No production total on record"
+      "count": 87727,
+      "approx": true,
+      "note": "Sold in the US, 1998–2007",
+      "src": "https://motorandwheels.com/toyota-land-cruiser-statistics/"
     },
     "predecessor": {
       "name": "Toyota Land Cruiser (80 Series)",
@@ -14087,19 +14610,32 @@ const CARS = [
       "src": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser"
     },
     "weight": {
-      "na": "No figure on record"
+      "kg": 2500,
+      "lb": 5512,
+      "note": "Curb weight, ZX 3.5 gasoline, Toyota Japan",
+      "src": "https://toyota.jp/pages/contents/landcruiser300/004_p_001/pdf/landcruiser300_spec_202503.pdf"
     },
     "zero60": {
-      "na": "No test on record"
+      "sec": 6.3,
+      "kind": "tested",
+      "note": "Car magazine test (South Africa), 0-100 km/h (62 mph), 3.5T ZX",
+      "src": "https://theauto.page/road-tested/toyota-land-cruiser-300-3-5t-road-test/"
     },
     "top": {
       "na": "No figure on record"
     },
     "mpg": {
-      "na": "Not sold in the US, so no EPA rating"
+      "combined": 18.6,
+      "unit": "mpg",
+      "kind": "official",
+      "note": "Japanese WLTC rating, 7.9 km/L, 3.5 gasoline",
+      "src": "https://toyota.jp/pages/contents/landcruiser300/004_p_001/pdf/landcruiser300_spec_202503.pdf"
     },
     "built": {
-      "na": "No production total on record"
+      "count": 105700,
+      "approx": true,
+      "note": "Worldwide sales in 2024 alone (Car Industry Analysis data); Toyota does not publish a running total for the 300 Series",
+      "src": "https://www.carscoops.com/2025/08/toyota-sold-over-100k-of-its-flagship-suv-as-one-country-left-even-japan-behind/"
     },
     "predecessor": {
       "name": "Toyota Land Cruiser (200 Series)",
@@ -14487,12 +15023,17 @@ const CARS = [
       "note": "Combined system output",
       "src": "https://pressroom.toyota.com/toyotas-all-electric-lineup-gains-rugged-powerful-new-bz-woodland-suv/"
     },
-    "weight": null,
+    "weight": {
+      "kg": 2073,
+      "lb": 4570,
+      "note": "Curb weight, 2026 bZ Woodland Premium, Car and Driver test car",
+      "src": "https://www.0-60specs.com/toyota/bz-0-60-times"
+    },
     "zero60": {
-      "sec": 4.4,
-      "kind": "claimed",
-      "note": "Toyota estimate",
-      "src": "https://pressroom.toyota.com/toyotas-all-electric-lineup-gains-rugged-powerful-new-bz-woodland-suv/"
+      "sec": 3.9,
+      "kind": "tested",
+      "note": "Car and Driver test, 2026 bZ Woodland Premium",
+      "src": "https://www.0-60specs.com/toyota/bz-0-60-times"
     },
     "top": {
       "na": "No US figure from Toyota"
@@ -14506,7 +15047,9 @@ const CARS = [
       "note": "EPA combined, on 235/60R18 tires (235/65R18: 109 MPGe)",
       "src": "https://www.fueleconomy.gov/feg/noframes/50305.shtml"
     },
-    "built": null,
+    "built": {
+      "na": "Still in production; no build total published yet"
+    },
     "predecessor": null,
     "successor": null,
     "quick": "A longer, more rugged sibling of the 2026 bZ, with 375 hp, all-wheel drive, 8.4 inches of ground clearance and up to 74.3 cubic feet of cargo space. The EPA range is up to 281 miles, or 260 with the optional all-terrain tires.",
@@ -15075,7 +15618,10 @@ const CARS = [
       "note": "EPA combined, 2000, 5-speed manual"
     },
     "built": {
-      "na": "No complete US sales total on record"
+      "count": 164299,
+      "approx": true,
+      "note": "Sold in the US, 1999–2005",
+      "src": "https://www.goodcarbadcar.net/toyota-echo-sales-figures/"
     },
     "predecessor": null,
     "successor": {
@@ -15148,7 +15694,10 @@ const CARS = [
       "note": "EPA combined, 2007, 5-speed manual"
     },
     "built": {
-      "na": "No US sales total on record"
+      "count": 393958,
+      "approx": true,
+      "note": "Sold in the US, 2006–2011 (all Yaris sedans and hatchbacks)",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Yaris_(XP90)"
     },
     "predecessor": {
       "name": "Toyota Echo (XP10)",
@@ -15198,7 +15747,12 @@ const CARS = [
       "note": "103 lb-ft",
       "src": "https://pressroom.toyota.com/?generate_pdf=17048"
     },
-    "weight": null,
+    "weight": {
+      "kg": 1064,
+      "lb": 2345,
+      "note": "Curb weight, 2016 Yaris LE 5-door, Car and Driver test car",
+      "src": "https://www.0-60specs.com/toyota/yaris-0-60-times"
+    },
     "zero60": {
       "sec": 10.2,
       "kind": "tested",
@@ -15217,7 +15771,12 @@ const CARS = [
       "note": "EPA combined, automatic (manual: 33 mpg)",
       "src": "https://www.fueleconomy.gov/feg/noframes/38778.shtml"
     },
-    "built": null,
+    "built": {
+      "count": 103450,
+      "approx": true,
+      "note": "Yaris hatchbacks sold in the US, 2012–2018",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Yaris_(XP90)"
+    },
     "predecessor": {
       "name": "Toyota Yaris (XP90)",
       "id": "toyota-yaris-xp90"
@@ -15293,7 +15852,12 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/37884.shtml"
     },
-    "built": null,
+    "built": {
+      "count": 96584,
+      "approx": true,
+      "note": "Sold in the US as the Scion iA and Yaris iA, 2015–2018",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Yaris_(XP90)"
+    },
     "predecessor": null,
     "successor": null,
     "quick": "A Mazda2 with Toyota badges: sold as the Scion iA for 2016, the Yaris iA for 2017–2018 and the Yaris Sedan for 2019–2020, joined by a 5-door Yaris Hatchback for 2020. Built by Mazda in Mexico, with a 106-hp 1.5-liter and up to 40 mpg on the highway.",
@@ -15761,7 +16325,10 @@ const CARS = [
       "note": "EPA combined on gasoline; 95 MPGe and 11 miles of range on electricity, 2012"
     },
     "built": {
-      "na": "No US production or sales total on record"
+      "count": 42293,
+      "approx": true,
+      "note": "Sold in the US, 2012–2015",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Prius_Plug-in_Hybrid"
     },
     "predecessor": null,
     "successor": {
@@ -15808,7 +16375,12 @@ const CARS = [
       "note": "Combined hybrid system output",
       "src": "https://photos.velocityjournal.com/journal/2017/toyota/29534/index.html"
     },
-    "weight": null,
+    "weight": {
+      "kg": 1526,
+      "lb": 3365,
+      "note": "Curb weight, 2017 Prius Prime Advanced, Car and Driver test car",
+      "src": "https://www.0-60specs.com/toyota/prius-prime-0-60-times"
+    },
     "zero60": {
       "sec": 10.3,
       "kind": "tested",
@@ -15830,7 +16402,12 @@ const CARS = [
       "note": "EPA combined on gas; 133 MPGe on electricity",
       "src": "https://www.fueleconomy.gov/feg/noframes/38531.shtml"
     },
-    "built": null,
+    "built": {
+      "count": 100000,
+      "approx": true,
+      "note": "More than 100,000 sold in the US by mid-2021, by InsideEVs' count",
+      "src": "https://insideevs.com/news/517755/us-toyota-plugin-sales-2021q2"
+    },
     "predecessor": {
       "name": "Toyota Prius Plug-in Hybrid (XW35)",
       "id": "toyota-prius-plug-in-xw35"
@@ -15907,7 +16484,12 @@ const CARS = [
       "note": "EPA combined on gas; 127 MPGe on electricity",
       "src": "https://www.fueleconomy.gov/feg/noframes/47229.shtml"
     },
-    "built": null,
+    "built": {
+      "count": 35732,
+      "approx": true,
+      "note": "Sold in the US, 2023–2025 (7,557, 12,672 and 15,503)",
+      "src": "https://www.carscoops.com/2026/01/nearly-half-of-toyota-and-lexus-buyers-went-electrified-as-tacoma-had-its-best-year-ever/"
+    },
     "predecessor": {
       "name": "Toyota Prius Prime (XW52)",
       "id": "toyota-prius-prime-xw52"
@@ -15981,7 +16563,12 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/40596.shtml"
     },
-    "built": null,
+    "built": {
+      "count": 189633,
+      "approx": true,
+      "note": "Sold in the US, 2012–2017 (177,218 through 2016, then 12,415 in 2017)",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Aqua"
+    },
     "predecessor": null,
     "successor": null,
     "quick": "The smallest Prius: a subcompact hybrid hatchback with 99 hp and an EPA rating of 46 mpg combined, sold in the US for 2012–2019 and in Japan as the Toyota Aqua.",
@@ -16047,7 +16634,12 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/37463.shtml"
     },
-    "built": null,
+    "built": {
+      "count": 148079,
+      "approx": true,
+      "note": "Sold in the US, October 2011 to April 2016",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Prius_v"
+    },
     "predecessor": null,
     "successor": null,
     "quick": "The roomiest Prius: a tall hybrid wagon with a sliding, reclining rear seat and up to 67.3 cubic feet of cargo space, rated at 41 mpg combined. Sold in the US for 2012–2017.",
@@ -16371,7 +16963,12 @@ const CARS = [
       "note": "Combined hybrid system output",
       "src": "https://www.wardsauto.com/news/archive-wards-2021-toyota-sienna-minivan-fuel-efficient-full-of-features/794849/"
     },
-    "weight": null,
+    "weight": {
+      "kg": 2145,
+      "lb": 4730,
+      "note": "Curb weight, 2021 Sienna Platinum Hybrid, Car and Driver test car",
+      "src": "https://www.0-60specs.com/toyota/sienna-0-60-times"
+    },
     "zero60": {
       "sec": 7.7,
       "kind": "tested",
@@ -16437,19 +17034,31 @@ const CARS = [
     "gearbox": "Manual or automatic",
     "specsFor": "Toyota Crown, first generation",
     "power": {
-      "na": "Several engines; no single figure"
+      "hp": 48,
+      "note": "Type R 1.5-liter 4-cylinder at launch (55 hp from 1956, 58 hp from 1958)",
+      "src": "https://www.toyota-global.com/company/history_of_toyota/75years/text/taking_on_the_automotive_business/chapter2/section8/item3_f.html"
     },
     "weight": {
-      "na": "No figure on record"
+      "kg": 1210,
+      "lb": 2668,
+      "note": "Curb mass, RS, Toyota's figure",
+      "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60004580/index.html"
     },
     "zero60": {
-      "na": "No test on record"
+      "sec": 25.9,
+      "kind": "tested",
+      "note": "Motor Trend test, 1958 Toyopet Crown Custom",
+      "src": "https://www.0-60specs.com/toyopet/crown-0-60-times"
     },
     "top": {
       "na": "No figure on record"
     },
     "mpg": {
-      "na": "fueleconomy.gov starts with 1984 models"
+      "combined": 23.5,
+      "unit": "mpg",
+      "kind": "tested",
+      "note": "Motor Trend road test, 1958, over 407 miles",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Crown"
     },
     "built": {
       "na": "No production total on record"
@@ -16491,10 +17100,15 @@ const CARS = [
     "gearbox": "Manual or automatic",
     "specsFor": "Toyota Crown, second generation",
     "power": {
-      "na": "Several engines; no single figure"
+      "hp": 89,
+      "note": "Deluxe RS41, 1.9-liter 3R 4-cylinder, 90 PS",
+      "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60004715/index.html"
     },
     "weight": {
-      "na": "No figure on record"
+      "kg": 1265,
+      "lb": 2789,
+      "note": "Curb mass, Deluxe RS41, Toyota's figure",
+      "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60004715/index.html"
     },
     "zero60": {
       "na": "No test on record"
@@ -16503,10 +17117,17 @@ const CARS = [
       "na": "No figure on record"
     },
     "mpg": {
-      "na": "fueleconomy.gov starts with 1984 models"
+      "combined": 23,
+      "unit": "mpg",
+      "kind": "tested",
+      "note": "Road Test magazine, June 1967, US Crown Deluxe 2300",
+      "src": "https://curbsideclassic.com/automotive-histories/vintage-review-1965-1970-toyota-crown-you-cant-always-get-the-gold"
     },
     "built": {
-      "na": "No production total on record"
+      "count": 250000,
+      "approx": true,
+      "note": "About 250,000 registered new in Japan over the generation's run, from Japanese registration data",
+      "src": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%A8%E3%82%BF%E3%83%BB%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%B3"
     },
     "predecessor": {
       "name": "Toyota Crown (first generation)",
@@ -16548,10 +17169,15 @@ const CARS = [
     "gearbox": "Manual or automatic",
     "specsFor": "Toyota Crown, third generation",
     "power": {
-      "na": "Several engines; no single figure"
+      "hp": 108,
+      "note": "Super Deluxe MS50, 2.0-liter M 6-cylinder, 110 PS",
+      "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60004831/index.html"
     },
     "weight": {
-      "na": "No figure on record"
+      "kg": 1310,
+      "lb": 2888,
+      "note": "Curb mass, Super Deluxe MS50, Toyota's figure",
+      "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60004831/index.html"
     },
     "zero60": {
       "na": "No test on record"
@@ -16560,10 +17186,17 @@ const CARS = [
       "na": "No figure on record"
     },
     "mpg": {
-      "na": "fueleconomy.gov starts with 1984 models"
+      "combined": 22,
+      "unit": "mpg",
+      "kind": "tested",
+      "note": "Road Test magazine, 1971, US Crown 2.3 sedan, 4-speed manual (about 22 mpg)",
+      "src": "https://curbsideclassic.com/automotive-histories/vintage-review-1965-1970-toyota-crown-you-cant-always-get-the-gold"
     },
     "built": {
-      "na": "No production total on record"
+      "count": 277641,
+      "approx": true,
+      "note": "Registered new in Japan over the generation's run, from Japanese registration data",
+      "src": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%A8%E3%82%BF%E3%83%BB%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%B3"
     },
     "predecessor": {
       "name": "Toyota Crown (second generation)",
@@ -16605,22 +17238,37 @@ const CARS = [
     "gearbox": "Manual or automatic",
     "specsFor": "Toyota Crown, fourth generation",
     "power": {
-      "na": "Several engines; no single figure"
+      "hp": 122,
+      "note": "US Crown 2600, 2.6-liter 4M 6-cylinder, net",
+      "src": "https://www.curbsideclassic.com/vintage-reviews/vintage-rt-review-1972-toyota-crown-2600-s60-theres-some-very-good-reasons-the-crown-failed-in-the-us/"
     },
     "weight": {
-      "na": "No figure on record"
+      "kg": 1429,
+      "lb": 3150,
+      "note": "Curb weight, 1972 US Crown 2600, Road & Track",
+      "src": "https://www.curbsideclassic.com/vintage-reviews/vintage-rt-review-1972-toyota-crown-2600-s60-theres-some-very-good-reasons-the-crown-failed-in-the-us/"
     },
     "zero60": {
-      "na": "No test on record"
+      "sec": 14.1,
+      "kind": "tested",
+      "note": "Road & Track test, 1972 Crown 2600, automatic",
+      "src": "https://www.curbsideclassic.com/vintage-reviews/vintage-rt-review-1972-toyota-crown-2600-s60-theres-some-very-good-reasons-the-crown-failed-in-the-us/"
     },
     "top": {
       "na": "No figure on record"
     },
     "mpg": {
-      "na": "fueleconomy.gov starts with 1984 models"
+      "combined": 16.0,
+      "unit": "mpg",
+      "kind": "tested",
+      "note": "Road & Track road test, 1972 Crown 2600, normal driving",
+      "src": "https://www.curbsideclassic.com/vintage-reviews/vintage-rt-review-1972-toyota-crown-2600-s60-theres-some-very-good-reasons-the-crown-failed-in-the-us/"
     },
     "built": {
-      "na": "No production total on record"
+      "count": 287970,
+      "approx": true,
+      "note": "Registered new in Japan over the generation's run, from Japanese registration data",
+      "src": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%A8%E3%82%BF%E3%83%BB%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%B3"
     },
     "predecessor": {
       "name": "Toyota Crown (third generation)",
@@ -16663,10 +17311,15 @@ const CARS = [
     "gearbox": "Manual or automatic",
     "specsFor": "Toyota Crown, fifth generation",
     "power": {
-      "na": "Several engines; no single figure"
+      "hp": 138,
+      "note": "Royal Saloon, 2.6-liter 4M 6-cylinder, 140 PS",
+      "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60005041A/index.html"
     },
     "weight": {
-      "na": "No figure on record"
+      "kg": 1470,
+      "lb": 3241,
+      "note": "Curb mass, Royal Saloon, Toyota's figure",
+      "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60005041A/index.html"
     },
     "zero60": {
       "na": "No test on record"
@@ -16678,7 +17331,10 @@ const CARS = [
       "na": "Not sold in the US, so no EPA rating"
     },
     "built": {
-      "na": "No production total on record"
+      "count": 404699,
+      "approx": true,
+      "note": "Registered new in Japan over the generation's run, from Japanese registration data",
+      "src": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%A8%E3%82%BF%E3%83%BB%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%B3"
     },
     "predecessor": {
       "name": "Toyota Crown (fourth generation)",
@@ -16720,22 +17376,37 @@ const CARS = [
     "gearbox": "Manual or automatic",
     "specsFor": "Toyota Crown, sixth generation",
     "power": {
-      "na": "Several engines; no single figure"
+      "hp": 143,
+      "note": "2800 Royal Saloon, 2.8-liter 5M-EU 6-cylinder, 145 PS",
+      "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60005165A/index.html"
     },
     "weight": {
-      "na": "No figure on record"
+      "kg": 1490,
+      "lb": 3285,
+      "note": "Curb mass, 2800 Royal Saloon, Toyota's figure",
+      "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60005165A/index.html"
     },
     "zero60": {
-      "na": "No test on record"
+      "sec": 10.5,
+      "kind": "tested",
+      "note": "Motor Sport road impressions, 1980 UK Crown 2.8 Super Saloon",
+      "src": "https://www.motorsportmagazine.com/archive/page/december-1980/66"
     },
     "top": {
       "na": "No figure on record"
     },
     "mpg": {
-      "na": "Not sold in the US, so no EPA rating"
+      "combined": 20.4,
+      "unit": "mpg",
+      "kind": "tested",
+      "note": "Motor Sport, 1980 UK Crown 2.8 Super Saloon, 24–25 mpg in imperial gallons",
+      "src": "https://www.motorsportmagazine.com/archive/page/december-1980/66"
     },
     "built": {
-      "na": "No production total on record"
+      "count": 326891,
+      "approx": true,
+      "note": "Registered new in Japan over the generation's run, from Japanese registration data",
+      "src": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%A8%E3%82%BF%E3%83%BB%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%B3"
     },
     "predecessor": {
       "name": "Toyota Crown (fifth generation)",
@@ -16777,10 +17448,15 @@ const CARS = [
     "gearbox": "Manual or automatic",
     "specsFor": "Toyota Crown, seventh generation",
     "power": {
-      "na": "Several engines; no single figure"
+      "hp": 173,
+      "note": "2800 DOHC Royal Saloon, 2.8-liter 5M-GEU 6-cylinder, 175 PS",
+      "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60005311A/index.html"
     },
     "weight": {
-      "na": "No figure on record"
+      "kg": 1480,
+      "lb": 3263,
+      "note": "Curb mass, 2800 DOHC Royal Saloon, Toyota's figure",
+      "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60005311A/index.html"
     },
     "zero60": {
       "na": "No test on record"
@@ -16792,7 +17468,10 @@ const CARS = [
       "na": "Not sold in the US, so no EPA rating"
     },
     "built": {
-      "na": "No production total on record"
+      "count": 539485,
+      "approx": true,
+      "note": "Registered new in Japan over the generation's run, from Japanese registration data",
+      "src": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%A8%E3%82%BF%E3%83%BB%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%B3"
     },
     "predecessor": {
       "name": "Toyota Crown (sixth generation)",
@@ -16834,10 +17513,15 @@ const CARS = [
     "gearbox": "Manual or automatic",
     "specsFor": "Toyota Crown, eighth generation",
     "power": {
-      "na": "Several engines; no single figure"
+      "hp": 187,
+      "note": "3000 Royal Saloon, 3.0-liter 7M-GE 6-cylinder, 190 PS",
+      "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60005430A/index.html"
     },
     "weight": {
-      "na": "No figure on record"
+      "kg": 1590,
+      "lb": 3505,
+      "note": "Curb mass, 3000 Royal Saloon, Toyota's figure",
+      "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60005430A/index.html"
     },
     "zero60": {
       "na": "No test on record"
@@ -16846,10 +17530,17 @@ const CARS = [
       "na": "No figure on record"
     },
     "mpg": {
-      "na": "Not sold in the US, so no EPA rating"
+      "combined": 22.1,
+      "unit": "mpg",
+      "kind": "official",
+      "note": "Japanese 10-15 mode, 9.4 km/L, 1995 Crown sedan 3.0 (the long-running 8th-generation sedan, by then with the 2JZ-GE)",
+      "src": "https://response.jp/assistance/catalog/model/TO/S053/F002/M001/G001/"
     },
     "built": {
-      "na": "No production total on record"
+      "count": 873760,
+      "approx": true,
+      "note": "Japanese sales over the generation's run, the best of any Crown",
+      "src": "https://bestcarweb.jp/?p=818345"
     },
     "predecessor": {
       "name": "Toyota Crown (seventh generation)",
@@ -16890,10 +17581,15 @@ const CARS = [
     "gearbox": "Manual or automatic",
     "specsFor": "Toyota Crown, ninth generation",
     "power": {
-      "na": "Several engines; no single figure"
+      "hp": 227,
+      "note": "3000 Royal Saloon, 3.0-liter 2JZ-GE 6-cylinder, 230 PS",
+      "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60005492A/index.html"
     },
     "weight": {
-      "na": "No figure on record"
+      "kg": 1630,
+      "lb": 3594,
+      "note": "Curb mass, 3000 Royal Saloon, Toyota's figure",
+      "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60005492A/index.html"
     },
     "zero60": {
       "na": "No test on record"
@@ -16905,7 +17601,10 @@ const CARS = [
       "na": "Not sold in the US, so no EPA rating"
     },
     "built": {
-      "na": "No production total on record"
+      "count": 370921,
+      "approx": true,
+      "note": "Registered new in Japan over the generation's run (including the Crown Majesta), from Japanese registration data",
+      "src": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%A8%E3%82%BF%E3%83%BB%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%B3"
     },
     "predecessor": {
       "name": "Toyota Crown (eighth generation)",
@@ -16946,10 +17645,15 @@ const CARS = [
     "gearbox": "Manual or automatic",
     "specsFor": "Toyota Crown, tenth generation",
     "power": {
-      "na": "Several engines; no single figure"
+      "hp": 217,
+      "note": "Royal Saloon G, 3.0-liter 2JZ-GE 6-cylinder, 220 PS",
+      "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60005589/index.html"
     },
     "weight": {
-      "na": "No figure on record"
+      "kg": 1490,
+      "lb": 3285,
+      "note": "Curb mass, Royal Saloon G, Toyota's figure",
+      "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60005589/index.html"
     },
     "zero60": {
       "na": "No test on record"
@@ -16958,10 +17662,17 @@ const CARS = [
       "na": "No figure on record"
     },
     "mpg": {
-      "na": "Not sold in the US, so no EPA rating"
+      "combined": 22.1,
+      "unit": "mpg",
+      "kind": "official",
+      "note": "Japanese 10-15 mode, 9.4 km/L, 3.0 Royal Saloon G",
+      "src": "https://www.kurumaerabi.com/catalog/toyota/72/fmc010/37352/"
     },
     "built": {
-      "na": "No production total on record"
+      "count": 503430,
+      "approx": true,
+      "note": "Registered new in Japan over the generation's run, from Japanese registration data",
+      "src": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%A8%E3%82%BF%E3%83%BB%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%B3"
     },
     "predecessor": {
       "name": "Toyota Crown (ninth generation)",
@@ -17004,10 +17715,15 @@ const CARS = [
     "gearbox": "Manual or automatic",
     "specsFor": "Toyota Crown, eleventh generation",
     "power": {
-      "na": "Several engines; no single figure"
+      "hp": 217,
+      "note": "3000 D-4 Royal Saloon, 3.0-liter 2JZ-FSE 6-cylinder, 220 PS",
+      "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60005748/index.html"
     },
     "weight": {
-      "na": "No figure on record"
+      "kg": 1570,
+      "lb": 3461,
+      "note": "Curb mass, 3000 D-4 Royal Saloon, Toyota's figure",
+      "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60005748/index.html"
     },
     "zero60": {
       "na": "No test on record"
@@ -17016,10 +17732,17 @@ const CARS = [
       "na": "No figure on record"
     },
     "mpg": {
-      "na": "Not sold in the US, so no EPA rating"
+      "combined": 26.8,
+      "unit": "mpg",
+      "kind": "official",
+      "note": "Japanese 10-15 mode, 11.4 km/L, 3.0 Royal Saloon Premium, 2003",
+      "src": "https://www.kurumaerabi.com/catalog/toyota/72/fmc011/46949/"
     },
     "built": {
-      "na": "No production total on record"
+      "count": 351888,
+      "approx": true,
+      "note": "Registered new in Japan over the generation's run, from Japanese registration data",
+      "src": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%A8%E3%82%BF%E3%83%BB%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%B3"
     },
     "predecessor": {
       "name": "Toyota Crown (tenth generation)",
@@ -17061,19 +17784,31 @@ const CARS = [
     "gearbox": "Manual or automatic",
     "specsFor": "Toyota Crown, twelfth generation",
     "power": {
-      "na": "Several engines; no single figure"
+      "hp": 252,
+      "note": "3.0 Royal Saloon G, 3.0-liter 3GR-FSE V6, 256 PS",
+      "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60005855/index.html"
     },
     "weight": {
-      "na": "No figure on record"
+      "kg": 1610,
+      "lb": 3549,
+      "note": "Curb mass, 3.0 Royal Saloon G, Toyota's figure",
+      "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60005855/index.html"
     },
     "zero60": {
-      "na": "No test on record"
+      "sec": 7.4,
+      "kind": "claimed",
+      "note": "0-100 km/h (62 mph), figure quoted by webCG at the 2003 press launch, 3.0 V6",
+      "src": "https://www.webcg.net/articles/-/15340"
     },
     "top": {
       "na": "No figure on record"
     },
     "mpg": {
-      "na": "Not sold in the US, so no EPA rating"
+      "combined": 27.8,
+      "unit": "mpg",
+      "kind": "official",
+      "note": "Japanese 10-15 mode, 11.8 km/L, 3.0 Royal Saloon",
+      "src": "https://www.kurumaerabi.com/catalog/toyota/72/fmc012/91778/"
     },
     "built": {
       "na": "No production total on record"
@@ -17119,10 +17854,15 @@ const CARS = [
     "gearbox": "Manual or automatic",
     "specsFor": "Toyota Crown, thirteenth generation",
     "power": {
-      "na": "Several engines; no single figure"
+      "hp": 252,
+      "note": "3.0 Royal Saloon G, 3.0-liter 3GR-FSE V6, 256 PS",
+      "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60011641/index.html"
     },
     "weight": {
-      "na": "No figure on record"
+      "kg": 1600,
+      "lb": 3527,
+      "note": "Curb mass, 3.0 Royal Saloon G, Toyota's figure",
+      "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60011641/index.html"
     },
     "zero60": {
       "na": "No test on record"
@@ -17131,10 +17871,17 @@ const CARS = [
       "na": "No figure on record"
     },
     "mpg": {
-      "na": "Not sold in the US, so no EPA rating"
+      "combined": 27.8,
+      "unit": "mpg",
+      "kind": "official",
+      "note": "Japanese 10-15 mode, 11.8 km/L, 3.0 Royal Saloon G",
+      "src": "https://www.kurumaerabi.com/catalog/toyota/72/fmc013/37358/"
     },
     "built": {
-      "na": "No production total on record"
+      "count": 210567,
+      "approx": true,
+      "note": "Registered new in Japan over the generation's run, from Japanese registration data",
+      "src": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%A8%E3%82%BF%E3%83%BB%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%B3"
     },
     "predecessor": {
       "name": "Toyota Crown (twelfth generation)",
@@ -17177,10 +17924,15 @@ const CARS = [
     "gearbox": "Manual or automatic",
     "specsFor": "Toyota Crown, fourteenth generation",
     "power": {
-      "na": "Several engines; no single figure"
+      "hp": 200,
+      "note": "Royal Saloon G, 2.5-liter 4GR-FSE V6, 203 PS (Athlete G 3.5: 315 PS)",
+      "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60017841A/index.html"
     },
     "weight": {
-      "na": "No figure on record"
+      "kg": 1590,
+      "lb": 3505,
+      "note": "Curb mass, Royal Saloon G 2.5, Toyota's figure",
+      "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60017841A/index.html"
     },
     "zero60": {
       "na": "No test on record"
@@ -17189,10 +17941,17 @@ const CARS = [
       "na": "No figure on record"
     },
     "mpg": {
-      "na": "Not sold in the US, so no EPA rating"
+      "combined": 26.8,
+      "unit": "mpg",
+      "kind": "official",
+      "note": "Japanese JC08 mode, 11.4 km/L, 2.5 Royal Saloon G (hybrid: 23.2 km/L)",
+      "src": "https://www.kurumaerabi.com/catalog/toyota/72/fmc014/37363/"
     },
     "built": {
-      "na": "No production total on record"
+      "count": 149638,
+      "approx": true,
+      "note": "Registered new in Japan, December 2012 to August 2015 (later sales not counted)",
+      "src": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%A8%E3%82%BF%E3%83%BB%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%B3"
     },
     "predecessor": {
       "name": "Toyota Crown (thirteenth generation)",
@@ -17233,10 +17992,15 @@ const CARS = [
     "gearbox": "Manual or automatic",
     "specsFor": "Toyota Crown, fifteenth generation",
     "power": {
-      "na": "Several engines; no single figure"
+      "hp": 242,
+      "note": "2.0 RS Advance, 2.0-liter turbo 4-cylinder, 245 PS",
+      "src": "https://www.kurumaerabi.com/catalog/toyota/72/fmc015/74019/"
     },
     "weight": {
-      "na": "No figure on record"
+      "kg": 1730,
+      "lb": 3814,
+      "note": "Curb weight, 2.0 RS Advance",
+      "src": "https://www.kurumaerabi.com/catalog/toyota/72/fmc015/74019/"
     },
     "zero60": {
       "na": "No test on record"
@@ -17245,7 +18009,11 @@ const CARS = [
       "na": "No figure on record"
     },
     "mpg": {
-      "na": "Not sold in the US, so no EPA rating"
+      "combined": 30.1,
+      "unit": "mpg",
+      "kind": "official",
+      "note": "Japanese JC08 mode, 12.8 km/L, 2.0 RS Advance",
+      "src": "https://www.kurumaerabi.com/catalog/toyota/72/fmc015/74019/"
     },
     "built": {
       "na": "No production total on record"
@@ -17418,7 +18186,12 @@ const CARS = [
       "note": "Curb weight, Kelley Blue Book figure",
       "src": "https://www.kbb.com/toyota/crown-signia/2025/"
     },
-    "zero60": null,
+    "zero60": {
+      "sec": 7.0,
+      "kind": "tested",
+      "note": "Car and Driver test, 2025 Limited",
+      "src": "https://www.0-60specs.com/toyota/crown-signia-0-60-times"
+    },
     "top": {
       "na": "No US figure from Toyota"
     },
@@ -17430,7 +18203,12 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/48049.shtml"
     },
-    "built": null,
+    "built": {
+      "count": 50923,
+      "approx": true,
+      "note": "Sold in the US so far, 2024 to October 2026",
+      "src": "https://www.goodcarbadcar.net/toyota-crown-signia-sales-figures/"
+    },
     "predecessor": null,
     "successor": null,
     "quick": "The Crown as a long, low hybrid SUV: 240 hp, all-wheel drive, 38 mpg combined and up to 68.8 cubic feet of cargo space. It replaced the Venza for 2025 and is sold in Japan as the Crown Estate.",
@@ -17503,7 +18281,12 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/38679.shtml"
     },
-    "built": null,
+    "built": {
+      "count": 215888,
+      "approx": true,
+      "note": "Sold in the US, 2017–2023",
+      "src": "https://en.wikipedia.org/wiki/Toyota_C-HR"
+    },
     "predecessor": null,
     "successor": {
       "name": "Toyota C-HR (electric)",
@@ -17578,7 +18361,9 @@ const CARS = [
       "note": "EPA combined, on 18-inch wheels (20-inch: 112 MPGe)",
       "src": "https://www.fueleconomy.gov/feg/noframes/50307.shtml"
     },
-    "built": null,
+    "built": {
+      "na": "Still in production; no build total published yet"
+    },
     "predecessor": {
       "name": "Toyota C-HR (AX10)",
       "id": "toyota-c-hr-ax10"
@@ -17644,7 +18429,11 @@ const CARS = [
       "na": "No figure on record"
     },
     "mpg": {
-      "na": "fueleconomy.gov starts with 1984 models"
+      "combined": 36.2,
+      "unit": "mpg",
+      "kind": "tested",
+      "note": "Motor Trend road test, 1976 CVCC hatchback",
+      "src": "https://www.0-60specs.com/honda/accord-0-60-times"
     },
     "built": {
       "count": 731927,
@@ -17682,7 +18471,11 @@ const CARS = [
           "na": "No figure on record"
         },
         "mpg": {
-          "na": "fueleconomy.gov starts with 1984 models"
+          "combined": 30.0,
+          "unit": "mpg",
+          "kind": "tested",
+          "note": "Road & Track road test, 1979 Accord 4-door, 5-speed manual",
+          "src": "https://curbsideclassic.com/vintage-reviews/vintage-review-toyota-corona-and-honda-accord-two-road-tests-1979"
         }
       }
     ],
@@ -18960,7 +19753,11 @@ const CARS = [
           "na": "No figure on record"
         },
         "mpg": {
-          "na": "fueleconomy.gov starts with 1984 models"
+          "combined": 36.5,
+          "unit": "mpg",
+          "kind": "tested",
+          "note": "Road & Track road test, 1975 Civic CVCC, 5-speed manual",
+          "src": "https://www.curbsideclassic.com/vintage-reviews/vintage-review-1975-honda-civic-cvcc-if-it-were-the-standard-car-in-america-most-of-our-automotive-problems-would-disappear/"
         }
       }
     ],
@@ -19024,7 +19821,11 @@ const CARS = [
       "na": "No figure on record"
     },
     "mpg": {
-      "na": "fueleconomy.gov starts with 1984 models"
+      "combined": 27.5,
+      "unit": "mpg",
+      "kind": "tested",
+      "note": "Road & Track road test, 1980 Civic 1500GL",
+      "src": "https://www.0-60specs.com/honda/civic-0-60-times"
     },
     "built": {
       "count": 563654,
@@ -20483,7 +21284,9 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/44846.shtml"
     },
-    "built": null,
+    "built": {
+      "na": "Still in production; no build total published yet"
+    },
     "predecessor": {
       "name": "Honda Civic Si (tenth generation)",
       "id": "honda-civic-si-10th-gen"
@@ -20650,7 +21453,11 @@ const CARS = [
       "src": "https://en.wikipedia.org/wiki/Honda_Civic_Type_R"
     },
     "mpg": {
-      "na": "Not sold in the US, so no EPA rating"
+      "combined": 26.4,
+      "unit": "mpg",
+      "kind": "official",
+      "note": "Official EU combined figure, European EP3, 31.7 mpg in imperial gallons",
+      "src": "https://civictype-r.co.uk/2008/07/15/ep3/"
     },
     "built": {
       "count": 25798,
@@ -20846,10 +21653,17 @@ const CARS = [
       "na": "No figure on record"
     },
     "mpg": {
-      "na": "Not sold in the US, so no EPA rating"
+      "combined": 32.2,
+      "unit": "mpg",
+      "kind": "official",
+      "note": "Official EU combined figure, 38.7 mpg in imperial gallons",
+      "src": "https://www.honestjohn.co.uk/honda/civic/type-r/2015/"
     },
     "built": {
-      "na": "No production total on record"
+      "count": 15978,
+      "approx": false,
+      "note": "Built at Swindon, 2015–2017",
+      "src": "https://cars-news-10.blogspot.com/2018/02/type-r-approved-three-other-civic-type.html"
     },
     "predecessor": {
       "name": "Honda Civic Type R (FD2 and FN2)",
@@ -20964,7 +21778,9 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/46142.shtml"
     },
-    "built": null,
+    "built": {
+      "na": "Still in production; no build total published yet"
+    },
     "predecessor": {
       "name": "Honda Civic Type R (FK8)",
       "id": "honda-civic-type-r-fk8"
@@ -21655,7 +22471,9 @@ const CARS = [
       "note": "EPA combined on hydrogen (87 MPGe on battery power for the first 29 miles)",
       "src": "https://www.fueleconomy.gov/feg/noframes/50270.shtml"
     },
-    "built": null,
+    "built": {
+      "na": "Still in production; no build total published yet"
+    },
     "predecessor": null,
     "successor": null,
     "articles": [],
@@ -21734,16 +22552,26 @@ const CARS = [
       "src": "https://en.wikipedia.org/wiki/Honda_Prelude"
     },
     "weight": {
-      "na": "No figure on record"
+      "kg": 975,
+      "lb": 2150,
+      "note": "Curb weight, 1979 Prelude, Road & Track",
+      "src": "https://www.curbsideclassic.com/vintage-reviews/1970s-vintage-reviews/asian-brands-1970s-vintage-reviews/vintage-review-1979-honda-prelude/"
     },
     "zero60": {
-      "na": "No test on record"
+      "sec": 11.5,
+      "kind": "tested",
+      "note": "Road & Track test, 1979 Prelude",
+      "src": "https://www.curbsideclassic.com/vintage-reviews/1970s-vintage-reviews/asian-brands-1970s-vintage-reviews/vintage-review-1979-honda-prelude/"
     },
     "top": {
       "na": "No figure on record"
     },
     "mpg": {
-      "na": "fueleconomy.gov starts with 1984 models"
+      "combined": 23.5,
+      "unit": "mpg",
+      "kind": "tested",
+      "note": "Road & Track road test, 1979 Prelude, normal driving",
+      "src": "https://www.curbsideclassic.com/vintage-reviews/1970s-vintage-reviews/asian-brands-1970s-vintage-reviews/vintage-review-1979-honda-prelude/"
     },
     "built": {
       "count": 171829,
@@ -22163,7 +22991,9 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/50046.shtml"
     },
-    "built": null,
+    "built": {
+      "na": "Still in production; no build total published yet"
+    },
     "predecessor": {
       "name": "Honda Prelude (fifth generation)",
       "id": "honda-prelude-5th-gen"

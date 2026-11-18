@@ -164,7 +164,8 @@ def inline(t):
         ext = url.startswith("http")
         attr = ' target="_blank" rel="noopener"' if ext else ""
         return f'<a href="{url}"{attr}>{words}</a>'
-    t = re.sub(r"\[([^\]]+)\]\(([^)\s]+)\)", link, t)
+    # a URL may hold one level of parentheses, as Wikipedia's do: Ford_Ranger_(Americas)
+    t = re.sub(r"\[([^\]]+)\]\(((?:[^()\s]|\([^()\s]*\))+)\)", link, t)
     t = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", t)
     t = re.sub(r"(?<![*\w])\*(?!\s)(.+?)(?<!\s)\*(?![*\w])", r"<em>\1</em>", t)
     return t

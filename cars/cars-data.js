@@ -20057,7 +20057,11 @@ const CARS_INDEX = [
   "alongside": [],
   "prev": null,
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/ford-bronco-sport.jpg?v=6535ae0e",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "ford-maverick-1970",
@@ -20180,7 +20184,11 @@ const CARS_INDEX = [
    "name": "Ford Maverick (1970–1977)"
   },
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/ford-maverick-pickup.jpg?v=f8bf1696",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "ford-maverick-tremor",
@@ -20242,7 +20250,11 @@ const CARS_INDEX = [
   ],
   "prev": null,
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/ford-maverick-tremor.jpg?v=72b67d90",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "ford-maverick-lobo",
@@ -20304,7 +20316,11 @@ const CARS_INDEX = [
   ],
   "prev": null,
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/ford-maverick-lobo.jpg?v=4abedf44",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "ford-ranger-1st-gen",
@@ -20664,7 +20680,11 @@ const CARS_INDEX = [
    "name": "Ford Ranger (fourth generation)"
   },
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/ford-ranger-5th-gen.jpg?v=c891eadb",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "ford-ranger-raptor",
@@ -20722,6 +20742,10 @@ const CARS_INDEX = [
   ],
   "prev": null,
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/ford-ranger-raptor.jpg?v=ba71776d",
+   "pos": "",
+   "fit": ""
+  }
  }
 ];

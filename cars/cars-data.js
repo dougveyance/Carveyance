@@ -21947,7 +21947,11 @@ const CARS_INDEX = [
    "kind": "tested",
    "note": "Car and Driver test, 2025 GTD"
   },
-  "top": null,
+  "top": {
+   "mph": 202,
+   "kind": "claimed",
+   "note": "Ford's figure"
+  },
   "mpg": {
    "combined": 12,
    "city": 10,

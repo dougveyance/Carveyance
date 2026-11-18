@@ -44,10 +44,12 @@ The Dark Horse took the Mach 1's place on the seventh-generation car, with 500 h
 
 ## Dark Horse SC and GTD
 
-At the top of the range, both use a 5.2-liter supercharged cross-plane V8. In the 2026 Dark Horse SC it makes 795 hp, at $106,090. The GTD makes 815 hp and 664 lb-ft. Its body starts at the Flat Rock plant, and Multimatic finishes the car by hand in Markham, Ontario. Ford took applications rather than ordinary orders. In December 2024, a GTD lapped the Nürburgring in 6:57.685, the first time a Mustang had gone under 7 minutes there.
+At the top of the range, both use a 5.2-liter supercharged cross-plane V8. In the 2026 Dark Horse SC it makes 795 hp, at $106,090, and in August 2026 Ford added a Dark Horse SC convertible, tuned more for fast touring than for lap times. The GTD makes 815 hp and 664 lb-ft. Its body starts at the Flat Rock plant, and Multimatic finishes the car by hand in Markham, Ontario. Ford took applications rather than ordinary orders. In December 2024, a GTD lapped the Nürburgring in 6:57.685, the first time a Mustang had gone under 7 minutes there. Ford quotes a top speed of 202 mph.
 
 ## Sources
 
+- [Ford: the Dark Horse SC coupe and convertible](https://www.fromtheroad.ford.com/us/en/articles/2026/mustang-dark-horse-sc-convertible-coupe-ford-racing-pedigree)
+- [Ford: What's New, Mustang GTD, including its 202-mph top speed](https://www.fromtheroad.ford.com/eur/en/articles/2026/whats-new-mustang-gtd)
 - [Wikipedia: Ford Mustang (sixth generation), the Bullitt and Mach 1](https://en.wikipedia.org/wiki/Ford_Mustang_(sixth_generation))
 - [Wikipedia: Ford Mustang (seventh generation), the Dark Horse, Dark Horse SC, GTD outputs and the GTD's Nürburgring lap](https://en.wikipedia.org/wiki/Ford_Mustang_(seventh_generation))
 - [Jalopnik: the 2019 Bullitt's $46,595 price](https://jalopnik.com/for-46-595-you-can-pretend-to-be-steve-mcqueen-in-the-1824164621)

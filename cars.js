@@ -30534,7 +30534,7 @@ const CARS = [
     "quick": "The Dark Horse, 2024 on: the seventh generation's track-focused Mustang, with 500 hp, MagneRide dampers and big Brembo brakes, and 795 hp in the SC.",
     "story": [
       "The Dark Horse is the seventh generation's track-focused Mustang. Its 5.0-liter V8 makes 500 hp, with a Tremec 6-speed manual or a 10-speed automatic, and it adds MagneRide adaptive dampers, larger Brembo brakes and extra cooling. It started at $57,970 for 2024 before delivery, or $62,100 in 2026 dollars, and at $65,080 for 2026.",
-      "Car and Driver ran a 2024 Dark Horse Premium with the Handling Package and the manual to 60 mph in 4.1 seconds, and the EPA rates it at 17 mpg combined with either gearbox. For 2026 the 10-speed automatic became standard, with the manual an option, and the Dark Horse SC added a supercharged 5.2-liter V8 with 795 hp, at $106,090."
+      "Car and Driver ran a 2024 Dark Horse Premium with the Handling Package and the manual to 60 mph in 4.1 seconds, and the EPA rates it at 17 mpg combined with either gearbox. For 2026 the 10-speed automatic became standard, with the manual an option, and the Dark Horse SC added a supercharged 5.2-liter V8 with 795 hp, at $106,090; a Dark Horse SC convertible followed in August 2026."
     ],
     "articles": [],
     "photo": null,
@@ -30587,7 +30587,10 @@ const CARS = [
       "src": "https://www.0-60specs.com/ford/mustang-0-60-times"
     },
     "top": {
-      "na": "No figure published by Ford"
+      "mph": 202,
+      "kind": "claimed",
+      "note": "Ford's figure",
+      "src": "https://www.fromtheroad.ford.com/eur/en/articles/2026/whats-new-mustang-gtd"
     },
     "mpg": {
       "combined": 12,
@@ -30804,7 +30807,7 @@ const CARS = [
     "quick": "The Mustang Mach-E, 2021 on: Ford's electric crossover with the Mustang's name, 2 batteries, rear- or all-wheel drive and up to 320 miles of EPA range.",
     "story": [
       "Ford revealed the Mustang Mach-E in November 2019 as an electric crossover with 5 doors and the Mustang's name and pony badge, built in Cuautitlán Izcalli, Mexico. It came with a standard-range or an extended-range battery and rear-wheel or all-wheel drive, and a 2021 Select started at $42,895 before delivery, or $53,200 in 2026 dollars. Its recalls include 22V412 and 23V687, for high-voltage battery contactors on 2021–2022 cars.",
-      "Car and Driver ran a 2021 Premium with the extended-range battery and all-wheel drive to 60 mph in 4.9 seconds and a 2026 standard-range rear-drive Select in 5.6. The 2025 update made a heat pump standard, the 2026 extended-range rear-drive car is rated at 320 miles, and the 2026 range starts at $37,795. Ford sold 51,745 in the US in 2024, its best year so far, and 51,620 in 2025."
+      "Car and Driver ran a 2021 Premium with the extended-range battery and all-wheel drive to 60 mph in 4.9 seconds and a 2026 standard-range rear-drive Select in 5.6. The 2025 update made a heat pump standard, the 2026 extended-range rear-drive car is rated at 320 miles, and the 2026 range starts at $37,795. Ford sold 51,745 in the US in 2024, its best year so far, and 51,620 in 2025. For 2027 Ford is adding the Mach-E Trail, a slightly raised Select with all-wheel drive and the Rally's wheels and tires."
     ],
     "articles": [],
     "photo": null,

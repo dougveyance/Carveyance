@@ -13397,6 +13397,589 @@ const CARS = [
     }
   },
   {
+    "id": "toyota-land-cruiser-bj",
+    "name": "Toyota Land Cruiser (BJ and FJ)",
+    "aka": [
+      "Toyota Jeep BJ",
+      "BJ",
+      "FJ",
+      "Jeep BJ"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "1951–1955",
+    "start": 1951,
+    "end": 1955,
+    "body": "Light utility 4x4",
+    "engine": "3.4-liter 6-cylinder (BJ); 3.9-liter 6-cylinder (FJ)",
+    "drive": "Part-time 4-wheel drive",
+    "gearbox": "3-speed manual",
+    "specsFor": "Toyota Jeep BJ, Japanese market",
+    "power": {
+      "hp": 84,
+      "note": "3.4-liter 6-cylinder",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser"
+    },
+    "weight": {
+      "na": "No figure on record"
+    },
+    "zero60": {
+      "na": "No test on record"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "na": "Not sold in the US, so no EPA rating"
+    },
+    "built": {
+      "na": "No production total on record"
+    },
+    "predecessor": null,
+    "successor": {
+      "name": "Toyota Land Cruiser (20 Series)",
+      "id": "toyota-land-cruiser-j20"
+    },
+    "quick": "The Toyota Jeep BJ, 1951–1955: the military-style 4x4 that climbed to the sixth stage of Mount Fuji and became the Land Cruiser in 1954.",
+    "story": [
+      "The Korean War created demand for a light military utility vehicle, and Toyota built its first Jeep BJ prototype in January 1951. It had a 3.4-liter 6-cylinder with 84 hp and part-time 4-wheel drive like the Jeep, but no low-range transfer case. In July 1951 test driver Ichiro Taira drove a prototype to the sixth stage of Mount Fuji, the first vehicle to climb that high, and the National Police Agency ordered 289 as patrol cars.",
+      "Regular production began in 1953, in versions for touring, radio use and fire-engine bodies. In June 1954 technical director Hanji Umehara coined the name Land Cruiser, wanting something that would sound as dignified as Britain's Land Rover. It was the start of a line Toyota still builds today."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Land Cruiser"
+    ]
+  },
+  {
+    "id": "toyota-land-cruiser-j20",
+    "name": "Toyota Land Cruiser (20 Series)",
+    "aka": [
+      "FJ25",
+      "FJ28",
+      "20 Series",
+      "Toyota Bandeirante"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "1955–1960",
+    "start": 1955,
+    "end": 1960,
+    "body": "Utility 4x4",
+    "engine": "3.9-liter F 6-cylinder",
+    "drive": "Part-time 4-wheel drive",
+    "gearbox": "Manual",
+    "specsFor": "Toyota Land Cruiser 20 Series, 3.9-liter",
+    "power": {
+      "hp": 133,
+      "note": "3.9-liter F 6-cylinder, 135 PS",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser"
+    },
+    "weight": {
+      "na": "No figure on record"
+    },
+    "zero60": {
+      "na": "No test on record"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "na": "No production total on record"
+    },
+    "predecessor": {
+      "name": "Toyota Land Cruiser (BJ and FJ)",
+      "id": "toyota-land-cruiser-bj"
+    },
+    "successor": {
+      "name": "Toyota Land Cruiser (40 Series)",
+      "id": "toyota-land-cruiser-j40"
+    },
+    "quick": "The 20 Series Land Cruiser, 1955–1960: a more civilian Land Cruiser with a 3.9-liter 6-cylinder, the first Toyota built outside Japan and the first Japanese vehicle regularly exported to Australia.",
+    "story": [
+      "Introduced in 1955, the second Land Cruiser was designed with more civilian appeal than the BJ, to help exports. Its chassis came from the Toyota Light Truck, and a 3.9-liter F-type 6-cylinder made 135 PS (133 hp). Moving the engine 120 mm (4.7 in) forward made the cabin roomier, though it still had no low-range gearing.",
+      "In 1958 FJ25 production began in Brazil, the first Toyota built outside Japan, and from 1962 those trucks were sold as the Toyota Bandeirante with a Mercedes-Benz diesel. In 1959 B&D Motors began importing cab-chassis 20 Series trucks into Australia, making the Land Cruiser the first Japanese vehicle regularly exported there."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Land Cruiser"
+    ]
+  },
+  {
+    "id": "toyota-land-cruiser-j40",
+    "name": "Toyota Land Cruiser (40 Series)",
+    "aka": [
+      "FJ40",
+      "BJ40",
+      "40 Series"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "1960–1984",
+    "start": 1960,
+    "end": 1984,
+    "shop": {
+      "cargurus": "d299"
+    },
+    "body": "Utility 4x4: soft top, hard top and pickup",
+    "engine": "3.9-liter F 6-cylinder; 4.2-liter 2F from 1975; diesels in other markets",
+    "drive": "Part-time 4-wheel drive with low range",
+    "gearbox": "Manual",
+    "specsFor": "Toyota Land Cruiser 40 Series, 4.2-liter, US market",
+    "power": {
+      "hp": 135,
+      "note": "4.2-liter 2F 6-cylinder, 1975",
+      "src": "https://www.0-60specs.com/toyota/land-cruiser-0-60-times"
+    },
+    "weight": {
+      "na": "No figure on record"
+    },
+    "zero60": {
+      "na": "No test on record"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "na": "No production total on record"
+    },
+    "predecessor": {
+      "name": "Toyota Land Cruiser (20 Series)",
+      "id": "toyota-land-cruiser-j20"
+    },
+    "successor": {
+      "name": "Toyota Land Cruiser (70 Series)",
+      "id": "toyota-land-cruiser-j70"
+    },
+    "quick": "The 40 Series Land Cruiser, 1960–1984: the classic short, boxy FJ40, finally with low-range gearing, and for a time Toyota's best-selling vehicle in America.",
+    "story": [
+      "The 40 Series replaced the 20 Series in 1960 and became the classic Land Cruiser shape. It kept the 3.9-liter F 6-cylinder and the 3-speed gearbox but finally gained low-range gearing for serious off-road work. By 1965 global production had passed 50,000, and the Land Cruiser was Toyota's best-selling vehicle in the United States.",
+      "Total Land Cruiser sales reached 100,000 in 1968, 200,000 in 1972 and 300,000 in 1973, and diesel versions appeared for export markets. In the US the 3.9-liter gave way in 1975 to a 4.2-liter 2F with 135 hp. Brazil built its own version, the Bandeirante, with a Mercedes-Benz diesel, and in 1984 the 70 Series took the 40's place."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Land Cruiser"
+    ]
+  },
+  {
+    "id": "toyota-land-cruiser-j70",
+    "name": "Toyota Land Cruiser (70 Series)",
+    "aka": [
+      "70 Series",
+      "LC70",
+      "LC79",
+      "Troop Carrier",
+      "LJ70"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "1984–present",
+    "start": 1984,
+    "end": null,
+    "body": "Utility 4x4: soft top, hard top, pickup, cab-chassis and Troop Carrier; 4-door wagon",
+    "engine": "Gasoline and diesel 4-cylinder, 6-cylinder and V8 engines, depending on market",
+    "drive": "Part-time 4-wheel drive",
+    "gearbox": "Manual or automatic",
+    "specsFor": "Toyota Land Cruiser 70 Series",
+    "power": {
+      "na": "Varies by market and engine"
+    },
+    "weight": {
+      "na": "No figure on record"
+    },
+    "zero60": {
+      "na": "No test on record"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "na": "Not sold in the US, so no EPA rating"
+    },
+    "built": {
+      "na": "No production total on record"
+    },
+    "predecessor": {
+      "name": "Toyota Land Cruiser (40 Series)",
+      "id": "toyota-land-cruiser-j40"
+    },
+    "successor": null,
+    "quick": "The 70 Series Land Cruiser, 1984 to today: the heavy-duty workhorse that replaced the 40, still in production more than 40 years later.",
+    "story": [
+      "Introduced in 1984, the 70 Series replaced the 40 as the heavy-duty Land Cruiser, in soft-top, hard-top, fiber-reinforced-plastic-top, utility, cab-chassis and Troop Carrier forms, the last with inward-facing rear seats. A lighter, coil-sprung 70 Light, sold in some markets as the Bundera or Land Cruiser II and later as the 70 Prado, grew into the separate Land Cruiser Prado line.",
+      "Long-wheelbase versions became the 78 Troop Carrier and the 79 pickup, and in 2007 the 70 got Toyota's first turbo-diesel V8. Japan sold a 30th Anniversary 70 with a V6 gasoline engine and a 5-speed manual in 2014 and 2015, and the 70 returned to Japan in 2023 with a 4-cylinder turbo-diesel."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Land Cruiser"
+    ]
+  },
+  {
+    "id": "toyota-land-cruiser-j55",
+    "name": "Toyota Land Cruiser (55 Series)",
+    "aka": [
+      "FJ55",
+      "Moose",
+      "55 Series"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "1967–1980",
+    "start": 1967,
+    "end": 1980,
+    "shop": {
+      "cargurus": "d299"
+    },
+    "body": "4-door station wagon",
+    "engine": "3.9-liter F 6-cylinder; 4.2-liter 2F from 1975",
+    "drive": "Part-time 4-wheel drive",
+    "gearbox": "Manual",
+    "specsFor": "Toyota Land Cruiser FJ55, 4.2-liter, US market",
+    "power": {
+      "hp": 135,
+      "note": "4.2-liter 2F 6-cylinder, 1975",
+      "src": "https://www.0-60specs.com/toyota/land-cruiser-0-60-times"
+    },
+    "weight": {
+      "na": "No figure on record"
+    },
+    "zero60": {
+      "na": "No test on record"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "na": "No production total on record"
+    },
+    "predecessor": {
+      "name": "Toyota Land Cruiser (40 Series)",
+      "id": "toyota-land-cruiser-j40"
+    },
+    "successor": {
+      "name": "Toyota Land Cruiser (60 Series)",
+      "id": "toyota-land-cruiser-j60"
+    },
+    "quick": "The 55 Series Land Cruiser, 1967–1980: the \"Moose,\" the first true Land Cruiser station wagon, built mainly for North America and Australia.",
+    "story": [
+      "Toyota calls the FJ55 the first real station wagon in the Land Cruiser line, the start of what we now call the SUV branch of the family. Production began in 1967. It was a 4-door wagon built on the FJ40's drivetrain with a longer 2,700-mm (106-in) wheelbase, replacing the 4-door FJ45V, and it was designed mainly for North America and Australia.",
+      "Owners nicknamed it the Moose. Its 3.9-liter 6-cylinder gave way to a 4.2-liter 2F in 1975, when the FJ55 also gained front disc brakes, and production ended in July 1980."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Land Cruiser"
+    ]
+  },
+  {
+    "id": "toyota-land-cruiser-j60",
+    "name": "Toyota Land Cruiser (60 Series)",
+    "aka": [
+      "FJ60",
+      "FJ62",
+      "60 Series"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "1980–1990",
+    "start": 1980,
+    "end": 1990,
+    "shop": {
+      "cargurus": "d299"
+    },
+    "body": "4-door station wagon",
+    "engine": "4.2-liter 2F 6-cylinder (US); fuel-injected 4.0-liter 3F-E from 1987",
+    "drive": "Part-time 4-wheel drive",
+    "gearbox": "4-speed manual; 4-speed automatic (FJ62)",
+    "specsFor": "1989 Toyota Land Cruiser FJ62, 4.0-liter, automatic, US market (MotorWeek test)",
+    "power": {
+      "hp": 155,
+      "note": "Fuel-injected 4.0-liter 6-cylinder, FJ62, US version",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser"
+    },
+    "weight": {
+      "kg": 2087,
+      "lb": 4600,
+      "note": "Curb weight, 1989 FJ62",
+      "src": "https://www.0-60specs.com/toyota/land-cruiser-0-60-times"
+    },
+    "zero60": {
+      "sec": 14.2,
+      "kind": "tested",
+      "note": "MotorWeek test, 1989 FJ62",
+      "src": "https://www.0-60specs.com/toyota/land-cruiser-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 12,
+      "city": 11,
+      "hwy": 13,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/5221.shtml",
+      "note": "EPA combined, 1988 FJ62, automatic"
+    },
+    "built": {
+      "na": "No production total on record"
+    },
+    "versions": [
+      {
+        "name": "4.0-liter (FJ62)",
+        "detail": "Fuel-injected 6-cylinder, automatic"
+      },
+      {
+        "name": "4.2-liter (FJ60)",
+        "detail": "Carbureted 6-cylinder, 4-speed manual",
+        "specsFor": "1985 Toyota Land Cruiser FJ60, 4-speed manual, US market",
+        "power": {
+          "na": "No figure on record"
+        },
+        "weight": {
+          "na": "No figure on record"
+        },
+        "zero60": {
+          "na": "No test on record"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 11,
+          "city": 10,
+          "hwy": 12,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/1152.shtml",
+          "note": "EPA combined, 1985 FJ60, 4-speed manual"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Toyota Land Cruiser (55 Series)",
+      "id": "toyota-land-cruiser-j55"
+    },
+    "successor": {
+      "name": "Toyota Land Cruiser (80 Series)",
+      "id": "toyota-land-cruiser-j80"
+    },
+    "quick": "The 60 Series Land Cruiser, 1980–1990: a bigger, more comfortable wagon with air conditioning, and from 1987 the fuel-injected FJ62.",
+    "story": [
+      "Introduced in 1980, the 60 Series wagon brought comforts the Land Cruiser hadn't had before, including air conditioning, a rear heater and a better interior. North American trucks kept the 4.2-liter 2F 6-cylinder until the fuel-injected 4.0-liter 3F-E arrived in 1987 in the FJ62, with 155 hp in US form.",
+      "The FJ62G VX allowed the Land Cruiser to be sold in Japan as a passenger car. MotorWeek timed a 1989 FJ62 to 60 mph in 14.2 seconds. Japanese production ended in 1990, though Toyota's plant in Cumaná, Venezuela, kept building 60s for its home market until 1992."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Land Cruiser"
+    ]
+  },
+  {
+    "id": "toyota-land-cruiser-j80",
+    "name": "Toyota Land Cruiser (80 Series)",
+    "aka": [
+      "FJ80",
+      "FZJ80",
+      "80 Series"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "1990–1997",
+    "start": 1990,
+    "end": 1997,
+    "shop": {
+      "cargurus": "d299"
+    },
+    "body": "4-door station wagon",
+    "engine": "4.0-liter 6-cylinder (1991–1992 US); 4.5-liter twin-cam 6-cylinder from 1993",
+    "drive": "Full-time 4-wheel drive",
+    "gearbox": "4-speed automatic (US)",
+    "specsFor": "1991 Toyota Land Cruiser, 4.0-liter, US market (Car and Driver test)",
+    "power": {
+      "hp": 155,
+      "note": "4.0-liter 6-cylinder",
+      "src": "https://www.0-60specs.com/toyota/land-cruiser-0-60-times"
+    },
+    "weight": {
+      "kg": 2087,
+      "lb": 4600,
+      "note": "Curb weight, 1991",
+      "src": "https://www.0-60specs.com/toyota/land-cruiser-0-60-times"
+    },
+    "zero60": {
+      "sec": 14.1,
+      "kind": "tested",
+      "note": "Car and Driver test, 1991",
+      "src": "https://www.0-60specs.com/toyota/land-cruiser-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 12,
+      "city": 11,
+      "hwy": 13,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/8540.shtml",
+      "note": "EPA combined, 1991"
+    },
+    "built": {
+      "na": "No production total on record"
+    },
+    "versions": [
+      {
+        "name": "4.0-liter",
+        "detail": "6-cylinder, 1991–1992"
+      },
+      {
+        "name": "4.5-liter",
+        "detail": "Twin-cam 6-cylinder, 1993–1997",
+        "specsFor": "1993 Toyota Land Cruiser, 4.5-liter, US market (MotorWeek test)",
+        "power": {
+          "hp": 212,
+          "note": "4.5-liter twin-cam 6-cylinder",
+          "src": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser"
+        },
+        "weight": {
+          "kg": 2177,
+          "lb": 4800,
+          "note": "Curb weight, 1993",
+          "src": "https://www.0-60specs.com/toyota/land-cruiser-0-60-times"
+        },
+        "zero60": {
+          "sec": 11.9,
+          "kind": "tested",
+          "note": "MotorWeek test, 1993",
+          "src": "https://www.0-60specs.com/toyota/land-cruiser-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 12,
+          "city": 11,
+          "hwy": 14,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/10602.shtml",
+          "note": "EPA combined, 1993"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Toyota Land Cruiser (60 Series)",
+      "id": "toyota-land-cruiser-j60"
+    },
+    "successor": {
+      "name": "Toyota Land Cruiser (100 Series)",
+      "id": "toyota-land-cruiser-j100"
+    },
+    "quick": "The 80 Series Land Cruiser, 1990–1997: full-time 4-wheel drive, available locking differentials front and rear, and a 212-hp 4.5-liter from 1993.",
+    "story": [
+      "Unveiled at the Tokyo Motor Show in October 1989 and launched in early 1990, the 80 Series replaced the 60. Every 80 sold in North America and Europe had full-time 4-wheel drive, and buyers could order locking differentials front and rear. Early US trucks used a 155-hp 4.0-liter 6-cylinder, and Car and Driver timed a 1991 to 60 mph in 14.1 seconds.",
+      "For 1993 a 4.5-liter twin-cam 6-cylinder with 212 hp arrived, and MotorWeek ran a 1993 to 60 in 11.9 seconds. A new family of diesel engines served other markets. The 80 stayed in production until the 100 Series replaced it in January 1998."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Land Cruiser"
+    ]
+  },
+  {
+    "id": "toyota-land-cruiser-j100",
+    "name": "Toyota Land Cruiser (100 Series)",
+    "aka": [
+      "UZJ100",
+      "100 Series",
+      "Land Cruiser V8"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "1998–2007",
+    "start": 1998,
+    "end": 2007,
+    "shop": {
+      "cargurus": "d299"
+    },
+    "body": "Full-size SUV",
+    "engine": "4.7-liter V8 (US)",
+    "drive": "Full-time 4-wheel drive",
+    "gearbox": "4-speed automatic (5-speed later)",
+    "specsFor": "1998 Toyota Land Cruiser V8, US market (Car and Driver test)",
+    "power": {
+      "hp": 230,
+      "note": "4.7-liter V8",
+      "src": "https://www.0-60specs.com/toyota/land-cruiser-0-60-times"
+    },
+    "weight": {
+      "kg": 2273,
+      "lb": 5010,
+      "note": "Curb weight, 1998",
+      "src": "https://www.0-60specs.com/toyota/land-cruiser-0-60-times"
+    },
+    "zero60": {
+      "sec": 9.4,
+      "kind": "tested",
+      "note": "Car and Driver test, 1998",
+      "src": "https://www.0-60specs.com/toyota/land-cruiser-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 14,
+      "city": 12,
+      "hwy": 15,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/14785.shtml",
+      "note": "EPA combined, 1998"
+    },
+    "built": {
+      "na": "No production total on record"
+    },
+    "predecessor": {
+      "name": "Toyota Land Cruiser (80 Series)",
+      "id": "toyota-land-cruiser-j80"
+    },
+    "successor": {
+      "name": "Toyota Land Cruiser (200 Series)",
+      "id": "toyota-land-cruiser-j200"
+    },
+    "quick": "The 100 Series Land Cruiser, 1998–2007: the first Land Cruiser with independent front suspension and the first with a V8, which was the only engine in America.",
+    "story": [
+      "Introduced in January 1998 to replace the 80, the 100 Series had a wider chassis and independent front suspension with rack-and-pinion steering, both firsts for a Land Cruiser, to improve its on-road manners. Because that cost some off-road toughness, Toyota kept selling solid-axle 105 models alongside it in markets such as Africa, Australia, Russia and South America.",
+      "The V8 was another first, added mainly to boost sales in North America, where it was the only engine offered: a 4.7-liter with 230 hp. Car and Driver timed a 1998 Land Cruiser to 60 mph in 9.4 seconds. An Active Height Control suspension with electronically adjustable dampers was also offered."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Land Cruiser"
+    ]
+  },
+  {
     "id": "toyota-land-cruiser-j200",
     "name": "Toyota Land Cruiser (200 Series)",
     "aka": [
@@ -13455,7 +14038,10 @@ const CARS = [
       "note": "Sold in the US, 2008–2022",
       "src": "https://www.goodcarbadcar.net/toyota-land-cruiser-sales-figures/"
     },
-    "predecessor": null,
+    "predecessor": {
+      "name": "Toyota Land Cruiser (100 Series)",
+      "id": "toyota-land-cruiser-j100"
+    },
     "successor": {
       "name": "Toyota Land Cruiser (250 Series)",
       "id": "toyota-land-cruiser-j250"
@@ -13475,6 +14061,61 @@ const CARS = [
       "title": "The Toyota Land Cruiser Buyer's Guide",
       "blurb": "The 200 Series V8 or the 250 Series hybrid, grades and prices, and the used checklist with the recalls to check, in 5 chapters."
     }
+  },
+  {
+    "id": "toyota-land-cruiser-j300",
+    "name": "Toyota Land Cruiser (300 Series)",
+    "aka": [
+      "300 Series",
+      "LC300",
+      "Land Cruiser GR Sport"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "2021–present",
+    "start": 2021,
+    "end": null,
+    "body": "Full-size SUV",
+    "engine": "3.5-liter twin-turbo V6 gasoline; 3.3-liter twin-turbo V6 diesel",
+    "drive": "Full-time 4-wheel drive",
+    "gearbox": "Automatic",
+    "specsFor": "Toyota Land Cruiser 300 Series, 3.5-liter twin-turbo V6",
+    "power": {
+      "hp": 409,
+      "note": "3.5-liter twin-turbo V6 gasoline, 415 PS",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser"
+    },
+    "weight": {
+      "na": "No figure on record"
+    },
+    "zero60": {
+      "na": "No test on record"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "na": "Not sold in the US, so no EPA rating"
+    },
+    "built": {
+      "na": "No production total on record"
+    },
+    "predecessor": {
+      "name": "Toyota Land Cruiser (200 Series)",
+      "id": "toyota-land-cruiser-j200"
+    },
+    "successor": null,
+    "quick": "The 300 Series Land Cruiser, 2021 to today: the global flagship that replaced the 200, with twin-turbo V6 engines and about 200 kg less weight, sold almost everywhere but the US and Canada.",
+    "story": [
+      "Unveiled on June 9, 2021, the 300 Series rides on the body-on-frame GA-F platform, with a redesigned frame that's lighter and stiffer; the whole vehicle weighs about 200 kg (441 lb) less than the 200 Series. Toyota also claims a lower center of gravity, better weight distribution and an improved suspension.",
+      "Its 3.5-liter twin-turbo V6 gasoline engine makes 409 hp, and a 3.3-liter twin-turbo V6 diesel makes 304 hp. It went on sale in Japan on August 2, 2021, and in the Middle East, Australia, South Africa and Asia that year, but Toyota didn't bring it to the United States or Canada, citing slow sales of the 200 Series."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Land Cruiser"
+    ]
   },
   {
     "id": "toyota-land-cruiser-j250",

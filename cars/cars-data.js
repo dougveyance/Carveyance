@@ -19581,7 +19581,11 @@ const CARS_INDEX = [
    "id": "ford-bronco-2nd-gen",
    "name": "Ford Bronco (second generation)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/ford-bronco-1st-gen.jpg?v=bcfc7e3b",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "ford-bronco-2nd-gen",
@@ -19641,7 +19645,11 @@ const CARS_INDEX = [
    "id": "ford-bronco-3rd-gen",
    "name": "Ford Bronco (third generation)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/ford-bronco-2nd-gen.jpg?v=16857cb1",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "ford-bronco-3rd-gen",
@@ -19706,7 +19714,11 @@ const CARS_INDEX = [
    "id": "ford-bronco-4th-gen",
    "name": "Ford Bronco (fourth generation)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/ford-bronco-3rd-gen.jpg?v=358585c1",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "ford-bronco-4th-gen",
@@ -19771,7 +19783,11 @@ const CARS_INDEX = [
    "id": "ford-bronco-5th-gen",
    "name": "Ford Bronco (fifth generation)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/ford-bronco-4th-gen.jpg?v=9a560e03",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "ford-bronco-5th-gen",
@@ -19833,7 +19849,11 @@ const CARS_INDEX = [
    "id": "ford-bronco-6th-gen",
    "name": "Ford Bronco (sixth generation)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/ford-bronco-5th-gen.jpg?v=49b57abd",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "ford-bronco-6th-gen",
@@ -19970,7 +19990,11 @@ const CARS_INDEX = [
   ],
   "prev": null,
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/ford-bronco-raptor.jpg?v=efca0ae5",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "ford-bronco-sport",

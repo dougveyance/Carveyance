@@ -22799,6 +22799,1173 @@ const CARS = [
     }
   },
   {
+    "id": "honda-hr-v-1st-gen",
+    "name": "Honda HR-V (first generation)",
+    "aka": [
+      "1999–2006 HR-V",
+      "HR-V 1.6 VTEC",
+      "GH",
+      "J-WJ"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "1999–2006",
+    "start": 1999,
+    "end": 2006,
+    "shop": null,
+    "body": "Small SUV",
+    "engine": "1.6-liter 4-cylinder",
+    "drive": "Front-wheel drive or Real Time 4-wheel drive",
+    "gearbox": "5-speed manual or CVT",
+    "specsFor": "1999 Honda HR-V 1.6 VTEC, 4-wheel drive, 3-door, manual, European market (Honda figures)",
+    "power": {
+      "hp": 124,
+      "note": "1.6-liter VTEC 4-cylinder (D16W5); the non-VTEC 1.6 makes 105 PS",
+      "src": "https://www.auto-data.net/en/honda-hr-v-gh-1.6-i-16v-4wd-3-dr-124hp-12347"
+    },
+    "weight": {
+      "kg": 1317,
+      "lb": 2903,
+      "note": "Curb weight, 1.6 VTEC 4-wheel drive, 5-door",
+      "src": "https://www.thecarspec.net/car-detail/honda-hr-v-gh-16-i-16v-4wd-5-dr-124-hp-1999"
+    },
+    "zero60": {
+      "sec": 10.8,
+      "kind": "claimed",
+      "note": "Honda's claim, 0–100 km/h (62 mph), 3-door 1.6 VTEC 4-wheel drive with the manual",
+      "src": "https://ultimatespecs.com/car-specs/Honda/7945/Honda-HR-V-3-Doors-16i-4WD-VTEC.html"
+    },
+    "top": {
+      "mph": 106,
+      "kind": "claimed",
+      "note": "Honda's claim, 170 km/h, 1.6 VTEC",
+      "src": "https://ultimatespecs.com/car-specs/Honda/7945/Honda-HR-V-3-Doors-16i-4WD-VTEC.html"
+    },
+    "mpg": {
+      "combined": 27.4,
+      "unit": "mpg",
+      "kind": "official",
+      "note": "Official European combined figure, 1.6 VTEC 4-wheel drive, 8.6 L/100 km",
+      "src": "https://www.auto-data.net/en/honda-hr-v-gh-1.6-i-16v-4wd-3-dr-124hp-12347"
+    },
+    "built": {
+      "na": "Never sold in the US, and Honda didn't publish a production total"
+    },
+    "predecessor": null,
+    "successor": {
+      "name": "Honda HR-V (second generation)",
+      "id": "honda-hr-v-2nd-gen"
+    },
+    "quick": "The first HR-V, 1999–2006: a tall, Logo-based hatchback with optional 4-wheel drive, sold in Japan, Europe and Asia but never in North America.",
+    "story": [
+      "The HR-V began as the J-WJ, one of 4 concepts in Honda's J-Mover series shown at the 1997 Tokyo Motor Show. It went on sale in Japan in February 1999 as a 3-door with Real Time 4-wheel drive, built on the small Logo hatchback, and a front-drive version followed that September. A 5-door followed, and a VTEC version of the 1.6-liter raised output from 105 PS to 124 hp.",
+      "It was sold in Japan, Europe and parts of Asia and the Pacific until 2006, but never in the US, where Honda's small SUV was the CR-V. Honda dropped the name for 7 years, then revived it for a Fit-based crossover, the first HR-V sold in the US, from 2015."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Honda HR-V"
+    ]
+  },
+  {
+    "id": "honda-hr-v-2nd-gen",
+    "name": "Honda HR-V (second generation)",
+    "aka": [
+      "2016–2022 HR-V",
+      "HR-V EX-L",
+      "HR-V Sport",
+      "HR-V Touring",
+      "RU",
+      "Vezel"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "2016–2022",
+    "start": 2016,
+    "end": 2022,
+    "shop": {
+      "cargurus": "d1271"
+    },
+    "body": "Small SUV",
+    "engine": "1.8-liter 4-cylinder",
+    "drive": "Front-wheel drive or Real Time all-wheel drive",
+    "gearbox": "CVT; 6-speed manual on 2016–2018 front-drive LX and EX",
+    "specsFor": "2016 Honda HR-V EX-L Navi, front-wheel drive, CVT, US market (Car and Driver test)",
+    "power": {
+      "hp": 141,
+      "note": "1.8-liter i-VTEC 4-cylinder, 127 lb-ft",
+      "src": "https://www.hondanews.com/releases/the-uniquely-personal-and-functional-2016-honda-hr-v-goes-on-sale-may-15-bringing-a-shot-of-energy-to-growing-entry-crossover-market"
+    },
+    "weight": {
+      "kg": 1337,
+      "lb": 2947,
+      "note": "Curb weight, 2016 EX-L Navi, front-wheel drive",
+      "src": "https://www.hondanews.com/releases/the-uniquely-personal-and-functional-2016-honda-hr-v-goes-on-sale-may-15-bringing-a-shot-of-energy-to-growing-entry-crossover-market"
+    },
+    "zero60": {
+      "sec": 8.6,
+      "kind": "tested",
+      "note": "Car and Driver test, 2016 EX-L Navi, front-wheel drive",
+      "src": "https://www.0-60specs.com/honda/hr-v-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 31,
+      "city": 28,
+      "hwy": 34,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/35999.shtml",
+      "note": "EPA combined, 2016, front-wheel drive, CVT (all-wheel drive: 29)"
+    },
+    "built": {
+      "count": 738905,
+      "approx": true,
+      "note": "Sold in the US, 2015–2022 calendar years",
+      "src": "https://www.goodcarbadcar.net/honda-hrv-sales-figures-usa-canada/"
+    },
+    "versions": [
+      {
+        "name": "1.8-liter, CVT",
+        "detail": "Front- or all-wheel drive"
+      },
+      {
+        "name": "1.8-liter, 6-speed manual",
+        "detail": "Front-wheel drive LX and EX, 2016–2018",
+        "specsFor": "2016 Honda HR-V EX, 6-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 141,
+          "note": "1.8-liter i-VTEC 4-cylinder",
+          "src": "https://www.hondanews.com/releases/the-uniquely-personal-and-functional-2016-honda-hr-v-goes-on-sale-may-15-bringing-a-shot-of-energy-to-growing-entry-crossover-market"
+        },
+        "weight": {
+          "kg": 1323,
+          "lb": 2917,
+          "note": "Curb weight, 2016 EX, 6-speed manual",
+          "src": "https://www.hondanews.com/releases/the-uniquely-personal-and-functional-2016-honda-hr-v-goes-on-sale-may-15-bringing-a-shot-of-energy-to-growing-entry-crossover-market"
+        },
+        "zero60": {
+          "sec": 8.4,
+          "kind": "tested",
+          "note": "Car and Driver test, 2016 EX, 6-speed manual",
+          "src": "https://www.0-60specs.com/honda/hr-v-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 28,
+          "city": 25,
+          "hwy": 33,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/35998.shtml",
+          "note": "EPA combined, 2016, 6-speed manual"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Honda HR-V (first generation)",
+      "id": "honda-hr-v-1st-gen"
+    },
+    "successor": {
+      "name": "Honda HR-V (third generation)",
+      "id": "honda-hr-v-3rd-gen"
+    },
+    "quick": "The second HR-V, 2016–2022: a small crossover built on the Fit's platform, with the Fit's Magic Seat and a 1.8-liter engine, and the first HR-V sold in the US.",
+    "story": [
+      "Honda previewed it as the Urban SUV Concept at the 2013 Detroit show, and the US version went on sale in May 2015 as a 2016 model, built in Celaya, Mexico, alongside the Fit. It shared the Fit's platform and its Magic Seat: the rear seat cushions flip up to leave a floor-to-roof space for tall things, or the backs fold flat. Cargo space was 24.3 cubic feet behind the rear seat and 58.8 with it folded.",
+      "Every US HR-V has a 141-hp 1.8-liter. Front-drive LX and EX models could have a 6-speed manual until 2018; the rest have a CVT. Car and Driver ran a front-drive EX-L Navi to 60 mph in 8.6 seconds. The 2019 refresh added Sport and Touring trims, a new nose and Honda Sensing on the EX and above, and 2022 was the last year."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Honda"
+    },
+    "match": [
+      "Honda HR-V"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/honda-hr-v/",
+      "title": "The Honda HR-V Buyer's Guide",
+      "blurb": "The Magic Seat generation, the bigger 2023 car, and the used checklist with the recalls to check, in 3 chapters."
+    }
+  },
+  {
+    "id": "honda-hr-v-3rd-gen",
+    "name": "Honda HR-V (third generation)",
+    "aka": [
+      "2023–2026 HR-V",
+      "HR-V Sport",
+      "HR-V EX-L",
+      "RZ",
+      "ZR-V"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "2023–present",
+    "start": 2023,
+    "end": null,
+    "shop": {
+      "cargurus": "d1271"
+    },
+    "body": "Small SUV",
+    "engine": "2.0-liter 4-cylinder",
+    "drive": "Front-wheel drive or Real Time all-wheel drive",
+    "gearbox": "CVT",
+    "specsFor": "2023 Honda HR-V EX-L, all-wheel drive, US market (Car and Driver test)",
+    "power": {
+      "hp": 158,
+      "note": "2.0-liter 4-cylinder, 138 lb-ft",
+      "src": "https://hondanews.com/en-US/releases/all-new-2023-hr-v-boasts-sportier-design-more-responsive-powertrain-upscale-cabin-and-desirable-tech-features"
+    },
+    "weight": {
+      "kg": 1488,
+      "lb": 3280,
+      "note": "Curb weight, 2023 EX-L, all-wheel drive",
+      "src": "https://www.0-60specs.com/honda/hr-v-0-60-times"
+    },
+    "zero60": {
+      "sec": 9.4,
+      "kind": "tested",
+      "note": "Car and Driver test, 2023 EX-L, all-wheel drive",
+      "src": "https://www.0-60specs.com/honda/hr-v-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 27,
+      "city": 25,
+      "hwy": 30,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/45362.shtml",
+      "note": "EPA combined, 2023, all-wheel drive (front-wheel drive: 28)"
+    },
+    "built": {
+      "count": 543407,
+      "approx": true,
+      "note": "Sold in the US so far, 2023 to October 2026",
+      "src": "https://www.goodcarbadcar.net/honda-hrv-sales-figures-usa-canada/"
+    },
+    "predecessor": {
+      "name": "Honda HR-V (second generation)",
+      "id": "honda-hr-v-2nd-gen"
+    },
+    "successor": null,
+    "quick": "The third HR-V, 2023 on: a North American model built on the 11th-generation Civic, bigger and quieter than before but without the Magic Seat.",
+    "story": [
+      "Honda split the name for this generation. The rest of the world kept a smaller HR-V, while North America got a bigger car on the 11th-generation Civic's platform, sold elsewhere as the ZR-V. It was unveiled on April 4, 2022, and went on sale that June as a 2023 model, with a 158-hp 2.0-liter, a CVT, an independent rear suspension and the Civic's mesh-trimmed dashboard.",
+      "It rides and handles better than the car it replaced, but the Magic Seat is gone, and cargo space with the seat folded fell to 55.1 cubic feet. Car and Driver ran an all-wheel-drive EX-L to 60 mph in 9.4 seconds. It's rated at 28 mpg combined with front-wheel drive and 27 with all-wheel drive."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Honda"
+    },
+    "match": [
+      "Honda HR-V"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/honda-hr-v/",
+      "title": "The Honda HR-V Buyer's Guide",
+      "blurb": "The Magic Seat generation, the bigger 2023 car, and the used checklist with the recalls to check, in 3 chapters."
+    }
+  },
+  {
+    "id": "honda-odyssey-1st-gen",
+    "name": "Honda Odyssey (first generation)",
+    "aka": [
+      "1995–1998 Odyssey",
+      "Odyssey EX",
+      "Odyssey LX",
+      "RA1"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "1995–1998",
+    "start": 1995,
+    "end": 1998,
+    "shop": {
+      "cargurus": "d592"
+    },
+    "body": "Minivan",
+    "engine": "2.2-liter 4-cylinder (2.3-liter for 1998)",
+    "drive": "Front-wheel drive",
+    "gearbox": "4-speed automatic",
+    "specsFor": "1995 Honda Odyssey EX, US market (Car and Driver test)",
+    "power": {
+      "hp": 140,
+      "note": "2.2-liter 4-cylinder, 145 lb-ft (a 2.3-liter for 1998)",
+      "src": "https://www.0-60specs.com/honda/odyssey-0-60-times"
+    },
+    "weight": {
+      "kg": 1751,
+      "lb": 3860,
+      "note": "Curb weight, 1995 EX",
+      "src": "https://www.0-60specs.com/honda/odyssey-0-60-times"
+    },
+    "zero60": {
+      "sec": 10.7,
+      "kind": "tested",
+      "note": "Car and Driver test, 1995 EX",
+      "src": "https://www.0-60specs.com/honda/odyssey-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 20,
+      "city": 18,
+      "hwy": 22,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/12109.shtml",
+      "note": "EPA combined, 1995"
+    },
+    "built": {
+      "count": 94318,
+      "approx": true,
+      "note": "Sold in the US, 1994–1998 calendar years (Honda figures)",
+      "src": "https://en.wikipedia.org/wiki/Honda_Odyssey_(North_America)"
+    },
+    "predecessor": null,
+    "successor": {
+      "name": "Honda Odyssey (second generation)",
+      "id": "honda-odyssey-2nd-gen"
+    },
+    "quick": "The first Odyssey, 1995–1998: an Accord-based people carrier with 4 swing-open doors and a third-row seat that folded into the floor.",
+    "story": [
+      "Honda's first minivan was engineered in Japan after the early-1990s recession, so it had to be built on existing Accord lines with little new investment. That gave it the Accord's 4-cylinder, double-wishbone suspension and 4 conventional hinged doors instead of sliding ones. Its cleverest idea, a third-row seat that folded away into a well in the floor, came from chief engineer Kunimichi Odagaki, and other minivans later copied it.",
+      "It was smaller than its American rivals, and US sales never passed about 27,000 a year. Car and Driver needed 10.7 seconds to reach 60 mph in a 1995 EX. New York approved it as a taxi in 1996, Isuzu sold it as the Oasis, and for 1998 it got a 2.3-liter engine before Honda replaced it with a much larger van built for North America."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Honda"
+    },
+    "match": [
+      "Honda Odyssey"
+    ]
+  },
+  {
+    "id": "honda-odyssey-2nd-gen",
+    "name": "Honda Odyssey (second generation)",
+    "aka": [
+      "1999–2004 Odyssey",
+      "Odyssey EX",
+      "Odyssey EX-L",
+      "RL1",
+      "LaGreat"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "1999–2004",
+    "start": 1999,
+    "end": 2004,
+    "shop": {
+      "cargurus": "d592"
+    },
+    "body": "Minivan",
+    "engine": "3.5-liter V6",
+    "drive": "Front-wheel drive",
+    "gearbox": "4-speed automatic; 5-speed automatic from 2002",
+    "specsFor": "1999 Honda Odyssey EX, US market (Car and Driver test)",
+    "power": {
+      "hp": 210,
+      "note": "3.5-liter SOHC VTEC V6, 1999–2001 (240 hp from 2002)",
+      "src": "https://en.wikipedia.org/wiki/Honda_Odyssey_(North_America)"
+    },
+    "weight": {
+      "kg": 1910,
+      "lb": 4210,
+      "note": "Curb weight, 1999 EX",
+      "src": "https://www.0-60specs.com/honda/odyssey-0-60-times"
+    },
+    "zero60": {
+      "sec": 9.4,
+      "kind": "tested",
+      "note": "Car and Driver test, 1999 EX",
+      "src": "https://www.0-60specs.com/honda/odyssey-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 19,
+      "city": 16,
+      "hwy": 23,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/15427.shtml",
+      "note": "EPA combined, 1999"
+    },
+    "built": {
+      "count": 797315,
+      "approx": true,
+      "note": "Sold in the US, 1999–2004 calendar years (Honda figures)",
+      "src": "https://en.wikipedia.org/wiki/Honda_Odyssey_(North_America)"
+    },
+    "versions": [
+      {
+        "name": "3.5-liter V6, 1999–2001",
+        "detail": "210 hp, 4-speed automatic"
+      },
+      {
+        "name": "3.5-liter V6, 2002–2004",
+        "detail": "240 hp, 5-speed automatic",
+        "specsFor": "2004 Honda Odyssey EX, US market (Car and Driver test)",
+        "power": {
+          "hp": 240,
+          "note": "3.5-liter SOHC VTEC V6, 242 lb-ft",
+          "src": "https://en.wikipedia.org/wiki/Honda_Odyssey_(North_America)"
+        },
+        "weight": {
+          "kg": 1996,
+          "lb": 4400,
+          "note": "Curb weight, 2004 EX",
+          "src": "https://www.0-60specs.com/honda/odyssey-0-60-times"
+        },
+        "zero60": {
+          "sec": 7.5,
+          "kind": "tested",
+          "note": "Car and Driver test, 2004 EX",
+          "src": "https://www.0-60specs.com/honda/odyssey-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 19,
+          "city": 16,
+          "hwy": 23,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/18028.shtml",
+          "note": "EPA combined, 2002"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Honda Odyssey (first generation)",
+      "id": "honda-odyssey-1st-gen"
+    },
+    "successor": {
+      "name": "Honda Odyssey (third generation)",
+      "id": "honda-odyssey-3rd-gen"
+    },
+    "quick": "The second Odyssey, 1999–2004: a full-size American van with a V6, 2 sliding doors and the fold-away third row, built in Canada.",
+    "story": [
+      "This was the first Odyssey designed for North America: much larger, built in Alliston, Ontario, and powered by a 210-hp 3.5-liter V6. It kept the third row that folded into the floor and added 2 sliding doors as standard, power-operated on the EX, when some rivals still charged for the second one. In 2000 it offered the first navigation system in any minivan, and Japan bought it as the LaGreat.",
+      "For 2002, output rose to 240 hp, a 5-speed automatic replaced the 4-speed, and an EX-L brought leather. The automatics are this van's weak spot: Honda extended the warranty on 1999–2001 4-speeds to 7 years or 100,000 miles after bearing failures, and the 5-speed had clutch-pack troubles of its own. Americans still bought about 800,000."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Honda"
+    },
+    "match": [
+      "Honda Odyssey"
+    ]
+  },
+  {
+    "id": "honda-odyssey-3rd-gen",
+    "name": "Honda Odyssey (third generation)",
+    "aka": [
+      "2005–2010 Odyssey",
+      "Odyssey Touring",
+      "Odyssey EX-L",
+      "RL3"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "2005–2010",
+    "start": 2005,
+    "end": 2010,
+    "shop": {
+      "cargurus": "d592"
+    },
+    "body": "Minivan",
+    "engine": "3.5-liter V6",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed automatic",
+    "specsFor": "2007 Honda Odyssey EX-L, US market (Car and Driver test)",
+    "power": {
+      "hp": 244,
+      "note": "3.5-liter V6 with Variable Cylinder Management on the EX-L and Touring (rated 255 hp for 2005)",
+      "src": "https://www.0-60specs.com/honda/odyssey-0-60-times"
+    },
+    "weight": {
+      "kg": 2023,
+      "lb": 4460,
+      "note": "Curb weight, 2007 EX-L",
+      "src": "https://www.0-60specs.com/honda/odyssey-0-60-times"
+    },
+    "zero60": {
+      "sec": 8.6,
+      "kind": "tested",
+      "note": "Car and Driver test, 2007 EX-L",
+      "src": "https://www.0-60specs.com/honda/odyssey-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 19,
+      "city": 17,
+      "hwy": 24,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/23702.shtml",
+      "note": "EPA combined, 2007, with Variable Cylinder Management"
+    },
+    "built": {
+      "count": 868724,
+      "approx": true,
+      "note": "Sold in the US, 2005–2010 calendar years",
+      "src": "https://www.goodcarbadcar.net/honda-odyssey-sales-figures/"
+    },
+    "predecessor": {
+      "name": "Honda Odyssey (second generation)",
+      "id": "honda-odyssey-2nd-gen"
+    },
+    "successor": {
+      "name": "Honda Odyssey (fourth generation)",
+      "id": "honda-odyssey-4th-gen"
+    },
+    "quick": "The third Odyssey, 2005–2010: wider and safer, with standard side curtain air bags and stability control, and cylinder deactivation on the upper trims.",
+    "story": [
+      "The 2005 Odyssey was about the same length as before but wider and heavier, and it brought Honda's ACE body structure, designed to spread crash forces, to the Odyssey. Side curtain air bags and electronic stability control became standard on every version. A new Touring trim brought run-flat tires, a power tailgate and memory seats, and the EX-L and Touring got Variable Cylinder Management, which shut down 3 cylinders on the highway.",
+      "A 2008 refresh added a new grille, active front head restraints and a smarter VCM that could also run on 4 cylinders. Car and Driver timed a 2007 EX-L at 8.6 seconds to 60 mph. US sales peaked at about 178,000 in 2006, about 870,000 in all."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Honda"
+    },
+    "match": [
+      "Honda Odyssey"
+    ]
+  },
+  {
+    "id": "honda-odyssey-4th-gen",
+    "name": "Honda Odyssey (fourth generation)",
+    "aka": [
+      "2011–2017 Odyssey",
+      "Odyssey Touring Elite",
+      "Odyssey SE",
+      "RL5"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "2011–2017",
+    "start": 2011,
+    "end": 2017,
+    "shop": {
+      "cargurus": "d592"
+    },
+    "body": "Minivan",
+    "engine": "3.5-liter V6",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed automatic; 6-speed automatic on the Touring, then on every Odyssey from 2014",
+    "specsFor": "2011 Honda Odyssey Touring Elite, 6-speed automatic, US market (Car and Driver test)",
+    "power": {
+      "hp": 248,
+      "note": "3.5-liter SOHC i-VTEC V6 with Variable Cylinder Management, 250 lb-ft",
+      "src": "https://en.wikipedia.org/wiki/Honda_Odyssey_(North_America)"
+    },
+    "weight": {
+      "kg": 2090,
+      "lb": 4608,
+      "note": "Curb weight, 2011 Touring Elite",
+      "src": "https://www.0-60specs.com/honda/odyssey-0-60-times"
+    },
+    "zero60": {
+      "sec": 7.3,
+      "kind": "tested",
+      "note": "Car and Driver test, 2011 Touring Elite",
+      "src": "https://www.0-60specs.com/honda/odyssey-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 22,
+      "city": 19,
+      "hwy": 27,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/30883.shtml",
+      "note": "EPA combined, 2011, 6-speed automatic (5-speed: 21)"
+    },
+    "built": {
+      "count": 833122,
+      "approx": true,
+      "note": "Sold in the US, 2011–2017 calendar years",
+      "src": "https://www.goodcarbadcar.net/honda-odyssey-sales-figures/"
+    },
+    "versions": [
+      {
+        "name": "3.5-liter V6, 6-speed automatic",
+        "detail": "Touring and Touring Elite 2011–2013; every Odyssey from 2014"
+      },
+      {
+        "name": "3.5-liter V6, 5-speed automatic",
+        "detail": "LX to EX-L, 2011–2013",
+        "specsFor": "2011 Honda Odyssey EX-L, 5-speed automatic, US market (Motor Trend test)",
+        "power": {
+          "hp": 248,
+          "note": "3.5-liter SOHC i-VTEC V6",
+          "src": "https://en.wikipedia.org/wiki/Honda_Odyssey_(North_America)"
+        },
+        "weight": {
+          "kg": 2043,
+          "lb": 4504,
+          "note": "Curb weight, 2011 EX-L",
+          "src": "https://www.0-60specs.com/honda/odyssey-0-60-times"
+        },
+        "zero60": {
+          "sec": 7.9,
+          "kind": "tested",
+          "note": "Motor Trend test, 2011 EX-L",
+          "src": "https://www.0-60specs.com/honda/odyssey-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 21,
+          "city": 18,
+          "hwy": 27,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/30884.shtml",
+          "note": "EPA combined, 2011, 5-speed automatic"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Honda Odyssey (third generation)",
+      "id": "honda-odyssey-3rd-gen"
+    },
+    "successor": {
+      "name": "Honda Odyssey (fifth generation)",
+      "id": "honda-odyssey-5th-gen"
+    },
+    "quick": "The fourth Odyssey, 2011–2017: lower and wider, with a kinked window line, a cool box and, from 2014, a built-in vacuum cleaner.",
+    "story": [
+      "It went on sale on June 17, 2010, as a 2011 model, longer, wider and lower than before, with a kinked beltline over the sliding doors and a 248-hp V6. The Touring Elite added HID headlights, a 650-watt audio system and a 16.2-inch split-screen rear entertainment system, and the EX-L and above had a cool box chilled by the air conditioning. Car and Driver ran a Touring Elite to 60 mph in 7.3 seconds.",
+      "The 2014 refresh brought an aluminum hood, a new grille, LaneWatch, forward collision warning and the 6-speed automatic on every trim, and the Touring Elite got HondaVAC, a built-in vacuum cleaner. An SE trim arrived for 2016, and 2017 was the last year. Its second-row seats were recalled (17V725) because they could tip forward if not properly latched."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Honda"
+    },
+    "match": [
+      "Honda Odyssey"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/honda-odyssey/",
+      "title": "The Honda Odyssey Buyer's Guide",
+      "blurb": "The last 2017 van, the 2018–2026 generation, and the sliding-door checklist with the recalls to check, in 3 chapters."
+    }
+  },
+  {
+    "id": "honda-odyssey-5th-gen",
+    "name": "Honda Odyssey (fifth generation)",
+    "aka": [
+      "2018–2026 Odyssey",
+      "Odyssey Elite",
+      "Odyssey Sport-L",
+      "Odyssey EX-L",
+      "RL6"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "2018–present",
+    "start": 2018,
+    "end": null,
+    "shop": {
+      "cargurus": "d592"
+    },
+    "body": "Minivan",
+    "engine": "3.5-liter V6",
+    "drive": "Front-wheel drive",
+    "gearbox": "9-speed automatic (LX to EX-L, 2018–2019); 10-speed automatic on the Touring and Elite, then on every Odyssey from 2020",
+    "specsFor": "2018 Honda Odyssey Elite, 10-speed automatic, US market (Car and Driver test)",
+    "power": {
+      "hp": 280,
+      "note": "Direct-injected 3.5-liter V6, 262 lb-ft",
+      "src": "https://en.wikipedia.org/wiki/Honda_Odyssey_(North_America)"
+    },
+    "weight": {
+      "kg": 2070,
+      "lb": 4563,
+      "note": "Curb weight, 2018 Elite",
+      "src": "https://www.0-60specs.com/honda/odyssey-0-60-times"
+    },
+    "zero60": {
+      "sec": 6.6,
+      "kind": "tested",
+      "note": "Car and Driver test, 2018 Elite",
+      "src": "https://www.0-60specs.com/honda/odyssey-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 22,
+      "city": 19,
+      "hwy": 28,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/38765.shtml",
+      "note": "EPA combined, 2018, 10-speed automatic (the 9-speed is also rated at 22)"
+    },
+    "built": {
+      "count": 726043,
+      "approx": true,
+      "note": "Sold in the US so far, 2018 to October 2026",
+      "src": "https://www.goodcarbadcar.net/honda-odyssey-sales-figures/"
+    },
+    "versions": [
+      {
+        "name": "3.5-liter V6, 10-speed automatic",
+        "detail": "Touring and Elite, then every Odyssey from 2020"
+      },
+      {
+        "name": "3.5-liter V6, 9-speed automatic",
+        "detail": "LX, EX and EX-L, 2018–2019",
+        "specsFor": "2018 Honda Odyssey EX-L, 9-speed automatic, US market (Car and Driver test)",
+        "power": {
+          "hp": 280,
+          "note": "Direct-injected 3.5-liter V6",
+          "src": "https://en.wikipedia.org/wiki/Honda_Odyssey_(North_America)"
+        },
+        "weight": {
+          "kg": 1975,
+          "lb": 4354,
+          "note": "Curb weight, 2018 EX-L",
+          "src": "https://www.0-60specs.com/honda/odyssey-0-60-times"
+        },
+        "zero60": {
+          "sec": 6.7,
+          "kind": "tested",
+          "note": "Car and Driver test, 2018 EX-L",
+          "src": "https://www.0-60specs.com/honda/odyssey-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 22,
+          "city": 19,
+          "hwy": 28,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/38764.shtml",
+          "note": "EPA combined, 2018, 9-speed automatic"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Honda Odyssey (fourth generation)",
+      "id": "honda-odyssey-4th-gen"
+    },
+    "successor": null,
+    "quick": "The fifth Odyssey, 2018 on: 280 hp, Honda's first 10-speed automatic, and Magic Slide second-row seats that move sideways as well as back and forth.",
+    "story": [
+      "It was unveiled at the 2017 Detroit show, and production began in Lincoln, Alabama, that April. A 280-hp direct-injected V6 replaced the old engine, and the Touring and Elite got Honda's new 10-speed automatic, described as the first 10-speed in a front-wheel-drive car; lesser trims had a 9-speed until 2020. On the EX and above, the Magic Slide second-row seats slide side to side once the center seat is out, opening a path to the third row.",
+      "The Touring and Elite added CabinWatch, a camera view of the rear seats, and CabinTalk, which plays the driver's voice through the rear speakers. Car and Driver ran a 2018 Elite to 60 mph in 6.6 seconds. Refreshes for 2021 and 2025 brought Honda Sensing on every trim, then a 9-inch touchscreen with wireless CarPlay. Recalls include the sliding-door latches and cables (18V795, 20V437) and side air bags that could deploy unexpectedly on 2018–2022 vans (26V227)."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Honda"
+    },
+    "match": [
+      "Honda Odyssey"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/honda-odyssey/",
+      "title": "The Honda Odyssey Buyer's Guide",
+      "blurb": "The last 2017 van, the 2018–2026 generation, and the sliding-door checklist with the recalls to check, in 3 chapters."
+    }
+  },
+  {
+    "id": "honda-pilot-1st-gen",
+    "name": "Honda Pilot (first generation)",
+    "aka": [
+      "2003–2008 Pilot",
+      "Pilot EX",
+      "Pilot EX-L",
+      "YF1",
+      "YF2"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "2003–2008",
+    "start": 2003,
+    "end": 2008,
+    "shop": {
+      "cargurus": "d594"
+    },
+    "body": "Midsize SUV",
+    "engine": "3.5-liter V6",
+    "drive": "VTM-4 4-wheel drive; front-wheel drive available from 2006",
+    "gearbox": "5-speed automatic",
+    "specsFor": "2003 Honda Pilot EX, 4-wheel drive, US market (Car and Driver test)",
+    "power": {
+      "hp": 240,
+      "note": "3.5-liter SOHC VTEC V6, 2003–2004 (255 hp for 2005; 244 hp under the revised SAE standard from 2006)",
+      "src": "https://en.wikipedia.org/wiki/Honda_Pilot"
+    },
+    "weight": {
+      "kg": 1988,
+      "lb": 4383,
+      "note": "Curb weight, 2003 EX",
+      "src": "https://www.0-60specs.com/honda/pilot-0-60-times"
+    },
+    "zero60": {
+      "sec": 7.6,
+      "kind": "tested",
+      "note": "Car and Driver test, 2003 EX",
+      "src": "https://www.0-60specs.com/honda/pilot-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 17,
+      "city": 15,
+      "hwy": 21,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/19174.shtml",
+      "note": "EPA combined, 2003, 4-wheel drive"
+    },
+    "built": {
+      "count": 806536,
+      "approx": true,
+      "note": "Sold in the US, 2002–2008 calendar years (Honda figures)",
+      "src": "https://en.wikipedia.org/wiki/Honda_Pilot"
+    },
+    "predecessor": null,
+    "successor": {
+      "name": "Honda Pilot (second generation)",
+      "id": "honda-pilot-2nd-gen"
+    },
+    "quick": "The first Pilot, 2003–2008: Honda's first 8-seat SUV, a unibody with a V6 and 4-wheel drive, built in Canada and then Alabama.",
+    "story": [
+      "Before the Pilot, Honda's only larger SUV in America was the Passport, a rebadged Isuzu Rodeo. The Pilot shared its unibody and V6 with the Acura MDX but seated 8 in 3 rows, and it went on sale on June 3, 2002, as a 2003 model, built in Alliston, Ontario. The 240-hp 3.5-liter drove all 4 wheels through Honda's VTM-4 system, and Car and Driver ran an EX to 60 mph in 7.6 seconds.",
+      "Output rose to 255 hp for 2005, along with stability control and tire pressure monitors. For 2006 Honda added a front-drive version with Variable Cylinder Management, and production moved to Lincoln, Alabama, in 2007. US sales peaked at about 152,000 in 2006, about 807,000 in all."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Honda"
+    },
+    "match": [
+      "Honda Pilot"
+    ]
+  },
+  {
+    "id": "honda-pilot-2nd-gen",
+    "name": "Honda Pilot (second generation)",
+    "aka": [
+      "2009–2015 Pilot",
+      "Pilot Touring",
+      "Pilot EX-L",
+      "YF3",
+      "YF4"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "2009–2015",
+    "start": 2009,
+    "end": 2015,
+    "shop": {
+      "cargurus": "d594"
+    },
+    "body": "Midsize SUV",
+    "engine": "3.5-liter V6",
+    "drive": "Front-wheel drive or VTM-4 4-wheel drive",
+    "gearbox": "5-speed automatic",
+    "specsFor": "2009 Honda Pilot Touring, 4-wheel drive, US market (Car and Driver test)",
+    "power": {
+      "hp": 250,
+      "note": "3.5-liter SOHC i-VTEC V6 with Variable Cylinder Management, 253 lb-ft",
+      "src": "https://en.wikipedia.org/wiki/Honda_Pilot"
+    },
+    "weight": {
+      "kg": 2050,
+      "lb": 4519,
+      "note": "Curb weight, 2009 Touring",
+      "src": "https://www.0-60specs.com/honda/pilot-0-60-times"
+    },
+    "zero60": {
+      "sec": 7.9,
+      "kind": "tested",
+      "note": "Car and Driver test, 2009 Touring",
+      "src": "https://www.0-60specs.com/honda/pilot-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 18,
+      "city": 16,
+      "hwy": 22,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/25676.shtml",
+      "note": "EPA combined, 2009, 4-wheel drive (20 mpg from 2012)"
+    },
+    "built": {
+      "count": 789116,
+      "approx": true,
+      "note": "Sold in the US, 2009–2015 calendar years",
+      "src": "https://www.goodcarbadcar.net/honda-pilot-sales-figures/"
+    },
+    "predecessor": {
+      "name": "Honda Pilot (first generation)",
+      "id": "honda-pilot-1st-gen"
+    },
+    "successor": {
+      "name": "Honda Pilot (third generation)",
+      "id": "honda-pilot-3rd-gen"
+    },
+    "quick": "The second Pilot, 2009–2015: bigger and deliberately boxy, with a 250-hp V6, built in Alabama.",
+    "story": [
+      "The second Pilot went on sale on May 22, 2008, built in Lincoln, Alabama. It was larger than before and squared off on purpose to look more like a traditional truck, with a 250-hp V6 that could shut down cylinders on the highway, a 5-speed automatic and a choice of front-wheel drive or VTM-4 4-wheel drive. Car and Driver timed a Touring at 7.9 seconds to 60 mph.",
+      "The 2012 refresh brought a new front end and better fuel economy, up to 20 mpg combined. For 2013 every Pilot got a backup camera, Bluetooth and an 8-inch dashboard screen, and an SE arrived for 2015. US sales came to about 790,000."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Honda"
+    },
+    "match": [
+      "Honda Pilot"
+    ]
+  },
+  {
+    "id": "honda-pilot-3rd-gen",
+    "name": "Honda Pilot (third generation)",
+    "aka": [
+      "2016–2022 Pilot",
+      "Pilot Elite",
+      "Pilot Touring",
+      "Pilot TrailSport",
+      "Pilot Black Edition",
+      "YF5",
+      "YF6"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "2016–2022",
+    "start": 2016,
+    "end": 2022,
+    "shop": {
+      "cargurus": "d594"
+    },
+    "body": "Midsize SUV",
+    "engine": "3.5-liter V6",
+    "drive": "Front-wheel drive or i-VTM4 torque-vectoring all-wheel drive",
+    "gearbox": "6-speed automatic (LX, EX and EX-L, 2016–2020); 9-speed automatic on the Touring and Elite, then on every Pilot from 2021",
+    "specsFor": "2017 Honda Pilot Elite, all-wheel drive, 9-speed automatic, US market (Car and Driver test)",
+    "power": {
+      "hp": 280,
+      "note": "Direct-injected 3.5-liter V6, 262 lb-ft",
+      "src": "https://en.wikipedia.org/wiki/Honda_Pilot"
+    },
+    "weight": {
+      "kg": 1954,
+      "lb": 4307,
+      "note": "Curb weight, 2017 Elite",
+      "src": "https://www.0-60specs.com/honda/pilot-0-60-times"
+    },
+    "zero60": {
+      "sec": 6.0,
+      "kind": "tested",
+      "note": "Car and Driver test, 2017 Elite",
+      "src": "https://www.0-60specs.com/honda/pilot-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 22,
+      "city": 19,
+      "hwy": 26,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/38450.shtml",
+      "note": "EPA combined, 2017, all-wheel drive, 9-speed (front-wheel drive: 23)"
+    },
+    "built": {
+      "count": 909116,
+      "approx": true,
+      "note": "Sold in the US, 2016–2022 calendar years",
+      "src": "https://www.goodcarbadcar.net/honda-pilot-sales-figures/"
+    },
+    "versions": [
+      {
+        "name": "3.5-liter V6, 9-speed automatic",
+        "detail": "Touring and Elite, then every Pilot from 2021"
+      },
+      {
+        "name": "3.5-liter V6, 6-speed automatic",
+        "detail": "LX, EX and EX-L, 2016–2020",
+        "specsFor": "2016 Honda Pilot EX, front-wheel drive, 6-speed automatic, US market (Car and Driver test)",
+        "power": {
+          "hp": 280,
+          "note": "Direct-injected 3.5-liter V6",
+          "src": "https://en.wikipedia.org/wiki/Honda_Pilot"
+        },
+        "weight": {
+          "kg": 1839,
+          "lb": 4054,
+          "note": "Curb weight, 2016 EX, front-wheel drive",
+          "src": "https://www.0-60specs.com/honda/pilot-0-60-times"
+        },
+        "zero60": {
+          "sec": 6.2,
+          "kind": "tested",
+          "note": "Car and Driver test, 2016 EX, front-wheel drive",
+          "src": "https://www.0-60specs.com/honda/pilot-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 22,
+          "city": 19,
+          "hwy": 27,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/38447.shtml",
+          "note": "EPA combined, 2017, front-wheel drive, 6-speed"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Honda Pilot (second generation)",
+      "id": "honda-pilot-2nd-gen"
+    },
+    "successor": {
+      "name": "Honda Pilot (fourth generation)",
+      "id": "honda-pilot-4th-gen"
+    },
+    "quick": "The third Pilot, 2016–2022: sleeker, lighter and much quicker, with a 280-hp V6, torque-vectoring all-wheel drive and, at the top, a 9-speed automatic.",
+    "story": [
+      "It debuted at the 2015 Chicago show and went on sale that June as a 2016 model, rounder than the boxy car before it and nearly 136 kg (300 lb) lighter in its upper trims. The direct-injected V6 made 280 hp. The LX, EX and EX-L used a 6-speed automatic, the Touring and new Elite a 9-speed, and all-wheel-drive models got i-VTM4, which can send more torque to the outside rear wheel in a turn. Car and Driver ran a 2017 Elite to 60 mph in 6 seconds.",
+      "The 2019 refresh made Honda Sensing standard and added CabinTalk; the 9-speed went into every Pilot for 2021, and a TrailSport appeared for 2022. Early 9-speeds got software updates for rough shifts, and recalls include the hood latch striker (21V932), connecting rod bearings on some 2016 and 2018–2019 engines (23V751) and rear subframe corrosion in salt-belt states (26V365)."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Honda"
+    },
+    "match": [
+      "Honda Pilot"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/honda-pilot/",
+      "title": "The Honda Pilot Buyer's Guide",
+      "blurb": "Both generations since 2017, which trim and drivetrain to buy, towing, and the used checklist with the recalls to check, in 4 chapters."
+    }
+  },
+  {
+    "id": "honda-pilot-4th-gen",
+    "name": "Honda Pilot (fourth generation)",
+    "aka": [
+      "2023–2026 Pilot",
+      "Pilot TrailSport",
+      "Pilot Elite",
+      "Pilot Touring",
+      "Pilot Black Edition",
+      "YG1",
+      "YG2"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "2023–present",
+    "start": 2023,
+    "end": null,
+    "shop": {
+      "cargurus": "d594"
+    },
+    "body": "Midsize SUV",
+    "engine": "3.5-liter V6",
+    "drive": "Front-wheel drive or i-VTM4 torque-vectoring all-wheel drive",
+    "gearbox": "10-speed automatic",
+    "specsFor": "2023 Honda Pilot TrailSport, all-wheel drive, US market (Car and Driver test)",
+    "power": {
+      "hp": 285,
+      "note": "DOHC 3.5-liter V6, 262 lb-ft",
+      "src": "https://hondanews.com/en-US/honda-automobiles/releases/release-4e58b4e0fcd795affa5685a66a252ccf-2023-honda-pilot-press-kit"
+    },
+    "weight": {
+      "kg": 2125,
+      "lb": 4685,
+      "note": "Curb weight, 2023 TrailSport",
+      "src": "https://www.0-60specs.com/honda/pilot-0-60-times"
+    },
+    "zero60": {
+      "sec": 6.9,
+      "kind": "tested",
+      "note": "Car and Driver test, 2023 TrailSport",
+      "src": "https://www.0-60specs.com/honda/pilot-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 20,
+      "city": 18,
+      "hwy": 23,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/46424.shtml",
+      "note": "EPA combined, 2023 TrailSport (front-drive Sport, EX-L and Touring: 22)"
+    },
+    "built": {
+      "count": 478144,
+      "approx": true,
+      "note": "Sold in the US so far, 2023 to October 2026",
+      "src": "https://www.goodcarbadcar.net/honda-pilot-sales-figures/"
+    },
+    "predecessor": {
+      "name": "Honda Pilot (third generation)",
+      "id": "honda-pilot-3rd-gen"
+    },
+    "successor": null,
+    "quick": "The fourth Pilot, 2023 on: the biggest Honda SUV yet, with a new 285-hp V6, a 10-speed automatic, an off-road TrailSport and a second-row middle seat that stows under the cargo floor.",
+    "story": [
+      "It debuted on November 7, 2022, and went on sale that December, 3.4 inches longer than before on a new light-truck platform, still built only in Lincoln, Alabama. A new twin-cam 3.5-liter V6 makes 285 hp with a 10-speed automatic, and the second-generation i-VTM4 all-wheel drive takes 40% more torque at the rear. On the Touring and Elite, the second-row middle seat lifts out and stores under the cargo floor.",
+      "The TrailSport rides 1 inch higher, with 8.3 inches of ground clearance, steel skid plates and all-terrain tires, the first on a Honda SUV. Car and Driver ran one to 60 mph in 6.9 seconds. A 2026 refresh brought a new nose, a 12.3-inch touchscreen on every trim and more sound insulation."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Honda"
+    },
+    "match": [
+      "Honda Pilot"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/honda-pilot/",
+      "title": "The Honda Pilot Buyer's Guide",
+      "blurb": "Both generations since 2017, which trim and drivetrain to buy, towing, and the used checklist with the recalls to check, in 4 chapters."
+    }
+  },
+  {
     "id": "honda-prelude-1st-gen",
     "name": "Honda Prelude (first generation)",
     "aka": [
@@ -23329,6 +24496,246 @@ const CARS = [
       "url": "/fitdrive/guides/honda-prelude/",
       "title": "The Honda Prelude Buyer's Guide",
       "blurb": "The 2026 hybrid coupe reviewed, Prelude or Civic, and the buying checklist, in 3 chapters."
+    }
+  },
+  {
+    "id": "honda-ridgeline-1st-gen",
+    "name": "Honda Ridgeline (first generation)",
+    "aka": [
+      "2006–2014 Ridgeline",
+      "Ridgeline RTL",
+      "Ridgeline RTS",
+      "YK1"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "2006–2014",
+    "start": 2006,
+    "end": 2014,
+    "shop": {
+      "cargurus": "d734"
+    },
+    "body": "Midsize pickup",
+    "engine": "3.5-liter V6",
+    "drive": "VTM-4 4-wheel drive",
+    "gearbox": "5-speed automatic",
+    "specsFor": "2006 Honda Ridgeline RTS, US market (Car and Driver test)",
+    "power": {
+      "hp": 255,
+      "note": "3.5-liter SOHC VTEC V6, 252 lb-ft, as launched (247 hp under the revised SAE standard, 250 hp from 2009)",
+      "src": "https://hondanews.com/en-US/releases/release-6b5f4c2fc8de8c77c9c6fc004c34c28f-2006-honda-ridgeline-overview"
+    },
+    "weight": {
+      "kg": 2027,
+      "lb": 4468,
+      "note": "Curb weight, 2006 RTS",
+      "src": "https://www.0-60specs.com/honda/ridgeline-0-60-times"
+    },
+    "zero60": {
+      "sec": 7.9,
+      "kind": "tested",
+      "note": "Car and Driver test, 2006 RTS",
+      "src": "https://www.0-60specs.com/honda/ridgeline-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 17,
+      "city": 15,
+      "hwy": 20,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/22281.shtml",
+      "note": "EPA combined, 2006"
+    },
+    "built": {
+      "count": 298807,
+      "approx": false,
+      "note": "Built in North America, 2004–2014 (Honda production figures)",
+      "src": "https://en.wikipedia.org/wiki/Honda_Ridgeline"
+    },
+    "versions": [
+      {
+        "name": "3.5-liter V6, 2006–2008",
+        "detail": "255 hp as launched, 5-speed automatic"
+      },
+      {
+        "name": "3.5-liter V6, 2009–2014",
+        "detail": "250 hp after the 2009 refresh",
+        "specsFor": "2009 Honda Ridgeline RTL, US market (Motor Trend test)",
+        "power": {
+          "hp": 250,
+          "note": "3.5-liter SOHC VTEC V6, 247 lb-ft",
+          "src": "https://www.0-60specs.com/honda/ridgeline-0-60-times"
+        },
+        "weight": {
+          "kg": 2043,
+          "lb": 4504,
+          "note": "Curb weight, 2009 RTL",
+          "src": "https://www.0-60specs.com/honda/ridgeline-0-60-times"
+        },
+        "zero60": {
+          "sec": 7.7,
+          "kind": "tested",
+          "note": "Motor Trend test, 2009 RTL",
+          "src": "https://www.0-60specs.com/honda/ridgeline-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 17,
+          "city": 16,
+          "hwy": 21,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/32127.shtml",
+          "note": "EPA combined, 2012"
+        }
+      }
+    ],
+    "predecessor": null,
+    "successor": {
+      "name": "Honda Ridgeline (second generation)",
+      "id": "honda-ridgeline-2nd-gen"
+    },
+    "quick": "The first Ridgeline, 2006–2014: a unibody pickup with a V6, 4-wheel drive, a lockable trunk under the bed and a tailgate that also swings open like a door.",
+    "story": [
+      "Honda began work in 2001 with a stretched Acura MDX carrying another maker's pickup bed, and the Ridgeline went on sale in March 2005 as a 2006 model, Unlike every other pickup in America, it had a unibody, a transverse 255-hp V6 and independent suspension at all 4 corners. Its bed hid an 8.5-cubic-foot lockable trunk with a drain plug, and the tailgate either folded down or swung open from the side.",
+      "It could tow 2,268 kg (5,000 lb), carried about 703 kg (1,550 lb), and won North American Truck of the Year and Motor Trend's Truck of the Year for 2006. Car and Driver ran an RTS to 60 mph in 7.9 seconds. Sales faded after 2008, a 2009 refresh raised output to 250 hp, and the last ones were built in early 2015."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Honda"
+    },
+    "match": [
+      "Honda Ridgeline"
+    ]
+  },
+  {
+    "id": "honda-ridgeline-2nd-gen",
+    "name": "Honda Ridgeline (second generation)",
+    "aka": [
+      "2017–2026 Ridgeline",
+      "Ridgeline RTL-E",
+      "Ridgeline Black Edition",
+      "Ridgeline TrailSport",
+      "Ridgeline Sport",
+      "YK2",
+      "YK3"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "2017–present",
+    "start": 2017,
+    "end": null,
+    "shop": {
+      "cargurus": "d734"
+    },
+    "body": "Midsize pickup",
+    "engine": "3.5-liter V6",
+    "drive": "Front-wheel drive or i-VTM4 torque-vectoring all-wheel drive; all-wheel drive standard from 2021",
+    "gearbox": "6-speed automatic (2017–2019); 9-speed automatic from 2020",
+    "specsFor": "2017 Honda Ridgeline RTL-E, all-wheel drive, 6-speed automatic, US market (Car and Driver test)",
+    "power": {
+      "hp": 280,
+      "note": "Direct-injected 3.5-liter V6, 262 lb-ft",
+      "src": "https://hondanews.com/en-US/releases/redesigned-2021-honda-ridgeline-unleashes-new-styling-to-match-its-rugged-and-versatile-truck-capabilities"
+    },
+    "weight": {
+      "kg": 2017,
+      "lb": 4447,
+      "note": "Curb weight, 2017 RTL-E",
+      "src": "https://www.0-60specs.com/honda/ridgeline-0-60-times"
+    },
+    "zero60": {
+      "sec": 6.4,
+      "kind": "tested",
+      "note": "Car and Driver test, 2017 RTL-E",
+      "src": "https://www.0-60specs.com/honda/ridgeline-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 21,
+      "city": 18,
+      "hwy": 25,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/37404.shtml",
+      "note": "EPA combined, 2017, all-wheel drive (front-wheel drive: 22)"
+    },
+    "built": {
+      "count": 425936,
+      "approx": true,
+      "note": "Sold in the US so far, 2016 to October 2026",
+      "src": "https://www.goodcarbadcar.net/honda-ridgeline-sales-figures/"
+    },
+    "versions": [
+      {
+        "name": "3.5-liter V6, 6-speed automatic",
+        "detail": "2017–2019, front- or all-wheel drive"
+      },
+      {
+        "name": "3.5-liter V6, 9-speed automatic",
+        "detail": "2020 on; all-wheel drive standard from 2021",
+        "specsFor": "2021 Honda Ridgeline Sport with HPD package, US market (Car and Driver test)",
+        "power": {
+          "hp": 280,
+          "note": "Direct-injected 3.5-liter V6, 262 lb-ft",
+          "src": "https://hondanews.com/en-US/releases/redesigned-2021-honda-ridgeline-unleashes-new-styling-to-match-its-rugged-and-versatile-truck-capabilities"
+        },
+        "weight": {
+          "kg": 2043,
+          "lb": 4504,
+          "note": "Curb weight, 2021 Sport with HPD package",
+          "src": "https://www.0-60specs.com/honda/ridgeline-0-60-times"
+        },
+        "zero60": {
+          "sec": 6.2,
+          "kind": "tested",
+          "note": "Car and Driver test, 2021 Sport with HPD package",
+          "src": "https://www.0-60specs.com/honda/ridgeline-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 21,
+          "city": 18,
+          "hwy": 24,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/43723.shtml",
+          "note": "EPA combined, 2021"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Honda Ridgeline (first generation)",
+      "id": "honda-ridgeline-1st-gen"
+    },
+    "successor": null,
+    "quick": "The second Ridgeline, 2017 on: a pickup on the Pilot's platform, with a 280-hp V6, a bigger bed, the in-bed trunk, the 2-way tailgate and the first truck-bed audio system.",
+    "story": [
+      "After a year's gap, the second Ridgeline went on sale in June 2016, built in Lincoln, Alabama, on the same light-truck platform as the Pilot, with 73% of its parts shared. The bed grew to 64 inches long and about 5 feet wide, the lockable trunk beneath it holds 7.3 cubic feet, and payload rose to 718 kg (1,584 lb), with 2,268 kg (5,000 lb) of towing on all-wheel-drive trucks. It was North American Truck of the Year for 2017.",
+      "Car and Driver ran a 2017 RTL-E to 60 mph in 6.4 seconds. A 9-speed automatic replaced the 6-speed for 2020, and the 2021 restyle made all-wheel drive standard. A TrailSport arrived for 2024. In July 2026 Honda confirmed a third generation within 2 years and said production of this one would pause."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Honda"
+    },
+    "match": [
+      "Honda Ridgeline"
+    ],
+    "guide": {
+      "url": "/fitdrive/guides/honda-ridgeline/",
+      "title": "The Honda Ridgeline Buyer's Guide",
+      "blurb": "The 2017–2020 truck, the restyled 2021–2026 truck, and the used-truck checklist with the recalls to check, in 3 chapters."
     }
   }
 ];

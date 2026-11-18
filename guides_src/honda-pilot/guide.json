@@ -1,0 +1,282 @@
+{
+ "id": "honda-pilot",
+ "make": "Honda",
+ "model": "Pilot",
+ "years": "2017–2026",
+ "byline": "Bennett Hale",
+ "published": "2026-11-18",
+ "updated": "2026-11-18",
+ "cars": [
+  "honda-pilot-3rd-gen",
+  "honda-pilot-4th-gen"
+ ],
+ "shop": {
+  "cargurus": "d594"
+ },
+ "chapters": [
+  "2017-2022",
+  "2023-2026",
+  "trims-towing",
+  "used-checklist"
+ ],
+ "series": {
+  "v16": {
+   "name": "2016–2022, 6-speed (LX, EX, EX-L)",
+   "color": "#9aa5b1"
+  },
+  "v16n": {
+   "name": "2016–2022, 9-speed (Touring, Elite; all from 2021)",
+   "color": "#9aa5b1"
+  },
+  "v23": {
+   "name": "2023–2026, 10-speed",
+   "color": "#2E6E96"
+  },
+  "f16": {
+   "name": "2017, 6-speed, front-wheel drive",
+   "color": "#9aa5b1"
+  },
+  "f16n": {
+   "name": "2017, 9-speed, front-wheel drive",
+   "color": "#9aa5b1"
+  },
+  "a16n": {
+   "name": "2017, 9-speed, all-wheel drive",
+   "color": "#9aa5b1"
+  },
+  "f23": {
+   "name": "2023–2026, front-wheel drive",
+   "color": "#2E6E96"
+  },
+  "a23": {
+   "name": "2023–2026, all-wheel drive",
+   "color": "#2E6E96"
+  },
+  "t23": {
+   "name": "2023–2026 TrailSport",
+   "color": "#e05c2a"
+  },
+  "p17lx": {
+   "name": "2017 LX",
+   "color": "#9aa5b1"
+  },
+  "p17el": {
+   "name": "2017 Elite",
+   "color": "#9aa5b1"
+  },
+  "p23sp": {
+   "name": "2023 Sport",
+   "color": "#2E6E96"
+  },
+  "p23ts": {
+   "name": "2023 TrailSport",
+   "color": "#e05c2a"
+  },
+  "p23el": {
+   "name": "2023 Elite",
+   "color": "#2E6E96"
+  }
+ },
+ "charts": {
+  "power": {
+   "n": 1,
+   "title": "Horsepower by generation",
+   "sub": "Honda's figures for the 3.5-liter V6.",
+   "source": "Honda press releases",
+   "bars": [
+    [
+     "v16",
+     280,
+     "280 hp"
+    ],
+    [
+     "v16n",
+     280,
+     "280 hp"
+    ],
+    [
+     "v23",
+     285,
+     "285 hp"
+    ]
+   ]
+  },
+  "mpg": {
+   "n": 2,
+   "title": "EPA combined fuel economy",
+   "sub": "Miles per gallon.",
+   "source": "US EPA, fueleconomy.gov",
+   "bars": [
+    [
+     "f16",
+     22,
+     "22 mpg"
+    ],
+    [
+     "f16n",
+     23,
+     "23 mpg"
+    ],
+    [
+     "a16n",
+     22,
+     "22 mpg"
+    ],
+    [
+     "f23",
+     22,
+     "22 mpg"
+    ],
+    [
+     "a23",
+     21,
+     "21 mpg"
+    ],
+    [
+     "t23",
+     20,
+     "20 mpg"
+    ]
+   ]
+  },
+  "price": {
+   "n": 3,
+   "title": "What a new one cost, in 2026 dollars",
+   "sub": "Starting prices before delivery, adjusted with the US consumer price index. The original price is in each label.",
+   "source": "Honda prices; Carveyance CPI arithmetic",
+   "bars": [
+    [
+     "p17lx",
+     42000,
+     "$42,000 · $30,595 then"
+    ],
+    [
+     "p17el",
+     64600,
+     "$64,600 · $47,070 then"
+    ],
+    [
+     "p23sp",
+     43200,
+     "$43,200 · $39,150 then"
+    ],
+    [
+     "p23ts",
+     53400,
+     "$53,400 · $48,350 then"
+    ],
+    [
+     "p23el",
+     57400,
+     "$57,400 · $52,030 then"
+    ]
+   ]
+  }
+ },
+ "photos": {
+  "hub-hero": {
+   "want": "A 2023–2026 Pilot outside",
+   "credit": "Honda",
+   "alt": "A red 2026 Honda Pilot Elite parked on a lakeside road under pine trees"
+  },
+  "ch1-hero": {
+   "want": "A 2017–2022 Pilot",
+   "credit": "Honda",
+   "alt": "A dark blue 2019 Honda Pilot Elite parked at a mountain overlook"
+  },
+  "ch2-hero": {
+   "want": "A 2023–2026 Pilot, ideally a TrailSport",
+   "credit": "Honda",
+   "alt": "A blue 2023 Honda Pilot TrailSport climbing a ledge of red rock"
+  },
+  "ch3-hero": {
+   "want": "A TrailSport off the pavement",
+   "credit": "Honda",
+   "alt": "A green 2026 Honda Pilot TrailSport kicking up dust in a desert canyon"
+  },
+  "ch4-hero": {
+   "want": "The Pilot's second and third rows",
+   "credit": "Honda",
+   "alt": "The brown leather second- and third-row seats of a 2026 Honda Pilot Elite"
+  }
+ },
+ "find": {
+  "picker": [
+   {
+    "model": "Pilot",
+    "years": "2017–2022",
+    "ch": "2017-2022"
+   },
+   {
+    "model": "Pilot",
+    "years": "2023–2026",
+    "ch": "2023-2026"
+   },
+   {
+    "model": "Pilot TrailSport",
+    "years": "2022–2026",
+    "ch": "trims-towing"
+   }
+  ],
+  "terms": {
+   "": [
+    "Pilot",
+    "Honda Pilot",
+    "3-row SUV",
+    "three-row SUV",
+    "8 seats",
+    "family SUV",
+    "midsize SUV"
+   ],
+   "2017-2022": [
+    "third generation",
+    "3rd gen",
+    "YF5",
+    "YF6",
+    "9-speed",
+    "6-speed",
+    "Elite",
+    "Touring",
+    "Black Edition",
+    "Special Edition",
+    "CabinTalk"
+   ],
+   "2023-2026": [
+    "fourth generation",
+    "4th gen",
+    "YG1",
+    "YG2",
+    "10-speed",
+    "285 hp",
+    "removable middle seat",
+    "stowable seat",
+    "2026 refresh"
+   ],
+   "trims-towing": [
+    "TrailSport",
+    "towing",
+    "tow rating",
+    "5,000 lb",
+    "i-VTM4",
+    "AWD",
+    "all-wheel drive",
+    "Sport",
+    "EX-L",
+    "Touring",
+    "Elite",
+    "captain's chairs"
+   ],
+   "used-checklist": [
+    "used",
+    "checklist",
+    "recalls",
+    "timing belt",
+    "hood latch",
+    "connecting rod bearing",
+    "rear subframe",
+    "subframe corrosion",
+    "fuel pump"
+   ]
+  }
+ }
+}

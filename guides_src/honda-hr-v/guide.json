@@ -1,0 +1,207 @@
+{
+ "id": "honda-hr-v",
+ "make": "Honda",
+ "model": "HR-V",
+ "years": "2017–2026",
+ "byline": "Rowan Ashby",
+ "published": "2026-11-18",
+ "updated": "2026-11-18",
+ "cars": [
+  "honda-hr-v-2nd-gen",
+  "honda-hr-v-3rd-gen"
+ ],
+ "shop": {
+  "cargurus": "d1271"
+ },
+ "chapters": [
+  "2017-2022",
+  "2023-2026",
+  "used-checklist"
+ ],
+ "series": {
+  "g2": {
+   "name": "2016–2022, 1.8-liter",
+   "color": "#9aa5b1"
+  },
+  "g3": {
+   "name": "2023–2026, 2.0-liter",
+   "color": "#2E6E96"
+  },
+  "c2u": {
+   "name": "2016–2022, rear seat up",
+   "color": "#9aa5b1"
+  },
+  "c2d": {
+   "name": "2016–2022, rear seat folded",
+   "color": "#9aa5b1"
+  },
+  "c3u": {
+   "name": "2023–2026, rear seat up",
+   "color": "#2E6E96"
+  },
+  "c3d": {
+   "name": "2023–2026, rear seat folded",
+   "color": "#2E6E96"
+  },
+  "p17": {
+   "name": "2017 LX, manual",
+   "color": "#9aa5b1"
+  },
+  "p23": {
+   "name": "2023 LX",
+   "color": "#2E6E96"
+  },
+  "p23x": {
+   "name": "2023 EX-L",
+   "color": "#2E6E96"
+  }
+ },
+ "charts": {
+  "power": {
+   "n": 1,
+   "title": "Horsepower",
+   "sub": "Honda's figures.",
+   "source": "Honda press releases",
+   "bars": [
+    [
+     "g2",
+     141,
+     "141 hp"
+    ],
+    [
+     "g3",
+     158,
+     "158 hp"
+    ]
+   ]
+  },
+  "cargo": {
+   "n": 2,
+   "title": "Cargo space",
+   "sub": "Cubic feet, front-wheel drive. The older car's figure is for the LX.",
+   "source": "Honda; Kelley Blue Book",
+   "bars": [
+    [
+     "c2u",
+     24.3,
+     "24.3 cu ft"
+    ],
+    [
+     "c2d",
+     58.8,
+     "58.8 cu ft"
+    ],
+    [
+     "c3u",
+     24.4,
+     "24.4 cu ft"
+    ],
+    [
+     "c3d",
+     55.1,
+     "55.1 cu ft"
+    ]
+   ]
+  },
+  "price": {
+   "n": 3,
+   "title": "What a new one cost, in 2026 dollars",
+   "sub": "Starting prices before delivery, adjusted with the US consumer price index. The original price is in each label.",
+   "source": "Honda prices; Carveyance CPI arithmetic",
+   "bars": [
+    [
+     "p17",
+     26600,
+     "$26,600 · $19,365 then"
+    ],
+    [
+     "p23",
+     26100,
+     "$26,100 · $23,650 then"
+    ],
+    [
+     "p23x",
+     30300,
+     "$30,300 · $27,450 then"
+    ]
+   ]
+  }
+ },
+ "photos": {
+  "hub-hero": {
+   "want": "A 2023–2026 HR-V outside",
+   "credit": "Honda",
+   "alt": "A blue 2026 Honda HR-V Sport parked on a city street at dusk, beside a brick building"
+  },
+  "ch1-hero": {
+   "want": "A 2016–2022 HR-V",
+   "credit": "Honda",
+   "alt": "A silver 2019 Honda HR-V Touring driving on a coastal highway"
+  },
+  "ch2-hero": {
+   "want": "A 2023–2026 HR-V",
+   "credit": "Honda",
+   "alt": "A gray-blue 2024 Honda HR-V EX-L parked outside a brick townhouse with flower boxes"
+  },
+  "ch3-hero": {
+   "want": "The Magic Seat in use",
+   "credit": "Honda",
+   "alt": "A tall potted plant standing in the rear footwell of a Honda HR-V, with the rear seat cushion flipped up"
+  }
+ },
+ "find": {
+  "picker": [
+   {
+    "model": "HR-V",
+    "years": "2016–2022",
+    "ch": "2017-2022"
+   },
+   {
+    "model": "HR-V",
+    "years": "2023–2026",
+    "ch": "2023-2026"
+   }
+  ],
+  "terms": {
+   "": [
+    "HR-V",
+    "Honda HR-V",
+    "HRV",
+    "small SUV",
+    "subcompact SUV",
+    "crossover"
+   ],
+   "2017-2022": [
+    "second generation",
+    "2nd gen",
+    "Magic Seat",
+    "1.8-liter",
+    "manual",
+    "6-speed manual",
+    "Sport",
+    "Touring",
+    "EX-L",
+    "2019 refresh",
+    "Fit"
+   ],
+   "2023-2026": [
+    "third generation",
+    "3rd gen",
+    "2.0-liter",
+    "158 hp",
+    "Civic platform",
+    "ZR-V",
+    "independent rear suspension"
+   ],
+   "used-checklist": [
+    "used",
+    "checklist",
+    "recalls",
+    "steering recall",
+    "rearview camera",
+    "brake caliper",
+    "CVT"
+   ]
+  }
+ }
+}

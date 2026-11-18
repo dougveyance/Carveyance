@@ -1,0 +1,238 @@
+{
+ "id": "honda-odyssey",
+ "make": "Honda",
+ "model": "Odyssey",
+ "years": "2017–2026",
+ "byline": "Celia Marchetti",
+ "published": "2026-11-18",
+ "updated": "2026-11-18",
+ "cars": [
+  "honda-odyssey-4th-gen",
+  "honda-odyssey-5th-gen"
+ ],
+ "shop": {
+  "cargurus": "d592"
+ },
+ "chapters": [
+  "2017",
+  "2018-2026",
+  "used-checklist"
+ ],
+ "series": {
+  "v17": {
+   "name": "2017, 6-speed",
+   "color": "#9aa5b1"
+  },
+  "v18n": {
+   "name": "2018–2019, 9-speed (LX to EX-L)",
+   "color": "#2E6E96"
+  },
+  "v18t": {
+   "name": "2018–2026, 10-speed",
+   "color": "#2E6E96"
+  },
+  "z11": {
+   "name": "2011 Touring Elite",
+   "color": "#9aa5b1"
+  },
+  "z15": {
+   "name": "2015 Touring Elite",
+   "color": "#9aa5b1"
+  },
+  "z18": {
+   "name": "2018 Elite",
+   "color": "#2E6E96"
+  },
+  "z18x": {
+   "name": "2018 EX-L (9-speed)",
+   "color": "#2E6E96"
+  },
+  "z25": {
+   "name": "2025 Elite",
+   "color": "#e05c2a"
+  },
+  "p17lx": {
+   "name": "2017 LX",
+   "color": "#9aa5b1"
+  },
+  "p17te": {
+   "name": "2017 Touring Elite",
+   "color": "#9aa5b1"
+  },
+  "p18lx": {
+   "name": "2018 LX",
+   "color": "#2E6E96"
+  },
+  "p18el": {
+   "name": "2018 Elite",
+   "color": "#2E6E96"
+  }
+ },
+ "charts": {
+  "power": {
+   "n": 1,
+   "title": "Horsepower",
+   "sub": "Honda's figures for the 3.5-liter V6.",
+   "source": "Honda press releases",
+   "bars": [
+    [
+     "v17",
+     248,
+     "248 hp"
+    ],
+    [
+     "v18n",
+     280,
+     "280 hp"
+    ],
+    [
+     "v18t",
+     280,
+     "280 hp"
+    ]
+   ]
+  },
+  "accel": {
+   "n": 2,
+   "title": "0–60 mph, as tested",
+   "sub": "Seconds; shorter is quicker.",
+   "source": "Car and Driver tests, via 0-60specs",
+   "bars": [
+    [
+     "z11",
+     7.3,
+     "7.3 sec"
+    ],
+    [
+     "z15",
+     7.7,
+     "7.7 sec"
+    ],
+    [
+     "z18x",
+     6.7,
+     "6.7 sec"
+    ],
+    [
+     "z18",
+     6.6,
+     "6.6 sec"
+    ],
+    [
+     "z25",
+     6.4,
+     "6.4 sec"
+    ]
+   ]
+  },
+  "price": {
+   "n": 3,
+   "title": "What a new one cost, in 2026 dollars",
+   "sub": "Starting prices before delivery, adjusted with the US consumer price index. The original price is in each label.",
+   "source": "Honda prices; Carveyance CPI arithmetic",
+   "bars": [
+    [
+     "p17lx",
+     41000,
+     "$41,000 · $29,850 then"
+    ],
+    [
+     "p17te",
+     62200,
+     "$62,200 · $45,325 then"
+    ],
+    [
+     "p18lx",
+     40200,
+     "$40,200 · $29,990 then"
+    ],
+    [
+     "p18el",
+     62500,
+     "$62,500 · $46,670 then"
+    ]
+   ]
+  }
+ },
+ "photos": {
+  "hub-hero": {
+   "want": "A 2025–2026 Odyssey outside",
+   "credit": "Honda",
+   "alt": "A dark gray 2025 Honda Odyssey parked on a driveway among oak trees"
+  },
+  "ch1-hero": {
+   "want": "A 2014–2017 Odyssey",
+   "credit": "Honda",
+   "alt": "A silver Honda Odyssey of the 2014–2017 style driving on a hillside road"
+  },
+  "ch2-hero": {
+   "want": "A 2018–2026 Odyssey driving",
+   "credit": "Honda",
+   "alt": "A dark red 2018 Honda Odyssey driving on a 2-lane road through dry grass"
+  },
+  "ch3-hero": {
+   "want": "The Odyssey's second-row seats",
+   "credit": "Honda",
+   "alt": "The beige leather second-row Magic Slide seats of a 2018 Honda Odyssey, seen through the open sliding door"
+  }
+ },
+ "find": {
+  "picker": [
+   {
+    "model": "Odyssey",
+    "years": "2017",
+    "ch": "2017"
+   },
+   {
+    "model": "Odyssey",
+    "years": "2018–2026",
+    "ch": "2018-2026"
+   }
+  ],
+  "terms": {
+   "": [
+    "Odyssey",
+    "Honda Odyssey",
+    "minivan",
+    "van",
+    "8 seats",
+    "family van"
+   ],
+   "2017": [
+    "fourth generation",
+    "4th gen",
+    "RL5",
+    "Touring Elite",
+    "SE",
+    "HondaVAC",
+    "vacuum",
+    "cool box",
+    "6-speed"
+   ],
+   "2018-2026": [
+    "fifth generation",
+    "5th gen",
+    "RL6",
+    "Magic Slide",
+    "CabinWatch",
+    "CabinTalk",
+    "10-speed",
+    "9-speed",
+    "Elite",
+    "Sport-L",
+    "2025 refresh"
+   ],
+   "used-checklist": [
+    "used",
+    "checklist",
+    "recalls",
+    "sliding door",
+    "door latch",
+    "timing belt",
+    "second-row seat",
+    "air bag recall",
+    "connecting rod bearing"
+   ]
+  }
+ }
+}

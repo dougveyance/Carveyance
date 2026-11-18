@@ -4490,7 +4490,7 @@ const CARS = [
       "combined": 19.2,
       "unit": "mpg",
       "kind": "estimated",
-      "note": "Combined figure for the 1995–1999 Griffith 500, 23 mpg in imperial gallons (encyCARpedia)",
+      "note": "Estimated. Combined figure for the 1995–1999 Griffith 500, 23 mpg in imperial gallons (encyCARpedia)",
       "src": "https://www.encycarpedia.com/tvr/95-griffith-500-cabrio"
     },
     "built": {
@@ -4531,7 +4531,7 @@ const CARS = [
       "combined": 17.4,
       "unit": "mpg",
       "kind": "estimated",
-      "note": "Combined figure for the Chimaera 450, 13.5 L/100 km (encyCARpedia and auto-data list the same number)",
+      "note": "Estimated. Combined figure for the Chimaera 450, 13.5 L/100 km (encyCARpedia and auto-data list the same number)",
       "src": "https://www.encycarpedia.com/de/tvr/01-chimaera-450-cabrio"
     },
     "built": {
@@ -4605,7 +4605,7 @@ const CARS = [
       "combined": 15.7,
       "unit": "mpg",
       "kind": "estimated",
-      "note": "Combined figure for the Cerbera 4.5, 15 L/100 km (autodata1)",
+      "note": "Estimated. Combined figure for the Cerbera 4.5, 15 L/100 km (autodata1)",
       "src": "https://autodata1.com/en/car/tvr/cerbera/cerbera-45-i-v8-426-hp"
     },
     "built": {
@@ -4753,7 +4753,7 @@ const CARS = [
       "combined": 16.1,
       "unit": "mpg",
       "kind": "estimated",
-      "note": "Combined figure for the 2003 Tamora, 19.3 mpg in imperial gallons (encyCARpedia)",
+      "note": "Estimated. Combined figure for the 2003 Tamora, 19.3 mpg in imperial gallons (encyCARpedia)",
       "src": "https://www.encycarpedia.com/tvr/03-tamora-convertible"
     },
     "built": {
@@ -4826,7 +4826,7 @@ const CARS = [
       "combined": 18.1,
       "unit": "mpg",
       "kind": "estimated",
-      "note": "Combined figure for the Sagaris, 21.7 mpg in imperial gallons (encyCARpedia)",
+      "note": "Estimated. Combined figure for the Sagaris, 21.7 mpg in imperial gallons (encyCARpedia)",
       "src": "https://www.encycarpedia.com/tvr/05-sagaris-coupe"
     },
     "built": {
@@ -6102,7 +6102,7 @@ const CARS = [
       "combined": 18.3,
       "unit": "mpg",
       "kind": "estimated",
-      "note": "Spec-database combined figure (encyCARpedia), Fulvia Rallye 1.6 HF; no period road test figure found",
+      "note": "Estimated. Spec-database combined figure (encyCARpedia), Fulvia Rallye 1.6 HF; no period road test figure found",
       "src": "https://www.encycarpedia.com/us/lancia/69-fulvia-rallye-1-6-hf-coupe"
     },
     "built": {
@@ -7191,7 +7191,7 @@ const CARS = [
     "zero60": {
       "sec": 9.5,
       "kind": "estimated",
-      "note": "CarsGuide figure for the 3.0 V6, 0-100 km/h (62 mph); Ford publishes no claim",
+      "note": "Estimated. CarsGuide figure for the 3.0 V6, 0-100 km/h (62 mph); Ford publishes no claim",
       "src": "https://www.carsguide.com.au/ford/everest/speed"
     },
     "top": null,
@@ -7647,7 +7647,7 @@ const CARS = [
     "zero60": {
       "sec": 14.5,
       "kind": "estimated",
-      "note": "No magazine 0-60 test of the 1985 4Runner is on record; Consumer Guide found even the later V6 4Runner hard-pressed to reach 60 mph in under 13 seconds",
+      "note": "Estimated. No magazine 0-60 test of the 1985 4Runner is on record; Consumer Guide found even the later V6 4Runner hard-pressed to reach 60 mph in under 13 seconds",
       "src": "https://consumerguide.com/used/1990-95-toyota-4runner/"
     },
     "top": {
@@ -7806,7 +7806,7 @@ const CARS = [
         "zero60": {
           "sec": 16.0,
           "kind": "estimated",
-          "note": "No test on record; Consumer Guide found the V6 4Runner hard-pressed to reach 60 mph in under 13 seconds and called the four-cylinder slower still",
+          "note": "Estimated. No test on record; Consumer Guide found the V6 4Runner hard-pressed to reach 60 mph in under 13 seconds and called the four-cylinder slower still",
           "src": "https://consumerguide.com/used/1990-95-toyota-4runner/"
         },
         "top": {
@@ -7923,7 +7923,7 @@ const CARS = [
         "zero60": {
           "sec": 12.5,
           "kind": "estimated",
-          "note": "Spec-database figure, 0-100 km/h (62 mph), 4Runner 2.7 4x4",
+          "note": "Estimated. Spec-database figure, 0-100 km/h (62 mph), 4Runner 2.7 4x4",
           "src": "https://auto-data.net/en/toyota-4runner-iii-2.7-16v-150hp-4x4-3111"
         },
         "top": {
@@ -8040,7 +8040,7 @@ const CARS = [
         "zero60": {
           "sec": 8.6,
           "kind": "estimated",
-          "note": "MotorMatchup's calculated figure, 2003 SR5 V6 4x4; no magazine test of the V6 on record",
+          "note": "Estimated. MotorMatchup's calculated figure, 2003 SR5 V6 4x4; no magazine test of the V6 on record",
           "src": "https://www.motormatchup.com/catalog/Toyota/4Runner/2003/SR5-V6-4X4"
         },
         "top": {
@@ -8306,7 +8306,7 @@ const CARS = [
       "combined": 17.5,
       "unit": "mpg",
       "kind": "estimated",
-      "note": "Combined figure for the 1979 Celica Supra 2.6, 21 mpg in imperial gallons (encyCARpedia)",
+      "note": "Estimated. Combined figure for the 1979 Celica Supra 2.6, 21 mpg in imperial gallons (encyCARpedia)",
       "src": "https://www.encycarpedia.com/toyota/79-celica-supra-2-6-fastback"
     },
     "built": {
@@ -9046,7 +9046,7 @@ const CARS = [
     "zero60": {
       "sec": 12.0,
       "kind": "estimated",
-      "note": "No road test on record; Road & Track timed a 1980 Corolla with a related 1.8-liter T-series four at 12.0 seconds, and the Celica Camry 1800 XT is a little lighter",
+      "note": "Estimated. No road test on record; Road & Track timed a 1980 Corolla with a related 1.8-liter T-series four at 12.0 seconds, and the Celica Camry 1800 XT is a little lighter",
       "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
     },
     "top": {
@@ -10575,7 +10575,7 @@ const CARS = [
         "zero60": {
           "sec": 13.2,
           "kind": "estimated",
-          "note": "No test on record; Car and Driver timed the 1988 Corolla sedan, with 102 hp and 2,350 lb, at 11.3 seconds",
+          "note": "Estimated. No test on record; Car and Driver timed the 1988 Corolla sedan, with 102 hp and 2,350 lb, at 11.3 seconds",
           "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
         },
         "top": {
@@ -12454,7 +12454,7 @@ const CARS = [
         "zero60": {
           "sec": 10.1,
           "kind": "estimated",
-          "note": "Spec-sheet figure, Highlander 2.4 all-wheel drive (no magazine tested the 4-cylinder)",
+          "note": "Estimated. Spec-sheet figure, Highlander 2.4 all-wheel drive (no magazine tested the 4-cylinder)",
           "src": "https://www.autoblog.com/best-deal/2007-Toyota-Highlander-Base__4dr_All_Wheel_Drive/"
         },
         "top": {
@@ -12741,7 +12741,7 @@ const CARS = [
         "zero60": {
           "sec": 9.4,
           "kind": "estimated",
-          "note": "MotorMatchup simulation, 2017 Highlander LE 2.7 (no magazine tested the 4-cylinder)",
+          "note": "Estimated. MotorMatchup simulation, 2017 Highlander LE 2.7 (no magazine tested the 4-cylinder)",
           "src": "https://www.motormatchup.com/catalog/Toyota/Highlander/2017/LE-I4-4DR-FWD"
         },
         "mpg": {
@@ -13307,7 +13307,7 @@ const CARS = [
         "zero60": {
           "sec": 10.4,
           "kind": "estimated",
-          "note": "MotorMatchup simulation, 2017 Tacoma SR 4x2 2.7, automatic (no magazine tested the 4-cylinder)",
+          "note": "Estimated. MotorMatchup simulation, 2017 Tacoma SR 4x2 2.7, automatic (no magazine tested the 4-cylinder)",
           "src": "https://www.motormatchup.com/catalog/Toyota/Tacoma/2017/SR-4X2-Double-CAB-127.4-IN.-WB"
         },
         "top": {
@@ -14122,7 +14122,7 @@ const CARS = [
     "zero60": {
       "sec": 15.0,
       "kind": "estimated",
-      "note": "No road test on record; Motor Trend timed a 1975 FJ40 with the later 4.2-liter version of the same F six at 14.0 seconds",
+      "note": "Estimated. No road test on record; Motor Trend timed a 1975 FJ40 with the later 4.2-liter version of the same F six at 14.0 seconds",
       "src": "https://www.0-60specs.com/toyota/land-cruiser-0-60-times"
     },
     "top": {
@@ -14334,7 +14334,7 @@ const CARS = [
     "zero60": {
       "sec": 16.0,
       "kind": "estimated",
-      "note": "No FJ55 test on record; Motor Trend timed a 1975 FJ40 with the same 4.2-liter 2F six at 14.0 seconds, and the wagon is about 330 kg (728 lb) heavier",
+      "note": "Estimated. No FJ55 test on record; Motor Trend timed a 1975 FJ40 with the same 4.2-liter 2F six at 14.0 seconds, and the wagon is about 330 kg (728 lb) heavier",
       "src": "https://www.0-60specs.com/toyota/land-cruiser-0-60-times"
     },
     "top": {
@@ -14452,7 +14452,7 @@ const CARS = [
         "zero60": {
           "sec": 15.0,
           "kind": "estimated",
-          "note": "No FJ60 test on record; Motor Trend timed a 1975 Land Cruiser with the same 2F six at 14.0 seconds at 4,200 lb",
+          "note": "Estimated. No FJ60 test on record; Motor Trend timed a 1975 Land Cruiser with the same 2F six at 14.0 seconds at 4,200 lb",
           "src": "https://www.0-60specs.com/toyota/land-cruiser-0-60-times"
         },
         "top": {
@@ -17291,7 +17291,7 @@ const CARS = [
     "zero60": {
       "sec": 18.5,
       "kind": "estimated",
-      "note": "No road test on record; Carveyance estimate, scaled by power-to-weight from Road & Track's 14.1-second test of the 1972 US Crown 2600",
+      "note": "Estimated. No road test on record; scaled by power-to-weight from Road & Track's 14.1-second test of the 1972 US Crown 2600",
       "src": "https://www.curbsideclassic.com/vintage-reviews/vintage-rt-review-1972-toyota-crown-2600-s60-theres-some-very-good-reasons-the-crown-failed-in-the-us/"
     },
     "top": {
@@ -17363,7 +17363,7 @@ const CARS = [
     "zero60": {
       "sec": 16.5,
       "kind": "estimated",
-      "note": "No road test on record; Carveyance estimate, scaled by power-to-weight from Road & Track's 14.1-second test of the 1972 US Crown 2600",
+      "note": "Estimated. No road test on record; scaled by power-to-weight from Road & Track's 14.1-second test of the 1972 US Crown 2600",
       "src": "https://www.curbsideclassic.com/vintage-reviews/vintage-rt-review-1972-toyota-crown-2600-s60-theres-some-very-good-reasons-the-crown-failed-in-the-us/"
     },
     "top": {
@@ -17508,7 +17508,7 @@ const CARS = [
     "zero60": {
       "sec": 14.5,
       "kind": "estimated",
-      "note": "Same 2.6-liter 4M six as the US Crown 2600 that Road & Track timed at 14.1 seconds in 1972; the fifth generation is about 40 kg heavier",
+      "note": "Estimated. Same 2.6-liter 4M six as the US Crown 2600 that Road & Track timed at 14.1 seconds in 1972; the fifth generation is about 40 kg heavier",
       "src": "https://www.curbsideclassic.com/vintage-reviews/vintage-rt-review-1972-toyota-crown-2600-s60-theres-some-very-good-reasons-the-crown-failed-in-the-us/"
     },
     "top": {
@@ -17652,7 +17652,7 @@ const CARS = [
     "zero60": {
       "sec": 9.2,
       "kind": "estimated",
-      "note": "Car and Driver timed the 1983 Cressida, which used the same 2.8-liter twin-cam 5M-GE six, at 8.7 seconds; the Crown is about 75 kg (165 lb) heavier",
+      "note": "Estimated. Car and Driver timed the 1983 Cressida, which used the same 2.8-liter twin-cam 5M-GE six, at 8.7 seconds; the Crown is about 75 kg (165 lb) heavier",
       "src": "https://www.0-60specs.com/toyota/cressida-0-60-times"
     },
     "top": {
@@ -17724,7 +17724,7 @@ const CARS = [
     "zero60": {
       "sec": 8.9,
       "kind": "estimated",
-      "note": "MotorWeek timed the 1989 Cressida, which used the same 3.0-liter 7M-GE six and weighed about the same, at 8.8 seconds",
+      "note": "Estimated. MotorWeek timed the 1989 Cressida, which used the same 3.0-liter 7M-GE six and weighed about the same, at 8.8 seconds",
       "src": "https://www.0-60specs.com/toyota/cressida-0-60-times"
     },
     "top": {
@@ -17795,7 +17795,7 @@ const CARS = [
     "zero60": {
       "sec": 9.3,
       "kind": "estimated",
-      "note": "Motor Trend timed the 1994 Lexus GS 300, which used the same 3.0-liter 2JZ-GE six and weighed about the same, at 9.4 seconds",
+      "note": "Estimated. Motor Trend timed the 1994 Lexus GS 300, which used the same 3.0-liter 2JZ-GE six and weighed about the same, at 9.4 seconds",
       "src": "https://www.0-60specs.com/lexus/gs-300-0-60-times"
     },
     "top": {
@@ -17866,7 +17866,7 @@ const CARS = [
     "zero60": {
       "sec": 8.7,
       "kind": "estimated",
-      "note": "Motor Trend timed the 1994 Lexus GS 300 with the same 2JZ-GE six at 9.4 seconds; this Crown is about 120 kg lighter",
+      "note": "Estimated. Motor Trend timed the 1994 Lexus GS 300 with the same 2JZ-GE six at 9.4 seconds; this Crown is about 120 kg lighter",
       "src": "https://www.0-60specs.com/lexus/gs-300-0-60-times"
     },
     "top": {
@@ -17939,7 +17939,7 @@ const CARS = [
     "zero60": {
       "sec": 7.7,
       "kind": "estimated",
-      "note": "Car and Driver timed the 2003 Lexus GS 300 with a 3.0-liter 2JZ six at 8.0 seconds; this Crown is about 60 kg lighter",
+      "note": "Estimated. Car and Driver timed the 2003 Lexus GS 300 with a 3.0-liter 2JZ six at 8.0 seconds; this Crown is about 60 kg lighter",
       "src": "https://www.0-60specs.com/lexus/gs-300-0-60-times"
     },
     "top": {
@@ -18081,7 +18081,7 @@ const CARS = [
     "zero60": {
       "sec": 7.4,
       "kind": "estimated",
-      "note": "Same 3.0-liter V6 and almost the same weight as the 12th generation, quoted at 7.4 seconds to 62 mph at its launch",
+      "note": "Estimated. Same 3.0-liter V6 and almost the same weight as the 12th generation, quoted at 7.4 seconds to 62 mph at its launch",
       "src": "https://www.webcg.net/articles/-/15340"
     },
     "top": {
@@ -18154,7 +18154,7 @@ const CARS = [
     "zero60": {
       "sec": 8.0,
       "kind": "estimated",
-      "note": "Car and Driver and Motor Trend timed the 2014 Lexus IS 250, which used the same 2.5-liter 4GR-FSE V6, at 7.8 to 7.9 seconds; this Crown is a little heavier",
+      "note": "Estimated. Car and Driver and Motor Trend timed the 2014 Lexus IS 250, which used the same 2.5-liter 4GR-FSE V6, at 7.8 to 7.9 seconds; this Crown is a little heavier",
       "src": "https://www.0-60specs.com/lexus/is-250-0-60-times"
     },
     "top": {
@@ -18225,7 +18225,7 @@ const CARS = [
     "zero60": {
       "sec": 7.3,
       "kind": "estimated",
-      "note": "The 2017 Lexus IS 200t, with the same 2.0-liter turbo four, ran 6.5 seconds for Car and Driver and 7.0 for Motor Trend; this Crown is about 100 kg heavier",
+      "note": "Estimated. The 2017 Lexus IS 200t, with the same 2.0-liter turbo four, ran 6.5 seconds for Car and Driver and 7.0 for Motor Trend; this Crown is about 100 kg heavier",
       "src": "https://www.0-60specs.com/lexus/is-200t-0-60-times"
     },
     "top": {
@@ -18755,7 +18755,7 @@ const CARS = [
     "zero60": {
       "sec": 12.5,
       "kind": "estimated",
-      "note": "No US test on record; the 100 PS European Accord 1.8 EX is listed at 11.1 seconds (encyCARpedia), and the 86-hp US car is slower",
+      "note": "Estimated. No US test on record; the 100 PS European Accord 1.8 EX is listed at 11.1 seconds (encyCARpedia), and the 86-hp US car is slower",
       "src": "https://www.encycarpedia.com/honda/84-accord-1-8-ex-exe-sedan"
     },
     "top": {
@@ -21805,7 +21805,7 @@ const CARS = [
     "zero60": {
       "sec": 6.3,
       "kind": "estimated",
-      "note": "LapMeta's figure; Honda published none, and the heavier European FN2 was quoted at 6.6 seconds to 62 mph",
+      "note": "Estimated. LapMeta's figure; Honda published none, and the heavier European FN2 was quoted at 6.6 seconds to 62 mph",
       "src": "https://direct.lapmeta.com/en/model/646/honda-civic-type-r-fd2"
     },
     "top": {
@@ -22949,7 +22949,7 @@ const CARS = [
         "zero60": {
           "sec": 9.2,
           "kind": "estimated",
-          "note": "Eighties Cars puts the 1986 Prelude Si at a little over 9 seconds, about half a second quicker than the base car",
+          "note": "Estimated. Eighties Cars puts the 1986 Prelude Si at a little over 9 seconds, about half a second quicker than the base car",
           "src": "https://eightiescars.com/2022/02/13/1986-honda-prelude-si-coupe/"
         },
         "top": {

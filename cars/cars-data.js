@@ -3959,7 +3959,7 @@ const CARS_INDEX = [
    "hwy": null,
    "unit": "mpg",
    "kind": "estimated",
-   "note": "Combined figure for the 1995–1999 Griffith 500, 23 mpg in imperial gallons (encyCARpedia)"
+   "note": "Estimated. Combined figure for the 1995–1999 Griffith 500, 23 mpg in imperial gallons (encyCARpedia)"
   },
   "built": {
    "count": 2600,
@@ -4035,7 +4035,7 @@ const CARS_INDEX = [
    "hwy": null,
    "unit": "mpg",
    "kind": "estimated",
-   "note": "Combined figure for the Chimaera 450, 13.5 L/100 km (encyCARpedia and auto-data list the same number)"
+   "note": "Estimated. Combined figure for the Chimaera 450, 13.5 L/100 km (encyCARpedia and auto-data list the same number)"
   },
   "built": {
    "count": 6000,
@@ -4114,7 +4114,7 @@ const CARS_INDEX = [
    "hwy": null,
    "unit": "mpg",
    "kind": "estimated",
-   "note": "Combined figure for the Cerbera 4.5, 15 L/100 km (autodata1)"
+   "note": "Estimated. Combined figure for the Cerbera 4.5, 15 L/100 km (autodata1)"
   },
   "built": {
    "count": 1490,
@@ -4276,7 +4276,7 @@ const CARS_INDEX = [
    "hwy": null,
    "unit": "mpg",
    "kind": "estimated",
-   "note": "Combined figure for the 2003 Tamora, 19.3 mpg in imperial gallons (encyCARpedia)"
+   "note": "Estimated. Combined figure for the 2003 Tamora, 19.3 mpg in imperial gallons (encyCARpedia)"
   },
   "built": {
    "count": 356,
@@ -4357,7 +4357,7 @@ const CARS_INDEX = [
    "hwy": null,
    "unit": "mpg",
    "kind": "estimated",
-   "note": "Combined figure for the Sagaris, 21.7 mpg in imperial gallons (encyCARpedia)"
+   "note": "Estimated. Combined figure for the Sagaris, 21.7 mpg in imperial gallons (encyCARpedia)"
   },
   "built": {
    "count": 211,
@@ -5538,7 +5538,7 @@ const CARS_INDEX = [
    "hwy": null,
    "unit": "mpg",
    "kind": "estimated",
-   "note": "Spec-database combined figure (encyCARpedia), Fulvia Rallye 1.6 HF; no period road test figure found"
+   "note": "Estimated. Spec-database combined figure (encyCARpedia), Fulvia Rallye 1.6 HF; no period road test figure found"
   },
   "built": {
    "count": 1258,
@@ -6330,7 +6330,7 @@ const CARS_INDEX = [
   "z60": {
    "sec": 9.5,
    "kind": "estimated",
-   "note": "CarsGuide figure for the 3.0 V6, 0-100 km/h (62 mph); Ford publishes no claim"
+   "note": "Estimated. CarsGuide figure for the 3.0 V6, 0-100 km/h (62 mph); Ford publishes no claim"
   },
   "top": null,
   "mpg": {
@@ -6729,7 +6729,7 @@ const CARS_INDEX = [
   "z60": {
    "sec": 14.5,
    "kind": "estimated",
-   "note": "No magazine 0-60 test of the 1985 4Runner is on record; Consumer Guide found even the later V6 4Runner hard-pressed to reach 60 mph in under 13 seconds"
+   "note": "Estimated. No magazine 0-60 test of the 1985 4Runner is on record; Consumer Guide found even the later V6 4Runner hard-pressed to reach 60 mph in under 13 seconds"
   },
   "top": null,
   "mpg": {
@@ -7145,7 +7145,7 @@ const CARS_INDEX = [
    "hwy": null,
    "unit": "mpg",
    "kind": "estimated",
-   "note": "Combined figure for the 1979 Celica Supra 2.6, 21 mpg in imperial gallons (encyCARpedia)"
+   "note": "Estimated. Combined figure for the 1979 Celica Supra 2.6, 21 mpg in imperial gallons (encyCARpedia)"
   },
   "built": {
    "count": 63895,
@@ -7744,7 +7744,7 @@ const CARS_INDEX = [
   "z60": {
    "sec": 12.0,
    "kind": "estimated",
-   "note": "No road test on record; Road & Track timed a 1980 Corolla with a related 1.8-liter T-series four at 12.0 seconds, and the Celica Camry 1800 XT is a little lighter"
+   "note": "Estimated. No road test on record; Road & Track timed a 1980 Corolla with a related 1.8-liter T-series four at 12.0 seconds, and the Celica Camry 1800 XT is a little lighter"
   },
   "top": null,
   "mpg": {
@@ -11015,7 +11015,7 @@ const CARS_INDEX = [
   "z60": {
    "sec": 15.0,
    "kind": "estimated",
-   "note": "No road test on record; Motor Trend timed a 1975 FJ40 with the later 4.2-liter version of the same F six at 14.0 seconds"
+   "note": "Estimated. No road test on record; Motor Trend timed a 1975 FJ40 with the later 4.2-liter version of the same F six at 14.0 seconds"
   },
   "top": null,
   "mpg": {
@@ -11211,7 +11211,7 @@ const CARS_INDEX = [
   "z60": {
    "sec": 16.0,
    "kind": "estimated",
-   "note": "No FJ55 test on record; Motor Trend timed a 1975 FJ40 with the same 4.2-liter 2F six at 14.0 seconds, and the wagon is about 330 kg (728 lb) heavier"
+   "note": "Estimated. No FJ55 test on record; Motor Trend timed a 1975 FJ40 with the same 4.2-liter 2F six at 14.0 seconds, and the wagon is about 330 kg (728 lb) heavier"
   },
   "top": null,
   "mpg": {
@@ -13557,7 +13557,7 @@ const CARS_INDEX = [
   "z60": {
    "sec": 18.5,
    "kind": "estimated",
-   "note": "No road test on record; Carveyance estimate, scaled by power-to-weight from Road & Track's 14.1-second test of the 1972 US Crown 2600"
+   "note": "Estimated. No road test on record; scaled by power-to-weight from Road & Track's 14.1-second test of the 1972 US Crown 2600"
   },
   "top": null,
   "mpg": {
@@ -13617,7 +13617,7 @@ const CARS_INDEX = [
   "z60": {
    "sec": 16.5,
    "kind": "estimated",
-   "note": "No road test on record; Carveyance estimate, scaled by power-to-weight from Road & Track's 14.1-second test of the 1972 US Crown 2600"
+   "note": "Estimated. No road test on record; scaled by power-to-weight from Road & Track's 14.1-second test of the 1972 US Crown 2600"
   },
   "top": null,
   "mpg": {
@@ -13738,7 +13738,7 @@ const CARS_INDEX = [
   "z60": {
    "sec": 14.5,
    "kind": "estimated",
-   "note": "Same 2.6-liter 4M six as the US Crown 2600 that Road & Track timed at 14.1 seconds in 1972; the fifth generation is about 40 kg heavier"
+   "note": "Estimated. Same 2.6-liter 4M six as the US Crown 2600 that Road & Track timed at 14.1 seconds in 1972; the fifth generation is about 40 kg heavier"
   },
   "top": null,
   "mpg": {
@@ -13858,7 +13858,7 @@ const CARS_INDEX = [
   "z60": {
    "sec": 9.2,
    "kind": "estimated",
-   "note": "Car and Driver timed the 1983 Cressida, which used the same 2.8-liter twin-cam 5M-GE six, at 8.7 seconds; the Crown is about 75 kg (165 lb) heavier"
+   "note": "Estimated. Car and Driver timed the 1983 Cressida, which used the same 2.8-liter twin-cam 5M-GE six, at 8.7 seconds; the Crown is about 75 kg (165 lb) heavier"
   },
   "top": null,
   "mpg": {
@@ -13918,7 +13918,7 @@ const CARS_INDEX = [
   "z60": {
    "sec": 8.9,
    "kind": "estimated",
-   "note": "MotorWeek timed the 1989 Cressida, which used the same 3.0-liter 7M-GE six and weighed about the same, at 8.8 seconds"
+   "note": "Estimated. MotorWeek timed the 1989 Cressida, which used the same 3.0-liter 7M-GE six and weighed about the same, at 8.8 seconds"
   },
   "top": null,
   "mpg": {
@@ -13977,7 +13977,7 @@ const CARS_INDEX = [
   "z60": {
    "sec": 9.3,
    "kind": "estimated",
-   "note": "Motor Trend timed the 1994 Lexus GS 300, which used the same 3.0-liter 2JZ-GE six and weighed about the same, at 9.4 seconds"
+   "note": "Estimated. Motor Trend timed the 1994 Lexus GS 300, which used the same 3.0-liter 2JZ-GE six and weighed about the same, at 9.4 seconds"
   },
   "top": null,
   "mpg": {
@@ -14036,7 +14036,7 @@ const CARS_INDEX = [
   "z60": {
    "sec": 8.7,
    "kind": "estimated",
-   "note": "Motor Trend timed the 1994 Lexus GS 300 with the same 2JZ-GE six at 9.4 seconds; this Crown is about 120 kg lighter"
+   "note": "Estimated. Motor Trend timed the 1994 Lexus GS 300 with the same 2JZ-GE six at 9.4 seconds; this Crown is about 120 kg lighter"
   },
   "top": null,
   "mpg": {
@@ -14097,7 +14097,7 @@ const CARS_INDEX = [
   "z60": {
    "sec": 7.7,
    "kind": "estimated",
-   "note": "Car and Driver timed the 2003 Lexus GS 300 with a 3.0-liter 2JZ six at 8.0 seconds; this Crown is about 60 kg lighter"
+   "note": "Estimated. Car and Driver timed the 2003 Lexus GS 300 with a 3.0-liter 2JZ six at 8.0 seconds; this Crown is about 60 kg lighter"
   },
   "top": null,
   "mpg": {
@@ -14214,7 +14214,7 @@ const CARS_INDEX = [
   "z60": {
    "sec": 7.4,
    "kind": "estimated",
-   "note": "Same 3.0-liter V6 and almost the same weight as the 12th generation, quoted at 7.4 seconds to 62 mph at its launch"
+   "note": "Estimated. Same 3.0-liter V6 and almost the same weight as the 12th generation, quoted at 7.4 seconds to 62 mph at its launch"
   },
   "top": null,
   "mpg": {
@@ -14275,7 +14275,7 @@ const CARS_INDEX = [
   "z60": {
    "sec": 8.0,
    "kind": "estimated",
-   "note": "Car and Driver and Motor Trend timed the 2014 Lexus IS 250, which used the same 2.5-liter 4GR-FSE V6, at 7.8 to 7.9 seconds; this Crown is a little heavier"
+   "note": "Estimated. Car and Driver and Motor Trend timed the 2014 Lexus IS 250, which used the same 2.5-liter 4GR-FSE V6, at 7.8 to 7.9 seconds; this Crown is a little heavier"
   },
   "top": null,
   "mpg": {
@@ -14334,7 +14334,7 @@ const CARS_INDEX = [
   "z60": {
    "sec": 7.3,
    "kind": "estimated",
-   "note": "The 2017 Lexus IS 200t, with the same 2.0-liter turbo four, ran 6.5 seconds for Car and Driver and 7.0 for Motor Trend; this Crown is about 100 kg heavier"
+   "note": "Estimated. The 2017 Lexus IS 200t, with the same 2.0-liter turbo four, ran 6.5 seconds for Car and Driver and 7.0 for Motor Trend; this Crown is about 100 kg heavier"
   },
   "top": null,
   "mpg": {
@@ -14723,7 +14723,7 @@ const CARS_INDEX = [
   "z60": {
    "sec": 12.5,
    "kind": "estimated",
-   "note": "No US test on record; the 100 PS European Accord 1.8 EX is listed at 11.1 seconds (encyCARpedia), and the 86-hp US car is slower"
+   "note": "Estimated. No US test on record; the 100 PS European Accord 1.8 EX is listed at 11.1 seconds (encyCARpedia), and the 86-hp US car is slower"
   },
   "top": null,
   "mpg": {
@@ -16451,7 +16451,7 @@ const CARS_INDEX = [
   "z60": {
    "sec": 6.3,
    "kind": "estimated",
-   "note": "LapMeta's figure; Honda published none, and the heavier European FN2 was quoted at 6.6 seconds to 62 mph"
+   "note": "Estimated. LapMeta's figure; Honda published none, and the heavier European FN2 was quoted at 6.6 seconds to 62 mph"
   },
   "top": null,
   "mpg": {

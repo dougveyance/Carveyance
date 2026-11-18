@@ -1,0 +1,286 @@
+{
+ "id": "honda-clarity",
+ "make": "Honda",
+ "model": "Clarity",
+ "years": "2017–2021",
+ "byline": "Theo Wren",
+ "published": "2026-11-18",
+ "updated": "2026-11-18",
+ "cars": [
+  "honda-clarity"
+ ],
+ "shop": {
+  "cargurus": "d2560"
+ },
+ "chapters": [
+  "plug-in-hybrid",
+  "electric",
+  "fuel-cell",
+  "used-checklist"
+ ],
+ "series": {
+  "rpe": {
+   "name": "Plug-in Hybrid, on electricity",
+   "color": "#2E6E96"
+  },
+  "rel": {
+   "name": "Electric",
+   "color": "#e05c2a"
+  },
+  "rpt": {
+   "name": "Plug-in Hybrid, electricity and gasoline",
+   "color": "#2E6E96"
+  },
+  "rf17": {
+   "name": "Fuel Cell, 2017–2018",
+   "color": "#9aa5b1"
+  },
+  "rf19": {
+   "name": "Fuel Cell, 2019–2021",
+   "color": "#9aa5b1"
+  },
+  "eel": {
+   "name": "Electric",
+   "color": "#e05c2a"
+  },
+  "eph": {
+   "name": "Plug-in Hybrid, on electricity",
+   "color": "#2E6E96"
+  },
+  "efc": {
+   "name": "Fuel Cell",
+   "color": "#9aa5b1"
+  },
+  "lfx": {
+   "name": "FCX Clarity, 2008",
+   "color": "#9aa5b1"
+  },
+  "lfc": {
+   "name": "Clarity Fuel Cell, 2017",
+   "color": "#9aa5b1"
+  },
+  "lel": {
+   "name": "Clarity Electric, 2017",
+   "color": "#e05c2a"
+  },
+  "pph": {
+   "name": "Plug-in Hybrid, 2018",
+   "color": "#2E6E96"
+  },
+  "ppt": {
+   "name": "Plug-in Hybrid Touring, 2018",
+   "color": "#2E6E96"
+  },
+  "pel": {
+   "name": "Electric, 2017 list price (lease only)",
+   "color": "#e05c2a"
+  },
+  "pfc": {
+   "name": "Fuel Cell, 2017 list price (lease only)",
+   "color": "#9aa5b1"
+  }
+ },
+ "charts": {
+  "range": {
+   "n": 1,
+   "title": "EPA driving range",
+   "sub": "Miles, on a full charge or a full tank, when new.",
+   "source": "US EPA, fueleconomy.gov",
+   "bars": [
+    [
+     "rpe",
+     47,
+     "47 mi"
+    ],
+    [
+     "rel",
+     89,
+     "89 mi"
+    ],
+    [
+     "rpt",
+     340,
+     "340 mi"
+    ],
+    [
+     "rf17",
+     366,
+     "366 mi"
+    ],
+    [
+     "rf19",
+     360,
+     "360 mi"
+    ]
+   ]
+  },
+  "mpge": {
+   "n": 2,
+   "title": "EPA combined efficiency",
+   "sub": "Miles per gallon equivalent (MPGe): how far each goes on the energy in 1 gallon of gasoline.",
+   "source": "US EPA, fueleconomy.gov",
+   "bars": [
+    [
+     "eel",
+     114,
+     "114 MPGe"
+    ],
+    [
+     "eph",
+     110,
+     "110 MPGe"
+    ],
+    [
+     "efc",
+     68,
+     "68 MPGe"
+    ]
+   ]
+  },
+  "lease": {
+   "n": 3,
+   "title": "What a 3-year lease cost, in 2026 dollars",
+   "sub": "Amount due at signing plus 36 monthly payments, before taxes and fees, adjusted with the US consumer price index. The original total is in each label.",
+   "source": "Honda lease terms; Carveyance CPI arithmetic",
+   "bars": [
+    [
+     "lfx",
+     33700,
+     "$33,700 · $21,600 then"
+    ],
+    [
+     "lfc",
+     21700,
+     "$21,700 · $15,783 then, with up to $15,000 of hydrogen"
+    ],
+    [
+     "lel",
+     15700,
+     "$15,700 · $11,414 then"
+    ]
+   ]
+  },
+  "price": {
+   "n": 4,
+   "title": "What a new one cost, in 2026 dollars",
+   "sub": "Starting prices before delivery, adjusted with the US consumer price index. The original price is in each label.",
+   "source": "Honda, Edmunds and CarGurus prices; Carveyance CPI arithmetic",
+   "bars": [
+    [
+     "pph",
+     44700,
+     "$44,700 · $33,400 then"
+    ],
+    [
+     "ppt",
+     49000,
+     "$49,000 · $36,600 then"
+    ],
+    [
+     "pel",
+     50200,
+     "$50,200 · $36,620 then"
+    ],
+    [
+     "pfc",
+     80200,
+     "$80,200 · $58,490 then"
+    ]
+   ]
+  }
+ },
+ "photos": {
+  "hub-hero": {
+   "want": "A Clarity",
+   "credit": "Honda",
+   "alt": "A gray 2018 Honda Clarity Plug-In Hybrid parked by a stone wall"
+  },
+  "ch1-hero": {
+   "want": "A Clarity Plug-in Hybrid",
+   "credit": "Honda",
+   "alt": "A 2018 Honda Clarity Plug-In Hybrid driving on a country road"
+  },
+  "ch2-hero": {
+   "want": "A Clarity Electric",
+   "credit": "Honda",
+   "alt": "A blue 2017 Honda Clarity Electric"
+  },
+  "ch3-hero": {
+   "want": "A Clarity Fuel Cell",
+   "credit": "Honda",
+   "alt": "A white Honda Clarity Fuel Cell at a hydrogen fueling station at night"
+  },
+  "ch4-hero": {
+   "want": "A Clarity charging",
+   "credit": "Honda",
+   "alt": "A charging cable plugged into a 2018 Honda Clarity Plug-In Hybrid"
+  }
+ },
+ "find": {
+  "picker": [
+   {
+    "model": "Clarity Plug-in Hybrid",
+    "years": "2018–2021",
+    "ch": "plug-in-hybrid"
+   },
+   {
+    "model": "Clarity Electric",
+    "years": "2017–2019",
+    "ch": "electric"
+   },
+   {
+    "model": "Clarity Fuel Cell",
+    "years": "2017–2021",
+    "ch": "fuel-cell"
+   }
+  ],
+  "terms": {
+   "": [
+    "Clarity",
+    "Honda Clarity",
+    "midsize sedan",
+    "electrified",
+    "zero emission"
+   ],
+   "plug-in-hybrid": [
+    "plug-in hybrid",
+    "PHEV",
+    "47 miles",
+    "electric range",
+    "Touring",
+    "charging",
+    "Level 2"
+   ],
+   "electric": [
+    "Clarity Electric",
+    "EV",
+    "battery electric",
+    "89 miles",
+    "lease",
+    "California",
+    "Oregon"
+   ],
+   "fuel-cell": [
+    "Clarity Fuel Cell",
+    "hydrogen",
+    "fuel cell",
+    "FCEV",
+    "FCV",
+    "366 miles",
+    "hydrogen station",
+    "lease",
+    "FCX Clarity"
+   ],
+   "used-checklist": [
+    "used",
+    "checklist",
+    "recalls",
+    "title",
+    "battery health",
+    "charging test",
+    "fuel pump",
+    "price"
+   ]
+  }
+ }
+}

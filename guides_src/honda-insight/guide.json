@@ -1,0 +1,251 @@
+{
+ "id": "honda-insight",
+ "make": "Honda",
+ "model": "Insight",
+ "years": "2019–2022",
+ "byline": "Diana Chambers",
+ "published": "2026-11-18",
+ "updated": "2026-11-18",
+ "cars": [
+  "honda-insight-3rd-gen"
+ ],
+ "shop": {
+  "cargurus": "d591"
+ },
+ "chapters": [
+  "2019-2022",
+  "used-checklist"
+ ],
+ "series": {
+  "m00": {
+   "name": "2000, manual",
+   "color": "#9aa5b1"
+  },
+  "m01": {
+   "name": "2001–2006, CVT",
+   "color": "#9aa5b1"
+  },
+  "m10": {
+   "name": "2010–2014",
+   "color": "#9aa5b1"
+  },
+  "m19": {
+   "name": "2019–2022 LX and EX",
+   "color": "#2E6E96"
+  },
+  "m19t": {
+   "name": "2019–2022 Touring",
+   "color": "#2E6E96"
+  },
+  "a00": {
+   "name": "2000, manual",
+   "color": "#9aa5b1"
+  },
+  "a02": {
+   "name": "2002, CVT",
+   "color": "#9aa5b1"
+  },
+  "a10": {
+   "name": "2010 EX",
+   "color": "#9aa5b1"
+  },
+  "a19": {
+   "name": "2019 Touring",
+   "color": "#2E6E96"
+  },
+  "p00": {
+   "name": "2000 Insight",
+   "color": "#9aa5b1"
+  },
+  "p10": {
+   "name": "2010 LX",
+   "color": "#9aa5b1"
+  },
+  "p19": {
+   "name": "2019 LX",
+   "color": "#2E6E96"
+  },
+  "p19e": {
+   "name": "2019 EX",
+   "color": "#2E6E96"
+  },
+  "p19t": {
+   "name": "2019 Touring",
+   "color": "#2E6E96"
+  },
+  "p20": {
+   "name": "2020 LX",
+   "color": "#2E6E96"
+  },
+  "p22": {
+   "name": "2022 EX, at launch",
+   "color": "#e05c2a"
+  }
+ },
+ "charts": {
+  "mpg": {
+   "n": 1,
+   "title": "EPA combined fuel economy, 3 generations",
+   "sub": "Miles per gallon.",
+   "source": "US EPA, fueleconomy.gov",
+   "bars": [
+    [
+     "m00",
+     53,
+     "53 mpg"
+    ],
+    [
+     "m01",
+     47,
+     "47 mpg"
+    ],
+    [
+     "m10",
+     41,
+     "41 mpg"
+    ],
+    [
+     "m19",
+     52,
+     "52 mpg"
+    ],
+    [
+     "m19t",
+     48,
+     "48 mpg"
+    ]
+   ]
+  },
+  "accel": {
+   "n": 2,
+   "title": "0–60 mph, as tested, 3 generations",
+   "sub": "Seconds; shorter is quicker.",
+   "source": "Car and Driver tests, via 0-60specs",
+   "bars": [
+    [
+     "a00",
+     10.6,
+     "10.6 sec"
+    ],
+    [
+     "a02",
+     11.1,
+     "11.1 sec"
+    ],
+    [
+     "a10",
+     10.3,
+     "10.3 sec"
+    ],
+    [
+     "a19",
+     7.6,
+     "7.6 sec"
+    ]
+   ]
+  },
+  "price": {
+   "n": 3,
+   "title": "What a new one cost, in 2026 dollars",
+   "sub": "Starting prices before delivery, adjusted with the US consumer price index. The original price is in each label.",
+   "source": "Honda prices; Carveyance CPI arithmetic",
+   "bars": [
+    [
+     "p00",
+     36900,
+     "$36,900 · $18,880 then"
+    ],
+    [
+     "p10",
+     30500,
+     "$30,500 · $19,800 then"
+    ],
+    [
+     "p19",
+     30000,
+     "$30,000 · $22,830 then"
+    ],
+    [
+     "p19e",
+     31600,
+     "$31,600 · $24,060 then"
+    ],
+    [
+     "p19t",
+     36900,
+     "$36,900 · $28,090 then"
+    ],
+    [
+     "p20",
+     29800,
+     "$29,800 · $22,930 then"
+    ],
+    [
+     "p22",
+     29000,
+     "$29,000 · $25,210 then"
+    ]
+   ]
+  }
+ },
+ "photos": {
+  "hub-hero": {
+   "want": "An Insight",
+   "credit": "Honda",
+   "alt": "A silver 2019 Honda Insight parked beside a stone bridge in a city"
+  },
+  "ch1-hero": {
+   "want": "A 2019–2022 Insight",
+   "credit": "Honda",
+   "alt": "A red 2019 Honda Insight Touring in front of city towers"
+  },
+  "ch2-hero": {
+   "want": "An Insight interior",
+   "credit": "Honda",
+   "alt": "The dashboard and front seats of a 2019 Honda Insight"
+  }
+ },
+ "find": {
+  "picker": [
+   {
+    "model": "Insight",
+    "years": "2019–2022",
+    "ch": "2019-2022"
+   }
+  ],
+  "terms": {
+   "": [
+    "Insight",
+    "Honda Insight",
+    "hybrid",
+    "hybrid sedan",
+    "compact sedan",
+    "52 mpg"
+   ],
+   "2019-2022": [
+    "third generation",
+    "3rd gen",
+    "ZE4",
+    "LX",
+    "EX",
+    "Touring",
+    "2-motor hybrid",
+    "Honda Sensing",
+    "Apple CarPlay",
+    "0-60",
+    "discontinued",
+    "Civic Hybrid"
+   ],
+   "used-checklist": [
+    "used",
+    "checklist",
+    "recalls",
+    "DC-DC converter",
+    "20V798",
+    "fuel pump",
+    "hybrid battery",
+    "price"
+   ]
+  }
+ }
+}

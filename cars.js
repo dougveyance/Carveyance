@@ -1405,6 +1405,13 @@ const CARS = [
       "note": "Estimate",
       "src": "article:the-rotary-club"
     },
+    "mpg": {
+      "combined": 14.3,
+      "unit": "mpg",
+      "kind": "official",
+      "note": "Official Japanese 10-15 mode catalog figure, 20B three-rotor, 6.1 km/L",
+      "src": "https://ja.wikipedia.org/wiki/ユーノス・コスモ"
+    },
     "built": {
       "count": 8875,
       "approx": false,
@@ -1476,6 +1483,13 @@ const CARS = [
       "kind": "claimed",
       "note": "Maker's claim",
       "src": "https://www.mazda.com/en/about/history/greatcar/cosmo-sport/"
+    },
+    "mpg": {
+      "combined": 19.5,
+      "unit": "mpg",
+      "kind": "tested",
+      "note": "Car Graphic road test (September 1967), 8.3 km/L over about 1,100 km of road and circuit driving",
+      "src": "https://ja.wikipedia.org/wiki/マツダ・コスモ"
     },
     "built": {
       "count": 343,
@@ -1608,7 +1622,16 @@ const CARS = [
       "note": "Maker's claim",
       "src": "article:open-air-mazda-121"
     },
-    "built": null,
+    "mpg": {
+      "combined": 32.2,
+      "unit": "mpg",
+      "kind": "official",
+      "note": "European combined figure, 121 1.3 Cabrio Top (Canvas Top), 7.3 L/100 km",
+      "src": "https://cars-data.com/en/mazda/121/1988/1-3-cabrio-top--4452"
+    },
+    "built": {
+      "na": "Mazda never published a Canvas Top total separately from the rest of the 1986–1991 121 range"
+    },
     "predecessor": null,
     "successor": {
       "name": "Mazda 121 (DB) / Autozam Revue",
@@ -1676,7 +1699,9 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/10069.shtml"
     },
-    "built": null,
+    "built": {
+      "na": "Mazda never published a production total for the 1992–1995 929; Hagerty reports more than 43,000 Sentias and 929s sold in Japan and North America in 1991 and 1992, falling to 9,560 in 1994"
+    },
     "predecessor": {
       "name": "Mazda 929 (HC)",
       "id": null
@@ -1825,7 +1850,9 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/17584.shtml"
     },
-    "built": null,
+    "built": {
+      "na": "Mazda counted Protegé5 sales with the Protegé sedan and never published a Protegé5 total; the two together sold 152,155 in the US in 2002 and 2003"
+    },
     "predecessor": null,
     "successor": {
       "name": "Mazda3 five-door",
@@ -2497,7 +2524,12 @@ const CARS = [
       "note": "EPA combined, 1992 Montero, manual or automatic",
       "src": "https://www.fueleconomy.gov/feg/noframes/9592.shtml"
     },
-    "built": null,
+    "built": {
+      "count": 391000,
+      "approx": true,
+      "note": "Second-generation Pajero sales in Japan, 1991–1999 (Best Car); Mitsubishi never published worldwide production by generation",
+      "src": "https://bestcarweb.jp/?p=818407"
+    },
     "predecessor": {
       "name": "Mitsubishi Pajero (first generation)",
       "id": null
@@ -2576,7 +2608,9 @@ const CARS = [
       "note": "EPA combined, 1992 Trooper DOHC, automatic (manual: 14 city / 16 highway)",
       "src": "https://www.fueleconomy.gov/feg/noframes/9587.shtml"
     },
-    "built": null,
+    "built": {
+      "na": "Isuzu never published a production total for the 1992–2002 second-generation Trooper"
+    },
     "predecessor": {
       "name": "Isuzu Trooper (first generation)",
       "id": null
@@ -4452,6 +4486,13 @@ const CARS = [
       "note": "Maker's claim",
       "src": "article:the-long-way-for-crackers"
     },
+    "mpg": {
+      "combined": 19.2,
+      "unit": "mpg",
+      "kind": "estimated",
+      "note": "Combined figure for the 1995–1999 Griffith 500, 23 mpg in imperial gallons (encyCARpedia)",
+      "src": "https://www.encycarpedia.com/tvr/95-griffith-500-cabrio"
+    },
     "built": {
       "count": 2600,
       "approx": true,
@@ -4486,6 +4527,13 @@ const CARS = [
     "aka": [],
     "country": "United Kingdom",
     "drive": "Rear-wheel drive",
+    "mpg": {
+      "combined": 17.4,
+      "unit": "mpg",
+      "kind": "estimated",
+      "note": "Combined figure for the Chimaera 450, 13.5 L/100 km (encyCARpedia and auto-data list the same number)",
+      "src": "https://www.encycarpedia.com/de/tvr/01-chimaera-450-cabrio"
+    },
     "built": {
       "count": 6000,
       "approx": true,
@@ -4553,6 +4601,13 @@ const CARS = [
     "aka": [],
     "country": "United Kingdom",
     "drive": "Rear-wheel drive",
+    "mpg": {
+      "combined": 15.7,
+      "unit": "mpg",
+      "kind": "estimated",
+      "note": "Combined figure for the Cerbera 4.5, 15 L/100 km (autodata1)",
+      "src": "https://autodata1.com/en/car/tvr/cerbera/cerbera-45-i-v8-426-hp"
+    },
     "built": {
       "count": 1490,
       "approx": false,
@@ -4619,6 +4674,13 @@ const CARS = [
     ],
     "country": "United Kingdom",
     "drive": "Rear-wheel drive",
+    "mpg": {
+      "combined": 19.2,
+      "unit": "mpg",
+      "kind": "official",
+      "note": "Official UK combined figure, Tuscan 4.0, 23 mpg in imperial gallons (Vehicle Certification Agency data via VehicleScore)",
+      "src": "https://vehiclescore.co.uk/car-fuel-economy-check/tvr/tuscan"
+    },
     "built": {
       "count": 1677,
       "approx": false,
@@ -4687,6 +4749,13 @@ const CARS = [
     "aka": [],
     "country": "United Kingdom",
     "drive": "Rear-wheel drive",
+    "mpg": {
+      "combined": 16.1,
+      "unit": "mpg",
+      "kind": "estimated",
+      "note": "Combined figure for the 2003 Tamora, 19.3 mpg in imperial gallons (encyCARpedia)",
+      "src": "https://www.encycarpedia.com/tvr/03-tamora-convertible"
+    },
     "built": {
       "count": 356,
       "approx": true,
@@ -4753,6 +4822,13 @@ const CARS = [
     "aka": [],
     "country": "United Kingdom",
     "drive": "Rear-wheel drive",
+    "mpg": {
+      "combined": 18.1,
+      "unit": "mpg",
+      "kind": "estimated",
+      "note": "Combined figure for the Sagaris, 21.7 mpg in imperial gallons (encyCARpedia)",
+      "src": "https://www.encycarpedia.com/tvr/05-sagaris-coupe"
+    },
     "built": {
       "count": 211,
       "approx": false,
@@ -5200,6 +5276,13 @@ const CARS = [
       "src": "https://www.0-60specs.com/mitsubishi/lancer-evolution-0-60-times"
     },
     "top": null,
+    "mpg": {
+      "combined": 22.6,
+      "unit": "mpg",
+      "kind": "official",
+      "note": "Official Japanese 10-15 mode figure, Evolution VII GSR, 9.6 km/L",
+      "src": "https://www.kurumaerabi.com/catalog/mitsubishi/1218/fmc003/61174/"
+    },
     "built": {
       "count": 10850,
       "approx": true,
@@ -5265,6 +5348,13 @@ const CARS = [
       "src": "https://www.curbsideclassic.com/vintage-reviews/vintage-review-1964-corvair-monza-110-hp-4-speed-the-poor-mans-porsche-is-now-even-more-of-one-and-finally-an-explanation-for-its-exoneration-by-nhtsa"
     },
     "top": null,
+    "mpg": {
+      "combined": 20.7,
+      "unit": "mpg",
+      "kind": "estimated",
+      "note": "Estimated. No Monza 110 fuel figure found; Motor Trend measured 20.7 mpg in a 1960 Corvair sedan with the original 80-hp engine",
+      "src": "https://www.0-60specs.com/chevrolet/corvair-0-60-times"
+    },
     "built": {
       "count": 1659022,
       "approx": false,
@@ -6719,7 +6809,9 @@ const CARS = [
       "note": "EPA combined, 2017 US GTI, 6-speed manual",
       "src": "https://www.fueleconomy.gov/feg/noframes/37973.shtml"
     },
-    "built": null,
+    "built": {
+      "na": "Volkswagen never broke out a GTI total; around 6 million Golf Mk7s of all kinds were built"
+    },
     "weight": {
       "kg": 1388,
       "lb": 3060,
@@ -6966,7 +7058,12 @@ const CARS = [
       "note": "EPA combined, manual or automatic",
       "src": "https://www.fueleconomy.gov/feg/noframes/18138.shtml"
     },
-    "built": null,
+    "built": {
+      "count": 26275,
+      "approx": true,
+      "note": "Sold in the US, 2000–2005 (GoodCarBadCar); Audi did not publish a worldwide allroad total",
+      "src": "https://goodcarbadcar.net/?p=63246"
+    },
     "predecessor": null,
     "successor": {
       "name": "Audi A6 allroad quattro (C6)",
@@ -7542,10 +7639,16 @@ const CARS = [
       "src": "https://en.wikipedia.org/wiki/Toyota_4Runner"
     },
     "weight": {
-      "na": "No figure on record"
+      "kg": 1628,
+      "lb": 3589,
+      "note": "Curb weight, 1985 4Runner 4WD (iSeeCars)",
+      "src": "https://www.iseecars.com/car/1985-toyota-4runner-specs"
     },
     "zero60": {
-      "na": "No test on record"
+      "sec": 14.5,
+      "kind": "estimated",
+      "note": "No magazine 0-60 test of the 1985 4Runner is on record; Consumer Guide found even the later V6 4Runner hard-pressed to reach 60 mph in under 13 seconds",
+      "src": "https://consumerguide.com/used/1990-95-toyota-4runner/"
     },
     "top": {
       "na": "No figure on record"
@@ -7580,10 +7683,16 @@ const CARS = [
           "src": "https://en.wikipedia.org/wiki/Toyota_4Runner"
         },
         "weight": {
-          "na": "No figure on record"
+          "kg": 1706,
+          "lb": 3760,
+          "note": "Upper end of the 3,520–3,760 lb first-generation range (Wikipedia); the V6 was the heaviest version",
+          "src": "https://en.wikipedia.org/wiki/Toyota_4Runner"
         },
         "zero60": {
-          "na": "No test on record"
+          "sec": 14.5,
+          "kind": "claimed",
+          "note": "Toyota's 15.3-second 0-100 km/h (62 mph) figure for the 3.0 V6, converted by auto-data.net",
+          "src": "https://auto-data.net/en/toyota-4runner-i-3.0i-v6-145hp-4x4-3121"
         },
         "top": {
           "na": "No figure on record"
@@ -7645,10 +7754,16 @@ const CARS = [
       "src": "https://www.0-60specs.com/toyota/4runner-0-60-times"
     },
     "weight": {
-      "na": "No figure on record"
+      "kg": 1835,
+      "lb": 4045,
+      "note": "Curb weight, 4-door SR5 V6 4WD (iSeeCars, 1990)",
+      "src": "https://www.iseecars.com/car/1990-toyota-4runner-specs"
     },
     "zero60": {
-      "na": "No test on record"
+      "sec": 15.7,
+      "kind": "tested",
+      "note": "Car and Driver test, 1991 4Runner SR5 V6",
+      "src": "https://www.0-60specs.com/toyota/4runner-0-60-times"
     },
     "top": {
       "na": "No US figure from Toyota"
@@ -7683,10 +7798,16 @@ const CARS = [
           "src": "https://en.wikipedia.org/wiki/Toyota_4Runner"
         },
         "weight": {
-          "na": "No figure on record"
+          "kg": 1706,
+          "lb": 3760,
+          "note": "Curb weight, 1990 4-door SR5 4WD (iSeeCars)",
+          "src": "https://www.iseecars.com/car/1990-toyota-4runner-specs"
         },
         "zero60": {
-          "na": "No test on record"
+          "sec": 16.0,
+          "kind": "estimated",
+          "note": "No test on record; Consumer Guide found the V6 4Runner hard-pressed to reach 60 mph in under 13 seconds and called the four-cylinder slower still",
+          "src": "https://consumerguide.com/used/1990-95-toyota-4runner/"
         },
         "top": {
           "na": "No US figure from Toyota"
@@ -7917,7 +8038,10 @@ const CARS = [
           "src": "https://www.motormatchup.com/catalog/Toyota/4Runner/2003/SR5-V6-4X4"
         },
         "zero60": {
-          "na": "No test on record"
+          "sec": 8.6,
+          "kind": "estimated",
+          "note": "MotorMatchup's calculated figure, 2003 SR5 V6 4x4; no magazine test of the V6 on record",
+          "src": "https://www.motormatchup.com/catalog/Toyota/4Runner/2003/SR5-V6-4X4"
         },
         "top": {
           "na": "No US figure from Toyota"
@@ -8179,7 +8303,11 @@ const CARS = [
       "na": "No figure on record"
     },
     "mpg": {
-      "na": "fueleconomy.gov starts with 1984 models"
+      "combined": 17.5,
+      "unit": "mpg",
+      "kind": "estimated",
+      "note": "Combined figure for the 1979 Celica Supra 2.6, 21 mpg in imperial gallons (encyCARpedia)",
+      "src": "https://www.encycarpedia.com/toyota/79-celica-supra-2-6-fastback"
     },
     "built": {
       "count": 63895,
@@ -8916,13 +9044,20 @@ const CARS = [
       "src": "https://global.toyota/en/detail/7582264"
     },
     "zero60": {
-      "na": "No test on record"
+      "sec": 12.0,
+      "kind": "estimated",
+      "note": "No road test on record; Road & Track timed a 1980 Corolla with a related 1.8-liter T-series four at 12.0 seconds, and the Celica Camry 1800 XT is a little lighter",
+      "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
     },
     "top": {
       "na": "No figure on record"
     },
     "mpg": {
-      "na": "Not sold in the US, so no EPA rating"
+      "combined": 25,
+      "unit": "mpg",
+      "kind": "estimated",
+      "note": "Estimated; Road & Track measured 25 mpg in a 1980 Corolla with a related 1.8-liter T-series four",
+      "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
     },
     "built": {
       "count": 100000,
@@ -9098,7 +9233,10 @@ const CARS = [
           "src": "https://en.wikipedia.org/wiki/Toyota_Camry"
         },
         "weight": {
-          "na": "No figure on record"
+          "kg": 1340,
+          "lb": 2954,
+          "note": "Curb weight, Camry V6 automatic sedan (Australian-market figure, Redbook)",
+          "src": "https://www.carsales.com.au/research/toyota/camry/1988/v6/"
         },
         "zero60": {
           "sec": 9.3,
@@ -10172,7 +10310,11 @@ const CARS = [
       "na": "No figure on record"
     },
     "mpg": {
-      "na": "fueleconomy.gov starts with 1984 models"
+      "combined": 26.6,
+      "unit": "mpg",
+      "kind": "tested",
+      "note": "Road & Track road test, 1971 Corolla 1600",
+      "src": "https://www.curbsideclassic.com/vintage-reviews/vintage-rt-review-1971-corolla-1600-the-fun-hemi-powered-toyota/"
     },
     "built": {
       "count": 2410000,
@@ -10420,13 +10562,21 @@ const CARS = [
         "detail": "Front-wheel-drive sedan",
         "specsFor": "1984 Toyota Corolla sedan, 1.6-liter, 5-speed manual, US market",
         "power": {
-          "na": "No figure on record"
+          "hp": 74,
+          "note": "4A-C 1.6-liter 4-cylinder (70 hp in California form)",
+          "src": "https://en.wikipedia.org/wiki/Toyota_A_engine"
         },
         "weight": {
-          "na": "No figure on record"
+          "kg": 944,
+          "lb": 2081,
+          "note": "Curb weight, 1984 Corolla Deluxe sedan (iSeeCars)",
+          "src": "https://www.iseecars.com/car/1984-toyota-corolla-specs"
         },
         "zero60": {
-          "na": "No test on record"
+          "sec": 13.2,
+          "kind": "estimated",
+          "note": "No test on record; Car and Driver timed the 1988 Corolla sedan, with 102 hp and 2,350 lb, at 11.3 seconds",
+          "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
         },
         "top": {
           "na": "No US figure from Toyota"
@@ -12118,7 +12268,13 @@ const CARS = [
           "na": "No US figure from Toyota"
         },
         "mpg": {
-          "na": "Not yet on fueleconomy.gov"
+          "combined": 36,
+          "city": 41,
+          "hwy": 34,
+          "unit": "mpg",
+          "kind": "epa",
+          "note": "EPA-estimated combined, gas only once the battery is depleted (86 MPGe on electricity), 2026 GR Sport",
+          "src": "https://www.toyota.com/rav4pluginhybrid/section/trims/"
         }
       }
     ],
@@ -13902,13 +14058,13 @@ const CARS = [
       "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60012609/"
     },
     "zero60": {
-      "na": "No test on record"
+      "na": "Toyota's top speed for the BJ was 100 km/h (62 mph), barely above 60 mph; no acceleration figure was ever published"
     },
     "top": {
       "na": "No figure on record"
     },
     "mpg": {
-      "na": "Not sold in the US, so no EPA rating"
+      "na": "Toyota published no fuel figure for the BJ, a 1951 four-wheel-drive patrol vehicle"
     },
     "built": {
       "count": 874,
@@ -13964,16 +14120,23 @@ const CARS = [
       "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60012610/index.html"
     },
     "zero60": {
-      "na": "No test on record"
+      "sec": 15.0,
+      "kind": "estimated",
+      "note": "No road test on record; Motor Trend timed a 1975 FJ40 with the later 4.2-liter version of the same F six at 14.0 seconds",
+      "src": "https://www.0-60specs.com/toyota/land-cruiser-0-60-times"
     },
     "top": {
       "na": "No figure on record"
     },
     "mpg": {
-      "na": "fueleconomy.gov starts with 1984 models"
+      "combined": 12,
+      "unit": "mpg",
+      "kind": "estimated",
+      "note": "Estimated; Motor Trend measured 12 mpg in a 1975 FJ40 with the later 4.2-liter version of the same six",
+      "src": "https://www.0-60specs.com/toyota/land-cruiser-0-60-times"
     },
     "built": {
-      "na": "No production total on record"
+      "na": "Toyota never published a 20 Series total; exports, which began with this generation, ran under 100 a year at first"
     },
     "predecessor": {
       "name": "Toyota Land Cruiser (BJ and FJ)",
@@ -14169,13 +14332,20 @@ const CARS = [
       "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60017153/index.html"
     },
     "zero60": {
-      "na": "No test on record"
+      "sec": 16.0,
+      "kind": "estimated",
+      "note": "No FJ55 test on record; Motor Trend timed a 1975 FJ40 with the same 4.2-liter 2F six at 14.0 seconds, and the wagon is about 330 kg (728 lb) heavier",
+      "src": "https://www.0-60specs.com/toyota/land-cruiser-0-60-times"
     },
     "top": {
       "na": "No figure on record"
     },
     "mpg": {
-      "na": "fueleconomy.gov starts with 1984 models"
+      "combined": 12,
+      "unit": "mpg",
+      "kind": "estimated",
+      "note": "Estimated; Motor Trend measured 12 mpg in a 1975 FJ40 with the same 4.2-liter 2F six",
+      "src": "https://www.0-60specs.com/toyota/land-cruiser-0-60-times"
     },
     "built": {
       "count": 113000,
@@ -14269,13 +14439,21 @@ const CARS = [
         "detail": "Carbureted 6-cylinder, 4-speed manual",
         "specsFor": "1985 Toyota Land Cruiser FJ60, 4-speed manual, US market",
         "power": {
-          "na": "No figure on record"
+          "hp": 135,
+          "note": "4.2-liter 2F 6-cylinder, carbureted",
+          "src": "https://tlc4x4.com/vehicles/fj60/"
         },
         "weight": {
-          "na": "No figure on record"
+          "kg": 2035,
+          "lb": 4487,
+          "note": "Curb weight, 1985 FJ60 (iSeeCars)",
+          "src": "https://www.iseecars.com/car/1985-toyota-land_cruiser-specs"
         },
         "zero60": {
-          "na": "No test on record"
+          "sec": 15.0,
+          "kind": "estimated",
+          "note": "No FJ60 test on record; Motor Trend timed a 1975 Land Cruiser with the same 2F six at 14.0 seconds at 4,200 lb",
+          "src": "https://www.0-60specs.com/toyota/land-cruiser-0-60-times"
         },
         "top": {
           "na": "No US figure from Toyota"
@@ -17061,7 +17239,7 @@ const CARS = [
       "src": "https://en.wikipedia.org/wiki/Toyota_Crown"
     },
     "built": {
-      "na": "No production total on record"
+      "na": "Toyota never published a production total for this generation"
     },
     "predecessor": null,
     "successor": {
@@ -17111,7 +17289,10 @@ const CARS = [
       "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60004715/index.html"
     },
     "zero60": {
-      "na": "No test on record"
+      "sec": 18.5,
+      "kind": "estimated",
+      "note": "No road test on record; Carveyance estimate, scaled by power-to-weight from Road & Track's 14.1-second test of the 1972 US Crown 2600",
+      "src": "https://www.curbsideclassic.com/vintage-reviews/vintage-rt-review-1972-toyota-crown-2600-s60-theres-some-very-good-reasons-the-crown-failed-in-the-us/"
     },
     "top": {
       "na": "No figure on record"
@@ -17180,7 +17361,10 @@ const CARS = [
       "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60004831/index.html"
     },
     "zero60": {
-      "na": "No test on record"
+      "sec": 16.5,
+      "kind": "estimated",
+      "note": "No road test on record; Carveyance estimate, scaled by power-to-weight from Road & Track's 14.1-second test of the 1972 US Crown 2600",
+      "src": "https://www.curbsideclassic.com/vintage-reviews/vintage-rt-review-1972-toyota-crown-2600-s60-theres-some-very-good-reasons-the-crown-failed-in-the-us/"
     },
     "top": {
       "na": "No figure on record"
@@ -17322,13 +17506,20 @@ const CARS = [
       "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60005041A/index.html"
     },
     "zero60": {
-      "na": "No test on record"
+      "sec": 14.5,
+      "kind": "estimated",
+      "note": "Same 2.6-liter 4M six as the US Crown 2600 that Road & Track timed at 14.1 seconds in 1972; the fifth generation is about 40 kg heavier",
+      "src": "https://www.curbsideclassic.com/vintage-reviews/vintage-rt-review-1972-toyota-crown-2600-s60-theres-some-very-good-reasons-the-crown-failed-in-the-us/"
     },
     "top": {
       "na": "No figure on record"
     },
     "mpg": {
-      "na": "Not sold in the US, so no EPA rating"
+      "combined": 16,
+      "unit": "mpg",
+      "kind": "estimated",
+      "note": "Estimated; Road & Track measured 16 mpg in the 1972 US Crown 2600 with the same 2.6-liter 4M six",
+      "src": "https://www.curbsideclassic.com/vintage-reviews/vintage-rt-review-1972-toyota-crown-2600-s60-theres-some-very-good-reasons-the-crown-failed-in-the-us/"
     },
     "built": {
       "count": 404699,
@@ -17459,13 +17650,20 @@ const CARS = [
       "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60005311A/index.html"
     },
     "zero60": {
-      "na": "No test on record"
+      "sec": 9.2,
+      "kind": "estimated",
+      "note": "Car and Driver timed the 1983 Cressida, which used the same 2.8-liter twin-cam 5M-GE six, at 8.7 seconds; the Crown is about 75 kg (165 lb) heavier",
+      "src": "https://www.0-60specs.com/toyota/cressida-0-60-times"
     },
     "top": {
       "na": "No figure on record"
     },
     "mpg": {
-      "na": "Not sold in the US, so no EPA rating"
+      "combined": 22,
+      "unit": "mpg",
+      "kind": "estimated",
+      "note": "Estimated; Car and Driver measured 22 mpg in the 1983 Cressida with the same 5M-GE six",
+      "src": "https://www.0-60specs.com/toyota/cressida-0-60-times"
     },
     "built": {
       "count": 539485,
@@ -17524,7 +17722,10 @@ const CARS = [
       "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60005430A/index.html"
     },
     "zero60": {
-      "na": "No test on record"
+      "sec": 8.9,
+      "kind": "estimated",
+      "note": "MotorWeek timed the 1989 Cressida, which used the same 3.0-liter 7M-GE six and weighed about the same, at 8.8 seconds",
+      "src": "https://www.0-60specs.com/toyota/cressida-0-60-times"
     },
     "top": {
       "na": "No figure on record"
@@ -17592,13 +17793,20 @@ const CARS = [
       "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60005492A/index.html"
     },
     "zero60": {
-      "na": "No test on record"
+      "sec": 9.3,
+      "kind": "estimated",
+      "note": "Motor Trend timed the 1994 Lexus GS 300, which used the same 3.0-liter 2JZ-GE six and weighed about the same, at 9.4 seconds",
+      "src": "https://www.0-60specs.com/lexus/gs-300-0-60-times"
     },
     "top": {
       "na": "No figure on record"
     },
     "mpg": {
-      "na": "Not sold in the US, so no EPA rating"
+      "combined": 18.8,
+      "unit": "mpg",
+      "kind": "official",
+      "note": "Official Japanese 10-15 mode figure, 3.0 Royal Saloon G (JZS135), 8.0 km/L",
+      "src": "https://221616.com/catalog/toyota/crown/199110_199512/1000797/"
     },
     "built": {
       "count": 370921,
@@ -17656,7 +17864,10 @@ const CARS = [
       "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60005589/index.html"
     },
     "zero60": {
-      "na": "No test on record"
+      "sec": 8.7,
+      "kind": "estimated",
+      "note": "Motor Trend timed the 1994 Lexus GS 300 with the same 2JZ-GE six at 9.4 seconds; this Crown is about 120 kg lighter",
+      "src": "https://www.0-60specs.com/lexus/gs-300-0-60-times"
     },
     "top": {
       "na": "No figure on record"
@@ -17726,7 +17937,10 @@ const CARS = [
       "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60005748/index.html"
     },
     "zero60": {
-      "na": "No test on record"
+      "sec": 7.7,
+      "kind": "estimated",
+      "note": "Car and Driver timed the 2003 Lexus GS 300 with a 3.0-liter 2JZ six at 8.0 seconds; this Crown is about 60 kg lighter",
+      "src": "https://www.0-60specs.com/lexus/gs-300-0-60-times"
     },
     "top": {
       "na": "No figure on record"
@@ -17811,7 +18025,7 @@ const CARS = [
       "src": "https://www.kurumaerabi.com/catalog/toyota/72/fmc012/91778/"
     },
     "built": {
-      "na": "No production total on record"
+      "na": "Toyota never published a production total for this generation"
     },
     "predecessor": {
       "name": "Toyota Crown (eleventh generation)",
@@ -17865,7 +18079,10 @@ const CARS = [
       "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60011641/index.html"
     },
     "zero60": {
-      "na": "No test on record"
+      "sec": 7.4,
+      "kind": "estimated",
+      "note": "Same 3.0-liter V6 and almost the same weight as the 12th generation, quoted at 7.4 seconds to 62 mph at its launch",
+      "src": "https://www.webcg.net/articles/-/15340"
     },
     "top": {
       "na": "No figure on record"
@@ -17935,7 +18152,10 @@ const CARS = [
       "src": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60017841A/index.html"
     },
     "zero60": {
-      "na": "No test on record"
+      "sec": 8.0,
+      "kind": "estimated",
+      "note": "Car and Driver and Motor Trend timed the 2014 Lexus IS 250, which used the same 2.5-liter 4GR-FSE V6, at 7.8 to 7.9 seconds; this Crown is a little heavier",
+      "src": "https://www.0-60specs.com/lexus/is-250-0-60-times"
     },
     "top": {
       "na": "No figure on record"
@@ -18003,7 +18223,10 @@ const CARS = [
       "src": "https://www.kurumaerabi.com/catalog/toyota/72/fmc015/74019/"
     },
     "zero60": {
-      "na": "No test on record"
+      "sec": 7.3,
+      "kind": "estimated",
+      "note": "The 2017 Lexus IS 200t, with the same 2.0-liter turbo four, ran 6.5 seconds for Car and Driver and 7.0 for Motor Trend; this Crown is about 100 kg heavier",
+      "src": "https://www.0-60specs.com/lexus/is-200t-0-60-times"
     },
     "top": {
       "na": "No figure on record"
@@ -18016,7 +18239,7 @@ const CARS = [
       "src": "https://www.kurumaerabi.com/catalog/toyota/72/fmc015/74019/"
     },
     "built": {
-      "na": "No production total on record"
+      "na": "Toyota never published a production total for this generation"
     },
     "predecessor": {
       "name": "Toyota Crown (fourteenth generation)",
@@ -18524,10 +18747,16 @@ const CARS = [
       "src": "https://en.wikipedia.org/wiki/Honda_Accord"
     },
     "weight": {
-      "na": "No figure on record"
+      "kg": 1016,
+      "lb": 2240,
+      "note": "Curb weight, 1984 Accord hatchback (iSeeCars)",
+      "src": "https://www.iseecars.com/car/1984-honda-accord-specs"
     },
     "zero60": {
-      "na": "No test on record"
+      "sec": 12.5,
+      "kind": "estimated",
+      "note": "No US test on record; the 100 PS European Accord 1.8 EX is listed at 11.1 seconds (encyCARpedia), and the 86-hp US car is slower",
+      "src": "https://www.encycarpedia.com/honda/84-accord-1-8-ex-exe-sedan"
     },
     "top": {
       "na": "No figure on record"
@@ -19715,7 +19944,11 @@ const CARS = [
       "na": "No figure on record"
     },
     "mpg": {
-      "na": "fueleconomy.gov starts with 1984 models"
+      "combined": 33,
+      "unit": "mpg",
+      "kind": "tested",
+      "note": "Car and Driver's best figure in its 1973 test of the 1.2-liter Civic (\"as much as 33 mpg\")",
+      "src": "https://ahgautoservice.com/how-many-miles-per-gallon-does-a-1973-honda-civic-get"
     },
     "built": {
       "count": 767583,
@@ -19882,7 +20115,10 @@ const CARS = [
       "src": "https://en.wikipedia.org/wiki/Honda_Civic_(third_generation)"
     },
     "weight": {
-      "na": "No figure on record"
+      "kg": 880,
+      "lb": 1940,
+      "note": "Curb weight, 1984 Civic wagon (iSeeCars)",
+      "src": "https://www.iseecars.com/car/1984-honda-civic-specs"
     },
     "zero60": {
       "sec": 11.6,
@@ -20161,10 +20397,16 @@ const CARS = [
           "src": "https://en.wikipedia.org/wiki/Honda_Civic_(fifth_generation)"
         },
         "weight": {
-          "na": "No figure on record"
+          "kg": 988,
+          "lb": 2178,
+          "note": "Curb weight, 1992 Civic DX hatchback (iSeeCars)",
+          "src": "https://www.iseecars.com/car/1992-honda-civic-specs"
         },
         "zero60": {
-          "na": "No test on record"
+          "sec": 11.2,
+          "kind": "tested",
+          "note": "Car and Driver test, 1992 Civic CX hatchback, the slowest 1.5-liter version (the DX is a little quicker)",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
         },
         "top": {
           "na": "No US figure from Honda"
@@ -21213,7 +21455,9 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/38772.shtml"
     },
-    "built": null,
+    "built": {
+      "na": "Honda counted Si sales inside total Civic sales for 2017–2021 and never published an Si total"
+    },
     "predecessor": null,
     "successor": {
       "name": "Honda Civic Si (eleventh generation)",
@@ -21387,7 +21631,11 @@ const CARS = [
       "src": "https://en.wikipedia.org/wiki/Honda_Civic_Type_R"
     },
     "mpg": {
-      "na": "Not sold in the US, so no EPA rating"
+      "combined": 32.0,
+      "unit": "mpg",
+      "kind": "official",
+      "note": "Official Japanese 10-15 mode figure, Civic Type R (EK9), 13.6 km/L",
+      "src": "https://221616.com/catalog/honda/civic/199509_200009/2003826/"
     },
     "built": {
       "count": 16000,
@@ -21497,7 +21745,11 @@ const CARS = [
           "src": "https://en.wikipedia.org/wiki/Honda_Civic_Type_R"
         },
         "mpg": {
-          "na": "Not sold in the US, so no EPA rating"
+          "combined": 29.2,
+          "unit": "mpg",
+          "kind": "official",
+          "note": "Official Japanese 10-15 mode figure, 12.4 km/L",
+          "src": "https://221616.com/catalog/honda/civic/200009_200509/2003492/"
         }
       }
     ],
@@ -21551,13 +21803,20 @@ const CARS = [
       "src": "https://en.wikipedia.org/wiki/Honda_Civic_Type_R"
     },
     "zero60": {
-      "na": "No test on record"
+      "sec": 6.3,
+      "kind": "estimated",
+      "note": "LapMeta's figure; Honda published none, and the heavier European FN2 was quoted at 6.6 seconds to 62 mph",
+      "src": "https://direct.lapmeta.com/en/model/646/honda-civic-type-r-fd2"
     },
     "top": {
       "na": "No figure on record"
     },
     "mpg": {
-      "na": "Not sold in the US, so no EPA rating"
+      "combined": 26.8,
+      "unit": "mpg",
+      "kind": "official",
+      "note": "Official Japanese 10-15 mode figure, FD2 Type R, 11.4 km/L",
+      "src": "https://www.honda.co.jp/auto-archive/civic/type-r/2011/webcatalog/spec/"
     },
     "built": {
       "count": 43101,
@@ -21585,13 +21844,20 @@ const CARS = [
           "src": "https://en.wikipedia.org/wiki/Honda_Civic_Type_R"
         },
         "zero60": {
-          "na": "No test on record"
+          "sec": 6.6,
+          "kind": "claimed",
+          "note": "Honda's 0-62 mph (100 km/h) figure, as quoted by evo",
+          "src": "https://www.evo.co.uk/honda/civic-type-r/16277/honda-civic-type-r-review-2015-2017-the-hottest-front-wheel-drive-hot-hatch/page/0/1"
         },
         "top": {
           "na": "No figure on record"
         },
         "mpg": {
-          "na": "Not sold in the US, so no EPA rating"
+          "combined": 25.4,
+          "unit": "mpg",
+          "kind": "official",
+          "note": "Official Japanese JC08 figure for the FN2 Type R Euro sold in Japan, 10.8 km/L",
+          "src": "https://www.honda.co.jp/auto-archive/civic/type-r/2011/EURO/spec/"
         }
       }
     ],
@@ -21699,7 +21965,9 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/38696.shtml"
     },
-    "built": null,
+    "built": {
+      "na": "Honda never published an FK8 production total; Ward's reports 4,861 Type Rs sold in the US in 2021 alone"
+    },
     "predecessor": {
       "name": "Honda Civic Type R (FK2)",
       "id": "honda-civic-type-r-fk2"
@@ -22510,7 +22778,12 @@ const CARS = [
       "note": "Curb weight",
       "src": "https://akamai-release.automobiles.honda.com/cr-v-fcev/specs-features-trim-comparison"
     },
-    "zero60": null,
+    "zero60": {
+      "sec": 8.5,
+      "kind": "claimed",
+      "note": "Figure reported by Clean Fleet Report at the 2024 launch; no magazine test published",
+      "src": "https://cleanfleetreport.com/2025-honda-cr-v-efcev/"
+    },
     "quick": "America's first production plug-in hydrogen fuel cell vehicle: a CR-V with 29 miles of battery range and 270 miles in all, leased only in California.",
     "story": [
       "The CR-V e:FCEV pairs a 17.7 kWh battery, good for 29 miles of EPA-rated range, with a 92.2 kW fuel cell that turns hydrogen into electricity, for 270 miles in all. A 174-hp motor drives the front wheels. It was the first car with the fuel cell module Honda developed with GM, which is built in Brownstown, Michigan, and the CR-V itself is built in Marysville, Ohio.",
@@ -22668,10 +22941,16 @@ const CARS = [
           "src": "https://en.wikipedia.org/wiki/Honda_Prelude"
         },
         "weight": {
-          "na": "No figure on record"
+          "kg": 1099,
+          "lb": 2423,
+          "note": "Curb weight, 1986 Prelude Si (iSeeCars)",
+          "src": "https://www.iseecars.com/car/1986-honda-prelude-specs"
         },
         "zero60": {
-          "na": "No test on record"
+          "sec": 9.2,
+          "kind": "estimated",
+          "note": "Eighties Cars puts the 1986 Prelude Si at a little over 9 seconds, about half a second quicker than the base car",
+          "src": "https://eightiescars.com/2022/02/13/1986-honda-prelude-si-coupe/"
         },
         "top": {
           "na": "No figure on record"

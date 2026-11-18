@@ -1228,7 +1228,14 @@ const CARS_INDEX = [
    "kind": "estimated",
    "note": "Estimate"
   },
-  "mpg": null,
+  "mpg": {
+   "combined": 14.3,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "official",
+   "note": "Official Japanese 10-15 mode catalog figure, 20B three-rotor, 6.1 km/L"
+  },
   "built": {
    "count": 8875,
    "approx": false,
@@ -1292,7 +1299,14 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
-  "mpg": null,
+  "mpg": {
+   "combined": 19.5,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "tested",
+   "note": "Car Graphic road test (September 1967), 8.3 km/L over about 1,100 km of road and circuit driving"
+  },
   "built": {
    "count": 343,
    "approx": false,
@@ -1406,7 +1420,14 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
-  "mpg": null,
+  "mpg": {
+   "combined": 32.2,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "official",
+   "note": "European combined figure, 121 1.3 Cabrio Top (Canvas Top), 7.3 L/100 km"
+  },
   "built": null,
   "alongside": [],
   "prev": null,
@@ -2210,7 +2231,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": "EPA combined, 1992 Montero, manual or automatic"
   },
-  "built": null,
+  "built": {
+   "count": 391000,
+   "approx": true,
+   "note": "Second-generation Pajero sales in Japan, 1991–1999 (Best Car); Mitsubishi never published worldwide production by generation"
+  },
   "alongside": [],
   "prev": {
    "id": null,
@@ -3928,7 +3953,14 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Maker's claim"
   },
-  "mpg": null,
+  "mpg": {
+   "combined": 19.2,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "estimated",
+   "note": "Combined figure for the 1995–1999 Griffith 500, 23 mpg in imperial gallons (encyCARpedia)"
+  },
   "built": {
    "count": 2600,
    "approx": true,
@@ -3997,7 +4029,14 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "TVR's claim"
   },
-  "mpg": null,
+  "mpg": {
+   "combined": 17.4,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "estimated",
+   "note": "Combined figure for the Chimaera 450, 13.5 L/100 km (encyCARpedia and auto-data list the same number)"
+  },
   "built": {
    "count": 6000,
    "approx": true,
@@ -4069,7 +4108,14 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "TVR's claim"
   },
-  "mpg": null,
+  "mpg": {
+   "combined": 15.7,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "estimated",
+   "note": "Combined figure for the Cerbera 4.5, 15 L/100 km (autodata1)"
+  },
   "built": {
    "count": 1490,
    "approx": false,
@@ -4143,7 +4189,14 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "TVR's claim"
   },
-  "mpg": null,
+  "mpg": {
+   "combined": 19.2,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "official",
+   "note": "Official UK combined figure, Tuscan 4.0, 23 mpg in imperial gallons (Vehicle Certification Agency data via VehicleScore)"
+  },
   "built": {
    "count": 1677,
    "approx": false,
@@ -4217,7 +4270,14 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "About, claimed"
   },
-  "mpg": null,
+  "mpg": {
+   "combined": 16.1,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "estimated",
+   "note": "Combined figure for the 2003 Tamora, 19.3 mpg in imperial gallons (encyCARpedia)"
+  },
   "built": {
    "count": 356,
    "approx": true,
@@ -4291,7 +4351,14 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "More than 185 mph, TVR's claim"
   },
-  "mpg": null,
+  "mpg": {
+   "combined": 18.1,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "estimated",
+   "note": "Combined figure for the Sagaris, 21.7 mpg in imperial gallons (encyCARpedia)"
+  },
   "built": {
    "count": 211,
    "approx": false,
@@ -4664,7 +4731,14 @@ const CARS_INDEX = [
    "note": "Motor Trend test, 2002 Evolution VII"
   },
   "top": null,
-  "mpg": null,
+  "mpg": {
+   "combined": 22.6,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "official",
+   "note": "Official Japanese 10-15 mode figure, Evolution VII GSR, 9.6 km/L"
+  },
   "built": {
    "count": 10850,
    "approx": true,
@@ -4724,7 +4798,14 @@ const CARS_INDEX = [
    "note": "Car Life test, 1964 Monza convertible with the same 110 hp 164 cu in engine and 4-speed"
   },
   "top": null,
-  "mpg": null,
+  "mpg": {
+   "combined": 20.7,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "estimated",
+   "note": "Estimated. No Monza 110 fuel figure found; Motor Trend measured 20.7 mpg in a 1960 Corvair sedan with the original 80-hp engine"
+  },
   "built": {
    "count": 1659022,
    "approx": false,
@@ -6130,7 +6211,11 @@ const CARS_INDEX = [
    "kind": "epa",
    "note": "EPA combined, manual or automatic"
   },
-  "built": null,
+  "built": {
+   "count": 26275,
+   "approx": true,
+   "note": "Sold in the US, 2000–2005 (GoodCarBadCar); Audi did not publish a worldwide allroad total"
+  },
   "alongside": [],
   "prev": null,
   "next": {
@@ -6638,10 +6723,14 @@ const CARS_INDEX = [
    "cargurus": "d290"
   },
   "hp": 116,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
-  "z60": null,
+  "kg": 1628,
+  "kgNote": "Curb weight, 1985 4Runner 4WD (iSeeCars)",
+  "lbs": 3589,
+  "z60": {
+   "sec": 14.5,
+   "kind": "estimated",
+   "note": "No magazine 0-60 test of the 1985 4Runner is on record; Consumer Guide found even the later V6 4Runner hard-pressed to reach 60 mph in under 13 seconds"
+  },
   "top": null,
   "mpg": {
    "combined": 21,
@@ -6699,10 +6788,14 @@ const CARS_INDEX = [
    "cargurus": "d290"
   },
   "hp": 150,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
-  "z60": null,
+  "kg": 1835,
+  "kgNote": "Curb weight, 4-door SR5 V6 4WD (iSeeCars, 1990)",
+  "lbs": 4045,
+  "z60": {
+   "sec": 15.7,
+   "kind": "tested",
+   "note": "Car and Driver test, 1991 4Runner SR5 V6"
+  },
   "top": null,
   "mpg": {
    "combined": 14,
@@ -7046,7 +7139,14 @@ const CARS_INDEX = [
    "note": "Car and Driver test, 1979"
   },
   "top": null,
-  "mpg": null,
+  "mpg": {
+   "combined": 17.5,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "estimated",
+   "note": "Combined figure for the 1979 Celica Supra 2.6, 21 mpg in imperial gallons (encyCARpedia)"
+  },
   "built": {
    "count": 63895,
    "approx": true,
@@ -7641,9 +7741,20 @@ const CARS_INDEX = [
   "kg": 1010,
   "kgNote": "Curb weight, 1800 XT, Toyota's launch figure (1,010–1,025 kg)",
   "lbs": 2227,
-  "z60": null,
+  "z60": {
+   "sec": 12.0,
+   "kind": "estimated",
+   "note": "No road test on record; Road & Track timed a 1980 Corolla with a related 1.8-liter T-series four at 12.0 seconds, and the Celica Camry 1800 XT is a little lighter"
+  },
   "top": null,
-  "mpg": null,
+  "mpg": {
+   "combined": 25,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "estimated",
+   "note": "Estimated; Road & Track measured 25 mpg in a 1980 Corolla with a related 1.8-liter T-series four"
+  },
   "built": {
    "count": 100000,
    "approx": true,
@@ -8394,7 +8505,14 @@ const CARS_INDEX = [
    "note": "Car and Driver test, 1971 1600 coupe"
   },
   "top": null,
-  "mpg": null,
+  "mpg": {
+   "combined": 26.6,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "tested",
+   "note": "Road & Track road test, 1971 Corolla 1600"
+  },
   "built": {
    "count": 2410000,
    "approx": true,
@@ -10894,9 +11012,20 @@ const CARS_INDEX = [
   "kg": 1425,
   "kgNote": "Curb mass, FJ25, Toyota's figure",
   "lbs": 3142,
-  "z60": null,
+  "z60": {
+   "sec": 15.0,
+   "kind": "estimated",
+   "note": "No road test on record; Motor Trend timed a 1975 FJ40 with the later 4.2-liter version of the same F six at 14.0 seconds"
+  },
   "top": null,
-  "mpg": null,
+  "mpg": {
+   "combined": 12,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "estimated",
+   "note": "Estimated; Motor Trend measured 12 mpg in a 1975 FJ40 with the later 4.2-liter version of the same six"
+  },
   "built": null,
   "alongside": [],
   "prev": {
@@ -11079,9 +11208,20 @@ const CARS_INDEX = [
   "kg": 1810,
   "kgNote": "Vehicle weight, FJ55V, Toyota's figure",
   "lbs": 3990,
-  "z60": null,
+  "z60": {
+   "sec": 16.0,
+   "kind": "estimated",
+   "note": "No FJ55 test on record; Motor Trend timed a 1975 FJ40 with the same 4.2-liter 2F six at 14.0 seconds, and the wagon is about 330 kg (728 lb) heavier"
+  },
   "top": null,
-  "mpg": null,
+  "mpg": {
+   "combined": 12,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "estimated",
+   "note": "Estimated; Motor Trend measured 12 mpg in a 1975 FJ40 with the same 4.2-liter 2F six"
+  },
   "built": {
    "count": 113000,
    "approx": true,
@@ -13414,7 +13554,11 @@ const CARS_INDEX = [
   "kg": 1265,
   "kgNote": "Curb mass, Deluxe RS41, Toyota's figure",
   "lbs": 2789,
-  "z60": null,
+  "z60": {
+   "sec": 18.5,
+   "kind": "estimated",
+   "note": "No road test on record; Carveyance estimate, scaled by power-to-weight from Road & Track's 14.1-second test of the 1972 US Crown 2600"
+  },
   "top": null,
   "mpg": {
    "combined": 23,
@@ -13470,7 +13614,11 @@ const CARS_INDEX = [
   "kg": 1310,
   "kgNote": "Curb mass, Super Deluxe MS50, Toyota's figure",
   "lbs": 2888,
-  "z60": null,
+  "z60": {
+   "sec": 16.5,
+   "kind": "estimated",
+   "note": "No road test on record; Carveyance estimate, scaled by power-to-weight from Road & Track's 14.1-second test of the 1972 US Crown 2600"
+  },
   "top": null,
   "mpg": {
    "combined": 22,
@@ -13587,9 +13735,20 @@ const CARS_INDEX = [
   "kg": 1470,
   "kgNote": "Curb mass, Royal Saloon, Toyota's figure",
   "lbs": 3241,
-  "z60": null,
+  "z60": {
+   "sec": 14.5,
+   "kind": "estimated",
+   "note": "Same 2.6-liter 4M six as the US Crown 2600 that Road & Track timed at 14.1 seconds in 1972; the fifth generation is about 40 kg heavier"
+  },
   "top": null,
-  "mpg": null,
+  "mpg": {
+   "combined": 16,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "estimated",
+   "note": "Estimated; Road & Track measured 16 mpg in the 1972 US Crown 2600 with the same 2.6-liter 4M six"
+  },
   "built": {
    "count": 404699,
    "approx": true,
@@ -13696,9 +13855,20 @@ const CARS_INDEX = [
   "kg": 1480,
   "kgNote": "Curb mass, 2800 DOHC Royal Saloon, Toyota's figure",
   "lbs": 3263,
-  "z60": null,
+  "z60": {
+   "sec": 9.2,
+   "kind": "estimated",
+   "note": "Car and Driver timed the 1983 Cressida, which used the same 2.8-liter twin-cam 5M-GE six, at 8.7 seconds; the Crown is about 75 kg (165 lb) heavier"
+  },
   "top": null,
-  "mpg": null,
+  "mpg": {
+   "combined": 22,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "estimated",
+   "note": "Estimated; Car and Driver measured 22 mpg in the 1983 Cressida with the same 5M-GE six"
+  },
   "built": {
    "count": 539485,
    "approx": true,
@@ -13745,7 +13915,11 @@ const CARS_INDEX = [
   "kg": 1590,
   "kgNote": "Curb mass, 3000 Royal Saloon, Toyota's figure",
   "lbs": 3505,
-  "z60": null,
+  "z60": {
+   "sec": 8.9,
+   "kind": "estimated",
+   "note": "MotorWeek timed the 1989 Cressida, which used the same 3.0-liter 7M-GE six and weighed about the same, at 8.8 seconds"
+  },
   "top": null,
   "mpg": {
    "combined": 22.1,
@@ -13800,9 +13974,20 @@ const CARS_INDEX = [
   "kg": 1630,
   "kgNote": "Curb mass, 3000 Royal Saloon, Toyota's figure",
   "lbs": 3594,
-  "z60": null,
+  "z60": {
+   "sec": 9.3,
+   "kind": "estimated",
+   "note": "Motor Trend timed the 1994 Lexus GS 300, which used the same 3.0-liter 2JZ-GE six and weighed about the same, at 9.4 seconds"
+  },
   "top": null,
-  "mpg": null,
+  "mpg": {
+   "combined": 18.8,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "official",
+   "note": "Official Japanese 10-15 mode figure, 3.0 Royal Saloon G (JZS135), 8.0 km/L"
+  },
   "built": {
    "count": 370921,
    "approx": true,
@@ -13848,7 +14033,11 @@ const CARS_INDEX = [
   "kg": 1490,
   "kgNote": "Curb mass, Royal Saloon G, Toyota's figure",
   "lbs": 3285,
-  "z60": null,
+  "z60": {
+   "sec": 8.7,
+   "kind": "estimated",
+   "note": "Motor Trend timed the 1994 Lexus GS 300 with the same 2JZ-GE six at 9.4 seconds; this Crown is about 120 kg lighter"
+  },
   "top": null,
   "mpg": {
    "combined": 22.1,
@@ -13905,7 +14094,11 @@ const CARS_INDEX = [
   "kg": 1570,
   "kgNote": "Curb mass, 3000 D-4 Royal Saloon, Toyota's figure",
   "lbs": 3461,
-  "z60": null,
+  "z60": {
+   "sec": 7.7,
+   "kind": "estimated",
+   "note": "Car and Driver timed the 2003 Lexus GS 300 with a 3.0-liter 2JZ six at 8.0 seconds; this Crown is about 60 kg lighter"
+  },
   "top": null,
   "mpg": {
    "combined": 26.8,
@@ -14018,7 +14211,11 @@ const CARS_INDEX = [
   "kg": 1600,
   "kgNote": "Curb mass, 3.0 Royal Saloon G, Toyota's figure",
   "lbs": 3527,
-  "z60": null,
+  "z60": {
+   "sec": 7.4,
+   "kind": "estimated",
+   "note": "Same 3.0-liter V6 and almost the same weight as the 12th generation, quoted at 7.4 seconds to 62 mph at its launch"
+  },
   "top": null,
   "mpg": {
    "combined": 27.8,
@@ -14075,7 +14272,11 @@ const CARS_INDEX = [
   "kg": 1590,
   "kgNote": "Curb mass, Royal Saloon G 2.5, Toyota's figure",
   "lbs": 3505,
-  "z60": null,
+  "z60": {
+   "sec": 8.0,
+   "kind": "estimated",
+   "note": "Car and Driver and Motor Trend timed the 2014 Lexus IS 250, which used the same 2.5-liter 4GR-FSE V6, at 7.8 to 7.9 seconds; this Crown is a little heavier"
+  },
   "top": null,
   "mpg": {
    "combined": 26.8,
@@ -14130,7 +14331,11 @@ const CARS_INDEX = [
   "kg": 1730,
   "kgNote": "Curb weight, 2.0 RS Advance",
   "lbs": 3814,
-  "z60": null,
+  "z60": {
+   "sec": 7.3,
+   "kind": "estimated",
+   "note": "The 2017 Lexus IS 200t, with the same 2.0-liter turbo four, ran 6.5 seconds for Car and Driver and 7.0 for Motor Trend; this Crown is about 100 kg heavier"
+  },
   "top": null,
   "mpg": {
    "combined": 30.1,
@@ -14512,10 +14717,14 @@ const CARS_INDEX = [
    "cargurus": "d585"
   },
   "hp": 86,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
-  "z60": null,
+  "kg": 1016,
+  "kgNote": "Curb weight, 1984 Accord hatchback (iSeeCars)",
+  "lbs": 2240,
+  "z60": {
+   "sec": 12.5,
+   "kind": "estimated",
+   "note": "No US test on record; the 100 PS European Accord 1.8 EX is listed at 11.1 seconds (encyCARpedia), and the 86-hp US car is slower"
+  },
   "top": null,
   "mpg": {
    "combined": 28,
@@ -15213,7 +15422,14 @@ const CARS_INDEX = [
    "note": "Car and Driver test, 1973 hatchback"
   },
   "top": null,
-  "mpg": null,
+  "mpg": {
+   "combined": 33,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "tested",
+   "note": "Car and Driver's best figure in its 1973 test of the 1.2-liter Civic (\"as much as 33 mpg\")"
+  },
   "built": {
    "count": 767583,
    "approx": true,
@@ -15331,9 +15547,9 @@ const CARS_INDEX = [
    "cargurus": "d586"
   },
   "hp": 76,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
+  "kg": 880,
+  "kgNote": "Curb weight, 1984 Civic wagon (iSeeCars)",
+  "lbs": 1940,
   "z60": {
    "sec": 11.6,
    "kind": "tested",
@@ -16110,7 +16326,14 @@ const CARS_INDEX = [
    "kind": "claimed",
    "note": "Published figure, 225 km/h"
   },
-  "mpg": null,
+  "mpg": {
+   "combined": 32.0,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "official",
+   "note": "Official Japanese 10-15 mode figure, Civic Type R (EK9), 13.6 km/L"
+  },
   "built": {
    "count": 16000,
    "approx": true,
@@ -16225,9 +16448,20 @@ const CARS_INDEX = [
   "kg": 1255,
   "kgNote": "Curb weight, FD2 sedan, 1,255–1,270 kg",
   "lbs": null,
-  "z60": null,
+  "z60": {
+   "sec": 6.3,
+   "kind": "estimated",
+   "note": "LapMeta's figure; Honda published none, and the heavier European FN2 was quoted at 6.6 seconds to 62 mph"
+  },
   "top": null,
-  "mpg": null,
+  "mpg": {
+   "combined": 26.8,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "official",
+   "note": "Official Japanese 10-15 mode figure, FD2 Type R, 11.4 km/L"
+  },
   "built": {
    "count": 43101,
    "approx": false,
@@ -16951,7 +17185,11 @@ const CARS_INDEX = [
   "kg": 2023,
   "kgNote": "Curb weight",
   "lbs": null,
-  "z60": null,
+  "z60": {
+   "sec": 8.5,
+   "kind": "claimed",
+   "note": "Figure reported by Clean Fleet Report at the 2024 launch; no magazine test published"
+  },
   "top": null,
   "mpg": {
    "combined": 57,

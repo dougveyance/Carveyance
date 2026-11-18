@@ -30276,7 +30276,14 @@ const CARS = [
       "Car and Driver ran a 2016 GT350 to 60 mph in 4.3 seconds and a GT350R in 3.9. The EPA rates it at 16 mpg combined. Its high-revving engine is its appeal and the thing to check hardest on a used car, so ask for the service history and any oil-consumption records. Production ended with the 2020 model year, when the GT500 took over."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {
+      "file": "2016 Ford Mustang Shelby GT350.JPG",
+      "credit": "Tuner tom",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pos": "",
+      "caption": "A 2016 Shelby GT350 on Ford's auto show stand"
+    },
     "match": [
       "Shelby GT350",
       "Ford Shelby GT350",

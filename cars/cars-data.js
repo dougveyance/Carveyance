@@ -21761,7 +21761,11 @@ const CARS_INDEX = [
    "name": "Shelby GT350 (1965–1966)"
   },
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/ford-mustang-shelby-gt350-2015.jpg?v=5fa16c3c",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "ford-mustang-shelby-gt500-2020",

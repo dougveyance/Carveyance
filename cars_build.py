@@ -199,7 +199,7 @@ def _stat_blocks(c):
     out.append(("Power", (num(int(round(p["hp"]))), "hp") if p.get("hp") else None, p.get("note", "")))
     w = c.get("weight") or {}
     out.append(("Weight", (num(int(round(w["kg"]))), "kg") if w.get("kg") else None,
-                (f"{num(lb(w['kg']))} lb" + (" &middot; " + esc(w["note"]) if w.get("note") else "")) if w.get("kg") else ""))
+                (f"{num(w.get('lb') or lb(w['kg']))} lb" + (" &middot; " + esc(w["note"]) if w.get("note") else "")) if w.get("kg") else ""))
     z = c.get("zero60") or {}
     zs = ""
     if z.get("sec"):
@@ -224,6 +224,72 @@ def _stat_blocks(c):
         bs = esc(bs)
     out.append(("Built", (num(int(b["count"])), "") if b.get("count") else None, bs))
     return out
+
+
+def nums_html(c):
+    out = ""
+    for label, val, sub in stat_blocks(c):
+        if val:
+            out += (f'<div class="num"><div class="l">{label.replace("0-60", "0&ndash;60")}</div><div class="v">{esc(val[0])}'
+                    f'{"<small>" + esc(val[1]) + "</small>" if val[1] else ""}</div><div class="s">{sub if label in ("Weight", "Built") else esc(sub)}</div></div>')
+        else:
+            out += f'<div class="num na"><div class="l">{label.replace("0-60", "0&ndash;60")}</div><div class="v">&mdash;</div><div class="s">{esc(sub) if sub else "Not on record"}</div></div>'
+    return out
+
+
+VKEYS = ("power", "weight", "zero60", "top", "mpg")
+
+
+def version_cars(c):
+    """One car dict per engine version. The first version is the car's own figures, which it can override;
+    later versions show a dash for any figure they don't give. Built is the same for every version."""
+    vs = c.get("versions") or []
+    out = []
+    for i, v in enumerate(vs):
+        vc = dict(c)
+        for k in VKEYS:
+            vc[k] = v[k] if k in v else (c.get(k) if i == 0 else None)
+        vc["specsFor"] = v.get("specsFor") or (c.get("specsFor", "") if i == 0 else "")
+        out.append((v, vc))
+    return out
+
+
+def version_row(v, vc):
+    p, w, z, t, m = (vc.get(k) or {} for k in VKEYS)
+    dash = '<span class="dim">&mdash;</span>'
+    cells = [f'<b>{esc(v["name"])}</b>' + (f'<span>{esc(v["detail"])}</span>' if v.get("detail") else ""),
+             f'{num(int(round(p["hp"])))} hp' if p.get("hp") else dash,
+             f'{num(int(round(w["kg"])))} kg ({num(w.get("lb") or lb(w["kg"]))} lb)' if w.get("kg") else dash,
+             f'{float(z["sec"]):.1f} sec' if z.get("sec") else dash,
+             f'{num(int(round(t["mph"])))} mph' if t.get("mph") else dash,
+             f'{m["combined"]:g} {esc(m.get("unit") or "mpg")}' if m.get("combined") else dash]
+    return "<tr>" + "".join(f"<td>{x}</td>" for x in cells) + "</tr>"
+
+
+def numbers_html(c, specs_for):
+    """The In the numbers band: one stat strip, or engine buttons that swap the strip plus an All versions table."""
+    vers = version_cars(c)
+    if len(vers) < 2:
+        return (f'<div class="nums">{nums_html(c)}</div>\n'
+                f'    <p class="specs-for">{"Figures for the " + specs_for + "." if specs_for else ""} Sources are listed at the foot of the page.</p>')
+    tabs = "".join(f'<button type="button" role="tab" id="vt{i}" aria-controls="vp{i}" aria-selected="{"true" if i == 0 else "false"}"'
+                   f'{"" if i == 0 else " tabindex=\"-1\""}>{esc(v["name"])}</button>' for i, (v, vc) in enumerate(vers))
+    panels = "".join(f'<div class="vpanel" role="tabpanel" id="vp{i}" aria-labelledby="vt{i}"{"" if i == 0 else " hidden"}>'
+                     f'<div class="nums">{nums_html(vc)}</div>'
+                     f'<p class="specs-for">{"Figures for the " + esc(vc["specsFor"]) + "." if vc.get("specsFor") else ""} Sources are listed at the foot of the page.</p></div>'
+                     for i, (v, vc) in enumerate(vers))
+    rows = "".join(version_row(v, vc) for v, vc in vers)
+    table = ('<div class="vtable"><div class="kick">All versions</div><div class="vscroll"><table>'
+             '<thead><tr><th>Engine</th><th>Power</th><th>Weight</th><th>0&ndash;60 mph</th><th>Top speed</th><th>MPG</th></tr></thead>'
+             f'<tbody>{rows}</tbody></table></div>'
+             '<p class="specs-for">Built covers every version together. A dash means we haven\u2019t found a figure we trust for that version.</p></div>')
+    js = ('<script>(function(){var b=document.querySelectorAll(".vers [role=tab]");'
+          'function go(t){b.forEach(function(x){var on=x===t;x.setAttribute("aria-selected",on);x.tabIndex=on?0:-1;'
+          'document.getElementById(x.getAttribute("aria-controls")).hidden=!on;});}'
+          'b.forEach(function(x,i){x.addEventListener("click",function(){go(x);});'
+          'x.addEventListener("keydown",function(e){var k=e.key==="ArrowRight"?1:e.key==="ArrowLeft"?-1:0;'
+          'if(k){var n=b[(i+k+b.length)%b.length];n.focus();go(n);}});});})();</script>')
+    return f'<div class="vers" role="tablist" aria-label="Engine">{tabs}</div>{panels}{table}{js}'
 
 
 def src_label(s, arts):
@@ -433,13 +499,7 @@ def car_page(c, cars, by_id, arts, photos):
     maker_html = esc(maker).replace(esc(c["make"]), f'<a href="/cars/?make={urllib.parse.quote(c["make"])}">{esc(c["make"])}</a>', 1) \
         if esc(c["make"]) in esc(maker) else f'{esc(maker)} (<a href="/cars/?make={urllib.parse.quote(c["make"])}">more {esc(c["make"])}</a>)'
 
-    nums = ""
-    for label, val, sub in stat_blocks(c):
-        if val:
-            nums += (f'<div class="num"><div class="l">{label.replace("0-60", "0&ndash;60")}</div><div class="v">{esc(val[0])}'
-                     f'{"<small>" + esc(val[1]) + "</small>" if val[1] else ""}</div><div class="s">{sub if label in ("Weight", "Built") else esc(sub)}</div></div>')
-        else:
-            nums += f'<div class="num na"><div class="l">{label.replace("0-60", "0&ndash;60")}</div><div class="v">&mdash;</div><div class="s">{esc(sub) if sub else "Not on record"}</div></div>'
+    nums = nums_html(c)
 
     story = "".join(f"<p>{esc(p)}</p>" for p in c.get("story") or [])
     facts = [("Years", c.get("years")), ("Built in", c.get("country")), ("Engine", c.get("engine")),
@@ -477,11 +537,12 @@ def car_page(c, cars, by_id, arts, photos):
                  "".join(mini_card(x, photos[x["id"]]) for x in more) + "</div></div></section>") if more else ""
 
     srcs = []
-    for key in ("power", "weight", "zero60", "top", "mpg", "built"):
-        s = (c.get(key) or {}).get("src")
-        lab = src_label(s, arts)
-        if lab and lab not in srcs:
-            srcs.append(lab)
+    for obj in [c] + [v for v in c.get("versions") or []]:
+        for key in ("power", "weight", "zero60", "top", "mpg", "built"):
+            s = (obj.get(key) or {}).get("src")
+            lab = src_label(s, arts)
+            if lab and lab not in srcs:
+                srcs.append(lab)
     src_html = "".join(f'<li><a href="{esc(u)}"{" rel=\"noopener\" target=\"_blank\"" if u.startswith("http") else ""}>{esc(t)}</a></li>' for u, t in srcs)
     specs_for = esc(c.get("specsFor", ""))
 
@@ -536,8 +597,7 @@ def car_page(c, cars, by_id, arts, photos):
 <section class="numbers" aria-label="In the numbers">
   <div class="wrap">
     <div class="kick">In the numbers</div>
-    <div class="nums">{nums}</div>
-    <p class="specs-for">{"Figures for the " + specs_for + "." if specs_for else ""} Sources are listed at the foot of the page.</p>
+    {numbers_html(c, specs_for)}
   </div>
 </section>
 {guide_html}
@@ -779,7 +839,7 @@ def main():
                      "drive": c.get("drive", ""), "gearbox": c.get("gearbox", ""), "specsFor": c.get("specsFor", ""),
                      "guide": ({k: (c.get("guide") or {}).get(k, "") for k in ("url", "title")} if (c.get("guide") or {}).get("url") else None),
                      "shop": ({k: v for k, v in (c.get("shop") or {}).items() if k in ("list", "model", "cargurus") and v} or None),
-                     "hp": (c.get("power") or {}).get("hp"), "kg": (c.get("weight") or {}).get("kg"), "kgNote": (c.get("weight") or {}).get("note", ""),
+                     "hp": (c.get("power") or {}).get("hp"), "kg": (c.get("weight") or {}).get("kg"), "kgNote": (c.get("weight") or {}).get("note", ""), "lbs": (c.get("weight") or {}).get("lb"),
                      "z60": ({k: (c.get("zero60") or {}).get(k) for k in ("sec", "kind", "note")} if (c.get("zero60") or {}).get("sec") else None),
                      "top": ({k: (c.get("top") or {}).get(k) for k in ("mph", "kind", "note")} if (c.get("top") or {}).get("mph") else None),
                      "mpg": ({k: (c.get("mpg") or {}).get(k) for k in ("combined", "city", "hwy", "unit", "kind", "note")} if (c.get("mpg") or {}).get("combined") else None),

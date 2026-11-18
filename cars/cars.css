@@ -196,6 +196,21 @@ footer .fl a{color:rgba(255,255,255,.72)}footer .fl a:hover{color:#fff}
 .nums{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));border-top:1px solid rgba(255,255,255,.12)}
 .num{padding:20px 22px 6px 0;border-right:1px solid rgba(255,255,255,.1);margin-right:22px}
 .num:last-child{border-right:0;margin-right:0}
+.vers{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 20px}
+.vers button{font:inherit;font-size:11.5px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.72);background:transparent;border:1px solid rgba(255,255,255,.26);border-radius:999px;padding:9px 15px;cursor:pointer}
+.vers button:hover{border-color:rgba(255,255,255,.6);color:#fff}
+.vers button[aria-selected="true"]{background:#fff;border-color:#fff;color:var(--ink)}
+.vers button:focus-visible{outline:2px solid var(--sky);outline-offset:2px}
+.vtable{margin-top:34px;padding-top:26px;border-top:1px solid rgba(255,255,255,.12)}
+.vtable .kick{margin-bottom:14px}
+.vscroll{overflow-x:auto;scrollbar-color:rgba(255,255,255,.25) transparent;scrollbar-width:thin}
+.vtable table{width:100%;border-collapse:collapse;font-size:14px;color:rgba(255,255,255,.82)}
+.vtable th{text-align:left;font-size:10.5px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.5);padding:0 18px 10px 0;border-bottom:1px solid rgba(255,255,255,.15);white-space:nowrap}
+.vtable td{padding:12px 18px 12px 0;border-bottom:1px solid rgba(255,255,255,.08);white-space:nowrap;vertical-align:top}
+.vtable td:first-child{white-space:normal;min-width:150px}
+.vtable td b{display:block;color:#fff;font-weight:600}
+.vtable td b+span{display:block;font-size:12px;color:rgba(255,255,255,.5);margin-top:2px}
+.vtable .dim{color:rgba(255,255,255,.3)}
 .num .l{font-size:10.5px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.55)}
 .num .v{font-family:'Bebas Neue',sans-serif;font-size:46px;line-height:1;letter-spacing:.02em;margin-top:8px;white-space:nowrap}
 .num .v small{font-size:20px;color:rgba(255,255,255,.6);margin-left:4px}

@@ -1022,6 +1022,46 @@ const CARS = [
       "note": "EPA combined, 1985 US RX-7 12A, 5-speed manual",
       "src": "https://www.fueleconomy.gov/feg/noframes/22.shtml"
     },
+    "versions": [
+      {
+        "name": "12A",
+        "detail": "1.1-liter twin-rotor"
+      },
+      {
+        "name": "13B, GSL-SE",
+        "detail": "1.3-liter fuel-injected twin-rotor, 1984–1985",
+        "specsFor": "1984 Mazda RX-7 GSL-SE, US market (Car and Driver test)",
+        "power": {
+          "hp": 135,
+          "note": "13B rotary",
+          "src": "https://www.0-60specs.com/mazda/rx-7-0-60-times"
+        },
+        "weight": {
+          "kg": 1179,
+          "note": "Curb weight, 1984 GSL-SE",
+          "src": "https://www.0-60specs.com/mazda/rx-7-0-60-times",
+          "lb": 2600
+        },
+        "zero60": {
+          "sec": 7.8,
+          "kind": "tested",
+          "note": "Car and Driver test, 1984 GSL-SE",
+          "src": "https://www.0-60specs.com/mazda/rx-7-0-60-times"
+        },
+        "top": {
+          "na": "No figure on record"
+        },
+        "mpg": {
+          "combined": 17,
+          "city": 15,
+          "hwy": 22,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/23.shtml",
+          "note": "EPA combined, 1985 GSL-SE 13B, 5-speed manual"
+        }
+      }
+    ],
     "built": {
       "count": 471018,
       "approx": false,
@@ -1194,6 +1234,46 @@ const CARS = [
       "note": "EPA combined, 1989 US RX-7 Turbo II, manual",
       "src": "https://www.fueleconomy.gov/feg/noframes/5277.shtml"
     },
+    "versions": [
+      {
+        "name": "Turbo",
+        "detail": "1.3-liter turbocharged twin-rotor (13B-T)"
+      },
+      {
+        "name": "Non-turbo",
+        "detail": "1.3-liter twin-rotor (13B)",
+        "specsFor": "1986 Mazda RX-7 GXL, US market (Motor Trend test)",
+        "power": {
+          "hp": 146,
+          "note": "13B rotary",
+          "src": "https://www.0-60specs.com/mazda/rx-7-0-60-times"
+        },
+        "weight": {
+          "kg": 1260,
+          "note": "Curb weight, 1986 GXL",
+          "src": "https://www.0-60specs.com/mazda/rx-7-0-60-times",
+          "lb": 2778
+        },
+        "zero60": {
+          "sec": 8.1,
+          "kind": "tested",
+          "note": "Motor Trend test, 1986 GXL",
+          "src": "https://www.0-60specs.com/mazda/rx-7-0-60-times"
+        },
+        "top": {
+          "na": "No figure on record"
+        },
+        "mpg": {
+          "combined": 18,
+          "city": 15,
+          "hwy": 23,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/5276.shtml",
+          "note": "EPA combined, 1989 non-turbo, 5-speed manual"
+        }
+      }
+    ],
     "built": {
       "count": 272027,
       "approx": false,
@@ -2724,6 +2804,46 @@ const CARS = [
       "note": "EPA combined, 2001 M Coupe; EPA lists no 2002",
       "src": "https://www.fueleconomy.gov/feg/noframes/16429.shtml"
     },
+    "versions": [
+      {
+        "name": "S54",
+        "detail": "3.2-liter inline-6, 2001–2002"
+      },
+      {
+        "name": "S52",
+        "detail": "3.2-liter inline-6, 1998–2000",
+        "specsFor": "1999 BMW Z3 M Coupe, US market (Motor Trend test)",
+        "power": {
+          "hp": 240,
+          "note": "S52 3.2-liter inline-6",
+          "src": "https://www.0-60specs.com/bmw/z3-0-60-times"
+        },
+        "weight": {
+          "kg": 1415,
+          "note": "Curb weight, 1999 M Coupe",
+          "src": "https://www.0-60specs.com/bmw/z3-0-60-times",
+          "lb": 3120
+        },
+        "zero60": {
+          "sec": 5.4,
+          "kind": "tested",
+          "note": "Motor Trend test, 1999 M Coupe",
+          "src": "https://www.0-60specs.com/bmw/z3-0-60-times"
+        },
+        "top": {
+          "na": "No figure on record"
+        },
+        "mpg": {
+          "combined": 20,
+          "city": 17,
+          "hwy": 24,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/14792.shtml",
+          "note": "EPA combined, 1999 M Coupe"
+        }
+      }
+    ],
     "built": {
       "count": 6291,
       "approx": false,
@@ -3104,6 +3224,46 @@ const CARS = [
       "note": "EPA combined, 1999 Carrera, manual",
       "src": "https://www.fueleconomy.gov/feg/noframes/14827.shtml"
     },
+    "versions": [
+      {
+        "name": "3.4-liter",
+        "detail": "1999–2001"
+      },
+      {
+        "name": "3.6-liter",
+        "detail": "2002–2005",
+        "specsFor": "2002 Porsche 911 Carrera coupe, 6-speed manual, US market (Road & Track test)",
+        "power": {
+          "hp": 320,
+          "note": "3.6-liter flat-6",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "weight": {
+          "kg": 1338,
+          "note": "Curb weight, 2002 Carrera coupe",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times",
+          "lb": 2950
+        },
+        "zero60": {
+          "sec": 4.9,
+          "kind": "tested",
+          "note": "Road & Track test, 2002 Carrera coupe",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "top": {
+          "na": "No figure on record"
+        },
+        "mpg": {
+          "combined": 19,
+          "city": 16,
+          "hwy": 24,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/17394.shtml",
+          "note": "EPA combined, 2002 Carrera, manual"
+        }
+      }
+    ],
     "built": {
       "count": 175262,
       "approx": false,
@@ -5754,6 +5914,83 @@ const CARS = [
       "note": "EPA combined, 1987 US GTI 16V",
       "src": "https://www.fueleconomy.gov/feg/noframes/3332.shtml"
     },
+    "versions": [
+      {
+        "name": "16-valve, Europe",
+        "detail": "1.8-liter, no catalytic converter",
+        "mpg": {
+          "na": "European model, not rated by the EPA"
+        }
+      },
+      {
+        "name": "16-valve, US",
+        "detail": "1.8-liter",
+        "specsFor": "1987 Volkswagen GTI 16V, US market (Car and Driver test)",
+        "power": {
+          "hp": 123,
+          "note": "1.8-liter 16-valve, US version",
+          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+        },
+        "weight": {
+          "kg": 1021,
+          "note": "Curb weight, 1987 GTI 16V",
+          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times",
+          "lb": 2250
+        },
+        "zero60": {
+          "sec": 8.5,
+          "kind": "tested",
+          "note": "Car and Driver test, 1987 GTI 16V",
+          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+        },
+        "top": {
+          "na": "No figure on record"
+        },
+        "mpg": {
+          "combined": 23,
+          "city": 21,
+          "hwy": 26,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/3332.shtml",
+          "note": "EPA combined, 1987 US GTI 16V"
+        }
+      },
+      {
+        "name": "8-valve, US",
+        "detail": "1.8-liter",
+        "specsFor": "1990 Volkswagen GTI, US market (Car and Driver test)",
+        "power": {
+          "hp": 100,
+          "note": "1.8-liter 8-valve, US version",
+          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+        },
+        "weight": {
+          "kg": 1070,
+          "note": "Curb weight, 1990 GTI",
+          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times",
+          "lb": 2360
+        },
+        "zero60": {
+          "sec": 10.2,
+          "kind": "tested",
+          "note": "Car and Driver test, 1990 GTI",
+          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+        },
+        "top": {
+          "na": "No figure on record"
+        },
+        "mpg": {
+          "combined": 25,
+          "city": 22,
+          "hwy": 29,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/6770.shtml",
+          "note": "EPA combined, 1990 Golf and GTI 1.8, 5-speed manual"
+        }
+      }
+    ],
     "built": null,
     "weight": null,
     "top": {
@@ -5809,6 +6046,80 @@ const CARS = [
     "aka": [],
     "country": "Germany",
     "drive": "Front-wheel drive",
+    "versions": [
+      {
+        "name": "2.0 16-valve",
+        "detail": "Europe"
+      },
+      {
+        "name": "2.0 8-valve, US",
+        "detail": "4-cylinder",
+        "specsFor": "1996 Volkswagen GTI, US market (Motor Trend test)",
+        "power": {
+          "hp": 115,
+          "note": "2.0-liter 8-valve",
+          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+        },
+        "weight": {
+          "kg": 1247,
+          "note": "Curb weight, 1996 GTI",
+          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times",
+          "lb": 2750
+        },
+        "zero60": {
+          "sec": 9.8,
+          "kind": "tested",
+          "note": "Motor Trend test, 1996 GTI",
+          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+        },
+        "top": {
+          "na": "No figure on record"
+        },
+        "mpg": {
+          "combined": 23,
+          "city": 20,
+          "hwy": 28,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/12793.shtml",
+          "note": "EPA combined, 1996 Golf and GTI 2.0, 5-speed manual"
+        }
+      },
+      {
+        "name": "VR6",
+        "detail": "2.8-liter V6",
+        "specsFor": "1995 Volkswagen GTI VR6, US market (Car and Driver test)",
+        "power": {
+          "hp": 172,
+          "note": "2.8-liter VR6",
+          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+        },
+        "weight": {
+          "kg": 1315,
+          "note": "Curb weight, 1995 GTI VR6",
+          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times",
+          "lb": 2900
+        },
+        "zero60": {
+          "sec": 6.7,
+          "kind": "tested",
+          "note": "Car and Driver test, 1995 GTI VR6",
+          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+        },
+        "top": {
+          "na": "No figure on record"
+        },
+        "mpg": {
+          "combined": 19,
+          "city": 17,
+          "hwy": 23,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/11929.shtml",
+          "note": "EPA combined, 1995 GTI VR6, 5-speed manual"
+        }
+      }
+    ],
     "built": null,
     "weight": null,
     "top": null,
@@ -5870,10 +6181,60 @@ const CARS = [
       "note": "EPA combined, 2002 US GTI 1.8T, 5-speed manual",
       "src": "https://www.fueleconomy.gov/feg/noframes/17641.shtml"
     },
+    "versions": [
+      {
+        "name": "1.8-liter turbo",
+        "detail": "4-cylinder"
+      },
+      {
+        "name": "2.8-liter VR6",
+        "detail": "V6 (12-valve to 2001, 24-valve and 200 hp from 2002)",
+        "specsFor": "2000 Volkswagen GTI GLX VR6, US market (Car and Driver test)",
+        "power": {
+          "hp": 174,
+          "note": "2.8-liter VR6, 12-valve",
+          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+        },
+        "weight": {
+          "kg": 1397,
+          "note": "Curb weight, 2000 GTI GLX VR6",
+          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times",
+          "lb": 3080
+        },
+        "zero60": {
+          "sec": 7.6,
+          "kind": "tested",
+          "note": "Car and Driver test, 2000 GTI GLX VR6",
+          "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+        },
+        "top": {
+          "na": "No figure on record"
+        },
+        "mpg": {
+          "combined": 21,
+          "city": 18,
+          "hwy": 26,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/15858.shtml",
+          "note": "EPA combined, 2000 GTI VR6, 5-speed manual"
+        }
+      }
+    ],
     "built": null,
-    "weight": null,
+    "weight": {
+      "kg": 1315,
+      "note": "Curb weight, 2000 GTI GLS 1.8T",
+      "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times",
+      "lb": 2900
+    },
     "top": null,
-    "zero60": null,
+    "zero60": {
+      "sec": 7.3,
+      "kind": "tested",
+      "note": "Car and Driver test, 2000 GTI GLS 1.8T",
+      "src": "https://www.0-60specs.com/volkswagen/gti-0-60-times"
+    },
     "photo": {},
     "id": "volkswagen-golf-gti-mk4",
     "name": "Volkswagen Golf GTI (Mk4)",
@@ -6917,6 +7278,45 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/48976.shtml"
     },
+    "versions": [
+      {
+        "name": "2.4-liter turbo",
+        "detail": "4-cylinder, 8-speed automatic"
+      },
+      {
+        "name": "i-FORCE MAX hybrid",
+        "detail": "2.4-liter turbo hybrid, 4WD",
+        "specsFor": "2025 Toyota 4Runner Trailhunter, US market (Car and Driver test)",
+        "power": {
+          "hp": 326,
+          "note": "Combined system output",
+          "src": "https://www.0-60specs.com/toyota/4runner-0-60-times"
+        },
+        "weight": {
+          "kg": 2449,
+          "note": "Curb weight, 2025 Trailhunter",
+          "src": "https://www.0-60specs.com/toyota/4runner-0-60-times",
+          "lb": 5400
+        },
+        "zero60": {
+          "sec": 6.7,
+          "kind": "tested",
+          "note": "Car and Driver test, 2025 Trailhunter",
+          "src": "https://www.0-60specs.com/toyota/4runner-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 23,
+          "city": 23,
+          "hwy": 24,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/49062.shtml"
+        }
+      }
+    ],
     "built": {
       "count": 217414,
       "approx": true,
@@ -7358,6 +7758,82 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/36795.shtml"
     },
+    "versions": [
+      {
+        "name": "2.5-liter",
+        "detail": "4-cylinder, 6-speed automatic"
+      },
+      {
+        "name": "3.5-liter V6",
+        "detail": "6-speed automatic",
+        "specsFor": "2017 Toyota Camry XSE V6, US market (Car and Driver test)",
+        "power": {
+          "hp": 268,
+          "note": "3.5-liter V6",
+          "src": "https://autos.yahoo.com/2017-toyota-camry-xse-v-193000489.html"
+        },
+        "weight": {
+          "kg": 1578,
+          "note": "Curb weight, as tested",
+          "src": "https://autos.yahoo.com/2017-toyota-camry-xse-v-193000489.html",
+          "lb": 3478
+        },
+        "zero60": {
+          "sec": 6.1,
+          "kind": "tested",
+          "note": "Car and Driver test",
+          "src": "https://autos.yahoo.com/2017-toyota-camry-xse-v-193000489.html"
+        },
+        "top": {
+          "mph": 129,
+          "kind": "tested",
+          "note": "Governor limited (Car and Driver)",
+          "src": "https://autos.yahoo.com/2017-toyota-camry-xse-v-193000489.html"
+        },
+        "mpg": {
+          "combined": 25,
+          "city": 21,
+          "hwy": 30,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/36798.shtml"
+        }
+      },
+      {
+        "name": "Hybrid",
+        "detail": "2.5-liter 4-cylinder hybrid",
+        "specsFor": "2017 Toyota Camry Hybrid SE, US market (Car and Driver test)",
+        "power": {
+          "hp": 200,
+          "note": "Combined system output",
+          "src": "https://www.0-60specs.com/toyota/camry-0-60-times"
+        },
+        "weight": {
+          "kg": 1631,
+          "note": "Curb weight, 2017 Hybrid SE",
+          "src": "https://www.0-60specs.com/toyota/camry-0-60-times",
+          "lb": 3595
+        },
+        "zero60": {
+          "sec": 7.2,
+          "kind": "tested",
+          "note": "Car and Driver test, 2017 Hybrid SE",
+          "src": "https://www.0-60specs.com/toyota/camry-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 39,
+          "city": 40,
+          "hwy": 37,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/36797.shtml",
+          "note": "EPA combined, Hybrid SE and XLE, 40 city / 37 highway"
+        }
+      }
+    ],
     "built": {
       "count": 2447027,
       "approx": true,
@@ -7435,6 +7911,82 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/38883.shtml"
     },
+    "versions": [
+      {
+        "name": "2.5-liter",
+        "detail": "4-cylinder, 8-speed automatic"
+      },
+      {
+        "name": "3.5-liter V6",
+        "detail": "8-speed automatic",
+        "specsFor": "2018 Toyota Camry XSE V6, US market (Car and Driver test)",
+        "power": {
+          "hp": 301,
+          "note": "3.5-liter V6",
+          "src": "https://autos.yahoo.com/2018-toyota-camry-xse-v-183300942.html"
+        },
+        "weight": {
+          "kg": 1662,
+          "note": "Curb weight, as tested",
+          "src": "https://autos.yahoo.com/2018-toyota-camry-xse-v-183300942.html",
+          "lb": 3665
+        },
+        "zero60": {
+          "sec": 5.8,
+          "kind": "tested",
+          "note": "Car and Driver test",
+          "src": "https://autos.yahoo.com/2018-toyota-camry-xse-v-183300942.html"
+        },
+        "top": {
+          "mph": 136,
+          "kind": "tested",
+          "note": "Governor limited (Car and Driver)",
+          "src": "https://autos.yahoo.com/2018-toyota-camry-xse-v-183300942.html"
+        },
+        "mpg": {
+          "combined": 26,
+          "city": 22,
+          "hwy": 32,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/38882.shtml"
+        }
+      },
+      {
+        "name": "Hybrid",
+        "detail": "2.5-liter 4-cylinder hybrid",
+        "specsFor": "2018 Toyota Camry Hybrid XLE, US market (Car and Driver test)",
+        "power": {
+          "hp": 208,
+          "note": "Combined system output",
+          "src": "https://www.0-60specs.com/toyota/camry-0-60-times"
+        },
+        "weight": {
+          "kg": 1624,
+          "note": "Curb weight, 2018 Hybrid XLE",
+          "src": "https://www.0-60specs.com/toyota/camry-0-60-times",
+          "lb": 3580
+        },
+        "zero60": {
+          "sec": 7.9,
+          "kind": "tested",
+          "note": "Car and Driver test, 2018 Hybrid XLE",
+          "src": "https://www.0-60specs.com/toyota/camry-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 46,
+          "city": 44,
+          "hwy": 47,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/38937.shtml",
+          "note": "EPA combined, Hybrid SE and XLE, 44 city / 47 highway (LE: 52 mpg)"
+        }
+      }
+    ],
     "built": {
       "count": 2184285,
       "approx": true,
@@ -7733,6 +8285,79 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/40334.shtml"
     },
+    "versions": [
+      {
+        "name": "2.0-liter",
+        "detail": "4-cylinder, CVT or 6-speed manual"
+      },
+      {
+        "name": "1.8-liter",
+        "detail": "4-cylinder, CVT (sedan)",
+        "specsFor": "2020 Toyota Corolla XLE sedan, US market (Motor Trend test)",
+        "power": {
+          "hp": 139,
+          "note": "1.8-liter 4-cylinder",
+          "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
+        },
+        "weight": {
+          "kg": 1340,
+          "note": "Curb weight, 2020 XLE sedan",
+          "src": "https://www.0-60specs.com/toyota/corolla-0-60-times",
+          "lb": 2955
+        },
+        "zero60": {
+          "sec": 10.2,
+          "kind": "tested",
+          "note": "Motor Trend test, 2020 XLE sedan",
+          "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 33,
+          "city": 30,
+          "hwy": 38,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/41217.shtml",
+          "note": "EPA combined, 1.8-liter sedan, 30 city / 38 highway"
+        }
+      },
+      {
+        "name": "Hybrid",
+        "detail": "1.8-liter 4-cylinder hybrid (sedan)",
+        "specsFor": "2020 Toyota Corolla Hybrid LE, US market (Car and Driver test)",
+        "power": {
+          "hp": 121,
+          "note": "Combined system output (138 hp from 2023)",
+          "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
+        },
+        "weight": {
+          "kg": 1293,
+          "note": "Curb weight, 2020 Hybrid LE",
+          "src": "https://www.0-60specs.com/toyota/corolla-0-60-times",
+          "lb": 2850
+        },
+        "zero60": {
+          "sec": 10.7,
+          "kind": "tested",
+          "note": "Car and Driver test, 2020 Hybrid LE",
+          "src": "https://www.0-60specs.com/toyota/corolla-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 52,
+          "city": 53,
+          "hwy": 52,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/41214.shtml"
+        }
+      }
+    ],
     "built": {
       "count": 1944508,
       "approx": true,
@@ -7886,6 +8511,46 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/47519.shtml"
     },
+    "versions": [
+      {
+        "name": "Hybrid",
+        "detail": "2.0-liter 4-cylinder hybrid, AWD"
+      },
+      {
+        "name": "2.0-liter",
+        "detail": "4-cylinder, CVT",
+        "specsFor": "2022 Toyota Corolla Cross XLE AWD, US market (Car and Driver test)",
+        "power": {
+          "hp": 169,
+          "note": "2.0-liter 4-cylinder",
+          "src": "https://www.0-60specs.com/toyota/corolla-cross-0-60-times"
+        },
+        "weight": {
+          "kg": 1535,
+          "note": "Curb weight, 2022 XLE AWD",
+          "src": "https://www.0-60specs.com/toyota/corolla-cross-0-60-times",
+          "lb": 3385
+        },
+        "zero60": {
+          "sec": 9.2,
+          "kind": "tested",
+          "note": "Car and Driver test, 2022 XLE AWD",
+          "src": "https://www.0-60specs.com/toyota/corolla-cross-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 30,
+          "city": 29,
+          "hwy": 32,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/44593.shtml",
+          "note": "EPA combined, AWD, 29 city / 32 highway (front-drive: 32 mpg)"
+        }
+      }
+    ],
     "built": {
       "count": 428738,
       "approx": true,
@@ -7942,10 +8607,10 @@ const CARS = [
       "src": "https://www.iseecars.com/car/2017-toyota-rav4_hybrid-specs"
     },
     "zero60": {
-      "sec": 8.2,
+      "sec": 8.3,
       "kind": "tested",
-      "note": "Consumer Guide test, Hybrid Limited",
-      "src": "https://blog.consumerguide.com/test-drive-2017-toyota-rav4-hybrid-limited/"
+      "note": "Car and Driver test, 2016 Limited Hybrid",
+      "src": "https://www.0-60specs.com/toyota/rav4-0-60-times"
     },
     "top": {
       "na": "No US figure from Toyota"
@@ -7958,6 +8623,46 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/38075.shtml"
     },
+    "versions": [
+      {
+        "name": "Hybrid",
+        "detail": "2.5-liter 4-cylinder hybrid, AWD"
+      },
+      {
+        "name": "2.5-liter",
+        "detail": "4-cylinder, 6-speed automatic",
+        "specsFor": "2016 Toyota RAV4 SE AWD, US market (Car and Driver test)",
+        "power": {
+          "hp": 176,
+          "note": "2.5-liter 4-cylinder",
+          "src": "https://www.0-60specs.com/toyota/rav4-0-60-times"
+        },
+        "weight": {
+          "kg": 1637,
+          "note": "Curb weight, 2016 SE AWD",
+          "src": "https://www.0-60specs.com/toyota/rav4-0-60-times",
+          "lb": 3610
+        },
+        "zero60": {
+          "sec": 8.4,
+          "kind": "tested",
+          "note": "Car and Driver test, 2016 SE AWD",
+          "src": "https://www.0-60specs.com/toyota/rav4-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 25,
+          "city": 22,
+          "hwy": 28,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/38073.shtml",
+          "note": "EPA combined, 2017 AWD, 22 city / 28 highway"
+        }
+      }
+    ],
     "built": {
       "count": 1988260,
       "approx": true,
@@ -8018,10 +8723,10 @@ const CARS = [
       "src": "https://gtplanet.net/2019-toyota-rav4-hybrid-road-test-review-top-of-the-charts"
     },
     "zero60": {
-      "sec": 7.5,
+      "sec": 7.4,
       "kind": "tested",
-      "note": "Consumer Guide test, Hybrid Limited",
-      "src": "https://blog.consumerguide.com/?p=74227"
+      "note": "Car and Driver test, 2019 Limited Hybrid",
+      "src": "https://www.0-60specs.com/toyota/rav4-0-60-times"
     },
     "top": {
       "na": "No US figure from Toyota"
@@ -8034,6 +8739,80 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/41307.shtml"
     },
+    "versions": [
+      {
+        "name": "Hybrid",
+        "detail": "2.5-liter 4-cylinder hybrid, AWD"
+      },
+      {
+        "name": "2.5-liter",
+        "detail": "4-cylinder, 8-speed automatic",
+        "specsFor": "2019 Toyota RAV4 Adventure AWD, US market (Car and Driver test)",
+        "power": {
+          "hp": 203,
+          "note": "2.5-liter 4-cylinder",
+          "src": "https://www.0-60specs.com/toyota/rav4-0-60-times"
+        },
+        "weight": {
+          "kg": 1674,
+          "note": "Curb weight, 2019 Adventure AWD",
+          "src": "https://www.0-60specs.com/toyota/rav4-0-60-times",
+          "lb": 3690
+        },
+        "zero60": {
+          "sec": 8.0,
+          "kind": "tested",
+          "note": "Car and Driver test, 2019 Adventure AWD",
+          "src": "https://www.0-60specs.com/toyota/rav4-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 28,
+          "city": 25,
+          "hwy": 33,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/41126.shtml",
+          "note": "EPA combined, AWD, 25 city / 33 highway"
+        }
+      },
+      {
+        "name": "Prime (plug-in)",
+        "detail": "2.5-liter plug-in hybrid, AWD",
+        "specsFor": "2021 Toyota RAV4 Prime XSE, US market (Car and Driver test)",
+        "power": {
+          "hp": 302,
+          "note": "Combined system output",
+          "src": "https://www.0-60specs.com/toyota/rav4-0-60-times"
+        },
+        "weight": {
+          "kg": 1950,
+          "note": "Curb weight, 2021 Prime XSE",
+          "src": "https://www.0-60specs.com/toyota/rav4-0-60-times",
+          "lb": 4300
+        },
+        "zero60": {
+          "sec": 5.4,
+          "kind": "tested",
+          "note": "Car and Driver test, 2021 Prime XSE",
+          "src": "https://www.0-60specs.com/toyota/rav4-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 38,
+          "city": 40,
+          "hwy": 36,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/42793.shtml",
+          "note": "EPA combined on gas; 94 MPGe on electricity"
+        }
+      }
+    ],
     "built": {
       "count": 3075559,
       "approx": true,
@@ -8113,6 +8892,40 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/50285.shtml"
     },
+    "versions": [
+      {
+        "name": "Hybrid",
+        "detail": "2.5-liter 4-cylinder hybrid"
+      },
+      {
+        "name": "Plug-in hybrid",
+        "detail": "2.5-liter plug-in hybrid, AWD",
+        "specsFor": "2026 Toyota RAV4 plug-in hybrid GR Sport, US market (Car and Driver test)",
+        "power": {
+          "hp": 324,
+          "note": "Combined system output",
+          "src": "https://www.0-60specs.com/toyota/rav4-0-60-times"
+        },
+        "weight": {
+          "kg": 1992,
+          "note": "Curb weight, 2026 GR Sport",
+          "src": "https://www.0-60specs.com/toyota/rav4-0-60-times",
+          "lb": 4392
+        },
+        "zero60": {
+          "sec": 5.1,
+          "kind": "tested",
+          "note": "Car and Driver test, 2026 GR Sport",
+          "src": "https://www.0-60specs.com/toyota/rav4-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "na": "Not yet on fueleconomy.gov"
+        }
+      }
+    ],
     "built": {
       "count": 293552,
       "approx": true,
@@ -8190,6 +9003,69 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/38424.shtml"
     },
+    "versions": [
+      {
+        "name": "3.5-liter V6",
+        "detail": "8-speed automatic"
+      },
+      {
+        "name": "Hybrid",
+        "detail": "3.5-liter V6 hybrid, AWD",
+        "specsFor": "2017 Toyota Highlander Hybrid Limited, US market (Car and Driver test)",
+        "power": {
+          "hp": 306,
+          "note": "Combined system output",
+          "src": "https://www.0-60specs.com/toyota/highlander-0-60-times"
+        },
+        "weight": {
+          "kg": 2205,
+          "note": "Curb weight, 2017 Hybrid Limited",
+          "src": "https://www.0-60specs.com/toyota/highlander-0-60-times",
+          "lb": 4861
+        },
+        "zero60": {
+          "sec": 7.0,
+          "kind": "tested",
+          "note": "Car and Driver test, 2017 Hybrid Limited",
+          "src": "https://www.0-60specs.com/toyota/highlander-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 28,
+          "city": 29,
+          "hwy": 27,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/38425.shtml"
+        }
+      },
+      {
+        "name": "2.7-liter",
+        "detail": "4-cylinder, front-wheel drive",
+        "specsFor": "2017 Toyota Highlander LE 2.7, US market",
+        "power": {
+          "hp": 185,
+          "note": "2.7-liter 4-cylinder, LE front-wheel drive",
+          "src": "https://pressroom.toyota.com/2017-toyota-highlander-highlander-hybrid-more/"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "zero60": {
+          "na": "No test on record"
+        },
+        "mpg": {
+          "combined": 22,
+          "city": 20,
+          "hwy": 24,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/38414.shtml"
+        }
+      }
+    ],
     "built": {
       "count": 1196144,
       "approx": true,
@@ -8264,6 +9140,80 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/42381.shtml"
     },
+    "versions": [
+      {
+        "name": "3.5-liter V6",
+        "detail": "8-speed automatic, 2020–2022"
+      },
+      {
+        "name": "2.4-liter turbo",
+        "detail": "4-cylinder, 2023–2026",
+        "specsFor": "2023 Toyota Highlander Platinum AWD, US market (Car and Driver test)",
+        "power": {
+          "hp": 265,
+          "note": "2.4-liter turbo 4-cylinder",
+          "src": "https://www.0-60specs.com/toyota/highlander-0-60-times"
+        },
+        "weight": {
+          "kg": 1953,
+          "note": "Curb weight, 2023 Platinum AWD",
+          "src": "https://www.0-60specs.com/toyota/highlander-0-60-times",
+          "lb": 4305
+        },
+        "zero60": {
+          "sec": 7.2,
+          "kind": "tested",
+          "note": "Car and Driver test, 2023 Platinum AWD",
+          "src": "https://www.0-60specs.com/toyota/highlander-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 24,
+          "city": 21,
+          "hwy": 28,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/46155.shtml",
+          "note": "EPA combined, 2023 AWD, 21 city / 28 highway"
+        }
+      },
+      {
+        "name": "Hybrid",
+        "detail": "2.5-liter 4-cylinder hybrid",
+        "specsFor": "2020 Toyota Highlander Hybrid Platinum AWD, US market (Car and Driver test)",
+        "power": {
+          "hp": 243,
+          "note": "Combined system output",
+          "src": "https://www.0-60specs.com/toyota/highlander-0-60-times"
+        },
+        "weight": {
+          "kg": 2084,
+          "note": "Curb weight, 2020 Hybrid Platinum",
+          "src": "https://www.0-60specs.com/toyota/highlander-0-60-times",
+          "lb": 4595
+        },
+        "zero60": {
+          "sec": 7.3,
+          "kind": "tested",
+          "note": "Car and Driver test, 2020 Hybrid Platinum",
+          "src": "https://www.0-60specs.com/toyota/highlander-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 35,
+          "city": 35,
+          "hwy": 34,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/42479.shtml",
+          "note": "EPA combined, Hybrid Limited and Platinum AWD (front-drive: 36 mpg)"
+        }
+      }
+    ],
     "built": {
       "count": 1061295,
       "approx": true,
@@ -8339,6 +9289,80 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/46754.shtml"
     },
+    "versions": [
+      {
+        "name": "Hybrid MAX",
+        "detail": "2.4-liter turbo hybrid, AWD"
+      },
+      {
+        "name": "2.4-liter turbo",
+        "detail": "4-cylinder, 8-speed automatic",
+        "specsFor": "2024 Toyota Grand Highlander XLE AWD, US market (Car and Driver test)",
+        "power": {
+          "hp": 265,
+          "note": "2.4-liter turbo 4-cylinder",
+          "src": "https://www.0-60specs.com/toyota/grand-highlander-0-60-times"
+        },
+        "weight": {
+          "kg": 1962,
+          "note": "Curb weight, 2024 XLE AWD",
+          "src": "https://www.0-60specs.com/toyota/grand-highlander-0-60-times",
+          "lb": 4325
+        },
+        "zero60": {
+          "sec": 7.0,
+          "kind": "tested",
+          "note": "Car and Driver test, 2024 XLE AWD",
+          "src": "https://www.0-60specs.com/toyota/grand-highlander-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 23,
+          "city": 21,
+          "hwy": 27,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/46755.shtml",
+          "note": "EPA combined, LE and XLE AWD, 21 city / 27 highway"
+        }
+      },
+      {
+        "name": "Hybrid",
+        "detail": "2.5-liter 4-cylinder hybrid",
+        "specsFor": "2025 Toyota Grand Highlander Hybrid Nightshade, US market (Car and Driver test)",
+        "power": {
+          "hp": 245,
+          "note": "Combined system output",
+          "src": "https://www.0-60specs.com/toyota/grand-highlander-0-60-times"
+        },
+        "weight": {
+          "kg": 2018,
+          "note": "Curb weight, 2024 Hybrid XLE",
+          "src": "https://www.0-60specs.com/toyota/grand-highlander-0-60-times",
+          "lb": 4450
+        },
+        "zero60": {
+          "sec": 7.8,
+          "kind": "tested",
+          "note": "Car and Driver test, 2025 Hybrid Nightshade",
+          "src": "https://www.0-60specs.com/toyota/grand-highlander-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 34,
+          "city": 36,
+          "hwy": 32,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/46753.shtml",
+          "note": "EPA combined, AWD, 36 city / 32 highway"
+        }
+      }
+    ],
     "built": {
       "count": 379506,
       "approx": true,
@@ -8416,6 +9440,37 @@ const CARS = [
       "note": "EPA combined, V6 4x4 automatic (manual: 18 mpg)",
       "src": "https://www.fueleconomy.gov/feg/noframes/37987.shtml"
     },
+    "versions": [
+      {
+        "name": "3.5-liter V6",
+        "detail": "6-speed automatic or manual"
+      },
+      {
+        "name": "2.7-liter",
+        "detail": "4-cylinder",
+        "specsFor": "2017 Toyota Tacoma 2.7, US market",
+        "power": {
+          "hp": 159,
+          "note": "2.7-liter 4-cylinder",
+          "src": "https://pressroom.toyota.com/2017-tacoma-welcomes-new-trd-pro-lineup/"
+        },
+        "zero60": {
+          "na": "No test on record"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 21,
+          "city": 19,
+          "hwy": 23,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/37985.shtml",
+          "note": "EPA combined, 2WD automatic (4WD: 20 mpg)"
+        }
+      }
+    ],
     "built": {
       "count": 1847631,
       "approx": true,
@@ -8494,6 +9549,46 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/47601.shtml"
     },
+    "versions": [
+      {
+        "name": "2.4-liter turbo",
+        "detail": "4-cylinder, 8-speed automatic or 6-speed manual"
+      },
+      {
+        "name": "i-FORCE MAX hybrid",
+        "detail": "2.4-liter turbo hybrid, 4WD",
+        "specsFor": "2024 Toyota Tacoma TRD Off-Road i-FORCE MAX, US market (Car and Driver test)",
+        "power": {
+          "hp": 326,
+          "note": "Combined system output",
+          "src": "https://www.0-60specs.com/toyota/tacoma-0-60-times"
+        },
+        "weight": {
+          "kg": 2291,
+          "note": "Curb weight, 2024 TRD Off-Road i-FORCE MAX",
+          "src": "https://www.0-60specs.com/toyota/tacoma-0-60-times",
+          "lb": 5050
+        },
+        "zero60": {
+          "sec": 7.6,
+          "kind": "tested",
+          "note": "Car and Driver test, 2024 TRD Off-Road i-FORCE MAX",
+          "src": "https://autos.yahoo.com/2024-toyota-tacoma-hybrid-spicier-110000674.html"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 23,
+          "city": 22,
+          "hwy": 24,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/48461.shtml",
+          "note": "EPA combined, 4WD, 22 city / 24 highway"
+        }
+      }
+    ],
     "built": {
       "count": 704579,
       "approx": true,
@@ -8574,6 +9669,46 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/41859.shtml"
     },
+    "versions": [
+      {
+        "name": "5.7-liter V8",
+        "detail": "6-speed automatic"
+      },
+      {
+        "name": "4.6-liter V8",
+        "detail": "6-speed automatic",
+        "specsFor": "2010 Toyota Tundra SR5 4.6 Double Cab 4x4, US market (Motor Trend test)",
+        "power": {
+          "hp": 310,
+          "note": "4.6-liter V8",
+          "src": "https://www.0-60specs.com/toyota/tundra-0-60-times"
+        },
+        "weight": {
+          "kg": 2372,
+          "note": "Curb weight, 2010 SR5 4.6 Double Cab 4x4",
+          "src": "https://www.0-60specs.com/toyota/tundra-0-60-times",
+          "lb": 5230
+        },
+        "zero60": {
+          "sec": 7.4,
+          "kind": "tested",
+          "note": "Motor Trend test, 2010 SR5 4.6 Double Cab 4x4",
+          "src": "https://www.0-60specs.com/toyota/tundra-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 16,
+          "city": 14,
+          "hwy": 18,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/38126.shtml",
+          "note": "EPA combined, 2017 4WD, 14 city / 18 highway"
+        }
+      }
+    ],
     "built": {
       "count": 1689999,
       "approx": true,
@@ -8652,6 +9787,46 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/45215.shtml"
     },
+    "versions": [
+      {
+        "name": "i-FORCE MAX hybrid",
+        "detail": "3.4-liter twin-turbo V6 hybrid"
+      },
+      {
+        "name": "3.4-liter twin-turbo V6",
+        "detail": "10-speed automatic",
+        "specsFor": "2022 Toyota Tundra Limited TRD Off-Road CrewMax 4x4, US market (Car and Driver test)",
+        "power": {
+          "hp": 389,
+          "note": "3.4-liter twin-turbo V6",
+          "src": "https://www.0-60specs.com/toyota/tundra-0-60-times"
+        },
+        "weight": {
+          "kg": 2558,
+          "note": "Curb weight, 2022 Limited TRD Off-Road",
+          "src": "https://www.0-60specs.com/toyota/tundra-0-60-times",
+          "lb": 5640
+        },
+        "zero60": {
+          "sec": 6.1,
+          "kind": "tested",
+          "note": "Car and Driver test, 2022 Limited TRD Off-Road",
+          "src": "https://www.0-60specs.com/toyota/tundra-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 19,
+          "city": 17,
+          "hwy": 23,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/44900.shtml",
+          "note": "EPA combined, 4WD, 17 city / 23 highway"
+        }
+      }
+    ],
     "built": {
       "count": 658953,
       "approx": true,
@@ -9233,11 +10408,17 @@ const CARS = [
       "src": "https://www.autoblog.com/buy/2018-Toyota-Avalon/expert-review/"
     },
     "weight": {
-      "kg": 1630,
-      "note": "Curb weight, 2017 Avalon Hybrid (3,594–3,638 lb)",
-      "src": "https://www.kbb.com/toyota/avalonhybrid/2017/"
+      "kg": 1590,
+      "note": "Curb weight, 2013 Limited",
+      "src": "https://www.0-60specs.com/toyota/avalon-0-60-times",
+      "lb": 3505
     },
-    "zero60": null,
+    "zero60": {
+      "sec": 6.1,
+      "kind": "tested",
+      "note": "Car and Driver test, 2013 Limited",
+      "src": "https://www.0-60specs.com/toyota/avalon-0-60-times"
+    },
     "top": {
       "na": "No US figure from Toyota"
     },
@@ -9250,6 +10431,45 @@ const CARS = [
       "note": "EPA combined, V6 (Hybrid: 40 mpg)",
       "src": "https://www.fueleconomy.gov/feg/noframes/38294.shtml"
     },
+    "versions": [
+      {
+        "name": "3.5-liter V6",
+        "detail": "6-speed automatic"
+      },
+      {
+        "name": "Hybrid",
+        "detail": "2.5-liter 4-cylinder hybrid",
+        "specsFor": "2016 Toyota Avalon Hybrid XLE Plus, US market (Car and Driver test)",
+        "power": {
+          "hp": 200,
+          "note": "Combined system output",
+          "src": "https://www.0-60specs.com/toyota/avalon-0-60-times"
+        },
+        "weight": {
+          "kg": 1635,
+          "note": "Curb weight, 2016 Hybrid XLE Plus",
+          "src": "https://www.0-60specs.com/toyota/avalon-0-60-times",
+          "lb": 3605
+        },
+        "zero60": {
+          "sec": 7.4,
+          "kind": "tested",
+          "note": "Car and Driver test, 2016 Hybrid XLE Plus",
+          "src": "https://www.0-60specs.com/toyota/avalon-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 40,
+          "city": 40,
+          "hwy": 39,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/38295.shtml"
+        }
+      }
+    ],
     "built": {
       "count": 312478,
       "approx": true,
@@ -9329,6 +10549,78 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/40087.shtml"
     },
+    "versions": [
+      {
+        "name": "3.5-liter V6",
+        "detail": "8-speed automatic"
+      },
+      {
+        "name": "Hybrid",
+        "detail": "2.5-liter 4-cylinder hybrid",
+        "specsFor": "2019 Toyota Avalon Hybrid XSE, US market (Car and Driver test)",
+        "power": {
+          "hp": 215,
+          "note": "Combined system output",
+          "src": "https://www.0-60specs.com/toyota/avalon-0-60-times"
+        },
+        "weight": {
+          "kg": 1651,
+          "note": "Curb weight, 2019 Hybrid XSE",
+          "src": "https://www.0-60specs.com/toyota/avalon-0-60-times",
+          "lb": 3640
+        },
+        "zero60": {
+          "sec": 7.8,
+          "kind": "tested",
+          "note": "Car and Driver test, 2019 Hybrid XSE",
+          "src": "https://www.0-60specs.com/toyota/avalon-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 43,
+          "city": 43,
+          "hwy": 43,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/40089.shtml"
+        }
+      },
+      {
+        "name": "2.5-liter AWD",
+        "detail": "4-cylinder, all-wheel drive, 2021",
+        "specsFor": "2021 Toyota Avalon Limited AWD, US market (Car and Driver test)",
+        "power": {
+          "hp": 205,
+          "note": "2.5-liter 4-cylinder",
+          "src": "https://www.0-60specs.com/toyota/avalon-0-60-times"
+        },
+        "weight": {
+          "kg": 1655,
+          "note": "Curb weight, 2021 Limited AWD",
+          "src": "https://www.0-60specs.com/toyota/avalon-0-60-times",
+          "lb": 3649
+        },
+        "zero60": {
+          "sec": 7.7,
+          "kind": "tested",
+          "note": "Car and Driver test, 2021 Limited AWD",
+          "src": "https://www.0-60specs.com/toyota/avalon-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 28,
+          "city": 25,
+          "hwy": 34,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/42946.shtml"
+        }
+      }
+    ],
     "built": {
       "count": 77918,
       "approx": true,
@@ -10135,10 +11427,10 @@ const CARS = [
       "src": "https://www.kbb.com/toyota/crown/2023/specs/"
     },
     "zero60": {
-      "sec": 6.0,
+      "sec": 7.2,
       "kind": "tested",
-      "note": "Edmunds test, Crown Platinum Hybrid MAX",
-      "src": "https://www.edmunds.com/toyota/crown/2023/"
+      "note": "Car and Driver test, 2023 Limited",
+      "src": "https://www.0-60specs.com/toyota/crown-0-60-times"
     },
     "top": {
       "na": "No US figure from Toyota"
@@ -10151,6 +11443,45 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/46322.shtml"
     },
+    "versions": [
+      {
+        "name": "Hybrid",
+        "detail": "2.5-liter 4-cylinder hybrid"
+      },
+      {
+        "name": "Hybrid MAX",
+        "detail": "2.4-liter turbo hybrid",
+        "specsFor": "2023 Toyota Crown Platinum Hybrid MAX, US market (Car and Driver test)",
+        "power": {
+          "hp": 340,
+          "note": "Combined system output, 400 lb-ft",
+          "src": "https://www.0-60specs.com/toyota/crown-0-60-times"
+        },
+        "weight": {
+          "kg": 1955,
+          "note": "Curb weight, 2023 Platinum",
+          "src": "https://www.0-60specs.com/toyota/crown-0-60-times",
+          "lb": 4310
+        },
+        "zero60": {
+          "sec": 5.1,
+          "kind": "tested",
+          "note": "Car and Driver test, 2023 Platinum",
+          "src": "https://www.0-60specs.com/toyota/crown-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 30,
+          "city": 29,
+          "hwy": 32,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/46321.shtml"
+        }
+      }
+    ],
     "built": {
       "count": 58356,
       "approx": true,
@@ -10391,7 +11722,10 @@ const CARS = [
   },
   {
     "top": {
-      "na": "No US figure from Honda"
+      "mph": 127,
+      "kind": "tested",
+      "note": "Governor limited (Car and Driver)",
+      "src": "https://autos.yahoo.com/2017-honda-accord-172200926.html"
     },
     "mpg": {
       "combined": 30,
@@ -10401,6 +11735,86 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/37625.shtml"
     },
+    "versions": [
+      {
+        "name": "2.4-liter",
+        "detail": "4-cylinder, CVT",
+        "specsFor": "2017 Honda Accord LX sedan, CVT, US market (0–60 and top speed from Car and Driver's test of a 2016 2.4-liter CVT)"
+      },
+      {
+        "name": "3.5-liter V6",
+        "detail": "6-speed automatic (coupe: 6-speed manual)",
+        "specsFor": "2017 Honda Accord EX-L V6 sedan, 6-speed automatic, US market (0–60 and top speed from Car and Driver's test of a 2016 V6 sedan)",
+        "power": {
+          "hp": 278,
+          "note": "3.5-liter V6",
+          "src": "https://www.hondacertified.com/-/media/HondaCertified/PDF/factsheets/2017-Accord-Sedan-factsheet.pdf"
+        },
+        "weight": {
+          "kg": 1607,
+          "note": "Curb weight, 2017 EX-L V6 sedan",
+          "src": "https://www.hondacertified.com/-/media/HondaCertified/PDF/factsheets/2017-Accord-Sedan-factsheet.pdf",
+          "lb": 3543
+        },
+        "zero60": {
+          "sec": 5.8,
+          "kind": "tested",
+          "note": "Car and Driver test, 2016 Accord V6 sedan",
+          "src": "https://autos.yahoo.com/2016-honda-accord-v-6-144500321.html"
+        },
+        "top": {
+          "mph": 128,
+          "kind": "tested",
+          "note": "Governor limited (Car and Driver)",
+          "src": "https://autos.yahoo.com/2016-honda-accord-v-6-144500321.html"
+        },
+        "mpg": {
+          "combined": 25,
+          "city": 21,
+          "hwy": 33,
+          "unit": "mpg",
+          "kind": "epa",
+          "note": "EPA combined, sedan, automatic (coupe manual: 21 mpg)",
+          "src": "https://www.fueleconomy.gov/feg/noframes/37622.shtml"
+        }
+      },
+      {
+        "name": "Hybrid",
+        "detail": "2.0-liter, 2-motor hybrid",
+        "specsFor": "2017 Honda Accord Hybrid, US market (0–60 and top speed from Car and Driver's test of a Hybrid Touring)",
+        "power": {
+          "hp": 212,
+          "note": "Combined system output",
+          "src": "https://www.kbb.com/honda/accord-hybrid/2017/specs"
+        },
+        "weight": {
+          "kg": 1580,
+          "note": "Curb weight, 2017 Accord Hybrid (Touring: 3,536 lb)",
+          "src": "https://www.kbb.com/honda/accord-hybrid/2017/specs",
+          "lb": 3483
+        },
+        "zero60": {
+          "sec": 7.2,
+          "kind": "tested",
+          "note": "Car and Driver test, 2017 Hybrid Touring",
+          "src": "https://autos.yahoo.com/2017-honda-accord-hybrid-155300406.html"
+        },
+        "top": {
+          "mph": 114,
+          "kind": "tested",
+          "note": "Governor limited (Car and Driver)",
+          "src": "https://autos.yahoo.com/2017-honda-accord-hybrid-155300406.html"
+        },
+        "mpg": {
+          "combined": 48,
+          "city": 49,
+          "hwy": 47,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/37825.shtml"
+        }
+      }
+    ],
     "built": {
       "count": 1778460,
       "approx": true,
@@ -10438,22 +11852,23 @@ const CARS = [
     "engine": "2.4-liter 4-cylinder; 3.5-liter V6; 2.0-liter 2-motor hybrid",
     "drive": "Front-wheel drive",
     "gearbox": "CVT or 6-speed manual (4-cylinder); 6-speed automatic, or a 6-speed manual in the coupe (V6)",
-    "specsFor": "2017 Honda Accord LX, US market",
+    "specsFor": "2017 Honda Accord LX sedan, CVT, US market",
     "power": {
       "hp": 185,
-      "note": "2.4-liter 4-cylinder (Sport: 189 hp; V6: 278 hp; Hybrid: 212 hp)",
-      "src": "https://www.motormatchup.com/catalog/Honda/Accord/2017/LX-4DR-Sedan"
+      "note": "2.4-liter 4-cylinder (Sport: 189 hp)",
+      "src": "https://www.hondacertified.com/-/media/HondaCertified/PDF/factsheets/2017-Accord-Sedan-factsheet.pdf"
     },
     "weight": {
-      "kg": 1438,
-      "note": "Curb weight, 2017 LX sedan",
-      "src": "https://www.motormatchup.com/catalog/Honda/Accord/2017/LX-4DR-Sedan"
+      "kg": 1469,
+      "note": "Curb weight, 2017 LX sedan, CVT",
+      "src": "https://www.hondacertified.com/-/media/HondaCertified/PDF/factsheets/2017-Accord-Sedan-factsheet.pdf",
+      "lb": 3239
     },
     "zero60": {
       "sec": 7.6,
       "kind": "tested",
-      "note": "Car and Driver test, 2.4-liter with CVT",
-      "src": "https://autos.yahoo.com/2018-honda-accord-1-5t-233000760.html"
+      "note": "Car and Driver test, 2016 Accord 2.4-liter CVT",
+      "src": "https://autos.yahoo.com/2017-honda-accord-172200926.html"
     },
     "quick": "The ninth-generation Accord, sold for 2013–2017: the last Accord with a V6, the last with a coupe body, and the one that brought the Accord Hybrid back for 2017, rated at 48 mpg combined.",
     "story": [
@@ -10484,6 +11899,82 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/39595.shtml"
     },
+    "versions": [
+      {
+        "name": "1.5-liter turbo",
+        "detail": "4-cylinder, CVT or 6-speed manual"
+      },
+      {
+        "name": "2.0-liter turbo",
+        "detail": "10-speed automatic or 6-speed manual",
+        "specsFor": "2018 Honda Accord 2.0T Touring, 10-speed automatic, US market (Car and Driver test)",
+        "power": {
+          "hp": 252,
+          "note": "2.0-liter turbo 4-cylinder",
+          "src": "https://autos.yahoo.com/2018-honda-accord-2-0t-215500833.html"
+        },
+        "weight": {
+          "kg": 1551,
+          "note": "Curb weight, as tested",
+          "src": "https://autos.yahoo.com/2018-honda-accord-2-0t-215500833.html",
+          "lb": 3419
+        },
+        "zero60": {
+          "sec": 5.5,
+          "kind": "tested",
+          "note": "Car and Driver test",
+          "src": "https://autos.yahoo.com/2018-honda-accord-2-0t-215500833.html"
+        },
+        "top": {
+          "mph": 126,
+          "kind": "tested",
+          "note": "Governor limited (Car and Driver)",
+          "src": "https://autos.yahoo.com/2018-honda-accord-2-0t-215500833.html"
+        },
+        "mpg": {
+          "combined": 26,
+          "city": 22,
+          "hwy": 32,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/39751.shtml",
+          "note": "EPA combined, 2.0T Sport and Touring, 22 city / 32 highway"
+        }
+      },
+      {
+        "name": "Hybrid",
+        "detail": "2.0-liter 2-motor hybrid",
+        "specsFor": "2018 Honda Accord Hybrid Touring, US market (Car and Driver test)",
+        "power": {
+          "hp": 212,
+          "note": "Combined system output",
+          "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+        },
+        "weight": {
+          "kg": 1556,
+          "note": "Curb weight, 2018 Hybrid Touring",
+          "src": "https://www.0-60specs.com/honda/accord-0-60-times",
+          "lb": 3430
+        },
+        "zero60": {
+          "sec": 7.1,
+          "kind": "tested",
+          "note": "Car and Driver test, 2018 Hybrid Touring",
+          "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 47,
+          "city": 47,
+          "hwy": 47,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/39918.shtml"
+        }
+      }
+    ],
     "built": {
       "count": 1115384,
       "approx": true,
@@ -10568,6 +12059,45 @@ const CARS = [
       "note": "EPA combined, Hybrid Sport and Touring (EX-L Hybrid: 48 mpg; 1.5-liter turbo: 32 mpg)",
       "src": "https://www.fueleconomy.gov/feg/noframes/46358.shtml"
     },
+    "versions": [
+      {
+        "name": "Hybrid",
+        "detail": "2.0-liter 2-motor hybrid"
+      },
+      {
+        "name": "1.5-liter turbo",
+        "detail": "4-cylinder, CVT",
+        "specsFor": "2023 Honda Accord EX, US market (Car and Driver test)",
+        "power": {
+          "hp": 192,
+          "note": "1.5-liter turbo 4-cylinder",
+          "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+        },
+        "weight": {
+          "kg": 1469,
+          "note": "Curb weight, 2023 LX and EX",
+          "src": "https://www.0-60specs.com/honda/accord-0-60-times",
+          "lb": 3239
+        },
+        "zero60": {
+          "sec": 7.3,
+          "kind": "tested",
+          "note": "Car and Driver test, 2023 EX",
+          "src": "https://www.0-60specs.com/honda/accord-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 32,
+          "city": 29,
+          "hwy": 37,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/46363.shtml"
+        }
+      }
+    ],
     "built": {
       "count": 672302,
       "approx": true,
@@ -10604,16 +12134,17 @@ const CARS = [
     "engine": "1.5-liter turbo 4-cylinder; 2.0-liter 2-motor hybrid",
     "drive": "Front-wheel drive",
     "gearbox": "CVT (1.5T); the hybrid has no conventional transmission",
-    "specsFor": "2023 Honda Accord, US market",
+    "specsFor": "2023 Honda Accord Hybrid Touring, US market",
     "power": {
       "hp": 204,
       "note": "Hybrid combined output (1.5-liter turbo: 192 hp)",
       "src": "https://hondanews.ca/en-CA/releases/sleek-powerful-and-electrified-all-new-2023-honda-accord-set-to-re-energize-the-midsize-sedan-segment"
     },
     "weight": {
-      "kg": 1469,
-      "note": "Curb weight, 2023 LX",
-      "src": "https://www.kbb.com/honda/accord/2023/specs/"
+      "kg": 1584,
+      "note": "Curb weight, 2023 Hybrid Touring",
+      "src": "https://www.0-60specs.com/honda/accord-0-60-times",
+      "lb": 3492
     },
     "zero60": {
       "sec": 6.5,
@@ -10637,7 +12168,10 @@ const CARS = [
   },
   {
     "top": {
-      "na": "No US figure from Honda"
+      "mph": 126,
+      "kind": "tested",
+      "note": "Governor limited (Car and Driver)",
+      "src": "https://autos.yahoo.com/2016-honda-civic-sedan-224500583.html"
     },
     "mpg": {
       "combined": 36,
@@ -10648,6 +12182,46 @@ const CARS = [
       "note": "EPA combined, 1.5-liter turbo sedan, CVT",
       "src": "https://www.fueleconomy.gov/feg/noframes/38249.shtml"
     },
+    "versions": [
+      {
+        "name": "1.5-liter turbo",
+        "detail": "4-cylinder, CVT or 6-speed manual (hatchback Sport: 180 hp)"
+      },
+      {
+        "name": "2.0-liter",
+        "detail": "4-cylinder, CVT or 6-speed manual",
+        "specsFor": "2016 Honda Civic EX sedan, CVT, US market (Car and Driver test)",
+        "power": {
+          "hp": 158,
+          "note": "2.0-liter 4-cylinder",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "weight": {
+          "kg": 1285,
+          "note": "Curb weight, 2016 EX sedan",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times",
+          "lb": 2832
+        },
+        "zero60": {
+          "sec": 8.2,
+          "kind": "tested",
+          "note": "Car and Driver test, 2016 EX sedan",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 34,
+          "city": 31,
+          "hwy": 40,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/38247.shtml",
+          "note": "EPA combined, 2017 sedan, CVT, 31 city / 40 highway"
+        }
+      }
+    ],
     "built": {
       "count": 1920635,
       "approx": true,
@@ -10685,22 +12259,23 @@ const CARS = [
     "engine": "2.0-liter 4-cylinder; 1.5-liter turbo 4-cylinder",
     "drive": "Front-wheel drive",
     "gearbox": "CVT or 6-speed manual",
-    "specsFor": "2017 Honda Civic, US market",
+    "specsFor": "2016 Honda Civic Touring sedan, 1.5-liter turbo, CVT, US market (Car and Driver test)",
     "power": {
       "hp": 174,
       "note": "1.5-liter turbo, sedan and coupe (2.0-liter: 158 hp; hatchback Sport: 180 hp)",
       "src": "https://www.theautochannel.com/news/2016/10/03/290035-2017-civic-lineup-turbocharged-with-extended-availability-manual-transmission.html"
     },
     "weight": {
-      "kg": 1378,
-      "note": "Test weight, 2017 Hatchback Sport Touring (Edmunds)",
-      "src": "https://www.edmunds.com/car-news/tested-2022-honda-civic-hatchback-loses-speed-but-wins-our-hearts.html"
+      "kg": 1324,
+      "note": "Curb weight, 2016 Touring sedan, as tested",
+      "src": "https://autos.yahoo.com/2016-honda-civic-sedan-224500583.html",
+      "lb": 2920
     },
     "zero60": {
-      "sec": 7.3,
+      "sec": 6.9,
       "kind": "tested",
-      "note": "Edmunds test, 2017 Civic Hatchback Sport Touring",
-      "src": "https://www.edmunds.com/car-news/tested-2022-honda-civic-hatchback-loses-speed-but-wins-our-hearts.html"
+      "note": "Car and Driver test, 2016 Touring sedan",
+      "src": "https://autos.yahoo.com/2016-honda-civic-sedan-224500583.html"
     },
     "quick": "The tenth-generation Civic, 2016–2021: a sedan, a coupe through 2020 and, from 2017, an England-built hatchback, with a 158-hp 2.0-liter or a 174- to 180-hp 1.5-liter turbo.",
     "story": [
@@ -10729,6 +12304,80 @@ const CARS = [
       "note": "EPA combined, 1.5-liter turbo sedan, CVT",
       "src": "https://www.fueleconomy.gov/feg/noframes/44131.shtml"
     },
+    "versions": [
+      {
+        "name": "1.5-liter turbo",
+        "detail": "4-cylinder, CVT or 6-speed manual, 2022–2024"
+      },
+      {
+        "name": "2.0-liter",
+        "detail": "4-cylinder, CVT",
+        "specsFor": "2022 Honda Civic Sport sedan, US market (Car and Driver test)",
+        "power": {
+          "hp": 158,
+          "note": "2.0-liter 4-cylinder (150 hp from 2025)",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "weight": {
+          "kg": 1331,
+          "note": "Curb weight, 2022 Sport sedan",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times",
+          "lb": 2935
+        },
+        "zero60": {
+          "sec": 8.8,
+          "kind": "tested",
+          "note": "Car and Driver test, 2022 Sport sedan",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 35,
+          "city": 31,
+          "hwy": 40,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/44133.shtml",
+          "note": "EPA combined, sedan, 31 city / 40 highway"
+        }
+      },
+      {
+        "name": "Hybrid",
+        "detail": "2.0-liter 2-motor hybrid, from 2025",
+        "specsFor": "2025 Honda Civic Hybrid Sport Touring sedan, US market (Car and Driver test)",
+        "power": {
+          "hp": 200,
+          "note": "Combined system output",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "weight": {
+          "kg": 1460,
+          "note": "Curb weight, 2025 Hybrid Sport Touring sedan",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times",
+          "lb": 3219
+        },
+        "zero60": {
+          "sec": 6.2,
+          "kind": "tested",
+          "note": "Car and Driver test, 2025 Hybrid Sport Touring sedan",
+          "src": "https://www.0-60specs.com/honda/civic-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 49,
+          "city": 50,
+          "hwy": 47,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/48018.shtml",
+          "note": "EPA combined, sedan, 50 city / 47 highway"
+        }
+      }
+    ],
     "built": {
       "count": 1028074,
       "approx": true,
@@ -10766,22 +12415,23 @@ const CARS = [
     "engine": "2.0-liter 4-cylinder; 1.5-liter turbo 4-cylinder (2022–2024); 2.0-liter 2-motor hybrid (from 2025)",
     "drive": "Front-wheel drive",
     "gearbox": "CVT; 6-speed manual on the 2022–2024 turbo hatchback; the hybrid has no conventional transmission",
-    "specsFor": "2022 Honda Civic, US market",
+    "specsFor": "2022 Honda Civic Touring sedan, 1.5-liter turbo, US market",
     "power": {
       "hp": 180,
       "note": "1.5-liter turbo (2.0-liter: 158 hp, 150 hp from 2025; Hybrid: 200 hp)",
       "src": "https://www2020.theautochannel.com/news/2021/06/16/1011766-2022-honda-civic-sedan-secrets.html"
     },
     "weight": {
-      "kg": 1398,
-      "note": "Test weight, 2022 Hatchback Sport Touring (Edmunds)",
-      "src": "https://www.edmunds.com/car-news/tested-2022-honda-civic-hatchback-loses-speed-but-wins-our-hearts.html"
+      "kg": 1396,
+      "note": "Curb weight, 2022 Touring sedan",
+      "src": "https://www.0-60specs.com/honda/civic-0-60-times",
+      "lb": 3077
     },
     "zero60": {
-      "sec": 6.2,
+      "sec": 7.2,
       "kind": "tested",
-      "note": "Car and Driver test, Civic Sport Touring Hybrid (2022 Hatchback Sport Touring turbo: 7.9 sec, Edmunds)",
-      "src": "https://www.aol.com/articles/honda-civic-car-driver-2026-140000342.html"
+      "note": "Car and Driver test, 2022 Touring sedan",
+      "src": "https://www.0-60specs.com/honda/civic-0-60-times"
     },
     "quick": "The eleventh-generation Civic, from 2022: a calmer sedan and a US-built hatchback, with a 2.0-liter or 1.5-liter turbo at first and, from 2025, a 200-hp hybrid rated at up to 49 mpg.",
     "story": [
@@ -11094,14 +12744,87 @@ const CARS = [
       "na": "No US figure from Honda"
     },
     "mpg": {
-      "combined": 30,
-      "city": 28,
-      "hwy": 34,
+      "combined": 29,
+      "city": 27,
+      "hwy": 33,
       "unit": "mpg",
       "kind": "epa",
-      "note": "EPA combined, 1.5-liter turbo, front-wheel drive (2.4-liter: 28 mpg)",
-      "src": "https://www.fueleconomy.gov/feg/noframes/38449.shtml"
+      "src": "https://www.fueleconomy.gov/feg/noframes/38453.shtml",
+      "note": "EPA combined, AWD, 27 city / 33 highway (front-drive: 30 mpg)"
     },
+    "versions": [
+      {
+        "name": "1.5-liter turbo",
+        "detail": "4-cylinder, CVT"
+      },
+      {
+        "name": "2.4-liter",
+        "detail": "4-cylinder, CVT (LX, 2017–2019)",
+        "specsFor": "2017 Honda CR-V LX, front-wheel drive, US market (Motor Trend test of a 2018 LX)",
+        "power": {
+          "hp": 184,
+          "note": "2.4-liter 4-cylinder",
+          "src": "https://www.0-60specs.com/honda/cr-v-0-60-times"
+        },
+        "weight": {
+          "kg": 1500,
+          "note": "Curb weight, 2017 LX, front-wheel drive",
+          "src": "https://www.hondanews.com/en-US/honda-automobiles/releases/release-40fde7e3aa47477f86c3d735579e6a5a-2017-honda-cr-v-overview",
+          "lb": 3307
+        },
+        "zero60": {
+          "sec": 7.7,
+          "kind": "tested",
+          "note": "Motor Trend test, 2018 LX",
+          "src": "https://www.0-60specs.com/honda/cr-v-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 28,
+          "city": 26,
+          "hwy": 32,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/38448.shtml",
+          "note": "EPA combined, front-wheel drive, 26 city / 32 highway"
+        }
+      },
+      {
+        "name": "Hybrid",
+        "detail": "2.0-liter 2-motor hybrid, AWD, 2020–2022",
+        "specsFor": "2020 Honda CR-V Hybrid Touring, US market (Car and Driver test)",
+        "power": {
+          "hp": 212,
+          "note": "Combined system output",
+          "src": "https://www.0-60specs.com/honda/cr-v-0-60-times"
+        },
+        "weight": {
+          "kg": 1707,
+          "note": "Curb weight, 2020 Hybrid Touring",
+          "src": "https://www.0-60specs.com/honda/cr-v-0-60-times",
+          "lb": 3763
+        },
+        "zero60": {
+          "sec": 7.6,
+          "kind": "tested",
+          "note": "Car and Driver test, 2020 Hybrid Touring",
+          "src": "https://www.0-60specs.com/honda/cr-v-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 38,
+          "city": 40,
+          "hwy": 35,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/42502.shtml"
+        }
+      }
+    ],
     "built": {
       "count": 2064004,
       "approx": true,
@@ -11137,22 +12860,23 @@ const CARS = [
     "engine": "2.4-liter 4-cylinder (2017–2019 LX); 1.5-liter turbo 4-cylinder; 2.0-liter 2-motor hybrid (2020–2022)",
     "drive": "Front- or all-wheel drive; the Hybrid has all-wheel drive",
     "gearbox": "CVT; the hybrid has no conventional transmission",
-    "specsFor": "2017 Honda CR-V, US market",
+    "specsFor": "2017 Honda CR-V Touring AWD, 1.5-liter turbo, US market",
     "power": {
       "hp": 190,
       "note": "1.5-liter turbo (2.4-liter LX: 184 hp; 2020–2022 Hybrid: 212 hp)",
       "src": "https://prnewswire.com/news-releases/bold-new-and-unexpectedly-upscale-2017-honda-cr-v-hits-showrooms-with-premium-design-big-versatility-and-fun-to-drive-persona-300382563.html"
     },
     "weight": {
-      "kg": 1500,
-      "note": "Curb weight, 2017 LX, front-wheel drive",
-      "src": "https://www.hondanews.com/en-US/honda-automobiles/releases/release-40fde7e3aa47477f86c3d735579e6a5a-2017-honda-cr-v-overview"
+      "kg": 1593,
+      "note": "Curb weight, 2017 Touring AWD",
+      "src": "https://www.0-60specs.com/honda/cr-v-0-60-times",
+      "lb": 3512
     },
     "zero60": {
       "sec": 7.6,
       "kind": "tested",
-      "note": "Car and Driver test, 2017 CR-V turbo, all-wheel drive",
-      "src": "https://motorwayamerica.com/review/honda-cr-v-%E2%80%94-making-excellent-crossover-better"
+      "note": "Car and Driver test, 2017 Touring AWD",
+      "src": "https://www.0-60specs.com/honda/cr-v-0-60-times"
     },
     "quick": "The fifth-generation CR-V, 2017–2022: roomy and easy to live with, with a 1.5-liter turbo in most versions, 75.8 cubic feet of cargo space and, from 2020, the first US CR-V Hybrid.",
     "story": [
@@ -11180,6 +12904,46 @@ const CARS = [
       "kind": "epa",
       "src": "https://www.fueleconomy.gov/feg/noframes/46071.shtml"
     },
+    "versions": [
+      {
+        "name": "Hybrid",
+        "detail": "2.0-liter 2-motor hybrid"
+      },
+      {
+        "name": "1.5-liter turbo",
+        "detail": "4-cylinder, CVT",
+        "specsFor": "2023 Honda CR-V EX-L AWD, US market (Car and Driver test)",
+        "power": {
+          "hp": 190,
+          "note": "1.5-liter turbo 4-cylinder",
+          "src": "https://www.0-60specs.com/honda/cr-v-0-60-times"
+        },
+        "weight": {
+          "kg": 1697,
+          "note": "Curb weight, 2023 EX-L AWD",
+          "src": "https://www.0-60specs.com/honda/cr-v-0-60-times",
+          "lb": 3742
+        },
+        "zero60": {
+          "sec": 8.1,
+          "kind": "tested",
+          "note": "Car and Driver test, 2023 EX-L AWD",
+          "src": "https://www.0-60specs.com/honda/cr-v-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 29,
+          "city": 27,
+          "hwy": 32,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/45952.shtml",
+          "note": "EPA combined, AWD, 27 city / 32 highway (front-drive: 30 mpg)"
+        }
+      }
+    ],
     "built": {
       "count": 1539675,
       "approx": true,

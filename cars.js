@@ -10918,6 +10918,327 @@ const CARS = [
     }
   },
   {
+    "id": "toyota-highlander-xu20",
+    "name": "Toyota Highlander (XU20)",
+    "aka": [
+      "2001–2007 Highlander",
+      "Highlander Hybrid",
+      "Highlander Limited",
+      "XU20"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "2001–2007",
+    "start": 2001,
+    "end": 2007,
+    "shop": {
+      "cargurus": "d298"
+    },
+    "body": "Mid-size SUV, 5 seats (7 seats optional from 2004)",
+    "engine": "2.4-liter 4-cylinder; 3.0-liter V6 (3.3-liter from 2004); 3.3-liter V6 hybrid (2006–2007)",
+    "drive": "Front-wheel drive or full-time 4-wheel drive",
+    "gearbox": "4-speed automatic; 5-speed automatic with the 3.3-liter V6; CVT (Hybrid)",
+    "specsFor": "2001 Toyota Highlander Limited V6, 4-wheel drive, US market (Car and Driver test)",
+    "power": {
+      "hp": 220,
+      "note": "3.0-liter V6, 2001–2003",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Highlander"
+    },
+    "weight": {
+      "kg": 1769,
+      "lb": 3900,
+      "note": "Curb weight, 2001 Limited V6",
+      "src": "https://www.0-60specs.com/toyota/highlander-0-60-times"
+    },
+    "zero60": {
+      "sec": 8.8,
+      "kind": "tested",
+      "note": "Car and Driver test, 2001 Limited V6",
+      "src": "https://www.0-60specs.com/toyota/highlander-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 18,
+      "city": 16,
+      "hwy": 21,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/17292.shtml",
+      "note": "EPA combined, 2001 V6, 4-wheel drive"
+    },
+    "built": {
+      "count": 848166,
+      "approx": true,
+      "note": "Sold in the US, 2001–2007",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Highlander"
+    },
+    "versions": [
+      {
+        "name": "3.0-liter V6",
+        "detail": "2001–2003"
+      },
+      {
+        "name": "3.3-liter V6",
+        "detail": "2004–2007, 5-speed automatic",
+        "specsFor": "2007 Toyota Highlander Limited V6, 4-wheel drive, US market (Motor Trend test)",
+        "power": {
+          "hp": 230,
+          "note": "3.3-liter V6 (rerated to 215 hp for 2006)",
+          "src": "https://en.wikipedia.org/wiki/Toyota_Highlander"
+        },
+        "weight": {
+          "kg": 1880,
+          "lb": 4145,
+          "note": "Curb weight, 2007 Limited",
+          "src": "https://www.0-60specs.com/toyota/highlander-0-60-times"
+        },
+        "zero60": {
+          "sec": 8.0,
+          "kind": "tested",
+          "note": "Motor Trend test, 2007 Limited",
+          "src": "https://www.0-60specs.com/toyota/highlander-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 19,
+          "city": 16,
+          "hwy": 22,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/20372.shtml",
+          "note": "EPA combined, 2004 3.3-liter V6, 4-wheel drive"
+        }
+      },
+      {
+        "name": "Hybrid",
+        "detail": "3.3-liter V6 hybrid, 2006–2007",
+        "specsFor": "2006 Toyota Highlander Hybrid Limited, 4-wheel drive, US market (Motor Trend test)",
+        "power": {
+          "hp": 268,
+          "note": "Combined system output",
+          "src": "https://www.0-60specs.com/toyota/highlander-0-60-times"
+        },
+        "weight": {
+          "kg": 1989,
+          "lb": 4386,
+          "note": "Curb weight, 2006 Hybrid Limited",
+          "src": "https://www.0-60specs.com/toyota/highlander-0-60-times"
+        },
+        "zero60": {
+          "sec": 6.6,
+          "kind": "tested",
+          "note": "Motor Trend test, 2006 Hybrid Limited",
+          "src": "https://www.0-60specs.com/toyota/highlander-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 26,
+          "city": 27,
+          "hwy": 25,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/22602.shtml",
+          "note": "EPA combined, 2006 Hybrid, 4-wheel drive"
+        }
+      },
+      {
+        "name": "2.4-liter",
+        "detail": "4-cylinder",
+        "specsFor": "2001 Toyota Highlander, 2.4-liter, 4-wheel drive, US market",
+        "power": {
+          "hp": 155,
+          "note": "2.4-liter 4-cylinder",
+          "src": "https://en.wikipedia.org/wiki/Toyota_Highlander"
+        },
+        "weight": {
+          "na": "No figure on record"
+        },
+        "zero60": {
+          "na": "No test on record"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 19,
+          "city": 17,
+          "hwy": 22,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/17291.shtml",
+          "note": "EPA combined, 2001 4-cylinder, 4-wheel drive"
+        }
+      }
+    ],
+    "predecessor": null,
+    "successor": {
+      "name": "Toyota Highlander (XU40)",
+      "id": "toyota-highlander-xu40"
+    },
+    "quick": "The first Highlander, 2001–2007: a car-based family SUV that put on-road comfort ahead of off-roading, and from 2006 Toyota's first 7-seat hybrid.",
+    "story": [
+      "The Highlander shared its platform with the Lexus RX and, unlike the 4Runner or a Jeep Grand Cherokee, used unibody construction and independent rear suspension for a more comfortable ride. It came with front-wheel drive or full-time 4-wheel drive and a 155-hp 2.4-liter 4-cylinder or a 220-hp 3.0-liter V6, and Car and Driver timed a 2001 Limited V6 to 60 mph in 8.8 seconds. The Insurance Institute for Highway Safety later found it had one of the lowest driver death rates of any vehicle.",
+      "For 2004 a 3.3-liter V6 with a 5-speed automatic arrived along with an optional third-row seat, and stability control became standard. The Highlander Hybrid followed in July 2005 as a 2006 model, pairing the 3.3-liter V6 with electric motors, including one that drove the rear wheels on 4-wheel-drive versions; it was Toyota's first 7-seat hybrid, and Motor Trend timed one to 60 in 6.6 seconds. US sales came to about 848,000."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Highlander"
+    ]
+  },
+  {
+    "id": "toyota-highlander-xu40",
+    "name": "Toyota Highlander (XU40)",
+    "aka": [
+      "2008–2013 Highlander",
+      "Highlander Hybrid",
+      "Highlander SE",
+      "XU40"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan and United States",
+    "years": "2008–2013",
+    "start": 2008,
+    "end": 2013,
+    "shop": {
+      "cargurus": "d298"
+    },
+    "body": "Mid-size SUV, 7 seats",
+    "engine": "3.5-liter V6; 2.7-liter 4-cylinder from 2009; V6 hybrid",
+    "drive": "Front-wheel drive or 4-wheel drive",
+    "gearbox": "5-speed automatic; 6-speed automatic (4-cylinder); CVT (Hybrid)",
+    "specsFor": "2008 Toyota Highlander Limited, 3.5-liter V6, front-wheel drive, US market (Car and Driver test)",
+    "power": {
+      "hp": 270,
+      "note": "3.5-liter V6",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Highlander"
+    },
+    "weight": {
+      "kg": 1860,
+      "lb": 4100,
+      "note": "Curb weight, 2008 Limited",
+      "src": "https://www.0-60specs.com/toyota/highlander-0-60-times"
+    },
+    "zero60": {
+      "sec": 7.0,
+      "kind": "tested",
+      "note": "Car and Driver test, 2008 Limited",
+      "src": "https://www.0-60specs.com/toyota/highlander-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 20,
+      "city": 18,
+      "hwy": 24,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/24629.shtml",
+      "note": "EPA combined, 2008 V6, front-wheel drive"
+    },
+    "built": {
+      "count": 629779,
+      "approx": true,
+      "note": "Sold in the US, 2008–2013",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Highlander"
+    },
+    "versions": [
+      {
+        "name": "3.5-liter V6",
+        "detail": "5-speed automatic"
+      },
+      {
+        "name": "Hybrid",
+        "detail": "3.5-liter V6 hybrid (2011)",
+        "specsFor": "2011 Toyota Highlander Hybrid Limited, 4-wheel drive, US market (Car and Driver test)",
+        "power": {
+          "hp": 280,
+          "note": "Combined system output",
+          "src": "https://www.0-60specs.com/toyota/highlander-0-60-times"
+        },
+        "weight": {
+          "kg": 2205,
+          "lb": 4861,
+          "note": "Curb weight, 2011 Hybrid Limited",
+          "src": "https://www.0-60specs.com/toyota/highlander-0-60-times"
+        },
+        "zero60": {
+          "sec": 7.3,
+          "kind": "tested",
+          "note": "Car and Driver test, 2011 Hybrid Limited",
+          "src": "https://www.0-60specs.com/toyota/highlander-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 28,
+          "city": 28,
+          "hwy": 28,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/30826.shtml",
+          "note": "EPA combined, 2011 Hybrid"
+        }
+      },
+      {
+        "name": "2.7-liter",
+        "detail": "4-cylinder, 2009–2013, front-wheel drive",
+        "specsFor": "2009 Toyota Highlander, 2.7-liter, front-wheel drive, US market",
+        "power": {
+          "hp": 187,
+          "note": "2.7-liter 4-cylinder",
+          "src": "https://en.wikipedia.org/wiki/Toyota_Highlander"
+        },
+        "weight": {
+          "na": "No figure on record"
+        },
+        "zero60": {
+          "na": "No test on record"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 22,
+          "city": 20,
+          "hwy": 27,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/29380.shtml",
+          "note": "EPA combined, 2009 4-cylinder, front-wheel drive"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Toyota Highlander (XU20)",
+      "id": "toyota-highlander-xu20"
+    },
+    "successor": {
+      "name": "Toyota Highlander (XU50)",
+      "id": "toyota-highlander-xu50"
+    },
+    "quick": "The second Highlander, 2008–2013: bigger and heavier, with a 270-hp V6 that ran to 60 in 7 seconds, and built in Indiana from late 2009.",
+    "story": [
+      "Revealed at the 2007 Chicago Auto Show, the second Highlander went on sale in the US in July 2007, with hybrids following in late September; it was never sold in Japan. It grew in every direction and gained about 225 kg (500 lb), but its 270-hp 3.5-liter V6 had 55 hp more than before and still used slightly less fuel, and Car and Driver timed a 2008 Limited to 60 mph in 7.0 seconds.",
+      "A 187-hp 2.7-liter 4-cylinder with a 6-speed automatic returned for 2009, electric power steering arrived, and the 2011 update brought a new front end and more standard equipment. Gasoline models moved from Japan to Toyota's plant in Princeton, Indiana, in October 2009. US sales came to about 630,000."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Highlander"
+    ]
+  },
+  {
     "id": "toyota-highlander-xu50",
     "name": "Toyota Highlander (XU50)",
     "aka": [
@@ -11036,7 +11357,10 @@ const CARS = [
       "note": "Sold in the US, 2014–2019",
       "src": "https://www.goodcarbadcar.net/toyota-highlander-sales-figures/"
     },
-    "predecessor": null,
+    "predecessor": {
+      "name": "Toyota Highlander (XU40)",
+      "id": "toyota-highlander-xu40"
+    },
     "successor": {
       "name": "Toyota Highlander (XU70)",
       "id": "toyota-highlander-xu70"
@@ -11352,6 +11676,156 @@ const CARS = [
     }
   },
   {
+    "id": "toyota-tacoma-n140",
+    "name": "Toyota Tacoma (N140)",
+    "aka": [
+      "1995–2004 Tacoma",
+      "Tacoma PreRunner",
+      "Tacoma Xtracab",
+      "Tacoma Double Cab",
+      "N140"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "United States",
+    "years": "1995–2004",
+    "start": 1995,
+    "end": 2004,
+    "shop": {
+      "cargurus": "d311"
+    },
+    "body": "Compact pickup: Regular Cab and Xtracab; Double Cab from 2001",
+    "engine": "2.4-liter or 2.7-liter 4-cylinder; 3.4-liter V6",
+    "drive": "Rear-wheel drive or 4-wheel drive",
+    "gearbox": "5-speed manual or 4-speed automatic",
+    "specsFor": "1995 Toyota Tacoma SR5 V6 Xtracab, 4-wheel drive, automatic, US market (Car and Driver test)",
+    "power": {
+      "hp": 190,
+      "note": "3.4-liter V6",
+      "src": "https://www.0-60specs.com/toyota/tacoma-0-60-times"
+    },
+    "weight": {
+      "kg": 1724,
+      "lb": 3800,
+      "note": "Curb weight, 1995 SR5 V6 Xtracab, 4-wheel drive",
+      "src": "https://www.0-60specs.com/toyota/tacoma-0-60-times"
+    },
+    "zero60": {
+      "sec": 9.4,
+      "kind": "tested",
+      "note": "Car and Driver test, 1995 SR5 V6 Xtracab",
+      "src": "https://www.0-60specs.com/toyota/tacoma-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 16,
+      "city": 15,
+      "hwy": 17,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/12326.shtml",
+      "note": "EPA combined, 1995 V6, 4-wheel drive, automatic"
+    },
+    "built": {
+      "na": "No complete US sales total on record"
+    },
+    "predecessor": null,
+    "successor": {
+      "name": "Toyota Tacoma (N220)",
+      "id": "toyota-tacoma-n220"
+    },
+    "quick": "The first Tacoma, 1995–2004: Toyota's American-market compact pickup, tuned more for ride and comfort than the Hilux it replaced, with a 190-hp V6.",
+    "story": [
+      "The Tacoma went on sale in the US in March 1995, replacing the plain Toyota Truck, the North American version of the Hilux. Toyota tuned it for ride quality, handling, comfort and safety ahead of sheer ruggedness and payload. A 3.4-liter V6 shared with the T100 made 190 hp, and Car and Driver timed a 1995 SR5 V6 Xtracab with 4-wheel drive to 60 mph in 9.4 seconds.",
+      "The 2-wheel-drive PreRunner and the TRD Off-Road package, with a locking rear differential, arrived in 1998, and a 4-door Double Cab joined for 2001. Poor rustproofing later let many frames corrode, and in 2008 Toyota announced a 15-year, unlimited-mileage corrosion warranty covering more than 800,000 Tacomas from 1995 to 2000, later extended to 2004."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Tacoma"
+    ]
+  },
+  {
+    "id": "toyota-tacoma-n220",
+    "name": "Toyota Tacoma (N220)",
+    "aka": [
+      "2005–2015 Tacoma",
+      "Tacoma X-Runner",
+      "Tacoma TRD Pro",
+      "Tacoma PreRunner",
+      "N220"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "United States",
+    "years": "2005–2015",
+    "start": 2005,
+    "end": 2015,
+    "shop": {
+      "cargurus": "d311"
+    },
+    "body": "Mid-size pickup: Regular Cab, Access Cab and Double Cab",
+    "engine": "2.7-liter 4-cylinder; 4.0-liter V6",
+    "drive": "Rear-wheel drive or 4-wheel drive",
+    "gearbox": "5-speed or 6-speed manual, 4-speed or 5-speed automatic",
+    "specsFor": "2005 Toyota Tacoma SR5 V6 Double Cab, 4-wheel drive, automatic, US market (Car and Driver test)",
+    "power": {
+      "hp": 236,
+      "note": "4.0-liter V6",
+      "src": "https://www.0-60specs.com/toyota/tacoma-0-60-times"
+    },
+    "weight": {
+      "kg": 1882,
+      "lb": 4150,
+      "note": "Curb weight, 2005 SR5 V6 Double Cab, 4-wheel drive",
+      "src": "https://www.0-60specs.com/toyota/tacoma-0-60-times"
+    },
+    "zero60": {
+      "sec": 6.9,
+      "kind": "tested",
+      "note": "Car and Driver test, 2005 SR5 V6 Double Cab",
+      "src": "https://www.0-60specs.com/toyota/tacoma-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 17,
+      "city": 16,
+      "hwy": 20,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/21185.shtml",
+      "note": "EPA combined, 2005 V6, 4-wheel drive, automatic"
+    },
+    "built": {
+      "count": 1629255,
+      "approx": true,
+      "note": "Sold in the US, 2005–2015",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Tacoma"
+    },
+    "predecessor": {
+      "name": "Toyota Tacoma (N140)",
+      "id": "toyota-tacoma-n140"
+    },
+    "successor": {
+      "name": "Toyota Tacoma (N300)",
+      "id": "toyota-tacoma-n300"
+    },
+    "quick": "The second Tacoma, 2005–2015: bigger and stronger, with a 236-hp 4.0-liter V6 that ran to 60 in under 7 seconds, an X-Runner street truck and TRD Pro off-roaders.",
+    "story": [
+      "Launched on October 18, 2004, as a 2005 model, the second Tacoma came in 18 combinations of 3 cabs, 4 transmissions, 2 engines and 2 bed lengths. The 4.0-liter V6 made 236 hp, and Car and Driver timed a 2005 SR5 Double Cab with 4-wheel drive and the automatic to 60 mph in 6.9 seconds. The X-Runner replaced the slow-selling S-Runner with the V6, a 6-speed manual, 18-inch wheels and a lowered, braced chassis.",
+      "TRD Off-Road trucks kept the locking rear differential and added hill-start and downhill assist, and a 2009 facelift brought LED taillights and an available backup monitor. Its frames rusted too: in 2016 Toyota settled a class action by agreeing to inspect and, where needed, replace frames on 2005–2010 Tacomas. US sales came to about 1.63 million."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Tacoma"
+    ]
+  },
+  {
     "id": "toyota-tacoma-n300",
     "name": "Toyota Tacoma (N300)",
     "aka": [
@@ -11441,7 +11915,10 @@ const CARS = [
       "note": "Sold in the US, 2016–2023",
       "src": "https://www.goodcarbadcar.net/toyota-tacoma-sales-figures/"
     },
-    "predecessor": null,
+    "predecessor": {
+      "name": "Toyota Tacoma (N220)",
+      "id": "toyota-tacoma-n220"
+    },
     "successor": {
       "name": "Toyota Tacoma (N400)",
       "id": "toyota-tacoma-n400"
@@ -11581,6 +12058,81 @@ const CARS = [
     }
   },
   {
+    "id": "toyota-tundra-xk30",
+    "name": "Toyota Tundra (XK30/XK40)",
+    "aka": [
+      "2000–2006 Tundra",
+      "Tundra Double Cab",
+      "Tundra Access Cab",
+      "XK30",
+      "XK40"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "United States",
+    "years": "2000–2006",
+    "start": 2000,
+    "end": 2006,
+    "shop": {
+      "cargurus": "d313"
+    },
+    "body": "Full-size pickup: Regular Cab and Access Cab; Double Cab from 2004",
+    "engine": "3.4-liter V6 (4.0-liter from 2005); 4.7-liter V8",
+    "drive": "Rear-wheel drive or 4-wheel drive",
+    "gearbox": "5-speed manual or 4-speed automatic; 5-speed automatic from 2005",
+    "specsFor": "2000 Toyota Tundra SR5 Access Cab, 4.7-liter V8, 4-wheel drive, US market (Car and Driver test)",
+    "power": {
+      "hp": 245,
+      "note": "4.7-liter V8, 2000–2004 (282 hp from 2005)",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Tundra"
+    },
+    "weight": {
+      "kg": 1891,
+      "lb": 4170,
+      "note": "Curb weight, 2000 SR5 Access Cab",
+      "src": "https://www.0-60specs.com/toyota/tundra-0-60-times"
+    },
+    "zero60": {
+      "sec": 8.5,
+      "kind": "tested",
+      "note": "Car and Driver test, 2000 SR5 Access Cab, 4-wheel drive",
+      "src": "https://www.0-60specs.com/toyota/tundra-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 14,
+      "city": 13,
+      "hwy": 16,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/16175.shtml",
+      "note": "EPA combined, 2000 V8, 4-wheel drive"
+    },
+    "built": {
+      "count": 773478,
+      "approx": true,
+      "note": "Sold in the US, 2000–2006; some years not fully sourced",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Tundra"
+    },
+    "predecessor": null,
+    "successor": {
+      "name": "Toyota Tundra (XK50)",
+      "id": "toyota-tundra-xk50"
+    },
+    "quick": "The first Tundra, 2000–2006: the first Toyota pickup with a V8, built in Indiana and Motor Trend's Truck of the Year for 2000.",
+    "story": [
+      "Introduced in May 1999 as a 2000 model, the Tundra was a little bigger than the T100 it replaced and was built at a new Toyota plant in Princeton, Indiana. Its 4.7-liter i-Force V8, the first V8 in a Toyota pickup, made 245 hp, and Car and Driver ran a 2000 SR5 Access Cab with 4-wheel drive to 60 mph in 8.5 seconds. It sold at twice the rate of the T100, and Motor Trend named it Truck of the Year for 2000, while Consumer Reports called it the best full-size truck.",
+      "A 4-door Double Cab, borrowing much of its interior and detailing from the Sequoia, arrived for 2004 with the V8 only. For 2005 the V8 gained variable valve timing and 282 hp, a 236-hp 4.0-liter V6 replaced the old 3.4, and a 5-speed automatic arrived. US sales came to about 773,000."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Tundra"
+    ]
+  },
+  {
     "id": "toyota-tundra-xk50",
     "name": "Toyota Tundra (XK50)",
     "aka": [
@@ -11679,7 +12231,10 @@ const CARS = [
       "note": "Sold in the US, 2007–2021",
       "src": "https://www.goodcarbadcar.net/toyota-tundra-sales-figures/"
     },
-    "predecessor": null,
+    "predecessor": {
+      "name": "Toyota Tundra (XK30/XK40)",
+      "id": "toyota-tundra-xk30"
+    },
     "successor": {
       "name": "Toyota Tundra (XK70)",
       "id": "toyota-tundra-xk70"
@@ -11819,6 +12374,81 @@ const CARS = [
     }
   },
   {
+    "id": "toyota-sequoia-xk30",
+    "name": "Toyota Sequoia (XK30)",
+    "aka": [
+      "2001–2007 Sequoia",
+      "Sequoia SR5",
+      "Sequoia Limited",
+      "XK30",
+      "XK40"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "United States",
+    "years": "2001–2007",
+    "start": 2001,
+    "end": 2007,
+    "shop": {
+      "cargurus": "d307"
+    },
+    "body": "Full-size SUV",
+    "engine": "4.7-liter V8",
+    "drive": "Rear-wheel drive or 4-wheel drive",
+    "gearbox": "4-speed automatic; 5-speed automatic from 2005",
+    "specsFor": "2001 Toyota Sequoia Limited, 4-wheel drive, US market (Car and Driver test)",
+    "power": {
+      "hp": 240,
+      "note": "4.7-liter V8, 2001–2004 (42 hp more from 2005)",
+      "src": "https://www.0-60specs.com/toyota/sequoia-0-60-times"
+    },
+    "weight": {
+      "kg": 2268,
+      "lb": 5000,
+      "note": "Curb weight, 2001 Limited, 4-wheel drive",
+      "src": "https://www.0-60specs.com/toyota/sequoia-0-60-times"
+    },
+    "zero60": {
+      "sec": 9.1,
+      "kind": "tested",
+      "note": "Car and Driver test, 2001 Limited",
+      "src": "https://www.0-60specs.com/toyota/sequoia-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 14,
+      "city": 12,
+      "hwy": 16,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/17296.shtml",
+      "note": "EPA combined, 2001, 4-wheel drive"
+    },
+    "built": {
+      "count": 377359,
+      "approx": true,
+      "note": "Sold in the US, 2000–2007 (calendar years; sales began in late 2000)",
+      "src": "https://en.wikipedia.org/wiki/Toyota_Sequoia"
+    },
+    "predecessor": null,
+    "successor": {
+      "name": "Toyota Sequoia (XK60)",
+      "id": "toyota-sequoia-xk60"
+    },
+    "quick": "The first Sequoia, 2001–2007: a Tundra-based full-size SUV, bigger than a Chevrolet Tahoe in most dimensions, with a 240-hp V8.",
+    "story": [
+      "Toyota introduced the Sequoia at the Detroit auto show on January 11, 2000, and full production began that September. It shared its engine, dashboard, sheet metal and chassis with the Tundra but added rear disc brakes and a multi-link rear suspension, and it came with 2-wheel or 4-wheel drive. Slightly longer than the Land Cruiser and bigger than a Chevrolet Tahoe in most dimensions, it had a power rear window like the 4Runner's.",
+      "The 4.7-liter V8 made 240 hp, and Car and Driver timed a 2001 Limited with 4-wheel drive to 60 mph in 9.1 seconds. For 2005 variable valve timing added 42 hp and a 5-speed automatic replaced the 4-speed. It was nominated for North American Truck of the Year in 2001, and US sales peaked at about 70,000 in 2002, about 377,000 in all."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota Sequoia"
+    ]
+  },
+  {
     "id": "toyota-sequoia-xk60",
     "name": "Toyota Sequoia (XK60)",
     "aka": [
@@ -11873,7 +12503,10 @@ const CARS = [
       "note": "Sold in the US, 2008–2022",
       "src": "https://www.goodcarbadcar.net/toyota-sequoia-sales-figures/"
     },
-    "predecessor": null,
+    "predecessor": {
+      "name": "Toyota Sequoia (XK30)",
+      "id": "toyota-sequoia-xk30"
+    },
     "successor": {
       "name": "Toyota Sequoia (XK80)",
       "id": "toyota-sequoia-xk80"

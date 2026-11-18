@@ -11413,6 +11413,304 @@ const CARS_INDEX = [
   }
  },
  {
+  "id": "honda-cr-v-1st-gen",
+  "name": "Honda CR-V (first generation)",
+  "aka": [
+   "1997–2001 CR-V",
+   "CR-V LX",
+   "CR-V EX",
+   "CR-V SE",
+   "RD1"
+  ],
+  "make": "Honda",
+  "maker": "Honda",
+  "years": "1997–2001",
+  "start": 1997,
+  "body": "Compact SUV",
+  "engine": "2.0-liter 4-cylinder",
+  "country": "Japan",
+  "quick": "The first CR-V, 1997–2001: a tall, Civic-based wagon with optional all-wheel drive and a picnic table in the cargo floor, and the best seller in its class until 2001.",
+  "articles": [
+   "industry-brief-2026-11-16",
+   "honda-hybrid-factory",
+   "industry-brief-2026-11-02",
+   "industry-brief-2026-10-12",
+   "losing-at-home",
+   "gas-in-electric-out"
+  ],
+  "latest": "2026-11-16",
+  "ownDates": [],
+  "dates": [
+   "2026-11-16",
+   "2026-11-02",
+   "2026-10-12",
+   "2026-10-05",
+   "2026-10-02"
+  ],
+  "drive": "Front-wheel drive or Real Time all-wheel drive",
+  "gearbox": "5-speed manual or 4-speed automatic",
+  "specsFor": "1997 Honda CR-V, all-wheel drive, automatic, US market (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d589"
+  },
+  "hp": 126,
+  "kg": 1488,
+  "kgNote": "Curb weight, 1997 CR-V, all-wheel drive",
+  "lbs": 3280,
+  "z60": {
+   "sec": 10.9,
+   "kind": "tested",
+   "note": "Car and Driver test, 1997 CR-V, all-wheel drive, automatic"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 21,
+   "city": 19,
+   "hwy": 23,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1997, all-wheel drive, automatic"
+  },
+  "built": {
+   "count": 524661,
+   "approx": true,
+   "note": "Sold in the US, 1997–2001 (Honda figures)"
+  },
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": "honda-cr-v-2nd-gen",
+   "name": "Honda CR-V (second generation)"
+  },
+  "photo": null
+ },
+ {
+  "id": "honda-cr-v-2nd-gen",
+  "name": "Honda CR-V (second generation)",
+  "aka": [
+   "2002–2006 CR-V",
+   "CR-V LX",
+   "CR-V EX",
+   "CR-V SE"
+  ],
+  "make": "Honda",
+  "maker": "Honda",
+  "years": "2002–2006",
+  "start": 2002,
+  "body": "Compact SUV",
+  "engine": "2.4-liter 4-cylinder",
+  "country": "Japan",
+  "quick": "The second-generation CR-V, 2002–2006: a full redesign on Civic bones with a 160-hp 2.4-liter, and Car and Driver's Best Small SUV for 2002 and 2003.",
+  "articles": [
+   "industry-brief-2026-11-16",
+   "honda-hybrid-factory",
+   "industry-brief-2026-11-02",
+   "industry-brief-2026-10-12",
+   "losing-at-home",
+   "gas-in-electric-out"
+  ],
+  "latest": "2026-11-16",
+  "ownDates": [],
+  "dates": [
+   "2026-11-16",
+   "2026-11-02",
+   "2026-10-12",
+   "2026-10-05",
+   "2026-10-02"
+  ],
+  "drive": "Front-wheel drive or Real Time all-wheel drive",
+  "gearbox": "5-speed manual or 4-speed automatic (5-speed automatic from 2005)",
+  "specsFor": "2002 Honda CR-V EX, all-wheel drive, 5-speed manual, US market (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d589"
+  },
+  "hp": 160,
+  "kg": 1529,
+  "kgNote": "Curb weight, 2002 EX, all-wheel drive",
+  "lbs": 3370,
+  "z60": {
+   "sec": 8.4,
+   "kind": "tested",
+   "note": "Car and Driver test, 2002 EX, all-wheel drive, 5-speed manual"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 21,
+   "city": 19,
+   "hwy": 23,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2002, all-wheel drive, 5-speed manual"
+  },
+  "built": {
+   "count": 759703,
+   "approx": true,
+   "note": "Sold in the US, 2002–2006 (Honda figures)"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "honda-cr-v-1st-gen",
+   "name": "Honda CR-V (first generation)"
+  },
+  "next": {
+   "id": "honda-cr-v-3rd-gen",
+   "name": "Honda CR-V (third generation)"
+  },
+  "photo": null
+ },
+ {
+  "id": "honda-cr-v-3rd-gen",
+  "name": "Honda CR-V (third generation)",
+  "aka": [
+   "2007–2011 CR-V",
+   "CR-V EX-L",
+   "CR-V SE",
+   "RE"
+  ],
+  "make": "Honda",
+  "maker": "Honda",
+  "years": "2007–2011",
+  "start": 2007,
+  "body": "Compact SUV",
+  "engine": "2.4-liter 4-cylinder",
+  "country": "Japan",
+  "quick": "The third-generation CR-V, 2007–2011: lower and wider, with a liftgate instead of a swing-out door, and America's best-selling SUV in 2007 and 2008.",
+  "articles": [
+   "industry-brief-2026-11-16",
+   "honda-hybrid-factory",
+   "industry-brief-2026-11-02",
+   "industry-brief-2026-10-12",
+   "losing-at-home",
+   "gas-in-electric-out"
+  ],
+  "latest": "2026-11-16",
+  "ownDates": [],
+  "dates": [
+   "2026-11-16",
+   "2026-11-02",
+   "2026-10-12",
+   "2026-10-05",
+   "2026-10-02"
+  ],
+  "drive": "Front-wheel drive or Real Time all-wheel drive",
+  "gearbox": "5-speed automatic",
+  "specsFor": "2008 Honda CR-V EX, all-wheel drive, automatic, US market (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d589"
+  },
+  "hp": 166,
+  "kg": 1627,
+  "kgNote": "Curb weight, 2008 EX, all-wheel drive",
+  "lbs": 3587,
+  "z60": {
+   "sec": 9.1,
+   "kind": "tested",
+   "note": "Car and Driver test, 2008 EX, all-wheel drive"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 22,
+   "city": 20,
+   "hwy": 26,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2008, all-wheel drive"
+  },
+  "built": {
+   "count": 1029740,
+   "approx": true,
+   "note": "Sold in the US, 2007–2011 (Honda figures)"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "honda-cr-v-2nd-gen",
+   "name": "Honda CR-V (second generation)"
+  },
+  "next": {
+   "id": "honda-cr-v-4th-gen",
+   "name": "Honda CR-V (fourth generation)"
+  },
+  "photo": null
+ },
+ {
+  "id": "honda-cr-v-4th-gen",
+  "name": "Honda CR-V (fourth generation)",
+  "aka": [
+   "2012–2016 CR-V",
+   "CR-V EX-L",
+   "CR-V Touring",
+   "RM"
+  ],
+  "make": "Honda",
+  "maker": "Honda",
+  "years": "2012–2016",
+  "start": 2012,
+  "body": "Compact SUV",
+  "engine": "2.4-liter 4-cylinder",
+  "country": "Japan",
+  "quick": "The fourth-generation CR-V, 2012–2016: 185 hp and smarter all-wheel drive at launch, then a 2015 update with direct injection, a CVT and driver-assist safety features.",
+  "articles": [
+   "industry-brief-2026-11-16",
+   "honda-hybrid-factory",
+   "industry-brief-2026-11-02",
+   "industry-brief-2026-10-12",
+   "losing-at-home",
+   "gas-in-electric-out"
+  ],
+  "latest": "2026-11-16",
+  "ownDates": [],
+  "dates": [
+   "2026-11-16",
+   "2026-11-02",
+   "2026-10-12",
+   "2026-10-05",
+   "2026-10-02"
+  ],
+  "drive": "Front-wheel drive or Real Time all-wheel drive",
+  "gearbox": "5-speed automatic; CVT from 2015",
+  "specsFor": "2012 Honda CR-V EX-L, all-wheel drive, 5-speed automatic, US market (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d589"
+  },
+  "hp": 185,
+  "kg": 1567,
+  "kgNote": "Curb weight, 2012 EX-L",
+  "lbs": 3455,
+  "z60": {
+   "sec": 8.5,
+   "kind": "tested",
+   "note": "Car and Driver test, 2012 EX-L, all-wheel drive"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 25,
+   "city": 22,
+   "hwy": 29,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2012, all-wheel drive"
+  },
+  "built": {
+   "count": 1623557,
+   "approx": true,
+   "note": "Sold in the US, 2012–2016 (Honda figures)"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "honda-cr-v-3rd-gen",
+   "name": "Honda CR-V (third generation)"
+  },
+  "next": {
+   "id": "honda-cr-v-5th-gen",
+   "name": "Honda CR-V (fifth generation)"
+  },
+  "photo": null
+ },
+ {
   "id": "honda-cr-v-5th-gen",
   "name": "Honda CR-V (fifth generation)",
   "aka": [
@@ -11481,7 +11779,10 @@ const CARS_INDEX = [
    "note": "Sold in the US, 2017–2022"
   },
   "alongside": [],
-  "prev": null,
+  "prev": {
+   "id": "honda-cr-v-4th-gen",
+   "name": "Honda CR-V (fourth generation)"
+  },
   "next": {
    "id": "honda-cr-v-6th-gen",
    "name": "Honda CR-V (sixth generation)"

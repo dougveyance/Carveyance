@@ -14813,6 +14813,352 @@ const CARS = [
     }
   },
   {
+    "id": "honda-cr-v-1st-gen",
+    "name": "Honda CR-V (first generation)",
+    "aka": [
+      "1997–2001 CR-V",
+      "CR-V LX",
+      "CR-V EX",
+      "CR-V SE",
+      "RD1"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "1997–2001",
+    "start": 1997,
+    "end": 2001,
+    "shop": {
+      "cargurus": "d589"
+    },
+    "body": "Compact SUV",
+    "engine": "2.0-liter 4-cylinder",
+    "drive": "Front-wheel drive or Real Time all-wheel drive",
+    "gearbox": "5-speed manual or 4-speed automatic",
+    "specsFor": "1997 Honda CR-V, all-wheel drive, automatic, US market (Car and Driver test)",
+    "power": {
+      "hp": 126,
+      "note": "2.0-liter 4-cylinder, 1997–1998 (146 hp from 1999)",
+      "src": "https://www.0-60specs.com/honda/cr-v-0-60-times"
+    },
+    "weight": {
+      "kg": 1488,
+      "lb": 3280,
+      "note": "Curb weight, 1997 CR-V, all-wheel drive",
+      "src": "https://www.0-60specs.com/honda/cr-v-0-60-times"
+    },
+    "zero60": {
+      "sec": 10.9,
+      "kind": "tested",
+      "note": "Car and Driver test, 1997 CR-V, all-wheel drive, automatic",
+      "src": "https://www.0-60specs.com/honda/cr-v-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 21,
+      "city": 19,
+      "hwy": 23,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/29573.shtml",
+      "note": "EPA combined, 1997, all-wheel drive, automatic"
+    },
+    "built": {
+      "count": 524661,
+      "approx": true,
+      "note": "Sold in the US, 1997–2001 (Honda figures)",
+      "src": "https://en.wikipedia.org/wiki/Honda_CR-V"
+    },
+    "predecessor": null,
+    "successor": {
+      "name": "Honda CR-V (second generation)",
+      "id": "honda-cr-v-2nd-gen"
+    },
+    "quick": "The first CR-V, 1997–2001: a tall, Civic-based wagon with optional all-wheel drive and a picnic table in the cargo floor, and the best seller in its class until 2001.",
+    "story": [
+      "Honda's first in-house SUV went on sale in Japan in October 1995 and reached US showrooms in February 1997. It shared its underpinnings with the Civic: a unibody, double-wishbone front suspension, and a choice of front-wheel drive or Real Time all-wheel drive. The 2.0-liter 4-cylinder made 126 hp, and Car and Driver timed an all-wheel-drive automatic to 60 mph in 10.9 seconds. The front seats folded flat to meet the rear cushions in a makeshift bed, and a picnic table was stowed under the cargo floor.",
+      "For 1999 a higher-compression engine raised output to 146 hp, and an SE with leather and body-color trim arrived in 2000. Until 2001 the CR-V outsold every other vehicle in its class, when the Ford Escape and Mazda Tribute finally passed it. US sales rose from about 67,000 in 1997 to more than 120,000 in 1999, about 525,000 in all."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Honda CR-V"
+    ]
+  },
+  {
+    "id": "honda-cr-v-2nd-gen",
+    "name": "Honda CR-V (second generation)",
+    "aka": [
+      "2002–2006 CR-V",
+      "CR-V LX",
+      "CR-V EX",
+      "CR-V SE"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "2002–2006",
+    "start": 2002,
+    "end": 2006,
+    "shop": {
+      "cargurus": "d589"
+    },
+    "body": "Compact SUV",
+    "engine": "2.4-liter 4-cylinder",
+    "drive": "Front-wheel drive or Real Time all-wheel drive",
+    "gearbox": "5-speed manual or 4-speed automatic (5-speed automatic from 2005)",
+    "specsFor": "2002 Honda CR-V EX, all-wheel drive, 5-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 160,
+      "note": "2.4-liter i-VTEC 4-cylinder",
+      "src": "https://en.wikipedia.org/wiki/Honda_CR-V"
+    },
+    "weight": {
+      "kg": 1529,
+      "lb": 3370,
+      "note": "Curb weight, 2002 EX, all-wheel drive",
+      "src": "https://www.0-60specs.com/honda/cr-v-0-60-times"
+    },
+    "zero60": {
+      "sec": 8.4,
+      "kind": "tested",
+      "note": "Car and Driver test, 2002 EX, all-wheel drive, 5-speed manual",
+      "src": "https://www.0-60specs.com/honda/cr-v-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 21,
+      "city": 19,
+      "hwy": 23,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/18185.shtml",
+      "note": "EPA combined, 2002, all-wheel drive, 5-speed manual"
+    },
+    "built": {
+      "count": 759703,
+      "approx": true,
+      "note": "Sold in the US, 2002–2006 (Honda figures)",
+      "src": "https://en.wikipedia.org/wiki/Honda_CR-V"
+    },
+    "predecessor": {
+      "name": "Honda CR-V (first generation)",
+      "id": "honda-cr-v-1st-gen"
+    },
+    "successor": {
+      "name": "Honda CR-V (third generation)",
+      "id": "honda-cr-v-3rd-gen"
+    },
+    "quick": "The second-generation CR-V, 2002–2006: a full redesign on Civic bones with a 160-hp 2.4-liter, and Car and Driver's Best Small SUV for 2002 and 2003.",
+    "story": [
+      "The second CR-V went on sale in November 2001 as a 2002 model, a complete redesign based on the seventh-generation Civic. A 2.4-liter i-VTEC 4-cylinder made 160 hp and matched the old 2.0-liter's fuel economy, and a stiffer body with a compact rear suspension opened up 72 cubic feet of cargo space. Car and Driver ran an EX with the 5-speed manual and all-wheel drive to 60 mph in 8.4 seconds and named the CR-V its Best Small SUV for 2002 and 2003.",
+      "The 2005 refresh brought new lights, 16-inch wheels, a drive-by-wire throttle, quicker-reacting all-wheel drive and a 5-speed automatic in place of the 4-speed. From then on every US and Canadian CR-V had anti-lock brakes, stability control, front side airbags and side curtain airbags. The spare tire still hung on a side-hinged rear door. Americans bought about 760,000."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Honda CR-V"
+    ]
+  },
+  {
+    "id": "honda-cr-v-3rd-gen",
+    "name": "Honda CR-V (third generation)",
+    "aka": [
+      "2007–2011 CR-V",
+      "CR-V EX-L",
+      "CR-V SE",
+      "RE"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "2007–2011",
+    "start": 2007,
+    "end": 2011,
+    "shop": {
+      "cargurus": "d589"
+    },
+    "body": "Compact SUV",
+    "engine": "2.4-liter 4-cylinder",
+    "drive": "Front-wheel drive or Real Time all-wheel drive",
+    "gearbox": "5-speed automatic",
+    "specsFor": "2008 Honda CR-V EX, all-wheel drive, automatic, US market (Car and Driver test)",
+    "power": {
+      "hp": 166,
+      "note": "2.4-liter 4-cylinder, 2007–2009 (180 hp from 2010)",
+      "src": "https://en.wikipedia.org/wiki/Honda_CR-V_(third_generation)"
+    },
+    "weight": {
+      "kg": 1627,
+      "lb": 3587,
+      "note": "Curb weight, 2008 EX, all-wheel drive",
+      "src": "https://www.0-60specs.com/honda/cr-v-0-60-times"
+    },
+    "zero60": {
+      "sec": 9.1,
+      "kind": "tested",
+      "note": "Car and Driver test, 2008 EX, all-wheel drive",
+      "src": "https://www.0-60specs.com/honda/cr-v-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 22,
+      "city": 20,
+      "hwy": 26,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/25023.shtml",
+      "note": "EPA combined, 2008, all-wheel drive"
+    },
+    "built": {
+      "count": 1029740,
+      "approx": true,
+      "note": "Sold in the US, 2007–2011 (Honda figures)",
+      "src": "https://en.wikipedia.org/wiki/Honda_CR-V"
+    },
+    "predecessor": {
+      "name": "Honda CR-V (second generation)",
+      "id": "honda-cr-v-2nd-gen"
+    },
+    "successor": {
+      "name": "Honda CR-V (fourth generation)",
+      "id": "honda-cr-v-4th-gen"
+    },
+    "quick": "The third-generation CR-V, 2007–2011: lower and wider, with a liftgate instead of a swing-out door, and America's best-selling SUV in 2007 and 2008.",
+    "story": [
+      "The third CR-V went on sale in late September 2006 as a 2007 model. It was lower, wider and shorter than before, mostly because the spare tire moved from the back door to beneath the cargo floor, and a conventional liftgate replaced the side-hinged door. A 166-hp 2.4-liter and a 5-speed automatic powered every US model, and Car and Driver timed an all-wheel-drive EX to 60 mph in 9.1 seconds.",
+      "In its first year it passed the Ford Explorer, which had led for 15 years, to become the best-selling SUV in America, and it kept the title in 2008; Honda moved some Civic production to Ontario to build more CR-Vs in Ohio. The 2010 refresh added a new grille and raised output to 180 hp. US sales topped 200,000 in 3 of its 5 years, about 1.03 million in all."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Honda CR-V"
+    ]
+  },
+  {
+    "id": "honda-cr-v-4th-gen",
+    "name": "Honda CR-V (fourth generation)",
+    "aka": [
+      "2012–2016 CR-V",
+      "CR-V EX-L",
+      "CR-V Touring",
+      "RM"
+    ],
+    "make": "Honda",
+    "maker": "Honda",
+    "country": "Japan",
+    "years": "2012–2016",
+    "start": 2012,
+    "end": 2016,
+    "shop": {
+      "cargurus": "d589"
+    },
+    "body": "Compact SUV",
+    "engine": "2.4-liter 4-cylinder",
+    "drive": "Front-wheel drive or Real Time all-wheel drive",
+    "gearbox": "5-speed automatic; CVT from 2015",
+    "specsFor": "2012 Honda CR-V EX-L, all-wheel drive, 5-speed automatic, US market (Car and Driver test)",
+    "power": {
+      "hp": 185,
+      "note": "2.4-liter i-VTEC 4-cylinder",
+      "src": "https://en.wikipedia.org/wiki/Honda_CR-V_(fourth_generation)"
+    },
+    "weight": {
+      "kg": 1567,
+      "lb": 3455,
+      "note": "Curb weight, 2012 EX-L",
+      "src": "https://www.0-60specs.com/honda/cr-v-0-60-times"
+    },
+    "zero60": {
+      "sec": 8.5,
+      "kind": "tested",
+      "note": "Car and Driver test, 2012 EX-L, all-wheel drive",
+      "src": "https://www.0-60specs.com/honda/cr-v-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Honda"
+    },
+    "mpg": {
+      "combined": 25,
+      "city": 22,
+      "hwy": 29,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/32138.shtml",
+      "note": "EPA combined, 2012, all-wheel drive"
+    },
+    "built": {
+      "count": 1623557,
+      "approx": true,
+      "note": "Sold in the US, 2012–2016 (Honda figures)",
+      "src": "https://en.wikipedia.org/wiki/Honda_CR-V"
+    },
+    "versions": [
+      {
+        "name": "2.4-liter, 2012–2014",
+        "detail": "5-speed automatic"
+      },
+      {
+        "name": "2.4-liter, 2015–2016",
+        "detail": "Direct injection, CVT",
+        "specsFor": "2015 Honda CR-V EX, front-wheel drive, CVT, US market (Car and Driver test)",
+        "power": {
+          "hp": 185,
+          "note": "Direct-injected 2.4-liter 4-cylinder",
+          "src": "https://www.0-60specs.com/honda/cr-v-0-60-times"
+        },
+        "weight": {
+          "kg": 1567,
+          "lb": 3455,
+          "note": "Curb weight, 2015 EX, front-wheel drive",
+          "src": "https://www.0-60specs.com/honda/cr-v-0-60-times"
+        },
+        "zero60": {
+          "sec": 7.5,
+          "kind": "tested",
+          "note": "Car and Driver test, 2015 EX, front-wheel drive",
+          "src": "https://www.0-60specs.com/honda/cr-v-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Honda"
+        },
+        "mpg": {
+          "combined": 29,
+          "city": 27,
+          "hwy": 33,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/35784.shtml",
+          "note": "EPA combined, 2015, front-wheel drive"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Honda CR-V (third generation)",
+      "id": "honda-cr-v-3rd-gen"
+    },
+    "successor": {
+      "name": "Honda CR-V (fifth generation)",
+      "id": "honda-cr-v-5th-gen"
+    },
+    "quick": "The fourth-generation CR-V, 2012–2016: 185 hp and smarter all-wheel drive at launch, then a 2015 update with direct injection, a CVT and driver-assist safety features.",
+    "story": [
+      "The fourth CR-V went on sale in the US on December 15, 2011, with a 185-hp 2.4-liter, a 5-speed automatic and a new Real Time all-wheel-drive system with smarter controls, and every model had a backup camera as standard. Honda launched it with a Super Bowl ad in which Matthew Broderick revisited Ferris Bueller's Day Off. Car and Driver ran a 2012 EX-L with all-wheel drive to 60 mph in 8.5 seconds.",
+      "For 2015 it got the Accord's direct-injected engine and CVT, which raised EPA ratings by 3 mpg combined, plus a stronger structure for the small-overlap crash test and retuned suspension and steering. A new Touring trim added forward collision warning with automatic braking, lane keeping and adaptive cruise control, and Car and Driver timed a 2015 EX at 7.5 seconds. US sales rose every year, from about 282,000 in 2012 to 357,000 in 2016, about 1.62 million in all."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Honda CR-V"
+    ]
+  },
+  {
     "top": {
       "na": "No US figure from Honda"
     },
@@ -14904,7 +15250,10 @@ const CARS = [
       "note": "Sold in the US, 2017–2022",
       "src": "https://www.goodcarbadcar.net/honda-cr-v-sales-figures/"
     },
-    "predecessor": null,
+    "predecessor": {
+      "name": "Honda CR-V (fourth generation)",
+      "id": "honda-cr-v-4th-gen"
+    },
     "successor": {
       "name": "Honda CR-V (sixth generation)",
       "id": "honda-cr-v-6th-gen"

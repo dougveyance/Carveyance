@@ -27118,7 +27118,9 @@ const CARS = [
       "A 4-door sedan joined for 1971, along with a V8 option, the sporty Grabber and Mercury's version, the Comet; a Luxury Decor Option followed in 1972. The Maverick was meant to give way to the Granada for 1975, but the 1973 fuel crisis kept it in production. The Fairmont replaced it after 1977, after more than 2.1 million had been built for North America. The name returned on a compact pickup for 2022."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {
+      "credit": "Ford"
+    },
     "match": [
       "Ford Maverick"
     ]
@@ -27589,7 +27591,9 @@ const CARS = [
       "Motor Trend timed a 1983 XLS with the 73-hp 2.0-liter at 14.8 seconds to 60 mph. The V6s grew from 2.8 to 2.9 liters and, from 1990, 4.0 liters with 160 hp, and a sporty Ranger GT ran from 1987 to 1989. From 1987 it was America's best-selling compact pickup, a title it held until 2004."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {
+      "credit": "Ford"
+    },
     "match": [
       "Ford Ranger"
     ]
@@ -27728,7 +27732,9 @@ const CARS = [
       "Car and Driver timed a 1993 XLT with the 4.0-liter V6 at 8.9 seconds to 60 mph. US sales passed 300,000 a year for most of this generation, peaking at 344,744 in 1994."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {
+      "credit": "Ford"
+    },
     "match": [
       "Ford Ranger"
     ]
@@ -27841,7 +27847,9 @@ const CARS = [
       "Car and Driver timed a 2001 Edge Plus SuperCab 4x4 at 8.1 seconds to 60 mph. 2011 was the last model year for retail sales; a short run of 2012 trucks for fleets ended production at the Twin Cities Assembly Plant in St. Paul, Minnesota, in December 2011, closing the plant after 86 years."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {
+      "credit": "Ford"
+    },
     "match": [
       "Ford Ranger"
     ]

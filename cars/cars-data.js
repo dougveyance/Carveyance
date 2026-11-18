@@ -19932,7 +19932,11 @@ const CARS_INDEX = [
    "name": "Ford Bronco (fifth generation)"
   },
   "next": null,
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/ford-bronco-6th-gen.jpg?v=cc493e13",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "ford-bronco-raptor",
@@ -20110,7 +20114,11 @@ const CARS_INDEX = [
    "id": "ford-maverick-pickup",
    "name": "Ford Maverick (2022 pickup)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/ford-maverick-1970.jpg?v=c39423c9",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "ford-maverick-pickup",
@@ -20388,7 +20396,11 @@ const CARS_INDEX = [
    "id": "ford-ranger-2nd-gen",
    "name": "Ford Ranger (second generation)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/ford-ranger-1st-gen.jpg?v=fa7d662c",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "ford-ranger-2nd-gen",
@@ -20457,7 +20469,11 @@ const CARS_INDEX = [
    "id": "ford-ranger-3rd-gen",
    "name": "Ford Ranger (third generation)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/ford-ranger-2nd-gen.jpg?v=d43f788a",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "ford-ranger-3rd-gen",
@@ -20528,7 +20544,11 @@ const CARS_INDEX = [
    "id": "ford-ranger-4th-gen",
    "name": "Ford Ranger (fourth generation)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/ford-ranger-3rd-gen.jpg?v=58d42da0",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "ford-ranger-4th-gen",

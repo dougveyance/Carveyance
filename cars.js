@@ -10196,6 +10196,348 @@ const CARS = [
     }
   },
   {
+    "id": "toyota-rav4-xa10",
+    "name": "Toyota RAV4 (XA10)",
+    "aka": [
+      "1996–2000 RAV4",
+      "RAV4 soft top",
+      "RAV4 EV",
+      "XA10"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "1996–2000",
+    "start": 1996,
+    "end": 2000,
+    "shop": {
+      "cargurus": "d306"
+    },
+    "body": "Compact SUV, 3-door and 5-door; soft-top 3-door from 1998",
+    "engine": "2.0-liter 4-cylinder",
+    "drive": "Front-wheel drive or 4-wheel drive",
+    "gearbox": "5-speed manual or 4-speed automatic",
+    "specsFor": "1996 Toyota RAV4, 4-wheel drive, 5-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 120,
+      "note": "2.0-liter 4-cylinder (127 hp from 1998)",
+      "src": "https://www.0-60specs.com/toyota/rav4-0-60-times"
+    },
+    "weight": {
+      "kg": 1338,
+      "lb": 2950,
+      "note": "Curb weight, 1996, 4-wheel drive",
+      "src": "https://www.0-60specs.com/toyota/rav4-0-60-times"
+    },
+    "zero60": {
+      "sec": 10.0,
+      "kind": "tested",
+      "note": "Car and Driver test, 1996, 4-wheel drive, manual",
+      "src": "https://www.0-60specs.com/toyota/rav4-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 21,
+      "city": 19,
+      "hwy": 24,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/13251.shtml",
+      "note": "EPA combined, 1996, 4-wheel drive, manual"
+    },
+    "built": {
+      "count": 300103,
+      "approx": true,
+      "note": "Sold in the US, 1996–2000",
+      "src": "https://en.wikipedia.org/wiki/Toyota_RAV4"
+    },
+    "predecessor": null,
+    "successor": {
+      "name": "Toyota RAV4 (XA20)",
+      "id": "toyota-rav4-xa20"
+    },
+    "quick": "The first RAV4, 1996–2000: a small, car-based SUV with optional 4-wheel drive, built from Corolla and Carina parts, and Automobile Magazine's 1997 Automobile of the Year.",
+    "story": [
+      "Toyota began developing the RAV4 in 1989 and launched it in Japan in May 1994 as a 3-door, adding a 5-door in March 1995. It rode on a platform that borrowed from the Carina and Corolla, and it reached the US in January 1996 with dual airbags as standard. The 2.0-liter 4-cylinder made 120 hp, with front-wheel drive or 4-wheel drive and a 5-speed manual or 4-speed automatic; Car and Driver timed a 1996 4-wheel-drive manual to 60 mph in 10.0 seconds.",
+      "Automobile Magazine named it its 1997 Automobile of the Year. A 1998 update added a soft-top 3-door and raised output to 127 hp, and the 2-door hardtop left the US lineup in June 1999. A battery-electric RAV4 EV was built from 1997 to 2003, mostly for fleet leases, with 1,484 leased or sold in California. Americans bought about 300,000 first-generation RAV4s."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota RAV4"
+    ]
+  },
+  {
+    "id": "toyota-rav4-xa20",
+    "name": "Toyota RAV4 (XA20)",
+    "aka": [
+      "2001–2005 RAV4",
+      "RAV4 L",
+      "XA20"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan",
+    "years": "2001–2005",
+    "start": 2001,
+    "end": 2005,
+    "shop": {
+      "cargurus": "d306"
+    },
+    "body": "Compact 5-door SUV (US)",
+    "engine": "2.0-liter 4-cylinder; 2.4-liter from 2004",
+    "drive": "Front-wheel drive or 4-wheel drive",
+    "gearbox": "5-speed manual or 4-speed automatic",
+    "specsFor": "2001 Toyota RAV4, 2.0-liter, 4-wheel drive, automatic, US market (Car and Driver test)",
+    "power": {
+      "hp": 148,
+      "note": "2.0-liter 4-cylinder",
+      "src": "https://en.wikipedia.org/wiki/Toyota_RAV4"
+    },
+    "weight": {
+      "kg": 1365,
+      "lb": 3010,
+      "note": "Curb weight, 2001, 4-wheel drive",
+      "src": "https://www.0-60specs.com/toyota/rav4-0-60-times"
+    },
+    "zero60": {
+      "sec": 10.2,
+      "kind": "tested",
+      "note": "Car and Driver test, 2001, 4-wheel drive, automatic",
+      "src": "https://www.0-60specs.com/toyota/rav4-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 22,
+      "city": 20,
+      "hwy": 25,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/17294.shtml",
+      "note": "EPA combined, 2001, 4-wheel drive, automatic"
+    },
+    "built": {
+      "count": 387005,
+      "approx": true,
+      "note": "Sold in the US, 2001–2005",
+      "src": "https://en.wikipedia.org/wiki/Toyota_RAV4"
+    },
+    "versions": [
+      {
+        "name": "2.0-liter",
+        "detail": "2001–2003"
+      },
+      {
+        "name": "2.4-liter",
+        "detail": "2004–2005",
+        "specsFor": "2004 Toyota RAV4, 2.4-liter, 4-wheel drive, automatic, US market (Motor Trend test)",
+        "power": {
+          "hp": 161,
+          "note": "2.4-liter 4-cylinder",
+          "src": "https://en.wikipedia.org/wiki/Toyota_RAV4"
+        },
+        "weight": {
+          "kg": 1529,
+          "lb": 3370,
+          "note": "Curb weight, 2004, 4-wheel drive",
+          "src": "https://www.0-60specs.com/toyota/rav4-0-60-times"
+        },
+        "zero60": {
+          "sec": 9.3,
+          "kind": "tested",
+          "note": "Motor Trend test, 2004, 4-wheel drive, automatic",
+          "src": "https://www.0-60specs.com/toyota/rav4-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 22,
+          "city": 20,
+          "hwy": 24,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/20374.shtml",
+          "note": "EPA combined, 2004, 4-wheel drive, automatic"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Toyota RAV4 (XA10)",
+      "id": "toyota-rav4-xa10"
+    },
+    "successor": {
+      "name": "Toyota RAV4 (XA30)",
+      "id": "toyota-rav4-xa30"
+    },
+    "quick": "The second RAV4, 2001–2005: a 5-door-only RAV4 in America, styled at Toyota's Calty studio, with a 2.4-liter from 2004.",
+    "story": [
+      "The second RAV4 went on sale in July 2000, again built on Carina and Corolla underpinnings, with styling done at Toyota's Calty design studio. America got only the 5-door. Its new 2.0-liter with variable valve timing made 148 hp, and Car and Driver timed a 2001 4-wheel-drive automatic to 60 mph in 10.2 seconds.",
+      "The 2004 update brought a stronger body structure, standard stability control, optional side airbags and a 161-hp 2.4-liter. Registration and survey data from 2003 and 2004 showed it had the highest share of female drivers of any vehicle in the US, with the possible exception of the Volkswagen New Beetle. US sales came to about 387,000."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota RAV4"
+    ]
+  },
+  {
+    "id": "toyota-rav4-xa30",
+    "name": "Toyota RAV4 (XA30)",
+    "aka": [
+      "2006–2012 RAV4",
+      "RAV4 V6",
+      "RAV4 Limited",
+      "RAV4 Sport",
+      "XA30"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota",
+    "country": "Japan and Canada",
+    "years": "2006–2012",
+    "start": 2006,
+    "end": 2012,
+    "shop": {
+      "cargurus": "d306"
+    },
+    "body": "Compact SUV, optional third-row seat",
+    "engine": "2.4-liter or 2.5-liter 4-cylinder; 3.5-liter V6",
+    "drive": "Front-wheel drive or 4-wheel drive",
+    "gearbox": "4-speed automatic; 5-speed automatic (V6)",
+    "specsFor": "2008 Toyota RAV4, 2.4-liter, 4-wheel drive, automatic, US market (Car and Driver test)",
+    "power": {
+      "hp": 166,
+      "note": "2.4-liter 4-cylinder, 2006–2008",
+      "src": "https://en.wikipedia.org/wiki/Toyota_RAV4"
+    },
+    "weight": {
+      "kg": 1601,
+      "lb": 3530,
+      "note": "Curb weight, 2008, 4-wheel drive",
+      "src": "https://www.0-60specs.com/toyota/rav4-0-60-times"
+    },
+    "zero60": {
+      "sec": 8.8,
+      "kind": "tested",
+      "note": "Car and Driver test, 2008, 4-wheel drive",
+      "src": "https://www.0-60specs.com/toyota/rav4-0-60-times"
+    },
+    "top": {
+      "na": "No US figure from Toyota"
+    },
+    "mpg": {
+      "combined": 22,
+      "city": 20,
+      "hwy": 25,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/25056.shtml",
+      "note": "EPA combined, 2008 2.4-liter, 4-wheel drive"
+    },
+    "built": {
+      "count": 1085898,
+      "approx": true,
+      "note": "Sold in the US, 2006–2012",
+      "src": "https://en.wikipedia.org/wiki/Toyota_RAV4"
+    },
+    "versions": [
+      {
+        "name": "2.4-liter",
+        "detail": "4-cylinder, 2006–2008"
+      },
+      {
+        "name": "2.5-liter",
+        "detail": "4-cylinder, 2009–2012",
+        "specsFor": "2012 Toyota RAV4 Limited, 2.5-liter, 4-wheel drive, US market (Car and Driver test)",
+        "power": {
+          "hp": 179,
+          "note": "2.5-liter 4-cylinder",
+          "src": "https://www.0-60specs.com/toyota/rav4-0-60-times"
+        },
+        "weight": {
+          "kg": 1622,
+          "lb": 3575,
+          "note": "Curb weight, 2012 Limited",
+          "src": "https://www.0-60specs.com/toyota/rav4-0-60-times"
+        },
+        "zero60": {
+          "sec": 9.0,
+          "kind": "tested",
+          "note": "Car and Driver test, 2012 Limited",
+          "src": "https://www.0-60specs.com/toyota/rav4-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 23,
+          "city": 21,
+          "hwy": 27,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/32200.shtml",
+          "note": "EPA combined, 2012 2.5-liter, 4-wheel drive"
+        }
+      },
+      {
+        "name": "3.5-liter V6",
+        "detail": "V6, 5-speed automatic",
+        "specsFor": "2006 Toyota RAV4 Limited V6, 4-wheel drive, US market (Car and Driver test)",
+        "power": {
+          "hp": 269,
+          "note": "3.5-liter V6",
+          "src": "https://www.0-60specs.com/toyota/rav4-0-60-times"
+        },
+        "weight": {
+          "kg": 1715,
+          "lb": 3780,
+          "note": "Curb weight, 2006 Limited V6",
+          "src": "https://www.0-60specs.com/toyota/rav4-0-60-times"
+        },
+        "zero60": {
+          "sec": 6.3,
+          "kind": "tested",
+          "note": "Car and Driver test, 2006 Limited V6",
+          "src": "https://www.0-60specs.com/toyota/rav4-0-60-times"
+        },
+        "top": {
+          "na": "No US figure from Toyota"
+        },
+        "mpg": {
+          "combined": 21,
+          "city": 19,
+          "hwy": 26,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/22692.shtml",
+          "note": "EPA combined, 2006 V6, 4-wheel drive"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Toyota RAV4 (XA20)",
+      "id": "toyota-rav4-xa20"
+    },
+    "successor": {
+      "name": "Toyota RAV4 (XA40)",
+      "id": "toyota-rav4-xa40"
+    },
+    "quick": "The third RAV4, 2006–2012: bigger, with an optional third row and a 269-hp V6 that ran to 60 in about 6 seconds, and Toyota's best-selling SUV in America.",
+    "story": [
+      "Unveiled at the 2005 Frankfurt Motor Show, the third RAV4 came in short and long wheelbases, and North America got the long one, with 21 percent more interior space and an optional third-row seat. Electric power steering and keyless entry arrived with it. The 166-hp 2.4-liter was replaced for 2009 by a 179-hp 2.5-liter, both with a 4-speed automatic, and Car and Driver timed a 2008 4-wheel-drive 4-cylinder to 60 mph in 8.8 seconds.",
+      "The optional 3.5-liter V6 made 269 hp with a 5-speed automatic, and Car and Driver ran a 2006 Limited V6 to 60 in 6.3 seconds. The RAV4 became Toyota's best-selling SUV in the US for the first time, and from November 2008 North American models were built in Woodstock, Ontario. US sales came to about 1.09 million."
+    ],
+    "articles": [],
+    "photo": null,
+    "match": [
+      "Toyota RAV4"
+    ]
+  },
+  {
     "id": "toyota-rav4-xa40",
     "name": "Toyota RAV4 (XA40)",
     "aka": [
@@ -10288,7 +10630,10 @@ const CARS = [
       "note": "Sold in the US, 2013–2018",
       "src": "https://www.goodcarbadcar.net/toyota-rav4-sales-figures/"
     },
-    "predecessor": null,
+    "predecessor": {
+      "name": "Toyota RAV4 (XA30)",
+      "id": "toyota-rav4-xa30"
+    },
     "successor": {
       "name": "Toyota RAV4 (XA50)",
       "id": "toyota-rav4-xa50"

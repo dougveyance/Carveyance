@@ -476,6 +476,101 @@ def compare_row(c, by_id):
             f'<span class="cn">Put it beside another car</span><span class="go">&rarr;</span></a>')
 
 
+FAMS = {}  # filled in main(): family id -> {"name": str, "members": [car dicts, oldest first]}
+
+
+def family_link_row(c):
+    f = c.get("family") or {}
+    fam = FAMS.get(f.get("id"))
+    if not fam or len(fam["members"]) < 2:
+        return ""
+    return (f'<a class="lin" href="/cars/family-{esc(f["id"])}/"><span class="dir">Family</span>'
+            f'<span class="nm">The {esc(fam["name"])} family &middot; {len(fam["members"])} in the Index</span><span class="go">&rarr;</span></a>')
+
+
+def fam_chip(label, val):
+    return f'<span class="fc"><b>{esc(str(val))}</b> {esc(label)}</span>' if val else ""
+
+
+def family_page(fid, fam, photos):
+    members = fam["members"]
+    url = f"{SITE}/cars/family-{fid}/"
+    years = [c.get("start") for c in members if c.get("start")]
+    ends = [c.get("end") for c in members]
+    span = (f"{min(years)}\u2013{'present' if any(e is None for e in ends) else max(e for e in ends if e)}") if years else ""
+    title = f"The {fam['name']} family: every generation in the Index — The Car Index"
+    desc = f"All {len(members)} {fam['name']} pages in the Carveyance Car Index, {span}: every generation and variant, with specs, stories and photos."
+    rows = []
+    for c in members:
+        ph = photos[c["id"]]
+        img = f'<img src="{esc(ph["card"])}" alt="" loading="lazy"{img_style(c)}>' if ph.get("card") else ""
+        chips = (fam_chip("hp", (c.get("power") or {}).get("hp")) +
+                 fam_chip("sec 0-60", (c.get("zero60") or {}).get("sec")) +
+                 fam_chip("mph top", (c.get("top") or {}).get("mph")) +
+                 fam_chip("built", num((c.get("built") or {}).get("count")) if (c.get("built") or {}).get("count") else None))
+        vers = ""
+        if c.get("versions"):
+            vers = '<div class="fv">' + " &middot; ".join(esc(v["name"]) for v in c["versions"][:6]) + "</div>"
+        rows.append(f"""<li class="frow">
+  <a class="fim" href="/cars/{esc(c["id"])}/">{img}</a>
+  <div class="fin">
+    <div class="fk">{esc(c.get("years", ""))}</div>
+    <h2><a href="/cars/{esc(c["id"])}/">{esc(c["name"])}</a></h2>
+    <p class="fq">{esc(c.get("quick", ""))}</p>
+    <div class="fchips">{chips}</div>
+    {vers}
+  </div>
+</li>""")
+    style = """<style>
+.fhero{background:#141820;color:#fff;padding:72px 0 36px}
+.fhero .wrap{max-width:1060px;margin:0 auto;padding:0 20px}
+.fhero .crumb{font:500 13px/1 'DM Sans',sans-serif;opacity:.75}.fhero .crumb a{color:#fff;text-decoration:none}
+.fhero h1{font-family:'DM Serif Display',serif;font-size:clamp(30px,5vw,52px);margin:14px 0 10px}
+.fhero p{font:300 17px/1.55 'DM Sans',sans-serif;max-width:640px;opacity:.9;margin:0}
+.ftl{list-style:none;margin:0 auto;padding:28px 20px 56px;max-width:1060px;display:flex;flex-direction:column;gap:22px}
+.frow{display:grid;grid-template-columns:300px 1fr;gap:22px;align-items:start;border-bottom:1px solid #e5e2da;padding-bottom:22px}
+.fim{display:block;aspect-ratio:3/2;overflow:hidden;border-radius:10px;background:#dcd8d0}
+.fim img{width:100%;height:100%;object-fit:cover;display:block}
+.fin .fk{font:600 12px/1 'Bebas Neue',sans-serif;letter-spacing:.14em;font-size:15px;color:#9a6a2f}
+.fin h2{font-family:'DM Serif Display',serif;font-size:24px;margin:6px 0 8px}.fin h2 a{color:#141820;text-decoration:none}
+.fq{font:300 15px/1.55 'DM Sans',sans-serif;color:#3c4048;margin:0 0 10px}
+.fchips{display:flex;flex-wrap:wrap;gap:8px}
+.fc{font:500 12px/1 'DM Sans',sans-serif;background:#f0ede6;border-radius:999px;padding:7px 11px;color:#141820}.fc b{font-weight:600}
+.fv{font:500 12px/1.6 'DM Sans',sans-serif;color:#6a6e76;margin-top:9px}
+@media(max-width:700px){.frow{grid-template-columns:1fr}}
+</style>"""
+    return f"""{head(title, desc, url)}
+{style}
+</head>
+<body>
+
+{nav()}
+
+<header class="fhero">
+  <div class="wrap">
+    <div class="crumb"><a href="/">Carveyance</a> &nbsp;/&nbsp; <a href="/cars/">The Car Index</a></div>
+    <h1>The {esc(fam["name"])} family</h1>
+    <p>{len(members)} generations and variants in the Index, {span}. Oldest first; every card opens the full page, with its own versions, figures and story.</p>
+  </div>
+</header>
+
+<ol class="ftl">
+{"".join(rows)}
+</ol>
+
+{FOOT}
+<script src="/assets/js/cv-menu.js" defer></script>
+</body>
+</html>
+"""
+
+
+"""
+
+
+"""
+
+
 # ---------- one car's page ----------
 def car_page(c, cars, by_id, arts, photos):
     url = f"{SITE}/cars/{c['id']}/"
@@ -614,6 +709,7 @@ def car_page(c, cars, by_id, arts, photos):
         <div class="lin this"><span class="dir">This car</span><span class="nm">{esc(c["name"])}</span></div>
         {"".join(lineage_row("Alongside", x, by_id) for x in c.get("alongside") or [])}
         {lineage_row("After it", c.get("successor"), by_id)}
+        {family_link_row(c)}
         {compare_row(c, by_id)}
       </div>
       <dl class="facts">{facts_html}</dl>
@@ -823,6 +919,15 @@ def main():
         c["_mention"].sort(key=lambda s: len(arts[s]["vehicles"]))
     photos = {c["id"]: photo_urls(c) for c in cars}
 
+    global FAMS
+    FAMS.clear()
+    for c in cars:
+        f = c.get("family") or {}
+        if f.get("id"):
+            FAMS.setdefault(f["id"], {"name": f.get("name") or f["id"], "members": []})["members"].append(c)
+    for fam in FAMS.values():
+        fam["members"].sort(key=lambda x: (x.get("start") or 9999, x["name"]))
+
     # the data the /cars/ page reads
     data = []
     for c in cars:
@@ -868,6 +973,13 @@ def main():
     os.makedirs(os.path.join("cars", "compare"), exist_ok=True)
     open(os.path.join("cars", "compare", "index.html"), "w", encoding="utf-8").write(compare_page())
     keep.add("compare")
+    for fid, fam in FAMS.items():
+        if len(fam["members"]) < 2:
+            continue
+        folder = os.path.join("cars", "family-" + fid)
+        os.makedirs(folder, exist_ok=True)
+        open(os.path.join(folder, "index.html"), "w", encoding="utf-8").write(family_page(fid, fam, photos))
+        keep.add("family-" + fid)
     removed = 0
     for name in os.listdir("cars"):
         p = os.path.join("cars", name, "index.html")

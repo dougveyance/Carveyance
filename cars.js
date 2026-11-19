@@ -50,6 +50,7 @@
 const CARS = [
   {
     "id": "lotus-evora-gt",
+    "family": {"id": "lotus-evora", "name": "Lotus Evora"},
     "name": "Lotus Evora GT",
     "aka": [],
     "make": "Lotus",
@@ -130,6 +131,7 @@ const CARS = [
   },
   {
     "id": "porsche-911-gt3-996",
+    "family": {"id": "porsche-911", "name": "Porsche 911"},
     "name": "Porsche 911 GT3 (996)",
     "aka": [],
     "make": "Porsche",
@@ -318,6 +320,7 @@ const CARS = [
     ],
     "photo": {},
     "id": "lotus-evora-s",
+    "family": {"id": "lotus-evora", "name": "Lotus Evora"},
     "name": "Lotus Evora S",
     "years": "2010–2014",
     "start": 2010,
@@ -368,6 +371,7 @@ const CARS = [
   },
   {
     "id": "lotus-evora-400",
+    "family": {"id": "lotus-evora", "name": "Lotus Evora"},
     "name": "Lotus Evora 400",
     "aka": [],
     "make": "Lotus",
@@ -467,6 +471,7 @@ const CARS = [
     ],
     "photo": {},
     "id": "lotus-evora-sport-410",
+    "family": {"id": "lotus-evora", "name": "Lotus Evora"},
     "name": "Lotus Evora Sport 410",
     "years": "2016–2021",
     "start": 2016,
@@ -541,6 +546,7 @@ const CARS = [
     ],
     "photo": {},
     "id": "lotus-evora-gt430",
+    "family": {"id": "lotus-evora", "name": "Lotus Evora"},
     "name": "Lotus Evora GT430",
     "years": "2017–2018",
     "start": 2017,
@@ -591,6 +597,7 @@ const CARS = [
   },
   {
     "id": "lotus-evora-gt430-sport",
+    "family": {"id": "lotus-evora", "name": "Lotus Evora"},
     "name": "Lotus Evora GT430 Sport",
     "aka": [],
     "make": "Lotus",
@@ -663,6 +670,7 @@ const CARS = [
   },
   {
     "id": "lotus-evora",
+    "family": {"id": "lotus-evora", "name": "Lotus Evora"},
     "name": "Lotus Evora",
     "aka": [],
     "make": "Lotus",
@@ -741,6 +749,7 @@ const CARS = [
   },
   {
     "id": "lotus-esprit-sport-300",
+    "family": {"id": "lotus-esprit", "name": "Lotus Esprit"},
     "name": "Lotus Esprit Sport 300",
     "aka": [
       "Esprit 300 Sport",
@@ -828,6 +837,7 @@ const CARS = [
   },
   {
     "id": "lotus-esprit-s4s",
+    "family": {"id": "lotus-esprit", "name": "Lotus Esprit"},
     "name": "Lotus Esprit S4S",
     "aka": [],
     "make": "Lotus",
@@ -914,6 +924,7 @@ const CARS = [
   },
   {
     "id": "lotus-esprit-v8",
+    "family": {"id": "lotus-esprit", "name": "Lotus Esprit"},
     "name": "Lotus Esprit V8",
     "aka": [],
     "make": "Lotus",
@@ -1139,6 +1150,7 @@ const CARS = [
     },
     "photo": {},
     "id": "mazda-rx-7-fb",
+    "family": {"id": "mazda-rx-7", "name": "Mazda RX-7"},
     "name": "Mazda RX-7 (FB)",
     "make": "Mazda",
     "maker": "Mazda",
@@ -1173,6 +1185,7 @@ const CARS = [
   },
   {
     "id": "mazda-rx-7-fd",
+    "family": {"id": "mazda-rx-7", "name": "Mazda RX-7"},
     "name": "Mazda RX-7 (FD)",
     "aka": [
       "Efini RX-7"
@@ -1250,6 +1263,7 @@ const CARS = [
   },
   {
     "id": "mazda-rx-7-fc",
+    "family": {"id": "mazda-rx-7", "name": "Mazda RX-7"},
     "name": "Mazda RX-7 (FC)",
     "aka": [
       "Mazda Savanna RX-7"
@@ -1367,6 +1381,7 @@ const CARS = [
   },
   {
     "id": "mazda-eunos-cosmo",
+    "family": {"id": "mazda-cosmo", "name": "Mazda Cosmo"},
     "name": "Eunos Cosmo",
     "aka": [
       "Mazda Eunos Cosmo",
@@ -1446,6 +1461,7 @@ const CARS = [
   },
   {
     "id": "mazda-cosmo-sport",
+    "family": {"id": "mazda-cosmo", "name": "Mazda Cosmo"},
     "name": "Mazda Cosmo Sport (Series I)",
     "aka": [
       "Mazda 110S",
@@ -1805,6 +1821,7 @@ const CARS = [
   },
   {
     "id": "mazda-protege5",
+    "family": {"id": "mazda-protege", "name": "Mazda Protegé"},
     "name": "Mazda Protegé5",
     "aka": [
       "Mazda Familia S-Wagon"
@@ -1881,6 +1898,7 @@ const CARS = [
   },
   {
     "id": "mazda-protege-mp3",
+    "family": {"id": "mazda-protege", "name": "Mazda Protegé"},
     "name": "Mazda Protegé MP3",
     "aka": [],
     "make": "Mazda",
@@ -1953,6 +1971,7 @@ const CARS = [
   },
   {
     "id": "mazdaspeed-protege",
+    "family": {"id": "mazda-protege", "name": "Mazda Protegé"},
     "name": "Mazdaspeed Protegé",
     "aka": [],
     "make": "Mazda",
@@ -2716,6 +2735,7 @@ const CARS = [
   },
   {
     "id": "bmw-135is",
+    "family": {"id": "bmw-1-series", "name": "BMW 1 Series"},
     "name": "BMW 135is",
     "aka": [],
     "make": "BMW",
@@ -2796,6 +2816,7 @@ const CARS = [
   },
   {
     "id": "bmw-1m-coupe",
+    "family": {"id": "bmw-1-series", "name": "BMW 1 Series"},
     "name": "BMW 1 Series M Coupe",
     "aka": [
       "BMW 1M",
@@ -2875,6 +2896,7 @@ const CARS = [
   },
   {
     "id": "bmw-z3-m-coupe",
+    "family": {"id": "bmw-z", "name": "BMW Z3 / Z4"},
     "name": "BMW Z3 M Coupe",
     "aka": [
       "BMW M Coupe",
@@ -2994,6 +3016,7 @@ const CARS = [
   },
   {
     "id": "bmw-z4-m-coupe",
+    "family": {"id": "bmw-z", "name": "BMW Z3 / Z4"},
     "name": "BMW Z4 M Coupe",
     "aka": [
       "BMW M Coupe (E86)"
@@ -3075,6 +3098,7 @@ const CARS = [
   },
   {
     "id": "bmw-z4-sdrive35is",
+    "family": {"id": "bmw-z", "name": "BMW Z3 / Z4"},
     "name": "BMW Z4 sDrive35is",
     "aka": [
       "BMW Z4 35is"
@@ -3308,6 +3332,7 @@ const CARS = [
   },
   {
     "id": "porsche-911-996",
+    "family": {"id": "porsche-911", "name": "Porsche 911"},
     "name": "Porsche 911 (996)",
     "aka": [
       "Porsche 996"
@@ -3436,6 +3461,7 @@ const CARS = [
   },
   {
     "id": "porsche-911-sc",
+    "family": {"id": "porsche-911", "name": "Porsche 911"},
     "name": "Porsche 911 SC",
     "aka": [],
     "make": "Porsche",
@@ -3515,6 +3541,7 @@ const CARS = [
   },
   {
     "id": "porsche-968-club-sport",
+    "family": {"id": "porsche-transaxle", "name": "Porsche 944 / 968"},
     "name": "Porsche 968 Club Sport",
     "aka": [
       "Porsche 968 CS"
@@ -3909,6 +3936,7 @@ const CARS = [
   },
   {
     "id": "jaguar-xjr-x308",
+    "family": {"id": "jaguar-xjr", "name": "Jaguar XJR"},
     "name": "Jaguar XJR (X308)",
     "aka": [],
     "make": "Jaguar",
@@ -3986,6 +4014,7 @@ const CARS = [
   },
   {
     "id": "jaguar-xjr-x350",
+    "family": {"id": "jaguar-xjr", "name": "Jaguar XJR"},
     "name": "Jaguar XJR (X350)",
     "aka": [],
     "make": "Jaguar",
@@ -4140,6 +4169,7 @@ const CARS = [
   },
   {
     "id": "mercedes-benz-sl500-r129",
+    "family": {"id": "mercedes-sl", "name": "Mercedes-Benz SL"},
     "name": "Mercedes-Benz SL500 (R129)",
     "aka": [
       "Mercedes-Benz 500 SL"
@@ -4220,6 +4250,7 @@ const CARS = [
   },
   {
     "id": "mercedes-benz-280-sl-r107",
+    "family": {"id": "mercedes-sl", "name": "Mercedes-Benz SL"},
     "name": "Mercedes-Benz 280 SL (R107)",
     "aka": [],
     "make": "Mercedes-Benz",
@@ -4451,6 +4482,7 @@ const CARS = [
   },
   {
     "id": "tvr-griffith",
+    "family": {"id": "tvr", "name": "TVR"},
     "name": "TVR Griffith",
     "aka": [],
     "make": "TVR",
@@ -4562,6 +4594,7 @@ const CARS = [
     "maker": "TVR",
     "gearbox": "5-speed manual",
     "id": "tvr-chimaera",
+    "family": {"id": "tvr", "name": "TVR"},
     "name": "TVR Chimaera",
     "years": "1992–2003",
     "start": 1992,
@@ -4636,6 +4669,7 @@ const CARS = [
     "maker": "TVR",
     "gearbox": "5-speed manual",
     "id": "tvr-cerbera",
+    "family": {"id": "tvr", "name": "TVR"},
     "name": "TVR Cerbera",
     "years": "1996–2004",
     "start": 1996,
@@ -4709,6 +4743,7 @@ const CARS = [
     "maker": "TVR",
     "gearbox": "5-speed manual",
     "id": "tvr-tuscan",
+    "family": {"id": "tvr", "name": "TVR"},
     "name": "TVR Tuscan",
     "years": "1999–2006",
     "start": 1999,
@@ -4784,6 +4819,7 @@ const CARS = [
     "maker": "TVR",
     "gearbox": "5-speed manual",
     "id": "tvr-tamora",
+    "family": {"id": "tvr", "name": "TVR"},
     "name": "TVR Tamora",
     "years": "2002–2006",
     "start": 2002,
@@ -4857,6 +4893,7 @@ const CARS = [
     "maker": "TVR",
     "gearbox": "5-speed manual with limited-slip differential",
     "id": "tvr-sagaris",
+    "family": {"id": "tvr", "name": "TVR"},
     "name": "TVR Sagaris",
     "years": "2004–2006",
     "start": 2004,
@@ -4889,6 +4926,7 @@ const CARS = [
   },
   {
     "id": "chevrolet-corvette-grand-sport",
+    "family": {"id": "chevrolet-corvette", "name": "Chevrolet Corvette"},
     "name": "Chevrolet Corvette Grand Sport",
     "aka": [],
     "make": "Chevrolet",
@@ -5109,6 +5147,7 @@ const CARS = [
   },
   {
     "id": "ford-svt-mustang-cobra-r",
+    "family": {"id": "ford-mustang", "name": "Ford Mustang"},
     "name": "Ford SVT Mustang Cobra R (2000)",
     "aka": [],
     "make": "Ford",
@@ -5183,6 +5222,7 @@ const CARS = [
   },
   {
     "id": "chevrolet-corvette-z06-c5",
+    "family": {"id": "chevrolet-corvette", "name": "Chevrolet Corvette"},
     "name": "Chevrolet Corvette Z06 (C5)",
     "aka": [],
     "make": "Chevrolet",
@@ -6169,6 +6209,7 @@ const CARS = [
   },
   {
     "id": "volkswagen-golf-gti-mk1",
+    "family": {"id": "volkswagen-golf-gti", "name": "Volkswagen Golf GTI"},
     "name": "Volkswagen Golf GTI (Mk1)",
     "aka": [
       "Rabbit GTI"
@@ -6359,6 +6400,7 @@ const CARS = [
     },
     "photo": {},
     "id": "volkswagen-golf-gti-mk2",
+    "family": {"id": "volkswagen-golf-gti", "name": "Volkswagen Golf GTI"},
     "name": "Volkswagen Golf GTI (Mk2)",
     "make": "Volkswagen",
     "maker": "Volkswagen",
@@ -6502,6 +6544,7 @@ const CARS = [
     },
     "photo": {},
     "id": "volkswagen-golf-gti-mk3",
+    "family": {"id": "volkswagen-golf-gti", "name": "Volkswagen Golf GTI"},
     "name": "Volkswagen Golf GTI (Mk3)",
     "make": "Volkswagen",
     "maker": "Volkswagen",
@@ -6613,6 +6656,7 @@ const CARS = [
     },
     "photo": {},
     "id": "volkswagen-golf-gti-mk4",
+    "family": {"id": "volkswagen-golf-gti", "name": "Volkswagen Golf GTI"},
     "name": "Volkswagen Golf GTI (Mk4)",
     "make": "Volkswagen",
     "maker": "Volkswagen",
@@ -6651,6 +6695,7 @@ const CARS = [
   },
   {
     "id": "volkswagen-golf-gti-mk5",
+    "family": {"id": "volkswagen-golf-gti", "name": "Volkswagen Golf GTI"},
     "name": "Volkswagen Golf GTI (Mk5)",
     "aka": [
       "Volkswagen GTI"
@@ -6765,6 +6810,7 @@ const CARS = [
     },
     "photo": {},
     "id": "volkswagen-golf-gti-mk6",
+    "family": {"id": "volkswagen-golf-gti", "name": "Volkswagen Golf GTI"},
     "name": "Volkswagen Golf GTI (Mk6)",
     "make": "Volkswagen",
     "maker": "Volkswagen",
@@ -6833,6 +6879,7 @@ const CARS = [
     },
     "photo": {},
     "id": "volkswagen-golf-gti-mk7",
+    "family": {"id": "volkswagen-golf-gti", "name": "Volkswagen Golf GTI"},
     "name": "Volkswagen Golf GTI (Mk7)",
     "make": "Volkswagen",
     "maker": "Volkswagen",
@@ -6905,6 +6952,7 @@ const CARS = [
       "credit": "Volkswagen AG"
     },
     "id": "volkswagen-golf-gti-mk8",
+    "family": {"id": "volkswagen-golf-gti", "name": "Volkswagen Golf GTI"},
     "name": "Volkswagen Golf GTI (Mk8)",
     "make": "Volkswagen",
     "maker": "Volkswagen",
@@ -7235,6 +7283,7 @@ const CARS = [
   },
   {
     "id": "lamborghini-diablo-sv",
+    "family": {"id": "lamborghini-v12", "name": "Lamborghini V12 flagships"},
     "name": "Lamborghini Diablo SV",
     "aka": [],
     "make": "Lamborghini",
@@ -7615,6 +7664,7 @@ const CARS = [
   },
   {
     "id": "toyota-4runner-n60",
+    "family": {"id": "toyota-4runner", "name": "Toyota 4Runner"},
     "name": "Toyota 4Runner (N60)",
     "aka": [
       "1984–1989 4Runner",
@@ -7729,6 +7779,7 @@ const CARS = [
   },
   {
     "id": "toyota-4runner-n120",
+    "family": {"id": "toyota-4runner", "name": "Toyota 4Runner"},
     "name": "Toyota 4Runner (N120/N130)",
     "aka": [
       "1990–1995 4Runner",
@@ -7847,6 +7898,7 @@ const CARS = [
   },
   {
     "id": "toyota-4runner-n180",
+    "family": {"id": "toyota-4runner", "name": "Toyota 4Runner"},
     "name": "Toyota 4Runner (N180)",
     "aka": [
       "1996–2002 4Runner",
@@ -7964,6 +8016,7 @@ const CARS = [
   },
   {
     "id": "toyota-4runner-n210",
+    "family": {"id": "toyota-4runner", "name": "Toyota 4Runner"},
     "name": "Toyota 4Runner (N210)",
     "aka": [
       "2003–2009 4Runner",
@@ -8081,6 +8134,7 @@ const CARS = [
   },
   {
     "id": "toyota-4runner-n280",
+    "family": {"id": "toyota-4runner", "name": "Toyota 4Runner"},
     "name": "Toyota 4Runner (N280)",
     "aka": [],
     "make": "Toyota",
@@ -8157,6 +8211,7 @@ const CARS = [
   },
   {
     "id": "toyota-4runner-n500",
+    "family": {"id": "toyota-4runner", "name": "Toyota 4Runner"},
     "name": "Toyota 4Runner (N500)",
     "aka": [],
     "make": "Toyota",
@@ -8266,6 +8321,7 @@ const CARS = [
   },
   {
     "id": "toyota-celica-supra-a40",
+    "family": {"id": "toyota-supra", "name": "Toyota Supra"},
     "name": "Toyota Celica Supra (A40)",
     "aka": [
       "1979–1981 Celica Supra",
@@ -8336,6 +8392,7 @@ const CARS = [
   },
   {
     "id": "toyota-celica-supra-a60",
+    "family": {"id": "toyota-supra", "name": "Toyota Supra"},
     "name": "Toyota Celica Supra (A60)",
     "aka": [
       "1982–1986 Celica Supra",
@@ -8411,6 +8468,7 @@ const CARS = [
   },
   {
     "id": "toyota-supra-a70",
+    "family": {"id": "toyota-supra", "name": "Toyota Supra"},
     "name": "Toyota Supra (A70)",
     "aka": [
       "1986–1993 Supra",
@@ -8525,6 +8583,7 @@ const CARS = [
   },
   {
     "id": "toyota-supra-a80",
+    "family": {"id": "toyota-supra", "name": "Toyota Supra"},
     "name": "Toyota Supra (A80)",
     "aka": [
       "1993–2002 Supra",
@@ -8641,6 +8700,7 @@ const CARS = [
   },
   {
     "id": "toyota-gr-supra-a90",
+    "family": {"id": "toyota-supra", "name": "Toyota Supra"},
     "name": "Toyota GR Supra (A90)",
     "aka": [
       "Toyota Supra"
@@ -8720,6 +8780,7 @@ const CARS = [
   },
   {
     "id": "toyota-mirai-jpd10",
+    "family": {"id": "toyota-mirai", "name": "Toyota Mirai"},
     "name": "Toyota Mirai (JPD10)",
     "aka": [],
     "make": "Toyota",
@@ -8793,6 +8854,7 @@ const CARS = [
   },
   {
     "id": "toyota-mirai-jpd20",
+    "family": {"id": "toyota-mirai", "name": "Toyota Mirai"},
     "name": "Toyota Mirai (JPD20)",
     "aka": [],
     "make": "Toyota",
@@ -8863,6 +8925,7 @@ const CARS = [
   },
   {
     "id": "toyota-86-zn6",
+    "family": {"id": "toyota-86", "name": "Toyota 86 / GR86"},
     "name": "Toyota 86 (ZN6)",
     "aka": [
       "Scion FR-S",
@@ -8941,6 +9004,7 @@ const CARS = [
   },
   {
     "id": "toyota-gr86-zn8",
+    "family": {"id": "toyota-86", "name": "Toyota 86 / GR86"},
     "name": "Toyota GR86 (ZN8)",
     "aka": [],
     "make": "Toyota",
@@ -9018,6 +9082,7 @@ const CARS = [
   },
   {
     "id": "toyota-celica-camry",
+    "family": {"id": "toyota-camry", "name": "Toyota Camry"},
     "name": "Toyota Celica Camry",
     "aka": [
       "Celica Camry",
@@ -9086,6 +9151,7 @@ const CARS = [
   },
   {
     "id": "toyota-camry-v10",
+    "family": {"id": "toyota-camry", "name": "Toyota Camry"},
     "name": "Toyota Camry (V10)",
     "aka": [
       "1983–1986 Camry",
@@ -9164,6 +9230,7 @@ const CARS = [
   },
   {
     "id": "toyota-camry-v20",
+    "family": {"id": "toyota-camry", "name": "Toyota Camry"},
     "name": "Toyota Camry (V20)",
     "aka": [
       "1987–1991 Camry",
@@ -9282,6 +9349,7 @@ const CARS = [
   },
   {
     "id": "toyota-camry-xv10",
+    "family": {"id": "toyota-camry", "name": "Toyota Camry"},
     "name": "Toyota Camry (XV10)",
     "aka": [
       "1992–1996 Camry",
@@ -9400,6 +9468,7 @@ const CARS = [
   },
   {
     "id": "toyota-camry-xv20",
+    "family": {"id": "toyota-camry", "name": "Toyota Camry"},
     "name": "Toyota Camry (XV20)",
     "aka": [
       "1997–2001 Camry",
@@ -9517,6 +9586,7 @@ const CARS = [
   },
   {
     "id": "toyota-camry-xv30",
+    "family": {"id": "toyota-camry", "name": "Toyota Camry"},
     "name": "Toyota Camry (XV30)",
     "aka": [
       "2002–2006 Camry",
@@ -9634,6 +9704,7 @@ const CARS = [
   },
   {
     "id": "toyota-camry-xv40",
+    "family": {"id": "toyota-camry", "name": "Toyota Camry"},
     "name": "Toyota Camry (XV40)",
     "aka": [
       "2007–2011 Camry",
@@ -9819,6 +9890,7 @@ const CARS = [
   },
   {
     "id": "toyota-camry-xv50",
+    "family": {"id": "toyota-camry", "name": "Toyota Camry"},
     "name": "Toyota Camry (XV50)",
     "aka": [],
     "make": "Toyota",
@@ -9973,6 +10045,7 @@ const CARS = [
   },
   {
     "id": "toyota-camry-xv70",
+    "family": {"id": "toyota-camry", "name": "Toyota Camry"},
     "name": "Toyota Camry (XV70)",
     "aka": [],
     "make": "Toyota",
@@ -10127,6 +10200,7 @@ const CARS = [
   },
   {
     "id": "toyota-camry-xv80",
+    "family": {"id": "toyota-camry", "name": "Toyota Camry"},
     "name": "Toyota Camry (XV80)",
     "aka": [],
     "make": "Toyota",
@@ -10199,6 +10273,7 @@ const CARS = [
   },
   {
     "id": "toyota-corolla-e10",
+    "family": {"id": "toyota-corolla", "name": "Toyota Corolla"},
     "name": "Toyota Corolla (E10)",
     "aka": [
       "1968–1970 Corolla",
@@ -10271,6 +10346,7 @@ const CARS = [
   },
   {
     "id": "toyota-corolla-e20",
+    "family": {"id": "toyota-corolla", "name": "Toyota Corolla"},
     "name": "Toyota Corolla (E20)",
     "aka": [
       "1971–1974 Corolla",
@@ -10346,6 +10422,7 @@ const CARS = [
   },
   {
     "id": "toyota-corolla-e30",
+    "family": {"id": "toyota-corolla", "name": "Toyota Corolla"},
     "name": "Toyota Corolla (E30)",
     "aka": [
       "1975–1979 Corolla",
@@ -10422,6 +10499,7 @@ const CARS = [
   },
   {
     "id": "toyota-corolla-e70",
+    "family": {"id": "toyota-corolla", "name": "Toyota Corolla"},
     "name": "Toyota Corolla (E70)",
     "aka": [
       "1980–1983 Corolla",
@@ -10497,6 +10575,7 @@ const CARS = [
   },
   {
     "id": "toyota-corolla-e80",
+    "family": {"id": "toyota-corolla", "name": "Toyota Corolla"},
     "name": "Toyota Corolla (E80)",
     "aka": [
       "1984–1987 Corolla",
@@ -10616,6 +10695,7 @@ const CARS = [
   },
   {
     "id": "toyota-corolla-e90",
+    "family": {"id": "toyota-corolla", "name": "Toyota Corolla"},
     "name": "Toyota Corolla (E90)",
     "aka": [
       "1988–1992 Corolla",
@@ -10693,6 +10773,7 @@ const CARS = [
   },
   {
     "id": "toyota-corolla-e100",
+    "family": {"id": "toyota-corolla", "name": "Toyota Corolla"},
     "name": "Toyota Corolla (E100)",
     "aka": [
       "1993–1997 Corolla",
@@ -10771,6 +10852,7 @@ const CARS = [
   },
   {
     "id": "toyota-corolla-e110",
+    "family": {"id": "toyota-corolla", "name": "Toyota Corolla"},
     "name": "Toyota Corolla (E110)",
     "aka": [
       "1998–2002 Corolla",
@@ -10848,6 +10930,7 @@ const CARS = [
   },
   {
     "id": "toyota-corolla-e120",
+    "family": {"id": "toyota-corolla", "name": "Toyota Corolla"},
     "name": "Toyota Corolla (E120)",
     "aka": [
       "2003–2008 Corolla",
@@ -10966,6 +11049,7 @@ const CARS = [
   },
   {
     "id": "toyota-corolla-e140",
+    "family": {"id": "toyota-corolla", "name": "Toyota Corolla"},
     "name": "Toyota Corolla (E140)",
     "aka": [
       "2009–2013 Corolla",
@@ -11084,6 +11168,7 @@ const CARS = [
   },
   {
     "id": "toyota-corolla-e170",
+    "family": {"id": "toyota-corolla", "name": "Toyota Corolla"},
     "name": "Toyota Corolla (E170)",
     "aka": [],
     "make": "Toyota",
@@ -11162,6 +11247,7 @@ const CARS = [
   },
   {
     "id": "toyota-corolla-im",
+    "family": {"id": "toyota-corolla", "name": "Toyota Corolla"},
     "name": "Toyota Corolla iM",
     "aka": [
       "Scion iM",
@@ -11241,6 +11327,7 @@ const CARS = [
   },
   {
     "id": "toyota-corolla-e210",
+    "family": {"id": "toyota-corolla", "name": "Toyota Corolla"},
     "name": "Toyota Corolla (E210)",
     "aka": [],
     "make": "Toyota",
@@ -11394,6 +11481,7 @@ const CARS = [
   },
   {
     "id": "toyota-gr-corolla",
+    "family": {"id": "toyota-corolla", "name": "Toyota Corolla"},
     "name": "Toyota GR Corolla",
     "aka": [],
     "make": "Toyota",
@@ -11582,6 +11670,7 @@ const CARS = [
   },
   {
     "id": "toyota-rav4-xa10",
+    "family": {"id": "toyota-rav4", "name": "Toyota RAV4"},
     "name": "Toyota RAV4 (XA10)",
     "aka": [
       "1996–2000 RAV4",
@@ -11656,6 +11745,7 @@ const CARS = [
   },
   {
     "id": "toyota-rav4-xa20",
+    "family": {"id": "toyota-rav4", "name": "Toyota RAV4"},
     "name": "Toyota RAV4 (XA20)",
     "aka": [
       "2001–2005 RAV4",
@@ -11772,6 +11862,7 @@ const CARS = [
   },
   {
     "id": "toyota-rav4-xa30",
+    "family": {"id": "toyota-rav4", "name": "Toyota RAV4"},
     "name": "Toyota RAV4 (XA30)",
     "aka": [
       "2006–2012 RAV4",
@@ -11924,6 +12015,7 @@ const CARS = [
   },
   {
     "id": "toyota-rav4-xa40",
+    "family": {"id": "toyota-rav4", "name": "Toyota RAV4"},
     "name": "Toyota RAV4 (XA40)",
     "aka": [
       "RAV4 Hybrid"
@@ -12041,6 +12133,7 @@ const CARS = [
   },
   {
     "id": "toyota-rav4-xa50",
+    "family": {"id": "toyota-rav4", "name": "Toyota RAV4"},
     "name": "Toyota RAV4 (XA50)",
     "aka": [
       "RAV4 Hybrid",
@@ -12194,6 +12287,7 @@ const CARS = [
   },
   {
     "id": "toyota-rav4-xa60",
+    "family": {"id": "toyota-rav4", "name": "Toyota RAV4"},
     "name": "Toyota RAV4 (XA60)",
     "aka": [
       "RAV4 Hybrid",
@@ -12310,6 +12404,7 @@ const CARS = [
   },
   {
     "id": "toyota-highlander-xu20",
+    "family": {"id": "toyota-highlander", "name": "Toyota Highlander"},
     "name": "Toyota Highlander (XU20)",
     "aka": [
       "2001–2007 Highlander",
@@ -12492,6 +12587,7 @@ const CARS = [
   },
   {
     "id": "toyota-highlander-xu40",
+    "family": {"id": "toyota-highlander", "name": "Toyota Highlander"},
     "name": "Toyota Highlander (XU40)",
     "aka": [
       "2008–2013 Highlander",
@@ -12643,6 +12739,7 @@ const CARS = [
   },
   {
     "id": "toyota-highlander-xu50",
+    "family": {"id": "toyota-highlander", "name": "Toyota Highlander"},
     "name": "Toyota Highlander (XU50)",
     "aka": [
       "Highlander Hybrid"
@@ -12795,6 +12892,7 @@ const CARS = [
   },
   {
     "id": "toyota-highlander-xu70",
+    "family": {"id": "toyota-highlander", "name": "Toyota Highlander"},
     "name": "Toyota Highlander (XU70)",
     "aka": [
       "Highlander Hybrid"
@@ -12943,6 +13041,7 @@ const CARS = [
   },
   {
     "id": "toyota-grand-highlander",
+    "family": {"id": "toyota-highlander", "name": "Toyota Highlander"},
     "name": "Toyota Grand Highlander",
     "aka": [
       "Grand Highlander Hybrid",
@@ -13089,6 +13188,7 @@ const CARS = [
   },
   {
     "id": "toyota-tacoma-n140",
+    "family": {"id": "toyota-tacoma", "name": "Toyota Tacoma"},
     "name": "Toyota Tacoma (N140)",
     "aka": [
       "1995–2004 Tacoma",
@@ -13164,6 +13264,7 @@ const CARS = [
   },
   {
     "id": "toyota-tacoma-n220",
+    "family": {"id": "toyota-tacoma", "name": "Toyota Tacoma"},
     "name": "Toyota Tacoma (N220)",
     "aka": [
       "2005–2015 Tacoma",
@@ -13242,6 +13343,7 @@ const CARS = [
   },
   {
     "id": "toyota-tacoma-n300",
+    "family": {"id": "toyota-tacoma", "name": "Toyota Tacoma"},
     "name": "Toyota Tacoma (N300)",
     "aka": [
       "Third-generation Tacoma",
@@ -13365,6 +13467,7 @@ const CARS = [
   },
   {
     "id": "toyota-tacoma-n400",
+    "family": {"id": "toyota-tacoma", "name": "Toyota Tacoma"},
     "name": "Toyota Tacoma (N400)",
     "aka": [
       "Fourth-generation Tacoma",
@@ -13483,6 +13586,7 @@ const CARS = [
   },
   {
     "id": "toyota-tundra-xk30",
+    "family": {"id": "toyota-tundra", "name": "Toyota Tundra"},
     "name": "Toyota Tundra (XK30/XK40)",
     "aka": [
       "2000–2006 Tundra",
@@ -13558,6 +13662,7 @@ const CARS = [
   },
   {
     "id": "toyota-tundra-xk50",
+    "family": {"id": "toyota-tundra", "name": "Toyota Tundra"},
     "name": "Toyota Tundra (XK50)",
     "aka": [
       "Second-generation Tundra",
@@ -13681,6 +13786,7 @@ const CARS = [
   },
   {
     "id": "toyota-tundra-xk70",
+    "family": {"id": "toyota-tundra", "name": "Toyota Tundra"},
     "name": "Toyota Tundra (XK70)",
     "aka": [
       "Third-generation Tundra",
@@ -13799,6 +13905,7 @@ const CARS = [
   },
   {
     "id": "toyota-sequoia-xk30",
+    "family": {"id": "toyota-sequoia", "name": "Toyota Sequoia"},
     "name": "Toyota Sequoia (XK30)",
     "aka": [
       "2001–2007 Sequoia",
@@ -13874,6 +13981,7 @@ const CARS = [
   },
   {
     "id": "toyota-sequoia-xk60",
+    "family": {"id": "toyota-sequoia", "name": "Toyota Sequoia"},
     "name": "Toyota Sequoia (XK60)",
     "aka": [
       "Second-generation Sequoia",
@@ -13953,6 +14061,7 @@ const CARS = [
   },
   {
     "id": "toyota-sequoia-xk80",
+    "family": {"id": "toyota-sequoia", "name": "Toyota Sequoia"},
     "name": "Toyota Sequoia (XK80)",
     "aka": [
       "Third-generation Sequoia",
@@ -14031,6 +14140,7 @@ const CARS = [
   },
   {
     "id": "toyota-land-cruiser-bj",
+    "family": {"id": "toyota-land-cruiser", "name": "Toyota Land Cruiser"},
     "name": "Toyota Land Cruiser (BJ and FJ)",
     "aka": [
       "Toyota Jeep BJ",
@@ -14093,6 +14203,7 @@ const CARS = [
   },
   {
     "id": "toyota-land-cruiser-j20",
+    "family": {"id": "toyota-land-cruiser", "name": "Toyota Land Cruiser"},
     "name": "Toyota Land Cruiser (20 Series)",
     "aka": [
       "FJ25",
@@ -14162,6 +14273,7 @@ const CARS = [
   },
   {
     "id": "toyota-land-cruiser-j40",
+    "family": {"id": "toyota-land-cruiser", "name": "Toyota Land Cruiser"},
     "name": "Toyota Land Cruiser (40 Series)",
     "aka": [
       "FJ40",
@@ -14236,6 +14348,7 @@ const CARS = [
   },
   {
     "id": "toyota-land-cruiser-j70",
+    "family": {"id": "toyota-land-cruiser", "name": "Toyota Land Cruiser"},
     "name": "Toyota Land Cruiser (70 Series)",
     "aka": [
       "70 Series",
@@ -14303,6 +14416,7 @@ const CARS = [
   },
   {
     "id": "toyota-land-cruiser-j55",
+    "family": {"id": "toyota-land-cruiser", "name": "Toyota Land Cruiser"},
     "name": "Toyota Land Cruiser (55 Series)",
     "aka": [
       "FJ55",
@@ -14377,6 +14491,7 @@ const CARS = [
   },
   {
     "id": "toyota-land-cruiser-j60",
+    "family": {"id": "toyota-land-cruiser", "name": "Toyota Land Cruiser"},
     "name": "Toyota Land Cruiser (60 Series)",
     "aka": [
       "FJ60",
@@ -14493,6 +14608,7 @@ const CARS = [
   },
   {
     "id": "toyota-land-cruiser-j80",
+    "family": {"id": "toyota-land-cruiser", "name": "Toyota Land Cruiser"},
     "name": "Toyota Land Cruiser (80 Series)",
     "aka": [
       "FJ80",
@@ -14609,6 +14725,7 @@ const CARS = [
   },
   {
     "id": "toyota-land-cruiser-j100",
+    "family": {"id": "toyota-land-cruiser", "name": "Toyota Land Cruiser"},
     "name": "Toyota Land Cruiser (100 Series)",
     "aka": [
       "UZJ100",
@@ -14685,6 +14802,7 @@ const CARS = [
   },
   {
     "id": "toyota-land-cruiser-j200",
+    "family": {"id": "toyota-land-cruiser", "name": "Toyota Land Cruiser"},
     "name": "Toyota Land Cruiser (200 Series)",
     "aka": [
       "Land Cruiser J200",
@@ -14768,6 +14886,7 @@ const CARS = [
   },
   {
     "id": "toyota-land-cruiser-j300",
+    "family": {"id": "toyota-land-cruiser", "name": "Toyota Land Cruiser"},
     "name": "Toyota Land Cruiser (300 Series)",
     "aka": [
       "300 Series",
@@ -14836,6 +14955,7 @@ const CARS = [
   },
   {
     "id": "toyota-land-cruiser-j250",
+    "family": {"id": "toyota-land-cruiser", "name": "Toyota Land Cruiser"},
     "name": "Toyota Land Cruiser (250 Series)",
     "aka": [
       "Land Cruiser J250",
@@ -14915,6 +15035,7 @@ const CARS = [
   },
   {
     "id": "toyota-venza-av10",
+    "family": {"id": "toyota-venza", "name": "Toyota Venza"},
     "name": "Toyota Venza (AV10)",
     "aka": [
       "2009–2015 Venza",
@@ -15029,6 +15150,7 @@ const CARS = [
   },
   {
     "id": "toyota-venza-xu80",
+    "family": {"id": "toyota-venza", "name": "Toyota Venza"},
     "name": "Toyota Venza (XU80)",
     "aka": [
       "Second-generation Venza",
@@ -15106,6 +15228,7 @@ const CARS = [
   },
   {
     "id": "toyota-bz4x",
+    "family": {"id": "toyota-bz", "name": "Toyota bZ"},
     "name": "Toyota bZ4X / bZ",
     "aka": [
       "Toyota bZ",
@@ -15182,6 +15305,7 @@ const CARS = [
   },
   {
     "id": "toyota-bz-woodland",
+    "family": {"id": "toyota-bz", "name": "Toyota bZ"},
     "name": "Toyota bZ Woodland",
     "aka": [
       "bZ Woodland",
@@ -15251,6 +15375,7 @@ const CARS = [
   },
   {
     "id": "toyota-avalon-xx10",
+    "family": {"id": "toyota-avalon", "name": "Toyota Avalon"},
     "name": "Toyota Avalon (XX10)",
     "aka": [
       "1995–1999 Avalon",
@@ -15325,6 +15450,7 @@ const CARS = [
   },
   {
     "id": "toyota-avalon-xx20",
+    "family": {"id": "toyota-avalon", "name": "Toyota Avalon"},
     "name": "Toyota Avalon (XX20)",
     "aka": [
       "2000–2004 Avalon",
@@ -15402,6 +15528,7 @@ const CARS = [
   },
   {
     "id": "toyota-avalon-xx30",
+    "family": {"id": "toyota-avalon", "name": "Toyota Avalon"},
     "name": "Toyota Avalon (XX30)",
     "aka": [
       "2005–2012 Avalon",
@@ -15479,6 +15606,7 @@ const CARS = [
   },
   {
     "id": "toyota-avalon-xx40",
+    "family": {"id": "toyota-avalon", "name": "Toyota Avalon"},
     "name": "Toyota Avalon (XX40)",
     "aka": [
       "Fourth-generation Avalon",
@@ -15600,6 +15728,7 @@ const CARS = [
   },
   {
     "id": "toyota-avalon-xx50",
+    "family": {"id": "toyota-avalon", "name": "Toyota Avalon"},
     "name": "Toyota Avalon (XX50)",
     "aka": [
       "Fifth-generation Avalon",
@@ -15751,6 +15880,7 @@ const CARS = [
   },
   {
     "id": "toyota-echo-xp10",
+    "family": {"id": "toyota-yaris", "name": "Toyota Yaris and Echo"},
     "name": "Toyota Echo (XP10)",
     "aka": [
       "2000–2005 Echo",
@@ -15822,6 +15952,7 @@ const CARS = [
   },
   {
     "id": "toyota-yaris-xp90",
+    "family": {"id": "toyota-yaris", "name": "Toyota Yaris and Echo"},
     "name": "Toyota Yaris (XP90)",
     "aka": [
       "2007–2011 Yaris",
@@ -15901,6 +16032,7 @@ const CARS = [
   },
   {
     "id": "toyota-yaris-xp130",
+    "family": {"id": "toyota-yaris", "name": "Toyota Yaris and Echo"},
     "name": "Toyota Yaris (XP130)",
     "aka": [
       "Yaris Liftback",
@@ -15981,6 +16113,7 @@ const CARS = [
   },
   {
     "id": "toyota-yaris-ia",
+    "family": {"id": "toyota-yaris", "name": "Toyota Yaris and Echo"},
     "name": "Toyota Yaris iA / Yaris (Mazda-built)",
     "aka": [
       "Scion iA",
@@ -16061,6 +16194,7 @@ const CARS = [
   },
   {
     "id": "toyota-prius-xw10",
+    "family": {"id": "toyota-prius", "name": "Toyota Prius"},
     "name": "Toyota Prius (XW10)",
     "aka": [
       "2001–2003 Prius",
@@ -16135,6 +16269,7 @@ const CARS = [
   },
   {
     "id": "toyota-prius-xw20",
+    "family": {"id": "toyota-prius", "name": "Toyota Prius"},
     "name": "Toyota Prius (XW20)",
     "aka": [
       "2004–2009 Prius",
@@ -16212,6 +16347,7 @@ const CARS = [
   },
   {
     "id": "toyota-prius-xw30",
+    "family": {"id": "toyota-prius", "name": "Toyota Prius"},
     "name": "Toyota Prius (XW30)",
     "aka": [
       "2010–2015 Prius",
@@ -16290,6 +16426,7 @@ const CARS = [
   },
   {
     "id": "toyota-prius-xw50",
+    "family": {"id": "toyota-prius", "name": "Toyota Prius"},
     "name": "Toyota Prius (XW50)",
     "aka": [
       "Fourth-generation Prius",
@@ -16376,6 +16513,7 @@ const CARS = [
   },
   {
     "id": "toyota-prius-xw60",
+    "family": {"id": "toyota-prius", "name": "Toyota Prius"},
     "name": "Toyota Prius (XW60)",
     "aka": [
       "Fifth-generation Prius",
@@ -16455,6 +16593,7 @@ const CARS = [
   },
   {
     "id": "toyota-prius-plug-in-xw35",
+    "family": {"id": "toyota-prius", "name": "Toyota Prius"},
     "name": "Toyota Prius Plug-in Hybrid (XW35)",
     "aka": [
       "2012–2015 Prius Plug-in",
@@ -16529,6 +16668,7 @@ const CARS = [
   },
   {
     "id": "toyota-prius-prime-xw52",
+    "family": {"id": "toyota-prius", "name": "Toyota Prius"},
     "name": "Toyota Prius Prime (XW52)",
     "aka": [
       "First-generation Prius Prime",
@@ -16615,6 +16755,7 @@ const CARS = [
   },
   {
     "id": "toyota-prius-plug-in-xw60",
+    "family": {"id": "toyota-prius", "name": "Toyota Prius"},
     "name": "Toyota Prius Prime / Plug-in Hybrid (XW60)",
     "aka": [
       "Second-generation Prius Prime",
@@ -16695,6 +16836,7 @@ const CARS = [
   },
   {
     "id": "toyota-prius-c",
+    "family": {"id": "toyota-prius", "name": "Toyota Prius"},
     "name": "Toyota Prius c",
     "aka": [
       "Prius C",
@@ -16770,6 +16912,7 @@ const CARS = [
   },
   {
     "id": "toyota-prius-v",
+    "family": {"id": "toyota-prius", "name": "Toyota Prius"},
     "name": "Toyota Prius v",
     "aka": [
       "Prius V",
@@ -16841,6 +16984,7 @@ const CARS = [
   },
   {
     "id": "toyota-sienna-xl10",
+    "family": {"id": "toyota-sienna", "name": "Toyota Sienna"},
     "name": "Toyota Sienna (XL10)",
     "aka": [
       "1998–2003 Sienna",
@@ -16915,6 +17059,7 @@ const CARS = [
   },
   {
     "id": "toyota-sienna-xl20",
+    "family": {"id": "toyota-sienna", "name": "Toyota Sienna"},
     "name": "Toyota Sienna (XL20)",
     "aka": [
       "2004–2010 Sienna",
@@ -17032,6 +17177,7 @@ const CARS = [
   },
   {
     "id": "toyota-sienna-xl30",
+    "family": {"id": "toyota-sienna", "name": "Toyota Sienna"},
     "name": "Toyota Sienna (XL30)",
     "aka": [
       "Third-generation Sienna",
@@ -17117,6 +17263,7 @@ const CARS = [
   },
   {
     "id": "toyota-sienna-xl40",
+    "family": {"id": "toyota-sienna", "name": "Toyota Sienna"},
     "name": "Toyota Sienna (XL40)",
     "aka": [
       "Fourth-generation Sienna",
@@ -17196,6 +17343,7 @@ const CARS = [
   },
   {
     "id": "toyota-crown-1st-gen",
+    "family": {"id": "toyota-crown", "name": "Toyota Crown"},
     "name": "Toyota Crown (first generation)",
     "aka": [
       "Toyopet Crown",
@@ -17262,6 +17410,7 @@ const CARS = [
   },
   {
     "id": "toyota-crown-2nd-gen",
+    "family": {"id": "toyota-crown", "name": "Toyota Crown"},
     "name": "Toyota Crown (second generation)",
     "aka": [
       "Toyopet Crown",
@@ -17334,6 +17483,7 @@ const CARS = [
   },
   {
     "id": "toyota-crown-3rd-gen",
+    "family": {"id": "toyota-crown", "name": "Toyota Crown"},
     "name": "Toyota Crown (third generation)",
     "aka": [
       "Toyopet Crown",
@@ -17406,6 +17556,7 @@ const CARS = [
   },
   {
     "id": "toyota-crown-4th-gen",
+    "family": {"id": "toyota-crown", "name": "Toyota Crown"},
     "name": "Toyota Crown (fourth generation)",
     "aka": [
       "Toyota Crown",
@@ -17478,6 +17629,7 @@ const CARS = [
   },
   {
     "id": "toyota-crown-5th-gen",
+    "family": {"id": "toyota-crown", "name": "Toyota Crown"},
     "name": "Toyota Crown (fifth generation)",
     "aka": [
       "Toyota Crown",
@@ -17551,6 +17703,7 @@ const CARS = [
   },
   {
     "id": "toyota-crown-6th-gen",
+    "family": {"id": "toyota-crown", "name": "Toyota Crown"},
     "name": "Toyota Crown (sixth generation)",
     "aka": [
       "Toyota Crown",
@@ -17623,6 +17776,7 @@ const CARS = [
   },
   {
     "id": "toyota-crown-7th-gen",
+    "family": {"id": "toyota-crown", "name": "Toyota Crown"},
     "name": "Toyota Crown (seventh generation)",
     "aka": [
       "Toyota Crown",
@@ -17695,6 +17849,7 @@ const CARS = [
   },
   {
     "id": "toyota-crown-8th-gen",
+    "family": {"id": "toyota-crown", "name": "Toyota Crown"},
     "name": "Toyota Crown (eighth generation)",
     "aka": [
       "Toyota Crown",
@@ -17767,6 +17922,7 @@ const CARS = [
   },
   {
     "id": "toyota-crown-9th-gen",
+    "family": {"id": "toyota-crown", "name": "Toyota Crown"},
     "name": "Toyota Crown (ninth generation)",
     "aka": [
       "Toyota Crown",
@@ -17838,6 +17994,7 @@ const CARS = [
   },
   {
     "id": "toyota-crown-10th-gen",
+    "family": {"id": "toyota-crown", "name": "Toyota Crown"},
     "name": "Toyota Crown (tenth generation)",
     "aka": [
       "Toyota Crown",
@@ -17909,6 +18066,7 @@ const CARS = [
   },
   {
     "id": "toyota-crown-11th-gen",
+    "family": {"id": "toyota-crown", "name": "Toyota Crown"},
     "name": "Toyota Crown (eleventh generation)",
     "aka": [
       "Toyota Crown",
@@ -17982,6 +18140,7 @@ const CARS = [
   },
   {
     "id": "toyota-crown-12th-gen",
+    "family": {"id": "toyota-crown", "name": "Toyota Crown"},
     "name": "Toyota Crown (twelfth generation)",
     "aka": [
       "Zero Crown",
@@ -18051,6 +18210,7 @@ const CARS = [
   },
   {
     "id": "toyota-crown-13th-gen",
+    "family": {"id": "toyota-crown", "name": "Toyota Crown"},
     "name": "Toyota Crown (thirteenth generation)",
     "aka": [
       "Toyota Crown",
@@ -18124,6 +18284,7 @@ const CARS = [
   },
   {
     "id": "toyota-crown-14th-gen",
+    "family": {"id": "toyota-crown", "name": "Toyota Crown"},
     "name": "Toyota Crown (fourteenth generation)",
     "aka": [
       "Toyota Crown",
@@ -18197,6 +18358,7 @@ const CARS = [
   },
   {
     "id": "toyota-crown-15th-gen",
+    "family": {"id": "toyota-crown", "name": "Toyota Crown"},
     "name": "Toyota Crown (fifteenth generation)",
     "aka": [
       "Toyota Crown",
@@ -18265,6 +18427,7 @@ const CARS = [
   },
   {
     "id": "toyota-crown-crossover",
+    "family": {"id": "toyota-crown", "name": "Toyota Crown"},
     "name": "Toyota Crown (2023–)",
     "aka": [
       "Crown Crossover",
@@ -18382,6 +18545,7 @@ const CARS = [
   },
   {
     "id": "toyota-crown-signia",
+    "family": {"id": "toyota-crown", "name": "Toyota Crown"},
     "name": "Toyota Crown Signia",
     "aka": [
       "Crown Estate",
@@ -18455,6 +18619,7 @@ const CARS = [
   },
   {
     "id": "toyota-c-hr-ax10",
+    "family": {"id": "toyota-c-hr", "name": "Toyota C-HR"},
     "name": "Toyota C-HR (AX10)",
     "aka": [
       "First-generation C-HR",
@@ -18536,6 +18701,7 @@ const CARS = [
   },
   {
     "id": "toyota-c-hr-ev",
+    "family": {"id": "toyota-c-hr", "name": "Toyota C-HR"},
     "name": "Toyota C-HR (electric)",
     "aka": [
       "C-HR EV",
@@ -18613,6 +18779,7 @@ const CARS = [
   },
   {
     "id": "honda-accord-1st-gen",
+    "family": {"id": "honda-accord", "name": "Honda Accord"},
     "name": "Honda Accord (first generation)",
     "aka": [
       "1976–1981 Accord",
@@ -18723,6 +18890,7 @@ const CARS = [
   },
   {
     "id": "honda-accord-2nd-gen",
+    "family": {"id": "honda-accord", "name": "Honda Accord"},
     "name": "Honda Accord (second generation)",
     "aka": [
       "1982–1985 Accord",
@@ -18800,6 +18968,7 @@ const CARS = [
   },
   {
     "id": "honda-accord-3rd-gen",
+    "family": {"id": "honda-accord", "name": "Honda Accord"},
     "name": "Honda Accord (third generation)",
     "aka": [
       "1986–1989 Accord",
@@ -18877,6 +19046,7 @@ const CARS = [
   },
   {
     "id": "honda-accord-4th-gen",
+    "family": {"id": "honda-accord", "name": "Honda Accord"},
     "name": "Honda Accord (fourth generation)",
     "aka": [
       "1990–1993 Accord",
@@ -18954,6 +19124,7 @@ const CARS = [
   },
   {
     "id": "honda-accord-5th-gen",
+    "family": {"id": "honda-accord", "name": "Honda Accord"},
     "name": "Honda Accord (fifth generation)",
     "aka": [
       "1994–1997 Accord",
@@ -19071,6 +19242,7 @@ const CARS = [
   },
   {
     "id": "honda-accord-6th-gen",
+    "family": {"id": "honda-accord", "name": "Honda Accord"},
     "name": "Honda Accord (sixth generation)",
     "aka": [
       "1998–2002 Accord",
@@ -19188,6 +19360,7 @@ const CARS = [
   },
   {
     "id": "honda-accord-7th-gen",
+    "family": {"id": "honda-accord", "name": "Honda Accord"},
     "name": "Honda Accord (seventh generation)",
     "aka": [
       "2003–2007 Accord",
@@ -19339,6 +19512,7 @@ const CARS = [
   },
   {
     "id": "honda-accord-8th-gen",
+    "family": {"id": "honda-accord", "name": "Honda Accord"},
     "name": "Honda Accord (eighth generation)",
     "aka": [
       "2008–2012 Accord",
@@ -19566,6 +19740,7 @@ const CARS = [
     "articles": [],
     "photo": {"credit": "Honda"},
     "id": "honda-accord-9th-gen",
+    "family": {"id": "honda-accord", "name": "Honda Accord"},
     "name": "Honda Accord (ninth generation)",
     "aka": [
       "2013–2017 Accord",
@@ -19729,6 +19904,7 @@ const CARS = [
     "articles": [],
     "photo": {"credit": "Honda"},
     "id": "honda-accord-10th-gen",
+    "family": {"id": "honda-accord", "name": "Honda Accord"},
     "name": "Honda Accord (tenth generation)",
     "aka": [
       "2018–2022 Accord",
@@ -19849,6 +20025,7 @@ const CARS = [
     "articles": [],
     "photo": {"credit": "Honda"},
     "id": "honda-accord-11th-gen",
+    "family": {"id": "honda-accord", "name": "Honda Accord"},
     "name": "Honda Accord (eleventh generation)",
     "aka": [
       "2023 Accord",
@@ -19905,6 +20082,7 @@ const CARS = [
   },
   {
     "id": "honda-civic-1st-gen",
+    "family": {"id": "honda-civic", "name": "Honda Civic"},
     "name": "Honda Civic (first generation)",
     "aka": [
       "1973–1979 Civic",
@@ -20015,6 +20193,7 @@ const CARS = [
   },
   {
     "id": "honda-civic-2nd-gen",
+    "family": {"id": "honda-civic", "name": "Honda Civic"},
     "name": "Honda Civic (second generation)",
     "aka": [
       "1980–1983 Civic",
@@ -20090,6 +20269,7 @@ const CARS = [
   },
   {
     "id": "honda-civic-3rd-gen",
+    "family": {"id": "honda-civic", "name": "Honda Civic"},
     "name": "Honda Civic (third generation)",
     "aka": [
       "1984–1987 Civic",
@@ -20208,6 +20388,7 @@ const CARS = [
   },
   {
     "id": "honda-civic-4th-gen",
+    "family": {"id": "honda-civic", "name": "Honda Civic"},
     "name": "Honda Civic (fourth generation)",
     "aka": [
       "1988–1991 Civic",
@@ -20326,6 +20507,7 @@ const CARS = [
   },
   {
     "id": "honda-civic-5th-gen",
+    "family": {"id": "honda-civic", "name": "Honda Civic"},
     "name": "Honda Civic (fifth generation)",
     "aka": [
       "1992–1995 Civic",
@@ -20480,6 +20662,7 @@ const CARS = [
   },
   {
     "id": "honda-civic-6th-gen",
+    "family": {"id": "honda-civic", "name": "Honda Civic"},
     "name": "Honda Civic (sixth generation)",
     "aka": [
       "1996–2000 Civic",
@@ -20634,6 +20817,7 @@ const CARS = [
   },
   {
     "id": "honda-civic-7th-gen",
+    "family": {"id": "honda-civic", "name": "Honda Civic"},
     "name": "Honda Civic (seventh generation)",
     "aka": [
       "2001–2005 Civic",
@@ -20822,6 +21006,7 @@ const CARS = [
   },
   {
     "id": "honda-civic-8th-gen",
+    "family": {"id": "honda-civic", "name": "Honda Civic"},
     "name": "Honda Civic (eighth generation)",
     "aka": [
       "2006–2011 Civic",
@@ -20976,6 +21161,7 @@ const CARS = [
   },
   {
     "id": "honda-civic-9th-gen",
+    "family": {"id": "honda-civic", "name": "Honda Civic"},
     "name": "Honda Civic (ninth generation)",
     "aka": [
       "2012–2015 Civic",
@@ -21235,6 +21421,7 @@ const CARS = [
     "articles": [],
     "photo": {"credit": "Honda"},
     "id": "honda-civic-10th-gen",
+    "family": {"id": "honda-civic", "name": "Honda Civic"},
     "name": "Honda Civic (tenth generation)",
     "aka": [
       "2016–2021 Civic",
@@ -21391,6 +21578,7 @@ const CARS = [
     "articles": [],
     "photo": {"credit": "Honda"},
     "id": "honda-civic-11th-gen",
+    "family": {"id": "honda-civic", "name": "Honda Civic"},
     "name": "Honda Civic (eleventh generation)",
     "aka": [
       "2022 Civic",
@@ -21469,6 +21657,7 @@ const CARS = [
     "articles": [],
     "photo": {"credit": "Honda"},
     "id": "honda-civic-si-10th-gen",
+    "family": {"id": "honda-civic", "name": "Honda Civic"},
     "name": "Honda Civic Si (tenth generation)",
     "aka": [
       "2017–2020 Civic Si",
@@ -21542,6 +21731,7 @@ const CARS = [
     "articles": [],
     "photo": {"credit": "Honda"},
     "id": "honda-civic-si-11th-gen",
+    "family": {"id": "honda-civic", "name": "Honda Civic"},
     "name": "Honda Civic Si (eleventh generation)",
     "aka": [
       "2022 Civic Si",
@@ -21594,6 +21784,7 @@ const CARS = [
   },
   {
     "id": "honda-civic-type-r-ek9",
+    "family": {"id": "honda-civic", "name": "Honda Civic"},
     "name": "Honda Civic Type R (EK9)",
     "aka": [
       "1997–2000 Civic Type R",
@@ -21664,6 +21855,7 @@ const CARS = [
   },
   {
     "id": "honda-civic-type-r-ep3",
+    "family": {"id": "honda-civic", "name": "Honda Civic"},
     "name": "Honda Civic Type R (EP3)",
     "aka": [
       "2001–2005 Civic Type R",
@@ -21777,6 +21969,7 @@ const CARS = [
   },
   {
     "id": "honda-civic-type-r-fd2-fn2",
+    "family": {"id": "honda-civic", "name": "Honda Civic"},
     "name": "Honda Civic Type R (FD2 and FN2)",
     "aka": [
       "2007–2011 Civic Type R",
@@ -21885,6 +22078,7 @@ const CARS = [
   },
   {
     "id": "honda-civic-type-r-fk2",
+    "family": {"id": "honda-civic", "name": "Honda Civic"},
     "name": "Honda Civic Type R (FK2)",
     "aka": [
       "2015–2017 Civic Type R",
@@ -21982,6 +22176,7 @@ const CARS = [
     "articles": [],
     "photo": {"credit": "Honda"},
     "id": "honda-civic-type-r-fk8",
+    "family": {"id": "honda-civic", "name": "Honda Civic"},
     "name": "Honda Civic Type R (FK8)",
     "aka": [
       "2017–2021 Civic Type R",
@@ -22060,6 +22255,7 @@ const CARS = [
     "articles": [],
     "photo": {"credit": "Honda"},
     "id": "honda-civic-type-r-fl5",
+    "family": {"id": "honda-civic", "name": "Honda Civic"},
     "name": "Honda Civic Type R (FL5)",
     "aka": [
       "2023 Civic Type R",
@@ -22112,6 +22308,7 @@ const CARS = [
   },
   {
     "id": "honda-clarity",
+    "family": {"id": "honda-clarity", "name": "Honda Clarity"},
     "name": "Honda Clarity",
     "aka": [
       "2017–2021 Clarity",
@@ -22269,6 +22466,7 @@ const CARS = [
   },
   {
     "id": "honda-cr-v-1st-gen",
+    "family": {"id": "honda-cr-v", "name": "Honda CR-V"},
     "name": "Honda CR-V (first generation)",
     "aka": [
       "1997–2001 CR-V",
@@ -22344,6 +22542,7 @@ const CARS = [
   },
   {
     "id": "honda-cr-v-2nd-gen",
+    "family": {"id": "honda-cr-v", "name": "Honda CR-V"},
     "name": "Honda CR-V (second generation)",
     "aka": [
       "2002–2006 CR-V",
@@ -22421,6 +22620,7 @@ const CARS = [
   },
   {
     "id": "honda-cr-v-3rd-gen",
+    "family": {"id": "honda-cr-v", "name": "Honda CR-V"},
     "name": "Honda CR-V (third generation)",
     "aka": [
       "2007–2011 CR-V",
@@ -22498,6 +22698,7 @@ const CARS = [
   },
   {
     "id": "honda-cr-v-4th-gen",
+    "family": {"id": "honda-cr-v", "name": "Honda CR-V"},
     "name": "Honda CR-V (fourth generation)",
     "aka": [
       "2012–2016 CR-V",
@@ -22716,6 +22917,7 @@ const CARS = [
     "articles": [],
     "photo": {"credit": "Honda"},
     "id": "honda-cr-v-5th-gen",
+    "family": {"id": "honda-cr-v", "name": "Honda CR-V"},
     "name": "Honda CR-V (fifth generation)",
     "aka": [
       "2017–2022 CR-V",
@@ -22835,6 +23037,7 @@ const CARS = [
     "articles": [],
     "photo": {"credit": "Honda"},
     "id": "honda-cr-v-6th-gen",
+    "family": {"id": "honda-cr-v", "name": "Honda CR-V"},
     "name": "Honda CR-V (sixth generation)",
     "aka": [
       "2023 CR-V",
@@ -22907,6 +23110,7 @@ const CARS = [
     "articles": [],
     "photo": {"credit": "Honda"},
     "id": "honda-cr-v-e-fcev",
+    "family": {"id": "honda-cr-v", "name": "Honda CR-V"},
     "name": "Honda CR-V e:FCEV",
     "aka": [
       "CR-V Fuel Cell",
@@ -22960,6 +23164,7 @@ const CARS = [
   },
   {
     "id": "honda-fcx-clarity",
+    "family": {"id": "honda-clarity", "name": "Honda Clarity"},
     "name": "Honda FCX Clarity",
     "aka": [
       "2008–2014 FCX Clarity",
@@ -23032,6 +23237,7 @@ const CARS = [
   },
   {
     "id": "honda-fit-1st-gen",
+    "family": {"id": "honda-fit", "name": "Honda Fit"},
     "name": "Honda Fit (first generation)",
     "aka": [
       "2007–2008 Fit",
@@ -23148,6 +23354,7 @@ const CARS = [
   },
   {
     "id": "honda-fit-2nd-gen",
+    "family": {"id": "honda-fit", "name": "Honda Fit"},
     "name": "Honda Fit (second generation)",
     "aka": [
       "2009–2013 Fit",
@@ -23267,6 +23474,7 @@ const CARS = [
   },
   {
     "id": "honda-fit-3rd-gen",
+    "family": {"id": "honda-fit", "name": "Honda Fit"},
     "name": "Honda Fit (third generation)",
     "aka": [
       "2015–2020 Fit",
@@ -23391,6 +23599,7 @@ const CARS = [
   },
   {
     "id": "honda-fit-ev",
+    "family": {"id": "honda-fit", "name": "Honda Fit"},
     "name": "Honda Fit EV",
     "aka": [
       "2013–2014 Fit EV",
@@ -23460,6 +23669,7 @@ const CARS = [
   },
   {
     "id": "honda-hr-v-1st-gen",
+    "family": {"id": "honda-hr-v", "name": "Honda HR-V"},
     "name": "Honda HR-V (first generation)",
     "aka": [
       "1999–2006 HR-V",
@@ -23530,6 +23740,7 @@ const CARS = [
   },
   {
     "id": "honda-hr-v-2nd-gen",
+    "family": {"id": "honda-hr-v", "name": "Honda HR-V"},
     "name": "Honda HR-V (second generation)",
     "aka": [
       "2016–2022 HR-V",
@@ -23656,6 +23867,7 @@ const CARS = [
   },
   {
     "id": "honda-hr-v-3rd-gen",
+    "family": {"id": "honda-hr-v", "name": "Honda HR-V"},
     "name": "Honda HR-V (third generation)",
     "aka": [
       "2023–2026 HR-V",
@@ -23738,6 +23950,7 @@ const CARS = [
   },
   {
     "id": "honda-insight-1st-gen",
+    "family": {"id": "honda-insight", "name": "Honda Insight"},
     "name": "Honda Insight (first generation)",
     "aka": [
       "2000–2006 Insight",
@@ -23852,6 +24065,7 @@ const CARS = [
   },
   {
     "id": "honda-insight-2nd-gen",
+    "family": {"id": "honda-insight", "name": "Honda Insight"},
     "name": "Honda Insight (second generation)",
     "aka": [
       "2010–2014 Insight",
@@ -23931,6 +24145,7 @@ const CARS = [
   },
   {
     "id": "honda-insight-3rd-gen",
+    "family": {"id": "honda-insight", "name": "Honda Insight"},
     "name": "Honda Insight (third generation)",
     "aka": [
       "2019–2022 Insight",
@@ -24013,6 +24228,7 @@ const CARS = [
   },
   {
     "id": "honda-odyssey-1st-gen",
+    "family": {"id": "honda-odyssey", "name": "Honda Odyssey"},
     "name": "Honda Odyssey (first generation)",
     "aka": [
       "1995–1998 Odyssey",
@@ -24089,6 +24305,7 @@ const CARS = [
   },
   {
     "id": "honda-odyssey-2nd-gen",
+    "family": {"id": "honda-odyssey", "name": "Honda Odyssey"},
     "name": "Honda Odyssey (second generation)",
     "aka": [
       "1999–2004 Odyssey",
@@ -24209,6 +24426,7 @@ const CARS = [
   },
   {
     "id": "honda-odyssey-3rd-gen",
+    "family": {"id": "honda-odyssey", "name": "Honda Odyssey"},
     "name": "Honda Odyssey (third generation)",
     "aka": [
       "2005–2010 Odyssey",
@@ -24288,6 +24506,7 @@ const CARS = [
   },
   {
     "id": "honda-odyssey-4th-gen",
+    "family": {"id": "honda-odyssey", "name": "Honda Odyssey"},
     "name": "Honda Odyssey (fourth generation)",
     "aka": [
       "2011–2017 Odyssey",
@@ -24412,6 +24631,7 @@ const CARS = [
   },
   {
     "id": "honda-odyssey-5th-gen",
+    "family": {"id": "honda-odyssey", "name": "Honda Odyssey"},
     "name": "Honda Odyssey (fifth generation)",
     "aka": [
       "2018–2026 Odyssey",
@@ -24534,6 +24754,7 @@ const CARS = [
   },
   {
     "id": "honda-passport-1st-gen",
+    "family": {"id": "honda-passport", "name": "Honda Passport"},
     "name": "Honda Passport (first generation)",
     "aka": [
       "1994–1997 Passport",
@@ -24641,6 +24862,7 @@ const CARS = [
   },
   {
     "id": "honda-passport-2nd-gen",
+    "family": {"id": "honda-passport", "name": "Honda Passport"},
     "name": "Honda Passport (second generation)",
     "aka": [
       "1998–2002 Passport",
@@ -24753,6 +24975,7 @@ const CARS = [
   },
   {
     "id": "honda-passport-3rd-gen",
+    "family": {"id": "honda-passport", "name": "Honda Passport"},
     "name": "Honda Passport (third generation)",
     "aka": [
       "2019–2025 Passport",
@@ -24840,6 +25063,7 @@ const CARS = [
   },
   {
     "id": "honda-passport-4th-gen",
+    "family": {"id": "honda-passport", "name": "Honda Passport"},
     "name": "Honda Passport (fourth generation)",
     "aka": [
       "2026 Passport",
@@ -24922,6 +25146,7 @@ const CARS = [
   },
   {
     "id": "honda-pilot-1st-gen",
+    "family": {"id": "honda-pilot", "name": "Honda Pilot"},
     "name": "Honda Pilot (first generation)",
     "aka": [
       "2003–2008 Pilot",
@@ -24999,6 +25224,7 @@ const CARS = [
   },
   {
     "id": "honda-pilot-2nd-gen",
+    "family": {"id": "honda-pilot", "name": "Honda Pilot"},
     "name": "Honda Pilot (second generation)",
     "aka": [
       "2009–2015 Pilot",
@@ -25079,6 +25305,7 @@ const CARS = [
   },
   {
     "id": "honda-pilot-3rd-gen",
+    "family": {"id": "honda-pilot", "name": "Honda Pilot"},
     "name": "Honda Pilot (third generation)",
     "aka": [
       "2016–2022 Pilot",
@@ -25206,6 +25433,7 @@ const CARS = [
   },
   {
     "id": "honda-pilot-4th-gen",
+    "family": {"id": "honda-pilot", "name": "Honda Pilot"},
     "name": "Honda Pilot (fourth generation)",
     "aka": [
       "2023–2026 Pilot",
@@ -25290,6 +25518,7 @@ const CARS = [
   },
   {
     "id": "honda-prelude-1st-gen",
+    "family": {"id": "honda-prelude", "name": "Honda Prelude"},
     "name": "Honda Prelude (first generation)",
     "aka": [
       "1979–1982 Prelude",
@@ -25360,6 +25589,7 @@ const CARS = [
   },
   {
     "id": "honda-prelude-2nd-gen",
+    "family": {"id": "honda-prelude", "name": "Honda Prelude"},
     "name": "Honda Prelude (second generation)",
     "aka": [
       "1983–1987 Prelude",
@@ -25477,6 +25707,7 @@ const CARS = [
   },
   {
     "id": "honda-prelude-3rd-gen",
+    "family": {"id": "honda-prelude", "name": "Honda Prelude"},
     "name": "Honda Prelude (third generation)",
     "aka": [
       "1988–1991 Prelude",
@@ -25555,6 +25786,7 @@ const CARS = [
   },
   {
     "id": "honda-prelude-4th-gen",
+    "family": {"id": "honda-prelude", "name": "Honda Prelude"},
     "name": "Honda Prelude (fourth generation)",
     "aka": [
       "1992–1996 Prelude",
@@ -25674,6 +25906,7 @@ const CARS = [
   },
   {
     "id": "honda-prelude-5th-gen",
+    "family": {"id": "honda-prelude", "name": "Honda Prelude"},
     "name": "Honda Prelude (fifth generation)",
     "aka": [
       "1997–2001 Prelude",
@@ -25771,6 +26004,7 @@ const CARS = [
     "articles": [],
     "photo": {"credit": "Honda"},
     "id": "honda-prelude-6th-gen",
+    "family": {"id": "honda-prelude", "name": "Honda Prelude"},
     "name": "Honda Prelude (sixth generation)",
     "aka": [
       "2026 Prelude",
@@ -25938,6 +26172,7 @@ const CARS = [
   },
   {
     "id": "honda-ridgeline-1st-gen",
+    "family": {"id": "honda-ridgeline", "name": "Honda Ridgeline"},
     "name": "Honda Ridgeline (first generation)",
     "aka": [
       "2006–2014 Ridgeline",
@@ -26054,6 +26289,7 @@ const CARS = [
   },
   {
     "id": "honda-ridgeline-2nd-gen",
+    "family": {"id": "honda-ridgeline", "name": "Honda Ridgeline"},
     "name": "Honda Ridgeline (second generation)",
     "aka": [
       "2017–2026 Ridgeline",
@@ -26178,6 +26414,7 @@ const CARS = [
   },
   {
     "id": "ford-bronco-1st-gen",
+    "family": {"id": "ford-bronco", "name": "Ford Bronco"},
     "name": "Ford Bronco (first generation)",
     "aka": [
       "1966–1977 Bronco",
@@ -26243,6 +26480,7 @@ const CARS = [
   },
   {
     "id": "ford-bronco-2nd-gen",
+    "family": {"id": "ford-bronco", "name": "Ford Bronco"},
     "name": "Ford Bronco (second generation)",
     "aka": [
       "1978–1979 Bronco",
@@ -26317,6 +26555,7 @@ const CARS = [
   },
   {
     "id": "ford-bronco-3rd-gen",
+    "family": {"id": "ford-bronco", "name": "Ford Bronco"},
     "name": "Ford Bronco (third generation)",
     "aka": [
       "1980–1986 Bronco",
@@ -26453,6 +26692,7 @@ const CARS = [
   },
   {
     "id": "ford-bronco-4th-gen",
+    "family": {"id": "ford-bronco", "name": "Ford Bronco"},
     "name": "Ford Bronco (fourth generation)",
     "aka": [
       "1987–1991 Bronco",
@@ -26589,6 +26829,7 @@ const CARS = [
   },
   {
     "id": "ford-bronco-5th-gen",
+    "family": {"id": "ford-bronco", "name": "Ford Bronco"},
     "name": "Ford Bronco (fifth generation)",
     "aka": [
       "1992–1996 Bronco",
@@ -26692,6 +26933,7 @@ const CARS = [
   },
   {
     "id": "ford-bronco-6th-gen",
+    "family": {"id": "ford-bronco", "name": "Ford Bronco"},
     "name": "Ford Bronco (sixth generation)",
     "aka": [
       "2021–2026 Bronco",
@@ -26861,6 +27103,7 @@ const CARS = [
   },
   {
     "id": "ford-bronco-raptor",
+    "family": {"id": "ford-bronco", "name": "Ford Bronco"},
     "name": "Ford Bronco Raptor",
     "aka": [
       "2022–2026 Bronco Raptor",
@@ -26941,6 +27184,7 @@ const CARS = [
   },
   {
     "id": "ford-bronco-sport",
+    "family": {"id": "ford-bronco", "name": "Ford Bronco"},
     "name": "Ford Bronco Sport",
     "aka": [
       "2021–2026 Bronco Sport",
@@ -27130,6 +27374,7 @@ const CARS = [
   },
   {
     "id": "ford-maverick-pickup",
+    "family": {"id": "ford-maverick-pickup", "name": "Ford Maverick pickup"},
     "name": "Ford Maverick (2022 pickup)",
     "aka": [
       "2022–2026 Maverick",
@@ -27295,6 +27540,7 @@ const CARS = [
   },
   {
     "id": "ford-maverick-tremor",
+    "family": {"id": "ford-maverick-pickup", "name": "Ford Maverick pickup"},
     "name": "Ford Maverick Tremor",
     "aka": [
       "Maverick Tremor",
@@ -27379,6 +27625,7 @@ const CARS = [
   },
   {
     "id": "ford-maverick-lobo",
+    "family": {"id": "ford-maverick-pickup", "name": "Ford Maverick pickup"},
     "name": "Ford Maverick Lobo",
     "aka": [
       "Maverick Lobo",
@@ -27463,6 +27710,7 @@ const CARS = [
   },
   {
     "id": "ford-ranger-1st-gen",
+    "family": {"id": "ford-ranger", "name": "Ford Ranger"},
     "name": "Ford Ranger (first generation)",
     "aka": [
       "1983–1992 Ranger",
@@ -27603,6 +27851,7 @@ const CARS = [
   },
   {
     "id": "ford-ranger-2nd-gen",
+    "family": {"id": "ford-ranger", "name": "Ford Ranger"},
     "name": "Ford Ranger (second generation)",
     "aka": [
       "1993–1997 Ranger",
@@ -27744,6 +27993,7 @@ const CARS = [
   },
   {
     "id": "ford-ranger-3rd-gen",
+    "family": {"id": "ford-ranger", "name": "Ford Ranger"},
     "name": "Ford Ranger (third generation)",
     "aka": [
       "1998–2011 Ranger",
@@ -27859,6 +28109,7 @@ const CARS = [
   },
   {
     "id": "ford-ranger-4th-gen",
+    "family": {"id": "ford-ranger", "name": "Ford Ranger"},
     "name": "Ford Ranger (fourth generation)",
     "aka": [
       "2019–2023 Ranger",
@@ -28015,6 +28266,7 @@ const CARS = [
   },
   {
     "id": "ford-ranger-5th-gen",
+    "family": {"id": "ford-ranger", "name": "Ford Ranger"},
     "name": "Ford Ranger (fifth generation)",
     "aka": [
       "2024–2026 Ranger",
@@ -28144,6 +28396,7 @@ const CARS = [
   },
   {
     "id": "ford-ranger-raptor",
+    "family": {"id": "ford-ranger", "name": "Ford Ranger"},
     "name": "Ford Ranger Raptor",
     "aka": [
       "2024–2026 Ranger Raptor",
@@ -28224,6 +28477,7 @@ const CARS = [
   },
   {
     "id": "ford-mustang-1st-gen",
+    "family": {"id": "ford-mustang", "name": "Ford Mustang"},
     "name": "Ford Mustang (first generation)",
     "aka": [
       "1964½–1973 Mustang",
@@ -28399,6 +28653,7 @@ const CARS = [
   },
   {
     "id": "ford-mustang-2nd-gen",
+    "family": {"id": "ford-mustang", "name": "Ford Mustang"},
     "name": "Ford Mustang II (second generation)",
     "aka": [
       "1974–1978 Mustang",
@@ -28512,6 +28767,7 @@ const CARS = [
   },
   {
     "id": "ford-mustang-3rd-gen",
+    "family": {"id": "ford-mustang", "name": "Ford Mustang"},
     "name": "Ford Mustang (third generation)",
     "aka": [
       "1979–1993 Mustang",
@@ -28698,6 +28954,7 @@ const CARS = [
   },
   {
     "id": "ford-mustang-4th-gen",
+    "family": {"id": "ford-mustang", "name": "Ford Mustang"},
     "name": "Ford Mustang (fourth generation)",
     "aka": [
       "1994–2004 Mustang",
@@ -28934,6 +29191,7 @@ const CARS = [
   },
   {
     "id": "ford-mustang-5th-gen",
+    "family": {"id": "ford-mustang", "name": "Ford Mustang"},
     "name": "Ford Mustang (fifth generation)",
     "aka": [
       "2005–2014 Mustang",
@@ -29172,6 +29430,7 @@ const CARS = [
   },
   {
     "id": "ford-mustang-6th-gen",
+    "family": {"id": "ford-mustang", "name": "Ford Mustang"},
     "name": "Ford Mustang (sixth generation)",
     "aka": [
       "2015–2023 Mustang",
@@ -29419,6 +29678,7 @@ const CARS = [
   },
   {
     "id": "ford-mustang-7th-gen",
+    "family": {"id": "ford-mustang", "name": "Ford Mustang"},
     "name": "Ford Mustang (seventh generation)",
     "aka": [
       "2024–2026 Mustang",
@@ -29587,6 +29847,7 @@ const CARS = [
   },
   {
     "id": "ford-mustang-shelby-gt350-1965",
+    "family": {"id": "ford-mustang", "name": "Ford Mustang"},
     "name": "Shelby GT350 (1965–1966)",
     "aka": [
       "1965 Shelby GT350",
@@ -29671,6 +29932,7 @@ const CARS = [
   },
   {
     "id": "ford-mustang-boss-302-1969",
+    "family": {"id": "ford-mustang", "name": "Ford Mustang"},
     "name": "Ford Mustang Boss 302 (1969–1970)",
     "aka": [
       "1969 Boss 302",
@@ -29752,6 +30014,7 @@ const CARS = [
   },
   {
     "id": "ford-mustang-svo",
+    "family": {"id": "ford-mustang", "name": "Ford Mustang"},
     "name": "Ford Mustang SVO",
     "aka": [
       "1984 Mustang SVO",
@@ -29876,6 +30139,7 @@ const CARS = [
   },
   {
     "id": "ford-mustang-shelby-gt500-2007",
+    "family": {"id": "ford-mustang", "name": "Ford Mustang"},
     "name": "Shelby GT500 (2007–2014)",
     "aka": [
       "2007 Shelby GT500",
@@ -30034,6 +30298,7 @@ const CARS = [
   },
   {
     "id": "ford-mustang-boss-302-2012",
+    "family": {"id": "ford-mustang", "name": "Ford Mustang"},
     "name": "Ford Mustang Boss 302 (2012–2013)",
     "aka": [
       "2012 Boss 302",
@@ -30158,6 +30423,7 @@ const CARS = [
   },
   {
     "id": "ford-mustang-shelby-gt350-2015",
+    "family": {"id": "ford-mustang", "name": "Ford Mustang"},
     "name": "Shelby GT350 (2015–2020)",
     "aka": [
       "2016 Shelby GT350",
@@ -30294,6 +30560,7 @@ const CARS = [
   },
   {
     "id": "ford-mustang-shelby-gt500-2020",
+    "family": {"id": "ford-mustang", "name": "Ford Mustang"},
     "name": "Shelby GT500 (2020–2022)",
     "aka": [
       "2020 Shelby GT500",
@@ -30388,6 +30655,7 @@ const CARS = [
   },
   {
     "id": "ford-mustang-mach-1-2021",
+    "family": {"id": "ford-mustang", "name": "Ford Mustang"},
     "name": "Ford Mustang Mach 1 (2021–2023)",
     "aka": [
       "2021 Mach 1",
@@ -30511,6 +30779,7 @@ const CARS = [
   },
   {
     "id": "ford-mustang-dark-horse",
+    "family": {"id": "ford-mustang", "name": "Ford Mustang"},
     "name": "Ford Mustang Dark Horse",
     "aka": [
       "2024 Dark Horse",
@@ -30638,6 +30907,7 @@ const CARS = [
   },
   {
     "id": "ford-mustang-gtd",
+    "family": {"id": "ford-mustang", "name": "Ford Mustang"},
     "name": "Ford Mustang GTD",
     "aka": [
       "2025 Mustang GTD",
@@ -30725,6 +30995,7 @@ const CARS = [
   },
   {
     "id": "ford-mustang-mach-e",
+    "family": {"id": "ford-mustang", "name": "Ford Mustang"},
     "name": "Ford Mustang Mach-E",
     "aka": [
       "2021–2026 Mach-E",
@@ -30917,6 +31188,7 @@ const CARS = [
   },
   {
     "id": "ford-mustang-mach-e-gt",
+    "family": {"id": "ford-mustang", "name": "Ford Mustang"},
     "name": "Ford Mustang Mach-E GT and Rally",
     "aka": [
       "Mach-E GT",
@@ -31078,6 +31350,7 @@ const CARS = [
   },
   {
     "id": "porsche-356",
+    "family": {"id": "porsche-356", "name": "Porsche 356"},
     "name": "Porsche 356",
     "aka": [
       "356 A",
@@ -31192,6 +31465,7 @@ const CARS = [
   },
   {
     "id": "porsche-356-sl",
+    "family": {"id": "porsche-356", "name": "Porsche 356"},
     "name": "Porsche 356 SL",
     "aka": [
       "Type 514",
@@ -31263,6 +31537,7 @@ const CARS = [
   },
   {
     "id": "porsche-718-rs",
+    "family": {"id": "porsche-718", "name": "Porsche 718"},
     "name": "Porsche 718 (RSK, RS 60 and RS 61)",
     "aka": [
       "718 RSK",
@@ -31337,6 +31612,7 @@ const CARS = [
   },
   {
     "id": "porsche-911-carrera-rsr",
+    "family": {"id": "porsche-911", "name": "Porsche 911"},
     "name": "Porsche 911 Carrera RSR (1973–1974)",
     "aka": [
       "Carrera RSR 2.8",
@@ -31408,6 +31684,7 @@ const CARS = [
   },
   {
     "id": "porsche-911-930",
+    "family": {"id": "porsche-911", "name": "Porsche 911"},
     "name": "Porsche 911 Turbo (930)",
     "aka": [
       "930",
@@ -31549,6 +31826,7 @@ const CARS = [
   },
   {
     "id": "porsche-911-964",
+    "family": {"id": "porsche-911", "name": "Porsche 911"},
     "name": "Porsche 911 (964)",
     "aka": [
       "964",
@@ -31839,6 +32117,7 @@ const CARS = [
   },
   {
     "id": "porsche-911-993",
+    "family": {"id": "porsche-911", "name": "Porsche 911"},
     "name": "Porsche 911 (993)",
     "aka": [
       "993",
@@ -32033,6 +32312,7 @@ const CARS = [
   },
   {
     "id": "porsche-959",
+    "family": {"id": "porsche-911", "name": "Porsche 911"},
     "name": "Porsche 959",
     "aka": [
       "959 Komfort",
@@ -32101,6 +32381,7 @@ const CARS = [
   },
   {
     "id": "porsche-944",
+    "family": {"id": "porsche-transaxle", "name": "Porsche 944 / 968"},
     "name": "Porsche 944",
     "aka": [
       "944 Turbo",
@@ -32586,6 +32867,7 @@ const CARS = [
   },
   {
     "id": "porsche-911-r-991",
+    "family": {"id": "porsche-911", "name": "Porsche 911"},
     "name": "Porsche 911 R (991)",
     "aka": [
       "911 R",
@@ -32662,6 +32944,7 @@ const CARS = [
   },
   {
     "id": "porsche-911-gt3-992",
+    "family": {"id": "porsche-911", "name": "Porsche 911"},
     "name": "Porsche 911 GT3 (992)",
     "aka": [
       "992 GT3",
@@ -32819,6 +33102,7 @@ const CARS = [
   },
   {
     "id": "porsche-911-gt3-rs-992",
+    "family": {"id": "porsche-911", "name": "Porsche 911"},
     "name": "Porsche 911 GT3 RS (992)",
     "aka": [
       "992 GT3 RS",
@@ -32898,6 +33182,7 @@ const CARS = [
   },
   {
     "id": "porsche-911-dakar",
+    "family": {"id": "porsche-911", "name": "Porsche 911"},
     "name": "Porsche 911 Dakar",
     "aka": [
       "992 Dakar",
@@ -32973,6 +33258,7 @@ const CARS = [
   },
   {
     "id": "porsche-718-spyder-rs",
+    "family": {"id": "porsche-718", "name": "Porsche 718"},
     "name": "Porsche 718 Spyder RS",
     "aka": [
       "Boxster Spyder RS",
@@ -33608,6 +33894,7 @@ const CARS = [
   },
   {
     "id": "amg-hammer",
+    "family": {"id": "mercedes-w124", "name": "Mercedes-Benz W124 specials"},
     "name": "AMG Hammer (W124)",
     "aka": [
       "Hammer",
@@ -33862,6 +34149,7 @@ const CARS = [
   },
   {
     "id": "mercedes-benz-sl500-r230",
+    "family": {"id": "mercedes-sl", "name": "Mercedes-Benz SL"},
     "name": "Mercedes-Benz SL500 (R230)",
     "aka": [
       "SL 55 AMG",
@@ -34015,6 +34303,7 @@ const CARS = [
   },
   {
     "id": "mercedes-benz-500e",
+    "family": {"id": "mercedes-w124", "name": "Mercedes-Benz W124 specials"},
     "name": "Mercedes-Benz 500 E",
     "aka": [
       "E 500",
@@ -34795,6 +35084,7 @@ const CARS = [
   },
   {
     "id": "lamborghini-countach",
+    "family": {"id": "lamborghini-v12", "name": "Lamborghini V12 flagships"},
     "name": "Lamborghini Countach",
     "aka": [
       "LP400",
@@ -35065,6 +35355,7 @@ const CARS = [
   },
   {
     "id": "honda-nsx",
+    "family": {"id": "honda-nsx", "name": "Honda NSX"},
     "name": "Honda NSX (first generation)",
     "aka": [
       "Acura NSX",
@@ -35172,6 +35463,7 @@ const CARS = [
   },
   {
     "id": "nissan-skyline-gtr-r34",
+    "family": {"id": "nissan-gt-r", "name": "Nissan Skyline GT-R / GT-R"},
     "name": "Nissan Skyline GT-R (R34)",
     "aka": [
       "BNR34",
@@ -35732,6 +36024,7 @@ const CARS = [
   },
   {
     "id": "chevrolet-corvette-zr1-c4",
+    "family": {"id": "chevrolet-corvette", "name": "Chevrolet Corvette"},
     "name": "Chevrolet Corvette ZR-1 (C4)",
     "aka": [
       "ZR-1",
@@ -36785,6 +37078,7 @@ const CARS = [
   },
   {
     "id": "saleen-s351",
+    "family": {"id": "ford-mustang", "name": "Ford Mustang"},
     "name": "Saleen S351",
     "aka": [
       "S-351",

@@ -22238,7 +22238,11 @@ const CARS_INDEX = [
    "kind": "tested",
    "note": "Car and Driver test, 1600 SC coupe"
   },
-  "top": null,
+  "top": {
+   "mph": 84,
+   "kind": "claimed",
+   "note": "Porsche's figure for the first car, the 1948 356/1 roadster"
+  },
   "mpg": null,
   "built": {
    "count": 76313,
@@ -22294,7 +22298,11 @@ const CARS_INDEX = [
   "kgNote": "",
   "lbs": null,
   "z60": null,
-  "top": null,
+  "top": {
+   "mph": 99,
+   "kind": "claimed",
+   "note": "Porsche's figure for the 1951 Le Mans car"
+  },
   "mpg": null,
   "built": {
    "count": 11,
@@ -22353,7 +22361,11 @@ const CARS_INDEX = [
   "kgNote": "Wikipedia's figure for the 718",
   "lbs": 1257,
   "z60": null,
-  "top": null,
+  "top": {
+   "mph": 162,
+   "kind": "claimed",
+   "note": "Porsche's figure, RS 60 Spyder"
+  },
   "mpg": null,
   "built": null,
   "alongside": [],
@@ -22407,7 +22419,11 @@ const CARS_INDEX = [
    "kind": "tested",
    "note": "Road & Track test, 1973 Carrera RSR"
   },
-  "top": null,
+  "top": {
+   "mph": 174,
+   "kind": "claimed",
+   "note": "Reported for the 1973 RSR 2.8"
+  },
   "mpg": null,
   "built": {
    "count": 55,
@@ -22486,7 +22502,11 @@ const CARS_INDEX = [
    "kind": "tested",
    "note": "Car and Driver test, 1976 Turbo Carrera"
   },
-  "top": null,
+  "top": {
+   "mph": 165,
+   "kind": "tested",
+   "note": "Car and Driver, 1978 Turbo 3.3"
+  },
   "mpg": null,
   "built": {
    "count": 21589,
@@ -22636,7 +22656,11 @@ const CARS_INDEX = [
    "kind": "tested",
    "note": "Car and Driver test, 1995 Carrera coupe"
   },
-  "top": null,
+  "top": {
+   "mph": 168,
+   "kind": "claimed",
+   "note": "Porsche's figure, 1995 Carrera"
+  },
   "mpg": {
    "combined": 18,
    "city": 15,
@@ -22763,7 +22787,11 @@ const CARS_INDEX = [
    "kind": "tested",
    "note": "Car and Driver test, 1983 944"
   },
-  "top": null,
+  "top": {
+   "mph": 130,
+   "kind": "claimed",
+   "note": "Porsche's figure, 1983 944"
+  },
   "mpg": {
    "combined": 20,
    "city": 18,
@@ -22825,8 +22853,16 @@ const CARS_INDEX = [
   "kg": 820,
   "kgNote": "917 K",
   "lbs": 1808,
-  "z60": null,
-  "top": null,
+  "z60": {
+   "sec": 3.5,
+   "kind": "claimed",
+   "note": "Reported for the 917 K; not an instrumented test"
+  },
+  "top": {
+   "mph": 220,
+   "kind": "claimed",
+   "note": "The 917 K as raced; a long-tail 917 was timed at about 240 mph at Le Mans"
+  },
   "mpg": null,
   "built": null,
   "alongside": [],
@@ -22882,8 +22918,16 @@ const CARS_INDEX = [
   "kg": 970,
   "kgNote": "Minimum weight under the rules",
   "lbs": 2138,
-  "z60": null,
-  "top": null,
+  "z60": {
+   "sec": 2.6,
+   "kind": "claimed",
+   "note": "Reported for the 1978 935/78 Moby Dick; not an instrumented test"
+  },
+  "top": {
+   "mph": 227,
+   "kind": "claimed",
+   "note": "The 935/78 Moby Dick at Le Mans; the 1976 935 was reported at 211 mph"
+  },
   "mpg": null,
   "built": null,
   "alongside": [
@@ -22936,8 +22980,16 @@ const CARS_INDEX = [
   "kg": null,
   "kgNote": "",
   "lbs": null,
-  "z60": null,
-  "top": null,
+  "z60": {
+   "sec": 2.7,
+   "kind": "claimed",
+   "note": "Reported for the 962C; not an instrumented test"
+  },
+  "top": {
+   "mph": 224,
+   "kind": "claimed",
+   "note": "The 962C as raced"
+  },
   "mpg": null,
   "built": {
    "count": 91,
@@ -23131,7 +23183,11 @@ const CARS_INDEX = [
    "kind": "tested",
    "note": "Car and Driver test, 2022 GT3 PDK"
   },
-  "top": null,
+  "top": {
+   "mph": 197,
+   "kind": "claimed",
+   "note": "Porsche's figure, PDK; the manual reaches 198"
+  },
   "mpg": {
    "combined": 16,
    "city": 15,
@@ -23321,7 +23377,11 @@ const CARS_INDEX = [
    "kind": "tested",
    "note": "Car and Driver test, 2024 718 Spyder RS"
   },
-  "top": null,
+  "top": {
+   "mph": 191,
+   "kind": "claimed",
+   "note": "Porsche's figure"
+  },
   "mpg": {
    "combined": 16,
    "city": 14,
@@ -23373,8 +23433,16 @@ const CARS_INDEX = [
   "kg": null,
   "kgNote": "",
   "lbs": null,
-  "z60": null,
-  "top": null,
+  "z60": {
+   "sec": 6.1,
+   "kind": "claimed",
+   "note": "Porsche's 0-100 km/h (62 mph) figure for the road car"
+  },
+  "top": {
+   "mph": 157,
+   "kind": "claimed",
+   "note": "Porsche's figure for the road car"
+  },
   "mpg": null,
   "built": {
    "count": 285,

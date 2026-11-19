@@ -31125,7 +31125,10 @@ const CARS = [
       "src": "https://www.0-60specs.com/porsche/356-0-60-times"
     },
     "top": {
-      "na": "No figure on record"
+      "mph": 84,
+      "kind": "claimed",
+      "note": "Porsche's figure for the first car, the 1948 356/1 roadster",
+      "src": null
     },
     "mpg": {
       "na": "fueleconomy.gov starts with 1984 models"
@@ -31227,7 +31230,10 @@ const CARS = [
       "na": "No instrumented road test on record"
     },
     "top": {
-      "na": "No figure on record"
+      "mph": 99,
+      "kind": "claimed",
+      "note": "Porsche's figure for the 1951 Le Mans car",
+      "src": null
     },
     "mpg": {
       "na": "A race car; never rated by the EPA"
@@ -31301,7 +31307,10 @@ const CARS = [
       "na": "No instrumented road test on record"
     },
     "top": {
-      "na": "No figure on record"
+      "mph": 162,
+      "kind": "claimed",
+      "note": "Porsche's figure, RS 60 Spyder",
+      "src": null
     },
     "mpg": {
       "na": "A race car; never rated by the EPA"
@@ -31369,7 +31378,10 @@ const CARS = [
       "src": "https://www.0-60specs.com/porsche/911-0-60-times"
     },
     "top": {
-      "na": "No figure on record"
+      "mph": 174,
+      "kind": "claimed",
+      "note": "Reported for the 1973 RSR 2.8",
+      "src": null
     },
     "mpg": {
       "na": "A race car; never rated by the EPA"
@@ -31441,7 +31453,10 @@ const CARS = [
       "src": "https://www.0-60specs.com/porsche/911-0-60-times"
     },
     "top": {
-      "na": "No figure on record"
+      "mph": 165,
+      "kind": "tested",
+      "note": "Car and Driver, 1978 Turbo 3.3",
+      "src": null
     },
     "mpg": {
       "na": "fueleconomy.gov starts with 1984 models"
@@ -31750,7 +31765,10 @@ const CARS = [
           "src": "https://www.0-60specs.com/porsche/911-0-60-times"
         },
         "top": {
-          "na": "No figure on record"
+          "mph": 162,
+          "kind": "claimed",
+          "note": "Porsche's figure, the same as the Carrera 2's",
+          "src": null
         },
         "mpg": {
           "combined": 18,
@@ -31866,7 +31884,10 @@ const CARS = [
       "src": "https://www.0-60specs.com/porsche/911-0-60-times"
     },
     "top": {
-      "na": "No figure on record"
+      "mph": 168,
+      "kind": "claimed",
+      "note": "Porsche's figure, 1995 Carrera",
+      "src": null
     },
     "mpg": {
       "combined": 18,
@@ -32123,7 +32144,10 @@ const CARS = [
       "src": "https://www.0-60specs.com/porsche/944-0-60-times"
     },
     "top": {
-      "na": "No figure on record"
+      "mph": 130,
+      "kind": "claimed",
+      "note": "Porsche's figure, 1983 944",
+      "src": null
     },
     "mpg": {
       "combined": 20,
@@ -32304,10 +32328,16 @@ const CARS = [
       "src": "https://en.wikipedia.org/wiki/Porsche_917"
     },
     "zero60": {
-      "na": "No instrumented road test on record"
+      "sec": 3.5,
+      "kind": "claimed",
+      "note": "Reported for the 917 K; not an instrumented test",
+      "src": null
     },
     "top": {
-      "na": "No figure on record"
+      "mph": 220,
+      "kind": "claimed",
+      "note": "The 917 K as raced; a long-tail 917 was timed at about 240 mph at Le Mans",
+      "src": null
     },
     "mpg": {
       "na": "A race car; never rated by the EPA"
@@ -32370,10 +32400,16 @@ const CARS = [
       "src": "https://en.wikipedia.org/wiki/Porsche_935"
     },
     "zero60": {
-      "na": "No instrumented road test on record"
+      "sec": 2.6,
+      "kind": "claimed",
+      "note": "Reported for the 1978 935/78 Moby Dick; not an instrumented test",
+      "src": null
     },
     "top": {
-      "na": "No figure on record"
+      "mph": 227,
+      "kind": "claimed",
+      "note": "The 935/78 Moby Dick at Le Mans; the 1976 935 was reported at 211 mph",
+      "src": null
     },
     "mpg": {
       "na": "A race car; never rated by the EPA"
@@ -32435,10 +32471,16 @@ const CARS = [
       "na": "Varied by series"
     },
     "zero60": {
-      "na": "No instrumented road test on record"
+      "sec": 2.7,
+      "kind": "claimed",
+      "note": "Reported for the 962C; not an instrumented test",
+      "src": null
     },
     "top": {
-      "na": "No figure on record"
+      "mph": 224,
+      "kind": "claimed",
+      "note": "The 962C as raced",
+      "src": null
     },
     "mpg": {
       "na": "A race car; never rated by the EPA"
@@ -32659,7 +32701,10 @@ const CARS = [
       "src": "https://www.0-60specs.com/porsche/911-0-60-times"
     },
     "top": {
-      "na": "No figure on record"
+      "mph": 197,
+      "kind": "claimed",
+      "note": "Porsche's figure, PDK; the manual reaches 198",
+      "src": null
     },
     "mpg": {
       "combined": 16,
@@ -32734,7 +32779,10 @@ const CARS = [
           "src": "https://www.0-60specs.com/porsche/911-0-60-times"
         },
         "top": {
-          "na": "No figure on record"
+          "mph": 198,
+          "kind": "claimed",
+          "note": "Porsche's figure, manual",
+          "src": null
         },
         "mpg": {
           "combined": 16,
@@ -32963,7 +33011,10 @@ const CARS = [
       "src": "https://www.0-60specs.com/porsche/718-boxster-0-60-times"
     },
     "top": {
-      "na": "No figure on record"
+      "mph": 191,
+      "kind": "claimed",
+      "note": "Porsche's figure",
+      "src": "https://newsroom.porsche.com/dam/jcr:b127e046-842d-448c-a770-0b3cc9b9f4df/26_2024_Porsche_718_Spyder_RS.pdf"
     },
     "mpg": {
       "combined": 16,
@@ -33026,10 +33077,16 @@ const CARS = [
       "na": "No figure on record"
     },
     "zero60": {
-      "na": "No instrumented road test on record"
+      "sec": 6.1,
+      "kind": "claimed",
+      "note": "Porsche's 0-100 km/h (62 mph) figure for the road car",
+      "src": null
     },
     "top": {
-      "na": "No figure on record"
+      "mph": 157,
+      "kind": "claimed",
+      "note": "Porsche's figure for the road car",
+      "src": null
     },
     "mpg": {
       "na": "Not listed separately by the EPA"

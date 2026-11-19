@@ -3405,7 +3405,7 @@ const CARS = [
     },
     "predecessor": {
       "name": "Porsche 911 (993)",
-      "id": null
+      "id": "porsche-911-993"
     },
     "successor": {
       "name": "Porsche 911 (997)",
@@ -3495,6 +3495,12 @@ const CARS = [
       "name": "Porsche 911 Carrera 3.2",
       "id": null
     },
+    "alongside": [
+      {
+        "name": "Porsche 911 Turbo (930)",
+        "id": "porsche-911-930"
+      }
+    ],
     "quick": "The 3.0-liter air-cooled 911 that carried Porsche through years when its own leadership expected the line to end. Light, unassisted and honest, it is the classic 911 that still asks to be driven rather than displayed, and a rented, privately entered 3.0-liter 911 won the 1978 Monte Carlo Rally.",
     "story": [
       "The SC replaced both the 2.7-liter 911 and the Carrera 3.0 with one simplified, durable 3.0-liter flat-six, at a moment when Porsche's management saw the 911 as yesterday's car. In European form it made 180 PS without the catalytic converters and power losses that dulled American models, and a European Targa weighs only about 1,210 kg (2,670 lb). There is no power steering and no ABS, nothing between driver and road but a slim wheel, a long-throw 915 gearbox and a lot of honest feedback.",
@@ -3505,11 +3511,8 @@ const CARS = [
       "the-borrowed-crown"
     ],
     "photo": {
-      "file": "1982 Porsche 911 SC Targa in Weinrot Metallic, Front Right, 05-27-2023.jpg",
-      "credit": "Elise240SX",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "pos": ""
+      "credit": "Carveyance",
+      "caption": "A 911 SC at the Porsche Experience Center Los Angeles, October 18, 2026"
     },
     "match": []
   },
@@ -31078,5 +31081,2109 @@ const CARS = [
       "title": "The Ford Mustang Mach-E Buyer's Guide",
       "blurb": "The 2021–2024 and 2025–2026 Mach-E, which battery and drive to choose, the GT and Rally, and the used checklist with the battery and recall checks, in 4 chapters."
     }
+  },
+  {
+    "id": "porsche-356",
+    "name": "Porsche 356",
+    "aka": [
+      "356 A",
+      "356 B",
+      "356 C",
+      "356 Speedster",
+      "356 Carrera",
+      "Pre-A 356"
+    ],
+    "make": "Porsche",
+    "maker": "Porsche (Gmünd, Austria, until 1950; then Zuffenhausen, Stuttgart)",
+    "country": "Germany",
+    "years": "1948–1965",
+    "start": 1948,
+    "end": 1965,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Two-door coupe, cabriolet, roadster and Speedster",
+    "engine": "Air-cooled flat-4, 1.1 to 2.0 liters",
+    "drive": "Rear-wheel drive (rear engine)",
+    "gearbox": "4-speed manual",
+    "specsFor": "Porsche 356 1600 SC coupe, 95 hp, 4-speed manual, as Car and Driver tested it (listed as a 1963 car)",
+    "power": {
+      "hp": 95,
+      "note": "1.6-liter flat-4, SC tune",
+      "src": "https://www.0-60specs.com/porsche/356-0-60-times"
+    },
+    "weight": {
+      "kg": 839,
+      "lb": 1850,
+      "note": "Test weight, 1600 SC coupe",
+      "src": "https://www.0-60specs.com/porsche/356-0-60-times"
+    },
+    "zero60": {
+      "sec": 12.8,
+      "kind": "tested",
+      "note": "Car and Driver test, 1600 SC coupe",
+      "src": "https://www.0-60specs.com/porsche/356-0-60-times"
+    },
+    "top": {
+      "mph": 84,
+      "kind": "claimed",
+      "note": "Porsche's figure for the first car, the 1948 356/1 roadster",
+      "src": null
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "count": 76313,
+      "approx": false,
+      "note": "All versions, 1948–1965: 7,627 of the first 356, 21,045 356 As, 30,963 356 Bs and 16,678 356 Cs (Wikipedia's table, from Long, 2008)",
+      "src": "https://en.wikipedia.org/wiki/Porsche_356"
+    },
+    "versions": [
+      {
+        "name": "1600 SC",
+        "detail": "95 hp; the strongest regular 356 engine"
+      },
+      {
+        "name": "Carrera 2 GS",
+        "detail": "1962; four-cam 2.0-liter engine",
+        "specsFor": "1962 Porsche 356 Carrera 2 GS coupe (Road & Track test)",
+        "power": {
+          "hp": 130,
+          "note": "2.0-liter four-cam flat-4",
+          "src": "https://www.0-60specs.com/porsche/356-0-60-times"
+        },
+        "weight": {
+          "kg": 953,
+          "lb": 2100,
+          "note": "Test weight, Carrera 2 GS coupe",
+          "src": "https://www.0-60specs.com/porsche/356-0-60-times"
+        },
+        "zero60": {
+          "sec": 9.2,
+          "kind": "tested",
+          "note": "Road & Track test, Carrera 2 GS coupe",
+          "src": "https://www.0-60specs.com/porsche/356-0-60-times"
+        },
+        "top": {
+          "na": "No figure on record"
+        },
+        "mpg": {
+          "na": "fueleconomy.gov starts with 1984 models"
+        }
+      }
+    ],
+    "predecessor": null,
+    "successor": {
+      "name": "Porsche 911 (1964–1973)",
+      "id": null
+    },
+    "alongside": [
+      {
+        "name": "Porsche 356 SL",
+        "id": "porsche-356-sl"
+      }
+    ],
+    "quick": "The first car to carry the Porsche name: a small, light coupe built from Volkswagen ideas and a lot of hand work, first in an Austrian sawmill town and then in Stuttgart. Porsche built about 76,000 of them, and it is the shape the 911 grew out of.",
+    "story": [
+      "Ferry Porsche wanted a car he could not buy, so he built one. The first 356s were shaped by Erwin Komenda and built by hand in aluminum at Gmünd, Austria, where Porsche made about 50 of them, using an air-cooled flat-4 and suspension parts that started out as Volkswagen components. In 1950 production moved to Zuffenhausen, the bodies changed to steel from Reutter, and the car began a long run of quiet improvements: more power, a one-piece windshield in 1952, then the 356 A, B and C.",
+      "It never stopped being a small car with the engine in the back, and that is the charm of it. The steering is light and full of feel, the doors close with a sound you remember, and the engine, even in its strongest regular SC form with 95 hp, makes its speed from low weight rather than force. Car and Driver needed 12.8 seconds to reach 60 mph in a 1600 SC, slow by later standards, but the 356 won its class at Le Mans in 1951 and was racing and winning rallies all through the 1950s. Production peaked at 14,151 cars in 1964, the year the 911 arrived, and the 356 C stayed on sale in North America through 1965. Porsche built about 76,000, and roughly half are said to survive."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "A 356 coupe at the Porsche Experience Center Los Angeles, October 18, 2026"
+    },
+    "match": []
+  },
+  {
+    "id": "porsche-356-sl",
+    "name": "Porsche 356 SL",
+    "aka": [
+      "Type 514",
+      "356 SL Gmünd Coupe",
+      "Super Leicht"
+    ],
+    "make": "Porsche",
+    "maker": "Porsche (Stuttgart)",
+    "country": "Germany",
+    "years": "1951–1953",
+    "start": 1951,
+    "end": 1953,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Two-door aluminum race coupe",
+    "engine": "Air-cooled flat-4, 1.1 or 1.5 liters",
+    "drive": "Rear-wheel drive (rear engine)",
+    "gearbox": "Manual",
+    "specsFor": "1951 Le Mans car, 1,086 cc Type 369 engine",
+    "power": {
+      "hp": 46,
+      "note": "1,086 cc flat-4 with Ernst Fuhrmann's camshaft (40 hp before)",
+      "src": "https://en.wikipedia.org/wiki/Porsche_356SL"
+    },
+    "weight": {
+      "na": "No figure published"
+    },
+    "zero60": {
+      "na": "No instrumented road test on record"
+    },
+    "top": {
+      "mph": 99,
+      "kind": "claimed",
+      "note": "Porsche's figure for the 1951 Le Mans car",
+      "src": null
+    },
+    "mpg": {
+      "na": "A race car; never rated by the EPA"
+    },
+    "built": {
+      "count": 11,
+      "approx": true,
+      "note": "About 11, 1951–1953; the exact number is disputed",
+      "src": "https://en.wikipedia.org/wiki/Porsche_356SL"
+    },
+    "predecessor": null,
+    "successor": {
+      "name": "Porsche 550 Spyder",
+      "id": null
+    },
+    "alongside": [
+      {
+        "name": "Porsche 356",
+        "id": "porsche-356"
+      }
+    ],
+    "quick": "Porsche's first factory race car: an aluminum 356 coupe with covered wheels, built to win the 1,100 cc class at Le Mans in 1951. It did, at the first attempt.",
+    "story": [
+      "The idea came from Auguste Veuillet, Porsche's importer in France, at the Paris motor show in October 1950. Porsche thought it could win the 1,100 cc class at Le Mans with the light aluminum 356/2 coupes from Gmünd rather than the heavier steel cars coming out of Stuttgart, so it built the Type 514, the 356 SL, for Super Leicht. It got aluminum panels under the floor, skirts over the wheels and a 78-liter fuel tank, and its 1,086 cc engine was given a camshaft by Ernst Fuhrmann that lifted it from 40 hp to 46.",
+      "In June 1951 Veuillet and Edmond Mouche drove number 46 to 20th overall and first in class, and Porsche was the only German maker in the race. That result is where the company's Le Mans story starts. The SLs kept racing through 1953 and became Porsche's first customer race cars, and 3 of them went to Max Hoffman, Porsche's importer in New York. Exactly how many were built is still argued over, but it is about 11, and their job passed to the 550 Spyder."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "A 356 SL in number 46, the number of the 1951 Le Mans class winner, at the Porsche Experience Center Los Angeles, October 18, 2026"
+    },
+    "match": []
+  },
+  {
+    "id": "porsche-718-rs",
+    "name": "Porsche 718 (RSK, RS 60 and RS 61)",
+    "aka": [
+      "718 RSK",
+      "RSK",
+      "RS 60",
+      "RS 61",
+      "718 Spyder",
+      "718 RS"
+    ],
+    "make": "Porsche",
+    "maker": "Porsche (Zuffenhausen, Stuttgart)",
+    "country": "Germany",
+    "years": "1957–1961",
+    "start": 1957,
+    "end": 1961,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Open 2-seat race car (Spyder)",
+    "engine": "Air-cooled four-cam flat-4, 1.5 or 1.6 liters",
+    "drive": "Rear-wheel drive (mid-engine)",
+    "gearbox": "5-speed manual",
+    "specsFor": "1960 Porsche 718 RS 60 Spyder, optional 1.6-liter Type 547/3 engine",
+    "power": {
+      "hp": 160,
+      "note": "1.6-liter Type 547/3 flat-4",
+      "src": "https://en.wikipedia.org/wiki/Porsche_718"
+    },
+    "weight": {
+      "kg": 570,
+      "lb": 1257,
+      "note": "Wikipedia's figure for the 718",
+      "src": "https://en.wikipedia.org/wiki/Porsche_718"
+    },
+    "zero60": {
+      "sec": 5.2,
+      "kind": "claimed",
+      "note": "*Unconfirmed: a secondary 0-100 km/h (62 mph) figure, not an instrumented test",
+      "src": null
+    },
+    "top": {
+      "mph": 162,
+      "kind": "claimed",
+      "note": "Porsche's figure, RS 60 Spyder",
+      "src": null
+    },
+    "mpg": {
+      "na": "A race car; never rated by the EPA"
+    },
+    "built": {
+      "na": "No total published for the 718s"
+    },
+    "predecessor": {
+      "name": "Porsche 550 Spyder",
+      "id": null
+    },
+    "successor": {
+      "name": "Porsche 904",
+      "id": null
+    },
+    "quick": "The little silver Spyder that took Porsche from class wins to overall wins: third at Le Mans in 1958, winner of the Targa Florio in 1959 and 1960, and first and second at Sebring in 1960.",
+    "story": [
+      "The 718 replaced the 550 in 1957 and kept its recipe: a small open body, a four-cam flat-4 behind the driver and as little weight as Porsche could manage, about 570 kg (1,257 lb). Jean Behra and Hans Herrmann took an RSK to third overall at Le Mans in 1958, behind cars with far bigger engines, and in 1959 Edgar Barth and Wolfgang Seidel won the Targa Florio outright.",
+      "For 1960 the rules asked for a full-width windshield and a bigger cockpit, so Porsche redrew the car as the RS 60, with a new double-wishbone rear suspension and an optional 1.6-liter engine of 160 hp. It finished first and second at the 1960 Sebring 12 Hours, won the Targa Florio again and gave Porsche its third European Hill Climb Championship in a row. The RS 61 of 1961 was almost the same car and won the hill-climb title too. It is the car that taught Porsche to win outright."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "A 718 Spyder on track at the Porsche Experience Center Los Angeles, October 18, 2026"
+    },
+    "match": []
+  },
+  {
+    "id": "porsche-911-carrera-rsr",
+    "name": "Porsche 911 Carrera RSR (1973–1974)",
+    "aka": [
+      "Carrera RSR 2.8",
+      "Carrera RSR 3.0",
+      "RSR"
+    ],
+    "make": "Porsche",
+    "maker": "Porsche (Zuffenhausen, Stuttgart)",
+    "country": "Germany",
+    "years": "1973–1974",
+    "start": 1973,
+    "end": 1974,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Two-door race coupe",
+    "engine": "Air-cooled flat-6, 2.8 liters (3.0 liters for 1974)",
+    "drive": "Rear-wheel drive (rear engine)",
+    "gearbox": "5-speed manual",
+    "specsFor": "1973 Porsche 911 Carrera RSR 2.8 (Road & Track test)",
+    "power": {
+      "hp": 300,
+      "note": "2,808 cc flat-6; Porsche quoted 312 PS (308 hp)",
+      "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+    },
+    "weight": {
+      "kg": 898,
+      "lb": 1980,
+      "note": "Test weight",
+      "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+    },
+    "zero60": {
+      "sec": 5.6,
+      "kind": "tested",
+      "note": "Road & Track test, 1973 Carrera RSR",
+      "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+    },
+    "top": {
+      "mph": 174,
+      "kind": "claimed",
+      "note": "Reported for the 1973 RSR 2.8",
+      "src": null
+    },
+    "mpg": {
+      "na": "A race car; never rated by the EPA"
+    },
+    "built": {
+      "count": 55,
+      "approx": false,
+      "note": "RSR 2.8s, converted from the 1,580 Carrera RS 2.7s under option M491; the 1974 RSR 3.0s came after",
+      "src": "https://en.wikipedia.org/wiki/Porsche_911_(classic)"
+    },
+    "predecessor": null,
+    "successor": {
+      "name": "Porsche 935",
+      "id": "porsche-935"
+    },
+    "quick": "The race car the Carrera RS 2.7 was built to make legal. Porsche had to sell 500 road cars to race it, sold 1,580, and the RSR went on winning in America and Europe for years.",
+    "story": [
+      "The famous ducktail Carrera RS 2.7 exists because of this car. To race the 911 in the Group 4 GT class, Porsche needed 500 road cars, so it built the RS, sold 1,580 of them and then converted 55 into RSRs. The RSR got much wider fenders, wider wheels and tires, and a 2,808 cc flat-6 of 312 PS, and Road & Track timed one to 60 mph in 5.6 seconds. For 1974 came the RSR 3.0, with 315 PS, and a turbocharged RSR 2.1 that finished second overall at Le Mans and pointed the way to the 935.",
+      "Customer teams kept RSRs racing long after Porsche moved on. An RSR 3.0 won the 1977 Daytona 24 Hours outright, and the same year Wynn's International entered RSR number 77 at Le Mans for John Hotchkis, Robert Kirby and Dennis Aase, who finished 20th. Those are the names on the roof of the white, purple and orange car in the photo. Under the paint it is still a 911, and that is the point of it: the RSR proved the road car's shape could win races."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "A Carrera RSR in the Wynn's colors of the number 77 that John Hotchkis, Robert Kirby and Dennis Aase drove at Le Mans in 1977, at the Porsche Experience Center Los Angeles, October 18, 2026"
+    },
+    "match": []
+  },
+  {
+    "id": "porsche-911-930",
+    "name": "Porsche 911 Turbo (930)",
+    "aka": [
+      "930",
+      "930 Turbo",
+      "911 Turbo",
+      "Turbo Carrera",
+      "Slantnose",
+      "Flachbau",
+      "Widowmaker"
+    ],
+    "make": "Porsche",
+    "maker": "Porsche (Zuffenhausen, Stuttgart)",
+    "country": "Germany",
+    "years": "1975–1989",
+    "start": 1975,
+    "end": 1989,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Two-door 2+2 coupe, later also Targa and cabriolet",
+    "engine": "Air-cooled turbocharged flat-6, 3.0 liters (3.3 liters with an intercooler from 1978)",
+    "drive": "Rear-wheel drive (rear engine)",
+    "gearbox": "4-speed manual (5-speed for 1989)",
+    "specsFor": "1976 Porsche 911 Turbo Carrera, 4-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 234,
+      "note": "3.0-liter turbocharged flat-6, US version",
+      "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+    },
+    "weight": {
+      "kg": 1179,
+      "lb": 2600,
+      "note": "Test weight, 1976 Turbo Carrera",
+      "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+    },
+    "zero60": {
+      "sec": 4.9,
+      "kind": "tested",
+      "note": "Car and Driver test, 1976 Turbo Carrera",
+      "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+    },
+    "top": {
+      "mph": 165,
+      "kind": "tested",
+      "note": "Car and Driver, 1978 Turbo 3.3",
+      "src": null
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "count": 21589,
+      "approx": false,
+      "note": "1975–1989: 2,819 3.0-liter cars and 18,770 3.3-liter cars",
+      "src": "https://en.wikipedia.org/wiki/Porsche_911_(930)"
+    },
+    "versions": [
+      {
+        "name": "3.0-liter",
+        "detail": "1975–1977; 260 PS in Europe, 234 hp in the US"
+      },
+      {
+        "name": "3.3-liter, US market",
+        "detail": "1986–1989; back in the US with 282 hp",
+        "specsFor": "1986 Porsche 911 Turbo, 4-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 282,
+          "note": "3.3-liter turbocharged flat-6 with intercooler",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "weight": {
+          "kg": 1297,
+          "lb": 2860,
+          "note": "Test weight, 1986 Turbo",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "zero60": {
+          "sec": 4.6,
+          "kind": "tested",
+          "note": "Car and Driver test, 1986 Turbo",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "top": {
+          "na": "No figure on record"
+        },
+        "mpg": {
+          "combined": 17,
+          "city": 15,
+          "hwy": 20,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/1737.shtml",
+          "note": "EPA combined, 1986 Turbo, 4-speed manual"
+        }
+      },
+      {
+        "name": "3.3-liter, 5-speed",
+        "detail": "1989 only",
+        "mpg": {
+          "combined": 15,
+          "city": 13,
+          "hwy": 19,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/5290.shtml",
+          "note": "EPA combined, 1989 Turbo, 5-speed manual"
+        }
+      }
+    ],
+    "predecessor": null,
+    "successor": {
+      "name": "Porsche 911 (964)",
+      "id": "porsche-911-964"
+    },
+    "alongside": [
+      {
+        "name": "Porsche 911 SC",
+        "id": "porsche-911-sc"
+      },
+      {
+        "name": "Porsche 935",
+        "id": "porsche-935"
+      }
+    ],
+    "quick": "The first 911 Turbo: wide fenders, a whale tail and a reputation. Porsche built it so it could race a turbocharged 911, and ended up selling 21,589.",
+    "story": [
+      "Porsche built the Turbo to race, then found that people wanted to drive it on the road. Ernst Fuhrmann took the turbocharging Porsche had learned on the 917/30 Can-Am car and applied it to the 911's 3.0-liter flat-6, put it in a 911 with swollen fenders and a whale-tail spoiler, and showed it in Paris in October 1974. It went on sale in 1975 and reached the US for 1976 at $25,880, or $153,000 in 2026 dollars, and Car and Driver timed one to 60 mph in 4.9 seconds. For 1978 it grew to 3.3 liters with an intercooler and bigger brakes, like those on the 917.",
+      "Nothing happens, then everything does. The early cars had so much turbo lag and so much weight over the rear wheels that a driver who lifted off mid-corner could find the back coming around, and the 930 earned the nickname Widowmaker. That made it a legend. Porsche stopped selling it in the US after 1979 and brought it back for 1986 with 282 hp, built 948 factory Slantnose cars for buyers who wanted the 935 look, and finally gave it a 5-speed gearbox in its last year, 1989. Its racing twin, the 935, won Le Mans."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "A 930 at the Porsche Experience Center Los Angeles, October 18, 2026; the gold mesh wheels are an owner's choice, not Porsche's"
+    },
+    "match": [
+      "Porsche 930",
+      "Porsche 911 Turbo"
+    ]
+  },
+  {
+    "id": "porsche-911-964",
+    "name": "Porsche 911 (964)",
+    "aka": [
+      "964",
+      "Carrera 2",
+      "Carrera 4",
+      "964 Turbo",
+      "RS America",
+      "964 Speedster"
+    ],
+    "make": "Porsche",
+    "maker": "Porsche (Zuffenhausen, Stuttgart)",
+    "country": "Germany",
+    "years": "1989–1994",
+    "start": 1989,
+    "end": 1994,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Two-door 2+2 coupe, Targa, cabriolet and Speedster",
+    "engine": "Air-cooled 3.6-liter flat-6 (Turbo: 3.3 or 3.6 liters)",
+    "drive": "Rear-wheel drive or all-wheel drive (Carrera 4)",
+    "gearbox": "5-speed manual or 4-speed Tiptronic automatic",
+    "specsFor": "1990 Porsche 911 Carrera 2 coupe, 5-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 247,
+      "note": "3.6-liter flat-6",
+      "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+    },
+    "weight": {
+      "kg": 1375,
+      "lb": 3031,
+      "note": "Test weight, 1990 Carrera 2",
+      "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+    },
+    "zero60": {
+      "sec": 4.8,
+      "kind": "tested",
+      "note": "Car and Driver test, 1990 Carrera 2 coupe",
+      "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+    },
+    "top": {
+      "mph": 162,
+      "kind": "claimed",
+      "note": "Porsche's figure, Carrera 2 with the manual gearbox",
+      "src": "https://stuttcars.com/?p=434815"
+    },
+    "mpg": {
+      "combined": 17,
+      "city": 15,
+      "hwy": 22,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/6432.shtml",
+      "note": "EPA combined, 1990 Carrera 2/4, manual"
+    },
+    "built": {
+      "count": 63762,
+      "approx": false,
+      "note": "1989–December 1993, all versions",
+      "src": "https://en.wikipedia.org/wiki/Porsche_911_(964)"
+    },
+    "versions": [
+      {
+        "name": "Carrera 2",
+        "detail": "1990 on; rear-wheel drive; 18,219 coupes, 34,398 with the Targas and cabriolets"
+      },
+      {
+        "name": "Carrera 4",
+        "detail": "1989 on; all-wheel drive; 13,353 coupes, 20,395 in all",
+        "specsFor": "1989 Porsche 911 Carrera 4 coupe, 5-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 247,
+          "note": "3.6-liter flat-6",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "weight": {
+          "kg": 1450,
+          "lb": 3197,
+          "note": "Test weight, 1989 Carrera 4",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "zero60": {
+          "sec": 4.8,
+          "kind": "tested",
+          "note": "Car and Driver test, 1989 Carrera 4",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "top": {
+          "mph": 162,
+          "kind": "claimed",
+          "note": "Porsche's figure",
+          "src": "https://stuttcars.com/?p=434815"
+        },
+        "mpg": {
+          "combined": 16,
+          "city": 14,
+          "hwy": 20,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/5289.shtml",
+          "note": "EPA combined, 1989 Carrera 4, manual"
+        }
+      },
+      {
+        "name": "Turbo 3.3",
+        "detail": "1991–1992; 3,660 built, though Porsche has also published 3,871",
+        "specsFor": "1991 Porsche 911 Turbo, 5-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 315,
+          "note": "3.3-liter turbocharged flat-6",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "weight": {
+          "kg": 1486,
+          "lb": 3275,
+          "note": "Test weight, 1991 Turbo",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "zero60": {
+          "sec": 4.4,
+          "kind": "tested",
+          "note": "Car and Driver test, 1991 Turbo",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "top": {
+          "mph": 168,
+          "kind": "claimed",
+          "note": "Porsche's figure",
+          "src": "https://stuttcars.com/?p=434815"
+        },
+        "mpg": {
+          "combined": 14,
+          "city": 12,
+          "hwy": 20,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/7510.shtml",
+          "note": "EPA combined, 1991 Turbo"
+        }
+      },
+      {
+        "name": "Turbo 3.6",
+        "detail": "1994; 1,437 built",
+        "specsFor": "1994 Porsche 911 Turbo 3.6, 5-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 360,
+          "note": "3.6-liter turbocharged flat-6",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "weight": {
+          "kg": 1497,
+          "lb": 3300,
+          "note": "Test weight, 1994 Turbo",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "zero60": {
+          "sec": 4.0,
+          "kind": "tested",
+          "note": "Car and Driver test, 1994 Turbo",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "top": {
+          "mph": 174,
+          "kind": "claimed",
+          "note": "Porsche's figure",
+          "src": "https://stuttcars.com/?p=434815"
+        },
+        "mpg": {
+          "combined": 14,
+          "city": 12,
+          "hwy": 20,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/10665.shtml",
+          "note": "EPA combined, 1994 Turbo"
+        }
+      },
+      {
+        "name": "Carrera RS",
+        "detail": "1992; Europe only; 2,282 built",
+        "top": {
+          "mph": 162,
+          "kind": "claimed",
+          "note": "Porsche's figure",
+          "src": "https://stuttcars.com/?p=434815"
+        }
+      },
+      {
+        "name": "Carrera RS 3.8",
+        "detail": "1993; 55 built; wide body and a 3.8-liter engine"
+      },
+      {
+        "name": "RS America",
+        "detail": "1993–1994; 701 built",
+        "specsFor": "1993 Porsche 911 RS America, 5-speed manual (MotorWeek test)",
+        "power": {
+          "hp": 247,
+          "note": "3.6-liter flat-6",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "weight": {
+          "kg": 1350,
+          "lb": 2976,
+          "note": "Test weight, 1993 RS America",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "zero60": {
+          "sec": 5.4,
+          "kind": "tested",
+          "note": "MotorWeek test, 1993 RS America",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "top": {
+          "mph": 162,
+          "kind": "claimed",
+          "note": "Porsche's figure, the same as the Carrera 2's",
+          "src": null
+        },
+        "mpg": {
+          "combined": 18,
+          "city": 15,
+          "hwy": 23,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/9660.shtml",
+          "note": "EPA combined, 1993 Carrera 2, manual"
+        }
+      },
+      {
+        "name": "Speedster",
+        "detail": "1994; usually counted as 936, though Porsche's own account gives 930 plus 15 Turbo-Look cars",
+        "specsFor": "1993 Porsche 911 Speedster, 5-speed manual (Car and Driver test)",
+        "power": {
+          "hp": 247,
+          "note": "3.6-liter flat-6",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "weight": {
+          "kg": 1393,
+          "lb": 3070,
+          "note": "Test weight, 1993 Speedster",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "zero60": {
+          "sec": 5.0,
+          "kind": "tested",
+          "note": "Car and Driver test, 1993 Speedster",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "top": {
+          "mph": 162,
+          "kind": "claimed",
+          "note": "Porsche's figure",
+          "src": "https://stuttcars.com/?p=434815"
+        },
+        "mpg": {
+          "combined": 18,
+          "city": 15,
+          "hwy": 23,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/10646.shtml",
+          "note": "EPA combined, 1994 Carrera 2 2-seater, manual"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Porsche 911 Carrera 3.2",
+      "id": null
+    },
+    "successor": {
+      "name": "Porsche 911 (993)",
+      "id": "porsche-911-993"
+    },
+    "quick": "The 911 rebuilt underneath for the 1990s: all-wheel drive, power steering and ABS under a body that still looked like the 1960s original. It also brought the RS America, the light, plain 911 Porsche made for American drivers.",
+    "story": [
+      "From the outside the 964 looked like a facelift. Underneath it was mostly new, with a 3.6-liter engine of 247 hp, coil springs in place of torsion bars, ABS and power steering, and for the first time a 911 with all-wheel drive, the Carrera 4, which came first in 1989, before the rear-drive Carrera 2. Car and Driver timed a manual Carrera 2 at 4.8 seconds to 60 mph. A Tiptronic automatic arrived too, and the Turbo returned with 3.3 liters and then, for 1994, 3.6 liters and 360 hp.",
+      "Purists who had grown up on the older cars found it heavier and softer, and they were right that it was more of a grand tourer. Porsche answered with lighter cars: the European Carrera RS, and for the US the RS America, with no rear seats, cloth door pulls and a whale-tail spoiler, at $53,900, or $125,400 in 2026 dollars, about $11,000 less than a Carrera 2. Only 701 were built, and they are now among the most sought-after 964s, along with the 55 wide-body Carrera RS 3.8s. None of these lightweights was about top speed, which stayed at the Carrera 2's 162 mph; their case was weight, response and feel. Porsche built 63,762 964s, and the generation that followed, the 993, was the last to be cooled by air."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "A 964 with the Turbo's wide body and wing at the Porsche Experience Center Los Angeles, October 18, 2026"
+    },
+    "match": [
+      "Porsche 964"
+    ]
+  },
+  {
+    "id": "porsche-911-993",
+    "name": "Porsche 911 (993)",
+    "aka": [
+      "993",
+      "993 Carrera",
+      "Carrera 4S",
+      "Carrera S",
+      "993 Turbo",
+      "993 Carrera RS",
+      "993 GT2"
+    ],
+    "make": "Porsche",
+    "maker": "Porsche (Zuffenhausen, Stuttgart)",
+    "country": "Germany",
+    "years": "1994–1998",
+    "start": 1994,
+    "end": 1998,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Two-door 2+2 coupe, cabriolet and Targa",
+    "engine": "Air-cooled 3.6-liter flat-6 (Turbo: twin-turbocharged)",
+    "drive": "Rear-wheel drive or all-wheel drive",
+    "gearbox": "6-speed manual or 4-speed Tiptronic automatic",
+    "specsFor": "1995 Porsche 911 Carrera coupe, 6-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 270,
+      "note": "3.6-liter flat-6",
+      "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+    },
+    "weight": {
+      "kg": 1370,
+      "lb": 3020,
+      "note": "Test weight, 1995 Carrera",
+      "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+    },
+    "zero60": {
+      "sec": 4.7,
+      "kind": "tested",
+      "note": "Car and Driver test, 1995 Carrera coupe",
+      "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+    },
+    "top": {
+      "mph": 168,
+      "kind": "claimed",
+      "note": "Porsche's figure, 1995 Carrera",
+      "src": null
+    },
+    "mpg": {
+      "combined": 18,
+      "city": 15,
+      "hwy": 23,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/11626.shtml",
+      "note": "EPA combined, 1995 Carrera, 6-speed manual"
+    },
+    "built": {
+      "count": 68029,
+      "approx": false,
+      "note": "All 993s, from Wikipedia's production table",
+      "src": "https://en.wikipedia.org/wiki/Porsche_911_(993)"
+    },
+    "versions": [
+      {
+        "name": "Carrera",
+        "detail": "1995; 282 hp from 1996"
+      },
+      {
+        "name": "Carrera 4S",
+        "detail": "1996–1997; Turbo body without the wing",
+        "specsFor": "1996 Porsche 911 Carrera 4S, 6-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 282,
+          "note": "3.6-liter flat-6",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "weight": {
+          "kg": 1495,
+          "lb": 3295,
+          "note": "Test weight, 1996 Carrera 4S",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "zero60": {
+          "sec": 4.9,
+          "kind": "tested",
+          "note": "Car and Driver test, 1996 Carrera 4S",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "top": {
+          "na": "No figure on record"
+        },
+        "mpg": {
+          "combined": 18,
+          "city": 15,
+          "hwy": 23,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/12548.shtml",
+          "note": "EPA combined, 1996 Carrera, 6-speed manual"
+        }
+      },
+      {
+        "name": "Carrera S",
+        "detail": "1997–1998; wide body, rear-wheel drive",
+        "specsFor": "1997 Porsche 911 Carrera S, 6-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 282,
+          "note": "3.6-liter flat-6",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "weight": {
+          "kg": 1430,
+          "lb": 3153,
+          "note": "Test weight, 1997 Carrera S",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "zero60": {
+          "sec": 4.9,
+          "kind": "tested",
+          "note": "Car and Driver test, 1997 Carrera S",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "top": {
+          "na": "No figure on record"
+        },
+        "mpg": {
+          "combined": 18,
+          "city": 15,
+          "hwy": 23,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/13293.shtml",
+          "note": "EPA combined, 1997 Carrera, 6-speed manual"
+        }
+      },
+      {
+        "name": "Turbo",
+        "detail": "1996–1998; twin turbochargers, all-wheel drive",
+        "specsFor": "1996 Porsche 911 Turbo, 6-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 400,
+          "note": "3.6-liter twin-turbocharged flat-6",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "weight": {
+          "kg": 1497,
+          "lb": 3300,
+          "note": "Test weight, 1996 Turbo",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "zero60": {
+          "sec": 3.7,
+          "kind": "tested",
+          "note": "Car and Driver test, 1996 Turbo",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "top": {
+          "na": "No figure on record"
+        },
+        "mpg": {
+          "combined": 14,
+          "city": 11,
+          "hwy": 17,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/12549.shtml",
+          "note": "EPA combined, 1996 Turbo"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Porsche 911 (964)",
+      "id": "porsche-911-964"
+    },
+    "successor": {
+      "name": "Porsche 911 (996)",
+      "id": "porsche-911-996"
+    },
+    "quick": "The last air-cooled 911, and for many people the best looking of all of them. It was faster and smoother than the 964, and the twin-turbo, all-wheel-drive Turbo made 400 hp.",
+    "story": [
+      "The 993 kept the 911's outline and smoothed every line of it, with flatter headlights, wider hips and integrated bumpers, and under the rear it gained a new multi-link suspension that took much of the old car's nervousness out of the back end. The 3.6-liter air-cooled engine made 270 hp at first, the gearbox gained a sixth gear, and Car and Driver timed a 1995 Carrera at 4.7 seconds to 60 mph. It cost $59,900, or $132,200 in 2026 dollars.",
+      "The Turbo was the first 911 Turbo with twin turbochargers and all-wheel drive, made 400 hp, and reached 60 mph in 3.7 seconds in Car and Driver's hands. There were wide-body Carrera 4S and Carrera S models, a lightweight Carrera RS for Europe, of which 1,014 were built, and the GT2 for racing. Then the 911 was redesigned around water cooling for the 996, and the 993 became the end of a 34-year line. That is a large part of why clean ones cost so much now: it is the last 911 that sounds and smells the way the first one did. Porsche built 68,029."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "A 993 at the Porsche Experience Center Los Angeles, October 18, 2026"
+    },
+    "match": [
+      "Porsche 993"
+    ]
+  },
+  {
+    "id": "porsche-959",
+    "name": "Porsche 959",
+    "aka": [
+      "959 Komfort",
+      "959 Sport",
+      "Porsche Gruppe B"
+    ],
+    "make": "Porsche",
+    "maker": "Porsche (Zuffenhausen, Stuttgart)",
+    "country": "Germany",
+    "years": "1986–1988",
+    "start": 1986,
+    "end": 1988,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Two-door 2+2 coupe",
+    "engine": "Twin-turbocharged 2.85-liter flat-6 with air-cooled cylinders and water-cooled heads",
+    "drive": "All-wheel drive",
+    "gearbox": "6-speed manual",
+    "specsFor": "1987 Porsche 959 (Car and Driver test)",
+    "power": {
+      "hp": 444,
+      "note": "2.85-liter twin-turbocharged flat-6",
+      "src": "https://www.0-60specs.com/porsche/959-0-60-times"
+    },
+    "weight": {
+      "kg": 1447,
+      "lb": 3190,
+      "note": "Test weight",
+      "src": "https://www.0-60specs.com/porsche/959-0-60-times"
+    },
+    "zero60": {
+      "sec": 3.6,
+      "kind": "tested",
+      "note": "Car and Driver test, 1987 959",
+      "src": "https://www.0-60specs.com/porsche/959-0-60-times"
+    },
+    "top": {
+      "mph": 197,
+      "kind": "claimed",
+      "note": "Porsche's figure",
+      "src": "https://en.wikipedia.org/wiki/Porsche_959"
+    },
+    "mpg": {
+      "na": "Never certified by the EPA; it was not sold new in the US"
+    },
+    "built": {
+      "count": 292,
+      "approx": false,
+      "note": "Customer cars, 1986–1988; 337 counting 37 prototypes and pre-production cars, and 8 more were assembled in 1992–1993",
+      "src": "https://en.wikipedia.org/wiki/Porsche_959"
+    },
+    "predecessor": null,
+    "successor": null,
+    "quick": "Porsche's 1980s technology demonstrator: twin turbos, all-wheel drive, adjustable suspension and 197 mph. Porsche lost money on every one of the 292 it sold.",
+    "story": [
+      "The 959 started as a Group B rally car, and the rules wanted at least 200 road cars. Porsche used the chance to put everything it knew into one 911-shaped car: a twin-turbocharged 2.85-liter flat-6 with water-cooled heads, a computer-controlled all-wheel-drive system that moved torque between the axles, adjustable ride height and magnesium wheels. It sold for DM 431,550, about $225,000, or $666,100 in 2026 dollars, which was still less than half of what each one cost Porsche to build.",
+      "Group B was shut down before the 959 could race in it, so it raced in the desert instead, and rally versions won the 1986 Paris–Dakar. On the road it was the fastest production car in the world when it was new, at 197 mph, and Car and Driver timed one at 3.6 seconds to 60 mph, numbers that still look strong 40 years later. It was never certified for the US, so cars brought in were held by customs for years, and Porsche built 292 for customers, plus prototypes and a few late cars from spare parts. The all-wheel-drive 911 Turbos that followed owe it a great deal."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "A 959 at the Porsche Experience Center Los Angeles, October 18, 2026"
+    },
+    "match": []
+  },
+  {
+    "id": "porsche-944",
+    "name": "Porsche 944",
+    "aka": [
+      "944 Turbo",
+      "951",
+      "944 S",
+      "944 S2",
+      "944 Turbo S"
+    ],
+    "make": "Porsche",
+    "maker": "Porsche (Zuffenhausen, Stuttgart)",
+    "country": "Germany",
+    "years": "1982–1991",
+    "start": 1982,
+    "end": 1991,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Two-door 2+2 hatchback coupe; cabriolet from 1989",
+    "engine": "Inline-4, 2.5 to 3.0 liters (Turbo: 2.5-liter turbocharged)",
+    "drive": "Rear-wheel drive (front engine, rear transaxle)",
+    "gearbox": "5-speed manual or 3-speed automatic",
+    "specsFor": "1983 Porsche 944, 5-speed manual, US market (Car and Driver test)",
+    "power": {
+      "hp": 143,
+      "note": "2.5-liter inline-4",
+      "src": "https://www.0-60specs.com/porsche/944-0-60-times"
+    },
+    "weight": {
+      "kg": 1252,
+      "lb": 2760,
+      "note": "Test weight, 1983 944",
+      "src": "https://www.0-60specs.com/porsche/944-0-60-times"
+    },
+    "zero60": {
+      "sec": 7.5,
+      "kind": "tested",
+      "note": "Car and Driver test, 1983 944",
+      "src": "https://www.0-60specs.com/porsche/944-0-60-times"
+    },
+    "top": {
+      "mph": 130,
+      "kind": "claimed",
+      "note": "Porsche's figure, 1983 944",
+      "src": null
+    },
+    "mpg": {
+      "combined": 20,
+      "city": 18,
+      "hwy": 25,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/29682.shtml",
+      "note": "EPA combined, 1985 944, manual (the EPA site starts with 1984 models)"
+    },
+    "built": {
+      "count": 163192,
+      "approx": false,
+      "note": "All 944s, 1982–1991",
+      "src": "https://en.wikipedia.org/wiki/Porsche_944"
+    },
+    "versions": [
+      {
+        "name": "944",
+        "detail": "2.5-liter; 143 hp"
+      },
+      {
+        "name": "Turbo",
+        "detail": "1986 on",
+        "specsFor": "1986 Porsche 944 Turbo, 5-speed manual (MotorWeek test)",
+        "power": {
+          "hp": 220,
+          "note": "2.5-liter turbocharged inline-4",
+          "src": "https://www.0-60specs.com/porsche/944-0-60-times"
+        },
+        "weight": {
+          "kg": 1370,
+          "lb": 3020,
+          "note": "Test weight, 1986 944 Turbo",
+          "src": "https://www.0-60specs.com/porsche/944-0-60-times"
+        },
+        "zero60": {
+          "sec": 6.3,
+          "kind": "tested",
+          "note": "MotorWeek test, 1986 944 Turbo",
+          "src": "https://www.0-60specs.com/porsche/944-0-60-times"
+        },
+        "top": {
+          "na": "No figure on record"
+        },
+        "mpg": {
+          "combined": 20,
+          "city": 17,
+          "hwy": 24,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/1742.shtml",
+          "note": "EPA combined, 1986 944 Turbo"
+        }
+      },
+      {
+        "name": "Turbo S",
+        "detail": "1988",
+        "specsFor": "1988 Porsche 944 Turbo S, 5-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 247,
+          "note": "2.5-liter turbocharged inline-4",
+          "src": "https://www.0-60specs.com/porsche/944-0-60-times"
+        },
+        "weight": {
+          "kg": 1399,
+          "lb": 3085,
+          "note": "Test weight, 1988 Turbo S",
+          "src": "https://www.0-60specs.com/porsche/944-0-60-times"
+        },
+        "zero60": {
+          "sec": 5.5,
+          "kind": "tested",
+          "note": "Car and Driver test, 1988 944 Turbo S",
+          "src": "https://www.0-60specs.com/porsche/944-0-60-times"
+        },
+        "top": {
+          "na": "No figure on record"
+        },
+        "mpg": {
+          "combined": 20,
+          "city": 17,
+          "hwy": 24,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/4176.shtml",
+          "note": "EPA combined, 1988 944 Turbo"
+        }
+      },
+      {
+        "name": "S2",
+        "detail": "1989–1991; 3.0-liter",
+        "specsFor": "1990 Porsche 944 S2 cabriolet, 5-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 208,
+          "note": "3.0-liter inline-4",
+          "src": "https://www.0-60specs.com/porsche/944-0-60-times"
+        },
+        "weight": {
+          "kg": 1406,
+          "lb": 3100,
+          "note": "Test weight, 1990 S2 cabriolet",
+          "src": "https://www.0-60specs.com/porsche/944-0-60-times"
+        },
+        "zero60": {
+          "sec": 6.2,
+          "kind": "tested",
+          "note": "Car and Driver test, 1990 944 S2 cabriolet",
+          "src": "https://www.0-60specs.com/porsche/944-0-60-times"
+        },
+        "top": {
+          "na": "No figure on record"
+        },
+        "mpg": {
+          "combined": 18,
+          "city": 15,
+          "hwy": 24,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/6437.shtml",
+          "note": "EPA combined, 1990 944 S2, manual"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Porsche 924",
+      "id": null
+    },
+    "successor": {
+      "name": "Porsche 968 Club Sport",
+      "id": "porsche-968-club-sport"
+    },
+    "quick": "The front-engined Porsche that sold best until the Boxster: balanced, practical and quick, with its own Porsche-built engine. Porsche made 163,192.",
+    "story": [
+      "The 944 began as a way to save the 924. Porsche kept the 924's transaxle layout, with the engine up front and the gearbox at the back for an even balance of weight, flared the fenders over wider wheels and fitted its own all-aluminum 2.5-liter 4-cylinder engine, which used 2 balance shafts turning at twice engine speed to take out the shake 4-cylinder engines usually have. In the US it cost $18,980 in 1983, or $64,100 in 2026 dollars, and Car and Driver reached 60 mph in 7.5 seconds.",
+      "It drives like a car that was set up by people who raced. The steering is direct, the balance lets it be placed precisely, and the later cars brought the speed to match: the Turbo of 1986, the 16-valve S, the 3.0-liter S2 and the Turbo S, which Car and Driver timed at 5.5 seconds to 60 mph. Porsche built 163,192, the most of any of its sports cars until the Boxster came along, and many are still affordable, which makes the 944 the way many people get into an older Porsche. It was replaced by the 968."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "A 944 outside the Porsche Experience Center Los Angeles, October 18, 2026"
+    },
+    "match": []
+  },
+  {
+    "id": "porsche-917",
+    "name": "Porsche 917",
+    "aka": [
+      "917 K",
+      "917 LH",
+      "917/10",
+      "917/30",
+      "Kurzheck"
+    ],
+    "make": "Porsche",
+    "maker": "Porsche (Zuffenhausen, Stuttgart)",
+    "country": "Germany",
+    "years": "1969–1973",
+    "start": 1969,
+    "end": 1973,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Closed race coupe; open Spyder for Can-Am",
+    "engine": "Air-cooled flat-12, 4.5 to 5.0 liters (turbocharged in Can-Am form)",
+    "drive": "Rear-wheel drive (mid-engine)",
+    "gearbox": "Manual",
+    "specsFor": "1970–1971 Porsche 917 K, 5.0-liter flat-12",
+    "power": {
+      "hp": 630,
+      "note": "bhp, 5.0-liter flat-12 at its peak; the first 4.5-liter made about 520",
+      "src": "https://en.wikipedia.org/wiki/Porsche_917"
+    },
+    "weight": {
+      "kg": 820,
+      "lb": 1808,
+      "note": "917 K",
+      "src": "https://en.wikipedia.org/wiki/Porsche_917"
+    },
+    "zero60": {
+      "sec": 3.5,
+      "kind": "claimed",
+      "note": "Reported for the 917 K; not an instrumented test",
+      "src": null
+    },
+    "top": {
+      "mph": 220,
+      "kind": "claimed",
+      "note": "The 917 K as raced; a long-tail 917 was timed at about 240 mph at Le Mans",
+      "src": null
+    },
+    "mpg": {
+      "na": "A race car; never rated by the EPA"
+    },
+    "built": {
+      "na": "No single total published: 25 were built in 1969 to qualify it for racing, 12 more 917 Ks followed for 1970–1971, and then the Can-Am cars"
+    },
+    "predecessor": {
+      "name": "Porsche 907",
+      "id": null
+    },
+    "successor": {
+      "name": "Porsche 936",
+      "id": null
+    },
+    "quick": "The car that gave Porsche its first overall win at Le Mans, in 1970, and its second in 1971. A flat-12, a short tail and, in its last Can-Am form, about 1,100 hp.",
+    "story": [
+      "When the rules opened a class for 5-liter sports cars, Porsche built 25 of them at once to qualify, each with an air-cooled flat-12 behind the driver. The first long-tailed 917s were frightening at speed, so in 1969 Porsche and John Wyer's team tested at the Österreichring and came back with a short, upswept tail. That car, the 917 K, made its debut at Daytona in January 1970, and the Gulf-blue cars Wyer ran became the most famous livery in endurance racing.",
+      "In June 1970 Hans Herrmann and Richard Attwood won Le Mans in a red and white 917 K, Porsche's first overall win there, and a 917 with a magnesium frame won again in 1971. By then the 5.0-liter engine made about 630 bhp in a car that weighed about 820 kg (1,808 lb). When the rules changed, the 917 went to the Can-Am in North America, and the turbocharged 917/30 of 1973 made about 1,100 bhp. It is the car Steve McQueen drove in the film Le Mans, and it is still the shape most people picture when they think of a Porsche race car."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "A 917 K in Gulf colors at the Porsche Experience Center Los Angeles, October 18, 2026"
+    },
+    "match": []
+  },
+  {
+    "id": "porsche-935",
+    "name": "Porsche 935",
+    "aka": [
+      "935/76",
+      "935/77",
+      "935/78",
+      "Moby Dick",
+      "935 K3",
+      "Kremer 935"
+    ],
+    "make": "Porsche",
+    "maker": "Porsche (Zuffenhausen, Stuttgart)",
+    "country": "Germany",
+    "years": "1976–1981",
+    "start": 1976,
+    "end": 1981,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Two-door race coupe (Group 5)",
+    "engine": "Turbocharged flat-6, 2.8 to 3.3 liters",
+    "drive": "Rear-wheel drive (rear engine)",
+    "gearbox": "4-speed manual",
+    "specsFor": "Porsche 935, Group 5 rules",
+    "power": {
+      "na": "Varied by year and team"
+    },
+    "weight": {
+      "kg": 970,
+      "lb": 2138,
+      "note": "Minimum weight under the rules",
+      "src": "https://en.wikipedia.org/wiki/Porsche_935"
+    },
+    "zero60": {
+      "sec": 2.6,
+      "kind": "claimed",
+      "note": "Reported for the 1978 935/78 Moby Dick; not an instrumented test",
+      "src": null
+    },
+    "top": {
+      "mph": 227,
+      "kind": "claimed",
+      "note": "The 935/78 Moby Dick at Le Mans; the 1976 935 was reported at 211 mph",
+      "src": null
+    },
+    "mpg": {
+      "na": "A race car; never rated by the EPA"
+    },
+    "built": {
+      "na": "No total published for factory and customer cars; Kremer Racing built 13 complete K3s"
+    },
+    "predecessor": {
+      "name": "Porsche 911 Carrera RSR (1973–1974)",
+      "id": "porsche-911-carrera-rsr"
+    },
+    "successor": {
+      "name": "Porsche 961",
+      "id": null
+    },
+    "alongside": [
+      {
+        "name": "Porsche 911 Turbo (930)",
+        "id": "porsche-911-930"
+      }
+    ],
+    "quick": "The racing 911 Turbo that won Le Mans outright in 1979. Of the 370 races 935s entered, they won 123.",
+    "story": [
+      "The 935 was the 930 Turbo rebuilt for Group 5, a class that let teams change almost everything but the outline, and Porsche did, with a flat nose, giant fenders, a big wing and a turbocharged flat-6 that grew over the years. The factory raced it from 1976, sold it to customers from 1977, and then teams such as Kremer Racing of Cologne built their own versions. Kremer's 935 K3 won the 1979 Le Mans 24 Hours outright, driven mainly by Klaus Ludwig, in heavy rain, ahead of every prototype. Second was a 935 driven by Rolf Stommelen with the team owner Dick Barbour and the actor Paul Newman.",
+      "In America it became the car to have. In 1980 Dick Barbour Racing ran a K3 with backing from Apple Computer, rainbow stripes and all, driven by Bob Garretson and Bobby Rahal; it finished seventh at Sebring and retired at Le Mans with a failed piston. The same car, chassis 009 0030, won the 1981 Daytona 24 Hours for Garretson, Rahal and Brian Redman by 13 laps. With customers in nearly every race, 935s won 123 of the 370 they entered. Later 911 race cars, and the 2018 Porsche 935 tribute, all go back to it."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "A 935 K3 in the Apple Computer colors Dick Barbour Racing ran in 1980, at the Porsche Experience Center Los Angeles, October 18, 2026"
+    },
+    "match": []
+  },
+  {
+    "id": "porsche-962",
+    "name": "Porsche 962",
+    "aka": [
+      "962C",
+      "962 IMSA GTP"
+    ],
+    "make": "Porsche",
+    "maker": "Porsche (Zuffenhausen, Stuttgart)",
+    "country": "Germany",
+    "years": "1984–1991",
+    "start": 1984,
+    "end": 1991,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Closed race prototype (IMSA GTP and Group C)",
+    "engine": "Turbocharged flat-6, up to 3.2 liters",
+    "drive": "Rear-wheel drive (mid-engine)",
+    "gearbox": "Manual",
+    "specsFor": "Porsche 962 and 962C",
+    "power": {
+      "na": "Varied by engine and series"
+    },
+    "weight": {
+      "na": "Varied by series"
+    },
+    "zero60": {
+      "sec": 2.7,
+      "kind": "claimed",
+      "note": "Reported for the 962C; not an instrumented test",
+      "src": null
+    },
+    "top": {
+      "mph": 224,
+      "kind": "claimed",
+      "note": "The 962C as raced",
+      "src": null
+    },
+    "mpg": {
+      "na": "A race car; never rated by the EPA"
+    },
+    "built": {
+      "count": 91,
+      "approx": false,
+      "note": "Built by Porsche, 1984–1991: 16 for the factory team and 75 for customers; private teams built more chassis of their own",
+      "src": "https://en.wikipedia.org/wiki/Porsche_962"
+    },
+    "predecessor": {
+      "name": "Porsche 956",
+      "id": null
+    },
+    "successor": {
+      "name": "Porsche WSC-95",
+      "id": null
+    },
+    "quick": "The prototype that won Le Mans in 1986 and 1987 and kept customer teams winning for a decade. Porsche built 91.",
+    "story": [
+      "The 962 was the 956 stretched to meet American rules. IMSA did not allow the driver's feet ahead of the front axle, so Porsche lengthened the wheelbase, moved the front wheels forward and built in a steel roll cage, and for IMSA used a single-turbo air-cooled flat-6 related to the 935's. The Group C version for Europe, the 962C, ran twin turbos, in sizes up to 3.2 liters. Porsche built 91, 16 for its own team and 75 for customers.",
+      "It became one of the most successful race cars ever. A 962C won Le Mans in 1986 and again in 1987, Porsche's seventh win there in a row, and a road-legal derivative, the Dauer 962 Le Mans, won once more in 1994. Customer teams such as Joest, Kremer and Brun ran them for years and built chassis of their own when parts ran short, which is why 962s kept winning long after the factory had moved on."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "A 962 in Shell colors, number 17, at the Porsche Experience Center Los Angeles, October 18, 2026"
+    },
+    "match": []
+  },
+  {
+    "id": "porsche-carrera-gt",
+    "name": "Porsche Carrera GT",
+    "aka": [
+      "CGT",
+      "980"
+    ],
+    "make": "Porsche",
+    "maker": "Porsche (Leipzig)",
+    "country": "Germany",
+    "years": "2003–2006",
+    "start": 2003,
+    "end": 2006,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Two-door roadster with a removable roof",
+    "engine": "5.7-liter V10",
+    "drive": "Rear-wheel drive (mid-engine)",
+    "gearbox": "6-speed manual",
+    "specsFor": "2004 Porsche Carrera GT, US market (Car and Driver test)",
+    "power": {
+      "hp": 605,
+      "note": "5.7-liter V10",
+      "src": "https://www.0-60specs.com/porsche/carrera-gt-0-60-times"
+    },
+    "weight": {
+      "kg": 1380,
+      "lb": 3043,
+      "note": "Test weight",
+      "src": "https://www.0-60specs.com/porsche/carrera-gt-0-60-times"
+    },
+    "zero60": {
+      "sec": 3.5,
+      "kind": "tested",
+      "note": "Car and Driver test, 2004 Carrera GT",
+      "src": "https://www.0-60specs.com/porsche/carrera-gt-0-60-times"
+    },
+    "top": {
+      "mph": 205,
+      "kind": "claimed",
+      "note": "Porsche's figure, 330 km/h",
+      "src": "https://en.wikipedia.org/wiki/Porsche_Carrera_GT"
+    },
+    "mpg": {
+      "combined": 11,
+      "city": 9,
+      "hwy": 15,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/20506.shtml",
+      "note": "EPA combined, 2005 Carrera GT"
+    },
+    "built": {
+      "count": 1270,
+      "approx": false,
+      "note": "2003–2006; 644 sold in the US",
+      "src": "https://en.wikipedia.org/wiki/Porsche_Carrera_GT"
+    },
+    "predecessor": null,
+    "successor": {
+      "name": "Porsche 918 Spyder",
+      "id": null
+    },
+    "quick": "A V10 from a canceled Le Mans program, a carbon-fiber body and a manual gearbox, built in Leipzig. It cost $440,000 new and now sells for well over $1 million.",
+    "story": [
+      "The Carrera GT began as a race car Porsche never raced. Its engine came from a V10 Porsche had built for the Footwork Formula One team in 1992, redesigned for a Le Mans prototype that was canceled in 1999, and the company turned the project into a road car with a carbon-fiber chassis, built in small numbers at its new plant in Leipzig. It went on sale in the US on January 31, 2004, at $440,000, or $783,400 in 2026 dollars, and Car and Driver timed it at 3.5 seconds to 60 mph on the way to a 205-mph top speed.",
+      "It asked a lot of its drivers. The 605-hp V10 revs hard and sounds like a race car, the clutch is light and unforgiving, and there is no automatic and very little electronic help. Porsche planned 1,500 and stopped at 1,270, when new US airbag rules were coming. For years after that its value barely moved, and then it climbed past $1 million, and it is now often called the last great analog supercar. Its successor, the 918 Spyder, was a hybrid."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "A Carrera GT at the Porsche Experience Center Los Angeles, October 18, 2026"
+    },
+    "match": []
+  },
+  {
+    "id": "porsche-911-r-991",
+    "name": "Porsche 911 R (991)",
+    "aka": [
+      "911 R",
+      "991 R"
+    ],
+    "make": "Porsche",
+    "maker": "Porsche (Zuffenhausen, Stuttgart)",
+    "country": "Germany",
+    "years": "2016",
+    "start": 2016,
+    "end": 2016,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Two-door coupe",
+    "engine": "4.0-liter flat-6",
+    "drive": "Rear-wheel drive (rear engine)",
+    "gearbox": "6-speed manual",
+    "specsFor": "2016 Porsche 911 R, US market (Car and Driver test)",
+    "power": {
+      "hp": 500,
+      "note": "4.0-liter flat-6 from the GT3 RS",
+      "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+    },
+    "weight": {
+      "kg": 1370,
+      "lb": 3020,
+      "note": "Test weight",
+      "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+    },
+    "zero60": {
+      "sec": 3.4,
+      "kind": "tested",
+      "note": "Car and Driver test, 2016 911 R",
+      "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+    },
+    "top": {
+      "mph": 200,
+      "kind": "claimed",
+      "note": "Porsche's figure, 323 km/h",
+      "src": "https://en.wikipedia.org/wiki/Porsche_911_(991)"
+    },
+    "mpg": {
+      "combined": 16,
+      "city": 14,
+      "hwy": 20,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/37740.shtml",
+      "note": "EPA combined, 2016 911 R"
+    },
+    "built": {
+      "count": 991,
+      "approx": false,
+      "note": "Limited to 991 cars worldwide",
+      "src": "https://www.carsales.com.au/editorial/details/porsche-911-r-prices-rocket-103202"
+    },
+    "predecessor": {
+      "name": "Porsche 911 R (1967)",
+      "id": null
+    },
+    "successor": null,
+    "quick": "A GT3 RS with no wing, no roll cage and a 6-speed manual: the 911 Porsche built for people who wanted to change gear themselves. It cost $184,900, and 991 were made.",
+    "story": [
+      "Porsche had just made the GT3 automatic only, and some of its best customers were unhappy. The 911 R was the answer, shown in Geneva in March 2016: the 500-hp 4.0-liter engine from the GT3 RS, a 6-speed manual and nothing else, with no fixed wing, no roll cage and about 50 kg (110 lb) less than the RS. It was named after the light 911 R race car of 1967, came with stripes and houndstooth seats that recall the first 911s, and cost $184,900, or $259,100 in 2026 dollars.",
+      "Car and Driver timed it at 3.4 seconds to 60 mph, and Porsche quoted a top speed of 200 mph, higher than the RS's because it has less drag. It sold out at once, and one owner soon listed his for $1.25 million. Prices have fallen back since, but the point had been made. Porsche added a manual to the GT3 again and built cars like the GT3 Touring and the S/T for the same kind of buyer."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "A 911 R at the Porsche Experience Center Los Angeles, October 18, 2026"
+    },
+    "match": []
+  },
+  {
+    "id": "porsche-911-gt3-992",
+    "name": "Porsche 911 GT3 (992)",
+    "aka": [
+      "992 GT3",
+      "GT3 Touring",
+      "992.2 GT3"
+    ],
+    "make": "Porsche",
+    "maker": "Porsche (Zuffenhausen, Stuttgart)",
+    "country": "Germany",
+    "years": "2021–present",
+    "start": 2021,
+    "end": null,
+    "shop": null,
+    "body": "Two-door coupe",
+    "engine": "4.0-liter flat-6",
+    "drive": "Rear-wheel drive (rear engine)",
+    "gearbox": "7-speed PDK dual-clutch automatic or 6-speed manual",
+    "specsFor": "2022 Porsche 911 GT3, 7-speed PDK, US market (Car and Driver test)",
+    "power": {
+      "hp": 502,
+      "note": "4.0-liter flat-6",
+      "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+    },
+    "weight": {
+      "kg": 1451,
+      "lb": 3199,
+      "note": "Test weight, 2022 GT3",
+      "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+    },
+    "zero60": {
+      "sec": 2.7,
+      "kind": "tested",
+      "note": "Car and Driver test, 2022 GT3 PDK",
+      "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+    },
+    "top": {
+      "mph": 197,
+      "kind": "claimed",
+      "note": "Porsche's figure, PDK; the manual reaches 198",
+      "src": null
+    },
+    "mpg": {
+      "combined": 16,
+      "city": 15,
+      "hwy": 18,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/44501.shtml",
+      "note": "EPA combined, 2022 GT3, PDK"
+    },
+    "built": {
+      "na": "Still in production; Porsche publishes no total"
+    },
+    "versions": [
+      {
+        "name": "GT3, PDK",
+        "detail": "With the swan-neck wing"
+      },
+      {
+        "name": "GT3 Touring",
+        "detail": "No fixed wing",
+        "specsFor": "2022 Porsche 911 GT3 Touring, 7-speed PDK, US market (Car and Driver test)",
+        "power": {
+          "hp": 502,
+          "note": "4.0-liter flat-6",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "weight": {
+          "kg": 1471,
+          "lb": 3243,
+          "note": "Test weight, 2022 GT3 Touring",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "zero60": {
+          "sec": 2.8,
+          "kind": "tested",
+          "note": "Car and Driver test, 2022 GT3 Touring PDK",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "top": {
+          "na": "No figure on record"
+        },
+        "mpg": {
+          "combined": 16,
+          "city": 15,
+          "hwy": 18,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/44612.shtml",
+          "note": "EPA combined, 2022 GT3 Touring, PDK"
+        }
+      },
+      {
+        "name": "GT3, 6-speed manual",
+        "detail": "",
+        "specsFor": "2022 Porsche 911 GT3, 6-speed manual, US market (Car and Driver test)",
+        "power": {
+          "hp": 502,
+          "note": "4.0-liter flat-6",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "weight": {
+          "kg": 1451,
+          "lb": 3199,
+          "note": "Curb weight, 2022 GT3",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "zero60": {
+          "sec": 3.3,
+          "kind": "tested",
+          "note": "Car and Driver test, 2022 GT3 manual",
+          "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+        },
+        "top": {
+          "mph": 198,
+          "kind": "claimed",
+          "note": "Porsche's figure, manual",
+          "src": null
+        },
+        "mpg": {
+          "combined": 16,
+          "city": 14,
+          "hwy": 18,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/44502.shtml",
+          "note": "EPA combined, 2022 GT3, manual"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Porsche 911 GT3 (991)",
+      "id": null
+    },
+    "successor": null,
+    "alongside": [
+      {
+        "name": "Porsche 911 GT3 RS (992)",
+        "id": "porsche-911-gt3-rs-992"
+      }
+    ],
+    "quick": "The 992-generation GT3: a 502-hp, 9,000-rpm flat-6, front suspension from Porsche's race cars and a choice of wing or no wing. It started at $161,100.",
+    "story": [
+      "Every GT3 is built around its engine, and this one carries a 4.0-liter flat-6 closely related to the engines in Porsche's GT3 race cars, making 502 hp and revving to 9,000 rpm. The 992 version added a double-wishbone front suspension, a swan-neck rear wing and the choice of a 7-speed PDK or a 6-speed manual, and Car and Driver timed a PDK car at 2.7 seconds to 60 mph. For 2022 it started at $161,100, or $185,100 in 2026 dollars, about $17,500 more than the car it replaced.",
+      "The Touring version, like the green car in the photo, drops the fixed wing for a pop-up spoiler and looks almost like a regular 911, which is exactly why many buyers want it. Either way, the GT3 is the 911 for people who drive on tracks and want to drive there too: hard, loud and precise, but still civil enough for a road trip. It sits below the GT3 RS in the family."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "A 992 GT3 with the Touring package, without the fixed wing, at the Porsche Experience Center Los Angeles, October 18, 2026"
+    },
+    "match": [
+      "Porsche 911 GT3"
+    ]
+  },
+  {
+    "id": "porsche-911-gt3-rs-992",
+    "name": "Porsche 911 GT3 RS (992)",
+    "aka": [
+      "992 GT3 RS",
+      "GT3 RS"
+    ],
+    "make": "Porsche",
+    "maker": "Porsche (Zuffenhausen, Stuttgart)",
+    "country": "Germany",
+    "years": "2023–present",
+    "start": 2023,
+    "end": null,
+    "shop": null,
+    "body": "Two-door coupe",
+    "engine": "4.0-liter flat-6",
+    "drive": "Rear-wheel drive (rear engine)",
+    "gearbox": "7-speed PDK dual-clutch automatic",
+    "specsFor": "2023 Porsche 911 GT3 RS, US market (Car and Driver test)",
+    "power": {
+      "hp": 518,
+      "note": "4.0-liter flat-6",
+      "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+    },
+    "weight": {
+      "kg": 1482,
+      "lb": 3268,
+      "note": "Test weight",
+      "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+    },
+    "zero60": {
+      "sec": 2.7,
+      "kind": "tested",
+      "note": "Car and Driver test, 2023 GT3 RS",
+      "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+    },
+    "top": {
+      "mph": 184,
+      "kind": "claimed",
+      "note": "Porsche's figure",
+      "src": "https://www.hagerty.com/media/?p=244894"
+    },
+    "mpg": {
+      "combined": 16,
+      "city": 14,
+      "hwy": 18,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/46457.shtml",
+      "note": "EPA combined, 2023 GT3 RS"
+    },
+    "built": {
+      "na": "Still in production; Porsche publishes no total"
+    },
+    "predecessor": {
+      "name": "Porsche 911 GT3 RS (991)",
+      "id": null
+    },
+    "successor": null,
+    "alongside": [
+      {
+        "name": "Porsche 911 GT3 (992)",
+        "id": "porsche-911-gt3-992"
+      }
+    ],
+    "quick": "The most extreme road-legal 911 Porsche had made, with a wing taller than its roof, a drag-reduction system like a Formula One car's and a 6:49 lap of the Nürburgring.",
+    "story": [
+      "Where the GT3 is built around its engine, the GT3 RS is built around the air. Porsche replaced the 3 radiators with 1, in the nose, so the space at the sides of the front could hold active flaps, and fitted a rear wing so large it rises above the roof. At speed the car makes far more downforce than any 911 before it, and a button on the wheel flattens the wing and front flaps to cut drag on straights, a first for a production Porsche. The 4.0-liter flat-6 makes 518 hp, 16 more than the GT3's.",
+      "It is a road car the way a race car with license plates is a road car. Car and Driver timed it at 2.7 seconds to 60 mph, Porsche quoted 184 mph flat out, and it lapped the Nürburgring Nordschleife in 6:49.328, 10.6 seconds quicker than the GT3. It started at $223,800, or $247,000 in 2026 dollars, and the Weissach package added more carbon fiber and less weight. The purple car in the photo shows the vented carbon-fiber hood the central radiator breathes through."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "A 992 GT3 RS at the Porsche Experience Center Los Angeles, October 18, 2026"
+    },
+    "match": [
+      "Porsche 911 GT3 RS"
+    ]
+  },
+  {
+    "id": "porsche-911-dakar",
+    "name": "Porsche 911 Dakar",
+    "aka": [
+      "992 Dakar",
+      "911 Dakar Rallye Design"
+    ],
+    "make": "Porsche",
+    "maker": "Porsche (Zuffenhausen, Stuttgart)",
+    "country": "Germany",
+    "years": "2023–2024",
+    "start": 2023,
+    "end": 2024,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Two-door coupe (2 seats)",
+    "engine": "Twin-turbocharged 3.0-liter flat-6",
+    "drive": "All-wheel drive",
+    "gearbox": "8-speed PDK dual-clutch automatic",
+    "specsFor": "2023 Porsche 911 Dakar, US market (Car and Driver test)",
+    "power": {
+      "hp": 473,
+      "note": "3.0-liter twin-turbocharged flat-6",
+      "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+    },
+    "weight": {
+      "kg": 1611,
+      "lb": 3552,
+      "note": "Test weight",
+      "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+    },
+    "zero60": {
+      "sec": 2.9,
+      "kind": "tested",
+      "note": "Car and Driver test, 2023 911 Dakar",
+      "src": "https://www.0-60specs.com/porsche/911-0-60-times"
+    },
+    "top": {
+      "mph": 150,
+      "kind": "claimed",
+      "note": "Limited, for the all-terrain tires",
+      "src": "https://www.gearpatrol.com/?p=9236"
+    },
+    "mpg": {
+      "combined": 19,
+      "city": 16,
+      "hwy": 24,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/47509.shtml",
+      "note": "EPA combined, 2023 911 Dakar"
+    },
+    "built": {
+      "count": 2500,
+      "approx": false,
+      "note": "Limited to 2,500 cars worldwide",
+      "src": "https://newsroom.porsche.jp/dam/jcr:a4760d5f-033b-4fac-8a2e-20aa9444c577/107_Porsche_911_Dakar_Taking_inspiration_from_the_rally_stages.pdf"
+    },
+    "predecessor": null,
+    "successor": null,
+    "quick": "A 911 raised 50 mm and fitted with all-terrain tires, built to honor the 911 that won the 1984 Paris–Dakar. Porsche made 2,500.",
+    "story": [
+      "Porsche showed the Dakar at the Los Angeles Auto Show in November 2022 as a tribute to the 953, the all-wheel-drive 911 that won the Paris–Dakar Rally in 1984. It sits 50 mm (2.0 in) higher than a Carrera with sport suspension and can lift another 30 mm, rides on all-terrain tires, and uses a 473-hp twin-turbo flat-6 and an 8-speed PDK. The rear seats are gone.",
+      "It works both ways. Car and Driver timed it at 2.9 seconds to 60 mph, and it is just as happy on gravel and sand, which is what it was built for. The top speed is limited to 150 mph, for the tires. It started at $222,000, or $245,000 in 2026 dollars, and the optional Rallye Design Package, on the blue and white car in the photo, recalls the colors of the 1984 winner. Porsche built 2,500."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "A 911 Dakar with the Rallye Design Package at the Porsche Experience Center Los Angeles, October 18, 2026"
+    },
+    "match": [
+      "Porsche 911 Dakar"
+    ]
+  },
+  {
+    "id": "porsche-718-spyder-rs",
+    "name": "Porsche 718 Spyder RS",
+    "aka": [
+      "Boxster Spyder RS",
+      "982 Spyder RS"
+    ],
+    "make": "Porsche",
+    "maker": "Porsche (Zuffenhausen, Stuttgart)",
+    "country": "Germany",
+    "years": "2024–2025",
+    "start": 2024,
+    "end": 2025,
+    "shop": null,
+    "body": "Two-door roadster",
+    "engine": "4.0-liter flat-6",
+    "drive": "Rear-wheel drive (mid-engine)",
+    "gearbox": "7-speed PDK dual-clutch automatic",
+    "specsFor": "2024 Porsche 718 Spyder RS, US market (Car and Driver test)",
+    "power": {
+      "hp": 493,
+      "note": "4.0-liter flat-6, shared with the Cayman GT4 RS",
+      "src": "https://www.0-60specs.com/porsche/718-boxster-0-60-times"
+    },
+    "weight": {
+      "kg": 1463,
+      "lb": 3225,
+      "note": "Test weight",
+      "src": "https://www.0-60specs.com/porsche/718-boxster-0-60-times"
+    },
+    "zero60": {
+      "sec": 2.8,
+      "kind": "tested",
+      "note": "Car and Driver test, 2024 718 Spyder RS",
+      "src": "https://www.0-60specs.com/porsche/718-boxster-0-60-times"
+    },
+    "top": {
+      "mph": 191,
+      "kind": "claimed",
+      "note": "Porsche's figure",
+      "src": "https://newsroom.porsche.com/dam/jcr:b127e046-842d-448c-a770-0b3cc9b9f4df/26_2024_Porsche_718_Spyder_RS.pdf"
+    },
+    "mpg": {
+      "combined": 16,
+      "city": 14,
+      "hwy": 19,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/47759.shtml",
+      "note": "EPA combined, 2024 718 Spyder RS"
+    },
+    "built": {
+      "na": "Porsche publishes no total"
+    },
+    "predecessor": {
+      "name": "Porsche 718 Spyder",
+      "id": null
+    },
+    "successor": null,
+    "quick": "The most powerful Boxster Porsche built: the Cayman GT4 RS's 9,000-rpm flat-6 in an open car, 30 years after the Boxster concept.",
+    "story": [
+      "Porsche launched the Spyder RS 30 years after it showed the first Boxster concept, and gave it the drivetrain of the 718 Cayman GT4 RS: a 4.0-liter flat-6 that revs to 9,000 rpm and makes 493 hp. It comes only with the 7-speed PDK, and it weighs 27 kg (59 lb) less than a 718 Spyder with that gearbox.",
+      "It is a sound you hear more than a number you read, but the numbers are good too: Car and Driver timed it at 2.8 seconds to 60 mph. It cost $160,700, or $172,300 in 2026 dollars, Porsche built it for the 2024 and 2025 model years only, and it stands at the end of the gasoline Boxster line."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "A 718 Spyder RS at the Porsche Experience Center Los Angeles, October 18, 2026"
+    },
+    "match": [
+      "Porsche 718 Spyder RS"
+    ]
+  },
+  {
+    "id": "porsche-cayenne-s-transsyberia",
+    "name": "Porsche Cayenne S Transsyberia",
+    "aka": [
+      "Cayenne Transsyberia",
+      "Transsyberia"
+    ],
+    "make": "Porsche",
+    "maker": "Porsche (Leipzig)",
+    "country": "Germany",
+    "years": "2007–2010",
+    "start": 2007,
+    "end": 2010,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Four-door SUV",
+    "engine": "4.8-liter V8 (road car)",
+    "drive": "All-wheel drive",
+    "gearbox": "6-speed Tiptronic automatic (road car)",
+    "specsFor": "2009–2010 Porsche Cayenne S Transsyberia road car",
+    "power": {
+      "hp": 405,
+      "note": "4.8-liter V8 from the Cayenne GTS",
+      "src": "https://www.stuttcars.com/porsche-cayenne-s-transsyberia-2009-2011/"
+    },
+    "weight": {
+      "na": "No figure on record"
+    },
+    "zero60": {
+      "sec": 6.1,
+      "kind": "claimed",
+      "note": "Porsche's 0-100 km/h (62 mph) figure for the road car",
+      "src": null
+    },
+    "top": {
+      "mph": 157,
+      "kind": "claimed",
+      "note": "Porsche's figure for the road car",
+      "src": null
+    },
+    "mpg": {
+      "na": "Not listed separately by the EPA"
+    },
+    "built": {
+      "count": 285,
+      "approx": false,
+      "note": "Road cars; 26 rally cars were built for private teams before them",
+      "src": "https://newsroom.porsche.com/en_US/2022/products/porsche-cayenne-anniversary-20-years-cayenne-s-transsyberia-off-road-athlete-29324.html"
+    },
+    "predecessor": null,
+    "successor": null,
+    "quick": "The rally Cayenne that crossed Russia and Mongolia and won, and the road car Porsche built to celebrate it. Porsche made 285 road cars and 26 for racing.",
+    "story": [
+      "The Transsyberia rally ran from Moscow across Russia to Ulaanbaatar in Mongolia. After 2 modified Cayennes finished first and second there in 2006, Porsche built 26 Cayenne S Transsyberias for private teams, and the Porsche fleet went on to take 7 of the top 10 places. The Veltins car in the photo shows what they were: a Cayenne with a winch on the nose, lights on the roof and orange wheels wrapped in all-terrain tires.",
+      "In 2009 Porsche celebrated with a road car of the same name, which had the 405-hp 4.8-liter V8 from the Cayenne GTS and the look of the rally cars. It built 285 of them. It is a reminder that Porsche's SUV started out tougher than most people assume."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "A Cayenne S Transsyberia rally car in Veltins colors, number 10, at the Porsche Experience Center Los Angeles, October 18, 2026"
+    },
+    "match": []
+  },
+  {
+    "id": "renault-5-turbo",
+    "name": "Renault 5 Turbo",
+    "aka": [
+      "R5 Turbo",
+      "5 Turbo",
+      "Turbo 1",
+      "Turbo 2"
+    ],
+    "make": "Renault",
+    "maker": "Renault (built by Alpine in Dieppe)",
+    "country": "France",
+    "years": "1980–1986",
+    "start": 1980,
+    "end": 1986,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Three-door hatchback, 2 seats",
+    "engine": "Turbocharged 1.4-liter inline-4 behind the seats",
+    "drive": "Rear-wheel drive (mid-engine)",
+    "gearbox": "5-speed manual",
+    "specsFor": "Renault 5 Turbo 2, European market (Renault's figures)",
+    "power": {
+      "hp": 158,
+      "note": "160 PS at 6,000 rpm",
+      "src": "https://en.wikipedia.org/wiki/Renault_5_Turbo"
+    },
+    "weight": {
+      "kg": 970,
+      "lb": 2138,
+      "note": "Wikipedia's figure",
+      "src": "https://en.wikipedia.org/wiki/Renault_5_Turbo"
+    },
+    "zero60": {
+      "sec": 6.9,
+      "kind": "claimed",
+      "note": "Renault's 0-100 km/h (62 mph) claim, Turbo 2",
+      "src": "https://en.wikipedia.org/wiki/Renault_5_Turbo"
+    },
+    "top": {
+      "mph": 124,
+      "kind": "claimed",
+      "note": "Renault's figure, 200 km/h, Turbo 2",
+      "src": "https://en.wikipedia.org/wiki/Renault_5_Turbo"
+    },
+    "mpg": {
+      "na": "Never sold new in the US"
+    },
+    "built": {
+      "count": 4987,
+      "approx": false,
+      "note": "1,820 Turbo 1s and 3,167 Turbo 2s",
+      "src": "https://en.wikipedia.org/wiki/Renault_5_Turbo"
+    },
+    "predecessor": null,
+    "successor": {
+      "name": "Renault Clio V6",
+      "id": null
+    },
+    "quick": "A Renault 5 with its engine moved to where the back seats were, its rear fenders pumped out like a cartoon, built to win rallies. It won Monte Carlo on its first try.",
+    "story": [
+      "Lancia was winning rallies with the mid-engined Stratos, and Renault's answer was to turn its small family hatchback inside out. The 5 Turbo kept the 5's shape and windows but put a turbocharged 1.4-liter 4-cylinder engine behind the front seats, driving the rear wheels, and covered the back with enormous fenders and air intakes drawn by Marc Deschamps at Bertone, with an interior by Marcello Gandini. Alpine built it in Dieppe, and the first cars made 160 PS (158 hp) in a car of about 970 kg (2,138 lb).",
+      "Jean Ragnotti won the 1981 Monte Carlo Rally with one on its first World Rally Championship start, and he won the Tour de Corse with it in 1982. Renault needed only enough road cars to qualify it for racing, but people wanted them, and 4,987 were built: 1,820 of the original Turbo 1 and 3,167 of the cheaper Turbo 2, which Renault said reached 62 mph in 6.9 seconds. The rally Maxi Turbo grew to about 350 PS. It never came to the US new, which makes the blue one at a Porsche event in California, an owner's import, a rare sight."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "A Renault 5 Turbo, an owner's car, at the Porsche Experience Center Los Angeles, October 18, 2026"
+    },
+    "match": []
   }
 ];

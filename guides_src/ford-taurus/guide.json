@@ -1,0 +1,331 @@
+{
+ "id": "ford-taurus",
+ "make": "Ford",
+ "model": "Taurus",
+ "years": "1986–2019",
+ "byline": "Bennett Hale",
+ "published": "2026-11-19",
+ "updated": "2026-11-19",
+ "cars": [
+  "ford-taurus-1st-gen",
+  "ford-taurus-2nd-gen",
+  "ford-taurus-3rd-gen",
+  "ford-taurus-4th-gen",
+  "ford-taurus-5th-gen",
+  "ford-taurus-6th-gen"
+ ],
+ "shop": {
+  "cargurus": "d355"
+ },
+ "chapters": [
+  "1986-1995",
+  "sho",
+  "1996-2007",
+  "2008-2019"
+ ],
+ "series": {
+  "t86": {
+   "name": "1986 LX wagon, Car and Driver",
+   "color": "#9aa5b1"
+  },
+  "t89": {
+   "name": "1989 SHO, Car and Driver",
+   "color": "#e05c2a"
+  },
+  "t08": {
+   "name": "2008 Limited, tested",
+   "color": "#2E6E96"
+  },
+  "t13": {
+   "name": "2013 SHO, Car and Driver",
+   "color": "#e05c2a"
+  },
+  "m86": {
+   "name": "1986, 3.0 Vulcan",
+   "color": "#9aa5b1"
+  },
+  "m93": {
+   "name": "1993, 3.0",
+   "color": "#9aa5b1"
+  },
+  "m00": {
+   "name": "2000, Duratec",
+   "color": "#2E6E96"
+  },
+  "m08": {
+   "name": "2008, 3.5",
+   "color": "#2E6E96"
+  },
+  "m13": {
+   "name": "2013, 2.0 EcoBoost",
+   "color": "#e05c2a"
+  },
+  "s92": {
+   "name": "1992, best-seller",
+   "color": "#2E6E96"
+  },
+  "s00": {
+   "name": "2000, the last great year",
+   "color": "#2E6E96"
+  },
+  "s05": {
+   "name": "2005",
+   "color": "#9aa5b1"
+  },
+  "s13": {
+   "name": "2013",
+   "color": "#9aa5b1"
+  },
+  "s19": {
+   "name": "2019, the end",
+   "color": "#e05c2a"
+  },
+  "p96": {
+   "name": "1996 GL",
+   "color": "#2E6E96"
+  },
+  "p96s": {
+   "name": "1996 SHO",
+   "color": "#e05c2a"
+  },
+  "p10": {
+   "name": "2010 SE",
+   "color": "#2E6E96"
+  },
+  "p10s": {
+   "name": "2010 SHO",
+   "color": "#e05c2a"
+  },
+  "p19": {
+   "name": "2019, final sticker",
+   "color": "#9aa5b1"
+  }
+ },
+ "charts": {
+  "accel": {
+   "n": 1,
+   "title": "0–60 mph, as tested, 1986 to 2013",
+   "sub": "Seconds; shorter is quicker. Every bar is a verified instrumented test.",
+   "source": "Car and Driver and verified instrumented tests",
+   "bars": [
+    [
+     "t86",
+     10.7,
+     "10.7 sec"
+    ],
+    [
+     "t89",
+     6.6,
+     "6.6 sec"
+    ],
+    [
+     "t08",
+     6.8,
+     "6.8 sec"
+    ],
+    [
+     "t13",
+     5.2,
+     "5.2 sec"
+    ]
+   ]
+  },
+  "mpg": {
+   "n": 2,
+   "title": "EPA combined fuel economy, by era",
+   "sub": "Miles per gallon, volume engines.",
+   "source": "US EPA, fueleconomy.gov",
+   "bars": [
+    [
+     "m86",
+     20,
+     "20 mpg"
+    ],
+    [
+     "m93",
+     21,
+     "21 mpg"
+    ],
+    [
+     "m00",
+     20,
+     "20 mpg"
+    ],
+    [
+     "m08",
+     22,
+     "22 mpg"
+    ],
+    [
+     "m13",
+     25,
+     "25 mpg"
+    ]
+   ]
+  },
+  "sales": {
+   "n": 3,
+   "title": "The Taurus sales arc, 1992–2019",
+   "sub": "US sales in selected calendar years: the best-seller crown, the last great year, the slide, the flagship era, the end.",
+   "source": "Ford US sales figures, via Wards and GoodCarBadCar",
+   "bars": [
+    [
+     "s92",
+     409751,
+     "409,751"
+    ],
+    [
+     "s00",
+     382035,
+     "382,035"
+    ],
+    [
+     "s05",
+     196919,
+     "196,919"
+    ],
+    [
+     "s13",
+     79960,
+     "79,960"
+    ],
+    [
+     "s19",
+     13423,
+     "13,423"
+    ]
+   ]
+  },
+  "price": {
+   "n": 4,
+   "title": "What a new one cost, in 2026 dollars",
+   "sub": "Starting prices, adjusted with the US consumer price index. The original price is in each label.",
+   "source": "Ford prices; Carveyance CPI arithmetic",
+   "bars": [
+    [
+     "p96",
+     39900,
+     "$39,900 · $18,600 then"
+    ],
+    [
+     "p96s",
+     55600,
+     "$55,600 · $25,930 then"
+    ],
+    [
+     "p10",
+     40100,
+     "$40,100 · $25,995 then"
+    ],
+    [
+     "p10s",
+     58600,
+     "$58,600 · $37,995 then"
+    ],
+    [
+     "p19",
+     36800,
+     "$36,800 · about $28,000 then"
+    ]
+   ]
+  }
+ },
+ "photos": {
+  "hub-hero": {
+   "credit": "qJake",
+   "page": "https://commons.wikimedia.org/wiki/File:2013_Ford_Taurus_SHO_(6879401279).jpg",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "alt": "A Ruby Red 2013 Ford Taurus SHO on an auto show stand"
+  },
+  "ch1-hero": {
+   "credit": "IFCAR",
+   "page": "https://commons.wikimedia.org/wiki/File:1986-1988_Ford_Taurus_sedan.jpg",
+   "license": "Public domain",
+   "licenseUrl": "https://commons.wikimedia.org/wiki/File:1986-1988_Ford_Taurus_sedan.jpg",
+   "alt": "A light blue 1986–1988 Ford Taurus sedan, front three-quarter view"
+  },
+  "ch2-hero": {
+   "credit": "IFCAR",
+   "page": "https://commons.wikimedia.org/wiki/File:1st_Ford_Taurus_SHO_--_10-03-2009.jpg",
+   "license": "Public domain",
+   "licenseUrl": "https://commons.wikimedia.org/wiki/File:1st_Ford_Taurus_SHO_--_10-03-2009.jpg",
+   "alt": "A white first-generation Ford Taurus SHO, front three-quarter view"
+  },
+  "ch3-hero": {
+   "credit": "TheMemerDude",
+   "page": "https://commons.wikimedia.org/wiki/File:1996-1997_Ford_Taurus_GL-7-12-2026.jpg",
+   "license": "CC0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "alt": "A teal 1996–1997 Ford Taurus GL, the controversial oval design"
+  },
+  "ch4-hero": {
+   "credit": "MercurySable99",
+   "page": "https://commons.wikimedia.org/wiki/File:2008_Ford_Taurus_SEL,_front_left,_02-23-2023.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": "A gold 2008 Ford Taurus SEL, front three-quarter view"
+  }
+ },
+ "find": {
+  "picker": [
+   {
+    "model": "Taurus",
+    "years": "2008–2019",
+    "ch": "2008-2019"
+   },
+   {
+    "model": "Taurus SHO",
+    "years": "1989–2019",
+    "ch": "sho"
+   },
+   {
+    "model": "Taurus",
+    "years": "1986–2007",
+    "ch": "1996-2007"
+   }
+  ],
+  "terms": {
+   "": [
+    "Taurus",
+    "Ford Taurus",
+    "family sedan",
+    "full-size sedan",
+    "jelly bean",
+    "cheap sedan"
+   ],
+   "1986-1995": [
+    "first Taurus",
+    "1986",
+    "jelly bean",
+    "best-seller",
+    "GL",
+    "LX",
+    "wagon"
+   ],
+   "sho": [
+    "SHO",
+    "Taurus SHO",
+    "Yamaha",
+    "V8 SHO",
+    "EcoBoost SHO",
+    "365 hp"
+   ],
+   "1996-2007": [
+    "oval",
+    "1996 redesign",
+    "Duratec",
+    "Vulcan",
+    "fleet",
+    "cheap Taurus"
+   ],
+   "2008-2019": [
+    "Five Hundred",
+    "Police Interceptor",
+    "2.0 EcoBoost",
+    "Limited",
+    "used Taurus"
+   ]
+  }
+ }
+}

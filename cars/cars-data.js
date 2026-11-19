@@ -23920,7 +23920,7 @@ const CARS_INDEX = [
   },
   "hp": 720,
   "kg": 905,
-  "kgNote": "About 1,995 lb",
+  "kgNote": "Published figure",
   "lbs": 1995,
   "z60": {
    "sec": 2.7,

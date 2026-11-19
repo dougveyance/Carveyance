@@ -33723,7 +33723,7 @@ const CARS = [
     "weight": {
       "kg": 905,
       "lb": 1995,
-      "note": "About 1,995 lb",
+      "note": "Published figure",
       "src": null
     },
     "zero60": {

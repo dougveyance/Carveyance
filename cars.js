@@ -37407,5 +37407,859 @@ const CARS = [
     "match": [
       "Bricklin SV-1"
     ]
+  },
+  {
+    "id": "nissan-maxima-j30",
+    "name": "Nissan Maxima (third generation)",
+    "family": {
+      "id": "nissan-maxima",
+      "name": "Nissan Maxima"
+    },
+    "aka": [
+      "J30",
+      "4DSC",
+      "Maxima SE"
+    ],
+    "make": "Nissan",
+    "maker": "Nissan (Oppama, Japan)",
+    "country": "Japan",
+    "years": "1989–1994",
+    "start": 1989,
+    "end": 1994,
+    "shop": null,
+    "body": "4-door sedan",
+    "engine": "3.0-liter VG30E V6; VE30DE twin-cam in the last SEs",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual or automatic",
+    "specsFor": "1989 Maxima SE, 5-speed",
+    "power": {
+      "hp": 160,
+      "note": "VG30E; the 1992–1994 SE's VE30DE twin-cam made 190",
+      "src": "https://www.caranddriver.com/reviews/a65440200/1989-audi-100-bmw-525i-nissan-maxima-se-comparison-test/"
+    },
+    "weight": {
+      "kg": 1433,
+      "lb": 3160,
+      "note": "Curb, as tested",
+      "src": "https://www.caranddriver.com/reviews/a65440200/1989-audi-100-bmw-525i-nissan-maxima-se-comparison-test/"
+    },
+    "zero60": {
+      "sec": 8.8,
+      "kind": "tested",
+      "note": "Car and Driver, against the Audi 100 and BMW 525i",
+      "src": "https://www.caranddriver.com/reviews/a65440200/1989-audi-100-bmw-525i-nissan-maxima-se-comparison-test/"
+    },
+    "top": {
+      "mph": 123,
+      "kind": "tested",
+      "note": "Car and Driver",
+      "src": "https://www.caranddriver.com/reviews/a65440200/1989-audi-100-bmw-525i-nissan-maxima-se-comparison-test/"
+    },
+    "mpg": {
+      "combined": 20,
+      "city": 18,
+      "hwy": 24,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/ws/rest/vehicle/5696",
+      "note": "EPA combined, 1989 5-speed"
+    },
+    "built": {
+      "na": "Nissan published no generation total"
+    },
+    "versions": [
+      {
+        "name": "SE, VG30E",
+        "detail": "1989–1991; 160 hp, the 5-speed car",
+        "specsFor": "1989 Maxima SE, 5-speed"
+      },
+      {
+        "name": "GXE",
+        "detail": "The comfort tune, automatic, digital dash",
+        "power": {
+          "hp": 160,
+          "note": "Same VG30E"
+        },
+        "zero60": null,
+        "top": null
+      },
+      {
+        "name": "SE, VE30DE",
+        "detail": "1992–1994; the 190-hp twin-cam built only for this car",
+        "power": {
+          "hp": 190,
+          "note": "VE30DE twin-cam"
+        }
+      }
+    ],
+    "predecessor": null,
+    "successor": {
+      "name": "Nissan Maxima (fourth generation)",
+      "id": null
+    },
+    "quick": "The sedan that put '4DSC' — 4-Door Sports Car — in its own window glass, and then ran with Audis and BMWs in the comparison tests to prove it. The SE with a 5-speed is the one.",
+    "story": [
+      "Nissan stuck a little decal in the rear quarter window of this Maxima reading 4DSC, for 4-Door Sports Car, which was the kind of claim that usually ends in embarrassment. Then Car and Driver ran a 5-speed SE against an Audi 100 and a BMW 525i, and the Nissan held its own: 60 in 8.8 seconds, 123 mph, and a 160-hp V6 that loved revs, in a sedan costing thousands less than either German. The SE got firmer suspension, a rear spoiler and the stick; the GXE got the sofa tuning and a digital dash.",
+      "The last act was the best: from 1992 the SE swapped its single-cam VG30E for the VE30DE, a 190-hp twin-cam built only for this car, and the J30 went out as quick as anything in its class. The 4DSC sticker became a permanent piece of Nissan identity, revived on every quick Maxima since, and the J30 generation is why the claim ever meant anything. Clean SE 5-speeds are now the collectible kind of 1980s sedan: fast enough to use, cheap enough to drive, and honest all the way through."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "1989-91 Nissan Maxima.jpg",
+      "credit": "Bull-Doser",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "pos": ""
+    },
+    "match": [
+      "Nissan Maxima"
+    ]
+  },
+  {
+    "id": "mitsubishi-expo-lrv",
+    "name": "Mitsubishi Expo LRV",
+    "aka": [
+      "Eagle Summit Wagon",
+      "Plymouth Colt Vista",
+      "Mitsubishi RVR",
+      "Space Runner"
+    ],
+    "make": "Mitsubishi",
+    "maker": "Mitsubishi (Mizushima, Japan)",
+    "country": "Japan",
+    "years": "1992–1996",
+    "start": 1992,
+    "end": 1996,
+    "shop": null,
+    "body": "Tall 5-door wagon with one sliding rear door",
+    "engine": "1.8-liter 4G93 4",
+    "drive": "Front-wheel drive, optional 4WD",
+    "gearbox": "5-speed manual or automatic",
+    "specsFor": "1992 Expo LRV 1.8, 5-speed",
+    "power": {
+      "hp": 113,
+      "note": "4G93 SOHC",
+      "src": "https://www.edmunds.com/mitsubishi/expo/1992/st-2072/features-specs/"
+    },
+    "weight": {
+      "kg": 1225,
+      "lb": 2701,
+      "note": "Curb",
+      "src": "https://www.edmunds.com/mitsubishi/expo/1992/st-2072/features-specs/"
+    },
+    "zero60": {
+      "sec": 10.3,
+      "kind": "estimated",
+      "note": "Modeled figure",
+      "src": "https://www.edmunds.com/mitsubishi/expo/1992/st-2072/features-specs/"
+    },
+    "top": {
+      "na": "Nobody timed tall wagons"
+    },
+    "mpg": {
+      "combined": 23,
+      "city": 21,
+      "hwy": 26,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/ws/rest/vehicle/9162",
+      "note": "EPA combined, 1992 2WD 5-speed"
+    },
+    "built": {
+      "na": "Mitsubishi published no US total"
+    },
+    "predecessor": null,
+    "successor": null,
+    "quick": "A tall mini-wagon with a single sliding door, sold 3 ways as the Expo LRV, Eagle Summit Wagon and Plymouth Colt Vista — the minivan idea shrunk to subcompact size, decades before anyone said 'crossover.'",
+    "story": [
+      "The LRV stood for Light Recreational Vehicle, and the idea was a minivan distilled: one box, a tall seating position, a sliding door on the curb side only, and subcompact running gear underneath, all in a footprint shorter than a Civic wagon's. Mitsubishi sold it here as the Expo LRV while the same car wore Eagle Summit Wagon and Plymouth Colt Vista badges across Chrysler's lots, and in Japan it was the RVR, where the formula was a genuine hit. A 113-hp 1.8 and an optional 4WD system did the moving; nothing about it was fast, and nothing about it needed to be.",
+      "What it was, was right: a one-box tall wagon with a sliding door is more or less the shape the entire industry spent the next 30 years rediscovering, from the Mazda5 to every compact crossover with pretensions. The LRV generation vanished after 1996, worn out by badge confusion and an America not yet ready to buy small and tall at once. The survivors are beloved by exactly the kind of person this Index is for, and almost no one else, which may be the highest recommendation on this page."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "Mitsubishi Expo LRV 2.jpg",
+      "credit": "IFCAR",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "pos": ""
+    },
+    "match": [
+      "Mitsubishi Expo",
+      "Eagle Summit Wagon"
+    ]
+  },
+  {
+    "id": "datsun-240z",
+    "name": "Datsun 240Z",
+    "family": {
+      "id": "nissan-z",
+      "name": "Nissan Z"
+    },
+    "aka": [
+      "Nissan Fairlady Z",
+      "S30",
+      "HLS30"
+    ],
+    "make": "Datsun",
+    "maker": "Nissan (Hiratsuka, Japan)",
+    "country": "Japan",
+    "years": "1970–1973",
+    "start": 1970,
+    "end": 1973,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "2-seat fastback coupe",
+    "engine": "2.4-liter L24 SOHC inline-6",
+    "drive": "Rear-wheel drive",
+    "gearbox": "4-speed manual or automatic",
+    "specsFor": "1970 US-market 240Z, 4-speed",
+    "power": {
+      "hp": 151,
+      "note": "SAE gross",
+      "src": "https://thejdmregistry.com/datsun-240z-s30/overview"
+    },
+    "weight": {
+      "kg": 1057,
+      "lb": 2330,
+      "note": "Curb",
+      "src": "https://thejdmregistry.com/datsun-240z-s30/overview"
+    },
+    "zero60": {
+      "sec": 7.8,
+      "kind": "tested",
+      "note": "Period test",
+      "src": "https://thejdmregistry.com/datsun-240z-s30/overview"
+    },
+    "top": {
+      "mph": 109,
+      "kind": "tested",
+      "note": "Period road test; the maker claimed 125",
+      "src": "https://thejdmregistry.com/datsun-240z-s30/overview"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "count": 156076,
+      "approx": true,
+      "note": "240Z worldwide, 1969–1973, by specialist registry count; the S30 family ran on as the 260Z and 280Z",
+      "src": "https://thejdmregistry.com/datsun-240z-s30/overview"
+    },
+    "predecessor": null,
+    "successor": {
+      "name": "Datsun 260Z",
+      "id": null
+    },
+    "quick": "The $3,526 answer to a question Europe thought it owned: a 6-cylinder GT with E-type proportions, Porsche pace and Datsun reliability. It outsold every sports car before it and made Nissan in America.",
+    "story": [
+      "Nothing did more to end the British sports car than the 240Z. For $3,526 in 1970, or $30,600 in 2026 dollars, MGB-GT money, you got a 151-hp overhead-cam straight-6, independent suspension at both ends, a shape with the long-hood proportions of cars costing 3 times as much, and 60 in 7.8 seconds in period tests, with a heater that worked and electrics that kept working. The waiting lists formed immediately; dealers marked them up and buyers paid it.",
+      "Yutaka Katayama, Nissan USA's president and the Z's patron saint, understood the assignment exactly: sports-car romance without sports-car ownership. Roughly 156,000 240Zs were built in 4 years by registry counts, more than the entire prior history of the affordable sports car, and the S30 shell ran on as the 260Z and 280Z through 1978. The yellow car in the photo wears the shape's best angle, which is any of them. Every affordable Japanese performance car since, the Miata on this page included, starts its family tree here."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "Yellow Datsun 240Z dllu.jpg",
+      "credit": "Dllu",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pos": ""
+    },
+    "match": [
+      "Datsun 240Z",
+      "Nissan Z"
+    ]
+  },
+  {
+    "id": "toyota-paseo",
+    "name": "Toyota Paseo",
+    "aka": [
+      "Cynos",
+      "EL44"
+    ],
+    "make": "Toyota",
+    "maker": "Toyota (Takaoka, Japan)",
+    "country": "Japan",
+    "years": "1992–1997",
+    "start": 1992,
+    "end": 1997,
+    "shop": null,
+    "body": "2-door coupe on Tercel bones",
+    "engine": "1.5-liter 5E-FE 4",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual or automatic",
+    "specsFor": "1992 Paseo, 5-speed",
+    "power": {
+      "hp": 100,
+      "note": "5E-FE, 16 valves",
+      "src": "https://www.cars.com/research/toyota-paseo-1992/"
+    },
+    "weight": {
+      "kg": 939,
+      "lb": 2070,
+      "note": "Curb, period test",
+      "src": "https://www.cars.com/research/toyota-paseo-1992/"
+    },
+    "zero60": {
+      "sec": 9.8,
+      "kind": "tested",
+      "note": "Period test",
+      "src": "https://www.cars.com/research/toyota-paseo-1992/"
+    },
+    "top": {
+      "mph": 118,
+      "kind": "claimed",
+      "note": "Published figure",
+      "src": "https://www.cars.com/research/toyota-paseo-1992/"
+    },
+    "mpg": {
+      "combined": 27,
+      "city": 24,
+      "hwy": 31,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/ws/rest/vehicle/8616",
+      "note": "EPA combined, 1992 5-speed"
+    },
+    "built": {
+      "na": "Toyota published no US total"
+    },
+    "predecessor": {
+      "name": "Toyota Corolla FX16",
+      "id": null
+    },
+    "successor": null,
+    "quick": "A Tercel in a cocktail dress: 100 hp, 939 kg (2,070 lb), 27 mpg and nothing to prove. The sporty-looking small coupe for people who wanted the look without the insurance bill, built with Toyota's full seriousness.",
+    "story": [
+      "The Paseo was what the industry used to call a secretary's car, a label that says more about the industry than the car. Underneath sat Tercel mechanicals, a 100-hp 1.5-liter twin-cam and a curb weight of just 939 kg (2,070 lb), which meant it was actually reasonably eager with the 5-speed: 60 in 9.8 seconds, a claimed 118 mph flat out, and an EPA 27 combined that made the whole proposition nearly free to run. In Japan it was the Cynos; here it slotted under the Celica as the sporty shape without the sporty price.",
+      "The honest way to see it is as the spiritual floor of the coupe market, and a reminder that the floor used to be pretty good: rear-drive-look proportions, a low cowl, windows you could see out of, and Toyota assembly quality applied without irony to the cheapest body style in the lineup. The segment itself, the small cheap coupe, is extinct now, killed by crossovers and insurance math, which has quietly turned clean Paseos into the kind of car people smile at in parking lots. Nobody saved them, which is why nobody can find one."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "1992 Toyota Paseo (EL44) coupe (front).jpg",
+      "credit": "Jeremy from Sydney, Australia",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "pos": ""
+    },
+    "match": [
+      "Toyota Paseo"
+    ]
+  },
+  {
+    "id": "acura-legend-1",
+    "name": "Acura Legend (first generation)",
+    "family": {
+      "id": "acura-legend",
+      "name": "Acura Legend"
+    },
+    "aka": [
+      "Honda Legend",
+      "KA1-KA6",
+      "Sterling 825's twin"
+    ],
+    "make": "Acura",
+    "maker": "Honda (Sayama, Japan)",
+    "country": "Japan",
+    "years": "1986–1990",
+    "start": 1986,
+    "end": 1990,
+    "shop": null,
+    "body": "4-door sedan, 2-door coupe from 1987",
+    "engine": "2.5, then 2.7-liter SOHC V6",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual or automatic",
+    "specsFor": "1988 Legend Coupe L",
+    "power": {
+      "hp": 161,
+      "note": "2.7-liter V6; the 1986 2.5 made 151",
+      "src": "https://www.caranddriver.com/reviews/comparison-test/a15143749/1988-luxury-coupe-comparison/"
+    },
+    "weight": {
+      "kg": 1470,
+      "lb": 3240,
+      "note": "Curb, as tested",
+      "src": "https://www.caranddriver.com/reviews/comparison-test/a15143749/1988-luxury-coupe-comparison/"
+    },
+    "zero60": {
+      "sec": 9.6,
+      "kind": "tested",
+      "note": "Car and Driver, 1988 4-coupe comparison",
+      "src": "https://www.caranddriver.com/reviews/comparison-test/a15143749/1988-luxury-coupe-comparison/"
+    },
+    "top": {
+      "mph": 124,
+      "kind": "tested",
+      "note": "Car and Driver",
+      "src": "https://www.caranddriver.com/reviews/comparison-test/a15143749/1988-luxury-coupe-comparison/"
+    },
+    "mpg": {
+      "combined": 19,
+      "city": 17,
+      "hwy": 22,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/ws/rest/vehicle/4361",
+      "note": "EPA combined, 1988 5-speed"
+    },
+    "built": {
+      "na": "Honda published no generation total"
+    },
+    "versions": [
+      {
+        "name": "2.7 sedan and coupe",
+        "detail": "1987–1990; 161 hp",
+        "specsFor": "1988 Legend Coupe L"
+      },
+      {
+        "name": "2.5 sedan",
+        "detail": "1986–1987; the launch car",
+        "power": {
+          "hp": 151,
+          "note": "2.5-liter V6"
+        },
+        "zero60": null,
+        "top": null,
+        "weight": null
+      },
+      {
+        "name": "LS",
+        "detail": "The loaded trim; same 2.7",
+        "power": {
+          "hp": 161,
+          "note": "2.7-liter V6"
+        }
+      }
+    ],
+    "predecessor": null,
+    "successor": {
+      "name": "Acura Legend (second generation)",
+      "id": null
+    },
+    "quick": "The car that invented the Japanese luxury brand: Acura launched in March 1986 with the Legend, 3 years before Lexus or Infiniti existed, and the formula — Honda bones, V6 smoothness, German prices minus a third — worked immediately.",
+    "story": [
+      "Before Lexus, before Infiniti, Honda simply went first: in March 1986 it opened Acura, the first Japanese luxury channel in America, with the Integra below and the Legend on top. The Legend was co-developed with Britain's Rover, and its twin, the Sterling 825, is one of the great control experiments in car history: identical V6, identical platform, Japanese assembly on one and British on the other, and only one of them is remembered as a disaster. The Honda-built car got a 151-hp 2.5 V6, then a 161-hp 2.7, a coupe body in 1987, and build quality that embarrassed cars at twice the money.",
+      "Car and Driver's 1988 coupe comparison timed it to 60 in 9.6 seconds at 124 mph and an observed 19 mpg, none of which was the point; the point was that nothing squeaked, nothing broke, and the dealer treated you like a Mercedes customer. The Legend outsold expectation so thoroughly that Toyota and Nissan green-lit Lexus and Infiniti on its evidence. The white coupe in the photo is the Honda-badged home-market twin, identical but for the badge, which is itself the whole story of the car."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "Honda Legend Coupe (2).jpg",
+      "credit": "FotoSleuth",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "pos": ""
+    },
+    "match": [
+      "Acura Legend",
+      "Honda Legend"
+    ]
+  },
+  {
+    "id": "nissan-240sx-s13",
+    "name": "Nissan 240SX (S13)",
+    "family": {
+      "id": "nissan-silvia",
+      "name": "Nissan Silvia / 240SX"
+    },
+    "aka": [
+      "Silvia",
+      "180SX",
+      "S13"
+    ],
+    "make": "Nissan",
+    "maker": "Nissan (Kyushu, Japan)",
+    "country": "Japan",
+    "years": "1989–1994",
+    "start": 1989,
+    "end": 1994,
+    "shop": null,
+    "body": "2-door coupe or fastback, later a convertible",
+    "engine": "2.4-liter KA24 4",
+    "drive": "Rear-wheel drive",
+    "gearbox": "5-speed manual or automatic",
+    "specsFor": "1990 240SX SE fastback, 5-speed",
+    "power": {
+      "hp": 140,
+      "note": "KA24E SOHC; the 1991-on KA24DE twin-cam made 155",
+      "src": "https://www.caranddriver.com/reviews/a15141963/nissan-240sx-road-test/"
+    },
+    "weight": {
+      "kg": 1269,
+      "lb": 2798,
+      "note": "Curb, as tested",
+      "src": "https://www.caranddriver.com/reviews/a15141963/nissan-240sx-road-test/"
+    },
+    "zero60": {
+      "sec": 8.6,
+      "kind": "tested",
+      "note": "Car and Driver",
+      "src": "https://www.caranddriver.com/reviews/a15141963/nissan-240sx-road-test/"
+    },
+    "top": {
+      "mph": 107,
+      "kind": "tested",
+      "note": "Car and Driver, governor-limited",
+      "src": "https://www.caranddriver.com/reviews/a15141963/nissan-240sx-road-test/"
+    },
+    "mpg": {
+      "combined": 20,
+      "city": 18,
+      "hwy": 24,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/ws/rest/vehicle/6429",
+      "note": "EPA combined, 1990 5-speed"
+    },
+    "built": {
+      "na": "Nissan published no US total"
+    },
+    "versions": [
+      {
+        "name": "KA24E",
+        "detail": "1989–1990; 140 hp SOHC",
+        "specsFor": "1990 240SX SE, 5-speed"
+      },
+      {
+        "name": "KA24DE",
+        "detail": "1991–1994; twin-cam head, 155 hp",
+        "power": {
+          "hp": 155,
+          "note": "KA24DE twin-cam"
+        }
+      },
+      {
+        "name": "Convertible",
+        "detail": "1992–1994; automatic only at first",
+        "power": {
+          "hp": 155,
+          "note": "KA24DE twin-cam"
+        }
+      }
+    ],
+    "predecessor": null,
+    "successor": {
+      "name": "Nissan 240SX (S14)",
+      "id": null
+    },
+    "quick": "America's Silvia, with a truck engine where Japan got the turbo — and it didn't matter, because the chassis was the point. The S13 became the raw material of American drifting, which is why clean ones cost what they cost.",
+    "story": [
+      "The S13 240SX was Japan's Silvia and 180SX wearing one American name, and the deal America got was specific: the gorgeous rear-drive chassis, the multi-link rear suspension, the pop-up-light fastback or notchback coupe body, but a 140-hp single-cam 2.4 borrowed from the Hardbody pickup instead of the home market's turbocharged CA18DET. Car and Driver measured 8.6 seconds to 60 and a governed 107 mph and liked it anyway, because the steering and balance were from a different price class entirely.",
+      "Then drifting happened. The S13's long wheelbase, cheap parts and perfect weight balance made it the Fox-body Mustang of the sideways world, and the SR20DET swap, importing the engine Japan always had, became a rite of passage. The consequence is visible in every classified: cars that sold new for $13,000 and traded for $2,000 in 2005 now bring real money in unmolested form, because almost none are unmolested. The red fastback in the photo, stock down to its hubcaps, is rarer now than most of the exotics in this Index."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "1990 240sx Quarter View.JPG",
+      "credit": "The pun stops here",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pos": ""
+    },
+    "match": [
+      "Nissan 240SX",
+      "Nissan Silvia"
+    ]
+  },
+  {
+    "id": "lexus-sc-1",
+    "name": "Lexus SC (first generation)",
+    "family": {
+      "id": "lexus-sc",
+      "name": "Lexus SC"
+    },
+    "aka": [
+      "SC400",
+      "SC300",
+      "Toyota Soarer",
+      "Z30"
+    ],
+    "make": "Lexus",
+    "maker": "Toyota (Motomachi, Japan); designed at Calty in California",
+    "country": "Japan",
+    "years": "1991–2000",
+    "start": 1991,
+    "end": 2000,
+    "shop": null,
+    "body": "2-door luxury coupe",
+    "engine": "4.0-liter 1UZ-FE V8, or 3.0-liter 2JZ inline-6",
+    "drive": "Rear-wheel drive",
+    "gearbox": "4-speed automatic; 5-speed manual with the six",
+    "specsFor": "1992 SC400",
+    "power": {
+      "hp": 250,
+      "note": "1UZ-FE V8; 260 from 1995, 290 with VVT-i from 1998",
+      "src": "https://www.caranddriver.com/reviews/a32945118/tested-1992-lexus-sc400/"
+    },
+    "weight": {
+      "kg": 1676,
+      "lb": 3694,
+      "note": "Curb, as tested",
+      "src": "https://www.caranddriver.com/reviews/a32945118/tested-1992-lexus-sc400/"
+    },
+    "zero60": {
+      "sec": 6.7,
+      "kind": "tested",
+      "note": "Car and Driver",
+      "src": "https://www.caranddriver.com/reviews/a32945118/tested-1992-lexus-sc400/"
+    },
+    "top": {
+      "mph": 145,
+      "kind": "tested",
+      "note": "Car and Driver",
+      "src": "https://www.caranddriver.com/reviews/a32945118/tested-1992-lexus-sc400/"
+    },
+    "mpg": {
+      "combined": 18,
+      "city": 16,
+      "hwy": 20,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/ws/rest/vehicle/8739",
+      "note": "EPA combined, 1992 SC400"
+    },
+    "built": {
+      "na": "Toyota published no US breakout"
+    },
+    "versions": [
+      {
+        "name": "SC400",
+        "detail": "4.0 V8; 250 hp, then 260, then 290",
+        "specsFor": "1992 SC400"
+      },
+      {
+        "name": "SC300",
+        "detail": "3.0 Supra straight-6; a 5-speed manual until 1997",
+        "power": {
+          "hp": 225,
+          "note": "2JZ-GE"
+        },
+        "mpg": {
+          "combined": 18,
+          "city": 16,
+          "hwy": 20,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/ws/rest/vehicle/8737",
+          "note": "EPA combined, 1992 automatic"
+        },
+        "zero60": null,
+        "top": null
+      },
+      {
+        "name": "SC400, VVT-i",
+        "detail": "1998–2000; the final tune",
+        "power": {
+          "hp": 290,
+          "note": "VVT-i 1UZ-FE"
+        }
+      }
+    ],
+    "predecessor": null,
+    "successor": null,
+    "quick": "Calty's designers shaped it with plaster and no straight lines, and the LS400's V8 made it move: 6.7 seconds and 145 mph from the most reliable luxury coupe ever sold. It ran 10 years nearly unchanged because nothing needed changing.",
+    "story": [
+      "The SC was designed at Calty in California by a team that famously worked with plaster forms and almost no straight lines, and the result still looks like water over a stone: no crease anywhere, a cabin set far back, and proportions that read as expensive from 100 feet. Underneath sat the LS400's 250-hp 1UZ-FE V8, an engine with a fair claim to being the most durable V8 ever mass-produced, and Car and Driver's test card read 6.7 seconds to 60 and 145 mph, proper numbers for a 1992 luxury coupe.",
+      "The SC300 brought the Supra's 3.0-liter straight-6 and, quietly, a 5-speed manual, making it the connoisseur's pick and, later, the tuner's; the 2JZ under that long hood is the same block that makes four-figure power in drag Supras. Lexus barely touched the car for 10 years because the shape didn't age and the mechanicals didn't break, and the first SC became exactly what it looks like: the 90s Japanese coupe as finished object. Values followed the Supra's gravity upward, with the manual SC300s leading."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "1992 Lexus SC 400.jpg",
+      "credit": "DestinationFearFan",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pos": ""
+    },
+    "match": [
+      "Lexus SC",
+      "Lexus SC400",
+      "Lexus SC300"
+    ]
+  },
+  {
+    "id": "acura-vigor",
+    "name": "Acura Vigor",
+    "aka": [
+      "Honda Vigor",
+      "CC2"
+    ],
+    "make": "Acura",
+    "maker": "Honda (Sayama, Japan)",
+    "country": "Japan",
+    "years": "1992–1994",
+    "start": 1992,
+    "end": 1994,
+    "shop": null,
+    "body": "4-door sedan with frameless glass",
+    "engine": "2.5-liter longitudinal inline-5",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual or automatic",
+    "specsFor": "1992 Vigor GS, 5-speed",
+    "power": {
+      "hp": 176,
+      "note": "G25A inline-5, mounted north-south",
+      "src": "https://www.edmunds.com/acura/vigor/1992/features-specs/"
+    },
+    "weight": {
+      "kg": 1429,
+      "lb": 3150,
+      "note": "Curb",
+      "src": "https://www.edmunds.com/acura/vigor/1992/features-specs/"
+    },
+    "zero60": {
+      "sec": 7.9,
+      "kind": "tested",
+      "note": "Period test",
+      "src": "https://www.edmunds.com/acura/vigor/1992/features-specs/"
+    },
+    "top": {
+      "na": "Not commonly recorded"
+    },
+    "mpg": {
+      "combined": 20,
+      "city": 18,
+      "hwy": 24,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/ws/rest/vehicle/8834",
+      "note": "EPA combined, 1992 5-speed"
+    },
+    "built": {
+      "na": "Honda published no US total"
+    },
+    "predecessor": null,
+    "successor": {
+      "name": "Acura TL (first generation)",
+      "id": null
+    },
+    "quick": "Honda's strangest sedan: a longitudinal 5-cylinder driving the front wheels, slotted between Integra and Legend for 3 years. The 5-pot warble and the 5-speed made it secretly the enthusiast pick of the lineup.",
+    "story": [
+      "The Vigor made no conventional sense, which is its charm. To fit between the Integra and the Legend, Honda built a sedan around a 2.5-liter inline-5, mounted longitudinally, nose-back behind the front axle like an Audi, driving the front wheels through its own peculiar geartrain. The result was 176 hp, a 60/40 weight balance unusually good for front drive, a warble no 4 or 6 can make, and 60 in 7.9 seconds with the 5-speed, quicker than the Legend of its day.",
+      "America shrugged. The back seat was tight, the badge was new, and buyers who wanted a small Acura bought Integras while buyers who wanted a plush one stretched to the Legend; the Vigor lasted 3 model years before the TL replaced it and normality resumed. Which leaves it as one of the great cheap oddballs: a hand-finished Honda 5-cylinder sport sedan that almost nobody remembers, with frameless door glass and a redline it enjoys. The white car in the photo is wearing its age the way Hondas of this era do, which is to say barely."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "Acura Vigor -- 03-21-2012.JPG",
+      "credit": "IFCAR",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "pos": ""
+    },
+    "match": [
+      "Acura Vigor"
+    ]
+  },
+  {
+    "id": "mazda-mx-5-na",
+    "name": "Mazda MX-5 Miata (NA)",
+    "family": {
+      "id": "mazda-mx-5",
+      "name": "Mazda MX-5 Miata"
+    },
+    "aka": [
+      "Miata",
+      "Eunos Roadster",
+      "NA6C",
+      "NA8C",
+      "Monster Miata"
+    ],
+    "make": "Mazda",
+    "maker": "Mazda (Hiroshima, Japan)",
+    "country": "Japan",
+    "years": "1989–1997",
+    "start": 1989,
+    "end": 1997,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "2-seat roadster",
+    "engine": "1.6, later 1.8-liter twin-cam 4",
+    "drive": "Rear-wheel drive",
+    "gearbox": "5-speed manual or automatic",
+    "specsFor": "1990 Miata 1.6, 5-speed",
+    "power": {
+      "hp": 116,
+      "note": "1.6 twin-cam; the 1994 1.8 made 128, then 133",
+      "src": "https://www.caranddriver.com/features/a38015568/buy-1990-mazda-mx-5-miata/"
+    },
+    "weight": {
+      "kg": 1002,
+      "lb": 2210,
+      "note": "Curb, as tested; Mazda quoted as little as 940 kg (2,070 lb)",
+      "src": "https://www.caranddriver.com/features/a38015568/buy-1990-mazda-mx-5-miata/"
+    },
+    "zero60": {
+      "sec": 9.2,
+      "kind": "tested",
+      "note": "Car and Driver",
+      "src": "https://www.caranddriver.com/features/a38015568/buy-1990-mazda-mx-5-miata/"
+    },
+    "top": {
+      "mph": 116,
+      "kind": "tested",
+      "note": "Car and Driver",
+      "src": "https://www.caranddriver.com/features/a38015568/buy-1990-mazda-mx-5-miata/"
+    },
+    "mpg": {
+      "combined": 24,
+      "city": 22,
+      "hwy": 28,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/ws/rest/vehicle/6424",
+      "note": "EPA combined, 1990 5-speed"
+    },
+    "built": {
+      "count": 431506,
+      "approx": false,
+      "note": "Every NA built, April 1989–1997; 228,961 of them sold in the US",
+      "src": "https://en.wikipedia.org/wiki/Mazda_MX-5_(NA)"
+    },
+    "versions": [
+      {
+        "name": "1.6",
+        "detail": "1989–1993; 116 hp",
+        "specsFor": "1990 Miata 1.6, 5-speed"
+      },
+      {
+        "name": "1.8",
+        "detail": "1994–1997; 128 hp, 133 from 1996",
+        "power": {
+          "hp": 128,
+          "note": "BP 1.8; 133 hp from 1996"
+        }
+      },
+      {
+        "name": "Monster Miata",
+        "detail": "Monster Motorsports' Ford 5.0 V8 conversion, San Diego, from the early 1990s; kit or turnkey",
+        "power": {
+          "hp": 225,
+          "note": "Stock Ford 5.0 HO; supercharged Mega Monsters ran to about 400"
+        },
+        "zero60": null,
+        "top": null,
+        "weight": null,
+        "mpg": null
+      }
+    ],
+    "predecessor": null,
+    "successor": {
+      "name": "Mazda MX-5 Miata (NB)",
+      "id": null
+    },
+    "quick": "The car that revived the roadster single-handed: 431,506 built, $13,800 at launch, and a formula — jinba ittai, horse and rider as one — nothing has improved on since. The V8 Monster Miata is the unhinged footnote.",
+    "story": [
+      "By 1989 the affordable roadster was extinct; the British had died of their own electrics and nobody had replaced them. Mazda's team, prodded by journalist Bob Hall and guided by the credo jinba ittai, horse and rider as one, built the Lotus Elan's idea with Hiroshima reliability: a 116-hp 1.6 twin-cam, 50/50 balance, a top you could drop one-handed at a stoplight, and 998 kg (2,210 lb) as Car and Driver tested it. At the Chicago show the sticker read $13,800, or $37,400 in 2026 dollars, and the waiting lists formed before the applause stopped.",
+      "The numbers were never the point, 9.2 seconds to 60 and 116 mph flat out, and the sales proved it: 431,506 NAs in 8 years, 228,961 of them American, the fastest any roadster has ever sold. The strangest tribute came from San Diego, where Monster Motorsports began dropping Ford 5.0 V8s into them as the Monster Miata, a bolt-in conversion kit that made national magazines and turned jinba ittai into a rodeo. The MX-5 line has since passed a million and never once needed rescuing, which is the whole legacy: Mazda made the simple sports car permanent."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "1990 Mazda MX-5 Miata in Classic Red, Front Right, 06-25-2022.jpg",
+      "credit": "Elise240SX",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pos": ""
+    },
+    "match": [
+      "Mazda MX-5 Miata",
+      "Mazda Miata",
+      "Mazda MX-5"
+    ]
   }
 ];

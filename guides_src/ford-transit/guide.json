@@ -1,0 +1,252 @@
+{
+ "id": "ford-transit",
+ "make": "Ford",
+ "model": "Transit",
+ "years": "2015–2026",
+ "byline": "Oliver Bacon",
+ "published": "2026-11-19",
+ "updated": "2026-11-19",
+ "cars": [
+  "ford-transit",
+  "ford-e-transit"
+ ],
+ "shop": {
+  "cargurus": "d1067"
+ },
+ "chapters": [
+  "which-transit",
+  "e-transit",
+  "used-checklist"
+ ],
+ "series": {
+  "hd": {
+   "name": "3.2 diesel (2015–19)",
+   "color": "#9aa5b1"
+  },
+  "he": {
+   "name": "E-Transit",
+   "color": "#1d7f6e"
+  },
+  "hg": {
+   "name": "3.5 V6 (base)",
+   "color": "#2E6E96"
+  },
+  "hb": {
+   "name": "3.5 EcoBoost",
+   "color": "#e05c2a"
+  },
+  "s15": {
+   "name": "2015, year 1",
+   "color": "#2E6E96"
+  },
+  "s19": {
+   "name": "2019, the peak",
+   "color": "#2E6E96"
+  },
+  "s21": {
+   "name": "2021, chip shortage",
+   "color": "#9aa5b1"
+  },
+  "s23": {
+   "name": "2023",
+   "color": "#2E6E96"
+  },
+  "s25": {
+   "name": "2025, new record",
+   "color": "#e05c2a"
+  },
+  "r22": {
+   "name": "2022–23, 68 kWh",
+   "color": "#9aa5b1"
+  },
+  "r24": {
+   "name": "2024–, 89 kWh",
+   "color": "#1d7f6e"
+  },
+  "p15": {
+   "name": "2015 Transit, base",
+   "color": "#2E6E96"
+  },
+  "p24": {
+   "name": "2024 E-Transit, base",
+   "color": "#1d7f6e"
+  }
+ },
+ "charts": {
+  "power": {
+   "n": 1,
+   "title": "The engine ladder",
+   "sub": "Horsepower by powertrain. The E-Transit's 317 lb-ft beats everything but the EcoBoost's 400.",
+   "source": "Ford specifications",
+   "bars": [
+    [
+     "hd",
+     185,
+     "185 hp"
+    ],
+    [
+     "he",
+     266,
+     "266 hp"
+    ],
+    [
+     "hg",
+     275,
+     "275 hp"
+    ],
+    [
+     "hb",
+     310,
+     "310 hp"
+    ]
+   ]
+  },
+  "sales": {
+   "n": 2,
+   "title": "America switched vans without ceremony",
+   "sub": "US Transit sales in selected calendar years — about 1.47 million since launch.",
+   "source": "Ford US sales figures",
+   "bars": [
+    [
+     "s15",
+     117577,
+     "117,577"
+    ],
+    [
+     "s19",
+     153868,
+     "153,868"
+    ],
+    [
+     "s21",
+     99745,
+     "99,745"
+    ],
+    [
+     "s23",
+     129009,
+     "129,009"
+    ],
+    [
+     "s25",
+     161797,
+     "161,797"
+    ]
+   ]
+  },
+  "range": {
+   "n": 3,
+   "title": "E-Transit EPA range, by battery",
+   "sub": "Miles, low-roof cargo van. The 2024 update grew the usable pack from 68 to 89 kWh.",
+   "source": "US EPA, via Ford",
+   "bars": [
+    [
+     "r22",
+     126,
+     "126 mi"
+    ],
+    [
+     "r24",
+     159,
+     "159 mi"
+    ]
+   ]
+  },
+  "price": {
+   "n": 4,
+   "title": "What a new one cost, in 2026 dollars",
+   "sub": "Base stickers, inflation-adjusted. Original prices: $29,565 (2015 Transit), $51,490 (2024 E-Transit).",
+   "source": "Ford pricing, adjusted by US CPI",
+   "bars": [
+    [
+     "p15",
+     41900,
+     "$41,900"
+    ],
+    [
+     "p24",
+     55200,
+     "$55,200"
+    ]
+   ]
+  }
+ },
+ "photos": {
+  "hub-hero": {
+   "credit": "HJUdall",
+   "page": "https://commons.wikimedia.org/wiki/File:26_Ford_Transit_250_High_Roof_Reefer_Van.jpg",
+   "license": "CC0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "alt": "A white 2026 Ford Transit 250 high-roof van on a dealer lot, front three-quarter view"
+  },
+  "ch1-hero": {
+   "credit": "HJUdall",
+   "page": "https://commons.wikimedia.org/wiki/File:20_Ford_Transit_150_XLT.jpg",
+   "license": "CC0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "alt": "A dark gray 2020 Ford Transit 150 XLT low-roof passenger van on a showroom floor"
+  },
+  "ch2-hero": {
+   "credit": "4300streetcar",
+   "page": "https://commons.wikimedia.org/wiki/File:LRTA_CrossTownConnect_Ford_E-Transit_van_charging_in_Acton,_MA_October_2026_1.jpg",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "alt": "A white Ford E-Transit shuttle van plugged in at a public charging station"
+  },
+  "ch3-hero": {
+   "credit": "Elise240SX",
+   "page": "https://commons.wikimedia.org/wiki/File:2020_Ford_Transit_350_XLT_Passenger_Van_in_Oxford_White,_Front_Right,_05-21-2022.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": "A white 2020 Ford Transit 350 XLT high-roof passenger van, front three-quarter view"
+  }
+ },
+ "find": {
+  "picker": [
+   {
+    "model": "Transit",
+    "years": "2015–2026",
+    "ch": "which-transit"
+   },
+   {
+    "model": "E-Transit",
+    "years": "2022–2026",
+    "ch": "e-transit"
+   }
+  ],
+  "terms": {
+   "": [
+    "Transit",
+    "Ford Transit",
+    "cargo van",
+    "work van",
+    "full-size van",
+    "camper van",
+    "van life"
+   ],
+   "which-transit": [
+    "T-150",
+    "T-250",
+    "T-350",
+    "high roof",
+    "EcoBoost van",
+    "passenger wagon",
+    "15 seats",
+    "AWD van"
+   ],
+   "e-transit": [
+    "E-Transit",
+    "electric van",
+    "EV van",
+    "fleet EV",
+    "USPS van"
+   ],
+   "used-checklist": [
+    "used van",
+    "fleet van",
+    "delivery van",
+    "van inspection"
+   ]
+  }
+ }
+}

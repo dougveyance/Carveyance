@@ -508,6 +508,18 @@ def page(title_tag, desc, url, image, ld, header, main, js=""):
 
 {nav()}
 
+<div class="findbar">
+  <div class="wrap">
+    <a class="fb-back" href="/fitdrive/guides/">&larr; All guides</a>
+    <a class="fb-back fb-hub" href="/cars/">The Car Index</a>
+    <div class="fb-search">
+      <input id="carfind" type="search" placeholder="Find a car or guide&hellip;" autocomplete="off" spellcheck="false" aria-label="Search the Car Index and guides">
+      <div id="carfind-results" class="fb-results" hidden></div>
+    </div>
+  </div>
+</div>
+<script src="/cars/carfind.js" defer></script>
+
 {header}
 
 {main}

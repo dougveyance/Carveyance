@@ -34,7 +34,7 @@
     rows = list; active = -1;
     if (!list.length) { box.hidden = true; box.innerHTML = ''; return; }
     box.innerHTML = list.map(function (c, i) {
-      return '<a class="fb-row" data-i="' + i + '" href="/cars/' + c.i + '/">' +
+      return '<a class="fb-row" data-i="' + i + '" href="' + (c.u || '/cars/' + c.i + '/') + '">' +
         '<span class="fb-n">' + c.n.replace(/</g, '&lt;') + '</span>' +
         '<span class="fb-y">' + (c.y || '').replace(/</g, '&lt;') + '</span></a>';
     }).join('');
@@ -66,7 +66,7 @@
     if (box.hidden) return;
     if (e.key === 'ArrowDown') { e.preventDefault(); active = Math.min(active + 1, rows.length - 1); mark(); }
     else if (e.key === 'ArrowUp') { e.preventDefault(); active = Math.max(active - 1, 0); mark(); }
-    else if (e.key === 'Enter' && active >= 0) { e.preventDefault(); location.href = '/cars/' + rows[active].i + '/'; }
+    else if (e.key === 'Enter' && active >= 0) { e.preventDefault(); location.href = rows[active].u || '/cars/' + rows[active].i + '/'; }
     else if (e.key === 'Escape') { render([]); input.blur(); }
   });
   document.addEventListener('click', function (e) {

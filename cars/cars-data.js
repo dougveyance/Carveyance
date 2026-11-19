@@ -31034,5 +31034,284 @@ const CARS_INDEX = [
    "pos": "",
    "fit": ""
   }
+ },
+ {
+  "id": "ford-focus-1st-gen",
+  "name": "Ford Focus (first generation, North America)",
+  "aka": [
+   "ZX3",
+   "ZX5",
+   "SVT Focus",
+   "C170"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Wayne Assembly Plant, Wayne, Michigan; some production in Hermosillo, Mexico)",
+  "years": "2000–2007",
+  "start": 2000,
+  "body": "Compact 3- and 5-door hatchback, sedan and wagon — the New Edge world car that replaced the Escort",
+  "engine": "2.0 SPI; 2.0 Zetec; 2.0 and 2.3 Duratec from 2003; SVT-tuned 2.0",
+  "country": "United States",
+  "quick": "The world car that actually worked: Europe's best handler became America's best-selling small car — 286,166 in year 1 — and the SVT Focus gave the US a real hot hatch.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Front-wheel drive",
+  "gearbox": "5-speed manual or 4-speed automatic; 6-speed Getrag in the SVT",
+  "specsFor": "2000 Focus ZX3 2.0 Zetec",
+  "guide": null,
+  "shop": {
+   "cargurus": "d346"
+  },
+  "hp": 130,
+  "kg": 1163,
+  "kgNote": "Curb weight, ZX3, approximate",
+  "lbs": 2564,
+  "z60": {
+   "sec": 8.5,
+   "kind": "estimated",
+   "note": "Period tests ran the mid 8s with the 5-speed"
+  },
+  "top": {
+   "mph": 118,
+   "kind": "estimated",
+   "note": "Approximate; the European Zetec cars were rated near 120"
+  },
+  "mpg": {
+   "combined": 25,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2000, Zetec manual (22 city, 31 highway)"
+  },
+  "built": {
+   "count": 1822361,
+   "approx": true,
+   "note": "Sold in the US, 1999–2007 calendar years; 286,166 in 2000 alone"
+  },
+  "alongside": [],
+  "prev": {
+   "id": null,
+   "name": "Ford Escort"
+  },
+  "next": {
+   "id": "ford-focus-2nd-gen",
+   "name": "Ford Focus (second generation, North America)"
+  },
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/2000_Ford_Focus_ZX3_in_Sangria_Red_Metallic,_Front_Left,_07-06-2023.jpg/960px-2000_Ford_Focus_ZX3_in_Sangria_Red_Metallic,_Front_Left,_07-06-2023.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "ford-focus-2nd-gen",
+  "name": "Ford Focus (second generation, North America)",
+  "aka": [
+   "Focus coupe",
+   "SES",
+   "Sync"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Wayne Assembly Plant, Wayne, Michigan)",
+  "years": "2008–2011",
+  "start": 2008,
+  "body": "Compact sedan and 2-door coupe — a deep reskin of the first generation's platform; the hatchbacks and wagon were dropped",
+  "engine": "2.0 Duratec",
+  "country": "United States",
+  "quick": "America's placeholder Focus: old bones, new chrome, a 2-door coupe nobody asked for — and Sync, the voice-controlled tech that mattered more than the car around it.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Front-wheel drive",
+  "gearbox": "5-speed manual or 4-speed automatic",
+  "specsFor": "2009 Focus SES sedan",
+  "guide": null,
+  "shop": {
+   "cargurus": "d346"
+  },
+  "hp": 140,
+  "kg": 1190,
+  "kgNote": "Curb weight, sedan, approximate",
+  "lbs": 2623,
+  "z60": {
+   "sec": 8.5,
+   "kind": "estimated",
+   "note": "Period tests"
+  },
+  "top": {
+   "mph": 110,
+   "kind": "estimated",
+   "note": "Approximate"
+  },
+  "mpg": {
+   "combined": 28,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2008 (24 city, up to 35 highway with the manual)"
+  },
+  "built": {
+   "count": 704394,
+   "approx": true,
+   "note": "Sold in the US, 2008–2011 calendar years"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "ford-focus-1st-gen",
+   "name": "Ford Focus (first generation, North America)"
+  },
+  "next": {
+   "id": "ford-focus-3rd-gen",
+   "name": "Ford Focus (third generation)"
+  },
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/2009_Ford_Focus_SES_Sedan_in_Sangria_Red_Metallic,_Front_Left,_06-15-2023.jpg/960px-2009_Ford_Focus_SES_Sedan_in_Sangria_Red_Metallic,_Front_Left,_06-15-2023.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "ford-focus-3rd-gen",
+  "name": "Ford Focus (third generation)",
+  "aka": [
+   "C346",
+   "Focus ST",
+   "Focus Electric",
+   "PowerShift",
+   "Titanium"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Michigan Assembly Plant, Wayne, Michigan)",
+  "years": "2012–2018",
+  "start": 2012,
+  "body": "Global C-segment sedan and 5-door hatchback — the One Ford compact, built in Wayne for North America",
+  "engine": "2.0 GDI; 1.0 EcoBoost; 2.0 EcoBoost ST; electric",
+  "country": "United States",
+  "quick": "The global Focus at its peak — the world's best-selling car in 2012 — undone in America by a dual-clutch gearbox that shuddered its reputation away.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Front-wheel drive",
+  "gearbox": "5- or 6-speed manual; PowerShift 6-speed dual-clutch",
+  "specsFor": "2012 Focus Titanium 2.0",
+  "guide": null,
+  "shop": {
+   "cargurus": "d346"
+  },
+  "hp": 160,
+  "kg": 1343,
+  "kgNote": "Curb weight, Titanium hatch, approximate; the range ran 2,800–3,243 lb",
+  "lbs": 2960,
+  "z60": {
+   "sec": 8.0,
+   "kind": "estimated",
+   "note": "Instrumented tests ran high 7s to low 8s with the manual"
+  },
+  "top": {
+   "mph": 118,
+   "kind": "estimated",
+   "note": "Approximate"
+  },
+  "mpg": {
+   "combined": 31,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2012, PowerShift (27 city, 37 highway)"
+  },
+  "built": {
+   "count": 1356303,
+   "approx": true,
+   "note": "Sold in the US, 2012–2019 calendar years; the last car left Michigan Assembly on May 4, 2018"
+  },
+  "alongside": [
+   {
+    "id": "ford-focus-rs",
+    "name": "Ford Focus RS (Mk3)"
+   }
+  ],
+  "prev": {
+   "id": "ford-focus-2nd-gen",
+   "name": "Ford Focus (second generation, North America)"
+  },
+  "next": null,
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/2012_Ford_Focus_Titanium_hatchback_--_07-09-2011_front.jpg/960px-2012_Ford_Focus_Titanium_hatchback_--_07-09-2011_front.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "ford-focus-rs",
+  "name": "Ford Focus RS (Mk3)",
+  "aka": [
+   "Nitrous Blue",
+   "Drift Mode",
+   "RS"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Saarlouis, Germany)",
+  "years": "2016–2018",
+  "start": 2016,
+  "body": "5-door all-wheel-drive hot hatch — the first RS Ford ever sold in America",
+  "engine": "2.3 EcoBoost turbo 4-cylinder",
+  "country": "Germany",
+  "quick": "350 hp, all-wheel drive, a manual, and a button labeled Drift Mode: the first RS America was ever allowed to buy hit 60 in 4.6 seconds and left after 3 years.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "All-wheel drive with torque-vectoring rear drive unit — and Drift Mode",
+  "gearbox": "6-speed manual",
+  "specsFor": "2016 Focus RS",
+  "guide": null,
+  "shop": {
+   "cargurus": "d346"
+  },
+  "hp": 350,
+  "kg": 1569,
+  "kgNote": "Curb weight",
+  "lbs": 3459,
+  "z60": {
+   "sec": 4.6,
+   "kind": "tested",
+   "note": "Instrumented tests ran 4.5–4.7 — launch control and all-wheel drive do the work"
+  },
+  "top": {
+   "mph": 165,
+   "kind": "claimed",
+   "note": "Published figure"
+  },
+  "mpg": {
+   "combined": 22,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2016 (19 city, 25 highway), premium fuel"
+  },
+  "built": null,
+  "alongside": [
+   {
+    "id": "ford-focus-3rd-gen",
+    "name": "Ford Focus (third generation)"
+   }
+  ],
+  "prev": {
+   "id": null,
+   "name": "Ford Focus RS Mk2 (Europe only)"
+  },
+  "next": null,
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/2016_Ford_Focus_MkIII_RS_(29933423530).jpg/960px-2016_Ford_Focus_MkIII_RS_(29933423530).jpg",
+   "pos": "",
+   "fit": ""
+  }
  }
 ];

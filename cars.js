@@ -32016,6 +32016,7 @@ const CARS = [
       },
       {
         "name": "Carrera RS 3.8",
+        "built": {"count": 55},
         "power": {"hp": 296, "note": "300 PS, 3.8-liter"},
         "detail": "1993; 55 built; wide body and a 3.8-liter engine"
       },
@@ -33528,6 +33529,7 @@ const CARS = [
       },
       {
         "name": "Special Roadster",
+        "built": {"count": 26, "note": "540 K Special Roadsters"},
         "detail": "The long-tail Sindelfingen body; 29 on the 500 K chassis, and about 26 more on the 540 K"
       }
     ],
@@ -35156,6 +35158,7 @@ const CARS = [
     "versions": [
       {
         "name": "LP400",
+        "built": {"count": 157},
         "power": {"hp": 370, "note": "375 PS DIN"},
         "weight": null,
         "zero60": null,
@@ -35165,11 +35168,13 @@ const CARS = [
       },
       {
         "name": "LP400 S",
+        "built": {"count": 235},
         "power": {"hp": 350, "note": "355 PS DIN"},
         "detail": "1978–1982; 235 built; fender flares and the optional wing"
       },
       {
         "name": "LP500 S (5000 S)",
+        "built": {"count": 321},
         "power": {"hp": 370, "note": "4,754 cc, DIN"},
         "weight": {"kg": 1480, "lb": 3263, "note": "Dry"},
         "zero60": {"sec": 5.7, "kind": "claimed", "note": "An estimate"},
@@ -35178,11 +35183,13 @@ const CARS = [
       },
       {
         "name": "5000 QV",
+        "built": {"count": 610, "approx": true},
         "power": {"hp": 449, "note": "455 PS European; US injected cars listed 420"},
         "detail": "1985–1988; 4 valves per cylinder, 455 hp in European trim"
       },
       {
         "name": "25th Anniversary",
+        "built": {"count": 657},
         "power": {"hp": 449, "note": "455 PS European"},
         "detail": "1988–1990; 657 built; restyled by Horacio Pagani"
       }
@@ -35340,10 +35347,12 @@ const CARS = [
     "versions": [
       {
         "name": "EB110 GT",
+        "built": {"count": 96, "note": "Bugatti's retrospective"},
         "detail": "1991–1995; 96 built; 553 hp"
       },
       {
         "name": "EB110 Super Sport",
+        "built": {"count": 32, "note": "Bugatti's retrospective"},
         "power": {"hp": 603, "note": "Bugatti's retrospective figure"},
         "detail": "1992–1995; 32 built; about 603 hp and 150 kg lighter"
       }
@@ -35440,6 +35449,7 @@ const CARS = [
       },
       {
         "name": "NSX-R (NA1)",
+        "built": {"count": 483, "note": "Japan only, 1992–1995"},
         "power": {"hp": 276, "note": "280 PS official"},
         "weight": {"kg": 1230, "lb": 2712},
         "zero60": {"sec": 4.9, "kind": "estimated", "note": "Published estimate"},
@@ -35745,10 +35755,12 @@ const CARS = [
     "versions": [
       {
         "name": "T.50",
+        "built": {"count": 100},
         "detail": "2022 on; 100 road cars; 6-speed H-pattern manual"
       },
       {
         "name": "T.50s Niki Lauda",
+        "built": {"count": 25},
         "power": {"hp": 761, "note": "772 PS at 11,500 rpm"},
         "detail": "25 track-only cars; 761 hp (772 PS), under 900 kg wet, paddle-shift sequential; no 0-60 published, since buyers choose their own gearing"
       }
@@ -35880,6 +35892,7 @@ const CARS = [
     "versions": [
       {
         "name": "Performance",
+        "built": {"na": "A prototype configuration; production is promised for 2028"},
         "detail": "Fans and active aero; Tesla claims 0-60 in under 1.6 seconds",
         "zero60": {
           "sec": 1.6,
@@ -35889,6 +35902,7 @@ const CARS = [
       },
       {
         "name": "Thrust",
+        "built": {"na": "A prototype configuration; production is promised for 2028"},
         "detail": "Rear SpaceX cold-gas thrusters; the October 2026 demonstration car",
         "zero60": {
           "sec": 0.81,
@@ -35903,6 +35917,7 @@ const CARS = [
       },
       {
         "name": "Rocket",
+        "built": {"na": "A prototype configuration; production is promised for 2028"},
         "detail": "Invite-only; thrusters all around, what Tesla calls the full flight system",
         "zero60": {
           "sec": 0.59,
@@ -35987,10 +36002,12 @@ const CARS = [
     "versions": [
       {
         "name": "2800 CS",
+        "built": {"count": 9399},
         "detail": "1968–1971; 9,399 built; the original 2.8-liter car"
       },
       {
         "name": "3.0 CS",
+        "built": {"count": 11063},
         "power": {"hp": 180, "note": "DIN; US cars 170 SAE"},
         "weight": {"kg": 1400},
         "zero60": {"sec": 10.0, "kind": "tested", "note": "Road & Track, US 1973 car"},
@@ -35999,16 +36016,19 @@ const CARS = [
       },
       {
         "name": "3.0 CSi",
+        "built": {"count": 8199},
         "power": {"hp": 197, "note": "200 PS, Bosch injection"},
         "detail": "1971–1975; 8,199 built; Bosch injection, 200 PS"
       },
       {
         "name": "3.0 CSL",
+        "built": {"count": 1265, "approx": true, "note": "Counts run 1,100–1,265"},
         "power": {"hp": 206, "note": "Final 3.2-liter spec"},
         "detail": "1971–1975; the lightweight homologation car, winged 'Batmobile' at the end; roughly 1,100–1,265 built, counts vary"
       },
       {
         "name": "2.5 CS",
+        "built": {"count": 844},
         "power": {"hp": 150, "note": "DIN"},
         "detail": "1974–1976; 844 built; the energy-crisis economy run-out"
       }
@@ -36821,15 +36841,18 @@ const CARS = [
     "versions": [
       {
         "name": "1989",
+        "built": {"count": 15519},
         "detail": "15,519 built; the debut, 5-speed only"
       },
       {
         "name": "1990",
+        "built": {"count": 8302},
         "power": {"hp": 220, "note": "Unchanged Yamaha V6"},
         "detail": "8,302 built; driver airbag added"
       },
       {
         "name": "1991 and the Plus package",
+        "built": {"count": 8916},
         "power": {"hp": 220, "note": "Unchanged Yamaha V6"},
         "detail": "8,916 built; 6-spoke wheels, last of the first shape"
       }
@@ -37189,6 +37212,7 @@ const CARS = [
       },
       {
         "name": "Final Edition",
+        "built": {"count": 1560, "note": "1991 only"},
         "power": {"hp": 144, "note": "Same 5.9 V8"},
         "detail": "1991; 1,560 built, badge on the dash"
       },
@@ -37275,6 +37299,7 @@ const CARS = [
     "versions": [
       {
         "name": "S351, 1994",
+        "built": {"count": 44},
         "power": {"hp": 371, "note": "Naturally aspirated"},
         "zero60": null,
         "top": null,
@@ -37282,11 +37307,13 @@ const CARS = [
       },
       {
         "name": "S351 R-code",
+        "built": {"count": 53, "note": "The 1995 R-codes"},
         "power": {"hp": 480, "note": "Supercharged, 1995 rating"},
         "detail": "Supercharged; 53 of the 126 1995 cars"
       },
       {
         "name": "S351, 1997–1999",
+        "built": {"count": 128, "note": "40, 22 and 46 by year"},
         "power": {"hp": 495, "note": "Supercharged; 490 lb-ft"},
         "zero60": {"sec": 4.6, "kind": "estimated", "note": "Period estimates"},
         "top": {"mph": 170, "kind": "claimed", "note": "Period claims"},
@@ -37294,6 +37321,7 @@ const CARS = [
       },
       {
         "name": "SR",
+        "built": {"na": "A handful of race cars; registries differ"},
         "power": {"hp": 480, "note": "Supercharged, race-prepared"},
         "detail": "The race-prepared handful"
       }
@@ -38219,6 +38247,7 @@ const CARS = [
       },
       {
         "name": "1.8",
+        "built": {"na": "Within the 431,506 NA total; Mazda published no split by engine"},
         "detail": "1994–1997; 128 hp, 133 from 1996",
         "power": {
           "hp": 128,
@@ -38227,6 +38256,7 @@ const CARS = [
       },
       {
         "name": "Monster Miata",
+        "built": {"na": "An aftermarket conversion; Monster Motorsports published no count"},
         "detail": "Monster Motorsports' Ford 5.0 V8 conversion, San Diego, from the early 1990s; kit or turnkey",
         "power": {
           "hp": 225,

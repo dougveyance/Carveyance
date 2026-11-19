@@ -249,6 +249,8 @@ def version_cars(c):
         vc = dict(c)
         for k in VKEYS:
             vc[k] = v[k] if k in v else (c.get(k) if i == 0 else None)
+        if "built" in v:
+            vc["built"] = v["built"]
         vc["specsFor"] = v.get("specsFor") or (c.get("specsFor", "") if i == 0 else "")
         out.append((v, vc))
     return out
@@ -282,7 +284,7 @@ def numbers_html(c, specs_for):
     table = ('<div class="vtable"><div class="kick">All versions</div><div class="vscroll"><table>'
              '<thead><tr><th>Engine</th><th>Power</th><th>Weight</th><th>0&ndash;60 mph</th><th>Top speed</th><th>MPG</th></tr></thead>'
              f'<tbody>{rows}</tbody></table></div>'
-             '<p class="specs-for">Built covers every version together. A dash means we haven\u2019t found a figure we trust for that version.</p></div>')
+             '<p class="specs-for">Built covers every version together unless a version shows its own count. A dash means we haven\u2019t found a figure we trust for that version.</p></div>')
     js = ('<script>(function(){var b=document.querySelectorAll(".vers [role=tab]");'
           'function go(t){b.forEach(function(x){var on=x===t;x.setAttribute("aria-selected",on);x.tabIndex=on?0:-1;'
           'document.getElementById(x.getAttribute("aria-controls")).hidden=!on;});}'

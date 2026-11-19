@@ -273,34 +273,39 @@
  },
  "photos": {
   "hub-hero": {
-   "want": "A current F-150 working or towing",
-   "credit": "Ford",
-   "alt": "A 2026 Ford F-150 Lariat towing a trailer on a highway"
+   "credit": "Deathpallie325",
+   "page": "https://commons.wikimedia.org/wiki/File:2024_Ford_F-150_King_Ranch_front_view.jpg",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "alt": "A white 2024 Ford F-150 King Ranch, front three-quarter view"
   },
   "ch1-hero": {
-   "want": "A 2021–2026 F-150",
-   "credit": "Ford",
-   "alt": "A 2026 Ford F-150 Lariat on a job site"
-  },
-  "ch1-cabin": {
-   "want": "The 2024–2026 cabin with the 12-inch screens",
-   "credit": "Ford",
-   "alt": "The dashboard and center touchscreen of a 2026 Ford F-150 Lariat"
+   "credit": "Deathpallie325",
+   "page": "https://commons.wikimedia.org/wiki/File:2024_Ford_F-150_Lariat_front_view.jpg",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "alt": "A black 2024 Ford F-150 Lariat PowerBoost, front three-quarter view"
   },
   "ch2-hero": {
-   "want": "A 2015–2020 F-150",
-   "credit": "Ford",
-   "alt": "A 2018 Ford F-150 XLT SuperCrew parked at a work site"
+   "credit": "Kevauto",
+   "page": "https://commons.wikimedia.org/wiki/File:2018_Ford_F-150_XLT_Crew_Cab,_front_11.10.19.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": "A 2018 Ford F-150 XLT Crew Cab, front view"
   },
   "ch3-hero": {
-   "want": "A Raptor or Raptor R in the dirt",
-   "credit": "Ford",
-   "alt": "A Ford F-150 Raptor R kicking up dust in the desert"
+   "credit": "HJUdall",
+   "page": "https://commons.wikimedia.org/wiki/File:23_Ford_F-150_Raptor_R.jpg",
+   "license": "CC0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0",
+   "alt": "A silver 2023 Ford F-150 Raptor R, front three-quarter view"
   },
   "ch4-hero": {
-   "want": "An F-150 bed or tailgate detail",
-   "credit": "Ford",
-   "alt": "The Pro Access tailgate of a 2026 Ford F-150"
+   "credit": "Deathpallie325",
+   "page": "https://commons.wikimedia.org/wiki/File:2024_Ford_F-150_Lariat_rear_view.jpg",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "alt": "The tailgate and bed of a 2024 Ford F-150 Lariat"
   }
  },
  "find": {

@@ -44004,6 +44004,11 @@ const CARS = [
       },
       {
         "name": "6.7 Power Stroke",
+        "power": {"hp": 330, "note": "Ford's top medium-duty rating; 270 and 300-hp ratings below it", "src": "https://www.ford.com/commercial-trucks/f650-f750/"},
+        "weight": {"kg": 4990, "lb": 11001, "note": "Bare chassis-cab curb weight, approximate; varies widely with the body fitted"},
+        "zero60": {"na": "No instrumented figures published for medium-duty chassis cabs"},
+        "top": {"mph": 75, "kind": "estimated", "note": "Speed-limited for commercial duty; commonly reported"},
+        "mpg": {"na": "Heavy-duty and medium-duty trucks are exempt from EPA fuel-economy ratings"},
         "detail": "2016 on: Ford's own diesel replaces Cummins"
       },
       {

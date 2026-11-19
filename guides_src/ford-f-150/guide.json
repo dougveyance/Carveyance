@@ -1,0 +1,379 @@
+{
+ "id": "ford-f-150",
+ "make": "Ford",
+ "model": "F-150",
+ "years": "2015–2026",
+ "byline": "Rowan Ashby",
+ "published": "2026-11-19",
+ "updated": "2026-11-19",
+ "cars": [
+  "ford-f-series-13th-gen",
+  "ford-f-series-14th-gen",
+  "ford-f-150-raptor"
+ ],
+ "shop": {
+  "cargurus": "d337"
+ },
+ "chapters": [
+  "2021-2026",
+  "2015-2020",
+  "raptor",
+  "used-checklist"
+ ],
+ "series": {
+  "a21h": {
+   "name": "PowerBoost hybrid, 2021",
+   "color": "#e05c2a"
+  },
+  "a21v": {
+   "name": "5.0 V8, 2021",
+   "color": "#e05c2a"
+  },
+  "a21t": {
+   "name": "3.5 EcoBoost Tremor, 2021",
+   "color": "#e05c2a"
+  },
+  "a21r": {
+   "name": "Raptor, 2021",
+   "color": "#8a4fbf"
+  },
+  "a23rr": {
+   "name": "Raptor R, 2023",
+   "color": "#8a4fbf"
+  },
+  "b17e": {
+   "name": "3.5 EcoBoost, 2017",
+   "color": "#2E6E96"
+  },
+  "b18v": {
+   "name": "5.0 V8, 2018",
+   "color": "#2E6E96"
+  },
+  "b17r": {
+   "name": "Raptor, 2017",
+   "color": "#8a4fbf"
+  },
+  "m21h": {
+   "name": "PowerBoost hybrid, 4x4",
+   "color": "#e05c2a"
+  },
+  "m21s": {
+   "name": "2.7 EcoBoost, 4x4",
+   "color": "#e05c2a"
+  },
+  "m21e": {
+   "name": "3.5 EcoBoost, 4x4",
+   "color": "#e05c2a"
+  },
+  "m21v": {
+   "name": "5.0 V8, 4x4",
+   "color": "#e05c2a"
+  },
+  "m21d": {
+   "name": "3.0 diesel, 4x4 (to 2021)",
+   "color": "#e05c2a"
+  },
+  "m21r": {
+   "name": "Raptor",
+   "color": "#8a4fbf"
+  },
+  "m24rr": {
+   "name": "Raptor R",
+   "color": "#8a4fbf"
+  },
+  "tw26": {
+   "name": "F-150, properly equipped, 2026",
+   "color": "#e05c2a"
+  },
+  "tw26h": {
+   "name": "PowerBoost hybrid",
+   "color": "#e05c2a"
+  },
+  "tw26r": {
+   "name": "Raptor",
+   "color": "#8a4fbf"
+  },
+  "p15": {
+   "name": "2015 XL",
+   "color": "#2E6E96"
+  },
+  "p21": {
+   "name": "2021 XL",
+   "color": "#e05c2a"
+  },
+  "p26": {
+   "name": "2026 XL",
+   "color": "#e05c2a"
+  },
+  "p26r": {
+   "name": "2026 Raptor",
+   "color": "#8a4fbf"
+  },
+  "p26rr": {
+   "name": "2026 Raptor R",
+   "color": "#8a4fbf"
+  }
+ },
+ "charts": {
+  "accel": {
+   "n": 1,
+   "title": "0–60 mph, as tested, 2021–2023 trucks",
+   "sub": "Seconds; shorter is quicker.",
+   "source": "MotorTrend, Edmunds and Car and Driver instrumented tests",
+   "bars": [
+    [
+     "a23rr",
+     3.6,
+     "3.6 sec"
+    ],
+    [
+     "a21h",
+     5.3,
+     "5.3 sec"
+    ],
+    [
+     "a21r",
+     5.6,
+     "5.6 sec"
+    ],
+    [
+     "a21t",
+     5.8,
+     "5.8 sec"
+    ],
+    [
+     "a21v",
+     6.2,
+     "6.2 sec"
+    ]
+   ]
+  },
+  "mpg": {
+   "n": 2,
+   "title": "EPA combined fuel economy, 4x4",
+   "sub": "Miles per gallon; 2021 ratings except where a version started later.",
+   "source": "US EPA, fueleconomy.gov",
+   "bars": [
+    [
+     "m21h",
+     24,
+     "24 mpg"
+    ],
+    [
+     "m21d",
+     23,
+     "23 mpg"
+    ],
+    [
+     "m21s",
+     21,
+     "21 mpg"
+    ],
+    [
+     "m21e",
+     20,
+     "20 mpg"
+    ],
+    [
+     "m21v",
+     19,
+     "19 mpg"
+    ],
+    [
+     "m21r",
+     16,
+     "16 mpg"
+    ],
+    [
+     "m24rr",
+     12,
+     "12 mpg"
+    ]
+   ]
+  },
+  "accel15": {
+   "n": 3,
+   "title": "0–60 mph, as tested, 2015–2020 trucks",
+   "sub": "Seconds; shorter is quicker.",
+   "source": "Car and Driver and MotorTrend instrumented tests",
+   "bars": [
+    [
+     "b17r",
+     5.2,
+     "5.2 sec"
+    ],
+    [
+     "b17e",
+     5.7,
+     "5.7 sec"
+    ],
+    [
+     "b18v",
+     5.9,
+     "5.9 sec"
+    ]
+   ]
+  },
+  "tow": {
+   "n": 4,
+   "title": "How much it can tow, 2026",
+   "sub": "Ford's maximum ratings, in kilograms with pounds in parentheses. Each applies only to specific configurations.",
+   "source": "Ford 2026 F-150 specifications",
+   "bars": [
+    [
+     "tw26",
+     6123,
+     "6,123 kg (13,500 lb)"
+    ],
+    [
+     "tw26h",
+     5126,
+     "5,126 kg (11,300 lb)"
+    ],
+    [
+     "tw26r",
+     3946,
+     "3,946 kg (8,700 lb)"
+    ]
+   ]
+  },
+  "price": {
+   "n": 5,
+   "title": "What a new one cost, in 2026 dollars",
+   "sub": "Starting prices before delivery, adjusted with the US consumer price index. The original price is in each label.",
+   "source": "Ford prices; Carveyance CPI arithmetic",
+   "bars": [
+    [
+     "p15",
+     36900,
+     "$36,900 · $26,030 then"
+    ],
+    [
+     "p21",
+     35900,
+     "$35,900 · $28,940 then"
+    ],
+    [
+     "p26",
+     40085,
+     "$40,085"
+    ],
+    [
+     "p26r",
+     81800,
+     "$81,800"
+    ],
+    [
+     "p26rr",
+     113725,
+     "$113,725"
+    ]
+   ]
+  }
+ },
+ "photos": {
+  "hub-hero": {
+   "want": "A current F-150 working or towing",
+   "credit": "Ford",
+   "alt": "A 2026 Ford F-150 Lariat towing a trailer on a highway"
+  },
+  "ch1-hero": {
+   "want": "A 2021–2026 F-150",
+   "credit": "Ford",
+   "alt": "A 2026 Ford F-150 Lariat on a job site"
+  },
+  "ch1-cabin": {
+   "want": "The 2024–2026 cabin with the 12-inch screens",
+   "credit": "Ford",
+   "alt": "The dashboard and center touchscreen of a 2026 Ford F-150 Lariat"
+  },
+  "ch2-hero": {
+   "want": "A 2015–2020 F-150",
+   "credit": "Ford",
+   "alt": "A 2018 Ford F-150 XLT SuperCrew parked at a work site"
+  },
+  "ch3-hero": {
+   "want": "A Raptor or Raptor R in the dirt",
+   "credit": "Ford",
+   "alt": "A Ford F-150 Raptor R kicking up dust in the desert"
+  },
+  "ch4-hero": {
+   "want": "An F-150 bed or tailgate detail",
+   "credit": "Ford",
+   "alt": "The Pro Access tailgate of a 2026 Ford F-150"
+  }
+ },
+ "find": {
+  "picker": [
+   {
+    "model": "F-150",
+    "years": "2021–2026",
+    "ch": "2021-2026"
+   },
+   {
+    "model": "F-150",
+    "years": "2015–2020",
+    "ch": "2015-2020"
+   },
+   {
+    "model": "F-150 Raptor",
+    "years": "2017–2026",
+    "ch": "raptor"
+   }
+  ],
+  "terms": {
+   "": [
+    "F-150",
+    "Ford F-150",
+    "F150",
+    "full-size truck",
+    "half-ton",
+    "pickup"
+   ],
+   "2021-2026": [
+    "PowerBoost",
+    "hybrid",
+    "Pro Power Onboard",
+    "2.7-liter",
+    "3.5-liter",
+    "5.0",
+    "V8",
+    "Tremor",
+    "Pro Access tailgate",
+    "XL",
+    "XLT",
+    "Lariat",
+    "King Ranch",
+    "Platinum"
+   ],
+   "2015-2020": [
+    "aluminum",
+    "EcoBoost",
+    "10-speed",
+    "Power Stroke",
+    "diesel",
+    "used F-150",
+    "2018 refresh"
+   ],
+   "raptor": [
+    "Raptor",
+    "Raptor R",
+    "supercharged",
+    "5.2",
+    "FOX shocks",
+    "37-inch tires",
+    "desert"
+   ],
+   "used-checklist": [
+    "used",
+    "checklist",
+    "recalls",
+    "cam phasers",
+    "timing chain",
+    "10-speed shudder",
+    "aluminum repair",
+    "towing"
+   ]
+  }
+ }
+}

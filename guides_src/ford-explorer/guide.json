@@ -1,0 +1,308 @@
+{
+ "id": "ford-explorer",
+ "make": "Ford",
+ "model": "Explorer",
+ "years": "2011–2026",
+ "byline": "Celia Marchetti",
+ "published": "2026-11-19",
+ "updated": "2026-11-19",
+ "cars": [
+  "ford-explorer-5th-gen",
+  "ford-explorer-6th-gen"
+ ],
+ "shop": {
+  "cargurus": "d334"
+ },
+ "chapters": [
+  "2020-2026",
+  "2011-2019",
+  "st",
+  "used-checklist"
+ ],
+ "series": {
+  "ast": {
+   "name": "Explorer ST, Ford's figure",
+   "color": "#e05c2a"
+  },
+  "asp": {
+   "name": "Explorer Sport, 2013, tests",
+   "color": "#2E6E96"
+  },
+  "a23": {
+   "name": "2.3 EcoBoost, tests",
+   "color": "#e05c2a"
+  },
+  "m25h": {
+   "name": "Hybrid, AWD (to 2024)",
+   "color": "#1d7f6e"
+  },
+  "m23": {
+   "name": "2.3 EcoBoost, AWD",
+   "color": "#e05c2a"
+  },
+  "m30": {
+   "name": "3.0 EcoBoost ST, AWD",
+   "color": "#e05c2a"
+  },
+  "m35": {
+   "name": "3.5 V6, AWD, 2013",
+   "color": "#2E6E96"
+  },
+  "m35s": {
+   "name": "3.5 EcoBoost Sport, AWD",
+   "color": "#2E6E96"
+  },
+  "s91": {
+   "name": "1991, year 1",
+   "color": "#9aa5b1"
+  },
+  "s00": {
+   "name": "2000, the peak",
+   "color": "#9aa5b1"
+  },
+  "s09": {
+   "name": "2009, the bottom",
+   "color": "#9aa5b1"
+  },
+  "s16": {
+   "name": "2016",
+   "color": "#2E6E96"
+  },
+  "s25": {
+   "name": "2025",
+   "color": "#e05c2a"
+  },
+  "p20": {
+   "name": "2020 XLT",
+   "color": "#e05c2a"
+  },
+  "p26a": {
+   "name": "2026 Active 100A",
+   "color": "#e05c2a"
+  },
+  "p26s": {
+   "name": "2026 ST",
+   "color": "#e05c2a"
+  }
+ },
+ "charts": {
+  "accel": {
+   "n": 1,
+   "title": "0–60 mph, the quick ones",
+   "sub": "Seconds; shorter is quicker.",
+   "source": "Ford's ST figure; instrumented tests for the rest",
+   "bars": [
+    [
+     "ast",
+     5.5,
+     "5.5 sec"
+    ],
+    [
+     "asp",
+     5.7,
+     "5.7 sec"
+    ],
+    [
+     "a23",
+     6.5,
+     "6.5 sec"
+    ]
+   ]
+  },
+  "mpg": {
+   "n": 2,
+   "title": "EPA combined fuel economy, AWD",
+   "sub": "Miles per gallon.",
+   "source": "US EPA, fueleconomy.gov",
+   "bars": [
+    [
+     "m25h",
+     25,
+     "25 mpg"
+    ],
+    [
+     "m23",
+     23,
+     "23 mpg"
+    ],
+    [
+     "m30",
+     20,
+     "20 mpg"
+    ],
+    [
+     "m35",
+     19,
+     "19 mpg"
+    ],
+    [
+     "m35s",
+     18,
+     "18 mpg"
+    ]
+   ]
+  },
+  "sales": {
+   "n": 3,
+   "title": "35 years of Explorer sales",
+   "sub": "US sales in selected calendar years: the launch, the all-time SUV record, the crash, the recovery, today.",
+   "source": "Ford US sales figures, via Wikipedia",
+   "bars": [
+    [
+     "s91",
+     282837,
+     "282,837"
+    ],
+    [
+     "s00",
+     445157,
+     "445,157"
+    ],
+    [
+     "s09",
+     52190,
+     "52,190"
+    ],
+    [
+     "s16",
+     216294,
+     "216,294"
+    ],
+    [
+     "s25",
+     222706,
+     "222,706"
+    ]
+   ]
+  },
+  "price": {
+   "n": 4,
+   "title": "What a new one cost, in 2026 dollars",
+   "sub": "Starting prices, adjusted with the US consumer price index. The original price is in each label.",
+   "source": "Ford prices; Carveyance CPI arithmetic",
+   "bars": [
+    [
+     "p20",
+     49100,
+     "$49,100 · $37,770 then"
+    ],
+    [
+     "p26a",
+     38465,
+     "$38,465"
+    ],
+    [
+     "p26s",
+     54905,
+     "$54,905"
+    ]
+   ]
+  }
+ },
+ "photos": {
+  "hub-hero": {
+   "credit": "OWS Photography",
+   "page": "https://commons.wikimedia.org/wiki/File:Ford_Explorer_ST_(U625)_Washington_DC_Metro_Area,_USA.jpg",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "alt": "A white Ford Explorer ST from above, front view"
+  },
+  "ch1-hero": {
+   "credit": "Mr.choppers",
+   "page": "https://commons.wikimedia.org/wiki/File:2020_Ford_Explorer_XLT_in_Oxford_White,_front_left.jpg",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": "A 2020 Ford Explorer XLT in Oxford White, front three-quarter view"
+  },
+  "ch2-hero": {
+   "credit": "MercurySable99",
+   "page": "https://commons.wikimedia.org/wiki/File:2016_Ford_Explorer_XLT_4WD.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": "A silver 2016 Ford Explorer XLT, front three-quarter view"
+  },
+  "ch3-hero": {
+   "credit": "IFCAR",
+   "page": "https://commons.wikimedia.org/wiki/File:2013_Ford_Explorer_Sport_--_2012_NYIAS.JPG",
+   "license": "Public domain",
+   "licenseUrl": "https://commons.wikimedia.org/wiki/File:2013_Ford_Explorer_Sport_--_2012_NYIAS.JPG",
+   "alt": "A white 2013 Ford Explorer Sport at the New York auto show"
+  },
+  "ch4-hero": {
+   "credit": "IFCAR",
+   "page": "https://commons.wikimedia.org/wiki/File:2008_Ford_Explorer_Ironman.jpg",
+   "license": "Public domain",
+   "licenseUrl": "https://commons.wikimedia.org/wiki/File:2008_Ford_Explorer_Ironman.jpg",
+   "alt": "A black 2008 Ford Explorer"
+  }
+ },
+ "find": {
+  "picker": [
+   {
+    "model": "Explorer",
+    "years": "2020–2026",
+    "ch": "2020-2026"
+   },
+   {
+    "model": "Explorer",
+    "years": "2011–2019",
+    "ch": "2011-2019"
+   },
+   {
+    "model": "Explorer ST / Sport",
+    "years": "2013–2026",
+    "ch": "st"
+   }
+  ],
+  "terms": {
+   "": [
+    "Explorer",
+    "Ford Explorer",
+    "3-row SUV",
+    "three-row",
+    "family SUV",
+    "midsize SUV"
+   ],
+   "2020-2026": [
+    "Active",
+    "ST-Line",
+    "Tremor",
+    "Platinum",
+    "hybrid",
+    "2.3 EcoBoost",
+    "BlueCruise",
+    "2025 refresh",
+    "Timberline",
+    "King Ranch"
+   ],
+   "2011-2019": [
+    "XLT",
+    "Limited",
+    "Sport",
+    "2.0 EcoBoost",
+    "2.3 EcoBoost",
+    "3.5 V6",
+    "used Explorer",
+    "2016 refresh"
+   ],
+   "st": [
+    "ST",
+    "Explorer ST",
+    "400 hp",
+    "Explorer Sport",
+    "365 hp",
+    "performance SUV"
+   ],
+   "used-checklist": [
+    "used",
+    "checklist",
+    "water pump",
+    "timing chain",
+    "recalls",
+    "transmission",
+    "rear main seal",
+    "carbon monoxide"
+   ]
+  }
+ }
+}

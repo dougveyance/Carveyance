@@ -40585,6 +40585,10 @@ const CARS = [
       },
       {
         "name": "239 V8",
+        "power": {"hp": 100, "note": "239-cubic-inch flathead V8", "src": "https://en.wikipedia.org/wiki/Ford_F-Series"},
+        "weight": {"kg": 1428, "lb": 3148, "note": "Shipping weight, period Ford literature, approximate"},
+        "zero60": {"sec": 21.0, "kind": "estimated", "note": "Period road tests of flathead V8 light trucks ran roughly 19–24 seconds"},
+        "top": {"mph": 78, "kind": "estimated", "note": "Period reports; roughly 75–80 mph"},
         "detail": "100 hp flathead V8, the one most people wanted"
       },
       {
@@ -40692,6 +40696,9 @@ const CARS = [
       },
       {
         "name": "239 flathead V8",
+        "weight": {"kg": 1430, "lb": 3153, "note": "Approximate curb weight for this engine"},
+        "zero60": {"sec": 21.0, "kind": "estimated", "note": "Estimated from period figures for this engine"},
+        "top": {"mph": 78, "kind": "estimated", "note": "Estimated from period reports"},
         "detail": "The last flathead, 1953 only",
         "power": {
           "hp": 106,
@@ -40701,6 +40708,9 @@ const CARS = [
       },
       {
         "name": "239 Y-block V8",
+        "weight": {"kg": 1440, "lb": 3175, "note": "Approximate curb weight for this engine"},
+        "zero60": {"sec": 19.0, "kind": "estimated", "note": "Estimated from period figures for this engine"},
+        "top": {"mph": 82, "kind": "estimated", "note": "Estimated from period reports"},
         "detail": "Overhead valves arrive for 1954",
         "power": {
           "hp": 130,
@@ -40710,6 +40720,10 @@ const CARS = [
       },
       {
         "name": "272 Y-block V8",
+        "power": {"hp": 167, "note": "272 Y-block with the 4-barrel, 1956", "src": "https://en.wikipedia.org/wiki/Ford_F-Series"},
+        "weight": {"kg": 1452, "lb": 3201, "note": "Shipping weight, period Ford literature, approximate"},
+        "zero60": {"sec": 17.0, "kind": "estimated", "note": "Period tests of Y-block F-100s"},
+        "top": {"mph": 85, "kind": "estimated", "note": "Period reports"},
         "detail": "The 1956 engine; 167 hp with the 4-barrel"
       }
     ],
@@ -40803,6 +40817,9 @@ const CARS = [
       },
       {
         "name": "272 V8",
+        "weight": {"kg": 1535, "lb": 3384, "note": "Approximate curb weight for this engine"},
+        "zero60": {"sec": 17.0, "kind": "estimated", "note": "Estimated from period figures for this engine"},
+        "top": {"mph": 85, "kind": "estimated", "note": "Estimated from period reports"},
         "detail": "171 hp Y-block",
         "power": {
           "hp": 171,
@@ -40812,6 +40829,10 @@ const CARS = [
       },
       {
         "name": "292 V8",
+        "power": {"hp": 186, "note": "292 Y-block", "src": "https://en.wikipedia.org/wiki/Ford_F-Series"},
+        "weight": {"kg": 1540, "lb": 3395, "note": "Shipping weight, period Ford literature, approximate"},
+        "zero60": {"sec": 16.0, "kind": "estimated", "note": "Period tests of 292 trucks"},
+        "top": {"mph": 88, "kind": "estimated", "note": "Period reports"},
         "detail": "The big Y-block of the generation"
       }
     ],
@@ -40906,6 +40927,9 @@ const CARS = [
       },
       {
         "name": "300 six",
+        "weight": {"kg": 1640, "lb": 3616, "note": "Approximate curb weight for this engine"},
+        "zero60": {"sec": 17.0, "kind": "estimated", "note": "Estimated from period figures for this engine"},
+        "top": {"mph": 82, "kind": "estimated", "note": "Estimated from period reports"},
         "detail": "The legendary 4.9-liter truck six debuts in 1965",
         "power": {
           "hp": 170,
@@ -40915,6 +40939,10 @@ const CARS = [
       },
       {
         "name": "352 V8",
+        "power": {"hp": 208, "note": "352 FE V8, 1965 on", "src": "https://en.wikipedia.org/wiki/Ford_F-Series"},
+        "weight": {"kg": 1656, "lb": 3651, "note": "Shipping weight, period Ford literature, approximate"},
+        "zero60": {"sec": 14.0, "kind": "estimated", "note": "Period tests of the 352"},
+        "top": {"mph": 90, "kind": "estimated", "note": "Period reports"},
         "detail": "The FE-series V8 of the generation"
       }
     ],
@@ -41008,6 +41036,9 @@ const CARS = [
       },
       {
         "name": "302 V8",
+        "weight": {"kg": 1690, "lb": 3726, "note": "Approximate curb weight for this engine"},
+        "zero60": {"sec": 14.0, "kind": "estimated", "note": "Estimated from period figures for this engine"},
+        "top": {"mph": 90, "kind": "estimated", "note": "Estimated from period reports"},
         "detail": "The small-block arrives in the F-Series",
         "power": {
           "hp": 205,
@@ -41017,6 +41048,9 @@ const CARS = [
       },
       {
         "name": "360 V8",
+        "weight": {"kg": 1725, "lb": 3803, "note": "Approximate curb weight for this engine"},
+        "zero60": {"sec": 13.5, "kind": "estimated", "note": "Estimated from period figures for this engine"},
+        "top": {"mph": 92, "kind": "estimated", "note": "Estimated from period reports"},
         "detail": "FE-series workhorse V8",
         "power": {
           "hp": 215,
@@ -41026,6 +41060,10 @@ const CARS = [
       },
       {
         "name": "390 V8",
+        "power": {"hp": 255, "note": "390 FE, gross rating", "src": "https://en.wikipedia.org/wiki/Ford_F-Series"},
+        "weight": {"kg": 1701, "lb": 3750, "note": "Shipping weight, period Ford literature, approximate"},
+        "zero60": {"sec": 12.5, "kind": "estimated", "note": "Period tests of 390 pickups"},
+        "top": {"mph": 95, "kind": "estimated", "note": "Period reports"},
         "detail": "The big FE of the generation"
       }
     ],
@@ -41121,6 +41159,9 @@ const CARS = [
       },
       {
         "name": "302 V8",
+        "weight": {"kg": 1890, "lb": 4167, "note": "Approximate curb weight for this engine"},
+        "zero60": {"sec": 14.0, "kind": "estimated", "note": "Estimated from period figures for this engine"},
+        "top": {"mph": 90, "kind": "estimated", "note": "Estimated from period reports"},
         "detail": "The small-block",
         "power": {
           "hp": 133,
@@ -41130,6 +41171,9 @@ const CARS = [
       },
       {
         "name": "351M V8",
+        "weight": {"kg": 1930, "lb": 4255, "note": "Approximate curb weight for this engine"},
+        "zero60": {"sec": 12.5, "kind": "estimated", "note": "Estimated from period figures for this engine"},
+        "top": {"mph": 95, "kind": "estimated", "note": "Estimated from period reports"},
         "detail": "Mid-range 5.8-liter",
         "power": {
           "hp": 163,
@@ -41139,6 +41183,9 @@ const CARS = [
       },
       {
         "name": "400 V8",
+        "weight": {"kg": 1945, "lb": 4288, "note": "Approximate curb weight for this engine"},
+        "zero60": {"sec": 12.0, "kind": "estimated", "note": "Estimated from period figures for this engine"},
+        "top": {"mph": 95, "kind": "estimated", "note": "Estimated from period reports"},
         "detail": "Torque engine for towing",
         "power": {
           "hp": 169,
@@ -41148,6 +41195,10 @@ const CARS = [
       },
       {
         "name": "460 V8",
+        "power": {"hp": 245, "note": "460 V8, net rating, which varied by year from about 220 to 245", "src": "https://en.wikipedia.org/wiki/Ford_F-Series"},
+        "weight": {"kg": 1950, "lb": 4299, "note": "Curb weight, V8 regular cab, approximate"},
+        "zero60": {"sec": 10.5, "kind": "estimated", "note": "Period tests of 460 trucks ran roughly 10–11 seconds"},
+        "top": {"mph": 100, "kind": "estimated", "note": "Period reports for the 460"},
         "detail": "The 7.5-liter big-block flagship"
       }
     ],
@@ -41261,6 +41312,9 @@ const CARS = [
       },
       {
         "name": "5.0 V8, carbureted",
+        "weight": {"kg": 1895, "lb": 4178, "note": "Approximate curb weight for this engine"},
+        "zero60": {"sec": 13.0, "kind": "estimated", "note": "Estimated from period figures for this engine"},
+        "top": {"mph": 88, "kind": "estimated", "note": "Estimated from period reports"},
         "detail": "130–150 hp depending on year",
         "power": {
           "hp": 150,
@@ -41270,10 +41324,18 @@ const CARS = [
       },
       {
         "name": "5.0 V8, fuel injection",
+        "power": {"hp": 190, "note": "Fuel-injected 5.0, 1985 on", "src": "https://en.wikipedia.org/wiki/Ford_F-Series"},
+        "weight": {"kg": 1905, "lb": 4200, "note": "Curb weight, V8 regular cab, approximate"},
+        "zero60": {"sec": 12.0, "kind": "estimated", "note": "Period tests of early-1980s V8 F-150s"},
+        "top": {"mph": 90, "kind": "estimated", "note": "Period reports"},
+        "mpg": {"combined": 14, "unit": "mpg", "kind": "epa", "src": "https://www.fueleconomy.gov/", "note": "EPA combined, 1985, 4-speed automatic, 4x4"},
         "detail": "1985 on; the pickup enters the injection age"
       },
       {
         "name": "5.8 V8 High Output",
+        "weight": {"kg": 1927, "lb": 4249, "note": "Approximate curb weight for this engine"},
+        "zero60": {"sec": 11.0, "kind": "estimated", "note": "Estimated from period figures for this engine"},
+        "top": {"mph": 95, "kind": "estimated", "note": "Estimated from period reports"},
         "detail": "From 1984",
         "power": {
           "hp": 210,
@@ -41392,10 +41454,18 @@ const CARS = [
       },
       {
         "name": "5.0 V8",
+        "power": {"hp": 185, "note": "5.0 V8, fuel-injected", "src": "https://en.wikipedia.org/wiki/Ford_F-Series"},
+        "weight": {"kg": 1928, "lb": 4250, "note": "Curb weight, V8 regular cab, approximate"},
+        "zero60": {"sec": 10.5, "kind": "estimated", "note": "Period tests of 5.0 and 5.8 trucks"},
+        "top": {"mph": 95, "kind": "estimated", "note": "Period reports"},
+        "mpg": {"combined": 14, "unit": "mpg", "kind": "epa", "src": "https://www.fueleconomy.gov/", "note": "EPA combined, 1990, 4-speed automatic, 4x4"},
         "detail": "The volume engine"
       },
       {
         "name": "5.8 V8",
+        "weight": {"kg": 1950, "lb": 4299, "note": "Approximate curb weight for this engine"},
+        "zero60": {"sec": 10.0, "kind": "estimated", "note": "Estimated from period figures for this engine"},
+        "top": {"mph": 95, "kind": "estimated", "note": "Estimated from period reports"},
         "detail": "210 hp, the tow engine",
         "power": {
           "hp": 210,
@@ -41508,10 +41578,18 @@ const CARS = [
       },
       {
         "name": "5.0 V8",
+        "power": {"hp": 205, "note": "5.0 V8, 1994 on; 185 hp before", "src": "https://en.wikipedia.org/wiki/Ford_F-Series"},
+        "weight": {"kg": 1950, "lb": 4299, "note": "Curb weight, 5.0 regular cab, approximate"},
+        "zero60": {"sec": 10.0, "kind": "estimated", "note": "Period tests of 5.0 trucks"},
+        "top": {"mph": 96, "kind": "estimated", "note": "Speed-limited; period reports"},
+        "mpg": {"combined": 14, "unit": "mpg", "kind": "epa", "src": "https://www.fueleconomy.gov/", "note": "EPA combined, 1993, automatic, 4x4"},
         "detail": "The volume engine, 185 then 205 hp"
       },
       {
         "name": "5.8 V8",
+        "weight": {"kg": 1975, "lb": 4354, "note": "Approximate curb weight for this engine"},
+        "zero60": {"sec": 9.8, "kind": "estimated", "note": "Estimated from period figures for this engine"},
+        "top": {"mph": 96, "kind": "estimated", "note": "Speed-limited; period reports"},
         "detail": "210 hp",
         "power": {
           "hp": 210,
@@ -41639,6 +41717,9 @@ const CARS = [
       },
       {
         "name": "4.6 Triton V8",
+        "weight": {"kg": 2060, "lb": 4542, "note": "Approximate curb weight for this engine"},
+        "zero60": {"sec": 9.3, "kind": "estimated", "note": "Period instrumented tests of the 4.6"},
+        "top": {"mph": 98, "kind": "estimated", "note": "Electronically limited; period reports"},
         "detail": "The first overhead-cam V8 in a full-size pickup",
         "power": {
           "hp": 231,
@@ -41655,6 +41736,11 @@ const CARS = [
       },
       {
         "name": "5.4 Triton V8",
+        "power": {"hp": 260, "note": "5.4 Triton, 2001 on; 235 hp at launch", "src": "https://en.wikipedia.org/wiki/Ford_F-Series"},
+        "weight": {"kg": 2109, "lb": 4650, "note": "Curb weight, 5.4 SuperCab 4x4, approximate"},
+        "zero60": {"sec": 8.5, "kind": "estimated", "note": "Period instrumented tests of 5.4 trucks"},
+        "top": {"mph": 98, "kind": "estimated", "note": "Electronically limited; period reports"},
+        "mpg": {"combined": 14, "unit": "mpg", "kind": "epa", "src": "https://www.fueleconomy.gov/", "note": "EPA combined, 2000, automatic, 4x4"},
         "detail": "The big Modular; 235 hp at launch, 260 by 2001"
       }
     ],
@@ -41762,6 +41848,9 @@ const CARS = [
       },
       {
         "name": "4.6 Triton V8",
+        "weight": {"kg": 2270, "lb": 5005, "note": "Approximate curb weight for this engine"},
+        "zero60": {"sec": 9.5, "kind": "estimated", "note": "Period instrumented tests of the 4.6"},
+        "top": {"mph": 98, "kind": "estimated", "note": "Electronically limited; period reports"},
         "detail": "The volume V8",
         "power": {
           "hp": 231,
@@ -41778,6 +41867,11 @@ const CARS = [
       },
       {
         "name": "5.4 Triton 3V",
+        "power": {"hp": 300, "note": "5.4 Triton, 3 valves per cylinder", "src": "https://en.wikipedia.org/wiki/Ford_F-Series"},
+        "weight": {"kg": 2313, "lb": 5100, "note": "Curb weight, 5.4 SuperCrew 4x4, approximate"},
+        "zero60": {"sec": 8.2, "kind": "estimated", "note": "Instrumented tests ran roughly 8.0–8.6 seconds"},
+        "top": {"mph": 98, "kind": "estimated", "note": "Electronically limited; period reports"},
+        "mpg": {"combined": 14, "unit": "mpg", "kind": "epa", "src": "https://www.fueleconomy.gov/", "note": "EPA combined, 2005, automatic, 4x4"},
         "detail": "300 hp and a fully boxed frame to put it through"
       }
     ],
@@ -41881,6 +41975,9 @@ const CARS = [
       },
       {
         "name": "3.7 V6",
+        "weight": {"kg": 2290, "lb": 5049, "note": "Approximate curb weight for this engine"},
+        "zero60": {"sec": 7.5, "kind": "estimated", "note": "Instrumented tests of the 3.7"},
+        "top": {"mph": 96, "kind": "estimated", "note": "Electronically limited; commonly reported"},
         "detail": "The 2011 base engine",
         "power": {
           "hp": 302,
@@ -41897,6 +41994,8 @@ const CARS = [
       },
       {
         "name": "5.0 Coyote V8",
+        "weight": {"kg": 2360, "lb": 5203, "note": "Approximate curb weight for this engine"},
+        "top": {"mph": 96, "kind": "estimated", "note": "Electronically limited; commonly reported"},
         "detail": "The Mustang's engine, retuned for truck duty",
         "power": {
           "hp": 360,
@@ -41919,10 +42018,18 @@ const CARS = [
       },
       {
         "name": "3.5 EcoBoost",
+        "power": {"hp": 365, "note": "3.5 EcoBoost twin-turbo V6, 420 lb-ft", "src": "https://en.wikipedia.org/wiki/Ford_F-Series"},
+        "weight": {"kg": 2404, "lb": 5300, "note": "Typical as-tested weight, EcoBoost SuperCrew 4x4"},
+        "zero60": {"sec": 6.2, "kind": "estimated", "note": "Published instrumented tests cluster at 6.1–6.6 seconds"},
+        "top": {"mph": 96, "kind": "estimated", "note": "Electronically limited; commonly reported"},
+        "mpg": {"combined": 17, "unit": "mpg", "kind": "epa", "src": "https://www.fueleconomy.gov/", "note": "EPA combined, 2012, 4x4"},
         "detail": "The gamble that paid: twin turbos in America's best-seller"
       },
       {
         "name": "6.2 V8",
+        "weight": {"kg": 2450, "lb": 5401, "note": "Approximate curb weight for this engine"},
+        "zero60": {"sec": 6.8, "kind": "estimated", "note": "Instrumented tests of the 6.2 ran roughly 6.5–7.0"},
+        "top": {"mph": 96, "kind": "estimated", "note": "Electronically limited; commonly reported"},
         "detail": "The big gas V8, shared with the Raptor",
         "power": {
           "hp": 411,
@@ -42043,6 +42150,8 @@ const CARS = [
       },
       {
         "name": "2.7 EcoBoost",
+        "weight": {"kg": 2250, "lb": 4960, "note": "Approximate curb weight for this engine"},
+        "top": {"mph": 107, "kind": "claimed", "note": "Electronically limited; commonly reported"},
         "detail": "The small twin-turbo that surprised everyone",
         "power": {
           "hp": 325,
@@ -42064,6 +42173,7 @@ const CARS = [
       },
       {
         "name": "5.0 Coyote V8",
+        "top": {"mph": 107, "kind": "claimed", "note": "Electronically limited; commonly reported"},
         "detail": "385 hp, then 395 from 2018",
         "power": {
           "hp": 395,
@@ -42092,10 +42202,18 @@ const CARS = [
       },
       {
         "name": "3.5 EcoBoost",
+        "power": {"hp": 375, "note": "3.5 EcoBoost, 470 lb-ft; 450 hp in the 2019–20 Limited", "src": "https://en.wikipedia.org/wiki/Ford_F-Series"},
+        "weight": {"kg": 2318, "lb": 5110, "note": "Typical as-tested weight, SuperCrew 4x4"},
+        "zero60": {"sec": 5.7, "kind": "tested", "note": "Car and Driver, 2017, 10-speed 4x4", "src": "https://www.caranddriver.com/reviews/a15100700/2017-ford-f-150-35l-ecoboost-10-speed-automatic-4x4-test-review/"},
+        "top": {"mph": 107, "kind": "claimed", "note": "Electronically limited; commonly reported"},
+        "mpg": {"combined": 19, "unit": "mpg", "kind": "epa", "src": "https://www.fueleconomy.gov/", "note": "EPA combined, 2017, 4x4"},
         "detail": "The headline engine; 450 hp in the Limited"
       },
       {
         "name": "3.0 Power Stroke diesel",
+        "weight": {"kg": 2420, "lb": 5335, "note": "Approximate curb weight for this engine"},
+        "zero60": {"sec": 7.5, "kind": "estimated", "note": "Instrumented tests of the diesel ran roughly 7.3–7.8"},
+        "top": {"mph": 107, "kind": "claimed", "note": "Electronically limited; commonly reported"},
         "detail": "2018–21; the F-150's first diesel",
         "power": {
           "hp": 250,
@@ -42230,6 +42348,8 @@ const CARS = [
       },
       {
         "name": "5.0 Coyote V8",
+        "weight": {"kg": 2540, "lb": 5600, "note": "Approximate curb weight for this engine"},
+        "top": {"mph": 107, "kind": "claimed", "note": "Electronically limited; commonly reported"},
         "detail": "400 hp; the last V8 in a half-ton Ford",
         "power": {
           "hp": 400,
@@ -42252,6 +42372,8 @@ const CARS = [
       },
       {
         "name": "3.5 EcoBoost",
+        "weight": {"kg": 2570, "lb": 5666, "note": "Approximate curb weight for this engine"},
+        "top": {"mph": 107, "kind": "claimed", "note": "Electronically limited; commonly reported"},
         "detail": "400 hp, 500 lb-ft; the Tremor's engine",
         "power": {
           "hp": 400,
@@ -42274,10 +42396,18 @@ const CARS = [
       },
       {
         "name": "3.5 PowerBoost hybrid",
+        "power": {"hp": 430, "note": "3.5 EcoBoost plus an electric motor, 570 lb-ft", "src": "https://en.wikipedia.org/wiki/Ford_F-Series"},
+        "weight": {"kg": 2631, "lb": 5800, "note": "Typical as-tested weight, SuperCrew 4x4"},
+        "zero60": {"sec": 5.3, "kind": "tested", "note": "MotorTrend; Edmunds ran 5.8, TFL 5.6 at altitude", "src": "https://www.motortrend.com/cars/ford/f-150/2021/2021-ford-f-150-hybrid-first-test-review/"},
+        "top": {"mph": 107, "kind": "claimed", "note": "Electronically limited; commonly reported"},
+        "mpg": {"combined": 24, "unit": "mpg", "kind": "epa", "src": "https://www.fueleconomy.gov/", "note": "EPA combined, 2021, 4x4; 24 city, 24 highway"},
         "detail": "430 hp, 570 lb-ft, and a generator that can run a job site or a house"
       },
       {
         "name": "3.0 Power Stroke diesel",
+        "weight": {"kg": 2590, "lb": 5710, "note": "Approximate curb weight for this engine"},
+        "zero60": {"sec": 7.0, "kind": "estimated", "note": "Instrumented tests of the diesel"},
+        "top": {"mph": 107, "kind": "claimed", "note": "Electronically limited; commonly reported"},
         "detail": "Through 2021 only",
         "power": {
           "hp": 250,
@@ -42482,6 +42612,11 @@ const CARS = [
       },
       {
         "name": "Raptor R",
+        "power": {"hp": 720, "note": "Supercharged 5.2 V8, 2024 on; 700 hp at launch in 2023", "src": "https://en.wikipedia.org/wiki/Ford_F-Series"},
+        "weight": {"kg": 2756, "lb": 6077, "note": "Curb weight", "src": "https://www.caranddriver.com/reviews/a42512328/2023-ford-f-150-raptor-r-by-the-numbers/"},
+        "zero60": {"sec": 3.6, "kind": "tested", "note": "Car and Driver, 2023, 12.0-second quarter mile", "src": "https://www.caranddriver.com/reviews/a42512328/2023-ford-f-150-raptor-r-by-the-numbers/"},
+        "top": {"mph": 114, "kind": "claimed", "note": "Reported limiter figures range from 112 to 125; MotorWeek trapped 113 mph in the quarter"},
+        "mpg": {"combined": 12, "unit": "mpg", "kind": "epa", "src": "https://www.fueleconomy.gov/", "note": "EPA combined, 2024"},
         "detail": "2023 on: the supercharged 5.2 answer to the Ram TRX"
       }
     ],
@@ -42616,6 +42751,7 @@ const CARS = [
       },
       {
         "name": "Lightning, 1999–2000",
+        "weight": {"kg": 2118, "lb": 4670, "note": "Curb weight, approximate"},
         "detail": "The supercharged return: 360 hp",
         "power": {
           "hp": 360,
@@ -42642,6 +42778,11 @@ const CARS = [
       },
       {
         "name": "Lightning, 2001–04",
+        "power": {"hp": 380, "note": "Supercharged 5.4, 450 lb-ft", "src": "https://en.wikipedia.org/wiki/Ford_F-Series"},
+        "weight": {"kg": 2118, "lb": 4670, "note": "Curb weight, approximate"},
+        "zero60": {"sec": 5.2, "kind": "tested", "note": "Car and Driver, 2001", "src": "https://www.caranddriver.com/reviews/a15139764/ford-svt-f-150-lightning-road-test/"},
+        "top": {"mph": 147, "kind": "claimed", "note": "Ford-verified run, 2003; recognized as the world's fastest production pickup"},
+        "mpg": {"combined": 13, "unit": "mpg", "kind": "epa", "src": "https://www.fueleconomy.gov/", "note": "EPA combined, 2000"},
         "detail": "380 hp and 450 lb-ft; the fastest production pickup of its day",
         "built": {
           "count": 28124,

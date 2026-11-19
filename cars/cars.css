@@ -428,3 +428,23 @@ a.lin.cmpl:hover .cn{color:var(--deep)}
 .lin .nmw{display:flex;flex-direction:column;gap:3px;min-width:0}
 .lin.out .nmw small{font-size:12.5px;color:var(--mid)}
 a.lin.out:hover small{color:var(--steel)}
+
+/* ---------- the findbar: back chips + quick search, under the nav ---------- */
+.findbar{background:var(--mist);border-bottom:1px solid var(--rule)}
+.findbar .wrap{display:flex;align-items:center;gap:10px;padding-top:10px;padding-bottom:10px;flex-wrap:wrap}
+.fb-back{font:600 12.5px/1 'DM Sans',sans-serif;letter-spacing:.04em;color:var(--slate);background:#fff;border:1px solid var(--rule);border-radius:999px;padding:9px 15px;text-decoration:none;white-space:nowrap;transition:border-color .15s,color .15s}
+.fb-back:hover{border-color:var(--steel);color:var(--steel)}
+.fb-hub{display:none}
+@media(min-width:701px){.fb-hub{display:inline-block}}
+.fb-search{position:relative;flex:1;min-width:200px;max-width:420px;margin-left:auto}
+.fb-search input{width:100%;font:400 14px/1 'DM Sans',sans-serif;color:var(--ink);background:#fff;border:1px solid var(--rule);border-radius:999px;padding:10px 16px;outline:none;transition:border-color .15s}
+.fb-search input:focus{border-color:var(--steel)}
+.fb-search input::placeholder{color:var(--mid)}
+.fb-results{position:absolute;top:calc(100% + 6px);left:0;right:0;background:#fff;border:1px solid var(--rule);border-radius:12px;box-shadow:0 10px 30px rgba(20,24,32,.14);overflow:hidden;z-index:70;max-height:340px;overflow-y:auto}
+.fb-row{display:flex;align-items:baseline;justify-content:space-between;gap:12px;padding:11px 16px;text-decoration:none;border-bottom:1px solid var(--mist)}
+.fb-row:last-child{border-bottom:none}
+.fb-row .fb-n{font:500 14.5px/1.3 'DM Sans',sans-serif;color:var(--ink)}
+.fb-row .fb-y{font:400 12.5px/1 'DM Sans',sans-serif;color:var(--mid);white-space:nowrap}
+.fb-row:hover,.fb-row.on{background:var(--mist)}
+.fb-row:hover .fb-n,.fb-row.on .fb-n{color:var(--steel)}
+@media(max-width:700px){.fb-search{max-width:none;flex-basis:100%;margin-left:0;order:3}}

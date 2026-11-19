@@ -26744,5 +26744,483 @@ const CARS_INDEX = [
    "pos": "",
    "fit": ""
   }
+ },
+ {
+  "id": "dodge-neon-1",
+  "name": "Dodge / Plymouth Neon (first generation)",
+  "aka": [
+   "Neon Sport Coupe",
+   "ACR",
+   "Chrysler Neon"
+  ],
+  "make": "Dodge",
+  "maker": "Chrysler (Belvidere, Illinois)",
+  "years": "1995–1999",
+  "start": 1995,
+  "body": "4-door sedan or 2-door coupe, frameless glass",
+  "engine": "2.0-liter SOHC or DOHC 4",
+  "country": "United States",
+  "quick": "The small car that said 'Hi.' — and then ran 7.6 to 60, quicker than a lot of sporty coupes, for economy-car money. The ACR version became the autocross weapon of its decade.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Front-wheel drive",
+  "gearbox": "5-speed manual or 3-speed automatic",
+  "specsFor": "1995 Neon Sport Coupe, DOHC, 5-speed",
+  "guide": null,
+  "shop": null,
+  "hp": 150,
+  "kg": 1145,
+  "kgNote": "Curb, as tested",
+  "lbs": 2524,
+  "z60": {
+   "sec": 7.6,
+   "kind": "tested",
+   "note": "Car and Driver"
+  },
+  "top": {
+   "mph": 115,
+   "kind": "tested",
+   "note": "Car and Driver, governor-limited"
+  },
+  "mpg": {
+   "combined": 28,
+   "city": 25,
+   "hwy": 34,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1995 5-speed"
+  },
+  "built": null,
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": null,
+   "name": "Dodge Neon (second generation)"
+  },
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/1st-Dodge-Neon.jpg/960px-1st-Dodge-Neon.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "packard-twin-six",
+  "name": "Packard Twin Six",
+  "aka": [
+   "Twelve",
+   "First Series Twin Six"
+  ],
+  "make": "Packard",
+  "maker": "Packard (Detroit, Michigan)",
+  "years": "1916–1923, revived 1932",
+  "start": 1916,
+  "body": "Every grand body of the era: tourers, limousines, roadsters",
+  "engine": "V12: 424 cu in at first, 445 cu in in 1932",
+  "country": "United States",
+  "quick": "The world's first series-production 12-cylinder car, 1916 — the engine a young Enzo Ferrari saw in a war-surplus Packard and never forgot. Revived in 1932, renamed Twelve, and grand to the end.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive",
+  "gearbox": "3-speed manual",
+  "specsFor": "1932 Twin Six, 445 cu in V12",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 160,
+  "kg": null,
+  "kgNote": "",
+  "lbs": null,
+  "z60": null,
+  "top": null,
+  "mpg": null,
+  "built": {
+   "count": 35000,
+   "approx": true,
+   "note": "The 1916–1923 first series, commonly cited; the 1932 revival was renamed Twelve for 1933 and ran to 1939"
+  },
+  "alongside": [],
+  "prev": null,
+  "next": null,
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Packard_Twelve_Classic-Gala_2021_1X7A0280.jpg/960px-Packard_Twelve_Classic-Gala_2021_1X7A0280.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "ford-windstar-1",
+  "name": "Ford Windstar (first generation)",
+  "aka": [
+   "Windstar LX",
+   "Windstar GL"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Oakville, Ontario)",
+  "years": "1995–1998",
+  "start": 1995,
+  "body": "Front-drive minivan, one sliding door",
+  "engine": "3.0, mostly 3.8-liter V6",
+  "country": "United States",
+  "quick": "Ford's answer to the Chrysler minivans: car-based at last, refined, and 5-star crash-rated — then Chrysler added a driver-side sliding door in 1996 and the Windstar spent 3 years explaining why it only had one.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Front-wheel drive",
+  "gearbox": "4-speed automatic",
+  "specsFor": "1995 Windstar LX, 3.8 V6",
+  "guide": null,
+  "shop": null,
+  "hp": 155,
+  "kg": 1719,
+  "kgNote": "Curb",
+  "lbs": 3790,
+  "z60": {
+   "sec": 11.5,
+   "kind": "estimated",
+   "note": "Modeled figure"
+  },
+  "top": null,
+  "mpg": {
+   "combined": 18,
+   "city": 15,
+   "hwy": 22,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1995 3.8"
+  },
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": null,
+   "name": "Ford Aerostar"
+  },
+  "next": {
+   "id": null,
+   "name": "Ford Windstar (second generation)"
+  },
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/1995-1997_Ford_Windstar.jpg/960px-1995-1997_Ford_Windstar.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "gm-ultralite",
+  "name": "GM Ultralite",
+  "aka": [
+   "Ultralite concept"
+  ],
+  "make": "General Motors",
+  "maker": "GM, with the body built by Scaled Composites (Mojave, California)",
+  "years": "1992",
+  "start": 1992,
+  "body": "4-seat carbon-fiber monocoque concept",
+  "engine": "1.5-liter 3-cylinder two-stroke, rear-mounted",
+  "country": "United States",
+  "quick": "GM's 1992 moonshot: a 635-kg (1,400 lb) carbon-fiber 4-seater, body built by Burt Rutan's Scaled Composites, returning a researched 62 mpg at a time when carbon was for fighter jets. One exists.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive",
+  "gearbox": "Automatic",
+  "specsFor": "The 1992 running concept",
+  "guide": null,
+  "shop": null,
+  "hp": 111,
+  "kg": 635,
+  "kgNote": "Carbon-fiber monocoque",
+  "lbs": 1400,
+  "z60": null,
+  "top": {
+   "mph": 135,
+   "kind": "claimed",
+   "note": "GM's figure"
+  },
+  "mpg": {
+   "combined": 62,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "estimated",
+   "note": "Composite research figure, cited in a NASA technical paper; never EPA-rated"
+  },
+  "built": {
+   "count": 1,
+   "approx": false,
+   "note": "A running concept"
+  },
+  "alongside": [],
+  "prev": null,
+  "next": null,
+  "photo": null
+ },
+ {
+  "id": "chevrolet-corvette-c1",
+  "name": "Chevrolet Corvette (C1)",
+  "aka": [
+   "Solid-axle Corvette",
+   "Blue Flame",
+   "Fuelie"
+  ],
+  "make": "Chevrolet",
+  "maker": "Chevrolet (Flint, Michigan, then St. Louis, Missouri)",
+  "years": "1953–1962",
+  "start": 1953,
+  "body": "2-seat fiberglass roadster",
+  "engine": "Blue Flame 235 six, then 265, 283 and 327 V8s",
+  "country": "United States",
+  "quick": "America's sports car, attempt one: 300 hand-laid fiberglass roadsters in 1953, all Polo White, all 6-cylinder automatics — saved by the V8 in 1955 and finished as a 360-hp fuel-injected weapon.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive",
+  "gearbox": "Powerglide at first; 3- and 4-speed manuals later",
+  "specsFor": "1960 Corvette 283, 270 hp, 4-speed",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 270,
+  "kg": null,
+  "kgNote": "",
+  "lbs": null,
+  "z60": null,
+  "top": null,
+  "mpg": null,
+  "built": {
+   "count": 69015,
+   "approx": false,
+   "note": "All C1s: 300 hand-built cars in 1953, 14,531 in the record final year"
+  },
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": null,
+   "name": "Chevrolet Corvette (C2) Sting Ray"
+  },
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/1960_Chevrolet_Corvette_C1_Red.jpg/960px-1960_Chevrolet_Corvette_C1_Red.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "chevrolet-chevelle-ss396-1968",
+  "name": "Chevrolet Chevelle SS 396 (1968)",
+  "aka": [
+   "SS396",
+   "L78",
+   "A-body"
+  ],
+  "make": "Chevrolet",
+  "maker": "Chevrolet (multiple US plants)",
+  "years": "1968",
+  "start": 1968,
+  "body": "2-door hardtop or convertible",
+  "engine": "396 cu in big-block V8",
+  "country": "United States",
+  "quick": "The people's big-block: the all-new 1968 A-body's flowing shape with 396 cubic inches up front, in 3 strengths up to the 375-hp L78. About 57,600 sold in that one year, which says what America wanted.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive",
+  "gearbox": "3- or 4-speed manual, or automatic",
+  "specsFor": "1968 SS 396, L35, 325 hp",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 325,
+  "kg": 1724,
+  "kgNote": "Approximate",
+  "lbs": 3800,
+  "z60": {
+   "sec": 7.1,
+   "kind": "estimated",
+   "note": "Broad period estimate, engine-dependent"
+  },
+  "top": {
+   "mph": 120,
+   "kind": "claimed",
+   "note": "About, gearing-dependent"
+  },
+  "mpg": null,
+  "built": {
+   "count": 57600,
+   "approx": true,
+   "note": "1968 SS 396s, commonly cited"
+  },
+  "alongside": [],
+  "prev": null,
+  "next": null,
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/1968_Chevrolet_Chevelle_SS_396,_red,_Golden_Super_Cruise_2026-09-05.jpg/960px-1968_Chevrolet_Chevelle_SS_396,_red,_Golden_Super_Cruise_2026-09-05.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "oldsmobile-silhouette-1",
+  "name": "Oldsmobile Silhouette (first generation)",
+  "aka": [
+   "Dustbuster",
+   "Trans Sport's twin",
+   "APV"
+  ],
+  "make": "Oldsmobile",
+  "maker": "General Motors (Tarrytown, New York)",
+  "years": "1990–1996",
+  "start": 1990,
+  "body": "Plastic-paneled one-box minivan on a steel spaceframe",
+  "engine": "3.1, then 3.8-liter V6",
+  "country": "United States",
+  "quick": "The upscale third of GM's 'Dustbuster' trio: a plastic-bodied spaceframe minivan with a windshield from here to Tuesday, immortalized by Get Shorty as 'the Cadillac of minivans.'",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Front-wheel drive",
+  "gearbox": "3-, then 4-speed automatic",
+  "specsFor": "1995 Silhouette 3.8",
+  "guide": null,
+  "shop": null,
+  "hp": 170,
+  "kg": 1696,
+  "kgNote": "Curb",
+  "lbs": 3739,
+  "z60": null,
+  "top": null,
+  "mpg": {
+   "combined": 18,
+   "city": 15,
+   "hwy": 23,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1995 3.8"
+  },
+  "built": null,
+  "alongside": [],
+  "prev": null,
+  "next": null,
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/1990_Oldsmobile_Silhouette_3.1_(14944889467).jpg/960px-1990_Oldsmobile_Silhouette_3.1_(14944889467).jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "vector-w8",
+  "name": "Vector W8",
+  "aka": [
+   "W8 TwinTurbo",
+   "Wiegert W8"
+  ],
+  "make": "Vector",
+  "maker": "Vector Aeromotive (Wilmington, California)",
+  "years": "1990–1993",
+  "start": 1990,
+  "body": "2-seat aerospace-construction supercar",
+  "engine": "6.0-liter twin-turbocharged Rodeck V8",
+  "country": "United States",
+  "quick": "America's aerospace supercar: Jerry Wiegert's 625-hp twin-turbo W8, built from aircraft honeycomb and military spec everything, claimed 218 mph, and sold 17 times at $455,000 — one of them, briefly and famously, to Andre Agassi.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive (mid-engine)",
+  "gearbox": "3-speed automatic",
+  "specsFor": "1991 W8 TwinTurbo",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 625,
+  "kg": 1669,
+  "kgNote": "Curb",
+  "lbs": 3680,
+  "z60": {
+   "sec": 3.8,
+   "kind": "tested",
+   "note": "Period test figure"
+  },
+  "top": {
+   "mph": 218,
+   "kind": "claimed",
+   "note": "Wiegert's claim; never independently verified"
+  },
+  "mpg": null,
+  "built": {
+   "count": 17,
+   "approx": false,
+   "note": "Customer cars, 1990–1993, plus 2 prototypes"
+  },
+  "alongside": [],
+  "prev": null,
+  "next": null,
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/1990_Vector_W8_Twin_Turbo_sports_car_(Ank_Kumar,_Infosys_Limited)_01.jpg/960px-1990_Vector_W8_Twin_Turbo_sports_car_(Ank_Kumar,_Infosys_Limited)_01.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "cunningham-c4r",
+  "name": "Cunningham C-4R",
+  "aka": [
+   "C-4RK",
+   "Le Monstre's successor"
+  ],
+  "make": "Cunningham",
+  "maker": "B.S. Cunningham Company (West Palm Beach, Florida)",
+  "years": "1952",
+  "start": 1952,
+  "body": "2-seat racing roadster; one streamlined coupe",
+  "engine": "5.4-liter (331 cu in) Chrysler FirePower Hemi V8",
+  "country": "United States",
+  "quick": "An American millionaire's Hemi-powered answer to Le Mans: 3 built, and in 1952 Briggs Cunningham drove his own car for roughly 20 of the 24 hours to finish 4th overall. They named the sportsmanship trophy after him.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive",
+  "gearbox": "4-speed manual",
+  "specsFor": "1952 C-4R roadster",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 300,
+  "kg": 1093,
+  "kgNote": "Dry, per the Revs Institute",
+  "lbs": 2410,
+  "z60": null,
+  "top": {
+   "mph": 155,
+   "kind": "tested",
+   "note": "Down the Mulsanne, period figure"
+  },
+  "mpg": null,
+  "built": {
+   "count": 3,
+   "approx": false,
+   "note": "2 roadsters and the streamlined C-4RK coupe"
+  },
+  "alongside": [],
+  "prev": null,
+  "next": null,
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/1952_Cunningham_C-4R_(48853753946).jpg/960px-1952_Cunningham_C-4R_(48853753946).jpg",
+   "pos": "",
+   "fit": ""
+  }
  }
 ];

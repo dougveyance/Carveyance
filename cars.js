@@ -38291,5 +38291,790 @@ const CARS = [
       "Mazda Miata",
       "Mazda MX-5"
     ]
+  },
+  {
+    "id": "dodge-neon-1",
+    "name": "Dodge / Plymouth Neon (first generation)",
+    "aka": [
+      "Neon Sport Coupe",
+      "ACR",
+      "Chrysler Neon"
+    ],
+    "make": "Dodge",
+    "maker": "Chrysler (Belvidere, Illinois)",
+    "country": "United States",
+    "years": "1995–1999",
+    "start": 1995,
+    "end": 1999,
+    "shop": null,
+    "body": "4-door sedan or 2-door coupe, frameless glass",
+    "engine": "2.0-liter SOHC or DOHC 4",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual or 3-speed automatic",
+    "specsFor": "1995 Neon Sport Coupe, DOHC, 5-speed",
+    "power": {
+      "hp": 150,
+      "note": "DOHC; the SOHC made 132",
+      "src": "https://www.caranddriver.com/reviews/a34757779/tested-1995-dodge-neon-sport-coupe/"
+    },
+    "weight": {
+      "kg": 1145,
+      "lb": 2524,
+      "note": "Curb, as tested",
+      "src": "https://www.caranddriver.com/reviews/a34757779/tested-1995-dodge-neon-sport-coupe/"
+    },
+    "zero60": {
+      "sec": 7.6,
+      "kind": "tested",
+      "note": "Car and Driver",
+      "src": "https://www.caranddriver.com/reviews/a34757779/tested-1995-dodge-neon-sport-coupe/"
+    },
+    "top": {
+      "mph": 115,
+      "kind": "tested",
+      "note": "Car and Driver, governor-limited",
+      "src": "https://www.caranddriver.com/reviews/a34757779/tested-1995-dodge-neon-sport-coupe/"
+    },
+    "mpg": {
+      "combined": 28,
+      "city": 25,
+      "hwy": 34,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/ws/rest/vehicle/11834",
+      "note": "EPA combined, 1995 5-speed"
+    },
+    "built": {
+      "na": "Chrysler published no generation total"
+    },
+    "versions": [
+      {
+        "name": "DOHC",
+        "detail": "150 hp; the Sport and ACR engine",
+        "specsFor": "1995 Sport Coupe, 5-speed"
+      },
+      {
+        "name": "SOHC",
+        "detail": "132 hp; the volume engine",
+        "power": {
+          "hp": 132,
+          "note": "SOHC 2.0"
+        },
+        "zero60": null,
+        "top": null
+      },
+      {
+        "name": "ACR",
+        "detail": "The Competition package: stiffer dampers, quicker rack, no A/C",
+        "power": {
+          "hp": 150,
+          "note": "DOHC 2.0"
+        }
+      }
+    ],
+    "predecessor": null,
+    "successor": {
+      "name": "Dodge Neon (second generation)",
+      "id": null
+    },
+    "quick": "The small car that said 'Hi.' — and then ran 7.6 to 60, quicker than a lot of sporty coupes, for economy-car money. The ACR version became the autocross weapon of its decade.",
+    "story": [
+      "Chrysler launched the Neon with a one-word ad campaign, 'Hi.', and a cheerful face that matched, which disguised how serious the car underneath was: a stiff structure, a twin-cam 2.0 making 150 hp, frameless door glass, and genuinely sorted suspension. Car and Driver's Sport Coupe ran 60 in 7.6 seconds on the way to a governed 115 mph, numbers that embarrassed cars costing half again as much, with an EPA 28 combined to go with them.",
+      "The enthusiast legend is the ACR, nominally the Competition package for club racers: stiffer dampers, quicker steering, no air conditioning, and a price that made it the default SCCA autocross and showroom-stock weapon for years. The rest of the story is sadder and very 1990s Chrysler, with head gaskets and cost-cutting wearing the shine off a genuinely clever car. But the first Neon remains the last time an American small car led its class on merit and charm at once, and clean ACRs are now traded like the motorsport artifacts they are."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "1st-Dodge-Neon.jpg",
+      "credit": "IFCAR",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "pos": ""
+    },
+    "match": [
+      "Dodge Neon",
+      "Plymouth Neon"
+    ]
+  },
+  {
+    "id": "packard-twin-six",
+    "name": "Packard Twin Six",
+    "aka": [
+      "Twelve",
+      "First Series Twin Six"
+    ],
+    "make": "Packard",
+    "maker": "Packard (Detroit, Michigan)",
+    "country": "United States",
+    "years": "1916–1923, revived 1932",
+    "start": 1916,
+    "end": 1932,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Every grand body of the era: tourers, limousines, roadsters",
+    "engine": "V12: 424 cu in at first, 445 cu in in 1932",
+    "drive": "Rear-wheel drive",
+    "gearbox": "3-speed manual",
+    "specsFor": "1932 Twin Six, 445 cu in V12",
+    "power": {
+      "hp": 160,
+      "note": "The 1932 V12; the 1916 original made 88",
+      "src": "https://en.wikipedia.org/wiki/Packard_Twin_Six"
+    },
+    "weight": {
+      "na": "Varies by coachwork"
+    },
+    "zero60": {
+      "na": "Not a measure of its era"
+    },
+    "top": {
+      "na": "Effortlessness was the specification"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "count": 35000,
+      "approx": true,
+      "note": "The 1916–1923 first series, commonly cited; the 1932 revival was renamed Twelve for 1933 and ran to 1939",
+      "src": "https://en.wikipedia.org/wiki/Packard_Twin_Six"
+    },
+    "versions": [
+      {
+        "name": "First Series Twin Six",
+        "detail": "1916–1923; 88 hp, about 35,000 built",
+        "specsFor": "1932 Twin Six"
+      },
+      {
+        "name": "1932 Twin Six",
+        "detail": "The Depression-era revival; 160 hp, 445 cu in",
+        "power": {
+          "hp": 160
+        }
+      },
+      {
+        "name": "Twelve",
+        "detail": "1933–1939; the same car renamed",
+        "power": {
+          "hp": 180,
+          "note": "By the late cars"
+        }
+      }
+    ],
+    "predecessor": null,
+    "successor": null,
+    "quick": "The world's first series-production 12-cylinder car, 1916 — the engine a young Enzo Ferrari saw in a war-surplus Packard and never forgot. Revived in 1932, renamed Twelve, and grand to the end.",
+    "story": [
+      "In 1916 Packard put a 12-cylinder engine into series production before anyone else on earth, and the Twin Six became the deliberate opposite of the Model T: about 35,000 cars across 7 years for America's industrialists and presidents, with an 88-hp 424-cubic-inch V12 whose party trick was pulling from walking pace to its maximum in top gear without a shudder. The engine's smoothness became the stuff of legend in the most literal way: Enzo Ferrari wrote that encountering the Twin Six fixed the V12 in his imagination, and every Ferrari since 1947 carries the consequence.",
+      "Packard retired the name in 1923, then revived it for 1932 at the exact bottom of the Depression, a 160-hp 445-cubic-inch V12 flagship launched into the same storm as Cadillac's V-16. Renamed Twelve for 1933, it carried Packard's prestige through the decade on bodies from the great coachbuilders until 1939, when the math finally won. The burgundy car in the photo is a later Twelve at a German concours, the Twin Six idea in its final, grandest form."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "Packard Twelve Classic-Gala 2021 1X7A0280.jpg",
+      "credit": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pos": ""
+    },
+    "match": [
+      "Packard Twin Six",
+      "Packard Twelve"
+    ]
+  },
+  {
+    "id": "ford-windstar-1",
+    "name": "Ford Windstar (first generation)",
+    "aka": [
+      "Windstar LX",
+      "Windstar GL"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Oakville, Ontario)",
+    "country": "United States",
+    "years": "1995–1998",
+    "start": 1995,
+    "end": 1998,
+    "shop": null,
+    "body": "Front-drive minivan, one sliding door",
+    "engine": "3.0, mostly 3.8-liter V6",
+    "drive": "Front-wheel drive",
+    "gearbox": "4-speed automatic",
+    "specsFor": "1995 Windstar LX, 3.8 V6",
+    "power": {
+      "hp": 155,
+      "note": "The 3.8 Essex V6; a 3.0 base engine existed",
+      "src": "https://www.fueleconomy.gov/feg/noframes/12417.shtml"
+    },
+    "weight": {
+      "kg": 1719,
+      "lb": 3790,
+      "note": "Curb",
+      "src": "https://www.fueleconomy.gov/feg/noframes/12417.shtml"
+    },
+    "zero60": {
+      "sec": 11.5,
+      "kind": "estimated",
+      "note": "Modeled figure",
+      "src": "https://www.fueleconomy.gov/feg/noframes/12417.shtml"
+    },
+    "top": {
+      "na": "Not a minivan question"
+    },
+    "mpg": {
+      "combined": 18,
+      "city": 15,
+      "hwy": 22,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/ws/rest/vehicle/12417",
+      "note": "EPA combined, 1995 3.8"
+    },
+    "built": {
+      "na": "Ford published no generation total"
+    },
+    "versions": [
+      {
+        "name": "3.8 LX and GL",
+        "detail": "155 hp; nearly all of them",
+        "specsFor": "1995 LX, 3.8"
+      },
+      {
+        "name": "3.0",
+        "detail": "The short-lived base engine",
+        "power": {
+          "hp": 150,
+          "note": "3.0 Vulcan V6"
+        },
+        "zero60": null
+      }
+    ],
+    "predecessor": {
+      "name": "Ford Aerostar",
+      "id": null
+    },
+    "successor": {
+      "name": "Ford Windstar (second generation)",
+      "id": null
+    },
+    "quick": "Ford's answer to the Chrysler minivans: car-based at last, refined, and 5-star crash-rated — then Chrysler added a driver-side sliding door in 1996 and the Windstar spent 3 years explaining why it only had one.",
+    "story": [
+      "The Windstar was Ford finally fighting Chrysler's minivans with the correct weapon, a front-drive, car-based one-box instead of the trucky old Aerostar. It drove well, rode quietly, earned 5-star crash ratings, and sold on the strength of the 155-hp 3.8 and an interior sized for actual American families. For about a year it was arguably the best minivan in the country.",
+      "Then Chrysler's 1996 vans arrived with a sliding door on the driver's side, and the Windstar's single-slider packaging became the most expensive missing feature of the decade; Ford's stopgap was a comically long driver's door until the redesign. Add the 3.8's head-gasket reputation and the first Windstar became a case study in how fast the minivan war moved: excellent at launch, outflanked in 18 months. As family archaeology, though, it is pure mid-1990s America, down to the integrated child seats."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "1995-1997 Ford Windstar.jpg",
+      "credit": "Bull-Doser",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "pos": ""
+    },
+    "match": [
+      "Ford Windstar"
+    ]
+  },
+  {
+    "id": "gm-ultralite",
+    "name": "GM Ultralite",
+    "aka": [
+      "Ultralite concept"
+    ],
+    "make": "General Motors",
+    "maker": "GM, with the body built by Scaled Composites (Mojave, California)",
+    "country": "United States",
+    "years": "1992",
+    "start": 1992,
+    "end": 1992,
+    "shop": null,
+    "body": "4-seat carbon-fiber monocoque concept",
+    "engine": "1.5-liter 3-cylinder two-stroke, rear-mounted",
+    "drive": "Rear-wheel drive",
+    "gearbox": "Automatic",
+    "specsFor": "The 1992 running concept",
+    "power": {
+      "hp": 111,
+      "note": "Two-stroke 3-cylinder in a rear pod",
+      "src": "https://ntrs.nasa.gov/api/citations/19960023616/downloads/19960023616.pdf"
+    },
+    "weight": {
+      "kg": 635,
+      "lb": 1400,
+      "note": "Carbon-fiber monocoque",
+      "src": "https://ntrs.nasa.gov/api/citations/19960023616/downloads/19960023616.pdf"
+    },
+    "zero60": {
+      "na": "Not the point of the exercise"
+    },
+    "top": {
+      "mph": 135,
+      "kind": "claimed",
+      "note": "GM's figure",
+      "src": "https://ntrs.nasa.gov/api/citations/19960023616/downloads/19960023616.pdf"
+    },
+    "mpg": {
+      "combined": 62,
+      "unit": "mpg",
+      "kind": "estimated",
+      "note": "Composite research figure, cited in a NASA technical paper; never EPA-rated",
+      "src": "https://ntrs.nasa.gov/api/citations/19960023616/downloads/19960023616.pdf"
+    },
+    "built": {
+      "count": 1,
+      "approx": false,
+      "note": "A running concept",
+      "src": "https://ntrs.nasa.gov/api/citations/19960023616/downloads/19960023616.pdf"
+    },
+    "predecessor": null,
+    "successor": null,
+    "quick": "GM's 1992 moonshot: a 635-kg (1,400 lb) carbon-fiber 4-seater, body built by Burt Rutan's Scaled Composites, returning a researched 62 mpg at a time when carbon was for fighter jets. One exists.",
+    "story": [
+      "In 1992 General Motors built, essentially, an airplane for the road: the Ultralite's entire structure was a carbon-fiber monocoque laid up by Scaled Composites, Burt Rutan's Mojave aircraft shop, bringing the whole 4-seat car in at 635 kg (1,400 lb), half a contemporary sedan. A 111-hp 3-cylinder two-stroke lived in a removable rear pod, the drag coefficient was a then-absurd 0.19, and the research math worked out to a composite 62 mpg with 135 mph available, numbers that put it a generation ahead of anything in production.",
+      "It was never going to be built, carbon cost then being what it was, and GM said so; the Ultralite was an argument, not a product. But the argument landed inside the company: the obsession with mass, drag and efficiency-first packaging flows straight from this car into the EV1 4 years later, and the industry's entire lightweighting conversation since owes it a citation, which is literally how it appears in NASA technical papers. One was built. It survives in GM's Heritage Collection, and no Commons photographer has caught it yet."
+    ],
+    "articles": [],
+    "photo": {},
+    "match": [
+      "GM Ultralite"
+    ]
+  },
+  {
+    "id": "chevrolet-corvette-c1",
+    "name": "Chevrolet Corvette (C1)",
+    "family": {
+      "id": "chevrolet-corvette",
+      "name": "Chevrolet Corvette"
+    },
+    "aka": [
+      "Solid-axle Corvette",
+      "Blue Flame",
+      "Fuelie"
+    ],
+    "make": "Chevrolet",
+    "maker": "Chevrolet (Flint, Michigan, then St. Louis, Missouri)",
+    "country": "United States",
+    "years": "1953–1962",
+    "start": 1953,
+    "end": 1962,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "2-seat fiberglass roadster",
+    "engine": "Blue Flame 235 six, then 265, 283 and 327 V8s",
+    "drive": "Rear-wheel drive",
+    "gearbox": "Powerglide at first; 3- and 4-speed manuals later",
+    "specsFor": "1960 Corvette 283, 270 hp, 4-speed",
+    "power": {
+      "hp": 270,
+      "note": "Dual-quad 283; the 1962 fuel-injected 327 made 360",
+      "src": "https://www.carwhere.com/corvette/c1"
+    },
+    "weight": {
+      "na": "Roughly 1,300–1,360 kg (2,900–3,000 lb) by year and equipment"
+    },
+    "zero60": {
+      "na": "Period figures vary widely by engine; the 1957 fuelie ran the 0–60 sprint in the 6s"
+    },
+    "top": {
+      "na": "Gearing-dependent; period cars ran 105–130 mph"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "count": 69015,
+      "approx": false,
+      "note": "All C1s: 300 hand-built cars in 1953, 14,531 in the record final year",
+      "src": "https://corvetteactioncenter.com/specs/totalprod.html"
+    },
+    "versions": [
+      {
+        "name": "Blue Flame six",
+        "detail": "1953–1955; 150–155 hp; 300 built in 1953",
+        "specsFor": "1960 283, 270 hp"
+      },
+      {
+        "name": "265 and 283 V8",
+        "detail": "1955 on; the rescue; up to 270 hp dual-quad",
+        "power": {
+          "hp": 270,
+          "note": "1960 dual-quad 283"
+        }
+      },
+      {
+        "name": "Fuel injection",
+        "detail": "1957 on; the 283 fuelie hit 1 hp per cubic inch",
+        "power": {
+          "hp": 283,
+          "note": "1957 Rochester FI 283"
+        }
+      },
+      {
+        "name": "327",
+        "detail": "1962; 250–360 hp",
+        "power": {
+          "hp": 360,
+          "note": "Fuel-injected 327"
+        }
+      }
+    ],
+    "predecessor": null,
+    "successor": {
+      "name": "Chevrolet Corvette (C2) Sting Ray",
+      "id": null
+    },
+    "quick": "America's sports car, attempt one: 300 hand-laid fiberglass roadsters in 1953, all Polo White, all 6-cylinder automatics — saved by the V8 in 1955 and finished as a 360-hp fuel-injected weapon.",
+    "story": [
+      "The first Corvette nearly died in its crib. Harley Earl's Motorama dream went into production in Flint in June 1953, 300 cars, every one Polo White with a red interior, and every one powered by the Blue Flame six through a 2-speed Powerglide, because that was what Chevrolet had. At $3,513, or $44,200 in 2026 dollars, buyers expecting a Jaguar's drivetrain found a sedan's, and sales cratered so hard that cancellation was on the table by 1954.",
+      "Two things saved it: Ford's Thunderbird made quitting unthinkable, and Zora Arkus-Duntov made the car real, starting with the 265 V8 in 1955, fuel injection in 1957, and a steady climb to the 1962 327 making 360 hp, by which point the Corvette had Sebring class wins and a genuine performance reputation. The solid-axle generation closed at 69,015 cars, from 300 to 14,531 a year, having built the institution everything else in this Index's Corvette family stands on. The red 1960 in the photo wears the quad-headlight face of the fat years."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "1960 Chevrolet Corvette C1 Red.jpg",
+      "credit": "MrWalkr",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pos": ""
+    },
+    "match": [
+      "Chevrolet Corvette C1",
+      "Corvette C1"
+    ]
+  },
+  {
+    "id": "chevrolet-chevelle-ss396-1968",
+    "name": "Chevrolet Chevelle SS 396 (1968)",
+    "family": {
+      "id": "chevrolet-chevelle",
+      "name": "Chevrolet Chevelle"
+    },
+    "aka": [
+      "SS396",
+      "L78",
+      "A-body"
+    ],
+    "make": "Chevrolet",
+    "maker": "Chevrolet (multiple US plants)",
+    "country": "United States",
+    "years": "1968",
+    "start": 1968,
+    "end": 1968,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "2-door hardtop or convertible",
+    "engine": "396 cu in big-block V8",
+    "drive": "Rear-wheel drive",
+    "gearbox": "3- or 4-speed manual, or automatic",
+    "specsFor": "1968 SS 396, L35, 325 hp",
+    "power": {
+      "hp": 325,
+      "note": "L35; the L34 made 350 and the L78 375",
+      "src": "https://motogallery.com/blogs/automotive-resource-library/1968-chevelle-ss396"
+    },
+    "weight": {
+      "kg": 1724,
+      "lb": 3800,
+      "note": "Approximate",
+      "src": "https://motogallery.com/blogs/automotive-resource-library/1968-chevelle-ss396"
+    },
+    "zero60": {
+      "sec": 7.1,
+      "kind": "estimated",
+      "note": "Broad period estimate, engine-dependent",
+      "src": "https://motogallery.com/blogs/automotive-resource-library/1968-chevelle-ss396"
+    },
+    "top": {
+      "mph": 120,
+      "kind": "claimed",
+      "note": "About, gearing-dependent",
+      "src": "https://motogallery.com/blogs/automotive-resource-library/1968-chevelle-ss396"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "count": 57600,
+      "approx": true,
+      "note": "1968 SS 396s, commonly cited",
+      "src": "https://motogallery.com/blogs/automotive-resource-library/1968-chevelle-ss396"
+    },
+    "versions": [
+      {
+        "name": "L35, 325 hp",
+        "detail": "The standard SS 396",
+        "specsFor": "1968 SS 396 L35"
+      },
+      {
+        "name": "L34, 350 hp",
+        "detail": "The step up",
+        "power": {
+          "hp": 350,
+          "note": "L34 396"
+        }
+      },
+      {
+        "name": "L78, 375 hp",
+        "detail": "Solid lifters; the serious one",
+        "power": {
+          "hp": 375,
+          "note": "L78 396"
+        }
+      }
+    ],
+    "predecessor": null,
+    "successor": null,
+    "quick": "The people's big-block: the all-new 1968 A-body's flowing shape with 396 cubic inches up front, in 3 strengths up to the 375-hp L78. About 57,600 sold in that one year, which says what America wanted.",
+    "story": [
+      "For 1968 GM redrew the A-body with a long hood, a fastback roofline and a short deck, and the Chevelle SS 396 became the shape most people picture when someone says muscle car. The formula was democratic on purpose: a 325-hp L35 396 standard, a 350-hp L34 for a few dollars more, and the solid-lifter 375-hp L78 for the serious, all in a car a foreman could finance. Period estimates put even the base car around 7 seconds to 60, and roughly 57,600 SS 396s found buyers in 1968 alone, an enormous number for a performance package.",
+      "That volume is the point of this page: the Hemi cars and COPO specials get the auctions, but the SS 396 is the muscle car as mass phenomenon, the one that actually parked in driveways. The insurance industry and the EPA would strangle the formula within 4 years, which everyone now knows and nobody did then. The red car in the photo wears the blacked-out hood and the stance, and somewhere behind it is a 20-year-old in 1968 signing a 36-month note."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "1968 Chevrolet Chevelle SS 396, red, Golden Super Cruise 2026-09-05.jpg",
+      "credit": "Xnatedawgx",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pos": ""
+    },
+    "match": [
+      "Chevrolet Chevelle",
+      "Chevelle SS"
+    ]
+  },
+  {
+    "id": "oldsmobile-silhouette-1",
+    "name": "Oldsmobile Silhouette (first generation)",
+    "aka": [
+      "Dustbuster",
+      "Trans Sport's twin",
+      "APV"
+    ],
+    "make": "Oldsmobile",
+    "maker": "General Motors (Tarrytown, New York)",
+    "country": "United States",
+    "years": "1990–1996",
+    "start": 1990,
+    "end": 1996,
+    "shop": null,
+    "body": "Plastic-paneled one-box minivan on a steel spaceframe",
+    "engine": "3.1, then 3.8-liter V6",
+    "drive": "Front-wheel drive",
+    "gearbox": "3-, then 4-speed automatic",
+    "specsFor": "1995 Silhouette 3.8",
+    "power": {
+      "hp": 170,
+      "note": "The 3800 V6 from 1992; the 3.1 made 120",
+      "src": "https://consumerguide.com/used/1990-96-oldsmobile-silhouette/"
+    },
+    "weight": {
+      "kg": 1696,
+      "lb": 3739,
+      "note": "Curb",
+      "src": "https://consumerguide.com/used/1990-96-oldsmobile-silhouette/"
+    },
+    "zero60": {
+      "na": "Nobody timed the windshield"
+    },
+    "top": {
+      "na": "Not recorded"
+    },
+    "mpg": {
+      "combined": 18,
+      "city": 15,
+      "hwy": 23,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/ws/rest/vehicle/12443",
+      "note": "EPA combined, 1995 3.8"
+    },
+    "built": {
+      "na": "GM published no Silhouette-only total"
+    },
+    "versions": [
+      {
+        "name": "3.8",
+        "detail": "1992 on; 170 hp",
+        "specsFor": "1995 Silhouette 3.8"
+      },
+      {
+        "name": "3.1",
+        "detail": "1990–1995; 120 hp and patience",
+        "power": {
+          "hp": 120,
+          "note": "3.1 V6"
+        },
+        "mpg": {
+          "combined": 18,
+          "city": 17,
+          "hwy": 21,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/ws/rest/vehicle/12442",
+          "note": "EPA combined, 1995 3.1"
+        },
+        "zero60": null,
+        "top": null,
+        "weight": null
+      }
+    ],
+    "predecessor": null,
+    "successor": null,
+    "quick": "The upscale third of GM's 'Dustbuster' trio: a plastic-bodied spaceframe minivan with a windshield from here to Tuesday, immortalized by Get Shorty as 'the Cadillac of minivans.'",
+    "story": [
+      "GM answered Chrysler's minivans with science fiction: the 1990 APV trio, Pontiac Trans Sport, Chevy Lumina APV and this Silhouette, rode a galvanized steel spaceframe wearing dent-proof composite panels, under a nose so long and a windshield so vast that America immediately named them after a handheld vacuum. The Silhouette was the dressy one, leather and lace-alloy wheels, and after the asthmatic 120-hp 3.1 came the proper 170-hp 3800 V6 in 1992, which finally gave the shape some push.",
+      "The cabin-forward packaging genuinely worked, the dashboard was deep enough to picnic on, and the plastic panels shrugged off parking lots, but buyers found the proportions alien and the Chrysler vans kept winning. Immortality arrived sideways in 1995, when Get Shorty had Chili Palmer repeatedly insist his Silhouette loaner was 'the Cadillac of minivans,' the most durable piece of minivan dialogue ever written. GM squared off the nose in 1994, gave up the experiment in 1996, and the Dustbusters became retro-future cult objects, which the red 1990 in the photo has fully become."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "1990 Oldsmobile Silhouette 3.1 (14944889467).jpg",
+      "credit": "Charlie from United Kingdom",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "pos": ""
+    },
+    "match": [
+      "Oldsmobile Silhouette"
+    ]
+  },
+  {
+    "id": "vector-w8",
+    "name": "Vector W8",
+    "aka": [
+      "W8 TwinTurbo",
+      "Wiegert W8"
+    ],
+    "make": "Vector",
+    "maker": "Vector Aeromotive (Wilmington, California)",
+    "country": "United States",
+    "years": "1990–1993",
+    "start": 1990,
+    "end": 1993,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "2-seat aerospace-construction supercar",
+    "engine": "6.0-liter twin-turbocharged Rodeck V8",
+    "drive": "Rear-wheel drive (mid-engine)",
+    "gearbox": "3-speed automatic",
+    "specsFor": "1991 W8 TwinTurbo",
+    "power": {
+      "hp": 625,
+      "note": "At 8 psi; more boost was a knob away",
+      "src": "https://www.caranddriver.com/features/a14499037/the-vector-w8-twinturbo-supercar-feature/"
+    },
+    "weight": {
+      "kg": 1669,
+      "lb": 3680,
+      "note": "Curb",
+      "src": "https://www.caranddriver.com/features/a14499037/the-vector-w8-twinturbo-supercar-feature/"
+    },
+    "zero60": {
+      "sec": 3.8,
+      "kind": "tested",
+      "note": "Period test figure",
+      "src": "https://www.caranddriver.com/features/a14499037/the-vector-w8-twinturbo-supercar-feature/"
+    },
+    "top": {
+      "mph": 218,
+      "kind": "claimed",
+      "note": "Wiegert's claim; never independently verified",
+      "src": "https://www.caranddriver.com/features/a14499037/the-vector-w8-twinturbo-supercar-feature/"
+    },
+    "mpg": {
+      "na": "Not a question anyone asked it"
+    },
+    "built": {
+      "count": 17,
+      "approx": false,
+      "note": "Customer cars, 1990–1993, plus 2 prototypes",
+      "src": "https://www.caranddriver.com/features/a14499037/the-vector-w8-twinturbo-supercar-feature/"
+    },
+    "predecessor": null,
+    "successor": null,
+    "quick": "America's aerospace supercar: Jerry Wiegert's 625-hp twin-turbo W8, built from aircraft honeycomb and military spec everything, claimed 218 mph, and sold 17 times at $455,000 — one of them, briefly and famously, to Andre Agassi.",
+    "story": [
+      "Jerry Wiegert spent 2 decades promising an all-American supercar built like a fighter jet, and the W8 delivered at least the construction: a semi-monocoque of aluminum honeycomb and carbon-kevlar, bonded with aerospace adhesives and 5,000 rivets, with a reclined cockpit full of electroluminescent aircraft instruments. Behind the seats sat a 6.0-liter twin-turbo Rodeck racing V8, 625 hp at 8 psi with more available by knob, through, of all things, a strengthened 3-speed GM automatic. The price was $455,000, or $1,123,500 in 2026 dollars, Ferrari F40 money.",
+      "The claims, 218 mph chief among them, were never independently proven, and the famous unraveling came fast: Andre Agassi bought an early car, it overheated its carpet on a drive home, and the refund made national news; by 1993, after 17 customer cars, Wiegert lost the company in a hostile takeover by Megatech, which bolted Lamborghini power into the later M12. None of which dims the object: the W8 is the maddest, most sincere American supercar attempt of its century, and the few that exist now trade for multiples of that sticker."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "1990 Vector W8 Twin Turbo sports car (Ank Kumar, Infosys Limited) 01.jpg",
+      "credit": "Ank Kumar",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pos": ""
+    },
+    "match": [
+      "Vector W8"
+    ]
+  },
+  {
+    "id": "cunningham-c4r",
+    "name": "Cunningham C-4R",
+    "aka": [
+      "C-4RK",
+      "Le Monstre's successor"
+    ],
+    "make": "Cunningham",
+    "maker": "B.S. Cunningham Company (West Palm Beach, Florida)",
+    "country": "United States",
+    "years": "1952",
+    "start": 1952,
+    "end": 1952,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "2-seat racing roadster; one streamlined coupe",
+    "engine": "5.4-liter (331 cu in) Chrysler FirePower Hemi V8",
+    "drive": "Rear-wheel drive",
+    "gearbox": "4-speed manual",
+    "specsFor": "1952 C-4R roadster",
+    "power": {
+      "hp": 300,
+      "note": "Chrysler 331 Hemi, race-tuned",
+      "src": "https://revsinstitute.org/vehicle/1952-cunningham-c-4r/"
+    },
+    "weight": {
+      "kg": 1093,
+      "lb": 2410,
+      "note": "Dry, per the Revs Institute",
+      "src": "https://revsinstitute.org/vehicle/1952-cunningham-c-4r/"
+    },
+    "zero60": {
+      "na": "A race car; nobody timed it to 60"
+    },
+    "top": {
+      "mph": 155,
+      "kind": "tested",
+      "note": "Down the Mulsanne, period figure",
+      "src": "https://revsinstitute.org/vehicle/1952-cunningham-c-4r/"
+    },
+    "mpg": {
+      "na": "A Le Mans car"
+    },
+    "built": {
+      "count": 3,
+      "approx": false,
+      "note": "2 roadsters and the streamlined C-4RK coupe",
+      "src": "https://revsinstitute.org/vehicle/1952-cunningham-c-4r/"
+    },
+    "predecessor": null,
+    "successor": null,
+    "quick": "An American millionaire's Hemi-powered answer to Le Mans: 3 built, and in 1952 Briggs Cunningham drove his own car for roughly 20 of the 24 hours to finish 4th overall. They named the sportsmanship trophy after him.",
+    "story": [
+      "Briggs Cunningham wanted an American car to win Le Mans with American drivers, and he built the whole operation himself in West Palm Beach: the C-4R put a 300-hp race-tuned Chrysler Hemi in a 1,093-kg (2,410 lb) tube-frame roadster that would run 155 mph down the Mulsanne. 3 were built, 2 open cars and the streamlined C-4RK coupe, wearing the white-with-blue-stripes livery that Cunningham himself made the American racing uniform.",
+      "The 1952 race made the legend: Cunningham, then 45, drove his own entry for roughly 20 of the 24 hours, sustained on, the story goes, orange juice and chocolate, and brought it home 4th overall against the works Mercedes 300SLs. The C-4Rs kept scoring top-10 Le Mans finishes through 1954, the best American showing at the race until the GT40s a decade later. He never got his win, but the effort defined racing sportsmanship so completely that the trophy for it at Le Mans and in American racing bears his name. The car in the photo is the real thing, stripes and all, at a concours."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "1952 Cunningham C-4R (48853753946).jpg",
+      "credit": "Alan Raine from Cheshire, UK",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "pos": ""
+    },
+    "match": [
+      "Cunningham C-4R"
+    ]
   }
 ];

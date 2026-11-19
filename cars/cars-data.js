@@ -6422,7 +6422,7 @@ const CARS_INDEX = [
   },
   "alongside": [],
   "prev": {
-   "id": null,
+   "id": "lamborghini-countach",
    "name": "Lamborghini Countach"
   },
   "next": {
@@ -24665,6 +24665,578 @@ const CARS_INDEX = [
   "next": null,
   "photo": {
    "card": "/assets/images/cars/sunbeam-1000hp.jpg?v=73530ee9",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "lamborghini-countach",
+  "name": "Lamborghini Countach",
+  "aka": [
+   "LP400",
+   "LP500 S",
+   "5000 S",
+   "5000 QV",
+   "25th Anniversary",
+   "Periscopio"
+  ],
+  "make": "Lamborghini",
+  "maker": "Lamborghini (Sant'Agata Bolognese, Italy)",
+  "years": "1974–1990",
+  "start": 1974,
+  "body": "2-door wedge coupe with scissor doors",
+  "engine": "Lamborghini V12, 3.9 to 5.2 liters",
+  "country": "Italy",
+  "quick": "The wedge on every bedroom wall: Gandini's scissor-doored V12 outrage, built for 16 years. The Petersen's white car is an LP500 S, the version its placard calls the LP5000 S.",
+  "articles": [
+   "it-was-always-trying-to-kill-you",
+   "dealt-in"
+  ],
+  "latest": "2026-09-14",
+  "ownDates": [],
+  "dates": [
+   "2026-09-14",
+   "2026-08-19"
+  ],
+  "drive": "Rear-wheel drive (mid-engine)",
+  "gearbox": "5-speed manual",
+  "specsFor": "Countach LP500 S, European specification",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 370,
+  "kg": 1480,
+  "kgNote": "Dry weight, not curb",
+  "lbs": 3263,
+  "z60": {
+   "sec": 5.7,
+   "kind": "claimed",
+   "note": "An estimate for the LP500 S; period Countach tests vary widely"
+  },
+  "top": {
+   "mph": 182,
+   "kind": "claimed",
+   "note": "Maker and secondary figures for the LP500 S"
+  },
+  "mpg": {
+   "combined": 7,
+   "city": 6,
+   "hwy": 10,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1989 Countach: the worst-rated car of its day"
+  },
+  "built": {
+   "count": 1983,
+   "approx": true,
+   "note": "By the usual model count: 157 LP400s, 235 LP400 Ss, 321 LP500 Ss, about 610 5000 QVs and 657 25th Anniversaries; Wikipedia's total is 2,049"
+  },
+  "alongside": [],
+  "prev": {
+   "id": null,
+   "name": "Lamborghini Miura"
+  },
+  "next": {
+   "id": "lamborghini-diablo-sv",
+   "name": "Lamborghini Diablo SV"
+  },
+  "photo": {
+   "card": "/assets/images/cars/lamborghini-countach.jpg?v=fa3e6681",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "jaguar-xj220",
+  "name": "Jaguar XJ220",
+  "aka": [
+   "XJ220 S"
+  ],
+  "make": "Jaguar",
+  "maker": "JaguarSport, a Jaguar and Tom Walkinshaw Racing joint venture (Bloxham, England)",
+  "years": "1992–1994",
+  "start": 1992,
+  "body": "2-seat supercar coupe",
+  "engine": "3.5-liter twin-turbocharged V6",
+  "country": "United Kingdom",
+  "quick": "The fastest car in the world, 1992–1993: 213 mph from a twin-turbo V6. It was born a V12 show car, and the change cost Jaguar dearly when buyers walked away.",
+  "articles": [
+   "it-was-always-trying-to-kill-you",
+   "the-shape-children-draw"
+  ],
+  "latest": "2026-09-14",
+  "ownDates": [],
+  "dates": [
+   "2026-09-14",
+   "2026-09-02"
+  ],
+  "drive": "Rear-wheel drive (mid-engine)",
+  "gearbox": "5-speed manual",
+  "specsFor": "1992 Jaguar XJ220",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 542,
+  "kg": 1470,
+  "kgNote": "Curb",
+  "lbs": 3241,
+  "z60": {
+   "sec": 4.8,
+   "kind": "tested",
+   "note": "Road & Track's US test; Autocar in Britain recorded 3.6, and Jaguar claimed 3.5"
+  },
+  "top": {
+   "mph": 213,
+   "kind": "tested",
+   "note": "212.3 mph at Nardò in 1992, the production-car record until the McLaren F1; 217.1 mph with the catalytic converters disconnected"
+  },
+  "mpg": null,
+  "built": {
+   "count": 275,
+   "approx": false,
+   "note": "Jaguar's own figure; registries count anywhere from 271 to 282"
+  },
+  "alongside": [
+   {
+    "id": "bugatti-eb110",
+    "name": "Bugatti EB110"
+   }
+  ],
+  "prev": null,
+  "next": null,
+  "photo": {
+   "card": "/assets/images/cars/jaguar-xj220.jpg?v=0fd9c299",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "bugatti-eb110",
+  "name": "Bugatti EB110",
+  "aka": [
+   "EB 110 GT",
+   "EB110 SS",
+   "EB110 Super Sport"
+  ],
+  "make": "Bugatti",
+  "maker": "Bugatti Automobili (Campogalliano, Italy)",
+  "years": "1991–1995",
+  "start": 1991,
+  "body": "2-seat supercar coupe with scissor doors",
+  "engine": "3.5-liter V12 with 4 turbochargers and 60 valves",
+  "country": "Italy",
+  "quick": "The first modern Bugatti: quad turbos, 60 valves, all-wheel drive and a carbon tub, launched on Ettore's 110th birthday. The company was gone 4 years later, and the Veyron owes it everything.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "All-wheel drive",
+  "gearbox": "6-speed manual",
+  "specsFor": "EB110 GT, Bugatti's figures",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 553,
+  "kg": 1620,
+  "kgNote": "Published curb figure for the GT",
+  "lbs": 3571,
+  "z60": {
+   "sec": 3.4,
+   "kind": "claimed",
+   "note": "Bugatti's figure for the GT; 3.26 seconds to 100 km/h"
+  },
+  "top": {
+   "mph": 213,
+   "kind": "claimed",
+   "note": "Bugatti's 342 km/h for the GT; the SS was faster still"
+  },
+  "mpg": null,
+  "built": {
+   "count": 128,
+   "approx": true,
+   "note": "Bugatti's own retrospective: 96 GTs and 32 Super Sports built at Campogalliano; other counting conventions reach 139"
+  },
+  "alongside": [
+   {
+    "id": "jaguar-xj220",
+    "name": "Jaguar XJ220"
+   }
+  ],
+  "prev": null,
+  "next": {
+   "id": null,
+   "name": "Bugatti Veyron"
+  },
+  "photo": {
+   "card": "/assets/images/cars/bugatti-eb110.jpg?v=59f5d7cd",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "honda-nsx",
+  "name": "Honda NSX (first generation)",
+  "aka": [
+   "Acura NSX",
+   "NSX-R",
+   "NSX-T",
+   "NA1",
+   "NA2"
+  ],
+  "make": "Honda",
+  "maker": "Honda (Takanezawa R&D plant, Tochigi, Japan)",
+  "years": "1990–2005",
+  "start": 1990,
+  "body": "2-seat coupe, later also a targa",
+  "engine": "3.0-liter, later 3.2-liter, VTEC V6",
+  "country": "Japan",
+  "quick": "The supercar that started every day: all-aluminum, Senna-tuned, Ferrari-quick and Honda-reliable. The Petersen's car is the rarest kind, a Japan-only NSX-R.",
+  "articles": [
+   "industry-brief-2026-11-02",
+   "the-one-on-the-wall",
+   "the-brightest-star",
+   "the-overachiever",
+   "last-place-every-time",
+   "three-cylinders-no-apologies"
+  ],
+  "latest": "2026-11-02",
+  "ownDates": [],
+  "dates": [
+   "2026-11-02",
+   "2026-10-07",
+   "2026-09-29",
+   "2026-09-25",
+   "2026-08-31",
+   "2026-08-18"
+  ],
+  "drive": "Rear-wheel drive (mid-engine)",
+  "gearbox": "5- then 6-speed manual, or automatic",
+  "specsFor": "1991 US-market Acura NSX, 5-speed manual",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 270,
+  "kg": 1350,
+  "kgNote": "1991 coupe",
+  "lbs": 2976,
+  "z60": {
+   "sec": 5.2,
+   "kind": "tested",
+   "note": "Period US tests of the 1991 car"
+  },
+  "top": {
+   "mph": 175,
+   "kind": "claimed",
+   "note": "The Manual's figure; early 3.0-liter cars were slightly slower"
+  },
+  "mpg": {
+   "combined": 18,
+   "city": 16,
+   "hwy": 22,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1991 NSX, manual"
+  },
+  "built": null,
+  "alongside": [
+   {
+    "id": "nissan-skyline-gtr-r34",
+    "name": "Nissan Skyline GT-R (R34)"
+   }
+  ],
+  "prev": null,
+  "next": {
+   "id": null,
+   "name": "Honda NSX (second generation)"
+  },
+  "photo": {
+   "card": "/assets/images/cars/honda-nsx.jpg?v=31cb83fe",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "nissan-skyline-gtr-r34",
+  "name": "Nissan Skyline GT-R (R34)",
+  "aka": [
+   "BNR34",
+   "R34",
+   "Godzilla",
+   "V-Spec"
+  ],
+  "make": "Nissan",
+  "maker": "Nissan (Musashimurayama, Japan)",
+  "years": "1999–2002",
+  "start": 1999,
+  "body": "2-door coupe",
+  "engine": "2.6-liter twin-turbocharged RB26DETT inline-6",
+  "country": "Japan",
+  "quick": "Godzilla's last stand: the final Skyline GT-R, 11,578 built by Nissan's own count, none of them sold new in America. Now the 25-year rule is letting them in, and the Petersen has a white one waiting.",
+  "articles": [
+   "the-one-on-the-wall",
+   "the-overachiever"
+  ],
+  "latest": "2026-10-07",
+  "ownDates": [],
+  "dates": [
+   "2026-10-07",
+   "2026-09-25"
+  ],
+  "drive": "All-wheel drive (ATTESA E-TS)",
+  "gearbox": "6-speed manual",
+  "specsFor": "1999 Skyline GT-R V-Spec, Japanese market",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 276,
+  "kg": 1560,
+  "kgNote": "V-Spec; the standard car was 1,540 kg",
+  "lbs": 3439,
+  "z60": {
+   "sec": 4.9,
+   "kind": "tested",
+   "note": "Wheels (Australia) 0-100 km/h test of a V-Spec"
+  },
+  "top": {
+   "mph": 155,
+   "kind": "claimed",
+   "note": "Factory speed limiter"
+  },
+  "mpg": null,
+  "built": {
+   "count": 11578,
+   "approx": false,
+   "note": "Nissan's own figure: every R34 GT-R built, 1999–2002"
+  },
+  "alongside": [
+   {
+    "id": "honda-nsx",
+    "name": "Honda NSX (first generation)"
+   }
+  ],
+  "prev": {
+   "id": null,
+   "name": "Nissan Skyline GT-R (R33)"
+  },
+  "next": {
+   "id": null,
+   "name": "Nissan GT-R (R35)"
+  },
+  "photo": {
+   "card": "/assets/images/cars/nissan-skyline-gtr-r34.jpg?v=4a0eec08",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "aston-martin-dbr22",
+  "name": "Aston Martin DBR22",
+  "aka": [
+   "DBR22 Speedster"
+  ],
+  "make": "Aston Martin",
+  "maker": "Q by Aston Martin (Gaydon, England)",
+  "years": "2022",
+  "start": 2022,
+  "body": "2-seat open-cockpit speedster with no windshield",
+  "engine": "5.2-liter twin-turbocharged V12",
+  "country": "United Kingdom",
+  "quick": "A 705-hp V12 speedster with no windshield, built to mark 10 years of Aston's Q division and shaped after the Le Mans-winning DBR1. 22 were built, at about £1,500,000 each.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive",
+  "gearbox": "8-speed automatic",
+  "specsFor": "DBR22, Aston Martin's figures",
+  "guide": null,
+  "shop": null,
+  "hp": 705,
+  "kg": null,
+  "kgNote": "",
+  "lbs": null,
+  "z60": {
+   "sec": 3.4,
+   "kind": "claimed",
+   "note": "Aston Martin's 0-100 km/h figure"
+  },
+  "top": {
+   "mph": 198,
+   "kind": "claimed",
+   "note": "Aston Martin's figure"
+  },
+  "mpg": null,
+  "built": {
+   "count": 22,
+   "approx": false,
+   "note": "Shown as a concept at Monterey in 2022, then built for Q customers"
+  },
+  "alongside": [],
+  "prev": {
+   "id": null,
+   "name": "Aston Martin V12 Speedster"
+  },
+  "next": null,
+  "photo": {
+   "card": "/assets/images/cars/aston-martin-dbr22.jpg?v=cc7eaa77",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "gma-t50",
+  "name": "Gordon Murray Automotive T.50",
+  "aka": [
+   "GMA T.50",
+   "T.50s Niki Lauda"
+  ],
+  "make": "Gordon Murray Automotive",
+  "maker": "Gordon Murray Automotive (Surrey, England)",
+  "years": "2022–present",
+  "start": 2022,
+  "body": "3-seat coupe with the driver in the center, and a 400 mm fan at the tail",
+  "engine": "3.9-liter Cosworth GMA V12",
+  "country": "United Kingdom",
+  "quick": "Gordon Murray's sequel to the McLaren F1: central driving seat, a 12,100-rpm Cosworth V12, a manual gearbox, 986 kg and a fan sucking it to the road. 100 built, £2,360,000 each.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive (mid-engine)",
+  "gearbox": "6-speed manual",
+  "specsFor": "T.50 road car, GMA's figures",
+  "guide": null,
+  "shop": null,
+  "hp": 654,
+  "kg": 986,
+  "kgNote": "Curb; roughly a third less than most supercars",
+  "lbs": 2174,
+  "z60": null,
+  "top": {
+   "mph": 226,
+   "kind": "claimed",
+   "note": "Top Gear's figure, gearing-dependent"
+  },
+  "mpg": null,
+  "built": {
+   "count": 100,
+   "approx": false,
+   "note": "The road-car run, sold out within 48 hours; 25 more T.50s Niki Lauda track cars followed"
+  },
+  "alongside": [],
+  "prev": null,
+  "next": null,
+  "photo": {
+   "card": "/assets/images/cars/gma-t50.jpg?v=7383423c",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "caterham-project-v",
+  "name": "Caterham Project V",
+  "aka": [
+   "Project V"
+  ],
+  "make": "Caterham",
+  "maker": "Caterham Cars (Great Britain)",
+  "years": "2023–present (prototype)",
+  "start": 2023,
+  "body": "2-door electric coupe",
+  "engine": "Single rear electric motor",
+  "country": "United Kingdom",
+  "quick": "The Seven company's first new idea in decades: a light, simple electric coupe designed by Anthony Jannarelly, targeting 1,430 kg when most EVs weigh 2 tons. The Petersen has the white prototype.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive",
+  "gearbox": "Single-speed",
+  "specsFor": "Development prototype, Caterham's target figures",
+  "guide": null,
+  "shop": null,
+  "hp": 268,
+  "kg": 1430,
+  "kgNote": "Caterham's target",
+  "lbs": 3153,
+  "z60": {
+   "sec": 5.0,
+   "kind": "claimed",
+   "note": "Caterham's target is under 5.0 seconds to 62 mph"
+  },
+  "top": {
+   "mph": 143,
+   "kind": "claimed",
+   "note": "Caterham's target"
+  },
+  "mpg": null,
+  "built": null,
+  "alongside": [],
+  "prev": null,
+  "next": null,
+  "photo": {
+   "card": "/assets/images/cars/caterham-project-v.jpg?v=b457bf07",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "tesla-roadster-thrust",
+  "name": "Tesla Roadster 'Thrust' (prototype)",
+  "aka": [
+   "Tesla Roadster",
+   "Roadster 2",
+   "second-generation Roadster"
+  ],
+  "make": "Tesla",
+  "maker": "Tesla (Austin, Texas)",
+  "years": "2026 (production promised for 2028)",
+  "start": 2026,
+  "body": "2-seat coupe with cold-gas thrusters in the tail",
+  "engine": "Electric motors, plus compressed-air thrusters on the Thrust and Rocket versions",
+  "country": "United States",
+  "quick": "The long-promised Roadster finally reappeared in October 2026, now with SpaceX compressed-air thrusters, a claimed 0.81-second 0-60 and a demo in which it flipped itself over and jumped parked cars. Every number is Tesla's own.",
+  "articles": [
+   "industry-brief-2026-10-19",
+   "natural-selection"
+  ],
+  "latest": "2026-10-19",
+  "ownDates": [],
+  "dates": [
+   "2026-10-19",
+   "2026-09-28"
+  ],
+  "drive": "All-wheel drive",
+  "gearbox": "Single-speed",
+  "specsFor": "The October 2026 prototype; every figure is Tesla's claim, none independently tested",
+  "guide": null,
+  "shop": null,
+  "hp": null,
+  "kg": null,
+  "kgNote": "",
+  "lbs": null,
+  "z60": {
+   "sec": 0.81,
+   "kind": "claimed",
+   "note": "Tesla's claim from the October 2026 demonstration, thrusters firing; not independently timed"
+  },
+  "top": {
+   "mph": 230,
+   "kind": "claimed",
+   "note": "Tesla claims over 230 mph"
+  },
+  "mpg": null,
+  "built": null,
+  "alongside": [],
+  "prev": null,
+  "next": null,
+  "photo": {
+   "card": "/assets/images/cars/tesla-roadster-thrust.jpg?v=d86b7ba0",
    "pos": "",
    "fit": ""
   }

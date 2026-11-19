@@ -1,0 +1,359 @@
+{
+ "id": "ford-expedition",
+ "make": "Ford",
+ "model": "Expedition",
+ "years": "1997–2026",
+ "byline": "Nathaniel Ruiz",
+ "published": "2026-11-19",
+ "updated": "2026-11-19",
+ "cars": [
+  "ford-expedition-3rd-gen",
+  "ford-expedition-4th-gen",
+  "ford-expedition-5th-gen"
+ ],
+ "shop": {
+  "cargurus": "d333"
+ },
+ "chapters": [
+  "2025-2026",
+  "2018-2024",
+  "2007-2017",
+  "used-checklist"
+ ],
+ "series": {
+  "t97": {
+   "name": "1997 XLT 5.4, Car and Driver",
+   "color": "#9aa5b1"
+  },
+  "t18": {
+   "name": "2018 Platinum, Car and Driver",
+   "color": "#2E6E96"
+  },
+  "t22m": {
+   "name": "2022 Max, MotorWeek",
+   "color": "#2E6E96"
+  },
+  "t22t": {
+   "name": "2022 Timberline, Car and Driver",
+   "color": "#e05c2a"
+  },
+  "t22s": {
+   "name": "2022 Limited Stealth, Car and Driver",
+   "color": "#e05c2a"
+  },
+  "t25": {
+   "name": "2025 Max Platinum HO, Car and Driver",
+   "color": "#e05c2a"
+  },
+  "e98": {
+   "name": "1998, 5.4",
+   "color": "#9aa5b1"
+  },
+  "e05": {
+   "name": "2005, 5.4 3-valve",
+   "color": "#9aa5b1"
+  },
+  "e12": {
+   "name": "2012, 5.4 flex-fuel",
+   "color": "#2E6E96"
+  },
+  "e16": {
+   "name": "2016, 3.5 EcoBoost",
+   "color": "#2E6E96"
+  },
+  "e18": {
+   "name": "2018, 3.5 EcoBoost",
+   "color": "#e05c2a"
+  },
+  "e25": {
+   "name": "2025, 3.5 EcoBoost",
+   "color": "#e05c2a"
+  },
+  "s97": {
+   "name": "1997, year 1",
+   "color": "#9aa5b1"
+  },
+  "s99": {
+   "name": "1999, the peak",
+   "color": "#9aa5b1"
+  },
+  "s09": {
+   "name": "2009, the bottom",
+   "color": "#9aa5b1"
+  },
+  "s19": {
+   "name": "2019, the recovery",
+   "color": "#2E6E96"
+  },
+  "s25": {
+   "name": "2025",
+   "color": "#e05c2a"
+  },
+  "p18": {
+   "name": "2018 Max XLT",
+   "color": "#2E6E96"
+  },
+  "p26a": {
+   "name": "2026 Active",
+   "color": "#e05c2a"
+  },
+  "p26p": {
+   "name": "2026 Platinum",
+   "color": "#e05c2a"
+  },
+  "p26t": {
+   "name": "2026 Tremor",
+   "color": "#e05c2a"
+  },
+  "p26k": {
+   "name": "2026 King Ranch",
+   "color": "#e05c2a"
+  }
+ },
+ "charts": {
+  "accel": {
+   "n": 1,
+   "title": "0–60 mph, as tested, 1997 to today",
+   "sub": "Seconds; shorter is quicker. Every bar is an instrumented test.",
+   "source": "Car and Driver and MotorWeek instrumented tests",
+   "bars": [
+    [
+     "t97",
+     10.6,
+     "10.6 sec"
+    ],
+    [
+     "t22m",
+     6.1,
+     "6.1 sec"
+    ],
+    [
+     "t18",
+     5.7,
+     "5.7 sec"
+    ],
+    [
+     "t22t",
+     5.1,
+     "5.1 sec"
+    ],
+    [
+     "t22s",
+     4.9,
+     "4.9 sec"
+    ],
+    [
+     "t25",
+     4.9,
+     "4.9 sec"
+    ]
+   ]
+  },
+  "mpg": {
+   "n": 2,
+   "title": "EPA combined fuel economy, 4WD, by era",
+   "sub": "Miles per gallon. 28 years of progress: 13 to 19 while horsepower went from 230 to 440.",
+   "source": "US EPA, fueleconomy.gov",
+   "bars": [
+    [
+     "e98",
+     13,
+     "13 mpg"
+    ],
+    [
+     "e05",
+     14,
+     "14 mpg"
+    ],
+    [
+     "e12",
+     15,
+     "15 mpg"
+    ],
+    [
+     "e16",
+     17,
+     "17 mpg"
+    ],
+    [
+     "e18",
+     19,
+     "19 mpg"
+    ],
+    [
+     "e25",
+     18,
+     "18 mpg"
+    ]
+   ]
+  },
+  "sales": {
+   "n": 3,
+   "title": "The Expedition sales arc",
+   "sub": "US sales in selected calendar years: the first full year, the peak, the crash, the recovery, today.",
+   "source": "Ford US sales figures, via Wikipedia",
+   "bars": [
+    [
+     "s97",
+     214524,
+     "214,524"
+    ],
+    [
+     "s99",
+     233125,
+     "233,125"
+    ],
+    [
+     "s09",
+     31655,
+     "31,655"
+    ],
+    [
+     "s19",
+     86422,
+     "86,422"
+    ],
+    [
+     "s25",
+     85921,
+     "85,921"
+    ]
+   ]
+  },
+  "price": {
+   "n": 4,
+   "title": "What a new one costs, in 2026 dollars",
+   "sub": "Starting prices, adjusted with the US consumer price index where needed. The original price is in the label.",
+   "source": "Ford and cars.com prices; Carveyance CPI arithmetic",
+   "bars": [
+    [
+     "p18",
+     73700,
+     "$73,700 · $55,000 then"
+    ],
+    [
+     "p26a",
+     62700,
+     "$62,700"
+    ],
+    [
+     "p26p",
+     74250,
+     "$74,250"
+    ],
+    [
+     "p26t",
+     81700,
+     "$81,700"
+    ],
+    [
+     "p26k",
+     84360,
+     "$84,360"
+    ]
+   ]
+  }
+ },
+ "photos": {
+  "hub-hero": {
+   "credit": "Kevauto",
+   "page": "https://commons.wikimedia.org/wiki/File:2025_Ford_Expedition_Tremor,_front_NYIAS_2025.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": "A 2025 Ford Expedition Tremor on the stand at the New York auto show"
+  },
+  "ch1-hero": {
+   "credit": "Mr.choppers",
+   "page": "https://commons.wikimedia.org/wiki/File:2025_Ford_Expedition_Active_4WD_in_Glacier_Gray_Metallic,_rear_left.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": "A 2025 Ford Expedition Active in Glacier Gray, rear three-quarter view showing the Split Gate tailgate"
+  },
+  "ch2-hero": {
+   "credit": "Kevauto",
+   "page": "https://commons.wikimedia.org/wiki/File:2018_Ford_Expedition_XLT,_front_7.17.19.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": "A black 2018 Ford Expedition XLT, front three-quarter view"
+  },
+  "ch3-hero": {
+   "credit": "Calreyn88",
+   "page": "https://commons.wikimedia.org/wiki/File:2008_Ford_Expedition.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": "A black 2008 Ford Expedition, front three-quarter view"
+  },
+  "ch4-hero": {
+   "credit": "Ryan1564",
+   "page": "https://commons.wikimedia.org/wiki/File:1999_Ford_Expedition.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": "A burgundy 1999 Ford Expedition Eddie Bauer, front three-quarter view"
+  }
+ },
+ "find": {
+  "picker": [
+   {
+    "model": "Expedition",
+    "years": "2025–2026",
+    "ch": "2025-2026"
+   },
+   {
+    "model": "Expedition",
+    "years": "2018–2024",
+    "ch": "2018-2024"
+   },
+   {
+    "model": "Expedition / EL",
+    "years": "2007–2017",
+    "ch": "2007-2017"
+   }
+  ],
+  "terms": {
+   "": [
+    "Expedition",
+    "Ford Expedition",
+    "full-size SUV",
+    "3-row SUV",
+    "big SUV",
+    "Tahoe alternative",
+    "tow rig"
+   ],
+   "2025-2026": [
+    "Split Gate",
+    "Tremor",
+    "Active",
+    "King Ranch",
+    "Platinum",
+    "440 hp",
+    "high-output"
+   ],
+   "2018-2024": [
+    "Max",
+    "Timberline",
+    "Limited Stealth",
+    "XLT",
+    "10-speed",
+    "aluminum body",
+    "used Expedition"
+   ],
+   "2007-2017": [
+    "EL",
+    "Expedition EL",
+    "5.4",
+    "3.5 EcoBoost",
+    "King Ranch",
+    "cheap 3-row"
+   ],
+   "used-checklist": [
+    "used",
+    "checklist",
+    "spark plugs",
+    "cam phaser",
+    "10-speed",
+    "recall",
+    "inspection"
+   ]
+  }
+ }
+}

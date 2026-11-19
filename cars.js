@@ -45202,5 +45202,937 @@ const CARS = [
     "match": [
       "Ford Explorer"
     ]
+  },
+  {
+    "id": "ford-expedition-1st-gen",
+    "family": {
+      "id": "ford-expedition",
+      "name": "Ford Expedition"
+    },
+    "name": "Ford Expedition (first generation)",
+    "aka": [
+      "UN93",
+      "XLT",
+      "Eddie Bauer"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Michigan Truck Plant, Wayne, Michigan)",
+    "country": "United States",
+    "years": "1997–2002",
+    "start": 1997,
+    "end": 2002,
+    "shop": {
+      "cargurus": "d333"
+    },
+    "body": "Full-size body-on-frame SUV built off the tenth-generation F-150 — 4 doors and up to 9 seats where the Bronco had 2 doors and 5",
+    "engine": "4.6 Triton V8; 5.4 Triton V8",
+    "drive": "Rear-wheel drive or ControlTrac 4-wheel drive",
+    "gearbox": "4-speed automatic",
+    "specsFor": "1999 Expedition 5.4 4WD",
+    "power": {
+      "hp": 260,
+      "note": "5.4 Triton V8 from 1999; it launched with 230 hp",
+      "src": "https://en.wikipedia.org/wiki/Ford_Expedition"
+    },
+    "weight": {
+      "kg": 2424,
+      "lb": 5345,
+      "note": "Curb weight, 5.4 4WD, approximate"
+    },
+    "zero60": {
+      "sec": 9.5,
+      "kind": "estimated",
+      "note": "For the 260-hp 5.4; Car and Driver's 1997 test of the 230-hp truck ran 10.6"
+    },
+    "top": {
+      "mph": 98,
+      "kind": "estimated",
+      "note": "Speed-limited, approximate"
+    },
+    "mpg": {
+      "combined": 13,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/",
+      "note": "EPA combined, 1998, 5.4 4WD; the 4.6 rates 14"
+    },
+    "built": {
+      "count": 1274308,
+      "approx": true,
+      "note": "Sold in the US, 1996–2002 calendar years",
+      "src": "https://en.wikipedia.org/wiki/Ford_Expedition"
+    },
+    "versions": [
+      {
+        "name": "5.4 4WD",
+        "detail": "The headline truck — 260 hp from 1999"
+      },
+      {
+        "name": "4.6 V8",
+        "detail": "215 hp at launch, 240 by 2001",
+        "power": {
+          "hp": 215,
+          "note": "4.6 Triton, 1997–98; 240 hp for 2001–02",
+          "src": "https://en.wikipedia.org/wiki/Ford_Expedition"
+        },
+        "weight": {
+          "kg": 2273,
+          "lb": 5011,
+          "note": "Curb weight, 2WD, approximate"
+        },
+        "zero60": {
+          "sec": 10.9,
+          "kind": "estimated",
+          "note": "Period tests ran high 10s to low 11s"
+        },
+        "top": {
+          "mph": 98,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "combined": 14,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 1998, 4.6"
+        }
+      },
+      {
+        "name": "1997 XLT 5.4 4WD, as tested",
+        "detail": "Car and Driver's launch-year test of the 230-hp truck",
+        "power": {
+          "hp": 230,
+          "note": "5.4 Triton, 1997–98 output",
+          "src": "https://en.wikipedia.org/wiki/Ford_Expedition"
+        },
+        "weight": {
+          "kg": 2424,
+          "lb": 5345,
+          "note": "Curb weight, 5.4 4WD, approximate"
+        },
+        "zero60": {
+          "sec": 10.6,
+          "kind": "tested",
+          "note": "Car and Driver instrumented test, 1997",
+          "src": "https://www.caranddriver.com/"
+        },
+        "top": {
+          "mph": 98,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "combined": 13,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 1998, 5.4 4WD"
+        }
+      },
+      {
+        "name": "Eddie Bauer",
+        "detail": "The leather-and-two-tone flagship trim, carried over from the Bronco",
+        "power": {
+          "hp": 260,
+          "note": "5.4 Triton V8 from 1999",
+          "src": "https://en.wikipedia.org/wiki/Ford_Expedition"
+        },
+        "weight": {
+          "kg": 2424,
+          "lb": 5345,
+          "note": "Curb weight, 5.4 4WD, approximate"
+        },
+        "zero60": {
+          "sec": 9.5,
+          "kind": "estimated",
+          "note": "With the 260-hp 5.4"
+        },
+        "top": {
+          "mph": 98,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "combined": 13,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 1998, 5.4 4WD"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Ford Bronco (fifth generation)",
+      "id": "ford-bronco-5th-gen"
+    },
+    "successor": {
+      "name": "Ford Expedition (second generation)",
+      "id": "ford-expedition-2nd-gen"
+    },
+    "alongside": [
+      {
+        "name": "Ford F-150 (tenth generation)",
+        "id": "ford-f-series-10th-gen"
+      }
+    ],
+    "quick": "Ford retired the Bronco, stretched an F-150 into 4 doors and 3 rows, and the Expedition invented the modern full-size family SUV — 1.27 million sold in 6 years.",
+    "story": [
+      "By the mid-1990s the 2-door Bronco was a dead end: families wanted 4 doors, and the Explorer had proven how big that market was. Ford spent about $1.3 billion — roughly $2.8 billion in 2026 dollars — developing the UN93 program, and on October 2, 1996 the Expedition replaced the Bronco outright. It was an F-150 underneath, with the same new Triton V8s, a 4-speed automatic, and ControlTrac 4-wheel drive that could stay engaged on dry pavement. Up to 9 people could ride in it, and it could tow what a half-ton pickup could.",
+      "The timing was perfect. Gas was cheap, the F-150 chassis was fresh, and the Expedition landed 2 years before GM could answer with the redesigned Tahoe's 4-door momentum. The 4.6 made 215 hp at launch and the optional 5.4 made 230, climbing to 260 by 1999 — enough to move 2,424 kg (5,345 lb) to 60 mph in the mid-9s. Buyers took 1.27 million of them in 6 years, and the Eddie Bauer trim — leather, 2-tone paint — became shorthand for the whole late-90s suburban moment."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "1999 Ford Expedition.jpg",
+      "credit": "Ryan1564",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pos": ""
+    },
+    "match": [
+      "Ford Expedition"
+    ]
+  },
+  {
+    "id": "ford-expedition-2nd-gen",
+    "family": {
+      "id": "ford-expedition",
+      "name": "Ford Expedition"
+    },
+    "name": "Ford Expedition (second generation)",
+    "aka": [
+      "U222",
+      "Eddie Bauer",
+      "King Ranch"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Michigan Truck Plant, Wayne, Michigan)",
+    "country": "United States",
+    "years": "2003–2006",
+    "start": 2003,
+    "end": 2006,
+    "shop": {
+      "cargurus": "d333"
+    },
+    "body": "Full-size body-on-frame SUV on a hydroformed boxed frame — the first full-size SUV with fully independent suspension",
+    "engine": "4.6 Triton V8; 5.4 Triton V8 (24-valve from 2005)",
+    "drive": "Rear-wheel drive or ControlTrac 4-wheel drive",
+    "gearbox": "4-speed automatic",
+    "specsFor": "2003 Expedition Eddie Bauer 5.4 4WD",
+    "power": {
+      "hp": 260,
+      "note": "5.4 Triton, 2003–04; the 24-valve 5.4 made 300 hp for 2005–06",
+      "src": "https://en.wikipedia.org/wiki/Ford_Expedition"
+    },
+    "weight": {
+      "kg": 2579,
+      "lb": 5686,
+      "note": "Curb weight, 5.4 4WD, approximate — the independent rear suspension added mass"
+    },
+    "zero60": {
+      "sec": 9.9,
+      "kind": "estimated",
+      "note": "Period tests ran high 9s to low 10s; heavier than the first generation"
+    },
+    "top": {
+      "mph": 98,
+      "kind": "estimated",
+      "note": "Speed-limited, approximate"
+    },
+    "mpg": {
+      "combined": 13,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/",
+      "note": "EPA combined, 2004, 5.4 4WD"
+    },
+    "built": {
+      "count": 542733,
+      "approx": true,
+      "note": "Sold in the US, 2003–2006 calendar years",
+      "src": "https://en.wikipedia.org/wiki/Ford_Expedition"
+    },
+    "versions": [
+      {
+        "name": "5.4 4WD (2003–04)",
+        "detail": "260 hp, 2-valve Triton"
+      },
+      {
+        "name": "4.6 V8 (2003–04)",
+        "detail": "232 hp base engine, dropped for 2005",
+        "power": {
+          "hp": 232,
+          "note": "4.6 Triton, 16-valve",
+          "src": "https://en.wikipedia.org/wiki/Ford_Expedition"
+        },
+        "weight": {
+          "kg": 2497,
+          "lb": 5505,
+          "note": "Curb weight, 2WD, approximate"
+        },
+        "zero60": {
+          "sec": 10.8,
+          "kind": "estimated",
+          "note": "Period tests"
+        },
+        "top": {
+          "mph": 98,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "combined": 14,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2004, 4.6"
+        }
+      },
+      {
+        "name": "5.4 3-valve (2005–06)",
+        "detail": "300 hp with variable cam timing — the big mid-cycle upgrade",
+        "power": {
+          "hp": 300,
+          "note": "24-valve 5.4 Triton with VCT",
+          "src": "https://en.wikipedia.org/wiki/Ford_Expedition"
+        },
+        "weight": {
+          "kg": 2579,
+          "lb": 5686,
+          "note": "Curb weight, 4WD, approximate"
+        },
+        "zero60": {
+          "sec": 8.9,
+          "kind": "estimated",
+          "note": "Period tests ran high 8s to low 9s"
+        },
+        "top": {
+          "mph": 105,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "combined": 14,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2005, 5.4 4WD (13 city, 17 highway)"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Ford Expedition (first generation)",
+      "id": "ford-expedition-1st-gen"
+    },
+    "successor": {
+      "name": "Ford Expedition (third generation)",
+      "id": "ford-expedition-3rd-gen"
+    },
+    "alongside": [
+      {
+        "name": "Ford F-150 (eleventh generation)",
+        "id": "ford-f-series-11th-gen"
+      }
+    ],
+    "quick": "A hydroformed frame and the first independent rear suspension in a full-size SUV — the 2003 Expedition rode like no truck before it, and the 3rd row finally folded flat into the floor.",
+    "story": [
+      "The U222 Expedition, unveiled at the Detroit show in January 2002, kept the formula but rebuilt the hardware. The frame was hydroformed and boxed, and at the back Ford did something no full-size SUV had done: it threw out the live axle for fully independent suspension. The payoff wasn't just ride quality — with no axle hopping under the floor, the 3rd-row seat could power-fold flat into it, a trick the Tahoe wouldn't match for years. Critics called it the best-driving big SUV of its day.",
+      "The engines lagged the chassis at first — the carried-over 260-hp 5.4 had 2,579 kg (5,686 lb) to move — until the 24-valve 5.4 arrived for 2005 with 300 hp. But the segment itself was cresting: gas prices climbed, and Expedition sales fell every year of the run, from the 2003 peak to about half that pace by 2006. Ford still moved 542,733 of them in 4 years, and the King Ranch trim joined Eddie Bauer at the top of the range."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "Ford Expedition Eddie Bauer 2003 (14724542369).jpg",
+      "credit": "order_242 from Chile",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "pos": ""
+    },
+    "match": [
+      "Ford Expedition"
+    ]
+  },
+  {
+    "id": "ford-expedition-3rd-gen",
+    "family": {
+      "id": "ford-expedition",
+      "name": "Ford Expedition"
+    },
+    "name": "Ford Expedition (third generation)",
+    "aka": [
+      "U324",
+      "Expedition EL",
+      "Expedition Max",
+      "King Ranch",
+      "Platinum"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Michigan Truck Plant, then Kentucky Truck Plant, Louisville, from 2009)",
+    "country": "United States",
+    "years": "2007–2017",
+    "start": 2007,
+    "end": 2017,
+    "shop": {
+      "cargurus": "d333"
+    },
+    "body": "Full-size body-on-frame SUV; the stretched EL replaced the Excursion with a 131-inch wheelbase",
+    "engine": "5.4 Triton V8; 3.5 EcoBoost twin-turbo V6 from 2015",
+    "drive": "Rear-wheel drive or ControlTrac 4-wheel drive",
+    "gearbox": "6-speed automatic",
+    "specsFor": "2016 Expedition 3.5 EcoBoost 4WD",
+    "power": {
+      "hp": 365,
+      "note": "3.5 EcoBoost twin-turbo V6, 2015–17; the 5.4 made 300, then 320 from 2009",
+      "src": "https://en.wikipedia.org/wiki/Ford_Expedition"
+    },
+    "weight": {
+      "kg": 2644,
+      "lb": 5829,
+      "note": "Curb weight, 4WD, approximate; the EL ran about 6,071 lb"
+    },
+    "zero60": {
+      "sec": 6.5,
+      "kind": "estimated",
+      "note": "Instrumented tests of the EcoBoost trucks ran the low-to-mid 6s"
+    },
+    "top": {
+      "mph": 105,
+      "kind": "estimated",
+      "note": "Speed-limited, approximate"
+    },
+    "mpg": {
+      "combined": 17,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/",
+      "note": "EPA combined, 2016, 3.5 EcoBoost 4WD"
+    },
+    "built": {
+      "count": 529105,
+      "approx": true,
+      "note": "Sold in the US, 2007–2017 calendar years; the 2009 trough was 31,655",
+      "src": "https://en.wikipedia.org/wiki/Ford_Expedition"
+    },
+    "versions": [
+      {
+        "name": "3.5 EcoBoost (2015–17)",
+        "detail": "365 hp — the twin-turbo V6 that transformed the old truck"
+      },
+      {
+        "name": "5.4 (2007–08)",
+        "detail": "300 hp, 24-valve",
+        "power": {
+          "hp": 300,
+          "note": "5.4 Triton, 24-valve VCT",
+          "src": "https://en.wikipedia.org/wiki/Ford_Expedition"
+        },
+        "weight": {
+          "kg": 2608,
+          "lb": 5750,
+          "note": "Curb weight, 4WD, approximate"
+        },
+        "zero60": {
+          "sec": 8.9,
+          "kind": "estimated",
+          "note": "Period tests"
+        },
+        "top": {
+          "mph": 99,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "combined": 14,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2008, 5.4 2WD"
+        }
+      },
+      {
+        "name": "5.4 flex-fuel (2009–14)",
+        "detail": "320 hp, E85-capable, 6-speed",
+        "power": {
+          "hp": 320,
+          "note": "5.4 Triton, E85-capable",
+          "src": "https://en.wikipedia.org/wiki/Ford_Expedition"
+        },
+        "weight": {
+          "kg": 2608,
+          "lb": 5750,
+          "note": "Curb weight, 4WD, approximate"
+        },
+        "zero60": {
+          "sec": 8.6,
+          "kind": "estimated",
+          "note": "Period tests"
+        },
+        "top": {
+          "mph": 99,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "combined": 15,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2012, 5.4 4WD (13 city, 18 highway)"
+        }
+      },
+      {
+        "name": "Expedition EL",
+        "detail": "Stretched to a 131-inch wheelbase and about 221 inches long — the Excursion's replacement; sold as the Max in Canada",
+        "power": {
+          "hp": 365,
+          "note": "3.5 EcoBoost from 2015; 5.4 V8 before",
+          "src": "https://en.wikipedia.org/wiki/Ford_Expedition"
+        },
+        "weight": {
+          "kg": 2754,
+          "lb": 6071,
+          "note": "Curb weight, EL",
+          "src": "https://en.wikipedia.org/wiki/Ford_Expedition"
+        },
+        "zero60": {
+          "sec": 6.7,
+          "kind": "estimated",
+          "note": "EcoBoost era; instrumented tests"
+        },
+        "top": {
+          "mph": 105,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "combined": 17,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2016, 3.5 EcoBoost 4WD, standard length"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Ford Expedition (second generation)",
+      "id": "ford-expedition-2nd-gen"
+    },
+    "successor": {
+      "name": "Ford Expedition (fourth generation)",
+      "id": "ford-expedition-4th-gen"
+    },
+    "alongside": [
+      {
+        "name": "Ford F-150 (twelfth generation)",
+        "id": "ford-f-series-12th-gen"
+      },
+      {
+        "name": "Ford F-150 (thirteenth generation)",
+        "id": "ford-f-series-13th-gen"
+      }
+    ],
+    "quick": "11 years, one body: the 3rd-generation Expedition rode out $4 gas and the financial crisis, gained a foot-longer EL, and finally got the 365-hp EcoBoost that made it quick.",
+    "story": [
+      "The 2007 Expedition arrived on the T1 platform — an evolution of the F-150's architecture — just in time for everything to go wrong for big SUVs. Gas hit $4 a gallon in 2008, the economy cratered, and Expedition sales collapsed from 6-figure years to 31,655 in 2009, the year production moved from Wayne, Michigan to the Kentucky Truck Plant. Ford's answer to the Excursion question was smarter this time: the Expedition EL, a 131-inch-wheelbase stretch with real cargo room behind the 3rd row, replaced the giant separately-engineered Excursion outright.",
+      "Then the truck simply refused to die. Ford kept it alive 11 model years — the longest run of any Expedition — and in 2015 dropped in the 3.5 EcoBoost twin-turbo V6: 365 hp, 420 lb-ft, and low-6s 0–60 times from a truck that had started the generation at 8.9. The 2015–17 trucks are the sleeper buy of the whole Expedition story — the newest-feeling big Ford you can get for used-Tahoe money."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "2008 Ford Expedition.jpg",
+      "credit": "Calreyn88",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pos": ""
+    },
+    "match": [
+      "Ford Expedition"
+    ]
+  },
+  {
+    "id": "ford-expedition-4th-gen",
+    "family": {
+      "id": "ford-expedition",
+      "name": "Ford Expedition"
+    },
+    "name": "Ford Expedition (fourth generation)",
+    "aka": [
+      "U553",
+      "Expedition Max",
+      "Timberline",
+      "Limited Stealth",
+      "King Ranch"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Kentucky Truck Plant, Louisville, Kentucky)",
+    "country": "United States",
+    "years": "2018–2024",
+    "start": 2018,
+    "end": 2024,
+    "shop": {
+      "cargurus": "d333"
+    },
+    "body": "Full-size body-on-frame SUV with an aluminum-alloy body on a boron-steel frame; the Max replaced the EL",
+    "engine": "3.5 EcoBoost twin-turbo V6 — 375 to 440 hp",
+    "drive": "Rear-wheel drive or 4-wheel drive",
+    "gearbox": "10-speed automatic",
+    "specsFor": "2022 Expedition Timberline",
+    "power": {
+      "hp": 440,
+      "note": "High-output 3.5 EcoBoost, standard on the Timberline; 2022 trucks otherwise made 380, or 400 in the Platinum",
+      "src": "https://en.wikipedia.org/wiki/Ford_Expedition"
+    },
+    "weight": {
+      "kg": 2630,
+      "lb": 5798,
+      "note": "Curb weight, Timberline, approximate"
+    },
+    "zero60": {
+      "sec": 5.1,
+      "kind": "tested",
+      "note": "Car and Driver instrumented test, 2022 Timberline",
+      "src": "https://www.caranddriver.com/"
+    },
+    "top": {
+      "mph": 110,
+      "kind": "estimated",
+      "note": "Speed-limited, approximate"
+    },
+    "mpg": {
+      "combined": 17,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/",
+      "note": "EPA combined, 2022, Timberline AWD"
+    },
+    "built": {
+      "count": 514347,
+      "approx": true,
+      "note": "Sold in the US, 2018–2024 calendar years",
+      "src": "https://en.wikipedia.org/wiki/Ford_Expedition"
+    },
+    "versions": [
+      {
+        "name": "Timberline (2022–24)",
+        "detail": "440 hp, all-terrain tires, skid plates — the off-road one"
+      },
+      {
+        "name": "3.5 EcoBoost, 375 hp (2018–21)",
+        "detail": "The volume engine before the 2022 refresh",
+        "power": {
+          "hp": 375,
+          "note": "3.5 EcoBoost; 470 lb-ft",
+          "src": "https://en.wikipedia.org/wiki/Ford_Expedition"
+        },
+        "weight": {
+          "kg": 2551,
+          "lb": 5623,
+          "note": "Curb weight, XLT 4x4, approximate"
+        },
+        "zero60": {
+          "sec": 6.0,
+          "kind": "estimated",
+          "note": "Instrumented tests ran high 5s to low 6s"
+        },
+        "top": {
+          "mph": 115,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "combined": 19,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2018, 4WD (17 city, 22 highway)"
+        }
+      },
+      {
+        "name": "Platinum, 400 hp",
+        "detail": "The high-output tune for the top trim",
+        "power": {
+          "hp": 400,
+          "note": "3.5 EcoBoost, Platinum tune; 480 lb-ft",
+          "src": "https://en.wikipedia.org/wiki/Ford_Expedition"
+        },
+        "weight": {
+          "kg": 2590,
+          "lb": 5710,
+          "note": "Curb weight, Platinum 4x4, approximate"
+        },
+        "zero60": {
+          "sec": 5.7,
+          "kind": "tested",
+          "note": "Car and Driver instrumented test, 2018 Platinum 4x4",
+          "src": "https://www.caranddriver.com/"
+        },
+        "top": {
+          "mph": 115,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "combined": 19,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2018, 4WD"
+        }
+      },
+      {
+        "name": "Limited Stealth, 440 hp (2022–24)",
+        "detail": "The street-tuned high-output package — the quickest of the generation",
+        "power": {
+          "hp": 440,
+          "note": "High-output 3.5 EcoBoost; 510 lb-ft",
+          "src": "https://en.wikipedia.org/wiki/Ford_Expedition"
+        },
+        "weight": {
+          "kg": 2601,
+          "lb": 5735,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 4.9,
+          "kind": "tested",
+          "note": "Car and Driver instrumented test, 2022",
+          "src": "https://www.caranddriver.com/"
+        },
+        "top": {
+          "mph": 124,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "combined": 18,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2022, 4WD (16 city, 22 highway)"
+        }
+      },
+      {
+        "name": "Expedition Max",
+        "detail": "The long one — successor to the EL, about a foot longer than the standard truck",
+        "power": {
+          "hp": 380,
+          "note": "Standard 2022 output; 375 hp 2018–21",
+          "src": "https://en.wikipedia.org/wiki/Ford_Expedition"
+        },
+        "weight": {
+          "kg": 2694,
+          "lb": 5940,
+          "note": "Curb weight, Max 4x4, approximate"
+        },
+        "zero60": {
+          "sec": 6.1,
+          "kind": "tested",
+          "note": "MotorWeek instrumented test, 2022 Max",
+          "src": "https://www.motorweek.org/"
+        },
+        "top": {
+          "mph": 115,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "combined": 18,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2022, 4WD, standard length; the Max rates slightly lower"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Ford Expedition (third generation)",
+      "id": "ford-expedition-3rd-gen"
+    },
+    "successor": {
+      "name": "Ford Expedition (fifth generation)",
+      "id": "ford-expedition-5th-gen"
+    },
+    "alongside": [
+      {
+        "name": "Ford F-150 (thirteenth generation)",
+        "id": "ford-f-series-13th-gen"
+      },
+      {
+        "name": "Ford F-150 (fourteenth generation)",
+        "id": "ford-f-series-14th-gen"
+      }
+    ],
+    "quick": "Aluminum body, 10-speed, up to 440 hp: the 2018–24 Expedition went from family hauler to a 2,601-kg (5,735-lb) truck that hits 60 in 4.9 seconds.",
+    "story": [
+      "For 2018 the Expedition got the F-150 treatment: an aluminum-alloy body over a boron-steel frame, a 10-speed automatic, and nothing but EcoBoost V6s — 375 hp in most trims, 400 in the Platinum. Car and Driver ran a 2018 Platinum to 60 in 5.7 seconds, quicker than plenty of hot hatches, and the Max picked up where the EL left off for families who measure cargo in strollers. Sales recovered to roughly 80,000 a year, and Ford priced it accordingly — the Max started around $55,000, about $73,700 in 2026 dollars.",
+      "The 2022 refresh split the truck's personality in 2. The Timberline took 440 hp, all-terrain tires and skid plates off-road, while the Limited's Stealth Performance package put the same 440-hp engine on the street — 4.9 seconds to 60, the quickest Expedition ever tested at the time. A 2020 recall over Kentucky Truck Plant build issues was the generation's low point, but the formula — aluminum, turbos, 10 gears — is what every full-size SUV now copies."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "2018 Ford Expedition XLT, front 7.17.19.jpg",
+      "credit": "Kevauto",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pos": ""
+    },
+    "match": [
+      "Ford Expedition"
+    ]
+  },
+  {
+    "id": "ford-expedition-5th-gen",
+    "family": {
+      "id": "ford-expedition",
+      "name": "Ford Expedition"
+    },
+    "name": "Ford Expedition (fifth generation)",
+    "aka": [
+      "Expedition Max",
+      "Tremor",
+      "Active",
+      "King Ranch",
+      "Split Gate"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Kentucky Truck Plant, Louisville, Kentucky)",
+    "country": "United States",
+    "years": "2025–present",
+    "start": 2025,
+    "end": null,
+    "shop": {
+      "cargurus": "d333"
+    },
+    "body": "Full-size body-on-frame SUV with the 2-piece Split Gate tailgate; revealed October 3, 2024",
+    "engine": "3.5 EcoBoost twin-turbo V6 — 400 hp, or 440 high-output",
+    "drive": "Rear-wheel drive or 4-wheel drive",
+    "gearbox": "10-speed automatic",
+    "specsFor": "2025 Expedition Max Platinum, high-output",
+    "power": {
+      "hp": 440,
+      "note": "High-output 3.5 EcoBoost — standard on the Tremor, optional on the Platinum; other trims make 400",
+      "src": "https://en.wikipedia.org/wiki/Ford_Expedition"
+    },
+    "weight": {
+      "kg": 2744,
+      "lb": 6050,
+      "note": "Curb weight, Max Platinum, approximate"
+    },
+    "zero60": {
+      "sec": 4.9,
+      "kind": "tested",
+      "note": "Car and Driver instrumented test, Max Platinum with the high-output engine — the quickest Expedition yet",
+      "src": "https://www.caranddriver.com/"
+    },
+    "top": {
+      "mph": 124,
+      "kind": "estimated",
+      "note": "Speed-limited, approximate"
+    },
+    "mpg": {
+      "combined": 18,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/",
+      "note": "EPA combined, 2025, 4WD"
+    },
+    "built": {
+      "count": 85921,
+      "approx": true,
+      "note": "Sold in the US in 2025, the changeover year",
+      "src": "https://en.wikipedia.org/wiki/Ford_Expedition"
+    },
+    "versions": [
+      {
+        "name": "Max Platinum, high-output",
+        "detail": "440 hp in the long body — Car and Driver's test truck"
+      },
+      {
+        "name": "3.5 EcoBoost, 400 hp",
+        "detail": "Standard across Active, King Ranch and Platinum — $62,700 opens the 2026 range",
+        "power": {
+          "hp": 400,
+          "note": "Standard 3.5 EcoBoost",
+          "src": "https://en.wikipedia.org/wiki/Ford_Expedition"
+        },
+        "weight": {
+          "kg": 2676,
+          "lb": 5900,
+          "note": "Curb weight, 4WD, approximate"
+        },
+        "zero60": {
+          "sec": 5.6,
+          "kind": "estimated",
+          "note": "Estimated from the 440-hp truck's 4.9"
+        },
+        "top": {
+          "mph": 124,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "combined": 18,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2025, 4WD"
+        }
+      },
+      {
+        "name": "Tremor",
+        "detail": "440 hp on 33-inch all-terrains with a steel front bumper — $81,700 for 2026",
+        "power": {
+          "hp": 440,
+          "note": "High-output 3.5 EcoBoost, standard",
+          "src": "https://en.wikipedia.org/wiki/Ford_Expedition"
+        },
+        "weight": {
+          "kg": 2730,
+          "lb": 6019,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 5.4,
+          "kind": "estimated",
+          "note": "Heavier and on all-terrain tires; estimated"
+        },
+        "top": {
+          "mph": 110,
+          "kind": "estimated",
+          "note": "Limited lower on all-terrain tires, approximate"
+        },
+        "mpg": {
+          "combined": 18,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2025, 4WD; the Tremor is not separately listed"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Ford Expedition (fourth generation)",
+      "id": "ford-expedition-4th-gen"
+    },
+    "successor": null,
+    "alongside": [
+      {
+        "name": "Ford F-150 (fourteenth generation)",
+        "id": "ford-f-series-14th-gen"
+      }
+    ],
+    "quick": "Split Gate tailgate, a 440-hp option, a Tremor on 33s — and a tested 4.9 to 60: the 2025 Expedition is the quickest, strangest-tailgated one yet.",
+    "story": [
+      "Revealed October 3, 2024, the 5th-generation Expedition leads with a party trick: the Split Gate, a 2-piece tailgate whose lower section folds down like a pickup's, with an available tailgating package of cushions and cupholders aimed straight at stadium parking lots. The trim walk changed too — XL, XLT and Limited are gone, replaced by Active at $62,700 for 2026, then King Ranch, Platinum at $74,250, the new off-road Tremor at $81,700, and King Ranch topping out at $84,360. Towing peaks at 4,354 kg (9,600 lb) with the heavy-duty package.",
+      "Under the new skin the formula holds — body-on-frame, 10-speed, 3.5 EcoBoost — but the high-output engine's 440 hp is now a box to tick on the Platinum and standard on the Tremor, which rides on 33-inch all-terrains behind a steel bumper. Car and Driver ran a Max Platinum with the 440 to 60 in 4.9 seconds, making this the quickest Expedition ever tested, and Edmunds' pick of the range is the Platinum. Ford sold 85,921 in 2025 with the changeover in full swing."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "2025 Ford Expedition Tremor, front NYIAS 2025.jpg",
+      "credit": "Kevauto",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pos": ""
+    },
+    "match": [
+      "Ford Expedition"
+    ]
   }
 ];

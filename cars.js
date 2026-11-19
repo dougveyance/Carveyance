@@ -32016,6 +32016,7 @@ const CARS = [
       },
       {
         "name": "Carrera RS 3.8",
+        "power": {"hp": 296, "note": "300 PS, 3.8-liter"},
         "detail": "1993; 55 built; wide body and a 3.8-liter engine"
       },
       {
@@ -34113,14 +34114,17 @@ const CARS = [
       },
       {
         "name": "Evolution",
+        "power": {"hp": 194, "note": "Evo I, 2.5-16 base"},
         "detail": "1989; 502 built; the first homologation step"
       },
       {
         "name": "2.5-16",
+        "power": {"hp": 194, "note": "Without catalyst; 185 with"},
         "detail": "1988 on; the regular 16-valve car"
       },
       {
         "name": "2.3-16",
+        "power": {"hp": 185, "note": "European tune"},
         "detail": "1984 on; the original Cosworth-developed 16-valve"
       }
     ],
@@ -34384,6 +34388,7 @@ const CARS = [
       },
       {
         "name": "E 60 AMG",
+        "power": {"hp": 376, "note": "381 PS"},
         "detail": "1994–1995; enlarged to 6.0 liters, 381 hp; built in very small numbers"
       }
     ],
@@ -34547,10 +34552,12 @@ const CARS = [
       },
       {
         "name": "Type 57 C",
+        "power": {"hp": 160, "note": "Supercharged"},
         "detail": "1937–1940; supercharged, 160 hp; about 96 built"
       },
       {
         "name": "Type 57 S and 57 SC",
+        "power": {"hp": 175, "note": "57 S; the supercharged SC made about 200"},
         "detail": "Lowered and, with the supercharger, the fastest; the Atlantic coupes are 57 S cars"
       }
     ],
@@ -35149,22 +35156,34 @@ const CARS = [
     "versions": [
       {
         "name": "LP400",
+        "power": {"hp": 370, "note": "375 PS DIN"},
+        "weight": null,
+        "zero60": null,
+        "top": null,
+        "mpg": null,
         "detail": "1974–1978; 157 built; the purest shape, with the periscope mirror tunnel"
       },
       {
         "name": "LP400 S",
+        "power": {"hp": 350, "note": "355 PS DIN"},
         "detail": "1978–1982; 235 built; fender flares and the optional wing"
       },
       {
         "name": "LP500 S (5000 S)",
+        "power": {"hp": 370, "note": "4,754 cc, DIN"},
+        "weight": {"kg": 1480, "lb": 3263, "note": "Dry"},
+        "zero60": {"sec": 5.7, "kind": "claimed", "note": "An estimate"},
+        "top": {"mph": 182, "kind": "claimed"},
         "detail": "1982–1985; 321 built; 4.8 liters"
       },
       {
         "name": "5000 QV",
+        "power": {"hp": 449, "note": "455 PS European; US injected cars listed 420"},
         "detail": "1985–1988; 4 valves per cylinder, 455 hp in European trim"
       },
       {
         "name": "25th Anniversary",
+        "power": {"hp": 449, "note": "455 PS European"},
         "detail": "1988–1990; 657 built; restyled by Horacio Pagani"
       }
     ],
@@ -35325,6 +35344,7 @@ const CARS = [
       },
       {
         "name": "EB110 Super Sport",
+        "power": {"hp": 603, "note": "Bugatti's retrospective figure"},
         "detail": "1992–1995; 32 built; about 603 hp and 150 kg lighter"
       }
     ],
@@ -35420,18 +35440,40 @@ const CARS = [
       },
       {
         "name": "NSX-R (NA1)",
+        "power": {"hp": 276, "note": "280 PS official"},
+        "weight": {"kg": 1230, "lb": 2712},
+        "zero60": {"sec": 4.9, "kind": "estimated", "note": "Published estimate"},
+        "top": {"mph": 168, "kind": "estimated", "note": "Published estimate"},
+        "mpg": {"combined": 21.6, "unit": "mpg", "kind": "estimated", "note": "US gallons, from Japan's 10–15-mode test"},
+        "specsFor": "NSX-R, Japanese market",
         "detail": "1992–1995; 483 built, Japan only; 276 hp; 1,230 kg (2,712 lb); about 4.9 s and 168 mph, published estimates; 21.6 mpg US from Japan's 10–15-mode test"
       },
       {
         "name": "NSX-T",
+        "power": {"hp": 270},
+        "weight": {"kg": 1425, "lb": 3142},
+        "zero60": {"sec": 5.2, "kind": "tested", "note": "Period US tests"},
+        "top": {"mph": 168, "kind": "estimated", "note": "Published estimate"},
+        "specsFor": "1995 NSX-T, US market",
         "detail": "1995 on; removable targa roof; 270 hp; 1,425 kg (3,142 lb); 5.2 s to 60"
       },
       {
         "name": "NSX / NSX-T 3.2",
+        "power": {"hp": 290, "note": "3.2-liter, 6-speed manual"},
+        "weight": {"kg": 1435, "lb": 3164},
+        "zero60": {"sec": 5.0, "kind": "tested", "note": "Car and Driver"},
+        "top": {"mph": 168, "kind": "estimated", "note": "Published estimate"},
+        "specsFor": "1997 NSX-T 3.2, manual",
         "detail": "1997–2005; 290 hp 6-speed manual, 1,435 kg (3,164 lb), 5.0 s to 60 by Car and Driver, 168 mph; the automatic kept the 3.0 and 252 hp throughout"
       },
       {
         "name": "NSX-R (NA2)",
+        "power": {"hp": 276, "note": "280 PS official, 3.2-liter"},
+        "weight": {"kg": 1270, "lb": 2800},
+        "zero60": {"sec": 4.9, "kind": "estimated", "note": "Published estimate"},
+        "top": {"mph": 174, "kind": "estimated", "note": "Published estimate"},
+        "mpg": {"combined": 20.2, "unit": "mpg", "kind": "estimated", "note": "US gallons, from Japan's 10–15-mode test"},
+        "specsFor": "NSX-R (NA2), Japanese market",
         "detail": "2002–2005; 3.2-liter, officially still 276 hp (280 PS); 1,270 kg (2,800 lb); about 4.9 s and 174 mph, published estimates; 20.2 mpg US from the 10–15-mode test"
       }
     ],
@@ -35520,18 +35562,31 @@ const CARS = [
     "versions": [
       {
         "name": "GT-R",
+        "power": {"hp": 276, "note": "280 PS official"},
+        "weight": {"kg": 1540, "lb": 3395},
+        "zero60": null,
+        "top": {"mph": 155, "kind": "claimed", "note": "Factory limiter"},
+        "specsFor": "1999 GT-R, Japanese market",
         "detail": "The base car, 1,540 kg"
       },
       {
         "name": "V-Spec and V-Spec II",
+        "power": {"hp": 276, "note": "280 PS official"},
+        "weight": {"kg": 1560, "lb": 3439},
+        "zero60": {"sec": 4.9, "kind": "tested", "note": "Wheels (Australia), 0–100 km/h"},
+        "top": {"mph": 155, "kind": "claimed", "note": "Factory limiter"},
         "detail": "Firmer, with active rear differential and extra aero"
       },
       {
         "name": "M-Spec",
+        "power": {"hp": 276, "note": "280 PS official"},
+        "top": {"mph": 155, "kind": "claimed", "note": "Factory limiter"},
         "detail": "The chief engineer's softer-sprung version"
       },
       {
         "name": "Nür editions",
+        "power": {"hp": 276, "note": "Official; the N1 engine was built for more"},
+        "top": {"mph": 155, "kind": "claimed", "note": "Factory limiter"},
         "detail": "2002 send-offs with the N1 racing engine"
       }
     ],
@@ -35694,6 +35749,7 @@ const CARS = [
       },
       {
         "name": "T.50s Niki Lauda",
+        "power": {"hp": 761, "note": "772 PS at 11,500 rpm"},
         "detail": "25 track-only cars; 761 hp (772 PS), under 900 kg wet, paddle-shift sequential; no 0-60 published, since buyers choose their own gearing"
       }
     ],
@@ -35821,6 +35877,40 @@ const CARS = [
     "built": {
       "na": "A prototype; Tesla says production starts in 2028 at Giga Texas"
     },
+    "versions": [
+      {
+        "name": "Performance",
+        "detail": "Fans and active aero; Tesla claims 0-60 in under 1.6 seconds",
+        "zero60": {
+          "sec": 1.6,
+          "kind": "claimed",
+          "note": "Under 1.6, Tesla's claim"
+        }
+      },
+      {
+        "name": "Thrust",
+        "detail": "Rear SpaceX cold-gas thrusters; the October 2026 demonstration car",
+        "zero60": {
+          "sec": 0.81,
+          "kind": "claimed",
+          "note": "Tesla's displayed run, thrusters firing"
+        },
+        "top": {
+          "mph": 230,
+          "kind": "claimed",
+          "note": "Over 230, Tesla's claim"
+        }
+      },
+      {
+        "name": "Rocket",
+        "detail": "Invite-only; thrusters all around, what Tesla calls the full flight system",
+        "zero60": {
+          "sec": 0.59,
+          "kind": "claimed",
+          "note": "Under 0.59, Tesla's claim"
+        }
+      }
+    ],
     "predecessor": null,
     "successor": null,
     "quick": "The long-promised Roadster finally reappeared in October 2026, now with SpaceX compressed-air thrusters, a claimed 0.81-second 0-60 and a demo in which it flipped itself over and jumped parked cars. Every number is Tesla's own.",
@@ -35901,18 +35991,25 @@ const CARS = [
       },
       {
         "name": "3.0 CS",
+        "power": {"hp": 180, "note": "DIN; US cars 170 SAE"},
+        "weight": {"kg": 1400},
+        "zero60": {"sec": 10.0, "kind": "tested", "note": "Road & Track, US 1973 car"},
+        "top": {"mph": 130, "kind": "tested", "note": "Motor Sport, 1971"},
         "detail": "1971–1975; 11,063 built; twin carburetors, 180 PS"
       },
       {
         "name": "3.0 CSi",
+        "power": {"hp": 197, "note": "200 PS, Bosch injection"},
         "detail": "1971–1975; 8,199 built; Bosch injection, 200 PS"
       },
       {
         "name": "3.0 CSL",
+        "power": {"hp": 206, "note": "Final 3.2-liter spec"},
         "detail": "1971–1975; the lightweight homologation car, winged 'Batmobile' at the end; roughly 1,100–1,265 built, counts vary"
       },
       {
         "name": "2.5 CS",
+        "power": {"hp": 150, "note": "DIN"},
         "detail": "1974–1976; 844 built; the energy-crisis economy run-out"
       }
     ],
@@ -35993,10 +36090,12 @@ const CARS = [
       },
       {
         "name": "4-door",
+        "power": {"hp": 200, "note": "Same 5.7 TBI V8"},
         "detail": "1995–1999; the shape that took over the world"
       },
       {
         "name": "6.5 turbodiesel",
+        "power": {"hp": 190, "note": "6.5-liter turbodiesel"},
         "detail": "The rare oil-burner option"
       }
     ],
@@ -36090,6 +36189,7 @@ const CARS = [
       },
       {
         "name": "ZR-1, 405 hp",
+        "power": {"hp": 405, "note": "New heads and cams from 1993"},
         "detail": "1993–1995; new heads and cams; 448 a year by the end"
       }
     ],
@@ -36168,10 +36268,16 @@ const CARS = [
     "versions": [
       {
         "name": "Prizm",
+        "power": {"hp": 102, "note": "4A-FE"},
+        "zero60": null,
+        "top": null,
         "detail": "102 hp 4A-FE; sedan or 5-door hatch"
       },
       {
         "name": "Prizm GSi",
+        "power": {"hp": 130, "note": "4A-GE twin-cam"},
+        "zero60": {"sec": 9.4, "kind": "estimated", "note": "Modeled figure"},
+        "top": {"mph": 117, "kind": "claimed", "note": "Published figure"},
         "detail": "130 hp 4A-GE twin-cam, the Corolla GT-S engine; about 9.4 s to 60 and 117 mph"
       }
     ],
@@ -36253,14 +36359,17 @@ const CARS = [
       },
       {
         "name": "Coupe and roadster",
+        "power": {"hp": 40},
         "detail": "Rumble seats optional; the hot-rodders' favorites"
       },
       {
         "name": "Pickup and commercial",
+        "power": {"hp": 40},
         "detail": "Open-cab and closed-cab trucks that motorized small business"
       },
       {
         "name": "Deluxe bodies",
+        "power": {"hp": 40},
         "detail": "Cabriolets, phaetons and the wood-bodied wagon"
       }
     ],
@@ -36348,14 +36457,23 @@ const CARS = [
     "versions": [
       {
         "name": "Capri",
+        "power": {"hp": 100, "note": "1.6 twin-cam, no turbo"},
+        "zero60": null,
+        "top": null,
+        "mpg": null,
         "detail": "100 hp 1.6 twin-cam; the sensible one"
       },
       {
         "name": "XR2",
+        "power": {"hp": 132, "note": "Turbocharged B6T"},
+        "zero60": {"sec": 8.1, "kind": "tested", "note": "Period road test"},
+        "top": {"mph": 125, "kind": "claimed", "note": "Published figure"},
+        "mpg": {"combined": 23, "city": 21, "hwy": 26, "unit": "mpg", "kind": "epa", "note": "EPA, 1991 turbo 5-speed"},
         "detail": "132 hp turbo, 5-speed only; 8.1 s to 60 and about 125 mph"
       },
       {
         "name": "Barchetta and Clubsprint",
+        "power": {"hp": 132, "note": "The XR2 drivetrain renamed"},
         "detail": "The 1993–1994 facelift's trim names"
       }
     ],
@@ -36438,10 +36556,12 @@ const CARS = [
       },
       {
         "name": "1952–1954 Pinin Farina",
+        "power": {"hp": 140, "note": "4.1-liter from 1953; 125 before"},
         "detail": "Steel body from Turin; 140 hp 4.1 from 1953"
       },
       {
         "name": "Le Mans coupe",
+        "power": {"hp": 140, "note": "4.1-liter six"},
         "detail": "1953–1954 closed car, named for the result"
       }
     ],
@@ -36512,10 +36632,14 @@ const CARS = [
     "versions": [
       {
         "name": "Tracer",
+        "power": {"hp": 88, "note": "1.9-liter"},
+        "mpg": null,
         "detail": "88 hp 1.9; basic transportation"
       },
       {
         "name": "Tracer LTS",
+        "power": {"hp": 127, "note": "Mazda BP 1.8 twin-cam"},
+        "mpg": {"combined": 25, "city": 23, "hwy": 29, "unit": "mpg", "kind": "epa", "note": "EPA, 1993 5-speed"},
         "detail": "127 hp Mazda 1.8 twin-cam, 4-wheel discs, 5-speed; the one to find"
       }
     ],
@@ -36596,14 +36720,24 @@ const CARS = [
     "versions": [
       {
         "name": "Eldorado",
+        "power": {"hp": 275, "note": "Northstar, base tune"},
+        "zero60": null,
+        "top": null,
+        "weight": null,
         "detail": "275 hp Northstar from 1994; the softer car"
       },
       {
         "name": "Eldorado Touring Coupe (ETC)",
+        "power": {"hp": 300, "note": "Northstar"},
+        "weight": {"kg": 1730, "lb": 3814},
+        "zero60": {"sec": 6.4, "kind": "tested", "note": "Period test"},
+        "top": {"mph": 148, "kind": "tested", "note": "Period test"},
+        "mpg": {"combined": 18, "city": 15, "hwy": 23, "unit": "mpg", "kind": "epa", "note": "EPA, 1995 Northstar"},
         "detail": "300 hp Northstar; 6.4 s to 60 and 148 mph in period tests"
       },
       {
         "name": "4.9 cars",
+        "power": {"hp": 200, "note": "The pushrod 4.9"},
         "detail": "1992–1993; 200 hp before the Northstar arrived"
       }
     ],
@@ -36691,10 +36825,12 @@ const CARS = [
       },
       {
         "name": "1990",
+        "power": {"hp": 220, "note": "Unchanged Yamaha V6"},
         "detail": "8,302 built; driver airbag added"
       },
       {
         "name": "1991 and the Plus package",
+        "power": {"hp": 220, "note": "Unchanged Yamaha V6"},
         "detail": "8,916 built; 6-spoke wheels, last of the first shape"
       }
     ],
@@ -36779,10 +36915,12 @@ const CARS = [
       },
       {
         "name": "452B through 452D",
+        "power": {"hp": 165, "note": "OHV 452"},
         "detail": "1932–1937; trickle production, 50-odd a year"
       },
       {
         "name": "Series 90 flathead",
+        "power": {"hp": 185, "note": "7.1-liter L-head"},
         "detail": "1938–1940; 185 hp, 497 built"
       }
     ],
@@ -36867,10 +37005,12 @@ const CARS = [
       },
       {
         "name": "Hardtop",
+        "power": {"hp": 80, "note": "Same 1.6"},
         "detail": "For the practical"
       },
       {
         "name": "2WD",
+        "power": {"hp": 80, "note": "Same 1.6"},
         "detail": "The boulevard version, lighter and cheaper"
       }
     ],
@@ -36955,10 +37095,13 @@ const CARS = [
       },
       {
         "name": "SC1",
+        "power": {"hp": 100, "note": "SOHC"},
+        "mpg": {"combined": 28, "city": 24, "hwy": 36, "unit": "mpg", "kind": "epa", "note": "EPA, 1995 SOHC 5-speed"},
         "detail": "100 hp SOHC, from 1993; same body, softer tune"
       },
       {
         "name": "3-door",
+        "power": {"hp": 124, "note": "DOHC"},
         "detail": "From 1999, a hidden rear-hinged third door"
       }
     ],
@@ -37046,6 +37189,7 @@ const CARS = [
       },
       {
         "name": "Final Edition",
+        "power": {"hp": 144, "note": "Same 5.9 V8"},
         "detail": "1991; 1,560 built, badge on the dash"
       },
       {
@@ -37131,18 +37275,26 @@ const CARS = [
     "versions": [
       {
         "name": "S351, 1994",
+        "power": {"hp": 371, "note": "Naturally aspirated"},
+        "zero60": null,
+        "top": null,
         "detail": "44 built; 371 hp naturally aspirated"
       },
       {
         "name": "S351 R-code",
+        "power": {"hp": 480, "note": "Supercharged, 1995 rating"},
         "detail": "Supercharged; 53 of the 126 1995 cars"
       },
       {
         "name": "S351, 1997–1999",
+        "power": {"hp": 495, "note": "Supercharged; 490 lb-ft"},
+        "zero60": {"sec": 4.6, "kind": "estimated", "note": "Period estimates"},
+        "top": {"mph": 170, "kind": "claimed", "note": "Period claims"},
         "detail": "All supercharged; 495 hp by 1999"
       },
       {
         "name": "SR",
+        "power": {"hp": 480, "note": "Supercharged, race-prepared"},
         "detail": "The race-prepared handful"
       }
     ],
@@ -37222,10 +37374,18 @@ const CARS = [
     "versions": [
       {
         "name": "1974, AMC 360",
+        "power": {"hp": 220, "note": "AMC 360"},
+        "zero60": null,
+        "top": null,
+        "weight": null,
         "detail": "220 hp, 4-speed available"
       },
       {
         "name": "1975, Ford 351",
+        "power": {"hp": 175, "note": "Ford 351 Windsor, net"},
+        "weight": {"kg": 1615, "lb": 3560},
+        "zero60": {"sec": 8.3, "kind": "tested", "note": "Period test"},
+        "top": {"mph": 118, "kind": "tested", "note": "Period test"},
         "detail": "175 hp net, automatic only; the majority of cars"
       }
     ],

@@ -1,0 +1,266 @@
+{
+ "id": "ford-fiesta",
+ "make": "Ford",
+ "model": "Fiesta",
+ "years": "1978–2019",
+ "byline": "Diana Chambers",
+ "published": "2026-11-19",
+ "updated": "2026-11-19",
+ "cars": [
+  "ford-fiesta-mk1-us",
+  "ford-fiesta-mk6"
+ ],
+ "shop": {
+  "cargurus": "d1060"
+ },
+ "chapters": [
+  "2011-2019",
+  "fiesta-st",
+  "1978"
+ ],
+ "series": {
+  "t78": {
+   "name": "1978 Fiesta S, period tests",
+   "color": "#9aa5b1"
+  },
+  "t16": {
+   "name": "1.6 Duratec, tests",
+   "color": "#2E6E96"
+  },
+  "tst": {
+   "name": "Fiesta ST, Ford's figure",
+   "color": "#e05c2a"
+  },
+  "m16": {
+   "name": "2011, 1.6 Duratec",
+   "color": "#2E6E96"
+  },
+  "m10": {
+   "name": "2014, 1.0 EcoBoost manual",
+   "color": "#1d7f6e"
+  },
+  "mst": {
+   "name": "2014, Fiesta ST",
+   "color": "#e05c2a"
+  },
+  "s11": {
+   "name": "2011, the return",
+   "color": "#2E6E96"
+  },
+  "s13": {
+   "name": "2013, the peak",
+   "color": "#2E6E96"
+  },
+  "s16": {
+   "name": "2016",
+   "color": "#9aa5b1"
+  },
+  "s19": {
+   "name": "2019, the sell-down",
+   "color": "#e05c2a"
+  },
+  "h78": {
+   "name": "1978 Fiesta S",
+   "color": "#9aa5b1"
+  },
+  "h16": {
+   "name": "1.6 Duratec",
+   "color": "#2E6E96"
+  },
+  "h10": {
+   "name": "1.0 EcoBoost",
+   "color": "#1d7f6e"
+  },
+  "hst": {
+   "name": "Fiesta ST",
+   "color": "#e05c2a"
+  }
+ },
+ "charts": {
+  "accel": {
+   "n": 1,
+   "title": "0–60 mph, 1978 to the ST",
+   "sub": "Seconds; shorter is quicker.",
+   "source": "Period road tests; Ford's figure for the ST",
+   "bars": [
+    [
+     "t78",
+     10.9,
+     "10.9 sec"
+    ],
+    [
+     "t16",
+     9.5,
+     "9.5 sec"
+    ],
+    [
+     "tst",
+     6.9,
+     "6.9 sec"
+    ]
+   ]
+  },
+  "mpg": {
+   "n": 2,
+   "title": "EPA combined fuel economy",
+   "sub": "Miles per gallon — the 1.0 EcoBoost was the thriftiest gas Ford of its day.",
+   "source": "US EPA, fueleconomy.gov",
+   "bars": [
+    [
+     "m16",
+     32,
+     "32 mpg"
+    ],
+    [
+     "m10",
+     35,
+     "35 mpg"
+    ],
+    [
+     "mst",
+     29,
+     "29 mpg"
+    ]
+   ]
+  },
+  "sales": {
+   "n": 3,
+   "title": "The Mk6 Fiesta in America, 2011–2019",
+   "sub": "US sales in selected calendar years: the return, the peak, the fade, the final sell-down.",
+   "source": "Ford US sales figures, via GoodCarBadCar",
+   "bars": [
+    [
+     "s11",
+     68374,
+     "68,374"
+    ],
+    [
+     "s13",
+     71073,
+     "71,073"
+    ],
+    [
+     "s16",
+     48807,
+     "48,807"
+    ],
+    [
+     "s19",
+     60148,
+     "60,148"
+    ]
+   ]
+  },
+  "power": {
+   "n": 4,
+   "title": "Factory horsepower, 1978 to the ST",
+   "sub": "From 66 federalized horsepower to 197 on overboost.",
+   "source": "Ford specifications",
+   "bars": [
+    [
+     "h78",
+     66,
+     "66 hp"
+    ],
+    [
+     "h16",
+     120,
+     "120 hp"
+    ],
+    [
+     "h10",
+     123,
+     "123 hp"
+    ],
+    [
+     "hst",
+     197,
+     "197 hp"
+    ]
+   ]
+  }
+ },
+ "photos": {
+  "hub-hero": {
+   "credit": "Elise240SX",
+   "page": "https://commons.wikimedia.org/wiki/File:2016_Ford_Fiesta_SE_Hatchback_in_Ruby_Red_Metallic_Tinted_Clearcoat,_Front_Right,_2023-07-13.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": "A 2016 Ford Fiesta SE hatchback in Ruby Red, front three-quarter view"
+  },
+  "ch1-hero": {
+   "credit": "IFCAR",
+   "page": "https://commons.wikimedia.org/wiki/File:2011_Ford_Fiesta_SES_hatchback_--_02-18-2011.jpg",
+   "license": "Public domain",
+   "licenseUrl": "https://commons.wikimedia.org/wiki/File:2011_Ford_Fiesta_SES_hatchback_--_02-18-2011.jpg",
+   "alt": "A Lime Squeeze green 2011 Ford Fiesta SES hatchback, front three-quarter view"
+  },
+  "ch2-hero": {
+   "credit": "Sarah Larson",
+   "page": "https://commons.wikimedia.org/wiki/File:2014_Ford_Fiesta_ST_(8403009199)_(cropped).jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": "A Molten Orange 2014 Ford Fiesta ST on the Detroit auto show stand"
+  },
+  "ch3-hero": {
+   "credit": "Mr.choppers",
+   "page": "https://commons.wikimedia.org/wiki/File:1979_Ford_Fiesta_Ghia_(US),_front_right.jpg",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": "A weathered 1979 US-market Ford Fiesta Ghia survivor, front three-quarter view"
+  }
+ },
+ "find": {
+  "picker": [
+   {
+    "model": "Fiesta",
+    "years": "2011–2019",
+    "ch": "2011-2019"
+   },
+   {
+    "model": "Fiesta ST",
+    "years": "2014–2019",
+    "ch": "fiesta-st"
+   },
+   {
+    "model": "Fiesta Mk1",
+    "years": "1978–1980",
+    "ch": "1978"
+   }
+  ],
+  "terms": {
+   "": [
+    "Fiesta",
+    "Ford Fiesta",
+    "subcompact",
+    "small car",
+    "cheap car",
+    "first car"
+   ],
+   "2011-2019": [
+    "SE",
+    "Titanium",
+    "SFE",
+    "1.0 EcoBoost",
+    "PowerShift",
+    "dual-clutch",
+    "used Fiesta"
+   ],
+   "fiesta-st": [
+    "ST",
+    "Fiesta ST",
+    "hot hatch",
+    "197 hp",
+    "Recaro",
+    "Molten Orange"
+   ],
+   "1978": [
+    "Mk1",
+    "1978 Fiesta",
+    "Kent engine",
+    "classic Fiesta",
+    "survivor"
+   ]
+  }
+ }
+}

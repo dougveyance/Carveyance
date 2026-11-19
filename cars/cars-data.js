@@ -31313,5 +31313,133 @@ const CARS_INDEX = [
    "pos": "",
    "fit": ""
   }
+ },
+ {
+  "id": "ford-fiesta-mk1-us",
+  "name": "Ford Fiesta (Mk1, US market)",
+  "aka": [
+   "Mk1",
+   "Fiesta S",
+   "Ghia",
+   "Project Bobcat"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Saarlouis and Cologne, Germany)",
+  "years": "1978–1980",
+  "start": 1978,
+  "body": "3-door subcompact hatchback — the first front-wheel-drive Ford sold in America",
+  "engine": "1.6 Kent crossflow, federalized with a catalyst and air pump",
+  "country": "Germany",
+  "quick": "Ford's first front-drive car in America lasted 3 years, weighed 832 kg (1,835 lb), out-accelerated some V8s — and was killed by the fuel-economy rules it existed to serve.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Front-wheel drive",
+  "gearbox": "4-speed manual",
+  "specsFor": "1978 Fiesta S",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 66,
+  "kg": 832,
+  "kgNote": "Curb weight, Fiesta S",
+  "lbs": 1835,
+  "z60": {
+   "sec": 10.9,
+   "kind": "estimated",
+   "note": "Period road tests ran just under 11 seconds — quicker than some V8 sedans of the day"
+  },
+  "top": {
+   "mph": 98,
+   "kind": "claimed",
+   "note": "Advertised, and realistic in period testing"
+  },
+  "mpg": null,
+  "built": null,
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": null,
+   "name": "Ford Escort (US)"
+  },
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/1979_Ford_Fiesta_Ghia_(US),_front_right.jpg/960px-1979_Ford_Fiesta_Ghia_(US),_front_right.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "ford-fiesta-mk6",
+  "name": "Ford Fiesta (sixth generation)",
+  "aka": [
+   "Mk6",
+   "Fiesta ST",
+   "SFE",
+   "Titanium"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Cuautitlán Assembly, Mexico)",
+  "years": "2011–2019",
+  "start": 2011,
+  "body": "Subcompact 5-door hatchback and 4-door sedan — the Fiesta's American return after a 30-year absence",
+  "engine": "1.6 Duratec Ti-VCT; 1.0 EcoBoost; 1.6 EcoBoost in the ST",
+  "country": "United States",
+  "quick": "The Fiesta came back after 30 years as the best-driving subcompact in America — then the ST made it a legend and the PowerShift lawsuits made it a cautionary tale.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Front-wheel drive",
+  "gearbox": "5-speed manual or PowerShift 6-speed dual-clutch; 6-speed manual in the ST",
+  "specsFor": "2014 Fiesta ST",
+  "guide": null,
+  "shop": {
+   "cargurus": "d1060"
+  },
+  "hp": 197,
+  "kg": 1244,
+  "kgNote": "Curb weight, ST — the heaviest of the range",
+  "lbs": 2743,
+  "z60": {
+   "sec": 6.9,
+   "kind": "claimed",
+   "note": "Ford quoted under 7 seconds; instrumented tests agreed"
+  },
+  "top": {
+   "mph": 137,
+   "kind": "claimed",
+   "note": "Electronically limited"
+  },
+  "mpg": {
+   "combined": 29,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2014 ST (26 city, 34 highway)"
+  },
+  "built": {
+   "count": 562951,
+   "approx": true,
+   "note": "Sold in the US, 2010–2020 calendar years; the 2013 peak was 71,073"
+  },
+  "alongside": [
+   {
+    "id": "ford-focus-3rd-gen",
+    "name": "Ford Focus (third generation)"
+   }
+  ],
+  "prev": {
+   "id": "ford-fiesta-mk1-us",
+   "name": "Ford Fiesta (Mk1, US market)"
+  },
+  "next": null,
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/2011_Ford_Fiesta_SES_hatchback_--_02-18-2011.jpg/960px-2011_Ford_Fiesta_SES_hatchback_--_02-18-2011.jpg",
+   "pos": "",
+   "fit": ""
+  }
  }
 ];

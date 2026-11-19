@@ -1,0 +1,300 @@
+{
+ "id": "ford-focus",
+ "make": "Ford",
+ "model": "Focus",
+ "years": "2000–2018",
+ "byline": "Sloane Whitaker",
+ "published": "2026-11-19",
+ "updated": "2026-11-19",
+ "cars": [
+  "ford-focus-1st-gen",
+  "ford-focus-2nd-gen",
+  "ford-focus-3rd-gen",
+  "ford-focus-rs"
+ ],
+ "shop": {
+  "cargurus": "d346"
+ },
+ "chapters": [
+  "2012-2018",
+  "st-rs",
+  "2000-2011",
+  "used-checklist"
+ ],
+ "series": {
+  "t02": {
+   "name": "2002 SVT Focus, tested",
+   "color": "#9aa5b1"
+  },
+  "t12": {
+   "name": "2012 2.0 manual, tests",
+   "color": "#2E6E96"
+  },
+  "t13": {
+   "name": "Focus ST, published figure",
+   "color": "#e05c2a"
+  },
+  "t16": {
+   "name": "2016 Focus RS, tested",
+   "color": "#8a4fbf"
+  },
+  "m00": {
+   "name": "2000, 2.0 Zetec manual",
+   "color": "#9aa5b1"
+  },
+  "m08": {
+   "name": "2008, 2.0 Duratec",
+   "color": "#9aa5b1"
+  },
+  "m12": {
+   "name": "2012, 2.0 GDI",
+   "color": "#2E6E96"
+  },
+  "m16": {
+   "name": "2016, 1.0 EcoBoost",
+   "color": "#e05c2a"
+  },
+  "s00": {
+   "name": "2000, the record",
+   "color": "#9aa5b1"
+  },
+  "s05": {
+   "name": "2005",
+   "color": "#9aa5b1"
+  },
+  "s08": {
+   "name": "2008, the gas spike",
+   "color": "#2E6E96"
+  },
+  "s12": {
+   "name": "2012, the global car",
+   "color": "#2E6E96"
+  },
+  "s18": {
+   "name": "2018, the last year",
+   "color": "#e05c2a"
+  },
+  "h02": {
+   "name": "SVT Focus, 2002",
+   "color": "#9aa5b1"
+  },
+  "h13": {
+   "name": "Focus ST, 2013",
+   "color": "#e05c2a"
+  },
+  "h16": {
+   "name": "Focus RS, 2016",
+   "color": "#8a4fbf"
+  }
+ },
+ "charts": {
+  "accel": {
+   "n": 1,
+   "title": "0–60 mph: 16 years of fast Focuses",
+   "sub": "Seconds; shorter is quicker.",
+   "source": "Verified instrumented tests; Ford's published figure for the ST",
+   "bars": [
+    [
+     "t02",
+     6.9,
+     "6.9 sec"
+    ],
+    [
+     "t13",
+     6.0,
+     "6.0 sec"
+    ],
+    [
+     "t16",
+     4.6,
+     "4.6 sec"
+    ]
+   ]
+  },
+  "mpg": {
+   "n": 2,
+   "title": "EPA combined fuel economy, by era",
+   "sub": "Miles per gallon, volume engines. The Focus Electric sits beyond this chart at 107 MPGe.",
+   "source": "US EPA, fueleconomy.gov",
+   "bars": [
+    [
+     "m00",
+     25,
+     "25 mpg"
+    ],
+    [
+     "m08",
+     28,
+     "28 mpg"
+    ],
+    [
+     "m12",
+     31,
+     "31 mpg"
+    ],
+    [
+     "m16",
+     32,
+     "32 mpg"
+    ]
+   ]
+  },
+  "sales": {
+   "n": 3,
+   "title": "The Focus sales arc, 2000–2018",
+   "sub": "US sales in selected calendar years: the launch record, the slide, the gas-spike bump, the global car, the end.",
+   "source": "Ford US sales figures, via GoodCarBadCar",
+   "bars": [
+    [
+     "s00",
+     286166,
+     "286,166"
+    ],
+    [
+     "s05",
+     184825,
+     "184,825"
+    ],
+    [
+     "s08",
+     195823,
+     "195,823"
+    ],
+    [
+     "s12",
+     245922,
+     "245,922"
+    ],
+    [
+     "s18",
+     114045,
+     "114,045"
+    ]
+   ]
+  },
+  "power": {
+   "n": 4,
+   "title": "The fast ones: factory horsepower",
+   "sub": "SVT to ST to RS — how far Ford pushed one small car.",
+   "source": "Ford specifications",
+   "bars": [
+    [
+     "h02",
+     170,
+     "170 hp"
+    ],
+    [
+     "h13",
+     252,
+     "252 hp"
+    ],
+    [
+     "h16",
+     350,
+     "350 hp"
+    ]
+   ]
+  }
+ },
+ "photos": {
+  "hub-hero": {
+   "credit": "Sicnag",
+   "page": "https://commons.wikimedia.org/wiki/File:2016_Ford_Focus_MkIII_RS_(29933423530).jpg",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "alt": "A 2016 Ford Focus RS in Nitrous Blue, front three-quarter view"
+  },
+  "ch1-hero": {
+   "credit": "Kevauto",
+   "page": "https://commons.wikimedia.org/wiki/File:2014_Ford_Focus_SE_sedan_2.0L,_front_8.25.19.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": "A silver 2014 Ford Focus SE sedan, front three-quarter view"
+  },
+  "ch2-hero": {
+   "credit": "order_242 from Chile",
+   "page": "https://commons.wikimedia.org/wiki/File:Ford_Focus_ST_2013_(13939829337).jpg",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "alt": "A Tangerine Scream 2013 Ford Focus ST on a show stand"
+  },
+  "ch3-hero": {
+   "credit": "Elise240SX",
+   "page": "https://commons.wikimedia.org/wiki/File:2003_Ford_SVT_Focus_ZX3_in_CD_Silver_Metallic,_Front_Left,_11-05-2022.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": "A silver 2003 Ford SVT Focus ZX3, front three-quarter view"
+  },
+  "ch4-hero": {
+   "credit": "IFCAR",
+   "page": "https://commons.wikimedia.org/wiki/File:2012_Ford_Focus_Titanium_hatchback_--_07-09-2011_front.jpg",
+   "license": "Public domain",
+   "licenseUrl": "https://commons.wikimedia.org/wiki/File:2012_Ford_Focus_Titanium_hatchback_--_07-09-2011_front.jpg",
+   "alt": "A white 2012 Ford Focus Titanium hatchback, front three-quarter view"
+  }
+ },
+ "find": {
+  "picker": [
+   {
+    "model": "Focus",
+    "years": "2012–2018",
+    "ch": "2012-2018"
+   },
+   {
+    "model": "Focus ST / RS / SVT",
+    "years": "2002–2018",
+    "ch": "st-rs"
+   },
+   {
+    "model": "Focus",
+    "years": "2000–2011",
+    "ch": "2000-2011"
+   }
+  ],
+  "terms": {
+   "": [
+    "Focus",
+    "Ford Focus",
+    "compact car",
+    "hatchback",
+    "cheap car",
+    "Civic alternative",
+    "Corolla alternative"
+   ],
+   "2012-2018": [
+    "Titanium",
+    "SE",
+    "PowerShift",
+    "dual-clutch",
+    "1.0 EcoBoost",
+    "Focus Electric",
+    "used Focus"
+   ],
+   "st-rs": [
+    "ST",
+    "RS",
+    "SVT",
+    "hot hatch",
+    "Nitrous Blue",
+    "Drift Mode",
+    "350 hp"
+   ],
+   "2000-2011": [
+    "ZX3",
+    "ZX5",
+    "SVT Focus",
+    "coupe",
+    "Sync",
+    "New Edge"
+   ],
+   "used-checklist": [
+    "used",
+    "checklist",
+    "PowerShift shudder",
+    "recall",
+    "head gasket",
+    "inspection"
+   ]
+  }
+ }
+}

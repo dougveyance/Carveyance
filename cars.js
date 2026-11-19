@@ -2255,11 +2255,8 @@ const CARS = [
       "a-golden-relic"
     ],
     "photo": {
-      "file": "1993 Ford Probe GT in Black, Front Right, 05-21-2023.jpg",
-      "credit": "Elise240SX",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "pos": ""
+      "credit": "Ford Motor Company",
+      "caption": "The second-generation Probe GT in Ford's own press photography"
     },
     "match": [
       "Ford Probe GT",
@@ -7087,11 +7084,8 @@ const CARS = [
       "black-swan-allroad"
     ],
     "photo": {
-      "file": "Audi allroad quattro I 20090321 front.jpg",
-      "credit": "M 93",
-      "license": "Public domain",
-      "licenseUrl": "",
-      "pos": ""
+      "credit": "Carveyance",
+      "caption": "The Carveyance allroad quattro, roof box fitted"
     },
     "match": [
       "Audi Allroad"
@@ -35099,9 +35093,9 @@ const CARS = [
       "src": "https://www.conceptcarz.com/view/vehicle/z12124/acura-nsx.aspx"
     },
     "weight": {
-      "kg": 1350,
-      "lb": 2976,
-      "note": "1991 coupe",
+      "kg": 1365,
+      "lb": 3010,
+      "note": "1991 coupe, 5-speed manual; the automatic made 252 hp",
       "src": "https://classics.honestjohn.co.uk/reviews/honda/nsx/"
     },
     "zero60": {
@@ -35111,10 +35105,10 @@ const CARS = [
       "src": "https://fastestlaps.com/models/honda-nsx-3-0"
     },
     "top": {
-      "mph": 175,
-      "kind": "claimed",
-      "note": "The Manual's figure; early 3.0-liter cars were slightly slower",
-      "src": "https://themanual.com/auto/first-gen-acura-nsx-supercar-daily-driver"
+      "mph": 162,
+      "kind": "tested",
+      "note": "Car and Driver, 1994, stock car; the oft-quoted 175 came from a modified Comptech NSX",
+      "src": "https://www.caranddriver.com/reviews/a32783605/1991-acura-nsx-archived-test/"
     },
     "mpg": {
       "combined": 18,
@@ -35130,20 +35124,24 @@ const CARS = [
     },
     "versions": [
       {
-        "name": "NSX",
-        "detail": "1990–2005; 270 hp, then 290 from the 1997 3.2-liter"
+        "name": "NSX (NA1)",
+        "detail": "1991–1996; 3.0-liter, 270 hp manual or 252 hp automatic; 1,365 kg (3,010 lb); 5.2 s to 60; 162 mph; EPA 18 city/24 highway as first rated"
       },
       {
-        "name": "NSX-R",
-        "detail": "1992–1995; 483 built, Japan only; 120 kg lighter"
+        "name": "NSX-R (NA1)",
+        "detail": "1992–1995; 483 built, Japan only; 276 hp; 1,230 kg (2,712 lb); about 4.9 s and 168 mph, published estimates; 21.6 mpg US from Japan's 10–15-mode test"
       },
       {
         "name": "NSX-T",
-        "detail": "1995 on; removable targa roof"
+        "detail": "1995 on; removable targa roof; 270 hp; 1,425 kg (3,142 lb); 5.2 s to 60"
+      },
+      {
+        "name": "NSX / NSX-T 3.2",
+        "detail": "1997–2005; 290 hp 6-speed manual, 1,435 kg (3,164 lb), 5.0 s to 60 by Car and Driver, 168 mph; the automatic kept the 3.0 and 252 hp throughout"
       },
       {
         "name": "NSX-R (NA2)",
-        "detail": "2002–2005; the second, even sharper R"
+        "detail": "2002–2005; 3.2-liter, officially still 276 hp (280 PS); 1,270 kg (2,800 lb); about 4.9 s and 174 mph, published estimates; 20.2 mpg US from the 10–15-mode test"
       }
     ],
     "predecessor": null,
@@ -35545,6 +35543,109 @@ const CARS = [
     },
     "match": [
       "Tesla Roadster"
+    ]
+  },
+  {
+    "id": "bmw-e9",
+    "name": "BMW E9 coupe",
+    "aka": [
+      "2800 CS",
+      "3.0 CS",
+      "3.0 CSi",
+      "3.0 CSL",
+      "New Six coupe",
+      "Batmobile"
+    ],
+    "make": "BMW",
+    "maker": "BMW, body built by Karmann (Osnabruck, Germany)",
+    "country": "Germany",
+    "years": "1968–1975",
+    "start": 1968,
+    "end": 1975,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "2-door pillarless coupe",
+    "engine": "BMW M30 inline-6, 2.5 to 3.2 liters",
+    "drive": "Rear-wheel drive",
+    "gearbox": "4-speed manual or 3-speed automatic",
+    "specsFor": "3.0 CS, European twin-carburetor car",
+    "power": {
+      "hp": 180,
+      "note": "DIN; US-market cars listed 170 SAE",
+      "src": "https://autozine.org/Archive/BMW/classic/CS.html"
+    },
+    "weight": {
+      "kg": 1400,
+      "lb": 3086,
+      "note": "Curb",
+      "src": "https://www.conceptcarz.com/s13292/news.aspx"
+    },
+    "zero60": {
+      "sec": 10.0,
+      "kind": "tested",
+      "note": "Road & Track's test of a US-market 1973 car; European cars and the injected CSi were quicker",
+      "src": "https://www.0-60specs.com/bmw/3-0cs-0-60-times"
+    },
+    "top": {
+      "mph": 130,
+      "kind": "tested",
+      "note": "Motor Sport's 1971 test of a European car",
+      "src": "https://www.motorsportmagazine.com/archive/article/october-1971/43/road-impressions-bmw-30-cs/"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "count": 30000,
+      "approx": true,
+      "note": "All E9s: 9,399 2800 CS, 11,063 3.0 CS, 8,199 3.0 CSi, roughly 1,100–1,265 CSL depending on the count, and 844 2.5 CS",
+      "src": "https://curbsideclassic.com/curbside-classics-european/curbside-classic-1974-bmw-3-0-cs-the-ultimate-driving-legacy"
+    },
+    "versions": [
+      {
+        "name": "2800 CS",
+        "detail": "1968–1971; 9,399 built; the original 2.8-liter car"
+      },
+      {
+        "name": "3.0 CS",
+        "detail": "1971–1975; 11,063 built; twin carburetors, 180 PS"
+      },
+      {
+        "name": "3.0 CSi",
+        "detail": "1971–1975; 8,199 built; Bosch injection, 200 PS"
+      },
+      {
+        "name": "3.0 CSL",
+        "detail": "1971–1975; the lightweight homologation car, winged 'Batmobile' at the end; roughly 1,100–1,265 built, counts vary"
+      },
+      {
+        "name": "2.5 CS",
+        "detail": "1974–1976; 844 built; the energy-crisis economy run-out"
+      }
+    ],
+    "predecessor": {
+      "name": "BMW 2000 CS",
+      "id": null
+    },
+    "successor": {
+      "name": "BMW 6 Series (E24)",
+      "id": null
+    },
+    "quick": "Karmann's pillarless BMW: the prettiest shape Munich ever sold, and the CSL racing versions won everything in touring cars. About 30,000 built, and rust took a terrible share of them.",
+    "story": [
+      "Drop every side window on an E9 and the whole flank opens into one unbroken piece of air, no pillar anywhere between the windshield and the Hofmeister kink. Karmann built the bodies, BMW dropped in the M30 straight-6, and from the 2800 CS of 1968 through the 3.0 CS and injected CSi, the coupe gave Munich something the sedans never quite managed: pure glamour. A European 3.0 CS made 180 PS on twin carburetors and ran past 130 mph in Motor Sport's hands; the US car, down to 170 SAE and saddled with big bumpers by 1974, took 10.0 seconds to 60 in Road & Track's test and cost $8,710 in 1972, or $70,100 in 2026 dollars, Porsche 911 money.",
+      "The CSL lightweights turned the pretty coupe into the most successful touring car of the decade, winning the European championship 6 times, and the first 2 BMW Art Cars, Calder's and Stella's, were CSLs. The E9's great enemy was never another car; it was water, since Karmann's shells rusted with real commitment, which is part of why survivors bring the money they do. The blue car in the photo was crossing a San Francisco intersection when it was taken, a 50-year-old design doing exactly what it was built for and outdressing everything else at the light."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "A BMW E9 coupe crossing a San Francisco intersection"
+    },
+    "match": [
+      "BMW E9",
+      "BMW 3.0 CS",
+      "BMW 3.0 CSL"
     ]
   },
   {

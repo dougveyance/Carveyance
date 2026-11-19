@@ -1987,7 +1987,7 @@ const CARS_INDEX = [
    "name": "Mercury Cougar (1999)"
   },
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/1993_Ford_Probe_GT_in_Black,_Front_Right,_05-21-2023.jpg/960px-1993_Ford_Probe_GT_in_Black,_Front_Right,_05-21-2023.jpg",
+   "card": "/assets/images/cars/ford-probe-gt.jpg?v=a4789a37",
    "pos": "",
    "fit": ""
   }
@@ -6235,7 +6235,7 @@ const CARS_INDEX = [
    "name": "Audi A6 allroad quattro (C6)"
   },
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Audi_allroad_quattro_I_20090321_front.jpg/960px-Audi_allroad_quattro_I_20090321_front.jpg",
+   "card": "/assets/images/cars/audi-allroad.jpg?v=182b04a7",
    "pos": "",
    "fit": ""
   }
@@ -24920,18 +24920,18 @@ const CARS_INDEX = [
    "list": "collector"
   },
   "hp": 270,
-  "kg": 1350,
-  "kgNote": "1991 coupe",
-  "lbs": 2976,
+  "kg": 1365,
+  "kgNote": "1991 coupe, 5-speed manual; the automatic made 252 hp",
+  "lbs": 3010,
   "z60": {
    "sec": 5.2,
    "kind": "tested",
    "note": "Period US tests of the 1991 car"
   },
   "top": {
-   "mph": 175,
-   "kind": "claimed",
-   "note": "The Manual's figure; early 3.0-liter cars were slightly slower"
+   "mph": 162,
+   "kind": "tested",
+   "note": "Car and Driver, 1994, stock car; the oft-quoted 175 came from a modified Comptech NSX"
   },
   "mpg": {
    "combined": 18,
@@ -25248,6 +25248,71 @@ const CARS_INDEX = [
   "next": null,
   "photo": {
    "card": "/assets/images/cars/tesla-roadster-thrust.jpg?v=d86b7ba0",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "bmw-e9",
+  "name": "BMW E9 coupe",
+  "aka": [
+   "2800 CS",
+   "3.0 CS",
+   "3.0 CSi",
+   "3.0 CSL",
+   "New Six coupe",
+   "Batmobile"
+  ],
+  "make": "BMW",
+  "maker": "BMW, body built by Karmann (Osnabruck, Germany)",
+  "years": "1968–1975",
+  "start": 1968,
+  "body": "2-door pillarless coupe",
+  "engine": "BMW M30 inline-6, 2.5 to 3.2 liters",
+  "country": "Germany",
+  "quick": "Karmann's pillarless BMW: the prettiest shape Munich ever sold, and the CSL racing versions won everything in touring cars. About 30,000 built, and rust took a terrible share of them.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive",
+  "gearbox": "4-speed manual or 3-speed automatic",
+  "specsFor": "3.0 CS, European twin-carburetor car",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 180,
+  "kg": 1400,
+  "kgNote": "Curb",
+  "lbs": 3086,
+  "z60": {
+   "sec": 10.0,
+   "kind": "tested",
+   "note": "Road & Track's test of a US-market 1973 car; European cars and the injected CSi were quicker"
+  },
+  "top": {
+   "mph": 130,
+   "kind": "tested",
+   "note": "Motor Sport's 1971 test of a European car"
+  },
+  "mpg": null,
+  "built": {
+   "count": 30000,
+   "approx": true,
+   "note": "All E9s: 9,399 2800 CS, 11,063 3.0 CS, 8,199 3.0 CSi, roughly 1,100–1,265 CSL depending on the count, and 844 2.5 CS"
+  },
+  "alongside": [],
+  "prev": {
+   "id": null,
+   "name": "BMW 2000 CS"
+  },
+  "next": {
+   "id": null,
+   "name": "BMW 6 Series (E24)"
+  },
+  "photo": {
+   "card": "/assets/images/cars/bmw-e9.jpg?v=5442f8a4",
    "pos": "",
    "fit": ""
   }

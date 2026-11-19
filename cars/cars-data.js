@@ -22557,7 +22557,11 @@ const CARS_INDEX = [
    "kind": "tested",
    "note": "Car and Driver test, 1990 Carrera 2 coupe"
   },
-  "top": null,
+  "top": {
+   "mph": 162,
+   "kind": "claimed",
+   "note": "Porsche's figure, Carrera 2 with the manual gearbox"
+  },
   "mpg": {
    "combined": 17,
    "city": 15,

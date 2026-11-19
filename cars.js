@@ -31578,7 +31578,10 @@ const CARS = [
       "src": "https://www.0-60specs.com/porsche/911-0-60-times"
     },
     "top": {
-      "na": "No figure on record"
+      "mph": 162,
+      "kind": "claimed",
+      "note": "Porsche's figure, Carrera 2 with the manual gearbox",
+      "src": "https://stuttcars.com/?p=434815"
     },
     "mpg": {
       "combined": 17,
@@ -31598,11 +31601,11 @@ const CARS = [
     "versions": [
       {
         "name": "Carrera 2",
-        "detail": "1990 on; rear-wheel drive"
+        "detail": "1990 on; rear-wheel drive; 18,219 coupes, 34,398 with the Targas and cabriolets"
       },
       {
         "name": "Carrera 4",
-        "detail": "1989 on; all-wheel drive",
+        "detail": "1989 on; all-wheel drive; 13,353 coupes, 20,395 in all",
         "specsFor": "1989 Porsche 911 Carrera 4 coupe, 5-speed manual, US market (Car and Driver test)",
         "power": {
           "hp": 247,
@@ -31622,7 +31625,10 @@ const CARS = [
           "src": "https://www.0-60specs.com/porsche/911-0-60-times"
         },
         "top": {
-          "na": "No figure on record"
+          "mph": 162,
+          "kind": "claimed",
+          "note": "Porsche's figure",
+          "src": "https://stuttcars.com/?p=434815"
         },
         "mpg": {
           "combined": 16,
@@ -31636,7 +31642,7 @@ const CARS = [
       },
       {
         "name": "Turbo 3.3",
-        "detail": "1991–1992",
+        "detail": "1991–1992; 3,660 built, though Porsche has also published 3,871",
         "specsFor": "1991 Porsche 911 Turbo, 5-speed manual, US market (Car and Driver test)",
         "power": {
           "hp": 315,
@@ -31656,7 +31662,10 @@ const CARS = [
           "src": "https://www.0-60specs.com/porsche/911-0-60-times"
         },
         "top": {
-          "na": "No figure on record"
+          "mph": 168,
+          "kind": "claimed",
+          "note": "Porsche's figure",
+          "src": "https://stuttcars.com/?p=434815"
         },
         "mpg": {
           "combined": 14,
@@ -31670,7 +31679,7 @@ const CARS = [
       },
       {
         "name": "Turbo 3.6",
-        "detail": "1994",
+        "detail": "1994; 1,437 built",
         "specsFor": "1994 Porsche 911 Turbo 3.6, 5-speed manual, US market (Car and Driver test)",
         "power": {
           "hp": 360,
@@ -31690,7 +31699,10 @@ const CARS = [
           "src": "https://www.0-60specs.com/porsche/911-0-60-times"
         },
         "top": {
-          "na": "No figure on record"
+          "mph": 174,
+          "kind": "claimed",
+          "note": "Porsche's figure",
+          "src": "https://stuttcars.com/?p=434815"
         },
         "mpg": {
           "combined": 14,
@@ -31701,6 +31713,20 @@ const CARS = [
           "src": "https://www.fueleconomy.gov/feg/noframes/10665.shtml",
           "note": "EPA combined, 1994 Turbo"
         }
+      },
+      {
+        "name": "Carrera RS",
+        "detail": "1992; Europe only; 2,282 built",
+        "top": {
+          "mph": 162,
+          "kind": "claimed",
+          "note": "Porsche's figure",
+          "src": "https://stuttcars.com/?p=434815"
+        }
+      },
+      {
+        "name": "Carrera RS 3.8",
+        "detail": "1993; 55 built; wide body and a 3.8-liter engine"
       },
       {
         "name": "RS America",
@@ -31738,7 +31764,7 @@ const CARS = [
       },
       {
         "name": "Speedster",
-        "detail": "1994; 936 built",
+        "detail": "1994; usually counted as 936, though Porsche's own account gives 930 plus 15 Turbo-Look cars",
         "specsFor": "1993 Porsche 911 Speedster, 5-speed manual (Car and Driver test)",
         "power": {
           "hp": 247,
@@ -31758,7 +31784,10 @@ const CARS = [
           "src": "https://www.0-60specs.com/porsche/911-0-60-times"
         },
         "top": {
-          "na": "No figure on record"
+          "mph": 162,
+          "kind": "claimed",
+          "note": "Porsche's figure",
+          "src": "https://stuttcars.com/?p=434815"
         },
         "mpg": {
           "combined": 18,
@@ -31782,7 +31811,7 @@ const CARS = [
     "quick": "The 911 rebuilt underneath for the 1990s: all-wheel drive, power steering and ABS under a body that still looked like the 1960s original. It also brought the RS America, the light, plain 911 Porsche made for American drivers.",
     "story": [
       "From the outside the 964 looked like a facelift. Underneath it was mostly new, with a 3.6-liter engine of 247 hp, coil springs in place of torsion bars, ABS and power steering, and for the first time a 911 with all-wheel drive, the Carrera 4, which came first in 1989, before the rear-drive Carrera 2. Car and Driver timed a manual Carrera 2 at 4.8 seconds to 60 mph. A Tiptronic automatic arrived too, and the Turbo returned with 3.3 liters and then, for 1994, 3.6 liters and 360 hp.",
-      "Purists who had grown up on the older cars found it heavier and softer, and they were right that it was more of a grand tourer. Porsche answered with lighter cars: the European Carrera RS, and for the US the RS America, with no rear seats, cloth door pulls and a whale-tail spoiler, at $53,900, or $125,400 in 2026 dollars, about $11,000 less than a Carrera 2. Only 701 were built, and they are now among the most sought-after 964s. Porsche built 63,762 964s, and the generation that followed, the 993, was the last to be cooled by air."
+      "Purists who had grown up on the older cars found it heavier and softer, and they were right that it was more of a grand tourer. Porsche answered with lighter cars: the European Carrera RS, and for the US the RS America, with no rear seats, cloth door pulls and a whale-tail spoiler, at $53,900, or $125,400 in 2026 dollars, about $11,000 less than a Carrera 2. Only 701 were built, and they are now among the most sought-after 964s, along with the 55 wide-body Carrera RS 3.8s. None of these lightweights was about top speed, which stayed at the Carrera 2's 162 mph; their case was weight, response and feel. Porsche built 63,762 964s, and the generation that followed, the 993, was the last to be cooled by air."
     ],
     "articles": [],
     "photo": {

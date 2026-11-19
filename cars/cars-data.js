@@ -30896,5 +30896,143 @@ const CARS_INDEX = [
    "pos": "",
    "fit": ""
   }
+ },
+ {
+  "id": "ford-fusion-1st-gen",
+  "name": "Ford Fusion (first generation)",
+  "aka": [
+   "CD3",
+   "Fusion Hybrid",
+   "Fusion Sport",
+   "Mercury Milan sibling"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Hermosillo Stamping and Assembly, Sonora, Mexico)",
+  "years": "2006–2012",
+  "start": 2006,
+  "body": "Mid-size 4-door sedan on the Mazda-derived CD3 platform; the Mercury Milan and Lincoln MKZ came down the same line",
+  "engine": "2.3, then 2.5 Duratec; 3.0 Duratec V6; 3.5 V6 in the Sport; 2.5 Atkinson hybrid",
+  "country": "United States",
+  "quick": "Ford's Camry fighter finally landed: Mazda bones, Hermosillo build quality, and a 2010 refresh that won Motor Trend's Car of the Year with a 41-mpg-city Hybrid leading the range.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Front-wheel drive or all-wheel drive",
+  "gearbox": "5- or 6-speed automatic; 5-speed manual on early 4-cylinders; CVT for the Hybrid",
+  "specsFor": "2010 Fusion Hybrid",
+  "guide": null,
+  "shop": {
+   "cargurus": "d845"
+  },
+  "hp": 191,
+  "kg": 1687,
+  "kgNote": "Curb weight, Hybrid, approximate",
+  "lbs": 3720,
+  "z60": {
+   "sec": 8.7,
+   "kind": "estimated",
+   "note": "Period tests ran the high 8s"
+  },
+  "top": {
+   "mph": 105,
+   "kind": "estimated",
+   "note": "Speed-limited, approximate"
+  },
+  "mpg": {
+   "combined": 39,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2010 Hybrid — 41 in the city, the mid-size hybrid benchmark of its day"
+  },
+  "built": {
+   "count": 1345826,
+   "approx": true,
+   "note": "Sold in the US, 2005–2012 calendar years"
+  },
+  "alongside": [],
+  "prev": {
+   "id": null,
+   "name": "Ford Taurus"
+  },
+  "next": {
+   "id": "ford-fusion-2nd-gen",
+   "name": "Ford Fusion (second generation)"
+  },
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/2010_Ford_Fusion_Hybrid.jpg/960px-2010_Ford_Fusion_Hybrid.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "ford-fusion-2nd-gen",
+  "name": "Ford Fusion (second generation)",
+  "aka": [
+   "CD4",
+   "Ford Mondeo",
+   "Fusion Sport",
+   "Fusion Energi",
+   "Titanium"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Hermosillo, Mexico; added capacity at Flat Rock, Michigan)",
+  "years": "2013–2020",
+  "start": 2013,
+  "body": "Mid-size 4-door sedan on the global CD4 platform, styled under Ford of Europe — the same car Europe sold as the Mondeo",
+  "engine": "2.5 Duratec; 1.6, 1.5 and 2.0 EcoBoost; 2.7 EcoBoost V6 in the Sport; 2.0 hybrid and Energi plug-in",
+  "country": "United States",
+  "quick": "The handsome one: a global Mondeo with a 325-hp Sport, a 97-MPGe plug-in and a 306,860-car peak year — the sedan Ford walked away from at the top of its game.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Front-wheel drive or all-wheel drive",
+  "gearbox": "6-speed automatic; 6-speed manual on the early 1.6; eCVT for Hybrid and Energi",
+  "specsFor": "2017 Fusion Sport 2.7 EcoBoost AWD",
+  "guide": null,
+  "shop": {
+   "cargurus": "d845"
+  },
+  "hp": 325,
+  "kg": 1806,
+  "kgNote": "Curb weight, Sport, approximate; Car and Driver's test car weighed 4,128 lb",
+  "lbs": 3982,
+  "z60": {
+   "sec": 5.1,
+   "kind": "tested",
+   "note": "Car and Driver instrumented test; MotorWeek and Motor Trend both ran 5.3"
+  },
+  "top": {
+   "mph": 120,
+   "kind": "estimated",
+   "note": "Speed-limited, approximate"
+  },
+  "mpg": {
+   "combined": 20,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2017 Sport (17 city, 26 highway)"
+  },
+  "built": {
+   "count": 1839864,
+   "approx": true,
+   "note": "Sold in the US, 2013–2021 calendar years; the 2014 peak was 306,860"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "ford-fusion-1st-gen",
+   "name": "Ford Fusion (first generation)"
+  },
+  "next": null,
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/2017_Ford_Fusion_V6_Sport_in_Burgundy_Velvet_Metallic_Tinted_Clearcoat,_Front_Left,_05-21-2022.jpg/960px-2017_Ford_Fusion_V6_Sport_in_Burgundy_Velvet_Metallic_Tinted_Clearcoat,_Front_Left,_05-21-2022.jpg",
+   "pos": "",
+   "fit": ""
+  }
  }
 ];

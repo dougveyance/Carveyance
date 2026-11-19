@@ -1,0 +1,313 @@
+{
+ "id": "ford-fusion",
+ "make": "Ford",
+ "model": "Fusion",
+ "years": "2006–2020",
+ "byline": "Theo Wren",
+ "published": "2026-11-19",
+ "updated": "2026-11-19",
+ "cars": [
+  "ford-fusion-1st-gen",
+  "ford-fusion-2nd-gen"
+ ],
+ "shop": {
+  "cargurus": "d845"
+ },
+ "chapters": [
+  "2013-2020",
+  "2006-2012",
+  "hybrid",
+  "used-checklist"
+ ],
+ "series": {
+  "t10s": {
+   "name": "2010 Sport 3.5, period figure",
+   "color": "#9aa5b1"
+  },
+  "t17mw": {
+   "name": "2017 Sport, MotorWeek",
+   "color": "#2E6E96"
+  },
+  "t17cd": {
+   "name": "2017 Sport, Car and Driver",
+   "color": "#e05c2a"
+  },
+  "m07": {
+   "name": "2007, 2.3",
+   "color": "#9aa5b1"
+  },
+  "m10": {
+   "name": "2010, 2.5",
+   "color": "#9aa5b1"
+  },
+  "m14": {
+   "name": "2014, 1.5 EcoBoost",
+   "color": "#2E6E96"
+  },
+  "m10h": {
+   "name": "2010 Hybrid",
+   "color": "#1d7f6e"
+  },
+  "m14h": {
+   "name": "2014 Hybrid",
+   "color": "#1d7f6e"
+  },
+  "s06": {
+   "name": "2006, year 1",
+   "color": "#9aa5b1"
+  },
+  "s12": {
+   "name": "2012",
+   "color": "#9aa5b1"
+  },
+  "s14": {
+   "name": "2014, the peak",
+   "color": "#2E6E96"
+  },
+  "s18": {
+   "name": "2018, the announcement",
+   "color": "#e05c2a"
+  },
+  "s20": {
+   "name": "2020, the last year",
+   "color": "#e05c2a"
+  },
+  "p09h": {
+   "name": "2009 Hybrid",
+   "color": "#1d7f6e"
+  },
+  "p17s": {
+   "name": "2017 S",
+   "color": "#2E6E96"
+  },
+  "p17sp": {
+   "name": "2017 Sport",
+   "color": "#e05c2a"
+  },
+  "p17e": {
+   "name": "2017 Energi Platinum",
+   "color": "#8a4fbf"
+  }
+ },
+ "charts": {
+  "accel": {
+   "n": 1,
+   "title": "0–60 mph: the Sports, then and now",
+   "sub": "Seconds; shorter is quicker.",
+   "source": "Car and Driver and MotorWeek instrumented tests; Ford-era published figure for 2010",
+   "bars": [
+    [
+     "t10s",
+     6.5,
+     "6.5 sec"
+    ],
+    [
+     "t17mw",
+     5.3,
+     "5.3 sec"
+    ],
+    [
+     "t17cd",
+     5.1,
+     "5.1 sec"
+    ]
+   ]
+  },
+  "mpg": {
+   "n": 2,
+   "title": "EPA combined fuel economy, by era",
+   "sub": "Miles per gallon. The Energi plug-in sits beyond this chart at 97 MPGe.",
+   "source": "US EPA, fueleconomy.gov",
+   "bars": [
+    [
+     "m07",
+     23,
+     "23 mpg"
+    ],
+    [
+     "m10",
+     25,
+     "25 mpg"
+    ],
+    [
+     "m14",
+     27,
+     "27 mpg"
+    ],
+    [
+     "m10h",
+     39,
+     "39 mpg"
+    ],
+    [
+     "m14h",
+     41,
+     "41 mpg"
+    ]
+   ]
+  },
+  "sales": {
+   "n": 3,
+   "title": "The Fusion sales arc, 2006–2020",
+   "sub": "US sales in selected calendar years: the start, the climb, the peak, the sedan exit announcement, the end.",
+   "source": "Ford US sales figures, via Wikipedia",
+   "bars": [
+    [
+     "s06",
+     142502,
+     "142,502"
+    ],
+    [
+     "s12",
+     241263,
+     "241,263"
+    ],
+    [
+     "s14",
+     306860,
+     "306,860"
+    ],
+    [
+     "s18",
+     173600,
+     "173,600"
+    ],
+    [
+     "s20",
+     110665,
+     "110,665"
+    ]
+   ]
+  },
+  "price": {
+   "n": 4,
+   "title": "What a new one cost, in 2026 dollars",
+   "sub": "Starting prices, adjusted with the US consumer price index. The original price is in each label.",
+   "source": "Ford prices; Carveyance CPI arithmetic",
+   "bars": [
+    [
+     "p09h",
+     42700,
+     "$42,700 · $27,270 then"
+    ],
+    [
+     "p17s",
+     30300,
+     "$30,300 · $22,120 then"
+    ],
+    [
+     "p17sp",
+     45900,
+     "$45,900 · $33,475 then"
+    ],
+    [
+     "p17e",
+     53700,
+     "$53,700 · $39,120 then"
+    ]
+   ]
+  }
+ },
+ "photos": {
+  "hub-hero": {
+   "credit": "Elise240SX",
+   "page": "https://commons.wikimedia.org/wiki/File:2017_Ford_Fusion_V6_Sport_in_Burgundy_Velvet_Metallic_Tinted_Clearcoat,_Front_Left,_05-21-2022.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": "A 2017 Ford Fusion V6 Sport in Burgundy Velvet Metallic, front three-quarter view"
+  },
+  "ch1-hero": {
+   "credit": "HJUdall",
+   "page": "https://commons.wikimedia.org/wiki/File:19_Ford_Fusion_SEL.jpg",
+   "license": "CC0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "alt": "A silver 2019 Ford Fusion SEL, front three-quarter view"
+  },
+  "ch2-hero": {
+   "credit": "IFCAR",
+   "page": "https://commons.wikimedia.org/wiki/File:Ford-Fusion-SEL.jpg",
+   "license": "Public domain",
+   "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ford-Fusion-SEL.jpg",
+   "alt": "A silver first-generation Ford Fusion SEL, front three-quarter view"
+  },
+  "ch3-hero": {
+   "credit": "HJUdall",
+   "page": "https://commons.wikimedia.org/wiki/File:17_Ford_Fusion_Energi_SE_Luxury.jpg",
+   "license": "CC0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "alt": "A black 2017 Ford Fusion Energi, front three-quarter view"
+  },
+  "ch4-hero": {
+   "credit": "SsmIntrigue",
+   "page": "https://commons.wikimedia.org/wiki/File:2010_Ford_Fusion_Sport_AWD,_Front_Left,_08-09-2020.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": "A black 2010 Ford Fusion Sport AWD, front three-quarter view"
+  }
+ },
+ "find": {
+  "picker": [
+   {
+    "model": "Fusion",
+    "years": "2013–2020",
+    "ch": "2013-2020"
+   },
+   {
+    "model": "Fusion",
+    "years": "2006–2012",
+    "ch": "2006-2012"
+   },
+   {
+    "model": "Fusion Hybrid / Energi",
+    "years": "2010–2020",
+    "ch": "hybrid"
+   }
+  ],
+  "terms": {
+   "": [
+    "Fusion",
+    "Ford Fusion",
+    "mid-size sedan",
+    "family sedan",
+    "Camry alternative",
+    "Accord alternative",
+    "cheap sedan"
+   ],
+   "2013-2020": [
+    "Titanium",
+    "SE",
+    "Fusion Sport",
+    "2.0 EcoBoost",
+    "1.5 EcoBoost",
+    "Mondeo",
+    "used Fusion",
+    "325 hp"
+   ],
+   "2006-2012": [
+    "SEL",
+    "Milan",
+    "3.0 V6",
+    "2010 refresh",
+    "Car of the Year",
+    "first Fusion"
+   ],
+   "hybrid": [
+    "hybrid",
+    "Fusion Hybrid",
+    "Energi",
+    "plug-in",
+    "47 mpg",
+    "41 mpg",
+    "97 MPGe"
+   ],
+   "used-checklist": [
+    "used",
+    "checklist",
+    "recall",
+    "transmission",
+    "rust",
+    "inspection"
+   ]
+  }
+ }
+}

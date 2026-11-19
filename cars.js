@@ -46841,5 +46841,468 @@ const CARS = [
     "match": [
       "Ford Escape"
     ]
+  },
+  {
+    "id": "ford-fusion-1st-gen",
+    "family": {
+      "id": "ford-fusion",
+      "name": "Ford Fusion"
+    },
+    "name": "Ford Fusion (first generation)",
+    "aka": [
+      "CD3",
+      "Fusion Hybrid",
+      "Fusion Sport",
+      "Mercury Milan sibling"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Hermosillo Stamping and Assembly, Sonora, Mexico)",
+    "country": "United States",
+    "years": "2006–2012",
+    "start": 2006,
+    "end": 2012,
+    "shop": {
+      "cargurus": "d845"
+    },
+    "body": "Mid-size 4-door sedan on the Mazda-derived CD3 platform; the Mercury Milan and Lincoln MKZ came down the same line",
+    "engine": "2.3, then 2.5 Duratec; 3.0 Duratec V6; 3.5 V6 in the Sport; 2.5 Atkinson hybrid",
+    "drive": "Front-wheel drive or all-wheel drive",
+    "gearbox": "5- or 6-speed automatic; 5-speed manual on early 4-cylinders; CVT for the Hybrid",
+    "specsFor": "2010 Fusion Hybrid",
+    "power": {
+      "hp": 191,
+      "note": "2.5 Atkinson-cycle 4-cylinder plus electric motor, combined; the engine alone makes 156",
+      "src": "https://en.wikipedia.org/wiki/Ford_Fusion_(Americas)"
+    },
+    "weight": {
+      "kg": 1687,
+      "lb": 3720,
+      "note": "Curb weight, Hybrid, approximate"
+    },
+    "zero60": {
+      "sec": 8.7,
+      "kind": "estimated",
+      "note": "Period tests ran the high 8s"
+    },
+    "top": {
+      "mph": 105,
+      "kind": "estimated",
+      "note": "Speed-limited, approximate"
+    },
+    "mpg": {
+      "combined": 39,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/",
+      "note": "EPA combined, 2010 Hybrid — 41 in the city, the mid-size hybrid benchmark of its day"
+    },
+    "built": {
+      "count": 1345826,
+      "approx": true,
+      "note": "Sold in the US, 2005–2012 calendar years",
+      "src": "https://en.wikipedia.org/wiki/Ford_Fusion_(Americas)"
+    },
+    "versions": [
+      {
+        "name": "Fusion Hybrid (2010–12)",
+        "detail": "2010 North American Car of the Year — and the heart of Motor Trend's Car of the Year win"
+      },
+      {
+        "name": "2.3 Duratec (2006–09)",
+        "detail": "160 hp; a 5-speed manual was available",
+        "power": {
+          "hp": 160,
+          "note": "2.3 Duratec; 155 lb-ft",
+          "src": "https://en.wikipedia.org/wiki/Ford_Fusion_(Americas)"
+        },
+        "weight": {
+          "kg": 1488,
+          "lb": 3280,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 9.5,
+          "kind": "estimated",
+          "note": "Period tests"
+        },
+        "top": {
+          "mph": 110,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "combined": 23,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2007 (20 city, 29 highway)"
+        }
+      },
+      {
+        "name": "3.0 Duratec V6",
+        "detail": "221 hp, then 240 and E85-capable from 2010",
+        "power": {
+          "hp": 240,
+          "note": "3.0 Duratec from 2010; 221 hp 2006–09",
+          "src": "https://en.wikipedia.org/wiki/Ford_Fusion_(Americas)"
+        },
+        "weight": {
+          "kg": 1565,
+          "lb": 3450,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 7.9,
+          "kind": "estimated",
+          "note": "Period tests"
+        },
+        "top": {
+          "mph": 115,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "combined": 21,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2010, AWD flex-fuel; the 2007 rates the same"
+        }
+      },
+      {
+        "name": "2.5 Duratec (2010–12)",
+        "detail": "175 hp — the refresh's new base engine",
+        "power": {
+          "hp": 175,
+          "note": "2.5 Duratec; 172 lb-ft",
+          "src": "https://en.wikipedia.org/wiki/Ford_Fusion_(Americas)"
+        },
+        "weight": {
+          "kg": 1520,
+          "lb": 3351,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 9.2,
+          "kind": "estimated",
+          "note": "Period tests"
+        },
+        "top": {
+          "mph": 110,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "combined": 25,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2010 (22 city, 31 highway)"
+        }
+      },
+      {
+        "name": "Fusion Sport 3.5 (2010–12)",
+        "detail": "263 hp, AWD optional — the quiet muscle trim",
+        "power": {
+          "hp": 263,
+          "note": "3.5 Duratec V6; 249 lb-ft",
+          "src": "https://en.wikipedia.org/wiki/Ford_Fusion_(Americas)"
+        },
+        "weight": {
+          "kg": 1594,
+          "lb": 3514,
+          "note": "Curb weight, Sport FWD, approximate"
+        },
+        "zero60": {
+          "sec": 6.5,
+          "kind": "claimed",
+          "note": "Widely published period figure",
+          "src": "https://en.wikipedia.org/wiki/Ford_Fusion_(Americas)"
+        },
+        "top": {
+          "mph": 125,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "combined": 21,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2010, 3.5 FWD (18 city, 27 highway)"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Ford Taurus",
+      "id": null
+    },
+    "successor": {
+      "name": "Ford Fusion (second generation)",
+      "id": "ford-fusion-2nd-gen"
+    },
+    "alongside": [],
+    "quick": "Ford's Camry fighter finally landed: Mazda bones, Hermosillo build quality, and a 2010 refresh that won Motor Trend's Car of the Year with a 41-mpg-city Hybrid leading the range.",
+    "story": [
+      "After the Taurus faded, Ford built its mid-size comeback on borrowed bones: the CD3 platform underneath the 2006 Fusion was developed from Mazda's G architecture, and the car came out of Hermosillo, Mexico alongside its Mercury Milan and Lincoln MKZ siblings. The first cars were honest rather than exciting — a 160-hp 2.3, a 221-hp 3.0 V6, available all-wheel drive — but the chassis was better than the segment expected, and sales climbed every year.",
+      "The 2010 refresh is where the story gets good. The base engine grew to a 175-hp 2.5, the V6 to 240 hp, a 263-hp 3.5 Sport joined — and the Fusion Hybrid arrived at 191 hp combined and 41 mpg city, priced at $27,270, about $42,700 in 2026 dollars. The lineup won Motor Trend's 2010 Car of the Year, the Hybrid took 2010 North American Car of the Year, and the Fusion carried Ford's banner in NASCAR from 2006. By the time production ended in 2012, Ford had sold over 1.3 million of them in the US."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "2010 Ford Fusion Hybrid.jpg",
+      "credit": "IFCAR",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:2010_Ford_Fusion_Hybrid.jpg",
+      "pos": ""
+    },
+    "match": [
+      "Ford Fusion"
+    ]
+  },
+  {
+    "id": "ford-fusion-2nd-gen",
+    "family": {
+      "id": "ford-fusion",
+      "name": "Ford Fusion"
+    },
+    "name": "Ford Fusion (second generation)",
+    "aka": [
+      "CD4",
+      "Ford Mondeo",
+      "Fusion Sport",
+      "Fusion Energi",
+      "Titanium"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Hermosillo, Mexico; added capacity at Flat Rock, Michigan)",
+    "country": "United States",
+    "years": "2013–2020",
+    "start": 2013,
+    "end": 2020,
+    "shop": {
+      "cargurus": "d845"
+    },
+    "body": "Mid-size 4-door sedan on the global CD4 platform, styled under Ford of Europe — the same car Europe sold as the Mondeo",
+    "engine": "2.5 Duratec; 1.6, 1.5 and 2.0 EcoBoost; 2.7 EcoBoost V6 in the Sport; 2.0 hybrid and Energi plug-in",
+    "drive": "Front-wheel drive or all-wheel drive",
+    "gearbox": "6-speed automatic; 6-speed manual on the early 1.6; eCVT for Hybrid and Energi",
+    "specsFor": "2017 Fusion Sport 2.7 EcoBoost AWD",
+    "power": {
+      "hp": 325,
+      "note": "2.7 twin-turbo EcoBoost V6, Sport; 380 lb-ft, all-wheel drive standard",
+      "src": "https://en.wikipedia.org/wiki/Ford_Fusion_(Americas)"
+    },
+    "weight": {
+      "kg": 1806,
+      "lb": 3982,
+      "note": "Curb weight, Sport, approximate; Car and Driver's test car weighed 4,128 lb"
+    },
+    "zero60": {
+      "sec": 5.1,
+      "kind": "tested",
+      "note": "Car and Driver instrumented test; MotorWeek and Motor Trend both ran 5.3",
+      "src": "https://www.caranddriver.com/"
+    },
+    "top": {
+      "mph": 120,
+      "kind": "estimated",
+      "note": "Speed-limited, approximate"
+    },
+    "mpg": {
+      "combined": 20,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/",
+      "note": "EPA combined, 2017 Sport (17 city, 26 highway)"
+    },
+    "built": {
+      "count": 1839864,
+      "approx": true,
+      "note": "Sold in the US, 2013–2021 calendar years; the 2014 peak was 306,860",
+      "src": "https://en.wikipedia.org/wiki/Ford_Fusion_(Americas)"
+    },
+    "versions": [
+      {
+        "name": "Fusion Sport (2017–19)",
+        "detail": "The F-150's twin-turbo V6 in a family sedan — a budget Audi S4 nobody noticed"
+      },
+      {
+        "name": "1.5 EcoBoost (2014–20)",
+        "detail": "181 hp — the volume engine",
+        "power": {
+          "hp": 181,
+          "note": "1.5 EcoBoost; 185 lb-ft",
+          "src": "https://en.wikipedia.org/wiki/Ford_Fusion_(Americas)"
+        },
+        "weight": {
+          "kg": 1575,
+          "lb": 3472,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 8.6,
+          "kind": "estimated",
+          "note": "Period tests"
+        },
+        "top": {
+          "mph": 115,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "combined": 27,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2014 (23 city, 35 highway); 29 with stop-start"
+        }
+      },
+      {
+        "name": "2.0 EcoBoost",
+        "detail": "240 hp, 245 from 2017 — the one that moves",
+        "power": {
+          "hp": 240,
+          "note": "2.0 EcoBoost; 245 hp and 275 lb-ft from 2017",
+          "src": "https://en.wikipedia.org/wiki/Ford_Fusion_(Americas)"
+        },
+        "weight": {
+          "kg": 1640,
+          "lb": 3616,
+          "note": "Curb weight, AWD, approximate"
+        },
+        "zero60": {
+          "sec": 7.0,
+          "kind": "estimated",
+          "note": "Instrumented tests ran high 6s to low 7s"
+        },
+        "top": {
+          "mph": 120,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "combined": 26,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2014, FWD; 23 with AWD in 2017"
+        }
+      },
+      {
+        "name": "2.5 Duratec (base)",
+        "detail": "175 hp, fleet-friendly and everywhere",
+        "power": {
+          "hp": 175,
+          "note": "2.5 Duratec; 175 lb-ft",
+          "src": "https://en.wikipedia.org/wiki/Ford_Fusion_(Americas)"
+        },
+        "weight": {
+          "kg": 1560,
+          "lb": 3439,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 9.2,
+          "kind": "estimated",
+          "note": "Period tests"
+        },
+        "top": {
+          "mph": 110,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "combined": 26,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2014 (22 city, 33 highway)"
+        }
+      },
+      {
+        "name": "Fusion Hybrid",
+        "detail": "Launched claiming 47 mpg — revised to 42 after the mileage controversy",
+        "power": {
+          "hp": 188,
+          "note": "2.0 Atkinson hybrid system; the engine alone makes 141",
+          "src": "https://en.wikipedia.org/wiki/Ford_Fusion_(Americas)"
+        },
+        "weight": {
+          "kg": 1664,
+          "lb": 3668,
+          "note": "Curb weight, Hybrid, approximate"
+        },
+        "zero60": {
+          "sec": 8.3,
+          "kind": "estimated",
+          "note": "Period tests"
+        },
+        "top": {
+          "mph": 110,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "combined": 41,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2014, after Ford's downward revision from the launch 47"
+        }
+      },
+      {
+        "name": "Fusion Energi",
+        "detail": "The plug-in — 22 miles electric, 25 from 2019",
+        "power": {
+          "hp": 188,
+          "note": "Same 2.0 hybrid system with a larger plug-in battery",
+          "src": "https://en.wikipedia.org/wiki/Ford_Fusion_(Americas)"
+        },
+        "weight": {
+          "kg": 1769,
+          "lb": 3900,
+          "note": "Curb weight, Energi, approximate"
+        },
+        "zero60": {
+          "sec": 8.9,
+          "kind": "estimated",
+          "note": "Period tests"
+        },
+        "top": {
+          "mph": 105,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "combined": 97,
+          "unit": "MPGe",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined MPGe, 2017; 42 mpg on gasoline, 22 miles electric"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Ford Fusion (first generation)",
+      "id": "ford-fusion-1st-gen"
+    },
+    "successor": null,
+    "alongside": [],
+    "quick": "The handsome one: a global Mondeo with a 325-hp Sport, a 97-MPGe plug-in and a 306,860-car peak year — the sedan Ford walked away from at the top of its game.",
+    "story": [
+      "The 2013 Fusion was the moment Ford's family sedan got glamorous — a Ford of Europe design on the global CD4 platform, sold across the Atlantic as the Mondeo, with grille-forward styling the press couldn't stop comparing to Aston Martin. The whole lineup won 2013 Green Car of the Year, though the Hybrid's famous 47-mpg claim didn't survive contact with the EPA's re-testing: Ford revised it down to 42 combined after the 2013–14 mileage controversy. America bought them anyway — 295,280 in year 1, peaking at 306,860 in 2014. A 2017 S started at $22,120, about $30,300 in 2026 dollars.",
+      "The 2017 refresh delivered the generation's cult car: the Fusion Sport, with the F-150's 2.7 twin-turbo V6 making 325 hp through standard all-wheel drive. Car and Driver ran one to 60 in 5.1 seconds — proper muscle in a rental-lot silhouette. It didn't matter. Ford announced in 2018 it was leaving the US sedan market, the Sport died after 2019, and the last Fusion left Hermosillo in July 2020 as crossover money ate the category. NASCAR's Fusion ran through 2018 before the Mustang took over — a fitting handoff from the sedan Ford gave up on to the car it kept."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "2017 Ford Fusion V6 Sport in Burgundy Velvet Metallic Tinted Clearcoat, Front Left, 05-21-2022.jpg",
+      "credit": "Elise240SX",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pos": ""
+    },
+    "match": [
+      "Ford Fusion"
+    ]
   }
 ];

@@ -38442,6 +38442,9 @@ const CARS = [
     "versions": [
       {
         "name": "First Series Twin Six",
+        "power": {"hp": 88, "note": "424 cu in, 1916"},
+        "zero60": null,
+        "top": null,
         "detail": "1916–1923; 88 hp, about 35,000 built",
         "specsFor": "1932 Twin Six"
       },
@@ -38662,23 +38665,36 @@ const CARS = [
     "engine": "Blue Flame 235 six, then 265, 283 and 327 V8s",
     "drive": "Rear-wheel drive",
     "gearbox": "Powerglide at first; 3- and 4-speed manuals later",
-    "specsFor": "1960 Corvette 283, 270 hp, 4-speed",
+    "specsFor": "1962 327, fuel injection, 360 hp",
     "power": {
-      "hp": 270,
-      "note": "Dual-quad 283; the 1962 fuel-injected 327 made 360",
+      "hp": 360,
+      "note": "The 1962 fuel-injected 327, the C1's peak; ratings ran 250–360 that year",
       "src": "https://www.carwhere.com/corvette/c1"
     },
     "weight": {
-      "na": "Roughly 1,300–1,360 kg (2,900–3,000 lb) by year and equipment"
+      "kg": 1423,
+      "lb": 3137,
+      "note": "Period test weight, 1962",
+      "src": "https://corvetteactioncenter.com/specs/totalprod.html"
     },
     "zero60": {
-      "na": "Period figures vary widely by engine; the 1957 fuelie ran the 0–60 sprint in the 6s"
+      "sec": 5.7,
+      "kind": "tested",
+      "note": "The 1957 283 fuelie's period test; the 1962 327 ran 5.9",
+      "src": "https://corvetteactioncenter.com/specs/totalprod.html"
     },
     "top": {
-      "na": "Gearing-dependent; period cars ran 105–130 mph"
+      "mph": 132,
+      "kind": "tested",
+      "note": "Period tests of the fuel-injected cars",
+      "src": "https://corvetteactioncenter.com/specs/totalprod.html"
     },
     "mpg": {
-      "na": "fueleconomy.gov starts with 1984 models"
+      "combined": 14,
+      "unit": "mpg",
+      "kind": "estimated",
+      "note": "Period driving tests ran 11–16 on the V8s; fueleconomy.gov starts with 1984",
+      "src": "https://corvetteactioncenter.com/specs/totalprod.html"
     },
     "built": {
       "count": 69015,
@@ -38689,31 +38705,148 @@ const CARS = [
     "versions": [
       {
         "name": "Blue Flame six",
-        "detail": "1953–1955; 150–155 hp; 300 built in 1953",
-        "specsFor": "1960 283, 270 hp"
-      },
-      {
-        "name": "265 and 283 V8",
-        "detail": "1955 on; the rescue; up to 270 hp dual-quad",
+        "detail": "1953–1955; 300 built in 1953, all Polo White, Powerglide only",
+        "specsFor": "1954 Blue Flame 235",
         "power": {
-          "hp": 270,
-          "note": "1960 dual-quad 283"
+          "hp": 155,
+          "note": "150–155 by year"
+        },
+        "weight": {
+          "kg": 1293,
+          "lb": 2850,
+          "note": "Factory curb"
+        },
+        "zero60": {
+          "sec": 11.1,
+          "kind": "tested",
+          "note": "Period test"
+        },
+        "top": {
+          "mph": 107,
+          "kind": "tested",
+          "note": "Period test"
+        },
+        "mpg": {
+          "combined": 18,
+          "unit": "mpg",
+          "kind": "estimated",
+          "note": "16–20 in period tests",
+          "src": "https://corvetteactioncenter.com/specs/totalprod.html"
         }
       },
       {
-        "name": "Fuel injection",
-        "detail": "1957 on; the 283 fuelie hit 1 hp per cubic inch",
+        "name": "265 V8",
+        "detail": "1955; the rescue engine; 195 hp, then 210–240 in 1956",
+        "specsFor": "1955 265 V8",
+        "power": {
+          "hp": 195,
+          "note": "1955"
+        },
+        "weight": {
+          "kg": 1247,
+          "lb": 2750,
+          "note": "Factory"
+        },
+        "zero60": {
+          "sec": 8.7,
+          "kind": "tested",
+          "note": "Road & Track, 1955"
+        },
+        "top": {
+          "mph": 119,
+          "kind": "tested",
+          "note": "Period test"
+        }
+      },
+      {
+        "name": "283 dual-quad",
+        "detail": "1957; 270 hp on twin 4-barrels",
+        "specsFor": "1957 283, dual-quad",
+        "power": {
+          "hp": 270
+        },
+        "weight": {
+          "kg": 1343,
+          "lb": 2960,
+          "note": "Period test weight"
+        },
+        "zero60": {
+          "sec": 6.8,
+          "kind": "tested",
+          "note": "Period test"
+        },
+        "top": {
+          "mph": 123,
+          "kind": "tested",
+          "note": "Period test"
+        },
+        "mpg": {
+          "combined": 13.8,
+          "unit": "mpg",
+          "kind": "estimated",
+          "note": "Period driving test",
+          "src": "https://corvetteactioncenter.com/specs/totalprod.html"
+        }
+      },
+      {
+        "name": "283 fuel injection",
+        "detail": "1957 on; 1 hp per cubic inch at launch, 315 hp by 1961",
+        "specsFor": "1957 283 FI, 4-speed",
         "power": {
           "hp": 283,
-          "note": "1957 Rochester FI 283"
+          "note": "1957; up to 315 by 1961"
+        },
+        "weight": {
+          "kg": 1306,
+          "lb": 2880,
+          "note": "Period test weight"
+        },
+        "zero60": {
+          "sec": 5.7,
+          "kind": "tested",
+          "note": "Period test"
+        },
+        "top": {
+          "mph": 132,
+          "kind": "tested",
+          "note": "Period test"
+        },
+        "mpg": {
+          "combined": 16,
+          "unit": "mpg",
+          "kind": "estimated",
+          "note": "11–16 in period tests",
+          "src": "https://corvetteactioncenter.com/specs/totalprod.html"
         }
       },
       {
-        "name": "327",
-        "detail": "1962; 250–360 hp",
+        "name": "327 fuel injection",
+        "detail": "1962; the C1's sendoff; 250, 300, 340 or 360 hp",
+        "specsFor": "1962 327 FI, 360 hp",
         "power": {
-          "hp": 360,
-          "note": "Fuel-injected 327"
+          "hp": 360
+        },
+        "weight": {
+          "kg": 1423,
+          "lb": 3137,
+          "note": "Period test weight"
+        },
+        "zero60": {
+          "sec": 5.9,
+          "kind": "tested",
+          "note": "Period test"
+        },
+        "top": {
+          "mph": 132,
+          "kind": "tested",
+          "note": "Period figure; gearing-dependent"
+        },
+        "mpg": {
+          "combined": 14,
+          "unit": "mpg",
+          "kind": "estimated",
+          "note": "11–14 in period tests",
+          "src": "https://corvetteactioncenter.com/specs/totalprod.html"
         }
       }
     ],
@@ -38729,8 +38862,8 @@ const CARS = [
     ],
     "articles": [],
     "photo": {
-      "file": "1960 Chevrolet Corvette C1 Red.jpg",
-      "credit": "MrWalkr",
+      "file": "2022 Downtown West Allis Classic Car Show 078 (1957 Chevrolet Corvette).jpg",
+      "credit": "Michael Barera",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "pos": ""
@@ -39099,50 +39232,234 @@ const CARS = [
     "engine": "Chevrolet small- and big-block V8s; Ford 351 at the end",
     "drive": "Rear-wheel drive",
     "gearbox": "4- or 5-speed manual, or automatic",
-    "specsFor": "1965 Series I, Chevrolet 327, 300 hp",
+    "specsFor": "GL 365, 327 V8",
     "power": {
-      "hp": 300,
-      "note": "Corvette 327; 365-hp versions followed, and the 7 Litri's 427 made 435",
-      "src": "https://en.wikipedia.org/wiki/Iso_Grifo"
+      "hp": 360,
+      "note": "GL 365: 365 PS, about 360 hp; the 7 Litri's 427 was rated 435 by Chevrolet, 400 PS by Iso",
+      "src": "https://supercarnostalgia.com/blog/iso-grifo"
     },
     "weight": {
-      "na": "Roughly 1,400 kg (3,100 lb) published"
+      "kg": 1450,
+      "lb": 3197,
+      "note": "GL 365",
+      "src": "https://supercarnostalgia.com/blog/iso-grifo"
     },
     "zero60": {
-      "na": "Period tests are scarce; the small-block cars ran with Ferraris"
+      "sec": 6.2,
+      "kind": "tested",
+      "note": "GL 365, published figure; the Can-Am ran about 5.7",
+      "src": "https://supercarnostalgia.com/blog/iso-grifo"
     },
     "top": {
-      "na": "Iso claimed up to 186 mph for the 7 Litri; nothing was independently timed"
+      "mph": 161,
+      "kind": "tested",
+      "note": "GL 365, period figure; the 7 Litri's 186 was a factory claim, never independently timed",
+      "src": "https://supercarnostalgia.com/blog/iso-grifo"
     },
     "mpg": {
-      "na": "fueleconomy.gov starts with 1984 models"
+      "combined": 12.4,
+      "unit": "mpg",
+      "kind": "estimated",
+      "note": "Historical estimate for the GL 365; not an EPA figure",
+      "src": "https://supercarnostalgia.com/blog/iso-grifo"
     },
     "built": {
       "count": 412,
       "approx": true,
-      "note": "Sources count 402 to 413 across the decade",
-      "src": "https://en.wikipedia.org/wiki/Iso_Grifo"
+      "note": "About 412–413 in all: 265 GL small-blocks, 65–90 7 Litri depending on source, about 34 Ford-powered IR-8s",
+      "src": "https://supercarnostalgia.com/blog/iso-grifo"
     },
     "versions": [
       {
-        "name": "Series I, 327",
-        "detail": "1965–1970; 300 or 365 hp",
-        "specsFor": "1965 Series I, 300 hp"
-      },
-      {
-        "name": "7 Litri / Can-Am",
-        "detail": "1968 on; the 435-hp 427, then the 454",
+        "name": "GL 300",
+        "detail": "327 Corvette V8, 296 hp",
+        "specsFor": "GL 300",
         "power": {
-          "hp": 435,
-          "note": "L71 427"
+          "hp": 296
+        },
+        "weight": {
+          "kg": 1380,
+          "lb": 3042
+        },
+        "zero60": {
+          "sec": 7.5,
+          "kind": "tested",
+          "note": "Published figure"
+        },
+        "top": {
+          "mph": 146,
+          "kind": "tested",
+          "note": "Published figure"
+        },
+        "mpg": {
+          "combined": 13.1,
+          "unit": "mpg",
+          "kind": "estimated",
+          "note": "Historical estimate",
+          "src": "https://supercarnostalgia.com/blog/iso-grifo"
         }
       },
       {
-        "name": "Series II",
-        "detail": "1970 on; hidden headlights; Ford 351 power at the end",
+        "name": "GL 350",
+        "detail": "350 hp 327",
+        "specsFor": "GL 350",
         "power": {
-          "hp": 330,
-          "note": "Ford 351 Cleveland"
+          "hp": 350
+        },
+        "weight": {
+          "kg": 1450,
+          "lb": 3197
+        },
+        "zero60": {
+          "sec": 6.2,
+          "kind": "tested",
+          "note": "Published figure"
+        },
+        "top": {
+          "mph": 160,
+          "kind": "tested",
+          "note": "Published figure"
+        },
+        "mpg": {
+          "combined": 11.5,
+          "unit": "mpg",
+          "kind": "estimated",
+          "note": "Historical estimate, 10–13",
+          "src": "https://supercarnostalgia.com/blog/iso-grifo"
+        }
+      },
+      {
+        "name": "GL 365",
+        "detail": "365 PS, about 360 hp; with the GL 300 and 350, 265 small-block cars in all",
+        "specsFor": "GL 365",
+        "power": {
+          "hp": 360,
+          "note": "365 PS"
+        },
+        "weight": {
+          "kg": 1450,
+          "lb": 3197
+        },
+        "zero60": {
+          "sec": 6.2,
+          "kind": "tested",
+          "note": "Published figure"
+        },
+        "top": {
+          "mph": 161,
+          "kind": "tested",
+          "note": "Published figure"
+        },
+        "mpg": {
+          "combined": 12.4,
+          "unit": "mpg",
+          "kind": "estimated",
+          "note": "Historical estimate",
+          "src": "https://supercarnostalgia.com/blog/iso-grifo"
+        },
+        "built": {
+          "count": 265,
+          "note": "GL 300, 350 and 365 combined"
+        }
+      },
+      {
+        "name": "7 Litri",
+        "detail": "1968 on; the 427 under the penthouse hood scoop",
+        "specsFor": "7 Litri",
+        "power": {
+          "hp": 435,
+          "note": "Chevrolet's rating; Iso quoted 400 PS"
+        },
+        "weight": {
+          "kg": 1510,
+          "lb": 3329
+        },
+        "zero60": {
+          "sec": 6.1,
+          "kind": "estimated",
+          "note": "Published figure"
+        },
+        "top": {
+          "mph": 186,
+          "kind": "claimed",
+          "note": "Factory claim, never independently timed"
+        },
+        "mpg": {
+          "combined": 10.5,
+          "unit": "mpg",
+          "kind": "estimated",
+          "note": "Historical estimate",
+          "src": "https://supercarnostalgia.com/blog/iso-grifo"
+        },
+        "built": {
+          "count": 90,
+          "approx": true,
+          "note": "65–90, depending on source"
+        }
+      },
+      {
+        "name": "IR-9 Can-Am",
+        "detail": "The 454 big-block cars",
+        "specsFor": "IR-9 Can-Am",
+        "power": {
+          "hp": 395
+        },
+        "weight": {
+          "kg": 1610,
+          "lb": 3549
+        },
+        "zero60": {
+          "sec": 5.7,
+          "kind": "estimated",
+          "note": "Published figure"
+        },
+        "top": {
+          "mph": 173,
+          "kind": "tested",
+          "note": "Published figure"
+        },
+        "built": {
+          "na": "No confidently established separate total"
+        }
+      },
+      {
+        "name": "IR-8",
+        "detail": "1972 on; Ford 351 Cleveland power",
+        "specsFor": "IR-8",
+        "power": {
+          "hp": 321
+        },
+        "weight": {
+          "kg": 1700,
+          "lb": 3748
+        },
+        "zero60": {
+          "sec": 7.0,
+          "kind": "estimated",
+          "note": "Published figure"
+        },
+        "top": {
+          "mph": 162,
+          "kind": "tested",
+          "note": "Published figure"
+        },
+        "built": {
+          "count": 34,
+          "approx": true,
+          "note": "Supported by auction records"
+        }
+      },
+      {
+        "name": "A3/C",
+        "detail": "1964–1965; the competition-derived original, before the Iso–Bizzarrini split; became the Bizzarrini 5300 GT",
+        "power": {
+          "hp": 400,
+          "note": "Competition tune"
+        },
+        "built": {
+          "count": 22,
+          "approx": true,
+          "note": "Before the split"
         }
       }
     ],
@@ -39432,6 +39749,10 @@ const CARS = [
     "versions": [
       {
         "name": "Series I–II",
+        "power": {"hp": 80, "note": "78–80 hp by series"},
+        "weight": null,
+        "zero60": null,
+        "top": null,
         "detail": "1959–1963; 78–80 hp, the full fins",
         "specsFor": "1966 Series V"
       },
@@ -40075,6 +40396,9 @@ const CARS = [
     "versions": [
       {
         "name": "1300",
+        "power": {"hp": 75, "note": "1,290 cc, European; US cars lower"},
+        "zero60": null,
+        "top": null,
         "detail": "1972–1978; 4-speed, 75 hp European",
         "specsFor": "1979 European 1500"
       },

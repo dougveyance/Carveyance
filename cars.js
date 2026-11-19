@@ -41753,10 +41753,7 @@ const CARS = [
       "id": "ford-f-series-11th-gen"
     },
     "alongside": [
-      {
-        "name": "Ford SVT Lightning",
-        "id": "ford-svt-lightning"
-      }
+      {"name": "Ford SVT Lightning", "id": "ford-svt-lightning"}
     ],
     "quick": "The 1997 truck went aero, went overhead-cam and went personal-use: the best-selling years in F-Series history, including 911,597 trucks in 2001 alone.",
     "story": [
@@ -42238,10 +42235,7 @@ const CARS = [
       "id": "ford-f-series-14th-gen"
     },
     "alongside": [
-      {
-        "name": "Ford F-150 Raptor",
-        "id": "ford-f-150-raptor"
-      }
+      {"name": "Ford F-150 Raptor", "id": "ford-f-150-raptor"}
     ],
     "quick": "Ford bet the best-selling vehicle in America on aluminum, cut up to 750 pounds, and won: the 2018 trucks nearly broke the all-time sales record.",
     "story": [
@@ -42429,10 +42423,8 @@ const CARS = [
     },
     "successor": null,
     "alongside": [
-      {
-        "name": "Ford F-150 Raptor",
-        "id": "ford-f-150-raptor"
-      }
+      {"name": "Ford F-150 Raptor", "id": "ford-f-150-raptor"},
+      {"name": "Ford F-150 Lightning", "id": "ford-f-150-lightning"}
     ],
     "quick": "The current truck: hybrid PowerBoost, an onboard power plant, a 2024 refresh, and still the best-selling vehicle in America, 828,832 strong in 2025.",
     "story": [
@@ -42795,14 +42787,9 @@ const CARS = [
     "predecessor": null,
     "successor": null,
     "alongside": [
-      {
-        "name": "Ford F-150 (ninth generation)",
-        "id": "ford-f-series-9th-gen"
-      },
-      {
-        "name": "Ford F-150 (tenth generation)",
-        "id": "ford-f-series-10th-gen"
-      }
+      {"name": "Ford F-150 (ninth generation)", "id": "ford-f-series-9th-gen"},
+      {"name": "Ford F-150 (tenth generation)", "id": "ford-f-series-10th-gen"},
+      {"name": "Ford F-150 Lightning", "id": "ford-f-150-lightning"}
     ],
     "quick": "SVT's street truck, twice over: a 240-hp 5.8 in 1993, then a supercharged 380-hp 5.4 that made it the fastest production pickup in the world.",
     "story": [
@@ -42819,6 +42806,207 @@ const CARS = [
     },
     "match": [
       "Ford SVT Lightning",
+      "Ford F-150",
+      "Ford F-Series"
+    ]
+  },
+  {
+    "id": "ford-f-150-lightning",
+    "family": {
+      "id": "ford-f-series",
+      "name": "Ford F-Series"
+    },
+    "name": "Ford F-150 Lightning",
+    "aka": [
+      "Lightning Pro",
+      "Lightning XLT",
+      "Lightning Lariat",
+      "Lightning Platinum",
+      "Lightning Flash",
+      "electric F-150"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Rouge Electric Vehicle Center, Dearborn, Michigan)",
+    "country": "United States",
+    "years": "2022–2025",
+    "start": 2022,
+    "end": 2025,
+    "shop": {
+      "cargurus": "d337"
+    },
+    "body": "Full-size electric pickup, SuperCrew only, with a 400-liter front trunk",
+    "engine": "2 electric motors; 98-kWh standard or 131-kWh extended-range battery",
+    "drive": "All-wheel drive",
+    "gearbox": "Single-speed",
+    "specsFor": "2022 Lightning Platinum, extended range (Car and Driver test)",
+    "power": {
+      "hp": 580,
+      "note": "Extended-range battery; 452 hp with the standard pack, 775 lb-ft either way",
+      "src": "https://en.wikipedia.org/wiki/Ford_F-Series"
+    },
+    "weight": {
+      "kg": 3109,
+      "lb": 6855,
+      "note": "Test weight, 2022 Platinum",
+      "src": "https://www.caranddriver.com/reviews/a40102865/2022-ford-f-150-lightning-platinum-test/"
+    },
+    "zero60": {
+      "sec": 4.0,
+      "kind": "tested",
+      "note": "Car and Driver, 12.7-second quarter mile — quicker than every gas F-150 but the Raptor R",
+      "src": "https://www.caranddriver.com/reviews/a40102865/2022-ford-f-150-lightning-platinum-test/"
+    },
+    "top": {
+      "mph": 110,
+      "kind": "estimated",
+      "note": "Electronically limited; commonly reported"
+    },
+    "mpg": {
+      "combined": 70,
+      "city": 78,
+      "hwy": 63,
+      "unit": "MPGe",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/",
+      "note": "EPA combined, 2024 extended range, 320-mile rating; standard range 68 MPGe and 240 miles, Platinum 66 and 300"
+    },
+    "built": {
+      "count": 100659,
+      "approx": true,
+      "note": "Sold in the US, 2022–2025: 15,617 + 24,165 + 33,570 + 27,307 by year; production ended December 2025",
+      "src": "https://en.wikipedia.org/wiki/Ford_F-150_Lightning"
+    },
+    "versions": [
+      {
+        "name": "Standard range",
+        "detail": "98-kWh battery; Pro and XLT work trucks",
+        "power": {
+          "hp": 452,
+          "note": "775 lb-ft, like every Lightning",
+          "src": "https://en.wikipedia.org/wiki/Ford_F-Series"
+        },
+        "weight": {
+          "kg": 2948,
+          "lb": 6500,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 4.5,
+          "kind": "estimated",
+          "note": "Instrumented tests of standard-range trucks ran in the mid-4s"
+        },
+        "top": {
+          "mph": 110,
+          "kind": "estimated",
+          "note": "Electronically limited; commonly reported"
+        },
+        "mpg": {
+          "combined": 68,
+          "city": 76,
+          "hwy": 61,
+          "unit": "MPGe",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2024; 240-mile range"
+        }
+      },
+      {
+        "name": "Extended range",
+        "detail": "131-kWh battery; 320 miles in XLT and Lariat trim",
+        "power": {
+          "hp": 580,
+          "note": "775 lb-ft",
+          "src": "https://en.wikipedia.org/wiki/Ford_F-Series"
+        },
+        "weight": {
+          "kg": 3016,
+          "lb": 6650,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 4.0,
+          "kind": "tested",
+          "note": "Car and Driver, 2022 Platinum",
+          "src": "https://www.caranddriver.com/reviews/a40102865/2022-ford-f-150-lightning-platinum-test/"
+        },
+        "top": {
+          "mph": 110,
+          "kind": "estimated",
+          "note": "Electronically limited; commonly reported"
+        },
+        "mpg": {
+          "combined": 70,
+          "city": 78,
+          "hwy": 63,
+          "unit": "MPGe",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2024; 320-mile range"
+        }
+      },
+      {
+        "name": "Platinum",
+        "detail": "Extended range standard, 300-mile rating on 22-inch wheels",
+        "power": {
+          "hp": 580,
+          "note": "775 lb-ft",
+          "src": "https://en.wikipedia.org/wiki/Ford_F-Series"
+        },
+        "weight": {
+          "kg": 3109,
+          "lb": 6855,
+          "note": "Test weight, 2022",
+          "src": "https://www.caranddriver.com/reviews/a40102865/2022-ford-f-150-lightning-platinum-test/"
+        },
+        "zero60": {
+          "sec": 4.0,
+          "kind": "tested",
+          "note": "Car and Driver, 2022",
+          "src": "https://www.caranddriver.com/reviews/a40102865/2022-ford-f-150-lightning-platinum-test/"
+        },
+        "top": {
+          "mph": 110,
+          "kind": "estimated",
+          "note": "Electronically limited; commonly reported"
+        },
+        "mpg": {
+          "combined": 66,
+          "city": 73,
+          "hwy": 60,
+          "unit": "MPGe",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2024; 300-mile range"
+        }
+      }
+    ],
+    "predecessor": null,
+    "successor": null,
+    "alongside": [
+      {
+        "name": "Ford F-150 (fourteenth generation)",
+        "id": "ford-f-series-14th-gen"
+      },
+      {
+        "name": "Ford SVT Lightning",
+        "id": "ford-svt-lightning"
+      }
+    ],
+    "quick": "The electric F-150, 2022–2025: 580 hp, 4.0 seconds to 60, a front trunk and a house-powering battery — killed after 4 model years and about 100,000 trucks.",
+    "story": [
+      "When Ford put the Lightning name on an electric F-150 for 2022, the message was the opposite of exotic: same cab, same bed, same job, no gas. Two motors gave the standard-range truck 452 hp and every Lightning 775 lb-ft, more torque than any F-150 before it, and Car and Driver ran an extended-range Platinum to 60 in 4.0 seconds flat. The bed worked, the frunk swallowed 400 liters of cargo, and Intelligent Backup Power could run a house for days off the 131-kWh battery. At launch, the Pro work truck listed at $39,974, about $45,900 in 2026 dollars, a price that made half of America put down a deposit.",
+      "It didn't last. Pandemic-era costs pushed prices up 30–40 percent, a February 2023 battery fire paused the line, and the EV market cooled just as the Rouge Electric Vehicle Center was built to make 150,000 trucks a year. Sales grew every year through 2024, 15,617, then 24,165, then 33,570, and it outsold the Tesla Cybertruck in 2025, but the business never worked: Ford ended production in December 2025, took a $19.5 billion write-down on its EV bet, and promised a range-extended Lightning in its place. About 100,000 trucks in 4 model years, America's best-selling electric pickup, and still the first mass-market electric truck — the Lightning is a milestone that reads, for now, like a cautionary tale."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "2023 Denver Auto Show Ford F-150 Lightning front left quarter.jpg",
+      "credit": "Corqe",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0",
+      "pos": ""
+    },
+    "match": [
+      "Ford F-150 Lightning",
       "Ford F-150",
       "Ford F-Series"
     ]

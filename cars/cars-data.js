@@ -1987,7 +1987,7 @@ const CARS_INDEX = [
    "name": "Mercury Cougar (1999)"
   },
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/1993_Ford_Probe_GT_in_Black,_Front_Right,_05-21-2023.jpg/960px-1993_Ford_Probe_GT_in_Black,_Front_Right,_05-21-2023.jpg",
+   "card": "/assets/images/cars/ford-probe-gt.jpg?v=a4789a37",
    "pos": "",
    "fit": ""
   }
@@ -25312,7 +25312,7 @@ const CARS_INDEX = [
    "name": "BMW 6 Series (E24)"
   },
   "photo": {
-   "card": "/assets/images/cars/bmw-e9.jpg?v=beebdfaa",
+   "card": "/assets/images/cars/bmw-e9.jpg?v=5442f8a4",
    "pos": "",
    "fit": ""
   }

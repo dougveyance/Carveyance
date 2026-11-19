@@ -2255,11 +2255,8 @@ const CARS = [
       "a-golden-relic"
     ],
     "photo": {
-      "file": "1993 Ford Probe GT in Black, Front Right, 05-21-2023.jpg",
-      "credit": "Elise240SX",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "pos": ""
+      "credit": "Ford Motor Company",
+      "caption": "The second-generation Probe GT in Ford's own press photography"
     },
     "match": [
       "Ford Probe GT",

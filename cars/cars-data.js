@@ -24920,18 +24920,18 @@ const CARS_INDEX = [
    "list": "collector"
   },
   "hp": 270,
-  "kg": 1350,
-  "kgNote": "1991 coupe",
-  "lbs": 2976,
+  "kg": 1365,
+  "kgNote": "1991 coupe, 5-speed manual; the automatic made 252 hp",
+  "lbs": 3010,
   "z60": {
    "sec": 5.2,
    "kind": "tested",
    "note": "Period US tests of the 1991 car"
   },
   "top": {
-   "mph": 175,
-   "kind": "claimed",
-   "note": "The Manual's figure; early 3.0-liter cars were slightly slower"
+   "mph": 162,
+   "kind": "tested",
+   "note": "Car and Driver, 1994, stock car; the oft-quoted 175 came from a modified Comptech NSX"
   },
   "mpg": {
    "combined": 18,

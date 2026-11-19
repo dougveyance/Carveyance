@@ -35093,9 +35093,9 @@ const CARS = [
       "src": "https://www.conceptcarz.com/view/vehicle/z12124/acura-nsx.aspx"
     },
     "weight": {
-      "kg": 1350,
-      "lb": 2976,
-      "note": "1991 coupe",
+      "kg": 1365,
+      "lb": 3010,
+      "note": "1991 coupe, 5-speed manual; the automatic made 252 hp",
       "src": "https://classics.honestjohn.co.uk/reviews/honda/nsx/"
     },
     "zero60": {
@@ -35105,10 +35105,10 @@ const CARS = [
       "src": "https://fastestlaps.com/models/honda-nsx-3-0"
     },
     "top": {
-      "mph": 175,
-      "kind": "claimed",
-      "note": "The Manual's figure; early 3.0-liter cars were slightly slower",
-      "src": "https://themanual.com/auto/first-gen-acura-nsx-supercar-daily-driver"
+      "mph": 162,
+      "kind": "tested",
+      "note": "Car and Driver, 1994, stock car; the oft-quoted 175 came from a modified Comptech NSX",
+      "src": "https://www.caranddriver.com/reviews/a32783605/1991-acura-nsx-archived-test/"
     },
     "mpg": {
       "combined": 18,
@@ -35124,20 +35124,24 @@ const CARS = [
     },
     "versions": [
       {
-        "name": "NSX",
-        "detail": "1990–2005; 270 hp, then 290 from the 1997 3.2-liter"
+        "name": "NSX (NA1)",
+        "detail": "1991–1996; 3.0-liter, 270 hp manual or 252 hp automatic; 1,365 kg (3,010 lb); 5.2 s to 60; 162 mph; EPA 18 city/24 highway as first rated"
       },
       {
-        "name": "NSX-R",
-        "detail": "1992–1995; 483 built, Japan only; 120 kg lighter"
+        "name": "NSX-R (NA1)",
+        "detail": "1992–1995; 483 built, Japan only; 276 hp; 1,230 kg (2,712 lb); about 4.9 s and 168 mph, published estimates; 21.6 mpg US from Japan's 10–15-mode test"
       },
       {
         "name": "NSX-T",
-        "detail": "1995 on; removable targa roof"
+        "detail": "1995 on; removable targa roof; 270 hp; 1,425 kg (3,142 lb); 5.2 s to 60"
+      },
+      {
+        "name": "NSX / NSX-T 3.2",
+        "detail": "1997–2005; 290 hp 6-speed manual, 1,435 kg (3,164 lb), 5.0 s to 60 by Car and Driver, 168 mph; the automatic kept the 3.0 and 252 hp throughout"
       },
       {
         "name": "NSX-R (NA2)",
-        "detail": "2002–2005; the second, even sharper R"
+        "detail": "2002–2005; 3.2-liter, officially still 276 hp (280 PS); 1,270 kg (2,800 lb); about 4.9 s and 174 mph, published estimates; 20.2 mpg US from the 10–15-mode test"
       }
     ],
     "predecessor": null,

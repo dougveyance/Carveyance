@@ -4200,7 +4200,7 @@ const CARS = [
     },
     "successor": {
       "name": "Mercedes-Benz SL500 (R230)",
-      "id": null
+      "id": "mercedes-benz-sl500-r230"
     },
     "quick": "Mercedes-Benz's 1989 SL turned a luxury roadster into an engineering showcase, with a pop-up roll bar, seat-mounted belts, a power top and, in the SL500, a quad-cam 5.0-liter V8. Heavy, quiet and almost impossible to ruffle at speed, it has aged into one of the most admired open cars of its decade.",
     "story": [
@@ -33670,7 +33670,7 @@ const CARS = [
     "predecessor": null,
     "successor": {
       "name": "Mercedes-Benz 500 E",
-      "id": null
+      "id": "mercedes-benz-500e"
     },
     "alongside": [
       {
@@ -33721,10 +33721,16 @@ const CARS = [
       "src": "https://mb-france.mercedes-benz-clubs.com/wp-content/uploads/sites/21/2019/06/LeMans1989.pdf"
     },
     "weight": {
-      "na": "No published figure"
+      "kg": 905,
+      "lb": 1995,
+      "note": "About 1,995 lb",
+      "src": null
     },
     "zero60": {
-      "na": "A race car; no instrumented test"
+      "sec": 2.7,
+      "kind": "claimed",
+      "note": "Estimated; published estimates run from 2.7 to 3.4 seconds, never instrumented",
+      "src": null
     },
     "top": {
       "mph": 248,
@@ -33858,6 +33864,278 @@ const CARS = [
     "match": [
       "Mercedes-Benz 190E",
       "Mercedes-Benz Evo II"
+    ]
+  },
+  {
+    "id": "mercedes-benz-sl500-r230",
+    "name": "Mercedes-Benz SL500 (R230)",
+    "aka": [
+      "SL 55 AMG",
+      "SL550",
+      "SL600",
+      "SL65 AMG",
+      "SL-Class R230"
+    ],
+    "make": "Mercedes-Benz",
+    "maker": "Mercedes-Benz (Stuttgart)",
+    "country": "Germany",
+    "years": "2001–2011",
+    "start": 2001,
+    "end": 2011,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "2-door roadster with a folding steel Vario-roof",
+    "engine": "V8s, a supercharged V8 and twin-turbocharged V12s, 5.0 to 6.0 liters",
+    "drive": "Rear-wheel drive",
+    "gearbox": "5- or 7-speed automatic",
+    "specsFor": "2003 Mercedes-Benz SL500, US market, Mercedes-Benz's figures",
+    "power": {
+      "hp": 302,
+      "note": "5.0-liter M113 V8; the SL550 of 2007 on made 382",
+      "src": "https://www.autoblog.com/buy/2003-Mercedes_Benz-SL_Class/review/"
+    },
+    "weight": {
+      "na": "Varies by version; the SL 55 AMG weighed about 1,905 kg (4,200 lb)"
+    },
+    "zero60": {
+      "sec": 6.1,
+      "kind": "claimed",
+      "note": "Mercedes-Benz's figure for the SL500",
+      "src": "https://www.cars.com/articles/2005-mercedes-benz-sl-class-whats-new-1420687129346"
+    },
+    "top": {
+      "mph": 155,
+      "kind": "claimed",
+      "note": "Electronically limited",
+      "src": "https://www.kbb.com/mercedes-benz/sl-class/2003/specs"
+    },
+    "mpg": {
+      "combined": 16,
+      "city": 14,
+      "hwy": 20,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/18323.shtml",
+      "note": "EPA combined, 2003 SL500"
+    },
+    "built": {
+      "na": "Mercedes publishes no single R230 total; the SL 65 AMG Black Series alone was limited to 350 cars, 175 of them for the US"
+    },
+    "versions": [
+      {
+        "name": "SL500",
+        "detail": "2001–2006; 302 hp; the SL550 from 2007 had a 382-hp 5.5"
+      },
+      {
+        "name": "SL 55 AMG",
+        "detail": "2002–2008; supercharged 5.4-liter V8",
+        "specsFor": "2003 Mercedes-Benz SL55 AMG (Car and Driver test)",
+        "power": {
+          "hp": 493,
+          "note": "Supercharged 5.4-liter M113K V8",
+          "src": "https://www.0-60specs.com/mercedes-benz/sl55-amg-0-60-times"
+        },
+        "weight": {
+          "kg": 1905,
+          "lb": 4200,
+          "note": "Autoblog's figure",
+          "src": "https://www.autoblog.com/buy/2005-Mercedes_Benz-SL_Class/review/"
+        },
+        "zero60": {
+          "sec": 4.5,
+          "kind": "tested",
+          "note": "Car and Driver test, 2003 SL55 AMG",
+          "src": "https://www.0-60specs.com/mercedes-benz/sl55-amg-0-60-times"
+        },
+        "top": {
+          "mph": 155,
+          "kind": "claimed",
+          "note": "Electronically limited",
+          "src": "https://www.kbb.com/mercedes-benz/sl-class/2003/specs"
+        },
+        "mpg": {
+          "combined": 14,
+          "city": 12,
+          "hwy": 18,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/18324.shtml",
+          "note": "EPA combined, 2003 SL55 AMG"
+        }
+      },
+      {
+        "name": "SL600",
+        "detail": "2004–2011; twin-turbocharged 5.5-liter V12",
+        "mpg": {
+          "combined": 14,
+          "city": 11,
+          "hwy": 18,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/20495.shtml",
+          "note": "EPA combined, 2005 SL600"
+        }
+      },
+      {
+        "name": "SL 65 AMG",
+        "detail": "2005–2011; twin-turbocharged 6.0-liter V12, 604 hp; the 661-hp 2009 Black Series was limited to 350 cars",
+        "mpg": {
+          "combined": 13,
+          "city": 11,
+          "hwy": 18,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/20496.shtml",
+          "note": "EPA combined, 2005 SL65 AMG"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Mercedes-Benz SL500 (R129)",
+      "id": "mercedes-benz-sl500-r129"
+    },
+    "successor": {
+      "name": "Mercedes-Benz SL (R231)",
+      "id": null
+    },
+    "quick": "The SL that folded its steel roof into its trunk: shown at Frankfurt in 2001, sold for a decade, and offered all the way up to a 661-hp V12 Black Series. The SL 55 AMG was the fastest Mercedes of its day.",
+    "story": [
+      "The R230 arrived at the 2001 Frankfurt show with the trick that defined it: a Vario-roof of folding steel that turned it from coupe to roadster in 16 seconds, so the SL was no longer a convertible with a removable hardtop but both cars at once. The SL500 carried a 302-hp 5.0-liter V8, good for 60 mph in 6.1 seconds by Mercedes' own figure, and listed at $85,990 in 2003, or $157,200 in 2026 dollars. A facelift brought the 382-hp SL550 for 2007, and the V12 SL600 sat above it for those who wanted effortless speed with no badge drama.",
+      "The one everyone remembers is the SL 55 AMG: a supercharged 5.4-liter V8 of 493 hp that made it, as the period press kept repeating, the fastest production Mercedes yet built. Car and Driver reached 60 mph in 4.5 seconds, and it cost $113,250, or $207,000 in 2026 dollars. Above even that sat the twin-turbo V12 SL 65 AMG with 604 hp, and finally the 2009 SL 65 AMG Black Series, a fixed-roof, carbon-fendered 661-hp send-off limited to 350 cars. The R230 ran a full decade before the R231 replaced it in 2012."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "Mercedes R230 front 20071102.jpg",
+      "credit": "Rudolf Stricker",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "pos": ""
+    },
+    "match": [
+      "Mercedes-Benz SL 55 AMG",
+      "Mercedes-Benz SL500",
+      "Mercedes-Benz SL550",
+      "Mercedes-Benz SL-Class"
+    ]
+  },
+  {
+    "id": "mercedes-benz-500e",
+    "name": "Mercedes-Benz 500 E",
+    "aka": [
+      "E 500",
+      "500E",
+      "W124.036",
+      "Porsche Type 2758",
+      "E 60 AMG"
+    ],
+    "make": "Mercedes-Benz",
+    "maker": "Mercedes-Benz (Stuttgart)",
+    "country": "Germany",
+    "years": "1991–1995",
+    "start": 1991,
+    "end": 1995,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "4-door sedan",
+    "engine": "5.0-liter M119 V8, 32 valves",
+    "drive": "Rear-wheel drive",
+    "gearbox": "4-speed automatic",
+    "specsFor": "Mercedes-Benz 500 E, Mercedes-Benz's figures",
+    "power": {
+      "hp": 322,
+      "note": "326 PS at 5,700 rpm; trimmed to 320 PS from late 1992",
+      "src": "https://en.wikipedia.org/wiki/Mercedes-Benz_500_E"
+    },
+    "weight": {
+      "kg": 1700,
+      "lb": 3748,
+      "note": "Autozine's figure",
+      "src": "https://autozine.org/Archive/Mercedes/classic/W124.html"
+    },
+    "zero60": {
+      "sec": 6.1,
+      "kind": "claimed",
+      "note": "Mercedes-Benz's 0-100 km/h (62 mph) figure; US magazine tests ran as low as 5.5 seconds",
+      "src": "https://www.mercedes-benz.com/en/innovation/milestones/mercedes-benz-500-e/"
+    },
+    "top": {
+      "mph": 155,
+      "kind": "claimed",
+      "note": "Electronically limited, 250 km/h",
+      "src": "https://www.mercedes-benz.com/en/innovation/milestones/mercedes-benz-500-e/"
+    },
+    "mpg": {
+      "combined": 14,
+      "city": 13,
+      "hwy": 16,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/8923.shtml",
+      "note": "EPA combined, 1992 500E"
+    },
+    "built": {
+      "count": 10479,
+      "approx": false,
+      "note": "1990–1995, including the rebadged E 500 and the E 60 AMG; 1,528 came to the US",
+      "src": "https://en.wikipedia.org/wiki/Mercedes-Benz_500_E"
+    },
+    "versions": [
+      {
+        "name": "500 E",
+        "detail": "1991–1993"
+      },
+      {
+        "name": "E 500",
+        "detail": "1993–1995; the facelift name; the last 120 were built in 1995",
+        "mpg": {
+          "combined": 16,
+          "city": 14,
+          "hwy": 18,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/10936.shtml",
+          "note": "EPA combined, 1994 E500"
+        }
+      },
+      {
+        "name": "E 60 AMG",
+        "detail": "1994–1995; enlarged to 6.0 liters, 381 hp; built in very small numbers"
+      }
+    ],
+    "predecessor": {
+      "name": "AMG Hammer (W124)",
+      "id": "amg-hammer"
+    },
+    "successor": {
+      "name": "Mercedes-Benz E 55 AMG (W210)",
+      "id": null
+    },
+    "alongside": [
+      {
+        "name": "Mercedes-Benz SL500 (R129)",
+        "id": "mercedes-benz-sl500-r129"
+      }
+    ],
+    "quick": "The wolf in sheep's clothing: a W124 rebuilt around the 500 SL's V8 and assembled by hand at Porsche, 18 days per car. Mercedes built 10,479, and only 1,528 came to America.",
+    "story": [
+      "By the late 1980s AMG's Hammer had shown what a V8 W124 could be, and Mercedes wanted its own, but its engineers were consumed by the W140 S-Class. So in 1989 it hired Porsche, whose sports-car business was struggling, to redesign the W124's chassis around the 326-hp 5.0-liter V8 from the 500 SL. The fenders swelled slightly, the ride dropped, and nothing else gave it away; the press named it the wolf in sheep's clothing. Mercedes quoted 6.1 seconds to 100 km/h and a limited 250 km/h (155 mph), and American magazine tests ran as low as 5.5 seconds to 60 mph.",
+      "Every car was assembled by hand at Porsche's Reutter-Bau works in Zuffenhausen, shuttling between there and Sindelfingen over 18 days per car; Porsche's own paperwork called it Type 2758. It cost DM 134,520 at launch, and $81,800 when it reached the US for 1992, or $196,100 in 2026 dollars. Mercedes built 10,479 through 1995, counting the renamed E 500 and the rare 381-hp E 60 AMG, and just 1,528 came to America. It created the template every AMG E-Class still follows, and values have climbed for years."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "1992 Mercedes-Benz 500E (W124.036), front right.jpg",
+      "credit": "Mr.choppers",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pos": ""
+    },
+    "match": [
+      "Mercedes-Benz 500 E",
+      "Mercedes-Benz 500E",
+      "Mercedes-Benz E 500",
+      "Mercedes-Benz E500"
     ]
   }
 ];

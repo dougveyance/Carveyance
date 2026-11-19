@@ -3688,7 +3688,7 @@ const CARS_INDEX = [
    "name": "Mercedes-Benz 280 SL (R107)"
   },
   "next": {
-   "id": null,
+   "id": "mercedes-benz-sl500-r230",
    "name": "Mercedes-Benz SL500 (R230)"
   },
   "photo": {
@@ -23882,7 +23882,7 @@ const CARS_INDEX = [
   ],
   "prev": null,
   "next": {
-   "id": null,
+   "id": "mercedes-benz-500e",
    "name": "Mercedes-Benz 500 E"
   },
   "photo": {
@@ -23919,10 +23919,14 @@ const CARS_INDEX = [
    "list": "collector"
   },
   "hp": 720,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
-  "z60": null,
+  "kg": 905,
+  "kgNote": "About 1,995 lb",
+  "lbs": 1995,
+  "z60": {
+   "sec": 2.7,
+   "kind": "claimed",
+   "note": "Estimated; published estimates run from 2.7 to 3.4 seconds, never instrumented"
+  },
   "top": {
    "mph": 248,
    "kind": "claimed",
@@ -24009,6 +24013,163 @@ const CARS_INDEX = [
   },
   "photo": {
    "card": "/assets/images/cars/mercedes-benz-190e-evo2.jpg?v=029b4adf",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "mercedes-benz-sl500-r230",
+  "name": "Mercedes-Benz SL500 (R230)",
+  "aka": [
+   "SL 55 AMG",
+   "SL550",
+   "SL600",
+   "SL65 AMG",
+   "SL-Class R230"
+  ],
+  "make": "Mercedes-Benz",
+  "maker": "Mercedes-Benz (Stuttgart)",
+  "years": "2001–2011",
+  "start": 2001,
+  "body": "2-door roadster with a folding steel Vario-roof",
+  "engine": "V8s, a supercharged V8 and twin-turbocharged V12s, 5.0 to 6.0 liters",
+  "country": "Germany",
+  "quick": "The SL that folded its steel roof into its trunk: shown at Frankfurt in 2001, sold for a decade, and offered all the way up to a 661-hp V12 Black Series. The SL 55 AMG was the fastest Mercedes of its day.",
+  "articles": [
+   "the-other-german",
+   "the-six-that-got-away",
+   "tuxedo-and-smoking-jacket"
+  ],
+  "latest": "2026-08-18",
+  "ownDates": [],
+  "dates": [
+   "2026-08-18",
+   "2026-07-23"
+  ],
+  "drive": "Rear-wheel drive",
+  "gearbox": "5- or 7-speed automatic",
+  "specsFor": "2003 Mercedes-Benz SL500, US market, Mercedes-Benz's figures",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 302,
+  "kg": null,
+  "kgNote": "",
+  "lbs": null,
+  "z60": {
+   "sec": 6.1,
+   "kind": "claimed",
+   "note": "Mercedes-Benz's figure for the SL500"
+  },
+  "top": {
+   "mph": 155,
+   "kind": "claimed",
+   "note": "Electronically limited"
+  },
+  "mpg": {
+   "combined": 16,
+   "city": 14,
+   "hwy": 20,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2003 SL500"
+  },
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "mercedes-benz-sl500-r129",
+   "name": "Mercedes-Benz SL500 (R129)"
+  },
+  "next": {
+   "id": null,
+   "name": "Mercedes-Benz SL (R231)"
+  },
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Mercedes_R230_front_20071102.jpg/960px-Mercedes_R230_front_20071102.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "mercedes-benz-500e",
+  "name": "Mercedes-Benz 500 E",
+  "aka": [
+   "E 500",
+   "500E",
+   "W124.036",
+   "Porsche Type 2758",
+   "E 60 AMG"
+  ],
+  "make": "Mercedes-Benz",
+  "maker": "Mercedes-Benz (Stuttgart)",
+  "years": "1991–1995",
+  "start": 1991,
+  "body": "4-door sedan",
+  "engine": "5.0-liter M119 V8, 32 valves",
+  "country": "Germany",
+  "quick": "The wolf in sheep's clothing: a W124 rebuilt around the 500 SL's V8 and assembled by hand at Porsche, 18 days per car. Mercedes built 10,479, and only 1,528 came to America.",
+  "articles": [
+   "the-fastest-argument-in-the-room",
+   "the-six-that-got-away",
+   "tuxedo-and-smoking-jacket"
+  ],
+  "latest": "2026-09-01",
+  "ownDates": [],
+  "dates": [
+   "2026-09-01",
+   "2026-07-23"
+  ],
+  "drive": "Rear-wheel drive",
+  "gearbox": "4-speed automatic",
+  "specsFor": "Mercedes-Benz 500 E, Mercedes-Benz's figures",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 322,
+  "kg": 1700,
+  "kgNote": "Autozine's figure",
+  "lbs": 3748,
+  "z60": {
+   "sec": 6.1,
+   "kind": "claimed",
+   "note": "Mercedes-Benz's 0-100 km/h (62 mph) figure; US magazine tests ran as low as 5.5 seconds"
+  },
+  "top": {
+   "mph": 155,
+   "kind": "claimed",
+   "note": "Electronically limited, 250 km/h"
+  },
+  "mpg": {
+   "combined": 14,
+   "city": 13,
+   "hwy": 16,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1992 500E"
+  },
+  "built": {
+   "count": 10479,
+   "approx": false,
+   "note": "1990–1995, including the rebadged E 500 and the E 60 AMG; 1,528 came to the US"
+  },
+  "alongside": [
+   {
+    "id": "mercedes-benz-sl500-r129",
+    "name": "Mercedes-Benz SL500 (R129)"
+   }
+  ],
+  "prev": {
+   "id": "amg-hammer",
+   "name": "AMG Hammer (W124)"
+  },
+  "next": {
+   "id": null,
+   "name": "Mercedes-Benz E 55 AMG (W210)"
+  },
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/1992_Mercedes-Benz_500E_(W124.036),_front_right.jpg/960px-1992_Mercedes-Benz_500E_(W124.036),_front_right.jpg",
    "pos": "",
    "fit": ""
   }

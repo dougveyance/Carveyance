@@ -5725,6 +5725,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://carveyance.com/cars/mercedes-benz-500e/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://carveyance.com/cars/mercedes-benz-540k/</loc>
     <lastmod>2026-11-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -5744,6 +5750,12 @@
   </url>
   <url>
     <loc>https://carveyance.com/cars/mercedes-benz-sl500-r129/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/cars/mercedes-benz-sl500-r230/</loc>
     <lastmod>2026-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

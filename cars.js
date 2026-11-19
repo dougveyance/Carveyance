@@ -44063,5 +44063,1144 @@ const CARS = [
       "Ford F-750",
       "Ford Super Duty"
     ]
+  },
+  {
+    "id": "ford-explorer-1st-gen",
+    "family": {
+      "id": "ford-explorer",
+      "name": "Ford Explorer"
+    },
+    "name": "Ford Explorer (first generation)",
+    "aka": [
+      "UN46",
+      "Eddie Bauer",
+      "Explorer Sport 3-door",
+      "XLT"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Louisville Assembly Plant, Kentucky)",
+    "country": "United States",
+    "years": "1991–1994",
+    "start": 1991,
+    "end": 1994,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Midsize body-on-frame SUV, 3-door or 5-door",
+    "engine": "4.0-liter Cologne V6",
+    "drive": "Rear-wheel drive or 4-wheel drive",
+    "gearbox": "5-speed manual or 4-speed automatic",
+    "specsFor": "1993 Explorer XLT 5-door 4x4",
+    "power": {
+      "hp": 160,
+      "note": "4.0 Cologne V6, 1993–94; 155 hp for 1991–92",
+      "src": "https://en.wikipedia.org/wiki/Ford_Explorer"
+    },
+    "weight": {
+      "kg": 1875,
+      "lb": 4134,
+      "note": "Curb weight, 5-door 4x4, approximate"
+    },
+    "zero60": {
+      "sec": 9.8,
+      "kind": "estimated",
+      "note": "Period instrumented tests ran roughly 9.5–10.5 seconds"
+    },
+    "top": {
+      "mph": 99,
+      "kind": "estimated",
+      "note": "Period reports"
+    },
+    "mpg": {
+      "combined": 16,
+      "city": 14,
+      "hwy": 18,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/",
+      "note": "EPA combined, 1993, automatic, 4x4; 17 with the 5-speed manual"
+    },
+    "built": {
+      "count": 1154639,
+      "approx": true,
+      "note": "Sold in the US, 1991–1994 calendar years",
+      "src": "https://en.wikipedia.org/wiki/Ford_Explorer"
+    },
+    "versions": [
+      {
+        "name": "4.0 V6, 1991–92",
+        "detail": "155 hp at launch",
+        "power": {
+          "hp": 155,
+          "note": "4.0 Cologne V6",
+          "src": "https://en.wikipedia.org/wiki/Ford_Explorer"
+        },
+        "weight": {
+          "kg": 1875,
+          "lb": 4134,
+          "note": "Curb weight, 5-door 4x4, approximate"
+        },
+        "zero60": {
+          "sec": 10.2,
+          "kind": "estimated",
+          "note": "Period tests"
+        },
+        "top": {
+          "mph": 99,
+          "kind": "estimated",
+          "note": "Period reports"
+        },
+        "mpg": {
+          "combined": 16,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, automatic, 4x4"
+        }
+      },
+      {
+        "name": "4.0 V6, 1993–94",
+        "power": {"hp": 160, "note": "4.0 Cologne V6", "src": "https://en.wikipedia.org/wiki/Ford_Explorer"},
+        "weight": {"kg": 1875, "lb": 4134, "note": "Curb weight, 5-door 4x4, approximate"},
+        "zero60": {"sec": 9.8, "kind": "estimated", "note": "Period tests ran roughly 9.5–10.5 seconds"},
+        "top": {"mph": 99, "kind": "estimated", "note": "Period reports"},
+        "mpg": {"combined": 16, "unit": "mpg", "kind": "epa", "src": "https://www.fueleconomy.gov/", "note": "EPA combined, 1993, automatic, 4x4"},
+        "detail": "160 hp after the update"
+      },
+      {
+        "name": "Explorer Sport",
+        "detail": "The 3-door, carrying the Bronco II's torch",
+        "power": {
+          "hp": 160,
+          "note": "Same 4.0 V6; 155 hp before 1993",
+          "src": "https://en.wikipedia.org/wiki/Ford_Explorer"
+        },
+        "weight": {
+          "kg": 1755,
+          "lb": 3869,
+          "note": "Curb weight, 3-door 4x4, approximate"
+        },
+        "zero60": {
+          "sec": 9.5,
+          "kind": "estimated",
+          "note": "Period tests; the lighter body"
+        },
+        "top": {
+          "mph": 99,
+          "kind": "estimated",
+          "note": "Period reports"
+        },
+        "mpg": {
+          "combined": 16,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, automatic, 4x4"
+        }
+      }
+    ],
+    "predecessor": null,
+    "successor": {
+      "name": "Ford Explorer (second generation)",
+      "id": "ford-explorer-2nd-gen"
+    },
+    "alongside": [],
+    "quick": "The truck that invented the family SUV, March 1990: Bronco II bones, 4 real doors, an Eddie Bauer badge — and 1.15 million sold in 4 years.",
+    "story": [
+      "Ford introduced the Explorer in March 1990 as a 1991 model, replacing the tippy, 2-door Bronco II with something nobody had quite packaged before: a truck-tough 4x4 with 4 proper doors, a wagon's cargo hold and a sedan's road manners, aimed squarely at suburban driveways instead of deer camps. Power came from a 155-hp 4.0-liter Cologne V6, 160 hp from 1993, through a 5-speed manual or 4-speed automatic. The Eddie Bauer edition, 2-tone paint over outdoorsy leather, became the badge of the era, and the 3-door Sport kept the old Bronco II's footprint alive.",
+      "The numbers tell the story of a segment being born: 282,837 sold in the first calendar year, 1.15 million by the end of 1994, instantly America's best-selling SUV and the template every rival copied. Hollywood noticed too — the tour vehicles of 1993's Jurassic Park were first-generation Explorers, which did the nameplate no harm with the kids in the back seat. The first generation's success set the terms of the American market for the next 30 years: the family car would be a truck, and the truck would be an Explorer."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "1992 Ford Explorer Eddie Bauer (6005113836).jpg",
+      "credit": "Spanish Coches",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "pos": ""
+    },
+    "match": [
+      "Ford Explorer"
+    ]
+  },
+  {
+    "id": "ford-explorer-2nd-gen",
+    "family": {
+      "id": "ford-explorer",
+      "name": "Ford Explorer"
+    },
+    "name": "Ford Explorer (second generation)",
+    "aka": [
+      "UN105",
+      "Explorer 5.0",
+      "Eddie Bauer",
+      "Mercury Mountaineer's twin"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Louisville, Kentucky, and St. Louis, Missouri)",
+    "country": "United States",
+    "years": "1995–2001",
+    "start": 1995,
+    "end": 2001,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Midsize body-on-frame SUV, 5-door; the 3-door Sport continued through 2003",
+    "engine": "4.0 OHV or SOHC V6; 5.0 V8 from 1996",
+    "drive": "Rear-wheel drive, 4-wheel drive or all-wheel drive",
+    "gearbox": "5-speed manual or automatic",
+    "specsFor": "1997 Explorer 5.0 AWD",
+    "power": {
+      "hp": 215,
+      "note": "5.0 V8, 1997 on; 210 hp at its 1996 launch. The SOHC V6 made 210, the OHV 160",
+      "src": "https://en.wikipedia.org/wiki/Ford_Explorer"
+    },
+    "weight": {
+      "kg": 1950,
+      "lb": 4299,
+      "note": "Curb weight, V8 AWD, approximate"
+    },
+    "zero60": {
+      "sec": 8.8,
+      "kind": "estimated",
+      "note": "Period instrumented tests of the V8 ran roughly 8.5–9.2 seconds"
+    },
+    "top": {
+      "mph": 105,
+      "kind": "estimated",
+      "note": "Speed-limited; period reports"
+    },
+    "mpg": {
+      "combined": 14,
+      "city": 12,
+      "hwy": 17,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/",
+      "note": "EPA combined, 1996, 5.0 V8, 4WD; the 4.0 rated 15"
+    },
+    "built": {
+      "count": 2903080,
+      "approx": true,
+      "note": "Sold in the US, 1995–2001 calendar years; the 2000 peak of 445,157 is the best year any SUV had posted",
+      "src": "https://en.wikipedia.org/wiki/Ford_Explorer"
+    },
+    "versions": [
+      {
+        "name": "4.0 OHV V6",
+        "detail": "The 160-hp carryover base engine, through 2000",
+        "power": {
+          "hp": 160,
+          "note": "4.0 overhead-valve V6",
+          "src": "https://en.wikipedia.org/wiki/Ford_Explorer"
+        },
+        "weight": {
+          "kg": 1865,
+          "lb": 4112,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 10.5,
+          "kind": "estimated",
+          "note": "Period tests"
+        },
+        "top": {
+          "mph": 100,
+          "kind": "estimated",
+          "note": "Period reports"
+        },
+        "mpg": {
+          "combined": 15,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 1996, automatic, 4WD"
+        }
+      },
+      {
+        "name": "4.0 SOHC V6",
+        "detail": "210 hp from 1997; the modern six",
+        "power": {
+          "hp": 210,
+          "note": "4.0 single-overhead-cam V6",
+          "src": "https://en.wikipedia.org/wiki/Ford_Explorer"
+        },
+        "weight": {
+          "kg": 1905,
+          "lb": 4200,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 9.0,
+          "kind": "estimated",
+          "note": "Period tests"
+        },
+        "top": {
+          "mph": 105,
+          "kind": "estimated",
+          "note": "Speed-limited; period reports"
+        },
+        "mpg": {
+          "combined": 15,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2000, automatic, 4WD"
+        }
+      },
+      {
+        "name": "5.0 V8",
+        "power": {"hp": 215, "note": "5.0 V8, 1997 on; 210 at its 1996 launch", "src": "https://en.wikipedia.org/wiki/Ford_Explorer"},
+        "weight": {"kg": 1950, "lb": 4299, "note": "Curb weight, V8 AWD, approximate"},
+        "zero60": {"sec": 8.8, "kind": "estimated", "note": "Period tests ran roughly 8.5–9.2 seconds"},
+        "top": {"mph": 105, "kind": "estimated", "note": "Speed-limited; period reports"},
+        "mpg": {"combined": 14, "unit": "mpg", "kind": "epa", "src": "https://www.fueleconomy.gov/", "note": "EPA combined, 1996, 4WD"},
+        "detail": "1996–2001: the last overhead-valve V8 in a North American Ford for nearly 2 decades"
+      },
+      {
+        "name": "Explorer Sport 3-door",
+        "detail": "Continued through 2003 on this platform",
+        "power": {
+          "hp": 210,
+          "note": "4.0 SOHC in later years; OHV before",
+          "src": "https://en.wikipedia.org/wiki/Ford_Explorer"
+        },
+        "weight": {
+          "kg": 1810,
+          "lb": 3990,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 9.0,
+          "kind": "estimated",
+          "note": "Period tests, SOHC"
+        },
+        "top": {
+          "mph": 105,
+          "kind": "estimated",
+          "note": "Speed-limited; period reports"
+        },
+        "mpg": {
+          "combined": 15,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2000-era, automatic"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Ford Explorer (first generation)",
+      "id": "ford-explorer-1st-gen"
+    },
+    "successor": {
+      "name": "Ford Explorer (third generation)",
+      "id": "ford-explorer-3rd-gen"
+    },
+    "alongside": [
+      {
+        "name": "Ford Explorer Sport Trac",
+        "id": "ford-explorer-sport-trac"
+      }
+    ],
+    "quick": "The best-selling SUV in America every year it existed, peaking at 445,157 in 2000 — and the truck at the center of the Firestone crisis that changed tire law.",
+    "story": [
+      "The 1995 redesign made the Explorer a phenomenon. Dual airbags, a supple new front suspension and, from 1996, an available 5.0-liter V8, 210 and then 215 hp, turned the family truck into the default American vehicle: 445,157 sold in calendar 2000 alone, a figure no SUV had ever approached, with the Mercury Mountaineer selling alongside as its twin. When the last 5.0 left the line in 2001, it was the final overhead-valve V8 in a North American Ford car or truck for nearly 2 decades.",
+      "This generation also carries the hardest chapter in the nameplate's history. Tread separations on 15-inch Firestone ATX and Wilderness AT tires, many from the Decatur, Illinois plant, were linked to rollover crashes attributed with 240 deaths and some 3,000 serious injuries, most involving Explorers. NHTSA opened its investigation in May 2000, Firestone recalled millions of tires that August, and Ford replaced 13 million more in 2001, ending a Ford–Firestone relationship that reached back about 90 years. Congress answered with the TREAD Act, which created the early-warning defect reporting and tire-pressure-monitoring rules every new vehicle lives under today. The Explorer kept its sales crown through all of it — but the industry it led was never regulated the same way again."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "1998 Ford Explorer Eddie Bauer Edition - 16310509024.jpg",
+      "credit": "CapCase",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "pos": ""
+    },
+    "match": [
+      "Ford Explorer"
+    ]
+  },
+  {
+    "id": "ford-explorer-3rd-gen",
+    "family": {
+      "id": "ford-explorer",
+      "name": "Ford Explorer"
+    },
+    "name": "Ford Explorer (third generation)",
+    "aka": [
+      "U152",
+      "Eddie Bauer",
+      "Limited 4.6"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Louisville and St. Louis plants)",
+    "country": "United States",
+    "years": "2002–2005",
+    "start": 2002,
+    "end": 2005,
+    "shop": {
+      "cargurus": "d334"
+    },
+    "body": "Midsize body-on-frame SUV, 5-door, with an available third row",
+    "engine": "4.0 SOHC V6 or 4.6 Modular V8",
+    "drive": "Rear-wheel drive or 4-wheel drive",
+    "gearbox": "5-speed automatic",
+    "specsFor": "2003 Explorer Limited, 4.6 V8, 4WD",
+    "power": {
+      "hp": 239,
+      "note": "4.6 Modular V8; the 4.0 SOHC V6 made 210",
+      "src": "https://en.wikipedia.org/wiki/Ford_Explorer"
+    },
+    "weight": {
+      "kg": 2070,
+      "lb": 4563,
+      "note": "Curb weight, V8 4WD, approximate"
+    },
+    "zero60": {
+      "sec": 8.4,
+      "kind": "estimated",
+      "note": "Period instrumented tests of the 4.6"
+    },
+    "top": {
+      "mph": 105,
+      "kind": "estimated",
+      "note": "Speed-limited; period reports"
+    },
+    "mpg": {
+      "combined": 15,
+      "city": 13,
+      "hwy": 18,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/",
+      "note": "EPA combined, 2003, 4.6 V8, 4WD; the 4.0 rated 16 on its flex-fuel listing"
+    },
+    "built": {
+      "count": 1386086,
+      "approx": true,
+      "note": "Sold in the US, 2002–2005 calendar years",
+      "src": "https://en.wikipedia.org/wiki/Ford_Explorer"
+    },
+    "versions": [
+      {
+        "name": "4.0 SOHC V6",
+        "detail": "The volume engine",
+        "power": {
+          "hp": 210,
+          "note": "4.0 single-overhead-cam V6",
+          "src": "https://en.wikipedia.org/wiki/Ford_Explorer"
+        },
+        "weight": {
+          "kg": 2020,
+          "lb": 4453,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 9.2,
+          "kind": "estimated",
+          "note": "Period tests"
+        },
+        "top": {
+          "mph": 105,
+          "kind": "estimated",
+          "note": "Speed-limited; period reports"
+        },
+        "mpg": {
+          "combined": 16,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2003, 4WD, flex-fuel listing"
+        }
+      },
+      {
+        "name": "4.6 Modular V8",
+        "power": {"hp": 239, "note": "4.6 Modular V8", "src": "https://en.wikipedia.org/wiki/Ford_Explorer"},
+        "weight": {"kg": 2070, "lb": 4563, "note": "Curb weight, V8 4WD, approximate"},
+        "zero60": {"sec": 8.4, "kind": "estimated", "note": "Period tests of the 4.6"},
+        "top": {"mph": 105, "kind": "estimated", "note": "Speed-limited; period reports"},
+        "mpg": {"combined": 15, "unit": "mpg", "kind": "epa", "src": "https://www.fueleconomy.gov/", "note": "EPA combined, 2003, 4WD"},
+        "detail": "239 hp, overhead cams at last"
+      }
+    ],
+    "predecessor": {
+      "name": "Ford Explorer (second generation)",
+      "id": "ford-explorer-2nd-gen"
+    },
+    "successor": {
+      "name": "Ford Explorer (fourth generation)",
+      "id": "ford-explorer-4th-gen"
+    },
+    "alongside": [
+      {
+        "name": "Ford Explorer Sport Trac",
+        "id": "ford-explorer-sport-trac"
+      }
+    ],
+    "quick": "The ground-up answer to the hard years: independent rear suspension, a third row, a modern V8 — still selling 433,847 in its first year.",
+    "story": [
+      "The 2002 Explorer was a clean-sheet response to everything 2000 and 2001 had thrown at the nameplate. The body was new, the track wider, and the old truck's live rear axle gave way to independent rear suspension, which lowered the floor enough for a usable third row and transformed how the Explorer rode and, crucially, how it behaved at the limit. The 4.0 SOHC V6 carried over at 210 hp; the new option was the 4.6-liter Modular V8, 239 hp with overhead cams, replacing the old pushrod 5.0.",
+      "Sales opened at 433,847 in calendar 2002, proof of how deep the brand loyalty ran, and then the world moved. Gas prices climbed, the Firestone years faded slowly, and the car-based crossover — a category the Explorer's own success had provoked — started pulling family buyers onto lower, lighter platforms. By 2005 the number was 239,788, still huge, but the direction was set. The third generation is the hinge of the Explorer story: the best truck-era Explorer, arriving exactly as the truck era began to close."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "2004 Ford Explorer (UZ) XLT wagon (2009-07-05) 01.jpg",
+      "credit": "OSX",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:2004_Ford_Explorer_(UZ)_XLT_wagon_(2009-07-05)_01.jpg",
+      "pos": ""
+    },
+    "match": [
+      "Ford Explorer"
+    ]
+  },
+  {
+    "id": "ford-explorer-4th-gen",
+    "family": {
+      "id": "ford-explorer",
+      "name": "Ford Explorer"
+    },
+    "name": "Ford Explorer (fourth generation)",
+    "aka": [
+      "U251",
+      "Ironman Edition",
+      "Eddie Bauer"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Louisville Assembly Plant, Kentucky)",
+    "country": "United States",
+    "years": "2006–2010",
+    "start": 2006,
+    "end": 2010,
+    "shop": {
+      "cargurus": "d334"
+    },
+    "body": "Midsize body-on-frame SUV, 5-door — the last Explorer built on a frame",
+    "engine": "4.0 SOHC V6 or 4.6 3-valve Modular V8",
+    "drive": "Rear-wheel drive or 4-wheel drive",
+    "gearbox": "5-speed automatic; 6-speed with the V8",
+    "specsFor": "2007 Explorer Limited, 4.6 V8, 4WD",
+    "power": {
+      "hp": 292,
+      "note": "4.6 Modular V8, 3 valves per cylinder; the 4.0 V6 made 210",
+      "src": "https://en.wikipedia.org/wiki/Ford_Explorer"
+    },
+    "weight": {
+      "kg": 2155,
+      "lb": 4751,
+      "note": "Curb weight, V8 4WD, approximate"
+    },
+    "zero60": {
+      "sec": 7.8,
+      "kind": "estimated",
+      "note": "Period instrumented tests of the 292-hp 4.6 ran roughly 7.5–8.2 seconds"
+    },
+    "top": {
+      "mph": 110,
+      "kind": "estimated",
+      "note": "Speed-limited; period reports"
+    },
+    "mpg": {
+      "combined": 15,
+      "city": 13,
+      "hwy": 18,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/",
+      "note": "EPA combined, 2007, 4.6 V8, 4WD; the 4.0 V6 rated the same"
+    },
+    "built": {
+      "count": 508362,
+      "approx": true,
+      "note": "Sold in the US, 2006–2010 calendar years; from 179,229 in 2006 to 52,190 in 2009",
+      "src": "https://en.wikipedia.org/wiki/Ford_Explorer"
+    },
+    "versions": [
+      {
+        "name": "4.0 SOHC V6",
+        "detail": "The carryover base engine",
+        "power": {
+          "hp": 210,
+          "note": "4.0 single-overhead-cam V6",
+          "src": "https://en.wikipedia.org/wiki/Ford_Explorer"
+        },
+        "weight": {
+          "kg": 2085,
+          "lb": 4597,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 9.0,
+          "kind": "estimated",
+          "note": "Period tests"
+        },
+        "top": {
+          "mph": 105,
+          "kind": "estimated",
+          "note": "Speed-limited; period reports"
+        },
+        "mpg": {
+          "combined": 15,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2007, 4WD"
+        }
+      },
+      {
+        "name": "4.6 Modular V8, 3-valve",
+        "power": {"hp": 292, "note": "4.6 Modular V8, 3 valves per cylinder", "src": "https://en.wikipedia.org/wiki/Ford_Explorer"},
+        "weight": {"kg": 2155, "lb": 4751, "note": "Curb weight, V8 4WD, approximate"},
+        "zero60": {"sec": 7.8, "kind": "estimated", "note": "Period tests ran roughly 7.5–8.2 seconds"},
+        "top": {"mph": 110, "kind": "estimated", "note": "Speed-limited; period reports"},
+        "mpg": {"combined": 15, "unit": "mpg", "kind": "epa", "src": "https://www.fueleconomy.gov/", "note": "EPA combined, 2007, 4WD"},
+        "detail": "292 hp and a 6-speed automatic"
+      }
+    ],
+    "predecessor": {
+      "name": "Ford Explorer (third generation)",
+      "id": "ford-explorer-3rd-gen"
+    },
+    "successor": {
+      "name": "Ford Explorer (fifth generation)",
+      "id": "ford-explorer-5th-gen"
+    },
+    "alongside": [
+      {
+        "name": "Ford Explorer Sport Trac",
+        "id": "ford-explorer-sport-trac"
+      }
+    ],
+    "quick": "The last body-on-frame Explorer, 2006–10: its best engine and its worst timing, with sales falling from 179,229 to 52,190 as gas and the economy broke the truck-SUV era.",
+    "story": [
+      "The 2006 Explorer was the truck formula perfected: a stiffer frame, a settled ride from the independent rear end, and a new 292-hp 3-valve 4.6 V8 with a 6-speed automatic, the strongest and smoothest drivetrain the body-on-frame Explorer ever offered. Power-folding third rows and an Ironman appearance edition tried to keep the showroom lively. The engineering had never been better; the moment could hardly have been worse.",
+      "Gas crossed $3, then touched $4 in 2008 just as credit vanished, and the traditional SUV market simply stopped. Explorer sales fell from 179,229 in 2006 to 78,439 in 2008 and 52,190 in 2009, a 94 percent collapse from the 2000 peak, while car-based crossovers — including Ford's own — absorbed the family market the Explorer had invented. The last body-on-frame Explorer left Louisville on December 16, 2010, closing a 20-year chapter. What came next saved the nameplate by abandoning almost everything except the name."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "2008 Ford Explorer Ironman.jpg",
+      "credit": "IFCAR",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:2008_Ford_Explorer_Ironman.jpg",
+      "pos": ""
+    },
+    "match": [
+      "Ford Explorer"
+    ]
+  },
+  {
+    "id": "ford-explorer-sport-trac",
+    "family": {
+      "id": "ford-explorer",
+      "name": "Ford Explorer"
+    },
+    "name": "Ford Explorer Sport Trac",
+    "aka": [
+      "Sport Trac",
+      "Adrenalin",
+      "Explorer pickup"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Louisville Assembly Plant, Kentucky)",
+    "country": "United States",
+    "years": "2001–2010",
+    "start": 2001,
+    "end": 2010,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "4-door midsize SUV-pickup with a 4-foot composite bed; no 2006 model year",
+    "engine": "4.0 SOHC V6; 4.6 V8 from 2007",
+    "drive": "Rear-wheel drive or 4-wheel drive",
+    "gearbox": "5-speed manual (early) or automatic",
+    "specsFor": "2008 Sport Trac Limited, 4.6 V8, 4WD",
+    "power": {
+      "hp": 292,
+      "note": "4.6 Modular V8, 2007–10; the 4.0 V6 made 210",
+      "src": "https://en.wikipedia.org/wiki/Ford_Explorer"
+    },
+    "weight": {
+      "kg": 2135,
+      "lb": 4707,
+      "note": "Curb weight, V8 4WD, approximate"
+    },
+    "zero60": {
+      "sec": 7.9,
+      "kind": "estimated",
+      "note": "Period instrumented tests of the 4.6"
+    },
+    "top": {
+      "mph": 108,
+      "kind": "estimated",
+      "note": "Speed-limited; period reports"
+    },
+    "mpg": {
+      "combined": 15,
+      "city": 13,
+      "hwy": 18,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/",
+      "note": "EPA combined, 2007, 4.6 V8, 4WD; the 2001–05 4.0 rated 15 as well"
+    },
+    "built": {
+      "na": "No cumulative Sport Trac total is published; Ford reported its sales separately from the Explorer"
+    },
+    "versions": [
+      {
+        "name": "Sport Trac, 2001–05",
+        "detail": "Ranger-derived, the last of that line; 4.0 V6 only",
+        "power": {
+          "hp": 210,
+          "note": "4.0 SOHC V6",
+          "src": "https://en.wikipedia.org/wiki/Ford_Explorer"
+        },
+        "weight": {
+          "kg": 1990,
+          "lb": 4387,
+          "note": "Curb weight, 4WD, approximate"
+        },
+        "zero60": {
+          "sec": 9.3,
+          "kind": "estimated",
+          "note": "Period tests"
+        },
+        "top": {
+          "mph": 105,
+          "kind": "estimated",
+          "note": "Speed-limited; period reports"
+        },
+        "mpg": {
+          "combined": 15,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2003, automatic, 4WD"
+        }
+      },
+      {
+        "name": "Sport Trac, 2007–10",
+        "power": {"hp": 292, "note": "4.6 V8 optional; the 4.0 V6 made 210", "src": "https://en.wikipedia.org/wiki/Ford_Explorer"},
+        "weight": {"kg": 2135, "lb": 4707, "note": "Curb weight, V8 4WD, approximate"},
+        "zero60": {"sec": 7.9, "kind": "estimated", "note": "Period tests of the 4.6"},
+        "top": {"mph": 108, "kind": "estimated", "note": "Speed-limited; period reports"},
+        "mpg": {"combined": 15, "unit": "mpg", "kind": "epa", "src": "https://www.fueleconomy.gov/", "note": "EPA combined, 2007, 4.6 V8, 4WD"},
+        "detail": "Explorer-based, with the 292-hp 4.6 optional; the Adrenalin package topped it"
+      }
+    ],
+    "predecessor": null,
+    "successor": null,
+    "alongside": [
+      {
+        "name": "Ford Explorer (third generation)",
+        "id": "ford-explorer-3rd-gen"
+      },
+      {
+        "name": "Ford Explorer (fourth generation)",
+        "id": "ford-explorer-4th-gen"
+      }
+    ],
+    "quick": "The Explorer with a bed, 2001–10: 4 doors, 4 feet of composite cargo box, and a decade head start on the Honda Ridgeline idea.",
+    "story": [
+      "Years before “lifestyle pickup” was a segment, Ford sawed the back off an Explorer and bolted on a 4-foot composite bed. The 2001 Sport Trac gave suburban buyers a real back seat, a weatherproof trunk-with-no-lid for bikes and mulch, and none of a full pickup's parking anxiety. The first generation ran through 2005 on Ranger-derived bones with the 210-hp 4.0 V6; after skipping 2006, the second generation returned on the fourth-generation Explorer's independent-suspension platform, now with the 292-hp 4.6 V8 available and, in Adrenalin trim, a hint of street-truck attitude.",
+      "The Sport Trac sold steadily rather than spectacularly, and the 2008 crash that gutted the truck market took it along when Explorer production ended its body-on-frame era in 2010. History has been kinder than the sales charts: the Honda Ridgeline, Hyundai Santa Cruz and Ford's own Maverick all cultivate the ground the Sport Trac broke, a decade early. Clean V8 examples have begun attracting the quiet collector attention that meets any honest idea the market punished for arriving first."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "Ford Explorer Sport Trac XLT 2002 (50208870177).jpg",
+      "credit": "RL GNZLZ",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "pos": ""
+    },
+    "match": [
+      "Ford Explorer Sport Trac",
+      "Ford Explorer"
+    ]
+  },
+  {
+    "id": "ford-explorer-5th-gen",
+    "family": {
+      "id": "ford-explorer",
+      "name": "Ford Explorer"
+    },
+    "name": "Ford Explorer (fifth generation)",
+    "aka": [
+      "U502",
+      "Explorer Sport",
+      "EcoBoost Explorer",
+      "Police Interceptor Utility"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Chicago Assembly Plant, Illinois)",
+    "country": "United States",
+    "years": "2011–2019",
+    "start": 2011,
+    "end": 2019,
+    "shop": {
+      "cargurus": "d334"
+    },
+    "body": "3-row unibody SUV on the D4 platform, front- or all-wheel drive",
+    "engine": "3.5 V6; 2.0 or 2.3 EcoBoost; 3.5 EcoBoost in the Sport",
+    "drive": "Front-wheel drive or all-wheel drive",
+    "gearbox": "6-speed automatic",
+    "specsFor": "2013 Explorer Sport, 3.5 EcoBoost, AWD",
+    "power": {
+      "hp": 365,
+      "note": "3.5 EcoBoost, Sport and Platinum; the base 3.5 V6 made 290",
+      "src": "https://en.wikipedia.org/wiki/Ford_Explorer"
+    },
+    "weight": {
+      "kg": 2232,
+      "lb": 4921,
+      "note": "Typical as-tested weight, Explorer Sport"
+    },
+    "zero60": {
+      "sec": 5.7,
+      "kind": "estimated",
+      "note": "Instrumented tests of the Sport ran 5.7–6.0 seconds"
+    },
+    "top": {
+      "mph": 115,
+      "kind": "estimated",
+      "note": "Speed-limited; commonly reported"
+    },
+    "mpg": {
+      "combined": 18,
+      "city": 16,
+      "hwy": 22,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/",
+      "note": "EPA combined, 2013 Sport, AWD; the base 3.5 rated 19, the 2.3 EcoBoost 21"
+    },
+    "built": {
+      "count": 1735873,
+      "approx": true,
+      "note": "Sold in the US, 2011–2019 calendar years",
+      "src": "https://en.wikipedia.org/wiki/Ford_Explorer"
+    },
+    "versions": [
+      {
+        "name": "3.5 Duratec V6",
+        "detail": "The 290-hp volume engine",
+        "power": {
+          "hp": 290,
+          "note": "3.5-liter V6",
+          "src": "https://en.wikipedia.org/wiki/Ford_Explorer"
+        },
+        "weight": {
+          "kg": 2085,
+          "lb": 4597,
+          "note": "Curb weight, AWD, approximate"
+        },
+        "zero60": {
+          "sec": 7.2,
+          "kind": "estimated",
+          "note": "Instrumented tests"
+        },
+        "top": {
+          "mph": 115,
+          "kind": "estimated",
+          "note": "Speed-limited; commonly reported"
+        },
+        "mpg": {
+          "combined": 19,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2013, AWD"
+        }
+      },
+      {
+        "name": "2.0 EcoBoost",
+        "detail": "2012–15, front-drive only",
+        "power": {
+          "hp": 240,
+          "note": "2.0-liter turbo 4",
+          "src": "https://en.wikipedia.org/wiki/Ford_Explorer"
+        },
+        "weight": {
+          "kg": 2010,
+          "lb": 4431,
+          "note": "Curb weight, FWD, approximate"
+        },
+        "zero60": {
+          "sec": 8.0,
+          "kind": "estimated",
+          "note": "Instrumented tests"
+        },
+        "top": {
+          "mph": 115,
+          "kind": "estimated",
+          "note": "Speed-limited; commonly reported"
+        },
+        "mpg": {
+          "combined": 23,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2013, front-wheel drive"
+        }
+      },
+      {
+        "name": "2.3 EcoBoost",
+        "detail": "2016–19, now with all-wheel drive",
+        "power": {
+          "hp": 280,
+          "note": "2.3-liter turbo 4",
+          "src": "https://en.wikipedia.org/wiki/Ford_Explorer"
+        },
+        "weight": {
+          "kg": 2060,
+          "lb": 4542,
+          "note": "Curb weight, AWD, approximate"
+        },
+        "zero60": {
+          "sec": 7.4,
+          "kind": "estimated",
+          "note": "Instrumented tests"
+        },
+        "top": {
+          "mph": 115,
+          "kind": "estimated",
+          "note": "Speed-limited; commonly reported"
+        },
+        "mpg": {
+          "combined": 21,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2016, AWD"
+        }
+      },
+      {
+        "name": "Explorer Sport, 3.5 EcoBoost",
+        "power": {"hp": 365, "note": "3.5 EcoBoost, 350 lb-ft", "src": "https://en.wikipedia.org/wiki/Ford_Explorer"},
+        "weight": {"kg": 2232, "lb": 4921, "note": "Typical as-tested weight"},
+        "zero60": {"sec": 5.7, "kind": "estimated", "note": "Instrumented tests ran 5.7–6.0 seconds"},
+        "top": {"mph": 115, "kind": "estimated", "note": "Speed-limited; commonly reported"},
+        "mpg": {"combined": 18, "unit": "mpg", "kind": "epa", "src": "https://www.fueleconomy.gov/", "note": "EPA combined, 2013, AWD"},
+        "detail": "2013 on: 365 hp and blacked-out trim — the ST before the ST"
+      }
+    ],
+    "predecessor": {
+      "name": "Ford Explorer (fourth generation)",
+      "id": "ford-explorer-4th-gen"
+    },
+    "successor": {
+      "name": "Ford Explorer (sixth generation)",
+      "id": "ford-explorer-6th-gen"
+    },
+    "alongside": [],
+    "quick": "The bet that saved the badge, 2011: unibody, front-drive bones, EcoBoost fours — heresy that put the Explorer back over 200,000 sales a year.",
+    "story": [
+      "After the truck era collapsed, Ford did the unthinkable: the 2011 Explorer became a unibody crossover on the front-drive D4 platform, built in Chicago, with no frame, no low range, and eventually a 4-cylinder option. The faithful called it heresy; buyers called it exactly what they wanted. Sales climbed from the 52,190 catastrophe of 2009 back past 200,000 a year by 2015, and the Police Interceptor Utility version quietly became the default American patrol vehicle, replacing the Crown Victoria everywhere.",
+      "The 2013 Explorer Sport supplied the character the formula needed: the F-150's 365-hp 3.5 EcoBoost, all-wheel drive and blacked-out trim, hustling a 2,232-kg (4,921-lb) 3-row to 60 in well under 6 seconds in period tests — the template Ford would later badge ST. A 2016 refresh brought the 280-hp 2.3 EcoBoost and nicer cabins. The fifth generation never led the segment the way the old truck had, but it did something harder: it proved the Explorer name could survive the death of everything the Explorer used to be."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "2016 Ford Explorer XLT 4WD.jpg",
+      "credit": "MercurySable99",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pos": ""
+    },
+    "match": [
+      "Ford Explorer"
+    ]
+  },
+  {
+    "id": "ford-explorer-6th-gen",
+    "family": {
+      "id": "ford-explorer",
+      "name": "Ford Explorer"
+    },
+    "name": "Ford Explorer (sixth generation)",
+    "aka": [
+      "U625",
+      "Explorer ST",
+      "Explorer Hybrid",
+      "Timberline",
+      "Tremor",
+      "2025 refresh"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Chicago Assembly Plant, Illinois)",
+    "country": "United States",
+    "years": "2020–present",
+    "start": 2020,
+    "end": null,
+    "shop": {
+      "cargurus": "d334"
+    },
+    "body": "3-row unibody SUV on the rear-drive CD6 platform, shared with the Lincoln Aviator",
+    "engine": "2.3 EcoBoost; 3.0 EcoBoost V6; 3.3 hybrid through 2024",
+    "drive": "Rear-wheel drive or all-wheel drive",
+    "gearbox": "10-speed automatic",
+    "specsFor": "2020 Explorer ST, 3.0 EcoBoost",
+    "power": {
+      "hp": 400,
+      "note": "3.0 EcoBoost V6, ST; the 2.3 makes 300, the Platinum's 3.0 made 365 through 2021",
+      "src": "https://en.wikipedia.org/wiki/Ford_Explorer"
+    },
+    "weight": {
+      "kg": 2132,
+      "lb": 4701,
+      "note": "Curb weight, ST",
+      "src": "https://www.autoblog.com/2020/02/12/2020-ford-explorer-st-drivers-notes/"
+    },
+    "zero60": {
+      "sec": 5.5,
+      "kind": "claimed",
+      "note": "Ford's figure for the ST; some instrumented tests have run quicker",
+      "src": "https://www.autoblog.com/2020/02/12/2020-ford-explorer-st-drivers-notes/"
+    },
+    "top": {
+      "mph": 143,
+      "kind": "claimed",
+      "note": "Ford's figure for the ST; other trims are limited lower",
+      "src": "https://www.autoblog.com/2020/02/12/2020-ford-explorer-st-drivers-notes/"
+    },
+    "mpg": {
+      "combined": 20,
+      "city": 18,
+      "hwy": 24,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/",
+      "note": "EPA combined, 2021 ST, AWD; the 2.3 rates 23, the hybrid 25"
+    },
+    "built": {
+      "count": 1257360,
+      "approx": true,
+      "note": "Sold in the US, 2020–2025 calendar years; 222,706 in 2025",
+      "src": "https://en.wikipedia.org/wiki/Ford_Explorer"
+    },
+    "versions": [
+      {
+        "name": "2.3 EcoBoost",
+        "detail": "300 hp, the volume engine",
+        "power": {
+          "hp": 300,
+          "note": "2.3-liter turbo 4",
+          "src": "https://en.wikipedia.org/wiki/Ford_Explorer"
+        },
+        "weight": {
+          "kg": 2005,
+          "lb": 4420,
+          "note": "Curb weight, RWD, approximate"
+        },
+        "zero60": {
+          "sec": 6.5,
+          "kind": "estimated",
+          "note": "Instrumented tests ran roughly 6.3–6.7 seconds"
+        },
+        "top": {
+          "mph": 124,
+          "kind": "estimated",
+          "note": "Speed-limited; commonly reported"
+        },
+        "mpg": {
+          "combined": 23,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2021, AWD; 24 with rear drive"
+        }
+      },
+      {
+        "name": "3.3 Hybrid",
+        "detail": "318 hp combined; retail through 2024",
+        "power": {
+          "hp": 318,
+          "note": "3.3 V6 plus electric motor",
+          "src": "https://en.wikipedia.org/wiki/Ford_Explorer"
+        },
+        "weight": {
+          "kg": 2220,
+          "lb": 4894,
+          "note": "Curb weight, AWD, approximate"
+        },
+        "zero60": {
+          "sec": 7.4,
+          "kind": "estimated",
+          "note": "Instrumented tests"
+        },
+        "top": {
+          "mph": 124,
+          "kind": "estimated",
+          "note": "Speed-limited; commonly reported"
+        },
+        "mpg": {
+          "combined": 25,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2021, AWD; higher with rear drive"
+        }
+      },
+      {
+        "name": "3.0 EcoBoost, Platinum",
+        "detail": "365 hp, 2020–21",
+        "power": {
+          "hp": 365,
+          "note": "3.0 EcoBoost V6, Platinum tune",
+          "src": "https://en.wikipedia.org/wiki/Ford_Explorer"
+        },
+        "weight": {
+          "kg": 2110,
+          "lb": 4652,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 5.9,
+          "kind": "estimated",
+          "note": "Instrumented tests"
+        },
+        "top": {
+          "mph": 130,
+          "kind": "estimated",
+          "note": "Speed-limited; commonly reported"
+        },
+        "mpg": {
+          "combined": 20,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2021, AWD"
+        }
+      },
+      {
+        "name": "Explorer ST",
+        "power": {"hp": 400, "note": "3.0 EcoBoost V6, 415 lb-ft", "src": "https://en.wikipedia.org/wiki/Ford_Explorer"},
+        "weight": {"kg": 2132, "lb": 4701, "note": "Curb weight", "src": "https://www.autoblog.com/2020/02/12/2020-ford-explorer-st-drivers-notes/"},
+        "zero60": {"sec": 5.5, "kind": "claimed", "note": "Ford's figure; some instrumented tests have run quicker", "src": "https://www.autoblog.com/2020/02/12/2020-ford-explorer-st-drivers-notes/"},
+        "top": {"mph": 143, "kind": "claimed", "note": "Ford's figure for the ST", "src": "https://www.autoblog.com/2020/02/12/2020-ford-explorer-st-drivers-notes/"},
+        "mpg": {"combined": 20, "unit": "mpg", "kind": "epa", "src": "https://www.fueleconomy.gov/", "note": "EPA combined, 2021, AWD"},
+        "detail": "400 hp; the quickest Explorer ever sold"
+      }
+    ],
+    "predecessor": {
+      "name": "Ford Explorer (fifth generation)",
+      "id": "ford-explorer-5th-gen"
+    },
+    "successor": null,
+    "alongside": [],
+    "quick": "Back on rear-drive bones, 2020: a 400-hp ST, a hybrid, a 2025 refresh — and still, 35 years in, over 200,000 Americans a year buy an Explorer.",
+    "story": [
+      "For 2020 the Explorer swapped platforms again, this time to the rear-drive CD6 architecture shared with the Lincoln Aviator, chasing better balance, towing and the one thing the fifth generation never had: a proper performance halo. The Explorer ST delivered it — a 400-hp 3.0 EcoBoost V6, Ford's claimed 5.5 seconds to 60 and a 143-mph top speed, numbers quicker than the Focus ST hot hatch — while a 318-hp hybrid covered the other flank and the Police Interceptor Utility kept its lock on American patrol fleets.",
+      "The 2025 refresh cut the trim ladder to Active, ST-Line, Platinum and ST, with the Tremor off-road trim joining for 2026, when the lineup runs from the $38,465 Active 100A to the $56,905 ST with all-wheel drive. The 2.3 EcoBoost, 300 hp and up to 24 mpg combined, is the version most of America actually buys. 35 years after the first Eddie Bauer rolled out of Louisville, the Explorer sold 222,706 copies in 2025 — the best-selling American-brand 3-row SUV, still doing the job it invented."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "2020 Ford Explorer XLT in Oxford White, front left.jpg",
+      "credit": "Mr.choppers",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pos": ""
+    },
+    "match": [
+      "Ford Explorer"
+    ]
   }
 ];

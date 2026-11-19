@@ -7087,11 +7087,8 @@ const CARS = [
       "black-swan-allroad"
     ],
     "photo": {
-      "file": "Audi allroad quattro I 20090321 front.jpg",
-      "credit": "M 93",
-      "license": "Public domain",
-      "licenseUrl": "",
-      "pos": ""
+      "credit": "Carveyance",
+      "caption": "The Carveyance allroad quattro, roof box fitted"
     },
     "match": [
       "Audi Allroad"
@@ -35545,6 +35542,109 @@ const CARS = [
     },
     "match": [
       "Tesla Roadster"
+    ]
+  },
+  {
+    "id": "bmw-e9",
+    "name": "BMW E9 coupe",
+    "aka": [
+      "2800 CS",
+      "3.0 CS",
+      "3.0 CSi",
+      "3.0 CSL",
+      "New Six coupe",
+      "Batmobile"
+    ],
+    "make": "BMW",
+    "maker": "BMW, body built by Karmann (Osnabruck, Germany)",
+    "country": "Germany",
+    "years": "1968–1975",
+    "start": 1968,
+    "end": 1975,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "2-door pillarless coupe",
+    "engine": "BMW M30 inline-6, 2.5 to 3.2 liters",
+    "drive": "Rear-wheel drive",
+    "gearbox": "4-speed manual or 3-speed automatic",
+    "specsFor": "3.0 CS, European twin-carburetor car",
+    "power": {
+      "hp": 180,
+      "note": "DIN; US-market cars listed 170 SAE",
+      "src": "https://autozine.org/Archive/BMW/classic/CS.html"
+    },
+    "weight": {
+      "kg": 1400,
+      "lb": 3086,
+      "note": "Curb",
+      "src": "https://www.conceptcarz.com/s13292/news.aspx"
+    },
+    "zero60": {
+      "sec": 10.0,
+      "kind": "tested",
+      "note": "Road & Track's test of a US-market 1973 car; European cars and the injected CSi were quicker",
+      "src": "https://www.0-60specs.com/bmw/3-0cs-0-60-times"
+    },
+    "top": {
+      "mph": 130,
+      "kind": "tested",
+      "note": "Motor Sport's 1971 test of a European car",
+      "src": "https://www.motorsportmagazine.com/archive/article/october-1971/43/road-impressions-bmw-30-cs/"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "count": 30000,
+      "approx": true,
+      "note": "All E9s: 9,399 2800 CS, 11,063 3.0 CS, 8,199 3.0 CSi, roughly 1,100–1,265 CSL depending on the count, and 844 2.5 CS",
+      "src": "https://curbsideclassic.com/curbside-classics-european/curbside-classic-1974-bmw-3-0-cs-the-ultimate-driving-legacy"
+    },
+    "versions": [
+      {
+        "name": "2800 CS",
+        "detail": "1968–1971; 9,399 built; the original 2.8-liter car"
+      },
+      {
+        "name": "3.0 CS",
+        "detail": "1971–1975; 11,063 built; twin carburetors, 180 PS"
+      },
+      {
+        "name": "3.0 CSi",
+        "detail": "1971–1975; 8,199 built; Bosch injection, 200 PS"
+      },
+      {
+        "name": "3.0 CSL",
+        "detail": "1971–1975; the lightweight homologation car, winged 'Batmobile' at the end; roughly 1,100–1,265 built, counts vary"
+      },
+      {
+        "name": "2.5 CS",
+        "detail": "1974–1976; 844 built; the energy-crisis economy run-out"
+      }
+    ],
+    "predecessor": {
+      "name": "BMW 2000 CS",
+      "id": null
+    },
+    "successor": {
+      "name": "BMW 6 Series (E24)",
+      "id": null
+    },
+    "quick": "Karmann's pillarless BMW: the prettiest shape Munich ever sold, and the CSL racing versions won everything in touring cars. About 30,000 built, and rust took a terrible share of them.",
+    "story": [
+      "Drop every side window on an E9 and the whole flank opens into one unbroken piece of air, no pillar anywhere between the windshield and the Hofmeister kink. Karmann built the bodies, BMW dropped in the M30 straight-6, and from the 2800 CS of 1968 through the 3.0 CS and injected CSi, the coupe gave Munich something the sedans never quite managed: pure glamour. A European 3.0 CS made 180 PS on twin carburetors and ran past 130 mph in Motor Sport's hands; the US car, down to 170 SAE and saddled with big bumpers by 1974, took 10.0 seconds to 60 in Road & Track's test and cost $8,710 in 1972, or $70,100 in 2026 dollars, Porsche 911 money.",
+      "The CSL lightweights turned the pretty coupe into the most successful touring car of the decade, winning the European championship 6 times, and the first 2 BMW Art Cars, Calder's and Stella's, were CSLs. The E9's great enemy was never another car; it was water, since Karmann's shells rusted with real commitment, which is part of why survivors bring the money they do. The blue car in the photo was crossing a San Francisco intersection when it was taken, a 50-year-old design doing exactly what it was built for and outdressing everything else at the light."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "A BMW E9 coupe crossing a San Francisco intersection"
+    },
+    "match": [
+      "BMW E9",
+      "BMW 3.0 CS",
+      "BMW 3.0 CSL"
     ]
   }
 ];

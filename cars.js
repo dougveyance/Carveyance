@@ -42239,7 +42239,7 @@ const CARS = [
     ],
     "quick": "Ford bet the best-selling vehicle in America on aluminum, cut up to 750 pounds, and won: the 2018 trucks nearly broke the all-time sales record.",
     "story": [
-      "No company had ever risked what Ford risked in 2015: converting the body of America's best-selling vehicle to aluminum. Rivals ran attack ads about beer cans while Ford quietly banked the result, as much as 750 pounds gone, with a high-strength steel frame underneath. Every number improved, towing, payload, economy, acceleration, and the warranty claims the skeptics promised never materialized. The 2017 trucks added the 10-speed automatic co-developed with GM, and Car and Driver ran a 3.5 EcoBoost 4x4 to 60 mph in 5.7 seconds, sports-sedan pace from a crew-cab pickup.",
+      "No company had ever risked what Ford risked in 2015: converting the body of America's best-selling vehicle to aluminum. Rivals ran attack ads about beer cans while Ford quietly banked the result, as much as 340 kg (750 lb) gone, with a high-strength steel frame underneath. Every number improved, towing, payload, economy, acceleration, and the warranty claims the skeptics promised never materialized. The 2017 trucks added the 10-speed automatic co-developed with GM, and Car and Driver ran a 3.5 EcoBoost 4x4 to 60 mph in 5.7 seconds, sports-sedan pace from a crew-cab pickup.",
       "The 2018 refresh widened the net further: a 3.3 base V6, a 395-hp 5.0, more torque for the 2.7 EcoBoost, and the first diesel F-150, the 250-hp 3.0 Power Stroke, rated up to 25 mpg combined. America answered with 909,330 F-Series sales in calendar 2018, the best year since 2004. The aluminum gamble is why the modern truck wars are fought in materials labs and software teams as much as engine bays, and the second-generation Raptor of 2017, covered on its own page, gave the generation its icon."
     ],
     "articles": [],
@@ -43009,6 +43009,823 @@ const CARS = [
       "Ford F-150 Lightning",
       "Ford F-150",
       "Ford F-Series"
+    ]
+  },
+  {
+    "id": "ford-super-duty-1st-gen",
+    "family": {
+      "id": "ford-super-duty",
+      "name": "Ford Super Duty"
+    },
+    "name": "Ford Super Duty (first generation)",
+    "aka": [
+      "F-250",
+      "F-350",
+      "F-450",
+      "7.3 Power Stroke",
+      "6.0 Power Stroke",
+      "Excursion's platform"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Kentucky Truck Plant, Louisville)",
+    "country": "United States",
+    "years": "1999–2007",
+    "start": 1999,
+    "end": 2007,
+    "shop": {
+      "cargurus": "d341"
+    },
+    "body": "Heavy-duty pickup: F-250 and F-350, single or dual rear wheels, regular, SuperCab or crew cab",
+    "engine": "5.4 or 6.8 V10 Triton gas; 7.3, then 6.0 Power Stroke diesel",
+    "drive": "Rear-wheel drive or 4-wheel drive",
+    "gearbox": "5- or 6-speed manual, or automatic",
+    "specsFor": "2002 F-350 crew cab 4x4, 7.3 Power Stroke",
+    "power": {
+      "hp": 275,
+      "note": "7.3 Power Stroke, 2001–03 with the manual, 525 lb-ft; 250 hp with the automatic",
+      "src": "https://en.wikipedia.org/wiki/Ford_Super_Duty"
+    },
+    "weight": {
+      "kg": 3175,
+      "lb": 7000,
+      "note": "Curb weight, diesel crew cab 4x4, approximate"
+    },
+    "zero60": {
+      "sec": 10.5,
+      "kind": "estimated",
+      "note": "Period tests of 7.3 pickups ran roughly 10–12 seconds"
+    },
+    "top": {
+      "mph": 95,
+      "kind": "estimated",
+      "note": "Electronically limited; period reports"
+    },
+    "mpg": {
+      "na": "Heavy-duty pickups are exempt from EPA fuel-economy ratings"
+    },
+    "built": {
+      "na": "Ford reports Super Duty sales only inside the F-Series total; it marked 1 million Super Duty trucks built by 2001"
+    },
+    "versions": [
+      {
+        "name": "5.4 Triton",
+        "detail": "The base gas V8; 300 hp from 2005",
+        "power": {
+          "hp": 260,
+          "note": "350 lb-ft; 300 hp and 365 lb-ft from 2005",
+          "src": "https://en.wikipedia.org/wiki/Ford_Super_Duty"
+        },
+        "weight": {
+          "kg": 2860,
+          "lb": 6305,
+          "note": "Curb weight, gas regular cab, approximate"
+        },
+        "zero60": {
+          "sec": 11.5,
+          "kind": "estimated",
+          "note": "Period figures"
+        },
+        "top": {
+          "mph": 95,
+          "kind": "estimated",
+          "note": "Electronically limited; period reports"
+        },
+        "mpg": {
+          "na": "Heavy-duty pickups are exempt from EPA fuel-economy ratings"
+        }
+      },
+      {
+        "name": "6.8 Triton V10",
+        "detail": "The gas puller; 362 hp from 2005",
+        "power": {
+          "hp": 310,
+          "note": "425 lb-ft; 362 hp and 457 lb-ft from 2005",
+          "src": "https://en.wikipedia.org/wiki/Ford_Super_Duty"
+        },
+        "weight": {
+          "kg": 2990,
+          "lb": 6592,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 9.5,
+          "kind": "estimated",
+          "note": "Period figures for the V10"
+        },
+        "top": {
+          "mph": 95,
+          "kind": "estimated",
+          "note": "Electronically limited; period reports"
+        },
+        "mpg": {
+          "na": "Heavy-duty pickups are exempt from EPA fuel-economy ratings"
+        }
+      },
+      {
+        "name": "7.3 Power Stroke",
+        "power": {"hp": 275, "note": "525 lb-ft; 250 hp with the automatic, 235 before 2001", "src": "https://en.wikipedia.org/wiki/Ford_Super_Duty"},
+        "weight": {"kg": 3175, "lb": 7000, "note": "Curb weight, crew cab 4x4, approximate"},
+        "zero60": {"sec": 10.5, "kind": "estimated", "note": "Period tests ran roughly 10–12 seconds"},
+        "top": {"mph": 95, "kind": "estimated", "note": "Electronically limited; period reports"},
+        "mpg": {"na": "Heavy-duty pickups are exempt from EPA fuel-economy ratings"},
+        "detail": "1999–2003: the legend the generation is remembered for"
+      },
+      {
+        "name": "6.0 Power Stroke",
+        "detail": "2003–07: 325 hp, 570 lb-ft, and a repair bill waiting to happen",
+        "power": {
+          "hp": 325,
+          "note": "560 lb-ft, 570 from 2005",
+          "src": "https://en.wikipedia.org/wiki/Ford_Super_Duty"
+        },
+        "weight": {
+          "kg": 3200,
+          "lb": 7055,
+          "note": "Curb weight, diesel crew cab 4x4, approximate"
+        },
+        "zero60": {
+          "sec": 8.9,
+          "kind": "estimated",
+          "note": "Period tests of the 6.0 ran roughly 8.5–9.5 seconds"
+        },
+        "top": {
+          "mph": 95,
+          "kind": "estimated",
+          "note": "Electronically limited; period reports"
+        },
+        "mpg": {
+          "na": "Heavy-duty pickups are exempt from EPA fuel-economy ratings"
+        }
+      }
+    ],
+    "predecessor": null,
+    "successor": {
+      "name": "Ford Super Duty (second generation)",
+      "id": "ford-super-duty-2nd-gen"
+    },
+    "alongside": [
+      {
+        "name": "Ford F-150 (tenth generation)",
+        "id": "ford-f-series-10th-gen"
+      }
+    ],
+    "quick": "The 1999 split that created the modern heavy-duty truck: its own frame, its own face, the 7.3 Power Stroke — and 1 million built inside 3 years.",
+    "story": [
+      "When the F-150 went aero and personal-use for 1997, the trades were left waiting, and Ford answered in early 1999 with something new in the industry: a heavy-duty pickup line engineered apart from the half-ton, on its own frame with its own cab and nose. The Super Duty name covered F-250 through F-550, and the engine that defined it was already a cult object: the 7.3-liter Power Stroke turbodiesel, 235 and eventually 275 hp, 525 lb-ft, and a bottom end that shrugged at 400,000 miles. Buyers took 1 million Super Duty trucks in the first 3 years, and the Excursion SUV rode the same bones.",
+      "The generation's second act is a cautionary tale diesel people still argue about. Emissions rules retired the 7.3 in 2003 for the 6.0 Power Stroke, 325 hp, more torque, and a reputation-destroying appetite for head gaskets, EGR coolers and oil coolers. The fix industry that grew up around “bulletproofing” the 6.0 says everything. On today's used market the split is absolute: clean 7.3 trucks trade like collectibles, while a 6.0 is priced by its receipts. Either way, this is the truck that proved heavy-duty buyers would pay for a dedicated machine — every HD pickup since is built on that discovery."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "1999 Ford F-250 Super Duty in Black Clearcoat, front left, 07-22-2022.jpg",
+      "credit": "Cutlass",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0",
+      "pos": ""
+    },
+    "match": [
+      "Ford Super Duty",
+      "Ford F-250",
+      "Ford F-350"
+    ]
+  },
+  {
+    "id": "ford-super-duty-2nd-gen",
+    "family": {
+      "id": "ford-super-duty",
+      "name": "Ford Super Duty"
+    },
+    "name": "Ford Super Duty (second generation)",
+    "aka": [
+      "2008–10 F-250",
+      "6.4 Power Stroke",
+      "twin-turbo diesel"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Kentucky Truck Plant, Louisville)",
+    "country": "United States",
+    "years": "2008–2010",
+    "start": 2008,
+    "end": 2010,
+    "shop": {
+      "cargurus": "d341"
+    },
+    "body": "Heavy-duty pickup: F-250, F-350 and F-450 pickup, single or dual rear wheels",
+    "engine": "5.4 or 6.8 V10 gas; 6.4 Power Stroke twin-turbo diesel",
+    "drive": "Rear-wheel drive or 4-wheel drive",
+    "gearbox": "6-speed manual or 5-speed automatic",
+    "specsFor": "2008 F-250 crew cab 4x4, 6.4 Power Stroke",
+    "power": {
+      "hp": 350,
+      "note": "6.4 Power Stroke, 650 lb-ft, the first twin-turbo diesel in the class",
+      "src": "https://en.wikipedia.org/wiki/Ford_Super_Duty"
+    },
+    "weight": {
+      "kg": 3400,
+      "lb": 7496,
+      "note": "Curb weight, diesel crew cab 4x4, approximate"
+    },
+    "zero60": {
+      "sec": 8.5,
+      "kind": "estimated",
+      "note": "Period tests of the 6.4 ran roughly 8–9 seconds"
+    },
+    "top": {
+      "mph": 98,
+      "kind": "estimated",
+      "note": "Electronically limited; commonly reported"
+    },
+    "mpg": {
+      "na": "Heavy-duty pickups are exempt from EPA fuel-economy ratings"
+    },
+    "built": {
+      "na": "Ford reports Super Duty sales only inside the F-Series total"
+    },
+    "versions": [
+      {
+        "name": "5.4 Triton",
+        "detail": "Base gas V8",
+        "power": {
+          "hp": 300,
+          "note": "365 lb-ft",
+          "src": "https://en.wikipedia.org/wiki/Ford_Super_Duty"
+        },
+        "weight": {
+          "kg": 3050,
+          "lb": 6724,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 11.0,
+          "kind": "estimated",
+          "note": "Period figures"
+        },
+        "top": {
+          "mph": 98,
+          "kind": "estimated",
+          "note": "Electronically limited; commonly reported"
+        },
+        "mpg": {
+          "na": "Heavy-duty pickups are exempt from EPA fuel-economy ratings"
+        }
+      },
+      {
+        "name": "6.8 Triton V10",
+        "detail": "The gas alternative for heavy work",
+        "power": {
+          "hp": 362,
+          "note": "457 lb-ft",
+          "src": "https://en.wikipedia.org/wiki/Ford_Super_Duty"
+        },
+        "weight": {
+          "kg": 3130,
+          "lb": 6900,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 9.0,
+          "kind": "estimated",
+          "note": "Period figures"
+        },
+        "top": {
+          "mph": 98,
+          "kind": "estimated",
+          "note": "Electronically limited; commonly reported"
+        },
+        "mpg": {
+          "na": "Heavy-duty pickups are exempt from EPA fuel-economy ratings"
+        }
+      },
+      {
+        "name": "6.4 Power Stroke",
+        "power": {"hp": 350, "note": "650 lb-ft, twin sequential turbos", "src": "https://en.wikipedia.org/wiki/Ford_Super_Duty"},
+        "weight": {"kg": 3400, "lb": 7496, "note": "Curb weight, crew cab 4x4, approximate"},
+        "zero60": {"sec": 8.5, "kind": "estimated", "note": "Period tests ran roughly 8–9 seconds"},
+        "top": {"mph": 98, "kind": "estimated", "note": "Electronically limited; commonly reported"},
+        "mpg": {"na": "Heavy-duty pickups are exempt from EPA fuel-economy ratings"},
+        "detail": "350 hp, 650 lb-ft; the first Super Duty with a factory exhaust brake"
+      }
+    ],
+    "predecessor": {
+      "name": "Ford Super Duty (first generation)",
+      "id": "ford-super-duty-1st-gen"
+    },
+    "successor": {
+      "name": "Ford Super Duty (third generation)",
+      "id": "ford-super-duty-3rd-gen"
+    },
+    "alongside": [],
+    "quick": "3 years, 1 mission: the 2008–10 trucks carried the twin-turbo 6.4 diesel through the emissions squeeze while Ford built its own engine in the background.",
+    "story": [
+      "The 2008 Super Duty arrived mid-crisis in Ford's diesel partnership with Navistar, and its 6.4-liter Power Stroke was the stopgap that had to work: twin sequential turbos, 350 hp, 650 lb-ft, and the first diesel particulate filter in a Ford pickup, meeting emissions rules that had strangled the 6.0. The truck around it toughened too, with a bolder grille, a stowable bed extender and the class's first factory exhaust brake. Gas buyers kept the 300-hp 5.4 and the 362-hp V10, but the 6.4 was the headline, and in 3-quarter-ton America the headline is always the diesel.",
+      "History has been kinder to the 6.4 than the 6.0, but only by degrees: it drinks fuel, its pistons dislike extended idling, and its emissions hardware ages expensively, so the used-market rule of receipts applies in full. The generation's real significance is what it ended. Ford and Navistar's 3-decade diesel partnership dissolved in these years, and when this truck retired in 2010, so did the last outside-sourced engine in a Ford heavy-duty pickup. Everything after is Ford's own — which is exactly why the next generation changed the game."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "2008 Ford F-250 Super Duty Crew Cab (Montreal).jpg",
+      "credit": "Bull-Doser",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:2008_Ford_F-250_Super_Duty_Crew_Cab_(Montreal).jpg",
+      "pos": ""
+    },
+    "match": [
+      "Ford Super Duty",
+      "Ford F-250",
+      "Ford F-350"
+    ]
+  },
+  {
+    "id": "ford-super-duty-3rd-gen",
+    "family": {
+      "id": "ford-super-duty",
+      "name": "Ford Super Duty"
+    },
+    "name": "Ford Super Duty (third generation)",
+    "aka": [
+      "2011–16 F-250",
+      "6.7 Power Stroke",
+      "Scorpion diesel",
+      "6.2 Boss"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Kentucky Truck Plant, Louisville)",
+    "country": "United States",
+    "years": "2011–2016",
+    "start": 2011,
+    "end": 2016,
+    "shop": {
+      "cargurus": "d341"
+    },
+    "body": "Heavy-duty pickup: F-250, F-350 and F-450 pickup, single or dual rear wheels",
+    "engine": "6.2 gas V8; 6.7 Power Stroke diesel, Ford's first in-house diesel",
+    "drive": "Rear-wheel drive or 4-wheel drive",
+    "gearbox": "6-speed automatic",
+    "specsFor": "2015 F-250 crew cab 4x4, 6.7 Power Stroke",
+    "power": {
+      "hp": 440,
+      "note": "6.7 Power Stroke, 860 lb-ft, 2015–16; 400 hp and 800 lb-ft at the 2011 launch",
+      "src": "https://en.wikipedia.org/wiki/Ford_Super_Duty"
+    },
+    "weight": {
+      "kg": 3580,
+      "lb": 7893,
+      "note": "Curb weight, diesel crew cab 4x4, approximate"
+    },
+    "zero60": {
+      "sec": 7.8,
+      "kind": "estimated",
+      "note": "Instrumented tests of 6.7 pickups ran roughly 7.5–8.2 seconds"
+    },
+    "top": {
+      "mph": 98,
+      "kind": "estimated",
+      "note": "Electronically limited; commonly reported"
+    },
+    "mpg": {
+      "na": "Heavy-duty pickups are exempt from EPA fuel-economy ratings"
+    },
+    "built": {
+      "na": "Ford reports Super Duty sales only inside the F-Series total"
+    },
+    "versions": [
+      {
+        "name": "6.2 gas V8",
+        "detail": "The Boss V8, standard",
+        "power": {
+          "hp": 385,
+          "note": "405 lb-ft",
+          "src": "https://en.wikipedia.org/wiki/Ford_Super_Duty"
+        },
+        "weight": {
+          "kg": 3220,
+          "lb": 7099,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 8.8,
+          "kind": "estimated",
+          "note": "Instrumented tests of the 6.2"
+        },
+        "top": {
+          "mph": 98,
+          "kind": "estimated",
+          "note": "Electronically limited; commonly reported"
+        },
+        "mpg": {
+          "na": "Heavy-duty pickups are exempt from EPA fuel-economy ratings"
+        }
+      },
+      {
+        "name": "6.7 Power Stroke, 2011–14",
+        "detail": "Ford's first in-house diesel: 400 hp, 800 lb-ft",
+        "power": {
+          "hp": 400,
+          "note": "800 lb-ft",
+          "src": "https://en.wikipedia.org/wiki/Ford_Super_Duty"
+        },
+        "weight": {
+          "kg": 3580,
+          "lb": 7893,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 8.0,
+          "kind": "estimated",
+          "note": "Instrumented tests"
+        },
+        "top": {
+          "mph": 98,
+          "kind": "estimated",
+          "note": "Electronically limited; commonly reported"
+        },
+        "mpg": {
+          "na": "Heavy-duty pickups are exempt from EPA fuel-economy ratings"
+        }
+      },
+      {
+        "name": "6.7 Power Stroke, 2015–16",
+        "power": {"hp": 440, "note": "860 lb-ft", "src": "https://en.wikipedia.org/wiki/Ford_Super_Duty"},
+        "weight": {"kg": 3580, "lb": 7893, "note": "Curb weight, approximate"},
+        "zero60": {"sec": 7.8, "kind": "estimated", "note": "Instrumented tests ran roughly 7.5–8.2 seconds"},
+        "top": {"mph": 98, "kind": "estimated", "note": "Electronically limited; commonly reported"},
+        "mpg": {"na": "Heavy-duty pickups are exempt from EPA fuel-economy ratings"},
+        "detail": "440 hp and 860 lb-ft after the mid-cycle turbo upgrade"
+      }
+    ],
+    "predecessor": {
+      "name": "Ford Super Duty (second generation)",
+      "id": "ford-super-duty-2nd-gen"
+    },
+    "successor": {
+      "name": "Ford Super Duty (fourth generation)",
+      "id": "ford-super-duty-4th-gen"
+    },
+    "alongside": [],
+    "quick": "Ford fires Navistar and builds its own diesel: the 6.7 “Scorpion” Power Stroke of 2011 started the torque war that heavy trucks are still fighting.",
+    "story": [
+      "After 2 straight diesel disappointments, Ford did what it had never done in the segment: it designed its own. The 2011 Super Duty's 6.7-liter Power Stroke, developed in-house and nicknamed Scorpion for its in-valley turbo, opened at 400 hp and 800 lb-ft, and when Ram answered, Ford answered back with a software update that lifted early trucks to 800 lb-ft retroactively — the torque war had begun. A mid-cycle turbo upgrade took 2015–16 trucks to 440 hp and 860 lb-ft. The gas side got the 385-hp 6.2 “Boss” V8, and the old V10 retreated to chassis cabs.",
+      "The Scorpion settled the question the 6.0 and 6.4 had raised: yes, Ford could build a heavy-duty diesel to match its heavy-duty truck. Reliability recovered, resale followed, and the 2011–16 trucks became the default recommendation for used 3-quarter-ton shoppers — modern enough to tow anything, old enough to cost half what a new one does. The one caution the forums repeat is the CP4 high-pressure fuel pump's intolerance of bad fuel, a receipts-and-fuel-history conversation every used 6.7 deserves. It is a strong candidate for the best used heavy truck of its era."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "2013 Ford F-250 Platinum diesel (8403002959).jpg",
+      "credit": "Sarah Larson",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "pos": ""
+    },
+    "match": [
+      "Ford Super Duty",
+      "Ford F-250",
+      "Ford F-350"
+    ]
+  },
+  {
+    "id": "ford-super-duty-4th-gen",
+    "family": {
+      "id": "ford-super-duty",
+      "name": "Ford Super Duty"
+    },
+    "name": "Ford Super Duty (fourth generation)",
+    "aka": [
+      "2017–22 F-250",
+      "aluminum Super Duty",
+      "7.3 Godzilla",
+      "Tremor"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Kentucky Truck Plant, Louisville)",
+    "country": "United States",
+    "years": "2017–2022",
+    "start": 2017,
+    "end": 2022,
+    "shop": {
+      "cargurus": "d341"
+    },
+    "body": "Heavy-duty pickup: F-250, F-350 and F-450 pickup, aluminum body on a steel frame",
+    "engine": "6.2 or 7.3 “Godzilla” gas V8; 6.7 Power Stroke diesel",
+    "drive": "Rear-wheel drive or 4-wheel drive",
+    "gearbox": "6-speed automatic; 10-speed from 2020",
+    "specsFor": "2020 F-250 crew cab 4x4, 6.7 Power Stroke",
+    "power": {
+      "hp": 475,
+      "note": "6.7 Power Stroke, 1,050 lb-ft, 2020–22; 440 hp at the 2017 launch",
+      "src": "https://en.wikipedia.org/wiki/Ford_Super_Duty"
+    },
+    "weight": {
+      "kg": 3630,
+      "lb": 8003,
+      "note": "Curb weight, diesel crew cab 4x4, approximate"
+    },
+    "zero60": {
+      "sec": 7.0,
+      "kind": "estimated",
+      "note": "Instrumented tests of the 2020-on 475-hp diesel ran roughly 6.8–7.4 seconds"
+    },
+    "top": {
+      "mph": 98,
+      "kind": "estimated",
+      "note": "Electronically limited; commonly reported"
+    },
+    "mpg": {
+      "na": "Heavy-duty pickups are exempt from EPA fuel-economy ratings"
+    },
+    "built": {
+      "na": "Ford reports Super Duty sales only inside the F-Series total"
+    },
+    "versions": [
+      {
+        "name": "6.2 gas V8",
+        "detail": "The carryover base engine",
+        "power": {
+          "hp": 385,
+          "note": "430 lb-ft",
+          "src": "https://en.wikipedia.org/wiki/Ford_Super_Duty"
+        },
+        "weight": {
+          "kg": 3270,
+          "lb": 7209,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 8.5,
+          "kind": "estimated",
+          "note": "Instrumented tests"
+        },
+        "top": {
+          "mph": 98,
+          "kind": "estimated",
+          "note": "Electronically limited; commonly reported"
+        },
+        "mpg": {
+          "na": "Heavy-duty pickups are exempt from EPA fuel-economy ratings"
+        }
+      },
+      {
+        "name": "7.3 “Godzilla” V8",
+        "detail": "2020 on: 430 hp of pushrod gas",
+        "power": {
+          "hp": 430,
+          "note": "475 lb-ft; the biggest gas V8 in any modern pickup",
+          "src": "https://en.wikipedia.org/wiki/Ford_Super_Duty"
+        },
+        "weight": {
+          "kg": 3330,
+          "lb": 7341,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 7.5,
+          "kind": "estimated",
+          "note": "Instrumented tests of the 7.3"
+        },
+        "top": {
+          "mph": 98,
+          "kind": "estimated",
+          "note": "Electronically limited; commonly reported"
+        },
+        "mpg": {
+          "na": "Heavy-duty pickups are exempt from EPA fuel-economy ratings"
+        }
+      },
+      {
+        "name": "6.7 Power Stroke, 2017–19",
+        "detail": "440, then 450 hp, up to 935 lb-ft",
+        "power": {
+          "hp": 450,
+          "note": "935 lb-ft, 2018–19",
+          "src": "https://en.wikipedia.org/wiki/Ford_Super_Duty"
+        },
+        "weight": {
+          "kg": 3630,
+          "lb": 8003,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 7.3,
+          "kind": "estimated",
+          "note": "Instrumented tests"
+        },
+        "top": {
+          "mph": 98,
+          "kind": "estimated",
+          "note": "Electronically limited; commonly reported"
+        },
+        "mpg": {
+          "na": "Heavy-duty pickups are exempt from EPA fuel-economy ratings"
+        }
+      },
+      {
+        "name": "6.7 Power Stroke, 2020–22",
+        "power": {"hp": 475, "note": "1,050 lb-ft", "src": "https://en.wikipedia.org/wiki/Ford_Super_Duty"},
+        "weight": {"kg": 3630, "lb": 8003, "note": "Curb weight, approximate"},
+        "zero60": {"sec": 7.0, "kind": "estimated", "note": "Instrumented tests ran roughly 6.8–7.4 seconds"},
+        "top": {"mph": 98, "kind": "estimated", "note": "Electronically limited; commonly reported"},
+        "mpg": {"na": "Heavy-duty pickups are exempt from EPA fuel-economy ratings"},
+        "detail": "475 hp, 1,050 lb-ft and the 10-speed: the 4-digit-torque era begins"
+      }
+    ],
+    "predecessor": {
+      "name": "Ford Super Duty (third generation)",
+      "id": "ford-super-duty-3rd-gen"
+    },
+    "successor": {
+      "name": "Ford Super Duty (fifth generation)",
+      "id": "ford-super-duty-5th-gen"
+    },
+    "alongside": [],
+    "quick": "The aluminum body reaches the heavy trucks, the 7.3 “Godzilla” revives the big gas V8, and the 6.7 crosses 1,000 lb-ft: the 2017–22 Super Duty.",
+    "story": [
+      "2 years after the F-150 went aluminum, the Super Duty followed, finally sharing a cab with the half-ton again for the first time since 1997 and shedding up to 350 pounds, which Ford spent straight back into frame, axles and towing. By 2020 the numbers had gone vertical: the 6.7 Power Stroke hit 475 hp and 1,050 lb-ft through a new 10-speed, and the gas side welcomed the 7.3-liter “Godzilla,” a pushrod V8 of gloriously old-school construction making 430 hp, an instant crate-engine cult hero. The Tremor package brought 35-inch tires and real off-road hardware to the 3-quarter-ton class.",
+      "This is the generation where heavy-duty towing numbers stopped sounding like trucks and started sounding like freight: properly equipped F-450s rated to pull 16,783 kg (37,000 lb) by gooseneck, with cameras and trailer tech that made it almost civilized. For used buyers the 2020–22 trucks are the prize — the 10-speed, the stronger 6.7, Godzilla as the no-DEF alternative — and they are priced accordingly. The quiet story is reliability: the 6.7 and 7.3 both aged well, and the Super Duty's grip on the segment tightened into the next generation."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "2018 Ford F-250 Super Duty au SIAM 2018.jpg",
+      "credit": "Bull-Doser",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:2018_Ford_F-250_Super_Duty_au_SIAM_2018.jpg",
+      "pos": ""
+    },
+    "match": [
+      "Ford Super Duty",
+      "Ford F-250",
+      "Ford F-350"
+    ]
+  },
+  {
+    "id": "ford-super-duty-5th-gen",
+    "family": {
+      "id": "ford-super-duty",
+      "name": "Ford Super Duty"
+    },
+    "name": "Ford Super Duty (fifth generation)",
+    "aka": [
+      "2023–present F-250",
+      "High Output Power Stroke",
+      "6.8 Godzilla",
+      "1,200 lb-ft"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Kentucky Truck Plant, Louisville; chassis cabs also in Avon Lake, Ohio)",
+    "country": "United States",
+    "years": "2023–present",
+    "start": 2023,
+    "end": null,
+    "shop": {
+      "cargurus": "d341"
+    },
+    "body": "Heavy-duty pickup: F-250, F-350 and F-450 pickup, single or dual rear wheels",
+    "engine": "6.8 or 7.3 gas V8; 6.7 Power Stroke, standard or High Output",
+    "drive": "Rear-wheel drive or 4-wheel drive",
+    "gearbox": "10-speed automatic",
+    "specsFor": "2024 F-250 crew cab 4x4, 6.7 High Output Power Stroke",
+    "power": {
+      "hp": 500,
+      "note": "High Output 6.7, 1,200 lb-ft; the standard 6.7 makes 475, the 7.3 gas 430, the 6.8 gas 405",
+      "src": "https://en.wikipedia.org/wiki/Ford_Super_Duty"
+    },
+    "weight": {
+      "kg": 3900,
+      "lb": 8598,
+      "note": "Curb weight, High Output crew cab 4x4, approximate"
+    },
+    "zero60": {
+      "sec": 6.4,
+      "kind": "estimated",
+      "note": "Instrumented tests of the 500-hp High Output ran in the low-to-mid 6s"
+    },
+    "top": {
+      "mph": 98,
+      "kind": "estimated",
+      "note": "Electronically limited; commonly reported"
+    },
+    "mpg": {
+      "na": "Heavy-duty pickups are exempt from EPA fuel-economy ratings"
+    },
+    "built": {
+      "na": "Ford reports Super Duty sales only inside the F-Series total"
+    },
+    "versions": [
+      {
+        "name": "6.8 gas V8",
+        "detail": "The new base engine, a destroked Godzilla",
+        "power": {
+          "hp": 405,
+          "note": "445 lb-ft",
+          "src": "https://en.wikipedia.org/wiki/Ford_Super_Duty"
+        },
+        "weight": {
+          "kg": 3340,
+          "lb": 7363,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 7.8,
+          "kind": "estimated",
+          "note": "Instrumented tests"
+        },
+        "top": {
+          "mph": 98,
+          "kind": "estimated",
+          "note": "Electronically limited; commonly reported"
+        },
+        "mpg": {
+          "na": "Heavy-duty pickups are exempt from EPA fuel-economy ratings"
+        }
+      },
+      {
+        "name": "7.3 “Godzilla” V8",
+        "detail": "430 hp of gas simplicity",
+        "power": {
+          "hp": 430,
+          "note": "485 lb-ft",
+          "src": "https://en.wikipedia.org/wiki/Ford_Super_Duty"
+        },
+        "weight": {
+          "kg": 3360,
+          "lb": 7407,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 7.4,
+          "kind": "estimated",
+          "note": "Instrumented tests of the 7.3"
+        },
+        "top": {
+          "mph": 98,
+          "kind": "estimated",
+          "note": "Electronically limited; commonly reported"
+        },
+        "mpg": {
+          "na": "Heavy-duty pickups are exempt from EPA fuel-economy ratings"
+        }
+      },
+      {
+        "name": "6.7 Power Stroke",
+        "detail": "The standard diesel: 475 hp, 1,050 lb-ft",
+        "power": {
+          "hp": 475,
+          "note": "1,050 lb-ft",
+          "src": "https://en.wikipedia.org/wiki/Ford_Super_Duty"
+        },
+        "weight": {
+          "kg": 3860,
+          "lb": 8510,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 6.9,
+          "kind": "estimated",
+          "note": "Instrumented tests"
+        },
+        "top": {
+          "mph": 98,
+          "kind": "estimated",
+          "note": "Electronically limited; commonly reported"
+        },
+        "mpg": {
+          "na": "Heavy-duty pickups are exempt from EPA fuel-economy ratings"
+        }
+      },
+      {
+        "name": "6.7 High Output",
+        "power": {"hp": 500, "note": "1,200 lb-ft — the strongest engine Ford has put in a pickup", "src": "https://en.wikipedia.org/wiki/Ford_Super_Duty"},
+        "weight": {"kg": 3900, "lb": 8598, "note": "Curb weight, crew cab 4x4, approximate"},
+        "zero60": {"sec": 6.4, "kind": "estimated", "note": "Instrumented tests ran in the low-to-mid 6s"},
+        "top": {"mph": 98, "kind": "estimated", "note": "Electronically limited; commonly reported"},
+        "mpg": {"na": "Heavy-duty pickups are exempt from EPA fuel-economy ratings"},
+        "detail": "500 hp and 1,200 lb-ft — the strongest pickup engine Ford has ever sold"
+      }
+    ],
+    "predecessor": {
+      "name": "Ford Super Duty (fourth generation)",
+      "id": "ford-super-duty-4th-gen"
+    },
+    "successor": null,
+    "alongside": [
+      {
+        "name": "Ford F-150 (fourteenth generation)",
+        "id": "ford-f-series-14th-gen"
+      }
+    ],
+    "quick": "The current heavy: 500 hp and 1,200 lb-ft from the High Output 6.7, 4 V8s and nothing smaller, and towing ratings that read like freight class.",
+    "story": [
+      "The 2023 redesign kept the Super Duty formula — steel frame, aluminum body, V8s only — and pushed every number past parody. The High Output 6.7 Power Stroke makes 500 hp and 1,200 lb-ft, enough for a properly equipped F-450 to tow 18,144 kg (40,000 lb) by gooseneck, and even the “small” engine is a 6.8-liter, 405-hp V8. Onboard scales, Pro Power generators and trailer-reversing software migrated over from the F-150, civilizing a truck whose diesel crew-cab versions weigh as much as 2 Miatas with a Monster Miata on top.",
+      "For 2026 the lineup runs 5 trims, XL to Platinum, with the F-250 XL SuperCrew opening at $48,890 and loaded High Output Platinums listing near $100,000 — money that would have bought a house when the first Super Duty shipped. The buyers keep coming because nothing else tows like it and because the work never stopped: the Super Duty is the quiet majority of those 800,000-plus F-Series sales every year, the truck under America's horse trailers, boat ramps and utility fleets. The half-ton gets the headlines; this is the one doing the lifting."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "2023 Ford F-250 Super Duty Crew Cab.jpg",
+      "credit": "Bull-Doser",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:2023_Ford_F-250_Super_Duty_Crew_Cab.jpg",
+      "pos": ""
+    },
+    "match": [
+      "Ford Super Duty",
+      "Ford F-250",
+      "Ford F-350",
+      "Ford F-450"
     ]
   }
 ];

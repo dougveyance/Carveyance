@@ -43176,10 +43176,10 @@ const CARS = [
     ],
     "articles": [],
     "photo": {
-      "file": "Ford F-350 Super Duty (2002) (53464794488).jpg",
-      "credit": "Charles",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "file": "1999 Ford F-250 Super Duty in Black Clearcoat, front left, 07-22-2022.jpg",
+      "credit": "Cutlass",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0",
       "pos": ""
     },
     "match": [

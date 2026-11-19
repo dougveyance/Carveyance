@@ -29333,7 +29333,7 @@ const CARS_INDEX = [
    "name": "Ford Super Duty (second generation)"
   },
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Ford_F-350_Super_Duty_(2002)_(53464794488).jpg/960px-Ford_F-350_Super_Duty_(2002)_(53464794488).jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/1999_Ford_F-250_Super_Duty_in_Black_Clearcoat,_front_left,_07-22-2022.jpg/960px-1999_Ford_F-250_Super_Duty_in_Black_Clearcoat,_front_left,_07-22-2022.jpg",
    "pos": "",
    "fit": ""
   }

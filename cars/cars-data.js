@@ -27222,5 +27222,745 @@ const CARS_INDEX = [
    "pos": "",
    "fit": ""
   }
+ },
+ {
+  "id": "iso-grifo",
+  "name": "Iso Grifo",
+  "aka": [
+   "Grifo GL",
+   "7 Litri",
+   "Can-Am",
+   "A3/L"
+  ],
+  "make": "Iso",
+  "maker": "Iso Autoveicoli (Bresso, Italy)",
+  "years": "1965–1974",
+  "start": 1965,
+  "body": "2-door grand touring coupe",
+  "engine": "Chevrolet small- and big-block V8s; Ford 351 at the end",
+  "country": "Italy",
+  "quick": "Giugiaro's prettiest coupe over Bizzarrini's chassis with a Corvette heart: the refrigerator magnate's answer to Ferrari, built about 412 times — with the Isetta bubble car paying the bills.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive",
+  "gearbox": "4- or 5-speed manual, or automatic",
+  "specsFor": "1965 Series I, Chevrolet 327, 300 hp",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 300,
+  "kg": null,
+  "kgNote": "",
+  "lbs": null,
+  "z60": null,
+  "top": null,
+  "mpg": null,
+  "built": {
+   "count": 412,
+   "approx": true,
+   "note": "Sources count 402 to 413 across the decade"
+  },
+  "alongside": [
+   {
+    "id": "bmw-isetta",
+    "name": "BMW Isetta"
+   }
+  ],
+  "prev": null,
+  "next": null,
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Iso_Grifo_Series_II_1972.jpg/960px-Iso_Grifo_Series_II_1972.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "hispano-suiza-alfonso-xiii",
+  "name": "Hispano-Suiza Alfonso XIII",
+  "aka": [
+   "T45",
+   "15T",
+   "Alfonso"
+  ],
+  "make": "Hispano-Suiza",
+  "maker": "Hispano-Suiza (Barcelona, Spain)",
+  "years": "1911–1914",
+  "start": 1911,
+  "body": "Short-chassis sporting 2- and 3-seaters",
+  "engine": "3.6-liter long-stroke T-head 4",
+  "country": "Spain",
+  "quick": "A production car named after the king who loved the racing original — built around the engine that won the 1910 Coupe de l'Auto, and as good a claimant as exists to the title of first sports car.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive",
+  "gearbox": "3-speed manual",
+  "specsFor": "1912–1914 sports model",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 45,
+  "kg": null,
+  "kgNote": "",
+  "lbs": null,
+  "z60": null,
+  "top": {
+   "mph": 75,
+   "kind": "claimed",
+   "note": "About; racing versions went faster"
+  },
+  "mpg": null,
+  "built": null,
+  "alongside": [],
+  "prev": null,
+  "next": null,
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Hispano_Suiza_%22Alfonso_XIII%22.jpg/960px-Hispano_Suiza_%22Alfonso_XIII%22.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "mg-tc",
+  "name": "MG TC",
+  "aka": [
+   "T-Type",
+   "Midget TC"
+  ],
+  "make": "MG",
+  "maker": "MG (Abingdon, England)",
+  "years": "1945–1949",
+  "start": 1945,
+  "body": "2-seat open sports car on 19-inch wires",
+  "engine": "1,250 cc XPAG 4",
+  "country": "United Kingdom",
+  "quick": "The car that taught America sports cars: GIs shipped TCs home from England, and 10,001 of them — every single one right-hand drive — seeded every US sports car club, road course and Corvette that followed.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive",
+  "gearbox": "4-speed manual",
+  "specsFor": "1948 TC",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 54,
+  "kg": null,
+  "kgNote": "",
+  "lbs": null,
+  "z60": {
+   "sec": 22.7,
+   "kind": "tested",
+   "note": "Period figure"
+  },
+  "top": {
+   "mph": 78,
+   "kind": "tested",
+   "note": "Period figure"
+  },
+  "mpg": {
+   "combined": 23.3,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "estimated",
+   "note": "28 mpg imperial, period figure, converted"
+  },
+  "built": {
+   "count": 10001,
+   "approx": false,
+   "note": "1945–1949; about 2,000 went to the US, every one right-hand drive"
+  },
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": null,
+   "name": "MG TD"
+  },
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/MG_TC_1948.jpg/960px-MG_TC_1948.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "bmw-328",
+  "name": "BMW 328",
+  "aka": [
+   "Mille Miglia roadster"
+  ],
+  "make": "BMW",
+  "maker": "BMW (Eisenach, Germany)",
+  "years": "1936–1940",
+  "start": 1936,
+  "body": "2-seat sports roadster",
+  "engine": "2.0-liter M328 inline-6, hemispherical head",
+  "country": "Germany",
+  "quick": "The prewar sports car answer key: 80 hp beating 200-hp monsters on balance and lightness, a Mille Miglia outright win in 1940, and a direct bloodline to the postwar Bristols and the 507.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive",
+  "gearbox": "4-speed manual",
+  "specsFor": "Standard roadster, BMW's figures",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 80,
+  "kg": 830,
+  "kgNote": "BMW's figure",
+  "lbs": 1830,
+  "z60": null,
+  "top": {
+   "mph": 96,
+   "kind": "tested",
+   "note": "BMW's figure for the standard car; streamlined racers went far beyond"
+  },
+  "mpg": null,
+  "built": {
+   "count": 464,
+   "approx": false,
+   "note": "1936–1940, BMW's own count"
+  },
+  "alongside": [],
+  "prev": null,
+  "next": null,
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/BMW_328_Roadster_(1938)_1X7A7859.jpg/960px-BMW_328_Roadster_(1938)_1X7A7859.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "sunbeam-alpine",
+  "name": "Sunbeam Alpine",
+  "aka": [
+   "Series I–V",
+   "Tiger's sibling"
+  ],
+  "make": "Sunbeam",
+  "maker": "Rootes Group (Ryton, England)",
+  "years": "1959–1968",
+  "start": 1959,
+  "body": "2-seat roadster with real fins, later trimmed",
+  "engine": "1.5 to 1.7-liter 4",
+  "country": "United Kingdom",
+  "quick": "The civilized British roadster — wind-up windows when MGs had side curtains — and the first car James Bond ever drove on film, chased through the Blue Mountains in Dr. No.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive",
+  "gearbox": "4-speed manual, overdrive optional",
+  "specsFor": "1966 Series V, 1,725 cc",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 93,
+  "kg": null,
+  "kgNote": "",
+  "lbs": null,
+  "z60": {
+   "sec": 13.6,
+   "kind": "tested",
+   "note": "Owner-club period figure"
+  },
+  "top": {
+   "mph": 100,
+   "kind": "tested",
+   "note": "Period figure"
+  },
+  "mpg": null,
+  "built": {
+   "count": 69251,
+   "approx": true,
+   "note": "All 5 series, 1959–1968, commonly cited"
+  },
+  "alongside": [],
+  "prev": null,
+  "next": null,
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/1966_Sunbeam_Alpine_Series_V_(9030173113).jpg/960px-1966_Sunbeam_Alpine_Series_V_(9030173113).jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "bmw-isetta",
+  "name": "BMW Isetta",
+  "aka": [
+   "Motocoupé",
+   "Bubble car",
+   "Isetta 250",
+   "Isetta 300"
+  ],
+  "make": "BMW",
+  "maker": "BMW (Munich), under license from Iso of Italy",
+  "years": "1955–1962",
+  "start": 1955,
+  "body": "1-door, 2-seat bubble car; the whole front is the door",
+  "engine": "247, then 298 cc single-cylinder 4-stroke",
+  "country": "Germany",
+  "quick": "The bubble car with a refrigerator door for a face: licensed from Iso of Italy, built 161,000 times, and the steady seller that carried BMW through its leanest years to the other side.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive",
+  "gearbox": "4-speed manual",
+  "specsFor": "1957 Isetta 300 Standard",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 13,
+  "kg": null,
+  "kgNote": "",
+  "lbs": null,
+  "z60": null,
+  "top": {
+   "mph": 53,
+   "kind": "tested",
+   "note": "BMW's figure"
+  },
+  "mpg": null,
+  "built": {
+   "count": 161000,
+   "approx": true,
+   "note": "BMW Classic's count, 1955–1962"
+  },
+  "alongside": [
+   {
+    "id": "iso-grifo",
+    "name": "Iso Grifo"
+   }
+  ],
+  "prev": null,
+  "next": null,
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/BMW_Isetta_-_Bad_W%C3%B6rishofen_(2015-08-29_3164_b).jpg/960px-BMW_Isetta_-_Bad_W%C3%B6rishofen_(2015-08-29_3164_b).jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "volvo-p1800",
+  "name": "Volvo P1800",
+  "aka": [
+   "1800S",
+   "1800E",
+   "1800ES",
+   "The Saint's Volvo"
+  ],
+  "make": "Volvo",
+  "maker": "Volvo (first by Jensen in England, then Gothenburg, Sweden)",
+  "years": "1961–1973",
+  "start": 1961,
+  "body": "2+2 coupe, finally a glass-tailed shooting brake",
+  "engine": "1.8, then 2.0-liter B18/B20 4",
+  "country": "Sweden",
+  "quick": "The most glamorous thing Volvo ever built: Roger Moore's car in The Saint, and the car that proved its own durability when one example covered more than 3 million miles on its original engine.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive",
+  "gearbox": "4-speed manual, overdrive optional",
+  "specsFor": "1961 P1800 coupe",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 100,
+  "kg": 1129,
+  "kgNote": "Period figure",
+  "lbs": 2490,
+  "z60": null,
+  "top": {
+   "mph": 104,
+   "kind": "claimed",
+   "note": "Period Volvo figure"
+  },
+  "mpg": null,
+  "built": {
+   "count": 47855,
+   "approx": false,
+   "note": "Coupes, 1961–1972, plus 8,078 of the 1800ES wagon"
+  },
+  "alongside": [],
+  "prev": null,
+  "next": null,
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Volvo_P1800_Coupe-20180520-RM-105416.jpg/960px-Volvo_P1800_Coupe-20180520-RM-105416.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "bentley-blower",
+  "name": "Bentley 4½ Litre 'Blower'",
+  "aka": [
+   "Blower Bentley",
+   "4.5 Litre Supercharged"
+  ],
+  "make": "Bentley",
+  "maker": "Bentley Motors (Cricklewood, England); supercharger by Amherst Villiers",
+  "years": "1929–1931",
+  "start": 1929,
+  "body": "4-seat open tourer, mostly Vanden Plas bodies",
+  "engine": "4.4-liter 4 with a Roots supercharger ahead of the radiator",
+  "country": "United Kingdom",
+  "quick": "The most famous Bentley ever built never won a thing: 55 supercharged cars made against W.O. Bentley's own wishes, kept alive by Tim Birkin's heroics and, later, by Ian Fleming's taste in Bond's garage.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive",
+  "gearbox": "4-speed manual",
+  "specsFor": "Customer supercharged car",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 175,
+  "kg": null,
+  "kgNote": "",
+  "lbs": null,
+  "z60": null,
+  "top": {
+   "mph": 125,
+   "kind": "claimed",
+   "note": "Customer-car figure; Birkin's single-seater lapped Brooklands at over 137"
+  },
+  "mpg": null,
+  "built": {
+   "count": 55,
+   "approx": false,
+   "note": "50 production cars to homologate racing, plus the 5 Birkin team cars"
+  },
+  "alongside": [],
+  "prev": null,
+  "next": null,
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/1929_Bentley_4.5_Litre_Blower_HCC25.jpg/960px-1929_Bentley_4.5_Litre_Blower_HCC25.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "alfa-romeo-p2",
+  "name": "Alfa Romeo P2",
+  "aka": [
+   "Tipo P2",
+   "Gran Premio"
+  ],
+  "make": "Alfa Romeo",
+  "maker": "Alfa Romeo (Milan, Italy)",
+  "years": "1924–1925",
+  "start": 1924,
+  "body": "Grand Prix monoposto-era 2-seater",
+  "engine": "2.0-liter supercharged straight-8",
+  "country": "Italy",
+  "quick": "The car behind the laurel wreath on Alfa's badge: Vittorio Jano's first masterpiece won the inaugural World Championship for manufacturers in 1925, and only 6 were ever built.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive",
+  "gearbox": "4-speed manual",
+  "specsFor": "1924 Grand Prix car",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 140,
+  "kg": null,
+  "kgNote": "",
+  "lbs": null,
+  "z60": null,
+  "top": {
+   "mph": 139,
+   "kind": "tested",
+   "note": "Period figure"
+  },
+  "mpg": null,
+  "built": {
+   "count": 6,
+   "approx": false,
+   "note": "1924–1925"
+  },
+  "alongside": [],
+  "prev": null,
+  "next": null,
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Alfa_Romeo_P2.jpg/960px-Alfa_Romeo_P2.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "alfa-romeo-sz",
+  "name": "Alfa Romeo SZ",
+  "aka": [
+   "ES-30",
+   "Il Mostro",
+   "RZ"
+  ],
+  "make": "Alfa Romeo",
+  "maker": "Alfa Romeo, assembled by Zagato (Terrazzano di Rho, Italy)",
+  "years": "1989–1993",
+  "start": 1989,
+  "body": "2-seat coupe in injection-molded composite over steel",
+  "engine": "3.0-liter Busso V6",
+  "country": "Italy",
+  "quick": "Il Mostro: the 6-headlight wedge Alfa showed in 1989 to prove it still had nerve. 1,036 coupes, Zagato-assembled, composite-bodied, and carrying suspension thinking from the 75 racing program — ugly-beautiful forever.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive",
+  "gearbox": "5-speed manual",
+  "specsFor": "1990 SZ (ES-30)",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 207,
+  "kg": 1260,
+  "kgNote": "Factory figure",
+  "lbs": 2778,
+  "z60": null,
+  "top": {
+   "mph": 152,
+   "kind": "claimed",
+   "note": "Factory figure"
+  },
+  "mpg": null,
+  "built": {
+   "count": 1036,
+   "approx": false,
+   "note": "SZ coupes, 1989–1991; the open RZ added about 278 more"
+  },
+  "alongside": [],
+  "prev": null,
+  "next": null,
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Alfa_Romeo_ES_30_1Y7A6138.jpg/960px-Alfa_Romeo_ES_30_1Y7A6138.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "vw-rabbit-pickup",
+  "name": "Volkswagen Rabbit Pickup",
+  "aka": [
+   "Caddy",
+   "Rabbit Sportruck"
+  ],
+  "make": "Volkswagen",
+  "maker": "Volkswagen (Westmoreland, Pennsylvania)",
+  "years": "1979–1984",
+  "start": 1979,
+  "body": "Front-drive compact pickup with a real steel bed",
+  "engine": "1.7 gas or 1.6 diesel 4",
+  "country": "United States",
+  "quick": "A Rabbit with a bed, built by Americans in Pennsylvania: the front-drive mini-truck whose diesel returned mileage numbers trucks wouldn't see again for 30 years. Europe later knew it as the Caddy.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Front-wheel drive",
+  "gearbox": "4- or 5-speed manual, or automatic",
+  "specsFor": "1981 LX, 1.6 diesel, 5-speed",
+  "guide": null,
+  "shop": null,
+  "hp": 52,
+  "kg": null,
+  "kgNote": "",
+  "lbs": null,
+  "z60": {
+   "sec": 15.5,
+   "kind": "tested",
+   "note": "Reported period figure for the diesel"
+  },
+  "top": null,
+  "mpg": null,
+  "built": null,
+  "alongside": [],
+  "prev": null,
+  "next": null,
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/1981_Volkswagen_Rabbit_Pickup_Diesel_LX,_fR.jpg/960px-1981_Volkswagen_Rabbit_Pickup_Diesel_LX,_fR.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "bertone-ramarro",
+  "name": "Bertone Ramarro",
+  "aka": [
+   "Chevrolet Ramarro"
+  ],
+  "make": "Bertone",
+  "maker": "Carrozzeria Bertone (Turin, Italy), on a Chevrolet Corvette C4",
+  "years": "1984",
+  "start": 1984,
+  "body": "1-off concept coupe with sliding doors",
+  "engine": "The donor Corvette's 5.7-liter Cross-Fire V8",
+  "country": "Italy",
+  "quick": "Bertone's answer to the brand-new C4 Corvette: take one, shorten the overhangs, slide the doors instead of swinging them, and paint it the green of its namesake lizard. 1 exists.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive",
+  "gearbox": "4-speed automatic",
+  "specsFor": "The 1984 one-off",
+  "guide": null,
+  "shop": null,
+  "hp": 205,
+  "kg": null,
+  "kgNote": "",
+  "lbs": null,
+  "z60": null,
+  "top": null,
+  "mpg": null,
+  "built": {
+   "count": 1,
+   "approx": false,
+   "note": "Shown at the 1984 Los Angeles show"
+  },
+  "alongside": [],
+  "prev": null,
+  "next": null,
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Bertone_Ramarro_(24956769266).jpg/960px-Bertone_Ramarro_(24956769266).jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "fiat-x19",
+  "name": "Fiat X1/9",
+  "aka": [
+   "Bertone X1/9",
+   "X19"
+  ],
+  "make": "Fiat",
+  "maker": "Bodies by Bertone (Grugliasco); Fiat, then Bertone outright from 1982",
+  "years": "1972–1989",
+  "start": 1972,
+  "body": "2-seat mid-engine targa; the roof stows in the front trunk",
+  "engine": "1.3, then 1.5-liter SOHC 4",
+  "country": "Italy",
+  "quick": "Gandini's everyman exotic: a real mid-engine targa with crash-standard engineering and Fiat 128 running gear, about 160,000 built — mid-engine handling for the many, 25 years before anyone else tried.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive (mid-engine)",
+  "gearbox": "4-, then 5-speed manual",
+  "specsFor": "1979 1500, 5-speed, European specification",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 85,
+  "kg": null,
+  "kgNote": "",
+  "lbs": null,
+  "z60": {
+   "sec": 10.4,
+   "kind": "tested",
+   "note": "Period figure, European 1500"
+  },
+  "top": {
+   "mph": 112,
+   "kind": "tested",
+   "note": "Period figure, European 1500"
+  },
+  "mpg": null,
+  "built": {
+   "count": 160000,
+   "approx": true,
+   "note": "About 140,500 built as Fiats and 19,500 as Bertones; some counts run to 180,000"
+  },
+  "alongside": [],
+  "prev": {
+   "id": null,
+   "name": "Fiat 850 Spider"
+  },
+  "next": null,
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/1976_Fiat_X1-9_(339053744).jpg/960px-1976_Fiat_X1-9_(339053744).jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "fiat-500-topolino",
+  "name": "Fiat 500 Topolino",
+  "aka": [
+   "500A",
+   "500B",
+   "500C",
+   "Little Mouse"
+  ],
+  "make": "Fiat",
+  "maker": "Fiat (Lingotto and Mirafiori, Turin)",
+  "years": "1936–1955",
+  "start": 1936,
+  "body": "2-seat small car; sedans, convertibles and tiny wagons",
+  "engine": "569 cc side-valve, later overhead-valve 4",
+  "country": "Italy",
+  "quick": "The smallest mass-produced car in the world when it appeared in 1936: a real car in miniature — water-cooled 4, hydraulic brakes, independent front suspension — that put Italy on wheels. Italians named it the little mouse.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive",
+  "gearbox": "4-speed manual",
+  "specsFor": "1936 500A, 569 cc",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 13,
+  "kg": null,
+  "kgNote": "",
+  "lbs": null,
+  "z60": null,
+  "top": {
+   "mph": 53,
+   "kind": "tested",
+   "note": "85 km/h, period figure"
+  },
+  "mpg": null,
+  "built": {
+   "count": 520000,
+   "approx": true,
+   "note": "All 3 series, 1936–1955, commonly cited"
+  },
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": null,
+   "name": "Fiat Nuova 500"
+  },
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/1936_Fiat_500_Topolino_Saloon.jpg/960px-1936_Fiat_500_Topolino_Saloon.jpg",
+   "pos": "",
+   "fit": ""
+  }
  }
 ];

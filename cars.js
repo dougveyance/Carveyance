@@ -47034,8 +47034,8 @@ const CARS = [
       }
     ],
     "predecessor": {
-      "name": "Ford Taurus",
-      "id": null
+      "name": "Ford Taurus (fourth generation)",
+      "id": "ford-taurus-4th-gen"
     },
     "successor": {
       "name": "Ford Fusion (second generation)",
@@ -48231,6 +48231,976 @@ const CARS = [
     },
     "match": [
       "Ford Fiesta"
+    ]
+  },
+  {
+    "id": "ford-taurus-1st-gen",
+    "family": {
+      "id": "ford-taurus",
+      "name": "Ford Taurus"
+    },
+    "name": "Ford Taurus (first generation)",
+    "aka": [
+      "Taurus SHO",
+      "jelly bean",
+      "MT-5",
+      "Mercury Sable sibling"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Atlanta and Chicago Assembly)",
+    "country": "United States",
+    "years": "1986–1991",
+    "start": 1986,
+    "end": 1991,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Mid-size aerodynamic sedan and wagon — the grille-less jelly bean that changed American car design",
+    "engine": "2.5 HSC 4-cylinder; 3.0 Vulcan V6; 3.8 Essex V6 from 1988; Yamaha 3.0 in the SHO",
+    "drive": "Front-wheel drive",
+    "gearbox": "3- and 4-speed automatics; 5-speed manual on the MT-5 and SHO",
+    "specsFor": "1989 Taurus SHO",
+    "power": {
+      "hp": 220,
+      "note": "Yamaha-built 3.0 DOHC V6, 7,000-plus rpm; the Vulcan it was based on made 140",
+      "src": "https://www.hagerty.com/media/?p=4386"
+    },
+    "weight": {
+      "kg": 1396,
+      "lb": 3078,
+      "note": "Curb weight, SHO, approximate"
+    },
+    "zero60": {
+      "sec": 6.6,
+      "kind": "tested",
+      "note": "Car and Driver, December 1989; Road & Track went a tenth quicker",
+      "src": "https://eightiescars.com/2026/03/04/1989-ford-taurus-sho-sedan/"
+    },
+    "top": {
+      "mph": 143,
+      "kind": "tested",
+      "note": "Observed by Car and Driver",
+      "src": "https://eightiescars.com/2026/03/04/1989-ford-taurus-sho-sedan/"
+    },
+    "mpg": {
+      "combined": 19,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/",
+      "note": "EPA combined, 1990 SHO, 5-speed manual (16 city, 24 highway)"
+    },
+    "built": {
+      "count": 2000000,
+      "approx": true,
+      "note": "Production passed 2 million by the end of the 1991 model year",
+      "src": "https://en.wikipedia.org/wiki/Ford_Taurus"
+    },
+    "versions": [
+      {
+        "name": "Taurus SHO (1989–91)",
+        "detail": "The Yamaha V6, a 5-speed, and the best intake manifold ever put under a family-car hood"
+      },
+      {
+        "name": "3.0 Vulcan V6",
+        "detail": "140 hp — the volume engine",
+        "power": {
+          "hp": 140,
+          "note": "3.0 Vulcan pushrod V6",
+          "src": "https://madabout-kitcars.com/kitcar/kb.php?aid=250"
+        },
+        "weight": {
+          "kg": 1381,
+          "lb": 3045,
+          "note": "Curb weight, sedan, approximate"
+        },
+        "zero60": {
+          "sec": 10.0,
+          "kind": "estimated",
+          "note": "Period tests"
+        },
+        "top": {
+          "mph": 110,
+          "kind": "estimated",
+          "note": "Approximate"
+        },
+        "mpg": {
+          "combined": 20,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 1986, automatic (18 city, 26 highway)"
+        }
+      },
+      {
+        "name": "MT-5 2.5 (1986–88)",
+        "detail": "90 hp, 5-speed manual — the forgotten base model",
+        "power": {
+          "hp": 90,
+          "note": "2.5 HSC 4-cylinder",
+          "src": "https://madabout-kitcars.com/kitcar/kb.php?aid=250"
+        },
+        "weight": {
+          "kg": 1338,
+          "lb": 2950,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 12.5,
+          "kind": "estimated",
+          "note": "Period tests"
+        },
+        "top": {
+          "mph": 100,
+          "kind": "estimated",
+          "note": "Approximate"
+        },
+        "mpg": {
+          "combined": 23,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 1986, manual (19 city, 29 highway)"
+        }
+      },
+      {
+        "name": "3.8 Essex (1988–91)",
+        "detail": "Same 140 hp as the Vulcan, but 215 lb-ft — the wagon's friend",
+        "power": {
+          "hp": 140,
+          "note": "3.8 Essex V6; 215 lb-ft",
+          "src": "https://madabout-kitcars.com/kitcar/kb.php?aid=250"
+        },
+        "weight": {
+          "kg": 1429,
+          "lb": 3150,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 9.8,
+          "kind": "estimated",
+          "note": "Period tests"
+        },
+        "top": {
+          "mph": 110,
+          "kind": "estimated",
+          "note": "Approximate"
+        },
+        "mpg": {
+          "combined": 20,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 1993 figure for the same engine"
+        }
+      },
+      {
+        "name": "Wagon",
+        "detail": "The family hauler — Car and Driver's 1986 LX wagon test is the slowest Taurus on record",
+        "power": {
+          "hp": 140,
+          "note": "3.0 Vulcan; the 3.8 arrived for 1988",
+          "src": "https://madabout-kitcars.com/kitcar/kb.php?aid=250"
+        },
+        "weight": {
+          "kg": 1474,
+          "lb": 3250,
+          "note": "Curb weight, wagon, approximate"
+        },
+        "zero60": {
+          "sec": 10.7,
+          "kind": "tested",
+          "note": "Car and Driver instrumented test, 1986 LX wagon",
+          "src": "https://www.0-60specs.com/ford/taurus-0-60-times"
+        },
+        "top": {
+          "mph": 105,
+          "kind": "estimated",
+          "note": "Approximate"
+        },
+        "mpg": {
+          "combined": 20,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 1986, 3.0 automatic"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Ford LTD",
+      "id": null
+    },
+    "successor": {
+      "name": "Ford Taurus (second generation)",
+      "id": "ford-taurus-2nd-gen"
+    },
+    "alongside": [],
+    "quick": "The jelly bean that saved Ford: Motor Trend's 1986 Car of the Year rewrote American sedan design, passed 2 million built in 6 years — and hid a 220-hp Yamaha V6 in the SHO.",
+    "story": [
+      "The 1986 Taurus was the biggest bet in Ford's history — an aerodynamic, grille-less, front-wheel-drive sedan that looked like nothing else in an American showroom, developed with W. Edwards Deming's statistical quality methods and launched into a market of square boxes. It won Motor Trend's Car of the Year and a Car and Driver Ten Best spot immediately, sold over 200,000 in year 1, and passed 2 million built by the end of 1991. Every American sedan of the 1990s copied its shape.",
+      "The secret weapon arrived for 1989. Ford had asked Yamaha to transform the humble 140-hp Vulcan V6, and the result — a 220-hp, 7,000-rpm DOHC masterpiece under the most beautiful intake manifold of the era — went into the Taurus SHO with a 5-speed manual and nothing on the outside to warn anyone. Car and Driver ran 0–60 in 6.6 seconds and observed 143 mph, called it a breakthrough, and compared it to the 1964 Mustang. Ford planned 1 year of production; buyers demanded more than a decade."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "1986-1988 Ford Taurus sedan.jpg",
+      "credit": "IFCAR",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:1986-1988_Ford_Taurus_sedan.jpg",
+      "pos": ""
+    },
+    "match": [
+      "Ford Taurus"
+    ]
+  },
+  {
+    "id": "ford-taurus-2nd-gen",
+    "family": {
+      "id": "ford-taurus",
+      "name": "Ford Taurus"
+    },
+    "name": "Ford Taurus (second generation)",
+    "aka": [
+      "GL",
+      "LX",
+      "SHO 3.2",
+      "best-seller era"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Atlanta and Chicago Assembly)",
+    "country": "United States",
+    "years": "1992–1995",
+    "start": 1992,
+    "end": 1995,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Mid-size sedan and wagon — the same chassis in smoother clothes, several inches longer and over 200 lb heavier",
+    "engine": "3.0 Vulcan V6; 3.8 Essex V6; Yamaha 3.0 and 3.2 in the SHO",
+    "drive": "Front-wheel drive",
+    "gearbox": "4-speed automatic; 5-speed manual held on in the SHO",
+    "specsFor": "1994 Taurus GL 3.0",
+    "power": {
+      "hp": 140,
+      "note": "3.0 Vulcan V6; V6s and automatics only in this generation",
+      "src": "https://en.wikipedia.org/wiki/Ford_Taurus"
+    },
+    "weight": {
+      "kg": 1510,
+      "lb": 3329,
+      "note": "Curb weight, sedan, approximate"
+    },
+    "zero60": {
+      "sec": 9.8,
+      "kind": "estimated",
+      "note": "Period tests"
+    },
+    "top": {
+      "mph": 108,
+      "kind": "estimated",
+      "note": "Approximate"
+    },
+    "mpg": {
+      "combined": 21,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/",
+      "note": "EPA combined, 1993, 3.0 (18 city, 27 highway)"
+    },
+    "built": {
+      "count": 1400000,
+      "approx": true,
+      "note": "Reached 1.4 million units before ending in 1995",
+      "src": "https://en.wikipedia.org/wiki/Ford_Taurus"
+    },
+    "versions": [
+      {
+        "name": "GL 3.0",
+        "detail": "The car America bought more of than any other, 4 years running"
+      },
+      {
+        "name": "3.8 Essex",
+        "detail": "The torque option — 140 hp but 215 lb-ft",
+        "power": {
+          "hp": 140,
+          "note": "3.8 Essex V6; 215 lb-ft",
+          "src": "https://madabout-kitcars.com/kitcar/kb.php?aid=250"
+        },
+        "weight": {
+          "kg": 1529,
+          "lb": 3371,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 9.5,
+          "kind": "estimated",
+          "note": "Period tests"
+        },
+        "top": {
+          "mph": 108,
+          "kind": "estimated",
+          "note": "Approximate"
+        },
+        "mpg": {
+          "combined": 20,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 1993, 3.8 (17 city, 25 highway)"
+        }
+      },
+      {
+        "name": "SHO 3.2 automatic (1993–95)",
+        "detail": "The Yamaha engine grew to 3.2 liters for the new automatic — same 220 hp, more torque",
+        "power": {
+          "hp": 220,
+          "note": "Yamaha 3.2 DOHC V6; 215 lb-ft; the 3.0 manual continued",
+          "src": "https://automobile.fandom.com/wiki/Ford_Taurus_SHO"
+        },
+        "weight": {
+          "kg": 1501,
+          "lb": 3309,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 7.5,
+          "kind": "estimated",
+          "note": "Period tests ran mid 7s"
+        },
+        "top": {
+          "mph": 130,
+          "kind": "estimated",
+          "note": "Approximate"
+        },
+        "mpg": {
+          "combined": 19,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 1990 SHO figure; the 3.2 automatic rated similarly"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Ford Taurus (first generation)",
+      "id": "ford-taurus-1st-gen"
+    },
+    "successor": {
+      "name": "Ford Taurus (third generation)",
+      "id": "ford-taurus-3rd-gen"
+    },
+    "alongside": [],
+    "quick": "America's best-selling car, 1992 through 1996: 409,751 in 1992 alone, the first US mid-size with standard dual airbags — and a Yamaha 3.2 SHO for the connoisseurs.",
+    "story": [
+      "The 1992 Taurus was evolution done confidently — the same chassis in smoother sheet metal, V6s and automatics only, and a safety-first pitch that made it the first US mid-size sedan with standard dual airbags by 1994. The market's answer was the sales crown: 409,751 sold in 1992, beating the Honda Accord for the title of America's best-selling car, a position the Taurus then held for 5 straight years through 1996.",
+      "The SHO matured with it. The manual 3.0 continued, but 1993 finally brought what customers had demanded — an automatic — fed by a 3.2-liter version of the Yamaha V6 with the same 220 hp and more torque. This generation reached 1.4 million units in just 4 model years, and it marks the Taurus at its absolute peak: the default American family car, before the oval 1996 redesign handed the crown to Toyota."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "1992 Ford Taurus GL Sedan, front right, 02-06-2023.jpg",
+      "credit": "MercurySable99",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pos": ""
+    },
+    "match": [
+      "Ford Taurus"
+    ]
+  },
+  {
+    "id": "ford-taurus-3rd-gen",
+    "family": {
+      "id": "ford-taurus",
+      "name": "Ford Taurus"
+    },
+    "name": "Ford Taurus (third generation)",
+    "aka": [
+      "the oval one",
+      "SHO V8",
+      "DN101"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Atlanta and Chicago Assembly)",
+    "country": "United States",
+    "years": "1996–1999",
+    "start": 1996,
+    "end": 1999,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Mid-size sedan and wagon on the DN101 platform — the radical oval redesign customers never warmed to",
+    "engine": "3.0 Vulcan V6; 3.0 Duratec 24-valve; Yamaha-headed 3.4 V8 in the SHO",
+    "drive": "Front-wheel drive",
+    "gearbox": "4-speed automatic — the SHO's manual was gone",
+    "specsFor": "1997 Taurus SHO V8",
+    "power": {
+      "hp": 235,
+      "note": "3.4 V8 with Yamaha heads on a Cosworth-cast block; 230 lb-ft at 4,800 rpm",
+      "src": "https://www.autotrader.ca/editorial/cool-stuff/find-of-the-week-1999-ford-taurus-sho/"
+    },
+    "weight": {
+      "kg": 1560,
+      "lb": 3440,
+      "note": "Curb weight, SHO, approximate"
+    },
+    "zero60": {
+      "sec": 8.0,
+      "kind": "tested",
+      "note": "Car and Driver instrumented test — the mandatory automatic blunted the V8",
+      "src": "https://v8sho.com/SHO/caranddriver2.html"
+    },
+    "top": {
+      "mph": 130,
+      "kind": "estimated",
+      "note": "Approximate"
+    },
+    "mpg": {
+      "combined": 18,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/",
+      "note": "EPA combined, 1997 SHO (15 city, 24 highway)"
+    },
+    "built": {
+      "count": 1497612,
+      "approx": true,
+      "note": "Sold in the US, 1996–1999 calendar years; 51 percent of 1996 sales went to rental fleets",
+      "src": "https://www.wardsauto.com/ford/ford-builds-final-taurus-shutters-atlanta-plant"
+    },
+    "versions": [
+      {
+        "name": "SHO V8 (1996–99)",
+        "detail": "The only V8 Taurus ever — Yamaha heads, Cosworth block, automatic only"
+      },
+      {
+        "name": "3.0 Duratec 24-valve",
+        "detail": "200 hp — the modern engine of the range",
+        "power": {
+          "hp": 200,
+          "note": "Duratec 30 DOHC V6",
+          "src": "https://www.conceptcarz.com/w22907/ford-taurus.aspx"
+        },
+        "weight": {
+          "kg": 1509,
+          "lb": 3326,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 8.5,
+          "kind": "estimated",
+          "note": "Period tests"
+        },
+        "top": {
+          "mph": 115,
+          "kind": "estimated",
+          "note": "Approximate"
+        },
+        "mpg": {
+          "combined": 20,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 1997, 24-valve (17 city, 26 highway)"
+        }
+      },
+      {
+        "name": "Wagon",
+        "detail": "The last truly weird American wagon — oval rear glass and all",
+        "power": {
+          "hp": 200,
+          "note": "Duratec 30 available; Vulcan standard",
+          "src": "https://www.conceptcarz.com/w22907/ford-taurus.aspx"
+        },
+        "weight": {
+          "kg": 1588,
+          "lb": 3501,
+          "note": "Curb weight, wagon, approximate"
+        },
+        "zero60": {
+          "sec": 9.0,
+          "kind": "estimated",
+          "note": "Period tests"
+        },
+        "top": {
+          "mph": 110,
+          "kind": "estimated",
+          "note": "Approximate"
+        },
+        "mpg": {
+          "combined": 20,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 1997, 24-valve"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Ford Taurus (second generation)",
+      "id": "ford-taurus-2nd-gen"
+    },
+    "successor": {
+      "name": "Ford Taurus (fourth generation)",
+      "id": "ford-taurus-4th-gen"
+    },
+    "alongside": [],
+    "quick": "The oval gamble: a $18,000-to-start redesign so radical that buyers flinched, half of 1996's sales went to rental fleets — and the Camry took the crown in 1997.",
+    "story": [
+      "Ford bet the franchise twice. The 1996 Taurus doubled down on the original's radicalism with ovals everywhere — windows, dash, even the rear glass — on the new DN101 platform, starting around $18,000, about $38,600 in 2026 dollars. Customers flinched. It stayed America's best-seller in 1996 only because 51 percent of sales went to rental fleets, and in 1997 the Toyota Camry took the crown, 397,156 to 357,162. By 1999 Ford was decontenting it — drum brakes returned to ABS sedans — and the retreat was on.",
+      "Two bright spots endure. The SHO became the only V8 Taurus ever — a 235-hp 3.4 with Yamaha-finished heads on a Cosworth-cast block, strangled slightly by its mandatory automatic at 8.0 seconds to 60 in Car and Driver's test, and sold in such small numbers that survivors are genuine curiosities. And in 1998 the Taurus replaced the Thunderbird in NASCAR as the first 4-door sedan ever approved for competition, winning 3 Winston Cup championships — the oval car that conquered the ovals."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "1996-1997 Ford Taurus GL-7-12-2026.jpg",
+      "credit": "TheMemerDude",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "pos": ""
+    },
+    "match": [
+      "Ford Taurus"
+    ]
+  },
+  {
+    "id": "ford-taurus-4th-gen",
+    "family": {
+      "id": "ford-taurus",
+      "name": "Ford Taurus"
+    },
+    "name": "Ford Taurus (fourth generation)",
+    "aka": [
+      "SES",
+      "SEL",
+      "fleet queen"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Atlanta and Chicago Assembly)",
+    "country": "United States",
+    "years": "2000–2007",
+    "start": 2000,
+    "end": 2007,
+    "shop": {
+      "cargurus": "d355"
+    },
+    "body": "Mid-size sedan and wagon — the ovals squared off, the trunk raised, the ambition lowered",
+    "engine": "3.0 Vulcan, 155 hp; 3.0 Duratec 24-valve, 200 hp",
+    "drive": "Front-wheel drive",
+    "gearbox": "4-speed automatic",
+    "specsFor": "2001 Taurus SES Duratec",
+    "power": {
+      "hp": 200,
+      "note": "Duratec 30 DOHC V6; the base Vulcan made 155",
+      "src": "https://consumerguide.com/used/2000-06-ford-taurus"
+    },
+    "weight": {
+      "kg": 1513,
+      "lb": 3336,
+      "note": "Curb weight, sedan, approximate"
+    },
+    "zero60": {
+      "sec": 8.1,
+      "kind": "tested",
+      "note": "The generation's best verified instrumented result",
+      "src": "https://www.0-60specs.com/ford/taurus-0-60-times"
+    },
+    "top": {
+      "mph": 115,
+      "kind": "estimated",
+      "note": "Approximate"
+    },
+    "mpg": {
+      "combined": 20,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/",
+      "note": "EPA combined, 2000, 24-valve (17 city, 26 highway)"
+    },
+    "built": {
+      "count": 1988651,
+      "approx": true,
+      "note": "Sold in the US, 2000–2006 calendar years, plus a fleet-only sell-down into 2007",
+      "src": "https://www.wardsauto.com/ford/ford-builds-final-taurus-shutters-atlanta-plant"
+    },
+    "versions": [
+      {
+        "name": "SES Duratec",
+        "detail": "200 hp — the one worth having"
+      },
+      {
+        "name": "3.0 Vulcan, 155 hp",
+        "detail": "The fleet special — and from 2004, the only engine left",
+        "power": {
+          "hp": 155,
+          "note": "Vulcan pushrod V6",
+          "src": "https://consumerguide.com/used/2000-06-ford-taurus"
+        },
+        "weight": {
+          "kg": 1497,
+          "lb": 3300,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 9.5,
+          "kind": "estimated",
+          "note": "Period tests"
+        },
+        "top": {
+          "mph": 110,
+          "kind": "estimated",
+          "note": "Approximate"
+        },
+        "mpg": {
+          "combined": 20,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2000 (17 city, 26 highway)"
+        }
+      },
+      {
+        "name": "Wagon (to 2005)",
+        "detail": "The end of the Taurus wagon line, December 8, 2004",
+        "power": {
+          "hp": 155,
+          "note": "Vulcan standard; Duratec available early",
+          "src": "https://consumerguide.com/used/2000-06-ford-taurus"
+        },
+        "weight": {
+          "kg": 1590,
+          "lb": 3505,
+          "note": "Curb weight, wagon, approximate"
+        },
+        "zero60": {
+          "sec": 9.8,
+          "kind": "estimated",
+          "note": "Period tests"
+        },
+        "top": {
+          "mph": 108,
+          "kind": "estimated",
+          "note": "Approximate"
+        },
+        "mpg": {
+          "combined": 20,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2000"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Ford Taurus (third generation)",
+      "id": "ford-taurus-3rd-gen"
+    },
+    "successor": {
+      "name": "Ford Taurus (fifth generation)",
+      "id": "ford-taurus-5th-gen"
+    },
+    "alongside": [
+      {
+        "name": "Ford Fusion (first generation)",
+        "id": "ford-fusion-1st-gen"
+      }
+    ],
+    "quick": "The long goodbye: still selling 382,035 in 2000, then rental lots, then fleets only — until the last one rolled out of Atlanta in 2006, bought by the founder of Chick-fil-A.",
+    "story": [
+      "The 2000 redesign undid the ovals with New Edge creases and a taller, 2-cubic-foot-bigger trunk, and for a moment it worked: 382,035 sales in 2000, the nameplate's last great year. But Ford stopped investing. The SHO was gone, the 200-hp Duratec disappeared after 2003 leaving only the 155-hp Vulcan, and by 2005 the Taurus had slipped behind the Nissan Altima as the rental lots absorbed more of each year's production. Retail sales ended after a short 2006 model year; fleets took the rest.",
+      "The end had an oddly sweet coda. Production stopped on October 27, 2006, when Ford idled the Atlanta plant under its Way Forward restructuring — and the final car went to S. Truett Cathy, the Chick-fil-A founder and Taurus devotee. New CEO Alan Mulally promptly called killing the name a mistake, which is why it returned within a year on a very different car. As used cars, these are honest $2,000 transportation; the Duratec cars are the ones to find."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "2000-2003 Ford Taurus SES.jpg",
+      "credit": "IFCAR",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:2000-2003_Ford_Taurus_SES.jpg",
+      "pos": ""
+    },
+    "match": [
+      "Ford Taurus"
+    ]
+  },
+  {
+    "id": "ford-taurus-5th-gen",
+    "family": {
+      "id": "ford-taurus",
+      "name": "Ford Taurus"
+    },
+    "name": "Ford Taurus (fifth generation)",
+    "aka": [
+      "Five Hundred",
+      "D3",
+      "Volvo bones"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Chicago Assembly)",
+    "country": "United States",
+    "years": "2008–2009",
+    "start": 2008,
+    "end": 2009,
+    "shop": {
+      "cargurus": "d355"
+    },
+    "body": "Full-size sedan — the Ford Five Hundred renamed, refreshed and re-engined on the Volvo-derived D3 platform",
+    "engine": "3.5 Duratec V6",
+    "drive": "Front-wheel drive or all-wheel drive",
+    "gearbox": "6-speed automatic",
+    "specsFor": "2008 Taurus Limited",
+    "power": {
+      "hp": 263,
+      "note": "3.5 Duratec 35 V6, replacing the Five Hundred's 203-hp 3.0",
+      "src": "https://en.wikipedia.org/wiki/Ford_Taurus"
+    },
+    "weight": {
+      "kg": 1652,
+      "lb": 3643,
+      "note": "Curb weight, FWD, approximate"
+    },
+    "zero60": {
+      "sec": 6.8,
+      "kind": "tested",
+      "note": "Verified instrumented test, 2008 Limited",
+      "src": "https://www.0-60specs.com/ford/taurus-0-60-times"
+    },
+    "top": {
+      "mph": 120,
+      "kind": "estimated",
+      "note": "Approximate"
+    },
+    "mpg": {
+      "combined": 22,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/",
+      "note": "EPA combined, 2008, FWD (18 city, 28 highway)"
+    },
+    "built": {
+      "count": 98284,
+      "approx": true,
+      "note": "Sold in the US, 2008–2009 calendar years",
+      "src": "https://goodcarbadcar.net/ford-taurus-sales-figures"
+    },
+    "versions": [
+      {
+        "name": "Limited",
+        "detail": "The renamed flagship — 5-star NHTSA ratings and IIHS Top Safety Pick"
+      },
+      {
+        "name": "SEL AWD",
+        "detail": "The all-weather one, on Volvo-derived bones",
+        "power": {
+          "hp": 263,
+          "note": "3.5 Duratec 35 V6",
+          "src": "https://en.wikipedia.org/wiki/Ford_Taurus"
+        },
+        "weight": {
+          "kg": 1724,
+          "lb": 3801,
+          "note": "Curb weight, AWD, approximate"
+        },
+        "zero60": {
+          "sec": 7.1,
+          "kind": "estimated",
+          "note": "Period tests"
+        },
+        "top": {
+          "mph": 120,
+          "kind": "estimated",
+          "note": "Approximate"
+        },
+        "mpg": {
+          "combined": 20,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2008, AWD, approximate"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Ford Taurus (fourth generation)",
+      "id": "ford-taurus-4th-gen"
+    },
+    "successor": {
+      "name": "Ford Taurus (sixth generation)",
+      "id": "ford-taurus-6th-gen"
+    },
+    "alongside": [
+      {
+        "name": "Ford Fusion (first generation)",
+        "id": "ford-fusion-1st-gen"
+      }
+    ],
+    "quick": "The Five Hundred in witness protection: Alan Mulally revived the Taurus name in 2007, added 60 hp and a 6-speed, and bought the badge 2 transitional years.",
+    "story": [
+      "When Alan Mulally arrived at Ford in 2006 and learned the Taurus name was dead, he reversed it almost immediately — the badge had too much equity to waste, and nobody could tell Ford's F-named sedans apart. So the slow-selling Five Hundred got a facelift, the 263-hp 3.5 Duratec, a proper 6-speed automatic and the Taurus name for 2008; the Mercury Montego became a Sable again by the same logic.",
+      "The car underneath was better than its sales. The Volvo-derived D3 platform gave it limousine space and real crash credentials — 5-star NHTSA ratings, IIHS Top Safety Pick, and the first standard side airbags on a US Ford — plus available all-wheel drive. But 2 model years and fewer than 100,000 sales made this the rarest Taurus generation, a placeholder while Ford built the real revival behind it."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "2008 Ford Taurus SEL, front left, 02-23-2023.jpg",
+      "credit": "MercurySable99",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pos": ""
+    },
+    "match": [
+      "Ford Taurus"
+    ]
+  },
+  {
+    "id": "ford-taurus-6th-gen",
+    "family": {
+      "id": "ford-taurus",
+      "name": "Ford Taurus"
+    },
+    "name": "Ford Taurus (sixth generation)",
+    "aka": [
+      "Taurus SHO",
+      "Police Interceptor Sedan",
+      "EcoBoost"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Chicago Assembly)",
+    "country": "United States",
+    "years": "2010–2019",
+    "start": 2010,
+    "end": 2019,
+    "shop": {
+      "cargurus": "d355"
+    },
+    "body": "Full-size flagship sedan — and, as the Police Interceptor Sedan, the Crown Victoria's successor in every mirror",
+    "engine": "3.5 V6; 2.0 EcoBoost from 2013; twin-turbo 3.5 EcoBoost in the SHO",
+    "drive": "Front-wheel drive or all-wheel drive; SHO all-wheel drive only",
+    "gearbox": "6-speed automatic",
+    "specsFor": "2013 Taurus SHO",
+    "power": {
+      "hp": 365,
+      "note": "Twin-turbo 3.5 EcoBoost V6; 350 lb-ft; all-wheel drive standard",
+      "src": "https://en.wikipedia.org/wiki/Ford_Taurus"
+    },
+    "weight": {
+      "kg": 1981,
+      "lb": 4368,
+      "note": "Curb weight, SHO, approximate"
+    },
+    "zero60": {
+      "sec": 5.2,
+      "kind": "tested",
+      "note": "Car and Driver instrumented test — the quickest Taurus ever",
+      "src": "https://www.0-60specs.com/ford/taurus-0-60-times"
+    },
+    "top": {
+      "mph": 130,
+      "kind": "estimated",
+      "note": "Speed-limited, approximate"
+    },
+    "mpg": {
+      "combined": 20,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/",
+      "note": "EPA combined, 2013 SHO (17 city, 25 highway)"
+    },
+    "built": {
+      "count": 540692,
+      "approx": true,
+      "note": "Sold in the US, 2010–2019 calendar years, Police Interceptor Sedan included",
+      "src": "https://goodcarbadcar.net/ford-taurus-sales-figures"
+    },
+    "versions": [
+      {
+        "name": "Taurus SHO (2010–19)",
+        "detail": "The revival — $37,995 at launch, 365 hp, and the badge finally pronounced ‘show’"
+      },
+      {
+        "name": "3.5 V6",
+        "detail": "263 hp at launch, 288 from the 2013 refresh",
+        "power": {
+          "hp": 288,
+          "note": "3.5 Ti-VCT V6 from 2013; 263 hp 2010–12",
+          "src": "https://en.wikipedia.org/wiki/Ford_Taurus"
+        },
+        "weight": {
+          "kg": 1821,
+          "lb": 4015,
+          "note": "Curb weight, FWD, approximate"
+        },
+        "zero60": {
+          "sec": 6.9,
+          "kind": "estimated",
+          "note": "Instrumented tests ran high 6s"
+        },
+        "top": {
+          "mph": 120,
+          "kind": "estimated",
+          "note": "Approximate"
+        },
+        "mpg": {
+          "combined": 22,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2013, FWD (19 city, 28 highway)"
+        }
+      },
+      {
+        "name": "2.0 EcoBoost (2013–19)",
+        "detail": "240 hp, the efficiency play in a very large car",
+        "power": {
+          "hp": 240,
+          "note": "2.0 EcoBoost turbo 4; 270 lb-ft",
+          "src": "https://en.wikipedia.org/wiki/Ford_Taurus"
+        },
+        "weight": {
+          "kg": 1803,
+          "lb": 3975,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 7.6,
+          "kind": "estimated",
+          "note": "Period tests"
+        },
+        "top": {
+          "mph": 120,
+          "kind": "estimated",
+          "note": "Approximate"
+        },
+        "mpg": {
+          "combined": 25,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2013 (22 city, 31 highway)"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Ford Taurus (fifth generation)",
+      "id": "ford-taurus-5th-gen"
+    },
+    "successor": null,
+    "alongside": [
+      {
+        "name": "Ford Fusion (second generation)",
+        "id": "ford-fusion-2nd-gen"
+      }
+    ],
+    "quick": "The flagship finale: a 365-hp, 5.2-second SHO, the cop car that replaced the Crown Vic — and the last Taurus built in Chicago on March 1, 2019.",
+    "story": [
+      "The 2010 Taurus was the name's real revival — a genuinely imposing full-size flagship from $25,995, about $40,100 in 2026 dollars, with the SHO badge returning after a decade on a 365-hp twin-turbo EcoBoost with standard all-wheel drive at $37,995. The 2013 refresh added a 288-hp base V6, a 240-hp 2.0 EcoBoost and torque vectoring, and Car and Driver ran a 2013 SHO to 60 in 5.2 seconds — the quickest Taurus ever tested. The Police Interceptor Sedan version succeeded the Crown Victoria in 2013 and kept the silhouette in service long after civilians stopped buying it.",
+      "Ford announced the end on April 25, 2018 as part of its full retreat from sedans, and the last US-built Taurus left Chicago Assembly on March 1, 2019, priced around $28,000 — $36,800 in 2026 dollars. Thirty-three years, 6 generations and roughly 8 million American sales after the jelly bean saved the company, the name that defined the modern family sedan went out quietly in the same city where it had always been built. Used SHOs, predictably, are the ones collectors already hunt."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "2013 Ford Taurus SHO (6879401279).jpg",
+      "credit": "qJake",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "pos": ""
+    },
+    "match": [
+      "Ford Taurus"
     ]
   }
 ];

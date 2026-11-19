@@ -1,0 +1,335 @@
+{
+ "id": "ford-escape",
+ "make": "Ford",
+ "model": "Escape",
+ "years": "2001–2026",
+ "byline": "Margot Devries",
+ "published": "2026-11-19",
+ "updated": "2026-11-19",
+ "cars": [
+  "ford-escape-1st-gen",
+  "ford-escape-2nd-gen",
+  "ford-escape-3rd-gen",
+  "ford-escape-4th-gen"
+ ],
+ "shop": {
+  "cargurus": "d330"
+ },
+ "chapters": [
+  "2020-2026",
+  "2013-2019",
+  "hybrid",
+  "used-checklist"
+ ],
+ "series": {
+  "t02": {
+   "name": "2002 XLS Sport, Car and Driver",
+   "color": "#9aa5b1"
+  },
+  "t20h": {
+   "name": "2020 Hybrid, MotorWeek",
+   "color": "#1d7f6e"
+  },
+  "t23p": {
+   "name": "2023 Plug-In Hybrid, tested",
+   "color": "#8a4fbf"
+  },
+  "t20": {
+   "name": "2020 Titanium 2.0, Car and Driver",
+   "color": "#e05c2a"
+  },
+  "m01": {
+   "name": "2001, 3.0 V6 4WD",
+   "color": "#9aa5b1"
+  },
+  "m10": {
+   "name": "2010, 2.5 FWD",
+   "color": "#9aa5b1"
+  },
+  "m14": {
+   "name": "2014, 1.6 EcoBoost FWD",
+   "color": "#2E6E96"
+  },
+  "m20": {
+   "name": "2020, 1.5 EcoBoost AWD",
+   "color": "#e05c2a"
+  },
+  "m20h": {
+   "name": "2020, Hybrid AWD",
+   "color": "#1d7f6e"
+  },
+  "s01": {
+   "name": "2001, first full year",
+   "color": "#9aa5b1"
+  },
+  "s12": {
+   "name": "2012",
+   "color": "#9aa5b1"
+  },
+  "s17": {
+   "name": "2017, the peak",
+   "color": "#2E6E96"
+  },
+  "s20": {
+   "name": "2020",
+   "color": "#2E6E96"
+  },
+  "s25": {
+   "name": "2025, the last full year",
+   "color": "#e05c2a"
+  },
+  "p13": {
+   "name": "2013 S",
+   "color": "#2E6E96"
+  },
+  "p20": {
+   "name": "2020 S",
+   "color": "#2E6E96"
+  },
+  "p26a": {
+   "name": "2026 Active",
+   "color": "#e05c2a"
+  },
+  "p26p": {
+   "name": "2026 Platinum",
+   "color": "#e05c2a"
+  },
+  "p26e": {
+   "name": "2026 ST-Line Elite",
+   "color": "#e05c2a"
+  }
+ },
+ "charts": {
+  "accel": {
+   "n": 1,
+   "title": "0–60 mph, as tested, 2002 to today",
+   "sub": "Seconds; shorter is quicker. Every bar is an instrumented test.",
+   "source": "Car and Driver and MotorWeek instrumented tests",
+   "bars": [
+    [
+     "t02",
+     11.0,
+     "11.0 sec"
+    ],
+    [
+     "t20h",
+     8.0,
+     "8.0 sec"
+    ],
+    [
+     "t23p",
+     7.7,
+     "7.7 sec"
+    ],
+    [
+     "t20",
+     5.7,
+     "5.7 sec"
+    ]
+   ]
+  },
+  "mpg": {
+   "n": 2,
+   "title": "EPA combined fuel economy, by era",
+   "sub": "Miles per gallon. The plug-in hybrid sits beyond this chart at 101 MPGe.",
+   "source": "US EPA, fueleconomy.gov",
+   "bars": [
+    [
+     "m01",
+     18,
+     "18 mpg"
+    ],
+    [
+     "m10",
+     23,
+     "23 mpg"
+    ],
+    [
+     "m14",
+     26,
+     "26 mpg"
+    ],
+    [
+     "m20",
+     28,
+     "28 mpg"
+    ],
+    [
+     "m20h",
+     40,
+     "40 mpg"
+    ]
+   ]
+  },
+  "sales": {
+   "n": 3,
+   "title": "The Escape sales arc, 2001–2025",
+   "sub": "US sales in selected calendar years: the start, the climb, the 4-year 300,000 peak, the slide, the finale.",
+   "source": "Ford US sales figures, via Wikipedia",
+   "bars": [
+    [
+     "s01",
+     164184,
+     "164,184"
+    ],
+    [
+     "s12",
+     261008,
+     "261,008"
+    ],
+    [
+     "s17",
+     308296,
+     "308,296"
+    ],
+    [
+     "s20",
+     178496,
+     "178,496"
+    ],
+    [
+     "s25",
+     139387,
+     "139,387"
+    ]
+   ]
+  },
+  "price": {
+   "n": 4,
+   "title": "What a new one costs, in 2026 dollars",
+   "sub": "Starting prices, adjusted with the US consumer price index where needed. The original price is in the label.",
+   "source": "Ford and cars.com prices; Carveyance CPI arithmetic",
+   "bars": [
+    [
+     "p13",
+     33600,
+     "$33,600 · $23,295 then"
+    ],
+    [
+     "p20",
+     33800,
+     "$33,800 · $25,980 then"
+    ],
+    [
+     "p26a",
+     30350,
+     "$30,350"
+    ],
+    [
+     "p26p",
+     36215,
+     "$36,215"
+    ],
+    [
+     "p26e",
+     37210,
+     "$37,210"
+    ]
+   ]
+  }
+ },
+ "photos": {
+  "hub-hero": {
+   "credit": "deathpallie325",
+   "page": "https://commons.wikimedia.org/wiki/File:2023_Ford_Escape_front_view.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": "A blue-gray 2023 Ford Escape ST-Line, front three-quarter view"
+  },
+  "ch1-hero": {
+   "credit": "LuvsMG481",
+   "page": "https://commons.wikimedia.org/wiki/File:2020_Ford_Escape_ST-Line_AWD_front.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": "A silver 2020 Ford Escape ST-Line, front three-quarter view"
+  },
+  "ch2-hero": {
+   "credit": "Elise240SX",
+   "page": "https://commons.wikimedia.org/wiki/File:2014_Ford_Escape_SE_in_Karat_Gold,_Front_Left,_08-30-2022.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": "A 2014 Ford Escape SE in Karat Gold, front three-quarter view"
+  },
+  "ch3-hero": {
+   "credit": "IFCAR",
+   "page": "https://commons.wikimedia.org/wiki/File:2005-2007_Ford_Escape_Hybrid_--_01-01-2012.jpg",
+   "license": "Public domain",
+   "licenseUrl": "https://commons.wikimedia.org/wiki/File:2005-2007_Ford_Escape_Hybrid_--_01-01-2012.jpg",
+   "alt": "A silver 2005–2007 Ford Escape Hybrid, front three-quarter view"
+  },
+  "ch4-hero": {
+   "credit": "SsmIntrigue",
+   "page": "https://commons.wikimedia.org/wiki/File:2010_Ford_Escape_XLT,_Front_Left,_02-18-2021.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": "A steel-blue 2010 Ford Escape XLT in the snow, front three-quarter view"
+  }
+ },
+ "find": {
+  "picker": [
+   {
+    "model": "Escape",
+    "years": "2020–2026",
+    "ch": "2020-2026"
+   },
+   {
+    "model": "Escape",
+    "years": "2013–2019",
+    "ch": "2013-2019"
+   },
+   {
+    "model": "Escape Hybrid / PHEV",
+    "years": "2005–2026",
+    "ch": "hybrid"
+   }
+  ],
+  "terms": {
+   "": [
+    "Escape",
+    "Ford Escape",
+    "compact SUV",
+    "compact crossover",
+    "small SUV",
+    "RAV4 alternative",
+    "CR-V alternative"
+   ],
+   "2020-2026": [
+    "ST-Line",
+    "Active",
+    "Platinum",
+    "1.5 EcoBoost",
+    "2.0 EcoBoost",
+    "discontinued",
+    "last year",
+    "2023 refresh"
+   ],
+   "2013-2019": [
+    "SE",
+    "Titanium",
+    "1.6 EcoBoost",
+    "2.0 EcoBoost",
+    "Kuga",
+    "used Escape",
+    "2017 refresh"
+   ],
+   "hybrid": [
+    "hybrid",
+    "Escape Hybrid",
+    "plug-in",
+    "PHEV",
+    "first hybrid SUV",
+    "taxi",
+    "40 mpg"
+   ],
+   "used-checklist": [
+    "used",
+    "checklist",
+    "recall",
+    "1.6 EcoBoost fire",
+    "fuel injector",
+    "CD4E",
+    "inspection"
+   ]
+  }
+ }
+}

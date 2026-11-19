@@ -30580,5 +30580,321 @@ const CARS_INDEX = [
    "pos": "",
    "fit": ""
   }
+ },
+ {
+  "id": "ford-escape-1st-gen",
+  "name": "Ford Escape (first generation)",
+  "aka": [
+   "CD2",
+   "XLT",
+   "XLS",
+   "Escape Hybrid",
+   "Ford Maverick (Europe)"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Avon Lake, Ohio and Claycomo, Missouri)",
+  "years": "2001–2007",
+  "start": 2001,
+  "body": "Compact unibody SUV on the Ford-Mazda CD2 platform; the Mazda Tribute and Mercury Mariner were rebadged twins",
+  "engine": "2.0 Zetec; 2.3 Duratec from 2005; 3.0 Duratec V6; 2.3 Atkinson hybrid from 2005",
+  "country": "United States",
+  "quick": "Ford and Mazda built America's compact-SUV template — and then, in 2005, put the first hybrid SUV on the US market wearing an Escape badge.",
+  "articles": [
+   "industry-brief-2026-11-09"
+  ],
+  "latest": "2026-11-09",
+  "ownDates": [],
+  "dates": [
+   "2026-11-09"
+  ],
+  "drive": "Front-wheel drive or all-wheel drive",
+  "gearbox": "5-speed manual or 4-speed automatic; CVT for the Hybrid",
+  "specsFor": "2001 Escape XLT 3.0 V6 4WD",
+  "guide": null,
+  "shop": {
+   "cargurus": "d330"
+  },
+  "hp": 200,
+  "kg": 1568,
+  "kgNote": "Curb weight, 4WD",
+  "lbs": 3457,
+  "z60": {
+   "sec": 8.9,
+   "kind": "estimated",
+   "note": "Period tests of the V6 ran high 8s to mid 9s"
+  },
+  "top": {
+   "mph": 105,
+   "kind": "estimated",
+   "note": "Speed-limited, approximate"
+  },
+  "mpg": {
+   "combined": 18,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2001, 3.0 V6 4WD"
+  },
+  "built": {
+   "count": 1191511,
+   "approx": true,
+   "note": "Sold in the US, 2000–2007 calendar years"
+  },
+  "alongside": [
+   {
+    "id": "ford-explorer-3rd-gen",
+    "name": "Ford Explorer (third generation)"
+   }
+  ],
+  "prev": null,
+  "next": {
+   "id": "ford-escape-2nd-gen",
+   "name": "Ford Escape (second generation)"
+  },
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/2001-2004_Ford_Escape_--_04-26-2012.JPG/960px-2001-2004_Ford_Escape_--_04-26-2012.JPG",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "ford-escape-2nd-gen",
+  "name": "Ford Escape (second generation)",
+  "aka": [
+   "XLT",
+   "Limited",
+   "Escape Hybrid",
+   "Mercury Mariner"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Claycomo, Missouri)",
+  "years": "2008–2012",
+  "start": 2008,
+  "body": "Compact unibody SUV — a deep reskin of the CD2 platform with a squared-off, baby-Explorer look",
+  "engine": "2.5 Duratec from 2009; 3.0 Duratec V6; 2.5 Atkinson hybrid",
+  "country": "United States",
+  "quick": "Same bones, squarer suit: the 2008–12 Escape rode the gas-price panic to a quarter-million sales a year while its hybrid twin racked up taxi miles by the hundreds of thousands.",
+  "articles": [
+   "industry-brief-2026-11-09"
+  ],
+  "latest": "2026-11-09",
+  "ownDates": [],
+  "dates": [
+   "2026-11-09"
+  ],
+  "drive": "Front-wheel drive or all-wheel drive",
+  "gearbox": "6-speed automatic from 2009; CVT for the Hybrid",
+  "specsFor": "2010 Escape XLT 2.5",
+  "guide": null,
+  "shop": {
+   "cargurus": "d330"
+  },
+  "hp": 171,
+  "kg": 1500,
+  "kgNote": "Curb weight, 2.5 FWD, approximate",
+  "lbs": 3308,
+  "z60": {
+   "sec": 9.5,
+   "kind": "estimated",
+   "note": "Period tests"
+  },
+  "top": {
+   "mph": 105,
+   "kind": "estimated",
+   "note": "Speed-limited, approximate"
+  },
+  "mpg": {
+   "combined": 23,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2010, 2.5 FWD; 22 with all-wheel drive"
+  },
+  "built": {
+   "count": 1035915,
+   "approx": true,
+   "note": "Sold in the US, 2008–2012 calendar years"
+  },
+  "alongside": [
+   {
+    "id": "ford-explorer-4th-gen",
+    "name": "Ford Explorer (fourth generation)"
+   }
+  ],
+  "prev": {
+   "id": "ford-escape-1st-gen",
+   "name": "Ford Escape (first generation)"
+  },
+  "next": {
+   "id": "ford-escape-3rd-gen",
+   "name": "Ford Escape (third generation)"
+  },
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/2010_Ford_Escape_XLT,_Front_Left,_02-18-2021.jpg/960px-2010_Ford_Escape_XLT,_Front_Left,_02-18-2021.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "ford-escape-3rd-gen",
+  "name": "Ford Escape (third generation)",
+  "aka": [
+   "Ford Kuga",
+   "SE",
+   "Titanium",
+   "EcoBoost"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Louisville Assembly Plant, Kentucky)",
+  "years": "2013–2019",
+  "start": 2013,
+  "body": "Compact unibody crossover, developed as one vehicle with the European Ford Kuga under One Ford",
+  "engine": "2.5 Duratec; 1.6 EcoBoost, then 1.5 from 2017; 2.0 EcoBoost",
+  "country": "United States",
+  "quick": "One Ford made the Escape and Europe's Kuga the same car — and America bought more than 300,000 a year, 4 years running. Over 2 million sold makes this the biggest Escape of all.",
+  "articles": [
+   "industry-brief-2026-11-09"
+  ],
+  "latest": "2026-11-09",
+  "ownDates": [],
+  "dates": [
+   "2026-11-09"
+  ],
+  "drive": "Front-wheel drive or all-wheel drive",
+  "gearbox": "6-speed automatic",
+  "specsFor": "2014 Escape Titanium 2.0 EcoBoost AWD",
+  "guide": null,
+  "shop": {
+   "cargurus": "d330"
+  },
+  "hp": 237,
+  "kg": 1653,
+  "kgNote": "Curb weight, 2.0 AWD, approximate",
+  "lbs": 3645,
+  "z60": {
+   "sec": 7.0,
+   "kind": "estimated",
+   "note": "Instrumented tests of the 2.0 ran about 7 seconds flat"
+  },
+  "top": {
+   "mph": 120,
+   "kind": "estimated",
+   "note": "Speed-limited, approximate"
+  },
+  "mpg": {
+   "combined": 24,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2014, 2.0 AWD"
+  },
+  "built": {
+   "count": 2037678,
+   "approx": true,
+   "note": "Sold in the US, 2013–2019 calendar years — the Escape's biggest generation, with 4 straight years above 300,000"
+  },
+  "alongside": [
+   {
+    "id": "ford-explorer-5th-gen",
+    "name": "Ford Explorer (fifth generation)"
+   }
+  ],
+  "prev": {
+   "id": "ford-escape-2nd-gen",
+   "name": "Ford Escape (second generation)"
+  },
+  "next": {
+   "id": "ford-escape-4th-gen",
+   "name": "Ford Escape (fourth generation)"
+  },
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/2014_Ford_Escape_SE_in_Karat_Gold,_Front_Left,_08-30-2022.jpg/960px-2014_Ford_Escape_SE_in_Karat_Gold,_Front_Left,_08-30-2022.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "ford-escape-4th-gen",
+  "name": "Ford Escape (fourth generation)",
+  "aka": [
+   "ST-Line",
+   "Active",
+   "Platinum",
+   "Escape PHEV",
+   "Kuga sibling"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Louisville Assembly Plant, Kentucky)",
+  "years": "2020–2026",
+  "start": 2020,
+  "body": "Compact unibody crossover, deliberately car-like; related to the European Kuga and the Bronco Sport's platform donor",
+  "engine": "1.5 EcoBoost 3-cylinder; 2.0 EcoBoost; 2.5 hybrid; 2.5 plug-in hybrid",
+  "country": "United States",
+  "quick": "Car-like on purpose, hybrid again at last, and retired after 2026: the last Escape is the quickest (5.7 to 60) and the most efficient (101 MPGe) the nameplate ever got.",
+  "articles": [
+   "industry-brief-2026-11-09"
+  ],
+  "latest": "2026-11-09",
+  "ownDates": [],
+  "dates": [
+   "2026-11-09"
+  ],
+  "drive": "Front-wheel drive or all-wheel drive; the plug-in is front-drive only",
+  "gearbox": "8-speed automatic; eCVT for hybrid and plug-in",
+  "specsFor": "2020 Escape Titanium 2.0 EcoBoost AWD",
+  "guide": null,
+  "shop": {
+   "cargurus": "d330"
+  },
+  "hp": 250,
+  "kg": 1611,
+  "kgNote": "Curb weight, top gas spec",
+  "lbs": 3551,
+  "z60": {
+   "sec": 5.7,
+   "kind": "tested",
+   "note": "Car and Driver instrumented test, 2020 Titanium 2.0 — the quickest Escape ever tested"
+  },
+  "top": {
+   "mph": 125,
+   "kind": "estimated",
+   "note": "Speed-limited, approximate"
+  },
+  "mpg": {
+   "combined": 26,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2020, 2.0 AWD"
+  },
+  "built": {
+   "count": 888495,
+   "approx": true,
+   "note": "Sold in the US, 2020–2025 calendar years; US production ended December 2025 and the Escape retires after 2026"
+  },
+  "alongside": [
+   {
+    "id": "ford-bronco-sport",
+    "name": "Ford Bronco Sport"
+   },
+   {
+    "id": "ford-explorer-6th-gen",
+    "name": "Ford Explorer (sixth generation)"
+   }
+  ],
+  "prev": {
+   "id": "ford-escape-3rd-gen",
+   "name": "Ford Escape (third generation)"
+  },
+  "next": null,
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/2023_Ford_Escape_front_view.jpg/960px-2023_Ford_Escape_front_view.jpg",
+   "pos": "",
+   "fit": ""
+  }
  }
 ];

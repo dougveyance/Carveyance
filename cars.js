@@ -47930,5 +47930,307 @@ const CARS = [
       "Ford Focus",
       "Ford Focus RS"
     ]
+  },
+  {
+    "id": "ford-fiesta-mk1-us",
+    "family": {
+      "id": "ford-fiesta",
+      "name": "Ford Fiesta"
+    },
+    "name": "Ford Fiesta (Mk1, US market)",
+    "aka": [
+      "Mk1",
+      "Fiesta S",
+      "Ghia",
+      "Project Bobcat"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Saarlouis and Cologne, Germany)",
+    "country": "Germany",
+    "years": "1978–1980",
+    "start": 1978,
+    "end": 1980,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "3-door subcompact hatchback — the first front-wheel-drive Ford sold in America",
+    "engine": "1.6 Kent crossflow, federalized with a catalyst and air pump",
+    "drive": "Front-wheel drive",
+    "gearbox": "4-speed manual",
+    "specsFor": "1978 Fiesta S",
+    "power": {
+      "hp": 66,
+      "note": "Federalized 1.6 Kent; 82 lb-ft — Ford's own retrospective quotes 63",
+      "src": "https://ateupwithmotor.com/model-histories/ford-fiesta-mk1-mk2/3/"
+    },
+    "weight": {
+      "kg": 832,
+      "lb": 1835,
+      "note": "Curb weight, Fiesta S",
+      "src": "https://ateupwithmotor.com/model-histories/ford-fiesta-mk1-mk2/3/"
+    },
+    "zero60": {
+      "sec": 10.9,
+      "kind": "estimated",
+      "note": "Period road tests ran just under 11 seconds — quicker than some V8 sedans of the day"
+    },
+    "top": {
+      "mph": 98,
+      "kind": "claimed",
+      "note": "Advertised, and realistic in period testing",
+      "src": "https://ateupwithmotor.com/model-histories/ford-fiesta-mk1-mk2/3/"
+    },
+    "mpg": {
+      "na": "Predates fueleconomy.gov's records, which begin with 1984"
+    },
+    "built": {
+      "na": "Ford never published a US-only total; CAFE rules capped imports near 75,000 a year"
+    },
+    "versions": [
+      {
+        "name": "Fiesta S",
+        "detail": "The sporty trim — at 832 kg (1,835 lb), lighter than almost anything else on American roads"
+      },
+      {
+        "name": "Ghia",
+        "detail": "The plush one — top trim of the Base, Decor, Sport and Ghia ladder",
+        "power": {
+          "hp": 66,
+          "note": "Federalized 1.6 Kent",
+          "src": "https://ateupwithmotor.com/model-histories/ford-fiesta-mk1-mk2/3/"
+        },
+        "weight": {
+          "kg": 840,
+          "lb": 1852,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 11.2,
+          "kind": "estimated",
+          "note": "Period road tests"
+        },
+        "top": {
+          "mph": 98,
+          "kind": "claimed",
+          "note": "Advertised",
+          "src": "https://ateupwithmotor.com/model-histories/ford-fiesta-mk1-mk2/3/"
+        },
+        "mpg": {
+          "na": "Predates fueleconomy.gov's records, which begin with 1984"
+        }
+      }
+    ],
+    "predecessor": null,
+    "successor": {
+      "name": "Ford Escort (US)",
+      "id": null
+    },
+    "alongside": [],
+    "quick": "Ford's first front-drive car in America lasted 3 years, weighed 832 kg (1,835 lb), out-accelerated some V8s — and was killed by the fuel-economy rules it existed to serve.",
+    "story": [
+      "The Fiesta was the biggest gamble in Ford's postwar history — an all-new front-wheel-drive supermini, developed as Project Bobcat and built in Germany and Spain — and from 1978 America got a taste. The federalized car carried a 1.6 Kent crossflow half-buried under emissions gear, round sealed-beam headlamps and park-bench bumpers, in Base, Decor, Sport and Ghia trims. At 832 kg (1,835 lb) it barely weighed anything, which made 66 hp feel like plenty: under 11 seconds to 60, nearly 100 mph, and corners taken like a toy.",
+      "The irony killed it. Because the Fiesta was imported, CAFE rules let Ford count only about 75,000 a year toward its fleet economy average — and from 1980, none at all. Ford needed a domestic small car it could count, so the US-built Escort replaced both the Fiesta and the Pinto for 1981, and the little German Ford vanished from America for 30 years. Survivors are rare, cheap and adored — the Fiesta that explains why the 2011 one mattered."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "1979 Ford Fiesta Ghia (US), front right.jpg",
+      "credit": "Mr.choppers",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pos": ""
+    },
+    "match": [
+      "Ford Fiesta"
+    ]
+  },
+  {
+    "id": "ford-fiesta-mk6",
+    "family": {
+      "id": "ford-fiesta",
+      "name": "Ford Fiesta"
+    },
+    "name": "Ford Fiesta (sixth generation)",
+    "aka": [
+      "Mk6",
+      "Fiesta ST",
+      "SFE",
+      "Titanium"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Cuautitlán Assembly, Mexico)",
+    "country": "United States",
+    "years": "2011–2019",
+    "start": 2011,
+    "end": 2019,
+    "shop": {
+      "cargurus": "d1060"
+    },
+    "body": "Subcompact 5-door hatchback and 4-door sedan — the Fiesta's American return after a 30-year absence",
+    "engine": "1.6 Duratec Ti-VCT; 1.0 EcoBoost; 1.6 EcoBoost in the ST",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual or PowerShift 6-speed dual-clutch; 6-speed manual in the ST",
+    "specsFor": "2014 Fiesta ST",
+    "power": {
+      "hp": 197,
+      "note": "1.6 EcoBoost with overboost; 180 hp sustained; 6-speed manual only",
+      "src": "https://en.wikipedia.org/wiki/Ford_Fiesta_(sixth_generation)"
+    },
+    "weight": {
+      "kg": 1244,
+      "lb": 2743,
+      "note": "Curb weight, ST — the heaviest of the range",
+      "src": "https://en.wikipedia.org/wiki/Ford_Fiesta_(sixth_generation)"
+    },
+    "zero60": {
+      "sec": 6.9,
+      "kind": "claimed",
+      "note": "Ford quoted under 7 seconds; instrumented tests agreed",
+      "src": "https://en.wikipedia.org/wiki/Ford_Fiesta_(sixth_generation)"
+    },
+    "top": {
+      "mph": 137,
+      "kind": "claimed",
+      "note": "Electronically limited",
+      "src": "https://en.wikipedia.org/wiki/Ford_Fiesta_(sixth_generation)"
+    },
+    "mpg": {
+      "combined": 29,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/",
+      "note": "EPA combined, 2014 ST (26 city, 34 highway)"
+    },
+    "built": {
+      "count": 562951,
+      "approx": true,
+      "note": "Sold in the US, 2010–2020 calendar years; the 2013 peak was 71,073",
+      "src": "https://www.goodcarbadcar.net/?p=4995"
+    },
+    "versions": [
+      {
+        "name": "Fiesta ST (2014–19)",
+        "detail": "The critics' darling — torque vectoring, 3 ESP modes, and the best-steering cheap car of its decade"
+      },
+      {
+        "name": "1.6 Duratec",
+        "detail": "120 hp — the volume engine, hatch or sedan",
+        "power": {
+          "hp": 120,
+          "note": "1.6 Ti-VCT 4-cylinder",
+          "src": "https://en.wikipedia.org/wiki/Ford_Fiesta_(sixth_generation)"
+        },
+        "weight": {
+          "kg": 1151,
+          "lb": 2537,
+          "note": "Curb weight, hatch, approximate"
+        },
+        "zero60": {
+          "sec": 9.5,
+          "kind": "estimated",
+          "note": "Period tests"
+        },
+        "top": {
+          "mph": 110,
+          "kind": "estimated",
+          "note": "Approximate"
+        },
+        "mpg": {
+          "combined": 32,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2011, PowerShift (29 city, 37 highway); 30 by 2014"
+        }
+      },
+      {
+        "name": "1.0 EcoBoost SFE (2014–17)",
+        "detail": "The 123-hp turbo 3-cylinder economy special — manual only",
+        "power": {
+          "hp": 123,
+          "note": "1.0 EcoBoost 3-cylinder",
+          "src": "https://en.wikipedia.org/wiki/Ford_Fiesta_(sixth_generation)"
+        },
+        "weight": {
+          "kg": 1125,
+          "lb": 2480,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 9.0,
+          "kind": "estimated",
+          "note": "Period tests"
+        },
+        "top": {
+          "mph": 112,
+          "kind": "estimated",
+          "note": "Approximate"
+        },
+        "mpg": {
+          "combined": 35,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2014, manual (31 city, 41 highway) — the thriftiest gas Ford of its day"
+        }
+      },
+      {
+        "name": "Sedan",
+        "detail": "The 4-door for markets that wanted a trunk",
+        "power": {
+          "hp": 120,
+          "note": "1.6 Ti-VCT 4-cylinder",
+          "src": "https://en.wikipedia.org/wiki/Ford_Fiesta_(sixth_generation)"
+        },
+        "weight": {
+          "kg": 1146,
+          "lb": 2527,
+          "note": "Curb weight, sedan, approximate"
+        },
+        "zero60": {
+          "sec": 9.5,
+          "kind": "estimated",
+          "note": "Period tests"
+        },
+        "top": {
+          "mph": 110,
+          "kind": "estimated",
+          "note": "Approximate"
+        },
+        "mpg": {
+          "combined": 31,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2019 (27 city, 37 highway)"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Ford Fiesta (Mk1, US market)",
+      "id": "ford-fiesta-mk1-us"
+    },
+    "successor": null,
+    "alongside": [
+      {
+        "name": "Ford Focus (third generation)",
+        "id": "ford-focus-3rd-gen"
+      }
+    ],
+    "quick": "The Fiesta came back after 30 years as the best-driving subcompact in America — then the ST made it a legend and the PowerShift lawsuits made it a cautionary tale.",
+    "story": [
+      "Thirty years after the first Fiesta left, the Mk6 arrived for 2011 from Cuautitlán, Mexico — a genuinely European-feeling subcompact with the best chassis in its class, as a 5-door hatch or a sedan. The 120-hp 1.6 did the volume work, the 2014 refresh added a 35-mpg 1.0 EcoBoost 3-cylinder, and the Fiesta ST — 197 hp on overboost, manual only, torque vectoring — became the rare cheap car that every road tester kept after the review was filed.",
+      "The PowerShift dual-clutch wrote the sadder half of the story: class actions covering about 1.5 million Fiestas and Focuses, repeated clutch and module revisions, 2 warranty extensions, and a settlement of at least $30 million — about $39 million in 2026 dollars — approved in 2020. Manual cars escaped it entirely. US sales ended with the 2019 model year as Ford exited cars, Mexican production stopped that August, and the ST instantly became the collectible: the last, best small Ford America is likely to see."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "2011 Ford Fiesta SES hatchback -- 02-18-2011.jpg",
+      "credit": "IFCAR",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:2011_Ford_Fiesta_SES_hatchback_--_02-18-2011.jpg",
+      "pos": ""
+    },
+    "match": [
+      "Ford Fiesta"
+    ]
   }
 ];

@@ -34137,5 +34137,666 @@ const CARS = [
       "Mercedes-Benz E 500",
       "Mercedes-Benz E500"
     ]
+  },
+  {
+    "id": "rolls-royce-phantom-i-jonckheere",
+    "name": "Rolls-Royce Phantom I (Jonckheere Coupe)",
+    "aka": [
+      "Round Door Rolls",
+      "Jonckheere Aerodynamic Coupe",
+      "New Phantom"
+    ],
+    "make": "Rolls-Royce",
+    "maker": "Rolls-Royce (Derby, England); body by Jonckheere (Roeselare, Belgium)",
+    "country": "United Kingdom",
+    "years": "1925 (rebodied 1934)",
+    "start": 1925,
+    "end": 1934,
+    "shop": null,
+    "body": "2-door aerodynamic coupe with round doors",
+    "engine": "7.7-liter inline-6",
+    "drive": "Rear-wheel drive",
+    "gearbox": "4-speed manual",
+    "specsFor": "1925 Phantom I chassis, the Petersen's figures",
+    "power": {
+      "hp": 110,
+      "note": "7,668 cc inline-6",
+      "src": "https://www.petersen.org/vehicle-spotlights/1925-rolls-royce-phantom-1"
+    },
+    "weight": {
+      "na": "Never published for this body"
+    },
+    "zero60": {
+      "na": "No instrumented period test"
+    },
+    "top": {
+      "mph": 80,
+      "kind": "claimed",
+      "note": "The Petersen's figure",
+      "src": "https://www.petersen.org/vehicle-spotlights/1925-rolls-royce-phantom-1"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "count": 1,
+      "approx": false,
+      "note": "One Jonckheere coupe; Rolls-Royce built 3,512 Phantom Is in all, 1925–1931",
+      "src": "https://en.wikipedia.org/wiki/Rolls-Royce_Phantom_I"
+    },
+    "predecessor": {
+      "name": "Rolls-Royce Silver Ghost",
+      "id": null
+    },
+    "successor": {
+      "name": "Rolls-Royce Phantom II",
+      "id": null
+    },
+    "quick": "The Round Door Rolls: a 1925 Phantom I rebodied in 1934 by a Belgian coachbuilder into a 20-foot Art Deco coupe with perfectly circular doors. Nobody knows who ordered it, and the Petersen calls it its crown jewel.",
+    "story": [
+      "It began as the most conservative car money could buy: a 1925 Rolls-Royce Phantom I, delivered as a bare chassis, as all prewar Rolls-Royces were, and first bodied by Hooper as a cabriolet for Mrs. Hugh Dillman of Detroit. By 1932 the chassis was in Belgium, and in 1934 the coachbuilder Jonckheere of Roeselare gave it the body it wears now: nearly 20 feet long, with a tailfin down the trunk, oval side glass and a perfectly round door on each side, through which 2 rows of passengers enter at once. A fire later destroyed Jonckheere's records, so no one knows who commissioned it, or who drew it.",
+      "Its later life was as strange as its shape. It turned up in a New Jersey junkyard in the 1950s, and the showman Max Obie painted it gold and charged the curious $1 a look, about $12 in 2026 money. After decades on the East Coast and in Japan, the Petersen bought it in the spring of 2001 for the Margie and Robert E. Petersen Collection, and it now sits in the museum's Vault, where the museum calls it the crown jewel of the collection. The chassis is ordinary Phantom I, 7.7 liters and about 110 hp. The body is like nothing else on earth."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "The Round Door Rolls in the Petersen's Vault"
+    },
+    "match": [
+      "Rolls-Royce Phantom I",
+      "Round Door Rolls"
+    ]
+  },
+  {
+    "id": "bugatti-type-57",
+    "name": "Bugatti Type 57",
+    "aka": [
+      "57 C",
+      "57 S",
+      "57 SC",
+      "Atlantic",
+      "Atalante"
+    ],
+    "make": "Bugatti",
+    "maker": "Bugatti (Molsheim, Alsace)",
+    "country": "France",
+    "years": "1934–1940",
+    "start": 1934,
+    "end": 1940,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Grand tourer with factory and custom coachwork",
+    "engine": "3.3-liter twin-cam inline-8 (57 C: supercharged)",
+    "drive": "Rear-wheel drive",
+    "gearbox": "4-speed manual",
+    "specsFor": "Type 57, Wikipedia's figures",
+    "power": {
+      "hp": 135,
+      "note": "3,257 cc inline-8; the supercharged 57 C made 160",
+      "src": "https://en.wikipedia.org/wiki/Bugatti_Type_57"
+    },
+    "weight": {
+      "na": "Depends on the coachwork"
+    },
+    "zero60": {
+      "na": "No instrumented period test"
+    },
+    "top": {
+      "mph": 95,
+      "kind": "claimed",
+      "note": "153 km/h; the 57 C was faster",
+      "src": "https://en.wikipedia.org/wiki/Bugatti_Type_57"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "count": 710,
+      "approx": false,
+      "note": "All Type 57s, 1934–1940; about 96 were supercharged 57 Cs",
+      "src": "https://en.wikipedia.org/wiki/Bugatti_Type_57"
+    },
+    "versions": [
+      {
+        "name": "Type 57",
+        "detail": "1934–1940; 135 hp"
+      },
+      {
+        "name": "Type 57 C",
+        "detail": "1937–1940; supercharged, 160 hp; about 96 built"
+      },
+      {
+        "name": "Type 57 S and 57 SC",
+        "detail": "Lowered and, with the supercharger, the fastest; the Atlantic coupes are 57 S cars"
+      }
+    ],
+    "predecessor": null,
+    "successor": {
+      "name": "Bugatti Type 101",
+      "id": null
+    },
+    "alongside": [
+      {
+        "name": "Delahaye Type 165",
+        "id": "delahaye-165"
+      }
+    ],
+    "quick": "Jean Bugatti's masterpiece: the grand tourer behind the Atlantic and Atalante. The Petersen's 57 C cabriolet by Vanvooren was France's wedding gift to the Shah of Iran.",
+    "story": [
+      "The Type 57 was the car with which Jean Bugatti, Ettore's son, stepped out of his father's shadow: an entirely new design with a 3,257 cc twin-cam straight-8, built in Molsheim from 1934 to 1940. It wore everything from factory bodies, the Atalante coupe among them, to the riveted-spine Atlantic, of which surviving examples are among the most valuable cars anywhere. Bugatti built 710 in all, and from 1937 about 96 got a Roots supercharger and the name 57 C, for Compresseur, lifting power from 135 to 160 hp.",
+      "The dark blue cabriolet in the photo is a 1939 57 C bodied by Vanvooren of Paris in the full French streamline style, with sweeping skirted fenders deliberately close in manner to Figoni's Delahayes. France ordered it as a state wedding gift for Crown Prince Mohammad Reza Pahlavi, the future Shah of Iran, on his marriage to Princess Fawzia of Egypt, which is why a Bugatti with Parisian coachwork spent its early life in Tehran. It later crossed to America, and it now shares the Petersen's floor with the Delahaye 165 whose style it mirrors."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "The Shah of Iran's 1939 Type 57 C cabriolet by Vanvooren at the Petersen Automotive Museum"
+    },
+    "match": [
+      "Bugatti Type 57",
+      "Bugatti Atlantic"
+    ]
+  },
+  {
+    "id": "delahaye-165",
+    "name": "Delahaye Type 165",
+    "aka": [
+      "165 Cabriolet",
+      "World's Fair Delahaye"
+    ],
+    "make": "Delahaye",
+    "maker": "Delahaye (Paris); body by Figoni et Falaschi",
+    "country": "France",
+    "years": "1939",
+    "start": 1939,
+    "end": 1939,
+    "shop": null,
+    "body": "2-seat cabriolet with fully skirted wheels",
+    "engine": "4.5-liter V12",
+    "drive": "Rear-wheel drive",
+    "gearbox": "4-speed manual",
+    "specsFor": "Type 165, the Petersen's figures",
+    "power": {
+      "hp": 184,
+      "note": "4.5-liter V12, detuned from the Type 145 race car",
+      "src": "https://petersen.org/vehicle-spotlights/1939-delahaye-type-165-worlds-fair-by-figoni-et-falaschi"
+    },
+    "weight": {
+      "na": "No published figure"
+    },
+    "zero60": {
+      "na": "No instrumented period test"
+    },
+    "top": {
+      "mph": 120,
+      "kind": "claimed",
+      "note": "The Petersen's figure",
+      "src": "https://petersen.org/vehicle-spotlights/1939-delahaye-type-165-worlds-fair-by-figoni-et-falaschi"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "count": 2,
+      "approx": false,
+      "note": "The Petersen's count; other sources say up to 6",
+      "src": "https://petersen.org/vehicle-spotlights/1939-delahaye-type-165-worlds-fair-by-figoni-et-falaschi"
+    },
+    "predecessor": {
+      "name": "Delahaye 145",
+      "id": null
+    },
+    "successor": null,
+    "alongside": [
+      {
+        "name": "Talbot-Lago T150-C SS",
+        "id": "talbot-lago-t150c"
+      },
+      {
+        "name": "Bugatti Type 57",
+        "id": "bugatti-type-57"
+      }
+    ],
+    "quick": "Possibly the most beautiful French car of the 1930s: a V12 Delahaye in Figoni et Falaschi's teardrop style, sent to represent France at the 1939 New York World's Fair before its engine was even finished.",
+    "story": [
+      "The 165 was the road-going version of Delahaye's Type 145 Grand Prix car, its 4.5-liter V12 detuned to about 184 hp, and Figoni et Falaschi gave it the most extravagant body of the firm's extravagant career: every wheel skirted, every line a teardrop, the windshield winding down into the cowl. France chose it to represent the nation at the 1939 New York World's Fair, whose theme was the Dawn of a New Day, and the car was rushed across the Atlantic so fast that its engine was not finished; the star of the French pavilion was displayed with a hollow motor.",
+      "Then the war came, the fair closed, and US Customs impounded the Delahaye in New York for the duration. It knocked around America afterward, ran for a time with a Cadillac V8, and was found by Peter Mullin in a Fresno garage in 1986, restored, and finally reunited with the V12 it was always meant to have. It won its class at Pebble Beach in 1992 and again in 2023, and came to the Petersen as a gift of the Mullin Automotive Museum Foundation when that collection was dispersed. The Petersen counts 2 built; some historians count as many as 6."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "The 1939 World's Fair Delahaye Type 165 by Figoni et Falaschi at the Petersen Automotive Museum"
+    },
+    "match": [
+      "Delahaye 165"
+    ]
+  },
+  {
+    "id": "delahaye-135",
+    "name": "Delahaye 135",
+    "aka": [
+      "135 M",
+      "135 MS",
+      "Coupe des Alpes"
+    ],
+    "make": "Delahaye",
+    "maker": "Delahaye (Paris); bodies by Chapron, Figoni et Falaschi and others",
+    "country": "France",
+    "years": "1935–1954",
+    "start": 1935,
+    "end": 1954,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Sports chassis with custom coachwork",
+    "engine": "3.2- or 3.6-liter inline-6",
+    "drive": "Rear-wheel drive",
+    "gearbox": "4-speed manual or Cotal electromagnetic",
+    "specsFor": "Delahaye 135, Wikipedia's figures",
+    "power": {
+      "hp": 110,
+      "note": "3,227 cc inline-6, 95 to 110 hp; the 3.6-liter MS reached about 145",
+      "src": "https://en.wikipedia.org/wiki/Delahaye_135"
+    },
+    "weight": {
+      "na": "Depends on the coachwork"
+    },
+    "zero60": {
+      "na": "No instrumented period test"
+    },
+    "top": {
+      "mph": 100,
+      "kind": "claimed",
+      "note": "Roughly, for the early cars; Autozine credits the MS with more",
+      "src": "https://autozine.org/Archive/Delahaye/classic/135.html"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "count": 2000,
+      "approx": true,
+      "note": "All 135s, 1935–1954",
+      "src": "https://en.wikipedia.org/wiki/Delahaye_135"
+    },
+    "versions": [
+      {
+        "name": "135",
+        "detail": "1935 on; 3.2-liter"
+      },
+      {
+        "name": "135 M",
+        "detail": "3.6-liter"
+      },
+      {
+        "name": "135 MS",
+        "detail": "The sporting twin-carburetor cars, up to about 145 hp"
+      },
+      {
+        "name": "135 CS",
+        "detail": "Competition; won Le Mans in 1938"
+      }
+    ],
+    "predecessor": null,
+    "successor": {
+      "name": "Delahaye 175",
+      "id": null
+    },
+    "alongside": [
+      {
+        "name": "Delahaye Type 165",
+        "id": "delahaye-165"
+      }
+    ],
+    "quick": "The great French sporting chassis: it won the Monte Carlo Rally in 1937 and Le Mans in 1938, and carried some of the loveliest coachwork of its era. The Petersen's coupe is by Henri Chapron.",
+    "story": [
+      "The 135 is the car that made Delahaye, a sober old Paris firm, into a sporting great. Its low chassis and 3.2-liter truck-derived straight-6 proved nearly unbreakable in competition: a 135 won the Monte Carlo Rally in 1937, and at Le Mans in 1938 the 135 CS of Eugène Chaboud and Jean Trémoulet won outright, with Delahayes also 2nd and 4th. About 2,000 chassis were built across 2 decades, interrupted by the war, and nearly every great French coachbuilder bodied them: Figoni et Falaschi, Saoutchik, Pourtout, Letourneur et Marchand and Henri Chapron.",
+      "The Petersen's car, in dark blue over maroon, carries a Chapron coupe body, the quieter school of French coachwork: no cascading chrome, just long fenders and perfect proportions, with the builder's script on the cowl. Chapron bodied more 135s than anyone, and his cars were what a discreet Parisian ordered while Figoni's clients went to the opera. The 135 outlived the war, the 165 and very nearly Delahaye itself, staying in production until 1954, when the company was absorbed by Hotchkiss and stopped building cars."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "A Delahaye 135 coupe by Henri Chapron at the Petersen Automotive Museum"
+    },
+    "match": [
+      "Delahaye 135"
+    ]
+  },
+  {
+    "id": "talbot-lago-t150c",
+    "name": "Talbot-Lago T150-C SS",
+    "aka": [
+      "Teardrop",
+      "Goutte d'Eau",
+      "T150-C-SS",
+      "Figoni Coupe"
+    ],
+    "make": "Talbot-Lago",
+    "maker": "Talbot-Lago (Suresnes, Paris); body by Figoni et Falaschi",
+    "country": "France",
+    "years": "1937–1939",
+    "start": 1937,
+    "end": 1939,
+    "shop": null,
+    "body": "2-door teardrop coupe",
+    "engine": "4.0-liter inline-6",
+    "drive": "Rear-wheel drive",
+    "gearbox": "4-speed manual or Wilson preselector",
+    "specsFor": "Type 150-C-S, the Petersen's figures",
+    "power": {
+      "hp": 140,
+      "note": "4.0-liter inline-6",
+      "src": "https://petersen.org/vehicle-spotlights/1937-talbot-lago-150-c-s"
+    },
+    "weight": {
+      "na": "No published figure"
+    },
+    "zero60": {
+      "na": "No instrumented period test"
+    },
+    "top": {
+      "mph": 125,
+      "kind": "claimed",
+      "note": "Sports Car Market's figure for the SS road cars",
+      "src": "https://www.sportscarmarket.com/profile/1937-talbot-lago-t150c-ss-teardrop-coupe"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "count": 14,
+      "approx": false,
+      "note": "The Petersen's count of Type 150-C-Ss; other sources count 10 to 16 teardrop coupes",
+      "src": "https://petersen.org/vehicle-spotlights/1937-talbot-lago-150-c-s"
+    },
+    "predecessor": null,
+    "successor": null,
+    "alongside": [
+      {
+        "name": "Delahaye Type 165",
+        "id": "delahaye-165"
+      }
+    ],
+    "quick": "The teardrop: Joseph Figoni's goutte d'eau coupe on Talbot-Lago's short racing chassis, maybe the purest Art Deco shape ever put on wheels. 1 sold in 2022 for $13,425,000.",
+    "story": [
+      "Anthony Lago took over the Talbot works at Suresnes in 1935 and wanted bodies as dramatic as his racing chassis, whose victory in the 1937 French Grand Prix had just made the marque famous. Joseph Figoni answered with the goutte d'eau, the water drop: a fastback coupe drawn in one unbroken line from grille to tail, unveiled at the 1937 Paris Salon on the short T150-C SS chassis, SS for Super Sport, with a 4.0-liter 6 of about 140 hp and a top speed near 125 mph. A teardrop even raced at Le Mans in 1938 and finished 3rd.",
+      "The Petersen counts 14 Type 150-C-Ss, and historians argue over how many wore teardrop coupes, 10 to 16 depending on who is counting, which is part of the mystique. Each was subtly different, built to its buyer's order, and nearly every one survives, pampered, because no era since has produced anything like them. One sold at Gooding's Amelia Island auction in 2022 for $13,425,000, or $15,427,100 in 2026 dollars. The Petersen's maroon car, a gift of the Mullin Foundation, lives in the museum's Vault."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "The Figoni et Falaschi teardrop: a Talbot-Lago Type 150-C-S at the Petersen Automotive Museum"
+    },
+    "match": [
+      "Talbot-Lago T150",
+      "Talbot-Lago Teardrop"
+    ]
+  },
+  {
+    "id": "hispano-suiza-xenia",
+    "name": "Hispano-Suiza Dubonnet Xenia",
+    "aka": [
+      "H6B Dubonnet Xenia",
+      "H6C Xenia",
+      "Xenia Coupe"
+    ],
+    "make": "Hispano-Suiza",
+    "maker": "Chassis by Hispano-Suiza (Bois-Colombes, Paris); body by Saoutchik to Jean Andreau's design",
+    "country": "France",
+    "years": "1938",
+    "start": 1938,
+    "end": 1938,
+    "shop": null,
+    "body": "3-seat aerodynamic coupe with sliding doors and a wraparound windshield",
+    "engine": "8.0-liter inline-6",
+    "drive": "Rear-wheel drive",
+    "gearbox": "3-speed manual",
+    "specsFor": "The one car built, Wikipedia's figures",
+    "power": {
+      "hp": 160,
+      "note": "Metric hp at 3,050 rpm, from the larger H6C engine",
+      "src": "https://en.wikipedia.org/wiki/Hispano-Suiza_H6B_Dubonnet_Xenia"
+    },
+    "weight": {
+      "na": "Never published"
+    },
+    "zero60": {
+      "na": "No instrumented period test"
+    },
+    "top": {
+      "mph": 109,
+      "kind": "claimed",
+      "note": "An estimated 175 km/h, thanks to the aerodynamic body",
+      "src": "https://en.wikipedia.org/wiki/Hispano-Suiza_H6B_Dubonnet_Xenia"
+    },
+    "mpg": {
+      "na": "A one-off; never rated"
+    },
+    "built": {
+      "count": 1,
+      "approx": false,
+      "note": "A one-off for André Dubonnet, finished in 1938",
+      "src": "https://en.wikipedia.org/wiki/Hispano-Suiza_H6B_Dubonnet_Xenia"
+    },
+    "predecessor": null,
+    "successor": null,
+    "quick": "A WWI fighter ace's rolling showcase: aircraft curves, doors that slide backward on rails, a wraparound windshield 15 years early, and his own suspension underneath. There is exactly 1.",
+    "story": [
+      "André Dubonnet, heir to the aperitif fortune, was a decorated WWI fighter pilot, an Olympic bobsledder and a racing driver, and he used his money the right way: to build rolling arguments for his inventions. The Xenia exists to showcase the Dubonnet independent suspension, which he sold to General Motors. On a Hispano-Suiza H6B chassis with the bigger 8.0-liter H6C engine, the aerodynamicist Jean Andreau drew an aircraft canopy of a body, and Saoutchik of Paris built it: a wraparound windshield more than a decade before Detroit's, panoramic glass, and doors that pop out and slide rearward on rails, like a minivan's by way of a Spitfire.",
+      "He named it Xenia for his late wife, Xenia Howard-Johnston, and finished it in 1938, just in time to hide it from the German invasion. It resurfaced in 1946 to lead a parade opening the Saint-Cloud highway tunnel, passed through French collectors, was restored, and joined Peter Mullin's collection in 2003; it came to the Petersen when the Mullin museum's cars were dispersed. Its estimated 175 km/h (109 mph) made it one of the fastest closed cars of its day, and nothing before or since has looked much like it."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "The 1-of-1 Dubonnet Xenia, Saoutchik's body on a Hispano-Suiza chassis, at the Petersen Automotive Museum"
+    },
+    "match": [
+      "Hispano-Suiza Xenia",
+      "Dubonnet Xenia"
+    ]
+  },
+  {
+    "id": "alfa-romeo-8c-2300",
+    "name": "Alfa Romeo 8C 2300",
+    "aka": [
+      "8C 2300 Monza",
+      "8C 2300 Le Mans",
+      "Tipo 8C"
+    ],
+    "make": "Alfa Romeo",
+    "maker": "Alfa Romeo (Milan)",
+    "country": "Italy",
+    "years": "1931–1934",
+    "start": 1931,
+    "end": 1934,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Supercharged sports and racing chassis, bodied as spiders, tourers and coupes",
+    "engine": "Supercharged 2.3-liter twin-cam inline-8",
+    "drive": "Rear-wheel drive",
+    "gearbox": "4-speed manual",
+    "specsFor": "8C 2300, the Revs Institute's figures for a 1934 spider",
+    "power": {
+      "hp": 142,
+      "note": "2,336 cc supercharged inline-8, at 5,000 rpm",
+      "src": "https://museum.revsinstitute.org/?p=703"
+    },
+    "weight": {
+      "na": "Depends on the body"
+    },
+    "zero60": {
+      "na": "No instrumented period test"
+    },
+    "top": {
+      "mph": 106,
+      "kind": "claimed",
+      "note": "About 170 km/h; race versions were faster",
+      "src": "https://www.conceptcarz.com/s10253/alfa-romeo-8c-2300.aspx.aspx"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "count": 188,
+      "approx": false,
+      "note": "Road and sports chassis in the registers; Alfa Romeo's own retrospective counts 308 with the racing cars",
+      "src": "https://www.sportscarmarket.com/?p=2062"
+    },
+    "versions": [
+      {
+        "name": "8C 2300 Lungo and Corto",
+        "detail": "Long and short chassis"
+      },
+      {
+        "name": "8C 2300 Le Mans",
+        "detail": "The 4-time Le Mans winner"
+      },
+      {
+        "name": "8C 2300 Monza",
+        "detail": "The shortened Grand Prix 2-seater, named for the 1931 Italian GP win"
+      }
+    ],
+    "predecessor": null,
+    "successor": {
+      "name": "Alfa Romeo 8C 2900",
+      "id": null
+    },
+    "quick": "Vittorio Jano's supercharged straight-8 masterpiece: it won Le Mans 4 years running, 1931 through 1934, and the Targa Florio twice. The Petersen's car wears full race trim.",
+    "story": [
+      "The 8C 2300 is the car that made Alfa Romeo the most feared name in 1930s racing. Vittorio Jano's 2,336 cc straight-8 carried its twin camshafts and Roots supercharger between 2 alloy blocks, made about 142 hp in sports trim, and simply did not break. The 8C won the 24 Hours of Le Mans 4 years running: 1931 with Howe and Birkin, 1932 with Chinetti and Sommer, 1933 with Nuvolari and Sommer, and 1934 with Chinetti and Étancelin. Nuvolari added the Targa Florio in 1931 and 1932, and the short Grand Prix version took its name, Monza, from victory in the 1931 Italian Grand Prix.",
+      "Alfa built 188 chassis by the registers, 308 counting the racing cars by the factory's own retrospective, and they were bodied by Touring, Zagato and others as everything from Le Mans tourers to elegant spiders. The Petersen's deep red car wears full road-racing trim, headlights, twin aero screens, a race number on the cowl and the quadrifoglio, Alfa's lucky 4-leaf clover. Prices long ago left earth: a 1932 spider brought $2,819,000 at auction in 2007, or $4,572,300 in 2026 dollars."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "An 8C 2300 in road-racing trim, quadrifoglio and all, at the Petersen Automotive Museum"
+    },
+    "match": [
+      "Alfa Romeo 8C 2300",
+      "Alfa Romeo 8C"
+    ]
+  },
+  {
+    "id": "cadillac-series-62-ghia",
+    "name": "Cadillac Series 62 Coupe by Ghia (1953)",
+    "aka": [
+      "Ghia Cadillac",
+      "Rita Hayworth Cadillac"
+    ],
+    "make": "Cadillac",
+    "maker": "Chassis by Cadillac (Detroit); body by Ghia (Turin)",
+    "country": "United States and Italy",
+    "years": "1953",
+    "start": 1953,
+    "end": 1953,
+    "shop": null,
+    "body": "2-door coupe on a Series 62 convertible chassis",
+    "engine": "5.4-liter (331-cu-in) OHV V8",
+    "drive": "Rear-wheel drive",
+    "gearbox": "4-speed Hydra-Matic automatic",
+    "specsFor": "Series 62 chassis, standard Cadillac mechanicals",
+    "power": {
+      "hp": 210,
+      "note": "331-cu-in Cadillac V8",
+      "src": "https://hotrod.gregwapling.com/prototypes/1953cadillac-ghia.html"
+    },
+    "weight": {
+      "na": "Never published"
+    },
+    "zero60": {
+      "na": "No instrumented period test"
+    },
+    "top": {
+      "na": "No figure on record"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "count": 2,
+      "approx": false,
+      "note": "2 coupes by Ghia on 1953 Series 62 chassis; the Petersen's car is the Rita Hayworth car",
+      "src": "https://www.sportscarmarket.com/profile/1953-cadillac-series-62-coupe-by-ghia"
+    },
+    "predecessor": null,
+    "successor": null,
+    "quick": "Italian couture over a banker's Cadillac: 1 of 2 coupes Ghia built on the 1953 Series 62 chassis, bought by Prince Aly Khan for Rita Hayworth as their marriage fell apart. It later played Tony Stark's car in Iron Man.",
+    "story": [
+      "In the early 1950s the finest Italian coachbuilders discovered American chassis money, and Ghia of Turin, under Luigi Segre, built exactly 2 coupes on 1953 Cadillac Series 62 convertible chassis ordered through the New York distributor. Under the pontoon fenders and faired-in lights it is pure Cadillac, the 210-hp 331-cubic-inch V8 and Hydra-Matic that every Series 62 owner had, which is exactly the charm: Hollywood's idea of Europe, running on Detroit's idea of reliability.",
+      "Prince Aly Khan bought this one for the actress Rita Hayworth, his estranged wife, by most accounts as a peace offering in the middle of their divorce; the marriage ended, and she kept the car. Its sister coupe went to John Perona, owner of Manhattan's El Morocco club. The Hayworth car passed through collectors to Robert E. Petersen himself, was repainted in a deep maroon when its original color was lost to history, won awards at Pebble Beach and La Jolla, and appeared in Iron Man as one of Tony Stark's cars. The Perona car sold at auction in 2016 for $1,430,000, or $2,003,700 in 2026 dollars."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "Rita Hayworth's 1953 Cadillac Series 62 Coupe by Ghia at the Petersen Automotive Museum"
+    },
+    "match": [
+      "Cadillac Ghia",
+      "Cadillac Series 62"
+    ]
+  },
+  {
+    "id": "sunbeam-1000hp",
+    "name": "Sunbeam 1000 HP",
+    "aka": [
+      "The Slug",
+      "Mystery",
+      "Sunbeam 1000hp"
+    ],
+    "make": "Sunbeam",
+    "maker": "Sunbeam (Wolverhampton, England)",
+    "country": "United Kingdom",
+    "years": "1926",
+    "start": 1926,
+    "end": 1927,
+    "shop": null,
+    "body": "Land-speed-record streamliner",
+    "engine": "2 Matabele V12 aircraft engines, 22.4 liters each",
+    "drive": "Rear-wheel drive",
+    "gearbox": "3-speed, with chain final drive",
+    "specsFor": "As run at Daytona Beach in 1927",
+    "power": {
+      "hp": 900,
+      "note": "Nominal 1,000 hp from the 2 V12s together; actual output was closer to 900",
+      "src": "https://en.wikipedia.org/wiki/Sunbeam_1000_hp"
+    },
+    "weight": {
+      "na": "About 4 tons"
+    },
+    "zero60": {
+      "na": "Not measured; it needed miles of beach to reach speed"
+    },
+    "top": {
+      "mph": 203,
+      "kind": "tested",
+      "note": "203.79-mph 2-way average at Daytona Beach, March 29, 1927; the first car past 200 mph",
+      "src": "https://en.wikipedia.org/wiki/Sunbeam_1000_hp"
+    },
+    "mpg": {
+      "na": "A record car; never rated"
+    },
+    "built": {
+      "count": 1,
+      "approx": false,
+      "note": "A one-off, built in 1926 to take the Land Speed Record",
+      "src": "https://en.wikipedia.org/wiki/Sunbeam_1000_hp"
+    },
+    "predecessor": null,
+    "successor": null,
+    "quick": "The first car past 200 mph: 2 aircraft V12s, 45 liters, chain drive and tires rated for 3.5 minutes. Henry Segrave drove it to 203.79 mph at Daytona in 1927, and it is at the Petersen fresh from a 3-year restoration.",
+    "story": [
+      "To beat the 200-mph barrier, the Sunbeam works at Wolverhampton built something closer to an aircraft than a car: 2 Matabele V12 aero engines totaling about 45 liters, 1 ahead of the driver and 1 behind, driving the rear wheels by chains, under a riveted body the press nicknamed the Slug. The tires were rated for 3.5 minutes at speed. On the morning of March 29, 1927, before a crowd of 30,000 on the sand at Daytona Beach, Major Henry Segrave ran it both ways through the measured mile at an average of 203.79 mph, the first car ever past 200.",
+      "No one had driven that fast on land, and Segrave had to shed speed by running into the surf at the end of 1 run. The record stood a year, such was the pace of the era, but the car that broke 200 first was never forgotten: it survived at Britain's National Motor Museum at Beaulieu, silent for half a century, until a 3-year restoration finished in June 2026. It appeared at Pebble Beach that August, is on loan to the Petersen for the fall, and is due back at Daytona on March 29, 2027, for a centenary run, 100 years to the day."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "The Sunbeam 1000 HP, the first car past 200 mph, on loan to the Petersen Automotive Museum from the National Motor Museum"
+    },
+    "match": [
+      "Sunbeam 1000 HP",
+      "Sunbeam Slug"
+    ]
   }
 ];

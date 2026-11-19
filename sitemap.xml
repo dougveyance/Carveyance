@@ -4759,6 +4759,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://carveyance.com/cars/bricklin-sv1/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://carveyance.com/cars/bugatti-eb110/</loc>
     <lastmod>2026-11-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -4777,7 +4783,19 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://carveyance.com/cars/cadillac-eldorado-1992/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://carveyance.com/cars/cadillac-series-62-ghia/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/cars/cadillac-v16/</loc>
     <lastmod>2026-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4802,6 +4820,12 @@
   </url>
   <url>
     <loc>https://carveyance.com/cars/chevrolet-corvette-z06-c5/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/cars/chevrolet-corvette-zr1-c4/</loc>
     <lastmod>2026-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4940,6 +4964,12 @@
   </url>
   <url>
     <loc>https://carveyance.com/cars/ford-maverick-tremor/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/cars/ford-model-a/</loc>
     <lastmod>2026-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -5107,7 +5137,31 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://carveyance.com/cars/ford-taurus-sho/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/cars/geo-prizm/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/cars/geo-tracker/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://carveyance.com/cars/gma-t50/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/cars/gmc-yukon-gmt400/</loc>
     <lastmod>2026-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -5611,6 +5665,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://carveyance.com/cars/jeep-grand-wagoneer-sj/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://carveyance.com/cars/lamborghini-countach/</loc>
     <lastmod>2026-11-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -5851,6 +5911,18 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://carveyance.com/cars/mercury-capri-1991/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/cars/mercury-tracer-lts/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://carveyance.com/cars/mitsubishi-3000gt/</loc>
     <lastmod>2026-11-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -5864,6 +5936,12 @@
   </url>
   <url>
     <loc>https://carveyance.com/cars/mitsubishi-pajero/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/cars/nash-healey/</loc>
     <lastmod>2026-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -6044,6 +6122,18 @@
   </url>
   <url>
     <loc>https://carveyance.com/cars/rolls-royce-phantom-i-jonckheere/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/cars/saleen-s351/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carveyance.com/cars/saturn-sc2/</loc>
     <lastmod>2026-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

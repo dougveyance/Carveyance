@@ -35546,5 +35546,1311 @@ const CARS = [
     "match": [
       "Tesla Roadster"
     ]
+  },
+  {
+    "id": "gmc-yukon-gmt400",
+    "name": "GMC Yukon (first generation)",
+    "aka": [
+      "GMT400",
+      "Yukon GT",
+      "2-door Yukon"
+    ],
+    "make": "GMC",
+    "maker": "General Motors (Janesville, Wisconsin)",
+    "country": "United States",
+    "years": "1992–1999",
+    "start": 1992,
+    "end": 1999,
+    "shop": null,
+    "body": "2-door, later also 4-door, full-size SUV",
+    "engine": "5.7-liter small-block V8",
+    "drive": "4-wheel drive or rear-wheel drive",
+    "gearbox": "4-speed automatic or 5-speed manual",
+    "specsFor": "1995 2-door Yukon, 5.7 V8, 4WD",
+    "power": {
+      "hp": 200,
+      "note": "The 5.7 TBI V8; the 1996 Vortec raised it to 255",
+      "src": "https://www.milegrade.com/vehicles/1995/gmc/yukon"
+    },
+    "weight": {
+      "na": "Varies widely by body and drivetrain"
+    },
+    "zero60": {
+      "na": "Big trucks rarely got instrumented tests new"
+    },
+    "top": {
+      "na": "Not a number anyone asked of it"
+    },
+    "mpg": {
+      "combined": 12,
+      "city": 11,
+      "hwy": 14,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/ws/rest/vehicle/12478",
+      "note": "EPA combined, 1995 5.7 4WD automatic"
+    },
+    "built": {
+      "na": "GM published no Yukon-only totals for the GMT400 years"
+    },
+    "versions": [
+      {
+        "name": "2-door",
+        "detail": "1992–1997; the original, now the collectible"
+      },
+      {
+        "name": "4-door",
+        "detail": "1995–1999; the shape that took over the world"
+      },
+      {
+        "name": "6.5 turbodiesel",
+        "detail": "The rare oil-burner option"
+      }
+    ],
+    "predecessor": null,
+    "successor": {
+      "name": "GMC Yukon (GMT800)",
+      "id": null
+    },
+    "quick": "The Tahoe's GMC twin on GM's GMT400 bones — and for its first years you could only have it as a 2-door, a format the full-size SUV world has since abandoned entirely.",
+    "story": [
+      "The Yukon arrived in 1992 as the GMC version of what Chevrolet would call the Tahoe, both of them shortened Suburbans on the GMT400 platform that underpinned GM's full-size pickups. For the first 3 years it came only as a 2-door, a big, upright wagon with a 5.7-liter V8, and the EPA called it 11 city and 14 highway, which nobody who bought one ever checked. The 4-door arrived for 1995 and immediately became the one everybody wanted, the shape that would define the American family hauler for the next 30 years.",
+      "Which is exactly why the 2-door matters now. The format died with the 1990s, no full-size SUV offers it anymore, and the short-wheelbase trucks have quietly become collector pieces, bought by people who remember when a sport-utility had the proportions of a toolbox. The one in the photo is the 2-door, square-jawed and entirely free of pretense, from the last era when a truck's styling budget went to the parts that do the work."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "GMC Yukon 2-Door GMT400 (Auto classique Bellepros Vaudreuil-Dorion '11).JPG",
+      "credit": "Bull-Doser",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "pos": ""
+    },
+    "match": [
+      "GMC Yukon"
+    ]
+  },
+  {
+    "id": "chevrolet-corvette-zr1-c4",
+    "name": "Chevrolet Corvette ZR-1 (C4)",
+    "aka": [
+      "ZR-1",
+      "King of the Hill",
+      "LT5"
+    ],
+    "make": "Chevrolet",
+    "maker": "Chevrolet (Bowling Green, Kentucky); LT5 engines built by Mercury Marine (Stillwater, Oklahoma)",
+    "country": "United States",
+    "years": "1990–1995",
+    "start": 1990,
+    "end": 1995,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "2-door targa coupe",
+    "engine": "5.7-liter LT5 DOHC 32-valve V8, designed with Lotus",
+    "drive": "Rear-wheel drive",
+    "gearbox": "6-speed manual",
+    "specsFor": "1990 ZR-1, 375 hp",
+    "power": {
+      "hp": 375,
+      "note": "LT5, designed with Lotus; 405 hp from 1993",
+      "src": "https://www.caranddriver.com/reviews/a15141952/1990-chevrolet-corvette-zr-1-road-test/"
+    },
+    "weight": {
+      "kg": 1572,
+      "lb": 3465,
+      "note": "Period curb figure",
+      "src": "https://www.corvetteactioncenter.com/specs/c4/zr1/"
+    },
+    "zero60": {
+      "sec": 4.6,
+      "kind": "tested",
+      "note": "Car and Driver, 1990",
+      "src": "https://www.caranddriver.com/reviews/a15141952/1990-chevrolet-corvette-zr-1-road-test/"
+    },
+    "top": {
+      "mph": 176,
+      "kind": "tested",
+      "note": "Car and Driver, 1990",
+      "src": "https://www.caranddriver.com/reviews/a15141952/1990-chevrolet-corvette-zr-1-road-test/"
+    },
+    "mpg": {
+      "combined": 17,
+      "city": 15,
+      "hwy": 23,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/ws/rest/vehicle/6393",
+      "note": "EPA combined, 1990 6-speed; it still wore a gas-guzzler tax"
+    },
+    "built": {
+      "count": 6939,
+      "approx": false,
+      "note": "1990–1995: 3,049 the first year, then 448 a year at the end",
+      "src": "https://corvettestory.com/specs/1990-Corvette-specs-options.php"
+    },
+    "versions": [
+      {
+        "name": "ZR-1, 375 hp",
+        "detail": "1990–1992; 3,049 built in 1990 alone; 4.6 s to 60 and 176 mph in Car and Driver's test"
+      },
+      {
+        "name": "ZR-1, 405 hp",
+        "detail": "1993–1995; new heads and cams; 448 a year by the end"
+      }
+    ],
+    "predecessor": null,
+    "successor": null,
+    "quick": "King of the Hill: a Lotus-designed, Mercury Marine-built 32-valve V8 in a Corvette, 4.6 seconds to 60 in 1990. The $27,016 option nearly doubled the car's price, and 6,939 found buyers.",
+    "story": [
+      "Chevrolet wanted a Corvette that could run with Ferrari, so it had Lotus, newly purchased by GM, design a 5.7-liter V8 with 4 overhead cams and 32 valves, and then, in one of the great sentences in American industry, had Mercury Marine, the outboard-motor company, build it, in Stillwater, Oklahoma. The LT5 made 375 hp, Car and Driver hit 60 in 4.6 seconds and 176 mph flat out in 1990, and a 1990 ZR-1 ran 24 hours at an average above 175 mph to take records that had stood for 50 years. The press called it King of the Hill. The window sticker explained the nickname: the ZR-1 package cost $27,016 on top of the car, $58,995 all in, or $151,800 in 2026 dollars, nearly twice a standard Corvette.",
+      "That price is also why only 6,939 exist: 3,049 sold in the heady first year, and by the end Chevrolet was building 448 a year. Power rose to 405 hp in 1993, the regular Corvette kept closing the gap at half the money, and 1995 was the end. The C4 ZR-1 remains the only Corvette with another company's name inside its engine, and the cheapest way ever devised to buy a hand-assembled 4-cam V8."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "1992 Chevrolet Corvette C4 ZR-1.jpg",
+      "credit": "Calreyn88",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pos": ""
+    },
+    "match": [
+      "Corvette ZR-1",
+      "Chevrolet Corvette ZR-1"
+    ]
+  },
+  {
+    "id": "geo-prizm",
+    "name": "Geo Prizm (first generation)",
+    "aka": [
+      "Chevrolet Prizm",
+      "Prizm GSi",
+      "NUMMI"
+    ],
+    "make": "Geo",
+    "maker": "New United Motor Manufacturing (NUMMI), the GM-Toyota joint venture (Fremont, California)",
+    "country": "United States",
+    "years": "1990–1992",
+    "start": 1990,
+    "end": 1992,
+    "shop": null,
+    "body": "4-door sedan or 5-door hatchback",
+    "engine": "1.6-liter Toyota twin-cam 4",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual or automatic",
+    "specsFor": "1990 Prizm GSi, 5-speed",
+    "power": {
+      "hp": 130,
+      "note": "The GSi's Toyota 4A-GE twin-cam; the base 4A-FE made 102",
+      "src": "https://www.edmunds.com/geo/prizm/1990/hatchback/st-5617/features-specs/"
+    },
+    "weight": {
+      "na": "Roughly 1,050–1,150 kg by trim; no single published figure"
+    },
+    "zero60": {
+      "sec": 9.4,
+      "kind": "estimated",
+      "note": "Modeled figure for the GSi",
+      "src": "https://www.edmunds.com/geo/prizm/1990/hatchback/st-5617/features-specs/"
+    },
+    "top": {
+      "mph": 117,
+      "kind": "claimed",
+      "note": "Published figure for the GSi",
+      "src": "https://www.edmunds.com/geo/prizm/1990/hatchback/st-5617/features-specs/"
+    },
+    "mpg": {
+      "combined": 27,
+      "city": 24,
+      "hwy": 31,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/ws/rest/vehicle/6519",
+      "note": "EPA combined, 1990 5-speed"
+    },
+    "built": {
+      "na": "GM published no first-generation Prizm total"
+    },
+    "versions": [
+      {
+        "name": "Prizm",
+        "detail": "102 hp 4A-FE; sedan or 5-door hatch"
+      },
+      {
+        "name": "Prizm GSi",
+        "detail": "130 hp 4A-GE twin-cam, the Corolla GT-S engine; about 9.4 s to 60 and 117 mph"
+      }
+    ],
+    "predecessor": null,
+    "successor": {
+      "name": "Geo Prizm (second generation)",
+      "id": null
+    },
+    "quick": "A Toyota Sprinter built by union labor in Fremont, sold as a Geo — and in GSi trim it hid the Corolla GT-S's screaming 4A-GE twin-cam. The factory that built it now builds Teslas.",
+    "story": [
+      "The Prizm was the answer to a strange and wonderful experiment: NUMMI, the Fremont, California plant GM and Toyota ran together, where American workers built Japanese cars to Japanese standards and GM tried to learn how. It was a Toyota Sprinter, the Corolla's home-market twin, wearing the badge of Geo, the brand GM invented in 1989 to sell import-grade small cars without the Chevrolet bow tie. As transportation it was exactly as good as a Corolla, because it was one, down to the 102-hp 4A-FE and the 27-mpg EPA rating.",
+      "The one worth remembering is the GSi, which borrowed the 130-hp 4A-GE twin-cam from the Corolla GT-S, the same screaming 4-valve four that powered the AE86 drift legend, and wrapped it in the most anonymous sedan body ever drawn. Nobody noticed, which was the point and the tragedy at once. The Prizm outlived Geo itself, becoming a Chevrolet in 1998, and the NUMMI plant had the strangest afterlife in the industry: when GM and Toyota left in 2010, Tesla moved in, and the factory that built the humblest car on this page now builds Teslas."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "'90 Geo Prizm Sedan.jpg",
+      "credit": "Bull-Doser",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "pos": ""
+    },
+    "match": [
+      "Geo Prizm"
+    ]
+  },
+  {
+    "id": "ford-model-a",
+    "name": "Ford Model A",
+    "aka": [
+      "A-Model",
+      "Model A pickup",
+      "Tudor",
+      "Fordor"
+    ],
+    "make": "Ford",
+    "maker": "Ford (River Rouge and branch plants worldwide)",
+    "country": "United States",
+    "years": "1927–1932",
+    "start": 1927,
+    "end": 1932,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Every body imaginable: coupes, sedans, roadsters, phaetons, trucks",
+    "engine": "3.3-liter (201 cu in) L-head 4",
+    "drive": "Rear-wheel drive",
+    "gearbox": "3-speed sliding-gear manual",
+    "specsFor": "Passenger Model A, 201 cu in",
+    "power": {
+      "hp": 40,
+      "note": "Twice the Model T's 20",
+      "src": "https://fullysorted.com/research/models/ford/model-a"
+    },
+    "weight": {
+      "na": "Varies by body style"
+    },
+    "zero60": {
+      "na": "0-60 was not yet a question anyone asked"
+    },
+    "top": {
+      "mph": 65,
+      "kind": "claimed",
+      "note": "About; wide open and brave",
+      "src": "https://fullysorted.com/research/models/ford/model-a"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "count": 4858644,
+      "approx": true,
+      "note": "All body styles, December 1927 to March 1932",
+      "src": "https://fullysorted.com/research/models/ford/model-a"
+    },
+    "versions": [
+      {
+        "name": "Tudor and Fordor sedans",
+        "detail": "The family cars, from $495"
+      },
+      {
+        "name": "Coupe and roadster",
+        "detail": "Rumble seats optional; the hot-rodders' favorites"
+      },
+      {
+        "name": "Pickup and commercial",
+        "detail": "Open-cab and closed-cab trucks that motorized small business"
+      },
+      {
+        "name": "Deluxe bodies",
+        "detail": "Cabriolets, phaetons and the wood-bodied wagon"
+      }
+    ],
+    "predecessor": {
+      "name": "Ford Model T",
+      "id": null
+    },
+    "successor": {
+      "name": "Ford Model B and Model 18 V8",
+      "id": null
+    },
+    "quick": "The car that followed the unfollowable: Ford shut down the Model T, retooled for 6 months, and sold 4.86 million Model As in 4 years at $385 to $570. Millions of Americans learned to drive a clutch in one.",
+    "story": [
+      "Henry Ford held onto the Model T so long that replacing it meant shutting down the largest industrial operation on earth for the better part of 1927 while the River Rouge retooled. When the Model A appeared that December, mobs formed outside showrooms; 10 million people reportedly saw it in the first 36 hours. It was worth the crush: a 40-hp four, double the T's power, conventional 3-pedal controls in place of the T's planetary puzzle, a real gearbox, 4-wheel brakes, and safety glass in the windshield, all for $385 to $570 depending on body, roughly $7,600 to $11,200 in 2026 dollars.",
+      "Ford built 4,858,644 of them in barely 4 years, in every shape America needed: Tudor and Fordor sedans, rumble-seat coupes and roadsters, wood-bodied wagons, and the pickups that put small farms on wheels. Then the Depression and the 1932 V8 ended it. The Model A became the first car Americans loved secondhand, the hot-rodders' raw material of choice, and the reason a 95-year-old car is still the easiest prewar machine to buy parts for. The black coupe in the photo is a 1930, in the shape every child draws when asked for an old-timey car."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "1930 Ford Model A 45B Coupe A300.jpg",
+      "credit": "Lars-Göran Lindgren Sweden",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pos": ""
+    },
+    "match": [
+      "Ford Model A"
+    ]
+  },
+  {
+    "id": "mercury-capri-1991",
+    "name": "Mercury Capri (1991–1994)",
+    "aka": [
+      "Ford Capri SA30",
+      "XR2",
+      "Barchetta",
+      "Clubsprint"
+    ],
+    "make": "Mercury",
+    "maker": "Ford Australia (Campbellfield, Victoria)",
+    "country": "United States",
+    "years": "1991–1994",
+    "start": 1991,
+    "end": 1994,
+    "shop": null,
+    "body": "2+2 front-drive convertible",
+    "engine": "1.6-liter Mazda twin-cam 4, turbocharged in the XR2",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual or automatic",
+    "specsFor": "1991 Capri XR2 turbo, 5-speed",
+    "power": {
+      "hp": 132,
+      "note": "The XR2's turbocharged Mazda B6T; the base car made 100",
+      "src": "https://www.edmunds.com/mercury/capri/1991/mpg/"
+    },
+    "weight": {
+      "na": "About 1,090 kg (2,400 lb) by published figures, varying with equipment"
+    },
+    "zero60": {
+      "sec": 8.1,
+      "kind": "tested",
+      "note": "Period road test of the XR2",
+      "src": "https://www.edmunds.com/mercury/capri/1991/mpg/"
+    },
+    "top": {
+      "mph": 125,
+      "kind": "claimed",
+      "note": "Published figure for the XR2",
+      "src": "https://www.edmunds.com/mercury/capri/1991/mpg/"
+    },
+    "mpg": {
+      "combined": 23,
+      "city": 21,
+      "hwy": 26,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/ws/rest/vehicle/7505",
+      "note": "EPA combined, 1991 XR2 turbo, 5-speed"
+    },
+    "built": {
+      "count": 66279,
+      "approx": false,
+      "note": "Ford Australia's convertible total, 1989–1994; the factory's full tally runs to 66,640",
+      "src": "https://capricarclub.org.au/capriconv-i.php"
+    },
+    "versions": [
+      {
+        "name": "Capri",
+        "detail": "100 hp 1.6 twin-cam; the sensible one"
+      },
+      {
+        "name": "XR2",
+        "detail": "132 hp turbo, 5-speed only; 8.1 s to 60 and about 125 mph"
+      },
+      {
+        "name": "Barchetta and Clubsprint",
+        "detail": "The 1993–1994 facelift's trim names"
+      }
+    ],
+    "predecessor": {
+      "name": "Mercury Capri (1979–1986)",
+      "id": null
+    },
+    "successor": null,
+    "quick": "The first Australian-built car exported to America: a Mazda-based, Ghia-styled, ItalDesign-trimmed convertible that had the terrible luck of arriving 18 months after the Miata.",
+    "story": [
+      "On paper the Capri had everything: Mazda 323 mechanicals, a body from Ghia, an interior by ItalDesign, a back seat the Miata didn't have, front-wheel-drive security, and in XR2 form a 132-hp turbo twin-cam that ran to 60 in about 8.1 seconds. Ford Australia built it in Campbellfield, Victoria, and when the first ones landed here in 1990 as 1991 Mercurys, it became the first Australian-assembled car ever exported to the United States.",
+      "Then reality: the Miata had arrived first, was rear-wheel drive, prettier, and built by the same company that supplied the Capri's engine. Against that, a sensible front-drive convertible with quality teething troubles never stood a chance. Ford Australia built 66,279 of them through May 1994, most of them left-hand drive for America, and replaced it in its own showrooms with, of all things, the US-built Ford Probe. The survivors are cheap, tough, and quietly good, which is the most Australian possible fate: unglamorous, underrated, and still running."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "1991 Mercury Capri, front right, 07-10-2023.jpg",
+      "credit": "MercurySable99",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pos": ""
+    },
+    "match": [
+      "Mercury Capri"
+    ]
+  },
+  {
+    "id": "nash-healey",
+    "name": "Nash-Healey",
+    "aka": [
+      "Le Mans coupe",
+      "Pinin Farina roadster"
+    ],
+    "make": "Nash",
+    "maker": "Donald Healey Motor Company (Warwick, England), bodies by Panelcraft and later Pinin Farina (Turin)",
+    "country": "United States",
+    "years": "1951–1954",
+    "start": 1951,
+    "end": 1954,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "2-seat roadster, later also a coupe",
+    "engine": "Nash Ambassador 3.8, later 4.1-liter, overhead-valve 6",
+    "drive": "Rear-wheel drive",
+    "gearbox": "3-speed manual with overdrive",
+    "specsFor": "1951 roadster, Nash 3.8 six",
+    "power": {
+      "hp": 125,
+      "note": "Twin-carburetor Nash Ambassador six; 140 from the 4.1 in 1953",
+      "src": "https://healeyclub.org/content.aspx?club_id=215328&module_id=241633"
+    },
+    "weight": {
+      "na": "About 1,250 kg (2,750 lb) by period figures"
+    },
+    "zero60": {
+      "sec": 11.5,
+      "kind": "tested",
+      "note": "Period test",
+      "src": "https://healeyclub.org/content.aspx?club_id=215328&module_id=241633"
+    },
+    "top": {
+      "mph": 104,
+      "kind": "tested",
+      "note": "Period test",
+      "src": "https://healeyclub.org/content.aspx?club_id=215328&module_id=241633"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "count": 506,
+      "approx": false,
+      "note": "All body styles, 1951–1954",
+      "src": "https://healeyclub.org/content.aspx?club_id=215328&module_id=241633"
+    },
+    "versions": [
+      {
+        "name": "1951 roadster",
+        "detail": "Panelcraft aluminum body, 125 hp 3.8"
+      },
+      {
+        "name": "1952–1954 Pinin Farina",
+        "detail": "Steel body from Turin; 140 hp 4.1 from 1953"
+      },
+      {
+        "name": "Le Mans coupe",
+        "detail": "1953–1954 closed car, named for the result"
+      }
+    ],
+    "predecessor": null,
+    "successor": null,
+    "quick": "America's first postwar sports car — born when Donald Healey met Nash's president on the Queen Elizabeth — beat the Corvette to market by 2 years and took 3rd overall at Le Mans in 1952.",
+    "story": [
+      "The Nash-Healey exists because of a chance meeting on an ocean liner: Donald Healey, crossing to America in 1949 to beg Cadillac for engines, ran into George Mason, president of Nash-Kelvinator, over the Queen Elizabeth's dinner tables. Cadillac said no; Mason said yes. So Healey's Warwick shop fitted Nash Ambassador sixes into its chassis, and in 1951 America got its first true postwar sports car, 2 years before the Corvette and 4 before the Thunderbird. In 1952 Mason sent the bodywork to Pinin Farina in Turin, making it an Anglo-American-Italian car assembled across 3 countries and 2 oceans.",
+      "The racing record is the astonishing part: a Nash-Healey finished 4th at Le Mans in 1950, 6th in 1951, and in 1952 came 3rd overall, behind only 2 works Mercedes 300SLs, a result no American-powered production sports car would better for years. None of it helped the showroom, where the transatlantic shipping made it cost more than a Cadillac; 506 were built in 4 years. The black roadster in the photo is the honest early Panelcraft shape, before Turin made it pretty."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "Nash-Healey roadster black.JPG",
+      "credit": "CZmarlin — Christopher Ziemnowicz",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pos": ""
+    },
+    "match": [
+      "Nash-Healey"
+    ]
+  },
+  {
+    "id": "mercury-tracer-lts",
+    "name": "Mercury Tracer LTS",
+    "aka": [
+      "Tracer",
+      "LTS"
+    ],
+    "make": "Mercury",
+    "maker": "Ford (Hermosillo, Mexico)",
+    "country": "United States",
+    "years": "1991–1996",
+    "start": 1991,
+    "end": 1996,
+    "shop": null,
+    "body": "4-door sedan",
+    "engine": "1.8-liter Mazda BP twin-cam 4",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual or automatic",
+    "specsFor": "1993 Tracer LTS, 5-speed",
+    "power": {
+      "hp": 127,
+      "note": "The Mazda BP 1.8 twin-cam, same family as the Miata's engine; base Tracers had 88 hp",
+      "src": "https://www.edmunds.com/mercury/tracer/1992/st-2492/features-specs/"
+    },
+    "weight": {
+      "na": "About 1,130 kg (2,500 lb) published"
+    },
+    "zero60": {
+      "na": "The buff books never timed one; low 9s was the Escort GT's number with the same running gear"
+    },
+    "top": {
+      "na": "Not published"
+    },
+    "mpg": {
+      "combined": 25,
+      "city": 23,
+      "hwy": 29,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/ws/rest/vehicle/9949",
+      "note": "EPA combined, 1993 1.8, 5-speed"
+    },
+    "built": {
+      "na": "Ford broke out no LTS totals"
+    },
+    "versions": [
+      {
+        "name": "Tracer",
+        "detail": "88 hp 1.9; basic transportation"
+      },
+      {
+        "name": "Tracer LTS",
+        "detail": "127 hp Mazda 1.8 twin-cam, 4-wheel discs, 5-speed; the one to find"
+      }
+    ],
+    "predecessor": null,
+    "successor": null,
+    "quick": "The secret sports sedan of 1991: a Mazda Protegé LX in Mercury clothes, with the Miata's engine family under the hood, 4-wheel discs, and a name nobody has ever remembered.",
+    "story": [
+      "Underneath, the Tracer LTS was the best kind of badge engineering: Mazda's BG Protegé platform, built in Ford's Hermosillo plant, with the 127-hp BP 1.8-liter twin-cam, the same engine family that powered the Miata and the 323 GTX. The LTS got its own 5-speed, 4-wheel disc brakes, firmer suspension, a tachometer and real bolstered seats, which in 1991 was the full sports-sedan toolkit, applied to a car whose nameplate was chosen to be forgotten.",
+      "Car magazines liked it and said so, buyers never found it, and the LTS quietly vanished after 1996 along with most of Mercury's reasons to exist. The enthusiasm for it today comes almost entirely from Protegé and Escort GT people, who know that the drivetrain is the cheerful, rev-happy Mazda good stuff and that the sedan body made it the sleeper of the family. It is the kind of car this Index exists for: genuinely good, completely unremembered, and cheaper than the parts inside it."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "Mercury Tracer LTS.jpg",
+      "credit": "LukaCali",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pos": ""
+    },
+    "match": [
+      "Mercury Tracer"
+    ]
+  },
+  {
+    "id": "cadillac-eldorado-1992",
+    "name": "Cadillac Eldorado (1992–2002)",
+    "aka": [
+      "ETC",
+      "Eldorado Touring Coupe",
+      "ESC"
+    ],
+    "make": "Cadillac",
+    "maker": "Cadillac (Hamtramck, then Lansing, Michigan)",
+    "country": "United States",
+    "years": "1992–2002",
+    "start": 1992,
+    "end": 2002,
+    "shop": null,
+    "body": "2-door personal luxury coupe",
+    "engine": "4.9 V8, then the 4.6-liter Northstar DOHC V8",
+    "drive": "Front-wheel drive",
+    "gearbox": "4-speed automatic",
+    "specsFor": "1995 Eldorado Touring Coupe (ETC)",
+    "power": {
+      "hp": 300,
+      "note": "Northstar DOHC V8 in the Touring Coupe; the base car had 275",
+      "src": "https://www.edmunds.com/cadillac/eldorado/1995/mpg/"
+    },
+    "weight": {
+      "kg": 1730,
+      "lb": 3814,
+      "note": "Curb",
+      "src": "https://www.edmunds.com/cadillac/eldorado/1995/mpg/"
+    },
+    "zero60": {
+      "sec": 6.4,
+      "kind": "tested",
+      "note": "Period test of the 300-hp ETC",
+      "src": "https://www.edmunds.com/cadillac/eldorado/1995/mpg/"
+    },
+    "top": {
+      "mph": 148,
+      "kind": "tested",
+      "note": "Period test",
+      "src": "https://www.edmunds.com/cadillac/eldorado/1995/mpg/"
+    },
+    "mpg": {
+      "combined": 18,
+      "city": 15,
+      "hwy": 23,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/ws/rest/vehicle/11944",
+      "note": "EPA combined, 1995 Northstar"
+    },
+    "built": {
+      "na": "GM published no total for the final generation"
+    },
+    "versions": [
+      {
+        "name": "Eldorado",
+        "detail": "275 hp Northstar from 1994; the softer car"
+      },
+      {
+        "name": "Eldorado Touring Coupe (ETC)",
+        "detail": "300 hp Northstar; 6.4 s to 60 and 148 mph in period tests"
+      },
+      {
+        "name": "4.9 cars",
+        "detail": "1992–1993; 200 hp before the Northstar arrived"
+      }
+    ],
+    "predecessor": null,
+    "successor": null,
+    "quick": "The last Eldorado: a 300-hp Northstar coupe that could run with European GTs, sold into a market that was busy buying SUVs. When it ended in 2002, half a century of the name ended with it.",
+    "story": [
+      "The Eldorado name went back to 1953, and by its 12th and final generation it had settled into the most American of formats, the personal luxury coupe: 2 doors, a long hood, and no practical justification whatsoever. The 1992 car was handsome and vast, and from 1993 the Northstar arrived, a 4.6-liter DOHC 32-valve V8 that made 300 hp in the Touring Coupe, numbers that embarrassed a lot of European iron. A period test put the ETC at 60 in 6.4 seconds and 148 mph, from a front-drive Cadillac with a bench-seat ancestry.",
+      "It was also a dinosaur watching the comet come in. The customers who wanted 2-door luxury were aging out, the ones replacing them wanted Escalades, and Cadillac read the room: the last Eldorado left Lansing in April 2002, ending a nameplate that had run 50 years, and no American luxury coupe has replaced it. The shale 1995 Touring Coupe in the photo is the exact specification of this page, and the format at its best: enormous, unhurried, and faster than it had any obligation to be."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "1995 Cadillac Eldorado Touring Coupe in Shale, Front Right, 10-14-2022.jpg",
+      "credit": "Elise240SX",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pos": ""
+    },
+    "match": [
+      "Cadillac Eldorado"
+    ]
+  },
+  {
+    "id": "ford-taurus-sho",
+    "name": "Ford Taurus SHO (first generation)",
+    "aka": [
+      "SHO",
+      "Super High Output",
+      "Yamaha Taurus"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Atlanta Assembly, Hapeville, Georgia); engine by Yamaha",
+    "country": "United States",
+    "years": "1989–1991",
+    "start": 1989,
+    "end": 1991,
+    "shop": null,
+    "body": "4-door sedan",
+    "engine": "3.0-liter Yamaha-built DOHC 24-valve V6",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual only",
+    "specsFor": "1989 Taurus SHO",
+    "power": {
+      "hp": 220,
+      "note": "Yamaha-built DOHC V6, 7,300-rpm redline",
+      "src": "https://www.caranddriver.com/reviews/a15142141/1989-ford-taurus-sho-road-test/"
+    },
+    "weight": {
+      "kg": 1519,
+      "lb": 3348,
+      "note": "Curb",
+      "src": "https://www.caranddriver.com/reviews/a15142141/1989-ford-taurus-sho-road-test/"
+    },
+    "zero60": {
+      "sec": 6.7,
+      "kind": "tested",
+      "note": "Car and Driver, 1989",
+      "src": "https://www.caranddriver.com/reviews/a15142141/1989-ford-taurus-sho-road-test/"
+    },
+    "top": {
+      "mph": 143,
+      "kind": "tested",
+      "note": "Car and Driver, 1989",
+      "src": "https://www.caranddriver.com/reviews/a15142141/1989-ford-taurus-sho-road-test/"
+    },
+    "mpg": {
+      "combined": 19,
+      "city": 16,
+      "hwy": 24,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/ws/rest/vehicle/5725",
+      "note": "EPA combined, 1989 manual"
+    },
+    "built": {
+      "count": 32737,
+      "approx": false,
+      "note": "First generation: 15,519 in 1989, 8,302 in 1990, 8,916 in 1991; all SHO generations total 106,465",
+      "src": "https://v8sho.com/SHO/RevisedSHOProductionNumbers.htm"
+    },
+    "versions": [
+      {
+        "name": "1989",
+        "detail": "15,519 built; the debut, 5-speed only"
+      },
+      {
+        "name": "1990",
+        "detail": "8,302 built; driver airbag added"
+      },
+      {
+        "name": "1991 and the Plus package",
+        "detail": "8,916 built; 6-spoke wheels, last of the first shape"
+      }
+    ],
+    "predecessor": null,
+    "successor": {
+      "name": "Ford Taurus SHO (second generation)",
+      "id": null
+    },
+    "quick": "A family sedan with a Yamaha-built 24-valve V6 that revved to 7,300 rpm, a 5-speed only, and an intake manifold people framed. Ford planned a limited run; 15,519 sold the first year.",
+    "story": [
+      "The SHO exists because Ford commissioned Yamaha to build a DOHC V6 for a mid-engine sports car, canceled the sports car, and had a warehouse of masterpieces to use up. Someone had the sense to drop them into the Taurus. The result made 220 hp at 6,200 rpm with a 7,300-rpm redline, breathed through an intake manifold so sculptural that owners mount them on walls, and came only with a 5-speed manual, in a front-drive family sedan with a Mercury Sable hood. Car and Driver ran 60 in 6.7 seconds and 143 mph in 1989, BMW money performance for $19,739, or $53,500 in 2026 dollars.",
+      "Ford marketed it as a limited edition and then sold 15,519 in the first year, which tells you how badly America wanted a secret fast car. The first generation ran 3 years and 32,737 cars before the 1992 redesign; the SHO line carried on to 1999, 106,465 in all, but the original, with its subtle cladding and total absence of wings, is the pure dose. It remains the best answer ever given to the question of what happens when a motorcycle company builds an engine for a sedan that takes kids to school."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "1st Ford Taurus SHO -- 10-03-2009.jpg",
+      "credit": "IFCAR",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "pos": ""
+    },
+    "match": [
+      "Ford Taurus SHO",
+      "Ford Taurus"
+    ]
+  },
+  {
+    "id": "cadillac-v16",
+    "name": "Cadillac V-16",
+    "aka": [
+      "Series 452",
+      "Cadillac Sixteen",
+      "Madame X"
+    ],
+    "make": "Cadillac",
+    "maker": "Cadillac (Detroit), bodies by Fleetwood and Fisher",
+    "country": "United States",
+    "years": "1930–1940",
+    "start": 1930,
+    "end": 1940,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Whatever Fleetwood would draw: roadsters, phaetons, limousines, town cars",
+    "engine": "7.4-liter (452 cu in) overhead-valve V16, later a 7.1-liter flathead",
+    "drive": "Rear-wheel drive",
+    "gearbox": "3-speed manual",
+    "specsFor": "1930 Series 452",
+    "power": {
+      "hp": 165,
+      "note": "The 452 OHV; the 1938–1940 flathead made 185",
+      "src": "https://www.supercars.net/blog/cadillac-series-452-v16/"
+    },
+    "weight": {
+      "kg": 2383,
+      "lb": 5254,
+      "note": "Typical; every coachbuilt body differed",
+      "src": "https://www.supercars.net/blog/cadillac-series-452-v16/"
+    },
+    "zero60": {
+      "na": "Not a measure of the time; effortlessness was the specification"
+    },
+    "top": {
+      "mph": 100,
+      "kind": "claimed",
+      "note": "About, gearing depending; it would idle at walking pace in top",
+      "src": "https://www.automotivehalloffame.org/sweet-v-sixteen"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "count": 4076,
+      "approx": false,
+      "note": "1930–1940; about 2,500 of them in the boom year of 1930 alone",
+      "src": "https://www.automotivehalloffame.org/sweet-v-sixteen"
+    },
+    "versions": [
+      {
+        "name": "Series 452/452A",
+        "detail": "1930–1931; the OHV originals, ~3,250 of the total"
+      },
+      {
+        "name": "452B through 452D",
+        "detail": "1932–1937; trickle production, 50-odd a year"
+      },
+      {
+        "name": "Series 90 flathead",
+        "detail": "1938–1940; 185 hp, 497 built"
+      }
+    ],
+    "predecessor": null,
+    "successor": null,
+    "quick": "America's first production 16-cylinder car, launched 10 weeks after the 1929 crash: a 452-cubic-inch work of art with hidden wiring and polished aluminum, 4,076 built, money lost on every one.",
+    "story": [
+      "Cadillac announced the V-16 at the New York show in January 1930, 10 weeks after the stock market ended the world that had ordered it. The engine was the point: a 452-cubic-inch overhead-valve V16, designed to be looked at, with porcelain-finished surfaces, polished aluminum, and every wire and hose hidden, the first engine styled as deliberately as a body. It made 165 hp, which mattered less than how it made it, in total silence, with so much torque the car would pull from walking pace to 100 mph in top gear. Fleetwood cataloged dozens of bodies; the chassis alone cost $6,650 and up, $133,900 in 2026 dollars before coachwork.",
+      "About 2,500 sold in the giddy first year, and then the Depression arrived in earnest: 50-odd a year through the mid-1930s, a simpler 185-hp flathead sixteen from 1938, and the end in 1940 with 4,076 built across 11 years. Cadillac admitted it lost money on every one, which was never the point; the V-16 bought the brand 2 decades of 'Standard of the World' and remains the high-water mark of American engine-making as sculpture. The roadster in the photo is a 1930 Series 452 with Fleetwood coachwork."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "1930 Cadillac 452 V-16 Fleetwood Roadster - fvl (4610278415).jpg",
+      "credit": "Rex Gray",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "pos": ""
+    },
+    "match": [
+      "Cadillac V-16",
+      "Cadillac V16"
+    ]
+  },
+  {
+    "id": "geo-tracker",
+    "name": "Geo Tracker",
+    "aka": [
+      "Chevrolet Tracker",
+      "Suzuki Sidekick's twin"
+    ],
+    "make": "Geo",
+    "maker": "CAMI Automotive, the GM-Suzuki joint venture (Ingersoll, Ontario)",
+    "country": "United States",
+    "years": "1989–1997",
+    "start": 1989,
+    "end": 1997,
+    "shop": null,
+    "body": "2-door convertible or hardtop mini-SUV",
+    "engine": "1.6-liter Suzuki 4",
+    "drive": "4-wheel drive or rear-wheel drive",
+    "gearbox": "5-speed manual or automatic",
+    "specsFor": "1992 Tracker 4WD convertible, 5-speed",
+    "power": {
+      "hp": 80,
+      "note": "Suzuki G16 1.6; 95 hp 16-valve from 1996",
+      "src": "https://www.automobile-catalog.com/make/geo/tracker_1gen/tracker_1gen_softtop/1992.html"
+    },
+    "weight": {
+      "kg": 1085,
+      "lb": 2392,
+      "note": "Curb",
+      "src": "https://www.automobile-catalog.com/make/geo/tracker_1gen/tracker_1gen_softtop/1992.html"
+    },
+    "zero60": {
+      "sec": 13.1,
+      "kind": "estimated",
+      "note": "Modeled figure; nobody was racing",
+      "src": "https://www.automobile-catalog.com/make/geo/tracker_1gen/tracker_1gen_softtop/1992.html"
+    },
+    "top": {
+      "mph": 88,
+      "kind": "claimed",
+      "note": "Published figure",
+      "src": "https://www.automobile-catalog.com/make/geo/tracker_1gen/tracker_1gen_softtop/1992.html"
+    },
+    "mpg": {
+      "combined": 23,
+      "city": 22,
+      "hwy": 24,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/ws/rest/vehicle/9575",
+      "note": "EPA combined, 1992 4WD 5-speed"
+    },
+    "built": {
+      "na": "GM published no Tracker-only totals"
+    },
+    "versions": [
+      {
+        "name": "Convertible",
+        "detail": "The point of the whole exercise"
+      },
+      {
+        "name": "Hardtop",
+        "detail": "For the practical"
+      },
+      {
+        "name": "2WD",
+        "detail": "The boulevard version, lighter and cheaper"
+      }
+    ],
+    "predecessor": null,
+    "successor": null,
+    "quick": "A Suzuki Sidekick in Geo clothes, built by a GM-Suzuki joint venture in Ontario: 80 hp, a folding top, real low-range 4WD, and more charm per pound than anything else of its decade.",
+    "story": [
+      "The Tracker was the Suzuki Sidekick built at CAMI, the GM-Suzuki joint-venture plant in Ingersoll, Ontario, and sold through GM's import-fighting Geo brand. The recipe was honest: a ladder frame, a 1.6-liter four with 80 hp, a transfer case with real low range, and a top that folded, all at 1,085 kg (2,392 lb) and an EPA 23 combined. Zero to 60 took a modeled 13.1 seconds, which overstates the hurry anyone was ever in.",
+      "It was the cheapest way in America to own a convertible and a 4x4 at once, and that double act made it the unofficial vehicle of beach towns, ski resorts and college parking lots for a decade. The formula, a tiny, boxy, cheerful off-roader with the roof off, has since become the most collectible idea in trucks, and early Trackers are following the same path as their Sidekick twins and the Jimny cousins: bought for nothing, kept forever. The teal convertible in the photo is the entire 1990s in one image."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "Geo Tracker LSi convertible.jpg",
+      "credit": "IFCAR",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "pos": ""
+    },
+    "match": [
+      "Geo Tracker"
+    ]
+  },
+  {
+    "id": "saturn-sc2",
+    "name": "Saturn S-Series (SC2)",
+    "aka": [
+      "SC coupe",
+      "SC1",
+      "Saturn coupe"
+    ],
+    "make": "Saturn",
+    "maker": "Saturn Corporation (Spring Hill, Tennessee)",
+    "country": "United States",
+    "years": "1991–2002",
+    "start": 1991,
+    "end": 2002,
+    "shop": null,
+    "body": "2-door coupe with dent-resistant polymer panels",
+    "engine": "1.9-liter twin-cam 4",
+    "drive": "Front-wheel drive",
+    "gearbox": "5-speed manual or automatic",
+    "specsFor": "1995 SC2, 5-speed",
+    "power": {
+      "hp": 124,
+      "note": "The DOHC 1.9; the SC1's SOHC made 100",
+      "src": "https://www.caranddriver.com/reviews/a70907752/1995-acura-integra-ls-vs-1995-honda-prelude-s-1995-saturn-sc2/"
+    },
+    "weight": {
+      "kg": 1173,
+      "lb": 2586,
+      "note": "Curb",
+      "src": "https://www.caranddriver.com/reviews/a70907752/1995-acura-integra-ls-vs-1995-honda-prelude-s-1995-saturn-sc2/"
+    },
+    "zero60": {
+      "sec": 8.0,
+      "kind": "tested",
+      "note": "Car and Driver, against the Integra and Prelude",
+      "src": "https://www.caranddriver.com/reviews/a70907752/1995-acura-integra-ls-vs-1995-honda-prelude-s-1995-saturn-sc2/"
+    },
+    "top": {
+      "mph": 125,
+      "kind": "tested",
+      "note": "Period test",
+      "src": "https://www.caranddriver.com/reviews/a70907752/1995-acura-integra-ls-vs-1995-honda-prelude-s-1995-saturn-sc2/"
+    },
+    "mpg": {
+      "combined": 26,
+      "city": 22,
+      "hwy": 32,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/ws/rest/vehicle/11764",
+      "note": "EPA combined, 1995 DOHC 5-speed"
+    },
+    "built": {
+      "na": "Saturn published no SC2-only totals"
+    },
+    "versions": [
+      {
+        "name": "SC2",
+        "detail": "124 hp DOHC; 8.0 s to 60 in Car and Driver's 1995 test"
+      },
+      {
+        "name": "SC1",
+        "detail": "100 hp SOHC, from 1993; same body, softer tune"
+      },
+      {
+        "name": "3-door",
+        "detail": "From 1999, a hidden rear-hinged third door"
+      }
+    ],
+    "predecessor": null,
+    "successor": null,
+    "quick": "A different kind of car company's sporty one: plastic-bodied, no-haggle, Tennessee-built, and with the twin-cam the SC2 was quick enough that Car and Driver ran it against the Integra.",
+    "story": [
+      "Saturn was GM's $5 billion attempt to start over: a new company, a new plant in Spring Hill, Tennessee, a no-haggle price on the window, and body panels of polymer that shrugged off door dings and never rusted. The SC2 was the sporty proof of concept, a neat little coupe with a 124-hp twin-cam 1.9, a 5-speed, and 60 in 8.0 seconds in Car and Driver's hands, tested against the Integra and Prelude and holding its own at thousands less.",
+      "The strange, wonderful part was the customers. Saturn owners became the only American car buyers who behaved like a fan club, 44,000 of them driving to Spring Hill for a 'Homecoming' picnic in 1994, held for a compact car company. The S-Series ran 11 years with its plastic panels and loyal congregation, and then GM did the most GM thing possible: starved the brand of new product, folded it into the corporate machine, and shut it in 2010. The silver coupe in the photo is a later SC2, with the same panels that still look this good because they cannot dent."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "1998 Saturn SC2, front right, 07-18-2024.jpg",
+      "credit": "MercurySable99",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pos": ""
+    },
+    "match": [
+      "Saturn SC2",
+      "Saturn S-Series"
+    ]
+  },
+  {
+    "id": "jeep-grand-wagoneer-sj",
+    "name": "Jeep Grand Wagoneer (SJ)",
+    "aka": [
+      "Wagoneer",
+      "Final Edition",
+      "Woody"
+    ],
+    "make": "Jeep",
+    "maker": "Kaiser, then AMC, then Chrysler (Toledo, Ohio)",
+    "country": "United States",
+    "years": "1984–1991",
+    "start": 1984,
+    "end": 1991,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "4-door wagon on the 1963 SJ platform",
+    "engine": "5.9-liter (360 cu in) AMC V8",
+    "drive": "Selec-Trac 4-wheel drive",
+    "gearbox": "3-speed automatic",
+    "specsFor": "1989 Grand Wagoneer, 5.9 V8",
+    "power": {
+      "hp": 144,
+      "note": "The AMC 360, strangled but torquey",
+      "src": "https://www.hagerty.com/media/market-trends/1984-91-jeep-grand-wagoneer-prices-are-on-an-ever-rising-tear/"
+    },
+    "weight": {
+      "na": "About 2,000 kg (4,400 lb+) depending on era"
+    },
+    "zero60": {
+      "sec": 11.9,
+      "kind": "estimated",
+      "note": "Secondary reported figure",
+      "src": "https://www.hagerty.com/media/market-trends/1984-91-jeep-grand-wagoneer-prices-are-on-an-ever-rising-tear/"
+    },
+    "top": {
+      "mph": 100,
+      "kind": "claimed",
+      "note": "About; the woodgrain peels past 90",
+      "src": "https://www.hagerty.com/media/market-trends/1984-91-jeep-grand-wagoneer-prices-are-on-an-ever-rising-tear/"
+    },
+    "mpg": {
+      "combined": 11,
+      "city": 10,
+      "hwy": 12,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/ws/rest/vehicle/6318",
+      "note": "EPA combined, 1989; the worst-rated figure in this Index"
+    },
+    "built": {
+      "count": 1560,
+      "approx": false,
+      "note": "The 1991 Final Edition year alone; the SJ body ran 29 years from 1963, far beyond reliable totals",
+      "src": "https://www.hagerty.com/media/market-trends/1984-91-jeep-grand-wagoneer-prices-are-on-an-ever-rising-tear/"
+    },
+    "versions": [
+      {
+        "name": "Grand Wagoneer",
+        "detail": "1984–1991; the full-boat SJ"
+      },
+      {
+        "name": "Final Edition",
+        "detail": "1991; 1,560 built, badge on the dash"
+      },
+      {
+        "name": "Wagoneer and Cherokee SJ",
+        "detail": "The 1963-on ancestors beneath it"
+      }
+    ],
+    "predecessor": null,
+    "successor": {
+      "name": "Jeep Grand Cherokee (ZJ)",
+      "id": null
+    },
+    "quick": "The first luxury SUV, built on 1963 bones until 1991: leather, woodgrain, a 5.9-liter V8 rated 10 mpg city, and a Final Edition badge on the last 1,560. Values have gone vertical since.",
+    "story": [
+      "The body under every Grand Wagoneer was drawn in 1963, which means the same stamping dies served Kennedy's America and the first Bush administration. Kaiser built it, AMC refined it, and in 1984 the Grand Wagoneer name arrived on the fully loaded version: leather, air, power everything, and the woodgrain vinyl that became its signature, over a 5.9-liter AMC V8 making 144 unhurried horsepower and an EPA rating of 10 city, 12 highway, the worst figure on any page of this Index. It was the first true luxury SUV, a decade before the term, and old money loved it precisely because it never changed.",
+      "Chrysler bought AMC in 1987 and let the old Jeep run out the clock: the last 1,560 were built as 1991 Final Editions, dash badge included, and the final one left the line on June 21, 1991. Then the strangest second act in truckdom began, as restored Grand Wagoneers became 6-figure objects and whole businesses sprang up remanufacturing them. The white one in the photo wears the uncovered steel look; the woodgrain cars wear the legend."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "Jeep Grand Wagoneer (SJ) white in North Carolina 2of5.jpg",
+      "credit": "CZmarlin — Christopher Ziemnowicz",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pos": ""
+    },
+    "match": [
+      "Jeep Grand Wagoneer",
+      "Jeep Wagoneer"
+    ]
+  },
+  {
+    "id": "saleen-s351",
+    "name": "Saleen S351",
+    "aka": [
+      "S-351",
+      "S351 R-code",
+      "Speedster"
+    ],
+    "make": "Saleen",
+    "maker": "Saleen Performance (Irvine, California), from Ford Mustang bodies-in-white",
+    "country": "United States",
+    "years": "1994–1999",
+    "start": 1994,
+    "end": 1999,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "2-door coupe, convertible or Speedster",
+    "engine": "5.8-liter (351 cu in) Windsor V8, supercharged in most",
+    "drive": "Rear-wheel drive",
+    "gearbox": "Tremec 5-speed manual",
+    "specsFor": "1999 S351, supercharged",
+    "power": {
+      "hp": 495,
+      "note": "Vortech-supercharged 351; the 1994 naturally aspirated car made 371",
+      "src": "https://soec.org/?p=14016"
+    },
+    "weight": {
+      "na": "Around 1,565 kg (3,450 lb) depending on body"
+    },
+    "zero60": {
+      "sec": 4.6,
+      "kind": "estimated",
+      "note": "Period estimates for the supercharged car ran well into the 4s",
+      "src": "https://soec.org/?p=14016"
+    },
+    "top": {
+      "mph": 170,
+      "kind": "claimed",
+      "note": "Period claims; gearing and body dependent",
+      "src": "https://soec.org/?p=14016"
+    },
+    "mpg": {
+      "na": "A low-volume remanufactured car; never separately EPA-rated"
+    },
+    "built": {
+      "count": 300,
+      "approx": true,
+      "note": "Roughly, 1994–1999 including SR race cars: 44 in 1994, 126 in 1995 (the peak), then 20, 40, 22 and 46",
+      "src": "https://www.mustangattitude.com/mustang/1995saleen.shtml"
+    },
+    "versions": [
+      {
+        "name": "S351, 1994",
+        "detail": "44 built; 371 hp naturally aspirated"
+      },
+      {
+        "name": "S351 R-code",
+        "detail": "Supercharged; 53 of the 126 1995 cars"
+      },
+      {
+        "name": "S351, 1997–1999",
+        "detail": "All supercharged; 495 hp by 1999"
+      },
+      {
+        "name": "SR",
+        "detail": "The race-prepared handful"
+      }
+    ],
+    "predecessor": null,
+    "successor": null,
+    "quick": "Steve Saleen's answer to the small-block SN95: pull the engine, install a built 351 Windsor, supercharge it to 495 hp by 1999, and serialize it. About 300 exist, the rarest of the 1990s Mustangs.",
+    "story": [
+      "When the SN95 Mustang launched in 1994 with 215 hp, Steve Saleen's response was surgery: every S351 had its engine removed and a remanufactured 351-cubic-inch Windsor V8 installed, with a Tremec gearbox, shortened driveshaft, Racecraft suspension and a serialized bumper number. The 1994 cars made 371 hp naturally aspirated; a Vortech supercharger soon became the signature, and by the final 1999 cars the S351 made 495 hp and 490 lb-ft, numbers from another universe than the showroom Mustang's.",
+      "It was the most labor-intensive, most expensive Saleen, and the registries count only about 300 across 6 years, 126 of them in the peak year of 1995 and just 20 in 1996, race-spec SR cars included. That makes the S351 the rarest of the 1990s Saleens by a wide margin, and the black 1995 convertible in the photo one of a few dozen like it. It was the last serialized 351-powered Mustang anyone built, closing a cubic-inch tradition that went back to 1969."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "1995 Ford Mustang Saleen S-351 Convertible (26691529572).jpg",
+      "credit": "Sicnag",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "pos": ""
+    },
+    "match": [
+      "Saleen S351",
+      "Saleen Mustang"
+    ]
+  },
+  {
+    "id": "bricklin-sv1",
+    "name": "Bricklin SV-1",
+    "aka": [
+      "Safety Vehicle One",
+      "SV1"
+    ],
+    "make": "Bricklin",
+    "maker": "General Vehicle (Saint John, New Brunswick, Canada)",
+    "country": "United States",
+    "years": "1974–1975",
+    "start": 1974,
+    "end": 1975,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "2-seat gullwing coupe, color-impregnated acrylic body",
+    "engine": "AMC 360 V8 (1974), then Ford 351 Windsor V8 (1975)",
+    "drive": "Rear-wheel drive",
+    "gearbox": "4-speed manual or automatic",
+    "specsFor": "1975 SV-1, Ford 351",
+    "power": {
+      "hp": 175,
+      "note": "Ford 351 Windsor, net; the 1974 AMC 360 made 220",
+      "src": "https://www.classicandsportscar.com/en-nz/features/de-lorean-dmc-12-vs-bricklin-sv-1-fibreglass-heroes"
+    },
+    "weight": {
+      "kg": 1615,
+      "lb": 3560,
+      "note": "Curb; the gullwing doors alone weighed about 41 kg (90 lb) each",
+      "src": "https://www.classicandsportscar.com/en-nz/features/de-lorean-dmc-12-vs-bricklin-sv-1-fibreglass-heroes"
+    },
+    "zero60": {
+      "sec": 8.3,
+      "kind": "tested",
+      "note": "Period test",
+      "src": "https://www.classicandsportscar.com/en-nz/features/de-lorean-dmc-12-vs-bricklin-sv-1-fibreglass-heroes"
+    },
+    "top": {
+      "mph": 118,
+      "kind": "tested",
+      "note": "Period test",
+      "src": "https://www.classicandsportscar.com/en-nz/features/de-lorean-dmc-12-vs-bricklin-sv-1-fibreglass-heroes"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "count": 2854,
+      "approx": false,
+      "note": "1974–1975; sources differ slightly on the last few cars",
+      "src": "https://www.classicandsportscar.com/en-nz/features/de-lorean-dmc-12-vs-bricklin-sv-1-fibreglass-heroes"
+    },
+    "versions": [
+      {
+        "name": "1974, AMC 360",
+        "detail": "220 hp, 4-speed available"
+      },
+      {
+        "name": "1975, Ford 351",
+        "detail": "175 hp net, automatic only; the majority of cars"
+      }
+    ],
+    "predecessor": null,
+    "successor": null,
+    "quick": "The gullwing safety sports car that predated the DeLorean and failed the same way: Malcolm Bricklin's SV-1, 2,854 built in New Brunswick with taxpayer money, no ashtray allowed.",
+    "story": [
+      "Malcolm Bricklin, the serial entrepreneur who had brought Subaru to America, decided in the early 1970s to build a safety sports car: gullwing doors (powered, 41 kg/90 lb each), an integrated roll cage, 5-mph bumpers before they were required, color-impregnated acrylic bodywork in 5 'safety colors' that never needed paint, and, famously, no ashtray or cigarette lighter, because smoking while driving was a distraction. The government of New Brunswick, Canada put up the money, and the SV-1, Safety Vehicle One, went into production in Saint John in 1974 with an AMC 360 V8, swapped for a Ford 351 in 1975.",
+      "A period test ran 60 in 8.3 seconds and 118 mph, respectable for the smog era, and at $7,490 in 1975, $46,800 in 2026 dollars, it undercut the Corvette. But the acrylic panels warped, the doors stuck, every car reportedly cost about twice its sticker to build, and the province pulled the plug after 2,854 cars. 6 years later John DeLorean reran the same movie, gullwings, government money and all. The orange car in the photo wears one of the 5 colors it was born in, through and through."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "Bricklin SV-1 1975.jpg",
+      "credit": "Calreyn88",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "pos": ""
+    },
+    "match": [
+      "Bricklin SV-1"
+    ]
   }
 ];

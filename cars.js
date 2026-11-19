@@ -43827,5 +43827,236 @@ const CARS = [
       "Ford F-350",
       "Ford F-450"
     ]
+  },
+  {
+    "id": "ford-f-650-750",
+    "family": {
+      "id": "ford-super-duty",
+      "name": "Ford Super Duty"
+    },
+    "name": "Ford F-650 / F-750",
+    "aka": [
+      "Super Duty F-650",
+      "Super Duty F-750",
+      "Blue Diamond trucks",
+      "Super Truck pickup conversions"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Blue Diamond JV, General Escobedo, Mexico, through 2015; Avon Lake, Ohio, since 2016)",
+    "country": "United States",
+    "years": "2000–present",
+    "start": 2000,
+    "end": null,
+    "body": "Class 6–7 medium-duty chassis cab; the F-750 also built in Class 8 form since 2011",
+    "engine": "Diesels from Ford, Caterpillar and Cummins over the years; gas V10, then 7.3 V8",
+    "drive": "Rear-wheel drive",
+    "gearbox": "6-speed automatic; manuals offered in earlier years",
+    "specsFor": "2023 F-650, 6.7 Power Stroke",
+    "power": {
+      "hp": 330,
+      "note": "Ford's top 6.7 Power Stroke rating for the F-650/750; 270 and 300-hp ratings sit below it",
+      "src": "https://www.ford.com/commercial-trucks/f650-f750/"
+    },
+    "weight": {
+      "kg": 4990,
+      "lb": 11001,
+      "note": "Bare chassis-cab curb weight, approximate; varies widely with the body fitted"
+    },
+    "zero60": {
+      "na": "No instrumented figures published for medium-duty chassis cabs"
+    },
+    "top": {
+      "mph": 75,
+      "kind": "estimated",
+      "note": "Speed-limited for commercial duty; commonly reported"
+    },
+    "mpg": {
+      "na": "Heavy-duty and medium-duty trucks are exempt from EPA fuel-economy ratings"
+    },
+    "built": {
+      "na": "Ford reports medium-duty sales only inside the F-Series total"
+    },
+    "versions": [
+      {
+        "name": "7.3 Power Stroke",
+        "detail": "2000–03 diesel",
+        "power": {
+          "hp": 275,
+          "note": "Ratings of 210–275 hp",
+          "src": "https://en.wikipedia.org/wiki/Ford_F-650"
+        },
+        "weight": {
+          "kg": 4990,
+          "lb": 11001,
+          "note": "Bare chassis-cab curb weight, approximate; varies widely with the body fitted"
+        },
+        "zero60": {
+          "na": "No instrumented figures published for medium-duty chassis cabs"
+        },
+        "top": {
+          "mph": 75,
+          "kind": "estimated",
+          "note": "Speed-limited for commercial duty; commonly reported"
+        },
+        "mpg": {
+          "na": "Heavy-duty and medium-duty trucks are exempt from EPA fuel-economy ratings"
+        }
+      },
+      {
+        "name": "6.0 Power Stroke",
+        "detail": "2004–08 diesel",
+        "power": {
+          "hp": 230,
+          "note": "Ratings of 200–230 hp",
+          "src": "https://en.wikipedia.org/wiki/Ford_F-650"
+        },
+        "weight": {
+          "kg": 4990,
+          "lb": 11001,
+          "note": "Bare chassis-cab curb weight, approximate; varies widely with the body fitted"
+        },
+        "zero60": {
+          "na": "No instrumented figures published for medium-duty chassis cabs"
+        },
+        "top": {
+          "mph": 75,
+          "kind": "estimated",
+          "note": "Speed-limited for commercial duty; commonly reported"
+        },
+        "mpg": {
+          "na": "Heavy-duty and medium-duty trucks are exempt from EPA fuel-economy ratings"
+        }
+      },
+      {
+        "name": "Caterpillar 3126 / C7",
+        "detail": "2000–09: the Cat option, until Caterpillar left the on-highway market",
+        "power": {
+          "hp": 362,
+          "note": "Ratings of 323–362 hp across the 3126 and C7",
+          "src": "https://en.wikipedia.org/wiki/Ford_F-650"
+        },
+        "weight": {
+          "kg": 4990,
+          "lb": 11001,
+          "note": "Bare chassis-cab curb weight, approximate; varies widely with the body fitted"
+        },
+        "zero60": {
+          "na": "No instrumented figures published for medium-duty chassis cabs"
+        },
+        "top": {
+          "mph": 75,
+          "kind": "estimated",
+          "note": "Speed-limited for commercial duty; commonly reported"
+        },
+        "mpg": {
+          "na": "Heavy-duty and medium-duty trucks are exempt from EPA fuel-economy ratings"
+        }
+      },
+      {
+        "name": "Cummins ISB",
+        "detail": "5.9 through 2006, then 6.7 through 2015",
+        "power": {
+          "hp": 360,
+          "note": "6.7 ISB ratings of 220–360 hp; the 5.9 made 185–275",
+          "src": "https://en.wikipedia.org/wiki/Ford_F-650"
+        },
+        "weight": {
+          "kg": 4990,
+          "lb": 11001,
+          "note": "Bare chassis-cab curb weight, approximate; varies widely with the body fitted"
+        },
+        "zero60": {
+          "na": "No instrumented figures published for medium-duty chassis cabs"
+        },
+        "top": {
+          "mph": 75,
+          "kind": "estimated",
+          "note": "Speed-limited for commercial duty; commonly reported"
+        },
+        "mpg": {
+          "na": "Heavy-duty and medium-duty trucks are exempt from EPA fuel-economy ratings"
+        }
+      },
+      {
+        "name": "6.8 V10 gas",
+        "detail": "2012–20, with propane and CNG conversion options",
+        "power": {
+          "hp": 362,
+          "note": "6.8-liter Modular V10",
+          "src": "https://en.wikipedia.org/wiki/Ford_F-650"
+        },
+        "weight": {
+          "kg": 4990,
+          "lb": 11001,
+          "note": "Bare chassis-cab curb weight, approximate; varies widely with the body fitted"
+        },
+        "zero60": {
+          "na": "No instrumented figures published for medium-duty chassis cabs"
+        },
+        "top": {
+          "mph": 75,
+          "kind": "estimated",
+          "note": "Speed-limited for commercial duty; commonly reported"
+        },
+        "mpg": {
+          "na": "Heavy-duty and medium-duty trucks are exempt from EPA fuel-economy ratings"
+        }
+      },
+      {
+        "name": "6.7 Power Stroke",
+        "detail": "2016 on: Ford's own diesel replaces Cummins"
+      },
+      {
+        "name": "7.3 gas V8",
+        "detail": "2021 on: the Godzilla replaces the V10",
+        "power": {
+          "hp": 350,
+          "note": "7.3-liter V8, medium-duty rating",
+          "src": "https://www.ford.com/commercial-trucks/f650-f750/"
+        },
+        "weight": {
+          "kg": 4990,
+          "lb": 11001,
+          "note": "Bare chassis-cab curb weight, approximate; varies widely with the body fitted"
+        },
+        "zero60": {
+          "na": "No instrumented figures published for medium-duty chassis cabs"
+        },
+        "top": {
+          "mph": 75,
+          "kind": "estimated",
+          "note": "Speed-limited for commercial duty; commonly reported"
+        },
+        "mpg": {
+          "na": "Heavy-duty and medium-duty trucks are exempt from EPA fuel-economy ratings"
+        }
+      }
+    ],
+    "predecessor": null,
+    "successor": null,
+    "alongside": [
+      {
+        "name": "Ford Super Duty (fifth generation)",
+        "id": "ford-super-duty-5th-gen"
+      }
+    ],
+    "quick": "The F-Series you rent, follow and get towed by: Class 6–7 chassis cabs, 2000 on, wearing box bodies, wreckers and water tanks — the line's commercial summit.",
+    "story": [
+      "Above the Super Duty pickups sits the F-Series almost nobody owns and almost everybody uses: the F-650 and F-750, Class 6–7 chassis cabs launched for 2000 and built, until 2015, by Blue Diamond, a Ford–Navistar joint venture in General Escobedo, Mexico. Buyers specified them like industrial equipment, with diesels from 3 suppliers over the years — Ford's own Power Strokes, Caterpillar's 3126 and C7 until Cat quit the on-highway business after 2009, and Cummins ISB sixes through 2015 — under bodies that became movers' boxes, wreckers, dump trucks, buses and fire apparatus. The strangest branch was the Super Truck craze: F-650s converted into gigantic luxury pickups for athletes with monster-truck taste.",
+      "In 2016, Ford brought the line home in every sense: assembly moved to Avon Lake, Ohio, and the outside engines gave way to Ford's own 6.7 Power Stroke, rated up to 330 hp for medium-duty work, with the gas V10 soldiering on until the 7.3-liter “Godzilla” V8 replaced it in 2021. Nothing about an F-650 is fast — they are speed-limited, 5-ton-plus bare, and rated by GVWR up to 16,783 kg (37,000 lb) — and that is the point. The F-Series' 49-year sales streak is usually told through pickups; these are the trucks quietly carrying the other end of the ledger, one rental move and roadside tow at a time."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "Ford F-650 Water Truck Las Vegas 2026.jpg",
+      "credit": "TaurusEmerald",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pos": ""
+    },
+    "match": [
+      "Ford F-650",
+      "Ford F-750",
+      "Ford Super Duty"
+    ]
   }
 ];

@@ -29614,5 +29614,65 @@ const CARS_INDEX = [
    "pos": "",
    "fit": ""
   }
+ },
+ {
+  "id": "ford-f-650-750",
+  "name": "Ford F-650 / F-750",
+  "aka": [
+   "Super Duty F-650",
+   "Super Duty F-750",
+   "Blue Diamond trucks",
+   "Super Truck pickup conversions"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Blue Diamond JV, General Escobedo, Mexico, through 2015; Avon Lake, Ohio, since 2016)",
+  "years": "2000–present",
+  "start": 2000,
+  "body": "Class 6–7 medium-duty chassis cab; the F-750 also built in Class 8 form since 2011",
+  "engine": "Diesels from Ford, Caterpillar and Cummins over the years; gas V10, then 7.3 V8",
+  "country": "United States",
+  "quick": "The F-Series you rent, follow and get towed by: Class 6–7 chassis cabs, 2000 on, wearing box bodies, wreckers and water tanks — the line's commercial summit.",
+  "articles": [
+   "industry-brief-2026-11-02",
+   "industry-brief-2026-10-05",
+   "no-replacement-for-displacement"
+  ],
+  "latest": "2026-11-02",
+  "ownDates": [],
+  "dates": [
+   "2026-11-02",
+   "2026-10-05",
+   "2026-10-01"
+  ],
+  "drive": "Rear-wheel drive",
+  "gearbox": "6-speed automatic; manuals offered in earlier years",
+  "specsFor": "2023 F-650, 6.7 Power Stroke",
+  "guide": null,
+  "shop": null,
+  "hp": 330,
+  "kg": 4990,
+  "kgNote": "Bare chassis-cab curb weight, approximate; varies widely with the body fitted",
+  "lbs": 11001,
+  "z60": null,
+  "top": {
+   "mph": 75,
+   "kind": "estimated",
+   "note": "Speed-limited for commercial duty; commonly reported"
+  },
+  "mpg": null,
+  "built": null,
+  "alongside": [
+   {
+    "id": "ford-super-duty-5th-gen",
+    "name": "Ford Super Duty (fifth generation)"
+   }
+  ],
+  "prev": null,
+  "next": null,
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Ford_F-650_Water_Truck_Las_Vegas_2026.jpg/960px-Ford_F-650_Water_Truck_Las_Vegas_2026.jpg",
+   "pos": "",
+   "fit": ""
+  }
  }
 ];

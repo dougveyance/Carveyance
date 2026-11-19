@@ -34938,10 +34938,10 @@ const CARS = [
       "src": "https://en.wikipedia.org/wiki/Jaguar_XJ220"
     },
     "zero60": {
-      "sec": 4.8,
+      "sec": 3.6,
       "kind": "tested",
-      "note": "Road & Track's US test; Autocar in Britain recorded 3.6, and Jaguar claimed 3.5",
-      "src": "https://es.motor1.com/news/176314/jaguar-xj220-todo-necesitas-saber/"
+      "note": "Autocar's test; Road & Track in the US recorded 4.8, and Jaguar claimed 3.5",
+      "src": "https://en.wikipedia.org/wiki/Jaguar_XJ220"
     },
     "top": {
       "mph": 213,
@@ -35361,17 +35361,20 @@ const CARS = [
     "specsFor": "T.50 road car, GMA's figures",
     "power": {
       "hp": 654,
-      "note": "At 11,500 rpm; the redline is 12,100, and the whole engine weighs 178 kg",
+      "note": "663 PS at 11,500 rpm, up to 664 hp with ram induction; the redline is 12,100, and the whole engine weighs 178 kg",
       "src": "https://www.motor1.com/news/437374/gordon-murray-automotive-t50-debut/"
     },
     "weight": {
-      "kg": 986,
-      "lb": 2174,
-      "note": "Curb; roughly a third less than most supercars",
+      "kg": 997,
+      "lb": 2198,
+      "note": "Curb; GMA's launch target was 986 kg, and either figure is roughly a third less than most supercars",
       "src": "https://gtspirit.com/?p=247636"
     },
     "zero60": {
-      "na": "Gordon Murray never published one; the T.50 was designed around feel, not figures"
+      "sec": 2.9,
+      "kind": "estimated",
+      "note": "An estimate; Gordon Murray published no official figure on principle",
+      "src": "https://fastestlaps.com/models/gordon-murray-automotive-t-50"
     },
     "top": {
       "mph": 226,
@@ -35380,7 +35383,13 @@ const CARS = [
       "src": "https://www.topgear.com/car-reviews/gordon-murray-automotive/t50/buying"
     },
     "mpg": {
-      "na": "Not EPA-rated"
+      "combined": 18,
+      "city": 17,
+      "hwy": 21,
+      "unit": "mpg",
+      "kind": "estimated",
+      "src": "https://en.wikipedia.org/wiki/Gordon_Murray_Automotive_T.50",
+      "note": "Figures cited in testing; never EPA-rated"
     },
     "built": {
       "count": 100,
@@ -35388,12 +35397,22 @@ const CARS = [
       "note": "The road-car run, sold out within 48 hours; 25 more T.50s Niki Lauda track cars followed",
       "src": "https://en.wikipedia.org/wiki/GMA_T.50"
     },
+    "versions": [
+      {
+        "name": "T.50",
+        "detail": "2022 on; 100 road cars; 6-speed H-pattern manual"
+      },
+      {
+        "name": "T.50s Niki Lauda",
+        "detail": "25 track-only cars; 761 hp (772 PS), under 900 kg wet, paddle-shift sequential; no 0-60 published, since buyers choose their own gearing"
+      }
+    ],
     "predecessor": null,
     "successor": null,
-    "quick": "Gordon Murray's sequel to the McLaren F1: central driving seat, a 12,100-rpm Cosworth V12, a manual gearbox, 986 kg and a fan sucking it to the road. 100 built, £2,360,000 each.",
+    "quick": "Gordon Murray's sequel to the McLaren F1: central driving seat, a 12,100-rpm Cosworth V12, a manual gearbox, 997 kg and a fan sucking it to the road. 100 built, £2,360,000 each.",
     "story": [
-      "Gordon Murray designed the McLaren F1, waited nearly 30 years for someone to build its true successor, and then did it himself. The T.50, his 50th design, repeats the F1's articles of faith: a central driving position with a passenger either side, no turbochargers, no paddles, and obsessive lightness, 986 kg at the curb. Cosworth built him what GMA calls the lightest and highest-revving road V12 ever, 3.9 liters, 654 hp at 11,500 rpm, a 12,100-rpm redline and 178 kg on the scale, bolted to a 6-speed manual.",
-      "The signature is the 400 mm fan at the tail, a road-legal descendant of Murray's banned 1978 Brabham fan car, which manages the underbody air to add downforce on demand. He published no 0-60 time on principle, because the car was designed around response and feel rather than numbers; Top Gear credits it with 226 mph given long enough gearing. All 100 road cars, at £2,360,000 before taxes, about $3,080,000 then and $4,002,200 in 2026 dollars, sold out within 48 hours of the 2020 premiere, and 25 track-only T.50s Niki Lauda cars followed. The Petersen shows one nose-on, which is the view most drivers would get."
+      "Gordon Murray designed the McLaren F1, waited nearly 30 years for someone to build its true successor, and then did it himself. The T.50, his 50th design, repeats the F1's articles of faith: a central driving position with a passenger either side, no turbochargers, no paddles, and obsessive lightness, 997 kg at the curb against a 986-kg target. Cosworth built him what GMA calls the lightest and highest-revving road V12 ever, 3.9 liters, 654 hp at 11,500 rpm, a 12,100-rpm redline and 178 kg on the scale, bolted to a 6-speed manual.",
+      "The signature is the 400 mm fan at the tail, a road-legal descendant of Murray's banned 1978 Brabham fan car, which manages the underbody air to add downforce on demand. He published no 0-60 time on principle, because the car was designed around response and feel rather than numbers; independent estimates put it around 2.9 seconds, and Top Gear credits it with 226 mph given long enough gearing. All 100 road cars, at £2,360,000 before taxes, about $3,080,000 then and $4,002,200 in 2026 dollars, sold out within 48 hours of the 2020 premiere, and 25 track-only T.50s Niki Lauda cars followed. The Petersen shows one nose-on, which is the view most drivers would get."
     ],
     "articles": [],
     "photo": {

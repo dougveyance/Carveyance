@@ -24783,9 +24783,9 @@ const CARS_INDEX = [
   "kgNote": "Curb",
   "lbs": 3241,
   "z60": {
-   "sec": 4.8,
+   "sec": 3.6,
    "kind": "tested",
-   "note": "Road & Track's US test; Autocar in Britain recorded 3.6, and Jaguar claimed 3.5"
+   "note": "Autocar's test; Road & Track in the US recorded 4.8, and Jaguar claimed 3.5"
   },
   "top": {
    "mph": 213,
@@ -25102,7 +25102,7 @@ const CARS_INDEX = [
   "body": "3-seat coupe with the driver in the center, and a 400 mm fan at the tail",
   "engine": "3.9-liter Cosworth GMA V12",
   "country": "United Kingdom",
-  "quick": "Gordon Murray's sequel to the McLaren F1: central driving seat, a 12,100-rpm Cosworth V12, a manual gearbox, 986 kg and a fan sucking it to the road. 100 built, £2,360,000 each.",
+  "quick": "Gordon Murray's sequel to the McLaren F1: central driving seat, a 12,100-rpm Cosworth V12, a manual gearbox, 997 kg and a fan sucking it to the road. 100 built, £2,360,000 each.",
   "articles": [],
   "latest": "",
   "ownDates": [],
@@ -25113,16 +25113,27 @@ const CARS_INDEX = [
   "guide": null,
   "shop": null,
   "hp": 654,
-  "kg": 986,
-  "kgNote": "Curb; roughly a third less than most supercars",
-  "lbs": 2174,
-  "z60": null,
+  "kg": 997,
+  "kgNote": "Curb; GMA's launch target was 986 kg, and either figure is roughly a third less than most supercars",
+  "lbs": 2198,
+  "z60": {
+   "sec": 2.9,
+   "kind": "estimated",
+   "note": "An estimate; Gordon Murray published no official figure on principle"
+  },
   "top": {
    "mph": 226,
    "kind": "claimed",
    "note": "Top Gear's figure, gearing-dependent"
   },
-  "mpg": null,
+  "mpg": {
+   "combined": 18,
+   "city": 17,
+   "hwy": 21,
+   "unit": "mpg",
+   "kind": "estimated",
+   "note": "Figures cited in testing; never EPA-rated"
+  },
   "built": {
    "count": 100,
    "approx": false,

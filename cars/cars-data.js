@@ -26983,18 +26983,33 @@ const CARS_INDEX = [
   "dates": [],
   "drive": "Rear-wheel drive",
   "gearbox": "Powerglide at first; 3- and 4-speed manuals later",
-  "specsFor": "1960 Corvette 283, 270 hp, 4-speed",
+  "specsFor": "1962 327, fuel injection, 360 hp",
   "guide": null,
   "shop": {
    "list": "collector"
   },
-  "hp": 270,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
-  "z60": null,
-  "top": null,
-  "mpg": null,
+  "hp": 360,
+  "kg": 1423,
+  "kgNote": "Period test weight, 1962",
+  "lbs": 3137,
+  "z60": {
+   "sec": 5.7,
+   "kind": "tested",
+   "note": "The 1957 283 fuelie's period test; the 1962 327 ran 5.9"
+  },
+  "top": {
+   "mph": 132,
+   "kind": "tested",
+   "note": "Period tests of the fuel-injected cars"
+  },
+  "mpg": {
+   "combined": 14,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "estimated",
+   "note": "Period driving tests ran 11–16 on the V8s; fueleconomy.gov starts with 1984"
+  },
   "built": {
    "count": 69015,
    "approx": false,
@@ -27007,7 +27022,7 @@ const CARS_INDEX = [
    "name": "Chevrolet Corvette (C2) Sting Ray"
   },
   "photo": {
-   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/1960_Chevrolet_Corvette_C1_Red.jpg/960px-1960_Chevrolet_Corvette_C1_Red.jpg",
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/2022_Downtown_West_Allis_Classic_Car_Show_078_(1957_Chevrolet_Corvette).jpg/960px-2022_Downtown_West_Allis_Classic_Car_Show_078_(1957_Chevrolet_Corvette).jpg",
    "pos": "",
    "fit": ""
   }
@@ -27246,22 +27261,37 @@ const CARS_INDEX = [
   "dates": [],
   "drive": "Rear-wheel drive",
   "gearbox": "4- or 5-speed manual, or automatic",
-  "specsFor": "1965 Series I, Chevrolet 327, 300 hp",
+  "specsFor": "GL 365, 327 V8",
   "guide": null,
   "shop": {
    "list": "collector"
   },
-  "hp": 300,
-  "kg": null,
-  "kgNote": "",
-  "lbs": null,
-  "z60": null,
-  "top": null,
-  "mpg": null,
+  "hp": 360,
+  "kg": 1450,
+  "kgNote": "GL 365",
+  "lbs": 3197,
+  "z60": {
+   "sec": 6.2,
+   "kind": "tested",
+   "note": "GL 365, published figure; the Can-Am ran about 5.7"
+  },
+  "top": {
+   "mph": 161,
+   "kind": "tested",
+   "note": "GL 365, period figure; the 7 Litri's 186 was a factory claim, never independently timed"
+  },
+  "mpg": {
+   "combined": 12.4,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "estimated",
+   "note": "Historical estimate for the GL 365; not an EPA figure"
+  },
   "built": {
    "count": 412,
    "approx": true,
-   "note": "Sources count 402 to 413 across the decade"
+   "note": "About 412–413 in all: 265 GL small-blocks, 65–90 7 Litri depending on source, about 34 Ford-powered IR-8s"
   },
   "alongside": [
    {

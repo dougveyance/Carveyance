@@ -31304,7 +31304,10 @@ const CARS = [
       "src": "https://en.wikipedia.org/wiki/Porsche_718"
     },
     "zero60": {
-      "na": "No instrumented road test on record"
+      "sec": 5.2,
+      "kind": "claimed",
+      "note": "*Unconfirmed: a secondary 0-100 km/h (62 mph) figure, not an instrumented test",
+      "src": null
     },
     "top": {
       "mph": 162,

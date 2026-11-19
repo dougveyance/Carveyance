@@ -22360,7 +22360,11 @@ const CARS_INDEX = [
   "kg": 570,
   "kgNote": "Wikipedia's figure for the 718",
   "lbs": 1257,
-  "z60": null,
+  "z60": {
+   "sec": 5.2,
+   "kind": "claimed",
+   "note": "*Unconfirmed: a secondary 0-100 km/h (62 mph) figure, not an instrumented test"
+  },
   "top": {
    "mph": 162,
    "kind": "claimed",

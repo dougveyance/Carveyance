@@ -33185,5 +33185,679 @@ const CARS = [
       "caption": "A Renault 5 Turbo, an owner's car, at the Porsche Experience Center Los Angeles, October 18, 2026"
     },
     "match": []
+  },
+  {
+    "id": "mercedes-benz-540k",
+    "name": "Mercedes-Benz 540 K",
+    "aka": [
+      "500 K",
+      "540K",
+      "W29",
+      "540 K Special Roadster",
+      "Autobahnkurier"
+    ],
+    "make": "Mercedes-Benz",
+    "maker": "Mercedes-Benz (Stuttgart)",
+    "country": "Germany",
+    "years": "1934–1940",
+    "start": 1934,
+    "end": 1940,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Grand touring chassis with cabriolet, coupe and roadster coachwork, most of it from Mercedes-Benz's own Sindelfingen shop",
+    "engine": "Supercharged 5.4-liter inline-8 (the 500 K before it: 5.0 liters)",
+    "drive": "Rear-wheel drive",
+    "gearbox": "4- or 5-speed manual",
+    "specsFor": "Mercedes-Benz 540 K with the supercharger engaged, Mercedes-Benz's figures",
+    "power": {
+      "hp": 180,
+      "note": "5,401 cc inline-8; 115 hp with the Roots supercharger disengaged",
+      "src": "https://en.wikipedia.org/wiki/Mercedes-Benz_540K"
+    },
+    "weight": {
+      "na": "Depends on the coachwork"
+    },
+    "zero60": {
+      "na": "No instrumented period test"
+    },
+    "top": {
+      "mph": 106,
+      "kind": "claimed",
+      "note": "Mercedes-Benz's figure, 170 km/h, supercharger engaged",
+      "src": "https://en.wikipedia.org/wiki/Mercedes-Benz_540K"
+    },
+    "mpg": {
+      "na": "fueleconomy.gov starts with 1984 models"
+    },
+    "built": {
+      "count": 419,
+      "approx": false,
+      "note": "540 Ks, 1936–1940; the 500 K added 342 more, 1934–1936",
+      "src": "https://en.wikipedia.org/wiki/Mercedes-Benz_540K"
+    },
+    "versions": [
+      {
+        "name": "540 K",
+        "detail": "1936–1940; 419 built"
+      },
+      {
+        "name": "500 K",
+        "detail": "1934–1936; 342 built; 5.0 liters, 160 hp with the supercharger engaged"
+      },
+      {
+        "name": "Special Roadster",
+        "detail": "The long-tail Sindelfingen body; 29 on the 500 K chassis, and about 26 more on the 540 K"
+      }
+    ],
+    "predecessor": {
+      "name": "Mercedes-Benz 380 (W22)",
+      "id": null
+    },
+    "successor": {
+      "name": "Mercedes-Benz 300 S",
+      "id": null
+    },
+    "quick": "The glamour Mercedes of the 1930s: a supercharged straight-8 under coachbuilt bodies for royalty, heiresses and movie stars. The Petersen's silver car was built to Barbara Hutton's exact order.",
+    "story": [
+      "The 540 K worked like no other car of its day: drive normally and its 5.4-liter straight-8 made a calm 115 hp, but push the accelerator to the floor and a Roots supercharger clutched in with a shriek, lifting it to 180 hp and about 170 km/h (106 mph). Mercedes-Benz introduced it in 1936 as the successor to the 500 K, and the Petersen calls it the fastest standard production car in the world at its debut. Most bodies came from the company's own Sindelfingen works; in America a 540 K listed for about $7,500 in 1938, or $178,900 in 2026 dollars, when a Ford cost about $700.",
+      "The silver car in the photo was ordered by Barbara Hutton, the Woolworth heiress, and is 1 of only 12 540 K chassis bodied by Erdmann & Rossi of Berlin. It was built to her exact specifications, down to fully skirted fenders, custom wheel covers and a set of false exhaust pipes added to the left side of the hood purely for symmetry. It shares the Petersen's floor with a red 1936 500 K Special Roadster from the Keller Collection, 1 of just 29 Roadster and Special Roadster bodies on the 500 K chassis, the shape that now sells for millions whenever one comes up."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "Barbara Hutton's 1936 540 K Cabriolet by Erdmann & Rossi at the Petersen Automotive Museum's World-Class: 100 Years of Mercedes-Benz exhibit"
+    },
+    "match": [
+      "Mercedes-Benz 500K",
+      "Mercedes 540K"
+    ]
+  },
+  {
+    "id": "mercedes-benz-w154",
+    "name": "Mercedes-Benz W 154",
+    "aka": [
+      "W154",
+      "W 163",
+      "Silver Arrow"
+    ],
+    "make": "Mercedes-Benz",
+    "maker": "Mercedes-Benz (Stuttgart)",
+    "country": "Germany",
+    "years": "1938–1939",
+    "start": 1938,
+    "end": 1939,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Open-wheel Grand Prix race car",
+    "engine": "Supercharged 3.0-liter V12",
+    "drive": "Rear-wheel drive",
+    "gearbox": "5-speed manual",
+    "specsFor": "1939 specification with the 2-stage supercharged M163 engine, as the Revs Institute lists it",
+    "power": {
+      "hp": 483,
+      "note": "2,962 cc V12 with 2 Roots superchargers, at 7,800 rpm; the 1938 M154 made between 425 and 474 hp",
+      "src": "https://museum.revsinstitute.org/?p=570"
+    },
+    "weight": {
+      "kg": 910,
+      "lb": 2006,
+      "note": "1939 car; the 1938 car weighed 980 kg",
+      "src": "https://en.wikipedia.org/wiki/Mercedes-Benz_W154"
+    },
+    "zero60": {
+      "na": "A Grand Prix car; no instrumented test"
+    },
+    "top": {
+      "mph": 176,
+      "kind": "claimed",
+      "note": "About 283 km/h, seen on the straights at Reims in 1938; gearing-dependent",
+      "src": "https://www.supercars.net/blog/1938-mercedes-benz-w154/"
+    },
+    "mpg": {
+      "na": "A race car; never rated by the EPA"
+    },
+    "built": {
+      "count": 16,
+      "approx": false,
+      "note": "The Petersen Automotive Museum's count",
+      "src": "https://petersen.org/pages/petersen-vehicle/1938-mercedes-benz-w-154"
+    },
+    "predecessor": {
+      "name": "Mercedes-Benz W125",
+      "id": null
+    },
+    "successor": {
+      "name": "Mercedes-Benz W196",
+      "id": null
+    },
+    "quick": "The Silver Arrow built for the 3-liter Grand Prix formula of 1938. It won 3 of 4 championship races that year, made Rudolf Caracciola European Champion, and the Petersen's chassis won the German Grand Prix.",
+    "story": [
+      "When the rules capped supercharged engines at 3.0 liters for 1938, Mercedes-Benz answered with a jewel: a 2,962 cc V12 with 2 Roots superchargers, set in a low oval-tube frame under bodywork so slim the driver sat between the frame rails. Rudolf Uhlenhaut and his team gave it between 425 and 474 hp in 1938, and the 2-stage M163 engine of 1939 reached 483 hp at 7,800 rpm in a car of 910 kg (2,006 lb). The W 154 won 3 of its 4 championship races in 1938 and made Rudolf Caracciola European Champion, the last before the war.",
+      "The Petersen's car, known as Wagen 7, has one of the best stories of the 16 built: it was constructed for Caracciola's planned entry in the 1938 Indianapolis 500, which never happened, so it went racing at home instead and won its debut, the 1938 German Grand Prix at the Nürburgring, driven by the Englishman Dick Seaman. The W 154s raced on after the war too: 3 of them ran the 1951 Formula Libre races in Argentina, where their drivers included Hermann Lang, Karl Kling and a rising Juan Manuel Fangio."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "Wagen 7, the W 154 built for an aborted Indianapolis 500 entry that instead won the 1938 German Grand Prix, at the Petersen Automotive Museum's World-Class: 100 Years of Mercedes-Benz exhibit"
+    },
+    "match": []
+  },
+  {
+    "id": "mercedes-benz-unimog",
+    "name": "Mercedes-Benz Unimog",
+    "aka": [
+      "Unimog 406",
+      "U 80",
+      "Universal-Motor-Gerät",
+      "Mog"
+    ],
+    "make": "Mercedes-Benz",
+    "maker": "Mercedes-Benz (Gaggenau)",
+    "country": "Germany",
+    "years": "1948–present",
+    "start": 1948,
+    "end": null,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "4-wheel-drive implement carrier and truck, in countless configurations",
+    "engine": "Diesel; the 406 series used the OM 352 truck 6-cylinder",
+    "drive": "All-wheel drive on portal axles (the Petersen's hauler: front-wheel drive in loading trim)",
+    "gearbox": "Manual, with high and low ranges",
+    "specsFor": "Unimog 406 series; the Petersen's truck is a 1966 U 80 T",
+    "power": {
+      "hp": 79,
+      "note": "80 PS; the 406 series ran from 65 to 84 PS",
+      "src": "https://en.wikipedia.org/wiki/Unimog_406"
+    },
+    "weight": {
+      "kg": 2650,
+      "lb": 5842,
+      "note": "Unladen; it varies widely by body",
+      "src": "https://unimog-mbtrac.com/models/unimog-u406/"
+    },
+    "zero60": {
+      "na": "Never tested; it is not that kind of Mercedes"
+    },
+    "top": {
+      "mph": 49,
+      "kind": "claimed",
+      "note": "The 406 series' rated speed",
+      "src": "https://unimog-mbtrac.com/models/unimog-u406/"
+    },
+    "mpg": {
+      "na": "Never EPA-rated"
+    },
+    "built": {
+      "na": "No single total: the 100,000th Unimog was built in May 1966, and the 406 series alone ran to 37,069 between 1963 and 1989"
+    },
+    "predecessor": null,
+    "successor": null,
+    "quick": "The farm implement that became the world's favorite go-anywhere truck. The Petersen's 1966 U 80 T was rebuilt by Ruthmann into a car hauler whose bed kneels to the ground.",
+    "story": [
+      "The Unimog began in 1948 as a motorized implement carrier for postwar German farms: 4 equal wheels on portal axles for clearance, power takeoffs at both ends, and gearing that let it crawl through a field or run down a road. Boehringer built the first ones in Göppingen, Daimler-Benz took production to its Gaggenau plant in 1951, and the 3-pointed star went on the hood in 1953. The 406 series of 1963 was the first medium-duty Unimog, with a proper truck diesel, and it stayed in production until 1989.",
+      "The green truck at the Petersen is a 1966 U 80 T that the German equipment maker Ruthmann converted into what it called a Niederflurhubwagen, a low-floor elevating truck. Hydraulics swing the rear axle up and lower the whole bed flat to the ground, a car is winched aboard, and the bed lifts back up, which means that in loading trim it drives on its front wheels alone, making it one of the few front-wheel-drive Unimogs anywhere. It sold at auction in 2020 for $42,560, or $55,300 in 2026 dollars, and now greets visitors at the museum's entrance."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "The Petersen's 1966 Unimog U 80 T, a low-floor car hauler by Ruthmann"
+    },
+    "match": [
+      "Unimog"
+    ]
+  },
+  {
+    "id": "mercedes-benz-c111",
+    "name": "Mercedes-Benz C 111",
+    "aka": [
+      "C111",
+      "C 111-II",
+      "C 111-IV"
+    ],
+    "make": "Mercedes-Benz",
+    "maker": "Mercedes-Benz (Stuttgart)",
+    "country": "Germany",
+    "years": "1969–1979",
+    "start": 1969,
+    "end": 1979,
+    "shop": null,
+    "body": "Gullwing 2-seat experimental coupe",
+    "engine": "3- and 4-rotor Wankels, then record-setting turbodiesels and a turbocharged V8",
+    "drive": "Rear-wheel drive (mid-engine)",
+    "gearbox": "5-speed manual",
+    "specsFor": "C 111-II of 1970, 4-rotor Wankel, Mercedes-Benz's figures",
+    "power": {
+      "hp": 345,
+      "note": "350 PS 4-rotor Wankel",
+      "src": "https://media.mbusa.com/news/legendary-super-sports-car-for-the-first-time-a-mercedes-benz-c-111-is-offered-for-sale-and-paves-the-way-for-the-further-development-of-the-mercedes-benz-museum"
+    },
+    "weight": {
+      "kg": 1240,
+      "lb": 2734,
+      "note": "Mercedes-Benz's figure",
+      "src": "https://media.mbusa.com/news/legendary-super-sports-car-for-the-first-time-a-mercedes-benz-c-111-is-offered-for-sale-and-paves-the-way-for-the-further-development-of-the-mercedes-benz-museum"
+    },
+    "zero60": {
+      "sec": 4.8,
+      "kind": "claimed",
+      "note": "Mercedes-Benz's 0-100 km/h (62 mph) figure, C 111-II",
+      "src": "https://media.mbusa.com/news/legendary-super-sports-car-for-the-first-time-a-mercedes-benz-c-111-is-offered-for-sale-and-paves-the-way-for-the-further-development-of-the-mercedes-benz-museum"
+    },
+    "top": {
+      "mph": 186,
+      "kind": "claimed",
+      "note": "Mercedes-Benz's figure, 300 km/h, C 111-II",
+      "src": "https://media.mbusa.com/news/legendary-super-sports-car-for-the-first-time-a-mercedes-benz-c-111-is-offered-for-sale-and-paves-the-way-for-the-further-development-of-the-mercedes-benz-museum"
+    },
+    "mpg": {
+      "na": "An experimental car; never sold or rated"
+    },
+    "built": {
+      "count": 16,
+      "approx": false,
+      "note": "13 Wankel-engined cars, 2 diesel record cars and 1 V8 record car",
+      "src": "https://en.wikipedia.org/wiki/Mercedes-Benz_C111"
+    },
+    "predecessor": null,
+    "successor": {
+      "name": "Mercedes-Benz C112",
+      "id": null
+    },
+    "quick": "The gullwing wedge Mercedes built to test the rotary engine, then kept as a rolling laboratory. It never went on sale, however hard people tried to buy one, and it ended up setting records at over 400 km/h.",
+    "story": [
+      "The C 111 appeared at the Frankfurt show in 1969 looking like a production supercar: a fiberglass wedge in signal orange with gullwing doors and a 3-rotor Wankel behind the seats. The C 111-II of 1970 went further, with a 4-rotor engine of 350 PS that Mercedes said would reach 300 km/h (186 mph) and 100 km/h in 4.8 seconds. Would-be buyers pressed the company to sell it, but the rotary never met Mercedes' standards for sealing and thirst, and the car stayed what it had always been, a testbed, down to the multi-link rear suspension that later reached production sedans.",
+      "Then the laboratory went record hunting. In 1976 and 1978 diesel versions ran at the Nardò ring in Italy, the 5-cylinder turbodiesel C 111-III seeing 338 km/h, an absurd speed for a diesel in the 1970s. The last car, the C 111-IV of 1979, swapped in a twin-turbocharged V8 and lapped Nardò at an average of 403.78 km/h (250.958 mph), with Hans Liebold driving. Mercedes built 16 in all, never sold one, and the orange cars have been crowd-stoppers at shows ever since. Its spiritual successor, the C 112 of 1991, is also at the Petersen."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "A 1969 C 111, the first of the gullwing rotary test cars, at the Petersen Automotive Museum's World-Class: 100 Years of Mercedes-Benz exhibit"
+    },
+    "match": [
+      "Mercedes C111"
+    ]
+  },
+  {
+    "id": "mercedes-benz-s-class-w126",
+    "name": "Mercedes-Benz S-Class (W126)",
+    "aka": [
+      "560 SEL",
+      "500 SEL",
+      "W126",
+      "560 SEC",
+      "S-Klasse"
+    ],
+    "make": "Mercedes-Benz",
+    "maker": "Mercedes-Benz (Stuttgart)",
+    "country": "Germany",
+    "years": "1979–1991",
+    "start": 1979,
+    "end": 1991,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "4-door sedan in 2 wheelbases, and the C126 coupe",
+    "engine": "Inline-6, V8 and turbodiesel, 2.6 to 5.6 liters",
+    "drive": "Rear-wheel drive",
+    "gearbox": "4-speed automatic on most",
+    "specsFor": "1986 Mercedes-Benz 560 SEL, US market (Car and Driver test)",
+    "power": {
+      "hp": 238,
+      "note": "5.5-liter M117 V8, US 560 SEL",
+      "src": "https://www.garagekeptmotors.com/vehicles/1482/1986-mercedes-benz-560sel"
+    },
+    "weight": {
+      "kg": 1859,
+      "lb": 4098,
+      "note": "Curb, 560 SEL",
+      "src": "https://fastestlaps.com/models/mercedes-benz-560-sel"
+    },
+    "zero60": {
+      "sec": 7.0,
+      "kind": "tested",
+      "note": "Car and Driver test, 1986 560 SEL",
+      "src": "https://www.garagekeptmotors.com/vehicles/1482/1986-mercedes-benz-560sel"
+    },
+    "top": {
+      "mph": 145,
+      "kind": "claimed",
+      "note": "Motor Sport's figure for the European 560 SEL, 1987",
+      "src": "https://www.motorsportmagazine.com/archive/article/november-1987/48/effortlessness/"
+    },
+    "mpg": {
+      "combined": 13,
+      "city": 12,
+      "hwy": 15,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/feg/noframes/2159.shtml",
+      "note": "EPA combined, 1986 560 SEL"
+    },
+    "built": {
+      "count": 892126,
+      "approx": false,
+      "note": "December 1979–October 1991: 818,066 sedans and 74,060 coupes",
+      "src": "https://en.wikipedia.org/wiki/Mercedes-Benz_W126"
+    },
+    "versions": [
+      {
+        "name": "560 SEL",
+        "detail": "1986–1991; the US flagship"
+      },
+      {
+        "name": "500 SEL",
+        "detail": "Europe from 1980; US 1984–1985",
+        "specsFor": "1985 Mercedes-Benz 500 SEL, US market",
+        "power": {
+          "hp": 184,
+          "note": "5.0-liter M117 V8, US tune",
+          "src": "https://en.wikipedia.org/wiki/Mercedes-Benz_W126"
+        },
+        "mpg": {
+          "combined": 14,
+          "city": 13,
+          "hwy": 15,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/feg/noframes/483.shtml",
+          "note": "EPA combined, 1985 500 SEL"
+        }
+      },
+      {
+        "name": "AMG 6.0 (pre-merger conversion)",
+        "detail": "5,953 cc and AMG's 32-valve heads; about 385 hp",
+        "specsFor": "Mercedes-Benz 560 SEC AMG 6.0, AMG's figures",
+        "power": {
+          "hp": 385,
+          "note": "AMG 6.0-liter, 32-valve M117 V8",
+          "src": "https://amgclassic.com/forum/viewtopic.php?p=16244"
+        },
+        "top": {
+          "mph": 179,
+          "kind": "claimed",
+          "note": "For the 560 SEC AMG 6.0 widebody",
+          "src": "https://www.0-60info.com/brands/mercedes-benz/hl6uhx7oilx7kKyMQOeBD9"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Mercedes-Benz S-Class (W116)",
+      "id": null
+    },
+    "successor": {
+      "name": "Mercedes-Benz S-Class (W140)",
+      "id": null
+    },
+    "alongside": [
+      {
+        "name": "AMG Hammer (W124)",
+        "id": "amg-hammer"
+      }
+    ],
+    "quick": "The S-Class most people picture when they hear the words: 12 years, 892,126 cars, the first driver's airbag, and the sedan AMG chose when it wanted to show what it could do.",
+    "story": [
+      "The W126 is the car that defined what a flagship sedan was supposed to be. Bruno Sacco's design aged so well that Mercedes kept it for 12 years, it brought the driver's airbag to series production as an option in 1981, standard in the US from 1985, and it sold 892,126 copies, still the most of any S-Class. The US flagship from 1986 was the 560 SEL, whose 238-hp V8 moved it to 60 mph in 7.0 seconds in Car and Driver's hands, and the 1986 560-Class listed between $53,950 and $59,350, or $165,500 to $182,100 in 2026 dollars.",
+      "The black car in the photo is what happened when AMG got hold of one before AMG belonged to Mercedes. The little firm in Affalterbach would take a 500 SEL or 560 SEC, bore the M117 V8 to 5,953 cc and fit its own twin-cam, 32-valve heads, for about 385 hp, in the mid-1980s, from a sedan that chauffeured executives. These pre-merger conversions, built outside any factory catalog, are what made AMG's name; Mercedes made the partnership official in 1990 and eventually bought the company. The Petersen's car is a 1985 500 SEL with the full 6.0 conversion."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "A 1985 500 SEL with AMG's 6.0-liter, 32-valve conversion at the Petersen Automotive Museum's World-Class: 100 Years of Mercedes-Benz exhibit"
+    },
+    "match": [
+      "Mercedes-Benz 560 SEL",
+      "Mercedes-Benz W126"
+    ]
+  },
+  {
+    "id": "amg-hammer",
+    "name": "AMG Hammer (W124)",
+    "aka": [
+      "Hammer",
+      "300 E 5.6 AMG",
+      "300 E 6.0 AMG",
+      "Hammer wagon"
+    ],
+    "make": "Mercedes-Benz",
+    "maker": "AMG (Affalterbach, Germany, and Westmont, Illinois)",
+    "country": "Germany",
+    "years": "1986–1988",
+    "start": 1986,
+    "end": 1988,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "4-door sedan, a handful of coupes, and exactly 1 wagon",
+    "engine": "AMG 5.6- or 6.0-liter DOHC 32-valve V8",
+    "drive": "Rear-wheel drive",
+    "gearbox": "4-speed automatic",
+    "specsFor": "1987 AMG Hammer sedan, 5.6-liter (Car and Driver test)",
+    "power": {
+      "hp": 355,
+      "note": "AMG 5.6-liter 32-valve V8; the 6.0-liter cars made up to 385",
+      "src": "https://www.0-60specs.com/mercedes-benz/amg-hammer-0-60-times"
+    },
+    "weight": {
+      "kg": 1746,
+      "lb": 3850,
+      "note": "Curb, 1987 sedan",
+      "src": "https://www.0-60specs.com/mercedes-benz/amg-hammer-0-60-times"
+    },
+    "zero60": {
+      "sec": 5.0,
+      "kind": "tested",
+      "note": "Car and Driver test, 1987 Hammer sedan",
+      "src": "https://www.0-60specs.com/mercedes-benz/amg-hammer-0-60-times"
+    },
+    "top": {
+      "mph": 178,
+      "kind": "tested",
+      "note": "Car and Driver, 5.6-liter sedan",
+      "src": "https://media.mbusa.com/releases/release-026620905d72bc97c8c936f8150426f5-amg-in-america-profile-jonathan-hodgman"
+    },
+    "mpg": {
+      "na": "AMG conversions; never EPA-rated"
+    },
+    "built": {
+      "count": 30,
+      "approx": true,
+      "note": "Hammers worldwide by the usual count, 13 of them built in North America; the wagon is 1 of 1",
+      "src": "https://www.thedrive.com/news/rare-1987-mercedes-benz-amg-hammer-sedan-could-sell-for-600000"
+    },
+    "predecessor": null,
+    "successor": {
+      "name": "Mercedes-Benz 500 E",
+      "id": null
+    },
+    "alongside": [
+      {
+        "name": "Mercedes-Benz S-Class (W126)",
+        "id": "mercedes-benz-s-class-w126"
+      }
+    ],
+    "quick": "The 1980s sedan that embarrassed supercars: a midsize Mercedes with AMG's quad-cam V8, good for 60 mph in 5.0 seconds and 178 mph. The Petersen's car is the only wagon.",
+    "story": [
+      "Before AMG belonged to Mercedes-Benz, it made its reputation with this car. Take a sensible W124 300 E, remove its 6-cylinder, and install a 5.6-liter V8 wearing AMG's own twin-cam, 32-valve heads: the result made 355 hp, reached 60 mph in 5.0 seconds in Car and Driver's December 1986 test and ran on to 178 mph, and AMG claimed it pulled from 60 to 120 mph faster than a Lamborghini Countach. The magazine called it the hottest sedan in the world, the name Hammer stuck, and about 30 were built, 13 of them by AMG North America in Westmont, Illinois, with later cars enlarged to 6.0 liters and up to 385 hp.",
+      "The dark blue wagon at the Petersen is the strangest and best of them. Paul Fingold, a Canadian who had already ordered several AMG cars, commissioned it for his wife, and since the only Mercedes wagon sold in America then was the diesel 300 TD Turbo, that is what AMG started with: a diesel family wagon rebuilt around a 6.0-liter, 32-valve V8, for about $190,000 in 1987, or $562,500 in 2026 dollars. It is believed to be the only Hammer wagon AMG ever sanctioned; a 2nd 6.0 wagon built in 1988 with the single-cam V8 was nicknamed the Mallet instead."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "The 1-of-1 Hammer wagon, a 300 TD Turbo rebuilt by AMG, at the Petersen Automotive Museum's World-Class: 100 Years of Mercedes-Benz exhibit"
+    },
+    "match": [
+      "AMG Hammer",
+      "Mercedes-Benz Hammer"
+    ]
+  },
+  {
+    "id": "sauber-mercedes-c9",
+    "name": "Sauber-Mercedes C 9",
+    "aka": [
+      "Sauber C9",
+      "Mercedes-Benz C 9",
+      "C9"
+    ],
+    "make": "Mercedes-Benz",
+    "maker": "Sauber (Hinwil, Switzerland), with Mercedes-Benz",
+    "country": "Switzerland and Germany",
+    "years": "1987–1989",
+    "start": 1987,
+    "end": 1989,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Closed Group C prototype",
+    "engine": "Twin-turbocharged 5.0-liter M119 V8",
+    "drive": "Rear-wheel drive (mid-engine)",
+    "gearbox": "5-speed manual",
+    "specsFor": "1989 race specification",
+    "power": {
+      "hp": 720,
+      "note": "Race trim; up to about 925 hp in qualifying",
+      "src": "https://mb-france.mercedes-benz-clubs.com/wp-content/uploads/sites/21/2019/06/LeMans1989.pdf"
+    },
+    "weight": {
+      "na": "No published figure"
+    },
+    "zero60": {
+      "na": "A race car; no instrumented test"
+    },
+    "top": {
+      "mph": 248,
+      "kind": "claimed",
+      "note": "400 km/h on the Mulsanne Straight in 1989 Le Mans qualifying, the number 61 car",
+      "src": "https://en.wikipedia.org/wiki/Sauber_C9"
+    },
+    "mpg": {
+      "na": "A race car; never rated by the EPA"
+    },
+    "built": {
+      "na": "No official chassis count published"
+    },
+    "predecessor": {
+      "name": "Sauber C8",
+      "id": null
+    },
+    "successor": {
+      "name": "Mercedes-Benz C11",
+      "id": null
+    },
+    "alongside": [
+      {
+        "name": "Porsche 962",
+        "id": "porsche-962"
+      }
+    ],
+    "quick": "The car that brought the Silver Arrows back: painted silver for 1989, it won 7 of 8 championship races, finished 1-2-5 at Le Mans, and hit 400 km/h on the Mulsanne.",
+    "story": [
+      "The C 9 was built in Hinwil, Switzerland, by Peter Sauber's small team, with a twin-turbocharged 5.0-liter Mercedes V8 behind the driver, and it began quietly: its 1987 debut season was run under the Kouros perfume banner, with Mercedes helping in a semi-official way. By 1988 the factory's name was on the car, and the team finished the season 2nd only to the Silk Cut Jaguars. For 1989 Mercedes committed fully and did something it had not done since 1955: it painted its race cars plain silver again.",
+      "That season the silver C 9s won 7 of the championship's 8 races and swept Le Mans, finishing 1st, 2nd and 5th, with Jochen Mass, Manuel Reuter and Stanley Dickens taking the win. In qualifying, the number 61 car, whose colors the Petersen's car wears, was clocked at 400 km/h (248 mph) on the Mulsanne Straight, a speed that helped convince the organizers to break up the straight with chicanes the following year. The C 9's engine made about 720 hp in race trim and up to 925 in qualifying, Jean-Louis Schlesser took the drivers' title, and its successor, the C 11, carried the silver on."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "A Sauber-Mercedes C 9 in the colors of the number 61 car that hit 400 km/h at Le Mans in 1989, at the Petersen Automotive Museum's World-Class: 100 Years of Mercedes-Benz exhibit"
+    },
+    "match": []
+  },
+  {
+    "id": "mercedes-benz-190e-evo2",
+    "name": "Mercedes-Benz 190 E 2.5-16 Evolution II",
+    "aka": [
+      "Evo II",
+      "Evo 2",
+      "190E Evolution II",
+      "W201"
+    ],
+    "make": "Mercedes-Benz",
+    "maker": "Mercedes-Benz (Stuttgart)",
+    "country": "Germany",
+    "years": "1990",
+    "start": 1990,
+    "end": 1990,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "4-door sports sedan",
+    "engine": "2.5-liter 16-valve 4-cylinder",
+    "drive": "Rear-wheel drive",
+    "gearbox": "5-speed manual",
+    "specsFor": "190 E 2.5-16 Evolution II, Mercedes-Benz's figures",
+    "power": {
+      "hp": 232,
+      "note": "235 PS at 7,200 rpm",
+      "src": "https://mercedes-benz.com/en/innovation/milestones/baby-benz"
+    },
+    "weight": {
+      "kg": 1340,
+      "lb": 2954,
+      "note": "CarAdvice's figure",
+      "src": "https://www.caradvice.com.au/912106/modern-classic-review-1990-mercedes-benz-190e-2-5-16-evo-ii-w201/"
+    },
+    "zero60": {
+      "sec": 7.1,
+      "kind": "claimed",
+      "note": "Mercedes-Benz's 0-100 km/h (62 mph) figure",
+      "src": "https://mercedes-benz.com/en/innovation/milestones/baby-benz"
+    },
+    "top": {
+      "mph": 155,
+      "kind": "claimed",
+      "note": "Mercedes-Benz's figure, 250 km/h",
+      "src": "https://mercedes-benz.com/en/innovation/milestones/baby-benz"
+    },
+    "mpg": {
+      "na": "Not sold in the US"
+    },
+    "built": {
+      "count": 502,
+      "approx": false,
+      "note": "500 in blue-black metallic; the last 2 in silver",
+      "src": "https://mercedesheritage.com/?p=3546"
+    },
+    "versions": [
+      {
+        "name": "Evolution II",
+        "detail": "1990; 502 built"
+      },
+      {
+        "name": "Evolution",
+        "detail": "1989; 502 built; the first homologation step"
+      },
+      {
+        "name": "2.5-16",
+        "detail": "1988 on; the regular 16-valve car"
+      },
+      {
+        "name": "2.3-16",
+        "detail": "1984 on; the original Cosworth-developed 16-valve"
+      }
+    ],
+    "predecessor": {
+      "name": "Mercedes-Benz 190 E 2.5-16 Evolution",
+      "id": null
+    },
+    "successor": {
+      "name": "Mercedes-Benz C-Class (W202)",
+      "id": null
+    },
+    "quick": "The winged 190 built so Mercedes could win the DTM. 502 were made, and in 1992 Evo IIs finished 1-2-3 in the championship, with Klaus Ludwig on top.",
+    "story": [
+      "By the late 1980s Mercedes was being beaten around German touring-car circuits by BMW's M3, and the 190 E 2.5-16 Evolution II was its answer: the 502 road cars the DTM's Group A rules demanded, shown at Geneva in March 1990 wearing an adjustable rear wing tall enough to see over, widened fenders and 17-inch wheels. The 2.5-liter, 16-valve engine made 235 PS at 7,200 rpm in street trim, enough for 250 km/h (155 mph) and 100 km/h in 7.1 seconds, and the car cost DM 136,720, about $84,600 then, or $217,700 in 2026 dollars. All but the last 2, which were silver, came in blue-black metallic, like the Petersen's UK-registered car.",
+      "The wing worked. In the 1992 DTM the AMG-run race versions, revving to 9,500 rpm with about 373 PS, won 16 of the season's 24 races, and Klaus Ludwig took the drivers' title ahead of Kurt Thiim and Bernd Schneider, all 3 of them in Evolution IIs. It remains the wildest thing ever made out of the W201, the original Baby Benz of 1982, of which 1,879,629 were built in all, and it marked the start of the Mercedes DTM program that continues to pay dividends for AMG today."
+    ],
+    "articles": [],
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "A 190 E 2.5-16 Evolution II, UK-registered, at the Petersen Automotive Museum's World-Class: 100 Years of Mercedes-Benz exhibit"
+    },
+    "match": [
+      "Mercedes-Benz 190E",
+      "Mercedes-Benz Evo II"
+    ]
   }
 ];

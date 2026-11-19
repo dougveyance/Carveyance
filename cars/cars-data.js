@@ -29264,5 +29264,355 @@ const CARS_INDEX = [
    "pos": "",
    "fit": ""
   }
+ },
+ {
+  "id": "ford-super-duty-1st-gen",
+  "name": "Ford Super Duty (first generation)",
+  "aka": [
+   "F-250",
+   "F-350",
+   "F-450",
+   "7.3 Power Stroke",
+   "6.0 Power Stroke",
+   "Excursion's platform"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Kentucky Truck Plant, Louisville)",
+  "years": "1999–2007",
+  "start": 1999,
+  "body": "Heavy-duty pickup: F-250 and F-350, single or dual rear wheels, regular, SuperCab or crew cab",
+  "engine": "5.4 or 6.8 V10 Triton gas; 7.3, then 6.0 Power Stroke diesel",
+  "country": "United States",
+  "quick": "The 1999 split that created the modern heavy-duty truck: its own frame, its own face, the 7.3 Power Stroke — and 1 million built inside 3 years.",
+  "articles": [
+   "industry-brief-2026-11-02",
+   "industry-brief-2026-10-12",
+   "industry-brief-2026-10-05",
+   "no-replacement-for-displacement"
+  ],
+  "latest": "2026-11-02",
+  "ownDates": [],
+  "dates": [
+   "2026-11-02",
+   "2026-10-12",
+   "2026-10-05",
+   "2026-10-01"
+  ],
+  "drive": "Rear-wheel drive or 4-wheel drive",
+  "gearbox": "5- or 6-speed manual, or automatic",
+  "specsFor": "2002 F-350 crew cab 4x4, 7.3 Power Stroke",
+  "guide": null,
+  "shop": {
+   "cargurus": "d341"
+  },
+  "hp": 275,
+  "kg": 3175,
+  "kgNote": "Curb weight, diesel crew cab 4x4, approximate",
+  "lbs": 7000,
+  "z60": {
+   "sec": 10.5,
+   "kind": "estimated",
+   "note": "Period tests of 7.3 pickups ran roughly 10–12 seconds"
+  },
+  "top": {
+   "mph": 95,
+   "kind": "estimated",
+   "note": "Electronically limited; period reports"
+  },
+  "mpg": null,
+  "built": null,
+  "alongside": [
+   {
+    "id": "ford-f-series-10th-gen",
+    "name": "Ford F-150 (tenth generation)"
+   }
+  ],
+  "prev": null,
+  "next": {
+   "id": "ford-super-duty-2nd-gen",
+   "name": "Ford Super Duty (second generation)"
+  },
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Ford_F-350_Super_Duty_(2002)_(53464794488).jpg/960px-Ford_F-350_Super_Duty_(2002)_(53464794488).jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "ford-super-duty-2nd-gen",
+  "name": "Ford Super Duty (second generation)",
+  "aka": [
+   "2008–10 F-250",
+   "6.4 Power Stroke",
+   "twin-turbo diesel"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Kentucky Truck Plant, Louisville)",
+  "years": "2008–2010",
+  "start": 2008,
+  "body": "Heavy-duty pickup: F-250, F-350 and F-450 pickup, single or dual rear wheels",
+  "engine": "5.4 or 6.8 V10 gas; 6.4 Power Stroke twin-turbo diesel",
+  "country": "United States",
+  "quick": "3 years, 1 mission: the 2008–10 trucks carried the twin-turbo 6.4 diesel through the emissions squeeze while Ford built its own engine in the background.",
+  "articles": [
+   "industry-brief-2026-11-02",
+   "industry-brief-2026-10-12",
+   "industry-brief-2026-10-05",
+   "no-replacement-for-displacement"
+  ],
+  "latest": "2026-11-02",
+  "ownDates": [],
+  "dates": [
+   "2026-11-02",
+   "2026-10-12",
+   "2026-10-05",
+   "2026-10-01"
+  ],
+  "drive": "Rear-wheel drive or 4-wheel drive",
+  "gearbox": "6-speed manual or 5-speed automatic",
+  "specsFor": "2008 F-250 crew cab 4x4, 6.4 Power Stroke",
+  "guide": null,
+  "shop": {
+   "cargurus": "d341"
+  },
+  "hp": 350,
+  "kg": 3400,
+  "kgNote": "Curb weight, diesel crew cab 4x4, approximate",
+  "lbs": 7496,
+  "z60": {
+   "sec": 8.5,
+   "kind": "estimated",
+   "note": "Period tests of the 6.4 ran roughly 8–9 seconds"
+  },
+  "top": {
+   "mph": 98,
+   "kind": "estimated",
+   "note": "Electronically limited; commonly reported"
+  },
+  "mpg": null,
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "ford-super-duty-1st-gen",
+   "name": "Ford Super Duty (first generation)"
+  },
+  "next": {
+   "id": "ford-super-duty-3rd-gen",
+   "name": "Ford Super Duty (third generation)"
+  },
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/2008_Ford_F-250_Super_Duty_Crew_Cab_(Montreal).jpg/960px-2008_Ford_F-250_Super_Duty_Crew_Cab_(Montreal).jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "ford-super-duty-3rd-gen",
+  "name": "Ford Super Duty (third generation)",
+  "aka": [
+   "2011–16 F-250",
+   "6.7 Power Stroke",
+   "Scorpion diesel",
+   "6.2 Boss"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Kentucky Truck Plant, Louisville)",
+  "years": "2011–2016",
+  "start": 2011,
+  "body": "Heavy-duty pickup: F-250, F-350 and F-450 pickup, single or dual rear wheels",
+  "engine": "6.2 gas V8; 6.7 Power Stroke diesel, Ford's first in-house diesel",
+  "country": "United States",
+  "quick": "Ford fires Navistar and builds its own diesel: the 6.7 “Scorpion” Power Stroke of 2011 started the torque war that heavy trucks are still fighting.",
+  "articles": [
+   "industry-brief-2026-11-02",
+   "industry-brief-2026-10-12",
+   "industry-brief-2026-10-05",
+   "no-replacement-for-displacement"
+  ],
+  "latest": "2026-11-02",
+  "ownDates": [],
+  "dates": [
+   "2026-11-02",
+   "2026-10-12",
+   "2026-10-05",
+   "2026-10-01"
+  ],
+  "drive": "Rear-wheel drive or 4-wheel drive",
+  "gearbox": "6-speed automatic",
+  "specsFor": "2015 F-250 crew cab 4x4, 6.7 Power Stroke",
+  "guide": null,
+  "shop": {
+   "cargurus": "d341"
+  },
+  "hp": 440,
+  "kg": 3580,
+  "kgNote": "Curb weight, diesel crew cab 4x4, approximate",
+  "lbs": 7893,
+  "z60": {
+   "sec": 7.8,
+   "kind": "estimated",
+   "note": "Instrumented tests of 6.7 pickups ran roughly 7.5–8.2 seconds"
+  },
+  "top": {
+   "mph": 98,
+   "kind": "estimated",
+   "note": "Electronically limited; commonly reported"
+  },
+  "mpg": null,
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "ford-super-duty-2nd-gen",
+   "name": "Ford Super Duty (second generation)"
+  },
+  "next": {
+   "id": "ford-super-duty-4th-gen",
+   "name": "Ford Super Duty (fourth generation)"
+  },
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/2013_Ford_F-250_Platinum_diesel_(8403002959).jpg/960px-2013_Ford_F-250_Platinum_diesel_(8403002959).jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "ford-super-duty-4th-gen",
+  "name": "Ford Super Duty (fourth generation)",
+  "aka": [
+   "2017–22 F-250",
+   "aluminum Super Duty",
+   "7.3 Godzilla",
+   "Tremor"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Kentucky Truck Plant, Louisville)",
+  "years": "2017–2022",
+  "start": 2017,
+  "body": "Heavy-duty pickup: F-250, F-350 and F-450 pickup, aluminum body on a steel frame",
+  "engine": "6.2 or 7.3 “Godzilla” gas V8; 6.7 Power Stroke diesel",
+  "country": "United States",
+  "quick": "The aluminum body reaches the heavy trucks, the 7.3 “Godzilla” revives the big gas V8, and the 6.7 crosses 1,000 lb-ft: the 2017–22 Super Duty.",
+  "articles": [
+   "industry-brief-2026-11-02",
+   "industry-brief-2026-10-12",
+   "industry-brief-2026-10-05",
+   "no-replacement-for-displacement"
+  ],
+  "latest": "2026-11-02",
+  "ownDates": [],
+  "dates": [
+   "2026-11-02",
+   "2026-10-12",
+   "2026-10-05",
+   "2026-10-01"
+  ],
+  "drive": "Rear-wheel drive or 4-wheel drive",
+  "gearbox": "6-speed automatic; 10-speed from 2020",
+  "specsFor": "2020 F-250 crew cab 4x4, 6.7 Power Stroke",
+  "guide": null,
+  "shop": {
+   "cargurus": "d341"
+  },
+  "hp": 475,
+  "kg": 3630,
+  "kgNote": "Curb weight, diesel crew cab 4x4, approximate",
+  "lbs": 8003,
+  "z60": {
+   "sec": 7.0,
+   "kind": "estimated",
+   "note": "Instrumented tests of the 2020-on 475-hp diesel ran roughly 6.8–7.4 seconds"
+  },
+  "top": {
+   "mph": 98,
+   "kind": "estimated",
+   "note": "Electronically limited; commonly reported"
+  },
+  "mpg": null,
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "ford-super-duty-3rd-gen",
+   "name": "Ford Super Duty (third generation)"
+  },
+  "next": {
+   "id": "ford-super-duty-5th-gen",
+   "name": "Ford Super Duty (fifth generation)"
+  },
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/2018_Ford_F-250_Super_Duty_au_SIAM_2018.jpg/960px-2018_Ford_F-250_Super_Duty_au_SIAM_2018.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "ford-super-duty-5th-gen",
+  "name": "Ford Super Duty (fifth generation)",
+  "aka": [
+   "2023–present F-250",
+   "High Output Power Stroke",
+   "6.8 Godzilla",
+   "1,200 lb-ft"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Kentucky Truck Plant, Louisville; chassis cabs also in Avon Lake, Ohio)",
+  "years": "2023–present",
+  "start": 2023,
+  "body": "Heavy-duty pickup: F-250, F-350 and F-450 pickup, single or dual rear wheels",
+  "engine": "6.8 or 7.3 gas V8; 6.7 Power Stroke, standard or High Output",
+  "country": "United States",
+  "quick": "The current heavy: 500 hp and 1,200 lb-ft from the High Output 6.7, 4 V8s and nothing smaller, and towing ratings that read like freight class.",
+  "articles": [
+   "industry-brief-2026-11-02",
+   "industry-brief-2026-10-12",
+   "industry-brief-2026-10-05",
+   "no-replacement-for-displacement"
+  ],
+  "latest": "2026-11-02",
+  "ownDates": [],
+  "dates": [
+   "2026-11-02",
+   "2026-10-12",
+   "2026-10-05",
+   "2026-10-01"
+  ],
+  "drive": "Rear-wheel drive or 4-wheel drive",
+  "gearbox": "10-speed automatic",
+  "specsFor": "2024 F-250 crew cab 4x4, 6.7 High Output Power Stroke",
+  "guide": null,
+  "shop": {
+   "cargurus": "d341"
+  },
+  "hp": 500,
+  "kg": 3900,
+  "kgNote": "Curb weight, High Output crew cab 4x4, approximate",
+  "lbs": 8598,
+  "z60": {
+   "sec": 6.4,
+   "kind": "estimated",
+   "note": "Instrumented tests of the 500-hp High Output ran in the low-to-mid 6s"
+  },
+  "top": {
+   "mph": 98,
+   "kind": "estimated",
+   "note": "Electronically limited; commonly reported"
+  },
+  "mpg": null,
+  "built": null,
+  "alongside": [
+   {
+    "id": "ford-f-series-14th-gen",
+    "name": "Ford F-150 (fourteenth generation)"
+   }
+  ],
+  "prev": {
+   "id": "ford-super-duty-4th-gen",
+   "name": "Ford Super Duty (fourth generation)"
+  },
+  "next": null,
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/2023_Ford_F-250_Super_Duty_Crew_Cab.jpg/960px-2023_Ford_F-250_Super_Duty_Crew_Cab.jpg",
+   "pos": "",
+   "fit": ""
+  }
  }
 ];

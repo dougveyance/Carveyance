@@ -1,0 +1,250 @@
+{
+ "id": "ford-super-duty",
+ "make": "Ford",
+ "model": "Super Duty",
+ "years": "2011–2026",
+ "byline": "Grayson Kollen",
+ "published": "2026-11-19",
+ "updated": "2026-11-19",
+ "cars": [
+  "ford-super-duty-3rd-gen",
+  "ford-super-duty-4th-gen",
+  "ford-super-duty-5th-gen"
+ ],
+ "shop": {
+  "cargurus": "d341"
+ },
+ "chapters": [
+  "2023-2026",
+  "2017-2022",
+  "gas-or-diesel",
+  "used-checklist"
+ ],
+ "series": {
+  "t73": {
+   "name": "7.3 Power Stroke, 1999",
+   "color": "#2E6E96"
+  },
+  "t60": {
+   "name": "6.0 Power Stroke, 2003",
+   "color": "#2E6E96"
+  },
+  "t64": {
+   "name": "6.4 Power Stroke, 2008",
+   "color": "#2E6E96"
+  },
+  "t67a": {
+   "name": "6.7 Power Stroke, 2011",
+   "color": "#2E6E96"
+  },
+  "t67b": {
+   "name": "6.7 Power Stroke, 2015",
+   "color": "#2E6E96"
+  },
+  "t67c": {
+   "name": "6.7 Power Stroke, 2020",
+   "color": "#e05c2a"
+  },
+  "t67h": {
+   "name": "6.7 High Output, 2023",
+   "color": "#e05c2a"
+  },
+  "p68": {
+   "name": "6.8 gas V8",
+   "color": "#9aa5b1"
+  },
+  "p73g": {
+   "name": "7.3 gas V8",
+   "color": "#9aa5b1"
+  },
+  "p67": {
+   "name": "6.7 Power Stroke",
+   "color": "#2E6E96"
+  },
+  "p67h": {
+   "name": "6.7 High Output",
+   "color": "#e05c2a"
+  }
+ },
+ "charts": {
+  "torque": {
+   "n": 1,
+   "title": "The diesel torque war, 1999–2026",
+   "sub": "Peak torque of each Power Stroke diesel at launch, in pound-feet.",
+   "source": "Ford ratings, via Wikipedia's Ford Super Duty engine tables",
+   "bars": [
+    [
+     "t73",
+     500,
+     "500 lb-ft"
+    ],
+    [
+     "t60",
+     560,
+     "560 lb-ft"
+    ],
+    [
+     "t64",
+     650,
+     "650 lb-ft"
+    ],
+    [
+     "t67a",
+     800,
+     "800 lb-ft"
+    ],
+    [
+     "t67b",
+     860,
+     "860 lb-ft"
+    ],
+    [
+     "t67c",
+     1050,
+     "1,050 lb-ft"
+    ],
+    [
+     "t67h",
+     1200,
+     "1,200 lb-ft"
+    ]
+   ]
+  },
+  "power26": {
+   "n": 2,
+   "title": "The 4 engines, 2026",
+   "sub": "Horsepower; every one is a V8, every one takes the 10-speed.",
+   "source": "Ford 2026 Super Duty specifications",
+   "bars": [
+    [
+     "p67h",
+     500,
+     "500 hp · 1,200 lb-ft"
+    ],
+    [
+     "p67",
+     475,
+     "475 hp · 1,050 lb-ft"
+    ],
+    [
+     "p73g",
+     430,
+     "430 hp · 485 lb-ft"
+    ],
+    [
+     "p68",
+     405,
+     "405 hp · 445 lb-ft"
+    ]
+   ]
+  }
+ },
+ "photos": {
+  "hub-hero": {
+   "credit": "Alexander-93",
+   "page": "https://commons.wikimedia.org/wiki/File:Ford_F-250_Super_Duty_(P558)_1X7A7058.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": "A Ford F-250 Super Duty, front three-quarter view"
+  },
+  "ch1-hero": {
+   "credit": "Bull-Doser",
+   "page": "https://commons.wikimedia.org/wiki/File:2023_Ford_F-250_Super_Duty_Crew_Cab.jpg",
+   "license": "Public domain",
+   "licenseUrl": "https://commons.wikimedia.org/wiki/File:2023_Ford_F-250_Super_Duty_Crew_Cab.jpg",
+   "alt": "A 2023 Ford F-250 Super Duty crew cab"
+  },
+  "ch2-hero": {
+   "credit": "Bull-Doser",
+   "page": "https://commons.wikimedia.org/wiki/File:2018_Ford_F-250_Super_Duty_au_SIAM_2018.jpg",
+   "license": "Public domain",
+   "licenseUrl": "https://commons.wikimedia.org/wiki/File:2018_Ford_F-250_Super_Duty_au_SIAM_2018.jpg",
+   "alt": "A 2018 Ford F-250 Super Duty at the SIAM show"
+  },
+  "ch3-hero": {
+   "credit": "Sarah Larson",
+   "page": "https://commons.wikimedia.org/wiki/File:2013_Ford_F-250_Platinum_diesel_(8403002959).jpg",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "alt": "A 2013 Ford F-250 Platinum diesel"
+  },
+  "ch4-hero": {
+   "credit": "Charles",
+   "page": "https://commons.wikimedia.org/wiki/File:Ford_F-350_Super_Duty_(2002)_(53464794488).jpg",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "alt": "A 2002 Ford F-350 Super Duty"
+  }
+ },
+ "find": {
+  "picker": [
+   {
+    "model": "F-250 / F-350",
+    "years": "2023–2026",
+    "ch": "2023-2026"
+   },
+   {
+    "model": "F-250 / F-350",
+    "years": "2017–2022",
+    "ch": "2017-2022"
+   },
+   {
+    "model": "F-250 / F-350",
+    "years": "2011–2016",
+    "ch": "used-checklist"
+   }
+  ],
+  "terms": {
+   "": [
+    "Super Duty",
+    "F-250",
+    "F-350",
+    "F-450",
+    "heavy duty truck",
+    "three-quarter ton",
+    "one ton"
+   ],
+   "2023-2026": [
+    "High Output",
+    "500 hp",
+    "1200 lb-ft",
+    "6.8",
+    "7.3",
+    "Tremor",
+    "onboard scales",
+    "XL",
+    "XLT",
+    "Lariat",
+    "King Ranch",
+    "Platinum"
+   ],
+   "2017-2022": [
+    "aluminum",
+    "Godzilla",
+    "10-speed",
+    "1050 lb-ft",
+    "used Super Duty"
+   ],
+   "gas-or-diesel": [
+    "gas or diesel",
+    "Power Stroke",
+    "Godzilla",
+    "DEF",
+    "CP4",
+    "fuel pump",
+    "towing",
+    "cost of ownership"
+   ],
+   "used-checklist": [
+    "used",
+    "checklist",
+    "6.0 Power Stroke",
+    "bulletproofed",
+    "CP4",
+    "death wobble",
+    "recalls",
+    "towing history"
+   ]
+  }
+ }
+}

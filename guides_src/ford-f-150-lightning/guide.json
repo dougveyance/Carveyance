@@ -1,0 +1,221 @@
+{
+ "id": "ford-f-150-lightning",
+ "make": "Ford",
+ "model": "F-150 Lightning",
+ "years": "2022–2025",
+ "byline": "Priya Raghavan",
+ "published": "2026-11-19",
+ "updated": "2026-11-19",
+ "cars": [
+  "ford-f-150-lightning"
+ ],
+ "shop": {
+  "cargurus": "d337"
+ },
+ "chapters": [
+  "2022-2025",
+  "range-charging",
+  "used-checklist"
+ ],
+ "series": {
+  "arr": {
+   "name": "Raptor R, 2023",
+   "color": "#8a4fbf"
+  },
+  "alt": {
+   "name": "Lightning extended range, 2022",
+   "color": "#1d7f6e"
+  },
+  "apb": {
+   "name": "PowerBoost hybrid, 2021",
+   "color": "#e05c2a"
+  },
+  "arp": {
+   "name": "Raptor, 2021",
+   "color": "#8a4fbf"
+  },
+  "rsr": {
+   "name": "Standard range",
+   "color": "#1d7f6e"
+  },
+  "rer": {
+   "name": "Extended range, XLT and Lariat",
+   "color": "#1d7f6e"
+  },
+  "rpl": {
+   "name": "Platinum, extended range",
+   "color": "#1d7f6e"
+  },
+  "p22": {
+   "name": "2022 Pro, at launch",
+   "color": "#1d7f6e"
+  },
+  "p25": {
+   "name": "2025 Pro, final price",
+   "color": "#1d7f6e"
+  },
+  "p25x": {
+   "name": "2025 XLT, final price",
+   "color": "#1d7f6e"
+  }
+ },
+ "charts": {
+  "accel": {
+   "n": 1,
+   "title": "The quickest F-150s, 0–60 mph as tested",
+   "sub": "Seconds; shorter is quicker.",
+   "source": "Car and Driver, MotorTrend instrumented tests",
+   "bars": [
+    [
+     "arr",
+     3.6,
+     "3.6 sec"
+    ],
+    [
+     "alt",
+     4.0,
+     "4.0 sec"
+    ],
+    [
+     "apb",
+     5.3,
+     "5.3 sec"
+    ],
+    [
+     "arp",
+     5.6,
+     "5.6 sec"
+    ]
+   ]
+  },
+  "range": {
+   "n": 2,
+   "title": "EPA range by battery and trim",
+   "sub": "Miles on a full charge, 2024 ratings.",
+   "source": "US EPA, fueleconomy.gov",
+   "bars": [
+    [
+     "rer",
+     320,
+     "320 miles"
+    ],
+    [
+     "rpl",
+     300,
+     "300 miles"
+    ],
+    [
+     "rsr",
+     240,
+     "240 miles"
+    ]
+   ]
+  },
+  "price": {
+   "n": 3,
+   "title": "What a Lightning cost, in 2026 dollars",
+   "sub": "Starting prices before delivery, adjusted with the US consumer price index. The original price is in each label.",
+   "source": "Ford prices; Carveyance CPI arithmetic",
+   "bars": [
+    [
+     "p22",
+     45900,
+     "$45,900 · $39,974 then"
+    ],
+    [
+     "p25",
+     56300,
+     "$56,300 · $54,780 then"
+    ],
+    [
+     "p25x",
+     65100,
+     "$65,100 · $63,345 then"
+    ]
+   ]
+  }
+ },
+ "photos": {
+  "hub-hero": {
+   "credit": "Alexander-93",
+   "page": "https://commons.wikimedia.org/wiki/File:Ford_F-150_Lightning_IAA_2023_1X7A0596.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": "A Ford F-150 Lightning on display at the IAA show, 2023"
+  },
+  "ch1-hero": {
+   "credit": "Corqe",
+   "page": "https://commons.wikimedia.org/wiki/File:2023_Denver_Auto_Show_Ford_F-150_Lightning_front_left_quarter.jpg",
+   "license": "CC0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0",
+   "alt": "A 2023 Ford F-150 Lightning, front three-quarter view"
+  },
+  "ch2-hero": {
+   "credit": "Deathpallie325",
+   "page": "https://commons.wikimedia.org/wiki/File:2024_Ford_F-150_Lightning_interior.jpg",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "alt": "The dashboard and portrait touchscreen of a 2024 Ford F-150 Lightning"
+  },
+  "ch3-hero": {
+   "credit": "Corqe",
+   "page": "https://commons.wikimedia.org/wiki/File:2023_Denver_Auto_Show_Ford_F-150_Lightning_wheel.jpg",
+   "license": "CC0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0",
+   "alt": "The 22-inch wheel and tire of a Ford F-150 Lightning Platinum"
+  }
+ },
+ "find": {
+  "picker": [
+   {
+    "model": "F-150 Lightning",
+    "years": "2022–2025",
+    "ch": "2022-2025"
+   }
+  ],
+  "terms": {
+   "": [
+    "F-150 Lightning",
+    "Lightning",
+    "electric truck",
+    "electric pickup",
+    "EV truck"
+   ],
+   "2022-2025": [
+    "Pro",
+    "XLT",
+    "Lariat",
+    "Platinum",
+    "Flash",
+    "frunk",
+    "front trunk",
+    "452 hp",
+    "580 hp",
+    "discontinued"
+   ],
+   "range-charging": [
+    "range",
+    "charging",
+    "standard range",
+    "extended range",
+    "98 kWh",
+    "131 kWh",
+    "Intelligent Backup Power",
+    "home backup",
+    "Pro Power Onboard",
+    "NACS",
+    "Tesla Supercharger"
+   ],
+   "used-checklist": [
+    "used",
+    "checklist",
+    "battery health",
+    "recalls",
+    "battery fire recall",
+    "charge history",
+    "warranty",
+    "8 years"
+   ]
+  }
+ }
+}

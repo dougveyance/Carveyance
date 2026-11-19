@@ -28992,6 +28992,10 @@ const CARS_INDEX = [
    {
     "id": "ford-f-150-raptor",
     "name": "Ford F-150 Raptor"
+   },
+   {
+    "id": "ford-f-150-lightning",
+    "name": "Ford F-150 Lightning"
    }
   ],
   "prev": {
@@ -29155,12 +29159,108 @@ const CARS_INDEX = [
    {
     "id": "ford-f-series-10th-gen",
     "name": "Ford F-150 (tenth generation)"
+   },
+   {
+    "id": "ford-f-150-lightning",
+    "name": "Ford F-150 Lightning"
    }
   ],
   "prev": null,
   "next": null,
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Ford_F-150_Lightning_(1994)_(54872367368).jpg/960px-Ford_F-150_Lightning_(1994)_(54872367368).jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "ford-f-150-lightning",
+  "name": "Ford F-150 Lightning",
+  "aka": [
+   "Lightning Pro",
+   "Lightning XLT",
+   "Lightning Lariat",
+   "Lightning Platinum",
+   "Lightning Flash",
+   "electric F-150"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Rouge Electric Vehicle Center, Dearborn, Michigan)",
+  "years": "2022–2025",
+  "start": 2022,
+  "body": "Full-size electric pickup, SuperCrew only, with a 400-liter front trunk",
+  "engine": "2 electric motors; 98-kWh standard or 131-kWh extended-range battery",
+  "country": "United States",
+  "quick": "The electric F-150, 2022–2025: 580 hp, 4.0 seconds to 60, a front trunk and a house-powering battery — killed after 4 model years and about 100,000 trucks.",
+  "articles": [
+   "industry-brief-2026-11-09",
+   "the-cybertruck-is-ending",
+   "replace-your-generator",
+   "losing-at-home",
+   "natural-selection",
+   "industry-brief-2026-09-28",
+   "diesel-hybrid-or-generator",
+   "industry-brief-2026-09-21",
+   "diesels-lost-advantage"
+  ],
+  "latest": "2026-11-09",
+  "ownDates": [],
+  "dates": [
+   "2026-11-09",
+   "2026-11-02",
+   "2026-10-05",
+   "2026-09-28",
+   "2026-09-24",
+   "2026-09-22"
+  ],
+  "drive": "All-wheel drive",
+  "gearbox": "Single-speed",
+  "specsFor": "2022 Lightning Platinum, extended range (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d337"
+  },
+  "hp": 580,
+  "kg": 3109,
+  "kgNote": "Test weight, 2022 Platinum",
+  "lbs": 6855,
+  "z60": {
+   "sec": 4.0,
+   "kind": "tested",
+   "note": "Car and Driver, 12.7-second quarter mile — quicker than every gas F-150 but the Raptor R"
+  },
+  "top": {
+   "mph": 110,
+   "kind": "estimated",
+   "note": "Electronically limited; commonly reported"
+  },
+  "mpg": {
+   "combined": 70,
+   "city": 78,
+   "hwy": 63,
+   "unit": "MPGe",
+   "kind": "epa",
+   "note": "EPA combined, 2024 extended range, 320-mile rating; standard range 68 MPGe and 240 miles, Platinum 66 and 300"
+  },
+  "built": {
+   "count": 100659,
+   "approx": true,
+   "note": "Sold in the US, 2022–2025: 15,617 + 24,165 + 33,570 + 27,307 by year; production ended December 2025"
+  },
+  "alongside": [
+   {
+    "id": "ford-f-series-14th-gen",
+    "name": "Ford F-150 (fourteenth generation)"
+   },
+   {
+    "id": "ford-svt-lightning",
+    "name": "Ford SVT Lightning"
+   }
+  ],
+  "prev": null,
+  "next": null,
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/2023_Denver_Auto_Show_Ford_F-150_Lightning_front_left_quarter.jpg/960px-2023_Denver_Auto_Show_Ford_F-150_Lightning_front_left_quarter.jpg",
    "pos": "",
    "fit": ""
   }

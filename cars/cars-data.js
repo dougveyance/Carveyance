@@ -27992,5 +27992,1177 @@ const CARS_INDEX = [
    "pos": "",
    "fit": ""
   }
+ },
+ {
+  "id": "ford-f-series-1st-gen",
+  "name": "Ford F-1 (first generation F-Series)",
+  "aka": [
+   "Bonus-Built",
+   "F-1",
+   "F-2",
+   "F-3",
+   "Ford Bonus Built truck"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Highland Park and 15 other plants)",
+  "years": "1948–1952",
+  "start": 1948,
+  "body": "Half-ton pickup; the F-Series ran from the F-1 to heavy F-8 trucks",
+  "engine": "226 flathead six or 239 flathead V8; 215 overhead-valve six from 1952",
+  "country": "United States",
+  "quick": "Ford's first purpose-built postwar truck, 1948: the Bonus-Built F-1 started the F-Series, with a flathead V8, a wider cab and a line that ran to the 3-ton F-8.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive",
+  "gearbox": "3- or 4-speed manual",
+  "specsFor": "1950 F-1, 239 flathead V8",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 100,
+  "kg": 1428,
+  "kgNote": "Shipping weight, period Ford literature, approximate",
+  "lbs": 3148,
+  "z60": {
+   "sec": 21.0,
+   "kind": "estimated",
+   "note": "Period road tests of flathead V8 light trucks ran roughly 19–24 seconds"
+  },
+  "top": {
+   "mph": 78,
+   "kind": "estimated",
+   "note": "Period reports put a stock flathead F-1 at roughly 75–80 mph"
+  },
+  "mpg": null,
+  "built": null,
+  "alongside": [],
+  "prev": null,
+  "next": {
+   "id": "ford-f-series-2nd-gen",
+   "name": "Ford F-100 (second generation)"
+  },
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/1950_Ford_F-1_Pickup_Truck.jpg/960px-1950_Ford_F-1_Pickup_Truck.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "ford-f-series-2nd-gen",
+  "name": "Ford F-100 (second generation)",
+  "aka": [
+   "F-100",
+   "Effie",
+   "1953–56 F-100",
+   "F-250",
+   "F-350"
+  ],
+  "make": "Ford",
+  "maker": "Ford (multiple US plants)",
+  "years": "1953–1956",
+  "start": 1953,
+  "body": "Half-ton pickup; the F-250 and F-350 names debut",
+  "engine": "223 six, 239 flathead or Y-block V8, 272 Y-block V8",
+  "country": "United States",
+  "quick": "The F-1 becomes the F-100, 1953: the prettiest early F-Series, the first with an automatic, and the truck hot-rodders have never stopped building.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive",
+  "gearbox": "3- or 4-speed manual; Ford-O-Matic automatic from 1953",
+  "specsFor": "1956 F-100, 272 Y-block V8",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 167,
+  "kg": 1452,
+  "kgNote": "Shipping weight, period Ford literature, approximate",
+  "lbs": 3201,
+  "z60": {
+   "sec": 17.0,
+   "kind": "estimated",
+   "note": "Period tests of Y-block F-100s ran roughly 16–19 seconds"
+  },
+  "top": {
+   "mph": 85,
+   "kind": "estimated",
+   "note": "Period reports for the V8 trucks"
+  },
+  "mpg": null,
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "ford-f-series-1st-gen",
+   "name": "Ford F-1 (first generation F-Series)"
+  },
+  "next": {
+   "id": "ford-f-series-3rd-gen",
+   "name": "Ford F-100 (third generation)"
+  },
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/1955_Ford_F-100_Pickup_Truck.jpg/960px-1955_Ford_F-100_Pickup_Truck.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "ford-f-series-3rd-gen",
+  "name": "Ford F-100 (third generation)",
+  "aka": [
+   "1957–60 F-100",
+   "Styleside"
+  ],
+  "make": "Ford",
+  "maker": "Ford (multiple US plants)",
+  "years": "1957–1960",
+  "start": 1957,
+  "body": "Half-ton pickup, Styleside or Flareside bed; factory 4x4 from 1959",
+  "engine": "223 six, 272 or 292 Y-block V8",
+  "country": "United States",
+  "quick": "Fenders go flush, 1957: the first modern-looking F-Series, the first Styleside bed, and from 1959 the first factory-built Ford 4x4.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive; factory 4-wheel drive from 1959",
+  "gearbox": "3- or 4-speed manual, or Ford-O-Matic automatic",
+  "specsFor": "1959 F-100, 292 V8",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 186,
+  "kg": 1540,
+  "kgNote": "Shipping weight, period Ford literature, approximate",
+  "lbs": 3395,
+  "z60": {
+   "sec": 16.0,
+   "kind": "estimated",
+   "note": "Period tests of 292 trucks"
+  },
+  "top": {
+   "mph": 88,
+   "kind": "estimated",
+   "note": "Period reports for the V8 trucks"
+  },
+  "mpg": null,
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "ford-f-series-2nd-gen",
+   "name": "Ford F-100 (second generation)"
+  },
+  "next": {
+   "id": "ford-f-series-4th-gen",
+   "name": "Ford F-100 (fourth generation)"
+  },
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/1958_Ford_F-100.jpg/960px-1958_Ford_F-100.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "ford-f-series-4th-gen",
+  "name": "Ford F-100 (fourth generation)",
+  "aka": [
+   "1961–66 F-100",
+   "unibody pickup",
+   "Twin I-Beam"
+  ],
+  "make": "Ford",
+  "maker": "Ford (multiple US plants)",
+  "years": "1961–1966",
+  "start": 1961,
+  "body": "Half-ton pickup; integrated cab-and-bed “unibody” style offered 1961–63",
+  "engine": "223, 240 or 300 six; 292 or 352 V8",
+  "country": "United States",
+  "quick": "Longer, lower, and briefly seamless: the 1961–66 trucks tried a unibody bed, invented Twin I-Beam suspension in 1965, and introduced the 300 six that would run for 31 years.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive or 4-wheel drive",
+  "gearbox": "3- or 4-speed manual, or automatic",
+  "specsFor": "1965 F-100, 352 V8",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 208,
+  "kg": 1656,
+  "kgNote": "Shipping weight, period Ford literature, approximate",
+  "lbs": 3651,
+  "z60": {
+   "sec": 14.0,
+   "kind": "estimated",
+   "note": "Period tests of 352-powered trucks"
+  },
+  "top": {
+   "mph": 90,
+   "kind": "estimated",
+   "note": "Period reports for the 352"
+  },
+  "mpg": null,
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "ford-f-series-3rd-gen",
+   "name": "Ford F-100 (third generation)"
+  },
+  "next": {
+   "id": "ford-f-series-5th-gen",
+   "name": "Ford F-100 (fifth generation)"
+  },
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/1965_Ford_F-100_Pick-Up.jpg/960px-1965_Ford_F-100_Pick-Up.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "ford-f-series-5th-gen",
+  "name": "Ford F-100 (fifth generation)",
+  "aka": [
+   "1967–72 F-100",
+   "bumpside"
+  ],
+  "make": "Ford",
+  "maker": "Ford (multiple US plants)",
+  "years": "1967–1972",
+  "start": 1967,
+  "body": "Half-ton pickup, regular cab; crew cab on larger F-Series",
+  "engine": "240 or 300 six; 302, 360 or 390 V8",
+  "country": "United States",
+  "quick": "The “bumpside” trucks, 1967–72: cleaner, roomier, V8-heavy, and the generation that turned the pickup from pure tool into something people chose to drive.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive or 4-wheel drive",
+  "gearbox": "3- or 4-speed manual, or automatic",
+  "specsFor": "1970 F-100, 390 V8",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 255,
+  "kg": 1701,
+  "kgNote": "Shipping weight, period Ford literature, approximate",
+  "lbs": 3750,
+  "z60": {
+   "sec": 12.5,
+   "kind": "estimated",
+   "note": "Period tests of 390 pickups ran roughly 11.5–13.5 seconds"
+  },
+  "top": {
+   "mph": 95,
+   "kind": "estimated",
+   "note": "Period reports for the 390"
+  },
+  "mpg": null,
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "ford-f-series-4th-gen",
+   "name": "Ford F-100 (fourth generation)"
+  },
+  "next": {
+   "id": "ford-f-series-6th-gen",
+   "name": "Ford F-100 / F-150 (sixth generation)"
+  },
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Ford_F-100_1970_(15161729615).jpg/960px-Ford_F-100_1970_(15161729615).jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "ford-f-series-6th-gen",
+  "name": "Ford F-100 / F-150 (sixth generation)",
+  "aka": [
+   "1973–79 F-Series",
+   "dentside",
+   "first F-150",
+   "1975 F-150"
+  ],
+  "make": "Ford",
+  "maker": "Ford (multiple US plants)",
+  "years": "1973–1979",
+  "start": 1973,
+  "body": "Half-ton pickup, regular cab or SuperCab (from 1974)",
+  "engine": "300 six; 302, 351M, 360, 390, 400 or 460 V8",
+  "country": "United States",
+  "quick": "The F-150 is born here, 1975, invented to dodge emissions rules, and by 1977 the F-Series was America's best-selling truck. It never gave the title back.",
+  "articles": [
+   "losing-at-home",
+   "industry-brief-2026-09-28",
+   "diesel-hybrid-or-generator",
+   "industry-brief-2026-09-21",
+   "diesels-lost-advantage"
+  ],
+  "latest": "2026-10-05",
+  "ownDates": [],
+  "dates": [
+   "2026-10-05",
+   "2026-09-28",
+   "2026-09-24",
+   "2026-09-22"
+  ],
+  "drive": "Rear-wheel drive or 4-wheel drive",
+  "gearbox": "3- or 4-speed manual, or automatic",
+  "specsFor": "1978 F-150, 460 V8",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 245,
+  "kg": 1950,
+  "kgNote": "Curb weight, V8 regular cab, approximate",
+  "lbs": 4299,
+  "z60": {
+   "sec": 10.5,
+   "kind": "estimated",
+   "note": "Period tests of 460-powered trucks ran roughly 10–11 seconds"
+  },
+  "top": {
+   "mph": 100,
+   "kind": "estimated",
+   "note": "Period reports for the 460"
+  },
+  "mpg": null,
+  "built": null,
+  "alongside": [
+   {
+    "id": "ford-bronco-2nd-gen",
+    "name": "Ford Bronco (second generation)"
+   }
+  ],
+  "prev": {
+   "id": "ford-f-series-5th-gen",
+   "name": "Ford F-100 (fifth generation)"
+  },
+  "next": {
+   "id": "ford-f-series-7th-gen",
+   "name": "Ford F-150 (seventh generation)"
+  },
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/1977_Ford_F-150_Ranger_XLT_regular_cab_8%27_Styleside_2WD,_front_left,_06-07-2024.jpg/960px-1977_Ford_F-150_Ranger_XLT_regular_cab_8%27_Styleside_2WD,_front_left,_06-07-2024.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "ford-f-series-7th-gen",
+  "name": "Ford F-150 (seventh generation)",
+  "aka": [
+   "1980–86 F-150",
+   "bullnose",
+   "last F-100"
+  ],
+  "make": "Ford",
+  "maker": "Ford (multiple US plants)",
+  "years": "1980–1986",
+  "start": 1980,
+  "body": "Half-ton pickup, regular cab or SuperCab; crew cab from 1982",
+  "engine": "300 six; 255, 302 or 351 V8; fuel injection on the 5.0 from 1985",
+  "country": "United States",
+  "quick": "The 1980 “bullnose” redesign chased fuel economy, retired the F-100 in 1983, and in 1985 put the first fuel-injected engine in an American pickup.",
+  "articles": [
+   "losing-at-home",
+   "industry-brief-2026-09-28",
+   "diesel-hybrid-or-generator",
+   "industry-brief-2026-09-21",
+   "diesels-lost-advantage"
+  ],
+  "latest": "2026-10-05",
+  "ownDates": [],
+  "dates": [
+   "2026-10-05",
+   "2026-09-28",
+   "2026-09-24",
+   "2026-09-22"
+  ],
+  "drive": "Rear-wheel drive or 4-wheel drive",
+  "gearbox": "3- or 4-speed manual, or automatic",
+  "specsFor": "1985 F-150, 5.0 V8 with fuel injection",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 190,
+  "kg": 1905,
+  "kgNote": "Curb weight, V8 regular cab, approximate",
+  "lbs": 4200,
+  "z60": {
+   "sec": 12.0,
+   "kind": "estimated",
+   "note": "Period tests of early-1980s V8 F-150s"
+  },
+  "top": {
+   "mph": 90,
+   "kind": "estimated",
+   "note": "Period reports"
+  },
+  "mpg": {
+   "combined": 14,
+   "city": 13,
+   "hwy": 16,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1985, 5.0 with 4-speed automatic, 4x4; the 4.9 six rated 13, the 5.8 11"
+  },
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "ford-f-series-6th-gen",
+   "name": "Ford F-100 / F-150 (sixth generation)"
+  },
+  "next": {
+   "id": "ford-f-series-8th-gen",
+   "name": "Ford F-150 (eighth generation)"
+  },
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/1986_Ford_F-150_XLT_Lariat_Explorer_Special_Regular_Cab_Styleside_in_Light_Regatta_Blue_%26_Medium_Silver_Metallic_Deluxe_Two-Tone,_Front_Left,_10-28-2023.jpg/960px-1986_Ford_F-150_XLT_Lariat_Explorer_Special_Regular_Cab_Styleside_in_Light_Regatta_Blue_%26_Medium_Silver_Metallic_Deluxe_Two-Tone,_Front_Left,_10-28-2023.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "ford-f-series-8th-gen",
+  "name": "Ford F-150 (eighth generation)",
+  "aka": [
+   "1987–91 F-150",
+   "bricknose"
+  ],
+  "make": "Ford",
+  "maker": "Ford (multiple US plants)",
+  "years": "1987–1991",
+  "start": 1987,
+  "body": "Half-ton pickup, regular cab or SuperCab",
+  "engine": "4.9 six, 5.0 or 5.8 V8, all fuel-injected by 1988",
+  "country": "United States",
+  "quick": "A smoothed nose, flush headlights and full fuel injection: the 1987–91 trucks modernized the F-150 without changing what anyone loved about it.",
+  "articles": [
+   "losing-at-home",
+   "industry-brief-2026-09-28",
+   "diesel-hybrid-or-generator",
+   "industry-brief-2026-09-21",
+   "diesels-lost-advantage"
+  ],
+  "latest": "2026-10-05",
+  "ownDates": [],
+  "dates": [
+   "2026-10-05",
+   "2026-09-28",
+   "2026-09-24",
+   "2026-09-22"
+  ],
+  "drive": "Rear-wheel drive or 4-wheel drive",
+  "gearbox": "5-speed manual or automatic; 4-speed automatic from 1989",
+  "specsFor": "1990 F-150, 5.0 V8",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 185,
+  "kg": 1928,
+  "kgNote": "Curb weight, V8 regular cab, approximate",
+  "lbs": 4250,
+  "z60": {
+   "sec": 10.5,
+   "kind": "estimated",
+   "note": "Period tests of 5.0 and 5.8 trucks"
+  },
+  "top": {
+   "mph": 95,
+   "kind": "estimated",
+   "note": "Period reports"
+  },
+  "mpg": {
+   "combined": 14,
+   "city": 12,
+   "hwy": 16,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1990, 5.0 with 4-speed automatic, 4x4; the 4.9 six also rated 14"
+  },
+  "built": null,
+  "alongside": [],
+  "prev": {
+   "id": "ford-f-series-7th-gen",
+   "name": "Ford F-150 (seventh generation)"
+  },
+  "next": {
+   "id": "ford-f-series-9th-gen",
+   "name": "Ford F-150 (ninth generation)"
+  },
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/1990_Ford_F-150_XLT_Lariat_4x2_regular_cab_8%27_Styleside,_front_left,_06-24-2024.jpg/960px-1990_Ford_F-150_XLT_Lariat_4x2_regular_cab_8%27_Styleside,_front_left,_06-24-2024.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "ford-f-series-9th-gen",
+  "name": "Ford F-150 (ninth generation)",
+  "aka": [
+   "1992–96 F-150",
+   "OBS Ford",
+   "old body style"
+  ],
+  "make": "Ford",
+  "maker": "Ford (multiple US plants)",
+  "years": "1992–1996",
+  "start": 1992,
+  "body": "Half-ton pickup, regular cab or SuperCab; Flareside bed returns",
+  "engine": "4.9 six, 5.0 or 5.8 V8",
+  "country": "United States",
+  "quick": "The “OBS” Ford, 1992–96: the last of the old-school F-150s, the first with an airbag, and the body style a generation of truck people now worships.",
+  "articles": [
+   "losing-at-home",
+   "industry-brief-2026-09-28",
+   "diesel-hybrid-or-generator",
+   "industry-brief-2026-09-21",
+   "diesels-lost-advantage"
+  ],
+  "latest": "2026-10-05",
+  "ownDates": [],
+  "dates": [
+   "2026-10-05",
+   "2026-09-28",
+   "2026-09-24",
+   "2026-09-22"
+  ],
+  "drive": "Rear-wheel drive or 4-wheel drive",
+  "gearbox": "5-speed manual or 4-speed automatic",
+  "specsFor": "1995 F-150 XLT, 5.0 V8",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 205,
+  "kg": 1950,
+  "kgNote": "Curb weight, 5.0 regular cab, approximate",
+  "lbs": 4299,
+  "z60": {
+   "sec": 10.0,
+   "kind": "estimated",
+   "note": "Period tests of 5.0 trucks ran roughly 9.5–10.5 seconds"
+  },
+  "top": {
+   "mph": 96,
+   "kind": "estimated",
+   "note": "Speed-limited; period reports"
+  },
+  "mpg": {
+   "combined": 14,
+   "city": 12,
+   "hwy": 17,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 1993, 5.0 with 4-speed automatic, 4x4; the 4.9 six also rated 14, the 5.8 12"
+  },
+  "built": null,
+  "alongside": [
+   {
+    "id": "ford-svt-lightning",
+    "name": "Ford SVT Lightning"
+   }
+  ],
+  "prev": {
+   "id": "ford-f-series-8th-gen",
+   "name": "Ford F-150 (eighth generation)"
+  },
+  "next": {
+   "id": "ford-f-series-10th-gen",
+   "name": "Ford F-150 (tenth generation)"
+  },
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Ford_F-150_XLT_Super_Cab_1995_(41892614160).jpg/960px-Ford_F-150_XLT_Super_Cab_1995_(41892614160).jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "ford-f-series-10th-gen",
+  "name": "Ford F-150 (tenth generation)",
+  "aka": [
+   "1997–2004 F-150",
+   "F-150 Heritage",
+   "jellybean F-150"
+  ],
+  "make": "Ford",
+  "maker": "Ford (multiple US plants)",
+  "years": "1997–2004",
+  "start": 1997,
+  "body": "Half-ton pickup, regular cab, SuperCab or SuperCrew (from 2001)",
+  "engine": "4.2 V6, 4.6 or 5.4 Triton V8",
+  "country": "United States",
+  "quick": "The 1997 truck went aero, went overhead-cam and went personal-use: the best-selling years in F-Series history, including 911,597 trucks in 2001 alone.",
+  "articles": [
+   "losing-at-home",
+   "industry-brief-2026-09-28",
+   "diesel-hybrid-or-generator",
+   "industry-brief-2026-09-21",
+   "diesels-lost-advantage"
+  ],
+  "latest": "2026-10-05",
+  "ownDates": [],
+  "dates": [
+   "2026-10-05",
+   "2026-09-28",
+   "2026-09-24",
+   "2026-09-22"
+  ],
+  "drive": "Rear-wheel drive or 4-wheel drive",
+  "gearbox": "5-speed manual or 4-speed automatic",
+  "specsFor": "2001 F-150 SuperCrew, 5.4 Triton V8",
+  "guide": null,
+  "shop": {
+   "cargurus": "d337"
+  },
+  "hp": 260,
+  "kg": 2109,
+  "kgNote": "Curb weight, 5.4 SuperCab 4x4, approximate",
+  "lbs": 4650,
+  "z60": {
+   "sec": 8.5,
+   "kind": "estimated",
+   "note": "Period instrumented tests of 5.4 trucks ran roughly 8–9 seconds"
+  },
+  "top": {
+   "mph": 98,
+   "kind": "estimated",
+   "note": "Electronically limited; period reports"
+  },
+  "mpg": {
+   "combined": 14,
+   "city": 12,
+   "hwy": 16,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2000, 5.4 with automatic, 4x4; the 4.6 also rated 14, the 4.2 V6 15"
+  },
+  "built": {
+   "count": 5899341,
+   "approx": true,
+   "note": "F-Series sold in the US, 1997–2003 calendar years, Super Duty included from 1999"
+  },
+  "alongside": [
+   {
+    "id": "ford-svt-lightning",
+    "name": "Ford SVT Lightning"
+   }
+  ],
+  "prev": {
+   "id": "ford-f-series-9th-gen",
+   "name": "Ford F-150 (ninth generation)"
+  },
+  "next": {
+   "id": "ford-f-series-11th-gen",
+   "name": "Ford F-150 (eleventh generation)"
+  },
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Ford_F-150_Lariat_1997.jpg/960px-Ford_F-150_Lariat_1997.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "ford-f-series-11th-gen",
+  "name": "Ford F-150 (eleventh generation)",
+  "aka": [
+   "2004–08 F-150",
+   "P2 F-150"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Dearborn, Kansas City and Norfolk plants)",
+  "years": "2004–2008",
+  "start": 2004,
+  "body": "Half-ton pickup, regular cab, SuperCab or SuperCrew, all with 4 doors",
+  "engine": "4.2 V6, 4.6 or 5.4 3-valve Triton V8",
+  "country": "United States",
+  "quick": "Bigger, stiffer, 300 hp: the 2004 truck doubled down on the boom years, then rode the F-Series through the crash that cut its sales nearly in half.",
+  "articles": [
+   "losing-at-home",
+   "industry-brief-2026-09-28",
+   "diesel-hybrid-or-generator",
+   "industry-brief-2026-09-21",
+   "diesels-lost-advantage"
+  ],
+  "latest": "2026-10-05",
+  "ownDates": [],
+  "dates": [
+   "2026-10-05",
+   "2026-09-28",
+   "2026-09-24",
+   "2026-09-22"
+  ],
+  "drive": "Rear-wheel drive or 4-wheel drive",
+  "gearbox": "4-speed automatic; 5-speed manual on base trucks",
+  "specsFor": "2004 F-150 SuperCrew, 5.4 3-valve Triton",
+  "guide": null,
+  "shop": {
+   "cargurus": "d337"
+  },
+  "hp": 300,
+  "kg": 2313,
+  "kgNote": "Curb weight, 5.4 SuperCrew 4x4, approximate",
+  "lbs": 5100,
+  "z60": {
+   "sec": 8.2,
+   "kind": "estimated",
+   "note": "Instrumented tests of the 5.4 ran roughly 8.0–8.6 seconds"
+  },
+  "top": {
+   "mph": 98,
+   "kind": "estimated",
+   "note": "Electronically limited; period reports"
+  },
+  "mpg": {
+   "combined": 14,
+   "city": 13,
+   "hwy": 17,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2005, 5.4 with automatic, 4x4; the 4.6 rated 14 as well"
+  },
+  "built": {
+   "count": 3843115,
+   "approx": true,
+   "note": "F-Series sold in the US, 2004–2008 calendar years, Super Duty included; the 2008 financial crisis ended the run at 515,513"
+  },
+  "alongside": [],
+  "prev": {
+   "id": "ford-f-series-10th-gen",
+   "name": "Ford F-150 (tenth generation)"
+  },
+  "next": {
+   "id": "ford-f-series-12th-gen",
+   "name": "Ford F-150 (twelfth generation)"
+  },
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Ford_F-150_Lariat_5.4_Triton_SuperCrew_2006_(19396416209).jpg/960px-Ford_F-150_Lariat_5.4_Triton_SuperCrew_2006_(19396416209).jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "ford-f-series-12th-gen",
+  "name": "Ford F-150 (twelfth generation)",
+  "aka": [
+   "2009–14 F-150",
+   "EcoBoost F-150",
+   "SVT Raptor era"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Dearborn and Kansas City plants)",
+  "years": "2009–2014",
+  "start": 2009,
+  "body": "Half-ton pickup, regular cab, SuperCab or SuperCrew",
+  "engine": "5.4 Triton; from 2011, 3.7 V6, 5.0 Coyote V8, 6.2 V8 or 3.5 EcoBoost twin-turbo V6",
+  "country": "United States",
+  "quick": "Out of the crash came the big bets: the 2011 EcoBoost put twin turbos in America's best-seller, and the 2010 SVT Raptor invented the factory desert truck.",
+  "articles": [
+   "losing-at-home",
+   "industry-brief-2026-09-28",
+   "diesel-hybrid-or-generator",
+   "industry-brief-2026-09-21",
+   "diesels-lost-advantage"
+  ],
+  "latest": "2026-10-05",
+  "ownDates": [],
+  "dates": [
+   "2026-10-05",
+   "2026-09-28",
+   "2026-09-24",
+   "2026-09-22"
+  ],
+  "drive": "Rear-wheel drive or 4-wheel drive",
+  "gearbox": "6-speed automatic",
+  "specsFor": "2011 F-150 SuperCrew 4x4, 3.5 EcoBoost",
+  "guide": null,
+  "shop": {
+   "cargurus": "d337"
+  },
+  "hp": 365,
+  "kg": 2404,
+  "kgNote": "Typical as-tested weight, EcoBoost SuperCrew 4x4",
+  "lbs": 5300,
+  "z60": {
+   "sec": 6.2,
+   "kind": "estimated",
+   "note": "Published instrumented tests of the 365-hp EcoBoost cluster at 6.1–6.6 seconds; Cars.com ran a 5.0 SuperCrew in 7.4"
+  },
+  "top": {
+   "mph": 96,
+   "kind": "estimated",
+   "note": "Electronically limited; commonly reported figure"
+  },
+  "mpg": {
+   "combined": 17,
+   "city": 15,
+   "hwy": 21,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2012, 3.5 EcoBoost, 4x4; the 5.0 rated 16, the 6.2 13"
+  },
+  "built": {
+   "count": 3689460,
+   "approx": true,
+   "note": "F-Series sold in the US, 2009–2014 calendar years, Super Duty included; from a 413,625 low in 2009 to 753,851 in 2014"
+  },
+  "alongside": [
+   {
+    "id": "ford-f-150-raptor",
+    "name": "Ford F-150 Raptor"
+   }
+  ],
+  "prev": {
+   "id": "ford-f-series-11th-gen",
+   "name": "Ford F-150 (eleventh generation)"
+  },
+  "next": {
+   "id": "ford-f-series-13th-gen",
+   "name": "Ford F-150 (thirteenth generation)"
+  },
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Ford_F-150_Lariat_2011_(37947443122).jpg/960px-Ford_F-150_Lariat_2011_(37947443122).jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "ford-f-series-13th-gen",
+  "name": "Ford F-150 (thirteenth generation)",
+  "aka": [
+   "2015–20 F-150",
+   "aluminum F-150"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Dearborn and Kansas City plants)",
+  "years": "2015–2020",
+  "start": 2015,
+  "body": "Half-ton pickup, aluminum body on a steel frame; regular cab, SuperCab or SuperCrew",
+  "engine": "3.3 or 3.5 V6, 2.7 or 3.5 EcoBoost, 5.0 Coyote V8, 3.0 Power Stroke diesel",
+  "country": "United States",
+  "quick": "Ford bet the best-selling vehicle in America on aluminum, cut up to 750 pounds, and won: the 2018 trucks nearly broke the all-time sales record.",
+  "articles": [
+   "losing-at-home",
+   "industry-brief-2026-09-28",
+   "diesel-hybrid-or-generator",
+   "industry-brief-2026-09-21",
+   "diesels-lost-advantage"
+  ],
+  "latest": "2026-10-05",
+  "ownDates": [],
+  "dates": [
+   "2026-10-05",
+   "2026-09-28",
+   "2026-09-24",
+   "2026-09-22"
+  ],
+  "drive": "Rear-wheel drive or 4-wheel drive",
+  "gearbox": "6-speed automatic; 10-speed automatic from 2017",
+  "specsFor": "2017 F-150 SuperCrew 4x4, 3.5 EcoBoost, 10-speed (Car and Driver test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d337"
+  },
+  "hp": 375,
+  "kg": 2318,
+  "kgNote": "Typical as-tested weight, 3.5 EcoBoost SuperCrew 4x4",
+  "lbs": 5110,
+  "z60": {
+   "sec": 5.7,
+   "kind": "tested",
+   "note": "Car and Driver, 2017 3.5 EcoBoost 10-speed 4x4; their 2018 5.0 ran 5.9"
+  },
+  "top": {
+   "mph": 107,
+   "kind": "claimed",
+   "note": "Electronically limited; commonly reported figure"
+  },
+  "mpg": {
+   "combined": 19,
+   "city": 17,
+   "hwy": 21,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2017, 3.5 EcoBoost, 4x4; the 2.7 also rated 19, the 5.0 16"
+  },
+  "built": {
+   "count": 5091145,
+   "approx": true,
+   "note": "F-Series sold in the US, 2015–2020 calendar years, Super Duty included; the 2018 peak hit 909,330"
+  },
+  "alongside": [
+   {
+    "id": "ford-f-150-raptor",
+    "name": "Ford F-150 Raptor"
+   }
+  ],
+  "prev": {
+   "id": "ford-f-series-12th-gen",
+   "name": "Ford F-150 (twelfth generation)"
+  },
+  "next": {
+   "id": "ford-f-series-14th-gen",
+   "name": "Ford F-150 (fourteenth generation)"
+  },
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/2018_Ford_F-150_XLT_Crew_Cab,_front_11.10.19.jpg/960px-2018_Ford_F-150_XLT_Crew_Cab,_front_11.10.19.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "ford-f-series-14th-gen",
+  "name": "Ford F-150 (fourteenth generation)",
+  "aka": [
+   "2021–present F-150",
+   "PowerBoost",
+   "F-150 Tremor",
+   "2024 refresh"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Dearborn and Kansas City plants)",
+  "years": "2021–present",
+  "start": 2021,
+  "body": "Half-ton pickup, aluminum body; regular cab, SuperCab or SuperCrew",
+  "engine": "2.7 or 3.5 EcoBoost V6, 5.0 Coyote V8, 3.5 PowerBoost hybrid; 3.0 diesel through 2021",
+  "country": "United States",
+  "quick": "The current truck: hybrid PowerBoost, an onboard power plant, a 2024 refresh, and still the best-selling vehicle in America, 828,832 strong in 2025.",
+  "articles": [
+   "losing-at-home",
+   "industry-brief-2026-09-28",
+   "diesel-hybrid-or-generator",
+   "industry-brief-2026-09-21",
+   "diesels-lost-advantage"
+  ],
+  "latest": "2026-10-05",
+  "ownDates": [],
+  "dates": [
+   "2026-10-05",
+   "2026-09-28",
+   "2026-09-24",
+   "2026-09-22"
+  ],
+  "drive": "Rear-wheel drive or 4-wheel drive",
+  "gearbox": "10-speed automatic",
+  "specsFor": "2021 F-150 PowerBoost SuperCrew 4x4 (MotorTrend test)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d337"
+  },
+  "hp": 430,
+  "kg": 2631,
+  "kgNote": "Typical as-tested weight, PowerBoost SuperCrew 4x4",
+  "lbs": 5800,
+  "z60": {
+   "sec": 5.3,
+   "kind": "tested",
+   "note": "MotorTrend, 13.8 at 102.1 mph in the quarter; Edmunds ran 5.8, TFL 5.6 at altitude"
+  },
+  "top": {
+   "mph": 107,
+   "kind": "claimed",
+   "note": "Electronically limited; commonly reported figure"
+  },
+  "mpg": {
+   "combined": 24,
+   "city": 24,
+   "hwy": 24,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2021, PowerBoost 4x4; the 2.7 rates 20–21, the 3.5 EcoBoost 19–20, the 5.0 19"
+  },
+  "built": {
+   "count": 3725231,
+   "approx": true,
+   "note": "F-Series sold in the US, 2021–2025 calendar years, Super Duty included; 828,832 in 2025 alone"
+  },
+  "alongside": [
+   {
+    "id": "ford-f-150-raptor",
+    "name": "Ford F-150 Raptor"
+   }
+  ],
+  "prev": {
+   "id": "ford-f-series-13th-gen",
+   "name": "Ford F-150 (thirteenth generation)"
+  },
+  "next": null,
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/2024_Ford_F-150_Lariat_front_view.jpg/960px-2024_Ford_F-150_Lariat_front_view.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "ford-f-150-raptor",
+  "name": "Ford F-150 Raptor",
+  "aka": [
+   "SVT Raptor",
+   "Raptor 37",
+   "Raptor R",
+   "Velociraptor of trucks"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Dearborn Truck Plant, Michigan)",
+  "years": "2010–present",
+  "start": 2010,
+  "body": "High-speed off-road pickup: widened track, long-travel suspension, 35- or 37-inch tires",
+  "engine": "6.2 V8 (2010–14); 3.5 EcoBoost HO (2017 on); supercharged 5.2 V8 (Raptor R, 2023 on)",
+  "country": "United States",
+  "quick": "The factory Baja truck, 2010 on: long-travel suspension, desert pace, and since 2023 a 700-plus-hp supercharged V8 that runs 0–60 in 3.6 seconds.",
+  "articles": [
+   "losing-at-home",
+   "industry-brief-2026-09-28",
+   "diesel-hybrid-or-generator",
+   "industry-brief-2026-09-21",
+   "diesels-lost-advantage"
+  ],
+  "latest": "2026-10-05",
+  "ownDates": [],
+  "dates": [
+   "2026-10-05",
+   "2026-09-28",
+   "2026-09-24",
+   "2026-09-22"
+  ],
+  "drive": "4-wheel drive",
+  "gearbox": "6-speed automatic; 10-speed from 2017",
+  "specsFor": "2024 Raptor R, 5.2-liter supercharged V8 (Car and Driver test of the 700-hp 2023)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d337"
+  },
+  "hp": 720,
+  "kg": 2756,
+  "kgNote": "Curb weight, Raptor R",
+  "lbs": 6077,
+  "z60": {
+   "sec": 3.6,
+   "kind": "tested",
+   "note": "Car and Driver, 2023 Raptor R, 12.0-second quarter mile — the quickest gas truck they had ever tested"
+  },
+  "top": {
+   "mph": 114,
+   "kind": "claimed",
+   "note": "Reported limiter figures for the Raptor R range from 112 to 125; MotorWeek trapped 113 mph in the quarter mile. The standard Raptor is limited to about 120"
+  },
+  "mpg": {
+   "combined": 12,
+   "city": 10,
+   "hwy": 15,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2024 Raptor R; the EcoBoost Raptor rates 15–16"
+  },
+  "built": null,
+  "alongside": [
+   {
+    "id": "ford-f-series-14th-gen",
+    "name": "Ford F-150 (fourteenth generation)"
+   }
+  ],
+  "prev": null,
+  "next": null,
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/2021_Ford_F-150_Raptor,_front.jpg/960px-2021_Ford_F-150_Raptor,_front.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "ford-svt-lightning",
+  "name": "Ford SVT Lightning",
+  "aka": [
+   "F-150 Lightning (SVT)",
+   "SVT F-150",
+   "1993 Lightning",
+   "1999 Lightning"
+  ],
+  "make": "Ford",
+  "maker": "Ford SVT (Ontario Truck Plant, Canada; Kansas City for 1993–95)",
+  "years": "1993–2004",
+  "start": 1993,
+  "body": "Regular-cab, short-bed street performance pickup, lowered",
+  "engine": "5.8 V8 (1993–95); supercharged 5.4 V8 (1999–2004)",
+  "country": "United States",
+  "quick": "SVT's street truck, twice over: a 240-hp 5.8 in 1993, then a supercharged 380-hp 5.4 that made it the fastest production pickup in the world.",
+  "articles": [
+   "losing-at-home",
+   "industry-brief-2026-09-28",
+   "diesel-hybrid-or-generator",
+   "industry-brief-2026-09-21",
+   "diesels-lost-advantage"
+  ],
+  "latest": "2026-10-05",
+  "ownDates": [],
+  "dates": [
+   "2026-10-05",
+   "2026-09-28",
+   "2026-09-24",
+   "2026-09-22"
+  ],
+  "drive": "Rear-wheel drive",
+  "gearbox": "4-speed automatic",
+  "specsFor": "2001 SVT Lightning, supercharged 5.4",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 380,
+  "kg": 2118,
+  "kgNote": "Curb weight, 1999–2004, approximate",
+  "lbs": 4670,
+  "z60": {
+   "sec": 5.2,
+   "kind": "tested",
+   "note": "Car and Driver, 2001, 380-hp truck; the 1999 360-hp version ran in the mid-5s"
+  },
+  "top": {
+   "mph": 147,
+   "kind": "claimed",
+   "note": "Ford-verified run, 2003, recognized as the world's fastest production pickup; earlier trucks were governed lower"
+  },
+  "mpg": {
+   "combined": 13,
+   "city": 12,
+   "hwy": 15,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2000; the 1993–95 5.8 rated 12"
+  },
+  "built": {
+   "count": 39687,
+   "approx": true,
+   "note": "About 11,563 first-generation trucks (1993–95) and 28,124 second-generation (1999–2004)"
+  },
+  "alongside": [
+   {
+    "id": "ford-f-series-9th-gen",
+    "name": "Ford F-150 (ninth generation)"
+   },
+   {
+    "id": "ford-f-series-10th-gen",
+    "name": "Ford F-150 (tenth generation)"
+   }
+  ],
+  "prev": null,
+  "next": null,
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Ford_F-150_Lightning_(1994)_(54872367368).jpg/960px-Ford_F-150_Lightning_(1994)_(54872367368).jpg",
+   "pos": "",
+   "fit": ""
+  }
  }
 ];

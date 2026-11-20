@@ -1,0 +1,273 @@
+{
+ "id": "ford-transit-connect",
+ "make": "Ford",
+ "model": "Transit Connect",
+ "years": "2010–2023",
+ "byline": "Elliot Vance",
+ "published": "2026-11-20",
+ "updated": "2026-11-20",
+ "cars": [
+  "ford-transit-connect-1st-gen",
+  "ford-transit-connect-2nd-gen"
+ ],
+ "shop": {
+  "cargurus": "d2037"
+ },
+ "chapters": [
+  "the-little-van",
+  "second-act",
+  "used-checklist"
+ ],
+ "series": {
+  "h10": {
+   "name": "2.0 (2010–13)",
+   "color": "#9aa5b1"
+  },
+  "h20": {
+   "name": "2.0 GDI (2019–23)",
+   "color": "#2E6E96"
+  },
+  "h25": {
+   "name": "2.5 (2014–21)",
+   "color": "#2E6E96"
+  },
+  "h16": {
+   "name": "1.6 EcoBoost (2014–18)",
+   "color": "#e05c2a"
+  },
+  "s10": {
+   "name": "2010, year 1",
+   "color": "#9aa5b1"
+  },
+  "s13": {
+   "name": "2013, gen-1 peak",
+   "color": "#9aa5b1"
+  },
+  "s15": {
+   "name": "2015, the peak",
+   "color": "#2E6E96"
+  },
+  "s19": {
+   "name": "2019",
+   "color": "#2E6E96"
+  },
+  "s23": {
+   "name": "2023, the end",
+   "color": "#e05c2a"
+  },
+  "m10": {
+   "name": "2010, 2.0",
+   "color": "#9aa5b1"
+  },
+  "m15": {
+   "name": "2015, 2.5",
+   "color": "#2E6E96"
+  },
+  "m15e": {
+   "name": "2015, 1.6 EcoBoost",
+   "color": "#e05c2a"
+  },
+  "m20": {
+   "name": "2020, 2.0 GDI",
+   "color": "#2E6E96"
+  },
+  "p10": {
+   "name": "2010 XL cargo",
+   "color": "#9aa5b1"
+  },
+  "p14": {
+   "name": "2014 cargo",
+   "color": "#2E6E96"
+  },
+  "p19": {
+   "name": "2019 cargo",
+   "color": "#2E6E96"
+  }
+ },
+ "charts": {
+  "power": {
+   "n": 1,
+   "title": "Never about horsepower",
+   "sub": "Every engine the US Transit Connect offered, 2010 to 2023.",
+   "source": "Ford specifications",
+   "bars": [
+    [
+     "h10",
+     136,
+     "136 hp"
+    ],
+    [
+     "h20",
+     162,
+     "162 hp"
+    ],
+    [
+     "h25",
+     169,
+     "169 hp"
+    ],
+    [
+     "h16",
+     178,
+     "178 hp"
+    ]
+   ]
+  },
+  "sales": {
+   "n": 2,
+   "title": "A segment that rose and evaporated",
+   "sub": "US sales in selected calendar years — 495,932 across 15 years.",
+   "source": "Ford US sales figures",
+   "bars": [
+    [
+     "s10",
+     27405,
+     "27,405"
+    ],
+    [
+     "s13",
+     39703,
+     "39,703"
+    ],
+    [
+     "s15",
+     52221,
+     "52,221"
+    ],
+    [
+     "s19",
+     41598,
+     "41,598"
+    ],
+    [
+     "s23",
+     18050,
+     "18,050"
+    ]
+   ]
+  },
+  "mpg": {
+   "n": 3,
+   "title": "EPA combined fuel economy, cargo vans",
+   "sub": "Miles per gallon. The small van's whole case against the full-size Econoline.",
+   "source": "US EPA, fueleconomy.gov",
+   "bars": [
+    [
+     "m10",
+     23,
+     "23 mpg"
+    ],
+    [
+     "m15",
+     24,
+     "24 mpg"
+    ],
+    [
+     "m15e",
+     25,
+     "25 mpg"
+    ],
+    [
+     "m20",
+     25,
+     "25 mpg"
+    ]
+   ]
+  },
+  "price": {
+   "n": 4,
+   "title": "What a new one cost, in 2026 dollars",
+   "sub": "Base cargo-van stickers, inflation-adjusted. Original prices: $21,475 (2010), $22,000 (2014), $25,100 (2019).",
+   "source": "Ford pricing, adjusted by US CPI",
+   "bars": [
+    [
+     "p10",
+     33100,
+     "$33,100"
+    ],
+    [
+     "p14",
+     31300,
+     "$31,300"
+    ],
+    [
+     "p19",
+     33000,
+     "$33,000"
+    ]
+   ]
+  }
+ },
+ "photos": {
+  "hub-hero": {
+   "credit": "Elise240SX",
+   "page": "https://commons.wikimedia.org/wiki/File:2014_Ford_Transit_Connect_XLT_Wagon_Long_Wheelbase_in_Silver_Metallic,_Front_Right,_08-25-2023.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": "A silver 2014 Ford Transit Connect XLT long-wheelbase wagon, front three-quarter view"
+  },
+  "ch1-hero": {
+   "credit": "Bull-Doser",
+   "page": "https://commons.wikimedia.org/wiki/File:2010_Ford_Transit_Connect_(MIAS_%2710).jpg",
+   "license": "Public domain",
+   "licenseUrl": "https://commons.wikimedia.org/wiki/File:2010_Ford_Transit_Connect_(MIAS_%2710).jpg",
+   "alt": "A dark blue 2010 Ford Transit Connect with snowboards on its roof rack at an auto show"
+  },
+  "ch2-hero": {
+   "credit": "Tdorante10",
+   "page": "https://commons.wikimedia.org/wiki/File:Pre-facelift_Ford_Transit_Connect_New_York_City_yellow_taxicab.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": "A yellow Ford Transit Connect New York City taxicab in traffic"
+  },
+  "ch3-hero": {
+   "credit": "crudmucosa",
+   "page": "https://commons.wikimedia.org/wiki/File:2016_Ford_Transit_Connect_cargo_van.jpg",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "alt": "A white 2016 Ford Transit Connect cargo van, front three-quarter view"
+  }
+ },
+ "find": {
+  "picker": [
+   {
+    "model": "Transit Connect",
+    "years": "2014–2023",
+    "ch": "second-act"
+   },
+   {
+    "model": "Transit Connect",
+    "years": "2010–2013",
+    "ch": "the-little-van"
+   }
+  ],
+  "terms": {
+   "": [
+    "Transit Connect",
+    "small van",
+    "compact van",
+    "city van",
+    "delivery van"
+   ],
+   "the-little-van": [
+    "chicken tax",
+    "Turkish van",
+    "2010",
+    "first Transit Connect",
+    "Azure Dynamics"
+   ],
+   "second-act": [
+    "Transit Connect Wagon",
+    "7 seats",
+    "taxi",
+    "EcoBoost",
+    "2.5"
+   ],
+   "used-checklist": [
+    "used small van",
+    "fleet van",
+    "inspection"
+   ]
+  }
+ }
+}

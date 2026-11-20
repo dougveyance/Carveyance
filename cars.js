@@ -36782,6 +36782,10 @@ const CARS = [
   },
   {
     "id": "ford-taurus-sho",
+    "family": {
+      "id": "ford-taurus",
+      "name": "Ford Taurus"
+    },
     "name": "Ford Taurus SHO (first generation)",
     "aka": [
       "SHO",
@@ -36862,6 +36866,12 @@ const CARS = [
       "name": "Ford Taurus SHO (second generation)",
       "id": null
     },
+    "alongside": [
+      {
+        "name": "Ford Taurus (first generation)",
+        "id": "ford-taurus-1st-gen"
+      }
+    ],
     "quick": "A family sedan with a Yamaha-built 24-valve V6 that revved to 7,300 rpm, a 5-speed only, and an intake manifold people framed. Ford planned a limited run; 15,519 sold the first year.",
     "story": [
       "The SHO exists because Ford commissioned Yamaha to build a DOHC V6 for a mid-engine sports car, canceled the sports car, and had a warehouse of masterpieces to use up. Someone had the sense to drop them into the Taurus. The result made 220 hp at 6,200 rpm with a 7,300-rpm redline, breathed through an intake manifold so sculptural that owners mount them on walls, and came only with a 5-speed manual, in a front-drive family sedan with a Mercury Sable hood. Car and Driver ran 60 in 6.7 seconds and 143 mph in 1989, BMW money performance for $19,739, or $53,500 in 2026 dollars.",
@@ -48434,7 +48444,12 @@ const CARS = [
       "name": "Ford Taurus (second generation)",
       "id": "ford-taurus-2nd-gen"
     },
-    "alongside": [],
+    "alongside": [
+      {
+        "name": "Ford Taurus SHO (first generation)",
+        "id": "ford-taurus-sho"
+      }
+    ],
     "quick": "The jelly bean that saved Ford: Motor Trend's 1986 Car of the Year rewrote American sedan design, passed 2 million built in 6 years — and hid a 220-hp Yamaha V6 in the SHO.",
     "story": [
       "The 1986 Taurus was the biggest bet in Ford's history — an aerodynamic, grille-less, front-wheel-drive sedan that looked like nothing else in an American showroom, developed with W. Edwards Deming's statistical quality methods and launched into a market of square boxes. It won Motor Trend's Car of the Year and a Car and Driver Ten Best spot immediately, sold over 200,000 in year 1, and passed 2 million built by the end of 1991. Every American sedan of the 1990s copied its shape.",
@@ -49201,6 +49216,340 @@ const CARS = [
     },
     "match": [
       "Ford Taurus"
+    ]
+  },
+  {
+    "id": "ford-transit",
+    "family": {
+      "id": "ford-transit",
+      "name": "Ford Transit"
+    },
+    "name": "Ford Transit (fourth generation, US)",
+    "aka": [
+      "T-150",
+      "T-250",
+      "T-350",
+      "Transit 350HD",
+      "Transit Trail"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Kansas City Assembly, Claycomo, Missouri)",
+    "country": "United States",
+    "years": "2015–present",
+    "start": 2015,
+    "end": null,
+    "shop": {
+      "cargurus": "d1067"
+    },
+    "body": "Full-size unibody van — cargo, passenger wagon, cutaway and chassis cab; 2 wheelbases, 3 roofs, up to 487 cubic feet",
+    "engine": "3.7 V6, then 3.5 V6 from 2020; 3.5 twin-turbo EcoBoost; 3.2 Power Stroke diesel 2015–19",
+    "drive": "Rear-wheel drive; all-wheel drive from 2020",
+    "gearbox": "6-speed automatic; 10-speed from 2020",
+    "specsFor": "2020 Transit 250 3.5 EcoBoost",
+    "power": {
+      "hp": 310,
+      "note": "3.5 twin-turbo EcoBoost V6; 400 lb-ft",
+      "src": "https://www.autoblog.com/2014/06/11/2015-ford-transit-first-drive-review/"
+    },
+    "weight": {
+      "kg": 2318,
+      "lb": 5110,
+      "note": "Curb weight, 250 medium roof, approximate"
+    },
+    "zero60": {
+      "sec": 7.5,
+      "kind": "estimated",
+      "note": "Instrumented tests of EcoBoost vans ran the low-to-mid 7s, unloaded"
+    },
+    "top": {
+      "mph": 95,
+      "kind": "estimated",
+      "note": "Speed-limited, approximate"
+    },
+    "mpg": {
+      "combined": 16,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/",
+      "note": "EPA combined, 2016 T-150 wagon EcoBoost; cargo versions sit above the 8,500-lb rating line and go unrated"
+    },
+    "built": {
+      "count": 1474519,
+      "approx": true,
+      "note": "Sold in the US, 2014–2025 calendar years; 161,797 in 2025 alone",
+      "src": "https://en.wikipedia.org/wiki/Ford_Transit"
+    },
+    "versions": [
+      {
+        "name": "3.5 EcoBoost",
+        "detail": "The hot-rod option — the F-150's twin-turbo V6 in a box"
+      },
+      {
+        "name": "3.7 V6 (2015–19)",
+        "detail": "The honest launch engine, CNG- and propane-convertible",
+        "power": {
+          "hp": 275,
+          "note": "3.7 Ti-VCT V6; 260 lb-ft",
+          "src": "https://www.autoblog.com/2014/06/11/2015-ford-transit-first-drive-review/"
+        },
+        "weight": {
+          "kg": 2268,
+          "lb": 5000,
+          "note": "Curb weight, 150 low roof, approximate"
+        },
+        "zero60": {
+          "sec": 8.9,
+          "kind": "estimated",
+          "note": "Period tests, unloaded"
+        },
+        "top": {
+          "mph": 95,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "combined": 16,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "Period T-150 wagon figure; most versions unrated"
+        }
+      },
+      {
+        "name": "3.2 Power Stroke diesel (2015–19)",
+        "detail": "The global Ranger's inline-5, briefly offered here",
+        "power": {
+          "hp": 185,
+          "note": "3.2 Power Stroke turbodiesel; 350 lb-ft",
+          "src": "https://www.autoblog.com/2014/06/11/2015-ford-transit-first-drive-review/"
+        },
+        "weight": {
+          "kg": 2404,
+          "lb": 5300,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 11.0,
+          "kind": "estimated",
+          "note": "Period tests, unloaded"
+        },
+        "top": {
+          "mph": 90,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "na": "Diesel cargo vans sit above the EPA's rating line"
+        }
+      },
+      {
+        "name": "3.5 PFDi V6 (2020–)",
+        "detail": "The 3.7's replacement — same 275 hp, port and direct injection, 10-speed",
+        "power": {
+          "hp": 275,
+          "note": "3.5 V6; 262 lb-ft",
+          "src": "https://en.wikipedia.org/wiki/Ford_Transit"
+        },
+        "weight": {
+          "kg": 2318,
+          "lb": 5110,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 8.6,
+          "kind": "estimated",
+          "note": "Period tests, unloaded"
+        },
+        "top": {
+          "mph": 95,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "combined": 17,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2020 T-150 wagon (16 with all-wheel drive)"
+        }
+      },
+      {
+        "name": "Passenger wagon (XL and XLT)",
+        "detail": "Up to 15 seats — the airport-shuttle and church-van default",
+        "power": {
+          "hp": 275,
+          "note": "3.5 V6 standard; EcoBoost optional",
+          "src": "https://en.wikipedia.org/wiki/Ford_Transit"
+        },
+        "weight": {
+          "kg": 2540,
+          "lb": 5600,
+          "note": "Curb weight, 350 low roof, approximate"
+        },
+        "zero60": {
+          "sec": 8.8,
+          "kind": "estimated",
+          "note": "Period tests"
+        },
+        "top": {
+          "mph": 95,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "combined": 17,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2020 T-150 wagon"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Ford E-Series",
+      "id": null
+    },
+    "successor": null,
+    "alongside": [
+      {
+        "name": "Ford E-Transit",
+        "id": "ford-e-transit"
+      }
+    ],
+    "quick": "The E-Series' unibody successor became America's default full-size van almost overnight — 1.47 million sold since 2015, from plumber's low-roof to 15-seat high-roof to camper conversion.",
+    "story": [
+      "After 53 years of Econolines, Ford replaced its full-size van with the global Transit — US production started at Kansas City on April 30, 2014 for the 2015 model year. Unibody construction with boron steel raised payload by up to 600 lb over a comparable E-Series, and the configurator became the product: 2 wheelbases, 3 roof heights, 150 through 350HD series, cargo van, 15-seat wagon, cutaway and chassis cab, from $29,565 — about $41,900 in 2026 dollars. Engines ran from an honest 275-hp 3.7 to the F-150's 310-hp EcoBoost, plus a short-lived 3.2 inline-5 diesel.",
+      "America switched without ceremony: 117,577 sold in year 1, a 153,868 peak in 2019, and 161,797 in 2025 — the van under half the delivery drivers, contractors and #vanlife conversions in the country. The 2020 refresh added the 10-speed, optional all-wheel drive and a new 3.5 base V6, and the Transit Trail brought Raptor-flavored styling to the motorhome crowd. The old E-Series survives only as a cutaway chassis; the Transit simply is the American work van now."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "23 Ford Transit 350 XLT.jpg",
+      "credit": "HJUdall",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "pos": ""
+    },
+    "match": [
+      "Ford Transit"
+    ]
+  },
+  {
+    "id": "ford-e-transit",
+    "family": {
+      "id": "ford-transit",
+      "name": "Ford Transit"
+    },
+    "name": "Ford E-Transit",
+    "aka": [
+      "E-Transit 350",
+      "electric Transit"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Kansas City Assembly, Claycomo, Missouri)",
+    "country": "United States",
+    "years": "2022–present",
+    "start": 2022,
+    "end": null,
+    "shop": {
+      "cargurus": "d1067"
+    },
+    "body": "Full-size electric cargo van — a single T-350 configuration at 9,500 lb GVWR, with the Mustang Mach-E's battery under the load floor",
+    "engine": "Single electric motor, rear-mounted",
+    "drive": "Rear-wheel drive",
+    "gearbox": "Single-speed",
+    "specsFor": "2024 E-Transit (89 kWh)",
+    "power": {
+      "hp": 266,
+      "note": "317 lb-ft; Eco mode caps output at 133 hp to stretch range",
+      "src": "https://en.wikipedia.org/wiki/Ford_Transit"
+    },
+    "weight": {
+      "kg": 2846,
+      "lb": 6274,
+      "note": "Curb weight, low roof, approximate"
+    },
+    "zero60": {
+      "sec": 8.4,
+      "kind": "tested",
+      "note": "Edmunds instrumented test — 0–30 mph in 3.7 seconds is the number that matters in town",
+      "src": "https://www.edmunds.com/ford/e-transit-cargo-van/2024"
+    },
+    "top": {
+      "mph": 80,
+      "kind": "estimated",
+      "note": "Speed-limited, approximate"
+    },
+    "mpg": {
+      "na": "EPA rates it for range instead — 126 miles at launch, 159 with the 2024 89-kWh battery"
+    },
+    "built": {
+      "count": 31968,
+      "approx": true,
+      "note": "Sold in the US, 2022–2025 calendar years",
+      "src": "https://en.wikipedia.org/wiki/Ford_Transit"
+    },
+    "versions": [
+      {
+        "name": "E-Transit (2024–, 89 kWh)",
+        "detail": "The bigger battery — 159 miles EPA, up from 126"
+      },
+      {
+        "name": "E-Transit (2022–23, 68 kWh)",
+        "detail": "The launch van — more than 10,000 fleet orders before the first delivery",
+        "power": {
+          "hp": 266,
+          "note": "317 lb-ft",
+          "src": "https://en.wikipedia.org/wiki/Ford_Transit"
+        },
+        "weight": {
+          "kg": 2846,
+          "lb": 6274,
+          "note": "Curb weight, low roof, approximate"
+        },
+        "zero60": {
+          "sec": 8.4,
+          "kind": "tested",
+          "note": "Edmunds instrumented test",
+          "src": "https://www.edmunds.com/ford/e-transit-cargo-van/2024"
+        },
+        "top": {
+          "mph": 80,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "na": "EPA range: 126 miles, low roof, with the 68-kWh usable battery"
+        }
+      }
+    ],
+    "predecessor": null,
+    "successor": null,
+    "alongside": [
+      {
+        "name": "Ford Transit (fourth generation, US)",
+        "id": "ford-transit"
+      },
+      {
+        "name": "Ford F-150 Lightning",
+        "id": "ford-f-150-lightning"
+      }
+    ],
+    "quick": "A Mach-E battery under a cargo floor: the E-Transit launched with 10,000 fleet orders waiting, became America's best-selling electric van, and put the Postal Service in EVs.",
+    "story": [
+      "Announced in November 2020 and delivered from February 2022, the E-Transit was Ford's least glamorous and most sensible EV: the standard Transit body — same racks, same upfits, same 487-cubic-foot maximum — with a 68-kWh usable battery from the Mustang Mach-E under the floor and a 266-hp, 317-lb-ft motor at the back. Range was 126 EPA miles, which sounds small until you learn what delivery vans actually drive in a day; more than 10,000 fleet orders from 300 companies were in hand before the first one shipped, at a 2024 list of $51,490 — about $55,200 in 2026 dollars.",
+      "Fleet logic kept winning. Edmunds clocked 0–60 in 8.4 seconds with a 3.7-second 0–30 that makes it the quickest thing between stoplights with a ladder rack, Pro Power Onboard turned the battery into a jobsite generator, and 2024 brought an 89-kWh pack and 159 miles. The marquee customer wears blue: the US Postal Service put thousands of E-Transits into mail service as the first big wave of its electric fleet. Nearly 32,000 sold through 2025 makes it the quiet leader of American electric vans."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "USPS Ford E-Transit in Jackson, Michigan.jpg",
+      "credit": "DontCallMeLateForDinner",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pos": ""
+    },
+    "match": [
+      "Ford Transit",
+      "Ford E-Transit"
     ]
   }
 ];

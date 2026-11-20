@@ -25844,7 +25844,12 @@ const CARS_INDEX = [
    "approx": false,
    "note": "First generation: 15,519 in 1989, 8,302 in 1990, 8,916 in 1991; all SHO generations total 106,465"
   },
-  "alongside": [],
+  "alongside": [
+   {
+    "id": "ford-taurus-1st-gen",
+    "name": "Ford Taurus (first generation)"
+   }
+  ],
   "prev": null,
   "next": {
    "id": null,
@@ -31501,7 +31506,12 @@ const CARS_INDEX = [
    "approx": true,
    "note": "Production passed 2 million by the end of the 1991 model year"
   },
-  "alongside": [],
+  "alongside": [
+   {
+    "id": "ford-taurus-sho",
+    "name": "Ford Taurus SHO (first generation)"
+   }
+  ],
   "prev": {
    "id": null,
    "name": "Ford LTD"
@@ -31890,6 +31900,151 @@ const CARS_INDEX = [
   "next": null,
   "photo": {
    "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/2013_Ford_Taurus_SHO_(6879401279).jpg/960px-2013_Ford_Taurus_SHO_(6879401279).jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "ford-transit",
+  "name": "Ford Transit (fourth generation, US)",
+  "aka": [
+   "T-150",
+   "T-250",
+   "T-350",
+   "Transit 350HD",
+   "Transit Trail"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Kansas City Assembly, Claycomo, Missouri)",
+  "years": "2015–present",
+  "start": 2015,
+  "body": "Full-size unibody van — cargo, passenger wagon, cutaway and chassis cab; 2 wheelbases, 3 roofs, up to 487 cubic feet",
+  "engine": "3.7 V6, then 3.5 V6 from 2020; 3.5 twin-turbo EcoBoost; 3.2 Power Stroke diesel 2015–19",
+  "country": "United States",
+  "quick": "The E-Series' unibody successor became America's default full-size van almost overnight — 1.47 million sold since 2015, from plumber's low-roof to 15-seat high-roof to camper conversion.",
+  "articles": [
+   "industry-brief-2026-10-12"
+  ],
+  "latest": "2026-10-12",
+  "ownDates": [],
+  "dates": [
+   "2026-10-12"
+  ],
+  "drive": "Rear-wheel drive; all-wheel drive from 2020",
+  "gearbox": "6-speed automatic; 10-speed from 2020",
+  "specsFor": "2020 Transit 250 3.5 EcoBoost",
+  "guide": null,
+  "shop": {
+   "cargurus": "d1067"
+  },
+  "hp": 310,
+  "kg": 2318,
+  "kgNote": "Curb weight, 250 medium roof, approximate",
+  "lbs": 5110,
+  "z60": {
+   "sec": 7.5,
+   "kind": "estimated",
+   "note": "Instrumented tests of EcoBoost vans ran the low-to-mid 7s, unloaded"
+  },
+  "top": {
+   "mph": 95,
+   "kind": "estimated",
+   "note": "Speed-limited, approximate"
+  },
+  "mpg": {
+   "combined": 16,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2016 T-150 wagon EcoBoost; cargo versions sit above the 8,500-lb rating line and go unrated"
+  },
+  "built": {
+   "count": 1474519,
+   "approx": true,
+   "note": "Sold in the US, 2014–2025 calendar years; 161,797 in 2025 alone"
+  },
+  "alongside": [
+   {
+    "id": "ford-e-transit",
+    "name": "Ford E-Transit"
+   }
+  ],
+  "prev": {
+   "id": null,
+   "name": "Ford E-Series"
+  },
+  "next": null,
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/23_Ford_Transit_350_XLT.jpg/960px-23_Ford_Transit_350_XLT.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "ford-e-transit",
+  "name": "Ford E-Transit",
+  "aka": [
+   "E-Transit 350",
+   "electric Transit"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Kansas City Assembly, Claycomo, Missouri)",
+  "years": "2022–present",
+  "start": 2022,
+  "body": "Full-size electric cargo van — a single T-350 configuration at 9,500 lb GVWR, with the Mustang Mach-E's battery under the load floor",
+  "engine": "Single electric motor, rear-mounted",
+  "country": "United States",
+  "quick": "A Mach-E battery under a cargo floor: the E-Transit launched with 10,000 fleet orders waiting, became America's best-selling electric van, and put the Postal Service in EVs.",
+  "articles": [
+   "industry-brief-2026-10-12"
+  ],
+  "latest": "2026-10-12",
+  "ownDates": [],
+  "dates": [
+   "2026-10-12"
+  ],
+  "drive": "Rear-wheel drive",
+  "gearbox": "Single-speed",
+  "specsFor": "2024 E-Transit (89 kWh)",
+  "guide": null,
+  "shop": {
+   "cargurus": "d1067"
+  },
+  "hp": 266,
+  "kg": 2846,
+  "kgNote": "Curb weight, low roof, approximate",
+  "lbs": 6274,
+  "z60": {
+   "sec": 8.4,
+   "kind": "tested",
+   "note": "Edmunds instrumented test — 0–30 mph in 3.7 seconds is the number that matters in town"
+  },
+  "top": {
+   "mph": 80,
+   "kind": "estimated",
+   "note": "Speed-limited, approximate"
+  },
+  "mpg": null,
+  "built": {
+   "count": 31968,
+   "approx": true,
+   "note": "Sold in the US, 2022–2025 calendar years"
+  },
+  "alongside": [
+   {
+    "id": "ford-transit",
+    "name": "Ford Transit (fourth generation, US)"
+   },
+   {
+    "id": "ford-f-150-lightning",
+    "name": "Ford F-150 Lightning"
+   }
+  ],
+  "prev": null,
+  "next": null,
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/USPS_Ford_E-Transit_in_Jackson,_Michigan.jpg/960px-USPS_Ford_E-Transit_in_Jackson,_Michigan.jpg",
    "pos": "",
    "fit": ""
   }

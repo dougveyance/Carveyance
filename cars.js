@@ -49551,5 +49551,321 @@ const CARS = [
       "Ford Transit",
       "Ford E-Transit"
     ]
+  },
+  {
+    "id": "ford-transit-connect-1st-gen",
+    "family": {
+      "id": "ford-transit-connect",
+      "name": "Ford Transit Connect"
+    },
+    "name": "Ford Transit Connect (first generation, US)",
+    "aka": [
+      "TC",
+      "Tourneo Connect"
+    ],
+    "make": "Ford",
+    "maker": "Ford Otosan (Gölcük, Kocaeli, Turkey)",
+    "country": "Turkey",
+    "years": "2010–2013",
+    "start": 2010,
+    "end": 2013,
+    "shop": {
+      "cargurus": "d2037"
+    },
+    "body": "Compact front-drive panel van and wagon — tall, narrow and 135 cubic feet of cargo in a Focus-length footprint",
+    "engine": "2.0 Duratec inline-4",
+    "drive": "Front-wheel drive",
+    "gearbox": "4-speed automatic",
+    "specsFor": "2010 Transit Connect XLT cargo van",
+    "power": {
+      "hp": 136,
+      "note": "2.0 Duratec; 128 lb-ft",
+      "src": "https://en.wikipedia.org/wiki/Ford_Transit_Connect"
+    },
+    "weight": {
+      "kg": 1530,
+      "lb": 3373,
+      "note": "Curb weight, XL cargo van",
+      "src": "https://en.wikipedia.org/wiki/Ford_Transit_Connect"
+    },
+    "zero60": {
+      "sec": 11.1,
+      "kind": "tested",
+      "note": "Period instrumented test, cargo van",
+      "src": "https://www.0-60specs.com/ford/transit-connect-0-60-times"
+    },
+    "top": {
+      "mph": 90,
+      "kind": "estimated",
+      "note": "Speed-limited, approximate"
+    },
+    "mpg": {
+      "combined": 23,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/",
+      "note": "22 city, 25 highway"
+    },
+    "built": {
+      "count": 145377,
+      "approx": true,
+      "note": "Sold in the US, 2009–2013 calendar years",
+      "src": "https://en.wikipedia.org/wiki/Ford_Transit_Connect"
+    },
+    "versions": [
+      {
+        "name": "XL and XLT cargo van",
+        "detail": "The florist's and locksmith's special — 2 seats and a 135-cubic-foot box"
+      },
+      {
+        "name": "XLT Wagon",
+        "detail": "The 5-seat version — and the reason the whole import scheme worked",
+        "power": {
+          "hp": 136,
+          "note": "2.0 Duratec; 128 lb-ft",
+          "src": "https://en.wikipedia.org/wiki/Ford_Transit_Connect"
+        },
+        "weight": {
+          "kg": 1589,
+          "lb": 3503,
+          "note": "Curb weight, XLT Wagon",
+          "src": "https://en.wikipedia.org/wiki/Ford_Transit_Connect"
+        },
+        "zero60": {
+          "sec": 12.1,
+          "kind": "tested",
+          "note": "MotorWeek instrumented test",
+          "src": "https://www.0-60specs.com/ford/transit-connect-0-60-times"
+        },
+        "top": {
+          "mph": 90,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "combined": 23,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "22 city, 25 highway"
+        }
+      }
+    ],
+    "predecessor": null,
+    "successor": {
+      "name": "Ford Transit Connect (second generation)",
+      "id": "ford-transit-connect-2nd-gen"
+    },
+    "alongside": [
+      {
+        "name": "Ford E-Series",
+        "id": null
+      }
+    ],
+    "quick": "The little Turkish van that invented a US segment, won North American Truck of the Year — and dodged a 25% tariff by arriving as a passenger car and losing its seats in Baltimore.",
+    "story": [
+      "Ford had sold the Transit Connect in Europe since 2003; in 2010 it brought the Turkish-built van to America at $21,475 — about $33,100 in 2026 dollars — and found a market nobody else was serving: small businesses that didn't need a full-size Econoline. The spec sheet was humble (136-hp 2.0, 4-speed automatic, 12 seconds to 60 in MotorWeek's wagon test) but the package was clever — 135 cubic feet of upright cargo space, 59 inches of load height and a 39-foot turning circle — and the industry named it 2010 North American Truck of the Year.",
+      "The import route became the famous part. To avoid the 25% \"chicken tax\" tariff on imported trucks, every US-bound Transit Connect left Turkey as a passenger vehicle, with rear seats and windows — then had the seats removed and the glass swapped for steel panels at the Port of Baltimore, cutting the duty to 2.5% for a few hundred dollars of conversion work per van. US Customs objected, and in 2019 a federal appeals court sided with the government, ruling the vans were cargo vehicles all along. By then the first generation had sold about 145,000, spun off a short-lived Azure Dynamics electric version, and proved America would buy a small van — as long as somebody dared to sell one."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "2010 Ford Transit Connect -- 03-14-2010.jpg",
+      "credit": "IFCAR",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:2010_Ford_Transit_Connect_--_03-14-2010.jpg",
+      "pos": ""
+    },
+    "match": [
+      "Ford Transit Connect"
+    ]
+  },
+  {
+    "id": "ford-transit-connect-2nd-gen",
+    "family": {
+      "id": "ford-transit-connect",
+      "name": "Ford Transit Connect"
+    },
+    "name": "Ford Transit Connect (second generation)",
+    "aka": [
+      "TC",
+      "Transit Connect Wagon"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Valencia, Spain)",
+    "country": "Spain",
+    "years": "2014–2023",
+    "start": 2014,
+    "end": 2023,
+    "shop": {
+      "cargurus": "d2037"
+    },
+    "body": "Compact front-drive van and wagon on the Focus/Escape platform — 2 wheelbases, cargo or 5- and 7-seat passenger versions",
+    "engine": "2.5 Duratec inline-4; 1.6 EcoBoost 2014–18; 2.0 GDI from 2019",
+    "drive": "Front-wheel drive",
+    "gearbox": "6-speed automatic; 8-speed from 2019",
+    "specsFor": "2015 Transit Connect 2.5 cargo van",
+    "power": {
+      "hp": 169,
+      "note": "2.5 Duratec; 171 lb-ft",
+      "src": "https://www.guideautoweb.com/en/makes/ford/transit-connect/2014/specifications/4dr-wgn-xl-w-rear-liftgate/"
+    },
+    "weight": {
+      "kg": 1624,
+      "lb": 3581,
+      "note": "Curb weight, short-wheelbase cargo van, approximate"
+    },
+    "zero60": {
+      "sec": 9.9,
+      "kind": "estimated",
+      "note": "Period tests of the 2.5 ran around 10 seconds"
+    },
+    "top": {
+      "mph": 100,
+      "kind": "estimated",
+      "note": "Speed-limited, approximate"
+    },
+    "mpg": {
+      "combined": 24,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/",
+      "note": "EPA combined, 2015 cargo van"
+    },
+    "built": {
+      "count": 350555,
+      "approx": true,
+      "note": "Sold in the US, 2014–2023 calendar years",
+      "src": "https://en.wikipedia.org/wiki/Ford_Transit_Connect"
+    },
+    "versions": [
+      {
+        "name": "2.5 Duratec",
+        "detail": "The fleet default — unstressed, propane-convertible, everywhere"
+      },
+      {
+        "name": "1.6 EcoBoost (2014–18)",
+        "detail": "The brisk one — Motor Trend's test van hit 60 in 8.7 seconds",
+        "power": {
+          "hp": 178,
+          "note": "1.6 turbo; 184 lb-ft",
+          "src": "https://www.auto123.com/en/news/amp/2014-ford-transit-connect-wagon-preview/51340/"
+        },
+        "weight": {
+          "kg": 1633,
+          "lb": 3600,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 8.7,
+          "kind": "tested",
+          "note": "Motor Trend, long-wheelbase cargo van",
+          "src": "https://www.0-60specs.com/ford/transit-connect-0-60-times"
+        },
+        "top": {
+          "mph": 100,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "combined": 25,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2015 cargo van"
+        }
+      },
+      {
+        "name": "2.0 GDI (2019–23)",
+        "detail": "The refresh engine — direct injection and the 8-speed automatic",
+        "power": {
+          "hp": 162,
+          "note": "2.0 direct-injection; 144 lb-ft",
+          "src": "https://www.edmunds.com/ford/transit-connect/2019/features-specs"
+        },
+        "weight": {
+          "kg": 1673,
+          "lb": 3688,
+          "note": "Curb weight, long-wheelbase cargo van",
+          "src": "https://www.guideautoweb.com/en/makes/ford/transit-connect/2019/specifications/cargo-xl-single-sliding-door"
+        },
+        "zero60": {
+          "sec": 10.4,
+          "kind": "estimated",
+          "note": "Period estimates"
+        },
+        "top": {
+          "mph": 100,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "combined": 25,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2020 cargo van"
+        }
+      },
+      {
+        "name": "Wagon (5 or 7 seats)",
+        "detail": "Ford's first 7-seater since the Freestar — and New York's accessible yellow cab",
+        "power": {
+          "hp": 169,
+          "note": "2.5 standard; 171 lb-ft",
+          "src": "https://www.guideautoweb.com/en/makes/ford/transit-connect/2014/specifications/4dr-wgn-xl-w-rear-liftgate/"
+        },
+        "weight": {
+          "kg": 1823,
+          "lb": 4019,
+          "note": "Curb weight, Titanium long-wheelbase wagon",
+          "src": "https://www.motormatchup.com/catalog/Ford/Transit-Connect/2019/Titanium-With-Rear-Liftgate-Passenger-Wagon-LWB"
+        },
+        "zero60": {
+          "sec": 10.5,
+          "kind": "tested",
+          "note": "2019 Titanium wagon, period instrumented test",
+          "src": "https://www.0-60specs.com/ford/transit-connect-0-60-times"
+        },
+        "top": {
+          "mph": 100,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "combined": 23,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.kbb.com/ford/transitconnect/2014",
+          "note": "EPA combined, 2014 wagon, 2.5"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Ford Transit Connect (first generation, US)",
+      "id": "ford-transit-connect-1st-gen"
+    },
+    "successor": null,
+    "alongside": [
+      {
+        "name": "Ford Transit (fourth generation, US)",
+        "id": "ford-transit"
+      }
+    ],
+    "quick": "The grown-up second act: Focus bones, a 7-seat wagon, New York taxi duty — then the whole American small-van segment quietly evaporated underneath it in 2023.",
+    "story": [
+      "The 2014 redesign moved production from Turkey to Valencia and the engineering onto the Focus and Escape's front-drive platform, which is why every road test of the era sounds mildly surprised — this was a van that cornered. Two wheelbases, cargo and passenger bodies, and a 7-seat Wagon (Ford's first since the 2007 Freestar) covered everything from parts-runner to school run, with a 169-hp 2.5, an eager 178-hp 1.6 EcoBoost — 8.7 seconds to 60 in Motor Trend's test — and, from the 2019 refresh, a 162-hp 2.0 with an 8-speed. A short-wheelbase cargo van launched at $22,000, about $31,300 in 2026 dollars, and New York put the Wagon to work as an accessible yellow cab.",
+      "Sales peaked at 52,221 in 2015, and then the segment itself gave way: the Nissan NV200 and Mercedes Metris left the market, delivery fleets moved to full-size vans, and Ford ended North American Transit Connect sales after 2023, shelving a planned Mexican-built successor. Just under 496,000 sold across both generations — a quiet American career for the van that proved small could work here, right up until nobody wanted small anymore."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "2021 Ford Transit Connect XLT, Front Right, 10-10-2021.jpg",
+      "credit": "Elise240SX",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pos": ""
+    },
+    "match": [
+      "Ford Transit Connect"
+    ]
   }
 ];

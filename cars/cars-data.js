@@ -32048,5 +32048,145 @@ const CARS_INDEX = [
    "pos": "",
    "fit": ""
   }
+ },
+ {
+  "id": "ford-transit-connect-1st-gen",
+  "name": "Ford Transit Connect (first generation, US)",
+  "aka": [
+   "TC",
+   "Tourneo Connect"
+  ],
+  "make": "Ford",
+  "maker": "Ford Otosan (Gölcük, Kocaeli, Turkey)",
+  "years": "2010–2013",
+  "start": 2010,
+  "body": "Compact front-drive panel van and wagon — tall, narrow and 135 cubic feet of cargo in a Focus-length footprint",
+  "engine": "2.0 Duratec inline-4",
+  "country": "Turkey",
+  "quick": "The little Turkish van that invented a US segment, won North American Truck of the Year — and dodged a 25% tariff by arriving as a passenger car and losing its seats in Baltimore.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Front-wheel drive",
+  "gearbox": "4-speed automatic",
+  "specsFor": "2010 Transit Connect XLT cargo van",
+  "guide": null,
+  "shop": {
+   "cargurus": "d2037"
+  },
+  "hp": 136,
+  "kg": 1530,
+  "kgNote": "Curb weight, XL cargo van",
+  "lbs": 3373,
+  "z60": {
+   "sec": 11.1,
+   "kind": "tested",
+   "note": "Period instrumented test, cargo van"
+  },
+  "top": {
+   "mph": 90,
+   "kind": "estimated",
+   "note": "Speed-limited, approximate"
+  },
+  "mpg": {
+   "combined": 23,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "22 city, 25 highway"
+  },
+  "built": {
+   "count": 145377,
+   "approx": true,
+   "note": "Sold in the US, 2009–2013 calendar years"
+  },
+  "alongside": [
+   {
+    "id": null,
+    "name": "Ford E-Series"
+   }
+  ],
+  "prev": null,
+  "next": {
+   "id": "ford-transit-connect-2nd-gen",
+   "name": "Ford Transit Connect (second generation)"
+  },
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/2010_Ford_Transit_Connect_--_03-14-2010.jpg/960px-2010_Ford_Transit_Connect_--_03-14-2010.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "ford-transit-connect-2nd-gen",
+  "name": "Ford Transit Connect (second generation)",
+  "aka": [
+   "TC",
+   "Transit Connect Wagon"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Valencia, Spain)",
+  "years": "2014–2023",
+  "start": 2014,
+  "body": "Compact front-drive van and wagon on the Focus/Escape platform — 2 wheelbases, cargo or 5- and 7-seat passenger versions",
+  "engine": "2.5 Duratec inline-4; 1.6 EcoBoost 2014–18; 2.0 GDI from 2019",
+  "country": "Spain",
+  "quick": "The grown-up second act: Focus bones, a 7-seat wagon, New York taxi duty — then the whole American small-van segment quietly evaporated underneath it in 2023.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Front-wheel drive",
+  "gearbox": "6-speed automatic; 8-speed from 2019",
+  "specsFor": "2015 Transit Connect 2.5 cargo van",
+  "guide": null,
+  "shop": {
+   "cargurus": "d2037"
+  },
+  "hp": 169,
+  "kg": 1624,
+  "kgNote": "Curb weight, short-wheelbase cargo van, approximate",
+  "lbs": 3581,
+  "z60": {
+   "sec": 9.9,
+   "kind": "estimated",
+   "note": "Period tests of the 2.5 ran around 10 seconds"
+  },
+  "top": {
+   "mph": 100,
+   "kind": "estimated",
+   "note": "Speed-limited, approximate"
+  },
+  "mpg": {
+   "combined": 24,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, 2015 cargo van"
+  },
+  "built": {
+   "count": 350555,
+   "approx": true,
+   "note": "Sold in the US, 2014–2023 calendar years"
+  },
+  "alongside": [
+   {
+    "id": "ford-transit",
+    "name": "Ford Transit (fourth generation, US)"
+   }
+  ],
+  "prev": {
+   "id": "ford-transit-connect-1st-gen",
+   "name": "Ford Transit Connect (first generation, US)"
+  },
+  "next": null,
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/2021_Ford_Transit_Connect_XLT,_Front_Right,_10-10-2021.jpg/960px-2021_Ford_Transit_Connect_XLT,_Front_Right,_10-10-2021.jpg",
+   "pos": "",
+   "fit": ""
+  }
  }
 ];

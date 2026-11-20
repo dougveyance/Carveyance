@@ -49406,8 +49406,8 @@ const CARS = [
       }
     ],
     "predecessor": {
-      "name": "Ford E-Series",
-      "id": null
+      "name": "Ford E-Series (fourth generation)",
+      "id": "ford-e-series-4th-gen"
     },
     "successor": null,
     "alongside": [
@@ -49658,8 +49658,8 @@ const CARS = [
     },
     "alongside": [
       {
-        "name": "Ford E-Series",
-        "id": null
+        "name": "Ford E-Series (fourth generation)",
+        "id": "ford-e-series-4th-gen"
       }
     ],
     "quick": "The little Turkish van that invented a US segment, won North American Truck of the Year — and dodged a 25% tariff by arriving as a passenger car and losing its seats in Baltimore.",
@@ -49866,6 +49866,631 @@ const CARS = [
     },
     "match": [
       "Ford Transit Connect"
+    ]
+  },
+  {
+    "id": "ford-econoline-1st-gen",
+    "family": {
+      "id": "ford-e-series",
+      "name": "Ford E-Series"
+    },
+    "name": "Ford Econoline (first generation)",
+    "aka": [
+      "Falcon Club Wagon",
+      "Station Bus",
+      "Econoline pickup",
+      "E-100"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Lorain Assembly, Ohio)",
+    "country": "United States",
+    "years": "1961–1967",
+    "start": 1961,
+    "end": 1967,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Forward-control compact van on Falcon bones — cargo and panel van, Club Wagon bus and a pickup, all on a 90-inch wheelbase",
+    "engine": "144, 170 and 240 cubic-inch sixes, mounted between the seats",
+    "drive": "Rear-wheel drive",
+    "gearbox": "3-speed manual; 4-speed and automatic optional",
+    "specsFor": "1961 Econoline standard van",
+    "power": {
+      "hp": 85,
+      "note": "144 six; a 101-hp 170 optional, a 240 from 1965 — the mid-engine layout left no room for a V8",
+      "src": "https://en.wikipedia.org/wiki/Ford_E-Series"
+    },
+    "weight": {
+      "kg": 1174,
+      "lb": 2588,
+      "note": "Curb weight, standard 6-door van",
+      "src": "https://archive.falconclub.com/?p=365"
+    },
+    "zero60": {
+      "sec": 23.0,
+      "kind": "estimated",
+      "note": "Period-typical with the 85-hp six"
+    },
+    "top": {
+      "mph": 75,
+      "kind": "estimated",
+      "note": "Approximate"
+    },
+    "mpg": {
+      "na": "Predates EPA fuel-economy ratings"
+    },
+    "built": {
+      "count": 552004,
+      "note": "US production, 1961–1967 model years",
+      "src": "https://en.wikipedia.org/wiki/Ford_E-Series"
+    },
+    "versions": [
+      {
+        "name": "Cargo and panel van",
+        "detail": "The VW Bus answer — 204 cubic feet behind the driver's heels"
+      },
+      {
+        "name": "Falcon Club Wagon and Station Bus",
+        "detail": "The passenger versions, badged as Falcons at first — up to 8 seats",
+        "power": {
+          "hp": 85,
+          "note": "144 six; the 170 and 240 optional",
+          "src": "https://en.wikipedia.org/wiki/Ford_E-Series"
+        },
+        "weight": {
+          "kg": 1174,
+          "lb": 2588,
+          "note": "Standard-van figure; the buses ran a little heavier",
+          "src": "https://archive.falconclub.com/?p=365"
+        },
+        "zero60": {
+          "sec": 24.0,
+          "kind": "estimated",
+          "note": "Period-typical"
+        },
+        "top": {
+          "mph": 75,
+          "kind": "estimated",
+          "note": "Approximate"
+        },
+        "mpg": {
+          "na": "Predates EPA fuel-economy ratings"
+        }
+      },
+      {
+        "name": "Econoline pickup (1961–67)",
+        "detail": "The cab-over pickup — a cult classic now, gone after 1967",
+        "power": {
+          "hp": 85,
+          "note": "144 six; the 170 and 240 optional",
+          "src": "https://en.wikipedia.org/wiki/Ford_E-Series"
+        },
+        "weight": {
+          "kg": 1174,
+          "lb": 2588,
+          "note": "Standard-van figure; the pickup ran a little lighter",
+          "src": "https://archive.falconclub.com/?p=365"
+        },
+        "zero60": {
+          "sec": 23.0,
+          "kind": "estimated",
+          "note": "Period-typical"
+        },
+        "top": {
+          "mph": 75,
+          "kind": "estimated",
+          "note": "Approximate"
+        },
+        "mpg": {
+          "na": "Predates EPA fuel-economy ratings"
+        }
+      }
+    ],
+    "predecessor": null,
+    "successor": {
+      "name": "Ford Econoline (second generation)",
+      "id": "ford-econoline-2nd-gen"
+    },
+    "alongside": [
+      {
+        "name": "Ford Falcon",
+        "id": null
+      }
+    ],
+    "quick": "Ford's answer to the VW Bus: a flat-nosed Falcon with the engine between the seats, $1,881 to start — and the first chapter of a van line that would pass 8.2 million.",
+    "story": [
+      "Volkswagen's Type 2 proved Americans would buy a box, so Ford built one from Falcon parts: a 90-inch-wheelbase unibody with the 85-hp 144 six sitting between the front seats, driving the rear wheels. The layout gave it a flat floor, 204 cubic feet of cargo space and a price of $1,881 for the standard van — about $21,200 in 2026 dollars — and it ruled the new American compact-van class: 552,004 built in 7 model years, against everything Chevrolet's Corvair van and Dodge's A100 could do.",
+      "The range sprawled the way good ideas do. Cargo vans got 6 or 8 doors, the Falcon-badged Station Bus and Club Wagon carried up to 8 people, a 1965 Super Van stretched the box, and the cab-over Econoline pickup — 1961 to 1967 only — became the collector piece of the family. The mid-engine layout meant no V8, ever, and heavy loads made the tail light enough that Ford shipped the rear axle with ballast in mind. It didn't matter. The formula — maximum box, minimum price — is the one every American work van has followed since."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "Ford Econoline (1961) Kulmbach 17RM0427.jpg",
+      "credit": "Ermell",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pos": ""
+    },
+    "match": [
+      "Ford Econoline",
+      "Ford E-Series"
+    ]
+  },
+  {
+    "id": "ford-econoline-2nd-gen",
+    "family": {
+      "id": "ford-e-series",
+      "name": "Ford E-Series"
+    },
+    "name": "Ford Econoline (second generation)",
+    "aka": [
+      "Club Wagon",
+      "Chateau",
+      "Hi-Cube",
+      "E-100",
+      "E-200",
+      "E-300"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Lorain Assembly, Ohio)",
+    "country": "United States",
+    "years": "1969–1974",
+    "start": 1969,
+    "end": 1974,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Full-size van with the engine moved ahead of the driver — 15 inches more wheelbase, F-Series running gear underneath",
+    "engine": "240 and 300 sixes; 302 V8 — the Econoline's first",
+    "drive": "Rear-wheel drive",
+    "gearbox": "3-speed manual or 3-speed Cruise-O-Matic automatic",
+    "specsFor": "1969 Econoline with the 300 six",
+    "power": {
+      "hp": 170,
+      "note": "300 six, gross rating of the era — nearer 120 by today's net math; the 302 V8 optional",
+      "src": "https://www.slashgear.com/2224973/ford-300-inline-6-engine-how-much-horsepower-is-it-any-good/"
+    },
+    "weight": {
+      "kg": 1769,
+      "lb": 3900,
+      "note": "Curb weight, approximate"
+    },
+    "zero60": {
+      "sec": 16.0,
+      "kind": "estimated",
+      "note": "Period-typical, unloaded"
+    },
+    "top": {
+      "mph": 85,
+      "kind": "estimated",
+      "note": "Approximate"
+    },
+    "mpg": {
+      "na": "Predates EPA fuel-economy ratings"
+    },
+    "built": {
+      "na": "Ford never published per-generation totals; the Econoline/E-Series line has passed 8.2 million overall"
+    },
+    "versions": [
+      {
+        "name": "Cargo van and Club Wagon",
+        "detail": "The shape vanlife was invented in — shag carpet sold separately"
+      },
+      {
+        "name": "Hi-Cube cutaway (1972–)",
+        "detail": "The first stripped-chassis van — and the start of the motorhome gold rush",
+        "power": {
+          "hp": 170,
+          "note": "300 six, gross rating; the 302 V8 optional",
+          "src": "https://www.slashgear.com/2224973/ford-300-inline-6-engine-how-much-horsepower-is-it-any-good/"
+        },
+        "weight": {
+          "kg": 1950,
+          "lb": 4300,
+          "note": "Chassis weight varied by body, approximate"
+        },
+        "zero60": {
+          "sec": 18.0,
+          "kind": "estimated",
+          "note": "Depends entirely on the body"
+        },
+        "top": {
+          "mph": 80,
+          "kind": "estimated",
+          "note": "Approximate"
+        },
+        "mpg": {
+          "na": "Predates EPA fuel-economy ratings"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Ford Econoline (first generation)",
+      "id": "ford-econoline-1st-gen"
+    },
+    "successor": {
+      "name": "Ford Econoline (third generation)",
+      "id": "ford-econoline-3rd-gen"
+    },
+    "alongside": [],
+    "quick": "The engine moved forward, the V8 moved in, and the custom-van decade found its canvas — plus the 1972 Hi-Cube, the cutaway that launched a million motorhomes.",
+    "story": [
+      "A UAW strike delayed it into 1969, but the second Econoline was worth the wait: Ford pushed the engine ahead of the front axle, stretched the wheelbase 15 inches, and borrowed F-Series pieces including the Twin-I-Beam front end. The flat floor stayed, the doghouse shrank, and for the first time an Econoline could take a V8 — the 302 joining the 240 and 300 sixes. Club Wagon, Deluxe and Chateau trims gave the passenger versions real aspirations, right as America's custom-van subculture lit up and made the plain white box a canvas for airbrushed wizards.",
+      "The quietly historic move came in 1972: the Hi-Cube, a bare cab and frame-rails-back-of-nothing cutaway that upfitters could body however they liked. Box trucks, early motorhomes, ambulances — an entire industry grew on that decision, and the cutaway would eventually outlive the van itself by more than a decade. The second generation lasted only 6 model years, but it set the template: big box, truck bones, V8 power, and a chassis for anyone's imagination."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "1973 Ford Econoline 100.jpg",
+      "credit": "Mister Falcon",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pos": ""
+    },
+    "match": [
+      "Ford Econoline",
+      "Ford E-Series"
+    ]
+  },
+  {
+    "id": "ford-econoline-3rd-gen",
+    "family": {
+      "id": "ford-e-series",
+      "name": "Ford E-Series"
+    },
+    "name": "Ford Econoline (third generation)",
+    "aka": [
+      "Club Wagon",
+      "Chateau",
+      "E-150",
+      "E-250",
+      "E-350",
+      "Super Wagon"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Ohio Assembly, Avon Lake, Ohio)",
+    "country": "United States",
+    "years": "1975–1991",
+    "start": 1975,
+    "end": 1991,
+    "shop": {
+      "cargurus": "d2384"
+    },
+    "body": "The first body-on-frame full-size American van — two wheelbases, Super Van stretch, and a cutaway chassis for everything else",
+    "engine": "300 six; 302, 351 and 460 V8s; 6.9 and 7.3 IDI diesels from 1983",
+    "drive": "Rear-wheel drive",
+    "gearbox": "3- and 4-speed manuals and automatics; manuals gone after 1989",
+    "specsFor": "1984 E-150 5.0 V8",
+    "power": {
+      "hp": 140,
+      "note": "5.0 V8 with central fuel injection, SAE net; 240 lb-ft",
+      "src": "https://www.ford-trucks.com/forums/141965-hp-and-torque-s-302-vs-460-a.html"
+    },
+    "weight": {
+      "kg": 1950,
+      "lb": 4300,
+      "note": "Curb weight, E-150, approximate"
+    },
+    "zero60": {
+      "sec": 14.5,
+      "kind": "estimated",
+      "note": "Period-typical, unloaded"
+    },
+    "top": {
+      "mph": 90,
+      "kind": "estimated",
+      "note": "Approximate"
+    },
+    "mpg": {
+      "combined": 14,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/",
+      "note": "EPA combined, 1985 E-150 with the 4.9 six; the 5.8 V8 managed 11"
+    },
+    "built": {
+      "na": "Ford never published per-generation totals; the line passed 8.2 million overall"
+    },
+    "versions": [
+      {
+        "name": "E-150 (300 six and 302 V8)",
+        "detail": "The working core — and the 300 six is nearly unkillable"
+      },
+      {
+        "name": "460 V8 and the diesels",
+        "detail": "Big-block muscle for the heavy 350s, plus Navistar's 6.9 and 7.3 IDI from 1983",
+        "power": {
+          "hp": 224,
+          "note": "7.5 460 V8, SAE net, mid-1980s; 357 lb-ft",
+          "src": "https://www.ford-trucks.com/forums/141965-hp-and-torque-s-302-vs-460-a.html"
+        },
+        "weight": {
+          "kg": 2268,
+          "lb": 5000,
+          "note": "Curb weight, E-350, approximate"
+        },
+        "zero60": {
+          "sec": 13.0,
+          "kind": "estimated",
+          "note": "Period-typical, unloaded"
+        },
+        "top": {
+          "mph": 90,
+          "kind": "estimated",
+          "note": "Approximate"
+        },
+        "mpg": {
+          "na": "The heavy 350s sat above the EPA's rating line"
+        }
+      },
+      {
+        "name": "Club Wagon (up to 15 seats)",
+        "detail": "The church van, the airport van, the Little League van",
+        "power": {
+          "hp": 140,
+          "note": "5.0 V8, SAE net, 1984; bigger V8s optional",
+          "src": "https://www.ford-trucks.com/forums/141965-hp-and-torque-s-302-vs-460-a.html"
+        },
+        "weight": {
+          "kg": 2132,
+          "lb": 4700,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 15.0,
+          "kind": "estimated",
+          "note": "Period-typical"
+        },
+        "top": {
+          "mph": 90,
+          "kind": "estimated",
+          "note": "Approximate"
+        },
+        "mpg": {
+          "combined": 13,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 1985 E-150 Club Wagon, 4.9 six"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Ford Econoline (second generation)",
+      "id": "ford-econoline-2nd-gen"
+    },
+    "successor": {
+      "name": "Ford E-Series (fourth generation)",
+      "id": "ford-e-series-4th-gen"
+    },
+    "alongside": [],
+    "quick": "The first body-on-frame American van won Motor Trend's first Truck of the Year in 1978, took the sales crown in 1980 — and never gave it back while the vans lived.",
+    "story": [
+      "For 1975 Ford did what no American maker had: it put a full-size van on a real truck frame. The VN chassis dropped the hood, moved the engine forward, and — crucially — gave ambulance, bus, box-truck and motorhome builders a proper frame to bolt onto, which is the moment the E-Series became infrastructure rather than just a vehicle. Motor Trend made it the first-ever Truck of the Year in 1978; by 1980 it was America's best-selling full-size van, a crown it would wear for the rest of the van's life.",
+      "Seventeen model years let the range grow enormous: 124- and 138-inch wheelbases, the stretched Super Van and Super Wagon from 1978, 15-seat Club Wagons, the indestructible 300 six, V8s up to the 460, and Navistar's 6.9 and 7.3 IDI diesels from 1983. This is the brown-and-tan two-tone van of every 1980s American childhood — the shuttle, the church bus, the plumber's rig, the shag-lined custom — and clean survivors are finally getting collector respect, because nothing says the era like a Chateau with captain's chairs."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "Ford E150 Chateau (1975-78).jpg",
+      "credit": "Mr.choppers",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pos": ""
+    },
+    "match": [
+      "Ford Econoline",
+      "Ford E-Series"
+    ]
+  },
+  {
+    "id": "ford-e-series-4th-gen",
+    "family": {
+      "id": "ford-e-series",
+      "name": "Ford E-Series"
+    },
+    "name": "Ford E-Series (fourth generation)",
+    "aka": [
+      "Econoline",
+      "Club Wagon",
+      "E-150",
+      "E-250",
+      "E-350",
+      "E-450",
+      "E-Series cutaway"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Ohio Assembly, Avon Lake, Ohio)",
+    "country": "United States",
+    "years": "1992–present",
+    "start": 1992,
+    "end": null,
+    "shop": {
+      "cargurus": "d2384"
+    },
+    "body": "Full-size van and wagon through 2014; cutaway and stripped chassis ever since — the box trucks, shuttles and RVs of America",
+    "engine": "4.9 six and Windsor V8s, then Triton 4.6/5.4/6.8; Power Stroke diesels; 7.3 Godzilla V8 since 2021",
+    "drive": "Rear-wheel drive",
+    "gearbox": "4-speed automatic; 5-speed TorqShift; 6-speed on late cutaways",
+    "specsFor": "2004 E-150 4.6 Triton",
+    "power": {
+      "hp": 225,
+      "note": "4.6 Triton V8; 286 lb-ft",
+      "src": "https://www.cargurus.com/Cars/2004-Ford-E-Series-Trims-c30379"
+    },
+    "weight": {
+      "kg": 2165,
+      "lb": 4773,
+      "note": "Curb weight, E-150, approximate"
+    },
+    "zero60": {
+      "sec": 10.0,
+      "kind": "estimated",
+      "note": "Period tests of Triton E-150s ran around 10 seconds, unloaded"
+    },
+    "top": {
+      "mph": 95,
+      "kind": "estimated",
+      "note": "Speed-limited, approximate"
+    },
+    "mpg": {
+      "combined": 15,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/",
+      "note": "EPA combined, 2005 E-150 wagon with the 4.6; the 5.4 rated 13"
+    },
+    "built": {
+      "count": 3154948,
+      "approx": true,
+      "note": "US sales 1997–2023 alone; the generation's full total is far higher",
+      "src": "https://en.wikipedia.org/wiki/Ford_E-Series"
+    },
+    "versions": [
+      {
+        "name": "E-150 (4.6 Triton)",
+        "detail": "The default American van for two decades"
+      },
+      {
+        "name": "4.9 inline-6 (1992–96)",
+        "detail": "The last of the great Ford sixes in a van",
+        "power": {
+          "hp": 150,
+          "note": "4.9 300 six, SAE net, fuel-injected",
+          "src": "https://www.kbb.com/ford/econoline/1994/specs"
+        },
+        "weight": {
+          "kg": 2165,
+          "lb": 4773,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 12.5,
+          "kind": "estimated",
+          "note": "Period-typical, unloaded"
+        },
+        "top": {
+          "mph": 90,
+          "kind": "estimated",
+          "note": "Approximate"
+        },
+        "mpg": {
+          "combined": 14,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 1995 E-150"
+        }
+      },
+      {
+        "name": "5.4 and 6.8 Triton (1997–2014)",
+        "detail": "The workhorses — 255-hp V8 or the 305-hp, 420-lb-ft V10",
+        "power": {
+          "hp": 255,
+          "note": "5.4 Triton; 350 lb-ft. The 6.8 V10: 305 hp, 420 lb-ft",
+          "src": "https://www.cargurus.com/Cars/2004-Ford-E-Series-Trims-c30379"
+        },
+        "weight": {
+          "kg": 2404,
+          "lb": 5300,
+          "note": "Curb weight, E-350, approximate"
+        },
+        "zero60": {
+          "sec": 10.5,
+          "kind": "estimated",
+          "note": "Period-typical, unloaded"
+        },
+        "top": {
+          "mph": 95,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "combined": 13,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2005 E-150 wagon, 5.4"
+        }
+      },
+      {
+        "name": "Power Stroke diesels (1995–2010)",
+        "detail": "The 7.3 that ambulance fleets still hunt for, then the troubled 6.0",
+        "power": {
+          "hp": 215,
+          "note": "7.3 Power Stroke in final tune; the 6.0 made 235",
+          "src": "https://www.cargurus.com/Cars/2004-Ford-E-Series-Trims-c30379"
+        },
+        "weight": {
+          "kg": 2585,
+          "lb": 5700,
+          "note": "Curb weight, E-350 diesel, approximate"
+        },
+        "zero60": {
+          "sec": 13.5,
+          "kind": "estimated",
+          "note": "Period-typical, unloaded"
+        },
+        "top": {
+          "mph": 90,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "na": "Diesel 350s sat above the EPA's rating line"
+        }
+      },
+      {
+        "name": "E-Series cutaway (2015–)",
+        "detail": "The van is dead; long live the van — box trucks, shuttles and RVs, now Godzilla-powered",
+        "power": {
+          "hp": 300,
+          "note": "7.3 Godzilla V8 since 2021, 425 lb-ft; a 350-hp, 468-lb-ft premium calibration optional",
+          "src": "https://media.ford.com/content/dam/fordmedia/North%20America/US/product/2021/e-series/2021-E-Series-TechSpecs.pdf"
+        },
+        "weight": {
+          "na": "Ships as an incomplete vehicle — the weight is whatever the body builder makes it"
+        },
+        "zero60": {
+          "na": "Nobody instruments a box truck; it depends entirely on the body"
+        },
+        "top": {
+          "mph": 75,
+          "kind": "estimated",
+          "note": "Typically speed-limited for fleets"
+        },
+        "mpg": {
+          "na": "Above the EPA's rating line"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Ford Econoline (third generation)",
+      "id": "ford-econoline-3rd-gen"
+    },
+    "successor": {
+      "name": "Ford Transit (fourth generation, US)",
+      "id": "ford-transit"
+    },
+    "alongside": [
+      {
+        "name": "Ford Transit (fourth generation, US)",
+        "id": "ford-transit"
+      }
+    ],
+    "quick": "Motor Trend's 1992 Truck of the Year became the longest-serving American van: best-seller every year the vans lived, retired in 2014 — and still rolling off the Ohio line as a cutaway.",
+    "story": [
+      "The 1992 redesign kept the proven frame and wrapped it in a modern body — flush glass, a driver airbag, Motor Trend's Truck of the Year award — and then simply refused to leave. Econoline became E-Series in 1999, the Triton 4.6, 5.4 and 6.8 V10 replaced the old sixes and Windsors, the 7.3 Power Stroke made diesel 350s immortal, and 12- and 15-passenger wagons moved America's teams, churches and airport shuttles. A 2014 E-150 started at $28,600 — about $40,600 in 2026 dollars — and every year the vans were sold, they were the best-selling full-size vans in the country, a streak running back to 1980.",
+      "Van and wagon production ended in June 2014 when the Transit took over, but the E-Series never actually died: the cutaway and stripped chassis kept rolling at Avon Lake for the box trucks, ambulances, school buses and RVs that still want a frame. Since 2021 the sole engine is the 7.3-liter Godzilla V8, and the chassis still sells 30,000–45,000 a year — which means the van that debuted with flush glass and a cassette deck is now a 34-year-old platform outselling plenty of whole car lines. More than 8.2 million Econolines and E-Series in all: the third-best-selling van line in history."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "2008 Ford E-Series wagon.jpg",
+      "credit": "IFCAR",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:2008_Ford_E-Series_wagon.jpg",
+      "pos": ""
+    },
+    "match": [
+      "Ford Econoline",
+      "Ford E-Series"
     ]
   }
 ];

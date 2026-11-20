@@ -50346,7 +50346,7 @@ const CARS = [
     "versions": [
       {
         "name": "E-150 (4.6 Triton)",
-        "detail": "The default American van for two decades"
+        "detail": "The default American van for 20 years"
       },
       {
         "name": "4.9 inline-6 (1992–96)",

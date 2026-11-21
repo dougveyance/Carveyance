@@ -32616,5 +32616,149 @@ const CARS_INDEX = [
    "pos": "",
    "fit": ""
   }
+ },
+ {
+  "id": "ford-edge-1st-gen",
+  "name": "Ford Edge (first generation)",
+  "aka": [
+   "Edge SE",
+   "Edge SEL",
+   "Edge Limited",
+   "Edge Sport"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Oakville Assembly, Ontario, Canada)",
+  "years": "2007–2014",
+  "start": 2007,
+  "body": "2-row midsize crossover — Ford's first proper car-based family hauler after the Explorer went truck-flavored",
+  "engine": "3.5 Duratec V6; 3.7 V6 in the Sport; 2.0 EcoBoost from 2011",
+  "country": "Canada",
+  "quick": "Ford's first modern 2-row crossover found 130,125 buyers in year 1 and never looked back — the quiet workhorse that taught Dearborn America wanted car bones under SUV bodies.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Front-wheel drive; all-wheel drive optional",
+  "gearbox": "6-speed automatic",
+  "specsFor": "2011 Edge SEL 3.5",
+  "guide": null,
+  "shop": {
+   "cargurus": "d923"
+  },
+  "hp": 285,
+  "kg": 1921,
+  "kgNote": "Curb weight, all-wheel drive",
+  "lbs": 4234,
+  "z60": {
+   "sec": 7.9,
+   "kind": "estimated",
+   "note": "Period tests of the 3.5"
+  },
+  "top": {
+   "mph": 115,
+   "kind": "estimated",
+   "note": "Speed-limited, approximate"
+  },
+  "mpg": {
+   "combined": 22,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, facelifted front-drive 3.5; the 2007 original rated 19"
+  },
+  "built": {
+   "count": 937954,
+   "approx": true,
+   "note": "Sold in the US, 2006–2014 calendar years"
+  },
+  "alongside": [
+   {
+    "id": null,
+    "name": "Ford Explorer"
+   }
+  ],
+  "prev": null,
+  "next": {
+   "id": "ford-edge-2nd-gen",
+   "name": "Ford Edge (second generation)"
+  },
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/2007-Ford-Edge-SEL-1.jpg/960px-2007-Ford-Edge-SEL-1.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "ford-edge-2nd-gen",
+  "name": "Ford Edge (second generation)",
+  "aka": [
+   "Edge Sport",
+   "Edge ST",
+   "Edge ST-Line",
+   "Edge Titanium"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Oakville Assembly, Ontario, Canada)",
+  "years": "2015–2024",
+  "start": 2015,
+  "body": "2-row midsize crossover, grown stiffer and quieter — and eventually the first SUV to wear an ST badge",
+  "engine": "2.0 EcoBoost standard; 3.5 V6 and 2.7 EcoBoost through 2018; 335-hp 2.7 in the ST",
+  "country": "Canada",
+  "quick": "A decade of quiet competence, a 335-hp ST party trick — and then Ford killed its 2-row crossover at 2 million total sold, leaving the segment to everyone else.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Front-wheel drive; all-wheel drive optional, standard on ST",
+  "gearbox": "6-speed automatic; 8-speed from 2019",
+  "specsFor": "2016 Edge 2.0 EcoBoost",
+  "guide": null,
+  "shop": {
+   "cargurus": "d923"
+  },
+  "hp": 245,
+  "kg": 1796,
+  "kgNote": "Curb weight, front-drive, approximate",
+  "lbs": 3959,
+  "z60": {
+   "sec": 7.8,
+   "kind": "estimated",
+   "note": "Period tests, 2.0 front-drive"
+  },
+  "top": {
+   "mph": 115,
+   "kind": "estimated",
+   "note": "Speed-limited, approximate"
+  },
+  "mpg": {
+   "combined": 24,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "EPA combined, front-drive; 23 with all-wheel drive"
+  },
+  "built": {
+   "count": 1129098,
+   "approx": true,
+   "note": "Sold in the US, 2015–2025 calendar years"
+  },
+  "alongside": [
+   {
+    "id": "ford-escape-4th-gen",
+    "name": "Ford Escape (fourth generation)"
+   }
+  ],
+  "prev": {
+   "id": "ford-edge-1st-gen",
+   "name": "Ford Edge (first generation)"
+  },
+  "next": null,
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Ford_Edge_ST_09-21-2019.jpg/960px-Ford_Edge_ST_09-21-2019.jpg",
+   "pos": "",
+   "fit": ""
+  }
  }
 ];

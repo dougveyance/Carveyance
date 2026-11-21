@@ -1,0 +1,301 @@
+{
+ "id": "ford-econoline",
+ "make": "Ford",
+ "model": "Econoline / E-Series",
+ "years": "1961–2026",
+ "byline": "Camille Bouchard",
+ "published": "2026-11-20",
+ "updated": "2026-11-20",
+ "cars": [
+  "ford-econoline-1st-gen",
+  "ford-econoline-2nd-gen",
+  "ford-econoline-3rd-gen",
+  "ford-e-series-4th-gen"
+ ],
+ "shop": {
+  "cargurus": "d2384"
+ },
+ "chapters": [
+  "flat-nose-years",
+  "truck-frame-era",
+  "e-series-era",
+  "cutaway-forever"
+ ],
+ "series": {
+  "h61": {
+   "name": "1961, 144 six (gross)",
+   "color": "#9aa5b1"
+  },
+  "h84": {
+   "name": "1984, 5.0 V8 (net)",
+   "color": "#9aa5b1"
+  },
+  "h04": {
+   "name": "2004, 4.6 Triton",
+   "color": "#2E6E96"
+  },
+  "h05": {
+   "name": "6.8 Triton V10",
+   "color": "#2E6E96"
+  },
+  "h21": {
+   "name": "7.3 Godzilla, premium",
+   "color": "#e05c2a"
+  },
+  "m85": {
+   "name": "1985, 4.9 six",
+   "color": "#9aa5b1"
+  },
+  "m95": {
+   "name": "1995, 4.9 six",
+   "color": "#9aa5b1"
+  },
+  "m05": {
+   "name": "2005, 4.6 Triton",
+   "color": "#2E6E96"
+  },
+  "m05b": {
+   "name": "2005, 5.4 Triton",
+   "color": "#2E6E96"
+  },
+  "s19": {
+   "name": "2019",
+   "color": "#2E6E96"
+  },
+  "s20": {
+   "name": "2020",
+   "color": "#9aa5b1"
+  },
+  "s21": {
+   "name": "2021",
+   "color": "#9aa5b1"
+  },
+  "s22": {
+   "name": "2022",
+   "color": "#9aa5b1"
+  },
+  "s23": {
+   "name": "2023",
+   "color": "#2E6E96"
+  },
+  "p61": {
+   "name": "1961 standard van",
+   "color": "#9aa5b1"
+  },
+  "p14": {
+   "name": "2014 E-150, the last",
+   "color": "#2E6E96"
+  }
+ },
+ "charts": {
+  "power": {
+   "n": 1,
+   "title": "Sixty years of van power",
+   "sub": "Horsepower by era. Pre-1972 figures are the period's gross ratings; the rest are SAE net.",
+   "source": "Ford specifications and period references",
+   "bars": [
+    [
+     "h61",
+     85,
+     "85 hp"
+    ],
+    [
+     "h84",
+     140,
+     "140 hp"
+    ],
+    [
+     "h04",
+     225,
+     "225 hp"
+    ],
+    [
+     "h05",
+     305,
+     "305 hp"
+    ],
+    [
+     "h21",
+     350,
+     "350 hp"
+    ]
+   ]
+  },
+  "mpg": {
+   "n": 2,
+   "title": "EPA combined fuel economy, E-150",
+   "sub": "Miles per gallon, rated versions. The case the Transit eventually won.",
+   "source": "US EPA, fueleconomy.gov",
+   "bars": [
+    [
+     "m85",
+     14,
+     "14 mpg"
+    ],
+    [
+     "m95",
+     14,
+     "14 mpg"
+    ],
+    [
+     "m05",
+     15,
+     "15 mpg"
+    ],
+    [
+     "m05b",
+     13,
+     "13 mpg"
+    ]
+   ]
+  },
+  "sales": {
+   "n": 3,
+   "title": "Dead van walking: cutaway sales",
+   "sub": "US sales since the \"last\" E-Series van left in 2014 — chassis only, and still 30,000-plus a year.",
+   "source": "Ford US sales figures",
+   "bars": [
+    [
+     "s19",
+     45063,
+     "45,063"
+    ],
+    [
+     "s20",
+     37001,
+     "37,001"
+    ],
+    [
+     "s21",
+     37122,
+     "37,122"
+    ],
+    [
+     "s22",
+     32150,
+     "32,150"
+    ],
+    [
+     "s23",
+     42957,
+     "42,957"
+    ]
+   ]
+  },
+  "price": {
+   "n": 4,
+   "title": "First van, last van, in 2026 dollars",
+   "sub": "Base stickers, inflation-adjusted. Originals: $1,881 (1961 standard van), $28,600 (2014 E-150).",
+   "source": "Ford pricing, adjusted by US CPI",
+   "bars": [
+    [
+     "p61",
+     21200,
+     "$21,200"
+    ],
+    [
+     "p14",
+     40600,
+     "$40,600"
+    ]
+   ]
+  }
+ },
+ "photos": {
+  "hub-hero": {
+   "credit": "MercurySable99",
+   "page": "https://commons.wikimedia.org/wiki/File:2006_Ford_E-150_Van_Commercial,_front_left,_07-12-2023.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": "A white 2006 Ford E-150 commercial van, front three-quarter view"
+  },
+  "ch1-hero": {
+   "credit": "dave_7",
+   "page": "https://commons.wikimedia.org/wiki/File:2ndgen_Econoline.jpg",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "alt": "A lime green second-generation Ford Econoline window van parked in snow"
+  },
+  "ch2-hero": {
+   "credit": "Mr.choppers",
+   "page": "https://commons.wikimedia.org/wiki/File:Ford_Club_Wagon,_rear_right_(eighties).jpg",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": "A light blue 1980s Ford Club Wagon with a roof rack, rear three-quarter view"
+  },
+  "ch3-hero": {
+   "credit": "Kieran White",
+   "page": "https://commons.wikimedia.org/wiki/File:1992_Ford_Econoline_5.8_(17679892119).jpg",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "alt": "A black 1992 Ford Econoline high-top conversion van, front three-quarter view"
+  },
+  "ch4-hero": {
+   "credit": "HJUdall",
+   "page": "https://commons.wikimedia.org/wiki/File:25_Ford_E-450_Cutaway_XL_Box_Truck.jpg",
+   "license": "CC0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "alt": "A white 2025 Ford E-450 cutaway box truck on a dealer lot"
+  }
+ },
+ "find": {
+  "picker": [
+   {
+    "model": "E-Series / Econoline",
+    "years": "1992–2014",
+    "ch": "e-series-era"
+   },
+   {
+    "model": "Econoline",
+    "years": "1961–1991",
+    "ch": "truck-frame-era"
+   },
+   {
+    "model": "E-Series cutaway",
+    "years": "2015–2026",
+    "ch": "cutaway-forever"
+   }
+  ],
+  "terms": {
+   "": [
+    "Econoline",
+    "E-Series",
+    "E-150",
+    "E-250",
+    "E-350",
+    "full-size van",
+    "work van"
+   ],
+   "flat-nose-years": [
+    "1961",
+    "flat nose",
+    "Econoline pickup",
+    "Club Wagon",
+    "Falcon van",
+    "custom van"
+   ],
+   "truck-frame-era": [
+    "1975",
+    "Club Wagon",
+    "Chateau",
+    "300 six",
+    "460",
+    "shuttle van"
+   ],
+   "e-series-era": [
+    "Triton",
+    "Power Stroke",
+    "15 passenger",
+    "conversion van",
+    "church van"
+   ],
+   "cutaway-forever": [
+    "cutaway",
+    "E-450",
+    "box truck",
+    "RV chassis",
+    "Godzilla"
+   ]
+  }
+ }
+}

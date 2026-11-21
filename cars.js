@@ -50492,5 +50492,292 @@ const CARS = [
       "Ford Econoline",
       "Ford E-Series"
     ]
+  },
+  {
+    "id": "ford-gt-2005",
+    "family": {
+      "id": "ford-gt",
+      "name": "Ford GT"
+    },
+    "name": "Ford GT (2005–2006)",
+    "aka": [
+      "GT40 successor",
+      "Heritage"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Wixom, Michigan; bodies by Mayflower, Norwalk, Ohio)",
+    "country": "United States",
+    "years": "2005–2006",
+    "start": 2005,
+    "end": 2006,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Mid-engine 2-seat supercar — the GT40 reborn at 10/10ths scale for Ford's centennial",
+    "engine": "5.4 supercharged V8",
+    "drive": "Rear-wheel drive",
+    "gearbox": "Ricardo 6-speed manual",
+    "specsFor": "2005 Ford GT",
+    "power": {
+      "hp": 550,
+      "note": "5.4 V8 with an Eaton screw-type supercharger; 500 lb-ft",
+      "src": "https://en.wikipedia.org/wiki/Ford_GT"
+    },
+    "weight": {
+      "kg": 1581,
+      "lb": 3485,
+      "note": "Curb weight",
+      "src": "https://en.wikipedia.org/wiki/Ford_GT"
+    },
+    "zero60": {
+      "sec": 3.3,
+      "kind": "tested",
+      "note": "Car and Driver's test; MotorWeek saw 3.7",
+      "src": "https://www.0-60specs.com/ford/gt-0-60-times"
+    },
+    "top": {
+      "mph": 205,
+      "kind": "tested",
+      "note": "Verified in period testing",
+      "src": "https://en.wikipedia.org/wiki/Ford_GT"
+    },
+    "mpg": {
+      "combined": 14,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/",
+      "note": "12 city, 19 highway"
+    },
+    "built": {
+      "count": 4038,
+      "note": "2004–2006 production; 3,221 sold in the US",
+      "src": "https://en.wikipedia.org/wiki/Ford_GT"
+    },
+    "versions": [
+      {
+        "name": "Ford GT",
+        "detail": "550 supercharged horses and a proper gated-feeling 6-speed"
+      },
+      {
+        "name": "Heritage (2006)",
+        "detail": "The Gulf-livery tribute to the 1968–69 Le Mans wins — the one collectors fight over",
+        "power": {
+          "hp": 550,
+          "note": "500 lb-ft, unchanged",
+          "src": "https://en.wikipedia.org/wiki/Ford_GT"
+        },
+        "weight": {
+          "kg": 1581,
+          "lb": 3485,
+          "note": "Curb weight",
+          "src": "https://en.wikipedia.org/wiki/Ford_GT"
+        },
+        "zero60": {
+          "sec": 3.3,
+          "kind": "tested",
+          "note": "Car and Driver's test",
+          "src": "https://www.0-60specs.com/ford/gt-0-60-times"
+        },
+        "top": {
+          "mph": 205,
+          "kind": "tested",
+          "note": "Verified in period testing",
+          "src": "https://en.wikipedia.org/wiki/Ford_GT"
+        },
+        "mpg": {
+          "combined": 14,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "12 city, 19 highway"
+        },
+        "built": {
+          "count": 346,
+          "note": "Heritage editions",
+          "src": "https://en.wikipedia.org/wiki/Ford_GT"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Ford GT40",
+      "id": null
+    },
+    "successor": {
+      "name": "Ford GT (2017–2022)",
+      "id": "ford-gt-2017"
+    },
+    "alongside": [],
+    "quick": "Ford's 100th-birthday present to itself: the GT40 reborn with 550 supercharged horses, a $139,995 sticker — and the rare supercar that never depreciated a single day.",
+    "story": [
+      "For its 2003 centennial Ford did the one thing everyone wanted: it built the GT40 again. Camilo Pardo's design under J Mays scaled the Le Mans legend up just enough for actual humans, Carroll Shelby consulted because of course he did, and the name lost its \"40\" only because of a trademark dispute. Underneath sat an aluminum spaceframe and a 5.4-liter V8 with an Eaton screw supercharger — 550 hp, 500 lb-ft, Ricardo 6-speed — good for 3.3 seconds to 60 in Car and Driver's hands and a verified 205 mph. The price was the shock of 2004: $139,995, about $241,100 in 2026 dollars, for a car that embarrassed machinery costing twice as much.",
+      "Ford built 4,038 of them through 2006, including 346 Gulf-liveried Heritage editions, and the market never let them go: the GT skipped depreciation entirely and became the blue-chip American collectible of its era, with Heritage cars leading the charge. It is also, by consensus, one of the friendliest supercars ever made — docile in traffic, mechanically robust, serviced with Ford parts — which is why so many have real miles. The lesson wasn't lost on anyone: when Ford builds its legend properly, the world shows up with money."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "2005 Ford GT 7.jpg",
+      "credit": "Calreyn88",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pos": ""
+    },
+    "match": [
+      "Ford GT"
+    ]
+  },
+  {
+    "id": "ford-gt-2017",
+    "family": {
+      "id": "ford-gt",
+      "name": "Ford GT"
+    },
+    "name": "Ford GT (2017–2022)",
+    "aka": [
+      "GT Mk II",
+      "GT Mk IV",
+      "Liquid Carbon",
+      "LM Edition"
+    ],
+    "make": "Ford",
+    "maker": "Multimatic (Markham, Ontario, Canada)",
+    "country": "Canada",
+    "years": "2017–2022",
+    "start": 2017,
+    "end": 2022,
+    "shop": {
+      "list": "collector"
+    },
+    "body": "Carbon-fiber monocoque supercar built around a Le Mans race car — flying buttresses, active aero, and an application to buy one",
+    "engine": "3.5 twin-turbo EcoBoost V6",
+    "drive": "Rear-wheel drive",
+    "gearbox": "Getrag 7-speed dual-clutch",
+    "specsFor": "2017 Ford GT",
+    "power": {
+      "hp": 647,
+      "note": "3.5 twin-turbo V6; 550 lb-ft",
+      "src": "https://en.wikipedia.org/wiki/Ford_GT"
+    },
+    "weight": {
+      "kg": 1521,
+      "lb": 3354,
+      "note": "Curb weight as tested; Ford's dry figure ran about 300 lb lighter",
+      "src": "https://www.rkmotors.com/blog/2017-Ford-GT"
+    },
+    "zero60": {
+      "sec": 3.0,
+      "kind": "tested",
+      "note": "Car and Driver — with a 10.8-second quarter mile and 1.11 g on the skidpad",
+      "src": "https://www.0-60specs.com/ford/gt-0-60-times"
+    },
+    "top": {
+      "mph": 216,
+      "kind": "claimed",
+      "note": "Ford's figure",
+      "src": "https://en.wikipedia.org/wiki/Ford_GT"
+    },
+    "mpg": {
+      "combined": 14,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/",
+      "note": "11 city, 18 highway"
+    },
+    "built": {
+      "count": 1350,
+      "note": "Total 2017–2022 production",
+      "src": "https://www.yahoo.com/tech/ford-gt-three-greatest-cars-135700733.html"
+    },
+    "versions": [
+      {
+        "name": "GT (2017–19, 647 hp)",
+        "detail": "The Le Mans winner's road-legal twin — sold by application only"
+      },
+      {
+        "name": "GT (2020–22, 660 hp)",
+        "detail": "The running change — more power, Liquid Carbon and Heritage specials",
+        "power": {
+          "hp": 660,
+          "note": "550 lb-ft unchanged",
+          "src": "https://en.wikipedia.org/wiki/Ford_GT"
+        },
+        "weight": {
+          "kg": 1521,
+          "lb": 3354,
+          "note": "Curb weight as tested",
+          "src": "https://www.rkmotors.com/blog/2017-Ford-GT"
+        },
+        "zero60": {
+          "sec": 3.0,
+          "kind": "tested",
+          "note": "Figure from the 647-hp test car",
+          "src": "https://www.0-60specs.com/ford/gt-0-60-times"
+        },
+        "top": {
+          "mph": 216,
+          "kind": "claimed",
+          "note": "Ford's figure",
+          "src": "https://en.wikipedia.org/wiki/Ford_GT"
+        },
+        "mpg": {
+          "combined": 14,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "11 city, 18 highway"
+        }
+      },
+      {
+        "name": "Mk II and Mk IV (track-only)",
+        "detail": "The send-offs: 45 Mk IIs at $1.2 million, 67 Mk IVs at $1.7 million",
+        "power": {
+          "hp": 700,
+          "note": "Mk II; the final Mk IV targeted over 800",
+          "src": "https://en.wikipedia.org/wiki/Ford_GT"
+        },
+        "weight": {
+          "na": "Track-only specials — Ford quoted dry figures only"
+        },
+        "zero60": {
+          "na": "Not road-registered and never independently tested"
+        },
+        "top": {
+          "na": "Gearing varies by configuration"
+        },
+        "mpg": {
+          "na": "Track-only — no EPA rating"
+        },
+        "built": {
+          "count": 112,
+          "note": "45 Mk II and 67 Mk IV",
+          "src": "https://en.wikipedia.org/wiki/Ford_GT"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Ford GT (2005–2006)",
+      "id": "ford-gt-2005"
+    },
+    "successor": null,
+    "alongside": [
+      {
+        "name": "Ford Mustang (seventh generation)",
+        "id": "ford-mustang-7th-gen"
+      }
+    ],
+    "quick": "Built to win Le Mans 50 years after the GT40 did — and it did, in 2016 — then sold as 1,350 road cars you had to apply for, at $450,000 a seat.",
+    "story": [
+      "This one ran backward: Ford designed the race car first, won the GT class at Le Mans in June 2016 — 50 years to the weekend after the GT40's 1966 sweep — and then let Multimatic in Ontario hand-build the road version. A carbon monocoque, pushrod suspension, active aero and a 647-hp twin-turbo EcoBoost V6 made it the least sentimental supercar Ford could have built, and the most focused: Car and Driver ran 3.0 to 60, a 10.8 quarter and 1.11 g, and Ford claimed 216 mph flat out. The price was $450,000 — about $617,000 in 2026 dollars — and you couldn't simply pay it: buyers applied, and Ford chose.",
+      "Production ran to just 1,350 cars through 2022, salted with Heritage liveries — Gulf colors included — the exposed-weave Liquid Carbon at $750,000, and the track-only send-offs: 45 Mk IIs and 67 Mk IVs at up to $1.7 million. Purists grumbled about 6 cylinders until they drove it; the V6 was the point, the same logic that won the race. Between the 2 generations, the GT pulled off something rare twice — an American supercar with nothing to prove and no depreciation curve, because the legend underneath was already paid for in 1966."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "2017 Ford GT (94302).jpg",
+      "credit": "Calreyn88",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pos": ""
+    },
+    "match": [
+      "Ford GT"
+    ]
   }
 ];

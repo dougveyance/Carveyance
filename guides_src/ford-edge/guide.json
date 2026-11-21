@@ -1,0 +1,274 @@
+{
+ "id": "ford-edge",
+ "make": "Ford",
+ "model": "Edge",
+ "years": "2007–2024",
+ "byline": "Jolice Franklyn",
+ "published": "2026-11-20",
+ "updated": "2026-11-20",
+ "cars": [
+  "ford-edge-1st-gen",
+  "ford-edge-2nd-gen"
+ ],
+ "shop": {
+  "cargurus": "d923"
+ },
+ "chapters": [
+  "2007-2014",
+  "2015-2024",
+  "used-checklist"
+ ],
+ "series": {
+  "h20": {
+   "name": "2.0 EcoBoost",
+   "color": "#2E6E96"
+  },
+  "h35": {
+   "name": "3.5 V6 (2007)",
+   "color": "#9aa5b1"
+  },
+  "h35b": {
+   "name": "3.5 V6 (2011)",
+   "color": "#9aa5b1"
+  },
+  "h37": {
+   "name": "3.7 Sport",
+   "color": "#e05c2a"
+  },
+  "hst": {
+   "name": "2.7 ST",
+   "color": "#e05c2a"
+  },
+  "s07": {
+   "name": "2007, year 1",
+   "color": "#9aa5b1"
+  },
+  "s13": {
+   "name": "2013",
+   "color": "#9aa5b1"
+  },
+  "s17": {
+   "name": "2017, the peak",
+   "color": "#2E6E96"
+  },
+  "s21": {
+   "name": "2021",
+   "color": "#2E6E96"
+  },
+  "s24": {
+   "name": "2024, the end",
+   "color": "#e05c2a"
+  },
+  "m35": {
+   "name": "3.5 V6, 2013",
+   "color": "#9aa5b1"
+  },
+  "m27": {
+   "name": "2.7 Sport, 2016",
+   "color": "#e05c2a"
+  },
+  "m20": {
+   "name": "2.0, 2016",
+   "color": "#2E6E96"
+  },
+  "mst": {
+   "name": "ST, 2020",
+   "color": "#e05c2a"
+  },
+  "b1": {
+   "name": "First generation",
+   "color": "#9aa5b1"
+  },
+  "b2": {
+   "name": "Second generation",
+   "color": "#2E6E96"
+  }
+ },
+ "charts": {
+  "power": {
+   "n": 1,
+   "title": "From family six to first SUV ST",
+   "sub": "Horsepower across 17 years of Edge.",
+   "source": "Ford specifications",
+   "bars": [
+    [
+     "h20",
+     245,
+     "245 hp"
+    ],
+    [
+     "h35",
+     265,
+     "265 hp"
+    ],
+    [
+     "h35b",
+     285,
+     "285 hp"
+    ],
+    [
+     "h37",
+     305,
+     "305 hp"
+    ],
+    [
+     "hst",
+     335,
+     "335 hp"
+    ]
+   ]
+  },
+  "sales": {
+   "n": 2,
+   "title": "17 steady years, then the plug",
+   "sub": "US sales in selected calendar years — about 2.07 million in total.",
+   "source": "Ford US sales figures",
+   "bars": [
+    [
+     "s07",
+     130125,
+     "130,125"
+    ],
+    [
+     "s13",
+     129109,
+     "129,109"
+    ],
+    [
+     "s17",
+     142603,
+     "142,603"
+    ],
+    [
+     "s21",
+     85225,
+     "85,225"
+    ],
+    [
+     "s24",
+     66436,
+     "66,436"
+    ]
+   ]
+  },
+  "mpg": {
+   "n": 3,
+   "title": "EPA combined fuel economy",
+   "sub": "Miles per gallon — the turbo-4 is why the V6s retired.",
+   "source": "US EPA, fueleconomy.gov",
+   "bars": [
+    [
+     "m27",
+     20,
+     "20 mpg"
+    ],
+    [
+     "mst",
+     21,
+     "21 mpg"
+    ],
+    [
+     "m35",
+     22,
+     "22 mpg"
+    ],
+    [
+     "m20",
+     24,
+     "24 mpg"
+    ]
+   ]
+  },
+  "built": {
+   "n": 4,
+   "title": "2 generations, 2 million sold",
+   "sub": "US sales by generation, 2006–2025.",
+   "source": "Ford US sales figures",
+   "bars": [
+    [
+     "b1",
+     937954,
+     "937,954"
+    ],
+    [
+     "b2",
+     1129098,
+     "1,129,098"
+    ]
+   ]
+  }
+ },
+ "photos": {
+  "hub-hero": {
+   "credit": "HJUdall",
+   "page": "https://commons.wikimedia.org/wiki/File:22_Ford_Edge_ST-Line.jpg",
+   "license": "CC0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "alt": "A white 2022 Ford Edge ST-Line on a dealer lot, front three-quarter view"
+  },
+  "ch1-hero": {
+   "credit": "IFCAR",
+   "page": "https://commons.wikimedia.org/wiki/File:2011_Ford_Edge_Sport_--_2011_DC.jpg",
+   "license": "Public domain",
+   "licenseUrl": "https://commons.wikimedia.org/wiki/File:2011_Ford_Edge_Sport_--_2011_DC.jpg",
+   "alt": "A black 2011 Ford Edge Sport at the Washington Auto Show"
+  },
+  "ch2-hero": {
+   "credit": "Tomás Del Coro",
+   "page": "https://commons.wikimedia.org/wiki/File:Ford_2015_Edge_(15951838771).jpg",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "alt": "A red 2015 Ford Edge on an auto show floor, rear three-quarter view"
+  },
+  "ch3-hero": {
+   "credit": "OWS Photography",
+   "page": "https://commons.wikimedia.org/wiki/File:Ford_Edge_ST_(CD539)_Washington_DC_Metro_Area,_USA.jpg",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "alt": "A black Ford Edge ST crossing a city intersection, seen from above"
+  }
+ },
+ "find": {
+  "picker": [
+   {
+    "model": "Edge",
+    "years": "2015–2024",
+    "ch": "2015-2024"
+   },
+   {
+    "model": "Edge",
+    "years": "2007–2014",
+    "ch": "2007-2014"
+   }
+  ],
+  "terms": {
+   "": [
+    "Edge",
+    "Ford Edge",
+    "midsize SUV",
+    "2-row SUV",
+    "family crossover"
+   ],
+   "2007-2014": [
+    "first Edge",
+    "2007",
+    "Edge Sport",
+    "MyFord Touch",
+    "3.5 V6"
+   ],
+   "2015-2024": [
+    "Edge ST",
+    "2.7 EcoBoost",
+    "Edge Sport",
+    "ST-Line",
+    "Titanium"
+   ],
+   "used-checklist": [
+    "used Edge",
+    "Edge problems",
+    "water pump",
+    "inspection"
+   ]
+  }
+ }
+}

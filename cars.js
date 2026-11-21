@@ -50779,5 +50779,350 @@ const CARS = [
     "match": [
       "Ford GT"
     ]
+  },
+  {
+    "id": "ford-edge-1st-gen",
+    "family": {
+      "id": "ford-edge",
+      "name": "Ford Edge"
+    },
+    "name": "Ford Edge (first generation)",
+    "aka": [
+      "Edge SE",
+      "Edge SEL",
+      "Edge Limited",
+      "Edge Sport"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Oakville Assembly, Ontario, Canada)",
+    "country": "Canada",
+    "years": "2007–2014",
+    "start": 2007,
+    "end": 2014,
+    "shop": {
+      "cargurus": "d923"
+    },
+    "body": "2-row midsize crossover — Ford's first proper car-based family hauler after the Explorer went truck-flavored",
+    "engine": "3.5 Duratec V6; 3.7 V6 in the Sport; 2.0 EcoBoost from 2011",
+    "drive": "Front-wheel drive; all-wheel drive optional",
+    "gearbox": "6-speed automatic",
+    "specsFor": "2011 Edge SEL 3.5",
+    "power": {
+      "hp": 285,
+      "note": "3.5 Duratec V6, post-facelift; 253 lb-ft. The 2007 original made 265",
+      "src": "https://en.wikipedia.org/wiki/Ford_Edge"
+    },
+    "weight": {
+      "kg": 1921,
+      "lb": 4234,
+      "note": "Curb weight, all-wheel drive",
+      "src": "https://en.wikipedia.org/wiki/Ford_Edge"
+    },
+    "zero60": {
+      "sec": 7.9,
+      "kind": "estimated",
+      "note": "Period tests of the 3.5"
+    },
+    "top": {
+      "mph": 115,
+      "kind": "estimated",
+      "note": "Speed-limited, approximate"
+    },
+    "mpg": {
+      "combined": 22,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/",
+      "note": "EPA combined, facelifted front-drive 3.5; the 2007 original rated 19"
+    },
+    "built": {
+      "count": 937954,
+      "approx": true,
+      "note": "Sold in the US, 2006–2014 calendar years",
+      "src": "https://en.wikipedia.org/wiki/Ford_Edge"
+    },
+    "versions": [
+      {
+        "name": "3.5 V6",
+        "detail": "The volume Edge — 265 hp at launch, 285 after the 2011 facelift"
+      },
+      {
+        "name": "Sport (3.7, 2011–14)",
+        "detail": "The 22-inch-wheel one — Mustang's 3.7 and paddle shifters",
+        "power": {
+          "hp": 305,
+          "note": "3.7 Duratec V6; 280 lb-ft",
+          "src": "https://en.wikipedia.org/wiki/Ford_Edge"
+        },
+        "weight": {
+          "kg": 1950,
+          "lb": 4300,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 7.5,
+          "kind": "tested",
+          "note": "Period testing of the 3.7 Sport",
+          "src": "https://www.cargurus.com/Cars/l-Used-2012-Ford-Edge-c23043"
+        },
+        "top": {
+          "mph": 115,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "combined": 21,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2013 front-drive"
+        }
+      },
+      {
+        "name": "2.0 EcoBoost (2011–14)",
+        "detail": "The early turbo-4 bet — front-drive only at first, and thriftier than any V6",
+        "power": {
+          "hp": 240,
+          "note": "2.0 turbo; 270 lb-ft",
+          "src": "https://en.wikipedia.org/wiki/Ford_Edge"
+        },
+        "weight": {
+          "kg": 1860,
+          "lb": 4100,
+          "note": "Curb weight, front-drive, approximate"
+        },
+        "zero60": {
+          "sec": 8.5,
+          "kind": "estimated",
+          "note": "Period tests"
+        },
+        "top": {
+          "mph": 112,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "combined": 24,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2013"
+        }
+      }
+    ],
+    "predecessor": null,
+    "successor": {
+      "name": "Ford Edge (second generation)",
+      "id": "ford-edge-2nd-gen"
+    },
+    "alongside": [
+      {
+        "name": "Ford Explorer",
+        "id": null
+      }
+    ],
+    "quick": "Ford's first modern 2-row crossover found 130,125 buyers in year 1 and never looked back — the quiet workhorse that taught Dearborn America wanted car bones under SUV bodies.",
+    "story": [
+      "The 2007 Edge arrived as Ford's answer to a question the Explorer could no longer answer: what if the family hauler drove like a car? Built at Oakville on sedan underpinnings with a 265-hp 3.5 V6 and a 6-speed, it started at $25,995 — about $42,200 in 2026 dollars — and sold 130,125 copies in its first full year. The shape did the selling: chunky, chrome-barred and confident, neither wagon nor truck, at exactly the moment America decided that silhouette was the future.",
+      "The 2011 facelift gave it MyFord Touch (an adventure in patience), 285 hp, and 2 interesting flanks: the Sport with the Mustang's 305-hp 3.7 and optional 22-inch wheels, and the 240-hp 2.0 EcoBoost — Ford's early bet that a turbo-4 could move a 2-ton crossover, which period tests clocked against the V6 and buyers barely noticed either way. Nearly 938,000 sold in 8 years, and the real legacy is the template: every 2-row Ford crossover since is this car's grandchild."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "2007-Ford-Edge-SEL-1.jpg",
+      "credit": "IFCAR",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:2007-Ford-Edge-SEL-1.jpg",
+      "pos": ""
+    },
+    "match": [
+      "Ford Edge"
+    ]
+  },
+  {
+    "id": "ford-edge-2nd-gen",
+    "family": {
+      "id": "ford-edge",
+      "name": "Ford Edge"
+    },
+    "name": "Ford Edge (second generation)",
+    "aka": [
+      "Edge Sport",
+      "Edge ST",
+      "Edge ST-Line",
+      "Edge Titanium"
+    ],
+    "make": "Ford",
+    "maker": "Ford (Oakville Assembly, Ontario, Canada)",
+    "country": "Canada",
+    "years": "2015–2024",
+    "start": 2015,
+    "end": 2024,
+    "shop": {
+      "cargurus": "d923"
+    },
+    "body": "2-row midsize crossover, grown stiffer and quieter — and eventually the first SUV to wear an ST badge",
+    "engine": "2.0 EcoBoost standard; 3.5 V6 and 2.7 EcoBoost through 2018; 335-hp 2.7 in the ST",
+    "drive": "Front-wheel drive; all-wheel drive optional, standard on ST",
+    "gearbox": "6-speed automatic; 8-speed from 2019",
+    "specsFor": "2016 Edge 2.0 EcoBoost",
+    "power": {
+      "hp": 245,
+      "note": "2.0 EcoBoost; 275 lb-ft. The 2019 refresh nudged it to 250",
+      "src": "https://en.wikipedia.org/wiki/Ford_Edge"
+    },
+    "weight": {
+      "kg": 1796,
+      "lb": 3959,
+      "note": "Curb weight, front-drive, approximate"
+    },
+    "zero60": {
+      "sec": 7.8,
+      "kind": "estimated",
+      "note": "Period tests, 2.0 front-drive"
+    },
+    "top": {
+      "mph": 115,
+      "kind": "estimated",
+      "note": "Speed-limited, approximate"
+    },
+    "mpg": {
+      "combined": 24,
+      "unit": "mpg",
+      "kind": "epa",
+      "src": "https://www.fueleconomy.gov/",
+      "note": "EPA combined, front-drive; 23 with all-wheel drive"
+    },
+    "built": {
+      "count": 1129098,
+      "approx": true,
+      "note": "Sold in the US, 2015–2025 calendar years",
+      "src": "https://en.wikipedia.org/wiki/Ford_Edge"
+    },
+    "versions": [
+      {
+        "name": "2.0 EcoBoost",
+        "detail": "The default Edge — the turbo-4 went from option to backbone"
+      },
+      {
+        "name": "3.5 V6 (2015–18)",
+        "detail": "The carryover six for the turbo-skeptical — gone after 2018",
+        "power": {
+          "hp": 280,
+          "note": "3.5 Duratec; 250 lb-ft",
+          "src": "https://en.wikipedia.org/wiki/Ford_Edge"
+        },
+        "weight": {
+          "kg": 1860,
+          "lb": 4100,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 7.5,
+          "kind": "estimated",
+          "note": "Period tests"
+        },
+        "top": {
+          "mph": 115,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "combined": 21,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2016 front-drive"
+        }
+      },
+      {
+        "name": "Sport (2.7 EcoBoost, 2015–18)",
+        "detail": "The twin-turbo F-150 engine in a family crossover — 315 hp, all-wheel drive",
+        "power": {
+          "hp": 315,
+          "note": "2.7 twin-turbo V6; 350 lb-ft",
+          "src": "https://en.wikipedia.org/wiki/Ford_Edge"
+        },
+        "weight": {
+          "kg": 1990,
+          "lb": 4387,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 6.0,
+          "kind": "estimated",
+          "note": "Period tests ran around 6 seconds"
+        },
+        "top": {
+          "mph": 118,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "combined": 20,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2016 all-wheel drive"
+        }
+      },
+      {
+        "name": "ST (2019–24)",
+        "detail": "The first Ford SUV to earn the ST badge — 335 hp, 380 lb-ft, 8-speed",
+        "power": {
+          "hp": 335,
+          "note": "2.7 twin-turbo V6; 380 lb-ft",
+          "src": "https://en.wikipedia.org/wiki/Ford_Edge"
+        },
+        "weight": {
+          "kg": 2031,
+          "lb": 4477,
+          "note": "Curb weight, approximate"
+        },
+        "zero60": {
+          "sec": 5.8,
+          "kind": "estimated",
+          "note": "Period instrumented tests ran high 5s"
+        },
+        "top": {
+          "mph": 118,
+          "kind": "estimated",
+          "note": "Speed-limited, approximate"
+        },
+        "mpg": {
+          "combined": 21,
+          "unit": "mpg",
+          "kind": "epa",
+          "src": "https://www.fueleconomy.gov/",
+          "note": "EPA combined, 2020"
+        }
+      }
+    ],
+    "predecessor": {
+      "name": "Ford Edge (first generation)",
+      "id": "ford-edge-1st-gen"
+    },
+    "successor": null,
+    "alongside": [
+      {
+        "name": "Ford Escape (fourth generation)",
+        "id": "ford-escape-4th-gen"
+      }
+    ],
+    "quick": "A decade of quiet competence, a 335-hp ST party trick — and then Ford killed its 2-row crossover at 2 million total sold, leaving the segment to everyone else.",
+    "story": [
+      "The 2015 redesign moved the Edge onto stiffer bones and flipped the engine logic: the 2.0 EcoBoost became the standard engine and the V6s the options, topped by the Sport's 315-hp 2.7 twin-turbo from the F-150. The 2019 refresh swapped in an 8-speed and created a small legend — the Edge ST, the first Ford SUV to wear the ST badge, 335 hp and 380 lb-ft of deeply unnecessary, thoroughly enjoyable thrust in a school-run shape. Peak year 2017 moved 142,603; the 2-generation total passed 2 million.",
+      "The ending was pure industrial logic. Ford wound down North American production on April 26, 2024 with no direct successor, freeing Oakville for other plans while the Edge name carried on in China as the Changan-built Edge L. That leaves the used lot as the Edge's last showroom, and it's a good one: a decade of 1-owner, dealer-serviced family crossovers with simple known engines — and a sleeper ST that undercuts every German performance SUV it embarrasses at the light."
+    ],
+    "articles": [],
+    "photo": {
+      "file": "Ford Edge ST 09-21-2019.jpg",
+      "credit": "SsmIntrigue",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pos": ""
+    },
+    "match": [
+      "Ford Edge"
+    ]
   }
 ];

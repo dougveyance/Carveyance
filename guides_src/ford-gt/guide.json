@@ -1,0 +1,267 @@
+{
+ "id": "ford-gt",
+ "make": "Ford",
+ "model": "GT",
+ "years": "2005–2022",
+ "byline": "Isla Moreno",
+ "published": "2026-11-20",
+ "updated": "2026-11-20",
+ "cars": [
+  "ford-gt-2005",
+  "ford-gt-2017"
+ ],
+ "shop": {
+  "list": "collector"
+ },
+ "chapters": [
+  "2005-2006",
+  "2017-2022",
+  "the-market"
+ ],
+ "series": {
+  "h05": {
+   "name": "2005, 5.4 supercharged",
+   "color": "#2E6E96"
+  },
+  "h17": {
+   "name": "2017, EcoBoost V6",
+   "color": "#e05c2a"
+  },
+  "h20": {
+   "name": "2020 update",
+   "color": "#e05c2a"
+  },
+  "h19": {
+   "name": "Mk II, track-only",
+   "color": "#9aa5b1"
+  },
+  "a05": {
+   "name": "2005, Car and Driver",
+   "color": "#2E6E96"
+  },
+  "a05m": {
+   "name": "2005, MotorWeek",
+   "color": "#9aa5b1"
+  },
+  "a17": {
+   "name": "2017, Car and Driver",
+   "color": "#e05c2a"
+  },
+  "b05": {
+   "name": "2005–06 GT",
+   "color": "#2E6E96"
+  },
+  "b06": {
+   "name": "Heritage (2006)",
+   "color": "#1d7f6e"
+  },
+  "b17": {
+   "name": "2017–22 GT",
+   "color": "#e05c2a"
+  },
+  "b19": {
+   "name": "Mk II",
+   "color": "#9aa5b1"
+  },
+  "b22": {
+   "name": "Mk IV",
+   "color": "#9aa5b1"
+  },
+  "p05": {
+   "name": "2005 GT",
+   "color": "#2E6E96"
+  },
+  "p17": {
+   "name": "2017 GT",
+   "color": "#e05c2a"
+  },
+  "p22": {
+   "name": "2022 GT",
+   "color": "#e05c2a"
+  }
+ },
+ "charts": {
+  "power": {
+   "n": 1,
+   "title": "2 answers to the same question",
+   "sub": "Horsepower. A supercharged V8, then a race-bred V6 that made more.",
+   "source": "Ford specifications",
+   "bars": [
+    [
+     "h05",
+     550,
+     "550 hp"
+    ],
+    [
+     "h17",
+     647,
+     "647 hp"
+    ],
+    [
+     "h20",
+     660,
+     "660 hp"
+    ],
+    [
+     "h19",
+     700,
+     "700 hp"
+    ]
+   ]
+  },
+  "accel": {
+   "n": 2,
+   "title": "0–60 mph, as tested",
+   "sub": "Seconds; every bar a verified instrumented test.",
+   "source": "Car and Driver and MotorWeek, via verified test archives",
+   "bars": [
+    [
+     "a05m",
+     3.7,
+     "3.7 sec"
+    ],
+    [
+     "a05",
+     3.3,
+     "3.3 sec"
+    ],
+    [
+     "a17",
+     3.0,
+     "3.0 sec"
+    ]
+   ]
+  },
+  "built": {
+   "n": 3,
+   "title": "How rare is rare",
+   "sub": "Production counts. The 2017 car is 3 times scarcer than the 2005.",
+   "source": "Ford production figures",
+   "bars": [
+    [
+     "b05",
+     4038,
+     "4,038"
+    ],
+    [
+     "b17",
+     1350,
+     "1,350"
+    ],
+    [
+     "b06",
+     346,
+     "346"
+    ],
+    [
+     "b22",
+     67,
+     "67"
+    ],
+    [
+     "b19",
+     45,
+     "45"
+    ]
+   ]
+  },
+  "price": {
+   "n": 4,
+   "title": "What they cost new, in 2026 dollars",
+   "sub": "Base stickers, inflation-adjusted. Originals: $139,995 (2005), $450,000 (2017), $500,000 (2022).",
+   "source": "Ford pricing, adjusted by US CPI",
+   "bars": [
+    [
+     "p05",
+     241100,
+     "$241,100"
+    ],
+    [
+     "p17",
+     617000,
+     "$617,000"
+    ],
+    [
+     "p22",
+     574600,
+     "$574,600"
+    ]
+   ]
+  }
+ },
+ "photos": {
+  "hub-hero": {
+   "credit": "Mr.choppers",
+   "page": "https://commons.wikimedia.org/wiki/File:2018_Ford_GT_in_custom_Gulf_livery_at_Greenwich_2021.jpg",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": "A 2018 Ford GT in Gulf livery, light blue with an orange stripe and number 9"
+  },
+  "ch1-hero": {
+   "credit": "MrWalkr",
+   "page": "https://commons.wikimedia.org/wiki/File:2005_Ford_GT_GT101.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": "A red 2005 Ford GT with white stripes, front three-quarter view"
+  },
+  "ch2-hero": {
+   "credit": "David Merrett",
+   "page": "https://commons.wikimedia.org/wiki/File:Ford_Chip_Ganassi_Team_USA%27s_Ford_GT_EcoBoost_Driven_by_Joey_Hand,_Dirk_Muller_and_Sebastien_Bourdais_(30620681652).jpg",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "alt": "The number 68 Ford GT race car on track at Le Mans"
+  },
+  "ch3-hero": {
+   "credit": "Latvian98",
+   "page": "https://commons.wikimedia.org/wiki/File:2017_Ford_GT_front.JPG",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": "A liquid blue 2017 Ford GT on an auto show stand"
+  }
+ },
+ "find": {
+  "picker": [
+   {
+    "model": "GT",
+    "years": "2005–2006",
+    "ch": "2005-2006"
+   },
+   {
+    "model": "GT",
+    "years": "2017–2022",
+    "ch": "2017-2022"
+   }
+  ],
+  "terms": {
+   "": [
+    "Ford GT",
+    "GT40",
+    "supercar",
+    "American supercar",
+    "Le Mans"
+   ],
+   "2005-2006": [
+    "2005 GT",
+    "supercharged",
+    "Heritage",
+    "Gulf livery",
+    "centennial"
+   ],
+   "2017-2022": [
+    "2017 GT",
+    "EcoBoost",
+    "Le Mans 2016",
+    "Multimatic",
+    "Mk II",
+    "Mk IV",
+    "Liquid Carbon"
+   ],
+   "the-market": [
+    "GT values",
+    "GT auction",
+    "collector",
+    "investment car"
+   ]
+  }
+ }
+}

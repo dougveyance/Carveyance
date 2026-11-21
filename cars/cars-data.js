@@ -32476,5 +32476,145 @@ const CARS_INDEX = [
    "pos": "",
    "fit": ""
   }
+ },
+ {
+  "id": "ford-gt-2005",
+  "name": "Ford GT (2005–2006)",
+  "aka": [
+   "GT40 successor",
+   "Heritage"
+  ],
+  "make": "Ford",
+  "maker": "Ford (Wixom, Michigan; bodies by Mayflower, Norwalk, Ohio)",
+  "years": "2005–2006",
+  "start": 2005,
+  "body": "Mid-engine 2-seat supercar — the GT40 reborn at 10/10ths scale for Ford's centennial",
+  "engine": "5.4 supercharged V8",
+  "country": "United States",
+  "quick": "Ford's 100th-birthday present to itself: the GT40 reborn with 550 supercharged horses, a $139,995 sticker — and the rare supercar that never depreciated a single day.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive",
+  "gearbox": "Ricardo 6-speed manual",
+  "specsFor": "2005 Ford GT",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 550,
+  "kg": 1581,
+  "kgNote": "Curb weight",
+  "lbs": 3485,
+  "z60": {
+   "sec": 3.3,
+   "kind": "tested",
+   "note": "Car and Driver's test; MotorWeek saw 3.7"
+  },
+  "top": {
+   "mph": 205,
+   "kind": "tested",
+   "note": "Verified in period testing"
+  },
+  "mpg": {
+   "combined": 14,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "12 city, 19 highway"
+  },
+  "built": {
+   "count": 4038,
+   "approx": null,
+   "note": "2004–2006 production; 3,221 sold in the US"
+  },
+  "alongside": [],
+  "prev": {
+   "id": null,
+   "name": "Ford GT40"
+  },
+  "next": {
+   "id": "ford-gt-2017",
+   "name": "Ford GT (2017–2022)"
+  },
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/2005_Ford_GT_7.jpg/960px-2005_Ford_GT_7.jpg",
+   "pos": "",
+   "fit": ""
+  }
+ },
+ {
+  "id": "ford-gt-2017",
+  "name": "Ford GT (2017–2022)",
+  "aka": [
+   "GT Mk II",
+   "GT Mk IV",
+   "Liquid Carbon",
+   "LM Edition"
+  ],
+  "make": "Ford",
+  "maker": "Multimatic (Markham, Ontario, Canada)",
+  "years": "2017–2022",
+  "start": 2017,
+  "body": "Carbon-fiber monocoque supercar built around a Le Mans race car — flying buttresses, active aero, and an application to buy one",
+  "engine": "3.5 twin-turbo EcoBoost V6",
+  "country": "Canada",
+  "quick": "Built to win Le Mans 50 years after the GT40 did — and it did, in 2016 — then sold as 1,350 road cars you had to apply for, at $450,000 a seat.",
+  "articles": [],
+  "latest": "",
+  "ownDates": [],
+  "dates": [],
+  "drive": "Rear-wheel drive",
+  "gearbox": "Getrag 7-speed dual-clutch",
+  "specsFor": "2017 Ford GT",
+  "guide": null,
+  "shop": {
+   "list": "collector"
+  },
+  "hp": 647,
+  "kg": 1521,
+  "kgNote": "Curb weight as tested; Ford's dry figure ran about 300 lb lighter",
+  "lbs": 3354,
+  "z60": {
+   "sec": 3.0,
+   "kind": "tested",
+   "note": "Car and Driver — with a 10.8-second quarter mile and 1.11 g on the skidpad"
+  },
+  "top": {
+   "mph": 216,
+   "kind": "claimed",
+   "note": "Ford's figure"
+  },
+  "mpg": {
+   "combined": 14,
+   "city": null,
+   "hwy": null,
+   "unit": "mpg",
+   "kind": "epa",
+   "note": "11 city, 18 highway"
+  },
+  "built": {
+   "count": 1350,
+   "approx": null,
+   "note": "Total 2017–2022 production"
+  },
+  "alongside": [
+   {
+    "id": "ford-mustang-7th-gen",
+    "name": "Ford Mustang (seventh generation)"
+   }
+  ],
+  "prev": {
+   "id": "ford-gt-2005",
+   "name": "Ford GT (2005–2006)"
+  },
+  "next": null,
+  "photo": {
+   "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/2017_Ford_GT_(94302).jpg/960px-2017_Ford_GT_(94302).jpg",
+   "pos": "",
+   "fit": ""
+  }
  }
 ];

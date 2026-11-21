@@ -8749,7 +8749,11 @@ const CARS_INDEX = [
    "id": "toyota-corolla-e90",
    "name": "Toyota Corolla (E90)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-corolla-e80.jpg?v=7a79a796",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-corolla-e90",
@@ -11317,7 +11321,11 @@ const CARS_INDEX = [
    "id": "toyota-land-cruiser-j80",
    "name": "Toyota Land Cruiser (80 Series)"
   },
-  "photo": null
+  "photo": {
+   "card": "/assets/images/cars/toyota-land-cruiser-j60.jpg?v=fbab4226",
+   "pos": "",
+   "fit": ""
+  }
  },
  {
   "id": "toyota-land-cruiser-j80",

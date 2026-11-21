@@ -10688,7 +10688,10 @@ const CARS = [
       "The twin-cam 16-valve 1.6-liter added in 1983 turned the rear-drive coupes into something close to sports cars. In America they were the SR-5 and GT-S, the cars the world now knows as the AE86, which became a star of drifting and club racing. The same engine went into the front-drive FX16 hatchback, and Car and Driver ran a 1987 FX16 GT-S to 60 mph in 9.8 seconds."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "An AE86 Sprinter Trueno at the 2026 LA Auto Show, November 20, 2026"
+    },
     "match": [
       "Toyota Corolla"
     ]
@@ -14601,7 +14604,10 @@ const CARS = [
       "The FJ62G VX allowed the Land Cruiser to be sold in Japan as a passenger car. MotorWeek timed a 1989 FJ62 to 60 mph in 14.2 seconds. Japanese production ended in 1990, though Toyota's plant in Cumaná, Venezuela, kept building 60s for its home market until 1992."
     ],
     "articles": [],
-    "photo": null,
+    "photo": {
+      "credit": "Carveyance",
+      "caption": "A Land Cruiser J60 at the 2026 LA Auto Show, November 20, 2026"
+    },
     "match": [
       "Toyota Land Cruiser"
     ]
